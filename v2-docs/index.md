@@ -104,6 +104,13 @@
 <div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Kubernetes & Orchestration</div>
+  <div class="trending-card__title"><a href="https://www.apptio.com/products/kubecost/?src=kc-com">Kubecost 🌟</a></div>
+  <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Kubecost is the industry standard for Kubernetes FinOps and granular multi-cluster cost allocation.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview">Claude Code CLI</a></div>
   <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
@@ -114,14 +121,7 @@
   <div class="trending-card__category">OpenShift / Red Hat</div>
   <div class="trending-card__title"><a href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.22">OpenShift 4 documentation 🌟</a></div>
   <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Serves as the definitive operational and architectural reference for enterprise OpenShift Container Platform deployments.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
-  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane for managing multi-cloud infrastructure declaratively.</div>
+  <div class="trending-card__why">Provides the definitive, authoritative reference for architecting, securing, and operating enterprise OpenShift 4 clusters in production.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -129,6 +129,13 @@
   <div class="trending-card__title"><a href="https://github.com/metalbear-co/mirrord">metalbear-co/mirrord</a></div>
   <div class="trending-card__meta">2026-06-14 · 5.1k★</div>
   <div class="trending-card__why">Revolutionizes cloud-native development workflows by letting engineers mirror live Kubernetes traffic to local processes without redeployments.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://nubenetes.com/iac">IaC Infrastructure as Code</a></div>
+  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Infrastructure as Code is foundational to cloud-native operations, defining how modern engineering teams manage declarative infrastructure lifecycles.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -158,7 +165,7 @@
   <div class="trending-card__meta">2026-06-14</div>
   <div class="trending-card__why">OpenShift is the enterprise benchmark for turnkey private cloud and hybrid Kubernetes application platforms.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Linux & System Foundations</div>
   <div class="trending-card__title"><a href="https://github.com/bpftrace/bpftrace">bpftrace</a></div>
@@ -185,13 +192,6 @@
   <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
   <div class="trending-card__meta">2026-06-13 · 20.8k★</div>
   <div class="trending-card__why">It is the foundational CNCF-graduated container runtime powering modern Kubernetes clusters and production container workloads.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">DevOps & Culture</div>
-  <div class="trending-card__title"><a href="https://github.com/backstage/backstage">backstage</a></div>
-  <div class="trending-card__meta">2026-06-13 · 33.6k★</div>
-  <div class="trending-card__why">Backstage is the industry-standard framework for building Internal Developer Portals, driving the modern platform engineering and developer experience paradigm.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -231,9 +231,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a></div>
-  <div class="trending-card__meta">2026-06-14 · 3.8k★</div>
-  <div class="trending-card__why">It serves as the essential upstream link enabling Kubernetes to schedule and manage hardware-accelerated AI/ML GPU workloads.</div>
+  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
+  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Crossplane revolutionizes cloud operations by converting Kubernetes into a universal control plane for multi-cloud infrastructure management.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -251,12 +251,19 @@
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://github.com/backstage/backstage">backstage</a></div>
+  <div class="trending-card__meta">2026-06-13 · 33.6k★</div>
+  <div class="trending-card__why">Backstage is the CNCF standard framework for building internal developer portals, centralizing platform engineering and service ownership.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Containers & Runtime</div>
   <div class="trending-card__title"><a href="https://github.com/opencontainers/runc">runc</a></div>
   <div class="trending-card__meta">2026-06-13 · 13.3k★</div>
   <div class="trending-card__why">The canonical OCI runtime specification implementation that directly handles low-level Linux container execution.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Observability, SRE & Testing</div>
   <div class="trending-card__title"><a href="https://github.com/open-telemetry/opentelemetry-collector">OpenTelemetry Collector</a></div>
@@ -297,13 +304,6 @@
   <div class="trending-card__title"><a href="https://argoproj.github.io/argo-cd">Argo CD</a></div>
   <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">Argo CD represents the leading industry standard for declarative GitOps continuous delivery across Kubernetes clusters.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Linux & System Foundations</div>
-  <div class="trending-card__title"><a href="https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2">World domination with cgroups part 8: down and dirty with cgroup v2</a></div>
-  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Cgroup v2 unified resource hierarchies and PSI are foundational mechanisms underpinning modern container resource isolation and Kubernetes node stability.</div>
 </div>
 </div>
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>

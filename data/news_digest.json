@@ -2,48 +2,21 @@
   "3_months": {
     "Kubernetes & Orchestration": [
       {
+        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
+        "title": "Kubecost 🌟",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Kubecost is the industry standard for Kubernetes FinOps and granular multi-cluster cost allocation.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
         "url": "https://nubenetes.com/crossplane",
         "title": "Crossplane",
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane for managing multi-cloud infrastructure declaratively.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/NVIDIA/k8s-device-plugin",
-        "title": "NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "It serves as the essential hardware enablement plugin required to schedule and run GPU-accelerated AI and machine learning workloads on Kubernetes.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler",
-        "title": "github.com/kubernetes: **Kubernetes Cluster Autoscaler**",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Cluster Autoscaler is the foundational core component enabling automated, demand-driven node scaling across enterprise cloud infrastructures.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/gravitational/teleport",
-        "title": "Teleport 🌟",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Teleport is the industry benchmark for zero-trust infrastructure access, providing identity-aware auditing and secure access to multi-cluster Kubernetes environments.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
-        "title": "Kubecost 🌟",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Kubecost is the standard enterprise solution for real-time FinOps observability and granular multi-cluster cost allocation.",
+        "why": "Crossplane drives a paradigm shift by transforming Kubernetes into a universal control plane for managing any cloud infrastructure.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -52,16 +25,16 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Azure Workload Identity provides the modern, secure standard for secretless OIDC authentication from Kubernetes pods to cloud services.",
+        "why": "Azure Workload Identity provides the enterprise-standard, passwordless OIDC federation model for securing workload access to cloud resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/aws-controllers-k8s/community",
-        "title": "AWS Controllers for Kubernetes (ACK) 🌟",
-        "date": "2026-06-13",
+        "url": "https://github.com/NVIDIA/k8s-device-plugin",
+        "title": "NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes",
+        "date": "2026-06-14",
         "stars": 5,
-        "impact": "high",
-        "why": "ACK lets platform teams orchestrate native AWS resources directly through Kubernetes custom resources and reconciliation loops.",
+        "impact": "critical",
+        "why": "NVIDIA's device plugin is the essential foundational component enabling hardware-accelerated AI and machine learning workloads on Kubernetes.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -70,16 +43,25 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Kargo advances the GitOps paradigm by coordinating progressive application promotion stages declaratively across environments.",
+        "why": "Kargo modernizes continuous delivery by providing a dedicated, GitOps-native multi-environment promotion engine.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/helmfile/helmfile",
-        "title": "github.com/helmfile/helmfile",
-        "date": "2026-06-14",
+        "url": "https://github.com/gravitational/teleport",
+        "title": "Teleport 🌟",
+        "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Helmfile provides the leading declarative management layer for orchestrating complex, multi-chart deployments across distributed environments.",
+        "why": "Teleport establishes zero-trust, identity-governed access and auditing for multi-cloud Kubernetes clusters and infrastructure.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/aws-controllers-k8s/community",
+        "title": "AWS Controllers for Kubernetes (ACK) 🌟",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "AWS Controllers for Kubernetes (ACK) standardizes declarative cloud infrastructure management natively via Kubernetes custom resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -88,7 +70,25 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "K9s is an indispensable terminal-based operational tool widely used across the industry for rapid cluster observation and debugging.",
+        "why": "K9s is the ubiquitous terminal-based management tool that accelerates daily Kubernetes operations, observability, and debugging.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler",
+        "title": "github.com/kubernetes: **Kubernetes Cluster Autoscaler**",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Cluster Autoscaler remains the foundational core component responsible for dynamically scaling infrastructure capacity based on workload demands.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler",
+        "title": "VPA: Vertical Pod Autoscaler",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Vertical Pod Autoscaler automates workload right-sizing by dynamically adjusting container resource requests and limits to maximize cluster efficiency.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -1295,7 +1295,16 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "Backstage is the industry-standard framework for building Internal Developer Portals, driving the modern platform engineering and developer experience paradigm.",
+        "why": "Backstage serves as the industry standard open-source framework for building internal developer portals and scaling platform engineering culture.",
+        "category": "DevOps & Culture"
+      },
+      {
+        "url": "https://nubenetes.com/iac",
+        "title": "IaC Infrastructure as Code",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Infrastructure as Code is foundational to cloud-native operations, defining how modern engineering teams manage declarative infrastructure lifecycles.",
         "category": "DevOps & Culture"
       },
       {
@@ -1304,7 +1313,16 @@
         "date": "2026-06-10",
         "stars": 5,
         "impact": "high",
-        "why": "Devtron provides a Kubernetes-native AppOps and GitOps orchestration platform that bridges CI/CD pipelines with self-service developer operations.",
+        "why": "Devtron delivers a comprehensive open-source AppOps and GitOps orchestration platform tailored specifically for Kubernetes.",
+        "category": "DevOps & Culture"
+      },
+      {
+        "url": "https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release",
+        "title": "Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "The stable release of Azure MCP Server 2.0 establishes enterprise-grade agentic cloud automation workflows using the Model Context Protocol.",
         "category": "DevOps & Culture"
       },
       {
@@ -1313,16 +1331,7 @@
         "date": "2026-06-12",
         "stars": 5,
         "impact": "high",
-        "why": "The Azure DevOps MCP server establishes an emerging standard for integrating autonomous AI agents directly into enterprise DevOps pipelines and work tracking.",
-        "category": "DevOps & Culture"
-      },
-      {
-        "url": "https://nubenetes.com/iac",
-        "title": "IaC Infrastructure as Code",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides an essential architectural framework and philosophy for treating cloud infrastructure and cluster state as versioned code.",
+        "why": "Enables seamless AI agent integration into enterprise DevOps pipelines and work item orchestration.",
         "category": "DevOps & Culture"
       },
       {
@@ -1331,7 +1340,25 @@
         "date": "2026-06-14",
         "stars": 4,
         "impact": "high",
-        "why": "Explains the critical operational shift from traditional DevOps to PlatformOps, treating developer tooling and cloud platforms as internal products.",
+        "why": "Provides essential architectural clarity on PlatformOps as the operational evolution of platform engineering.",
+        "category": "DevOps & Culture"
+      },
+      {
+        "url": "https://blogs.vmware.com/cloud-foundation",
+        "title": "blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟",
+        "date": "2026-06-14",
+        "stars": 4,
+        "impact": "high",
+        "why": "Directly tackles the organizational and cultural transformations, psychological safety, and autonomy needed for high-performing DevOps teams.",
+        "category": "DevOps & Culture"
+      },
+      {
+        "url": "https://vadimkravcenko.com/shorts/promotion-based-development",
+        "title": "Promotion-Based Development: A Fast Track to Mediocrity",
+        "date": "2026-06-18",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Offers critical cultural analysis on how engineering incentive structures shape system complexity and long-term architectural health.",
         "category": "DevOps & Culture"
       },
       {
@@ -1339,26 +1366,8 @@
         "title": "Introducing Cursor in Jira - Inside Atlassian",
         "date": "2026-06-02",
         "stars": 4,
-        "impact": "high",
-        "why": "Represents the shift toward agentic AI collaboration in agile planning and delivery workflows by natively connecting Jira tasks to Cursor.",
-        "category": "DevOps & Culture"
-      },
-      {
-        "url": "https://www.puppet.com/resources/state-of-devops-report",
-        "title": "puppet.com: The 2021 State of DevOps Report is here! 🌟",
-        "date": "2026-06-18",
-        "stars": 4,
-        "impact": "high",
-        "why": "A foundational industry study documenting the quantifiable impact of platform engineering and self-service culture on organizational maturity.",
-        "category": "DevOps & Culture"
-      },
-      {
-        "url": "https://nubenetes.com/devops-tools",
-        "title": "DevOps Tools",
-        "date": "2026-06-14",
-        "stars": 4,
-        "impact": "high",
-        "why": "Offers an extensive ecosystem reference mapping the continuous delivery, artifact management, and observability toolchains used in cloud-native production.",
+        "impact": "medium",
+        "why": "Demonstrates the cultural and operational shift toward assigning development and tracking tasks directly to autonomous coding agents.",
         "category": "DevOps & Culture"
       },
       {
@@ -1367,16 +1376,7 @@
         "date": "2026-06-14",
         "stars": 4,
         "impact": "medium",
-        "why": "Explores the strategic evolution toward NoOps, abstracting infrastructure operational overhead via automated self-healing platforms.",
-        "category": "DevOps & Culture"
-      },
-      {
-        "url": "https://blogs.vmware.com/cloud-foundation",
-        "title": "blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟",
-        "date": "2026-06-14",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Highlights the essential cultural principles of psychological safety, team autonomy, and decentralized decision-making necessary for DevOps success.",
+        "why": "Analyzes the operational spectrum toward serverless automation and autonomous self-healing platform design.",
         "category": "DevOps & Culture"
       }
     ],
@@ -1479,7 +1479,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "OpenTofu 1.12 solves foundational modular limitations of upstream Terraform, marking a major milestone for the open-source IaC ecosystem.",
+        "why": "OpenTofu 1.12 introduces key modular capabilities that resolve long-standing limitations in upstream Terraform, accelerating the shift toward open-source IaC alternatives.",
         "category": "Infrastructure as Code"
       },
       {
@@ -1488,7 +1488,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "Terraform 1.15 introduces dynamic module sources and variable deprecation, modernizing enterprise module composition and dependency management.",
+        "why": "Terraform 1.15 adds native dynamic module sources and variable deprecation, fundamentally modernizing modular IaC architecture and dependency management.",
         "category": "Infrastructure as Code"
       },
       {
@@ -1496,8 +1496,8 @@
         "title": "The Agentic Infrastructure Era | Pulumi Releases",
         "date": "2026-06-02",
         "stars": 4,
-        "impact": "high",
-        "why": "Pioneers the agentic infrastructure era by integrating autonomous AI agents and programmatic workflows into cloud resource provisioning.",
+        "impact": "critical",
+        "why": "Pulumi's Agentic Infrastructure platform marks a major paradigm shift toward autonomous, LLM-driven cloud provisioning and self-healing platform operations.",
         "category": "Infrastructure as Code"
       },
       {
@@ -1506,16 +1506,16 @@
         "date": "2026-05-29",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as the industry-standard, production-ready module for deploying enterprise-grade Amazon EKS clusters via Terraform.",
+        "why": "This module represents the de facto enterprise standard for orchestrating production-grade Amazon EKS clusters declaratively with Terraform.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://github.com/infracost/infracost",
-        "title": "Infracost 🌟",
-        "date": "2026-06-03",
-        "stars": 5,
+        "url": "https://github.com/ansible/awx-operator",
+        "title": "AWX Operator",
+        "date": "2026-06-10",
+        "stars": 4,
         "impact": "high",
-        "why": "Essential FinOps tool that shifts cost estimation left by analyzing Terraform pull requests against real-time cloud pricing APIs.",
+        "why": "The AWX Operator bridges configuration management and cloud native by providing native Kubernetes CRDs to automate Ansible control plane lifecycles.",
         "category": "Infrastructure as Code"
       },
       {
@@ -1524,7 +1524,16 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "The premier compiler-aware linter for Terraform that enforces security, consistency, and syntax governance in enterprise CI/CD pipelines.",
+        "why": "TFLint is an essential linting and static analysis tool across enterprise CI/CD pipelines to catch provider-specific errors and enforce structural standards.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/Checkmarx/kics",
+        "title": "==Checkmarx/kics==",
+        "date": "2026-06-10",
+        "stars": 3,
+        "impact": "high",
+        "why": "KICS delivers multi-framework static security analysis across Terraform, Kubernetes manifests, and Helm charts to shift cloud-native compliance left.",
         "category": "Infrastructure as Code"
       },
       {
@@ -1533,7 +1542,16 @@
         "date": "2026-03-05",
         "stars": 5,
         "impact": "high",
-        "why": "Provides a unified GitOps framework combining Terraform infrastructure provisioning with cloud-native Kubernetes cluster management.",
+        "why": "Kubestack integrates Terraform with GitOps delivery patterns to streamline reliable Kubernetes platform bootstrapping and application infrastructure orchestration.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/k3s-io/k3s-ansible",
+        "title": "github.com/k3s-io/k3s-ansible 🌟",
+        "date": "2026-06-08",
+        "stars": 4,
+        "impact": "high",
+        "why": "The official k3s-ansible project offers an automated, reliable standard for orchestrating lightweight Kubernetes clusters across hybrid and edge environments.",
         "category": "Infrastructure as Code"
       },
       {
@@ -1542,25 +1560,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "medium",
-        "why": "Addresses a critical production operational challenge by detailing why standard plan runs fail to detect complex cloud infrastructure drift.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/ansible/awx-operator",
-        "title": "AWX Operator",
-        "date": "2026-06-10",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Brings enterprise Ansible automation natively onto Kubernetes platforms using a CRD-driven Operator model.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/infiniumtek/terraform-review-agent",
-        "title": "terraform-review-agent",
-        "date": "2026-05-21",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Demonstrates modern agentic DevOps practices by applying cognitive AI agents to automatically review and validate Terraform changes.",
+        "why": "This operational deep-dive clarifies critical limitations of standard plan workflows and offers production strategies for proactive infrastructure drift reconciliation.",
         "category": "Infrastructure as Code"
       }
     ],
@@ -1939,7 +1939,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as the definitive operational and architectural reference for enterprise OpenShift Container Platform deployments.",
+        "why": "Provides the definitive, authoritative reference for architecting, securing, and operating enterprise OpenShift 4 clusters in production.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -1948,7 +1948,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Core provisioning engine that automates infrastructure installation and ignition bootstrapping across hybrid cloud environments.",
+        "why": "Serves as the core deployment engine driving automated, reproducible platform provisioning across multi-cloud and bare-metal targets.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -1957,43 +1957,7 @@
         "date": "2026-06-12",
         "stars": 5,
         "impact": "critical",
-        "why": "Revolutionizes OpenShift cluster density and provisioning speed by decoupling and running hosted control planes as containerized workloads.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/operator-framework/operator-lifecycle-manager",
-        "title": "Red Hat OLM",
-        "date": "2026-06-11",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Foundational Kubernetes framework that standardizes packaging, installation, and automated lifecycle management for enterprise operators.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/aws",
-        "title": "Amazon Red Hat OpenShift",
-        "date": "2026-06-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "Represents the premier jointly engineered, turnkey managed OpenShift service accelerating enterprise cloud migrations on AWS.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/openshift/machine-api-operator/tree/main",
-        "title": "Machine API",
-        "date": "2026-06-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Implements declarative infrastructure and automated node lifecycle management directly via Kubernetes custom resources.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/redhat-cop/gitops-catalog",
-        "title": "==github.com/redhat-cop/gitops-catalog==",
-        "date": "2026-06-08",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides an authoritative collection of production-grade Argo CD blueprints and GitOps configurations for enterprise clusters.",
+        "why": "Introduces a paradigm shift by running hosted control planes as containerized workloads to dramatically lower infrastructure overhead and operational cost.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -2002,16 +1966,43 @@
         "date": "2026-06-12",
         "stars": 5,
         "impact": "high",
-        "why": "The foundational upstream repository behind OKD and the entire OpenShift container platform ecosystem.",
+        "why": "Represents the primary upstream open-source codebase powering OKD and all downstream enterprise OpenShift distribution capabilities.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://github.com/openshift/hive",
-        "title": "github.com/openshift/hive",
-        "date": "2026-06-08",
-        "stars": 3,
+        "url": "https://github.com/operator-framework/operator-lifecycle-manager",
+        "title": "Red Hat OLM",
+        "date": "2026-06-11",
+        "stars": 5,
         "impact": "high",
-        "why": "Provides centralized multi-cluster provisioning and declarative operational lifecycle management across large-scale cluster fleets.",
+        "why": "Acts as the foundational management layer for installing, upgrading, and governing the lifecycle of Kubernetes Operators across enterprise environments.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/openshift/machine-api-operator/tree/main",
+        "title": "Machine API",
+        "date": "2026-06-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Implements declarative node lifecycle management and automated cluster scaling based on upstream Cluster API specifications.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/redhat-cop/gitops-catalog",
+        "title": "==github.com/redhat-cop/gitops-catalog==",
+        "date": "2026-06-08",
+        "stars": 5,
+        "impact": "high",
+        "why": "Offers an enterprise-grade library of reusable, community-curated Argo CD and GitOps blueprints for streamlined cluster configuration.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/aws",
+        "title": "Amazon Red Hat OpenShift",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers a fully managed, turnkey enterprise OpenShift platform directly integrated with native AWS infrastructure and billing.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -2020,7 +2011,16 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "medium",
-        "why": "Delivers an enterprise-ready Knative integration for seamless scale-to-zero and event-driven workloads on OpenShift.",
+        "why": "Provides production-hardened Knative integration for seamless event-driven workflows and scale-to-zero serverless applications.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/openshift/hive",
+        "title": "github.com/openshift/hive",
+        "date": "2026-06-08",
+        "stars": 3,
+        "impact": "high",
+        "why": "Enables centralized, declarative multi-cluster fleet provisioning and lifecycle operations through native Kubernetes Custom Resources.",
         "category": "OpenShift / Red Hat"
       }
     ],
@@ -2192,7 +2192,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Crossplane revolutionizes cloud operations by transforming Kubernetes into a universal control plane for multi-cloud infrastructure.",
+        "why": "Crossplane revolutionizes cloud operations by converting Kubernetes into a universal control plane for multi-cloud infrastructure management.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2201,7 +2201,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "It serves as the essential upstream link enabling Kubernetes to schedule and manage hardware-accelerated AI/ML GPU workloads.",
+        "why": "The NVIDIA device plugin is the foundational component enabling hardware-accelerated AI and machine learning workloads across Kubernetes clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2210,7 +2210,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "The Cluster Autoscaler is the foundational core component driving dynamic, demand-based node elasticity across major cloud providers.",
+        "why": "Cluster Autoscaler is a core Kubernetes component essential for dynamic infrastructure elasticity and cost-effective node provisioning.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2219,7 +2219,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Kubecost is the enterprise standard for real-time FinOps, granular resource cost allocation, and multi-cluster spend observability.",
+        "why": "Kubecost is the de facto industry standard for Kubernetes FinOps, providing granular real-time cost allocation across multi-cluster environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2228,7 +2228,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Azure Workload Identity provides the modern, passwordless OIDC standard for federating Kubernetes ServiceAccounts with cloud IAM.",
+        "why": "Azure Workload Identity represents the modern enterprise standard for secure, passwordless authentication from Kubernetes pods to cloud resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2237,7 +2237,16 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "ACK lets platform teams manage native AWS cloud services declaratively via Kubernetes custom resource definitions.",
+        "why": "AWS Controllers for Kubernetes (ACK) enables teams to natively define and manage managed cloud resources using standard Kubernetes CRDs.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/external-dns",
+        "title": "external-dns",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "external-dns is an indispensable Kubernetes SIG project that dynamically configures external DNS providers directly from Services and Ingresses.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2246,7 +2255,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "VPA optimizes cluster efficiency by autonomously right-sizing container CPU and memory requests based on real-time utilization.",
+        "why": "Vertical Pod Autoscaler automates pod resource rightsizing to prevent cluster resource waste and ensure workload reliability.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2255,7 +2264,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Helmfile provides the leading declarative, GitOps-ready orchestration layer for multi-chart, multi-environment application releases.",
+        "why": "Helmfile provides declarative, multi-environment lifecycle orchestration for managing complex Helm chart deployments at scale.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2263,17 +2272,8 @@
         "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "medium",
-        "why": "K9s is the industry-standard terminal interface drastically streamlining real-time cluster debugging, navigation, and pod administration.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/external-dns",
-        "title": "external-dns",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "medium",
-        "why": "external-dns is a critical Kubernetes-SIG utility that automates dynamic DNS record provisioning from Ingress and Service resources.",
+        "impact": "high",
+        "why": "K9s is the ubiquitous terminal UI that drastically speeds up daily cluster diagnostics, monitoring, and interactive troubleshooting.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -6831,9 +6831,9 @@
   "_meta": {
     "3_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-09-01T13:00:38.675811+02:00",
-        "entry_hash": "fd61d90a1aaa9ac2",
-        "entry_count": 456,
+        "last_analyzed": "2026-09-01T20:02:51.251894+02:00",
+        "entry_hash": "1ca7c7571611bf59",
+        "entry_count": 455,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -6915,9 +6915,9 @@
         "method": "gemini"
       },
       "DevOps & Culture": {
-        "last_analyzed": "2026-09-01T13:02:20.466889+02:00",
-        "entry_hash": "dea156b07430eb05",
-        "entry_count": 75,
+        "last_analyzed": "2026-09-01T20:03:06.634859+02:00",
+        "entry_hash": "962b1742919ecb03",
+        "entry_count": 74,
         "method": "gemini"
       },
       "Architecture & Microservices": {
@@ -6927,9 +6927,9 @@
         "method": "gemini"
       },
       "Infrastructure as Code": {
-        "last_analyzed": "2026-09-01T13:02:36.057378+02:00",
-        "entry_hash": "6dfee22a4e907a0a",
-        "entry_count": 113,
+        "last_analyzed": "2026-09-01T20:03:25.989065+02:00",
+        "entry_hash": "4f5c258b0a370970",
+        "entry_count": 112,
         "method": "gemini"
       },
       "GCP, OCI & Others": {
@@ -6957,9 +6957,9 @@
         "method": "gemini"
       },
       "OpenShift / Red Hat": {
-        "last_analyzed": "2026-08-29T15:43:17.555650+02:00",
-        "entry_hash": "c4626f3cbad1e308",
-        "entry_count": 144,
+        "last_analyzed": "2026-09-01T20:03:36.043986+02:00",
+        "entry_hash": "58aa6f6a52e17092",
+        "entry_count": 143,
         "method": "gemini"
       },
       "MLOps & Data Science": {
@@ -6983,9 +6983,9 @@
     },
     "6_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-09-01T13:02:50.900048+02:00",
-        "entry_hash": "43182b64338c1c77",
-        "entry_count": 1417,
+        "last_analyzed": "2026-09-01T20:04:17.216533+02:00",
+        "entry_hash": "d7e7c96637d6581d",
+        "entry_count": 1416,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7297,6 +7297,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-09-01T13:06:17.790244+02:00"
+    "last_updated": "2026-09-01T20:04:18.372972+02:00"
   }
 }

@@ -8,6 +8,14 @@
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Kubecost 🌟</title>
+      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
+      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] Kubecost is the industry standard for Kubernetes FinOps and granular multi-cluster cost allocation.</description>
+    </item>
+    <item>
       <title>docs.anthropic.com: Claude Code CLI</title>
       <link>https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</link>
       <guid isPermaLink="true">https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</guid>
@@ -29,7 +37,7 @@
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane for managing multi-cloud infrastructure declaratively.</description>
+      <description>[CRITICAL] Crossplane drives a paradigm shift by transforming Kubernetes into a universal control plane for managing any cloud infrastructure.</description>
     </item>
     <item>
       <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
@@ -37,7 +45,7 @@
       <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It serves as the essential hardware enablement plugin required to schedule and run GPU-accelerated AI and machine learning workloads on Kubernetes.</description>
+      <description>[CRITICAL] NVIDIA's device plugin is the essential foundational component enabling hardware-accelerated AI and machine learning workloads on Kubernetes.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -69,15 +77,7 @@
       <guid isPermaLink="true">https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Cluster Autoscaler is the foundational core component enabling automated, demand-driven node scaling across enterprise cloud infrastructures.</description>
-    </item>
-    <item>
-      <title>Teleport 🌟</title>
-      <link>https://github.com/gravitational/teleport</link>
-      <guid isPermaLink="true">https://github.com/gravitational/teleport</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Teleport is the industry benchmark for zero-trust infrastructure access, providing identity-aware auditing and secure access to multi-cluster Kubernetes environments.</description>
+      <description>[CRITICAL] Cluster Autoscaler remains the foundational core component responsible for dynamically scaling infrastructure capacity based on workload demands.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
