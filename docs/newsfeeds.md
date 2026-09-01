@@ -44,6 +44,7 @@
 - [feedly.com](https://feedly.com)
 - [==nativecloud.dev== 🌟](https://nativecloud.dev)
 - [Kube Events](https://kube.events)
+  - **(2026)** [Your guide to GitHub Universe 2026 is here: The schedule just launched!](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched) 🌟 - The official session catalog and schedule release for GitHub Universe 2026.
 
 ## Stack Overflow Collectives
 
