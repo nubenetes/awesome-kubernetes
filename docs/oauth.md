@@ -28,3 +28,4 @@
 
 ## Implementations
   - **(2026)** [Unlocking the Cloudflare app ecosystem with OAuth for all [1.1.1]](https://blog.cloudflare.com/oauth-for-all) 🌟 - Cloudflare launches self-managed OAuth for all developers, migrating away from Ory Hydra to offer a secure, zero-downtime integration engine.
+  - **(2026)** [From all-or-nothing to task-based OAuth consent](https://blog.cloudflare.com/task-based-oauth-consent) 🌟 - Cloudflare introduces optional scopes for OAuth applications, allowing granular, task-based permission models.
