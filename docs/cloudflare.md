@@ -19,7 +19,14 @@
   - **(2026)** [The White House's post-quantum executive order is an important milestone. It's time to get to work](https://blog.cloudflare.com/post-quantum-eo-2026) 🌟 - An evaluation of US Executive Order 14412 on post-quantum encryption and Cloudflare's tactical migration playbook.
   - **(2026)** [Celebrating 12 years of Project Galileo](https://blog.cloudflare.com/celebrating-12-years-of-project-galileo) 🌟 - Cloudflare celebrates its humanitarian cybersecurity initiative with its first comprehensive annual report on attacks targeting civil society.
   - **(2026)** [Introducing the Cloudflare One stack: agent-powered deployment](https://blog.cloudflare.com/cloudflare-one-stack) 🌟 - Cloudflare introduces a native skill library enabling AI agents to plan, deploy, and govern Zero Trust SASE environments.
+  - **(2026)** [Introducing Adaptive Intelligence: undermining the economics of every bot attack](https://blog.cloudflare.com/introducing-adaptive-intelligence) 🌟 - Cloudflare introduces Adaptive Intelligence, a system that continuously retrains its bot detection models to generate disposable rules based on live traffic.
+  - **(2026)** [BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents](https://blog.cloudflare.com/botbase-for-operators) 🌟 - Cloudflare launches BotBase for Operators, a dedicated dashboard offering status tracking and behavioral modeling for AI agents and bot operators.
+  - **(2026)** [Say it once: introducing Bot Preference Sync](https://blog.cloudflare.com/bot-preference-sync) 🌟 - Bot Preference Sync automatically aligns a site's robots.txt file with the AI bot policies configured in the Cloudflare dashboard.
 
 ## Networking
   - **(2026)** [How we found a bug in the hyper HTTP library](https://blog.cloudflare.com/hyper-bug) 🌟 - Cloudflare engineers isolate and patch an elusive, multi-version connection pooling bug in Rust's open-source hyper library.
   - **(2026)** [Route public traffic to private applications with Cloudflare](https://blog.cloudflare.com/private-origins-dns-routing) 🌟 - Cloudflare launches Application Services for Private Origins, enabling secure routing of edge-protected traffic directly into private networks without public IPs or connectors.
+  - **(2026)** [How we saved 100 terabytes of memory by optimizing 1.1.1.1's DNS cache](https://blog.cloudflare.com/dns-cache-memory-optimization-1111) 🌟 - Cloudflare reduced the per-entry memory footprint of its 1.1.1.1 DNS cache by 56%, saving 100 TB of RAM fleet-wide through low-level Rust optimizations.
+
+## Case Studies
+  - **(2026)** [The Cloudflare Blog – Brought to you by EmDash](https://blog.cloudflare.com/cloudflare-blog-uses-emdash) 🌟 - Cloudflare migrated its official blog to EmDash, a new Astro-based CMS, achieving extreme resilience and native MCP integration.

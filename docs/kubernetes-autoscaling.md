@@ -204,3 +204,6 @@
 
 </center>
 </details>
+
+## Apache Flink Autoscaling
+  - **(2026)** [A Tale of Two Flink Autoscalers](https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4) 🌟 - Netflix explains why it now runs two Apache Flink autoscalers and how it is converging on the open-source one across 30,000+ jobs.

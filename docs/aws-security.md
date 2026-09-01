@@ -55,6 +55,7 @@
 ## AWS Security Scanners
 
 - [github.com/awslabs/sustainability-scanner: Sustainability Scanner (SusScanner)](https://github.com/awslabs/sustainability-scanner) Validate AWS CloudFormation templates against AWS Well-Architected Sustainability Pillar best practices.
+  - **(2026)** [AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026) 🌟 - AWS news covering Network Scanning in Security Hub and the one-year anniversary of AWS Builder Center.
 
 ## AWS Security Reference Architecture AWS SRA
 
@@ -180,3 +181,6 @@
 
 ## AWS Certificate Manager
   - **(2026)** [Automate public TLS certificate issuance with ACME support in AWS Certificate Manager](https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager) 🌟 - AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through ACMEv2-compatible clients.
+
+## AI Security
+  - **(2026)** [Daybreak models are now available on AWS](https://openai.com/index/daybreak-models-are-now-available-on-aws) 🌟 - OpenAI brings frontier cybersecurity capabilities to Amazon Bedrock with the release of Daybreak Blue and Daybreak Red models.

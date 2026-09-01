@@ -94,6 +94,7 @@
 ## Deutsche Telekom
 
 - [thenewstack.io: How Deutsche Telekom Manages Edge Infrastructure with GitOps](https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops)
+  - **(2026)** [How Deutsche Telekom is rewiring telecommunications with AI](https://openai.com/index/deutsche-telekom) 🌟 - Deutsche Telekom leverages OpenAI models for real-time voice translation, customer service transformation, and network operations.
 
 ## AstraZeneca
 
@@ -149,3 +150,6 @@
 
 ## Samsung
   - **(2026)** [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment) 🌟 - Case study of Samsung deploying ChatGPT Enterprise and Codex to DX division employees worldwide.
+
+## Cars24
+  - **(2026)** [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24) 🌟 - Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes and recover lost leads.
