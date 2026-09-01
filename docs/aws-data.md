@@ -22,3 +22,7 @@
 - [AWS Data Pipeline Documentation](https://docs.aws.amazon.com/data-pipeline)
 - [medium: No-Code Data Collect API on AWS](https://medium.com/@dima.statz_89242/no-code-data-collect-api-on-aws-d79e3681d204) A No-Code Data Collections mechanism for Big Data Pipelines on AWS.
 - [AWS Big Data Blog: Category - AWS Data Pipeline](https://aws.amazon.com/blogs/big-data/category/analytics/aws-data-pipeline)
+  - **(2026)** [AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support](https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support) 🌟 - AWS Glue 6.0 launches with a significant 30% cost reduction and native, deep integration with Apache Iceberg v3 for data lakes.
+
+## Amazon DynamoDB
+  - **(2026)** [Amazon DynamoDB now supports real-time vector search at any scale](https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale) 🌟 - Amazon DynamoDB introduces native real-time vector search capabilities for hyperscale AI applications.
