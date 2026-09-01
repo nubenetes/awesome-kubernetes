@@ -132,3 +132,10 @@
   - **(2026)** [Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog](https://blog.cloudflare.com/enforce-first-as-bgp) 🌟 - Learn the routing mechanics and configuration policies to enforce First AS validation on EBGP sessions to safeguard networks from malformed path hijacks.
 
   - **(2026)** [Adopting AV1 for Real-Time Communication (RTC) at Scale](https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta) 🌟 - Meta shares the multi-year effort of adopting and scaling AV1 for real-time video calls in Messenger and WhatsApp, focusing on rate control, device eligibility, and error resilience.
+  - **(2026)** [BGP Role model: tracking the adoption of RFC 9234](https://blog.cloudflare.com/rfc9234-bgp-role-model) 🌟 - An analysis of global RFC 9234 adoption, which introduces BGP Roles and OTC attributes to prevent route leaks.
+
+## DDoS
+  - **(2026)** [Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave](https://blog.cloudflare.com/ddos-threat-report-2026-h1) 🌟 - H1 2026 report highlights a 519% surge in hyper-volumetric DDoS attacks driven by DNS and CLDAP reflection.
+
+## RDMA
+  - **(2026)** [MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet](https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet) 🌟 - Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet.
