@@ -78,6 +78,8 @@
 - [==phoenixnap.com: SRE Vs. DevOps: Differences Explained== 🌟](https://phoenixnap.com/blog/sre-vs-devops) Take an in-depth look at the similarities & differences between SRE & DevOps, their benefits, usual tasks, and go-to tools to explain their distinct roles in the software development lifecycle (SDLC)
 - [thenewstack.io: SRE vs. DevOps? Successful Platform Engineering Needs Both](https://thenewstack.io/sre-vs-devops-successful-platform-engineering-needs-both) A look at the differences, what they do, how they benefit the business and why organizations need all three to succeed.
   - **(2026)** [How we reduced core unit boot time from hours to minutes](https://blog.cloudflare.com/optimizing-core-unit-boot-time) 🌟 - Cloudflare outlines how they debugged and resolved UEFI firmware boot bottlenecks on their Gen12 core bare-metal servers, reducing boot times from four hours to under a minute.
+  - **(2026)** [The August 17 outage, and the work ahead](https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead) 🌟 - An update on the August 17 outage and the steps GitHub is taking to improve reliability.
+  - **(2026)** [Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned](https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4) 🌟 - A deep dive into the engineering challenges of building a real-time service dependency map at Netflix scale.
 
 ## SRE Tools
   - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) - *(Related to monitoring topic)*

@@ -24,6 +24,7 @@
 - [christianmartinezfinancialfox.medium.com: How to use ChatGPT to improve your Microsft Excel skills?](https://christianmartinezfinancialfox.medium.com/how-to-use-chatgpt-to-improve-your-microsft-excel-skills-41817b6465df)
 - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code) With so many AI-powered assistants waiting to be explored, we've now entered the phase where excited coders are trying their own homegrown experiments — and sharing the results online.
 - [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr)
+  - **(2026)** [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded) 🌟 - Data insights on the global widening and deepening of ChatGPT adoption across multiple demographics and regions.
 
 ## TableauGPT
 
@@ -87,9 +88,18 @@
 - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65?gi=79a3a79d2753)
 - [numerous.ai](https://numerous.ai) Prompt ChatGPT in bulk, in your spreadsheets. Use AI for writing content, product descriptions, SEO keywords, and more in bulk.
 - [chat.openai.com/g/g-6eSNNNvsB-kubernetes-terraformer: Kubernetes Terraformer](https://chatgpt.com/g/g-6eSNNNvsB-kubernetes-terraformer) Converts Kubernetes YAML to Terraform HCL, extracting key variables. By Mark Tinderholt
+  - **(2026)** [Introducing the Admin Plugin for ChatGPT Work and Codex](https://openai.com/index/introducing-admin-plugin) 🌟 - A new plugin designed to empower IT administrators with conversational control over ChatGPT Work and Codex workspaces, including usage tracking and permission management.
 
 ## ChatGPT Enterprise
   - **(2026)** [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) 🌟 - Granular cost tracking and policy enforcement tools within the ChatGPT Enterprise Global Admin Console.
+  - **(2026)** [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) 🌟 - OpenAI introduces ChatGPT Work as a comprehensive thought partner and operations copilot for complex enterprise workflows.
+  - **(2026)** [Australian Payments Plus moves faster with ChatGPT and Codex](https://openai.com/index/australian-payments-plus) 🌟 - A case study on how Australian Payments Plus accelerates complex payments innovation using ChatGPT Enterprise and Codex.
 
 ## ChatGPT in Healthcare
   - **(2026)** [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) 🌟 - Enhancing user-facing health queries and clinical safety through physician-evaluated reasoning in GPT-5.5 Instant.
+
+## GPT-Live
+  - **(2026)** [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live) 🌟 - A new generation of voice models featuring a full-duplex architecture for natural human-AI interaction.
+
+## ChatGPT Sites
+  - **(2026)** [Building Websites with ChatGPT Sites - Event - OpenAI Academy](https://openai.com/academy/chatgpt-sites) 🌟 - An OpenAI Academy session demonstrating how to build and deploy interactive websites using the zero-code ChatGPT Sites feature.

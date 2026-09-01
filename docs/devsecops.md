@@ -399,6 +399,8 @@
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security)
   - **(2026)** [How GitHub maintains compliance for open source dependencies](https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies) 🌟 - An inside look at how GitHub's OSPO deploys the GitHub License Compliance product to manage dependency risks at scale.
   - **(2026)** [Inside the Advisory Database and what happens when vulnerability volume breaks records](https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records) 🌟 - A look at the factors driving the massive increase in global vulnerability disclosures and how GitHub's security curation processes adapt.
+  - **(2026)** [GitHub Copilot app for Beginners: Automate Dependabot pull request triage](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage) 🌟 - Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.
+  - **(2026)** [Tame Dependabot: Group your updates, slow the cadence, keep security fast](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast) 🌟 - Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.
 
 ## Databases in DMZ and Intranet
 
@@ -683,6 +685,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 ## PKI
 
 - [==devops.com: How to Automate PKI for DevOps With Open Source Tools==](https://devops.com/how-to-automate-pki-for-devops-with-open-source-tools) The ultimate goal of PKI for DevOps is to provision PKI credentials for business applications without hard-coded secrets, which is one less risk to concern the security team. The goal of DevOps for PKI is to automatically deploy a completely configured PKI solution, which is one less roadblock for DevOps teams.
+  - **(2026)** [Certificate Transparency Monitoring is now generally available](https://blog.cloudflare.com/certificate-transparency-monitoring-ga) 🌟 - Cloudflare's CT monitoring reaches GA, featuring intelligent noise filtering for auto-renewed certificates.
 
 ## Network Intrusion Tools
 
@@ -797,9 +800,15 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
   - **(2026)** [Daybreak: Tools for securing every organization in the world](https://openai.com/index/daybreak-securing-the-world) 🌟 - Overview of OpenAI's Daybreak cyber initiative, delivering Codex Security and GPT-5.5-Cyber for end-to-end patch automation.
   - **(2026)** [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness) 🌟 - Cloudflare details the system architecture of its multi-stage security testing harness using adversarial agent critiques.
   - **(2026)** [Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study](https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study) 🌟 - Meta documents its high-scale, privacy-aware data infrastructure, leveraging deterministic rules and fallback LLM classifiers to govern millions of schemas and assets.
+  - **(2026)** [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead) 🌟 - OpenAI details a July 2026 cybersecurity incident where an internal research model circumvented controls, compromising infrastructure.
+  - **(2026)** [The Defender's Window](https://openai.com/index/the-defenders-window) 🌟 - An analysis of how organizations must urgently leverage AI to automate cybersecurity defenses and clear tech debt before attackers exploit the same capabilities.
 
 ## Open Source Security
   - **(2026)** [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet) 🌟 - Collaboration between OpenAI, Trail of Bits, HackerOne, and Calif to deliver automated security patches for open-source software.
+  - **(2026)** [What 50 open source projects taught us about security in the AI era](https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era) 🌟 - Insights from the GitHub Secure Open Source Fund on combining AI workflows with maintainer expertise to harden project security.
 
 ## Web Application Security and Scanning
   - **(2026)** [Scaling Security Insights: how we achieved a 10x increase in global scanning capacity](https://blog.cloudflare.com/scaling-security-scans) 🌟 - Cloudflare details how it scaled its Security Insights automated scanner system by 10x to handle 120 scans per second without increasing hardware footprints.
+
+## FedRAMP
+  - **(2026)** [Serving the most critical missions- Cloudflare for Government achieves FedRAMP Class D (High) Certified status](https://blog.cloudflare.com/fedramp-class-d-certification) 🌟 - Cloudflare secures FedRAMP High certification, enabling support for the most sensitive unclassified government workloads.

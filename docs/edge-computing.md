@@ -15,3 +15,7 @@
 
 ## Edge Hardware
   - **(2026)** [How Meta Engineered Ultra-Narrow Batteries for AI Glasses](https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast) 🌟 - Podcast episode exploring Meta's engineering achievements in developing 7mm steel-can batteries using die-cut stacked electrodes for smart wearables.
+
+## Edge Security
+  - **(2026)** [A revisit of remote Spectre attacks on Cloudflare Workers](https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers) 🌟 - Cloudflare researchers demonstrate a remote Spectre attack in production and deploy in-process isolation defenses.
+  - **(2026)** [Secure all your internal vibe-coded applications — in one click](https://blog.cloudflare.com/workers-protected-by-access) 🌟 - Cloudflare Access now attaches directly to Workers, propagating zero-trust authentication across all domains and previews.

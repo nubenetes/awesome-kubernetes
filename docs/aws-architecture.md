@@ -39,6 +39,9 @@
 - [AWS Labs GitHub](https://github.com/awslabs)
 - [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql)
 - [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data)
+  - **(2026)** [AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026) 🌟 - This AWS Weekly Roundup highlights the acquisition of DuckLabs and the launch of Agentic Resource Discovery (ARD) for autonomous infrastructure management.
+  - **(2026)** [Happy 20th Birthday, Amazon EC2](https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2) 🌟 - AWS celebrates the 20th anniversary of Amazon Elastic Compute Cloud (EC2), reflecting on its architectural evolution over two decades.
+  - **(2026)** [AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026) 🌟 - The late August AWS update introduces a new Local Zone in Las Vegas and outlines the expansion of Student Rewards via the AWS Builder Center.
 
 ## AWS Case Studies
 

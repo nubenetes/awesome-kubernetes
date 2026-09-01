@@ -24,3 +24,7 @@ If you meet the requirements and wish to claim a specific inactive handle, you c
   - **(2026)** [GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source](https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source) 🌟 - GitHub joins an advocacy coalition seeking amendments to the California AI Transparency Act to ensure compliance mechanisms align with global open source distribution models.
 
   - **(2026)** [From pledge to practice: Building a more inclusive open source ecosystem](https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem) 🌟 - GitHub reviews its progress on open-source accessibility goals, introducing practical tools like the AI-powered GitHub Accessibility Scanner and the Figma Accessibility Annotation Toolkit.
+
+  - **(2026)** [Don't stop early: Case-folding source code at memory speed](https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed) 🌟 - How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.
+
+  - **(2026)** [Modeling Device Capabilities for Analytics](https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4) 🌟 - Netflix has built a comprehensive device capability data model to support analytics across its diverse global device ecosystem.

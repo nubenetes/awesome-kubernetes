@@ -167,3 +167,5 @@
   - [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) - *(Related to azure topic)*
 
 - [Azure Policy](azure.md)
+
+  - **(2026)** [How We're Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees](https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp) 🌟 - An early technical overview of Scam Alert, an on-device machine learning model alerting users about potential scam messages while protecting E2EE.

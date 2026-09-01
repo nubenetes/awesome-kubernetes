@@ -88,12 +88,16 @@
 
 - [Marvelous MLOps Substack](https://marvelousmlops.substack.com)
 - [decodingml.substack.com: Decoding ML Newsletter](https://decodingml.substack.com) Join for battle-tested content on designing, coding, and deploying production-grade ML & MLOps systems. Every week. For FREE.
+  - **(2026)** [MAPS: Netflix's Multimodal Asset Personalization at Scale](https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4) 🌟 - Netflix describes MAPS, its multimodal asset personalization system that uses CLIP image embeddings and its in-house MediaFM foundation model to solve the cold-start problem.
+  - **(2026)** [From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta's Ads Ranking](https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking) 🌟 - A multi-stage sequence model that decouples heavy offline user modeling from lightweight online ranking tasks with predictable, LLM-style scaling laws.
 
 ## ML Infra
 
 - [==youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform==](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale)
 - [==Ray==](https://docs.ray.io/en/latest) is an open-source unified framework for scaling AI and Python applications. It provides the compute layer for parallel processing so that you don’t need to be a distributed systems expert.
   - **(2026)** [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) 🌟 - Meta introduces SilverTorch, a unified PyTorch model-based system that replaces separate microservices for vector indexing, filtering, and scoring with a single GPU-optimized execution graph.
+  - **(2026)** [GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model](https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model) 🌟 - Details on achieving 20-25% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x by co-designing kernels, precision, parallelism, and networking.
+  - **(2026)** [Meta's AI Storage Blueprint at Scale](https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale) 🌟 - Meta unveils its next-generation AI storage blueprint engineered to feed massive multi-modal training clusters without I/O bottlenecks.
 
 ## Object Detection Libraries
 
