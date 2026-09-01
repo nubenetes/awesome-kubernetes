@@ -130438,7 +130438,7 @@ https://docs.github.com/en/actions/how-tos/write-workflows:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:09:58.318457+02:00'
+  gh_activity_checked: '2026-09-01T12:55:35.143712+02:00'
 https://docs.github.com/en/actions/learn-github-actions:
   title: 'docs.github.com: Learn GitHub Actions'
   description: ''
@@ -130469,7 +130469,7 @@ https://docs.github.com/en/actions/learn-github-actions:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:09:59.016215+02:00'
+  gh_activity_checked: '2026-09-01T12:55:35.767774+02:00'
 https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port:
   title: "docs.github.com: Using SSH over the HTTPS port \U0001F31F"
   description: ''
@@ -130509,7 +130509,7 @@ https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:09:59.740976+02:00'
+  gh_activity_checked: '2026-09-01T12:55:36.386026+02:00'
 https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-remote-control:
   title: Remote Control of GitHub Copilot CLI Sessions
   description: Learn how to monitor, steer, and approve agentic workflows in running
@@ -130559,7 +130559,7 @@ https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-remote-cont
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:00.443675+02:00'
+  gh_activity_checked: '2026-09-01T12:55:37.050463+02:00'
 https://docs.github.com/en/copilot/get-started/best-practices:
   title: Best Practices for Using GitHub Copilot
   description: ''
@@ -130604,7 +130604,7 @@ https://docs.github.com/en/copilot/get-started/best-practices:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:01.166648+02:00'
+  gh_activity_checked: '2026-09-01T12:55:37.695202+02:00'
 https://docs.github.com/en/copilot/how-tos/github-copilot-app/getting-started:
   title: Getting started with the GitHub Copilot app
   description: Sign in to the GitHub Copilot app, ask your first question in a quick
@@ -130650,7 +130650,7 @@ https://docs.github.com/en/copilot/how-tos/github-copilot-app/getting-started:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:01.878610+02:00'
+  gh_activity_checked: '2026-09-01T12:55:38.320766+02:00'
 https://docs.github.com/en/discussions:
   title: null
   description: null
@@ -130680,7 +130680,7 @@ https://docs.github.com/en/discussions:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:02.589924+02:00'
+  gh_activity_checked: '2026-09-01T12:55:38.957469+02:00'
 https://docs.github.com/en/get-started/using-github/github-flow:
   title: GitHub Flow
   description: ''
@@ -130723,7 +130723,7 @@ https://docs.github.com/en/get-started/using-github/github-flow:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:03.285817+02:00'
+  gh_activity_checked: '2026-09-01T12:55:39.550629+02:00'
 https://docs.github.com/en/pdfs/markdown-cheatsheet-online.pdf:
   title: null
   description: null
@@ -130753,7 +130753,7 @@ https://docs.github.com/en/pdfs/markdown-cheatsheet-online.pdf:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:04.015772+02:00'
+  gh_activity_checked: '2026-09-01T12:55:40.180736+02:00'
 ? https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule
 : title: null
   description: null
@@ -130783,7 +130783,7 @@ https://docs.github.com/en/pdfs/markdown-cheatsheet-online.pdf:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:04.728038+02:00'
+  gh_activity_checked: '2026-09-01T12:55:40.810091+02:00'
 https://docs.gitlab.com/ee/topics/gitlab_flow.html:
   title: GitLab Flow
   description: ''
@@ -162804,7 +162804,7 @@ https://gist.github.com/CrookedNumber/8964442:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:05.465616+02:00'
+  gh_activity_checked: '2026-09-01T12:55:41.433578+02:00'
 https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4:
   title: 'GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies''
     with escaping and quotes**'
@@ -162846,7 +162846,7 @@ https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:06.198880+02:00'
+  gh_activity_checked: '2026-09-01T12:55:42.051663+02:00'
 https://gist.github.com/GTRekter/51f8be3fbfb13b3696f92e117d956597:
   title: 'gist.github.com: This snippet contains the steps to generate a terraform''
     plan and post it as a comment of a pull request in Azure DevOps'
@@ -162889,7 +162889,7 @@ https://gist.github.com/GTRekter/51f8be3fbfb13b3696f92e117d956597:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:06.918594+02:00'
+  gh_activity_checked: '2026-09-01T12:55:42.734088+02:00'
 https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac:
   title: 'gist.github.com/JamesMGreene: A comparison of using `git flow` commands''
     versus raw `git` commands'
@@ -162932,7 +162932,7 @@ https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:07.654659+02:00'
+  gh_activity_checked: '2026-09-01T12:55:43.339195+02:00'
 https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb:
   title: 'gist.github.com: How to protect your ~/.kube/ configuration'
   description: ''
@@ -162973,7 +162973,7 @@ https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:08.379188+02:00'
+  gh_activity_checked: '2026-09-01T12:55:43.982054+02:00'
 https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b:
   title: 'gist.github.com: Creating and Publishing NuGet Packages'
   description: ''
@@ -163015,7 +163015,7 @@ https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:09.089318+02:00'
+  gh_activity_checked: '2026-09-01T12:55:44.572740+02:00'
 https://gist.github.com/chadmcrowell/4d11b8a56aba3bdc32ea73c31104357b:
   title: 'gist.github.com/chadmcrowell: AKS w/Virtual Nodes (ACI)'
   description: ''
@@ -163056,7 +163056,7 @@ https://gist.github.com/chadmcrowell/4d11b8a56aba3bdc32ea73c31104357b:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:09.798161+02:00'
+  gh_activity_checked: '2026-09-01T12:55:45.209928+02:00'
 https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74:
   title: "gist.github.com: chadmcrowell/cidr.sh \U0001F31F"
   description: ''
@@ -163096,7 +163096,7 @@ https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:10.476453+02:00'
+  gh_activity_checked: '2026-09-01T12:55:45.856990+02:00'
 https://gist.github.com/djspiewak/9f2f91085607a4859a66:
   title: Git DMZ Flow
   description: ''
@@ -163137,7 +163137,7 @@ https://gist.github.com/djspiewak/9f2f91085607a4859a66:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:11.184025+02:00'
+  gh_activity_checked: '2026-09-01T12:55:46.448297+02:00'
 https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6:
   title: With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector
     and Dev Tools within VSCode, to debug your front-end code
@@ -163180,7 +163180,7 @@ https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:11.905881+02:00'
+  gh_activity_checked: '2026-09-01T12:55:47.071088+02:00'
 https://gist.github.com/jahe/59557d507f43574b0d96:
   title: 'github.com/jahe: Gradle Cheat Sheet'
   description: ''
@@ -163220,7 +163220,7 @@ https://gist.github.com/jahe/59557d507f43574b0d96:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:12.630936+02:00'
+  gh_activity_checked: '2026-09-01T12:55:47.728899+02:00'
 https://gist.github.com/jiffle/499caa5f53ab8f90dc19a3040ee40f48:
   title: 'github.com/jiffle: Gradle Cheat Sheet'
   description: ''
@@ -163260,7 +163260,7 @@ https://gist.github.com/jiffle/499caa5f53ab8f90dc19a3040ee40f48:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:13.363310+02:00'
+  gh_activity_checked: '2026-09-01T12:55:48.323624+02:00'
 https://gist.github.com/jimangel/0014770713cdca8b363816930ef2520f:
   title: Kubernetes v1.16 API deprecation testing
   description: ''
@@ -163301,7 +163301,7 @@ https://gist.github.com/jimangel/0014770713cdca8b363816930ef2520f:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:14.113940+02:00'
+  gh_activity_checked: '2026-09-01T12:55:48.951438+02:00'
 https://gist.github.com/leonardofed:
   title: A curated list of AWS resources to prepare for the AWS Certifications
   description: ''
@@ -163382,7 +163382,7 @@ https://gist.github.com/luisalfonsopreciado/40a0fc2319241d517832affdce2bc1ff:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:14.832452+02:00'
+  gh_activity_checked: '2026-09-01T12:55:49.573583+02:00'
 https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6:
   title: gist.github.com/michaellihs (jenkins pipeline)
   description: ''
@@ -163423,7 +163423,7 @@ https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:15.554765+02:00'
+  gh_activity_checked: '2026-09-01T12:55:50.169197+02:00'
 https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236:
   title: Get applied and effective apiVersion from Kubernetes objects
   description: ''
@@ -163465,7 +163465,7 @@ https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:16.282395+02:00'
+  gh_activity_checked: '2026-09-01T12:55:50.757644+02:00'
 https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab:
   title: A collapsible section containing markdown
   description: ''
@@ -163495,7 +163495,7 @@ https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:17.062650+02:00'
+  gh_activity_checked: '2026-09-01T12:55:51.349012+02:00'
 https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e:
   title: 'gist.github.com: Openshift cheat sheet 2'
   description: ''
@@ -163537,7 +163537,7 @@ https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:17.768852+02:00'
+  gh_activity_checked: '2026-09-01T12:55:51.942023+02:00'
 https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a:
   title: "==gist.github.com: GitOps for Helm Users== \U0001F31F"
   description: ''
@@ -163579,7 +163579,7 @@ https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:18.474034+02:00'
+  gh_activity_checked: '2026-09-01T12:55:52.546420+02:00'
 https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba:
   title: "Kubectl output options \U0001F31F"
   description: ''
@@ -163622,7 +163622,7 @@ https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:19.182118+02:00'
+  gh_activity_checked: '2026-09-01T12:55:53.138189+02:00'
 https://gist.github.com/starred:
   title: 'GH Gists: gist.new'
   description: ''
@@ -163701,7 +163701,7 @@ https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:19.894197+02:00'
+  gh_activity_checked: '2026-09-01T12:55:53.726651+02:00'
 https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49:
   title: Helm Cheat Sheet
   description: ''
@@ -163742,7 +163742,7 @@ https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:20.595745+02:00'
+  gh_activity_checked: '2026-09-01T12:55:54.328133+02:00'
 https://gist.github.com/twasink/d52ef998b2a5b24cdfaa9e7358c5282f:
   title: "gist.github.com/twasink: Jenkins Image, using Docker-in-Docker \U0001F31F"
   description: ''
@@ -163784,7 +163784,7 @@ https://gist.github.com/twasink/d52ef998b2a5b24cdfaa9e7358c5282f:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:21.269014+02:00'
+  gh_activity_checked: '2026-09-01T12:55:54.961008+02:00'
 https://gist.github.com/xandout/8d24558c75c53f3cb8bf0a97ec25fcfc:
   title: Kubernetes DaemonSet that enables a direct shell on each Node using SSH to
     localhost
@@ -163827,7 +163827,7 @@ https://gist.github.com/xandout/8d24558c75c53f3cb8bf0a97ec25fcfc:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:21.967748+02:00'
+  gh_activity_checked: '2026-09-01T12:55:55.588355+02:00'
 https://gist.new:
   title: 'GH Gists: gist.new'
   description: ''
@@ -168232,10 +168232,10 @@ https://github.com/01mf02/jaq:
   gh_pushed: '2026-06-11T17:53:58Z'
   gh_stars: 3642
   is_special: true
-  gh_open_issues_30d: 26
+  gh_open_issues_30d: 22
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:22.716334+02:00'
+  gh_activity_checked: '2026-09-01T12:55:56.293300+02:00'
 https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS:
   title: 'github.com/10tanmay100: MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS'
   description: ''
@@ -168276,7 +168276,7 @@ https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:23.519723+02:00'
+  gh_activity_checked: '2026-09-01T12:55:56.964771+02:00'
 https://github.com/2-alchemists/krossboard:
   title: github.com/2-alchemists/krossboard-kubernetes-operator
   description: ''
@@ -168317,7 +168317,7 @@ https://github.com/2-alchemists/krossboard:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:24.326191+02:00'
+  gh_activity_checked: '2026-09-01T12:55:57.681263+02:00'
 https://github.com/2-alchemists/krossboard-kubernetes-operator:
   title: github.com/2-alchemists/krossboard-kubernetes-operator
   description: ''
@@ -168348,7 +168348,7 @@ https://github.com/2-alchemists/krossboard-kubernetes-operator:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:25.013423+02:00'
+  gh_activity_checked: '2026-09-01T12:55:58.338965+02:00'
 https://github.com/23andMe/Yamale:
   title: 23andMe/Yamale
   description: ''
@@ -168387,10 +168387,10 @@ https://github.com/23andMe/Yamale:
   gh_pushed: '2026-06-01T00:42:50Z'
   gh_stars: 765
   is_special: true
-  gh_open_issues_30d: 60
+  gh_open_issues_30d: 61
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:25.797151+02:00'
+  gh_activity_checked: '2026-09-01T12:55:59.094283+02:00'
 https://github.com/4ARMED/kubeletmein:
   title: 4ARMED/kubeletmein
   description: ''
@@ -168430,7 +168430,7 @@ https://github.com/4ARMED/kubeletmein:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:26.581715+02:00'
+  gh_activity_checked: '2026-09-01T12:55:59.815829+02:00'
 https://github.com/99designs/aws-vault:
   title: AWS Vault
   description: ''
@@ -168468,10 +168468,10 @@ https://github.com/99designs/aws-vault:
   gh_license: MIT
   gh_pushed: '2025-12-30T11:28:54Z'
   gh_stars: 8978
-  gh_open_issues_30d: 1
+  gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:27.353192+02:00'
+  gh_activity_checked: '2026-09-01T12:56:00.509463+02:00'
 https://github.com/ABZ-Aaron/CheatSheets:
   title: ABZ-Aaron/CheatSheets
   description: ''
@@ -168501,7 +168501,7 @@ https://github.com/ABZ-Aaron/CheatSheets:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:28.080252+02:00'
+  gh_activity_checked: '2026-09-01T12:56:01.159479+02:00'
 https://github.com/ABZ-Aaron/cheat-sheets:
   title: "github.com/ABZ-Aaron: SQL Cheat Sheet \U0001F31F"
   description: ''
@@ -168541,7 +168541,7 @@ https://github.com/ABZ-Aaron/cheat-sheets:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:28.849889+02:00'
+  gh_activity_checked: '2026-09-01T12:56:01.871506+02:00'
 https://github.com/AICoE/OpenShiftKubeAudit:
   title: OpenShiftKubeAudit
   description: ''
@@ -168582,7 +168582,7 @@ https://github.com/AICoE/OpenShiftKubeAudit:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:29.656058+02:00'
+  gh_activity_checked: '2026-09-01T12:56:02.568095+02:00'
 https://github.com/Abhisheksinha1506/Collection-of-Useful-Scripts:
   title: Abhisheksinhacoder/collection-of-useful-scripts
   description: ''
@@ -168623,7 +168623,7 @@ https://github.com/Abhisheksinha1506/Collection-of-Useful-Scripts:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:30.325678+02:00'
+  gh_activity_checked: '2026-09-01T12:56:03.196483+02:00'
 https://github.com/Abhisheksinhacoder/collection-of-useful-scripts:
   title: Abhisheksinhacoder/collection-of-useful-scripts
   description: ''
@@ -168654,7 +168654,7 @@ https://github.com/Abhisheksinhacoder/collection-of-useful-scripts:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:31.035150+02:00'
+  gh_activity_checked: '2026-09-01T12:56:03.824277+02:00'
 https://github.com/AbsaOSS/k8gb:
   title: K8GB - Kubernetes Global Balancer
   description: ''
@@ -168696,7 +168696,7 @@ https://github.com/AbsaOSS/k8gb:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:31.867881+02:00'
+  gh_activity_checked: '2026-09-01T12:56:04.655115+02:00'
 https://github.com/AdamRussak/k8f:
   title: github.com/AdamRussak/k8f
   description: ''
@@ -168738,7 +168738,7 @@ https://github.com/AdamRussak/k8f:
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:32.620078+02:00'
+  gh_activity_checked: '2026-09-01T12:56:05.363683+02:00'
 https://github.com/AdminTurnedDevOps/CapabilityPE:
   title: github.com/AdminTurnedDevOps/CapabilityPE
   description: ''
@@ -168779,7 +168779,7 @@ https://github.com/AdminTurnedDevOps/CapabilityPE:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:33.564044+02:00'
+  gh_activity_checked: '2026-09-01T12:56:06.023617+02:00'
 https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS:
   title: ==AdminTurnedDevOps/DevOps-The-Hard-Way-AWS==
   description: ''
@@ -168819,7 +168819,7 @@ https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:34.328186+02:00'
+  gh_activity_checked: '2026-09-01T12:56:06.733020+02:00'
 https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way:
   title: ==AdminTurnedDevOps/Terraform-The-Hard-Way==
   description: ''
@@ -168862,7 +168862,7 @@ https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:35.111220+02:00'
+  gh_activity_checked: '2026-09-01T12:56:07.425815+02:00'
 https://github.com/AdminTurnedDevOps/kubernetes-examples:
   title: ==github.com/AdminTurnedDevOps/kubernetes-examples==
   description: ''
@@ -168902,7 +168902,7 @@ https://github.com/AdminTurnedDevOps/kubernetes-examples:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:35.866042+02:00'
+  gh_activity_checked: '2026-09-01T12:56:08.130852+02:00'
 https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples:
   title: ==github.com/AdminTurnedDevOps/kubernetes-in-production-examples==
   description: ''
@@ -168944,7 +168944,7 @@ https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:36.660141+02:00'
+  gh_activity_checked: '2026-09-01T12:56:08.861096+02:00'
 https://github.com/Alishahryar1/free-claude-code:
   title: free-claude-code
   description: Use Claude Code CLI for free by routing Anthropic API calls through
@@ -168994,10 +168994,10 @@ https://github.com/Alishahryar1/free-claude-code:
   social_preview_url: https://opengraph.githubassets.com/711f9a1e4401665b4253b95bb2c443e9fab71e814cf7615e747da0341b5bdba6/Alishahryar1/free-claude-code
   source_provenance: X.com (nubenetes)
   suggested_new_category: ''
-  gh_open_issues_30d: 344
+  gh_open_issues_30d: 369
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:37.434622+02:00'
+  gh_activity_checked: '2026-09-01T12:56:09.532178+02:00'
 https://github.com/Altinity/clickhouse-operator:
   title: Altinity/clickhouse-operator
   description: ''
@@ -169034,10 +169034,10 @@ https://github.com/Altinity/clickhouse-operator:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-10T12:53:42Z'
   gh_stars: 2520
-  gh_open_issues_30d: 148
+  gh_open_issues_30d: 150
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:38.239937+02:00'
+  gh_activity_checked: '2026-09-01T12:56:10.220974+02:00'
 https://github.com/Andrew-Klaas/hashi-k8s-demo:
   title: 'github: Andrew-Klaas/hashi-k8s-demo'
   description: ''
@@ -169067,7 +169067,7 @@ https://github.com/Andrew-Klaas/hashi-k8s-demo:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:39.020315+02:00'
+  gh_activity_checked: '2026-09-01T12:56:10.920473+02:00'
 https://github.com/Ankit404butfound/PyWhatKit:
   title: PyWhatKit
   description: ''
@@ -169109,7 +169109,7 @@ https://github.com/Ankit404butfound/PyWhatKit:
   gh_open_issues_30d: 120
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:39.779513+02:00'
+  gh_activity_checked: '2026-09-01T12:56:11.640083+02:00'
 https://github.com/App-vNext/Polly:
   title: App-vNext/Polly
   description: ''
@@ -169150,7 +169150,7 @@ https://github.com/App-vNext/Polly:
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:40.520356+02:00'
+  gh_activity_checked: '2026-09-01T12:56:12.396680+02:00'
 https://github.com/Asabeneh/30-Days-Of-Python:
   title: github.com/Asabeneh/30-Days-Of-Python
   description: ''
@@ -169187,10 +169187,10 @@ https://github.com/Asabeneh/30-Days-Of-Python:
   gh_stars: 65301
   gh_pushed: '2026-04-04T17:59:06Z'
   gh_license: N/A
-  gh_open_issues_30d: 184
+  gh_open_issues_30d: 202
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:41.292149+02:00'
+  gh_activity_checked: '2026-09-01T12:56:13.090157+02:00'
 https://github.com/Azure-Samples:
   title: "github.com/Azure-Samples \U0001F31F"
   description: ''
@@ -169269,7 +169269,7 @@ https://github.com/Azure-Samples/aks-platform-engineering:
   gh_open_issues_30d: 27
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:42.051669+02:00'
+  gh_activity_checked: '2026-09-01T12:56:13.800707+02:00'
 https://github.com/Azure-Samples/api-management-workspaces-migration:
   title: 'github.com/Azure-Samples/api-management-workspaces-migration: Azure API''
     Management workspaces migration tool'
@@ -169310,7 +169310,7 @@ https://github.com/Azure-Samples/api-management-workspaces-migration:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:42.826342+02:00'
+  gh_activity_checked: '2026-09-01T12:56:14.513317+02:00'
 https://github.com/Azure-Samples/azure-ai-studio-secure-bicep:
   title: github.com/Azure-Samples/azure-ai-studio-secure-bicep
   description: ''
@@ -169350,7 +169350,7 @@ https://github.com/Azure-Samples/azure-ai-studio-secure-bicep:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:43.817621+02:00'
+  gh_activity_checked: '2026-09-01T12:56:15.259561+02:00'
 https://github.com/Azure-Samples/azure-ai-studio-secure-bicep/blob/main/bicep/managedvnet/README.md:
   title: Deploy Secure Azure AI Studio with a managed virtual network
   description: ''
@@ -169390,7 +169390,7 @@ https://github.com/Azure-Samples/azure-ai-studio-secure-bicep/blob/main/bicep/ma
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:44.589152+02:00'
+  gh_activity_checked: '2026-09-01T12:56:15.965675+02:00'
 https://github.com/Azure-Samples/azure-load-testing-samples:
   title: "github.com/Azure-Samples/azure-load-testing-samples \U0001F31F"
   description: ''
@@ -169430,7 +169430,7 @@ https://github.com/Azure-Samples/azure-load-testing-samples:
   gh_open_issues_30d: 6
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:45.379856+02:00'
+  gh_activity_checked: '2026-09-01T12:56:16.662328+02:00'
 https://github.com/Azure-Samples/azure-pipelines-remote-tasks:
   title: Azure-Samples/azure-pipelines-remote-tasks
   description: ''
@@ -169470,7 +169470,7 @@ https://github.com/Azure-Samples/azure-pipelines-remote-tasks:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:46.161364+02:00'
+  gh_activity_checked: '2026-09-01T12:56:17.335813+02:00'
 https://github.com/Azure-Samples/azure-pipelines-variable-templates:
   title: Azure-Samples/azure-pipelines-variable-templates
   description: ''
@@ -169510,7 +169510,7 @@ https://github.com/Azure-Samples/azure-pipelines-variable-templates:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:46.938217+02:00'
+  gh_activity_checked: '2026-09-01T12:56:18.042157+02:00'
 https://github.com/Azure-Samples/jenkins-terraform-azure-example:
   title: Azure-Samples/jenkins-terraform-azure-example
   description: ''
@@ -169541,7 +169541,7 @@ https://github.com/Azure-Samples/jenkins-terraform-azure-example:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:47.755558+02:00'
+  gh_activity_checked: '2026-09-01T12:56:18.744613+02:00'
 https://github.com/Azure-Samples/jmeter-aci-terraform:
   title: Azure-Samples/jmeter-aci-terraform
   description: ''
@@ -169582,7 +169582,7 @@ https://github.com/Azure-Samples/jmeter-aci-terraform:
   gh_open_issues_30d: 21
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:48.537193+02:00'
+  gh_activity_checked: '2026-09-01T12:56:19.483270+02:00'
 https://github.com/Azure/AZVerify:
   title: 'AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub''
     Copilot'
@@ -169627,7 +169627,7 @@ https://github.com/Azure/AZVerify:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:49.297976+02:00'
+  gh_activity_checked: '2026-09-01T12:56:20.178472+02:00'
 https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update:
   title: 'github.com/Azure/Enterprise-Scale: ALZ AMA Update'
   description: ''
@@ -169666,10 +169666,10 @@ https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update:
   gh_license: MIT
   gh_pushed: '2026-06-05T01:53:47Z'
   gh_stars: 1942
-  gh_open_issues_30d: 10
+  gh_open_issues_30d: 4
   gh_open_prs_30d: 0
-  gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:50.086830+02:00'
+  gh_community_health: low
+  gh_activity_checked: '2026-09-01T12:56:20.885582+02:00'
 https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Network%20Security%20Dashboard:
   title: github.com/Azure/Microsoft-Defender-for-Cloud
   description: ''
@@ -169707,10 +169707,10 @@ https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Networ
   gh_license: MIT
   gh_pushed: '2026-03-19T11:15:53Z'
   gh_stars: 1913
-  gh_open_issues_30d: 49
+  gh_open_issues_30d: 53
   gh_open_prs_30d: 0
-  gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:50.850358+02:00'
+  gh_community_health: active
+  gh_activity_checked: '2026-09-01T12:56:21.586200+02:00'
 https://github.com/Azure/aad-pod-identity:
   title: Azure/aad-pod-identity)
   description: ''
@@ -169752,7 +169752,7 @@ https://github.com/Azure/aad-pod-identity:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:51.651615+02:00'
+  gh_activity_checked: '2026-09-01T12:56:22.352892+02:00'
 https://github.com/Azure/apiops:
   title: "github.com/Azure/apiops \U0001F31F"
   description: ''
@@ -169790,10 +169790,10 @@ https://github.com/Azure/apiops:
   gh_license: MIT
   gh_pushed: '2026-06-05T19:33:52Z'
   gh_stars: 440
-  gh_open_issues_30d: 137
+  gh_open_issues_30d: 139
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:52.416279+02:00'
+  gh_activity_checked: '2026-09-01T12:56:23.055580+02:00'
 https://github.com/Azure/awesome-terraform:
   title: github.com/Azure/awesome-terraform
   description: ''
@@ -169833,7 +169833,7 @@ https://github.com/Azure/awesome-terraform:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:53.199768+02:00'
+  gh_activity_checked: '2026-09-01T12:56:23.774982+02:00'
 https://github.com/Azure/azqr:
   title: ==github.com/Azure/azqr==
   description: ''
@@ -169872,10 +169872,10 @@ https://github.com/Azure/azqr:
   gh_pushed: '2026-06-11T18:04:26Z'
   gh_stars: 774
   duplicate_of: https://github.com/eraser-dev/eraser
-  gh_open_issues_30d: 4
+  gh_open_issues_30d: 6
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:10:54.011477+02:00'
+  gh_activity_checked: '2026-09-01T12:56:24.475679+02:00'
 https://github.com/Azure/aztfexport:
   title: github.com/Azure/aztfexport
   description: ''
@@ -169913,10 +169913,10 @@ https://github.com/Azure/aztfexport:
   gh_license: MPL-2.0
   gh_pushed: '2026-04-02T01:25:07Z'
   gh_stars: 1894
-  gh_open_issues_30d: 23
+  gh_open_issues_30d: 24
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:54.826379+02:00'
+  gh_activity_checked: '2026-09-01T12:56:25.199648+02:00'
 https://github.com/Azure/azure-workload-identity:
   title: ==Azure/azure-workload-identity==
   description: ''
@@ -169956,10 +169956,10 @@ https://github.com/Azure/azure-workload-identity:
   gh_license: MIT
   gh_pushed: '2026-06-14T08:56:44Z'
   gh_stars: 333
-  gh_open_issues_30d: 63
+  gh_open_issues_30d: 60
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:55.598448+02:00'
+  gh_activity_checked: '2026-09-01T12:56:25.978144+02:00'
 https://github.com/Azure/bicep:
   title: Bicep
   description: ''
@@ -169997,10 +169997,10 @@ https://github.com/Azure/bicep:
   gh_license: MIT
   gh_pushed: '2026-06-14T06:10:26Z'
   gh_stars: 3605
-  gh_open_issues_30d: 1232
+  gh_open_issues_30d: 1080
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:10:56.421601+02:00'
+  gh_activity_checked: '2026-09-01T12:56:26.716400+02:00'
 https://github.com/Azure/draft:
   title: "==Azure/Draft== \U0001F31F"
   description: ''
@@ -170041,10 +170041,10 @@ https://github.com/Azure/draft:
   gh_license: MIT
   gh_pushed: '2026-06-11T12:56:27Z'
   gh_stars: 642
-  gh_open_issues_30d: 28
+  gh_open_issues_30d: 24
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:57.178720+02:00'
+  gh_activity_checked: '2026-09-01T12:56:27.461898+02:00'
 https://github.com/Azure/eraser:
   title: "github.com/Azure/eraser \U0001F31F"
   description: ''
@@ -170075,7 +170075,7 @@ https://github.com/Azure/eraser:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:57.922732+02:00'
+  gh_activity_checked: '2026-09-01T12:56:28.177178+02:00'
 https://github.com/Azure/migration:
   title: 'github.com/Azure/migration: The Migration Execution Guide.'
   description: ''
@@ -170117,7 +170117,7 @@ https://github.com/Azure/migration:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:10:58.690618+02:00'
+  gh_activity_checked: '2026-09-01T12:56:28.881361+02:00'
 https://github.com/Azure/placement-policy-scheduler-plugins:
   title: Azure/placement-policy-scheduler-plugins
   description: ''
@@ -170159,7 +170159,7 @@ https://github.com/Azure/placement-policy-scheduler-plugins:
   gh_open_issues_30d: 11
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:10:59.506550+02:00'
+  gh_activity_checked: '2026-09-01T12:56:29.590696+02:00'
 https://github.com/Azure/terraform-azurerm-aks:
   title: github.com/Azure/terraform-azurerm-aks
   description: ''
@@ -170199,7 +170199,7 @@ https://github.com/Azure/terraform-azurerm-aks:
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:00.231165+02:00'
+  gh_activity_checked: '2026-09-01T12:56:30.313735+02:00'
 https://github.com/Azure/terraform-azurerm-caf-enterprise-scale:
   title: ==github.com/Azure/terraform-azurerm-caf-enterprise-scale==
   description: ''
@@ -170237,10 +170237,10 @@ https://github.com/Azure/terraform-azurerm-caf-enterprise-scale:
   gh_license: MIT
   gh_pushed: '2026-04-27T08:46:55Z'
   gh_stars: 961
-  gh_open_issues_30d: 14
+  gh_open_issues_30d: 15
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:00.988180+02:00'
+  gh_activity_checked: '2026-09-01T12:56:31.014899+02:00'
 https://github.com/Azure/vscode-kubernetes-tools:
   title: "Azure/vscode-kubernetes-tools \U0001F31F"
   description: ''
@@ -170271,7 +170271,7 @@ https://github.com/Azure/vscode-kubernetes-tools:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:01.689207+02:00'
+  gh_activity_checked: '2026-09-01T12:56:31.671784+02:00'
 https://github.com/BBVA/sqerzo:
   title: 'SQErzo: Tiny ORM for Graph databases'
   description: ''
@@ -170312,7 +170312,7 @@ https://github.com/BBVA/sqerzo:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:02.481185+02:00'
+  gh_activity_checked: '2026-09-01T12:56:32.360358+02:00'
 https://github.com/BMW-InnovationLab:
   title: BMW InnovationLab
   description: ''
@@ -170381,7 +170381,7 @@ https://github.com/Banno/asdf-kubectl:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:03.227474+02:00'
+  gh_activity_checked: '2026-09-01T12:56:33.070539+02:00'
 https://github.com/Berops/claudie:
   title: ==github.com/Berops/claudie==
   description: ''
@@ -170421,10 +170421,10 @@ https://github.com/Berops/claudie:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-12T09:41:12Z'
   gh_stars: 782
-  gh_open_issues_30d: 59
+  gh_open_issues_30d: 61
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:04.016822+02:00'
+  gh_activity_checked: '2026-09-01T12:56:33.816237+02:00'
 https://github.com/BishopFox/iam-vulnerable:
   title: BishopFox/iam-vulnerable
   description: ''
@@ -170464,7 +170464,7 @@ https://github.com/BishopFox/iam-vulnerable:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:04.857701+02:00'
+  gh_activity_checked: '2026-09-01T12:56:34.535233+02:00'
 https://github.com/BrandonPotter/kubergui:
   title: "kubergui: Kubernetes Deployment Builder\U0001F31F"
   description: ''
@@ -170504,7 +170504,7 @@ https://github.com/BrandonPotter/kubergui:
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:05.599825+02:00'
+  gh_activity_checked: '2026-09-01T12:56:35.249879+02:00'
 https://github.com/BrianCollet/onboard-automator:
   title: github.com/BrianCollet/onboard-automator
   description: ''
@@ -170544,7 +170544,7 @@ https://github.com/BrianCollet/onboard-automator:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:06.388528+02:00'
+  gh_activity_checked: '2026-09-01T12:56:35.904562+02:00'
 https://github.com/BurntSushi/xsv:
   title: xsv
   description: ''
@@ -170576,7 +170576,7 @@ https://github.com/BurntSushi/xsv:
   gh_open_issues_30d: 164
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:07.179646+02:00'
+  gh_activity_checked: '2026-09-01T12:56:36.575518+02:00'
 https://github.com/CASIA-IVA-Lab/FastSAM:
   title: github.com/CASIA-IVA-Lab/FastSAM
   description: ''
@@ -170607,7 +170607,7 @@ https://github.com/CASIA-IVA-Lab/FastSAM:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:07.890547+02:00'
+  gh_activity_checked: '2026-09-01T12:56:37.193201+02:00'
 https://github.com/CASIA-LMC-Lab/FastSAM:
   title: github.com/CASIA-IVA-Lab/FastSAM
   description: ''
@@ -170645,10 +170645,10 @@ https://github.com/CASIA-LMC-Lab/FastSAM:
   gh_license: AGPL-3.0
   gh_pushed: '2024-07-30T13:35:06Z'
   gh_stars: 8364
-  gh_open_issues_30d: 146
+  gh_open_issues_30d: 147
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:08.640868+02:00'
+  gh_activity_checked: '2026-09-01T12:56:37.916743+02:00'
 https://github.com/CastawayEGR/openshift-ai-examples:
   title: OpenShift AI Examples
   description: ''
@@ -170689,7 +170689,7 @@ https://github.com/CastawayEGR/openshift-ai-examples:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:09.379281+02:00'
+  gh_activity_checked: '2026-09-01T12:56:38.600448+02:00'
 https://github.com/Checkmarx/kics:
   title: ==Checkmarx/kics==
   description: ''
@@ -170726,10 +170726,10 @@ https://github.com/Checkmarx/kics:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-10T15:22:53Z'
   gh_stars: 2649
-  gh_open_issues_30d: 327
+  gh_open_issues_30d: 316
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:10.276233+02:00'
+  gh_activity_checked: '2026-09-01T12:56:39.335157+02:00'
 https://github.com/Clivern/Beetle:
   title: Beetle
   description: ''
@@ -170769,7 +170769,7 @@ https://github.com/Clivern/Beetle:
   gh_open_issues_30d: 16
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:11.042941+02:00'
+  gh_activity_checked: '2026-09-01T12:56:40.018702+02:00'
 https://github.com/Cloud-Architekt/AzureAD-Attack-Defense:
   title: '==github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook=='
   description: ''
@@ -170806,10 +170806,10 @@ https://github.com/Cloud-Architekt/AzureAD-Attack-Defense:
   gh_stars: 2529
   gh_pushed: '2026-04-20T06:24:19Z'
   gh_license: N/A
-  gh_open_issues_30d: 8
+  gh_open_issues_30d: 9
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:11.936655+02:00'
+  gh_activity_checked: '2026-09-01T12:56:40.699174+02:00'
 https://github.com/Comcast/kuberhealthy:
   title: "kuberhealthy \U0001F31F"
   description: ''
@@ -170840,7 +170840,7 @@ https://github.com/Comcast/kuberhealthy:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:12.692211+02:00'
+  gh_activity_checked: '2026-09-01T12:56:41.333356+02:00'
 https://github.com/ContainerSSH/ContainerSSH:
   title: ==github.com/ContainerSSH/ContainerSSH==
   description: ''
@@ -170878,10 +170878,10 @@ https://github.com/ContainerSSH/ContainerSSH:
   gh_license: Apache-2.0
   gh_pushed: '2026-05-19T15:47:29Z'
   gh_stars: 3054
-  gh_open_issues_30d: 57
+  gh_open_issues_30d: 60
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:13.511708+02:00'
+  gh_activity_checked: '2026-09-01T12:56:42.071853+02:00'
 https://github.com/ContainerSolutions/ImageWolf:
   title: 'ContainerSolutions/ImageWolf: ImageWolf - Fast Distribution of Docker Images''
     on Clusters'
@@ -170925,7 +170925,7 @@ https://github.com/ContainerSolutions/ImageWolf:
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:14.300207+02:00'
+  gh_activity_checked: '2026-09-01T12:56:42.782861+02:00'
 https://github.com/ContainerSolutions/delayed-jobs-operator:
   title: github.com/ContainerSolutions/delayed-jobs-operator
   description: ''
@@ -170965,7 +170965,7 @@ https://github.com/ContainerSolutions/delayed-jobs-operator:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:15.097598+02:00'
+  gh_activity_checked: '2026-09-01T12:56:43.491974+02:00'
 https://github.com/ContainerSolutions/kubernetes-examples:
   title: Kubernetes Examples
   description: ''
@@ -171007,7 +171007,7 @@ https://github.com/ContainerSolutions/kubernetes-examples:
   gh_open_issues_30d: 11
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:15.899982+02:00'
+  gh_activity_checked: '2026-09-01T12:56:44.180702+02:00'
 https://github.com/CoolerVoid/codecat:
   title: 'CoolerVoid/codecat: CodeCat - Tool to help in static code analysis'
   description: ''
@@ -171051,7 +171051,7 @@ https://github.com/CoolerVoid/codecat:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:16.610194+02:00'
+  gh_activity_checked: '2026-09-01T12:56:44.784308+02:00'
 https://github.com/CrunchyData:
   title: github.com/CrunchyData
   description: ''
@@ -171118,7 +171118,7 @@ https://github.com/CrunchyData/crunchy-containers:
   gh_open_issues_30d: 36
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:17.441265+02:00'
+  gh_activity_checked: '2026-09-01T12:56:45.488471+02:00'
 https://github.com/CrunchyData/postgres-operator:
   title: github.com/CrunchyData/postgres-operator
   description: ''
@@ -171158,10 +171158,10 @@ https://github.com/CrunchyData/postgres-operator:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-10T00:07:08Z'
   gh_stars: 4421
-  gh_open_issues_30d: 168
+  gh_open_issues_30d: 166
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:18.255516+02:00'
+  gh_activity_checked: '2026-09-01T12:56:46.183724+02:00'
 https://github.com/DATA-DOG/go-sqlmock:
   title: DATA-DOG/go-sqlmock
   description: ''
@@ -171198,10 +171198,10 @@ https://github.com/DATA-DOG/go-sqlmock:
   gh_license: NOASSERTION
   gh_pushed: '2024-09-11T10:51:41Z'
   gh_stars: 6554
-  gh_open_issues_30d: 43
+  gh_open_issues_30d: 44
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:19.055948+02:00'
+  gh_activity_checked: '2026-09-01T12:56:46.923849+02:00'
 https://github.com/DaspawnW/vault-crd:
   title: DaspawnW/vault-crd
   description: ''
@@ -171242,7 +171242,7 @@ https://github.com/DaspawnW/vault-crd:
   gh_open_issues_30d: 17
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:19.850154+02:00'
+  gh_activity_checked: '2026-09-01T12:56:47.638479+02:00'
 https://github.com/DataCater/datacater:
   title: github.com/DataCater/datacater (real-time, cloud-native data pipeline platform)
   description: ''
@@ -171283,7 +171283,7 @@ https://github.com/DataCater/datacater:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:20.645382+02:00'
+  gh_activity_checked: '2026-09-01T12:56:48.329977+02:00'
 https://github.com/DataExpert-io/data-engineer-handbook:
   title: "==github.com/DataExpert-io/data-engineer-handbook== \U0001F31F"
   description: ''
@@ -171323,10 +171323,10 @@ https://github.com/DataExpert-io/data-engineer-handbook:
   gh_pushed: '2026-04-02T23:14:21Z'
   gh_license: N/A
   is_special: true
-  gh_open_issues_30d: 39
+  gh_open_issues_30d: 46
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:21.437045+02:00'
+  gh_activity_checked: '2026-09-01T12:56:49.062842+02:00'
 https://github.com/DevOps-Nirvana/Grafana-Dashboards:
   title: github.com/DevOps-Nirvana/Grafana-Dashboards
   description: ''
@@ -171366,7 +171366,7 @@ https://github.com/DevOps-Nirvana/Grafana-Dashboards:
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:22.229408+02:00'
+  gh_activity_checked: '2026-09-01T12:56:49.785708+02:00'
 https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler:
   title: 'github.com/DevOps-Nirvana: Kubernetes Volume / Disk Autoscaler (via Prometheus)'
   description: ''
@@ -171404,10 +171404,10 @@ https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler:
   gh_license: Apache-2.0
   gh_pushed: '2024-05-30T18:52:01Z'
   gh_stars: 317
-  gh_open_issues_30d: 13
+  gh_open_issues_30d: 14
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:23.075716+02:00'
+  gh_activity_checked: '2026-09-01T12:56:50.513863+02:00'
 https://github.com/DevOps-Projects-Ideas/DevOps-Books:
   title: "==github.com/DevOps-Projects-Ideas/DevOps-Books== \U0001F31F\U0001F31F"
   description: ''
@@ -171452,7 +171452,7 @@ https://github.com/DevOps-Projects-Ideas/DevOps-Books:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:23.855419+02:00'
+  gh_activity_checked: '2026-09-01T12:56:51.206672+02:00'
 https://github.com/DevOpsHiveHQ/kubech:
   title: kubech (kubectl change)
   description: ''
@@ -171492,7 +171492,7 @@ https://github.com/DevOpsHiveHQ/kubech:
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:24.633674+02:00'
+  gh_activity_checked: '2026-09-01T12:56:51.941634+02:00'
 https://github.com/DhruvinSoni30/Terraform_multiple_modules:
   title: github.com/DhruvinSoni30/Terraform_multiple_modules
   description: ''
@@ -171534,7 +171534,7 @@ https://github.com/DhruvinSoni30/Terraform_multiple_modules:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:25.417801+02:00'
+  gh_activity_checked: '2026-09-01T12:56:52.616858+02:00'
 https://github.com/DontShaveTheYak/jenkins-std-lib:
   title: "DontShaveTheYak/jenkins-std-lib:  Jenkins Standard Shared Library \U0001F31F"
   description: ''
@@ -171574,7 +171574,7 @@ https://github.com/DontShaveTheYak/jenkins-std-lib:
   gh_open_issues_30d: 16
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:26.183716+02:00'
+  gh_activity_checked: '2026-09-01T12:56:53.324697+02:00'
 https://github.com/Droogans/unmaintainable-code:
   title: Droogans/How To Write Unmaintainable Code
   description: ''
@@ -171603,7 +171603,7 @@ https://github.com/Droogans/unmaintainable-code:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:26.972834+02:00'
+  gh_activity_checked: '2026-09-01T12:56:54.000251+02:00'
 https://github.com/DustinBrett/daedalOS:
   title: daedalOS - Desktop Environment in the Browser
   description: A robust browser-based desktop environment simulating a fully featured
@@ -171653,7 +171653,7 @@ https://github.com/DustinBrett/daedalOS:
   gh_open_issues_30d: 42
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:27.750504+02:00'
+  gh_activity_checked: '2026-09-01T12:56:54.684523+02:00'
 https://github.com/Efrat19/kubeload:
   title: kubeload - load testing
   description: ''
@@ -171695,7 +171695,7 @@ https://github.com/Efrat19/kubeload:
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:28.529638+02:00'
+  gh_activity_checked: '2026-09-01T12:56:55.418403+02:00'
 https://github.com/ElYusubov/AWESOME-Azure-Bicep:
   title: 'ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep'
   description: ''
@@ -171736,10 +171736,10 @@ https://github.com/ElYusubov/AWESOME-Azure-Bicep:
   gh_pushed: '2026-06-11T18:06:39Z'
   gh_stars: 431
   is_special: true
-  gh_open_issues_30d: 5
+  gh_open_issues_30d: 6
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:29.294623+02:00'
+  gh_activity_checked: '2026-09-01T12:56:56.112954+02:00'
 https://github.com/ElanShudnow/AzureCode:
   title: ==github.com/ElanShudnow/AzureCode==
   description: ''
@@ -171779,7 +171779,7 @@ https://github.com/ElanShudnow/AzureCode:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:30.026861+02:00'
+  gh_activity_checked: '2026-09-01T12:56:56.812539+02:00'
 https://github.com/ElanShudnow/AzureCode/blob/main/PowerShell/AzVNETOverlap/README.md:
   title: 'github.com/ElanShudnow/AzureCode: AzVNETOverlap.ps1'
   description: ''
@@ -171820,7 +171820,7 @@ https://github.com/ElanShudnow/AzureCode/blob/main/PowerShell/AzVNETOverlap/READ
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:30.807495+02:00'
+  gh_activity_checked: '2026-09-01T12:56:57.458288+02:00'
 https://github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupport:
   title: github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupport
   description: ''
@@ -171860,7 +171860,7 @@ https://github.com/ElanShudnow/AzureCode/tree/main/PowerShell/AzResourceMoveSupp
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:31.564210+02:00'
+  gh_activity_checked: '2026-09-01T12:56:58.164490+02:00'
 https://github.com/ElementTech/kube-reqsizer:
   title: github.com/ElementTech/kube-reqsizer
   description: ''
@@ -171901,7 +171901,7 @@ https://github.com/ElementTech/kube-reqsizer:
   gh_open_issues_30d: 15
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:32.330527+02:00'
+  gh_activity_checked: '2026-09-01T12:56:58.868146+02:00'
 https://github.com/Email-Dashboard/Email-Dashboard:
   title: 'github.com/Email-Dashboard:'
   description: ''
@@ -171941,7 +171941,7 @@ https://github.com/Email-Dashboard/Email-Dashboard:
   gh_open_issues_30d: 51
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:33.128164+02:00'
+  gh_activity_checked: '2026-09-01T12:56:59.554027+02:00'
 https://github.com/ExtendDB/extenddb/pull/54:
   title: 'feat(storage): add Route 53 backend (TXT records, base64-encoded items,
     the works)'
@@ -171988,10 +171988,10 @@ https://github.com/ExtendDB/extenddb/pull/54:
   social_preview_url: https://opengraph.githubassets.com/d504e2bae65a61e32719daa25cf390b030f8abfbae8b0437cadc2142e561a433/ExtendDB/extenddb/pull/54
   source_provenance: X.com (QuinnyPig)
   suggested_new_category: ''
-  gh_open_issues_30d: 41
+  gh_open_issues_30d: 36
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:33.913378+02:00'
+  gh_activity_checked: '2026-09-01T12:57:00.317894+02:00'
 https://github.com/FairwindsOps/gemini:
   title: gemini
   description: ''
@@ -172029,10 +172029,10 @@ https://github.com/FairwindsOps/gemini:
   gh_license: Apache-2.0
   gh_pushed: '2026-05-18T23:15:58Z'
   gh_stars: 434
-  gh_open_issues_30d: 5
+  gh_open_issues_30d: 9
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:34.695631+02:00'
+  gh_activity_checked: '2026-09-01T12:57:01.052181+02:00'
 https://github.com/FairwindsOps/goldilocks:
   title: '==github.com/FairwindsOps: Goldilocks is a utility that can help you identify''
     a starting point for resource requests and limits=='
@@ -172077,10 +172077,10 @@ https://github.com/FairwindsOps/goldilocks:
   gh_license: Apache-2.0
   gh_pushed: '2026-05-29T14:20:44Z'
   gh_stars: 3250
-  gh_open_issues_30d: 15
+  gh_open_issues_30d: 14
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:35.517019+02:00'
+  gh_activity_checked: '2026-09-01T12:57:01.746239+02:00'
 https://github.com/FairwindsOps/gonogo:
   title: FairwindsOps/gonogo
   description: ''
@@ -172118,10 +172118,10 @@ https://github.com/FairwindsOps/gonogo:
   gh_license: Apache-2.0
   gh_pushed: '2026-05-01T16:41:08Z'
   gh_stars: 146
-  gh_open_issues_30d: 12
+  gh_open_issues_30d: 18
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:36.350812+02:00'
+  gh_activity_checked: '2026-09-01T12:57:02.440976+02:00'
 https://github.com/FairwindsOps/pluto:
   title: "Pluto is a cli tool to help discover deprecated apiVersions in Kubernetes
     \U0001F31F"
@@ -172160,10 +172160,10 @@ https://github.com/FairwindsOps/pluto:
   gh_license: Apache-2.0
   gh_pushed: '2026-04-27T19:14:03Z'
   gh_stars: 2531
-  gh_open_issues_30d: 5
+  gh_open_issues_30d: 15
   gh_open_prs_30d: 0
-  gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:37.133421+02:00'
+  gh_community_health: healthy
+  gh_activity_checked: '2026-09-01T12:57:03.150978+02:00'
 https://github.com/FairwindsOps/polaris:
   title: Polaris
   description: ''
@@ -172207,7 +172207,7 @@ https://github.com/FairwindsOps/polaris:
   gh_open_issues_30d: 19
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:37.886916+02:00'
+  gh_activity_checked: '2026-09-01T12:57:03.879187+02:00'
 https://github.com/FairwindsOps/rbac-manager:
   title: "==FairwindsOps/rbac-manager: RBAC Manager== \U0001F31F"
   description: ''
@@ -172245,10 +172245,10 @@ https://github.com/FairwindsOps/rbac-manager:
   gh_license: Apache-2.0
   gh_pushed: '2026-05-05T02:49:15Z'
   gh_stars: 1654
-  gh_open_issues_30d: 15
+  gh_open_issues_30d: 18
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:38.641152+02:00'
+  gh_activity_checked: '2026-09-01T12:57:04.572024+02:00'
 https://github.com/FairwindsOps/saffire:
   title: Saffire
   description: ''
@@ -172287,10 +172287,10 @@ https://github.com/FairwindsOps/saffire:
   gh_license: Apache-2.0
   gh_pushed: '2026-05-18T23:16:23Z'
   gh_stars: 126
-  gh_open_issues_30d: 6
+  gh_open_issues_30d: 11
   gh_open_prs_30d: 0
-  gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:39.415073+02:00'
+  gh_community_health: healthy
+  gh_activity_checked: '2026-09-01T12:57:05.274242+02:00'
 https://github.com/G-Research/armada:
   title: Armada
   description: ''
@@ -172320,7 +172320,7 @@ https://github.com/G-Research/armada:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:40.274006+02:00'
+  gh_activity_checked: '2026-09-01T12:57:05.913789+02:00'
 https://github.com/GalleyBytes/terraform-operator:
   title: 'isaaguilar/terraform-operator: Terraform Operator'
   description: ''
@@ -172361,7 +172361,7 @@ https://github.com/GalleyBytes/terraform-operator:
   gh_open_issues_30d: 26
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:41.082184+02:00'
+  gh_activity_checked: '2026-09-01T12:57:06.681869+02:00'
 https://github.com/GambitResearch/kubeonoff:
   title: kubeonoff
   description: ''
@@ -172401,7 +172401,7 @@ https://github.com/GambitResearch/kubeonoff:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:41.862797+02:00'
+  gh_activity_checked: '2026-09-01T12:57:07.454855+02:00'
 https://github.com/GhostWriters/DockSTARTer:
   title: DockSTARTer
   description: ''
@@ -172446,7 +172446,7 @@ https://github.com/GhostWriters/DockSTARTer:
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:42.697354+02:00'
+  gh_activity_checked: '2026-09-01T12:57:08.170119+02:00'
 https://github.com/GitCredentialManager/git-credential-manager:
   title: ==Git Credential Manager==
   description: ''
@@ -172477,7 +172477,7 @@ https://github.com/GitCredentialManager/git-credential-manager:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:43.452508+02:00'
+  gh_activity_checked: '2026-09-01T12:57:08.843092+02:00'
 https://github.com/GitHubSecurityLab/actions-permissions:
   title: 'github.com/GitHubSecurityLab/actions-permissions: GitHub token permissions''
     Monitor and Advisor actions'
@@ -172518,7 +172518,7 @@ https://github.com/GitHubSecurityLab/actions-permissions:
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:44.251740+02:00'
+  gh_activity_checked: '2026-09-01T12:57:09.582344+02:00'
 https://github.com/GoodforGod/java-logger-benchmark:
   title: GoodforGod/java-logger-benchmark
   description: ''
@@ -172559,7 +172559,7 @@ https://github.com/GoodforGod/java-logger-benchmark:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:45.131206+02:00'
+  gh_activity_checked: '2026-09-01T12:57:10.310110+02:00'
 https://github.com/GoogleCloudPlatform:
   title: github.com/GoogleCloudPlatform
   description: ''
@@ -172641,7 +172641,7 @@ https://github.com/GoogleCloudPlatform/awesome-google-cloud:
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:45.909706+02:00'
+  gh_activity_checked: '2026-09-01T12:57:11.028104+02:00'
 https://github.com/GoogleCloudPlatform/buildpacks:
   title: Google Cloud Buildpacks
   description: ''
@@ -172678,10 +172678,10 @@ https://github.com/GoogleCloudPlatform/buildpacks:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-13T10:40:53Z'
   gh_stars: 1148
-  gh_open_issues_30d: 144
+  gh_open_issues_30d: 142
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:46.682181+02:00'
+  gh_activity_checked: '2026-09-01T12:57:11.743166+02:00'
 https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube:
   title: click-to-deploy/sonarqube
   description: ''
@@ -172718,10 +172718,10 @@ https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube
   gh_license: Apache-2.0
   gh_pushed: '2026-06-09T22:44:11Z'
   gh_stars: 772
-  gh_open_issues_30d: 211
+  gh_open_issues_30d: 205
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:47.486630+02:00'
+  gh_activity_checked: '2026-09-01T12:57:12.428278+02:00'
 https://github.com/GoogleCloudPlatform/cloud-code-samples:
   title: "github.com/GoogleCloudPlatform/cloud-code-samples \U0001F31F"
   description: ''
@@ -172762,10 +172762,10 @@ https://github.com/GoogleCloudPlatform/cloud-code-samples:
   gh_license: 0BSD
   gh_pushed: '2026-06-11T16:12:06Z'
   gh_stars: 437
-  gh_open_issues_30d: 83
+  gh_open_issues_30d: 87
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:48.256867+02:00'
+  gh_activity_checked: '2026-09-01T12:57:13.167741+02:00'
 https://github.com/GoogleCloudPlatform/elcarro-oracle-operator:
   title: "El Carro: The Oracle Operator for Kubernetes \U0001F31F"
   description: ''
@@ -172807,7 +172807,7 @@ https://github.com/GoogleCloudPlatform/elcarro-oracle-operator:
   gh_open_issues_30d: 17
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:49.003546+02:00'
+  gh_activity_checked: '2026-09-01T12:57:13.886452+02:00'
 https://github.com/GoogleCloudPlatform/golang-samples:
   title: '==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google''
     Cloud in the Go programming language.=='
@@ -172846,10 +172846,10 @@ https://github.com/GoogleCloudPlatform/golang-samples:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-12T21:08:57Z'
   gh_stars: 4624
-  gh_open_issues_30d: 84
+  gh_open_issues_30d: 72
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:49.842626+02:00'
+  gh_activity_checked: '2026-09-01T12:57:14.620789+02:00'
 https://github.com/GoogleCloudPlatform/k8s-config-connector:
   title: 'github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector'
   description: ''
@@ -172887,10 +172887,10 @@ https://github.com/GoogleCloudPlatform/k8s-config-connector:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-14T10:08:49Z'
   gh_stars: 1042
-  gh_open_issues_30d: 1717
+  gh_open_issues_30d: 1730
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:50.741476+02:00'
+  gh_activity_checked: '2026-09-01T12:57:15.347096+02:00'
 https://github.com/GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp:
   title: 'GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp: Google Secret''
     Manager Provider for Secret Store CSI Driver'
@@ -172932,7 +172932,7 @@ https://github.com/GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp:
   gh_open_issues_30d: 53
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:51.504974+02:00'
+  gh_activity_checked: '2026-09-01T12:57:16.097389+02:00'
 https://github.com/GoogleCloudPlatform/terraformer:
   title: "github.com/GoogleCloudPlatform/terraformer \U0001F31F"
   description: ''
@@ -172972,7 +172972,7 @@ https://github.com/GoogleCloudPlatform/terraformer:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:52.315239+02:00'
+  gh_activity_checked: '2026-09-01T12:57:16.767623+02:00'
 https://github.com/GoogleContainerTools/container-structure-test:
   title: GoogleContainerTools/container-structure-test
   description: ''
@@ -173013,7 +173013,7 @@ https://github.com/GoogleContainerTools/container-structure-test:
   gh_open_issues_30d: 116
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:53.083039+02:00'
+  gh_activity_checked: '2026-09-01T12:57:17.468511+02:00'
 https://github.com/GoogleContainerTools/jib:
   title: jib
   description: ''
@@ -173056,7 +173056,7 @@ https://github.com/GoogleContainerTools/jib:
   gh_open_issues_30d: 251
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:53.885942+02:00'
+  gh_activity_checked: '2026-09-01T12:57:18.146571+02:00'
 https://github.com/GoogleContainerTools/kaniko:
   title: kaniko
   description: ''
@@ -173101,7 +173101,7 @@ https://github.com/GoogleContainerTools/kaniko:
   gh_open_issues_30d: 760
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:54.822184+02:00'
+  gh_activity_checked: '2026-09-01T12:57:18.851182+02:00'
 https://github.com/HewlettPackard/terraschema:
   title: 'TerraSchema: Generate JSON Schema from Terraform Configurations'
   description: ''
@@ -173145,7 +173145,7 @@ https://github.com/HewlettPackard/terraschema:
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:55.582980+02:00'
+  gh_activity_checked: '2026-09-01T12:57:19.580102+02:00'
 https://github.com/HolmesGPT/holmesgpt:
   title: HolmesGPT (Robusta)
   description: ''
@@ -173185,10 +173185,10 @@ https://github.com/HolmesGPT/holmesgpt:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-14T10:13:58Z'
   gh_stars: 2623
-  gh_open_issues_30d: 365
+  gh_open_issues_30d: 403
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:11:56.393462+02:00'
+  gh_activity_checked: '2026-09-01T12:57:20.312497+02:00'
 https://github.com/HopopOps/k8s-ldap-auth:
   title: vbouchaud/k8s-ldap-auth
   description: ''
@@ -173228,7 +173228,7 @@ https://github.com/HopopOps/k8s-ldap-auth:
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:11:57.191198+02:00'
+  gh_activity_checked: '2026-09-01T12:57:21.028136+02:00'
 https://github.com/IBM/CP4MCM-SDK:
   title: 'github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM'
   description: ''
@@ -173270,7 +173270,7 @@ https://github.com/IBM/CP4MCM-SDK:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:57.964978+02:00'
+  gh_activity_checked: '2026-09-01T12:57:21.766876+02:00'
 https://github.com/IBM/argocd-vault-plugin:
   title: IBM/argocd-vault-plugin
   description: ''
@@ -173301,7 +173301,7 @@ https://github.com/IBM/argocd-vault-plugin:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:11:58.707687+02:00'
+  gh_activity_checked: '2026-09-01T12:57:22.390433+02:00'
 https://github.com/IBM/varnish-operator:
   title: github.com/IBM/varnish-operator
   description: ''
@@ -173342,7 +173342,7 @@ https://github.com/IBM/varnish-operator:
   gh_open_issues_30d: 10
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:11:59.526891+02:00'
+  gh_activity_checked: '2026-09-01T12:57:23.118979+02:00'
 https://github.com/Ileriayo/markdown-badges:
   title: 'github.com/Ileriayo/markdown-badges: Markdown Badges'
   description: ''
@@ -173383,7 +173383,7 @@ https://github.com/Ileriayo/markdown-badges:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:00.355503+02:00'
+  gh_activity_checked: '2026-09-01T12:57:23.793185+02:00'
 https://github.com/Isan-Rivkin/kube_query:
   title: Kube_query
   description: ''
@@ -173425,7 +173425,7 @@ https://github.com/Isan-Rivkin/kube_query:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:01.396387+02:00'
+  gh_activity_checked: '2026-09-01T12:57:24.511133+02:00'
 https://github.com/IvanJosipovic/KubeUI:
   title: 'KubeUI: A Desktop Kubernetes Client'
   description: ''
@@ -173466,10 +173466,10 @@ https://github.com/IvanJosipovic/KubeUI:
   gh_license: MIT
   gh_pushed: '2026-06-14T04:45:46Z'
   gh_stars: 311
-  gh_open_issues_30d: 34
+  gh_open_issues_30d: 44
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:12:02.182464+02:00'
+  gh_activity_checked: '2026-09-01T12:57:25.210097+02:00'
 https://github.com/JFolberth/TheYAMLPipelineOne:
   title: "github.com/JFolberth/TheYAMLPipelineOne \U0001F31F"
   description: ''
@@ -173510,7 +173510,7 @@ https://github.com/JFolberth/TheYAMLPipelineOne:
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:02.916539+02:00'
+  gh_activity_checked: '2026-09-01T12:57:25.887428+02:00'
 https://github.com/JFryy/qq:
   title: github.com/JFryy/qq
   description: ''
@@ -173549,10 +173549,10 @@ https://github.com/JFryy/qq:
   gh_pushed: '2026-05-19T00:18:46Z'
   gh_stars: 725
   is_special: true
-  gh_open_issues_30d: 9
+  gh_open_issues_30d: 10
   gh_open_prs_30d: 0
-  gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:03.664850+02:00'
+  gh_community_health: healthy
+  gh_activity_checked: '2026-09-01T12:57:26.582473+02:00'
 https://github.com/JPCERTCC/LogonTracer:
   title: github.com/JPCERTCC/LogonTracer
   description: ''
@@ -173592,7 +173592,7 @@ https://github.com/JPCERTCC/LogonTracer:
   gh_open_issues_30d: 21
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:12:04.485664+02:00'
+  gh_activity_checked: '2026-09-01T12:57:27.311171+02:00'
 https://github.com/JamesTGrant/kubectl-debug:
   title: github.com/JamesTGrant/kubectl-debug
   description: ''
@@ -173634,7 +173634,7 @@ https://github.com/JamesTGrant/kubectl-debug:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:05.304202+02:00'
+  gh_activity_checked: '2026-09-01T12:57:28.061567+02:00'
 https://github.com/JeanBaptisteWATENBERG/junit5-kubernetes:
   title: junit5-kubernetes
   description: ''
@@ -173674,7 +173674,7 @@ https://github.com/JeanBaptisteWATENBERG/junit5-kubernetes:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:06.034664+02:00'
+  gh_activity_checked: '2026-09-01T12:57:28.753325+02:00'
 https://github.com/JovianX/Service-Hub:
   title: github.com/JovianX/Service-Hub
   description: ''
@@ -173712,10 +173712,10 @@ https://github.com/JovianX/Service-Hub:
   gh_license: Apache-2.0
   gh_pushed: '2024-04-02T11:20:36Z'
   gh_stars: 122
-  gh_open_issues_30d: 55
+  gh_open_issues_30d: 54
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:12:06.824259+02:00'
+  gh_activity_checked: '2026-09-01T12:57:29.492216+02:00'
 https://github.com/JovianX/helm-release-plugin:
   title: JovianX/helm-release-plugin
   description: ''
@@ -173756,7 +173756,7 @@ https://github.com/JovianX/helm-release-plugin:
   gh_open_issues_30d: 12
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:12:07.624205+02:00'
+  gh_activity_checked: '2026-09-01T12:57:30.178682+02:00'
 https://github.com/JulianHayward/AzADServicePrincipalInsights:
   title: github.com/JulianHayward/AzADServicePrincipalInsights
   description: ''
@@ -173796,7 +173796,7 @@ https://github.com/JulianHayward/AzADServicePrincipalInsights:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:08.412291+02:00'
+  gh_activity_checked: '2026-09-01T12:57:30.925779+02:00'
 https://github.com/Juniper/Junos-terraform:
   title: 'Junos-terraform: JUNOS Terraform Automation Framework (JTAF)'
   description: ''
@@ -173833,10 +173833,10 @@ https://github.com/Juniper/Junos-terraform:
   gh_license: Apache-2.0
   gh_pushed: '2026-06-08T10:06:52Z'
   gh_stars: 82
-  gh_open_issues_30d: 7
+  gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:09.158203+02:00'
+  gh_activity_checked: '2026-09-01T12:57:31.661188+02:00'
 https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry:
   title: Configure Docker Service To Use Insecure Registry
   description: ''
@@ -173879,7 +173879,7 @@ https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-
   gh_open_issues_30d: 36
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:12:09.962680+02:00'
+  gh_activity_checked: '2026-09-01T12:57:32.379856+02:00'
 https://github.com/K8Studio/K8studio:
   title: k8studio.github.io/k8studio
   description: ''
@@ -173916,10 +173916,10 @@ https://github.com/K8Studio/K8studio:
   gh_stars: 53
   gh_pushed: '2026-06-09T19:43:36Z'
   gh_license: N/A
-  gh_open_issues_30d: 1
+  gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:10.749079+02:00'
+  gh_activity_checked: '2026-09-01T12:57:33.078736+02:00'
 https://github.com/KWasm/podman-wasm:
   title: github.com/KWasm/podman-wasm
   description: ''
@@ -173960,7 +173960,7 @@ https://github.com/KWasm/podman-wasm:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:11.529829+02:00'
+  gh_activity_checked: '2026-09-01T12:57:33.790461+02:00'
 https://github.com/KnicKnic/temp-kubernetes-ci:
   title: 'KnicKnic/temp-kubernetes-ci: Temp Kubernetes CI'
   description: ''
@@ -174001,7 +174001,7 @@ https://github.com/KnicKnic/temp-kubernetes-ci:
   gh_open_issues_30d: 6
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:12.311286+02:00'
+  gh_activity_checked: '2026-09-01T12:57:34.506315+02:00'
 https://github.com/Kubeinit/kubeinit:
   title: "kubeinit \U0001F31F"
   description: ''
@@ -174041,7 +174041,7 @@ https://github.com/Kubeinit/kubeinit:
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:13.121870+02:00'
+  gh_activity_checked: '2026-09-01T12:57:35.280967+02:00'
   duplicate_of: https://github.com/kubeinit/kubeinit
 https://github.com/Kubermatic/Kubermatic:
   title: "Kubermatic Kubernetes Platform \U0001F31F"
@@ -174082,10 +174082,10 @@ https://github.com/Kubermatic/Kubermatic:
   gh_license: NOASSERTION
   gh_pushed: '2026-06-12T17:52:28Z'
   gh_stars: 1281
-  gh_open_issues_30d: 463
+  gh_open_issues_30d: 462
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:12:13.930681+02:00'
+  gh_activity_checked: '2026-09-01T12:57:35.986966+02:00'
 https://github.com/KurtGokhan/tegaki:
   title: Tegaki turns any Google Font into animated handwriting
   description: Handwriting animation for the web supporting custom text, natural timing,
@@ -174135,7 +174135,7 @@ https://github.com/KurtGokhan/tegaki:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:14.654064+02:00'
+  gh_activity_checked: '2026-09-01T12:57:36.644409+02:00'
 https://github.com/KusionStack/kusion:
   title: github.com/KusionStack/kusion
   description: ''
@@ -174173,10 +174173,10 @@ https://github.com/KusionStack/kusion:
   gh_license: Apache-2.0
   gh_pushed: '2026-01-04T06:01:34Z'
   gh_stars: 1310
-  gh_open_issues_30d: 53
+  gh_open_issues_30d: 55
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:12:15.470261+02:00'
+  gh_activity_checked: '2026-09-01T12:57:37.384016+02:00'
 https://github.com/Kyrremann/kubectl-eksporter:
   title: "kubectl-eksporter \U0001F31F"
   description: ''
@@ -174216,7 +174216,7 @@ https://github.com/Kyrremann/kubectl-eksporter:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:16.245492+02:00'
+  gh_activity_checked: '2026-09-01T12:57:38.066772+02:00'
 https://github.com/LeCoupa/awesome-cheatsheets:
   title: LeCoupa/awesome-cheatsheets
   description: ''
@@ -174257,7 +174257,7 @@ https://github.com/LeCoupa/awesome-cheatsheets:
   gh_open_issues_30d: 136
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:12:17.036961+02:00'
+  gh_activity_checked: '2026-09-01T12:57:38.795401+02:00'
 https://github.com/LerryAlexander/postman_jenkins_api_tests:
   title: "LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins'
     Pipeline \U0001F31F"
@@ -174300,7 +174300,7 @@ https://github.com/LerryAlexander/postman_jenkins_api_tests:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:17.840432+02:00'
+  gh_activity_checked: '2026-09-01T12:57:39.655637+02:00'
 https://github.com/Levi-Michael/boto3-ec2-s3-management:
   title: 'github.com/Levi-Michael/boto3-ec2-s3-management: A python tools base on''
     AWS boto3 for manage ec2 and s3 buckets'
@@ -174343,7 +174343,7 @@ https://github.com/Levi-Michael/boto3-ec2-s3-management:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:18.625112+02:00'
+  gh_activity_checked: '2026-09-01T12:57:40.345780+02:00'
 https://github.com/Lightning-AI/engineering-class:
   title: "==github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering'
     for Researchers== \U0001F31F"
@@ -174385,7 +174385,7 @@ https://github.com/Lightning-AI/engineering-class:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:19.406716+02:00'
+  gh_activity_checked: '2026-09-01T12:57:41.102891+02:00'
 https://github.com/Lightning-AI/engineering-class/blob/main/ep08-github-pr/Ep08-ShowNotes.md:
   title: 'github.com/Lightning-AI/engineering-class: Episode 8: Creating a Pull Request''
     on GitHub'
@@ -174427,7 +174427,7 @@ https://github.com/Lightning-AI/engineering-class/blob/main/ep08-github-pr/Ep08-
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:20.179153+02:00'
+  gh_activity_checked: '2026-09-01T12:57:41.816174+02:00'
 https://github.com/Lightning-AI/engineering-class/blob/main/ep09-github-collab/Ep09-ShowNotes.md:
   title: 'github.com/Lightning-AI/engineering-class: Episode 9: Collaborating with''
     Pull Requests using GitHub'
@@ -174459,7 +174459,7 @@ https://github.com/Lightning-AI/engineering-class/blob/main/ep09-github-collab/E
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:20.980774+02:00'
+  gh_activity_checked: '2026-09-01T12:57:43.923610+02:00'
 https://github.com/LovesCloud/java-groovy-docker:
   title: github.com/LovesCloud/java-groovy-docker
   description: ''
@@ -174489,7 +174489,7 @@ https://github.com/LovesCloud/java-groovy-docker:
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:21.791082+02:00'
+  gh_activity_checked: '2026-09-01T12:57:44.698192+02:00'
 https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws:
   title: Bootstrap RKE Kubernetes Cluster in AWS Environment
   description: ''
@@ -174529,7 +174529,7 @@ https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:22.546699+02:00'
+  gh_activity_checked: '2026-09-01T12:57:45.528388+02:00'
 https://github.com/MOZGIII/port-map-operator:
   title: port-map-operator
   description: ''
@@ -174569,7 +174569,7 @@ https://github.com/MOZGIII/port-map-operator:
   gh_open_issues_30d: 25
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:12:23.324859+02:00'
+  gh_activity_checked: '2026-09-01T12:57:46.272433+02:00'
 https://github.com/Maelstromage/Log4jSherlock:
   title: Maelstromage/Log4jSherlock
   description: ''
@@ -174611,7 +174611,7 @@ https://github.com/Maelstromage/Log4jSherlock:
   gh_open_issues_30d: 13
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-08-01T10:12:24.071553+02:00'
+  gh_activity_checked: '2026-09-01T12:57:46.962823+02:00'
 https://github.com/ManagedKube/kubernetes-common-services:
   title: kubernetes-common-services
   description: ''
@@ -174651,7 +174651,7 @@ https://github.com/ManagedKube/kubernetes-common-services:
   gh_open_issues_30d: 6
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:24.855218+02:00'
+  gh_activity_checked: '2026-09-01T12:57:47.719855+02:00'
 https://github.com/ManagedKube/kubernetes-development-environment-in-a-box:
   title: kubernetes-development-environment-in-a-box
   description: ''
@@ -174691,7 +174691,7 @@ https://github.com/ManagedKube/kubernetes-development-environment-in-a-box:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:25.593890+02:00'
+  gh_activity_checked: '2026-09-01T12:57:48.423486+02:00'
 https://github.com/Masterminds/sprig:
   title: 'Masterminds/sprig: Sprig: Template functions for Go templates'
   description: ''
@@ -174729,10 +174729,10 @@ https://github.com/Masterminds/sprig:
   gh_license: MIT
   gh_pushed: '2025-07-18T13:29:21Z'
   gh_stars: 4721
-  gh_open_issues_30d: 187
+  gh_open_issues_30d: 189
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:12:26.429646+02:00'
+  gh_activity_checked: '2026-09-01T12:57:49.423803+02:00'
 https://github.com/Mathieu-Desrochers/Learning-Go:
   title: Mathieu-Desrochers/Learning-Go
   description: ''
@@ -174772,7 +174772,7 @@ https://github.com/Mathieu-Desrochers/Learning-Go:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:27.221206+02:00'
+  gh_activity_checked: '2026-09-01T12:57:50.113559+02:00'
 https://github.com/MatthewCYLau/gcp-react-gke-terraform:
   title: 'github.com/MatthewCYLau: React App on Google Kubernetes Engine (GKE) with''
     Terraform'
@@ -174814,7 +174814,7 @@ https://github.com/MatthewCYLau/gcp-react-gke-terraform:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:27.992714+02:00'
+  gh_activity_checked: '2026-09-01T12:57:50.906320+02:00'
 https://github.com/MatthewCYLau/node-express-typescript-k8-gke:
   title: 'github.com/MatthewCYLau: TypeScript Node Express Google Kubernetes Engine''
     (GKE)'
@@ -174855,7 +174855,7 @@ https://github.com/MatthewCYLau/node-express-typescript-k8-gke:
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:28.785240+02:00'
+  gh_activity_checked: '2026-09-01T12:57:52.485866+02:00'
 https://github.com/MichaelCade/90DaysOfDevOps:
   title: "MichaelCade/90DaysOfDevOps \U0001F31F"
   description: ''
@@ -174894,10 +174894,10 @@ https://github.com/MichaelCade/90DaysOfDevOps:
   gh_pushed: '2026-04-12T05:25:44Z'
   gh_stars: 29497
   is_special: true
-  gh_open_issues_30d: 9
+  gh_open_issues_30d: 10
   gh_open_prs_30d: 0
-  gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:29.527868+02:00'
+  gh_community_health: healthy
+  gh_activity_checked: '2026-09-01T12:57:54.157827+02:00'
 https://github.com/MichaelMure/git-bug:
   title: ==github.com/MichaelMure/git-bug==
   description: ''
@@ -174928,7 +174928,7 @@ https://github.com/MichaelMure/git-bug:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:30.264249+02:00'
+  gh_activity_checked: '2026-09-01T12:57:54.781336+02:00'
 https://github.com/Michaelpalacce/SimpleSecrets:
   title: Michaelpalacce/SimpleSecrets
   description: ''
@@ -174968,7 +174968,7 @@ https://github.com/Michaelpalacce/SimpleSecrets:
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-08-01T10:12:31.042367+02:00'
+  gh_activity_checked: '2026-09-01T12:57:55.553539+02:00'
 https://github.com/Microsoft/azure-pipelines-tasks:
   title: ==Microsoft/azure-pipelines-tasks==
   description: ''
@@ -175006,10 +175006,10 @@ https://github.com/Microsoft/azure-pipelines-tasks:
   gh_license: MIT
   gh_pushed: '2026-06-12T14:53:04Z'
   gh_stars: 3645
-  gh_open_issues_30d: 366
+  gh_open_issues_30d: 364
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-08-01T10:12:31.819009+02:00'
+  gh_activity_checked: '2026-09-01T12:57:56.295329+02:00'
 https://github.com/MiteshSharma/PrometheusWithGrafana:
   title: github.com/MiteshSharma/PrometheusWithGrafana
   description: ''
@@ -175040,7 +175040,7 @@ https://github.com/MiteshSharma/PrometheusWithGrafana:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-08-01T10:12:32.645416+02:00'
+  gh_activity_checked: '2026-09-01T12:57:57.049360+02:00'
 https://github.com/MnrGreg/kubectl-node-restart:
   title: "kubectl-node-restart \U0001F31F"
   description: ''
