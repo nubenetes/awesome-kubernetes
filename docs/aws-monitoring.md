@@ -47,3 +47,5 @@
 
 ## Service Topology and Dependency Mapping
   - **(2026)** [From Silos to Service Topology: Why Netflix Built a Real-Time Service Map](https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?gi=82dbd1ef7444&source=rss----2615bd06b42e---4) 🌟 - Netflix details the architecture of Service Topology, a system that combines eBPF, IPC metrics, and distributed tracing to construct a real-time microservice dependency graph.
+
+  - **(2026)** [Introducing Radar Researcher: An AI tool for exploring Internet data in plain language](https://blog.cloudflare.com/introducing-radar-researcher) 🌟 - Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language.
