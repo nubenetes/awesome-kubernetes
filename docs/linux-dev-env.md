@@ -35,3 +35,5 @@
 ## Alternatives to WSL on Windows
 
 - [cmder 🌟](https://cmder.net)
+
+  - **(2026)** [Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler](https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler) 🌟 - An in-depth look at how Meta modernized its ad-serving infrastructure by integrating an open-source, extensible Linux kernel scheduler.
