@@ -18,6 +18,7 @@
 ### SNS vs SQS
 
 - [==dev.to: When to SNS or SQS==](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji)
+  - **(2024)** [Amazon SQS turns 20: Two decades of reliable messaging at scale](https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale) 🌟 - A retrospective on Amazon SQS as it celebrates 20 years of providing highly reliable distributed messaging.
 
 ## AWS EventBridge
 
