@@ -21,7 +21,7 @@ description: "Curated, AI-ranked Uncategorized resources for the 2026 Cloud Nati
 * **Live Grounding**: Industry analysts note that securing regional power infrastructures is becoming a primary bottleneck for hyper-scale cloud deployments supporting next-generation machine learning workloads.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
+💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Kubernetes Storage](./kubernetes-storage.md) | [IaC](./iac.md)
+🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
 

@@ -111,21 +111,14 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 
   - **(2024)** [Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS framework defining multi-account best practices using AWS Organizations and AWS Control Tower. It outlines critical isolation patterns for security, billing, and operational autonomy. Architecturally, it serves as the foundation for modern enterprise landing zones, ensuring strict blast-radius limitation.
   - **(2024)** [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical analysis of the pitfalls and administrative hurdles encountered when migrating AWS accounts between Organizational Units (OUs) or organizations. It examines the operational impact on Service Control Policies (SCPs), resource shares, CloudFormation StackSets, and global integrations during transition phases.
-## Cloud Engineering
-
-### Devsecops
-
-#### Security
-
-  - **(2024)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security deep dive into AWS IAM OIDC trust relationships. Explains how misconfigured OIDC settings can allow unauthorized actions in GitHub Actions pipelines and outlines steps to prevent account compromise.
-## Devsecops (1)
+## Devsecops
 
 ### Policy As Code
 
 #### Open Policy Agent
 
   - **(2022)** [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent) <span class='md-tag md-tag--warning'>[TYPESCRIPT/REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through demonstrating Policy-as-Code setups within AWS CDK deployment models using Open Policy Agent (OPA). Teaches engineers how to compile cloud infrastructure representations and parse them against Rego policies to catch insecure setups before resource creation.
-## Security (1)
+## Security
 
 ### Identity and Access
 
@@ -187,7 +180,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational technical guide to the architecture and operational model of AWS Secrets Manager. The article discusses integration mechanics with AWS RDS, IAM authorization policies, automated rotation via pre-configured Lambda templates, and encryption envelope methods using KMS.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

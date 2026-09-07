@@ -8,36 +8,12 @@
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Kubecost 🌟</title>
-      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
-      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Kubecost is the industry standard for Kubernetes FinOps and granular multi-cluster cost allocation.</description>
-    </item>
-    <item>
-      <title>docs.anthropic.com: Claude Code CLI</title>
-      <link>https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</link>
-      <guid isPermaLink="true">https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Establishes a major paradigm shift toward terminal-native, autonomous agentic software engineering workflows.</description>
-    </item>
-    <item>
       <title>antigravity.google: Google Antigravity Agentic Platform</title>
       <link>https://antigravity.google</link>
       <guid isPermaLink="true">https://antigravity.google</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Provides a comprehensive platform and SDK for deploying stateful, production-ready AI agents on GKE.</description>
-    </item>
-    <item>
-      <title>Crossplane</title>
-      <link>https://nubenetes.com/crossplane</link>
-      <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Crossplane drives a paradigm shift by transforming Kubernetes into a universal control plane for managing any cloud infrastructure.</description>
+      <description>[CRITICAL] It provides a unified enterprise SDK and runtime to transition stateful AI agents from local prototypes to production-ready deployments on Google Kubernetes Engine.</description>
     </item>
     <item>
       <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
@@ -45,7 +21,23 @@
       <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] NVIDIA's device plugin is the essential foundational component enabling hardware-accelerated AI and machine learning workloads on Kubernetes.</description>
+      <description>[CRITICAL] It is the foundational hardware plugin enabling GPU task scheduling and acceleration across modern AI/ML workloads on Kubernetes.</description>
+    </item>
+    <item>
+      <title>==Azure/azure-workload-identity==</title>
+      <link>https://github.com/Azure/azure-workload-identity</link>
+      <guid isPermaLink="true">https://github.com/Azure/azure-workload-identity</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] Provides the enterprise standard for credential-less, zero-trust authentication between Kubernetes workloads and Azure cloud resources via OIDC federation.</description>
+    </item>
+    <item>
+      <title>Crossplane</title>
+      <link>https://nubenetes.com/crossplane</link>
+      <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] Represents a major paradigm shift by transforming Kubernetes clusters into universal infrastructure control planes for multi-cloud management.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -53,7 +45,7 @@
       <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Standardizes high-throughput, memory-efficient LLM inference and model serving natively on Kubernetes clusters.</description>
+      <description>[CRITICAL] It standardizes production-grade, memory-efficient LLM serving on Kubernetes using PagedAttention, directly bridging foundation models with cloud-native infrastructure.</description>
     </item>
     <item>
       <title>==dagger/dagger: Dagger is a portable devkit for CICD==</title>
@@ -61,7 +53,7 @@
       <guid isPermaLink="true">https://github.com/dagger/dagger</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Dagger introduces a paradigm shift by replacing brittle YAML with programmable, containerized pipelines written in general-purpose languages.</description>
+      <description>[CRITICAL] Dagger introduces a major paradigm shift to CI/CD by replacing brittle YAML with portable, containerized pipelines written in general-purpose languages.</description>
     </item>
     <item>
       <title>github.com: Istio</title>
@@ -77,7 +69,7 @@
       <guid isPermaLink="true">https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Cluster Autoscaler remains the foundational core component responsible for dynamically scaling infrastructure capacity based on workload demands.</description>
+      <description>[CRITICAL] Remains the ubiquitous, production-proven standard for dynamic node provisioning and elasticity across enterprise Kubernetes environments.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -85,7 +77,7 @@
       <guid isPermaLink="true">https://github.com/fluxcd/flux2</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Flux v2 provides the foundational GitOps Toolkit controllers powering enterprise-scale automated cluster state reconciliation.</description>
+      <description>[CRITICAL] Flux v2 delivers a modular, controller-driven GitOps Toolkit that defines how modern enterprise clusters reconcile infrastructure and application state.</description>
     </item>
     <item>
       <title>github.com/prometheus/prometheus</title>
@@ -93,7 +85,15 @@
       <guid isPermaLink="true">https://github.com/prometheus/prometheus</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] It represents the foundational CNCF-graduated metrics collection and alerting engine powering modern cloud-native observability stacks.</description>
+      <description>[CRITICAL] The foundational CNCF-graduated telemetry engine that defines the standard for monitoring, scraping, and alerting across cloud-native environments.</description>
+    </item>
+    <item>
+      <title>github.com/open-telemetry/opentelemetry-operator</title>
+      <link>https://github.com/open-telemetry/opentelemetry-operator</link>
+      <guid isPermaLink="true">https://github.com/open-telemetry/opentelemetry-operator</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Observability, SRE &amp; Testing</category>
+      <description>[CRITICAL] Crucial Kubernetes operator that automates OpenTelemetry collector lifecycles and streamlines application auto-instrumentation at scale.</description>
     </item>
     <item>
       <title>containerd - An open and reliable container runtime</title>
@@ -112,20 +112,20 @@
       <description>[CRITICAL] It serves as the canonical OCI reference low-level container runtime executing Linux cgroups and namespace isolation.</description>
     </item>
     <item>
+      <title>==github.com/Netflix/metaflow== 🌟</title>
+      <link>https://github.com/Netflix/metaflow</link>
+      <guid isPermaLink="true">https://github.com/Netflix/metaflow</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
+      <category>MLOps &amp; Data Science</category>
+      <description>[CRITICAL] Metaflow provides an enterprise-proven, human-centric framework that bridges local data science experimentation with scalable Kubernetes orchestration.</description>
+    </item>
+    <item>
       <title>hashicorp/vault</title>
       <link>https://github.com/hashicorp/vault</link>
       <guid isPermaLink="true">https://github.com/hashicorp/vault</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] HashiCorp Vault remains the enterprise industry standard for secrets management, encryption-as-a-service, and dynamic Zero Trust identity brokering across multi-cloud environments.</description>
-    </item>
-    <item>
-      <title>Cosign: Container Signing</title>
-      <link>https://github.com/sigstore/cosign</link>
-      <guid isPermaLink="true">https://github.com/sigstore/cosign</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Sigstore Cosign is the de facto standard for cryptographic signing, verification, and software supply chain integrity enforcement for OCI artifacts.</description>
+      <description>[CRITICAL] Remains the foundational enterprise secret manager and dynamic workload identity broker underpinning Zero Trust cloud-native architectures.</description>
     </item>
     <item>
       <title>OpenTelemetry Collector</title>
@@ -133,15 +133,7 @@
       <guid isPermaLink="true">https://github.com/open-telemetry/opentelemetry-collector</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] It serves as the universal, vendor-neutral standard for ingesting, transforming, and routing traces, metrics, and logs across cloud-native environments.</description>
-    </item>
-    <item>
-      <title>kube-prometheus</title>
-      <link>https://github.com/prometheus-operator/kube-prometheus</link>
-      <guid isPermaLink="true">https://github.com/prometheus-operator/kube-prometheus</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] It provides the complete, production-ready reference architecture for deploying Prometheus, Alertmanager, and core exporters onto Kubernetes.</description>
+      <description>[CRITICAL] Serves as the ubiquitous, vendor-agnostic industry standard pipeline for ingesting, processing, and exporting traces, metrics, and logs.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
@@ -165,7 +157,15 @@
       <guid isPermaLink="true">https://github.com/aquasecurity/trivy</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Trivy serves as the ubiquitous, developer-friendly vulnerability and misconfiguration scanner spanning container images, code repositories, and IaC pipelines.</description>
+      <description>[CRITICAL] The de facto comprehensive vulnerability, misconfiguration, and SBOM scanner across modern container pipelines and registries.</description>
+    </item>
+    <item>
+      <title>Announcing Claude Managed Agents on Cloudflare</title>
+      <link>https://blog.cloudflare.com/claude-managed-agents</link>
+      <guid isPermaLink="true">https://blog.cloudflare.com/claude-managed-agents</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>AI &amp; Agents</category>
+      <description>[CRITICAL] It establishes an enterprise-grade, sandboxed serverless execution plane on edge infrastructure for running autonomous AI agents securely at scale.</description>
     </item>
   </channel>
 </rss>

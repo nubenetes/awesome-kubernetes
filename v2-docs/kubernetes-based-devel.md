@@ -13,6 +13,9 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 
 ### Mocking and Virtualization
 
+#### Microcks
+
+  - **(2026)** [**microcks.io**](https://microcks.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and virtualization of APIs (REST, gRPC, GraphQL, AsyncAPI). It speeds up microservices testing by generating mock endpoints and testing compliance directly against enterprise schemas.
 #### Microcks Integration
 
   - **(2022)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to design local mock environments using Microcks combined with Podman Compose. This is ideal for developers running daemonless environments who require automated contract API validation.
@@ -227,7 +230,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

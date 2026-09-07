@@ -60,6 +60,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 
 #### Access Control
 
+  - **(2024)** [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to implement OIDC (OpenID Connect) federated identity credentials between GitHub Actions and Microsoft Azure. Eliminates the critical security risk of long-lived corporate service principal credentials by relying on cryptographically short-lived runtime tokens.
   - **(2021)** [github.blog: GitHub Actions: Control permissions for GITHUB_TOKEN 🌟](https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes crucial YAML syntax controls for configuring granular scopes on standard `GITHUB_TOKEN` values. Restricts security threat profiles by allowing administrators to configure strict read/write variables on repository sub-objects.
 #### Open Source Workflows
 
@@ -403,6 +404,9 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Github Docs Architecture
 
   - **(2020)** [github.blog: How we launched docs.github.com](https://github.blog/engineering/how-we-launched-docs-github-com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical architectural overview tracing the migration of GitHub's official documentation pipeline to a modernized, dynamic platform built atop Node.js, Markdown pipelines, and rapid CDN delivery.
+#### Github Wiki
+
+  - **(2022)** [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed guide on utilizing GitHub Wikis for repository documentation. It describes markdown editing, sidebar customization, and managing wiki repositories locally as standard Git remotes.
 ### Education (1)
 
 #### Github Education
@@ -437,6 +441,9 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 ##### Merging Strategies
 
   - **(2021)** [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive walkthrough analyzing various Git merge models supported natively inside GitHub, tracing structural differences between classic merge commits, squashing, and rebasing.
+##### Open Source
+
+  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
 ##### Team Collaboration
 
   - **(2021)** [dev.to: Learn how to use Git and GitHub in a team like a pro](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on best-practice development operations inside multi-person engineering branches. Describes clean feature-branching architectures, tracking issues, and utilizing labels during production cycles.
@@ -611,6 +618,7 @@ Assists developers from specification to implementation, verification, and code 
 #### Next-gen Platforms
 
   - **(2023)** [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launches GitHub Copilot X, integrating advanced conversational LLMs directly into pull requests, system terminals, and developer documentation frameworks. Highlights the transition from raw autocomplete tools to full conversational software lifecycle management.
+  - **(2023)** [computerhoy.com: GitHub Copilot X: así es la nueva IA parecida a ChatGPT y destinada a ayudar a programadores](https://computerhoy.20minutos.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the technical specifications of Copilot X, including terminal tool integration, automated PR description synthesis, and integrated chat widgets. Examines the performance gains from switching to OpenAI's GPT-4 framework.
 #### Practical Guide
 
   - **(2021)** [towardsdatascience.com: Generating Python Scripts with OpenAi’s Github Copilot](https://towardsdatascience.com/generating-python-scripts-with-openais-github-copilot-da0b3fdd989)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on exploration demonstrating code generation strategies for Python scripts using Copilot. Focuses on writing high-quality comments to prompt correct library imports and database operations. Outlines testing methodologies to weed out hallucinations.
@@ -643,6 +651,7 @@ Assists developers from specification to implementation, verification, and code 
 #### Kubernetes Integration
 
   - **(2021)** [docs.gitlab.com: Install GitLab Runner on Red Hat OpenShift](https://docs.gitlab.com/runner/install/openshift.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official guide for installing GitLab Runner on Red Hat OpenShift using the GitLab Runner Operator. Outlines configuration steps, security context constraints (SCC), and custom resource designs for managing secure, scalable pipeline workloads.
+  - **(2021)** [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://docs.gitlab.com/releases) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the GitLab 14.1 release, highlighting its integrated Helm chart registry and custom escalation policies. Explains how teams can store and manage Kubernetes deployment packaging files directly alongside their application source code.
 ### Developer Productivity (4)
 
 #### Grafana Github Integration
@@ -758,6 +767,9 @@ Assists developers from specification to implementation, verification, and code 
 
   - **(2022)** [**gitkraken.com: Git Tutorials: Instructional Training Videos 🌟**](https://www.gitkraken.com/learn/git/tutorials) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive directory of instructional video tutorials exploring GitKraken's GUI engine. Demystifies visual representation of complex Git histories, interactive rebasing, multi-profile credential coordination, and conflict-resolution workflows.
   - **(2021)** [dev.to: Get lazy with lazygit](https://dev.to/tahsinature/get-lazy-with-lazygit-4h37)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces lazygit, a terminal-based UI tool. Highlights features like fast interactive staging, rapid conflict resolution, branch navigation, and interactive rebase management directly from the CLI.
+#### Git Best Practices
+
+  - **(2018)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical essay discussing optimal commit message hygiene and atomic commits. Argues that purposeful, structured histories are critical for tracking down regression roots and ensuring easy codebase traversability.
 #### Git CLI Basics
 
   - **(2022)** [**intellipaat.com: Git Tutorial - Learn Git 🌟**](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive tutorial on distributed version control concepts, branching mechanics, and stage isolation in Git. Links localized version control with downstream continuous integration and delivery loops within automated DevOps pipelines.
@@ -837,6 +849,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2021)** [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide that introduces developers to Trunk-Based Development. It contrasts TBD with traditional GitFlow, showing how merging frequent, small commits to a single trunk prevents major merge conflicts and accelerates deployment cycles.
   - **(2020)** [kubernetes.dev: GitHub Workflow](https://www.kubernetes.dev/docs/guide/github-workflow) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official Kubernetes project contributor guidelines detailing its custom, large-scale upstream/downstream fork-and-pull Git workflow. Emphasizes rebase strategies, PR conventions, and the specialized automated Prow bot systems used to manage gating, label tracking, and multi-SIG code approvals.
   - **(2020)** [kean.github.io: Trunk-Based Development](https://kean.blog/post/trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical retrospective examining the execution of Trunk-Based Development (TBD) within cloud environments. Explores how fast feedback loops, automated testing, and branch-by-abstraction strategies work together to eliminate long-lived branching headaches.
+  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An evaluation of GitFlow versus Trunk-Based Development, analyzing how branching strategies affect MTTR, deployment frequency, and software quality. It details the operational changes and tooling adjustments required to adopt trunk-based methodologies.
   - **(2019)** [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Atlassian's classic git tutorial on Gitflow, outlining its mechanics, workflows, and common command patterns. It contrasts this highly structured model with alternative setups, helping teams choose the right balance between isolation and continuous integration.
   - **(2019)** [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical migration blueprint outlining how to move teams from GitFlow to Trunk-Based Development. It highlights real-world challenges, such as adapting CI pipelines and managing team workflows during the transition.
   - **(2018)** [devblogs.microsoft.com: Release Flow: How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical analysis of Microsoft's 'Release Flow' branching model, developed to manage the Azure DevOps/VSTS codebase. The model focuses on short-lived topic branches that target `main`, and uses cherry-picked hotfixes and isolated release branches to protect and maintain trunk stability.
@@ -891,7 +904,7 @@ Assists developers from specification to implementation, verification, and code 
 #### Metadata Display
 
   - **(2023)** [shields.io 🌟](https://shields.io) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shields.io is the standard metadata badge generation service for developer readmes and project hubs. It provides dynamic SVG badges showing continuous integration status, test coverage, package versioning, and license compliance across open-source and enterprise repositories.
-#### Open Source
+#### Open Source (1)
 
   - **(2022)** [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on integration strategies for contributors managing branch hierarchies in open-source projects. Offers concrete tips on coordinating forks, staging changes across distinct feature branches, and safely executing pulls and merges with upstream main branches.
 #### Standards
@@ -964,7 +977,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes rapid tactics for extracting uncommitted, unstaged alterations into a newly spawned local feature branch. Guides developers on preserving workspace fluidity when starting feature-work inside the wrong branch context without triggering merge hazards.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
+💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
 

@@ -58,9 +58,14 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
   - **(2021)** [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through detailing how to install and configure Sonatype Nexus Repository Manager on a Kubernetes cluster. It breaks down persistent volume claims (PVCs), service exposes, and deployment manifest constructs. The guide simplifies the process of establishing a self-managed, centralized artifact cache on top of cloud-native infrastructure.
 ## CICD
 
-### Integration Tutorials
+### Automation Ecosystems
 
 #### Jenkins and Nexus
+
+  - **(2019)** [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates a full CD pipeline design combining Jenkins automation pipelines, Sonatype Nexus artifact caching, and the Cloudogu developer platform ecosystem. It discusses how to decouple build outputs, secure package verification, and trigger orchestrations. It demonstrates how standardizing on artifact-centric builds minimizes drift in multi-environment configurations.
+### Integration Tutorials
+
+#### Jenkins and Nexus (1)
 
   - **(2020)** [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Video tutorial focusing on the integration of Jenkins CI servers with Sonatype Nexus Repository Manager. It explains plugin configurations, build step triggers, and authentication variables needed to securely push builds to repository hosts. This resource offers a visual walk-through of pipeline configurations.
   - **(2020)** [youtube: uploading artifacts from jenkins to nexus](https://www.youtube.com/watch?v=7NmGSnqLd58) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Video tutorial demonstrating standard techniques for configuring Maven, Gradle, or shell scripts inside Jenkins pipelines to automate artifact delivery to Nexus targets. It details credential management and pipeline syntax. Perfect for developers transitioning from manual delivery configurations to pipeline-managed deliveries.
@@ -154,7 +159,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
   - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Gitops](./gitops.md) | [Argo](./argo.md) | [CI/CD](./cicd.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

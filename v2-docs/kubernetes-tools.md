@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler for Kubernetes, nerdctl and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kaniko and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Plugins, Tools, Extensions and Projects
 
@@ -273,6 +273,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Container Registries
 
   - **(2020)** [ecrcp](https://github.com/bit-cloner/ecrcp) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility designed to copy Docker images directly between different Amazon ECR registries without requiring local download-and-reupload bandwidth. Useful for cross-account deployments and regional migration tasks in complex enterprise AWS landing zones.
+### AWS Automation
+
+#### Serverless Orchestration
+
+  - **(2026)** [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local IDE integration utilities for designing and tracing AWS Step Functions. Enhances developer inner-loops by rendering local visual workflow representations and offering live Amazon States Language schema validation directly in-editor.
 ### Amazon EKS
 
 #### ACK
@@ -298,6 +303,13 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### CICD (3)
 
   - **(2026)** [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the BuildKit CLI integration for 'kubectl'. It empowers developers to build container images directly within active Kubernetes execution scopes, leveraging distributed cache backends and eliminating local docker daemon dependencies.
+## Cloud Native Infrastructure
+
+### Service Mesh
+
+#### Openshift
+
+  - **(2022)** [Maistra.io](https://maistra.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation and portal hub for Maistra, a customized OpenShift-centric distribution of Istio. Enhances core Istio upstream distributions with multi-tenant control, platform-specific operators, and seamless integration with Red Hat identity frameworks.
 ## Cloud Native Networking
 
 ### Service Proxy
@@ -305,9 +317,20 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Integration Tools
 
   - **(2020)** [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff1d5b3c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 2 L 30 5 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-ff1d5b3c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility developed to bridge Envoy configuration directly with Kubernetes API endpoints. It parses Kubernetes services and endpoints to dynamically construct Envoy-compatible bootstrap configurations. While highly illustrative of early custom control plane mechanics, it has largely been superseded by native Kubernetes Gateway API and modern Envoy-based ingress controllers.
-## Cloud Native Platforms
+## Cloud Native Operations
 
 ### Kubernetes (1)
+
+#### Configuration Management (1)
+
+  - **(2021)** [**k8syaml.com 🌟**](https://k8syaml.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An interactive web environment designed to generate clean, standard Kubernetes manifests based on best-practice configurations. It enables operators to construct and validate resources without writing boilerplate templates from scratch.
+#### Policy Enforcement
+
+  - **(2022)** [==datree.io==](https://www.datree.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade CLI validation engine built to run policy and configuration checks on Kubernetes manifests. Datree evaluates configurations against schema rules and security standards before they reach clusters. This is a critical validation step for CI/CD GitOps pipelines.
+  - **(2021)** [**dev.to: Automating quality checks for Kubernetes YAMLs**](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed technical guide demonstrating how to integrate automated quality controls for Kubernetes manifests within build pipelines. It explains how to combine linters and security checks to validate configurations before they are deployed.
+## Cloud Native Platforms
+
+### Kubernetes (2)
 
 #### Multi-arch Telemetry
 
@@ -373,7 +396,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Multi-tenant Provisioner
 
   - **(2021)** [salesforce/Craft](https://github.com/salesforce/craft) <span class='md-tag md-tag--info'>⭐ 91</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dd2e3577" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 6 L 30 11 L 40 13 L 50 13" fill="none" stroke="url(#spark-grad-dd2e3577)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Salesforce Craft was a specialized framework built for designing, orchestrating, and provisioning scalable multi-tenant infrastructure. It has since been archived, with its capabilities transitioned to Cloud Provider APIs and Cluster API.
-### Configuration Management (1)
+### Configuration Management (2)
 
 #### Dynamic Metadata
 
@@ -466,7 +489,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Cdk8s
 
   - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4823</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2899cf8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 12 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-2899cf8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
-## Configuration Management (2)
+## Configuration Management (3)
 
 ### Declarative Gitops
 
@@ -503,7 +526,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2026)** [==Pluto is a cli tool to help discover deprecated apiVersions in Kubernetes 🌟==](https://github.com/FairwindsOps/pluto) <span class='md-tag md-tag--info'>⭐ 2531</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1c7cd35b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 7 L 20 12 L 30 4 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-1c7cd35b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An essential static analysis tool that inspects files, Helm releases, and live clusters to detect deprecated or removed Kubernetes API versions. Prevents cluster upgrade disruptions by proactively targeting obsolete resource configurations.
 ## Container Orchestration
 
-### Kubernetes (2)
+### Kubernetes (3)
 
 #### EKS
 
@@ -602,6 +625,15 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Developer Productivity
 
   - **(2025)** [**action-tmate: Debug GitHub Actions via SSH**](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-378402c1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 5 L 30 4 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-378402c1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An essential interactive troubleshooting tool that opens a secure tmate SSH session directly into active GitHub Actions runners, enabling real-time terminal diagnostics of failing pipeline runs.
+#### Enterprise Tooling
+
+  - **(2025)** [PMEase QuickBuild](https://www.pmease.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A powerful commercial build and configuration management tool geared towards large enterprises. Combines high-capacity agents, visual dependency chains, and precise audit trails for legacy and cloud-native workloads.
+### Platform Engineering
+
+#### Kubernetes Management
+
+  - **(2025)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-centric, lightweight PaaS layer running directly on top of Kubernetes. Canine simplifies native container deployments and configurations, reducing cognitive load and shortening inner-loop development iterations.
+  - **(2025)** [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, tool-agnostic application management platform for Kubernetes. Unifies discrete CI/CD workflows, GitOps, observability tooling, and cluster resource debugging into a single visual interface, drastically lowering cognitive load.
 ## DevOps
 
 ### Infrastructure As Code (1)
@@ -621,6 +653,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2026)** [github.com/yannh/kubeconform 🌟](https://github.com/yannh/kubeconform) <span class='md-tag md-tag--info'>⭐ 3066</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-82b84c4b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 13 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-82b84c4b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A ultra-fast, modern Kubernetes manifest validator written in Go, acting as a direct replacement for kubeval. Validates resources against official OpenAPI schemas, automatically caching custom resource definitions (CRDs) in offline environments. Recognized globally as a de facto tool for GitOps CI verification.
 ## Developer Experience (3)
 
+### Ai-assisted Coding
+
+#### Claude Code
+
+  - **(2025)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official hands-on tutorial and demonstration course by Anthropic showing the real-world utility of Claude Code. It covers basic terminal setups, interactive file refactoring, automated git commit orchestration, and contextual testing loops. Highly valuable for teams integrating terminal-based AI agents directly into daily engineering pipelines.
 ### CLI Tools
 
 #### Cluster Discovery
@@ -653,7 +690,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Traffic Management
 
   - **(2022)** [==kubectl-isolate==](https://github.com/yteraoka/kubectl-isolate) <span class='md-tag md-tag--info'>⭐ 10</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7c4b81b5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 6 L 30 8 L 40 13 L 50 9" fill="none" stroke="url(#spark-grad-7c4b81b5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A troubleshooting plugin that temporarily isolates running pods from Service network targets by modifying selector labels. Enables in-depth live diagnostics on broken pod targets without tearing down functional setups.
-### Configuration Management (3)
+### Configuration Management (4)
 
 #### Visual Generators
 
@@ -676,6 +713,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2018)** [==Ko: Easy Go Containers 🌟==](https://github.com/ko-build/ko) <span class='md-tag md-tag--info'>⭐ 8450</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c796ecc4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 4 L 30 12 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-c796ecc4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fast, lightweight container image builder custom-tailored for Go applications. ko builds and publishes images without requiring a local Docker daemon, producing secure, minimal distroless-base images by default.
 ### Inner Loop
 
+#### Development Tools (1)
+
+##### Operators (1)
+
+  - **(2022)** [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Bypasses standard development lifecycles by executing code directly inside Kubernetes environments. It connects local systems directly with cluster networks, eliminating slow container build-and-push cycles.
 #### Manifest Generation (2)
 
   - **(2025)** [**Dekorate**](https://dekorate.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An annotation-based code generation tool that automatically creates Kubernetes manifests (YAML, JSON) during compile time. By decorating Java code directly, developers can emit Deployment, Service, and Ingress templates without leaving their IDEs. While highly convenient for Java-centric shops, it can obscure platform-level complexities that DevOps teams may need to manage externally.
@@ -709,6 +751,18 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 
   - **(2021)** [==KuUI (Kubernetes UI)==](https://github.com/viveksinghggits/kuui) <span class='md-tag md-tag--info'>⭐ 18</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6befbe57" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 9 L 30 11 L 40 10 L 50 10" fill="none" stroke="url(#spark-grad-6befbe57)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental visual management utility designed to make resource visualization intuitive. Aims to help junior developers navigate local clusters by listing deployments, services, and running pod instances clearly.
   - **(2022)** [kubedev 🌟](https://relferreira.github.io/kubedev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A local desktop application wrapper giving developers real-time graphical insights into running local clusters. Simplifies common developer workflows like tailing logs, inspecting port-forwards, and viewing state changes without context-switching.
+## Developer Tooling (2)
+
+### AI Code Assistants
+
+#### Effort Frameworks
+
+  - **(2026)** [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference document outlines the effort metrics and execution paradigms utilized by Cursor's Bugbot tool inside the editor context. It guides development teams in managing priority levels for automated debugging routines across repositories.
+### Developer Knowledge
+
+#### Cheat Sheets
+
+  - **(2025)** [**QuickRef.ME - Quick Reference Cheat Sheets**](https://quickref.me/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — QuickRef.ME offers highly organized cheat sheets covering major programming languages, CLI utilities, databases, and platform architectures. It serves as a rapid reference dashboard that reduces lookup overhead during continuous programming cycles.
 ## Development
 
 ### CICD (7)
@@ -795,7 +849,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 
 ### Diagramming
 
-#### Developer Tooling (2)
+#### Developer Tooling (3)
 
   - **(2026)** [ASCIIFlow](https://asciiflow.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ASCIIFlow is a highly practical, browser-based editor used to design clear, text-based ASCII flowcharts and architecture diagrams. It is widely valued by software engineers and systems architects for embedding clean diagrams directly into markdown readme files, codebases, and configuration headers. This straightforward design utility simplifies collaborative technical documentation across teams.
 ## Edge Computing
@@ -879,7 +933,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Deployment Helpers
 
   - **(2022)** [==github.com/lsdopen/ahoy==](https://github.com/lsdopen/ahoy) <span class='md-tag md-tag--info'>⭐ 78</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-66d47dd3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 3 L 20 12 L 30 8 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-66d47dd3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Ahoy streamlines deployment validation in delivery pipelines by managing Kubernetes manifest configurations. It works as an intermediary script engine to verify configuration structures prior to deployment execution. It helps teams ensure compliance inside automated pipelines.
-### Configuration Management (4)
+### Configuration Management (5)
 
 #### Developer Productivity (1)
 
@@ -995,6 +1049,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Dynamic Scheduling
 
   - **(2023)** [==github.com/nebuly-ai/nos==](https://github.com/nebuly-ai/nos) <span class='md-tag md-tag--info'>⭐ 684</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-02273c02" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 9 L 30 2 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-02273c02)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nos is an advanced GPU optimization platform built for Kubernetes to run AI workloads cost-effectively. It utilizes dynamic resource slicing and scheduling to enable multi-tenant GPU sharing. This reduces hardware idling and increases resource efficiency for LLM and ML training jobs.
+### Hardware
+
+#### GPU Virtualization
+
+  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
 ### IaC Conversion
 
 #### Terraform Integration
@@ -1026,6 +1085,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2025)** [==liqo: Enable dynamic and seamless Kubernetes multi-cluster topologies==](https://github.com/liqotech/liqo) <span class='md-tag md-tag--info'>⭐ 1451</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d1f70df5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 3 L 30 3 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-d1f70df5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A dynamic multi-cluster scaling platform that enables seamless resource sharing and secure overlay peering between disparate clusters. Liqo allows pods to be scheduled onto remote virtual-nodes transparently without complex VPN setups, solving dynamic hybrid-cloud expansion needs.
 ### Networking (1)
 
+#### Fundamentals
+
+##### Service Discovery
+
+  - **(2024)** [**Kubernetes Services and Load Balancing Explained**](https://learnkube.com/kubernetes-services-and-load-balancing) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A contemporary structural breakdown explaining how Kubernetes leverages service endpoints to build abstract load balancing layers. Reviews the operations of kube-proxy in writing local node routing rules and traces how traffic migrates from virtual endpoints to real pod ports.
 #### Ingress
 
 ##### Tooling (2)
@@ -1050,7 +1114,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Rolling Upgrades
 
   - **(2024)** [==RollingUpgrade==](https://github.com/keikoproj/upgrade-manager) <span class='md-tag md-tag--info'>⭐ 138</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ab8cca31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 11 L 30 9 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-ab8cca31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An AWS-integrated upgrade manager operator that coordinates automated rolling restarts and updates of autoscaling group instances. Ensures worker nodes are drained safely and sequentially without causing disruptions to critical services.
-### Platform Engineering
+### Platform Engineering (1)
 
 #### Gitops Platforms
 
@@ -1111,6 +1175,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Hypervisor
 
   - **(2025)** [smartxworks/virtink](https://github.com/smartxworks/virtink) <span class='md-tag md-tag--info'>⭐ 607</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4bd3937c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 8 L 20 10 L 30 2 L 40 6 L 50 13" fill="none" stroke="url(#spark-grad-4bd3937c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Virtink is a cloud-native virtualization operator designed to orchestrate lightweight virtual machines natively inside Kubernetes. Utilizing Cloud-Hypervisor as its backend, it serves as an agile, low-overhead alternative to KubeVirt for building hyper-converged architectures.
+### Windows Containers
+
+#### Guides
+
+  - **(2022)** [loft.sh: Kubernetes on Windows: 6 Life-Saving Tools & Tips](https://www.vcluster.com/blog/kubernetes-on-windows-6-life-saving-tools-and-tips) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A technical resource detailing operational best practices, troubleshooting mechanisms, and performance-tuning tricks for running Windows Server containers on hybrid Kubernetes clusters. It addresses common networking pitfalls (such as Calico or Flannel overlay differences) and resource limitation differences between Linux namespaces and Windows Job Objects. It provides engineering teams with practical tips to facilitate legacy .NET Framework containerization.
 ## Infrastructure and Hardware
 
 ### AIML Infrastructure
@@ -1140,6 +1209,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2024)** [==**kube-opex-analytics** 🌟==](https://github.com/realopslabs/kubeledger) <span class='md-tag md-tag--info'>⭐ 481</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-94cdac06" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 9 L 30 2 L 40 2 L 50 13" fill="none" stroke="url(#spark-grad-94cdac06)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source utility designed to collect and visualize resource allocation analytics across multiple clusters. Evaluates usage histories, helps calculate workload cost distributions, and identifies over-provisioned namespace configurations.
 ## Infrastructure As Code (3)
 
+### CICD (9)
+
+#### Self-hosted Runners
+
+  - **(2025)** [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of Cloud Posse Terraform modules designed to automate secure, dynamically autoscaling self-hosted GitHub Actions runners inside AWS networks, optimization execution speed while keeping compute costs minimal.
 ### Kubernetes Provisioning
 
 #### Migration
@@ -1152,7 +1226,14 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Tooling (3)
 
   - **(2022)** [KubeSurvival 🌟](https://github.com/aporia-ai/kubesurvival) <span class='md-tag md-tag--info'>⭐ 187</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e57532cb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 5 L 30 9 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-e57532cb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A scanning utility that audits existing clusters to determine the absolute cheapest VM instance shapes capable of hosting current workloads. Ensures high-availability parameters and compute requirements are fully met before suggesting migration profiles.
-## Kubernetes (3)
+## Introductory
+
+### Concepts
+
+#### Core Resources
+
+  - **(2021)** [community.suse.com: Stupid Simple Kubernetes — Deployments, Services and Ingresses Explained](https://www.rancher.com/community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a clean, foundational model detailing the relationship between Deployments, Services, and Ingress resources. Explains how these layers work together to manage container replicas, handle traffic distribution, and expose APIs to external users.
+## Kubernetes (4)
 
 ### Aiops
 
@@ -1191,14 +1272,14 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Visualization
 
   - **(2022)** [==github.com/oslabs-beta/oslabs==](https://github.com/oslabs-beta/KubernOcular) <span class='md-tag md-tag--info'>⭐ 65</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b0ab1b58" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 6 L 20 11 L 30 4 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-b0ab1b58)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KubernOcular is an open-source visualizer and troubleshooting tool designed to map and monitor live Kubernetes topologies. It helps operators identify bottlenecks and configuration misalignments by representing workloads and networking rules in an intuitive graphical flow.
-### Platform Engineering (1)
+### Platform Engineering (2)
 
 #### Control Planes
 
   - **(2022)** [salaboy.com: Building platforms on top of Kubernetes: VCluster and Crossplane](https://www.salaboy.com/2022/08/03/building-platforms-on-top-of-kubernetes-vcluster-and-crossplane) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural analysis exploring how to assemble developer platforms using Crossplane for cloud resource provisioning and vcluster for lightweight, isolated virtual control planes. It underscores the modern paradigm of 'Kubernetes as a control plane' rather than just a container orchestrator.
 ## Kubernetes and Container Orchestration
 
-### Platform Engineering (2)
+### Platform Engineering (3)
 
 #### Appops and Gitops
 
@@ -1210,6 +1291,13 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Predictive Scaling
 
   - **(2024)** [github.com/jthomperoo: Predictive Horizontal Pod Autoscaler](https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler) <span class='md-tag md-tag--info'>⭐ 383</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3fc5a7a3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 2 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-3fc5a7a3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced horizontal pod autoscaling extension utilizing forecasting models (such as Holt-Winters and LSTM). Anticipates traffic peaks by analyzing historical system metrics, pre-allocating server compute before traffic reaches the platform.
+## Kubernetes Developer Experience
+
+### Graph-based Dev and Test
+
+#### Garden Documentation
+
+  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 ## Kubernetes Tools
 
 ### General Reference
@@ -1273,7 +1361,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2025)** [github.com/squat/kilo](https://github.com/squat/kilo) <span class='md-tag md-tag--info'>⭐ 2263</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-662e6350" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 3 L 20 4 L 30 6 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-662e6350)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kilo is a cloud-native network CNI overlay built on WireGuard, designed to seamlessly secure cross-cluster networking, hybrid cloud environments, and distributed edge nodes. It allows remote servers to safely communicate within a single unified Kubernetes networking fabric.
 ### Port Forwarding (1)
 
-#### Development Tools (1)
+#### Development Tools (2)
 
   - **(2024)** [omrikiei/ktunnel ⭐](https://github.com/omrikiei/ktunnel) <span class='md-tag md-tag--info'>⭐ 1053</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-497b9127" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 12 L 30 7 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-497b9127)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — KTunnel is a robust reverse-tunneling CLI utility that exposes local development environments to remote Kubernetes clusters. By establishing a secure gRPC-based reverse proxy, it enables remote pods to call APIs running locally on developer machines, facilitating fast integration tests without ingress hurdles.
 ### Proxy and Service Mesh
@@ -1385,6 +1473,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2021)** [uw-labs.github.io: Kubernetes Semaphore: A modular and nonintrusive framework' for cross cluster communication](https://uw-labs.github.io/blog/kubernetes,/multicluster/2021/07/21/kube-semaphore-intro.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modular, non-intrusive framework facilitating cross-cluster orchestration and synchronized tasks. It addresses inter-cluster resource coordination without requiring deep, heavy service meshes or persistent site-to-site VPN tunnels.
 ## Networking and Security
 
+### Access Control (1)
+
+#### Identity Gateways
+
+  - **(2026)** [==Teleport 🌟==](https://github.com/gravitational/teleport) <span class='md-tag md-tag--info'>⭐ 20488</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-488a2fb0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 9 L 20 12 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-488a2fb0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-protocol infrastructure access gateway. Teleport consolidates SSH, database, web app, and Kubernetes API session access into an audited, identity-backed portal with detailed record-keeping, biometric integration, and enterprise access reviews.
 ### Admission Control (3)
 
 #### DNS Configuration
@@ -1488,7 +1581,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2021)** [==kmoncon==](https://github.com/Stono/kconmon) <span class='md-tag md-tag--info'>⭐ 287</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-00ea238d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 13 L 30 11 L 40 13 L 50 13" fill="none" stroke="url(#spark-grad-00ea238d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[NODE.JS CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A connection monitoring tool that tests internal and external cluster connectivity paths actively from the inside out. Dispatches continuous diagnostics metrics to trace latency, DNS resolution, and structural network failures across namespaces.
 ### Dashboards
 
-#### Developer Tooling (3)
+#### Developer Tooling (4)
 
   - **(2023)** [==vmware-tanzu/octant==](https://github.com/vmware-archive/octant) <span class='md-tag md-tag--info'>⭐ 6247</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-748690fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 2 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-748690fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Octant was an open-source, extensible developer dashboard designed to visualize local and remote Kubernetes cluster states, resource dependencies, and logs. Project development was officially archived in 2023 as developers shifted to other open-source or commercial alternatives like Lens, OpenLens, and K9s.
 ### Debugging (1)
@@ -1496,6 +1589,9 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### CLI Extensions
 
   - **(2021)** [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 373</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-582e5a31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 13 L 30 7 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-582e5a31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kubectl plugin designed to launch temporary debugging containers within a target pod namespace. Streamlines manual container introspection prior to the widespread adoption of native ephemeral containers.
+#### CLI Operations
+
+  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
 #### Ebpf
 
   - **(2025)** [**inspektor-gadget/inspektor-gadget**](https://github.com/inspektor-gadget/inspektor-gadget) <span class='md-tag md-tag--info'>⭐ 2846</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-37415f61" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 8 L 20 5 L 30 12 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-37415f61)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced eBPF-based debugging and observability framework for Kubernetes clusters. It instruments system calls, network flows, and filesystem activities directly at the kernel level without injecting sidecars, delivering low-overhead runtime inspection and security auditing.
@@ -1824,7 +1920,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Visualizer
 
   - **(2021)** [sciuro](https://github.com/cloudflare/sciuro) <span class='md-tag md-tag--info'>⭐ 180</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-83fbf11b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 3 L 20 12 L 30 3 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-83fbf11b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental graphical interface developed by Cloudflare to visualize Kubernetes workloads, cluster nodes, and networking paths in real time. It was designed to highlight resource topology and mapping structures. In 2026, the repository is unmaintained but serves as an informative architectural archetype for web UI mapping.
-### Platform Engineering (3)
+### Platform Engineering (4)
 
 #### Control Planes (1)
 
@@ -1957,6 +2053,13 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Stress Testing
 
   - **(2021)** [openshift: Introducing kube-burner, A tool to Burn Down Kubernetes and OpenShift 🌟](https://www.redhat.com/en/blog/introducing-kube-burner-a-tool-to-burn-down-kubernetes-and-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official announcement and architectural breakdown of kube-burner. It covers how the tool enables platform engineers to benchmark OpenShift and standard Kubernetes cluster limits by automating mass resource creation and metric collection.
+## Performance Engineering
+
+### Kubernetes Optimization
+
+#### Autonomous Tuning
+
+  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
 ## Platform
 
 ### Application Platform
@@ -1969,7 +2072,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Cloud Foundry
 
   - **(2022)** [cf-for-k8s](https://github.com/cloudfoundry/cf-for-k8s) <span class='md-tag md-tag--info'>⭐ 292</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-76cd91f5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 4 L 20 9 L 30 7 L 40 2 L 50 2" fill="none" stroke="url(#spark-grad-76cd91f5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An implementation of Cloud Foundry designed to run natively on Kubernetes, blending the Cloud Foundry developer experience (cf push) with Kubernetes infrastructure. By 2026, this repository is archived as Cloud Foundry has transitioned its Kubernetes strategy toward more modular tools (like Korifi), rendering this specific integrated project a legacy reference.
-## Platform Engineering (4)
+## Platform Engineering (5)
 
 ### Application Delivery (2)
 
@@ -2029,6 +2132,9 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2023)** [==Agorakube==](https://github.com/ilkilab/agorakube) <span class='md-tag md-tag--info'>⭐ 98</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ec39f5d2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 3 L 30 11 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-ec39f5d2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Kubernetes engine dedicated to automating production-ready installations over bare metal setups. Streamlines storage provisioning, load balancing integrations, and upgrades across dedicated offline data center runtimes.
 ### Internal Developer Platforms (1)
 
+#### Architecture
+
+  - **(2024)** [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes five primary use cases of Internal Developer Platforms (IDPs). Highlights automated environment provisioning, self-service continuous delivery pipelines, unified application configuration, access management, and infrastructure observability to optimize the developer experience.
 #### Frameworks (1)
 
   - **(2026)** [syntasso/kratix](https://github.com/syntasso/kratix) <span class='md-tag md-tag--info'>⭐ 753</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-79fe1bc1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 13 L 30 6 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-79fe1bc1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kratix is a modular framework built to help platform engineering teams construct customized Internal Developer Platforms (IDPs). Using the concept of 'Promises', it permits engineers to define declarative APIs that generate multi-step orchestration workflows across multiple infrastructure planes. Grounding showcases its fast-growing appeal for companies seeking to build bespoke self-service capabilities without locking into heavy commercial portals.
@@ -2063,7 +2169,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2020)** [==open-cluster-management.io==](https://open-cluster-management.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open Cluster Management (OCM) is a modular, extensible CNCF project designed to orchestrate fleets of Kubernetes clusters at scale. It defines standardized API abstractions for cluster registration, application deployment policies, and compliance management.
 ### Multi-tenancy (3)
 
-#### Policy Enforcement
+#### Policy Enforcement (1)
 
   - **(2020)** [==platformengineering.org/tools/capsule ⭐==](https://platformengineering.org/tools/capsule) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Capsule provides native multi-tenancy in single Kubernetes clusters by implementing lightweight tenant abstractions. Operating as a custom operator, it manages namespaces without replacing standard Kubernetes APIs or creating separate control planes. It is highly valued for enforcing governance limits in shared enterprise platforms.
 ### Service Mesh Management
@@ -2105,7 +2211,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 
 #### Performance Benchmarking
 
-##### Operators (1)
+##### Operators (2)
 
   - **(2024)** [==cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks==](https://github.com/cloud-bulldozer/benchmark-operator) <span class='md-tag md-tag--info'>⭐ 305</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-94be6cd9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 4 L 20 6 L 30 3 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-94be6cd9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automates heavy performance testing (e.g., FIO, uperf) within active clusters. It deploys targets, isolates benchmark metrics, and exports execution data to visualization layers.
 ## Resource Management (1)
@@ -2156,7 +2262,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2024)** [Azure/placement-policy-scheduler-plugins](https://github.com/Azure/placement-policy-scheduler-plugins) <span class='md-tag md-tag--info'>⭐ 55</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d7ccb3ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 13 L 30 2 L 40 4 L 50 8" fill="none" stroke="url(#spark-grad-d7ccb3ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This repository contains custom scheduling plugins for the Kubernetes default scheduler, built by Azure. They implement advanced scheduling topologies like strict fault-domain placement, proximity-based scheduling, and specialized multi-tenant constraints, providing deep scheduling control for hyperscale enterprise architectures.
 ## Security (1)
 
-### Access Control (1)
+### Access Control (2)
 
 #### RBAC Audit
 
@@ -2185,7 +2291,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Proxy
 
   - **(2023)** [kube-oidc-proxy](https://github.com/jetstack/kube-oidc-proxy) <span class='md-tag md-tag--info'>⭐ 476</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eda2eded" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 3 L 30 9 L 40 9 L 50 11" fill="none" stroke="url(#spark-grad-eda2eded)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A reverse proxy that adds OIDC authentication to managed Kubernetes clusters (e.g., EKS, GKE, AKS) where modifying API server flags directly is restricted. It intercepts incoming API server requests, validates the OIDC token, and impersonates the user utilizing Kubernetes user impersonation headers. Active through 2026, it serves as a critical bridge for enterprise security compliance on managed platforms.
-### CICD (9)
+### CICD (10)
 
 #### Identity and Access (1)
 
@@ -2237,7 +2343,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### LDAP Authentication
 
   - **(2018)** [vbouchaud/k8s-ldap-auth](https://github.com/HopopOps/k8s-ldap-auth) <span class='md-tag md-tag--info'>⭐ 54</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-720c350b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 11 L 30 9 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-720c350b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Kubernetes webhook authentication service interfacing directly with external LDAP/Active Directory engines. It maps LDAP group memberships into Kubernetes groups for clean RBAC authorization.
-#### Operators (2)
+#### Operators (3)
 
   - **(2026)** [github.com/reddec/keycloak-ext-operator](https://github.com/reddec/keycloak-ext-operator) <span class='md-tag md-tag--info'>⭐ 23</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d80e833" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 4 L 30 12 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-0d80e833)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Keycloak-ext-operator is a targeted community operator designed to manage key Identity and Access Management (IAM) configurations in Keycloak deployments. It simplifies administrative overhead by mapping custom Keycloak resources, users, and clients directly to Kubernetes manifests. Platform engineers utilize it to configure microservice authentication within declarative pipelines.
 #### RBAC
@@ -2252,6 +2358,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 
   - **(2026)** [==Azure/azure-workload-identity==](https://github.com/Azure/azure-workload-identity) <span class='md-tag md-tag--info'>⭐ 333</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7cb1e95" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 5 L 30 5 L 40 10 L 50 13" fill="none" stroke="url(#spark-grad-f7cb1e95)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Azure Workload Identity is the modern, enterprise-standard mechanism for mapping Kubernetes Service Accounts to Azure Active Directory (Microsoft Entra ID) managed identities. Utilizing OIDC federation, it eliminates the need for storing cloud credentials in Kubernetes secrets. It has fully replaced the deprecated aad-pod-identity architecture.
   - **(2024)** [Azure/aad-pod-identity)](https://github.com/Azure/aad-pod-identity) <span class='md-tag md-tag--info'>⭐ 560</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3cf7ff4a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 7 L 30 12 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-3cf7ff4a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Azure Active Directory Pod Identity (aad-pod-identity) was the original framework used to assign Azure AD identities to pods. Due to scaling limits and reliance on intercepting IMDS traffic (NMI daemonset), it has been completely deprecated and replaced by the highly-efficient, OIDC-based azure-workload-identity controller.
+### Kubernetes Security (1)
+
+#### Admission Controllers (1)
+
+  - **(2022)** [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference manual for the Banzai Cloud Kubernetes Vault Webhook. Explains mutating webhook mechanics that intercept pod creation to inject secure credentials into environment variables at runtime, using an in-memory execution wrapper to eliminate the need for persistent agent containers.
 ### Manifest Validation
 
 #### Linting
@@ -2279,7 +2390,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 ##### Legacy Tools (1)
 
   - **(2018)** [==box/kube-exec-controller==](https://github.com/box/kube-exec-controller) <span class='md-tag md-tag--info'>⭐ 126</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-21605944" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 9 L 30 6 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-21605944)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Controller to restrict and audit shell execution inside Kubernetes pods. Live Grounding: Inactive for over five years. Superseded by newer ephemeral container mechanics, admission controllers (OPA/Kyverno), and modern service mesh execution boundaries.
-### Policy Enforcement (1)
+### Policy Enforcement (2)
 
 #### Admission Control (5)
 
@@ -2312,6 +2423,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2026)** [rene6502/keepass-secret](https://github.com/rene6502/keepass-secret) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-57fb031c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 10 L 30 11 L 40 5 L 50 9" fill="none" stroke="url(#spark-grad-57fb031c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — KeePass-Secret is a specialized Kubernetes operator designed to synchronize secret data directly from a secure KeePass database into native K8s secrets. By mapping database paths to target configurations, it helps teams centralize configuration files offline while automating cluster injection. The tool is highly suitable for homelab architectures and secure developer environments.
 ### Secrets Management
 
+#### AWS Integration
+
+##### Operators (4)
+
+  - **(2021)** [contentful.com: Open-sourcing kube-secret-syncer: A Kubernetes operator to sync secrets from AWS Secrets Manager](https://www.contentful.com/blog/open-source-kube-secret-syncer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review describing the open-sourcing of kube-secret-syncer. The tool synchronizes secrets dynamically from AWS Secrets Manager to Kubernetes namespaces, removing manual config synchronization overhead.
 #### GCP Secret Manager
 
   - **(2021)** [jenkins-x/gsm-controller](https://github.com/jenkins-x/gsm-controller) <span class='md-tag md-tag--info'>⭐ 25</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-28ca7fb8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 3 L 30 10 L 40 13 L 50 13" fill="none" stroke="url(#spark-grad-28ca7fb8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated controller that continuously synchronizes secrets stored inside Google Secret Manager into standard Kubernetes native secret resources. Designed for Jenkins X deployments, it ensures consistent local availability of external cloud-backed credentials.
@@ -2406,7 +2522,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Penetration Testing
 
   - **(2021)** [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This resource is an introductory educational article outlining the core principles, methodologies, and phases of penetration testing. It serves as a foundational guide for engineers transitioning into security-conscious infrastructure architectures.
-### Policy Enforcement (2)
+### Policy Enforcement (3)
 
 #### Educational Material (5)
 
@@ -2443,7 +2559,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 
   - **(2026)** [==Checkov 🌟==](https://github.com/bridgecrewio/checkov) <span class='md-tag md-tag--info'>⭐ 8790</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e890e64a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 7 L 30 12 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-e890e64a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Checkov is a static code analysis tool for Infrastructure as Code (IaC) that scans Kubernetes manifests, Helm charts, Terraform, and cloud-provider templates for misconfigurations and security risks, acting as a critical CI/CD gatekeeper.
   - **(2020)** [sKan](https://github.com/alcideio/skan) <span class='md-tag md-tag--info'>⭐ 204</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f9bb6890" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 6 L 20 13 L 30 5 L 40 8 L 50 2" fill="none" stroke="url(#spark-grad-f9bb6890)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — sKan (by Alcide) was an early static analysis tool for scanning configuration files and Helm charts to discover security vulnerabilities. It has since been archived, with modern platforms choosing robust, active alternatives such as Checkov.
-### Configuration Management (5)
+### Configuration Management (6)
 
 #### Backup Tools
 
@@ -2468,6 +2584,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2025)** [**Direktiv**](https://github.com/direktiv/direktiv) <span class='md-tag md-tag--info'>⭐ 492</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fabd5576" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 13 L 30 9 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-fabd5576)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Direktiv is an event-driven container-based workflow engine that runs natively on Kubernetes. It utilizes gRPC, Knative, and serverless containers to coordinate complex operational workflows, orchestrating microservices through a JSON/YAML-defined state machine. Direktiv is highly efficient for enterprise automation, security orchestrations, and CI/CD pipelines.
 ## Software Engineering
 
+### Command-line Utilities
+
+#### Terminal Emulators
+
+  - **(2026)** [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern, Rust-based terminal emulator incorporating AI agent assistance directly into the command-line interface. Reimagines input fields like text editors, supports real-time workspace collaboration, and native context-sharing for accelerated platform ops troubleshooting.
 ### Database Management
 
 #### Model Context Protocol
@@ -2492,6 +2613,9 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Backup and Replication
 
   - **(2026)** [==VolSync 🌟==](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 978</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8702f91" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 7 L 30 8 L 40 11 L 50 4" fill="none" stroke="url(#spark-grad-c8702f91)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — VolSync is an open-source Kubernetes operator developed by Backube to orchestrate cross-cluster persistent volume data replication. Supporting engines like rsync, rclone, and restic, it delivers a platform-agnostic framework for executing disaster recovery policies.
+#### Benchmarking (2)
+
+  - **(2026)** [kubestr.io](https://kubestr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubestr is an open-source CLI toolkit engineered to auto-discover, inspect, and benchmark persistent storage configurations within a Kubernetes cluster. By running in-cluster FIO test cases, it provides architects with validated throughput and latency metrics for active storage configurations.
 #### Glusterfs Orchestration
 
   - **(2026)** [==Kadalu==](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 748</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f2c7d9d9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 9 L 30 13 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-f2c7d9d9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kadalu is a lightweight, container-native storage solution that utilizes GlusterFS to orchestrate persistent volumes inside Kubernetes. It runs storage services inside application pods as microservices, offering a lightweight alternative to external GlusterFS cluster configurations.
@@ -2593,7 +2717,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2020)** [github.com/alexellis/run-job](https://github.com/alexellis/run-job) <span class='md-tag md-tag--info'>⭐ 211</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fdd899b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 7 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-fdd899b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented utility written in Go to quickly trigger Kubernetes Jobs, track execution statuses, and stream execution logs directly to stdout. Simplifies local workflow testing and diagnostic debugging.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md) | [DevOps Tools](./devops-tools.md)
 
-🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
 

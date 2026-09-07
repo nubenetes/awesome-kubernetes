@@ -33,6 +33,13 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 #### Site Reliability Engineering
 
   - **(2021)** [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.redhat.com/en/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses the operational and structural evolution of Red Hat's OpenShift Dedicated SRE team. Documents the shift from classic system administration to an automation-first SRE model to govern fleet-scale, multi-tenant Kubernetes platforms at high availability.
+## Cloud Native
+
+### Kubernetes
+
+#### Progressive Delivery
+
+  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Continuous Delivery
 
 ### Feature Management
@@ -178,7 +185,7 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
 
 ---
-💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Testops](./testops.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

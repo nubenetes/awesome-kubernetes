@@ -11,11 +11,6 @@ description: "Top OCP 3 resources for 2026, AI-ranked: Gradle Cheat Sheets, **Ku
 
 ## App Development
 
-### Frontend
-
-#### Continuous Delivery
-
-  - **(2019)** [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details clean patterns for deploying Angular-based web applications on OpenShift. Demonstrates injecting environment variables at container start time instead of packaging distinct, static bundles for each target environment.
 ### Packaging
 
 #### Helm Charts
@@ -153,7 +148,7 @@ description: "Top OCP 3 resources for 2026, AI-ranked: Gradle Cheat Sheets, **Ku
   - **(2018)** [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineers through configuring ASP.NET Core microservices with end-to-end TLS encryption on OpenShift. Discusses dynamic integration of local server certificates using OpenShift's service serving certificates feature.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

@@ -9,14 +9,6 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 !!! info "Architectural Context"
     Detailed reference for Client Libraries for Kubernetes in the context of The Container Stack.
 
-## App Development
-
-### Java
-
-#### Kubernetes Clients
-
-  - **(2020)** [Fabric8](https://fabric8.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Fabric8 historically offered a comprehensive development and integration platform for Kubernetes. While its global platform features have been deprecated or superseded, its core libraries and Eclipse JKube build helpers continue to be vital utilities in Java environments.
-  - **(2020)** [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide to implementing JVM program orchestration on Kubernetes clusters using the Fluent API of the Fabric8 Kubernetes Java Client. The framework supports seamless resource state management, custom resources (CRDs), and secure API server interactions.
 ## Cloud Native and Kubernetes
 
 ### CLI Development
@@ -108,7 +100,7 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
   - **(2021)** [blog.marcnuri.com](https://blog.marcnuri.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis of Eclipse JKube 1.4.0 improvements, focusing on streamlined Helm chart compilation, upgraded core API clients, and enhanced native build properties for container engines.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

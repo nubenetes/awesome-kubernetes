@@ -86,7 +86,7 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
   - **(2026)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
 
 ---
-💡 **Explore Related:** [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Testops](./testops.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

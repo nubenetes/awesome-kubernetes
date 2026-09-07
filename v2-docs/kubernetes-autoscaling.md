@@ -17,20 +17,6 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 
   - [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Scale to Zero With Kubernetes with KEDA and/or Knative in the Kubernetes Tools ecosystem.
   - [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Autoscaling Your Kubernetes Microservice with KEDA in the Kubernetes Tools ecosystem.
-## Architecture
-
-### Design Patterns
-
-#### Sidecar Pattern
-
-  - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how native sidecar containers (introduced in K8s 1.28) redefine load-testing execution. By decoupling helper utilities from core application workloads, sidecars simplify performance benchmarking and operational telemetry.
-## Finops and Cloud Cost
-
-### Kubernetes Finops
-
-#### Foundational Concepts
-
-  - **(2022)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.
 ## Infrastructure and Platform
 
 ### Autoscaling (1)
@@ -150,16 +136,9 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 #### Vertical Scaling
 
   - **(2020)** [returngis.net: Escalado vertical de tus pods en Kubernetes con VerticalPodAutoscaler](https://www.returngis.net/2020/07/escalado-vertical-de-tus-pods-en-kubernetes) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish-language guide implementing the Vertical Pod Autoscaler. Clearly describes how VPA monitors real-world resource consumption and mutates deployment manifests to align requests with live execution metrics.
-## Operations
-
-### Managed Services
-
-#### Performance Benchmarking
-
-  - **(2023)** [symbiosis.host: Benchmarking cluster creation time for 8 managed Kubernetes providers](https://symbiosis.host)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative performance study evaluating cluster provisioning latency across eight prominent cloud providers (such as AWS EKS, GCP GKE, Azure AKS, DigitalOcean, and Symbiosis). Tracks control plane bootstrap speed, node joining times, and API availability to guide DevOps teams in emergency scale-out or dynamic environment workflows.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

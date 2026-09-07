@@ -54,6 +54,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
   - **(2022)** [tetrate.io: Using Istio Service Mesh as API Gateway 🌟](https://tetrate.io/blog/istio-service-mesh-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates how the Istio Ingress Gateway can function as a high-performance API Gateway at the Kubernetes cluster edge. Details Envoy configurations for managing rate limiting, TLS termination, and request transformation without extra software.
 #### AWS
 
+  - **(2022)** [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Live Grounding Synthesis: Built on Envoy as AWS's managed service mesh, AWS App Mesh was deprecated in late 2024 and fully sunsetted. Platform teams are urged to transition to Amazon ECS Service Connect or Amazon VPC Lattice.
   - **(2019)** [allthingsdistributed.com: Redefining application communications with AWS App Mesh](https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy AWS announcement outlining the target benefits of AWS App Mesh's initial launch. Provides historical context on integrating application networking across AWS ECS, EKS, and EC2, which is now deprecated.
 #### Architecture
 
@@ -75,7 +76,6 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
 #### Openshift
 
   - **(2022)** [==github.com: Maistra Istio==](https://github.com/maistra/istio) <span class='md-tag md-tag--info'>⭐ 94</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-13d7f9b5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 2 L 30 10 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-13d7f9b5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub repository for Maistra's modified Istio control plane code. Optimized for multi-tenancy support, advanced security policies, and tight integration within OpenShift environments.
-  - **(2022)** [Maistra.io](https://maistra.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation and portal hub for Maistra, a customized OpenShift-centric distribution of Istio. Enhances core Istio upstream distributions with multi-tenant control, platform-specific operators, and seamless integration with Red Hat identity frameworks.
 #### Operations
 
   - **(2021)** [solo.io: Upgrading Istio without Downtime](https://www.solo.io/blog/upgrading-istio-without-downtime)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide focusing on executing risk-free, canary-based control plane upgrades of Istio. Details how to run multiple side-by-side versions of `istiod` and progressively update namespace labels to migrate workloads without downtime.
@@ -99,6 +99,14 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
 #### Tutorials
 
   - **(2022)** [freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices 🌟](https://www.freecodecamp.org/news/learn-istio-manage-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured, end-to-end tutorial designed to teach engineers how to deploy, monitor, and secure microservices using Istio. Covers key topics including canary releases, distributed tracing integration, and mutual TLS configuration.
+  - **(2022)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive implementation roadmap designed to guide engineering teams through the planning, deployment, and optimization stages of building an enterprise-grade Istio platform from the ground up.
+## Container Orchestration
+
+### AKS Labs
+
+#### Hands-on Learning
+
+  - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
 ## Continuous Delivery
 
 ### Gitops
@@ -115,6 +123,13 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
 ##### Egress Traffic
 
   - **(2019)** [==monzo.com: Controlling outbound traffic from Kubernetes==](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the technical execution of isolating and managing external network endpoints from within a production Kubernetes banking cluster. Features strategies on proxy security, dynamic firewall rule sets, and compliance monitoring.
+## Networking (1)
+
+### Service Mesh (3)
+
+#### Ebpf Vs Proxy
+
+  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
 ## Observability
 
 ### Continuous Profiling
@@ -138,13 +153,13 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
 #### Visualization
 
   - **(2026)** [Kibana](https://www.elastic.co/kibana) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The industry-standard data visualization and exploration dashboard designed specifically for Elastic Stack and OpenSearch engines. Enables deep analytical queries, log visualization, machine learning anomalies detection, and application performance monitoring (APM) reporting.
-### Service Mesh (3)
+### Service Mesh (4)
 
 #### Visualization (1)
 
   - **(2023)** [==github.com: kiali==](https://github.com/kiali/kiali) <span class='md-tag md-tag--info'>⭐ 3617</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7a0acd1b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 2 L 30 9 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-7a0acd1b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The source repository for Kiali, an indispensable observability dashboard. Provides real-time interactive topologies, configuration validation, and native wizard-based creations of complex traffic routing mechanisms directly within Istio.
   - **(2022)** [kiali.io](https://kiali.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Kiali, the primary management and visualization console for Istio. Delivers dynamic physical and logical topology maps, active health metrics, and direct configurations diagnostic tracking.
-## Service Mesh (4)
+## Service Mesh (5)
 
 ### Architecture (1)
 
@@ -166,7 +181,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
 #### Architecture (2)
 
   - **(2023)** [istio.io: Learn Microservices using Kubernetes and Istio 🌟](https://istio.io/latest/docs/examples/microservices-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official tutorial illustrating how to orchestrate multi-language microservices inside Kubernetes using Istio to handle service discovery, fault injection, and dynamic traffic routing.
-### Networking (1)
+### Networking (2)
 
 #### API Gateway (2)
 
@@ -180,7 +195,6 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
 #### Traffic Management (2)
 
   - **(2026)** [==github.com: Istio==](https://github.com/istio/istio) <span class='md-tag md-tag--info'>⭐ 38217</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e09e6060" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 13 L 30 2 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e09e6060)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Main repository containing Istio's unified control plane (Istiod) and orchestration engines. Configures secure high-performance Envoy proxies as sidecars (or in ambient mode) to manage ingress, egress, and mutual TLS.
-  - **(2026)** [Istio.io](https://istio.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home of the de facto standard open-source service mesh. Implements a uniform plane for managing, securing, and routing microservices traffic across hybrid cloud container clusters.
 #### Troubleshooting
 
   - **(2021)** [karlstoney.com: Istio 503's with UC's and TCP Fun Times](https://karlstoney.com/istio-503s-ucs-and-tcp-fun-times) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-impact technical case study investigating intermittent HTTP 503 errors and connection closure (UC) challenges under high TCP load inside Istio service meshes. Excellent deep-dive into sidecar race conditions.
@@ -210,7 +224,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and
   - **(2023)** [redhat-scholars: istio-tutorial 🌟](https://github.com/redhat-scholars/istio-tutorial) <span class='md-tag md-tag--info'>⭐ 1206</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d267da7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 4 L 30 10 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-0d267da7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive scenario-driven learning path designed by Red Hat. Covers service deployment, routing, traffic splitting, canary deployments, circuit breakers, and advanced security models using Envoy.
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Caching](./caching.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

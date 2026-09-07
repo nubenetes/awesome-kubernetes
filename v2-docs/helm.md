@@ -1,5 +1,5 @@
 ---
-description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and more — curated Cloud Native tools, guides and references."
+description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and more — curated Cloud Native tools, guides and references."
 ---
 # Helm Kubernetes Tool
 
@@ -87,7 +87,6 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2020)** [helm.sh: How to migrate from Helm v2 to Helm v3](https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Standardized blueprint detailing the technical steps to transition environments from Helm v2 to Helm v3. Focuses on state-store conversion (ConfigMaps/Secrets), Tiller cleanup, and avoiding release disruption during metadata migrations.
 ##### Introductory
 
-  - **(2021)** [harness.io: Introduction to Helm: Charts, Deployments, & More 🌟](https://www.harness.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-impact breakdown of Helm core components including Chart.yaml, value overriding mechanics, and templating practices. Details how modern continuous delivery engines natively incorporate Helm to optimize release logic.
   - **(2021)** [freecodecamp.org: What is a Helm Chart? A Tutorial for Kubernetes Beginners](https://www.freecodecamp.org/news/what-is-a-helm-chart-tutorial-for-kubernetes-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive beginner tutorial exploring Helm fundamentals. Translates Kubernetes packaging logic into relatable analogies and guides developers through editing templates and launching basic infrastructure releases.
   - **(2021)** [thedeveloperstory.com: Helm 101: Brief introduction to kubernetes package manager](https://thedeveloperstory.com/2021/07/12/helm-101-brief-introduction-to-kubernetes-package-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fundamental introduction outlining the role of Helm in managing the complexity of Kubernetes infrastructure. Discusses key files (values.yaml, templates directory) and common installation command sequences.
   - **(2021)** [mattias.engineer/courses/kubernetes/helm: Kubernetes-101: Helm 🌟](https://mattias.engineer/courses/kubernetes/helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive instructional module exploring basic and intermediate Helm tasks. Integrates localized labs covering chart structuring, release revisions management, and customized CLI command execution.
@@ -128,9 +127,12 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
 ##### Jenkins
 
   - **(2021)** [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates rapid bootstrap of a Jenkins-driven CI/CD workflow utilizing Helm charts for packaging. Showcases how automation systems leverage the Helm CLI to rapidly package, version, and deploy builds into target namespaces.
+##### Red Hat Openshift (1)
+
+  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Enterprise Platforms
 
-#### Red Hat Openshift (1)
+#### Red Hat Openshift (2)
 
 ##### Certifications
 
@@ -184,13 +186,6 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
 #### Operator Perspectives
 
   - **(2021)** [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural reflection detailing key developer-centric shifts encountered when adapting to Kubernetes environments. It explores paradigms like declarative APIs, container-first test loops, and how platform engineers must redefine application boundaries in microservice environments.
-## Infrastructure As Code
-
-### Helm (3)
-
-#### Prometheus Deployment
-
-  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
 ## Kubernetes Tools
 
 ### General Reference
@@ -280,6 +275,9 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
 #### Java Microservices
 
   - **(2022)** [openshift.com: Introducing the Quarkus Helm Chart](https://www.redhat.com/en/blog/introducing-the-quarkus-helm-chart) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction detailing the design of the Quarkus Helm Chart, optimized for cloud-native Java microservices. It highlights native compiling integrations, GraalVM deployment profiles, and how to harness OpenShift pipelines for highly efficient container bootstrapping.
+#### Learning Hubs
+
+  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
 #### Legacy Charts
 
   - **(2020)** [==Jenkins==](https://github.com/helm/charts/tree/master/stable/jenkins) <span class='md-tag md-tag--info'>⭐ 15424</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0436d7b7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 9 L 30 13 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-0436d7b7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The deprecated stable Helm chart repository for Jenkins. It is strongly recommended to avoid this legacy version, as active development and security patches have transitioned exclusively to the official Jenkins community repository on Artifact Hub.
@@ -312,7 +310,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
+💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
 

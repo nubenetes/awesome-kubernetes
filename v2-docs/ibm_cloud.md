@@ -70,7 +70,7 @@ description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native a
   - **(2019)** [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how IBM brought containerization architectures (like z/OS Container Extensions) to its zSystems mainframes. Live Grounding confirms this as a key modernization vector, enabling developers to build and test mainframe workloads using Git-driven Docker/Kubernetes workflows.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

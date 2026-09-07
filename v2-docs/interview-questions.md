@@ -176,7 +176,7 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2021)** [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Broad UI automation preparation set evaluating Selenium WebDriver API combined with TestNG assertions. Covers dynamic wait mechanisms, Page Object Pattern configurations, and multi-thread test runs.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Recruitment](./recruitment.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Finops](./finops.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

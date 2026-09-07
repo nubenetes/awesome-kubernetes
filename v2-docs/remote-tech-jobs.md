@@ -16,13 +16,6 @@ description: "Curated, AI-ranked Remote Tech Jobs resources for the 2026 Cloud N
 #### General Reference
 
   - [landing.jobs: How does remote work affect your salary?](https://landing.jobs/blog/how-does-remote-work-affect-your-salary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering landing.jobs: How does remote work affect your salary? in the Kubernetes Tools ecosystem.
-## Career Development
-
-### Market Trends
-
-#### Salary Analytics
-
-  - **(2022)** [kube.careers: Kubernetes jobs market trends for 2022 Q4](https://kube.careers)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides end-of-year 2022 hiring telemetry. Synthesizes standard prerequisites for engineering levels, emphasizing the transformation of Kubernetes knowledge from a specialized 'plus' to a fundamental baseline requirement across software engineering roles.
 ## Organizational Culture
 
 ### Remote Work
@@ -49,7 +42,7 @@ description: "Curated, AI-ranked Remote Tech Jobs resources for the 2026 Cloud N
   - **(2021)** [esquire.com: ¿Por qué tu empresa no quiere que teletrabajes?](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight outlines corporate motivations driving return-to-office (RTO) mandates. Live Grounding shows that post-2024, many enterprises instituted hybrid policies, but high-tier engineering talent continues to strongly favor asynchronous, geographically distributed operational environments.
 
 ---
-💡 **Explore Related:** [Interview Questions](./interview-questions.md) | [HR](./hr.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [Finops](./finops.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

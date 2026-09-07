@@ -1,5 +1,5 @@
 ---
-description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, JKube and more — curated Cloud Native tools, guides and references."
+description: "Top Maven Gradle resources for 2026, AI-ranked: SdkMan, JBang and more — curated Cloud Native tools, guides and references."
 ---
 # Maven, Gradle and SDKMAN
 
@@ -76,6 +76,18 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, JKube and m
 
   - **(2026)** [howtodoinjava.com/maven](https://howtodoinjava.com/maven) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-fidelity educational portal providing step-by-step technical guides, plugin configuration snippets, and architecture blueprints for building robust Maven-based Java workloads.
   - **(2020)** [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step foundational tutorial covering Project Object Model configuration, standard lifecycle phases, dependency management, and Eclipse integration patterns.
+## CICD
+
+### Jenkins
+
+#### Parallel Pipelines
+
+  - **(2021)** [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical guide illustrating how to build a Maven project against multiple JDKs simultaneously using Jenkins parallel stages. Live Grounding highlights its architectural utility for modern engineering, ensuring system backward-compatibility and multi-runtime reliability during pipeline validation.
+#### SDKMAN
+
+##### Docker Integration
+
+  - **(2021)** [**Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟**](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This tutorial explains how to use SDKMAN! inside a Docker container within a Jenkins Declarative Pipeline to build Java projects using different compiler versions. Live Grounding highlights its architectural value, eliminating the need to maintain distinct runner VMs or complex custom Dockerfiles for each target JDK configuration.
 ## Cloud Providers
 
 ### Openshift and Redhat
@@ -89,6 +101,9 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, JKube and m
 
 #### Eclipse Jkube
 
+##### Developer Workflow
+
+  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
 ##### Migration
 
   - **(2020)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The official Eclipse foundation migration documentation for moving from Fabric8 to JKube. Live Grounding confirms this is the authoritative reference for modifying existing POM.xml profiles, aligning configuration namespaces, and preserving legacy custom templates under the new JKube APIs.
@@ -131,13 +146,11 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, JKube and m
 
   - **(2015)** [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early-era developer's log exploring task setups in Gradle. Live Grounding confirms its value is now purely historical, documenting the community transition away from rigid, XML-heavy Maven structures towards flexible, code-based build files.
   - **(2026)** [==gradle.org==](https://gradle.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary landing portal for Gradle, a high-performance, open-source build automation system. Live Grounding confirms Gradle's position as a dominant enterprise build engine, optimizing multi-project build caching, incremental compilation, and providing highly flexible Groovy and Kotlin DSL structures.
-## Developer Experience
+### Environment Management
 
-### Inner Loop
+#### SDKMAN (1)
 
-#### Maven Integration
-
-  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
+  - **(2026)** [==SdkMan==](https://sdkman.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The homepage for SDKMAN!, a command-line tool designed to manage parallel versions of multiple Software Development Kits, with a strong focus on the JVM ecosystem. Live Grounding confirms it as the definitive tool for local environments, facilitating zero-friction switches between different Java, Maven, Gradle, and Scala runtimes.
 ## Developer Productivity
 
 ### IDE Integrations
@@ -150,7 +163,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, JKube and m
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
 
 ---
-💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
+💡 **Explore Related:** [Devel Sites](./devel-sites.md) | [Angular](./angular.md) | [Javascript](./javascript.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

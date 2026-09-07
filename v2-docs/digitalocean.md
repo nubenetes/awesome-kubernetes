@@ -9,13 +9,6 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 !!! info "Architectural Context"
     Detailed reference for Digital Ocean in the context of Cloud Providers (Hyperscalers).
 
-## Artificial Intelligence and Machine Learning
-
-### LLM Deployment
-
-#### Deepseek R1
-
-  - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A cutting-edge deployment guide illustrating execution profiles of the revolutionary DeepSeek R1 reasoning models inside newly provisioned high-performance DigitalOcean GPU Droplets. Addresses architectural configurations for model weights and CUDA drivers.
 ## Cloud Infrastructure
 
 ### Paas
@@ -46,9 +39,16 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 
   - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
   - **(2024)** [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights onboarding pathways and scalability paradigms inside DigitalOcean's PaaS. Highly optimized for small-to-medium enterprises wanting to run microservice networks without complex VM configurations.
+## Web Servers
+
+### Nginxconfig
+
+#### Community Tools
+
+  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

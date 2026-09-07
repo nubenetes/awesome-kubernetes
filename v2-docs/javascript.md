@@ -115,7 +115,7 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
   - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Python](./python.md) | [Java_Frameworks](./java_frameworks.md)
+💡 **Explore Related:** [Devel Sites](./devel-sites.md) | [Angular](./angular.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

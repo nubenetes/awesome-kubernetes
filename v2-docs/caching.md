@@ -51,6 +51,13 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
 #### Tau Edge
 
   - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-944a1678" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 5 L 30 3 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-944a1678)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
+## Infrastructure
+
+### Caching
+
+#### Redis
+
+  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
 ## Infrastructure and Caching
 
 ### Database and Storage
@@ -96,21 +103,26 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
   - **(2015)** [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](https://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-) <span class='md-tag md-tag--warning'>[NGINX CONF CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural configuration showcase demonstrating Nginx's ability to act as a real-time, lightweight image resizing proxy using its native image filter module. Illustrates the power of Nginx as an all-in-one low-footprint media engine.
 ## Networking
 
-### Security
+### Load Balancing
 
 #### Haproxy
+
+  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
+### Security
+
+#### Haproxy (1)
 
   - **(2023)** [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product portal for HAProxy's Enterprise Web Application Firewall (WAF). It reviews native layer 7 filtering options, custom protection rule sets, and performance profiles designed to mitigate OWASP risks at high traffic volume.
 ## Performance
 
-### Caching
+### Caching (1)
 
 #### Varnish On RHEL
 
   - **(2021)** [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deployment documentation detailing how to install and configure Varnish Cache on RedHat Enterprise Linux. Focuses on setting up Varnish as an edge reverse-proxy caching layer to handle high-concurrency HTTP/S read operations in web services.
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

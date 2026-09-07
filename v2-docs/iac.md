@@ -39,8 +39,21 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### Career Path
 
   - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba31f722" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 4 L 30 3 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-ba31f722)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
+## Cloud Governance
+
+### Enterprise Architecture
+
+#### Landing Zones
+
+  - **(2026)** [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central knowledge base for Azure Landing Zones (ALZ) design principles and implementations. This portal provides guidance on identity management, network topology, subscription organization, and proactive governance policies. It acts as the key blueprint for deploying scalable multi-subscription cloud platform architectures.
+  - **(2026)** [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural principles of Azure Landing Zones under the Microsoft CAF. It emphasizes separation of concerns across management, connectivity, and identity planes, while using custom policy assignments for automated control. This guidance helps platform teams establish a robust foundation for onboarding application workloads.
 ## Cloud Infrastructure
 
+### Azure Networking
+
+#### Multi-tenant Topology
+
+  - **(2025)** [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official exploration of Azure Virtual Network Manager (AVNM) capabilities for coordinating network topologies across distinct enterprise Entra ID tenants. Architects learn how to leverage AVNM to scale governance, enforce global security rules, and simplify cross-tenant hub-and-spoke peerings programmatically.
 ### Infrastructure As Code (1)
 
 #### Compliance Auditing
@@ -49,12 +62,23 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### History and Insights
 
   - **(2026)** [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth video interview exploring the early development, design constraints, and technological milestones of HashiCorp's suite. Offers high-level insights into state management and the evolution of cloud orchestration.
+#### Migration Strategies
+
+  - **(2026)** [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review addressing drift reconciliation when converting untracked click-ops clouds into declarative state files. Reviews native state import commands and toolkits that automate resource generation.
 #### Schema Generation
 
   - **(2026)** [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 71</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8de5391d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 12 L 30 4 L 40 7 L 50 12" fill="none" stroke="url(#spark-grad-8de5391d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI tool that parses declared Terraform configurations to generate structural JSON Schemas. Useful for running runtime validation scripts on dynamic inputs or verifying API schemas during configuration processing.
 #### Terraform Practices
 
   - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-550aaba1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 12 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-550aaba1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
+## Cloud Infrastructure and Orchestration
+
+### Public Cloud Administration
+
+#### Azure Architecture
+
+  - **(2025)** [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Architectural migration playbook addressing transitioning legacy cloud setups to formal Microsoft Azure Landing Zones. Covers organizational tier hierarchies, network architectures, and systemic governance patterns.
+  - **(2025)** [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated governance framework detailing Azure Subscription Vending models. Outlines how to programmatically create subscription structures incorporating secure routing, virtual network configurations, policies, and role-based access management.
 ## Cloud Management
 
 ### Finops
@@ -76,6 +100,9 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2023)** [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how generative AI can be used to compile declarative DSL configurations. Argues that structural files (such as Terraform or Pulumi definitions) are excellent translation targets for LLMs due to explicit syntax schemas.
 #### AI Integration
 
+##### Terraform
+
+  - **(2024)** [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines workflow improvements, automated code validation, and prompt-to-infrastructure engineering using modern LLM integrations in Terraform development lifecycles.
   - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-581800ca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 4 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-581800ca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
 #### Architecture
 
@@ -136,6 +163,13 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### Workflows
 
   - **(2022)** [alpacked.io: Infrastructure as Code in DevOps 🌟](https://alpacked.io/blog/infrastructure-as-code-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes why Infrastructure as Code represents the baseline of high-velocity DevOps frameworks. Features modular code design, collaborative version-control practices, and multi-tenant environment consistency.
+## Governance and Management
+
+### Enterprise Governance
+
+#### Landing Zones (1)
+
+  - **(2023)** [Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Microsoft's Cloud Adoption Framework (CAF) roadmap evaluating landing zone platform deployment options. Evaluates differences between Portal, Bicep, and Terraform implementations, outlining trade-offs in velocity, maintenance overhead, and custom extensibility.
 ## Infrastructure
 
 ### Sysadmin
@@ -150,6 +184,27 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### Diagrams
 
   - **(2024)** [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — CloudCanvas is an emerging interactive workspace tool tailored for designing cloud topologies and auto-generating infrastructure-as-code manifests. By linking architectural nodes directly to API-driven configurations, it helps bridge the gap between architectural diagramming and operational execution.
+### Landing Zones (2)
+
+#### Accelerators
+
+  - **(2026)** [Azure Landing Zone IaC Accelerator Release Notes](https://azure.github.io/Azure-Landing-Zones/accelerator/accelerator-release-notes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official release ledger tracking enhancements, bug fixes, and feature updates for the Azure Landing Zones IaC Accelerator. Essential for platform engineering teams to maintain up-to-date, compliant architectures using official Terraform or Bicep modules. It keeps organizations informed on modern security baseline integrations and multi-tenant tooling enhancements.
+#### Azure Verified Modules
+
+  - **(2026)** [Enterprise-Scale Azure Subscription Vending Using Azure Verified Modules (AVM)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/enterprise%e2%80%91scale-azure-subscription-vending-using-azure-verified-modules-avm/4507751) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates enterprise subscription vending architectures powered by Azure Verified Modules (AVM). This automated design leverages Terraform and Bicep to standardize resource organization, virtual network integration, and governance controls. Architects use subscription vending to scale and provision environments reliably in multi-tenant frameworks.
+### Terraform (1)
+
+#### Azure Verified Modules (1)
+
+  - **(2025)** [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the general availability of Terraform-based Azure Verified Modules (AVM) for constructing platform landing zones. These modules offer verified, highly robust IaC templates that align with Microsoft's official structural guidelines. This release significantly reduces the development overhead required to build enterprise platform hubs.
+#### Official Integration
+
+  - **(2025)** [Announcing Public Preview of Terraform Export from the Azure Portal](https://techcommunity.microsoft.com/blog/AzureToolsBlog/announcing-public-preview-of-terraform-export-from-the-azure-portal/4409889) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official announcement detailing native preview features to export existing Azure assets into declarative Terraform code blocks directly inside the portal interface. Eliminates reliance on custom parsing tools.
+### Terraform Modules
+
+#### IPAM
+
+  - **(2025)** [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Specialized Terraform registry module designed to automate IP Address Management (IPAM) inside multi-VNet architectures. Standardizes subnetworking allocations dynamically to prevent prefix overlapping.
 ### Terraform Providers
 
 #### Azure IPAM
@@ -162,7 +217,7 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Terraform](./terraform.md) | [Devsecops](./devsecops.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 
