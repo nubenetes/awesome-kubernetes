@@ -1,5 +1,5 @@
 ---
-description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShift in Azure, AWS Kubernetes pricing and more — curated Cloud Native tools, guides and references."
+description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntocloud.guide, OpenShift in Azure and more — curated Cloud Native tools, guides and references."
 ---
 # Public Cloud Solutions
 
@@ -54,6 +54,11 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
   - **(2026)** [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed 2023 summary of public cloud pricing trends and total cost of ownership (TCO) calculators. It focuses on under-provisioned resources and hidden storage costs. Live grounding highlights its value as a foundational reference for optimization algorithms in cloud management platforms.
 ## Cloud Learning
 
+### Curriculum
+
+#### Cloud Engineering
+
+  - **(2026)** [learntocloud.guide](https://learntocloud.guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-source, highly structured educational roadmap designed to transition traditional sysadmins into proficient cloud engineers. It guides learners through networking, Linux administration, infrastructure as code, and cloud-native topologies. Live grounding highlights its massive adoption within the DevOps community.
 ### Multi-cloud Strategy
 
 #### Business Case
@@ -116,6 +121,9 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
 #### Aws-azure Mapping
 
   - **(2026)** [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A direct comparison table matching corresponding AWS and Azure services for infrastructure architects translating environments. Includes virtualization, identity governance, and container orchestration layers. Live grounding demonstrates its high value as a quick-lookup cheatsheet during design sprints.
+#### GCP Translation
+
+  - **(2026)** [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's official engineering guide to translating AWS and Azure infrastructure paradigms into GCP equivalents. It describes VPC networks, database engines, and container services. Live grounding establishes its role as the industry-standard translation manual for cross-cloud architects.
 ### Storage Architectures
 
 #### Hyperscalers (5)
@@ -174,7 +182,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
   - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

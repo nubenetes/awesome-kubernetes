@@ -1,5 +1,5 @@
 ---
-description: "Top Performance Testing With Jenkins And Jmeter resources for 2026, AI-ranked: Locust, Iter8 and more — curated Cloud Native tools, guides and references."
+description: "Top Performance Testing With Jenkins And Jmeter resources for 2026, AI-ranked: Locust, performance-plugin and more — curated Cloud Native tools, guides and."
 ---
 # Performance testing with jenkins and JMeter or Gatling
 
@@ -53,13 +53,6 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - **(2024)** [docs.microsoft.com: Azure Load Testing](https://learn.microsoft.com/en-us/azure/app-testing) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Azure's managed load testing service that lets developers generate high-scale load using existing Apache JMeter scripts. Synthesizing live cloud updates, it integrates seamlessly with Azure Monitor to provide end-to-end insights from client-side response times to server-side resource bottlenecks, aiding rapid optimization.
   - **(2021)** [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The launch blog post detailing the debut of Microsoft's Azure Load Testing service. It explains how the tool bridges the gap between raw load generation and cloud application monitoring, allowing developers to execute JMeter scripts in an automated cloud-native paradigm directly from GitHub Actions or Azure Pipelines.
   - **(2021)** [infoq.com: Microsoft Introduces a Fully-Managed Azure Load Testing Service in Preview](https://www.infoq.com/news/2021/12/azure-load-testing-preview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry reporting on Azure's entry into fully managed performance testing, discussing how it leverages Apache JMeter under the hood. It provides a historical snapshot of Microsoft's move to simplify distributed load testing for engineering teams, eliminating the manual upkeep of VM scale sets for load generation.
-## Cloud Native
-
-### Kubernetes
-
-#### Progressive Delivery
-
-  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Infrastructure
 
 ### Testing
@@ -88,6 +81,13 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
 
   - **(2023)** [**youtube: JMeter API Performance Testing Tutorial 🌟**](https://www.youtube.com/watch?v=8r5LYzUIepo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Educational walkthrough mapping API load-test workflows. Covers parameterizing user requests, analyzing server metrics, and troubleshooting unexpected timeouts in dynamic microservices backends.
   - **(2021)** [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Reference manual covering basic JMeter thread management and test flow structures. Designed to help teams write simple API validations and performance regression scripts.
+### Testing (1)
+
+#### Benchmarking
+
+##### HTTP Tools
+
+  - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
 ## Systems
 
 ### Performance Tuning
@@ -95,7 +95,7 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
 #### Diagnostic Tools
 
   - **(2022)** [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Microsoft's Performance-Tools suite, which provides cross-platform command-line tools for analyzing trace logs, Windows/Linux system resource usage, and overall system performance. It details how architects can inspect CPU, disk, and networking bottlenecks at a low kernel-level, enhancing system-level optimization.
-## Testing (1)
+## Testing (2)
 
 ### Performance Testing
 
@@ -125,7 +125,7 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Catchpoint's acquisition of WebPageTest, the industry-standard front-end performance auditing tool. Synthesizing live ecosystem changes, the platform continues to operate as an essential resource for tracing core web vitals and waterfall execution charts, bolstered by Catchpoint's global infrastructure.
 
 ---
-💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Testops](./testops.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

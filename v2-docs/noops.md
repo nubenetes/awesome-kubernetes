@@ -36,7 +36,7 @@ description: "Top Noops resources for 2026, AI-ranked: 7 arguments against NoOps
   - **(2021)** [Serverless Computing: Moving from DevOps to NoOps](https://devops.com/serverless-computing-moving-from-devops-to-noops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how serverless architectures drive NoOps execution. Emphasizes shifting operations responsibilities (e.g., node provisioning, patching, scaling) to public cloud platforms, allowing developers to focus strictly on code components.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

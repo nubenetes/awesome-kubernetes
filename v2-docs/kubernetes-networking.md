@@ -17,6 +17,13 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
 
   - [engineering.mercari.com: Managing Network Policies for namespaces isolation' on a multi-tenant Kubernetes cluster](https://engineering.mercari.com/en/blog/entry/20220214-managing-network-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.mercari.com: Managing Network Policies for namespaces isolation' on a multi-tenant Kubernetes cluster in the Kubernetes Tools ecosystem.
   - [dzone: How to Understand and Set Up Kubernetes Networking 🌟](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: How to Understand and Set Up Kubernetes Networking 🌟 in the Kubernetes Tools ecosystem.
+## Deployment and Orchestration
+
+### Cluster Provisioning
+
+#### Remote Access
+
+  - **(2020)** [blog.alexellis.io: Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores techniques for securely accessing the Kubernetes API control plane of isolated or private networks without exposing standard firewall ports. Explains how reverse-proxy tunnels provide secure endpoints. Live Grounding validates that tunnel mechanisms like inlets, Tailscale, or Cloudflare Tunnels have become common choices for secure edge environments.
 ## Infrastructure
 
 ### Networking
@@ -279,6 +286,7 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
 ??? abstract "Architect's Technical Comparison Table"
     | Solution | Maturity | Primary Focus | Language | Stars |
     | :--- | :--- | :--- | :--- | :--- |
+    | [Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟🌟 |
     | [containo.us: Kubernetes Ingress & Service API Demystified](https://traefik.io/blog/kubernetes-ingress-service-api-demystified) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
     | [externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes](https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
     | [thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster](https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
@@ -288,8 +296,8 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
     | [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://blog.ovhcloud.com) |  | Ingress & Traffic | Markdown | 🌟🌟🌟 |
     | [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI) |  | Ingress & Traffic | English | 🌟🌟🌟 |
     | [haproxy.com: Announcing HAProxy Kubernetes Ingress Controller 1.5 🌟](https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-5) |  | Ingress & Traffic | Go | 🌟🌟🌟 |
-    | [devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power](https://www.devclass.com/containers/2021/01/26/haproxy-ingress-controller-15-introduces-mtls-support-gives-load-balancing-experts-more-power/1619777) |  | Ingress & Traffic | Markdown | 🌟🌟🌟 |
 
+  - **(2023)** [==Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟==](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An expansive, community-maintained comparison spreadsheet detailing the feature matrices, protocol supports, dynamic reloading behaviors, and ecosystem integrations of various Ingress Controllers. Live Grounding highlights this dynamic reference as an essential resource for architects choosing ingress tools based on enterprise requirements.
   - **(2021)** [**containo.us: Kubernetes Ingress & Service API Demystified**](https://traefik.io/blog/kubernetes-ingress-service-api-demystified) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Demystifies the inner workings of Kubernetes Services, endpoints, and Ingress routing rules. Compares how reverse-proxy solutions like Traefik process these API resources to dynamic configurations. Live Grounding validates that Traefik remains a popular, high-performance edge router in modern multi-tenant environments due to its automated Let's Encrypt and middleware options.
   - **(2021)** [**externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes**](https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses how setting the Kubernetes Service configuration `externalTrafficPolicy: Local` preserves client source IPs. Analyzes the associated trade-offs, such as potential uneven load distribution across endpoints. Live Grounding confirms that preserving source IP is crucial for zero-trust authorization, geolocation rules, and audit logging.
   - **(2021)** [**thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster**](https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Discusses the design choice of running HAProxy controllers outside the boundaries of the core Kubernetes cluster. Exposes cluster services to external networks while protecting control-plane components. Live Grounding confirms this topology is highly valued by security teams who prefer dedicated edge tiers separating internal cluster resources from the public internet.
@@ -305,9 +313,14 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
 
   - **(2020)** [==kubernetes.io: Scaling Kubernetes Networking With EndpointSlices==](https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how the EndpointSlices API addresses the scalability issues of traditional Endpoints resources. Avoids sending large network update payloads across all cluster nodes by grouping endpoints. Live Grounding shows that EndpointSlices are crucial in large clusters with thousands of pods, keeping control plane traffic minimal.
   - **(2021)** [**blog.cloudflare.com: Moving k8s communication to gRPC**](https://blog.cloudflare.com/moving-k8s-communication-to-grpc) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An insightful case study detailing Cloudflare's transition of internal microservices and Kubernetes cluster control-plane communications from traditional REST/JSON endpoints to high-performance gRPC over HTTP/2. Live Grounding shows that adopting gRPC significantly reduces CPU utilization and network latency across high-throughput distributed architectures.
+### Load Balancing (1)
+
+#### Performance and Tuning (1)
+
+  - **(2023)** [==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟==](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional, highly-detailed exploration of how Kubernetes handles long-lived connections such as gRPC, HTTP/2, and WebSockets. Analyzes why standard iptables-based kube-proxy L4 load balancing fails to distribute traffic evenly, causing backend starvation. Live Grounding highlights that resolving these issues requires client-side load balancing, proxy-assisted gRPC routing, or active connection-termination intervals.
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Servicemesh](./servicemesh.md) | [Web Servers](./web-servers.md)
+💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Istio](./istio.md) | [Caching](./caching.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

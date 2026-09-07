@@ -1,5 +1,5 @@
 ---
-description: "Top Demos resources for 2026, AI-ranked: Developer Sandbox, SdkMan and more — curated Cloud Native tools, guides and references."
+description: "Top Demos resources for 2026, AI-ranked: Developer Sandbox, OpenShift AI Examples and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 
@@ -265,11 +265,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Pytest and Github Actions
 
   - **(2022)** [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to build automated validation checkpoints within GitHub Actions. Outlines the orchestration of Python-based Pytest test suites triggered on repository push, focusing on reliable quality gates and test reporting pipelines.
-### Automation Ecosystems
-
-#### Jenkins and Nexus
-
-  - **(2019)** [Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu Ecosystem](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates a full CD pipeline design combining Jenkins automation pipelines, Sonatype Nexus artifact caching, and the Cloudogu developer platform ecosystem. It discusses how to decouple build outputs, secure package verification, and trigger orchestrations. It demonstrates how standardizing on artifact-centric builds minimizes drift in multi-environment configurations.
 ### Azure
 
 #### Github Actions
@@ -337,6 +332,11 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Ansible and Helm
 
   - **(2020)** [opensource.com: Build a Kubernetes Minecraft server with Ansible's Helm modules](https://opensource.com/article/20/10/kubernetes-minecraft-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates utilizing Ansible's native Helm modules to declare and manage deployments within a Kubernetes cluster, illustrated by spinning up a stateful Minecraft server instance. (Live Grounding: Highlights the cross-functional utility of leveraging Ansible playbooks to drive Kubernetes native packaging models).
+### Infrastructure
+
+#### Rancher
+
+  - **(2020)** [Deploy a Rancher Cluster with GitLab CI and Terraform](https://www.suse.com/c/rancher_blog/deploy-a-rancher-cluster-with-gitlab-ci-and-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step automation blueprint demonstrating how to provision and orchestrate Rancher multi-cluster control planes. Harnesses Terraform to scale target virtual machines and GitLab CI to deploy and maintain management-plane state configurations.
 ### Java (1)
 
 #### Automated Workflows
@@ -347,14 +347,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Jenkins Pipeline Training
 
   - **(2020)** [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://training.experfy.com/courses/effective-jenkins-continuous-delivery-and-continuous-integration) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A training curriculum on writing robust continuous integration and continuous deployment scripts in Jenkins using declarative Groovy DSL syntax. Regarded as legacy compared to contemporary container-native declarative engine configurations.
-#### Parallel Pipelines
-
-  - **(2021)** [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical guide illustrating how to build a Maven project against multiple JDKs simultaneously using Jenkins parallel stages. Live Grounding highlights its architectural utility for modern engineering, ensuring system backward-compatibility and multi-runtime reliability during pipeline validation.
-#### SDKMAN
-
-##### Docker Integration
-
-  - **(2021)** [**Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟**](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This tutorial explains how to use SDKMAN! inside a Docker container within a Jenkins Declarative Pipeline to build Java projects using different compiler versions. Live Grounding highlights its architectural value, eliminating the need to maintain distinct runner VMs or complex custom Dockerfiles for each target JDK configuration.
 ### Pipeline Testing
 
 #### Local Execution
@@ -416,8 +408,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 #### Openshift Integration
 
-  - **(2020)** [developers.redhat.com: An easier way to create custom Jenkins containers in OpenShift 4 🌟](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep-dive for enterprise platform engineers building custom, secure Jenkins master images for OpenShift 4. Outlines Red Hat universal base images (UBI) optimization and policy-compliant plugin packaging.
-  - **(2020)** [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.redhat.com/en/blog/openshift-pipelines-jenkins-blue-ocean) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guide on utilizing Jenkins Blue Ocean inside Red Hat OpenShift to build visual representations of continuous integration pipelines. Integrates OpenShift buildconfigs with user-friendly visualization panels.
   - **(2020)** [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Public demonstration repository providing configured manifests for launching Jenkins Blue Ocean on OpenShift clusters. Acts as a blueprint for visualizing pipeline stages in Red Hat environments.
 ### Jenkins (1)
 
@@ -443,22 +433,8 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### API Management
 
   - **(2020)** [==github.com/microsoft/azure-digital-twins-postman-samples==](https://github.com/microsoft/azure-digital-twins-postman-samples) <span class='md-tag md-tag--info'>⭐ 21</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c925976c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 6 L 20 6 L 30 5 L 40 7 L 50 8" fill="none" stroke="url(#spark-grad-c925976c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A collection of pre-configured Postman templates and environment schemas designed to test, model, and automate Azure Digital Twins API endpoints. Simplifies validation tasks across graph topology manipulation and event routing controls.
-## Cloud Learning
-
-### Curriculum
-
-#### Cloud Engineering
-
-  - **(2026)** [learntocloud.guide](https://learntocloud.guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-source, highly structured educational roadmap designed to transition traditional sysadmins into proficient cloud engineers. It guides learners through networking, Linux administration, infrastructure as code, and cloud-native topologies. Live grounding highlights its massive adoption within the DevOps community.
 ## Cloud Native
 
-### Continuous Integration
-
-#### CICD (4)
-
-##### Red Hat Openshift
-
-  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Security
 
 #### Policy Enforcement
@@ -492,7 +468,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2024)** [**stefanprodan/podinfo**](https://github.com/stefanprodan/podinfo) <span class='md-tag md-tag--info'>⭐ 5917</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-afb540d1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-afb540d1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A premium go-to microservice web application written in Go, specifically designed to showcase best practices in Kubernetes deployment, health checking, instrumentation (Prometheus/Jaeger), and progressive delivery validation (such as Flagger/Istio canary releases).
 ## Cloud Native Platforms
 
-### Red Hat Openshift (1)
+### Red Hat Openshift
 
 #### Automation Grading
 
@@ -612,22 +588,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
   - **(2021)** [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on introductory workshop materials covering fundamental Kubernetes concepts, including Pods, Services, Deployments, and ingress controller definitions. (Live Grounding: Solid reference for classroom-based learning or self-paced platform orchestration upskilling).
   - **(2020)** [Kubernetes workshop in a box](https://archive.kabisa.nl/tech/k8s-workshop-in-a-box) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An archival portal hosting a self-contained, offline-capable 'Kubernetes Workshop in a Box.' Designed to run interactive tutorials without reliable internet connections. (Live Grounding: While some container tooling patterns are archived, the offline structure is a highly referenced model for local development isolation).
-## Cloud-native Java (1)
-
-### Build Tools
-
-#### Eclipse Jkube
-
-##### Developer Workflow
-
-  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
-### Runtimes
-
-#### Jboss EAP
-
-##### Microprofile
-
-  - **(2020)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement for Red Hat JBoss EAP Expansion Pack (XP) 1.0, enabling support for MicroProfile specifications on top of enterprise application servers. Live Grounding indicates JBoss EAP XP has become a core element for Red Hat customers modernization strategies, providing a bridge between traditional and cloud-native application patterns.
 ## Container Orchestration
 
 ### Kubernetes (2)
@@ -673,7 +633,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 ### Azure Data Factory
 
-#### CICD (5)
+#### CICD (4)
 
   - **(2021)** [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://travelrasik.com/category/asia) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Multi-part technical walk-through detailing automated deployment patterns for Azure Data Factory (ADF) pipelines. Highlights ARM template generation, parameterization strategies, and continuous integration workflows via Azure DevOps.
 ## Data Storage
@@ -690,14 +650,9 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Postgresql
 
   - **(2020)** [Deploying PostgreSQL in MiniShift/OpenShift 3](https://www.dbi-services.com/blog/deploying-postgresql-in-minishiftopenshift) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides users through deploying PostgreSQL on Minishift/OpenShift 3, highlighting standard volume mounting processes. Due to the deprecation of both OpenShift 3 and Minishift, modern applications utilize OpenShift Local and PostgreSQL Operator frameworks.
-### Storage Infrastructure
-
-#### Persistent Volumes
-
-  - **(2020)** [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dives into Red Hat OpenShift's persistent volume (PV) framework, focusing on the Container Storage Interface (CSI). Explains dynamic storage allocation, access modes, and how to safely secure transaction-heavy datastores.
 ## DevOps
 
-### CICD (6)
+### CICD (5)
 
 #### Github Actions (2)
 
@@ -742,9 +697,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2021)** [amazon.com: Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases the declarative provisioning of AWS infrastructure using Spinnaker unified with Crossplane. Live Grounding shows that combining Crossplane's Kubernetes Control Plane model with Spinnaker's application pipelines represents an advanced platform engineering paradigm. This enables application developers to spin up dependencies dynamically without custom script hooks.
 #### Spinnaker Setup
 
-##### Git Integration
-
-  - **(2022)** [armory.io: Git Pull Support in Spinnaker](https://www.harness.io/products/continuous-delivery) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight addresses configuring Git pull trigger functionality inside Spinnaker. Live Grounding confirms that enabling automated repository monitoring allows Spinnaker to initiate targeted application pipelines immediately upon commit detection. This establishes the prerequisite feedback loop necessary for true continuous delivery.
 ##### Kubernetes Deployment Models
 
   - **(2020)** [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to a companion repository for an advanced Kubernetes Spinnaker course. Live Grounding emphasizes its utility in demonstrating advanced deployment strategies (such as blue-green and canary analysis) directly inside Kubernetes clusters using Spinnaker's pipeline GUI. It remains a reliable hands-on learning lab.
@@ -755,11 +707,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 ##### Orchestration Engines
 
   - **(2022)** [Demo/Evaluation Installations](https://spinnaker.io/docs/setup/install) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight covers the official installation and evaluation setup parameters for Spinnaker. Live Grounding shows Spinnaker remains a highly sophisticated CD platform designed for multi-cloud deployments, though its complex architecture makes it less popular for lightweight Kubernetes setups compared to modern GitOps tools. It is best suited for legacy VM and complex cluster canary rollouts.
-### Environment Management
-
-#### SDKMAN (1)
-
-  - **(2026)** [==SdkMan==](https://sdkman.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The homepage for SDKMAN!, a command-line tool designed to manage parallel versions of multiple Software Development Kits, with a strong focus on the JVM ecosystem. Live Grounding confirms it as the definitive tool for local environments, facilitating zero-friction switches between different Java, Maven, Gradle, and Scala runtimes.
 ### Infrastructure As Code
 
 #### Jenkins Configuration As Code
@@ -850,7 +797,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2020)** [aalmiray/q-cli](https://github.com/aalmiray/q-cli) <span class='md-tag md-tag--info'>⭐ 11</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0761b2c7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 3 L 30 9 L 40 5 L 50 10" fill="none" stroke="url(#spark-grad-0761b2c7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early community command-line interface helper for bootstrapping and managing Quarkus projects. While the official Quarkus CLI eventually integrated these capabilities, this repository represents a pivotal step in Quarkus DX history.
 ## Devsecops and Automation
 
-### CICD (7)
+### CICD (6)
 
 #### AWS and Jenkins
 
@@ -1009,7 +956,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Anthos Config Management
 
   - **(2020)** [Tutorial: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive guide on establishing declarative configuration management in multi-cluster environments using Anthos Config Management (ACM). The tutorial details Git-to-cluster synchronization protocols, security policies via Config Controller, and cluster-state reconciliation mechanisms, representing a stable paradigm for enterprise hybrid-cloud control planes.
-## Infrastructure
+## Infrastructure (1)
 
 ### Artifact Management
 
@@ -1035,7 +982,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2021)** [kruyt.org: Running a mailserver in Kubernetes](https://kruyt.org/running-a-mailserver-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical deployment architectural guide detailing the orchestration of high-availability mail servers on Kubernetes. Analyzes the complexities of handling persistent storage for mail stores (via PV/PVC), dynamic IMAP/SMTP routing setups, and the crucial network security protocols (DKIM, SPF, DMARC) required to maintain high IP reputation inside cloud infrastructures.
 ## Infrastructure and DevOps
 
-### CICD (8)
+### CICD (7)
 
 #### Jenkins Tutorials
 
@@ -1244,7 +1191,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2021)** [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.io/blog/rancher-kubernetes-engine-security-part-1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Delineates critical security configurations and hardening guidelines for Rancher Kubernetes Engine (RKE) deployments. Explores secure etcd database clustering, role-based access control policies, TLS configuration, and master node network isolation.
 ## Platform Architecture
 
-### CICD (9)
+### CICD (8)
 
 #### Legacy Jenkins
 
@@ -1266,7 +1213,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Red Hat Ecosystem
 
   - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
-### CICD (10)
+### CICD (9)
 
 #### AWS and Argo CD
 
@@ -1308,11 +1255,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Red Hat Ecosystem (1)
 
   - **(2026)** [==Developer Sandbox==](https://developers.redhat.com/developer-sandbox) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides immediate, zero-cost developer access to an active, shared OpenShift cluster environment pre-populated with cloud-native tooling. Eliminates complex infrastructure bootstrapping for developers, letting them deploy containers instantly. In 2026, it is the standard starting sandbox for assessing OpenShift APIs.
-### Enterprise Kubernetes
-
-#### Openshift (3)
-
-  - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
 ### Gitops and Deployment
 
 #### Flux Ecosystem
@@ -1370,11 +1312,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 ##### Jenkins Pipelines (2)
 
   - **(2020)** [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins' Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-04f3535c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 11 L 30 3 L 40 4 L 50 11" fill="none" stroke="url(#spark-grad-04f3535c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on running automated Postman test suites through Newman CLI inside a Jenkins Pipeline. Live Grounding confirms this is a standard integration step for end-to-end REST API verification. By surfacing test execution failures in Jenkins console output, teams can safely block regression deployments.
-#### Postman Guides
-
-##### Testing Frameworks
-
-  - **(2021)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this masterclass from FreeCodeCamp for comprehensive API testing utilizing Postman. Live Grounding notes that while GUI based testing is powerful for debugging, exporting these suites for CLI integration via Newman remains the gold standard for automated pipelines. It serves as an essential foundational guide for quality engineering.
 ## Reference Architectures
 
 ### Artifact Registries
@@ -1517,16 +1454,16 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2026)** [**Take our I/O 2026 quiz, vibe coded in Google AI Studio**](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: This demonstration exemplifies the 'vibe coding' trend, shifting software creation from semantic syntax coding to iterative, natural-language dialogs with LLMs.
 
 Live Grounding: Built by a non-technical editor, the interactive application showcases Google AI Studio's Antigravity coding agent, allowing rapid prototyping and direct deployment of simple web elements through prompt engineering.
-## Software Testing
+## Software Engineering (1)
 
-### API Automation
+### Application Scaffolding
 
-#### KIE Server
+#### Boilerplate Tools
 
-  - **(2020)** [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on setting up automated REST API test runners for KIE decision services. Demonstrates performance execution metrics, payload validation models, and CI integration pipelines using Postman and Newman test wrappers.
+  - **(2021)** [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://blackbird.a8r.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Ambassador K8s Initializer helps engineers bootstrap cloud-native applications with ready-made Kubernetes configurations. It simplifies ingress setup, routing rules, and observability hooks by generating tailored declarative manifests.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
+💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
 

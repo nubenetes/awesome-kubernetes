@@ -160,13 +160,6 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2026)** [dev.to/gitlive: GitLive now works with any Git repository in VS Code!](https://dev.to/gitlive/gitlive-now-works-with-any-git-repository-in-vs-code-304o) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An explanatory article detailing GitLive's capability to integrate with arbitrary self-hosted or cloud-based Git providers. It highlights practical ways to maintain collaborative development loops across complex deployment layouts.
   - **(2026)** [c-sharpcorner.com: The Best VS Code Extensions To Supercharge Git](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates major Git extensions that optimize repository navigation, branch visualisations, and commit tracking within large enterprise repositories.
   - **(2026)** [dev.to: Top 5 Best Git Extensions For VS Code (You must have)](https://dev.to/thenomadevel/top-5-best-git-extensions-for-vs-code-you-must-have-40b6) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the top 5 essential Git extensions for VS Code, helping developers transition from command line to rich visual git workflows.
-## Data Science
-
-### Tooling
-
-#### Data Wrangling
-
-  - **(2023)** [**Getting Started with Data Wrangler in VS Code**](https://code.visualstudio.com/docs/datascience/data-wrangler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines VS Code's visual data preparation extension. Live Grounding shows that Data Wrangler bridges the visual gap in exploratory data analysis (EDA), generating reproducible Python code in Pandas and Polars dialects directly inside Jupyter environments.
 ## Developer Environment
 
 ### IDE Tooling
@@ -563,14 +556,9 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### Unit Testing
 
   - **(2026)** [**Jest**](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Integrates Jest unit testing workflows directly into the editor. It offers real-time inline test failures, active watch mode triggers, and visual coverage reports. This setup simplifies local feedback loops for enterprise microservices developed in TypeScript or JavaScript.
-### Tooling (1)
-
-#### AI Code Assistants
-
-  - **(2021)** [Kite 🌟](https://kite.com) <span class='md-tag md-tag--warning'>[NOT APPLICABLE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Kite as a local-AI completion helper. Live Grounding confirms the project is fully retired and non-operational, with software development workflows now dominated by sophisticated cloud and local models like GitHub Copilot, Cursor, and modern LSP tooling.
 
 ---
-💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
+💡 **Explore Related:** [Devel Sites](./devel-sites.md) | [Angular](./angular.md) | [Javascript](./javascript.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

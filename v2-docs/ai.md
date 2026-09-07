@@ -29,10 +29,10 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 
 #### General Reference
 
-  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Discussion: Where is AI Still Completely Useless? in the Kubernetes Tools ecosystem.
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
   - [guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟](https://www.guru99.com/ai-tutorial.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI== 🌟🌟🌟 in the Kubernetes Tools ecosystem.
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
+  - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Discussion: Where is AI Still Completely Useless? in the Kubernetes Tools ecosystem.
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
 ## Artificial Intelligence (1)
 
 ### AI Strategy
@@ -145,6 +145,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 
 #### Kubernetes Troubleshooting (1)
 
+  - **(2023)** [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative, community-driven tool that integrates LLMs directly with Kubernetes diagnostic commands. By parsing cluster states, configuration anomalies, and system logs, k8sgpt provides clear explanations and automated remediation commands. It is a premier tool in the shift towards AI-powered autonomous operations (AIOps).
   - **(2023)** [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on the Kubectl OpenAI plugin, showing how natural language commands can be compiled directly into active Kubernetes cluster API calls. It simplifies YAML definition generation and debugging workflows, lowering barrier-to-entry. A great case study in operations-focused developer tooling.
 ### Infrastructure As Code (1)
 
@@ -178,13 +179,6 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### Education Tooling
 
   - **(2023)** [Quiz Grader](https://github.com/ned1313/quiz-grader) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility engineered to automate the grading and feedback of quizzes and programming assignments. Processes markdown-based inputs to generate structured performance assessments, supporting classroom and self-assessment operations.
-### Infrastructure As Code (2)
-
-#### AI Integration
-
-##### Terraform
-
-  - **(2024)** [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines workflow improvements, automated code validation, and prompt-to-infrastructure engineering using modern LLM integrations in Terraform development lifecycles.
 ## Developer Experience
 
 ### Ai-assisted Coding
@@ -192,7 +186,6 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### Claude Code
 
   - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
-  - **(2025)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official hands-on tutorial and demonstration course by Anthropic showing the real-world utility of Claude Code. It covers basic terminal setups, interactive file refactoring, automated git commit orchestration, and contextual testing loops. Highly valuable for teams integrating terminal-based AI agents directly into daily engineering pipelines.
 ## Developer Productivity (1)
 
 ### Ides
@@ -235,16 +228,18 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### AI Optimization
 
   - **(2024)** [**OpenOps: No-Code FinOps Automation Platform with AI**](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1035</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b1fe04f8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 8 L 30 2 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-b1fe04f8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused resources.
-### Kubernetes Finops
+## Infrastructure
 
-#### Automated Optimization
+### Artificial Intelligence (2)
 
-  - **(2025)** [==CAST AI==](https://cast.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces CAST AI, an automated cost-reduction system for EKS, AKS, and GKE. Highlights how its real-time algorithms adjust cluster sizing, configure spot instances, and scale down resources without manual developer effort.
+#### Hardware Acceleration
+
+  - **(2025)** [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dedicated AI computer systems utilizing Wafer-Scale Engine (WSE) technology. Delivers unprecedented compute density and memory bandwidth to train large-scale neural networks without the distributed communication overhead of traditional GPU clusters.
 ## Kubernetes and Platform Engineering
 
 ### Platform Engineering Trends
 
-#### AI Integration (1)
+#### AI Integration
 
   - **(2024)** [platformengineering.org: AI is changing the future of platform engineering. Are you ready?](https://platformengineering.org/blog/ai-is-changing-the-future-of-platform-engineering-are-you-ready)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses how generative AI is shifting internal developer platform (IDP) dynamics. Details how AI assistance simplifies configuration management, infrastructure provisioning, and self-service portals for developer teams.
 ## Software Engineering
@@ -257,9 +252,6 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### Industry Impact
 
   - **(2023)** [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive expert-driven review of how GPT-4 and Copilot have structurally altered the software engineering lifecycle. Evaluates productivity shifts, risks of cognitive offloading, and structural changes in junior developer onboarding processes.
-#### Next-gen Platforms
-
-  - **(2023)** [computerhoy.com: GitHub Copilot X: así es la nueva IA parecida a ChatGPT y destinada a ayudar a programadores](https://computerhoy.20minutos.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the technical specifications of Copilot X, including terminal tool integration, automated PR description synthesis, and integrated chat widgets. Examines the performance gains from switching to OpenAI's GPT-4 framework.
 ### Database Management
 
 #### Model Context Protocol (1)
@@ -270,9 +262,16 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### Core Architectures
 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
+## Specialized AI Applications
+
+### Healthcare Systems
+
+#### Voice Assistants
+
+  - **(2025)** [Microsoft Dragon Copilot: Unified Voice AI Assistant for Healthcare](https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Microsoft's Dragon Copilot, the healthcare industry's first unified voice AI assistant. It streamlines clinical documentation, automates repetitive administrative tasks, and securely surfaces critical patient records within strict HIPAA compliance parameters.
 
 ---
-💡 **Explore Related:** [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
+💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

@@ -774,6 +774,11 @@ graph TD
 #### Lessons Learned
 
   - **(2021)** [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid engineering post-mortem of catastrophic distributed systems architectures. It warns against over-engineered microservice boundaries, distributed transactions, massive latency chains, and premature optimization that results in 'distributed monoliths'.
+### Data Management (2)
+
+#### Event-driven Architecture
+
+  - **(2016)** [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece outlines Martin Kleppmann's paradigm of 'turning the database inside-out'. It advocates for treating state logs as a first-class citizen, enabling downstream services to process and construct specialized read-optimized views.
 ### Design Patterns (3)
 
 #### Best Practices (2)
@@ -1130,7 +1135,7 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
+💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
 

@@ -86,7 +86,7 @@ description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and m
   - **(2021)** [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.blackduck.com/blog/integrating-automated-ast-tools.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article describes how to integrate automated Application Security Testing (AST) scanners (SAST, DAST, SCA) inside CI/CD pipelines. It explains how to establish automated quality gates to prevent vulnerable code from progressing to integration and production staging layers.
 
 ---
-💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

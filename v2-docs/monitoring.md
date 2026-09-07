@@ -1,5 +1,5 @@
 ---
-description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, OpenTelemetry Collector and more — curated Cloud Native tools, guides and references."
+description: "Top Monitoring resources for 2026, AI-ranked: OpenTelemetry Collector, Awesome Sysadmin and more — curated Cloud Native tools, guides and references."
 ---
 # Monitoring and Performance. Prometheus, Grafana, APMs and more
 
@@ -283,8 +283,9 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
 
 ### General Reference
 
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
   - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Performance Patterns in Microservices-Based Integrations in the Kubernetes Tools ecosystem.
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 14 Best Performance Testing Tools and APM Solutions in the Kubernetes Tools ecosystem.
   - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions in the Kubernetes Tools ecosystem.
   - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering CNCF End User Technology Radar: Observability, September 2020 🌟 in the Kubernetes Tools ecosystem.
   - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟 in the Kubernetes Tools ecosystem.
@@ -306,7 +307,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
   - [Dzone: Zipkin vs. Jaeger: Getting Started With Tracing](https://dzone.com/articles/zipkin-vs-jaeger-getting-started-with-tracing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Zipkin vs. Jaeger: Getting Started With Tracing in the Kubernetes Tools ecosystem.
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: APM Tools Comparison in the Kubernetes Tools ecosystem.
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know in the Kubernetes Tools ecosystem.
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 14 Best Performance Testing Tools and APM Solutions in the Kubernetes Tools ecosystem.
 ## Observability (8)
 
 ### APM (1)
@@ -516,13 +516,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
 ##### Continuous Profiling
 
   - **(2022)** [medium.com/performance-engineering-for-the-ordinary-barbie: Why profiling should be part of regular software development workflow 🌟](https://medium.com/performance-engineering-for-the-ordinary-barbie/why-profiling-should-be-part-of-regular-software-development-workflow-8b19b7f52b38) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the engineering benefits of integrating continuous runtime code profiling (CPU, Heap Allocation, Thread Locks) into developer workflows. Curator Insight: Advocacy for persistent tracing profiles. Live Grounding: Invaluable for diagnosing microservice memory leaks before deploying changes to live users.
-### Testing
-
-#### Benchmarking
-
-##### HTTP Tools
-
-  - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
 ## Security (1)
 
 ### Monitoring
@@ -586,7 +579,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Op
   - **(2022)** [learnsteps.com: Logging Infrastructure System Design](https://www.learnsteps.com/logging-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural system architecture deep-dive covering high-volume log collection, queuing, indexing, and durable storage tiers (such as ELK, Grafana Loki, or OpenSearch). Curator Insight: Deep blueprint on logging pipeline design. Live Grounding: Essential reading for scaling logging clusters without sacrificing lookup speeds or bloating cloud storage costs.
 
 ---
-💡 **Explore Related:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [AWS Miscellaneous](./aws-miscellaneous.md)
+💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [AWS Storage](./aws-storage.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
 

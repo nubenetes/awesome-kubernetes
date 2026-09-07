@@ -15,8 +15,8 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 
 #### General Reference
 
-  - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/java in the Kubernetes Tools ecosystem.
   - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟 in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/java in the Kubernetes Tools ecosystem.
   - [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Java Creator James Gosling Interview in the Kubernetes Tools ecosystem.
   - [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Choosing Library To Build Rest API in Java in the Kubernetes Tools ecosystem.
   - [stackoverflow.com: How to map a MySQL JSON column to a Java entity property' using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: How to map a MySQL JSON column to a Java entity property' using JPA and Hibernate in the Kubernetes Tools ecosystem.
@@ -85,6 +85,9 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Kubernetes CLI
 
   - **(2025)** [**odo**](https://odo.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A developer-focused CLI tool for writing and deploying applications on Kubernetes and OpenShift without deep Kubernetes knowledge. It abstracts complex YAML files and facilitates live code updates directly inside running containers. It represents an emerging paradigm in local iteration loops, competing with tooling like Skaffold and Tilt for developer mindshare.
+#### Maven Integration
+
+  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
 #### Orchestration Tooling
 
   - **(2025)** [==Skaffold --generate-manifests==](https://skaffold.dev/docs/pipeline-stages/init) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detail on Skaffold's `--generate-manifests` capability, which facilitates local build and deployment orchestration on Kubernetes. This tool manages the developer inner loop by tracking local code modifications, triggering rebuilding/tagging of images, and automating deployments. It has become an industry standard for continuous local feedback loops in multi-service local environments.
@@ -288,6 +291,14 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
   - **(2021)** [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This proposal details JEP 413, introducing the `@snippet` tag for Java API documentation. By allowing the integration of validated, syntax-highlighted code snippets directly from external source files or internal blocks, it replaces fragile HTML `<pre>` tags, streamlining the documentation-as-code workflow for large enterprise platforms.
 ## Kubernetes and Cloud Native
 
+### CICD
+
+#### Continuous Deployment
+
+  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part two of the microservices CI/CD series, detailing continuous deployment onto active Kubernetes clusters. Focuses on orchestrating declarative manifest YAML files, configuring deployment strategies like rolling updates, and handling Kubernetes secrets securely.
+#### Dockerization
+
+  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details optimal Docker containerization patterns for Spring Boot microservices, addressing multi-stage image builds, layer caching, and minimizing runtime footprint sizes. It shows how to design pipeline steps to generate secure, unprivileged OCI-compliant container images.
 ### Microservices (1)
 
 #### Best Practices
@@ -413,6 +424,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Licensing
 
   - **(2021)** [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Oracle's licensing pivot with the introduction of the No-Fee Terms and Conditions (NFTC) license for JDK 17. The analysis explains how this license permits free production usage, easing previous compliance friction for enterprise environments.
+  - **(2018)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly discussed warning article regarding the commercial risks associated with using Oracle JDK 11 without a paid subscription. The piece strongly urges teams to migrate standard JVM deployments to community OpenJDK distributions to maintain licensing compliance.
 #### Openjdk Support
 
   - **(2018)** [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's strategic statement on taking over the stewardship of OpenJDK updates (specifically JDK 8 and JDK 11) after Oracle's support cycles. It outlines Red Hat's commitment to community-driven, enterprise-grade, open-source Java runtimes suitable for cloud native microservices.
@@ -542,7 +554,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
   - **(2022)** [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fullstack starter tutorial demonstrating how to integrate a Spring Boot backend API with an Angular single-page frontend application. It covers structuring cross-origin request policies (CORS), handling JSON model parsing, and securing application endpoints.
 
 ---
-💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
+💡 **Explore Related:** [Devel Sites](./devel-sites.md) | [Angular](./angular.md) | [Javascript](./javascript.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

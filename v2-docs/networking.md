@@ -16,6 +16,13 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
 #### General Reference
 
   - [dzone: What Is CIDR (Classless Inter-Domain Routing)](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: What Is CIDR (Classless Inter-Domain Routing) in the Kubernetes Tools ecosystem.
+## Cloud Infrastructure
+
+### Azure Networking
+
+#### Global Infrastructure
+
+  - **(2026)** [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive, live-updated reference catalog mapping the global availability of Azure services and network products across all Azure regions. This matrices-driven tool is vital for cloud architects designing multi-region redundancy, data residency compliance, and edge microservice topologies.
 ## Computer Networking and IPAM
 
 ### Infrastructure Management
@@ -112,7 +119,7 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
   - **(2024)** [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough engineering analysis contrasting architectural behaviors of HTTP/2 and HTTP/3. Examines the structural transition from TCP-based flows to UDP-based QUIC, detailing performance impacts.
 
 ---
-💡 **Explore Related:** [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

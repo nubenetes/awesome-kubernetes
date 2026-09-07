@@ -94,6 +94,17 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 #### Cloud Shell
 
   - **(2026)** [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces GCP's modernized web-based IDE powered by Eclipse Theia. It provides a preconfigured container workspace, dynamic terminal access, and direct integration with local source controls.
+### GCP Ecosystem
+
+#### CICD
+
+  - **(2026)** [Google Cloud Build](https://cloud.google.com/build) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's serverless continuous integration and continuous delivery platform, enabling high-performance builds across multiple languages. The curator highlights its deep integration with GKE and secure Docker artifact pipelines. Live telemetry confirms that Cloud Build is highly effective for cost-sensitive scaling operations due to its pay-as-you-go billing model.
+#### DevOps Frameworks
+
+  - **(2026)** [cloud.google.com: DevOps](https://cloud.google.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's primary DevOps hub, anchoring its research around DORA (DevOps Research and Assessment) and native cloud capabilities like Cloud Build and GKE. Curator reviews emphasize high-velocity software delivery architectures. Modern GCP engineering patterns rely on these principles to deploy secure, distributed, and containerized architectures on Google Cloud Platform.
+#### Developer Tools
+
+  - **(2026)** [Cloud Developer Tools](https://cloud.google.com/products/tools) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory of Google Cloud developer tools, spanning Cloud Shell, Artifact Registry, and Cloud Code extensions. The curator highlights its streamline-driven integration with local IDE environments. Live platform development metrics show these tools dramatically reduce local setup time for developers building serverless applications or microservices targeted at GCP.
 ### Google Cloud Platform (1)
 
 #### Product Catalog
@@ -161,23 +172,30 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 #### VPC Networking
 
   - **(2021)** [Cloud Functions, meet VPC functionality](https://cloud.google.com/blog/products/serverless/learn-how-to-use-advanced-vpc-functionality-with-your-cloud-functions) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how Google Cloud Functions natively interact with VPC resources using Serverless VPC Access connectors. This integration permits secure, private database queries, internal API routing, and system execution behind private networks without public IP exposure.
-## Cloud Strategy
+## Cloud Providers
 
-### Service Mapping
+### Google Kubernetes Engine GKE
 
-#### GCP Translation
+#### GKE Core
 
-  - **(2026)** [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's official engineering guide to translating AWS and Azure infrastructure paradigms into GCP equivalents. It describes VPC networks, database engines, and container services. Live grounding establishes its role as the industry-standard translation manual for cross-cloud architects.
-## Containers and Orchestration
+  - **(2025)** [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core landing documentation for Google Kubernetes Engine (GKE), highlighting GKE's industry-standard capabilities. Specifically focuses on setting up node pools with custom kernel parameters, eliminating post-bootstrap script workarounds. Provides the baseline reference for standard-setting enterprise container management.
+## Cluster Management
 
 ### Gitops
+
+#### Config Sync
+
+  - **(2025)** [Config Sync](https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Config Sync is Google Cloud's GitOps-native configuration engine optimized for Anthos and GKE clusters. It securely syncs cluster state configurations and namespace boundaries directly from trusted Git, OCI, or Helm registries with continuous validation.
+## Containers and Orchestration
+
+### Gitops (1)
 
 #### Config Connector
 
   - **(2020)** [==github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector==](https://github.com/GoogleCloudPlatform/k8s-config-connector) <span class='md-tag md-tag--info'>⭐ 1042</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fec39680" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-fec39680)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Config Connector is a Kubernetes Custom Resource Definition (CRD) controller that allows operators to manage Google Cloud resources natively as if they were standard Kubernetes objects. It bridges GitOps configurations with physical cloud infrastructure provisioning.
 ## DevOps and Delivery
 
-### CICD
+### CICD (1)
 
 #### Containerization
 
@@ -196,7 +214,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 #### Industry Assessment
 
   - **(2022)** [infoq.com: Google's Managed Continuous Delivery Service for Kubernetes Moves to GA](https://www.infoq.com/news/2022/02/google-cloud-deploy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical industry overview reporting on Google Cloud Deploy’s general availability. Analyzes its competitive positioning against GitOps tools (ArgoCD, Flux) and how it simplifies CI/CD platform engineering for cloud-native enterprises.
-### Developer Tools
+### Developer Tools (1)
 
 #### CLI Automation
 
@@ -211,7 +229,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2021)** [cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the gcloud CLI declarative export feature, allowing operators to automatically translate active GCP live resource states into production-ready Terraform configurations or Kubernetes Config Connector manifests.
 ## Devsecops
 
-### CICD (1)
+### CICD (2)
 
 #### Hybrid Cloud Architecture
 
@@ -295,7 +313,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [AWS](./aws.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [Kubernetes Storage](./kubernetes-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

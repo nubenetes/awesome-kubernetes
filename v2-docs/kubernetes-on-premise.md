@@ -121,6 +121,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Market Landscapes
 
   - **(2022)** [infoworld.com: 6 Kubernetes distributions leading the container revolution](https://www.infoworld.com/article/2266054/6-kubernetes-distributions-leading-the-container-revolution.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market overview focusing on major commercial Kubernetes platforms driving enterprise cloud-native architecture. Evaluates core features of Red Hat OpenShift, VMware Tanzu Grid, Rancher Kubernetes Engine (RKE), Mirantis Kubernetes Engine, Docker Enterprise, and Canonical Kubernetes, contrasting their operational models and target markets.
+  - **(2022)** [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A business and market analysis of the container software landscape, highlighting market share dynamics, consolidation waves, and the competitive positioning of major players like Red Hat, VMware, Rancher, and cloud hyperscalers. Reflects the strategic evolution toward managed platform-as-a-service models.
 #### Selection Criteria
 
   - **(2021)** [acloudguru.com: Which Kubernetes distribution is right for you?](https://www.pluralsight.com/resources/blog/cloud/which-kubernetes-distribution-is-right-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide comparing various Kubernetes distributions (including EKS, GKE, AKS, OpenShift, Rancher, and lightweight distributions like K3s) based on business needs, deployment environments, operational overhead, and budget. It guides enterprise architects in matching target environments with appropriate vendor or vanilla offerings.
@@ -257,9 +258,6 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Security
 
   - **(2020)** [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical troubleshooting guide mapping out the precise sequence required to rotate internal etcd client and peer certificates within a running, Kops-managed cluster. Addresses avoidance of control plane downtime and potential etcd split-brain scenarios during CA transitions.
-#### Ubuntu Stack
-
-  - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight vs Live Grounding: Canonical's Conjure-up tool was originally developed to orchestrate Juju applications and configure Charmed Kubernetes dynamically. Live status confirms the tool is deprecated and retired, with Canonical directing teams to use direct Juju or MicroK8s setups.
 ### Gitops (2)
 
 #### Legacy Tools
@@ -289,7 +287,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2019)** [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

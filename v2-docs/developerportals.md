@@ -111,20 +111,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Cursor IDE
 
   - **(2025)** [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational program designed to train engineers on utilizing the Cursor AI code editor effectively. The curriculum covers foundational concepts of context inclusion, codebase indexing, and multi-file code transformations. It teaches developers how to write highly optimized prompts to synthesize software architecture and debug legacy systems directly inside the IDE.
-## Developer Platforms
-
-### Documentation
-
-#### Github Wiki
-
-  - **(2022)** [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed guide on utilizing GitHub Wikis for repository documentation. It describes markdown editing, sidebar customization, and managing wiki repositories locally as standard Git remotes.
-### Git Repositories
-
-#### Github
-
-##### Open Source
-
-  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
 ## Domain Apis
 
 ### Automotive
@@ -211,13 +197,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Transport Layer Security
 
   - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
-## Networking
-
-### Service Mesh
-
-#### Ebpf Vs Proxy
-
-  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
 ## Platform Engineering
 
 ### Developer Portal
@@ -232,6 +211,13 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Tutorials (1)
 
   - **(2024)** [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical guide to bootstrapping Backstage, configuring the software catalog, and writing custom templates. The resource outlines practical steps to integrate local tooling with the developer portal, enabling swift adoption of self-service developer templates.
+## Software Architecture and .NET Development
+
+### Artificial Intelligence
+
+#### Agent Integration
+
+  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines methods for extending autonomous AI coding agents with direct .NET skill injection. Uses Semantic Kernel to build tools enabling LLMs to execute C# compilations, format files, and interact natively with code bases.
 ## Software Engineering
 
 ### AI Tools
@@ -246,14 +232,23 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
   - **(2026)** [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive index of public, developer-friendly APIs categorized by domain (e.g., weather, auth, finance). Serving as a core design-discovery tool, it enables engineers to rapidly find mock data, integration targets, and third-party solutions for prototyping.
 ### Ai-assisted Development
 
+#### CLI Tools
+
+  - **(2026)** [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Highlights setup and early integration techniques for GitHub Copilot CLI, translating natural language prompts into executable terminal and shell scripts. Enhances sysadmin and shell workflow automation while maintaining a human-in-the-loop review step for safety and correctness.
 #### Github Copilot
 
   - **(2026)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Authoritative guidelines from GitHub designed to optimize interaction with Copilot. Covers prompt engineering tactics (such as context-setting files and comments), managing AI security and license compliance, and verifying generated output.
-### Command-line Utilities
+#### LLM Prompting
 
-#### Terminal Emulators
+  - **(2025)** [Claude 101: Free Guides to Master Claude](https://claude101.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated reference hub containing structured tutorials, system prompting templates, and context optimization strategies for leveraging Anthropic's Claude models. Focuses on maximizing the quality of complex reasoning pipelines and architectural code reviews.
+#### Multi-repository Architecture
 
-  - **(2026)** [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern, Rust-based terminal emulator incorporating AI agent assistance directly into the command-line interface. Reimagines input fields like text editors, supports real-time workspace collaboration, and native context-sharing for accelerated platform ops troubleshooting.
+  - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced patterns for orchestrating automated codebase modifications across distributed multi-repository environments using AI workspaces. Evaluates dependency resolution, unified context indexing, and coordinate git-commit strategies during systemic API breaking updates.
+### Collaboration
+
+#### Documentation Specifications
+
+  - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
 ### Programming Paradigms
 
 #### Functional Programming
@@ -261,7 +256,7 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
 
 ---
-💡 **Explore Related:** [Project Management Tools](./project-management-tools.md) | [Project Management Methodology](./project-management-methodology.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Testops](./testops.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

@@ -16,6 +16,13 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### General Reference
 
   - [dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow== in the Kubernetes Tools ecosystem.
+## Artificial Intelligence
+
+### Developer Agents
+
+#### Amazon Q
+
+  - **(2026)** [Amazon CodeWhisperer](https://aws.amazon.com/q/developer) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon Q Developer (formerly CodeWhisperer) is AWS's flagship generative AI-assisted programming agent. It generates real-time, context-aware code suggestions while performing security scanning and structural code upgrades. Live grounding demonstrates its evolution into a highly secure, enterprise-compliant workspace tool with advanced reference tracking mechanisms.
 ## Backend-as-a-service
 
 ### Google Cloud
@@ -98,6 +105,11 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally) <span class='md-tag md-tag--warning'>[C/C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release summary detailing Red Hat Software Collections 3.8 and Developer Toolset 11. Explains runtime lifecycle considerations, package availability, and GCC version upgrades for building enterprise software on RHEL platforms.
 ## Software Engineering
 
+### API Management
+
+#### Testing
+
+  - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 ### Ai-assisted Development (1)
 
 #### Copilot Ecosystem
@@ -167,7 +179,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Javascript](./javascript.md) | [Python](./python.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [Cloud Asset Inventory](./cloud-asset-inventory.md) | [AWS Storage](./aws-storage.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
 
