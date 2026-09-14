@@ -58,6 +58,7 @@ Resources, tools, and projects related to autonomous AI agents, Model Context Pr
 - [Brave Search MCP](https://github.com/modelcontextprotocol/servers) - Grounded web search for AI agents.
 - [PostgreSQL MCP Server](https://github.com/modelcontextprotocol/servers) - Secure SQL execution and schema inspection for agents.
 - [Google Cloud Managed MCP](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini) - Production-grade MCP service for accessing GCP resources from Gemini.
+- [OrcaReplay MCP Server](https://github.com/Continuum-AI-Corp/OrcaReplay) - Exposes a recorded agent run to the model: what it sent, which tools it called with what arguments, shell exit codes and file changes, plus offline replay of that run. Apache-2.0, runs locally over stdio.
   - **(2025)** [LSEG and OpenAI Partner to Integrate Financial Data into ChatGPT](https://openai.com/index/lseg) 🌟 - London Stock Exchange Group (LSEG) introduces an MCP connector delivering real-time, trusted financial market data, analytics, and news directly into ChatGPT.
 
 ## LLM Operators and Infrastructure
