@@ -31,16 +31,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Gaia-X.eu](https://gaia-x.eu) | 🔴 critical | Gaia-X defines the strategic architectural framework for federated cloud infrastructure and data sovereignty across Europe. |
-    | 2026-06-01 | [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html) | 🟡 high | Provides official government policy and technical blueprints aimed at reducing hyperscaler lock-in across European enterprise cloud deployments. |
-    | 2026-06-01 | [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes) | 🟡 high | A widely adopted, high-quality open-source academic curriculum from the University of Helsinki training engineers in cloud-native operational practices. |
-    | 2026-06-01 | [http3-explained.haxx.se: HTTP/3 explained 🌟](https://http3-explained.haxx.se) | 🟡 high | Serves as the definitive engineering manual on HTTP/3 and QUIC, fundamentally impacting modern cloud-native edge and transport networking. |
-    | 2026-06-14 | [medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1 \|' Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1) | 🟡 high | Demonstrates production-ready patterns for deploying and managing enterprise secret infrastructure inside Kubernetes using HashiCorp Vault. |
-    | 2026-06-14 | [ruudvanasseldonk.com: The yaml document from hell](https://ruuda.nl/2023/the-yaml-document-from-hell) | 🔵 medium | Documents critical syntactical edge cases in YAML specifications that frequently cause silent misconfigurations in Kubernetes manifests. |
-    | 2026-06-01 | [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html) | 🔵 medium | Outlines concrete architectural patterns for securing CI/CD pipelines interfacing directly with Kubernetes cluster APIs. |
-    | 2026-06-01 | [thomasmaurer.ch](https://www.thomasmaurer.ch) | 🔵 medium | Delivers practical architectural insights into Azure Arc and hybrid cloud governance strategies widely adopted in European enterprises. |
-    | 2026-06-01 | [difftastic.wilfred.me.uk](https://difftastic.wilfred.me.uk) | 🔵 medium | Introduces an AST-based structural diffing paradigm that improves code review precision across complex cloud-native codebases. |
-    | 2026-05-17 | [kateyes.co.uk](https://www.kateyes.co.uk) | 🔵 medium | Provides platform teams with lightweight real-time cluster visualization and operational diagnostics without heavy observability agent overhead. |
+    | 2026-06-01 | [Gaia-X.eu](https://gaia-x.eu) | 🔴 critical | Defines the standard architectural framework for European data sovereignty and federated cloud infrastructure. |
+    | 2026-06-01 | [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html) | 🔴 critical | Provides official governmental backing and architectural direction for sovereign, interoperable cloud native platforms across Europe. |
+    | 2026-06-01 | [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes) | 🟡 high | A premier European academic curriculum delivering production-grade container orchestration and Kubernetes operational skills. |
+    | 2026-06-01 | [http3-explained.haxx.se: HTTP/3 explained 🌟](https://http3-explained.haxx.se) | 🟡 high | The definitive technical guide for the next-generation HTTP/3 protocol shaping modern edge ingress and cloud native networking. |
+    | 2026-06-01 | [thomasmaurer.ch](https://www.thomasmaurer.ch) | 🟡 high | Delivers deep operational insights into hybrid cloud topologies, Kubernetes governance, and Azure Arc management. |
+    | 2026-06-01 | [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html) | 🟡 high | Provides practical patterns for securing CI/CD pipelines and secret management directly against Kubernetes clusters. |
+    | 2026-05-17 | [kateyes.co.uk](https://www.kateyes.co.uk) | 🔵 medium | Offers lightweight, low-overhead workload visualization and diagnostic capabilities for Kubernetes platform operators. |
+    | 2026-06-18 | [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating) | 🔵 medium | Addresses a ubiquitous storage lifecycle failure mode in Kubernetes clusters by resolving stuck PVC finalizers. |
+    | 2026-06-01 | [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet) | 🔵 medium | Serves as an essential diagnostic operational guide for OpenShift 4 internal DNS and service routing components. |
+    | 2026-06-01 | [difftastic.wilfred.me.uk](https://difftastic.wilfred.me.uk) | 🔵 medium | Improves platform engineering and GitOps code reviews through structural AST-level difference analysis. |
 
 === "Last 6 Months"
 
@@ -79,16 +79,12 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🟡 high | Highlights the operational risks of hyperscaler lock-in and underscores the architectural necessity of multi-region resilience and cloud-neutral strategies. |
-    | 2026-06-14 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana) | 🟡 high | Addresses critical organizational bottlenecks in scaling DevSecOps and maintaining technical sovereignty within Spanish enterprise IT ecosystems. |
-    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🟡 high | Provides essential low-level Linux performance tuning and systems administration knowledge foundational to operating production cloud infrastructure. |
-    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🟡 high | Demonstrates production-ready enterprise API design and compliance architectures within the Spanish banking and fintech sector. |
-    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🔵 medium | Offers pragmatic strategic guidance on avoiding high-risk, oversized enterprise AI deployments in favor of iterative platform adoption. |
-    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Showcases modernized API-first enterprise integration architecture within the Spanish insurance sector. |
-    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Expands local developer onboarding and foundational software engineering skills across the Spanish-speaking technical community. |
-    | 2026-06-14 | [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es) | 🔵 medium | Analyzes tech talent retention and workplace factors impacting engineering team stability across Spanish organizations. |
-    | 2026-06-14 | [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://www.vogue.es/lideres) | 🔵 medium | Discusses engineering management evolution and leadership practices necessary for reducing developer burnout and turnover. |
-    | 2026-06-01 | [freelance.es](https://freelance.es) | 🔵 medium | Provides operational and legal support structures for independent technical contractors navigating the Spanish market. |
+    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🟡 high | Deep Linux performance analysis and storage tuning are foundational to optimizing enterprise container runtimes and Kubernetes infrastructure. |
+    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🟡 high | Hyperscaler outage analysis highlights critical enterprise requirements for multi-region resilience and fault-tolerant cloud architecture. |
+    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🔵 medium | Demonstrates production enterprise adoption of API-first infrastructure and modern service integration patterns in fintech. |
+    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Exemplifies modern corporate API gateway management and B2B digital service distribution at scale. |
+    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🔵 medium | Offers pragmatic architectural insights on incremental enterprise AI platform adoption versus high-risk overhauls. |
+    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Provides high-visibility localized engineering education for Python, a core language for cloud automation and data infrastructure. |
 
 === "Last 6 Months"
 
