@@ -99,7 +99,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Sep 14, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Sep 15, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -226,21 +226,14 @@
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://antigravity.google">Google Antigravity Agentic Platform</a></div>
   <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Provides a comprehensive enterprise platform and SDK specifically engineered to build and run stateful AI agents on Kubernetes.</div>
+  <div class="trending-card__why">Provides an enterprise-ready SDK and platform to build, evaluate, and deploy stateful agentic systems directly onto GKE.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
   <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Crossplane drives a major industry paradigm shift by transforming Kubernetes into a universal control plane capable of managing external cloud infrastructure.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Azure</div>
-  <div class="trending-card__title"><a href="https://github.com/Azure/bicep">Bicep</a></div>
-  <div class="trending-card__meta">2026-06-14 · 3.6k★</div>
-  <div class="trending-card__why">Bicep provides the primary native declarative DSL for modular and scalable Infrastructure as Code across Azure environments.</div>
+  <div class="trending-card__why">Crossplane revolutionizes cloud-native operations by transforming Kubernetes into a universal control plane for managing cloud infrastructure alongside application workloads.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -251,10 +244,17 @@
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://github.com/openshift/installer">installer openshift installer 🌟</a></div>
+  <div class="trending-card__meta">2026-06-14 · 1.6k★</div>
+  <div class="trending-card__why">Drives the foundational automated infrastructure provisioning (IPI/UPI) engine across bare metal and major cloud providers.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">GCP, OCI & Others</div>
   <div class="trending-card__title"><a href="https://github.com/GoogleCloudPlatform/k8s-config-connector">k8s-config-connector: GCP Config Connector</a></div>
   <div class="trending-card__meta">2026-06-14 · 1k★</div>
-  <div class="trending-card__why">Enables true GitOps infrastructure management by controlling GCP cloud resources directly as native Kubernetes Custom Resources.</div>
+  <div class="trending-card__why">Enables declarative GitOps management of Google Cloud resources directly through native Kubernetes Custom Resource Definitions.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -268,7 +268,7 @@
   <div class="trending-card__category">Containers & Runtime</div>
   <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
   <div class="trending-card__meta">2026-06-13 · 20.8k★</div>
-  <div class="trending-card__why">Industry-standard CNCF graduated container runtime powering modern Kubernetes node execution.</div>
+  <div class="trending-card__why">It is the industry-standard, CNCF-graduated container runtime powering production Kubernetes clusters globally.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -276,13 +276,6 @@
   <div class="trending-card__title"><a href="https://github.com/open-telemetry/opentelemetry-collector">OpenTelemetry Collector</a></div>
   <div class="trending-card__meta">2026-06-12 · 7.1k★</div>
   <div class="trending-card__why">Acts as the industry-standard, vendor-neutral data pipeline component for collecting, processing, and routing telemetry across cloud-native architectures.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">OpenShift / Red Hat</div>
-  <div class="trending-card__title"><a href="https://github.com/openshift/hypershift">hypershift: HyperShift</a></div>
-  <div class="trending-card__meta">2026-06-12 · 526★</div>
-  <div class="trending-card__why">HyperShift decouples the control plane into containerized management workloads, revolutionizing cluster provisioning speed and operational cost efficiency.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -300,10 +293,17 @@
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Architecture & Microservices</div>
-  <div class="trending-card__title"><a href="https://github.com/rootsongjc/awesome-cloud-native">rootsongjc/awesome-cloud-native 🌟</a></div>
-  <div class="trending-card__meta">2026-06-08 · 2.4k★</div>
-  <div class="trending-card__why">Delivers an extensive taxonomy of CNCF cloud-native architecture components, spanning service meshes, runtime engines, and distributed storage.</div>
+  <div class="trending-card__category">Infrastructure as Code</div>
+  <div class="trending-card__title"><a href="https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more">New in Terraform 1.15: Dynamic sources, variable deprecation, and more</a></div>
+  <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Introduces dynamic module sources and variable deprecations to modern HashiCorp Terraform, solving major modularity hurdles in enterprise configurations.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">AWS</div>
+  <div class="trending-card__title"><a href="https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=n/a&linkId=953986722">OpenAI Models and Codex on Amazon Bedrock are Now Generally Available</a></div>
+  <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Marks a transformative shift in enterprise AI infrastructure by natively providing OpenAI frontier models and Codex on Amazon Bedrock.</div>
 </div>
 </div>
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>
