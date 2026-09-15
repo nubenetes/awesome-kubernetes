@@ -116,6 +116,8 @@ extra:
       link: https://twitter.com/nubenetes
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/groups/1937212/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@nubenetes
   version:
     provider: mike # Ready for version switching
 
