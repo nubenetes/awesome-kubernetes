@@ -80,6 +80,7 @@
 - [medium.com/how-tos: How To Provisioning Dashboards In Grafana via Kubernetes](https://medium.com/how-tos/how-to-provisioning-dashboards-in-grafana-via-kubernetes-5d261508658d) Create a nice Dashboard that matches your needs
 - [==github.com/dotdc/grafana-dashboards-kubernetes== 🌟](https://github.com/dotdc/grafana-dashboards-kubernetes)
 - [github.com/onzack/grafana-dashboards](https://github.com/onzack/grafana-dashboards) Grafana Dashboards for Kubernetes, OpenShift and other systems
+- [github.com/Fractal-Techware/grafana-dashboards](https://github.com/Fractal-Techware/grafana-dashboards) MIT-licensed Grafana dashboards for node_exporter hosts (CPU, memory, filesystem, disk I/O, network) and Kubernetes namespaces and pods (kube-state-metrics and cAdvisor: resource usage by namespace, top pods, restarts, Pending and Failed pods). Dashboards use a selectable Prometheus data source variable instead of hard-coded uids and target Grafana 10.4 and 11; the repository includes provisioning files, a Docker Compose demo stack and CI validation of the JSON.
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------
