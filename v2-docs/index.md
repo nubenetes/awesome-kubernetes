@@ -99,7 +99,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Sep 18, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Sep 21, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -226,7 +226,7 @@
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a></div>
   <div class="trending-card__meta">2026-06-14 · 3.8k★</div>
-  <div class="trending-card__why">The NVIDIA Device Plugin serves as the foundational bridge enabling GPU scheduling and hardware acceleration for AI/ML workloads on Kubernetes.</div>
+  <div class="trending-card__why">Serves as the foundational infrastructure bridge enabling Kubernetes clusters to discover, schedule, and orchestrate physical NVIDIA GPUs for modern AI/ML workloads.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -282,7 +282,7 @@
   <div class="trending-card__category">Networking & Service Mesh</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a></div>
   <div class="trending-card__meta">2026-06-12 · 2.9k★</div>
-  <div class="trending-card__why">The Gateway API represents a major architectural paradigm shift, superseding standard Ingress with role-oriented, expressive, and extensible routing standards.</div>
+  <div class="trending-card__why">Establishes the official next-generation standard for Kubernetes ingress and egress, superseding legacy Ingress resources.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
