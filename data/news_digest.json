@@ -2048,7 +2048,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Crossplane revolutionizes cloud-native operations by transforming Kubernetes into a universal control plane for managing cloud infrastructure alongside application workloads.",
+        "why": "Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane for managing multi-cloud infrastructure declaratively.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2057,7 +2057,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "The NVIDIA Device Plugin serves as the foundational bridge enabling GPU scheduling and hardware acceleration for AI/ML workloads on Kubernetes.",
+        "why": "Serves as the foundational infrastructure bridge enabling Kubernetes clusters to discover, schedule, and orchestrate physical NVIDIA GPUs for modern AI/ML workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2066,7 +2066,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "As the core upstream elasticity engine, Cluster Autoscaler remains the standard mechanism governing cloud compute provisioning and scaling for production clusters.",
+        "why": "Acts as the foundational core autoscaling component ensuring enterprise clusters dynamically resize underlying cloud infrastructure based on real-time scheduling demand.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2075,7 +2075,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Kubecost is the enterprise benchmark for real-time FinOps and Kubernetes cost allocation across multi-cloud and on-premises environments.",
+        "why": "Provides the industry-standard FinOps observability framework required to track, allocate, and optimize multi-tenant container spending across cloud providers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2084,25 +2084,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Azure Workload Identity sets the enterprise standard for secure, passwordless authentication by federating Kubernetes service accounts with Entra ID.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/gravitational/teleport",
-        "title": "Teleport 🌟",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Teleport enforces zero-trust, identity-aware access and comprehensive audit trails across multi-cluster Kubernetes environments.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/derailed/k9s",
-        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "K9s is the industry's most widely adopted terminal UI, dramatically streamlining real-time cluster navigation, log streaming, and pod debugging.",
+        "why": "Sets the enterprise security standard for passwordless cloud authentication by federating Kubernetes Service Accounts with Microsoft Entra ID via OIDC.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2111,7 +2093,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "AWS Controllers for Kubernetes (ACK) enables platform teams to natively manage AWS resources directly through declarative Kubernetes manifests.",
+        "why": "Unifies infrastructure management by allowing teams to provision and lifecycle managed AWS cloud resources natively through Kubernetes CRDs.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2120,7 +2102,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Kargo advances modern GitOps by providing a declarative, Kubernetes-native pipeline for multi-stage application promotion across environments.",
+        "why": "Fills a major gap in GitOps pipelines by providing an automated, Kubernetes-native promotion engine for multi-stage progressive delivery.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2129,7 +2111,25 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Vertical Pod Autoscaler is an essential upstream component for rightsizing pod resource requests and mitigating enterprise cloud overprovisioning.",
+        "why": "Automates workload rightsizing to prevent resource overprovisioning and ensure predictable application performance in dense multi-tenant environments.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/projectcapsule/capsule",
+        "title": "Capsule Operator",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Enables multi-tenancy at scale by abstracting namespace governance, network isolation, and resource quotas into tenant-level boundaries.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/derailed/k9s",
+        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Remains the ubiquitous terminal-based cluster management interface that significantly accelerates operational triage and developer troubleshooting.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -3428,7 +3428,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Istio serves as the foundational, industry-standard service mesh for enterprise traffic management, zero-trust mTLS, and observability in Kubernetes.",
+        "why": "Defines enterprise cloud native traffic management, zero-trust mTLS security, and modern ambient service mesh architectures.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -3437,16 +3437,7 @@
         "date": "2026-06-12",
         "stars": 4,
         "impact": "critical",
-        "why": "The Gateway API represents a major architectural paradigm shift, superseding standard Ingress with role-oriented, expressive, and extensible routing standards.",
-        "category": "Networking & Service Mesh"
-      },
-      {
-        "url": "https://github.com/containernetworking",
-        "title": "github.com/containernetworking 🌟",
-        "date": "2026-05-17",
-        "stars": 5,
-        "impact": "critical",
-        "why": "The Container Network Interface (CNI) repository defines the underlying network specifications and core plugins powering virtually all cloud-native pod connectivity.",
+        "why": "Establishes the official next-generation standard for Kubernetes ingress and egress, superseding legacy Ingress resources.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -3455,7 +3446,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Envoy Gateway simplifies ingress and mesh routing by establishing an official, turnkey implementation of the Kubernetes Gateway API driven by Envoy Proxy.",
+        "why": "Unifies edge proxy architectures by providing an official Envoy-backed implementation of the Kubernetes Gateway API.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -3464,16 +3455,16 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Linkerd provides a production-grade, CNCF-graduated alternative to heavier service meshes using a lightweight, memory-safe Rust data plane.",
+        "why": "Serves as the primary CNCF-graduated, ultra-lightweight alternative to Istio with a purpose-built Rust data plane.",
         "category": "Networking & Service Mesh"
       },
       {
-        "url": "https://www.hashicorp.com/blog/consul-20-improves-flexibility-control-and-scalability",
-        "title": "Consul 2.0 improves flexibility, control, and scalability",
-        "date": "2026-06-02",
-        "stars": 4,
+        "url": "https://github.com/containernetworking",
+        "title": "github.com/containernetworking 🌟",
+        "date": "2026-05-17",
+        "stars": 5,
         "impact": "high",
-        "why": "Consul 2.0 delivers critical multi-cloud service mesh scalability, improved control plane density, and native multi-port support for Kubernetes workloads.",
+        "why": "Maintains the foundational CNI specification and runtime plugins that power all container network connectivity in Kubernetes.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -3482,7 +3473,25 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "NodeLocal DNSCache resolves critical cluster DNS latency and conntrack exhaustion bottlenecks by running localized caching agents directly on each node.",
+        "why": "Solves critical DNS resolution bottlenecks and Linux conntrack table exhaustion across high-scale Kubernetes clusters.",
+        "category": "Networking & Service Mesh"
+      },
+      {
+        "url": "https://www.hashicorp.com/blog/consul-20-improves-flexibility-control-and-scalability",
+        "title": "Consul 2.0 improves flexibility, control, and scalability",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "high",
+        "why": "Marks a major release milestone adding native multi-port service mesh support and enhanced multi-cloud networking controls.",
+        "category": "Networking & Service Mesh"
+      },
+      {
+        "url": "https://github.com/flannel-io/flannel",
+        "title": "Flannel",
+        "date": "2026-06-08",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Provides a ubiquitous, minimalist overlay CNI fabric relied on extensively for lightweight and edge Kubernetes installations.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -3491,16 +3500,7 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Meshery acts as a unified CNCF multi-mesh management plane enabling lifecycle operations, performance benchmarking, and conformance verification across diverse mesh providers.",
-        "category": "Networking & Service Mesh"
-      },
-      {
-        "url": "https://github.com/kiali/kiali",
-        "title": "github.com: kiali",
-        "date": "2026-06-12",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Kiali is the premier operational console for visualizing service topologies, verifying traffic routing, and diagnosing health issues within Istio deployments.",
+        "why": "Offers a CNCF ecosystem standard for multi-mesh management, dynamic design, and Service Mesh Performance (SMP) benchmarking.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -3509,7 +3509,7 @@
         "date": "2026-06-01",
         "stars": 0,
         "impact": "medium",
-        "why": "The Network Policy Editor drastically lowers the barrier to authoring, validating, and visualizing fine-grained L3 to L7 network security policies.",
+        "why": "Dramatically streamlines the authoring, visual validation, and debugging of fine-grained Kubernetes and Cilium network policies.",
         "category": "Networking & Service Mesh"
       }
     ],
@@ -3607,21 +3607,21 @@
     ],
     "Security & Compliance": [
       {
-        "url": "https://www.openpolicyagent.org",
-        "title": "OPA Open Policy Agent 🌟",
-        "date": "2026-05-17",
-        "stars": 5,
-        "impact": "critical",
-        "why": "OPA is the CNCF-graduated industry standard for declarative policy-as-code and fine-grained authorization across cloud native stacks.",
-        "category": "Security & Compliance"
-      },
-      {
         "url": "https://github.com/hashicorp/vault",
         "title": "hashicorp/vault",
         "date": "2026-06-12",
         "stars": 5,
         "impact": "critical",
-        "why": "HashiCorp Vault remains the de facto enterprise foundation for dynamic secrets management, encryption, and zero-trust credentials.",
+        "why": "HashiCorp Vault remains the de facto enterprise standard for dynamic secrets management and Zero Trust credential brokering in cloud native environments.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://www.openpolicyagent.org",
+        "title": "OPA Open Policy Agent 🌟",
+        "date": "2026-05-17",
+        "stars": 5,
+        "impact": "critical",
+        "why": "As a graduated CNCF project, Open Policy Agent serves as the universal foundation for declarative policy-as-code and authorization across the cloud native ecosystem.",
         "category": "Security & Compliance"
       },
       {
@@ -3630,7 +3630,7 @@
         "date": "2026-06-11",
         "stars": 5,
         "impact": "critical",
-        "why": "Trivy is the ubiquitous, all-in-one security scanner covering container images, SBOMs, and Infrastructure-as-Code configurations.",
+        "why": "Trivy is the ubiquitous industry scanner for container vulnerabilities, IaC misconfigurations, and software supply chain compliance.",
         "category": "Security & Compliance"
       },
       {
@@ -3639,7 +3639,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Tetragon delivers state-of-the-art eBPF-driven kernel observability and real-time runtime security enforcement without user-space latency.",
+        "why": "Tetragon leverages kernel-level eBPF instrumentation to provide real-time runtime security observability and automated attack enforcement for Kubernetes workloads.",
         "category": "Security & Compliance"
       },
       {
@@ -3648,7 +3648,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Project Calico is the premier Kubernetes networking and network policy engine, enforcing zero-trust microsegmentation at scale.",
+        "why": "Calico is the benchmark cloud native networking and security solution, providing high-performance eBPF-based network policy enforcement at scale.",
         "category": "Security & Compliance"
       },
       {
@@ -3657,7 +3657,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Prowler is an enterprise-grade standard for multi-cloud security posture management (CSPM) and automated CIS benchmark compliance.",
+        "why": "Prowler is an industry-leading open-source CSPM tool that automates multi-cloud security posture assessments and compliance auditing against CIS benchmarks.",
         "category": "Security & Compliance"
       },
       {
@@ -3666,7 +3666,7 @@
         "date": "2026-05-17",
         "stars": 5,
         "impact": "high",
-        "why": "Checkov provides essential shift-left static analysis to detect security misconfigurations in Terraform, Helm, and Kubernetes manifests.",
+        "why": "Checkov is a cornerstone for shifting security left by scanning Infrastructure-as-Code and Kubernetes manifests for misconfigurations before deployment.",
         "category": "Security & Compliance"
       },
       {
@@ -3675,7 +3675,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "SOPS is a critical GitOps primitive that facilitates seamless, file-level encryption for declarative configuration pipelines.",
+        "why": "SOPS provides essential, battle-tested file-level encryption for declarative configuration pipelines and GitOps secret management.",
         "category": "Security & Compliance"
       },
       {
@@ -3684,16 +3684,16 @@
         "date": "2026-06-12",
         "stars": 4,
         "impact": "high",
-        "why": "Security Profiles Operator is the official Kubernetes SIG project that automates the deployment of Seccomp, AppArmor, and SELinux profiles.",
+        "why": "The official Kubernetes Security Profiles Operator standardizes and simplifies the cluster-wide distribution of Seccomp, AppArmor, and SELinux profiles.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/kubescape/kubescape",
-        "title": "kubescape",
-        "date": "2026-06-12",
+        "url": "https://github.com/cloud-custodian/cloud-custodian",
+        "title": "Cloud Custodian",
+        "date": "2026-06-10",
         "stars": 5,
         "impact": "high",
-        "why": "Kubescape is a CNCF-backed posture management tool that automates continuous risk assessment and Kubernetes hardening guide compliance.",
+        "why": "Cloud Custodian enables platform teams to unify multi-cloud compliance, governance, and automated remediation through declarative YAML policies.",
         "category": "Security & Compliance"
       }
     ],
@@ -4370,7 +4370,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Transforms Kubernetes into a universal control plane framework, enabling teams to manage multi-cloud infrastructure through declarative Kubernetes APIs.",
+        "why": "Transforms Kubernetes into a universal control plane capable of orchestrating multi-cloud infrastructure alongside application workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4379,7 +4379,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Acts as the indispensable hardware integration layer enabling Kubernetes clusters to schedule and run GPU-accelerated AI/ML workloads.",
+        "why": "Serves as the foundational, standard hardware plugin enabling GPU-accelerated AI and machine learning workloads across Kubernetes clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4388,7 +4388,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "Remains the foundational, battle-tested Kubernetes core component responsible for dynamic infrastructure scaling across all major cloud providers.",
+        "why": "Provides the industry-standard upstream node scaling engine that underpins elastic capacity and infrastructure cost management in production.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4397,7 +4397,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Sets the enterprise standard for Kubernetes FinOps by delivering real-time, granular cost allocation and observability across multi-cluster environments.",
+        "why": "Stands as the de facto enterprise solution for granular real-time Kubernetes cost allocation, chargeback, and FinOps governance.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4406,7 +4406,16 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Defines the enterprise standard for secretless, federated identity authentication between Kubernetes service accounts and Azure Entra ID.",
+        "why": "Establishes modern zero-trust enterprise security by federating Kubernetes service accounts with Microsoft Entra ID via OIDC.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/gravitational/teleport",
+        "title": "Teleport 🌟",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers unified, identity-governed zero-trust access and auditing for Kubernetes APIs, nodes, and supporting infrastructure.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4415,34 +4424,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Allows platform engineers to manage native AWS cloud services declaratively directly through Kubernetes CRDs and reconciliation loops.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/external-dns",
-        "title": "external-dns",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Serves as an essential Kubernetes SIG component that automates external DNS synchronization across diverse DNS providers based on Services and Ingresses.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/akuity/kargo",
-        "title": "==github.com/akuity/kargo==",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides a GitOps-native lifecycle promotion engine to coordinate multi-stage application rollout pipelines across staging and production.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler",
-        "title": "VPA: Vertical Pod Autoscaler",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Critical upstream autoscaling project that automates pod resource right-sizing to optimize cluster utilization and avoid overprovisioning.",
+        "why": "Enables cloud native engineering teams to declaratively manage native AWS infrastructure components directly via Kubernetes manifests.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4451,7 +4433,25 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Widely adopted terminal UI that fundamentally accelerates day-to-day cluster navigation, workload debugging, and operational triage.",
+        "why": "The ubiquitous terminal-based operational UI that radically streamlines day-to-day cluster administration and operational debugging.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler",
+        "title": "VPA: Vertical Pod Autoscaler",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Critical core automation component that autonomously rightsizes pod resource requests and limits to maximize cluster packing density.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/external-dns",
+        "title": "external-dns",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Vital Kubernetes-SIGs utility that automates external DNS lifecycle management dynamically from Ingress and Service manifests across major cloud providers.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -6839,9 +6839,9 @@
     },
     "6_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-09-15T12:31:18.926209+02:00",
-        "entry_hash": "f116fff1a9e4b3af",
-        "entry_count": 1410,
+        "last_analyzed": "2026-09-21T18:47:12.147007+02:00",
+        "entry_hash": "79d9cb0b30cb5fb2",
+        "entry_count": 1409,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -6929,9 +6929,9 @@
         "method": "gemini"
       },
       "Networking & Service Mesh": {
-        "last_analyzed": "2026-09-14T11:41:23.887313+02:00",
-        "entry_hash": "37e91f3d2bead61d",
-        "entry_count": 242,
+        "last_analyzed": "2026-09-21T18:47:21.459982+02:00",
+        "entry_hash": "45422c56e463a9c9",
+        "entry_count": 241,
         "method": "gemini"
       },
       "AWS": {
@@ -6941,9 +6941,9 @@
         "method": "gemini"
       },
       "Security & Compliance": {
-        "last_analyzed": "2026-09-07T21:13:46.123093+02:00",
-        "entry_hash": "c9fc07b85d730e75",
-        "entry_count": 347,
+        "last_analyzed": "2026-09-21T18:47:31.319997+02:00",
+        "entry_hash": "e2d0d8835374fb82",
+        "entry_count": 346,
         "method": "gemini"
       },
       "Architecture & Microservices": {
@@ -6997,9 +6997,9 @@
     },
     "12_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-09-14T11:41:31.530333+02:00",
-        "entry_hash": "41c40a44ec7e0380",
-        "entry_count": 1507,
+        "last_analyzed": "2026-09-21T18:47:39.129983+02:00",
+        "entry_hash": "fc6892901330b5dc",
+        "entry_count": 1506,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7153,6 +7153,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-09-18T12:52:14.501757+02:00"
+    "last_updated": "2026-09-21T18:47:40.138430+02:00"
   }
 }

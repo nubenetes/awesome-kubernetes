@@ -29,31 +29,31 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Crossplane revolutionizes cloud-native operations by transforming Kubernetes into a universal control plane for managing cloud infrastructure alongside application workloads. |
-    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | The NVIDIA Device Plugin serves as the foundational bridge enabling GPU scheduling and hardware acceleration for AI/ML workloads on Kubernetes. |
-    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | As the core upstream elasticity engine, Cluster Autoscaler remains the standard mechanism governing cloud compute provisioning and scaling for production clusters. |
-    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Kubecost is the enterprise benchmark for real-time FinOps and Kubernetes cost allocation across multi-cloud and on-premises environments. |
-    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Azure Workload Identity sets the enterprise standard for secure, passwordless authentication by federating Kubernetes service accounts with Entra ID. |
-    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🟡 high | Teleport enforces zero-trust, identity-aware access and comprehensive audit trails across multi-cluster Kubernetes environments. |
-    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is the industry's most widely adopted terminal UI, dramatically streamlining real-time cluster navigation, log streaming, and pod debugging. |
-    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | AWS Controllers for Kubernetes (ACK) enables platform teams to natively manage AWS resources directly through declarative Kubernetes manifests. |
-    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🟡 high | Kargo advances modern GitOps by providing a declarative, Kubernetes-native pipeline for multi-stage application promotion across environments. |
-    | 2026-06-13 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Vertical Pod Autoscaler is an essential upstream component for rightsizing pod resource requests and mitigating enterprise cloud overprovisioning. |
+    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane for managing multi-cloud infrastructure declaratively. |
+    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | Serves as the foundational infrastructure bridge enabling Kubernetes clusters to discover, schedule, and orchestrate physical NVIDIA GPUs for modern AI/ML workloads. |
+    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Acts as the foundational core autoscaling component ensuring enterprise clusters dynamically resize underlying cloud infrastructure based on real-time scheduling demand. |
+    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Provides the industry-standard FinOps observability framework required to track, allocate, and optimize multi-tenant container spending across cloud providers. |
+    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Sets the enterprise security standard for passwordless cloud authentication by federating Kubernetes Service Accounts with Microsoft Entra ID via OIDC. |
+    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Unifies infrastructure management by allowing teams to provision and lifecycle managed AWS cloud resources natively through Kubernetes CRDs. |
+    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🟡 high | Fills a major gap in GitOps pipelines by providing an automated, Kubernetes-native promotion engine for multi-stage progressive delivery. |
+    | 2026-06-13 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Automates workload rightsizing to prevent resource overprovisioning and ensure predictable application performance in dense multi-tenant environments. |
+    | 2026-06-13 | [Capsule Operator](https://github.com/projectcapsule/capsule) | 🟡 high | Enables multi-tenancy at scale by abstracting namespace governance, network isolation, and resource quotas into tenant-level boundaries. |
+    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🔵 medium | Remains the ubiquitous terminal-based cluster management interface that significantly accelerates operational triage and developer troubleshooting. |
 
 === "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Transforms Kubernetes into a universal control plane framework, enabling teams to manage multi-cloud infrastructure through declarative Kubernetes APIs. |
-    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | Acts as the indispensable hardware integration layer enabling Kubernetes clusters to schedule and run GPU-accelerated AI/ML workloads. |
-    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Remains the foundational, battle-tested Kubernetes core component responsible for dynamic infrastructure scaling across all major cloud providers. |
-    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Sets the enterprise standard for Kubernetes FinOps by delivering real-time, granular cost allocation and observability across multi-cluster environments. |
-    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Defines the enterprise standard for secretless, federated identity authentication between Kubernetes service accounts and Azure Entra ID. |
-    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Allows platform engineers to manage native AWS cloud services declaratively directly through Kubernetes CRDs and reconciliation loops. |
-    | 2026-06-13 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | Serves as an essential Kubernetes SIG component that automates external DNS synchronization across diverse DNS providers based on Services and Ingresses. |
-    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🟡 high | Provides a GitOps-native lifecycle promotion engine to coordinate multi-stage application rollout pipelines across staging and production. |
-    | 2026-06-13 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Critical upstream autoscaling project that automates pod resource right-sizing to optimize cluster utilization and avoid overprovisioning. |
-    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | Widely adopted terminal UI that fundamentally accelerates day-to-day cluster navigation, workload debugging, and operational triage. |
+    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Transforms Kubernetes into a universal control plane capable of orchestrating multi-cloud infrastructure alongside application workloads. |
+    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | Serves as the foundational, standard hardware plugin enabling GPU-accelerated AI and machine learning workloads across Kubernetes clusters. |
+    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Provides the industry-standard upstream node scaling engine that underpins elastic capacity and infrastructure cost management in production. |
+    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Stands as the de facto enterprise solution for granular real-time Kubernetes cost allocation, chargeback, and FinOps governance. |
+    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Establishes modern zero-trust enterprise security by federating Kubernetes service accounts with Microsoft Entra ID via OIDC. |
+    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🟡 high | Delivers unified, identity-governed zero-trust access and auditing for Kubernetes APIs, nodes, and supporting infrastructure. |
+    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Enables cloud native engineering teams to declaratively manage native AWS infrastructure components directly via Kubernetes manifests. |
+    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | The ubiquitous terminal-based operational UI that radically streamlines day-to-day cluster administration and operational debugging. |
+    | 2026-06-13 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Critical core automation component that autonomously rightsizes pod resource requests and limits to maximize cluster packing density. |
+    | 2026-06-13 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | Vital Kubernetes-SIGs utility that automates external DNS lifecycle management dynamically from Ingress and Service manifests across major cloud providers. |
 
 
 ## Containers & Runtime
@@ -125,16 +125,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-14 | [github.com: Istio](https://github.com/istio/istio) | 🔴 critical | Istio serves as the foundational, industry-standard service mesh for enterprise traffic management, zero-trust mTLS, and observability in Kubernetes. |
-    | 2026-06-12 | [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) | 🔴 critical | The Gateway API represents a major architectural paradigm shift, superseding standard Ingress with role-oriented, expressive, and extensible routing standards. |
-    | 2026-05-17 | [github.com/containernetworking 🌟](https://github.com/containernetworking) | 🔴 critical | The Container Network Interface (CNI) repository defines the underlying network specifications and core plugins powering virtually all cloud-native pod connectivity. |
-    | 2026-06-14 | [Envoy Gateway](https://github.com/envoyproxy/gateway) | 🟡 high | Envoy Gateway simplifies ingress and mesh routing by establishing an official, turnkey implementation of the Kubernetes Gateway API driven by Envoy Proxy. |
-    | 2026-06-01 | [Linkerd](https://linkerd.io) | 🟡 high | Linkerd provides a production-grade, CNCF-graduated alternative to heavier service meshes using a lightweight, memory-safe Rust data plane. |
-    | 2026-06-02 | [Consul 2.0 improves flexibility, control, and scalability](https://www.hashicorp.com/blog/consul-20-improves-flexibility-control-and-scalability) | 🟡 high | Consul 2.0 delivers critical multi-cloud service mesh scalability, improved control plane density, and native multi-port support for Kubernetes workloads. |
-    | 2026-06-14 | [NodeLocal DNSCache](https://github.com/kubernetes/enhancements) | 🟡 high | NodeLocal DNSCache resolves critical cluster DNS latency and conntrack exhaustion bottlenecks by running localized caching agents directly on each node. |
-    | 2026-06-01 | [Meshery.io:](https://meshery.io) | 🔵 medium | Meshery acts as a unified CNCF multi-mesh management plane enabling lifecycle operations, performance benchmarking, and conformance verification across diverse mesh providers. |
-    | 2026-06-12 | [github.com: kiali](https://github.com/kiali/kiali) | 🔵 medium | Kiali is the premier operational console for visualizing service topologies, verifying traffic routing, and diagnosing health issues within Istio deployments. |
-    | 2026-06-01 | [editor.cilium.io 🌟](https://editor.networkpolicy.io) | 🔵 medium | The Network Policy Editor drastically lowers the barrier to authoring, validating, and visualizing fine-grained L3 to L7 network security policies. |
+    | 2026-06-14 | [github.com: Istio](https://github.com/istio/istio) | 🔴 critical | Defines enterprise cloud native traffic management, zero-trust mTLS security, and modern ambient service mesh architectures. |
+    | 2026-06-12 | [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) | 🔴 critical | Establishes the official next-generation standard for Kubernetes ingress and egress, superseding legacy Ingress resources. |
+    | 2026-06-14 | [Envoy Gateway](https://github.com/envoyproxy/gateway) | 🟡 high | Unifies edge proxy architectures by providing an official Envoy-backed implementation of the Kubernetes Gateway API. |
+    | 2026-06-01 | [Linkerd](https://linkerd.io) | 🟡 high | Serves as the primary CNCF-graduated, ultra-lightweight alternative to Istio with a purpose-built Rust data plane. |
+    | 2026-05-17 | [github.com/containernetworking 🌟](https://github.com/containernetworking) | 🟡 high | Maintains the foundational CNI specification and runtime plugins that power all container network connectivity in Kubernetes. |
+    | 2026-06-14 | [NodeLocal DNSCache](https://github.com/kubernetes/enhancements) | 🟡 high | Solves critical DNS resolution bottlenecks and Linux conntrack table exhaustion across high-scale Kubernetes clusters. |
+    | 2026-06-02 | [Consul 2.0 improves flexibility, control, and scalability](https://www.hashicorp.com/blog/consul-20-improves-flexibility-control-and-scalability) | 🟡 high | Marks a major release milestone adding native multi-port service mesh support and enhanced multi-cloud networking controls. |
+    | 2026-06-08 | [Flannel](https://github.com/flannel-io/flannel) | 🔵 medium | Provides a ubiquitous, minimalist overlay CNI fabric relied on extensively for lightweight and edge Kubernetes installations. |
+    | 2026-06-01 | [Meshery.io:](https://meshery.io) | 🔵 medium | Offers a CNCF ecosystem standard for multi-mesh management, dynamic design, and Service Mesh Performance (SMP) benchmarking. |
+    | 2026-06-01 | [editor.cilium.io 🌟](https://editor.networkpolicy.io) | 🔵 medium | Dramatically streamlines the authoring, visual validation, and debugging of fine-grained Kubernetes and Cilium network policies. |
 
 === "Last 12 Months"
 
@@ -454,16 +454,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org) | 🔴 critical | OPA is the CNCF-graduated industry standard for declarative policy-as-code and fine-grained authorization across cloud native stacks. |
-    | 2026-06-12 | [hashicorp/vault](https://github.com/hashicorp/vault) | 🔴 critical | HashiCorp Vault remains the de facto enterprise foundation for dynamic secrets management, encryption, and zero-trust credentials. |
-    | 2026-06-11 | [trivy](https://github.com/aquasecurity/trivy) | 🔴 critical | Trivy is the ubiquitous, all-in-one security scanner covering container images, SBOMs, and Infrastructure-as-Code configurations. |
-    | 2026-06-14 | [Tetragon (Cilium)](https://github.com/cilium/tetragon) | 🟡 high | Tetragon delivers state-of-the-art eBPF-driven kernel observability and real-time runtime security enforcement without user-space latency. |
-    | 2026-06-18 | [Project Calico 🌟](https://www.tigera.io/project-calico) | 🟡 high | Project Calico is the premier Kubernetes networking and network policy engine, enforcing zero-trust microsegmentation at scale. |
-    | 2026-06-13 | [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler) | 🟡 high | Prowler is an enterprise-grade standard for multi-cloud security posture management (CSPM) and automated CIS benchmark compliance. |
-    | 2026-05-17 | [checkov.io](https://www.checkov.io) | 🟡 high | Checkov provides essential shift-left static analysis to detect security misconfigurations in Terraform, Helm, and Kubernetes manifests. |
-    | 2026-06-13 | [sops: Simple and flexible tool for managing secrets 🌟](https://github.com/getsops/sops) | 🟡 high | SOPS is a critical GitOps primitive that facilitates seamless, file-level encryption for declarative configuration pipelines. |
-    | 2026-06-12 | [kubernetes-sigs/security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | 🟡 high | Security Profiles Operator is the official Kubernetes SIG project that automates the deployment of Seccomp, AppArmor, and SELinux profiles. |
-    | 2026-06-12 | [kubescape](https://github.com/kubescape/kubescape) | 🟡 high | Kubescape is a CNCF-backed posture management tool that automates continuous risk assessment and Kubernetes hardening guide compliance. |
+    | 2026-06-12 | [hashicorp/vault](https://github.com/hashicorp/vault) | 🔴 critical | HashiCorp Vault remains the de facto enterprise standard for dynamic secrets management and Zero Trust credential brokering in cloud native environments. |
+    | 2026-05-17 | [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org) | 🔴 critical | As a graduated CNCF project, Open Policy Agent serves as the universal foundation for declarative policy-as-code and authorization across the cloud native ecosystem. |
+    | 2026-06-11 | [trivy](https://github.com/aquasecurity/trivy) | 🔴 critical | Trivy is the ubiquitous industry scanner for container vulnerabilities, IaC misconfigurations, and software supply chain compliance. |
+    | 2026-06-14 | [Tetragon (Cilium)](https://github.com/cilium/tetragon) | 🟡 high | Tetragon leverages kernel-level eBPF instrumentation to provide real-time runtime security observability and automated attack enforcement for Kubernetes workloads. |
+    | 2026-06-18 | [Project Calico 🌟](https://www.tigera.io/project-calico) | 🟡 high | Calico is the benchmark cloud native networking and security solution, providing high-performance eBPF-based network policy enforcement at scale. |
+    | 2026-06-13 | [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler) | 🟡 high | Prowler is an industry-leading open-source CSPM tool that automates multi-cloud security posture assessments and compliance auditing against CIS benchmarks. |
+    | 2026-05-17 | [checkov.io](https://www.checkov.io) | 🟡 high | Checkov is a cornerstone for shifting security left by scanning Infrastructure-as-Code and Kubernetes manifests for misconfigurations before deployment. |
+    | 2026-06-13 | [sops: Simple and flexible tool for managing secrets 🌟](https://github.com/getsops/sops) | 🟡 high | SOPS provides essential, battle-tested file-level encryption for declarative configuration pipelines and GitOps secret management. |
+    | 2026-06-12 | [kubernetes-sigs/security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | 🟡 high | The official Kubernetes Security Profiles Operator standardizes and simplifies the cluster-wide distribution of Seccomp, AppArmor, and SELinux profiles. |
+    | 2026-06-10 | [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) | 🟡 high | Cloud Custodian enables platform teams to unify multi-cloud compliance, governance, and automated remediation through declarative YAML policies. |
 
 === "Last 12 Months"
 

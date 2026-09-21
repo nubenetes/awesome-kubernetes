@@ -332,6 +332,7 @@
   - [Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP Integration](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) - *(Related to kubernetes-tools topic)*
   - [SQL Studio: A Unified SQL Database Explorer](https://github.com/frectonz/sql-studio) - *(Related to kubernetes-tools topic)*
 
+- [libredb/libredb-studio](https://github.com/libredb/libredb-studio) Self-hosted web SQL IDE for cloud-native teams: browser-based, sixteen database engines, an official Helm chart and an OLM operator published in both community catalogs, so it runs inside the cluster it queries rather than on a laptop.
 - [SHMIG](https://github.com/mbucc/shmig) A database migration tool written in BASH consisting of just one file - shmig.
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) Sql mock driver for golang to test database interactions
 - [datafold/data-diff](https://github.com/datafold/data-diff) Efficiently diff rows across two different databases.
