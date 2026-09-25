@@ -1,5 +1,5 @@
 ---
-description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk and more — curated Cloud Native tools, guides and references."
+description: "Top Terraform resources for 2026, AI-ranked: terraform-cdk, Infracost and more — curated Cloud Native tools, guides and references."
 ---
 # Hashicorp Terraform and Packer. Kubernetes Boilerplates
 
@@ -1017,7 +1017,7 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
   - **(2023)** [==AWS Lambda the Terraform Way==](https://github.com/nsriram/lambda-the-terraform-way) <span class='md-tag md-tag--info'>⭐ 1260</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a88e588" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-8a88e588)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely starred open-source template repository outlining best practices for packaging, versioning, and deploying AWS Lambda functions natively using Terraform. Eliminates dependencies on external serverless frameworks by leveraging HCL zip archiving capabilities.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Devsecops](./devsecops.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [Kustomize](./kustomize.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Dotnet](./dotnet.md) | [Rancher](./rancher.md)
 

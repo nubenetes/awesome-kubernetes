@@ -16,9 +16,7 @@ description: "Curated, AI-ranked Cloud Asset Inventory resources for the 2026 Cl
 #### Cloud Analytics
 
   - **(2026)** [cloudquery.io: Cloud Query: The open-source cloud asset inventory powered by SQL](https://www.cloudquery.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source high-performance security and asset discovery tool that parses cloud configuration APIs into standard SQL databases. Enables infrastructure teams to perform complex auditing, compliance mapping, and security reporting.
-  - **(2026)** [steampipe](https://steampipe.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensible open-source command-line framework that translates APIs and cloud inventories into virtual SQL tables. Enables DevOps engineers to construct real-time dashboards and audit configuration profiles on multi-cloud hosts.
   - **(2023)** [cloudquery.io: Building an Open-Source Cloud Asset Inventory with CloudQuery and Grafana](https://www.cloudquery.io/learning-center/cloud-asset-management) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step implementation guide detailing how to ingest cloud infrastructure state via CloudQuery and visualize data patterns within Grafana. Outlines pipeline construction, scheduling, and database optimization.
-  - **(2022)** [Querying AWS at scale across APIs, Regions, and accounts](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise guide mapping performance configurations designed to query massive multi-account, multi-region AWS environments. Analyzes API latency limitations, concurrency protocols, and security audits utilizing SQL query abstractions.
 ### Storage and Databases
 
 #### Distributed Block Storage
@@ -33,7 +31,7 @@ description: "Curated, AI-ranked Cloud Asset Inventory resources for the 2026 Cl
   - **(2024)** [CloudCanvas - Diagramming for Cloud Infrastructure](https://cloudcanvas.co) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — CloudCanvas is an emerging interactive workspace tool tailored for designing cloud topologies and auto-generating infrastructure-as-code manifests. By linking architectural nodes directly to API-driven configurations, it helps bridge the gap between architectural diagramming and operational execution.
 
 ---
-💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

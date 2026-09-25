@@ -73,7 +73,13 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 
 #### DevOps Integrations
 
+  - **(2020)** [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This integration study outlines the cooperative benefits of leveraging Red Hat OpenShift alongside JFrog Artifactory to drive secure, enterprise-grade cloud-native development. It covers automated build triggers, container compliance, and continuous deployment workflows. It showcases how combining these enterprise tools streamlines DevOps practices at scale.
   - **(2020)** [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial demonstrating practical steps to configure and run JFrog Artifactory on Red Hat OpenShift container clusters. It guides platform engineers through deployment steps, operator configuration, and cluster-wide pull authorization parameters. It focuses on validating container origin trust within regulated enterprise clusters.
+### Pipeline Automation
+
+#### Jfrog Pipelines
+
+  - **(2021)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the transition of software build jobs from standard Jenkins architectures to optimized JFrog Pipelines. It details structural enhancements in build speeds, caching mechanisms, and overall pipeline orchestrations using Artifactory integrations. This technical blog demonstrates techniques for reducing CI bottleneck overhead.
 ### Secops
 
 #### Automated Builds
@@ -150,6 +156,13 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 #### Jfrog Strategy
 
   - **(2021)** [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An external market analysis tracing JFrog's economic trajectory and product adoption patterns, comparing its position in the DevOps ecosystem to MongoDB's disruptive influence in databases. It discusses developer adoption, platform consolidation, and commercial growth. The article presents a non-technical overview of JFrog's platform viability.
+## Networking
+
+### Multi-cluster
+
+#### DNS
+
+  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 ## Orchestration and Packaging
 
 ### Helm and Gitops
@@ -159,7 +172,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
   - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
-💡 **Explore Related:** [Gitops](./gitops.md) | [Argo](./argo.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Sonarqube](./sonarqube.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

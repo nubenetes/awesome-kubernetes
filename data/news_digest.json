@@ -1158,7 +1158,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "It is the authoritative training body and testing provider for canonical cloud native certifications including CKA, CKAD, and CKS.",
+        "why": "It is the canonical certification and curriculum authority for core cloud-native credentials, including CKA, CKAD, and CKS.",
         "category": "Certification & Training"
       },
       {
@@ -1167,16 +1167,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "This official kubectl quick reference is indispensable for operators and serves as an essential allowed resource during hands-on CNCF exams.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://skillbuilder.aws/",
-        "title": "skillbuilder.aws: AWS Skill Builder",
-        "date": "2026-06-25",
-        "stars": 5,
-        "impact": "high",
-        "why": "Serves as AWS's central digital training engine offering official learning paths and exam readiness assessments for cloud practitioners.",
+        "why": "Provides the essential, authoritative kubectl reference syntax permitted and heavily relied upon during practical Kubernetes certification exams.",
         "category": "Certification & Training"
       },
       {
@@ -1185,7 +1176,7 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "high",
-        "why": "Provides specialized, high-production Kubernetes training modules covering advanced cluster operations, security controls, and multi-tenancy.",
+        "why": "Delivers comprehensive, production-aligned modular tracks on cluster operations, multi-tenancy, and cloud-native security fundamentals.",
         "category": "Certification & Training"
       },
       {
@@ -1194,7 +1185,7 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "high",
-        "why": "Offers rigorous interactive sandboxes and exam simulation environments purpose-built for candidates preparing for CNCF certifications.",
+        "why": "Offers industry-standard hands-on sandboxes and simulated exam environments specifically tailored for CKA, CKAD, and CKS candidates.",
         "category": "Certification & Training"
       },
       {
@@ -1203,7 +1194,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers real-world, hands-on infrastructure blueprints and deployment pipelines essential for practical DevOps engineering education.",
+        "why": "Translates theoretical certification concepts into hands-on competency through production-ready CI/CD, Terraform, and Kubernetes deployment blueprints.",
         "category": "Certification & Training"
       },
       {
@@ -1212,7 +1203,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Provides the industry-standard curriculum for secure application development and defense strategies vital for passing cloud security certifications like CKS.",
+        "why": "Serves as the benchmark security reference indispensable for passing advanced security certifications like the CKS and securing cloud workloads.",
         "category": "Certification & Training"
       },
       {
@@ -1220,17 +1211,17 @@
         "title": "edx.org",
         "date": "2026-06-01",
         "stars": 4,
-        "impact": "medium",
-        "why": "Hosts official foundational open-source and Linux Foundation coursework to onboard engineers into the cloud native ecosystem.",
+        "impact": "high",
+        "why": "Hosts official Linux Foundation and CNCF academic coursework bridging standard operating system administration and containerized architectures.",
         "category": "Certification & Training"
       },
       {
-        "url": "https://developer.hashicorp.com/terraform/cli/commands",
-        "title": "terraform.io: Terraform Commands",
+        "url": "https://redhatgov.io",
+        "title": "redhatgov.io",
         "date": "2026-06-01",
-        "stars": 5,
+        "stars": 4,
         "impact": "medium",
-        "why": "Acts as the official CLI reference for HashiCorp Terraform, a core study and operational requirement for infrastructure-as-code certifications.",
+        "why": "Supplies specialized enterprise platform engineering training for securing and hardening OpenShift infrastructure to meet strict compliance mandates.",
         "category": "Certification & Training"
       },
       {
@@ -1239,7 +1230,16 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Facilitates community-driven peer mentorship and focused study cohorts dedicated to Kubernetes and cloud architecture certification prep.",
+        "why": "Acts as an active peer-to-peer knowledge collective focused directly on debugging and preparing for Kubernetes and cloud architecture exams.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/cli/commands",
+        "title": "terraform.io: Terraform Commands",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Delivers the definitive CLI and state management reference required for mastering infrastructure-as-code automation and HashiCorp certifications.",
         "category": "Certification & Training"
       }
     ],
@@ -1996,8 +1996,8 @@
         "title": "Ray",
         "date": "2026-06-01",
         "stars": 5,
-        "impact": "critical",
-        "why": "Ray is the de facto standard distributed compute engine for scaling enterprise AI, training, and serving seamlessly across cloud-native Kubernetes environments.",
+        "impact": "high",
+        "why": "Ray is the premier distributed execution framework for scaling compute-heavy AI and Python workloads. It provides low-overhead, dynamic actor execution models, powering distributed training (Ray Train",
         "category": "MLOps & Data Science"
       },
       {
@@ -2006,16 +2006,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Introduces an architectural paradigm shift for recommendation systems by unifying vector retrieval, filtering, and ranking directly inside GPU-optimized PyTorch models.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant",
-        "title": "redhat.com: Bring Your Own Knowledge — Automation Intelligent Assistant (RAG)",
-        "date": "2026-06-25",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Provides practical enterprise blueprints for operationalizing knowledge ingestion and vector store pipelines for production RAG systems.",
+        "why": "Meta's SilverTorch architecture redefines recommendation engines by consolidating vector retrieval, filtering, and scoring into a unified, GPU-optimized PyTorch model. Historically, recommendation pip",
         "category": "MLOps & Data Science"
       }
     ],
@@ -2043,21 +2034,21 @@
   "6_months": {
     "Kubernetes & Orchestration": [
       {
-        "url": "https://nubenetes.com/crossplane",
-        "title": "Crossplane",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane for managing multi-cloud infrastructure declaratively.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
         "url": "https://github.com/NVIDIA/k8s-device-plugin",
         "title": "NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes",
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as the foundational infrastructure bridge enabling Kubernetes clusters to discover, schedule, and orchestrate physical NVIDIA GPUs for modern AI/ML workloads.",
+        "why": "Provides the essential hardware-acceleration link enabling production AI/ML model training and inference workloads across Kubernetes clusters.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://nubenetes.com/crossplane",
+        "title": "Crossplane",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Pioneers the paradigm shift of transforming Kubernetes into a universal control plane capable of orchestrating external multi-cloud infrastructure.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2066,16 +2057,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "Acts as the foundational core autoscaling component ensuring enterprise clusters dynamically resize underlying cloud infrastructure based on real-time scheduling demand.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
-        "title": "Kubecost 🌟",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides the industry-standard FinOps observability framework required to track, allocate, and optimize multi-tenant container spending across cloud providers.",
+        "why": "Remains the foundational, battle-tested core component powering elastic infrastructure provisioning and node-level scaling in production clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2084,7 +2066,16 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Sets the enterprise security standard for passwordless cloud authentication by federating Kubernetes Service Accounts with Microsoft Entra ID via OIDC.",
+        "why": "Sets the enterprise standard for passwordless OIDC identity federation between Kubernetes workloads and Azure cloud services without long-lived credentials.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
+        "title": "Kubecost 🌟",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "Serves as the enterprise standard for Kubernetes FinOps, delivering real-time cost observability and allocation across multi-tenant environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2093,16 +2084,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies infrastructure management by allowing teams to provision and lifecycle managed AWS cloud resources natively through Kubernetes CRDs.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/akuity/kargo",
-        "title": "==github.com/akuity/kargo==",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Fills a major gap in GitOps pipelines by providing an automated, Kubernetes-native promotion engine for multi-stage progressive delivery.",
+        "why": "Unifies AWS cloud resource provisioning into native Kubernetes custom resources, standardizing declarative GitOps management for supporting infrastructure.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2111,16 +2093,25 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Automates workload rightsizing to prevent resource overprovisioning and ensure predictable application performance in dense multi-tenant environments.",
+        "why": "Upstream core mechanism that automates container CPU and memory rightsizing, directly addressing cluster overprovisioning and application stability.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/projectcapsule/capsule",
-        "title": "Capsule Operator",
+        "url": "https://github.com/gravitational/teleport",
+        "title": "Teleport 🌟",
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Enables multi-tenancy at scale by abstracting namespace governance, network isolation, and resource quotas into tenant-level boundaries.",
+        "why": "Solves critical enterprise zero-trust infrastructure access challenges by consolidating audited, identity-backed Kubernetes API and node access.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/external-dns",
+        "title": "external-dns",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "The definitive SIGs project bridging dynamic ingress/service routing with external DNS providers to automate public and internal endpoints.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2128,8 +2119,8 @@
         "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "medium",
-        "why": "Remains the ubiquitous terminal-based cluster management interface that significantly accelerates operational triage and developer troubleshooting.",
+        "impact": "high",
+        "why": "The industry-standard terminal interface drastically accelerating day-to-day cluster operations, resource inspection, and live incident triage.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -2692,7 +2683,16 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as the primary curriculum source and exam authority for CKA, CKAD, and CKS cloud native certifications.",
+        "why": "Serves as the primary curriculum authority and certifying body for industry-standard CNCF benchmarks including CKA, CKAD, and CKS.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://kubernetes.io/docs/reference/kubectl/quick-reference",
+        "title": "kubernetes.io 🌟",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Remains the canonical CLI reference allowed during live CNCF performance exams, making it essential for hands-on Kubernetes certification.",
         "category": "Certification & Training"
       },
       {
@@ -2701,25 +2701,7 @@
         "date": "2026-06-25",
         "stars": 5,
         "impact": "high",
-        "why": "Provides the official training paths, sandbox labs, and exam-readiness assessments for AWS cloud certifications.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://kubernetes.io/docs/reference/kubectl/quick-reference",
-        "title": "kubernetes.io 🌟",
-        "date": "2026-06-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "Acts as the indispensable syntax and command reference permitted during live Kubernetes performance-based exams.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://kube.academy",
-        "title": "kube.academy",
-        "date": "2026-06-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Delivers focused, high-quality modular learning tracks for mastering Kubernetes architecture and platform operations.",
+        "why": "Provides official AWS curriculum, interactive sandbox labs, and guided readiness assessments across all cloud architecture domains.",
         "category": "Certification & Training"
       },
       {
@@ -2728,7 +2710,16 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "high",
-        "why": "Offers industry-standard exam simulation sandboxes specifically tailored for passing CKA, CKAD, and CKS certifications.",
+        "why": "Delivers widely adopted mock exam simulations and hands-on challenge sandboxes explicitly mapped to CKA, CKAD, and CKS competencies.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://kube.academy",
+        "title": "kube.academy",
+        "date": "2026-06-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "Delivers modular, enterprise-focused video training tracks covering deep Kubernetes cluster operations, multi-tenancy, and security.",
         "category": "Certification & Training"
       },
       {
@@ -2737,7 +2728,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Bridges theoretical learning and production practice with structured, multi-tier CI/CD and infrastructure projects.",
+        "why": "Bridges certification theory with hands-on multi-tier CI/CD pipelines and infrastructure blueprints needed for real-world DevOps competency.",
         "category": "Certification & Training"
       },
       {
@@ -2745,8 +2736,17 @@
         "title": "cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟",
         "date": "2026-06-01",
         "stars": 5,
-        "impact": "medium",
-        "why": "Provides authoritative defensive security patterns essential for cloud security certifications and hardening audits.",
+        "impact": "high",
+        "why": "Supplies the baseline web and container security mitigations required to master the Certified Kubernetes Security Specialist (CKS) curriculum.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/cli/commands",
+        "title": "terraform.io: Terraform Commands",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Functions as the authoritative command and state-management reference required to prepare for HashiCorp infrastructure-as-code certifications.",
         "category": "Certification & Training"
       },
       {
@@ -2755,7 +2755,7 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Hosts the Linux Foundation's official entry-level cloud native coursework for standardized enterprise training.",
+        "why": "Hosts official, accessible Linux Foundation entry-level coursework that establishes foundational skills for aspiring cloud engineers.",
         "category": "Certification & Training"
       },
       {
@@ -2764,16 +2764,7 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Facilitates peer debugging and collaborative study groups dedicated to passing Kubernetes and cloud certification exams.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://developers.redhat.com/cheat-sheets/containers",
-        "title": "developers.redhat.com: Containers Cheat Sheet",
-        "date": "2026-06-18",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Delivers a practical learning reference for modern container runtimes, OCI standards, and rootless Podman operations.",
+        "why": "Fosters an active peer-to-peer technical collective providing direct debugging help and study groups for Kubernetes and cloud certification candidates.",
         "category": "Certification & Training"
       }
     ],
@@ -4370,7 +4361,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Transforms Kubernetes into a universal control plane capable of orchestrating multi-cloud infrastructure alongside application workloads.",
+        "why": "Crossplane revolutionizes cloud infrastructure management by transforming Kubernetes into a universal, declarative control plane for multi-cloud resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4379,7 +4370,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as the foundational, standard hardware plugin enabling GPU-accelerated AI and machine learning workloads across Kubernetes clusters.",
+        "why": "The NVIDIA device plugin is foundational for modern AI and ML workloads, exposing physical GPUs directly to the Kubernetes scheduler.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4388,16 +4379,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides the industry-standard upstream node scaling engine that underpins elastic capacity and infrastructure cost management in production.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
-        "title": "Kubecost 🌟",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Stands as the de facto enterprise solution for granular real-time Kubernetes cost allocation, chargeback, and FinOps governance.",
+        "why": "Cluster Autoscaler remains the upstream, production-proven engine for automated, demand-based elasticity across enterprise Kubernetes deployments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4406,16 +4388,16 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Establishes modern zero-trust enterprise security by federating Kubernetes service accounts with Microsoft Entra ID via OIDC.",
+        "why": "Azure Workload Identity eliminates static credentials by standardizing secure, OIDC-based pod authentication against Microsoft Entra ID.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/gravitational/teleport",
-        "title": "Teleport 🌟",
-        "date": "2026-06-13",
+        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
+        "title": "Kubecost 🌟",
+        "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers unified, identity-governed zero-trust access and auditing for Kubernetes APIs, nodes, and supporting infrastructure.",
+        "why": "Kubecost provides the industry benchmark for real-time cost allocation and FinOps observability in multi-tenant Kubernetes clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4424,25 +4406,16 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Enables cloud native engineering teams to declaratively manage native AWS infrastructure components directly via Kubernetes manifests.",
+        "why": "AWS Controllers for Kubernetes (ACK) bridges cloud-native GitOps workflows with direct, CRD-driven management of managed AWS services.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/derailed/k9s",
-        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
+        "url": "https://github.com/gravitational/teleport",
+        "title": "Teleport 🌟",
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "The ubiquitous terminal-based operational UI that radically streamlines day-to-day cluster administration and operational debugging.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler",
-        "title": "VPA: Vertical Pod Autoscaler",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Critical core automation component that autonomously rightsizes pod resource requests and limits to maximize cluster packing density.",
+        "why": "Teleport enforces zero-trust identity and unified, auditable access governance across distributed Kubernetes clusters and underlying infrastructure.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4451,7 +4424,25 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Vital Kubernetes-SIGs utility that automates external DNS lifecycle management dynamically from Ingress and Service manifests across major cloud providers.",
+        "why": "external-dns is an indispensable ecosystem component that automates dynamic DNS record synchronization directly from Kubernetes Ingress and Service objects.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/derailed/k9s",
+        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "K9s is the industry-standard terminal management interface that vastly accelerates operational troubleshooting and cluster observability for SREs.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/akuity/kargo",
+        "title": "==github.com/akuity/kargo==",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Kargo advances the GitOps paradigm by orchestrating deterministic multi-stage release promotion pipelines natively inside Kubernetes.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -6765,9 +6756,9 @@
         "method": "gemini"
       },
       "Certification & Training": {
-        "last_analyzed": "2026-09-18T12:50:52.550430+02:00",
-        "entry_hash": "bbf9b79b70b279d9",
-        "entry_count": 110,
+        "last_analyzed": "2026-09-25T11:45:57.230259+02:00",
+        "entry_hash": "7d91a302dc7a8da5",
+        "entry_count": 109,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -6825,10 +6816,10 @@
         "method": "fallback_small"
       },
       "MLOps & Data Science": {
-        "last_analyzed": "2026-09-18T12:52:01.486461+02:00",
-        "entry_hash": "ae9170cc6074b983",
-        "entry_count": 3,
-        "method": "gemini"
+        "last_analyzed": "2026-09-25T11:45:58.232174+02:00",
+        "entry_hash": "104ea9567340df14",
+        "entry_count": 2,
+        "method": "fallback_small"
       },
       "FinOps & Cloud Cost": {
         "last_analyzed": "2026-09-18T12:52:05.688524+02:00",
@@ -6839,9 +6830,9 @@
     },
     "6_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-09-21T18:47:12.147007+02:00",
-        "entry_hash": "79d9cb0b30cb5fb2",
-        "entry_count": 1409,
+        "last_analyzed": "2026-09-25T11:46:06.514986+02:00",
+        "entry_hash": "0dee4a0e88884170",
+        "entry_count": 1408,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -6881,9 +6872,9 @@
         "method": "gemini"
       },
       "Certification & Training": {
-        "last_analyzed": "2026-09-14T11:40:55.491401+02:00",
-        "entry_hash": "dffe0a69fb485e64",
-        "entry_count": 410,
+        "last_analyzed": "2026-09-25T11:46:17.271632+02:00",
+        "entry_hash": "c942641321de838d",
+        "entry_count": 409,
         "method": "gemini"
       },
       "Data, Messaging & Storage": {
@@ -6997,9 +6988,9 @@
     },
     "12_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-09-21T18:47:39.129983+02:00",
-        "entry_hash": "fc6892901330b5dc",
-        "entry_count": 1506,
+        "last_analyzed": "2026-09-25T11:46:27.441677+02:00",
+        "entry_hash": "1fd3c2fdf3304ecd",
+        "entry_count": 1505,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7153,6 +7144,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-09-21T18:47:40.138430+02:00"
+    "last_updated": "2026-09-25T11:46:28.450769+02:00"
   }
 }

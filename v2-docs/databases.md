@@ -35,11 +35,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2021)** [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference architecture mapping design paths for deploying scalable data lakes inside Google Cloud Platform (GCP). Reviews Cloud Storage setups, BigQuery access schemas, and serverless ingestion patterns.
 ## Cloud Infrastructure
 
-### Finops
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### Market Trends
 
 #### Cloud Databases
@@ -62,6 +57,15 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Secrets Management
 
   - **(2021)** [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates security pipelines for managing MongoDB database credentials inside GitHub. Automates deployment configurations securely through GitOps, injecting secrets directly to Percona Kubernetes Operator instances.
+## Cloud Native Infrastructure
+
+### Observability
+
+#### Prometheus
+
+##### Database Monitoring
+
+  - **(2020)** [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical integration guide on monitoring ClickHouse database clusters with Prometheus and Grafana. It details how to enable ClickHouse's native Prometheus metrics exporter in config.xml, configures Prometheus to scrape ClickHouse metrics, and reviews visualization dashboards.
 ## Cloud-native Design
 
 ### Architecture Patterns
@@ -230,6 +234,13 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Migrations
 
   - **(2024)** [==SHMIG==](https://github.com/mbucc/shmig) <span class='md-tag md-tag--info'>⭐ 474</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-09c58a37" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 7 L 30 4 L 40 11 L 50 13" fill="none" stroke="url(#spark-grad-09c58a37)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A minimalist Shell-based database migration utility. Designed to remain programming-language agnostic, it manages schema evolutionary steps and structured rollbacks executing plain raw SQL scripts.
+## Databases
+
+### Postgresql (1)
+
+#### Database Administration
+
+  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
 ## Distributed SQL
 
 ### APIs
@@ -332,7 +343,14 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Real-time Analytics (1)
 
   - **(2025)** [Apache Druid](https://druid.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Main documentation repository for Apache Druid, a real-time analytical database optimized for sub-second ad-hoc queries over massive streaming event data volumes. Standard core utility for streaming platforms.
-## Postgresql (1)
+## Observability (1)
+
+### Postgresql (2)
+
+#### Database Monitoring (1)
+
+  - **(2020)** [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on implementation guide for deploying a scalable monitoring architecture for PostgreSQL. Instructs on integrating postgres_exporter configurations, configuring Prometheus scrape pools, and importing Grafana analytics interfaces.
+## Postgresql (3)
 
 ### Alternative Paradigms
 
@@ -346,7 +364,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Backups
 
   - **(2024)** [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) <span class='md-tag md-tag--info'>⭐ 563</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-73479964" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 7 L 30 5 L 40 8 L 50 10" fill="none" stroke="url(#spark-grad-73479964)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A simple CLI automation utility for backing up PostgreSQL databases. Features structured schema and data exports, customizable compression, automated backup retention sweeps, and cron-friendly integration configurations.
-### Database Administration
+### Database Administration (1)
 
   - **(2021)** [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the performance impact of indexing foreign keys in PostgreSQL. Evaluates join performance, query plans, and lock contention during parent table updates to optimize schema write throughput.
 ### Database Architecture (1)
@@ -509,17 +527,21 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Crunchy Postgresql
 
   - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
+## System Architecture
+
+### Data Management
+
+#### Enterprise Migration
+
+  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
 ## Time-series
 
 ### Architecture (1)
 
   - **(2021)** [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical architectural article arguing against the systemic misuse of blockchain technologies for transactional audit logging. Demonstrates that time-series databases provide equivalent historic immutability, superior indexing speed, and scalable writes.
-### Victoriametrics
-
-  - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical feature overview covering VictoriaMetrics and VictoriaLogs updates, focusing on dynamic retention strategies, ingestion enhancements, storage footprint reduction, and custom query language performance.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

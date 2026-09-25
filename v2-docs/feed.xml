@@ -136,14 +136,6 @@
       <description>[CRITICAL] Gateway API defines the future standard for Kubernetes ingress, advanced layer 7 routing, and unified cross-mesh traffic specifications.</description>
     </item>
     <item>
-      <title>Ray</title>
-      <link>https://docs.ray.io/en/latest</link>
-      <guid isPermaLink="true">https://docs.ray.io/en/latest</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 -0000</pubDate>
-      <category>MLOps &amp; Data Science</category>
-      <description>[CRITICAL] Ray is the de facto standard distributed compute engine for scaling enterprise AI, training, and serving seamlessly across cloud-native Kubernetes environments.</description>
-    </item>
-    <item>
       <title>Apache Kafka</title>
       <link>https://kafka.apache.org</link>
       <guid isPermaLink="true">https://kafka.apache.org</guid>
@@ -166,6 +158,14 @@
       <pubDate>Sun, 17 May 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
       <description>[CRITICAL] The CNI specification and core plugin ecosystem form the foundational networking fabric connecting containers across all cloud-native runtimes.</description>
+    </item>
+    <item>
+      <title>Kubecost 🌟</title>
+      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
+      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[HIGH] Delivers the industry benchmark for Kubernetes cost observability, granular resource allocation, and cloud FinOps optimization.</description>
     </item>
   </channel>
 </rss>

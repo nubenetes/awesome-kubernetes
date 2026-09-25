@@ -94,7 +94,7 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
   - **(2023)** [blog.min.io: Certificate-based Authentication for S3](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — MinIO's security engineering guide detailing dynamic certificate-based authentication protocols (mTLS) over S3-compatible APIs. In 2026, MinIO remains the preferred choice for running high-performance private cloud object storage securely without relying on IAM SaaS solutions.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

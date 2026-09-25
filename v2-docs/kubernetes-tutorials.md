@@ -69,6 +69,13 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 #### Education Tooling
 
   - **(2023)** [Quiz Grader](https://github.com/ned1313/quiz-grader) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility engineered to automate the grading and feedback of quizzes and programming assignments. Processes markdown-based inputs to generate structured performance assessments, supporting classroom and self-assessment operations.
+## Fundamentals
+
+### Developer Workflows
+
+#### Architecture
+
+  - **(2020)** [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-first manual illustrating structural components and cluster design properties. Guides programmers to understand how their API payload deployments translates to actual container lifecycle actions on physical machines.
 ## Kubernetes Tools
 
 ### General Reference
@@ -94,7 +101,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 ##### Platform Engineering
 
   - **(2026)** [==100 Days Of Kubernetes: 100daysofkubernetes.io==](https://100daysofkubernetes.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly progressive community learning roadmap tracing advanced modern platform architectures. Chronicles continuous topics ranging from standard containers to advanced Envoy proxying, service meshes, and GitOps deployments.
-#### Fundamentals
+#### Fundamentals (1)
 
   - **(2025)** [**devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide**](https://devopscube.com/kubernetes-tutorials-beginners) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional introductory portal that distills container architecture into highly digestible guides. Explores standard pod mechanics, ingress controllers, environment configs, and scaling strategies with clean procedural steps.
 #### Hands-on Labs (1)
@@ -136,7 +143,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 ##### Enterprise Fundamentals
 
   - **(2024)** [**youtube playlist: DevNation Lessons: Kubernetes Fundamentals**](https://www.youtube.com/playlist?list=PLf3vm0UK6HKpOqIY2fcu_M0sCSpluyXMW) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Red Hat's developer lessons focused on real-world system patterns, detailing secure service integration, configurations separation, and cluster administration patterns within heavy enterprise networks.
-##### Fundamentals (1)
+##### Fundamentals (2)
 
   - **(2024)** [youtube playlist: Thetips4you - Kubernetes Tutorial for Beginners](https://www.youtube.com/playlist?app=desktop&list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory video collection teaching standard configuration, secret integration, dynamic cloud volumes, and fundamental deployment syntax. Recommended for engineers transitioning from traditional VM hypervisors.
 ##### Networking and Core
@@ -166,7 +173,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - **(2024)** [==Build Your Own X==](https://github.com/codecrafters-io/build-your-own-x) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An immensely popular community-driven compilation of step-by-step guides for building complex software systems (compilers, databases, operating systems, Docker) from scratch. Perfect for deep pedagogical exploration of core engineering systems.
 
 ---
-💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

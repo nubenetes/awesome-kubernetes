@@ -156,6 +156,9 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Developer Productivity (3)
 
   - **(2021)** [pymesyautonomos.com: ¿Está trabajando el empleado realmente desde su casa?](https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Addresses common managerial anxieties about remote work accountability. Contrasts surveillance-heavy keystroke logging techniques with output-oriented, technical project milestones (e.g., code deployment frequency, story completion rates, and system architectural goals) to sustainably measure team velocity.
+#### Team Management
+
+  - **(2021)** [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers tactical guidelines for managing distributed engineering teams working in remote environments. Recommends implementing asynchronous collaboration tools, defining objective performance milestones, and promoting active virtual team meetings to ensure software project alignment and mitigate remote developer isolation.
 ### Security and Compliance
 
 #### Corporate Governance
@@ -166,7 +169,7 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Conflict Resolution
 
   - **(2021)** [blog.trello.com: Consejos para manejar distintos conflictos en un equipo de trabajo](https://blog.trello.com/es/conflictos-en-el-trabajo) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides an operational framework for identifying and resolving interpersonal conflicts within technical delivery teams. Highlights visual tracking systems, regular retrospectives, and structured architectural alignment reviews to defuse typical friction points, such as diverging coding standards or disputed system design decisions.
-### Team Management
+### Team Management (1)
 
 #### Infrastructure Operations
 
@@ -325,7 +328,7 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2022)** [**techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code**](https://techcrunch.com/2022/07/27/protestware-code-sabotage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the complex security phenomenon of 'protestware,' where open-source maintainers intentionally introduce destructive changes or regional exploits into widely used packages for political or social reasons. Details the architectural impact on enterprise software supply chains and highlights the urgent necessity for robust dependency pinning, software bills of materials, and strict package mirroring.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Testops](./testops.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Project Management Tools](./project-management-tools.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

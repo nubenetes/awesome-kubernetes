@@ -109,7 +109,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Yaml](./yaml.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

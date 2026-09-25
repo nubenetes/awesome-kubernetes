@@ -47,15 +47,15 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 
 #### General Reference
 
+  - **(None)** [](https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
+  - **(None)** [](https://aws.amazon.com/blogs/devops/aws-codedeploy-deploying-from-a-development-account-to-a-production-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
+  - **(None)** [](https://docs.aws.amazon.com/AmazonECR/latest/userguide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: AWS Basics in the Kubernetes Tools ecosystem.
   - [dzone: AWS Basics: Bastion Hosts and NAT](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: AWS Basics: Bastion Hosts and NAT in the Kubernetes Tools ecosystem.
   - [dzone: Five Different Ways to Build AWS Infrastructure](https://dzone.com/articles/five-different-ways-to-build-aws-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Five Different Ways to Build AWS Infrastructure in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://docs.aws.amazon.com/AmazonECR/latest/userguide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-quotas.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://aws.amazon.com/blogs/devops/aws-codedeploy-deploying-from-a-development-account-to-a-production-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
 ## Cloud Architecture
 
 ### Case Studies
@@ -63,16 +63,9 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### Enterprise Scale
 
   - **(2019)** [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural case study mapping Trainline's migrations onto AWS using ECS containerized deployments and RDS clusters. Demonstrates successful reduction in database locking periods and outlines zero-downtime blue/green microservice delivery strategies.
-### Certification
-
-#### AWS
-
-##### Solutions Architect Professional
-
-  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ## Cloud Computing
 
-### AWS (1)
+### AWS
 
 #### Architecture and Guides
 
@@ -114,7 +107,6 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
   - **(2026)** [Building highly resilient applications with on-premises interdependencies using AWS Local Zones](https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An enterprise resilience design guide integrating AWS Local Zones with legacy on-premises systems. It addresses key edge architectures, detailing hybrid replication strategies, localized failovers, and latency-sensitive synchronization protocols.
 #### Infrastructure As Code
 
-  - **(2022)** [youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟](https://www.youtube.com/watch?v=zA8guDqfv40)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, open-access video bootcamp by freeCodeCamp focusing on AWS CloudFormation. Teaches declarative resource provisioning, nested templates, drift detection, and deployment strategies for managing large AWS architectures as code.
   - **(2021)** [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduction to the AWS Cloud Development Kit (CDK) framework. Teaches developers how to define cloud infrastructure using familiar programming languages (TypeScript, Python) rather than declarative JSON or YAML, maximizing code reusability and CI/CD integration.
 #### Learning and News
 
@@ -153,7 +145,7 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
   - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
 ## Cloud Infrastructure
 
-### AWS (2)
+### AWS (1)
 
 #### Application Deployment
 
@@ -186,11 +178,6 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### Continuous Deployment
 
   - **(2021)** [Automate rollbacks for Amazon ECS rolling deployments with CloudWatch alarms](https://aws.amazon.com/blogs/containers/automate-rollbacks-for-amazon-ecs-rolling-deployments-with-cloudwatch-alarms) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide outlining automated deployment rollback capabilities within ECS rolling deployments. It illustrates how CloudWatch alarms can monitor application health (e.g., HTTP 5xx rates) during active deployments and automatically trigger rollbacks to a previously stable revision to maintain high availability.
-#### DNS and Domain Management
-
-##### Route 53
-
-  - **(2021)** [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular tutorial on migrating DNS management to Amazon Route 53 from external registrars. While straightforward, real-world deployment requires careful TTL planning and nameserver transition strategies to prevent query dropouts and route interruptions during migration.
 #### ETL
 
   - **(2025)** [==AWS Data Pipeline==](https://aws.amazon.com/glue) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official page of AWS Glue, a fully managed serverless data integration service. Identifies structural discovery using AWS Glue Data Catalog, PySpark ETL execution, and schema registry controls.
@@ -225,9 +212,6 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### Messaging Services (1)
 
   - **(2022)** [dev.to: When to SNS or SQS](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical comparison of Amazon Simple Notification Service (SNS) and Simple Queue Service (SQS) within event-driven architectures. It details SNS's pub-sub push mechanism versus SQS's pull-based queueing model, analyzing throughput characteristics and decoupling strategies. This guide clarifies architectural patterns for integrating microservices via point-to-point and fan-out message routing.
-#### Network Management
-
-  - **(2019)** [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AWS Network Manager as a single pane of glass for monitoring global hybrid networks. Live cloud architectures utilize Network Manager to synthesize telemetry from AWS Transit Gateway, SD-WAN devices, and on-premises branch offices into actionable alerts.
 #### Paas Architecture
 
   - **(2016)** [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS deployment blueprint detailing how to structure a multi-availability zone PHP application using Beanstalk. Integrates an external multi-AZ Amazon RDS configuration to build failover resilience.
@@ -243,11 +227,19 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### Web Servers
 
   - **(2016)** [AWS Elastic Beanstalk Supports Nginx Proxy Server with Tomcat](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-nginx-proxy-server-with-tomcat) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Feature documentation announcing native Nginx reverse proxy configurations sitting in front of Apache Tomcat platforms in Beanstalk. Optimizes delivery of static assets and client routing.
+### AWS Automation
+
+#### Serverless Orchestration
+
+  - **(2026)** [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local IDE integration utilities for designing and tracing AWS Step Functions. Enhances developer inner-loops by rendering local visual workflow representations and offering live Amazon States Language schema validation directly in-editor.
 ### AWS Ecosystem
 
 #### Audio Learning
 
   - **(2026)** [Stitcher AWS Podcasts](https://www.stitcher.com/podcast/amazon-web-services/aws-podcast)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Stitcher repository hosting the AWS Podcast network. Features architectural retrospectives, engineering deep-dives, and service evolution analyses presented by active cloud product managers.
+#### Cloud Services
+
+  - **(2026)** [AWS DevOps 🌟](https://aws.amazon.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s primary DevOps portal, presenting their native continuous delivery and infrastructure management stack, including CodePipeline, CodeBuild, and CloudFormation. While curator listings highlight frictionless integration with EC2 and ECS, live architectural patterns in 2026 showcase teams frequently combining AWS-native compute with cloud-agnostic deployment runtimes to avoid platform lock-in.
 #### Open Source Strategy
 
   - **(2026)** [infoworld.com: Amazon’s quiet open source revolution](https://www.infoworld.com/article/2338356/amazon-s-quiet-open-source-revolution.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration detailing AWS's transition from open-source software consumer to an active co-developer and primary maintainer. Discusses strategic projects like OpenSearch and Valkey, examining the structural tension and evolving relationships between public clouds and software vendors.
@@ -327,6 +319,9 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### Cost Management
 
   - **(2015)** [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes early programmatic access to granular EC2 metrics inside Cost Explorer. Provides foundational methodologies for early-stage cloud-native resource optimization and FinOps planning.
+#### Cost Optimization
+
+  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### Finops and Cloud Optimization
 
 #### Sustainability
@@ -395,6 +390,12 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
   - **(2026)** [AWS LightSail](https://aws.amazon.com/lightsail) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents AWS Lightsail as a simplified, cost-predictable virtual private server (VPS) alternative to raw EC2. Live Grounding confirms Lightsail is widely used in 2026 for small-scale projects, staging environments, and rapid WP deployments, offering pre-configured blueprints and straightforward billing.
 ## Cloud Infrastructure and Orchestration
 
+### Asset Management and Governance
+
+#### Cloud Analytics
+
+  - **(2026)** [steampipe](https://steampipe.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensible open-source command-line framework that translates APIs and cloud inventories into virtual SQL tables. Enables DevOps engineers to construct real-time dashboards and audit configuration profiles on multi-cloud hosts.
+  - **(2022)** [Querying AWS at scale across APIs, Regions, and accounts](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise guide mapping performance configurations designed to query massive multi-account, multi-region AWS environments. Analyzes API latency limitations, concurrency protocols, and security audits utilizing SQL query abstractions.
 ### Public Cloud Administration
 
 #### AWS Fundamentals
@@ -402,18 +403,20 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
   - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Cloud Native
 
-### AWS (3)
+### AWS (2)
 
 #### Governance (1)
 
 ##### AWS Organizations
 
   - **(2024)** [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores core configuration benefits of AWS Organizations for multi-account governance. Highlights service control policies (SCPs), unified billing, and secure programmatic account instantiation using IaC.
-### Kubernetes
+## Cloud Native Infrastructure
 
-#### Rancher Management
+### Service Mesh
 
-  - **(2022)** [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment](https://aws-quickstart.github.io/quickstart-eks-rancher) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS Quick Start reference guide for standing up Rancher on AWS. This architecture installs Rancher on an Amazon EKS cluster, giving enterprise operations teams a unified interface to govern multiple downstream clusters, enforce unified RBAC models, and manage complex multi-tenant environments.
+#### AWS (3)
+
+  - **(2022)** [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Live Grounding Synthesis: Built on Envoy as AWS's managed service mesh, AWS App Mesh was deprecated in late 2024 and fully sunsetted. Platform teams are urged to transition to Amazon ECS Service Connect or Amazon VPC Lattice.
 ## Cloud Platform
 
 ### AWS Infrastructure
@@ -426,7 +429,7 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 
   - **(2026)** [Amazon CLI Documentation](https://aws.amazon.com/cli) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main landing and installation documentation portal for the AWS Command Line Interface. It acts as the definitive source for setting up the CLI across macOS, Linux, and Windows environments. Essential for establishing standard terminal configurations and programmatic environment variables across both developer workstations and CI/CD agents.
   - **(2021)** [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An official AWS deprecation announcement marking the end of Python 2.7 support within the AWS SDK for Python (Boto3) and AWS CLI v1. It details migration paths to modern Python 3.x runtimes and the container-native AWS CLI v2 architecture. Critical reading for legacy system maintainers undergoing platform modernization initiatives.
-#### Cost Optimization
+#### Cost Optimization (1)
 
   - **(2026)** [vantage.sh](https://www.vantage.sh) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Vantage.sh is a modern cloud cost management (FinOps) platform providing deep visibility into AWS, Snowflake, and Kubernetes expenditures. It aggregates resource usage metrics to recommend automated saving policies, RI purchasing, and spot transitions. Grounding confirms its role as a premier enterprise tool to manage complex multi-cloud financial posture.
   - **(2021)** [techcrunch.com: Vantage makes managing AWS easier](https://techcrunch.com/2021/01/12/vantage-makes-managing-aws-easier) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A TechCrunch feature analyzing how Vantage simplifies AWS cost tracking and optimization, offering deep contrast to complex cloud bills. The article highlights Vantage's rise as an essential interface for development organizations navigating fine-grained container pricing and resource usage. Key reading for CFOs and cloud finance architects.
@@ -438,6 +441,7 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
   - **(2026)** [AWS Management Tools Blog](https://aws.amazon.com/blogs/mt) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS Management and Governance Tools Blog, serving as the authority on systems manager, Config, CloudTrail, and CloudWatch updates. It hosts standard architectures for designing observability frameworks and cloud optimization. Crucial for enterprise platform administrators ensuring alignment with modern AWS best practices.
   - **(2023)** [aws.amazon.com/blogs: Introducing Amazon CodeWhisperer for command line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS Developer blog introducing automated command-line capabilities for Amazon CodeWhisperer. It highlights AI-driven command completion and automatic CLI parameter translation directly in modern terminal emulators. Essential for platform engineers aiming to dramatically accelerate shell and infrastructure-as-code scripting efficiency.
   - **(2022)** [genbeta.com: Amazon lanza CodeWhisperer, su propia alternativa a GitHub Copilot… que no insertará código ya licenciado sin avisar](https://www.genbeta.com/desarrollo/amazon-lanza-codewhisperer-su-propia-alternativa-a-github-copilot-que-no-insertara-codigo-licenciado-avisar) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish Genbeta article introducing Amazon CodeWhisperer as AWS's direct competitor to GitHub Copilot, emphasizing its unique compliance filters to avoid licensing violations. While historically accurate regarding CodeWhisperer's initial launch features, the service has since evolved into Amazon Q Developer, with a broader security and multi-file architecture focus.
+  - **(2021)** [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS announcement highlighting the release of updated AWS Toolkits for popular IDEs (Cloud9, JetBrains, VS Code), expanding interaction capabilities to over 200 resource types. This update greatly reduced context switching for developers, enabling local generation of IAM, DynamoDB, and CloudFormation schemas without visiting the AWS web console.
 #### Identity Management
 
   - **(2022)** [dev.to/franciscogm: AWS CLI SSO made easy](https://dev.to/franciscogm/aws-cli-sso-made-easy-3bh9) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide showing how to simplify multi-account authorization using the AWS CLI and AWS IAM Identity Center (formerly AWS Single Sign-On). It demonstrates optimal config profile structures to enable rapid terminal-based authentication. Highly valued by security administrators striving to eliminate long-term credentials on local workstations.
@@ -579,6 +583,13 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### Forums
 
   - **(2023)** [AWS Forums](https://repost.aws) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy discussion forum resource for AWS developers troubleshooting infrastructure configurations and billing queries. Note: The platform has largely migrated to AWS Re:Post for community support.
+## Infrastructure (1)
+
+### DevOps
+
+#### Command Line Utilities
+
+  - **(2016)** [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents a set of CLI wrappers for resolving AWS EC2 instance metadata to facilitate fast SSH access. Live Grounding indicates that modern secure architectures prioritize AWS Systems Manager Session Manager (SSM) and private endpoint setups over direct, port-22 SSH routing models.
 ## Infrastructure As Code (2)
 
 ### AWS CDK
@@ -633,7 +644,7 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### AWS Systems Manager (2)
 
   - **(2022)** [aws.amazon.com: AWS Systems Manager announces support for port forwarding to remote hosts using Session Manager](https://aws.amazon.com/about-aws/whats-new/2022/05/aws-systems-manager-support-port-forwarding-remote-hosts-using-session-manager) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight announces native SSM port-forwarding tunnels directly to database endpoints or remote hosts inside private subnets. Live Grounding confirms this is a standard operational practice in 2026, eliminating the security risks, costs, and management overhead of maintaining traditional jump box/bastion host VMs.
-### Service Mesh
+### Service Mesh (1)
 
 #### Multi-account
 
@@ -672,6 +683,13 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
 #### Grafana
 
   - **(2024)** [Amazon Managed Service for Grafana](https://aws.amazon.com/grafana) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Managed visualization console offering direct enterprise integrations with SSO and IAM setups. Allows telemetry aggregation from diverse cloud datasources (S3, Prometheus, CloudWatch, Opensearch) under unified dynamic views.
+## Operations (2)
+
+### Local Environment Setup
+
+#### Package Management
+
+  - **(2023)** [DevOps Made Easy: Install AWS CLI, ECS CLI, Docker & Terraform Using Chocolatey](https://dev.to/aws-builders/devops-made-easy-install-aws-cli-ecs-cli-docker-terraform-using-chocolatey-2lld)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step local workstation bootstrapping guide using the Windows Chocolatey package manager. Instructs how to quickly establish consistent local administration tooling, installing docker-cli, terraform, aws-cli, and ecs-cli to prepare for cloud resource management.
 ## Organizational Culture
 
 ### Migration Journeys
@@ -719,7 +737,7 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, AWS Data Pipel
   - **(2026)** [localstack.cloud](https://www.localstack.cloud) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the enterprise cloud platform offering advanced local emulation of AWS services. Live Grounding reinforces that LocalStack has become the industry standard for offline AWS cloud development, supporting complex services like IAM, EKS, and RDS, which radically reduces cloud spend and speeds up inner-loop iteration cycles.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

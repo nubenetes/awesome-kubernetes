@@ -1,5 +1,5 @@
 ---
-description: "Top About resources for 2026, AI-ranked: AWX, Argo CD and more — curated Cloud Native tools, guides and references."
+description: "Top About resources for 2026, AI-ranked: Argo CD, Postman and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 
@@ -206,7 +206,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 #### Terraform Boilerplates
 
 ??? note "Terraform Kubernetes Boilerplates 🌟"
-    **[Access Resource](https://nubenetes.com/terraform)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    **[Access Resource](https://nubenetes.com/terraform/)** 🌟🌟🌟🌟🌟 | Level: Advanced
     
     A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
@@ -242,7 +242,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
   - [DZone: Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==DZone: Defining Day-2 Operations== in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

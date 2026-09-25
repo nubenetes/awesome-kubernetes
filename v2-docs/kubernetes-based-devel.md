@@ -13,9 +13,6 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 
 ### Mocking and Virtualization
 
-#### Microcks
-
-  - **(2026)** [**microcks.io**](https://microcks.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and virtualization of APIs (REST, gRPC, GraphQL, AsyncAPI). It speeds up microservices testing by generating mock endpoints and testing compliance directly against enterprise schemas.
 #### Microcks Integration
 
   - **(2022)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to design local mock environments using Microcks combined with Podman Compose. This is ideal for developers running daemonless environments who require automated contract API validation.
@@ -54,6 +51,11 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 #### Okteto
 
   - **(2021)** [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide series covering Okteto's Cloud Development Environment (CDE) paradigm. Demonstrates how developers can synchronize code in real-time straight to remote container runtimes without local compiler requirements.
+### Graph-based Dev and Test
+
+#### Garden Documentation
+
+  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 ### Inner-loop Automation
 
 #### Comparisons
@@ -65,6 +67,9 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 #### Devspace Analysis
 
   - **(2020)** [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how DevSpace simplifies cluster testing for backend teams by replacing complex kubectl calls and image building scripts with high-performance, real-time file-reloading profiles.
+#### Skaffold
+
+  - **(2026)** [**Skaffold 🌟**](https://skaffold.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google's Skaffold remains an industry-leading workflow engine that orchestrates code building, artifact pushing, and target deployment steps. It features smart caching, file sync capability, and multi-profile handling configurations.
 #### Skaffold Tutorials
 
   - **(2021)** [dev.to: How to Simplify Your Local Kubernetes Development With Skaffold](https://dev.to/otomato_io/local-kubernetes-development-with-skaffold-i0k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical onboarding guide detailing local cloud-native development workflows using Skaffold. Explores live file-reloading, log streaming, and localized namespace configurations for multi-service apps.
@@ -165,6 +170,9 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 
 ### Application Delivery
 
+#### Catalog UI
+
+  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
 #### Dynamic Forms
 
   - **(2025)** [**github.com/cyclops-ui/cyclops**](https://github.com/cyclops-ui/cyclops) <span class='md-tag md-tag--info'>⭐ 3323</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7efb435f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 3 L 30 5 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-7efb435f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source developer-focused UI that dynamically generates highly intuitive forms from Kubernetes configurations and Helm schemas. Reduces cognitive overhead for non-operations teams, allowing secure and error-free deployments.
@@ -190,6 +198,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2024)** [k8z.dev: A lightweight, modern mobile and desktop application for manage kubernetes. Easily for use fast, secure](https://k8z.dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern, lightweight cross-platform desktop and mobile app engineered for low-memory footprint cluster monitoring. Emphasizes swift, responsive transitions and secure local storage of cluster context data.
   - **(2024)** [github.com/unxsist/jet-pilot](https://github.com/unxsist/jet-pilot) <span class='md-tag md-tag--info'>⭐ 624</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-af6f2f4a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 3 L 30 10 L 40 12 L 50 13" fill="none" stroke="url(#spark-grad-af6f2f4a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source desktop client designed for rapid cluster inspection and diagnosis. Features specialized diagnostic tools to track real-time pod failures, trace internal network routes, and analyze real-time container event logs.
   - **(2022)** [nirops/yakiapp](https://github.com/vivekagate/yakiapp) <span class='md-tag md-tag--info'>⭐ 102</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b6b8a882" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 13 L 30 12 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-b6b8a882)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An early community-built visual client for Kubernetes. *Live Grounding*: This project is no longer actively maintained and has been archived, but it offers interesting historical design schemas for lightweight cluster inspectors.
+  - **(2023)** [octant.dev](https://octant.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — VMware's visual tool for inspecting Kubernetes clusters. *Live Grounding*: This project is officially retired and archived. It serves solely as a design architectural reference for highly extensible, dashboard-based cluster visualization.
   - **(2022)** [linode.com: A Overview of Using Octant with Kubernetes](https://www.linode.com/docs/guides/using-octant-with-kubernetes-a-tutorial) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An archival guide to installing and utilizing Octant for Kubernetes administration. Illustrates the platform's architectural approach to extensibility and dashboard structures, valuable for developers studying dashboard patterns.
 #### Enterprise Console
 
@@ -200,6 +209,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2024)** [k8studio.io/blogs: K8studio vs. Lens vs. K9s 🌟](https://k8studio.io/blogs/k8studio-vs-lens-kubernetes-ide) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical comparative analysis comparing three premier client interfaces: K8Studio (graphical topology focus), Lens (full-featured IDE desktop application), and K9s (ultra-fast keyboard-driven terminal console dashboard).
 #### Hybrid CLI
 
+  - **(2024)** [**kui.tools 🌟**](https://kui.tools) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Kui is an innovative hybrid tool that blends the speed of CLI commands with the graphical visualization of a GUI. It wraps kubectl execution blocks to present interactive HTML elements, resource tables, and tabs directly inside terminal environments.
   - **(2023)** [blog.flant.com: Kui — a “hybrid” CLI/GUI application for working with Kubernetes](https://palark.com/blog/kui-hybrid-cli-gui-for-kubernetes) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical walkthrough of Kui's hybrid interface. Examines how bridging raw terminal output with dynamic graphics enhances developer troubleshooting efficiency during heavy log auditing and resource state inspection.
 #### Installation
 
@@ -230,7 +240,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

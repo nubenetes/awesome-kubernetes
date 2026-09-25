@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked ChatGPT resources for the 2026 Cloud Native architect: top-tier tools, guides and references (AI)."
+description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Think Python and more — curated Cloud Native tools, guides and references."
 ---
 # ChatGPT
 
@@ -9,6 +9,13 @@ description: "Curated, AI-ranked ChatGPT resources for the 2026 Cloud Native arc
 !!! info "Architectural Context"
     Detailed reference for ChatGPT in the context of AI.
 
+## AI and Platform Engineering
+
+### AI Assistants
+
+#### Developer Productivity
+
+  - **(2025)** [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — General availability announcement detailing Copilot's integration into the GitHub Actions run logs. Empowers engineers to ask AI to interpret errors, trace failures, and propose immediate pipeline repair steps.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -28,7 +35,7 @@ description: "Curated, AI-ranked ChatGPT resources for the 2026 Cloud Native arc
 
 ### Prompt Engineering
 
-#### Developer Productivity
+#### Developer Productivity (1)
 
   - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f241f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 2 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-1f241f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## Cloud Native Infrastructure
@@ -70,6 +77,13 @@ description: "Curated, AI-ranked ChatGPT resources for the 2026 Cloud Native arc
 #### Workplace Automation
 
   - **(2023)** [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reportaje de carácter práctico que expone la incorporación intensiva de agentes de IA conversacional dentro del flujo de trabajo corporativo diario, ilustrando la aceleración de tareas de síntesis y redacción técnica. [SPANISH CONTENT]
+## Infrastructure As Code (1)
+
+### Ansible
+
+#### Releases
+
+  - **(2021)** [ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟](https://www.redhat.com/en/blog/channel/open-source-communities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the structural transition introduced in Ansible 3.0.0. Focuses on the architectural split that separated 'ansible-core' engine components from 'collections' packages, resolving dependency bottlenecks and streamlining modern community module delivery.
 ## Market Analysis
 
 ### Artificial Intelligence (2)
@@ -84,9 +98,14 @@ description: "Curated, AI-ranked ChatGPT resources for the 2026 Cloud Native arc
 #### Code Generation Quality
 
   - [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Empirical evaluation measuring code-generation accuracy across popular AI engines. Examines compiler error rates, structural vulnerabilities, and the necessity of developer supervision in AI workflows.
+### Python
+
+#### Computer Science Foundations
+
+  - **(2024)** [Think Python](https://allendowney.github.io/ThinkPython) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard manual detailing computer science foundations using Python. Progresses through data structures, algorithms, functional routines, and object-oriented modeling with highly verified, elegant coding conventions.
 
 ---
 💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Stackstorm resources for the 2026 Cloud Native 
   - **(2025)** [github.com/StackStorm](https://github.com/StackStorm) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central repositories for the StackStorm platform containing internal event loops, action runners, rules-engine components, pack loaders, and comprehensive infrastructure orchestration drivers.
 
 ---
-💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

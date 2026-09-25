@@ -164,7 +164,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - **(2022)** [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7aafde66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 3 L 40 5 L 50 7" fill="none" stroke="url(#spark-grad-7aafde66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An admission controller developed by T-Mobile that evaluates resources against organizational policy constraints during creation. Written in Node.js, it offered a lightweight alternative to OPA for specific JSON schema validations. By 2026, it has been largely archived, with developers migrating to Gatekeeper or Kyverno.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [Kustomize](./kustomize.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Dotnet](./dotnet.md) | [Rancher](./rancher.md)
 

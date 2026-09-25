@@ -79,9 +79,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 
   - **(2026)** [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identical platform reference focusing on Red Hat 3scale API Gateway configurations. Delivers a cloud-native, operator-driven API management framework optimized for scaling microservices on OpenShift clusters with declarative security controls.
   - **(2018)** [Adding API Gateway Policies Now Easier With Red Hat 3scale API Management](https://developers.redhat.com/blog/2018/05/30/3scale-api-gateway-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the declarative system for defining gateway routing rules and header manipulation schemas inside 3scale API Management without updating custom Lua scripts. Details deployment configurations for standard enterprise security controls.
-#### Saas Platforms
-
-  - **(2026)** [Rapid API:](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A leading enterprise Hub and Gateway solution for API discovery, testing, and monetization. Provides uniform control planes to aggregate heterogeneous upstream microservice APIs, enforce consolidated security policies, and manage global tenant billing workflows.
 #### Security and Protocols
 
   - **(2021)** [developers.redhat.com: Enhance application security by rotating 3scale access tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains robust administrative paradigms for managing secrets through programmatic, seamless rotation of 3scale access tokens. Mitigates exposure risk and integrates directly into CI/CD secrets management flows.
@@ -111,6 +108,20 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Cursor IDE
 
   - **(2025)** [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational program designed to train engineers on utilizing the Cursor AI code editor effectively. The curriculum covers foundational concepts of context inclusion, codebase indexing, and multi-file code transformations. It teaches developers how to write highly optimized prompts to synthesize software architecture and debug legacy systems directly inside the IDE.
+## Developer Platforms
+
+### Documentation
+
+#### Github Wiki
+
+  - **(2022)** [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed guide on utilizing GitHub Wikis for repository documentation. It describes markdown editing, sidebar customization, and managing wiki repositories locally as standard Git remotes.
+### Git Repositories
+
+#### Github
+
+##### Open Source
+
+  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
 ## Domain Apis
 
 ### Automotive
@@ -197,6 +208,13 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Transport Layer Security
 
   - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
+## Networking
+
+### Service Mesh
+
+#### Ebpf Vs Proxy
+
+  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
 ## Platform Engineering
 
 ### Developer Portal
@@ -225,11 +243,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Developer Productivity (1)
 
   - **(2024)** [**Programming with GitHub Copilot Agent Mode**](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering capabilities of GitHub Copilot's 'Agent Mode.' It details how the agent acts autonomously to analyze workspace dependencies, generate multi-file modifications, run localized compilations, and iterate on test suites based on natural language prompts.
-### API Integration
-
-#### Public Directories
-
-  - **(2026)** [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive index of public, developer-friendly APIs categorized by domain (e.g., weather, auth, finance). Serving as a core design-discovery tool, it enables engineers to rapidly find mock data, integration targets, and third-party solutions for prototyping.
 ### Ai-assisted Development
 
 #### CLI Tools
@@ -249,6 +262,11 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Documentation Specifications
 
   - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
+### Command-line Utilities
+
+#### Terminal Emulators
+
+  - **(2026)** [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern, Rust-based terminal emulator incorporating AI agent assistance directly into the command-line interface. Reimagines input fields like text editors, supports real-time workspace collaboration, and native context-sharing for accelerated platform ops troubleshooting.
 ### Programming Paradigms
 
 #### Functional Programming
@@ -256,7 +274,7 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Testops](./testops.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Project Management Tools](./project-management-tools.md) | [Testops](./testops.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

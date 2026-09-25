@@ -72,6 +72,13 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### Developer Cognitive Load
 
   - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
+## Developer Productivity
+
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ## Developer Tooling
 
 ### CLI Frameworks
@@ -105,11 +112,6 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally) <span class='md-tag md-tag--warning'>[C/C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release summary detailing Red Hat Software Collections 3.8 and Developer Toolset 11. Explains runtime lifecycle considerations, package availability, and GCC version upgrades for building enterprise software on RHEL platforms.
 ## Software Engineering
 
-### API Management
-
-#### Testing
-
-  - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 ### Ai-assisted Development (1)
 
 #### Copilot Ecosystem
@@ -130,7 +132,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### Refactoring
 
   - **(2026)** [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional digital guide outlining classical Creational, Structural, and Behavioral software design patterns. Provides clean, production-ready code examples in Go, Python, Java, and TypeScript alongside practical refactoring advice.
-### Developer Productivity
+### Developer Productivity (1)
 
 #### Learning Paths (1)
 
@@ -179,7 +181,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
 

@@ -20,7 +20,7 @@ description: "Curated, AI-ranked Dom resources for the 2026 Cloud Native archite
   - **(2026)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM' Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide breaking down DOM traversal and event propagation mechanics (bubbling and capturing). Essential for intermediate UI engineering, it covers the structural boundaries of web browsers and highlights optimization patterns for interface updates.
 
 ---
-💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

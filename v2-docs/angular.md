@@ -28,7 +28,7 @@ description: "Curated, AI-ranked Angular resources for the 2026 Cloud Native arc
   - **(2026)** [angular.io: Building and serving Angular apps](https://angular.dev/guide/build) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official instructions covering deployment execution and active asset compilation within the Angular CLI environment. Emphasizes production bundling configurations, static asset caching, and lazy loading strategies.
 
 ---
-💡 **Explore Related:** [Devel Sites](./devel-sites.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
 

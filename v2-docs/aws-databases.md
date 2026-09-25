@@ -87,7 +87,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight details a legacy utility tool (AWS Mobile Hub) that assisted developers in bootstrapping NoSQL data layers. Live Grounding highlights that AWS Mobile Hub has been replaced by the more powerful AWS Amplify framework. Included for legacy archeological reference. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 
-🔗 **See Also:** [Docker](./docker.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

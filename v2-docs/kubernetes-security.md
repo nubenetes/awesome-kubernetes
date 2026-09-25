@@ -46,13 +46,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Historical Exploit Analysis
 
   - **(2021)** [thenewstack.io: Kubernetes: An Examination of Major Attacks 🌟](https://thenewstack.io/kubernetes-an-examination-of-major-attacks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Conducts retrospective post-mortems on major real-world Kubernetes security incidents, tracing malicious lateral movements, coin-miner deployments, and critical data breaches back to root posture issues.
-## Cloud Infrastructure
-
-### Azure Networking
-
-#### Security
-
-  - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
 ## Cloud Native Networking
 
 ### Network Policies
@@ -65,11 +58,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### The 4cs Of Cloud Native Security
 
   - **(2020)** [kubernetes.io: Cloud native security for your clusters](https://kubernetes.io/blog/2020/11/18/cloud-native-security-for-your-clusters) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative review of the '4C's of Cloud Native Security' (Cloud, Cluster, Container, Code). Explains how defense-in-depth principles apply across all layers of the cloud-native application stack.
-## Cloud Native Security Frameworks
-
-### Official Standards
-
-  - **(2020)** [kubernetes.io: Overview of Cloud Native Security 🌟🌟](https://kubernetes.io/docs/concepts/security) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide outlining the security topology of Kubernetes clusters, describing how the 4C's interface with container engines, internal services, and cloud configurations.
 ## Cluster Hardening
 
 ### Infrastructural Protection
@@ -91,11 +79,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Common Mistakes
 
   - **(2021)** [fairwinds.com: Discover the Top 5 Kubernetes Security Mistakes You're (Probably) Making](https://www.fairwinds.com/blog/top-5-kubernetes-security-mistakes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies common configuration mistakes like neglected CPU/memory limits, running containers as root, and using unvalidated base images, offering immediate structural remedies.
-## Compliance and Governance
-
-### Security Frameworks
-
-  - **(2021)** [armosec.io: A Practical Guide to the Different Compliance Kubernetes Security Frameworks and How They Fit Together 🌟🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares CIS Benchmarks, NSA-CISA profiles, and PCI-DSS requirements for Kubernetes workloads, showing how to cross-map validation controls for audit readiness.
 ## Defense In Depth
 
 ### Cluster Hardening (1)
@@ -133,13 +116,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Runtime Isolation
 
   - **(2020)** [thenewstack.io: A Security Comparison of Docker, CRI-O and Containerd 🌟](https://thenewstack.io/a-security-comparison-of-docker-cri-o-and-containerd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares the security architecture and attack surfaces of primary container runtimes: Docker, CRI-O, and Containerd. Discusses rootless execution, sandboxed runtimes (Kata, gVisor), and syscall filtering.
-## Networking (1)
-
-### CNI
-
-#### Cilium
-
-  - **(2026)** [cilium.io 🌟](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main website for Cilium, the industry-standard networking, security, and observability engine powered by eBPF. Eliminates routing performance penalties and delivers deep API metrics.
 ## Networking and Security
 
 ### Security Compliance
@@ -198,7 +174,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Hashicorp Vault Integration
 
   - **(2020)** [learn.hashicorp.com: Integrate a Kubernetes Cluster with an External Vault 🌟](https://developer.hashicorp.com/vault/tutorials/kubernetes-introduction/kubernetes-external-vault) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical implementation guide showcasing how to leverage the HashiCorp Vault Agent Injector sidecar to dynamically inject secrets directly into application pods via in-memory tmpfs mounts.
-## Security (1)
+## Security
 
 ### Access Control
 
@@ -282,9 +258,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Developer Guidance
 
   - **(2022)** [dev.to/pavanbelagatti: Kubernetes Security Best Practices For Developers](https://dev.to/pavanbelagatti/kubernetes-security-best-practices-for-developers-2b92)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Translates complex cluster security profiles into digestible concepts tailored directly for application developers. Focuses on safe manifest construction, secret handling, and using non-root base images. Encourages safe development workflows to eliminate security issues before code merges.
-#### Vulnerability Scanning
-
-  - **(2022)** [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides users in configuring GitHub's integrated developer security capabilities to find vulnerabilities, scan code dependencies, and detect exposed tokens. Highlights configuring automated pipelines to safeguard repository secrets prior to creating deployment packages. Speeds up software supply-chain validation workflows.
 ### Fundamentals
 
 #### Concepts
@@ -332,9 +305,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Enterprise Authentication
 
   - **(2022)** [loft.sh: Kubernetes and LDAP: Enterprise Authentication for Kubernetes](https://www.vcluster.com/blog/kubernetes-and-ldap-enterprise-authentication-for-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Outlines pattern-driven integrations for bridging classic corporate LDAP servers with modern Kubernetes clusters. Focuses on identity broker abstractions like Dex to map legacy LDAP groups to Kubernetes RBAC definitions.
-#### Entra ID
-
-  - **(2024)** [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official guidelines detailing the technical configuration of Microsoft Entra ID to establish strong cloud tenant boundaries. It highlights multi-factor authentication, conditional access pathways, and identity protection rules. Essential reading for platform engineers aligning cloud-native infrastructure with corporate compliance frameworks.
 #### Microservice Identities
 
   - **(2023)** [learnk8s.io: Authentication between microservices using Kubernetes identities 🌟](https://learnkube.com/microservices-authentication-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized guide analyzing how service-to-service communication can be secured natively. It demonstrates using Kubernetes ServiceAccount tokens as cryptographic identities to authenticate microservices without external overhead. This pattern reduces dependencies on heavy service meshes for simpler deployments.
@@ -550,11 +520,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Zero Trust Architecture
 
   - **(2022)** [thenewstack.io: Securing Access to Kubernetes Environments with Zero Trust](https://thenewstack.io/securing-access-to-kubernetes-environments-with-zero-trust)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses securing cloud-native setups using Zero Trust strategies. Covers real-time threat assessments, deep access auditing, and replacing static certificates with automated network micro-segmentation.
-## Security Toolkits and Scanning
-
-### Open Source Curation
-
-  - **(2021)** [cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟](https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews top open-source security tooling from 2021, including static analysis tools, vulnerability scanners, runtime anomaly detectors, and compliance auditors used within CI/CD pipelines.
 ## Security Training and Playgrounds
 
 ### Kubernetes Goat Lab
@@ -596,7 +561,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [Kustomize](./kustomize.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Dotnet](./dotnet.md) | [Rancher](./rancher.md)
 

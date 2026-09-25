@@ -27,9 +27,6 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 #### Digitalocean (1)
 
   - **(2026)** [Digital Ocean](https://www.digitalocean.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developers-first cloud services platform focusing on simplicity, lower cost predictability, and rapid droplet virtual server allocations. Expanded enterprise capacities to accommodate containerized microservices and modern pipelines.
-#### Kubernetes DOKS
-
-  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 #### Visual Deployment
 
   - **(2022)** [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference landing portal for visual architecture design tools integrated with DigitalOcean Kubernetes. Historically allowed developers to visualize infrastructure topologies and generate corresponding Kubernetes configurations.
@@ -48,7 +45,7 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
   - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 
