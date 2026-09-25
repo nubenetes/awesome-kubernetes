@@ -418,6 +418,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [medium: Single Sign-On in Kubernetes 🌟](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed)
 - [trstringer.com: Create a Basic Kubernetes Validating Webhook](https://trstringer.com/kubernetes-validating-webhook)
 - [box/kube-exec-controller](https://github.com/box/kube-exec-controller) An admission controller service and kubectl plugin to handle container drift in K8s clusters
+- [probityai/agent-evidence-admission](https://github.com/probityai/agent-evidence-admission) Admission policies for OPA/Rego, Kyverno and sigstore policy-controller that admit or refuse a workload on the in-toto agent execution evidence attached to its image
 
 ## Kubernetes Security Best Practices
   - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) - *(Related to azure topic)*
