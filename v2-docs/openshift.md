@@ -1,5 +1,5 @@
 ---
-description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, Amazon Red Hat OpenShift and more — curated Cloud Native tools, guides and references."
+description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Amazon Red Hat OpenShift and more — curated Cloud Native tools, guides and references."
 ---
 # OpenShift Container Platform
 
@@ -15,8 +15,8 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 
 #### General Reference
 
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
   - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
   - [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
@@ -39,6 +39,9 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 #### Managed Services
 
   - **(2020)** [openshift.com: Introducing Red Hat OpenShift Service on AWS](https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Seminal release article introducing ROSA (Red Hat OpenShift Service on AWS). Features direct API integration with AWS, fully managed lifecycle operations, unified billing, and robust hybrid connectivity.
+#### Workshops
+
+  - **(2018)** [blog.openshift.com: AWS and red hat quickstart workshop](https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical workshop manual detailing early CloudFormation blueprints for hosting OpenShift instances on AWS. Replaced entirely by contemporary ROSA (Red Hat OpenShift Service on AWS) implementations.
 ### Finops
 
 #### Cost Management
@@ -71,11 +74,11 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 #### Self-hosting
 
   - **(2021)** [Atlassian Confluence6](https://github.com/nubenetes/confluence6-atlassian) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Open-source Dockerization template and configuration manifest designed for self-hosting Atlassian Confluence 6.x within containerized environments. Relies on legacy baseline system configurations, serving as an interesting historical pattern for monolithic application containerization before Helm charts and operators became standard.
-### Public Cloud
+### Kubernetes Distributions
 
-#### AWS Provisioning
+#### Enterprise Distributions
 
-  - **(2026)** [==AWS Account Set Up 🌟==](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) <span class='md-tag md-tag--info'>⭐ 1550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-132ea455" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 5 L 30 2 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-132ea455)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository guide outlines the specific IAM policies, resource quotas, Route53 configurations, and networking permissions required to install OpenShift on AWS using the native installer-provisioned infrastructure (IPI). It is a vital technical reference for cloud infrastructure engineers.
+  - **(2026)** [OKD](https://okd.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The community-backed, open-source upstream counterpart to Red Hat OpenShift. OKD integrates Kubernetes with core Linux container tools (like Fedora CoreOS) to offer a complete self-managing, multi-tenant container platform designed for declarative applications, CI/CD, and simplified enterprise operations.
 ## Kubernetes and Openshift
 
 ### Networking
@@ -92,6 +95,9 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 #### Performance
 
   - **(2020)** [blog.openshift.com: Troubleshooting OpenShift network performance with a netperf DaemonSet](https://www.redhat.com/en/blog/troubleshooting-openshift-network-performance-with-a-netperf-daemonset) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This resource outlines how to run a netperf DaemonSet on Red Hat OpenShift to measure network throughput and latency boundaries between nodes. Double-evidence synthesis highlights its long-term diagnostic utility, though 2026 platforms favor automated eBPF-based instrumentation (like Cilium) for real-time latency mapping.
+#### Traffic Control
+
+  - **(2019)** [redhat.com: Network traffic control for containers in Red Hat OpenShift 🌟](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines ingress/egress bandwidth shaping, container rate-limiting, and packet prioritization within OpenShift's SDN. Live grounding shows that while basic Linux TC limits apply, contemporary architectures utilize service meshes to execute complex L7 rate-limiting policies.
 ### Platform Engineering
 
 #### Installation
@@ -104,6 +110,9 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
   - **(2020)** [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8aae42ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 12 L 30 13 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-8aae42ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging administration guides, tools, operators, and integration scripts specialized for Red Hat OpenShift 3.x cluster topologies.
 ### Security
 
+#### Architecture
+
+  - **(2018)** [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This seminal architectural analysis details patterns for deploying OpenShift across physical and logical enterprise network security zones. Contrasts legacy perimeter firewall zoning models with flat cloud-native Software-Defined Networks (SDNs), providing proven coexistence topologies.
 #### Network Policies
 
   - **(2020)** [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy) <span class='md-tag md-tag--info'>⭐ 236</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2e739b2c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 3 L 30 6 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-2e739b2c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developed by the Red Hat Community of Practice, this repository provides highly standardized, reusable NetworkPolicy templates. While early implementations relied on basic IP blocks, live engineering practices in 2026 demand these profiles for enforcing zero-trust namespaces.
@@ -114,16 +123,27 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 #### Egress Firewalls
 
   - **(2024)** [**Accessing External Services Using Egress Router**](https://www.redhat.com/en/blog/accessing-external-services-using-egress-router) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Deep-dive into configuring Red Hat OpenShift Egress Router pods to map outbound traffic to dedicated public IPs. This facilitates firewalled external resources (like legacy DBs) to authorize connections from fluid Kubernetes pods securely.
+## Performance Engineering
+
+### Kubernetes Optimization
+
+#### Autonomous Tuning
+
+  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
 ## Platform Engineering (1)
 
 ### Architectural Insights
 
+#### Ecosystem Tools
+
+  - **(2025)** [**Portfolio Architecture Tooling**](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical toolset and mapping library designed to programmatically generate clean, unified, and compliant architectural diagrams for hybrid cloud deployments. Enables platform teams to model complex networking, storage, and cluster connections cleanly.
 #### Personal Blog
 
   - **(2020)** [schabell.org: Cloud-native development - A blueprint 🌟](https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural blueprints and patterns focusing on constructing container-native applications using modern microservices and API gateways. Written by a Red Hat technology evangelist. Extremely useful for understanding how early microservices evolved to cloud-native setups in 2026.
 #### Red Hat Ecosystem
 
   - **(2026)** [==Red Hat's approach to Kubernetes 🌟==](https://www.redhat.com/en/solutions/kubernetes-approach) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Strategic whitepaper framing Red Hat's platform-centric philosophy towards Kubernetes, prioritizing automated host systems (RHCOS) and lifecycle operations via custom operators. Offers deep architectural reasoning for selecting unified platforms over highly fragmented DIY setups. Essential reading for system architects.
+  - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
   - **(2025)** [**gitlab.com: Portfolio Architecture Examples**](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Code repository hosting deployment configurations, GitOps profiles, and infrastructure-as-code scripts matching Red Hat's standardized portfolio architectures. Ideal for platform administrators looking to stand up robust multi-cloud environments rapidly.
 ### Community and Collaboration
 
@@ -142,17 +162,37 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 #### Red Hat Ecosystem (1)
 
   - **(2026)** [==developers.redhat.com 🌟==](https://developers.redhat.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's dedicated developer portal providing comprehensive access to tools, sandboxes, and cloud-native frameworks like Quarkus and Spring on Kubernetes. It bridges the gap between raw cluster endpoints and developer workflows. In 2026, it serves as a cornerstone educational hub for enterprise software engineers.
-### Kubernetes Distributions
+  - **(2026)** [==Developer Sandbox==](https://developers.redhat.com/developer-sandbox) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides immediate, zero-cost developer access to an active, shared OpenShift cluster environment pre-populated with cloud-native tooling. Eliminates complex infrastructure bootstrapping for developers, letting them deploy containers instantly. In 2026, it is the standard starting sandbox for assessing OpenShift APIs.
+### Ecosystem
+
+#### Marketplace
+
+  - **(2024)** [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally a portal dedicated to discovering, buying, and provisioning certified operators and third-party software on OpenShift. While the standalone portal has transitioned, the actual operational flow has been assimilated directly into the internal OpenShift OperatorHub interface.
+### Enterprise Kubernetes
+
+#### Openshift (1)
+
+  - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
+### Kubernetes Distributions (1)
 
 #### Demos and Workshops
 
   - **(2021)** [github.com/redhatdemocentral: OpenShift Container Platform Install Demo' 🌟](https://github.com/redhatdemocentral/ocp-install-demo) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A repository of scripts for quick deployment demonstrations of the OpenShift Container Platform. Useful for sandboxing and architecture demos. However, 2026 production automation pipelines strictly favor the official OpenShift Installer (IPI) commands directly.
+#### Evaluation and Sandbox
+
+  - **(2026)** [**try.openshift.com 🌟**](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Unified gateway for trialing OpenShift deployments across public clouds, virtualization platforms, and local developer workstations (via OpenShift Local). Enables architects to evaluate operational complexity and developer tooling. Continually updated in 2026 to reflect the latest stable 4.x features.
 #### Hybrid Cloud
 
   - **(2026)** [**OpenShift blog 🌟**](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official blog sharing product updates, strategies, and engineering insights on hybrid cloud infrastructures. It details native integrations, security baselines, and virtualization upgrades. Essential reading for platform architects designing multi-cluster, multi-cloud enterprise footprints in 2026.
+#### Installer
+
+  - **(2026)** [==github.com/openshift/installer openshift installer 🌟==](https://github.com/openshift/installer) <span class='md-tag md-tag--info'>⭐ 1550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23f8b934" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 12 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-23f8b934)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository hosting the OpenShift Installer engine (IPI/UPI), which handles automated platform provisioning on major hypervisors and public clouds. Generates ignition files, configures bootstraps, and controls the automated installation of the core operators. Essential codebase for platform deployment.
 #### Legacy Sandboxes
 
   - **(2022)** [OpenShift Online](https://www.redhat.com/en/technologies/cloud-computing/openshift) 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historically the first multi-tenant public cloud developer platform provided by Red Hat. In modern architectures, this service is fully deprecated and replaced by the modern Developer Sandbox and managed public cloud instances. Retained strictly for historical context.
+#### OKD Core
+
+  - **(2026)** [==github.com/openshift/origin 🌟==](https://github.com/openshift/origin) <span class='md-tag md-tag--info'>⭐ 8658</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bda63148" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 3 L 30 7 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-bda63148)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core open-source repository for OKD (formerly OpenShift Origin), representing the upstream Kubernetes community distribution of OpenShift. Consists of cluster installation systems, APIs, and operators. In 2026, it is the primary engine of community innovation and testing before features migrate to commercial OpenShift.
 #### OKD Core Legacy
 
   - **(2018)** [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟](https://www.redhat.com/en/blog/installing-okd-3-10-on-a-single-host) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Archival tutorial explaining the setup of OKD version 3.10 on a single server. Because modern OKD 4 uses Fedora CoreOS (FCOS) and Operator-based installers, the manual playbooks and Docker engine guidelines described in this post are deprecated and of historical interest only.
@@ -163,6 +203,11 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
   - **(2020)** [youtube: Deploy OpenShift 4 to vSphere using OpenShift's UPI](https://www.youtube.com/watch?v=DLB9m17aGus) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video guide focusing on User-Provisioned Infrastructure (UPI) installations of OpenShift on VMware vSphere. UPI remains a viable option for heavily restricted networks requiring custom storage/network bindings, although modern Installer-Provisioned Infrastructure (IPI) has become the de-facto standard.
   - **(2019)** [blog.openshift.com: OpenShift 4.2 vSphere Install Quickstart](https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-quickstart) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early quickstart guide detailing the deployment of OpenShift 4.2 on VMware vSphere environments. Although the VMware integration remains a highly active enterprise deployment pattern, the technical versions and procedures listed here have been superseded by advanced, automated CPI/CSI integrations in 2026.
   - **(2019)** [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs 🌟](https://www.redhat.com/en/blog/openshift-4-2-vsphere-install-with-static-ips) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Detailed technical guide for implementing VMware vSphere installations of OpenShift 4.2 utilizing static IP configurations. Because modern OpenShift 4 installers support robust automated network allocation, these legacy manual configuration workflows are obsolete.
+### Kubernetes Gitops and Packaging
+
+#### Learning Hubs
+
+  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
 ### Legacy Sandboxes (1)
 
 #### Interactive Learning
@@ -199,6 +244,11 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
 #### Operators
 
   - **(2020)** [==O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration Platform**==](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Definitive O'Reilly ebook on building custom Kubernetes Operators using Go, Ansible, and Helm SDKs. Walks through reconciling controllers, writing CRDs, and managing custom states. Live 2026 analysis indicates this text remains the absolute standard for engineering platform automation layers.
+### Security and Compliance
+
+#### Public Sector
+
+  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Software Engineering
 
 ### Base Images
@@ -213,7 +263,7 @@ description: "Top Openshift resources for 2026, AI-ranked: AWS Account Set Up, A
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

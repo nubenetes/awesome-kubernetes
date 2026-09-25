@@ -88,5 +88,5 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Testops](./testops.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

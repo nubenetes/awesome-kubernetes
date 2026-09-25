@@ -69,6 +69,13 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
 #### Provider Comparisons
 
   - **(2026)** [youtube: A Cloud Guru - Cloud Provider Comparisons 🌟](https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated Pluralsight/A Cloud Guru video playlist featuring structural and strategic comparisons of hyperscalers. It covers pricing structures, operational overhead, and developer experience metrics. Live grounding confirms its baseline instructional value for junior cloud engineers.
+## Cloud Providers
+
+### Alternative Clouds
+
+#### Kubernetes DOKS
+
+  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 ## Cloud Strategy
 
 ### Architecture
@@ -121,9 +128,6 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
 #### Aws-azure Mapping
 
   - **(2026)** [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A direct comparison table matching corresponding AWS and Azure services for infrastructure architects translating environments. Includes virtualization, identity governance, and container orchestration layers. Live grounding demonstrates its high value as a quick-lookup cheatsheet during design sprints.
-#### GCP Translation
-
-  - **(2026)** [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's official engineering guide to translating AWS and Azure infrastructure paradigms into GCP equivalents. It describes VPC networks, database engines, and container services. Live grounding establishes its role as the industry-standard translation manual for cross-cloud architects.
 ### Storage Architectures
 
 #### Hyperscalers (5)
@@ -182,7 +186,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
   - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Backup](./aws-backup.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

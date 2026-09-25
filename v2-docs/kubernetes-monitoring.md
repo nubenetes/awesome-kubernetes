@@ -56,15 +56,6 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Core Components
 
   - **(2021)** [sysdig.com: How to monitor Kubernetes control plane](https://www.sysdig.com/blog/monitor-kubernetes-control-plane) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical guide detailing how to expose, scrap, and interpret diagnostic metrics from core Kubernetes control plane components, including etcd, kube-apiserver, kube-controller-manager, and kube-scheduler. Provides target Grafana layouts and alerting thresholds critical for cluster-wide health.
-## Container Orchestration
-
-### Kubernetes (1)
-
-#### Observability
-
-##### Best Practices
-
-  - **(2023)** [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven core principles for establishing a reliable Kubernetes monitoring framework, highlighting metric aggregation, container life-cycle awareness, and Prometheus auto-discovery. Curator Insight: Essential practices for K8s monitoring. Live Grounding: Practical guidelines for scaling Prometheus and agent-based scrapers without experiencing massive ingestion bottlenecks.
 ## Dynamic Component Monitoring
 
 ### Cloud-native Observability
@@ -155,7 +146,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Signoz and Opentelemetry
 
   - **(2023)** [signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive implementation guide showcasing SigNoz as a full-featured, open-source alternative to Datadog. It demonstrates configuring OpenTelemetry collectors to ingest cluster metrics, application traces, and platform logs into an integrated ClickHouse backend.
-## Observability (1)
+## Observability
 
 ### Chatops
 
@@ -196,11 +187,6 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Ebpf Platform
 
   - **(2026)** [github.com/microsoft/retina](https://github.com/microsoft/retina) <span class='md-tag md-tag--info'>⭐ 3144</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0caeed3f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 8 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-0caeed3f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microsoft's eBPF-powered cloud-native network observability platform. Delivers deep distributed packet captures, connection tracking, and granular network telemetry for debugging multi-cluster Kubernetes deployments.
-### Standards
-
-#### Interoperability
-
-  - **(2022)** [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critically analyzes the historical divergence and friction between Prometheus metrics conventions and OpenTelemetry metrics data models. Explores alignment efforts, such as native OTLP support in Prometheus, to achieve semantic parity across enterprise cloud-native telemetry pipelines.
 ## Observability and Monitoring
 
 ### Grafana
@@ -245,18 +231,9 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 
   - **(2023)** [8 Best Kubernetes monitoring tools; Paid & open-source](https://middleware.io/blog/kubernetes-monitoring/tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles a curated comparison of eight high-performance paid and open-source monitoring platforms. Focuses on the trade-offs of using managed SaaS models versus self-hosted, cloud-native monitoring stacks with respect to total cost of ownership, alerting, and data retention.
   - **(2022)** [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review of ten leading commercial and open-source Kubernetes monitoring suites. Evaluates architecture models, scaling properties, out-of-the-box features, and implementation overheads across modern toolchains like Prometheus, Datadog, Dynatrace, and Better Stack.
-## Site Reliability Engineering
-
-### Observability (2)
-
-#### Monitoring Theory
-
-##### Distributed Systems
-
-  - **(2016)** [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed-systems) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational text establishing distributed systems monitoring fundamentals. Introduces the 'four golden signals' (latency, traffic, errors, and saturation) and addresses the core engineering trade-offs between white-box and black-box monitoring. Curator Insight: Seminal SRE literature defining core telemetry metrics. Live Grounding: Remains the architectural blueprint for modern production-grade telemetry frameworks globally.
 
 ---
-💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

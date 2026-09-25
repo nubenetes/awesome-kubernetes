@@ -17,6 +17,20 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 
   - [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Scale to Zero With Kubernetes with KEDA and/or Knative in the Kubernetes Tools ecosystem.
   - [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Autoscaling Your Kubernetes Microservice with KEDA in the Kubernetes Tools ecosystem.
+## Architecture
+
+### Design Patterns
+
+#### Sidecar Pattern
+
+  - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how native sidecar containers (introduced in K8s 1.28) redefine load-testing execution. By decoupling helper utilities from core application workloads, sidecars simplify performance benchmarking and operational telemetry.
+## Finops and Cloud Cost
+
+### Kubernetes Finops
+
+#### Foundational Concepts
+
+  - **(2022)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.
 ## Infrastructure and Platform
 
 ### Autoscaling (1)
@@ -36,6 +50,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - **(2023)** [kedify.io: Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does](https://www.kedify.io/resources/blog/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the telemetry gap between Prometheus metrics and the Kubernetes HPA. Evaluates how Kedify and KEDA act as the unifying abstraction layers, avoiding complex native Prometheus Adapter setups and streamlining scale-to-zero configurations.
   - **(2022)** [opcito.com: A guide to mastering autoscaling in Kubernetes with KEDA](https://www.opcito.com/blogs/a-guide-to-mastering-autoscaling-in-kubernetes-with-keda) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide on mastering KEDA autoscaling. Details architectural components like Scalers, Metrics Adapter, and Controller. Explains how KEDA intercepts traffic and translates complex telemetry into HPA scaling decisions.
   - **(2022)** [dev.to/vinod827: Scale your apps using KEDA in Kubernetes](https://dev.to/vinod827/scale-your-apps-using-keda-in-kubernetes-4i3h) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step tutorial on scaling microservices in a Kubernetes cluster using KEDA. Includes manifests and structural explanations for deploying ScaledObjects with popular triggers like RabbitMQ and Azure Service Bus.
+  - **(2021)** [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to run Apache Camel integration microservices on Kubernetes, leveraging KEDA to dynamically scale Camel routes based on incoming message rates. Synthesizes enterprise integration patterns (EIP) with modern cloud-native autoscaling.
   - **(2020)** [partlycloudy.blog: Horizontal Autoscaling in Kubernetes #3 – KEDA](https://partlycloudy.blog/2020/05/29/horizontal-autoscaling-in-kubernetes-3-keda) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical exploration of implementing KEDA in Kubernetes to resolve the limitations of traditional HPA metrics. Walks through real-world deployment patterns and explains the configuration of ScaledObjects. Highly useful for engineers transitioning from CPU/Memory-based scaling to queue-length metrics.
   - **(2020)** [thenewstack.io: CNCF KEDA 2.0 Scales up Event-Driven Programming on Kubernetes](https://thenewstack.io/microsoft-keda-2-0-scales-up-event-driven-programming-on-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the architectural evolution of KEDA 2.0, emphasizing its improved integration with Kubernetes HPA, support for custom scalers, and upgraded security controls. The release solidified KEDA's status as an enterprise-grade component for event-driven serverless topologies on Kubernetes.
 #### Multi-cluster Strategy
@@ -136,9 +151,21 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 #### Vertical Scaling
 
   - **(2020)** [returngis.net: Escalado vertical de tus pods en Kubernetes con VerticalPodAutoscaler](https://www.returngis.net/2020/07/escalado-vertical-de-tus-pods-en-kubernetes) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish-language guide implementing the Vertical Pod Autoscaler. Clearly describes how VPA monitors real-world resource consumption and mutates deployment manifests to align requests with live execution metrics.
+### Resource Management
+
+#### Reference Materials
+
+  - **(2023)** [thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A concise, actionable reference sheet summarizing core resources limits, request definitions, and autoscaler configuration arguments. A stellar quick-guide for DevOps engineers designing production-ready workload templates.
+## Operations
+
+### Managed Services
+
+#### Performance Benchmarking
+
+  - **(2023)** [symbiosis.host: Benchmarking cluster creation time for 8 managed Kubernetes providers](https://symbiosis.host)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative performance study evaluating cluster provisioning latency across eight prominent cloud providers (such as AWS EKS, GCP GKE, Azure AKS, DigitalOcean, and Symbiosis). Tracks control plane bootstrap speed, node joining times, and API availability to guide DevOps teams in emergency scale-out or dynamic environment workflows.
 
 ---
-💡 **Explore Related:** [Docker](./docker.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Container Managers](./container-managers.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

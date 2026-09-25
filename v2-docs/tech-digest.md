@@ -29,31 +29,31 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Crossplane revolutionizes platform engineering by transforming Kubernetes into a universal control plane for managing multi-cloud infrastructure declaratively. |
-    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | Serves as the foundational infrastructure bridge enabling Kubernetes clusters to discover, schedule, and orchestrate physical NVIDIA GPUs for modern AI/ML workloads. |
-    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Acts as the foundational core autoscaling component ensuring enterprise clusters dynamically resize underlying cloud infrastructure based on real-time scheduling demand. |
-    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Provides the industry-standard FinOps observability framework required to track, allocate, and optimize multi-tenant container spending across cloud providers. |
-    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Sets the enterprise security standard for passwordless cloud authentication by federating Kubernetes Service Accounts with Microsoft Entra ID via OIDC. |
-    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Unifies infrastructure management by allowing teams to provision and lifecycle managed AWS cloud resources natively through Kubernetes CRDs. |
-    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🟡 high | Fills a major gap in GitOps pipelines by providing an automated, Kubernetes-native promotion engine for multi-stage progressive delivery. |
-    | 2026-06-13 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Automates workload rightsizing to prevent resource overprovisioning and ensure predictable application performance in dense multi-tenant environments. |
-    | 2026-06-13 | [Capsule Operator](https://github.com/projectcapsule/capsule) | 🟡 high | Enables multi-tenancy at scale by abstracting namespace governance, network isolation, and resource quotas into tenant-level boundaries. |
-    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🔵 medium | Remains the ubiquitous terminal-based cluster management interface that significantly accelerates operational triage and developer troubleshooting. |
+    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | Provides the essential hardware-acceleration link enabling production AI/ML model training and inference workloads across Kubernetes clusters. |
+    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Pioneers the paradigm shift of transforming Kubernetes into a universal control plane capable of orchestrating external multi-cloud infrastructure. |
+    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Remains the foundational, battle-tested core component powering elastic infrastructure provisioning and node-level scaling in production clusters. |
+    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Sets the enterprise standard for passwordless OIDC identity federation between Kubernetes workloads and Azure cloud services without long-lived credentials. |
+    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Serves as the enterprise standard for Kubernetes FinOps, delivering real-time cost observability and allocation across multi-tenant environments. |
+    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Unifies AWS cloud resource provisioning into native Kubernetes custom resources, standardizing declarative GitOps management for supporting infrastructure. |
+    | 2026-06-13 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Upstream core mechanism that automates container CPU and memory rightsizing, directly addressing cluster overprovisioning and application stability. |
+    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🟡 high | Solves critical enterprise zero-trust infrastructure access challenges by consolidating audited, identity-backed Kubernetes API and node access. |
+    | 2026-06-13 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | The definitive SIGs project bridging dynamic ingress/service routing with external DNS providers to automate public and internal endpoints. |
+    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | The industry-standard terminal interface drastically accelerating day-to-day cluster operations, resource inspection, and live incident triage. |
 
 === "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Transforms Kubernetes into a universal control plane capable of orchestrating multi-cloud infrastructure alongside application workloads. |
-    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | Serves as the foundational, standard hardware plugin enabling GPU-accelerated AI and machine learning workloads across Kubernetes clusters. |
-    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Provides the industry-standard upstream node scaling engine that underpins elastic capacity and infrastructure cost management in production. |
-    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Stands as the de facto enterprise solution for granular real-time Kubernetes cost allocation, chargeback, and FinOps governance. |
-    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Establishes modern zero-trust enterprise security by federating Kubernetes service accounts with Microsoft Entra ID via OIDC. |
-    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🟡 high | Delivers unified, identity-governed zero-trust access and auditing for Kubernetes APIs, nodes, and supporting infrastructure. |
-    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Enables cloud native engineering teams to declaratively manage native AWS infrastructure components directly via Kubernetes manifests. |
-    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | The ubiquitous terminal-based operational UI that radically streamlines day-to-day cluster administration and operational debugging. |
-    | 2026-06-13 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Critical core automation component that autonomously rightsizes pod resource requests and limits to maximize cluster packing density. |
-    | 2026-06-13 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | Vital Kubernetes-SIGs utility that automates external DNS lifecycle management dynamically from Ingress and Service manifests across major cloud providers. |
+    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | Crossplane revolutionizes cloud infrastructure management by transforming Kubernetes into a universal, declarative control plane for multi-cloud resources. |
+    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | The NVIDIA device plugin is foundational for modern AI and ML workloads, exposing physical GPUs directly to the Kubernetes scheduler. |
+    | 2026-06-13 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Cluster Autoscaler remains the upstream, production-proven engine for automated, demand-based elasticity across enterprise Kubernetes deployments. |
+    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | Azure Workload Identity eliminates static credentials by standardizing secure, OIDC-based pod authentication against Microsoft Entra ID. |
+    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | Kubecost provides the industry benchmark for real-time cost allocation and FinOps observability in multi-tenant Kubernetes clusters. |
+    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | AWS Controllers for Kubernetes (ACK) bridges cloud-native GitOps workflows with direct, CRD-driven management of managed AWS services. |
+    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🟡 high | Teleport enforces zero-trust identity and unified, auditable access governance across distributed Kubernetes clusters and underlying infrastructure. |
+    | 2026-06-13 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | external-dns is an indispensable ecosystem component that automates dynamic DNS record synchronization directly from Kubernetes Ingress and Service objects. |
+    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is the industry-standard terminal management interface that vastly accelerates operational troubleshooting and cluster observability for SREs. |
+    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🔵 medium | Kargo advances the GitOps paradigm by orchestrating deterministic multi-stage release promotion pipelines natively inside Kubernetes. |
 
 
 ## Containers & Runtime
@@ -302,9 +302,8 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Ray](https://docs.ray.io/en/latest) | 🔴 critical | Ray is the de facto standard distributed compute engine for scaling enterprise AI, training, and serving seamlessly across cloud-native Kubernetes environments. |
-    | 2026-06-02 | [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) | 🟡 high | Introduces an architectural paradigm shift for recommendation systems by unifying vector retrieval, filtering, and ranking directly inside GPU-optimized PyTorch models. |
-    | 2026-06-25 | [redhat.com: Bring Your Own Knowledge — Automation Intelligent Assistant (RAG)](https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant) | 🔵 medium | Provides practical enterprise blueprints for operationalizing knowledge ingestion and vector store pipelines for production RAG systems. |
+    | 2026-06-01 | [Ray](https://docs.ray.io/en/latest) | 🟡 high | Ray is the premier distributed execution framework for scaling compute-heavy AI and Python workloads. It provides low-overhead, dynamic actor execution models, powering distributed training (Ray Train |
+    | 2026-06-02 | [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) | 🟡 high | Meta's SilverTorch architecture redefines recommendation engines by consolidating vector retrieval, filtering, and scoring into a unified, GPU-optimized PyTorch model. Historically, recommendation pip |
 
 === "Last 6 Months"
 
@@ -767,31 +766,31 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | It is the authoritative training body and testing provider for canonical cloud native certifications including CKA, CKAD, and CKS. |
-    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | This official kubectl quick reference is indispensable for operators and serves as an essential allowed resource during hands-on CNCF exams. |
-    | 2026-06-25 | [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) | 🟡 high | Serves as AWS's central digital training engine offering official learning paths and exam readiness assessments for cloud practitioners. |
-    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Provides specialized, high-production Kubernetes training modules covering advanced cluster operations, security controls, and multi-tenancy. |
-    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Offers rigorous interactive sandboxes and exam simulation environments purpose-built for candidates preparing for CNCF certifications. |
-    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Delivers real-world, hands-on infrastructure blueprints and deployment pipelines essential for practical DevOps engineering education. |
-    | 2026-06-01 | [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html) | 🟡 high | Provides the industry-standard curriculum for secure application development and defense strategies vital for passing cloud security certifications like CKS. |
-    | 2026-06-01 | [edx.org](https://www.edx.org) | 🔵 medium | Hosts official foundational open-source and Linux Foundation coursework to onboard engineers into the cloud native ecosystem. |
-    | 2026-06-01 | [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands) | 🔵 medium | Acts as the official CLI reference for HashiCorp Terraform, a core study and operational requirement for infrastructure-as-code certifications. |
-    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🔵 medium | Facilitates community-driven peer mentorship and focused study cohorts dedicated to Kubernetes and cloud architecture certification prep. |
+    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | It is the canonical certification and curriculum authority for core cloud-native credentials, including CKA, CKAD, and CKS. |
+    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | Provides the essential, authoritative kubectl reference syntax permitted and heavily relied upon during practical Kubernetes certification exams. |
+    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Delivers comprehensive, production-aligned modular tracks on cluster operations, multi-tenancy, and cloud-native security fundamentals. |
+    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Offers industry-standard hands-on sandboxes and simulated exam environments specifically tailored for CKA, CKAD, and CKS candidates. |
+    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Translates theoretical certification concepts into hands-on competency through production-ready CI/CD, Terraform, and Kubernetes deployment blueprints. |
+    | 2026-06-01 | [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html) | 🟡 high | Serves as the benchmark security reference indispensable for passing advanced security certifications like the CKS and securing cloud workloads. |
+    | 2026-06-01 | [edx.org](https://www.edx.org) | 🟡 high | Hosts official Linux Foundation and CNCF academic coursework bridging standard operating system administration and containerized architectures. |
+    | 2026-06-01 | [redhatgov.io](https://redhatgov.io) | 🔵 medium | Supplies specialized enterprise platform engineering training for securing and hardening OpenShift infrastructure to meet strict compliance mandates. |
+    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🔵 medium | Acts as an active peer-to-peer knowledge collective focused directly on debugging and preparing for Kubernetes and cloud architecture exams. |
+    | 2026-06-01 | [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands) | 🔵 medium | Delivers the definitive CLI and state management reference required for mastering infrastructure-as-code automation and HashiCorp certifications. |
 
 === "Last 6 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | Serves as the primary curriculum source and exam authority for CKA, CKAD, and CKS cloud native certifications. |
-    | 2026-06-25 | [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) | 🟡 high | Provides the official training paths, sandbox labs, and exam-readiness assessments for AWS cloud certifications. |
-    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🟡 high | Acts as the indispensable syntax and command reference permitted during live Kubernetes performance-based exams. |
-    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Delivers focused, high-quality modular learning tracks for mastering Kubernetes architecture and platform operations. |
-    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Offers industry-standard exam simulation sandboxes specifically tailored for passing CKA, CKAD, and CKS certifications. |
-    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Bridges theoretical learning and production practice with structured, multi-tier CI/CD and infrastructure projects. |
-    | 2026-06-01 | [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html) | 🔵 medium | Provides authoritative defensive security patterns essential for cloud security certifications and hardening audits. |
-    | 2026-06-01 | [edx.org](https://www.edx.org) | 🔵 medium | Hosts the Linux Foundation's official entry-level cloud native coursework for standardized enterprise training. |
-    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🔵 medium | Facilitates peer debugging and collaborative study groups dedicated to passing Kubernetes and cloud certification exams. |
-    | 2026-06-18 | [developers.redhat.com: Containers Cheat Sheet](https://developers.redhat.com/cheat-sheets/containers) | 🔵 medium | Delivers a practical learning reference for modern container runtimes, OCI standards, and rootless Podman operations. |
+    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | Serves as the primary curriculum authority and certifying body for industry-standard CNCF benchmarks including CKA, CKAD, and CKS. |
+    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | Remains the canonical CLI reference allowed during live CNCF performance exams, making it essential for hands-on Kubernetes certification. |
+    | 2026-06-25 | [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) | 🟡 high | Provides official AWS curriculum, interactive sandbox labs, and guided readiness assessments across all cloud architecture domains. |
+    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Delivers widely adopted mock exam simulations and hands-on challenge sandboxes explicitly mapped to CKA, CKAD, and CKS competencies. |
+    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Delivers modular, enterprise-focused video training tracks covering deep Kubernetes cluster operations, multi-tenancy, and security. |
+    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Bridges certification theory with hands-on multi-tier CI/CD pipelines and infrastructure blueprints needed for real-world DevOps competency. |
+    | 2026-06-01 | [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html) | 🟡 high | Supplies the baseline web and container security mitigations required to master the Certified Kubernetes Security Specialist (CKS) curriculum. |
+    | 2026-06-01 | [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands) | 🟡 high | Functions as the authoritative command and state-management reference required to prepare for HashiCorp infrastructure-as-code certifications. |
+    | 2026-06-01 | [edx.org](https://www.edx.org) | 🔵 medium | Hosts official, accessible Linux Foundation entry-level coursework that establishes foundational skills for aspiring cloud engineers. |
+    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🔵 medium | Fosters an active peer-to-peer technical collective providing direct debugging help and study groups for Kubernetes and cloud certification candidates. |
 
 === "Last 12 Months"
 

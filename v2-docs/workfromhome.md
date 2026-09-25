@@ -16,13 +16,6 @@ description: "Top Workfromhome resources for 2026, AI-ranked: krisp, Zoom and mo
 #### External Links
 
   - **(2026)** [Google docs & Sheets](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S20332737%3A1779029801683182&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauuoeLcrRlG9wsx3FKpxmPOwZ0aEG9g04i8ZgsTyIUOHV3UzhWURaJlrxS0xYmo_YZUJM0_Rw)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Redirect link to Google Docs and Sheets login portal, commonly utilized by operations and product teams for maintaining functional specification spreadsheets and collaborative dynamic documentation.
-## DevOps
-
-### Culture
-
-#### Distributed Teams
-
-  - **(2020)** [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on remote engineering operations. Details how telemetry alignment, shared ChatOps structures, and open system registries prevent development drift in distributed organizations.
 ## Development
 
 ### Testing and QA
@@ -75,7 +68,7 @@ description: "Top Workfromhome resources for 2026, AI-ranked: krisp, Zoom and mo
   - **(2021)** [portafolio.co: Claves para liderar equipos de teletrabajo y no fracasar en el intento](https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Focuses on strategies for leading virtual teams, highlighting methods to establish trust, measure output over physical presence, and implement clear collaboration frameworks. Highlights Spanish-speaking organizational perspectives on easing transition friction for legacy teams.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [Newsfeeds](./newsfeeds.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 

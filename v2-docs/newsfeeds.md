@@ -1,5 +1,5 @@
 ---
-description: "Top Newsfeeds resources for 2026, AI-ranked: Kube Events, GitLab Collective and more — curated Cloud Native tools, guides and references."
+description: "Top Newsfeeds resources for 2026, AI-ranked: Kube Events, Stack Overflow Collectives and more — curated Cloud Native tools, guides and references."
 ---
 # Forums and Communities
 
@@ -15,12 +15,10 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: Kube Events, GitLab C
 
 #### General Reference
 
-  - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/kubernetes in the Kubernetes Tools ecosystem.
-  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering GitLab Collective in the Kubernetes Tools ecosystem.
-  - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/java in the Kubernetes Tools ecosystem.
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
   - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
   - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/jenkinsci in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/kubernetes in the Kubernetes Tools ecosystem.
   - [reddit.com/r/gradle](https://www.reddit.com/r/gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/gradle in the Kubernetes Tools ecosystem.
   - [reddit.com/r/QualityAssurance](https://www.reddit.com/r/QualityAssurance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/QualityAssurance in the Kubernetes Tools ecosystem.
   - [reddit.com/r/jmeter](https://www.reddit.com/r/jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/jmeter in the Kubernetes Tools ecosystem.
@@ -35,10 +33,12 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: Kube Events, GitLab C
   - [reddit.com/r/ansible](https://www.reddit.com/r/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/ansible in the Kubernetes Tools ecosystem.
   - [reddit.com/r/postgres](https://www.reddit.com/r/postgres)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/postgres in the Kubernetes Tools ecosystem.
   - [reddit.com/r/git](https://www.reddit.com/r/git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/git in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/java in the Kubernetes Tools ecosystem.
   - [reddit.com/r/python](https://www.reddit.com/r/Python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/python in the Kubernetes Tools ecosystem.
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/bashonubuntuonwindows in the Kubernetes Tools ecosystem.
   - [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Stack Overflow Collectives 🌟 in the Kubernetes Tools ecosystem.
   - [Go Collective](https://stackoverflow.com/collectives/go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Go Collective in the Kubernetes Tools ecosystem.
+  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering GitLab Collective in the Kubernetes Tools ecosystem.
 ## Finops and Cloud Cost
 
 ### Community Resources
@@ -51,7 +51,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: Kube Events, GitLab C
   - **(2023)** [Kube Events](https://kube.events) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community event calendar mapping meetups and conferences across the CNCF and Kubernetes ecosystem, focusing on platform engineering, container tuning, and cloud-native cost management sessions.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [Workfromhome](./workfromhome.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md) | [Recruitment](./recruitment.md)
 
-🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
 
