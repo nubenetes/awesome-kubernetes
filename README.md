@@ -81,16 +81,85 @@
     *   [13.3. Autonomous Workflows](#133-autonomous-workflows)
     *   [13.4. Agentic AI Source Code](#134-agentic-ai-source-code)
 14. [14. Special Assets and Learning Paths](#14-special-assets-and-learning-paths)
-    *   [14.1. Special Assets Management](#141-special-assets-management)
-    *   [14.2. O.Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
-    *   [14.3. TOC and Structural Exceptions](#143-toc-and-structural-exceptions)
+*   [14.1. Special Assets Management](#141-special-assets-management)
+*   [14.2. O.Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
+*   [14.3. TOC and Structural Exceptions](#143-toc-and-structural-exceptions)
+*   [14.4. Multimedia Series & Technical Video Shorts (YouTube)](#144-multimedia-series--technical-video-shorts-youtube)
 15. [15. Licensing and Legal Disclaimer](#15-licensing-and-legal-disclaimer)
-    *   [15.1. Repository License](#151-repository-license)
-    *   [15.2. Content Ownership](#152-content-ownership)
-    *   [15.3. Legal Disclaimer](#153-legal-disclaimer)
-
+*   [15.1. Repository License](#151-repository-license)
+*   [15.2. Content Ownership](#152-content-ownership)
+*   [15.3. Legal Disclaimer](#153-legal-disclaimer)
 ---
-
+<a id="quick-navigation-map"></a>
+## 🗺️ Quick Navigation Map
+Nubenetes is organized into a dual-edition knowledge engine (V1 Exhaustive Archive vs V2 Agentic Elite Portal), centralized metadata databases, and an autonomous AI orchestration engine. Use this navigation map to explore the repository structure, documentation directories, and automation tooling.
+### 🧭 Repository Architecture & Directory Blueprint
+```text
+awesome-kubernetes/
+├── 📁 v2-docs/                          # ⭐️ V2 AGENTIC ELITE PORTAL: High-impact, AI-curated reference guides
+│   ├── 📄 index.md                      # V2 Home Portal with search, category cards, and learning pathways
+│   ├── 📄 microservices.md              # Dedicated microservice architecture & patterns guide
+│   ├── 📄 videos.md                     # Curated Cloud Native video hub with O'Reilly learning paths
+│   └── 📄 *.md                          # Specialized V2 technical guides (Kubernetes, SRE, GitOps, AI/LLMs)
+│
+├── 📁 docs/                             # 📚 V1 EXHAUSTIVE ARCHIVE: 162 specialized category files (>18,600 links)
+│   ├── 📄 introduction.md               # Foundational cloud-native architecture & ecosystem concepts
+│   ├── 📄 kubernetes-*.md               # Deep-dive Kubernetes administration, security, networking, storage
+│   ├── 📄 devops-*.md                   # CI/CD, GitOps, IaC, and platform engineering references
+│   └── 📄 ai-agentic-*.md               # Agentic AI, Model Context Protocol (MCP), and LLMOps references
+│
+├── 📁 src/                              # 🤖 AGENTIC AI ENGINE & AUTONOMOUS PIPELINES
+│   ├── 📄 main.py                       # Master orchestration core for ingestion, discovery, and evaluation
+│   ├── 📄 agentic_curator.py            # AI-driven link classification, scoring, and metadata extraction
+│   ├── 📄 v2_optimizer.py               # Fast-track V2 portal generation & maturity scoring
+│   ├── 📄 autonomous_discovery.py       # Autonomous multi-source scanner for emerging cloud-native tech
+│   ├── 📄 intelligent_health_checker.py # Link rot detection, redirect resolution, and dead URL cleanup
+│   ├── 📄 enrichment.py                 # GitHub API social proof, CNCF landscape data, and license guardrails
+│   ├── 📄 safety_readme.py              # Automated Hard Safety Gate enforcing 15-section README integrity
+│   └── 📄 gemini_utils.py               # Google Gemini API integration, token rate limiting, and session tracking
+│
+├── 📁 data/                             # 💾 CENTRALIZED KNOWLEDGE GRAPH & SYSTEM MEMORY
+│   ├── 📄 inventory.yaml                # Master database of all link metadata, tags, stars, and audit history
+│   ├── 📄 special_assets.yaml           # Preserved foundational assets protected against automated deletion
+│   └── 📄 link_rules.yaml               # Curation policies, URL exclusions, and categorization rules
+│
+├── 📁 .github/workflows/                # ⚙️ AUTONOMOUS GITHUB ACTIONS WORKFLOWS (9-Stage Pipeline)
+│   ├── 📄 01.1.agentic_cron.yml         # Scheduled autonomous discovery & AI curation cron
+│   ├── 📄 02.2.agentic_v2_health.yml    # Continuous archive health & network validation
+│   ├── 📄 03.1.agentic_v2_metadata.yml  # Bi-weekly GitHub metrics & social proof synchronization
+│   ├── 📄 03.2.agentic_v2_ai.yml        # On-demand Gemini deep architectural analysis
+│   ├── 📄 04.1.agentic_v2_publish.yml   # Automatic V2 portal building & deployment pipeline
+│   └── 📄 06.deploy_final.yml           # GitHub Pages dual-portal deployment (V1 Root / V2 Subdirectory)
+│
+├── 📄 README.md                         # 📖 Master architecture blueprint, metrics, and technical governance
+├── 📄 mkdocs.yml                        # MkDocs configuration for V1 Exhaustive Portal
+└── 📄 v2-mkdocs.yml                     # MkDocs Material configuration for V2 Elite Portal
+```
+### ⚖️ Dual-Edition Quick Decision Guide
+| Need / Use Case | Recommended Edition | Path | Key Highlights |
+| :--- | :--- | :--- | :--- |
+| **Comprehensive Research & Deep Dives** | **V1: Exhaustive Archive** | [`docs/`](docs/) | 18,600+ links across 162 specialized categories, historical lineage, niche tools |
+| **Production Decisions & Rapid Curation** | **V2: Agentic Elite Portal** | [`v2-docs/`](v2-docs/) | AI-scored (Impact ≥ 3.5), deduplicated, maturity badges, zero abandonware |
+| **Video Learning & Guided Visual Tours** | **V2 Video Hub** | [`v2-docs/videos.md`](v2-docs/videos.md) | O'Reilly-style learning paths, yt-dlp enriched transcripts, categorized playlists |
+| **Automated Knowledge Pipeline** | **Agentic Source Code** | [`src/`](src/) | Python 3.11+ agentic engine leveraging Google Gemini and Model Context Protocol (MCP) |
+---
+<a id="ai-video-shorts"></a>
+## 🤖 AI-Generated Technical Video Shorts (YouTube Series)
+This repository is accompanied by an educational video series synthesized with **Gemini NotebookLM** based directly on the architectural patterns, agentic curation engine, and cloud-native insights from this project. All technical shorts are freely accessible on YouTube on the [**@nubenetes**](https://youtube.com/@nubenetes) channel.
+> [!NOTE]
+> **Multilingual Learning Experience**:  
+> Content features native spoken audio in **English 🇺🇸**, with automated YouTube closed captions (CC) translated into **Spanish 🇪🇸 and 20+ languages** for global engineering teams.
+### ⚡ Topic-Focused Technical Shorts
+| # | Format | Short Title | Technical Domain & Core Concept | Duration | Direct YouTube Link |
+|---|:---:|---|---|:---:|---|
+| 1 | ⚡ Short | [**How MCP Makes AI Agents Autonomous**](https://www.youtube.com/shorts/paAVbwHZ_M8) | Model Context Protocol (MCP) as the bridge between LLMs & Kubernetes clusters | `1:25` | [▶️ Watch Short](https://www.youtube.com/shorts/paAVbwHZ_M8) |
+| 2 | ⚡ Short | [**How GitOps Enforces Cluster Reality**](https://www.youtube.com/shorts/VOK9iDu374c) | Continuous reconciliation (ArgoCD/Flux) vs push CI/CD to eliminate drift | `1:20` | [▶️ Watch Short](https://www.youtube.com/shorts/VOK9iDu374c) |
+| 3 | ⚡ Short | [**The Ultimate Cloud Native Compass for 2026**](https://www.youtube.com/shorts/QnIVrw5RY4c) | Navigating CNCF chaos with Nubenetes V2: 4 pillars of agentic curation | `1:24` | [▶️ Watch Short](https://www.youtube.com/shorts/QnIVrw5RY4c) |
+| 4 | ⚡ Short | [**How Nubenetes V2 Maps the Cloud Native Future**](https://www.youtube.com/shorts/8jyMWC0uHwU) | Transitioning from 18,600+ link V1 archive to the V2 Elite Edition | `1:14` | [▶️ Watch Short](https://www.youtube.com/shorts/8jyMWC0uHwU) |
+| 5 | ⚡ Short | [**How Nubenetes V2 Curates the Cloud**](https://www.youtube.com/shorts/1i5zU-_4WoQ) | Autonomous AI orchestration: licensing checks, commit velocity, zero abandonware | `1:19` | [▶️ Watch Short](https://www.youtube.com/shorts/1i5zU-_4WoQ) |
+| 6 | ⚡ Short | [**Top Cloud Native Trends Dominating 2026**](https://www.youtube.com/shorts/idbx4gdRxng) | Local inner-loop dev (Mirrord/Telepresence), FinOps, eBPF & AI operators | `1:16` | [▶️ Watch Short](https://www.youtube.com/shorts/idbx4gdRxng) |
+*For complete descriptions, technical outlines, and direct studio links, see [Section 14.4: Multimedia Series & Technical Video Shorts](#144-multimedia-series--technical-video-shorts-youtube).*
+---
 ## 1. Introduction and Motivation
 
 ### 1.1. Origins
@@ -1359,6 +1428,40 @@ The V2 Portal is structured as a sophisticated technical reference guide, moving
 Certain files are exempt from the mandatory Table of Contents (TOC) and deep-hierarchy requirements. These include configuration-heavy files (e.g., [`mkdocs.md`](docs/mkdocs.md)) or large technical tables (e.g., [`matrix-table.md`](docs/matrix-table.md)).
 - **Automatic Skip**: The Agentic Curator and V2 Builder automatically bypass these files during structural reorganization cycles.
 - **Exception Registry**: Exemptions are managed via the `toc_exempt_files` list in [`data/link_rules.yaml`](data/link_rules.yaml).
+
+### 14.4. Multimedia Series & Technical Video Shorts (YouTube)
+
+To bridge the gap between static repository documentation and multimodal learning, Nubenetes publishes an AI-synthesized engineering series on YouTube on the [**@nubenetes**](https://youtube.com/@nubenetes) channel. Each technical short dissects a core cloud-native or agentic concept with rigorous technical precision.
+
+#### 1. [How MCP Makes AI Agents Autonomous](https://www.youtube.com/shorts/paAVbwHZ_M8) `(1:25)`
+- **Category:** Agentic AI & Model Context Protocol (MCP)
+- **Technical Focus:** Explains why large language models (LLMs) are isolated reasoning engines incapable of interacting directly with live Kubernetes infrastructure. Details how Anthropic's Model Context Protocol (MCP) provides a standardized client-server protocol enabling autonomous agents (like Google Gemini) to securely inspect cluster state, query logs, and execute targeted remediation actions with zero hardcoded API glue.
+- **Direct Links:** [Watch Short](https://www.youtube.com/shorts/paAVbwHZ_M8) | [Edit in YouTube Studio](https://studio.youtube.com/video/paAVbwHZ_M8/edit)
+
+#### 2. [How GitOps Enforces Cluster Reality](https://www.youtube.com/shorts/VOK9iDu374c) `(1:20)`
+- **Category:** Continuous Reconciliation & State Management
+- **Technical Focus:** Contrasts traditional push-based CI/CD pipelines (which fire once and leave clusters vulnerable to configuration drift and manual tampering) with declarative GitOps reconciliation loops (ArgoCD / Flux). Demonstrates how treating Git as the Single Source of Truth (SSOT) forces live cluster state to continuously converge toward declared manifests.
+- **Direct Links:** [Watch Short](https://www.youtube.com/shorts/VOK9iDu374c) | [Edit in YouTube Studio](https://studio.youtube.com/video/VOK9iDu374c/edit)
+
+#### 3. [The Ultimate Cloud Native Compass for 2026](https://www.youtube.com/shorts/QnIVrw5RY4c) `(1:24)`
+- **Category:** Cloud Native Navigation & Curation Strategy
+- **Technical Focus:** Addresses developer fatigue in the overwhelming CNCF landscape (thousands of overlapping tools). Introduces the four pillars of the Nubenetes V2 Elite Portal: (1) Agentic AI Curation filtering industry noise from 18,600+ resources, (2) Platinum Tier quality standards, (3) Real-time web grounding via MCP, and (4) Dual-edition knowledge graph coexistence.
+- **Direct Links:** [Watch Short](https://www.youtube.com/shorts/QnIVrw5RY4c) | [Edit in YouTube Studio](https://studio.youtube.com/video/QnIVrw5RY4c/edit)
+
+#### 4. [How Nubenetes V2 Maps the Cloud Native Future](https://www.youtube.com/shorts/8jyMWC0uHwU) `(1:14)`
+- **Category:** Dual-Edition Architecture (V1 Archive vs V2 Elite)
+- **Technical Focus:** Details the evolution of Nubenetes from an exhaustive 162-document Markdown encyclopedia (V1) to an intelligent, high-density decision matrix (V2). Explains how automated semantic clustering, impact scoring (Impact ≥ 3.5), and license tracking empower architects to make confident infrastructure choices without drowning in documentation.
+- **Direct Links:** [Watch Short](https://www.youtube.com/shorts/8jyMWC0uHwU) | [Edit in YouTube Studio](https://studio.youtube.com/video/8jyMWC0uHwU/edit)
+
+#### 5. [How Nubenetes V2 Curates the Cloud](https://www.youtube.com/shorts/1i5zU-_4WoQ) `(1:19)`
+- **Category:** Autonomous AI Orchestration & Quality Scoring
+- **Technical Focus:** Inside the autonomous agentic pipeline of Nubenetes V2: how AI agents scan repositories, read documentation, evaluate commit cadence, inspect pull request velocity, monitor license modifications (e.g. Apache 2.0 to BSL shifts), and filter out abandoned repositories to deliver an elite, production-ready archive.
+- **Direct Links:** [Watch Short](https://www.youtube.com/shorts/1i5zU-_4WoQ) | [Edit in YouTube Studio](https://studio.youtube.com/video/1i5zU-_4WoQ/edit)
+
+#### 6. [Top Cloud Native Trends Dominating 2026](https://www.youtube.com/shorts/idbx4gdRxng) `(1:16)`
+- **Category:** Emerging 2026 Cloud Native Tooling & Paradigms
+- **Technical Focus:** Highlights the key architectural shifts defining 2026: (1) Inner-loop local microservice development against mirrored production cluster traffic (Mirrord / Telepresence), (2) FinOps-driven granular container cost allocation (Kubecost / OpenCost), (3) Kernel-level eBPF networking and security (Cilium), and (4) Autonomous self-healing AI operators.
+- **Direct Links:** [Watch Short](https://www.youtube.com/shorts/idbx4gdRxng) | [Edit in YouTube Studio](https://studio.youtube.com/video/idbx4gdRxng/edit)
 
 ---
 
