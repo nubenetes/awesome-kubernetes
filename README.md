@@ -145,19 +145,24 @@ awesome-kubernetes/
 ---
 <a id="ai-video-shorts"></a>
 ## 🤖 AI-Generated Technical Video Shorts (YouTube Series)
+
 This repository is accompanied by an educational video series synthesized with **Gemini NotebookLM** based directly on the architectural patterns, agentic curation engine, and cloud-native insights from this project. All technical shorts are freely accessible on YouTube on the [**@nubenetes**](https://youtube.com/@nubenetes) channel.
+
 > [!NOTE]
 > **Multilingual Learning Experience**:  
 > Content features native spoken audio in **English 🇺🇸**, with automated YouTube closed captions (CC) translated into **Spanish 🇪🇸 and 20+ languages** for global engineering teams.
-### ⚡ Topic-Focused Technical Shorts
-| # | Format | Short Title | Technical Domain & Core Concept | Duration | Direct YouTube Link |
-|---|:---:|---|---|:---:|---|
-| 1 | ⚡ Short | [**How MCP Makes AI Agents Autonomous**](https://www.youtube.com/shorts/paAVbwHZ_M8) | Model Context Protocol (MCP) as the bridge between LLMs & Kubernetes clusters | `1:25` | [▶️ Watch Short](https://www.youtube.com/shorts/paAVbwHZ_M8) |
-| 2 | ⚡ Short | [**How GitOps Enforces Cluster Reality**](https://www.youtube.com/shorts/VOK9iDu374c) | Continuous reconciliation (ArgoCD/Flux) vs push CI/CD to eliminate drift | `1:20` | [▶️ Watch Short](https://www.youtube.com/shorts/VOK9iDu374c) |
-| 3 | ⚡ Short | [**The Ultimate Cloud Native Compass for 2026**](https://www.youtube.com/shorts/QnIVrw5RY4c) | Navigating CNCF chaos with Nubenetes V2: 4 pillars of agentic curation | `1:24` | [▶️ Watch Short](https://www.youtube.com/shorts/QnIVrw5RY4c) |
-| 4 | ⚡ Short | [**How Nubenetes V2 Maps the Cloud Native Future**](https://www.youtube.com/shorts/8jyMWC0uHwU) | Transitioning from 18,600+ link V1 archive to the V2 Elite Edition | `1:14` | [▶️ Watch Short](https://www.youtube.com/shorts/8jyMWC0uHwU) |
-| 5 | ⚡ Short | [**How Nubenetes V2 Curates the Cloud**](https://www.youtube.com/shorts/1i5zU-_4WoQ) | Autonomous AI orchestration: licensing checks, commit velocity, zero abandonware | `1:19` | [▶️ Watch Short](https://www.youtube.com/shorts/1i5zU-_4WoQ) |
-| 6 | ⚡ Short | [**Top Cloud Native Trends Dominating 2026**](https://www.youtube.com/shorts/idbx4gdRxng) | Local inner-loop dev (Mirrord/Telepresence), FinOps, eBPF & AI operators | `1:16` | [▶️ Watch Short](https://www.youtube.com/shorts/idbx4gdRxng) |
+
+### ⚡ Video Shorts Matrix
+
+| # | Short Title | Architectural Domain & Focus | Duration | Action |
+|:---:|:---|:---|:---:|:---:|
+| **01** | [How MCP Makes AI Agents Autonomous](https://www.youtube.com/shorts/paAVbwHZ_M8) | **Agentic AI & MCP**<br/>Standardized client-server protocol bridging LLMs to cluster state | `1:25` | [▶️ Watch](https://www.youtube.com/shorts/paAVbwHZ_M8) |
+| **02** | [How GitOps Enforces Cluster Reality](https://www.youtube.com/shorts/VOK9iDu374c) | **GitOps & Reconciliation**<br/>Continuous loops (ArgoCD/Flux) eliminating drift vs push CI/CD | `1:20` | [▶️ Watch](https://www.youtube.com/shorts/VOK9iDu374c) |
+| **03** | [The Ultimate Cloud Native Compass for 2026](https://www.youtube.com/shorts/QnIVrw5RY4c) | **CNCF Navigation**<br/>4 curation pillars filtering chaos and hype across 18,600+ resources | `1:24` | [▶️ Watch](https://www.youtube.com/shorts/QnIVrw5RY4c) |
+| **04** | [How Nubenetes V2 Maps the Cloud Native Future](https://www.youtube.com/shorts/8jyMWC0uHwU) | **Dual-Edition Architecture**<br/>Evolution from V1 archive to V2 high-density decision matrix | `1:14` | [▶️ Watch](https://www.youtube.com/shorts/8jyMWC0uHwU) |
+| **05** | [How Nubenetes V2 Curates the Cloud](https://www.youtube.com/shorts/1i5zU-_4WoQ) | **Autonomous Orchestration**<br/>Multi-agent pipelines checking licenses, commit velocity & rot | `1:19` | [▶️ Watch](https://www.youtube.com/shorts/1i5zU-_4WoQ) |
+| **06** | [Top Cloud Native Trends Dominating 2026](https://www.youtube.com/shorts/idbx4gdRxng) | **Emerging 2026 Paradigms**<br/>Inner-loop dev (Mirrord), FinOps, eBPF & AI self-healing operators | `1:16` | [▶️ Watch](https://www.youtube.com/shorts/idbx4gdRxng) |
+
 *For complete descriptions, technical outlines, and direct studio links, see [Section 14.4: Multimedia Series & Technical Video Shorts](#144-multimedia-series--technical-video-shorts-youtube).*
 ---
 ## 1. Introduction and Motivation
