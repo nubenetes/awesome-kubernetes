@@ -81,19 +81,23 @@
     *   [13.3. Autonomous Workflows](#133-autonomous-workflows)
     *   [13.4. Agentic AI Source Code](#134-agentic-ai-source-code)
 14. [14. Special Assets and Learning Paths](#14-special-assets-and-learning-paths)
-*   [14.1. Special Assets Management](#141-special-assets-management)
-*   [14.2. O.Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
-*   [14.3. TOC and Structural Exceptions](#143-toc-and-structural-exceptions)
-*   [14.4. Multimedia Series & Technical Video Shorts (YouTube)](#144-multimedia-series--technical-video-shorts-youtube)
+    *   [14.1. Special Assets Management](#141-special-assets-management)
+    *   [14.2. O.Reilly-style Knowledge Architecture](#142-oreilly-style-knowledge-architecture)
+    *   [14.3. TOC and Structural Exceptions](#143-toc-and-structural-exceptions)
+    *   [14.4. Multimedia Series & Technical Video Shorts (YouTube)](#144-multimedia-series--technical-video-shorts-youtube)
 15. [15. Licensing and Legal Disclaimer](#15-licensing-and-legal-disclaimer)
-*   [15.1. Repository License](#151-repository-license)
-*   [15.2. Content Ownership](#152-content-ownership)
-*   [15.3. Legal Disclaimer](#153-legal-disclaimer)
+    *   [15.1. Repository License](#151-repository-license)
+    *   [15.2. Content Ownership](#152-content-ownership)
+    *   [15.3. Legal Disclaimer](#153-legal-disclaimer)
 ---
+
 <a id="quick-navigation-map"></a>
 ## 🗺️ Quick Navigation Map
+
 Nubenetes is organized into a dual-edition knowledge engine (V1 Exhaustive Archive vs V2 Agentic Elite Portal), centralized metadata databases, and an autonomous AI orchestration engine. Use this navigation map to explore the repository structure, documentation directories, and automation tooling.
+
 ### 🧭 Repository Architecture & Directory Blueprint
+
 ```text
 awesome-kubernetes/
 ├── 📁 v2-docs/                          # ⭐️ V2 AGENTIC ELITE PORTAL: High-impact, AI-curated reference guides
@@ -135,13 +139,16 @@ awesome-kubernetes/
 ├── 📄 mkdocs.yml                        # MkDocs configuration for V1 Exhaustive Portal
 └── 📄 v2-mkdocs.yml                     # MkDocs Material configuration for V2 Elite Portal
 ```
+
 ### ⚖️ Dual-Edition Quick Decision Guide
+
 | Need / Use Case | Recommended Edition | Path | Key Highlights |
 | :--- | :--- | :--- | :--- |
 | **Comprehensive Research & Deep Dives** | **V1: Exhaustive Archive** | [`docs/`](docs/) | 18,600+ links across 162 specialized categories, historical lineage, niche tools |
 | **Production Decisions & Rapid Curation** | **V2: Agentic Elite Portal** | [`v2-docs/`](v2-docs/) | AI-scored (Impact ≥ 3.5), deduplicated, maturity badges, zero abandonware |
 | **Video Learning & Guided Visual Tours** | **V2 Video Hub** | [`v2-docs/videos.md`](v2-docs/videos.md) | O'Reilly-style learning paths, yt-dlp enriched transcripts, categorized playlists |
 | **Automated Knowledge Pipeline** | **Agentic Source Code** | [`src/`](src/) | Python 3.11+ agentic engine leveraging Google Gemini and Model Context Protocol (MCP) |
+
 ---
 <a id="ai-video-shorts"></a>
 ## 🤖 AI-Generated Technical Video Shorts (YouTube Series)
@@ -164,6 +171,7 @@ This repository is accompanied by an educational video series synthesized with *
 | **06** | [Top Cloud Native Trends Dominating 2026](https://www.youtube.com/shorts/idbx4gdRxng) | **Emerging 2026 Paradigms**<br/>Inner-loop dev (Mirrord), FinOps, eBPF & AI self-healing operators | `1:16` | [▶️ Watch](https://www.youtube.com/shorts/idbx4gdRxng) |
 
 *For complete descriptions, technical outlines, and direct studio links, see [Section 14.4: Multimedia Series & Technical Video Shorts](#144-multimedia-series--technical-video-shorts-youtube).*
+
 ---
 ## 1. Introduction and Motivation
 
