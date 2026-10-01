@@ -139,3 +139,6 @@
 
 ## RDMA
   - **(2026)** [MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet](https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet) 🌟 - Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet.
+
+## Subsea Cables
+  - **(2026)** [Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable](https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable) 🌟 - Meta's engineering team details the architecture of Petal, the world's first petabit-class transoceanic subsea cable.
