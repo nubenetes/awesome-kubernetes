@@ -297,7 +297,7 @@
 - [seaworthy: A CLI to verify #Kubernetes resource health !! 🌟](https://github.com/cakehappens/seaworthy) Post-apply check to verify your K8s resources are Seaworthy
 - [kVDI](https://github.com/webmeshproj/webmesh-vdi) A Kubernetes-native Virtual Desktop Infrastructure.
 - [kcg 🌟](https://github.com/bit-cloner/kcg) is a command line tool that lets you create kubeconfig files. The user can interactively choose a namespace and service account and generate a config file with token authentication that has same RBAC permissions assigned to chosen service account.
-- [Compass 🌟](https://github.com/winfordlin/Compass) Quickly Pinpoint Errors in your Kubernetes Deployment.
+- [Compass 🌟](https://github.com/raystack/compass) Quickly Pinpoint Errors in your Kubernetes Deployment.
 - [Gitkube 🌟](https://github.com/hasura/gitkube) is a tool for building and deploying Docker images on Kubernetes using git push. After a simple initial setup, users can simply keep git push-ing their repos to build and deploy to Kubernetes automatically.
 - [vesion-checker](https://github.com/jetstack/version-checker) is a Kubernetes utility for observing the current versions of images running in the cluster, as well as the latest available upstream. These checks get exposed as Prometheus metrics to be viewed on a dashboard, or soft alert cluster operators.
 - [Descheduler for Kubernetes 🌟](https://github.com/kubernetes-sigs/descheduler) -> [wecloudpro.com: Balance your Kubernetes cluster](https://www.wecloudpro.com/2020/11/01/Balance-your-kubernetes-cluster.html)
@@ -345,7 +345,7 @@
 - [github.com: dnsconfig-injector - Mutating Admission Webhook for dnsconfig pod injection](https://github.com/karampok/dnsconfig-injector)
 - [kubectl-view-webhook 🌟](https://github.com/Trendyol/kubectl-view-webhook) Visualize your webhook configurations in Kubernetes.
 - [ContainerSSH: Launch containers on demand 🌟🌟](https://containerssh.io) ContainerSSH launches a new container for each SSH connection in Kubernetes, Podman or Docker. The user is transparently dropped in the container and the container is removed when the user disconnects. Authentication and container configuration are dynamic using webhooks, no system users required.
-- [reconshell.com: Kubei – Kubernetes Runtime Vulnerabilities Scanner 🌟](https://reconshell.com/kubei-kubernetes-runtime-vulnerabilities-scanner)
+- [reconshell.com: Kubei – Kubernetes Runtime Vulnerabilities Scanner 🌟](https://github.com/Portshift/Kubei)
 - [openshift: Introducing kube-burner, A tool to Burn Down Kubernetes and OpenShift 🌟](https://www.redhat.com/en/blog/introducing-kube-burner-a-tool-to-burn-down-kubernetes-and-openshift) Kube-burner is a tool designed to stress different OpenShift components basically by coordinating the creation and deletion of k8s resources. Along this blog series we’ll talk about how to use it in OpenShift 4.
 - [kube-ebpf-exporter 🌟](https://github.com/ahas-sigs/kube-ebpf-exporter) Prometheus exporter for custom eBPF metrics.
 - [qontract](https://github.com/app-sre/qontract-server) qontract (Queryable cONTRACT) is a collection of tools used to SREs to expose available managed services to application developer teams.
@@ -731,7 +731,7 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Datree. Quality Checks for Kubernetes YAMLs
 
-- [Datree.io](https://www.datree.io) Datree prevents kubernetes misconfigurations from reaching production. Datree is a CLI solution that supports kubernetes owners in their roles, by preventing developers from making errors in k8s configurations.
+- [Datree.io](https://github.com/datreeio/datree) Datree prevents kubernetes misconfigurations from reaching production. Datree is a CLI solution that supports kubernetes owners in their roles, by preventing developers from making errors in k8s configurations.
 - [dev.to: CI With Datree](https://dev.to/thenjdevopsguy/ci-with-datree-4h8d) Learn all about Datree, the leader in Kubernetes static code analysis; Helm chart analysis; and how to ensure that all manifest configurations are working properly in a Continuous Integration (CI) build process. [youtube: CI and Building Code With Datree](https://www.youtube.com/watch?v=2Z5HhEk1zK8&ab_channel=MichaelLevan)
 - [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
 
@@ -774,7 +774,7 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Dekorate. Generate k8s manifests for java apps
 
-- [==dekorate.io== 🌟🌟🌟](https://dekorate.io) - https://github.com/dekorateio/dekorate
+- [==dekorate.io== 🌟🌟🌟](https://gavangtvttbde.tv) - https://github.com/dekorateio/dekorate
 - Dekorate is a collection of Java compile-time generators and decorators for Kubernetes manifests. You can generate a manifest by adding a dependency to the classpath of your project. You can also customize it with an annotation or application property
 - One-stop jar to Kubernetes manifest generation that works for all jvm languages regardless of the build tool. It makes generating Kubernetes manifests as easy as adding a dependency to the classpath!
 - [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for Java applications](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications)
@@ -969,7 +969,7 @@ elastic quotas - Effortless optimization at its finest!
 ## Mesh-kridik
 
 - [chen-keinan/mesh-kridik](https://github.com/chen-keinan/mesh-kridik) mesh-kridik is an open-source security checker that performs various security checks on a Kubernetes cluster with istio service mesh and is leveraged by OPA (Open Policy Agent) to enforce security rules.
-- [kitploit.com: Mesh-Kridik](https://kitploit.com/2021/12/mesh-kridik-open-source-security.html)
+- [kitploit.com: Mesh-Kridik](https://kitploit.com/en/tools/github/chen-keinan/mesh-kridik)
 
 ## kubewatch
 
@@ -1300,7 +1300,7 @@ elastic quotas - Effortless optimization at its finest!
   - [kuberay](https://github.com/ray-project/kuberay) - A toolkit to run Ray applications on Kubernetes
 
   - [odigos](https://github.com/odigos-io/odigos) - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
-  - [Grafana OnCall OSS](https://grafana.com/oss/oncall) 🌟 - Grafana OnCall OSS es un sistema de gestión de guardias de código abierto para mejorar la colaboración y resolver incidentes más rápido, ahora en modo de mantenimiento.
+  - [Grafana OnCall OSS](https://grafana.com/products/cloud/irm) 🌟 - Grafana OnCall OSS es un sistema de gestión de guardias de código abierto para mejorar la colaboración y resolver incidentes más rápido, ahora en modo de mantenimiento.
   - [Kubernetes: Un tour por los comandos básicos](https://www.youtube.com/shorts/VP4JoijL_TY?si=dBGfs6sn1ryzPcYT) 🌟 - Este video de YouTube ofrece un recorrido por los comandos esenciales de Kubernetes, ideal para iniciarse en la herramienta.
   - [RBAC Wizard: Herramienta para visualizar y analizar la configuración RBAC de Kubernetes](https://t.…) 🌟 - RBAC Wizard es una herramienta que ayuda a visualizar y analizar las configuraciones RBAC de tu clúster de Kubernetes, facilitando la gestión de permisos.
   - [Bank Vaults: Un Cuchillo Suizo para HashiCorp Vault en Kubernetes](https://github.com/bank-vaults/bank-vaults) 🌟 - Bank Vaults es una herramienta CLI multifuncional para inicializar, desbloquear y configurar HashiCorp Vault, facilitando su integración y gestión en entornos Kubernetes.
