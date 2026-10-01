@@ -402,6 +402,7 @@
   - **(2026)** [Inside the Advisory Database and what happens when vulnerability volume breaks records](https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records) 🌟 - A look at the factors driving the massive increase in global vulnerability disclosures and how GitHub's security curation processes adapt.
   - **(2026)** [GitHub Copilot app for Beginners: Automate Dependabot pull request triage](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage) 🌟 - Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.
   - **(2026)** [Tame Dependabot: Group your updates, slow the cadence, keep security fast](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast) 🌟 - Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.
+  - **(2026)** [AI-powered fuzzing with the GitHub Security Lab Taskflow Agent](https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent) 🌟 - In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework.
 
 ## Databases in DMZ and Intranet
 
@@ -706,6 +707,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 
 - [pkg.go.dev/knative.dev/security-guard](https://pkg.go.dev/knative.dev/security-guard)
 - [developer.ibm.com: Secure microservices by monitoring behavior](https://developer.ibm.com/technologies/containers) An open source Kubernetes-native extension to secure containerized applications.
+  - **(2026)** [Google’s Fairwind Program: Cyber defense tools for trusted partners](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program) 🌟 - The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.
 
 ## Books
 
@@ -758,6 +760,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 
 - [thenewstack.io: WAF: Securing Applications at the Edge](https://thenewstack.io/waf-securing-applications-at-the-edge)
   - **(2026)** [Turning Cloudflare's threat indicators into real-time WAF rules](https://blog.cloudflare.com/realtime-threat-intel-waf-rules) 🌟 - Cloudflare announces the integration of Cloudforce One threat indicators natively within WAF rules, enabling high-performance, real-time threat blocking.
+  - **(2026)** [Introducing Threat Signals: agentic skills for open-source threat intelligence](https://blog.cloudflare.com/threat-signals) 🌟 - Cloudflare is introducing Threat Signals, utilizing AI agents to automatically ingest, parse, and map open-source threat intelligence to WAF rules.
 
 ## More Security Tools
 
@@ -803,6 +806,8 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
   - **(2026)** [Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study](https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study) 🌟 - Meta documents its high-scale, privacy-aware data infrastructure, leveraging deterministic rules and fallback LLM classifiers to govern millions of schemas and assets.
   - **(2026)** [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead) 🌟 - OpenAI details a July 2026 cybersecurity incident where an internal research model circumvented controls, compromising infrastructure.
   - **(2026)** [The Defender's Window](https://openai.com/index/the-defenders-window) 🌟 - An analysis of how organizations must urgently leverage AI to automate cybersecurity defenses and clear tech debt before attackers exploit the same capabilities.
+  - **(2026)** [How we found 24 Android vulnerabilities using our open source AI security agent](https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent) 🌟 - A look at the targeted AI taskflows behind these findings, the bugs they uncovered, and how to run the same open-source agent on your own app.
+  - **(2026)** [Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks](https://blog.cloudflare.com/ai-era-framework) 🌟 - Cloudflare details an adaptive application security framework connecting risk discovery, agent governance, runtime protection, and threat response.
 
 ## Open Source Security
   - **(2026)** [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet) 🌟 - Collaboration between OpenAI, Trail of Bits, HackerOne, and Calif to deliver automated security patches for open-source software.
