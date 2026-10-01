@@ -258,7 +258,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 ### Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)
 
 - Prometheus proporciona un ecosistema de **"exporters"**, los cuales permiten que herramientas de terceros puedan exportar sus datos en Prometheus. Muchos componentes de software de código abierto son compatibles por defecto.
-- [exporterhub.io 🌟](https://exporterhub.io) Exporterhub is a curated List of Prometheus Exporters
+- [exporterhub.io 🌟](https://zedible.io) Exporterhub is a curated List of Prometheus Exporters
 - **Un "exporter" expone las métricas de uno ó varios "collectors".**
 - [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters)
     - [prometheus.io/download/](https://prometheus.io/download)
