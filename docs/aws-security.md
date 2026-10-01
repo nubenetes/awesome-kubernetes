@@ -78,6 +78,7 @@
 - [PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment)
 
 ## AWS IAM
+  - **(2026)** [Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute](https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4) 🌟 - Netflix describes a secure attestation design for Spark on Amazon EMR that converts a cloud execution role into a trusted internal workload identity.
 
 ## CI/CD Security
   - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) - *(Related to cicd topic)*
