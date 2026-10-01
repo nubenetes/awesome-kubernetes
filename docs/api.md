@@ -466,3 +466,6 @@
 
 </center>
 </details>
+
+## AI APIs
+  - **(2026)** [Introducing GPT-Live in the API](https://openai.com/index/introducing-gpt-live-1-in-the-api) 🌟 - A new low-latency architecture and turnless speech model designed for continuous, responsive voice AI interactions.
