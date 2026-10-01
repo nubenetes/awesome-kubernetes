@@ -121,7 +121,7 @@
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application) By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker & Kubernetes
 - [swissarmydevops.com](https://swissarmydevops.com)
 - [dev.to: Build a highly available Node.js application using Docker, NGINX and AWS ELB](https://dev.to/sowmenappd/build-a-highly-available-node-js-application-using-docker-nginx-and-aws-elb-3cjp)
-- [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.com/learn-create-dockerfile-example)
+- [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://devopsarsenal.com)
 - [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) This repo contains questions and exercises on various technical topics related to DevOps and SRE. Linux, Jenkins, AWS, Cloud, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, OpenShift, Big Data, Databases, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization, DevOps Interview Questions.
 - [jose-r-lopez/SSI_Materials](https://github.com/jose-r-lopez/SSI_Infraestructure_Automation_Materials) A bunch of infrastructure automation scripts we use in our course, in case you find them useful!
 - [dzone: DIY DevOps, CI, and CD with GitHub, Docker and a VPS](https://dzone.com/articles/diy-devops-ci-and-cd-with-github-docker-and-a-vps) Azure and AWS is insanely cool until you look at your invoice and realise that what you're paying for can easily be replicated for 2% of your current cloud costs.
@@ -915,7 +915,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ### RedHat GitHub Actions
 
-- [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)
+- [redhat-actions/spring-petclinic](https://github.com/redhat-developer-demos/spring-petclinic)
 
 ## Red Hat Process Automation Manager
 
