@@ -51,7 +51,7 @@
     - Circle CI
     - GitLab
 - [devops.com: Best of 2021 – 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools)
-- [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.testmuai.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity)
+- [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.testmuai.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools)
 
 ## Alternatives
   - [Buildbot](https://buildbot.net) - *(Related to cicd topic)*
@@ -61,8 +61,8 @@
 - [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 - [Agola](https://agola.io)
 - [harness.io](https://www.harness.io)
-    - [harness.io: AutoStopping Rules For Kubernetes Clusters](https://www.harness.io/blog/autostopping-rules-kubernetes) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
-    - [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://www.harness.io/blog/cd-jenkins-pipelines-harness)
+    - [harness.io: AutoStopping Rules For Kubernetes Clusters](https://www.harness.io/blog/cloud-autostopping-complements-kubernetes-cluster-autoscaling-cost-savings) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
+    - [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://www.harness.io/blog/how-to-migrate-off-jenkins-the-road-to-modern-ci-cd)
 - [Drone](https://www.drone.io)
     - [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
 - [Buildbot](https://buildbot.net)
