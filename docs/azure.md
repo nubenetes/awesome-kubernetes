@@ -108,7 +108,7 @@
 - [Azure Updates 🌟](https://azure.microsoft.com/en-us/en-us/updates)
 - [Azure Updates AKS 🌟](https://azure.microsoft.com/en-us/en-us/updates/?query=AKS)
 - [==azurecharts.com: Azure Charts==](https://azurecharts.com) Live visual exploration environment for Azure Cloud + ecosystem. Cloud representation metrics auto-updated continuously
-    - [==azurecharts.com/learning: Azure Learning Explorer==](https://azurecharts.com/learning) Discover published Azure learning modules, paths, videos, certifications, exams for services of your interest.
+    - [==azurecharts.com/learning: Azure Learning Explorer==](https://azurechartsaccess.ciamlogin.com/08a81f49-8757-4b54-bfe1-4ccf3304f09c/oauth2/v2.0/authorize?response_type=code+id_token&redirect_uri=https%3A%2F%2Fazurecharts.com%2F.auth%2Flogin%2Faad%2Fcallback&client_id=ad7f5aa5-273e-47a3-90d5-40e672e1b55e&scope=openid+profile+email&response_mode=form_post&nonce=23eee79591ad42ac9b66eec5f90b1914_20261001051519&state=redir%3D%252Flearning) Discover published Azure learning modules, paths, videos, certifications, exams for services of your interest.
 - [github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical Online Reference Implementation](https://github.com/azure/mission-critical-online) This repository is part of the Azure Mission-Critical open source project that provides a prescriptive architectural approach to building highly-reliable cloud-native applications on Microsoft Azure for mission-critical workloads.
 - [techcommunity.microsoft.com: Microsoft Learn - Learning Rooms Directory](https://techcommunity.microsoft.com/?product=All)
 - [Introducing the third of three Microsoft Clouds: Azure](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure). 4 major sections of the Cloud Models are:
@@ -130,7 +130,7 @@
 - [k21academy.com: Azure RBAC Vs Azure Policies Vs Azure Blueprints](https://k21academy.com/azure-cloud/azure-rbac-vs-azure-policies-vs-azure-blueprints)
 - [==blog.identitydigest.com: Azure AD workload identity federation with Kubernetes==](https://blog.identitydigest.com/azuread-federate-k8s) Any k8s cluster, running on any platform, can now securely access Azure resources without keys or secrets through Azure AD Workload Identity Federation.
 - [thomasmaurer.ch: How to check the available VM Sizes (SKUs) by Azure Region](https://www.thomasmaurer.ch/2021/02/how-to-check-the-available-vm-sizes-skus-by-azure-region)
-- [docs.microsoft.com: Multi-tenant user management scenarios](https://learn.microsoft.com/en-us/en-us/azure/active-directory/fundamentals/multi-tenant-user-management-scenarios)
+- [docs.microsoft.com: Multi-tenant user management scenarios](https://learn.microsoft.com/en-us/entra/architecture/multi-tenant-user-management-scenarios)
 - [docs.microsoft.com: Overview: Cross-tenant access with Azure AD External Identities (Preview)](https://learn.microsoft.com/en-us/entra/external-id/cross-tenant-access-overview) Azure AD organizations can use External Identities cross-tenant access settings to manage how they collaborate with other Azure AD organizations through B2B collaboration. Cross-tenant access settings give you granular control over how external Azure AD organizations collaborate with you (inbound access) and how your users collaborate with external Azure AD organizations (outbound access).
 - [==nubesgen.com==](https://nubesgen.com) - [microsoft/NubesGen](https://github.com/microsoft/NubesGen) Going to production on Azure is only one `git push` away. **Kickstart your project on Azure in minutes! Easily generate Terraform and Bicep templates for your project. Automate your infrastructure using GitOps best practices with GitHub Actions. NubesGen is an Open Source project and we are always looking for feedbacks and contributions.**
     - [infoq.com: NubesGen Brings Git Push to Azure Infrastructure](https://www.infoq.com/news/2022/03/nubesgen-azure-infrastructure)
@@ -306,7 +306,7 @@
 ## Mission-critical Architecture on Azure
   - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) - *(Related to aws-networking topic)*
 
-- [==learn.microsoft.com: Mission-critical baseline architecture on Azure==](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro)
+- [==learn.microsoft.com: Mission-critical baseline architecture on Azure==](https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-overview)
 - [learn.microsoft.com: Mission-critical workloads](https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-overview)
 
 ## Understand Azure Load Balancing
@@ -425,7 +425,7 @@
 
 ### YAML Schema in DevOps Azure Pipelines
 
-- [==DevOps Azure Pipelines: YAML Schema==](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline)
+- [==DevOps Azure Pipelines: YAML Schema==](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)
 
 ### Azure Pipeline Tasks
   - [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) - This article provides a step-by-step guide on how to install Java 23 within an Azure DevOps pipeline, specifically when the default JavaToolInstaller task does not support the desired version. It outlines the necessary scripts to download, extract, and configure Java 23, setting JAVA_HOME and updating the PATH environment variables, and then demonstrates how to use it with a Maven build.
@@ -549,7 +549,7 @@
 ## Azure Functions
   - [Azure Functions Cost Considerations and Optimization](https://build5nines.com/azure-functions-cost-considerations-and-optimization) - *(Related to serverless topic)*
 
-- [learn.microsoft.com: AZ-204: Implement Azure Functions 🌟](https://learn.microsoft.com/en-us/training/paths/implement-azure-functions)
+- [learn.microsoft.com: AZ-204: Implement Azure Functions 🌟](https://learn.microsoft.com/en-us/training/browse)
 - [azurebrains.com: Despliega tu Azure Function App con Terraform y Azure DevOps 🌟](https://blog.azurebrains.com/2021/03/25/despliega-azure-function-terraform-azuredevops)
 
 ## Azure Monitor
@@ -627,8 +627,8 @@
 - [==microsoftgraph/msgraph-sdk-powershell==](https://github.com/microsoftgraph/msgraph-sdk-powershell) The Microsoft Graph PowerShell SDK is a collection of PowerShell modules that contain commands for calling Microsoft Graph service.
 - [==microsoftgraph/msgraph-sdk-powershell: samples==](https://github.com/microsoftgraph/msgraph-sdk-powershell)
     - [Samples: how to create a corresponding service principal from an application](https://github.com/microsoftgraph/msgraph-sdk-powershell)
-- [docs.microsoft.com: Microsoft Graph migration](https://learn.microsoft.com/en-us/cli/azure/microsoft-graph-migration?tabs=powershell) Due to the deprecation of Azure Active Directory (Azure AD) Graph, the underlying Active Directory Graph API will be replaced by Microsoft Graph API in Azure CLI 2.37.0.
-- [==techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API==](https://www.techtarget.com/searchwindowsserver/tutorial/Get-up-to-speed-with-PowerShell-and-the-Microsoft-Graph-API) **Microsoft plans to retire technologies that admins depend on to handle Office 365 and other cloud services via PowerShell. Learn how to start with this newer management method.**
+- [docs.microsoft.com: Microsoft Graph migration](https://learn.microsoft.com/en-us/cli/azure/microsoft-graph-migration?view=azure-cli-latest&tabs=powershell) Due to the deprecation of Azure Active Directory (Azure AD) Graph, the underlying Active Directory Graph API will be replaced by Microsoft Graph API in Azure CLI 2.37.0.
+- [==techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API==](https://www.techtarget.com/it-infrastructure/tutorial/Get-up-to-speed-with-PowerShell-and-the-Microsoft-Graph-API) **Microsoft plans to retire technologies that admins depend on to handle Office 365 and other cloud services via PowerShell. Learn how to start with this newer management method.**
 - [rakhesh.com: Graph cmdlets and Azure AD App Registrations](https://rakhesh.com/azure/graph-cmdlets-and-azure-ad-app-registrations)
 - [blog.yannickreekmans.be: Secretless applications: add permissions to a Managed Identity](https://blog.yannickreekmans.be/secretless-applications-add-permissions-to-a-managed-identity) Your Managed Identity needs permissions to access other Azure resources or even other Azure AD protected applications and APIs. This is how you do that!
     - [YannickRe/msgraph-utility-scripts](https://github.com/YannickRe/msgraph-utility-scripts)
@@ -694,7 +694,7 @@
 - [techcommunity.microsoft.com: (Part-1) Leverage Bicep: Standard model to Automate Azure IaaS deployment](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/part-1-leverage-bicep-standard-model-to-automate-azure-iaas-deployment/3804348)
 - [blog.cloudtrooper.net: Deploy (Azure) Network-as-Code as a champ](https://blog.cloudtrooper.net/2023/06/08/deploy-azure-network-as-code-as-a-champ)
 - [learn.microsoft.com: Discover misconfigurations in Infrastructure as Code (IaC)](https://learn.microsoft.com/en-us/azure/defender-for-cloud/iac-vulnerabilities)
-- [insight-services-apac.github.io: Getting Started with Bicep](https://blog.insight-services-apac.dev/2023/12/04/getting-started-bicep)
+- [insight-services-apac.github.io: Getting Started with Bicep](https://blog.apac.insight.com/2023/12/04/getting-started-bicep)
 - [build5nines.com: Get Started with Azure Bicep – Alternative to ARM Templates](https://build5nines.com/get-started-with-azure-bicep)
 - [linkedin.com/pulse: Exporting and importing variables between Bicep files: compileTimeImports | Freek Berson](https://www.linkedin.com/pulse/exporting-importing-variables-between-bicep-files-freek-berson-n0ske)
 - [luke.geek.nz: Using the Azure Naming Tool API to name your Bicep resources](https://luke.geek.nz/azure/azure-naming-tool-api-bicep-resources)
