@@ -192,7 +192,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 - [Openshift Container Platform](openshift.md)
 - [OKD](https://okd.io) The Community Distribution of Kubernetes that powers Red Hat OpenShift
-- [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
+- [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
 
 ### Rancher
 
