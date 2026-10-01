@@ -36,7 +36,6 @@
 - [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image)
 - [medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes](https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1) Optimizing Nginx on Kubernetes Without a Adding a Cloud CDN.
 - [==freecodecamp.org: The NGINX Handbook== 🌟](https://www.freecodecamp.org/news/the-nginx-handbook)
-- [==nginx.com: The Complete NGINX Cookbook== 🌟](https://www.f5.com/products/nginx/resources/library/complete-nginx-cookbook) **Get sample NGINX configurations for load balancing, cloud deployment, automation, containers and microservices, service mesh, security, and more.**
 
 ### Nginx Unit
 
