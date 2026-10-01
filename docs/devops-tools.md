@@ -82,3 +82,6 @@
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga) - *(Related to cicd topic)*
   - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) - *(Related to kubernetes-tools topic)*
   - [PMEase QuickBuild](https://www.pmease.com) - *(Related to cicd topic)*
+
+## OpenAI Codex
+  - **(2026)** [1Password increases engineering productivity 21% with Codex](https://openai.com/index/1password) 🌟 - 1Password engineers leverage OpenAI Codex to rapidly build production-ready features while maintaining rigorous security.
