@@ -35,7 +35,7 @@
 
 - [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md)
 - [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b)
-- [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package)
+- [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/posts/a-dotnet-five-guide-from-idea-to-nuget-package)
 - [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022)
 - [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org)
 
@@ -47,7 +47,7 @@
 
 - [App-vNext/Polly](https://github.com/App-vNext/Polly) Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
 - [medium: Microservices Resilience and Fault Tolerance with applying Retry and Circuit-Breaker patterns using Polly](https://medium.com/aspnetrun/microservices-resilience-and-fault-tolerance-with-applying-retry-and-circuit-breaker-patterns-c32e518db990)
-- [procodeguide.com: Build Resilient Microservices (Web API) using Polly in ASP.NET Core](https://procodeguide.com/programming/polly-in-aspnet-core)
+- [procodeguide.com: Build Resilient Microservices (Web API) using Polly in ASP.NET Core](https://yellow-scope.com)
 
 ## Paradigm framework
 
