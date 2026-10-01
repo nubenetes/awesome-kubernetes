@@ -253,11 +253,11 @@
 ### Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
 
 - [Ansible Tower](https://www.redhat.com/en/technologies/management/ansible)
-- [Ansible Tower Docs](http://legacy-controller-docs.ansible.com/ansible-tower)
+- [Ansible Tower Docs](https://legacy-controller-docs.ansible.com/ansible-tower)
 - [Ansible AWX](https://github.com/ansible/awx)
 - [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.
 - [ansible.com/blog/topic/ansible-tower](https://www.redhat.com/en/blog/channel/red-hat-ansible-automation)
-- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.redhat.com/en/blog/channel/open-source-communities?intcmp=7015Y000003t7aWQAQ)
+- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.redhat.com/en/blog/channel/open-source-communities)
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)
 - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower)
 - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx)

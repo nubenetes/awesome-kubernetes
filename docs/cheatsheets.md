@@ -109,7 +109,7 @@
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)
 - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet)
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
-- [==awsgeek.com/Amazon-S3==](http://www.awsgeek.com/Amazon-S3)
+- [==awsgeek.com/Amazon-S3==](https://www.awsgeek.com/Amazon-S3)
 
 ## Google Cloud Cheat Sheets
 
@@ -151,12 +151,12 @@
 
 ## Kubernetes Knowledge Hubs and Glossary
 
-- [k8sref.io](https://www.k8sref.io) Kubernetes Reference - [dev-k8sref-io.web.app 🌟](https://kubernetes.io/docs/reference/kubernetes-api/) Imports paths are not always easy to find for a resource. Get some help from this doc.
+- [k8sref.io](https://www.k8sref.io) Kubernetes Reference - [dev-k8sref-io.web.app 🌟](https://kubernetes.io/docs/reference/kubernetes-api) Imports paths are not always easy to find for a resource. Get some help from this doc.
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnkube.com/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
 - [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 - [==manifests.io== 🌟](https://www.manifests.io/kubernetes/1.37)
-    - [manifests.io/kubernetes/1.28](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/)
+    - [manifests.io/kubernetes/1.28](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28)
 
 ## Kubernetes and Kubectl Cheat Sheets
   - [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html) 🌟 - QuickRef.ME is a curated collection of quick reference cheat sheets for various programming languages, tools, and technologies, including Kubernetes, Docker, Python, JavaScript, and more. It serves as a centralized repository for developers and engineers to quickly access essential commands, syntax, and configurations.

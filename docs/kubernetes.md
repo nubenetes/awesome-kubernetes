@@ -383,7 +383,7 @@
 - [kubernetes.io](https://kubernetes.io)
 - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)
 - [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com) What to Read to Learn More About Kubernetes
-- [dev-k8sref-io.web.app](https://kubernetes.io/docs/reference/kubernetes-api/) Kubernetes Reference - [k8sref.io](https://www.k8sref.io)
+- [dev-k8sref-io.web.app](https://kubernetes.io/docs/reference/kubernetes-api) Kubernetes Reference - [k8sref.io](https://www.k8sref.io)
 - [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnkube.com/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 - [jamiehannaford/what-happens-when-k8s](https://github.com/jamiehannaford/what-happens-when-k8s) 🤔 What happens when I type kubectl run?
 

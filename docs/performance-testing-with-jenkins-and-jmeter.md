@@ -51,7 +51,7 @@
 
 - [octoperf.com](https://octoperf.com)
 - [blazemeter.com](https://www.blazemeter.com)
-- [flood.io](https://www.tricentis.com/products/performance-testing-neoload?utm_source=flood.io&utm_medium=referral)
+- [flood.io](https://www.tricentis.com/products/performance-testing-neoload)
 
 ## Jenkins and JMeter
 

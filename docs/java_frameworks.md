@@ -82,7 +82,7 @@
 - [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html)
     - [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
 - [Oracle OpenJDK](https://jdk.java.net/11)
-- [IBM JDK](https://developer.ibm.com/languages/java/) (based on [Eclipse OpenJ9](https://eclipse.dev/openj9))
+- [IBM JDK](https://developer.ibm.com/languages/java) (based on [Eclipse OpenJ9](https://eclipse.dev/openj9))
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 - [AdoptOpenJDk](https://adoptium.net) (based on [Eclipse OpenJ9](https://eclipse.dev/openj9))
 - [docs.microsoft.com: Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/overview)
@@ -157,9 +157,9 @@ optimizing Enterprise Java for the microservices architecture.
 
 ### Server Vendors providing MicroProfile runtimes
 
-- [WebSphere Liberty from IBM](https://openliberty.io/)
+- [WebSphere Liberty from IBM](https://openliberty.io)
 - [TomEE from Tomitribe](https://tomee.apache.org)
-- [Payara](https://www.azul.com/products/payara-server/?utm_campaign=payara.fish_migration_july_2026&utm_source=payara.fish&utm_medium=referral)
+- [Payara](https://www.azul.com/products/payara-server)
 - [RedHat’s WildFly Swarm](https://wildfly-swarm.io)
 - [KumuluzEE](https://ee.kumuluz.com)
 
