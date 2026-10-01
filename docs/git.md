@@ -82,7 +82,7 @@
 - [Oh shit, git!](https://ohshitgit.com)
 - [freecodecamp.org: Learn Git Fundamentals – A Handbook on Day-to-Day Development Tasks 🌟](https://www.freecodecamp.org/news/learn-git-basics)
 - [How to Get More Out of Your Git Commit Message](https://www.datree.io/resources/git-commit-message)
-- [10 useful Git commands you wish existed – and their alternatives](https://www.datree.io)
+- [10 useful Git commands you wish existed – and their alternatives](https://github.com/datreeio/datree)
 - [github.blog: How to undo (almost) anything with Git](https://github.blog/open-source/git/how-to-undo-almost-anything-with-git)
 - [dev.to: Git Explained - The Basics](https://dev.to/milu_franz/git-explained-the-basics-igc)
 - [medium: 7 Best Courses to Master Git and Github for Programmers](https://medium.com/javarevisited/7-best-courses-to-master-git-and-github-for-programmers-d671859a68b2) These are the best courses to learn Git from scratch and also advanced concepts like branching and merging. It also includes a free course to learn git.
@@ -124,7 +124,7 @@
 - [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)
 - [midu.dev: Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git)
 - [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples)
-- [blog.annamcdougall.com: Git Workflow Tutorial: Start Using Git TODAY with Basic Git Commands](https://blog.annamcdougall.com/git-workflow-tutorial-start-using-git-today-with-basic-git-commands-ckdc1nvfs02zp66s1d4zydz47)
+- [blog.annamcdougall.com: Git Workflow Tutorial: Start Using Git TODAY with Basic Git Commands](https://blog.annamcdougall.com/git-workflow-tutorial-start-using-git-today-with-basic-git-commands)
 - [thenewstack.io: Git for Managing Small Projects 🌟](https://thenewstack.io/git-for-managing-small-projects)
 - [netflixtechblog.medium.com: Improving Pull Request Confidence for the Netflix TV App](https://netflixtechblog.medium.com/improving-pull-request-confidence-for-the-netflix-tv-app-b85edb05eb65)
 - [cloudsavvyit.com: How to Use Git Hooks For Commit Automation 🌟](https://www.cloudsavvyit.com/14036/how-to-use-git-hooks-for-commit-automation)
@@ -327,7 +327,7 @@ It prescribes that software designers should define formal, precise and verifiab
 - One of the main concepts of **GitFlow** is **feature branches**. The idea is that each feature should be developed in its own branch. When the feature is done, it gets merged into develop branch.
 - [devopszone.info: An Introduction To Git-flow Workflow](https://www.devopszone.info/post/an-introduction-to-git-flow-workflow)
 - [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-- [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) is a list of rules to keep a repo’s history organized, and is used to make the release process, bug fixes, and feature creation easier.
+- [gitkraken.com: GitFlow](https://help.gitkraken.com/gitkraken-desktop/git-flow) is a list of rules to keep a repo’s history organized, and is used to make the release process, bug fixes, and feature creation easier.
 - [git-flow.readthedocs.io](https://git-flow.readthedocs.io/en/latest)
 - [medium.com: Gitflow — Branch Guide](https://medium.com/@rafavinnce/gitflow-branch-guide-8a523360c053)
 - [medium.com: Git Flow for Beginners](https://medium.com/@thibault60000/git-flow-for-beginners-d7a152b2c1f9)
@@ -361,11 +361,11 @@ It prescribes that software designers should define formal, precise and verifiab
 
 - [featureflags.io: Flags vs Branching](https://featureflags.io/feature-flags-vs-branching) Branch better with feature flag driven development.
 - [martinfowler.com: Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
-- [#FeatureFlags](https://x.com/hashtag/featureflag)
+- [#FeatureFlags](https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fhashtag%2Ffeatureflag&mode=login)
 - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)
 - [cioperu.pe: 5 formas de impulsar la utilización de feature flags](https://cioperu.pe/articulo/30477/devops-5-formas-de-impulsar-la-utilizacion-de-feature-flags)
 - [cloudbees.com: Testing with Feature Flags to Improve Developer Productivity](https://www.cloudbees.com/blog/feature-flag-lifecycle)
-- [cloudbees.com: Goodbye Sleepless Nights: De-Risking Deployments with Feature Flags](https://www.cloudbees.com/customers/petdesk)
+- [cloudbees.com: Goodbye Sleepless Nights: De-Risking Deployments with Feature Flags](https://www.cloudbees.com/customers)
 - [thenewstack.io: Wave Goodbye to Release Nights](https://thenewstack.io/wave-goodbye-to-release-nights)
 - [infoworld.com: Why aren’t you using feature flags?](https://www.infoworld.com/article/2261454/why-arent-you-using-feature-flags.html) Software development is changing. If you’re still focused on release management rather than feature management, then you’re doing it wrong.
 - [cloudbees.com: How to Grow Continuous Delivery Maturity Using Feature Flags](https://www.cloudbees.com/blog/feature-flag-best-practices?db3id=5cbb319628bb0-506b2cc6-5e5c)
@@ -524,7 +524,7 @@ git rebase -i HEAD~5
     - Physical keys
 - [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7)
 - [github.blog: GitHub CLI 2.0 includes extensions!](https://github.blog/news-insights/product-news/github-cli-2-0-includes-extensions)
-- [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74)
+- [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/warakateng/git-and-github-the-complete-guides-chapter-6-2c74)
 - [github.blog: Improved pull request file filtering](https://github.blog/changelog/2021-09-27-improved-pull-request-file-filtering) Filtered files on the Pull Request Files Changed tab are now completely hidden from view (not just collapsed). This helps decrease distractions and lets you focus on just the files you need to review.
 - [dev.to: Git and GitHub Series' Articles - The Complete Guides 🌟](https://dev.to/ifierygod/series/14420)
 - [infoworld.com: GitHub introduces code review controls 🌟](https://www.infoworld.com/article/2270808/github-introduces-code-review-controls.html) New controls in the popular code-sharing site are designed to deal with ‘drive-by‘ pull request approvals and ‘spammy’ change requests.
@@ -576,7 +576,7 @@ git rebase -i HEAD~5
 ### GitHub Code Scanner
 
 - https://docs.github.com/en/code-security/code-scanning
-- [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/github-launches-code-scanner-to-flag-security-vulnerabilities) The new experimental analysis can have a higher false-positive rate relative to results from standard CodeQL analysis.
+- [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/ai-news-updates/github-launches-code-scanner-to-flag-security-vulnerabilities) The new experimental analysis can have a higher false-positive rate relative to results from standard CodeQL analysis.
 
 ### GitHub Discussions
 
@@ -640,7 +640,7 @@ git rebase -i HEAD~5
 - [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.redhat.com/en/blog/deploying-to-openshift-using-github-actions)
 - [github.com: RedHat Actions 🌟](https://github.com/redhat-actions)
 - [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runners)
-- [github.com: OpenShift GitHub Actions Runner Chart 🌟](https://github.com/redhat-actions/openshift-actions-runner-chart)
+- [github.com: OpenShift GitHub Actions Runner Chart 🌟](https://github.com/actions/actions-runner-controller)
 
 ### GitHub Copilot
 
@@ -697,8 +697,8 @@ git rebase -i HEAD~5
 
 - [Atlassian Sourcetree](https://www.sourcetreeapp.com)
     - [Sourcetree Cheat Sheet](https://kapeli.com/cheat_sheets/Sourcetree.docset/Contents/Resources/Documents/index)
-- [gitkraken.com](https://www.gitkraken.com)
-    - [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)
+- [gitkraken.com](https://gitkraken.com)
+    - [GitKraken Git Cheat](https://gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)
     - [youtube: GitKraken Tutorials and Tips](https://www.youtube.com/watch?v=gjtXTm_TvvE&list=PLe6EXFvnTV78WqGmGSq8JPnafR3lAa55n)
 - [gmaster](https://gmaster.io)
 - [Visual Studio Code (Git Extensions)](visual-studio.md)
@@ -763,7 +763,7 @@ git rebase -i HEAD~5
 Automate them.
 - [Jenkins Plugin: Bitbucket Push and Pull Request](https://plugins.jenkins.io/bitbucket-push-and-pull-request)
 - [How to Implement the Automerge feature that is missing from BitBucket cloud](https://poolofthought.com/how-to-implement-the-automerge-feature-that-is-missing-from-bitbucket-cloud)
-- [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/forums/Bitbucket-questions/configure-bitbucket-pipelines-yml-to-automatically-merge-feature/qaq-p/793222)
+- [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/forums/discussion/793222/configure-bitbucket-pipelines-yml-to-automatically-merge-feature-branch-to-master)
 
 ### GitLab for git merges
 
