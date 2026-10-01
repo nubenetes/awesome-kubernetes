@@ -33,7 +33,7 @@
 
 ## Amazon ECS
 
-- [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
+- [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/it-infrastructure/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
 - [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
 
 ## Cycle.io
@@ -70,7 +70,7 @@
 
 - [Docker Swarm](https://docs.docker.com/engine/swarm)
 - [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm) Setup Docker on RHEL/CentOS and Debian/Ubuntu servers. The role supports Docker Engine's "Swarm Mode" to create a cluster of Docker nodes.
-- [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
+- [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://hackernoon.com/kubernetes-vs-docker-swarm-a-comprehensive-comparison-73058543771e)
 - [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert)
 - [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.scholarhat.com/tutorial/docker/kubernetes-vs-docker-analyzing-the-differences)
 - [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples)
@@ -95,7 +95,7 @@
 ## More comparisons and alternatives
 
 - [blog.opstree.com: A Comparison Between Various Container Orchestration Services! (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes)
-- [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
+- [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
 - [portainer.io: Kubernetes vs Docker Swarm vs Nomad - the orchestrator wars continue?](https://www.portainer.io/blog/docker-swarm-vs-kubernetes)
 - [coolify.io](https://coolify.io) Made self-hosting simple. An open-source & self-hostable Heroku / Netlify alternative (and even more).
 
@@ -105,7 +105,7 @@
 
     <center markdown="1">
 
-    [![Kubernetes vs Docker Swarm](images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
+    [![Kubernetes vs Docker Swarm](images/kubernetes-vs-dockerswarm.png)](https://hackernoon.com/kubernetes-vs-docker-swarm-a-comprehensive-comparison-73058543771e)
 
     [![when to choose kubernetes](images/when_to_choose_kubernetes.jpeg)](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)
 
