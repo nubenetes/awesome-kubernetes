@@ -137,7 +137,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 - [blog.flant.com: kubenav as a tool for managing Kubernetes clusters from your smartphone](https://palark.com/blog/kubenav-managing-kubernetes-from-smartphone)
 - [==kubeapps.dev== 🌟](https://kubeapps.dev) Kubeapps is an in-cluster web-based application that enables users with a one-time installation to deploy, manage, and upgrade applications on a Kubernetes cluster
 - [==github.com/openshift/console== 🌟](https://github.com/openshift/console)
-    - [engineering.cloudflight.io: Running the OpenShift console in plain Kubernetes 🌟](https://engineering.cloudflight.io/running-the-openshift-console-in-plain-kubernetes)
+    - [engineering.cloudflight.io: Running the OpenShift console in plain Kubernetes 🌟](https://engineering.cloudflight.io/en/running-the-openshift-console-in-plain-kubernetes)
 - [levelup.gitconnected.com: Step by Step Slow Guide: Kubernetes Dashboard on Raspberry Pi Cluster (Part 2)](https://levelup.gitconnected.com/step-by-step-slow-guide-kubernetes-dashboard-on-raspberry-pi-cluster-part-2-acdc8f9b5b99?gi=bb2a6f07e505) How to setup self-signed certificate for Kubernetes Dashboard and expose it via load-balancer
 - [getseabird.github.io 🌟](https://getseabird.github.io) - [github.com/getseabird/seabird](https://github.com/getseabird/seabird) Seabird is a native cross-platform Kubernetes desktop client that makes it super easy to explore your cluster's resources. We aim to visualize all common resource types in a simple, bloat-free user interface.
 - [==github.com/cyclops-ui/cyclops== 🌟](https://github.com/cyclops-ui/cyclops)
