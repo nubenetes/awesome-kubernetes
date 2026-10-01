@@ -17,7 +17,7 @@
 ## Payara
 
 - [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server) 
-- [Payara](https://payara.fish) Java EE/Jakarta EE Application Server and MicroProfile implementation.
+- [Payara](https://www.azul.com/products/payara-server/?utm_campaign=payara.fish_migration_july_2026&utm_source=payara.fish&utm_medium=referral) Java EE/Jakarta EE Application Server and MicroProfile implementation.
 - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)
 
 ### Docker Hub images
@@ -38,7 +38,7 @@
 
 ## IBM WebSphere Liberty
 
-- [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty)
+- [WebSphere Liberty from IBM](https://openliberty.io/)
 
 ## Alternatives
 
