@@ -53,3 +53,5 @@
     - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
     - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
     - etc
+
+  - **(2026)** [Developer policy update: Transparency, state policy, and what’s ahead](https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead) 🌟 - Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source.
