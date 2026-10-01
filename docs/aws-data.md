@@ -15,6 +15,7 @@
 ## AWS Data Lake
 
 - [Building a Data Lake on AWS](https://aws.amazon.com/solutions/guidance/data-lakes-on-aws/) AWS provides a highly scalable, flexible, secure, and cost-effective solution for your organization to build a Data Lake – a data repository for both structured and unstructured data that is designed to be easily accessible for on-demand data analytics enabling you to answer questions as they arise.
+  - **(2026)** [Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake](https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake) 🌟 - Amazon Aurora PostgreSQL extends its query engine to directly query Apache Iceberg and Parquet formats natively stored in S3 data lakes.
 
 ## AWS Data Pipeline (aka Big Data Pipelines or Data Streams)
 
