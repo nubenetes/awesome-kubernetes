@@ -80,7 +80,7 @@
     - [logz.io: Unified Observability: Announcing Kubernetes 360](https://logz.io/blog/unified-observability-kubernetes-360) A single, unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger that enables DevOps teams to monitor application SLOs in a simple, efficient and actionable manner.
 - [thenewstack.io: Kubernetes Observability Challenges in Cloud Native Architecture 🌟](https://thenewstack.io/kubernetes-observability-challenges-in-cloud-native-architecture)
 - [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://binero.com/observability)
-- [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/continuous-integration-performance-metrics)
+- [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/what-are-engineering-metrics)
 - [thenewstack.io: Best Practices to Optimize Infrastructure Monitoring within DevOps Teams](https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams)
 - [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e?gi=6a51a4ccf392)
 - [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skillfield.com.au/blog/monitoring-kubernetes-and-docker-container-logs)
@@ -272,7 +272,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [jertel/elastalert2](https://github.com/jertel/elastalert2) ElastAlert 2 is a continuation of the original yelp/elastalert project. ElastAlert 2 is a standalone software tool for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch and OpenSearch. ElastAlert 2 is backwards compatible with the original ElastAlert rules
 - [medium.com/hepsiburadatech: Hepsiburada Search Engine on Kubernetes](https://medium.com/hepsiburadatech/hepsiburada-search-engine-on-kubernetes-1fe03a3e71a3) In this case study, you'll learn how Hepsiburada migrated from an on-premises active-active Elasticsearch cluster (manually scaled) deployed in two data centers to a multi-zone Google Cloud Kubernetes cluster that can scale automatically.
 - [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
-- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch) we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
+- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/blog/sgctl-elasticsearch) we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
 
 #### Elastic Cloud on Kubernetes (ECK)
 
@@ -476,7 +476,7 @@ done
 - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
 - [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
 - Exception Tracking:
-    - [sentry.io](https://sentry.io/welcome)
+    - [sentry.io](https://sentry.io/welcome/)
     - APMs like Dynatrace, etc.
 - APM Tools:
     - [datadoghq.com](https://www.datadoghq.com)
@@ -491,7 +491,7 @@ done
         - [newrelic.com: Creating dashboards with Terraform and JSON templates](https://newrelic.com/blog/infrastructure-monitoring/create-nr-dashboards-with-terraform-part-1) Learn how to quickly update New Relic dashboards with Terraform by using JSON templates—no HCL required.
     - [Dynatrace 🌟](https://www.dynatrace.com)
     - [==SigNoz: Open source Application Performance Monitoring (APM) & Observability tool== 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.
-    - [savecost/datav 🌟](https://github.com/deepops-ai/deepops) A modern APM for metrics,traces and logs, also datav is a lightweight alternative to Grafana. It has fully native support for open-telemetry, is an open-source alternative to DataDog, NewRelic.
+    - [savecost/datav 🌟](https://github.com/origin-brain/deepops) A modern APM for metrics,traces and logs, also datav is a lightweight alternative to Grafana. It has fully native support for open-telemetry, is an open-source alternative to DataDog, NewRelic.
 
 ### Elastic APM
 

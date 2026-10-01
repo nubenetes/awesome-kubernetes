@@ -107,7 +107,7 @@
 - [redeszone.net: No configurar bien la nube es culpable de la mayoría de vulnerabilidades](https://www.redeszone.net/noticias/seguridad/configurar-mal-nube-vulnerabilidades)
 - [cybersecuritydive.com: Relationships between DevOps, security warm slowly](https://www.cybersecuritydive.com/news/developer-security-gitlab-devsecops/599599) Some hurdles stem from miscommunication, or balancing quick product releases with undesired security gaps. **"Security people need developers to be more like security people and developers need security people to be more like developers."** James Arlen, CISO at Aiven.
 - [bbvanexttechnologies.com: Filosofía DevSecOps en el desarrollo de aplicaciones sobre Azure](https://www.bbvanexttechnologies.com/blogs/filosofia-devsecops-en-el-desarrollo-de-aplicaciones-sobre-azure)
-- [harness.io: Automated DevSecOps with StackHawk and Harness](https://www.harness.io/blog/automated-devsecops)
+- [harness.io: Automated DevSecOps with StackHawk and Harness](https://www.harness.io/blog/what-is-devsecops)
 - [cloudify.co: Understanding DevSecOps And Its Challenges](https://docs.cloudify.co)
 - [containerjournal.com: The What and Why of Cloud-Native Security](https://cloudnativenow.com/editorial-calendar/cloud-native-security/the-what-and-why-of-cloud-native-security)
 - [sysdig.com: Top vulnerability assessment and management best practices](https://www.sysdig.com/blog/vulnerability-assessment)
@@ -327,7 +327,7 @@
 ## OWASP
 
 - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)
-- [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://docs.cloud.google.com/architecture/security/owasp-top-ten-mitigation) Terrific guidance in this paper that explains each attack vector and which product(s) can help
+- [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://docs.cloud.google.com/docs/security/owasp-top-ten-mitigation) Terrific guidance in this paper that explains each attack vector and which product(s) can help
 - [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp)
 - [thenewstack.io: OWASP Top 10: A Guide to the Worst Software Vulnerabilities](https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities)
 - [==owasp.org: OWASP API Security Project== 🌟](https://owasp.org/www-project-api-security)

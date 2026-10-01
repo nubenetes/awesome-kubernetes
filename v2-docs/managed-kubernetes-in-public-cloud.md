@@ -35,6 +35,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 
 #### General Reference
 
+  - **(None)** [](https://techdocs.akamai.com/app-platform/docs/welcome)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techdocs.akamai.com in the Kubernetes Tools ecosystem.
   - [dzone.com: How to Use AWS IAM Role on AWS EKS PODs 🌟](https://dzone.com/articles/how-to-use-aws-iam-role-on-aws-eks-pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: How to Use AWS IAM Role on AWS EKS PODs 🌟 in the Kubernetes Tools ecosystem.
   - [logz.io: Collecting Metrics from Windows Kubernetes Nodes in AKS 🌟](https://logz.io/blog/windows-kubernetes-nodes-aks-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: Collecting Metrics from Windows Kubernetes Nodes in AKS 🌟 in the Kubernetes Tools ecosystem.
 ## Architecture and Design
@@ -378,9 +379,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Edge Computing
 
   - **(2023)** [thenewstack.io: Microsoft Takes Kubernetes to the Edge with AKS Lite](https://thenewstack.io/microsoft-takes-kubernetes-to-the-edge-with-aks-lite) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the release and architecture of AKS Edge Essentials, a lightweight managed Kubernetes platform designed to run nested workloads on Windows IoT and edge hardware. Focuses on minimal hardware footprint requirements, local network routing, and continuous integration with centralized Azure Arc control planes.
-#### Enterprise Design Patterns
-
-  - **(2024)** [learn.microsoft.com: AKS landing zone accelerator](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/aks/landing-zone-accelerator) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive AKS Landing Zone Accelerator framework aligned with the Microsoft Cloud Adoption Framework (CAF). Provides production-ready templates and structural guidelines covering networking topologies (hub-and-spoke), subscription governance, unified identity management, and default security baselines. This reference is crucial for bootstrapping compliant, enterprise-grade managed Kubernetes environments.
 #### High Availability (1)
 
   - **(2024)** [techcommunity.microsoft.com: A Practical Guide to Zone Redundant AKS Clusters and Storage](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/a-practical-guide-to-zone-redundant-aks-clusters-and-storage/4036254) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical reference guide focused on designing zone-redundant AKS clusters and resolving multi-zone storage constraints. Addresses the architectural differences between zone-redundant storage (ZRS) and locally redundant storage (LRS) when backing Kubernetes persistent volumes. It maps failure-domain behavior and node affinity to ensure stateful workloads remain resilient to physical datacenter outages.
@@ -493,11 +491,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 ##### Best Practices (2)
 
   - **(2023)** [the-aks-checklist.com: The Azure Kubernetes Service Checklist 🌟🌟🌟](https://www.the-aks-checklist.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive diagnostic tool assisting operators in preparing AKS environments for production. Covers critical checkboxes across scalability, network layouts, security configurations, and cost efficiency.
-#### Runtime Environments
-
-##### Windows Containers
-
-  - **(2020)** [nillsf.com: Running Windows containers on the Azure Kubernetes Service (AKS)](https://nillsf.com/index.php/2020/11/17/running-windows-containers-on-the-azure-kubernetes-service-aks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational overview detailing how to build, deploy, scale, and manage traditional Windows Server workload containers securely on dedicated Windows node pools in AKS.
 #### Scheduling and Taints
 
 ##### Compute Node Pools
@@ -622,7 +615,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2021)** [tigera.io: Calico WireGuard support with Azure CNI](https://www.tigera.io/blog/calico-wireguard-support-with-azure-cni) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines configuring Calico WireGuard encryption overlaying Azure CNI networks. Details setting up highly secure node-to-node transport layer encryption with minimal CPU overhead. Grounding points to this as an excellent alternative to heavy IPsec deployments.
 ### Node Pools
 
-#### Windows Containers (1)
+#### Windows Containers
 
   - **(2022)** [dev.to: Getting started with Windows Containers on Azure Kubernetes Service](https://dev.to/rdvansloten/getting-started-with-windows-containers-on-azure-kubernetes-service-46ce) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental playbook illustrating setup tasks for hosting Windows Server containers inside AKS node pools. Explains common pitfalls including licensing, customized networking modes, and configuring dual-OS deployments alongside Linux nodes.
 ### Provisioning and IaC
@@ -638,13 +631,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Private Endpoints
 
   - **(2021)** [carlos.mendible.com: AKS: Persistent Volume Claim with an Azure File Storage protected with a Private Endpoint](https://carlos.mendible.com/2021/08/02/aks-persistent-volume-claim-with-an-azure-file-storage-protected-with-a-private-endpoint) <span class='md-tag md-tag--warning'>[YAML/TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines configuring a Persistent Volume Claim (PVC) using Azure Files storage secured with a Private Endpoint in AKS. Prevents the storage accounts from being exposed to the public internet. Grounding confirms this is a critical enterprise pattern for storage layer hardening.
-## Multi-cloud Management
-
-### Platform Engineering (1)
-
-#### Tooling Comparison
-
-  - **(2021)** [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/searchcloudcomputing/tip/Compare-tools-for-multi-cloud-Kubernetes-management) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Synthesizes and contrasts several enterprise-grade multi-cloud Kubernetes management suites including Red Hat OpenShift, Rancher, Platform9, and Terraform. Highlights the design trade-offs between hypervisor-style centralized management interfaces and modular GitOps delivery systems. (Live Grounding: While some listed tools like StackPointCloud are defunct or archived, the architectural comparison criteria remains critical for multi-cluster evaluations in 2026).
 ## Observability (3)
 
 ### Telemetry
@@ -656,9 +642,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 
 ### Diagnostic Analysis
 
-#### Core Dumps
-
-  - **(2020)** [blog.nillsf.com: Customize core dump in Azure Kubernetes](https://blog.nillsf.com/index.php/2020/12/06/customize-core-dump-in-azure-kubernetes) <span class='md-tag md-tag--warning'>[BASH/YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes advanced kernel-level customizations required to capture core dumps from Linux containers running on AKS. Focuses on configuring host path directories, container filesystem capabilities, and kernel variables. Grounding shows this is vital for diagnostic debugging in low-level runtime environments (C++/.NET) where standard logs fail during sudden container restarts.
 #### Windows Packet Capture
 
   - **(2020)** [github.com/OvidiuBorlean/kubectl-windumps](https://github.com/OvidiuBorlean/kubectl-windumps) <span class='md-tag md-tag--info'>⭐ 7</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e199c633" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 4 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-e199c633)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy kubectl command-line utility facilitating TCP packet captures directly on Windows Server nodes within AKS clusters. Live grounding shows the project has been inactive for several years, yet it serves as a valuable conceptual reference for troubleshooting deep network issues.
@@ -717,7 +700,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Image Pull Optimization
 
   - **(2023)** [danielstechblog.io: Mitigating slow container image pulls on Azure Kubernetes Service](https://www.danielstechblog.io/mitigating-slow-container-image-pulls-on-azure-kubernetes-service) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details concrete strategies to accelerate slow container image pull durations on AKS. Discusses configuring Azure Container Registry (ACR) replica caches, optimizing network speeds, and tuning persistent storage configs.
-## Platform Engineering (2)
+## Platform Engineering (1)
 
 ### CICD (1)
 
@@ -771,11 +754,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Multi-tenancy Isolation
 
   - **(2022)** [docs.microsoft.com: Best practices for cluster isolation in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation) <span class='md-tag md-tag--warning'>[YAML/MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides official architectural best practices regarding logical and physical multi-tenant isolation in AKS. Details utilizing network policies, namespaces, and Kubernetes RBAC. A crucial resource for enterprise operators planning multi-team cluster sharing models.
-### Network Security
-
-#### Vnet Peering
-
-  - **(2022)** [blog.coffeeapplied.com: Securing AKS in peered virtual networks using only network security groups (NSGs)](https://blog.coffeeapplied.com/securing-aks-in-peered-virtual-networks-using-only-network-security-groups-nsgs-c43d6a215f32) <span class='md-tag md-tag--warning'>[BASH/ARM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates locking down traffic inside peered Azure virtual networks utilizing Network Security Groups (NSGs) exclusively. Shows how to avoid routing complexity and high firewall transit charges in multi-tenant hub-and-spoke virtual environments.
 ## State and Data
 
 ### Database Virtualization

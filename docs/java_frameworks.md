@@ -82,7 +82,7 @@
 - [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html)
     - [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
 - [Oracle OpenJDK](https://jdk.java.net/11)
-- [IBM JDK](https://developer.ibm.com/javasdk) (based on [Eclipse OpenJ9](https://eclipse.dev/openj9))
+- [IBM JDK](https://developer.ibm.com/languages/java/) (based on [Eclipse OpenJ9](https://eclipse.dev/openj9))
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 - [AdoptOpenJDk](https://adoptium.net) (based on [Eclipse OpenJ9](https://eclipse.dev/openj9))
 - [docs.microsoft.com: Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/overview)
@@ -157,9 +157,9 @@ optimizing Enterprise Java for the microservices architecture.
 
 ### Server Vendors providing MicroProfile runtimes
 
-- [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty)
+- [WebSphere Liberty from IBM](https://openliberty.io/)
 - [TomEE from Tomitribe](https://tomee.apache.org)
-- [Payara](https://payara.fish)
+- [Payara](https://www.azul.com/products/payara-server/?utm_campaign=payara.fish_migration_july_2026&utm_source=payara.fish&utm_medium=referral)
 - [RedHat’s WildFly Swarm](https://wildfly-swarm.io)
 - [KumuluzEE](https://ee.kumuluz.com)
 
@@ -236,7 +236,7 @@ optimizing Enterprise Java for the microservices architecture.
 
 - High-level abstractions/tools to run SpringBoot application on kubernetes without having to write 10,000 lines YAML. Tools that can automate the generation of Kubernetes manifests, so you concentrate only on building your business logic. Dekorate even supports annotations spring-like `@KubernetesApplication(name="my-app")` in your code, that generates your deployment manifest yml:
 - [odo](https://odo.dev) CLI tool
-- [Dekorate](https://dekorate.io) Java library, has a Spring Boot support
+- [Dekorate](https://gavangtvttbde.tv) Java library, has a Spring Boot support
 - [JKube](https://eclipse.dev/jkube) Maven plugin
 - [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init)
 - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud/-kubernetes)

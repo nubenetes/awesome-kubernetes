@@ -109,7 +109,7 @@
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)
 - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet)
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
-- [==awsgeek.com/Amazon-S3==](https://www.awsgeek.com/Amazon-S3)
+- [==awsgeek.com/Amazon-S3==](http://www.awsgeek.com/Amazon-S3)
 
 ## Google Cloud Cheat Sheets
 
@@ -151,12 +151,12 @@
 
 ## Kubernetes Knowledge Hubs and Glossary
 
-- [k8sref.io](https://www.k8sref.io) Kubernetes Reference - [dev-k8sref-io.web.app 🌟](https://dev-k8sref-io.web.app) Imports paths are not always easy to find for a resource. Get some help from this doc.
+- [k8sref.io](https://www.k8sref.io) Kubernetes Reference - [dev-k8sref-io.web.app 🌟](https://kubernetes.io/docs/reference/kubernetes-api/) Imports paths are not always easy to find for a resource. Get some help from this doc.
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnkube.com/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
 - [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
-- [==manifests.io== 🌟](https://manifests.io)
-    - [manifests.io/kubernetes/1.28](https://www.manifests.io/kubernetes/1.28)
+- [==manifests.io== 🌟](https://www.manifests.io/kubernetes/1.37)
+    - [manifests.io/kubernetes/1.28](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/)
 
 ## Kubernetes and Kubectl Cheat Sheets
   - [QuickRef.ME - Quick Reference Cheat Sheets](https://quickref.me/index.html) 🌟 - QuickRef.ME is a curated collection of quick reference cheat sheets for various programming languages, tools, and technologies, including Kubernetes, Docker, Python, JavaScript, and more. It serves as a centralized repository for developers and engineers to quickly access essential commands, syntax, and configurations.
@@ -239,7 +239,7 @@
 ### Docker Swarm Cheat Sheets
 
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
-    - [docker-swarm-cheatsheet-sematext.pdf](https://cdn2.hubspot.net/hubfs/5111483/docker-swarm-cheatsheet-sematext.pdf)
+    - [docker-swarm-cheatsheet-sematext.pdf](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
 - [lzone.de: Docker Swarm Cheat Sheet](https://lzone.de)
 - [kerneltalks.com: Docker swarm cheat sheet](https://kerneltalks.com/virtualization/docker-swarm-cheat-sheet)
 - [codingfriend.medium.com: Docker Swarm Cheatsheet (2017)](https://codingfriend.medium.com/docker-swarm-cheatsheet-22665e3278b1)
@@ -297,7 +297,7 @@
 
 ### GitKraken Git Cheat
 
-- [GitKraken Git Cheat](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)
+- [GitKraken Git Cheat](https://gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet)
 
 ## Ansible Cheat Sheets
 
@@ -318,7 +318,7 @@
 - [thedevopsblog.co.uk: Terraform Cheat Sheet](https://thedevopsblog.co.uk/terraform-cli-cheat-sheet)
 - [acloudguru.com: The Ultimate Terraform Cheatsheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet)
 - [hashicorp.com: Using Template Files with HashiCorp Packer](https://www.hashicorp.com/blog/using-template-files-with-hashicorp-packer)
-- [searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more](https://www.techtarget.com/searchitoperations/tip/Terraform-cheat-sheet-Notable-commands-HCL-and-more) Terraform has a lot going on. This cheat sheet rounds up the essentials, from configuration settings to the key commands for managing the Terraform directory.
+- [searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more](https://www.techtarget.com/it-infrastructure/tip/Terraform-cheat-sheet-Notable-commands-HCL-and-more) Terraform has a lot going on. This cheat sheet rounds up the essentials, from configuration settings to the key commands for managing the Terraform directory.
 - [techbeatly.com: Terraform Cheat Sheet](https://techbeatly.com/terraform-cheat-sheet)
 - [praveendandu24.medium.com: Mastering Terraform: Top 20 Essential Commands with Examples for Beginners](https://praveendandu24.medium.com/mastering-terraform-top-20-essential-commands-with-examples-for-beginners-1029852b419)
 
@@ -438,7 +438,7 @@
 - [Dzone Refcard: Getting Started with Apache JMeter](https://dzone.com/refcardz/getting-started-with-apache-jmeter?chapter=1)
 - [Groovy Templates Cheat Sheet for JMeter](https://dzone.com/articles/the-groovy-templates-cheat-sheet-for-jmeter) Need help with your Groovy templates? Check out this cheat sheet to help you get started with scripting in Apache JMeter.
 - [JMeter Web Application Testing Cheatsheet](https://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet)
-- [CheatSheet for JMeter __time Function Calls](https://dota.us.com)
+- [CheatSheet for JMeter __time Function Calls](https://uniquedresses.nl)
 - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
 - [Cheat Sheet for Regular Expression in Jmeter](https://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)

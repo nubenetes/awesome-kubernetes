@@ -95,7 +95,7 @@
 - [medium.com/@abhisman.sarkar: Kubernetes Monitoring: Effective Cluster Tracking with Prometheus](https://medium.com/@abhisman.sarkar/kubernetes-monitoring-effective-cluster-tracking-with-prometheus-b0ed5b3efb32)
 - [==aws.plainenglish.io: Mastering Monitoring: The Complete Guide to Using Prometheus and Grafana with Kubernetes==](https://aws.plainenglish.io/mastering-monitoring-the-complete-guide-to-using-prometheus-and-grafana-with-kubernetes-e53d8306123d?gi=779256015eab)
 - [medium.com/@muppedaanvesh: A Hands-On Guide to Kubernetes Monitoring Using Prometheus & Grafana](https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-monitoring-using-prometheus-grafana-%EF%B8%8F-b0e00b1ae039) Understanding Prometheus & Grafana Setup in Kubernetes: A Comprehensive Guide
-- [==signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial== 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring)
+- [==signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial== 🌟](https://signoz.io/blog/opentelemetry-kubernetes)
 
 ## Kubernetes Logging
   - [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) - *(Related to prometheus topic)*
@@ -119,7 +119,7 @@
 - [blog.devops.dev: Importance of Logging In Kubernetes, Intro to Grafana Loki & deploying with helm-charts](https://blog.devops.dev/importance-of-logging-in-kubernetes-and-intro-to-grafana-loki-f8dc6f736e6?gi=0cf53d6aa231)
 - [faun.pub: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://faun.pub/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-86076da0812f) We are going to learn how to use the Sidecar Container pattern to install Logstash and FluentD on Kubernetes for log aggregation.
 - [dev.to: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://dev.to/devopsvn/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-16oi)
-- [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs)
+- [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubectl-logs-tail)
 - [blog.amhaish.com: Observing the K8 cluster using ELK stack](https://blog.amhaish.com/observing-the-k8-cluster-using-elk-stack-7d4264fdb0e3?gi=0fd1b11ef814)
 - [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) The Logging operator automates the deployment and configuration of a Kubernetes logging pipeline. The operator deploys and configures a Fluent Bit daemonset on every node to collect container and application logs from the node file system.
 - [akyriako.medium.com: Kubernetes Logging with Grafana Loki & Promtail in under 10 minutes 🌟](https://akyriako.medium.com/kubernetes-logging-with-grafana-loki-promtail-in-under-10-minutes-d2847d526f9e) Consolidate all your Kubernetes logs in a intuitive Grafana dashboard.

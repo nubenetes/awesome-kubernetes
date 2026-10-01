@@ -51,9 +51,6 @@ description: "Top Kubernetes Alternatives resources for 2026, AI-ranked: dreamla
 
 ### AWS
 
-#### ECS Vs Kubernetes
-
-  - **(2023)** [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://www.techtarget.com/searchcloudcomputing/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares AWS ECS with EKS. While EKS provides robust, platform-agnostic cloud-native standards, ECS offers tighter AWS integration, easier resource management, and lower cognitive load.
 #### Hybrid Orchestration
 
   - **(2021)** [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores ECS Anywhere, demonstrating hybrid orchestration patterns without Kubernetes. Allows managing on-premises hardware and VMs using the native, lightweight ECS API model.
@@ -82,7 +79,6 @@ description: "Top Kubernetes Alternatives resources for 2026, AI-ranked: dreamla
 
   - **(2022)** [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines why Docker Swarm serves as an adequate and clean orchestration framework for mid-market business apps, bypassing complex overlay networks.
   - **(2022)** [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://thinksys.com/devops/docker-swarm-vs-kubernetes-comparison) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles scaling speed, container storage integrations, network overlays, and high availability features in Swarm versus Kubernetes. Useful decision-making context.
-  - **(2021)** [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts the resource footprints and configuration requirements of Swarm and Kubernetes, guiding startup development teams to target Docker Swarm for rapid initial deployments.
 #### Core
 
   - **(2026)** [Docker Swarm](https://docs.docker.com/engine/swarm) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Docker's native, built-in container clustering orchestration engine. Perfect for fast multi-host scaling of simple apps, though largely superseded by EKS and Nomad in major multi-tenant enterprise architectures.

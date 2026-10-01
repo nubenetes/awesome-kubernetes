@@ -35,7 +35,7 @@
 - [Visual Studio Online](https://github.com/features/codespaces)
 - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
 - [Using Version Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
-- [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)
+- [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://github.com/atlassian/atlascode/issues/112)
 - [kite: Code Faster with AI Autocomplete](https://kite.com)
 - [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6)
 - [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers)
@@ -75,7 +75,6 @@
 ## Updates
 
 - [VSCode Updates](https://code.visualstudio.com/updates/v1_120)
-- [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_120/v1_46)
 
 ## Keyboard shortcuts
 

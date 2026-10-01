@@ -32,7 +32,6 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
 
   - **(2022)** [timewatch.com: Outlook Resource Scheduling – View and report on Employee Outlook Calendars](https://www.timewatch.com/blog/outlook-resource-scheduling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Outlook's administrative resource scheduler designed to coordinate shared physical and digital workspace assets like conference rooms, vehicles, and equipment.
   - **(2022)** [support.google.com: How to set up an appointment schedule](https://support.google.com/google-workspace-individual/answer/10729749) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the modernized Google Workspace Appointment Schedule booking page ecosystem. Integrates dynamic availability checks to minimize overlap bookings and optimize schedules.
-  - **(2021)** [Google Calendar appointment slots](https://support.google.com/calendar/answer/190998) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Legacy Google Calendar booking block system. Live grounding shows this feature was officially retired in late 2024, fully replaced by Google's newer 'Appointment Schedules' tool.
 
 ---
 💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)

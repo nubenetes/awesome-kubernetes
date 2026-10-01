@@ -57,7 +57,7 @@
 ## Other Managed Kubernetes
 
 - [thenewstack.io: Otomi Container Platform Offers an Integrated Kubernetes Bundle](https://thenewstack.io/otomi-container-platform-offers-an-integrated-kubernetes-bundle) If you want to enjoy the benefits of Kubernetes, configuring and installing the software itself can be just the first of many deeply technical and oftentimes confusing steps. To simplify this, many major cloud providers offer managed Kubernetes services, but even then you may need to install secondary services to handle tasks such as tracing, logging, monitoring, identity access management, and so on. The Otomi Container Platform looks to address this complexity by bundling together more than 30 different Kubernetes add-ons, as well as providing what it calls an “OSX like interface,” and today the project has open sourced a community edition under the Apache 2.0 license.
-    - [otomi.io 🌟](https://otomi.io)
+    - [otomi.io 🌟](https://techdocs.akamai.com/app-platform/docs/welcome)
     - [==github: Otomi==](https://github.com/linode/apl-core) GitOps powered K8s app suite with developer self-service
 
 ## AWS EKS (Hosted/Managed Kubernetes on AWS)
@@ -300,10 +300,10 @@
 - [mehmetozkaya.medium.com: Deploying .Net Microservices to Azure Kubernetes Services(AKS) and Automating with Azure DevOps](https://mehmetozkaya.medium.com/deploying-net-microservices-to-azure-kubernetes-services-aks-and-automating-with-azure-devops-c50bdd51b702)
 - [faun.pub: How to implement Azure Kubernetes Service (AKS) in Cloud?](https://faun.pub/azure-kubernetes-service-aks-d1e71c7ecbe6)
 - [adamrushuk.github.io: Increasing the volumeClaimTemplates Disk Size in a Statefulset on AKS](https://adamrushuk.github.io/increasing-the-volumeclaimtemplates-disk-size-in-a-statefulset-on-aks)
-- [nillsf.com: Running Windows containers on the Azure Kubernetes Service (AKS)](https://nillsf.com/index.php/2020/11/17/running-windows-containers-on-the-azure-kubernetes-service-aks)
+- [nillsf.com: Running Windows containers on the Azure Kubernetes Service (AKS)](https://nillsf.com/2020/11/17/running-windows-containers-on-the-azure-kubernetes-service-aks)
 - [itnext.io: Running Your Microservices Securely on AKS](https://itnext.io/running-your-microservices-securely-on-aks-417a110b2e76?gi=96d315203907)
 - [docs.microsoft.com: Create an HTTPS ingress controller on Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/previous-versions/azure/aks/ingress-tls)
-- [blog.nillsf.com: Customize core dump in Azure Kubernetes](https://blog.nillsf.com/index.php/2020/12/06/customize-core-dump-in-azure-kubernetes)
+- [blog.nillsf.com: Customize core dump in Azure Kubernetes](https://blog.nillsf.com/2020/12/06/customize-core-dump-in-azure-kubernetes)
 - [medium: Secure your Microservices on AKS — Part 1 🌟](https://itnext.io/running-your-microservices-securely-on-aks-417a110b2e76?gi=96d315203907)
     - [medium: Secure your Microservices on AKS — Part 2 🌟](https://medium.com/microsoftazure/secure-your-microservices-on-aks-part-2-5496bf2ba00c)
 - [zartis.com: How To Save A Fortune On Azure Kubernetes Service](https://www.zartis.com/minimizing-costs-aks)
@@ -352,7 +352,7 @@
 - [==medium.com/@gjoshevski: Reduce the cost of running AKS cluster by leveraging Azure Spot VMs| 70% and more== 🌟🌟](https://medium.com/@gjoshevski/reduce-the-cost-of-running-aks-cluster-by-leveraging-azure-spot-vms-70-and-more-e917f568c3b9)
 - [community.ops.io: One day I woke up to a crashed AKS cluster and this is what I did to get it back to life](https://community.ops.io/javi_labs/one-day-wake-up-to-a-crashed-aks-cluster-and-this-is-what-i-did-to-get-it-back-to-life-1592) One day, Javier found a crashed AKS cluster with three nodes stopped and all pods in the "Terminating" state. Learn how Javier debugged the cluster and brought it back to life.
 - [Using CDK to perform continuous deployments in multi-region Kubernetes environments](https://aws.amazon.com/blogs/containers/using-cdk-to-perform-continuous-deployments-in-multi-region-kubernetes-environments) This post demonstrated how to create a continuous deployment pipeline to deploy applications in multiple EKS clusters running in different regions. The accompanying CDK code creates EKS clusters and the CI/CD stack to continuously deploy applications
-- [blog.coffeeapplied.com: Securing AKS in peered virtual networks using only network security groups (NSGs)](https://blog.coffeeapplied.com/securing-aks-in-peered-virtual-networks-using-only-network-security-groups-nsgs-c43d6a215f32) When you use peering in AKS, with the "default" AKS deployment, your complete cluster, including all pods, is completely open and addressable from your complete peered network. Learn how to fix in this article.
+- [blog.coffeeapplied.com: Securing AKS in peered virtual networks using only network security groups (NSGs)](http://ww547.coffeeapplied.com/?tkn=19vnMT3S) When you use peering in AKS, with the "default" AKS deployment, your complete cluster, including all pods, is completely open and addressable from your complete peered network. Learn how to fix in this article.
 - [medium.com/@vamsi.lakshman: Overview of Azure Kubernetes Services Networking Models](https://medium.com/@vamsi.lakshman/overview-of-azure-kubernetes-services-networking-models-e3ca0591aebe)
 - [techcommunity.microsoft.com: SQL Server containers on Kubernetes with S3-compatible object storage - Getting started](https://techcommunity.microsoft.com/blog/sqlserver/sql-server-containers-on-kubernetes-with-s3-compatible-object-storage---getting-/3717003) Check out this post on the Microsoft Tech Community : SQL Server containers on Kubernetes with S3-compatible object storage - Getting started - Microsoft Community Hub
 - [learn.microsoft.com: Connect with RDP to Azure Kubernetes Service (AKS) cluster Windows Server nodes for maintenance or troubleshooting](https://learn.microsoft.com/en-us/azure/aks/rdp)
@@ -398,7 +398,7 @@
 - [learn.microsoft.com: Use Application Gateway Ingress Controller (AGIC) with a multitenant Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/aks-agic/aks-agc)
 - [returngis.net: Exponer APIs en AKS a través de Azure API Management](https://www.returngis.net/2023/05/exponer-apis-en-aks-a-traves-de-azure-api-management)
 - [==techcommunity.microsoft.com: A Practical Guide to Zone Redundant AKS Clusters and Storage==](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/a-practical-guide-to-zone-redundant-aks-clusters-and-storage/4036254)
-- [==learn.microsoft.com: AKS landing zone accelerator==](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/aks/landing-zone-accelerator)
+- [==learn.microsoft.com: AKS landing zone accelerator==](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-start-here)
 - [==piotrminkowski.com: Getting Started with Azure Kubernetes Service== 🌟](https://piotrminkowski.com/2024/02/05/getting-started-with-azure-kubernetes-service)
 - [==techcommunity.microsoft.com: Simplifying Azure Kubernetes Service Authentication Part 2==](https://techcommunity.microsoft.com/blog/appsonazureblog/simplifying-azure-kubernetes-service-authentication-part-2/4055332)
 - [==learn.microsoft.com: Monitor Azure Kubernetes Service (AKS) control plane metrics (preview)==](https://learn.microsoft.com/en-us/azure/aks/monitor-aks)
@@ -537,7 +537,7 @@
 
 - [Banzai Cloud 🌟](https://banzaicloud.com)
     - [Kubernetes node pool upgrades with Banzai Pipeline](https://banzaicloud.com/blog/kubernetes-nodepool-upgrades)
-- [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/searchcloudcomputing/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
+- [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/it-infrastructure/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
     - NetApp Kubernetes Service -- formerly StackPointCloud
     - Cloudify
     - Terraform

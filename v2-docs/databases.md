@@ -48,9 +48,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 
   - **(2024)** [==Altinity/clickhouse-operator==](https://github.com/Altinity/clickhouse-operator) <span class='md-tag md-tag--info'>⭐ 2520</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e865583f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 7 L 30 2 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e865583f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The enterprise standard ClickHouse Operator developed by Altinity. Automates the deployment, provisioning, scaling, configuration, and monitoring of high-throughput columnar databases inside Kubernetes environments.
   - **(2021)** [==radondb/radondb-clickhouse-kubernetes==](https://github.com/radondb/radondb-clickhouse-kubernetes) <span class='md-tag md-tag--info'>⭐ 86</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a3b50c24" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 6 L 30 13 L 40 7 L 50 10" fill="none" stroke="url(#spark-grad-a3b50c24)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — RadonDB's legacy operator and integration configurations for orchestrating ClickHouse OLAP environments. Highly useful as a historic reference for custom columnar database operators.
-#### Mysql
-
-  - **(2024)** [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide to deploying and managing high-availability Percona XtraDB Clusters on Kubernetes. Provides programmatic automation for zero-downtime upgrades, secure backup routines, node discovery, and automatic recovery protocols.
 #### Redis
 
   - **(2024)** [RedisLabs/redis-enterprise-k8s-docs: Deploying Redis Enterprise on Kubernetes](https://github.com/RedisLabs/redis-enterprise-k8s-docs) <span class='md-tag md-tag--info'>⭐ 170</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-970ef37a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 12 L 30 12 L 40 3 L 50 9" fill="none" stroke="url(#spark-grad-970ef37a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deployment documentation for organizing enterprise-grade Redis caches and document databases inside Kubernetes. Explains cluster layouts, memory configurations, security profiles, and automatic scaling capabilities.
@@ -246,9 +243,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### APIs
 
   - **(2021)** [dev.to: REST Data Service on YugabyteDB / PostgreSQL](https://dev.to/yugabyte/rest-data-service-on-yugabytedb-postgresql-5f2h) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through demonstrating how to configure and deploy a high-throughput REST data microservice backed by YugabyteDB's PostgreSQL-compatible distributed SQL core. Bridges database replication and horizontally scalable API development patterns.
-### Cockroachdb
-
-  - **(2025)** [Cockroach](https://www.cockroachlabs.com/docs/stable/kubernetes-overview) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering design blueprint for executing CockroachDB on Kubernetes. Details multi-active master clustering, Raft consensus mechanics, anti-entropy processes, and seamless horizontal write scaling utilizing Kubernetes orchestration primitives.
 ## Graph Databases
 
 ### Comparisons
@@ -319,7 +313,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Database Migrations
 
   - **(2020)** [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed deployment blueprint focusing on the execution of schema migrations within ASP.NET Core and relational databases inside Kubernetes. Critically compares using Kubernetes Jobs, Init Containers, and application bootstrap processes for migrations.
-## Mysql (1)
+## Mysql
 
 ### Migration
 
@@ -490,9 +484,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Enterprise Deployment
 
   - **(2020)** [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide detailing Microsoft SQL Server Big Data Clusters on Red Hat OpenShift. Note: Microsoft retired this capability in 2025; standard practice has transitioned to localized containers and Azure Arc-enabled SQL Server.
-### Local Development (2)
-
-  - **(2021)** [khalidabuhakmeh.com: Running SQL Server Queries In Docker](https://khalidabuhakmeh.com/running-sql-server-queries-in-docker) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric guide to configuring and running Microsoft SQL Server inside Docker containers. Covers volume mapping, secure password injection, and executing initial database verification queries.
 ## Serverless Databases
 
 ### Resource Management

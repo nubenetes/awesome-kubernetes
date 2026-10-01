@@ -69,7 +69,7 @@ based on your test scripts.
 
 ## Cypress
 
-- [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.testmuai.com/blog/cypress-vs-selenium-comparison)
+- [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.testmuai.com/blog/playwright-vs-selenium-vs-cypress)
 
 ## Microsoft Playwright
   - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor) - *(Related to azure topic)*
@@ -100,6 +100,6 @@ based on your test scripts.
 
 ## Test Automation with Zephyr (Jira Plugin)
 
-- [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)
+- [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-essential-test-management-for-jira)
 - [Dzone: 14 of the best automation testing tools available](https://dzone.com/articles/14-of-the-best-automation-testing-tools-available)
 - [Dzone: The power of automated testing and test management](https://dzone.com/articles/the-power-of-automated-testing-and-test-management)

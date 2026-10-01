@@ -79,11 +79,6 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 #### DevOps and Cloud
 
   - **(2026)** [**techstudyslack.com**](https://techstudyslack.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An active chat-driven support collective focusing on Cloud Architecture, Kubernetes certifications, and system engineering. Provides peer-to-peer technical debugging, study templates, and resume refinement guides.
-### Digital Literacy
-
-#### Basic IT
-
-  - **(2025)** [GCF LearnFree.org](https://www.learnfree.org/en) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A resource dedicated purely to entry-level computer literacy, basic operating system navigation, and office tools. Does not possess technical resources or workflows targeting SRE or cloud engineering domains.
 ### Higher Education
 
 #### Computer Science

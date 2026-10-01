@@ -31,7 +31,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2021)** [**dev.to: The Kubernetes API architecture | Daniele Polencic 🌟**](https://dev.to/danielepolencic/the-kubernetes-api-architecture-1pi9) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A visual and descriptive architectural review of the API Server request pipeline. Traces client requests through authentication, authorization, and admission controller gates.
 #### Reference
 
-  - **(2026)** [==kubernetes.io: Kubernetes API==](https://kubernetes.io/docs/reference/kubernetes-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official documentation reference for the Kubernetes REST API. Maps core concepts, path definitions, custom resources, authorization structures, and api resource versions across stable and beta branches.
+  - **(2026)** [==kubernetes.io: Kubernetes API==](https://kubernetes.io/docs/reference/kubernetes-api/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official documentation reference for the Kubernetes REST API. Maps core concepts, path definitions, custom resources, authorization structures, and api resource versions across stable and beta branches.
 #### Series
 
   - **(2021)** [==iximiuz.com: Working with Kubernetes API==](https://iximiuz.com/en/series/working-with-kubernetes-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive series dissecting the internal design of the API Server. Thoroughly details etcd storage bindings, API conversion rules, and the mechanics of watch events.
@@ -128,11 +128,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 #### Deep Dive
 
   - **(2024)** [jamiehannaford/what-happens-when-k8s](https://github.com/jamiehannaford/what-happens-when-k8s) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exquisite collaborative initiative mapping the granular execution trace of Kubernetes commands. Deconstructs step-by-step what happens internally when a user executes a CLI command, detailing kubectl client parsing, TLS handshakes, etcd commits, scheduling filters, and container runtime execution.
-### Capacity Planning
-
-#### Cluster Sizing
-
-  - **(2023)** [techtarget.com: How many Kubernetes nodes should be in a cluster? 🌟🌟🌟](https://www.techtarget.com/searchitoperations/answer/How-many-Kubernetes-nodes-should-be-in-a-cluster) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides engineering guidelines on capacity planning, comparing a few large nodes vs. many small nodes. Highlights tradeoffs involving blast radius, scheduling overhead, resource utilization efficiency, licensing costs, and cloud provider API limits during rapid scaling.
 ### Configuration Management
 
 #### Declarative Primitives
@@ -232,9 +227,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2021)** [techradar.com: Three tips to implement Kubernetes with open standards](https://www.techradar.com/news/three-tips-to-implement-kubernetes-with-open-standards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advocates for standardizing Kubernetes deployments on CNCF-compliant APIs and specifications (like OCI and CNI) to avoid vendor lock-in and ensure long-term platform portability.
 ### High Availability
 
-#### Control Plane (2)
-
-  - **(2021)** [searchitoperations.techtarget.com: Ensure Kubernetes high availability with master node planning](https://www.techtarget.com/searchitoperations/tip/Ensure-Kubernetes-high-availability-with-master-node-planning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides physical and virtual planning strategies to ensure control plane resiliency. Emphasizes split-brain avoidance in etcd clusters, load balancing across API servers, and multi-zone master node deployment layouts.
 #### Production Readiness
 
   - **(2022)** [**kubesphere.io: Kubernetes High Availability Essential Practices Simply Explained**](https://kubesphere.io/blogs/k8s-ha-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Translates high-availability architectural constraints into concrete implementation tactics. Evaluates load balancer setups, redundant etcd configurations, and optimal node distributions across availability zones.
@@ -296,7 +288,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2021)** [kubernetes.io: Using Admission Controllers to Detect Container Drift at Runtime](https://kubernetes.io/blog/2021/12/21/admission-controllers-for-container-drift) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Describes techniques for enforcing resource immutability at runtime. Examines how custom validating webhooks prevent dynamic drifting from GitOps-defined states by blocking real-time image updates or process changes.
 #### Webhooks
 
-  - **(2020)** [blog.nillsf.com: How to run your own admission controller on Kubernetes](https://blog.nillsf.com/index.php/2020/12/03/how-to-run-your-own-admission-controller-on-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the build-and-deploy cycle for executing custom admission validation controllers. Outlines network security issues, webhook endpoint setups, and service configurations required by the API server.
   - **(2019)** [slack.engineering: A Simple Kubernetes Admission Webhook](https://slack.engineering/simple-kubernetes-webhook) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented walkthrough details how to write a simple Go-based admission webhook from scratch. Covers generating TLS certificates, handling incoming AdmissionReview JSON arrays, and returning patches.
 ### Strategy
 
@@ -305,7 +296,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2021)** [thenewstack.io: This Week in Programming: Kubernetes from Day One? 🌟](https://thenewstack.io/this-week-in-programming-kubernetes-from-day-one) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Debates the architectural trade-offs of starting projects on Kubernetes from inception versus migrating legacy monoliths. Evaluates how early adoption influences software delivery pipelines and containerizes early infrastructure.
 ### System Administration
 
-#### Control Plane (3)
+#### Control Plane (2)
 
   - **(2021)** [**redhat.com: Kubernetes Components - A sysadmin's guide to basic Kubernetes components 🌟**](https://www.redhat.com/en/blog/kubernetes-components) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides Linux administrators with a clear conceptual mapping of how Kubernetes daemons align with standard Linux systemd services. Focuses on system logging, socket binding, and memory management profiles.
 ### Theory
@@ -315,7 +306,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2021)** [**buttondown.email: Two reasons Kubernetes is so complex**](https://buttondown.com/nelhage/archive/two-reasons-kubernetes-is-so-complex) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An insightful essay attributing Kubernetes' inherent complexity to two core causes: its general-purpose platform-of-platforms architecture, and its commitment to solving the distributed consensus state problem globally.
 ### Visual Reference
 
-#### Control Plane (4)
+#### Control Plane (3)
 
   - **(2021)** [**brennerm.github.io: Kubernetes Overview Diagrams 🌟**](https://shipit.dev/posts/kubernetes-overview-diagrams.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An exceptional visual and architectural map detailing the data flow and interconnectivity between the API server, etcd, controller manager, and worker nodes. Essential reference for understanding component-level communications and network policies.
 ### Workloads
@@ -735,7 +726,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 
 ### Architecture (3)
 
-#### Control Plane (5)
+#### Control Plane (4)
 
   - **(2022)** [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟](https://www.theodo.com/en-fr/blog/kubernetes-architecture-understanding-the-components-and-structure-of-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Superb architectural analysis of Kubernetes node components. Details the control-loop interactions between API Server, etcd, Scheduler, Controller Manager, and Kubelet.
 #### Edge Computing
@@ -818,9 +809,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2023)** [dev.to: Build my own Kubernetes journey (10 Part Series) | Jonatan Ezron](https://dev.to/jonatan5524/build-my-own-kubernetes-journey-1a3j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, ten-part engineering chronicle detailing the step-by-step setup and configuration of a home-lab Kubernetes cluster. Walks through local storage provisioners, container network interfaces (CNIs), ingress setup, and application deployment configurations, serving as a pragmatic guide for practitioners.
 ### Reference Guides (1)
 
-#### API Reference
-
-  - **(2023)** [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An alternative interactive API schema browser and resource reference for Kubernetes. Delivers structured, searchable navigation for complex API objects, making it easier for platform engineers to write clean yaml manifests and validate schema specifications across different versions.
 #### Interactive Portal
 
   - **(2023)** [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated interactive reference directory compiling foundational Kubernetes conceptual structures in an easy-to-read format. Facilitates rapid onboarding of developers by simplifying complex orchestration mechanics, deployment structures, and standard YAML configurations.
@@ -844,13 +832,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 #### Tutorials
 
   - **(2020)** [dev.to: Creating a Custom Resource Definition In Kubernetes | Michael Levan](https://dev.to/thenjdevopsguy/creating-a-custom-resource-definition-in-kubernetes-2k7o) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through detailing how to construct and deploy Custom Resource Definitions. Explores API versioning schema fields, spec declarations, and the foundational design of corresponding controller reconciliation loops.
-## Finops
-
-### Resource Optimization (1)
-
-#### API Usage
-
-  - **(2021)** [harness.io: Introducing Recommendations API: Find Potential Cost Savings Programmatically](https://www.harness.io/blog/recommendations-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines programmatic cost reduction strategies utilizing Harness's Recommendations API. Shows how development teams can continuously query and apply optimized CPU/Memory resource constraints to reconcile performance with budget limits.
 ## Fundamentals (5)
 
 ### Advocacy
@@ -961,7 +942,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 #### Historical Analysis
 
   - **(2021)** [opensource.com: 8 Kubernetes insights for 2021](https://opensource.com/article/21/1/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes expert opinions on cloud-native security, developer experience improvements, and edge-computing applications for 2021. Offers context on how early architectures adapted to support remote infrastructure footprints.
-  - **(2020)** [4 trends for Kubernetes cloud-native teams to watch in 2020](https://www.techtarget.com/searchapparchitecture/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores structural transitions within container orchestrations circa 2020. This historical piece covers the nascent consolidation around service meshes and the industrialization of Kubernetes operators across production landscapes.
   - **(2020)** [blog.container-solutions.com: 7 Cloud Native Trends to Watch in 2020](https://blog.container-solutions.com/7-cloud-native-trends-to-watch-in-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Offers retrospective insight into cloud-native dynamics, analyzing service mesh scaling, security instrumentation, and multi-tenant architectures. It serves as a marker for how enterprise patterns have settled over the years.
 ### Enterprise Panel
 
@@ -1360,9 +1340,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 #### Garbage Collection
 
   - **(2021)** [martinheinz.dev: Keeping Kubernetes Clusters Clean and Tidy 🌟](https://martinheinz.dev/blog/60)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines cluster hygiene patterns. Details automated strategies for cleanups, removing orphaned configmaps, scaling down unused workloads, managing eviction limits, and system garbage collection mechanics.
-#### Optimization
-
-  - **(2022)** [**Optimize** Kubernetes cluster management with these 5 tips](https://www.techtarget.com/searchitoperations/feature/Optimize-Kubernetes-cluster-management-with-these-5-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides tactical advice on refining cluster performance, including standardizing deployment pipelines, enforcing robust RBAC boundaries, monitoring control plane metrics, and optimizing resource scheduling.
 ### Command Line Tools
 
 #### Developer Guides
@@ -1386,7 +1363,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2020)** [blog.lukechannings.com: Mistakes made and lessons learned with Kubernetes and GitOps](https://lukechannings.com/blog/2020-05-10-kubernetes-gitops-lessons) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid retrospective exploring hard-learned GitOps lessons. Focuses on synchronizing cluster state with Git, managing secrets securely within declarative repositories, and structuring repositories for multi-environment lifecycles.
 ### Cost Optimization
 
-#### Capacity Planning (1)
+#### Capacity Planning
 
   - **(2024)** [nextplatform.com: Kubernetes Clusters Have Massive Overprovisioning Of Compute And Memory 🌟](https://www.nextplatform.com/cloud/2024/03/04/kubernetes-clusters-have-massive-overprovisioning-of-compute-and-memory/1658269) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores structural data showing vast cloud expenditure waste due to over-allocated requests. Discusses methods to dynamically resize workloads using analysis algorithms and fine-tuning configurations.
 #### Resource Limits
@@ -1512,7 +1489,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 #### CPU Scheduling
 
   - **(2021)** [vladimir.varank.in: Making sense of requests for CPU resources in Kubernetes 🌟](https://vladimir.varank.in/notes/2021/09/making-sense-of-requests-for-cpu-resources-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs the underlying mechanics of Kubernetes CPU requests. Decodes shares, limits, throttles, CFS quota mechanisms, and how they map to actual Linux kernel cgroup constraints.
-#### Capacity Planning (2)
+#### Capacity Planning (1)
 
   - **(2022)** [youtube: Common Kubernetes Mistakes - CPU and Memory Requests (part 1) | Robusta](https://www.youtube.com/watch?v=_nknHwTKlh8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive video review analyzing how miscalculating container CPU and memory limits causes severe latency issues, memory leak page eviction, OOM kills, and dynamic horizontal scaling delays.
 ### Resource Management (1)
@@ -1520,7 +1497,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 #### Performance Tuning (2)
 
   - **(2020)** [enterprisersproject.com: Managing Kubernetes resources: 5 things to remember](https://enterprisersproject.com/article/2020/8/managing-kubernetes-resources-5-things-remember) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights five critical patterns for managing CPU/Memory requests and limits inside Kubernetes clusters. Discusses mitigating OOM-Kills, sizing containers correctly, and using horizontal and vertical autoscalers.
-### Resource Optimization (2)
+### Resource Optimization (1)
 
 #### Garbage Collection (2)
 
@@ -1791,7 +1768,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
   - **(2021)** [blog.newrelic.com: Kubernetes Fundamentals, Part 1: How to Manage Cluster Capacity with Requests and Limits](https://newrelic.com/blog/infrastructure-monitoring/kubernetes-request-and-limits)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of New Relic's resource management series.
 - Discusses how the scheduling engine maps resource requests onto bare-metal or VM node capacity.
 - Offers basic guidelines for balancing overall cluster reliability against hosting costs.
-#### Capacity Planning (3)
+#### Capacity Planning (2)
 
   - **(2022)** [sysdig.com: Kubernetes capacity planning: How to rightsize the requests of your cluster](https://www.sysdig.com/blog/kubernetes-capacity-planning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Sysdig's guide to capacity planning and rightsizing cluster-wide resources.
 - Explains how to aggregate individual container requests to determine actual node provisioning thresholds.
@@ -2084,11 +2061,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ava
 #### Migration Roadmap
 
   - **(2021)** [**thenewstack.io: 10 Steps to a Successful Kubernetes Technical Transformation 🌟**](https://thenewstack.io/10-steps-to-a-successful-kubernetes-technical-transformation) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An enterprise blueprint outlining a ten-step roadmap for technical transformation via Kubernetes. Focuses on bridging organizational skills gaps, restructuring DevOps team responsibilities, and establishing standardized CI/CD pipelines.
-### Platform Selection
-
-#### Managed Kubernetes
-
-  - **(2021)** [Assess managed Kubernetes services for your workloads.](https://www.techtarget.com/searchcloudcomputing/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluation matrix comparing managed Kubernetes offerings (EKS, GKE, AKS) with self-managed cluster options. Outlines critical cost considerations, operational control trade-offs, security responsibilities, and infrastructure integration factors.
 ## Testing
 
 ### API Mocking

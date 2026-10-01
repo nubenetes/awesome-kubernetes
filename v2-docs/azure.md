@@ -26,19 +26,16 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Azure Landing Zone IaC Accelerator in the Kubernetes Tools ecosystem.
   - **(None)** [](https://learn.microsoft.com/en-us/azure/architecture/patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.microsoft.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.microsoft.com in the Kubernetes Tools ecosystem.
+  - **(None)** [](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.microsoft.com in the Kubernetes Tools ecosystem.
   - [stackoverflow.com: What is the difference between an Azure tenant and' Azure subscription?](https://stackoverflow.com/questions/47307368/what-is-the-difference-between-an-azure-tenant-and-azure-subscription)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==stackoverflow.com: What is the difference between an Azure tenant and' Azure subscription?== in the Kubernetes Tools ecosystem.
   - [inkoop.io: How to get Azure API Credentials](https://www.inkoop.io/blog/how-to-get-azure-api-credentials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering inkoop.io: How to get Azure API Credentials in the Kubernetes Tools ecosystem.
   - **(None)** [](https://learn.microsoft.com/en-us/entra/identity-platform/howto-create-service-principal-portal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.microsoft.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.microsoft.com in the Kubernetes Tools ecosystem.
   - [reddit.com: PowerShell Core yaml support?](https://www.reddit.com/r/PowerShell/comments/flzsx5/powershell_core_yaml_support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: PowerShell Core yaml support? in the Kubernetes Tools ecosystem.
+  - **(None)** [](https://learn.microsoft.com/en-us/cli/azure/microsoft-graph-migration?view=azure-cli-latest&tabs=powershell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.microsoft.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.microsoft.com in the Kubernetes Tools ecosystem.
 ## Architecture
 
-### Container Orchestration
-
-#### AKS Mission Critical
-
-  - **(2025)** [learn.microsoft.com: Mission-critical baseline architecture on Azure](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference architecture blueprint for deploying highly reliable, multi-region containerized workloads on Azure Kubernetes Service (AKS). Integrates active-active clustering, zero-downtime routing architectures, and strict self-healing protocols.
 ### Well-architected Framework
 
 #### Mission-critical Workloads
@@ -200,11 +197,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Java Runtime Configurations
 
   - **(2026)** [**learn.microsoft.com: Configure a Java app for Azure App Service**](https://learn.microsoft.com/en-us/azure/app-service/configure-language-java-deploy-run) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comprehensive documentation detailing JVM optimization, logging integration, and web container (Tomcat/JBoss) tuning within Azure App Service. It guides engineers through profiling settings, customizing JAR/WAR deployments, and configuring APM agent connections. This resource is essential for running enterprise-grade Java microservices with high throughput and low cold-start latency.
-### Serverless Computing
-
-#### Azure Functions Core
-
-  - **(2026)** [==learn.microsoft.com: AZ-204: Implement Azure Functions 🌟==](https://learn.microsoft.com/en-us/training/paths/implement-azure-functions) <span class='md-tag md-tag--warning'>[C# / PYTHON / JS CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Microsoft training curriculum for implementing serverless workflows and event-driven computing via Azure Functions. It covers bindings and triggers, Durable Functions for stateful execution, execution context, and performance profiling. This path forms the core educational foundation for building reliable, event-driven microservices on the Azure platform.
 ## Cloud Architecture
 
 ### Certification
@@ -286,7 +278,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 
   - **(2024)** [==learn.microsoft.com: Azure DevOps Templates - Template types & usage 🌟🌟==](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/templates?view=azure-devops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Microsoft documentation outlining the structural types and configuration paradigms of Azure DevOps templates. Utilizing YAML templates with runtime parameters and compile-time expressions is the de facto standard in 2026. This approach allows enterprise organizations to centralize pipeline logic and enforce compliance across hundreds of microservices.
   - **(2024)** [**github.com/JFolberth/TheYAMLPipelineOne 🌟**](https://github.com/JFolberth/TheYAMLPipelineOne) <span class='md-tag md-tag--info'>⭐ 221</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d516cd2e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 5 L 30 13 L 40 3 L 50 11" fill="none" stroke="url(#spark-grad-d516cd2e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source pipeline framework showcasing advanced DRY (Don't Repeat Yourself) YAML patterns for Azure DevOps. In 2026, this template system represents best-in-class orchestration, enabling developers to scale microservice builds without duplicating pipelines or configuration code.
-### Container Orchestration (1)
+### Container Orchestration
 
 #### Gitops
 
@@ -415,7 +407,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Subnet Peering
 
   - **(2025)** [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural paradigm of Subnet Peering in Azure, bypassing the traditional resource-heavy requirements of full Virtual Network (VNet) peering. This feature allows network engineers to establish direct, localized communication paths between designated subnets, optimizing security boundaries and address space usage.
-### Container Orchestration (2)
+### Container Orchestration (1)
 
 #### AKS Fleet Manager
 
@@ -587,9 +579,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Dedicated Documentation
 
   - **(2026)** [Azure Docs](https://learn.microsoft.com/en-us/azure) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dedicated documentation library covering all Microsoft Azure services, including SDKs, CLI templates, ARM references, and architectural designs.
-#### Education (1)
-
-  - **(2026)** [azurecharts.com/learning: Azure Learning Explorer](https://azurecharts.com/learning) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive educational roadmap generator integrated inside Azure Charts. Guides cloud engineers through certifications and specific infrastructure tracks.
 #### High Availability Architectures
 
   - **(2026)** [==github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical' Online Reference Implementation==](https://github.com/azure/mission-critical-online) <span class='md-tag md-tag--info'>⭐ 401</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-07d045cb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 10 L 30 8 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-07d045cb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-grade reference template demonstrating design strategies for mission-critical cloud applications on Azure. Implements active-active patterns, automated failover, and zero-downtime updates.
@@ -643,7 +632,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2026)** [Azure Quickstart Templates 🌟](https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Consolidated schema collection of Azure Resource Manager (ARM) quickstart templates. Facilitates reproducible provisioning blueprints covering virtual networks, security configurations, compute engines, and databases.
 ### Microsoft Azure (1)
 
-#### Education (2)
+#### Education (1)
 
   - **(2023)** [dev.to/javinpaul: 7 Free Courses to Learn Microsoft Azure Cloud Platform](https://dev.to/javinpaul/7-free-courses-to-learn-microsoft-azure-cloud-platform-bg4) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A educational review showcasing free training tracks for Azure core technologies. Provides resources for mastering identity infrastructure, storage provisioning, cloud networking, and security configurations.
 #### Sample Architecture
@@ -797,7 +786,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Windows Server
 
   - **(2021)** [teacdmin.net: How To Enable Multiple RDP Sessions on Windows Server](https://tecadmin.net/how-to-enable-multiple-rdp-sessions-on-windows-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — System engineering guide detailing how to bypass the standard session limit constraints on Windows Server platforms by configuring Remote Desktop Services (RDS) policies. Explains licensing requirements, group policy objects (GPO), and host configurations to enable multi-user concurrent administrative operations within infrastructure-as-a-service (IaaS) instances.
-## Container Orchestration (3)
+## Container Orchestration (2)
 
 ### AKS Labs
 
@@ -942,7 +931,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### Azsk Toolkit
 
   - **(2024)** [Secure DevOps Kit for Azure](https://github.com/azsk/DevOpsKit) <span class='md-tag md-tag--info'>⭐ 222</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cf20804b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 4 L 30 4 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-cf20804b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — The Secure DevOps Kit for Azure (AzSK) provides scanning scripts, CI/CD extensions, and compliance templates for secure-by-default cloud engineering. Live Grounding: As of recent cycles, AzSK has transitioned to a legacy state with Microsoft recommending native Azure Policy and Microsoft Defender for Cloud. It remains a valuable historical reference for building automated security controls directly into enterprise deployment workflows.
-## Education (3)
+## Education (2)
 
 ### Certification Support
 
@@ -1166,17 +1155,12 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2024)** [github.com/admindroid-community/powershell-scripts: PowerShell Scripts for' Microsoft 365 Management, Reporting, and Auditing](https://github.com/admindroid-community/powershell-scripts) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of administrative scripts designed for auditing active users, licensing allocations, and configuration status within Microsoft 365 tenants.
 ### Microsoft Graph API
 
-#### Administration (1)
-
-##### Powershell SDK (1)
-
-  - **(2023)** [techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API](https://www.techtarget.com/searchwindowsserver/tutorial/Get-up-to-speed-with-PowerShell-and-the-Microsoft-Graph-API) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Assists system engineers transitioning legacy Azure AD libraries to Microsoft Graph PowerShell SDK packages. Explains scope permissions, authentication paths, and key cmdlets.
 #### App Registration
 
 ##### Service Principals (1)
 
   - **(2023)** [rakhesh.com: Graph cmdlets and Azure AD App Registrations](https://rakhesh.com/azure/graph-cmdlets-and-azure-ad-app-registrations) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes behavior variations when registering service endpoints vs application records via Graph cmdlets. Explores permission consent mechanics in cloud automation pipelines.
-#### Powershell SDK (2)
+#### Powershell SDK (1)
 
 ##### Developer Ergonomics
 

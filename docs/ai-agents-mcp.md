@@ -11,7 +11,7 @@ Resources, tools, and projects related to autonomous AI agents, Model Context Pr
   - [Cursor AI Fundamentals Course](https://cursor.com/es/learn) - *(Related to ai topic)*
 
 - [anthropic.com: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
-- [modelcontextprotocol.io: MCP Official Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [modelcontextprotocol.io: MCP Official Documentation](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
 
 ## AI Agents
   - **(2026)** [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) 🌟 - Google's unified development platform for building, evaluating, and deploying stateful AI agents, integrating with the Gemini Enterprise Agent Platform and Google Kubernetes Engine (GKE) for production runtimes.

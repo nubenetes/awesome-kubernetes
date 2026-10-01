@@ -23,7 +23,7 @@
 - [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)
 - [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop)
 - [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners) DevOps toolchain plays a crucial role in automating and orchestrating DevOps capabilities to deliver software at the desired speed and quality.
-- [gitkraken.com: DevOps Tools Report 2020 🌟](https://www.gitkraken.com/reports/devops-report-2020)
+- [gitkraken.com: DevOps Tools Report 2020 🌟](https://gitkraken.com/reports/devops-report-2020)
 - [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)
 - [raygun.com: The 10 best DevOps tools for 2020](https://raygun.com/blog/best-devops-tools)
 - [hackr.io: Top 10 DevOps Tools To Look For in 2020](https://hackr.io/blog/top-devops-tools)

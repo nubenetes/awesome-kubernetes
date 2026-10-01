@@ -34,9 +34,6 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Educational Video
 
   - **(2021)** [youtube: The Rise of Kubernetes Policy Engine | Ep 57](https://www.youtube.com/watch?v=0TvhTXddRGE) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative panel discussion examining the rise of Kubernetes policy engines. Tracks the evolution from manual auditing workflows to declarative, automated gatekeeping systems using OPA Gatekeeper and Kyverno.
-#### Governance
-
-  - **(2021)** [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report outlining CNCF policy-as-code initiatives designed to patch security deficiencies within container orchestration. Compares the operational paradigms of Rego-based OPA and YAML-native Kyverno for policy-driven environments.
 #### Kyverno
 
   - **(2021)** [cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟](https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates automated security practice implementation inside OpenShift clusters utilizing Kyverno. Explores Kyverno's YAML-native approach, highlighting how platform engineers write policies using standard Kubernetes resource models without learning new programming languages.
@@ -45,7 +42,6 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - **(2023)** [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational course focusing on Kyverno-driven Kubernetes policy engineering. Walks developers and SREs through writing advanced manifest mutation, generation, and validation policies with real-world scenarios.
 #### OPA
 
-  - **(2020)** [searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm](https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) <span class='md-tag md-tag--warning'>[REGO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the massive industry shift toward Open Policy Agent (OPA) for centralized, policy-as-code enforcement. Emphasizes OPA's ability to unify policy layers across different tools like Kubernetes admission controllers, API gateways, and CI/CD pipelines.
   - **(2020)** [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟](https://www.redhat.com/en/blog/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent) <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical article by Red Hat showcasing fine-grained policy enforcement in OpenShift using Open Policy Agent. Details how to intercept Kubernetes API requests via admission controllers to block non-compliant resource deployments programmatically.
 #### OPA Wasm
 
@@ -69,7 +65,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Gitops
 
   - **(2021)** [thenewstack.io: Weaveworks Adds Policy as Code to Secure Kubernetes Apps' (Magalix)](https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reports on Weaveworks' acquisition and integration of Magalix to embed Policy-as-Code directly into GitOps pipelines. Details how declarative governance policies can be evaluated in continuous-delivery cycles prior to deployment, preventing misconfigured resources from ever entering a live cluster.
-#### Governance (1)
+#### Governance
 
   - **(2022)** [dev.to: Using Kyverno Policies for Kubernetes Governance](https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how organizations can use Kyverno to establish governance guardrails across shared development environments. Covers automating labels, validating ownership configurations, and managing resource consumption rules to ensure multi-tenant hygiene.
 #### Kyverno (1)

@@ -67,7 +67,7 @@
 - [draw.io](https://app.diagrams.net)
 - [CloudMapper (OSS)](https://duo.com/blog)
 - [==Lucidchart==](https://lucid.co/lucidchart)
-    - [==Lucidscale: Import your architecture==](https://lucid.co/lucidscale) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
+    - [==Lucidscale: Import your architecture==](https://lucid.co/enterprise/cloud-accelerator) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
 - [infviz.io](https://infviz.io)
 - [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer)
     - [How to visualize your AWS Account with AWS Cloud9?](https://www.linkedin.com/pulse/how-visualize-your-aws-account-cloud9-wong-chun-yin-cyrus-%E9%BB%83%E4%BF%8A%E5%BD%A5-)

@@ -171,7 +171,7 @@
 - [K3s Private Cluster 🌟](https://github.com/inscapist/terraform-k3s-private-cloud)
 - [hashicorp.com: New Terraform Tutorial: Terraform Outputs 🌟](https://www.hashicorp.com/blog/tutorial-terraform-outputs) Learn how to output data about your infrastructure.
 - [trek10.com: Beginner's Guide to Using Terraform with AWS 🌟](https://caylent.com/blog/beginners-guide-to-using-terraform-with-aws) Beginner tips for Terraform on AWS, common problem areas and misunderstandings that we coach and train internally.
-- [env0.com: We’re Opensourcing Terratag to Make Multicloud Resource Tagging Easier](https://www.env0.com/blog/were-opensourcing-terratag-to-make-multicloud-resource-tagging-easier)
+- [env0.com: We’re Opensourcing Terratag to Make Multicloud Resource Tagging Easier](https://www.envzero.com/blog/were-opensourcing-terratag-to-make-multicloud-resource-tagging-easier)
 - [hashicorp.com: Terraform Mono Repo vs. Multi Repo: The Great Debate](https://www.hashicorp.com/blog/terraform-mono-repo-vs-multi-repo-the-great-debate) Learn about the pros and cons of using mono repositories and multi repositories along with the most logical use case for each.
 - [terraform.io: Cloud Adoption Framework for Azure - Terraform module](https://registry.terraform.io/modules/aztfmod/caf/azurerm/latest)
 - [arnaudlheureux.io: Migrating Azure CAF landing zones to Terraform 0.13](https://www.arnaudlheureux.io/2020/10/02/migrating-azure-caf-landing-zones-on-terraform-0-13)
@@ -240,7 +240,7 @@
 - [==middlewareinventory.com: Terraform import All AWS Security Groups – How to==](https://www.middlewareinventory.com/blog/terraform-import-securitygroup-aws) we are going to see how to manage existing and already created AWS Security groups with Terraform. The new era of Infrastructure revolution has begun already and we already started provisioning, managing, administrating our Infra as a code with help of Configuration management tools like Ansible, Terraform, SaltStack etc.
 - [==middlewareinventory.com: Terraform For Each Examples – How to use for_each | Devops Junction==](https://www.middlewareinventory.com/blog/terraform-for-each-examples)
 - [==medium.com/nerd-for-tech: Terraforming the GitOps Way !!!==](https://medium.com/nerd-for-tech/terraforming-the-gitops-way-9417cf4abf58)
-- [terrateam.io: Terraform Pre-Commit Hooks](https://terrateam.io/blog/terraform-pre-commit-hooks) Terraform Code Improvements. There are many tools that can make sure your Terraform repo remains well-formated and tested. Using Git pre-commit hooks, one can easily incorporate these tools into everyday Terraform workflow.
+- [terrateam.io: Terraform Pre-Commit Hooks](https://stategraph.com/blog/terraform-pre-commit-hooks?from=terrateam) Terraform Code Improvements. There are many tools that can make sure your Terraform repo remains well-formated and tested. Using Git pre-commit hooks, one can easily incorporate these tools into everyday Terraform workflow.
 - [faun.pub: Terraform-Prevent Conditionally Created Resources From Deletion 🌟](https://faun.pub/terraform-prevent-conditionally-created-resources-from-deletion-dcec1b793565?gi=dc4f46650feb) we’ll see how we can prevent a resource, conditionally created by Terraform from getting deleted.
 - [==faun.pub: 5 Best Terraform Tools That You Need in 2022== 🌟](https://faun.pub/5-best-terraform-tools-that-you-need-in-2022-a3db2334c524?gi=17eafd682403) Tools that can simplify your infrastructure code
 - [dev.to/kubestack: A Better Way to Provision Kubernetes Resources Using Terraform 🌟](https://dev.to/kubestack/a-better-way-to-provision-kubernetes-resources-using-terraform-355n) how to create Kubernetes resources using Terraform via the Helm and Kustomize providers. The resource will be created/destroyed as part of the usual terraform apply command.
@@ -271,7 +271,7 @@
 - [==tekanaid.com: Terraform for Beginners – A Beginner’s Guide to Automating Cloud Infrastructure== 🌟](https://tekanaid.com/posts/terraform-for-beginners-course-and-training)
 - [==terrahaxs.com: Choosing the Right Terraform Loop: count vs for_each== 🌟](https://www.terrahaxs.com/blog/count-vs-for-each)
 - [==digitalocean.com: How To Structure a Terraform Project== 🌟](https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project) **Learn about structuring Terraform projects according to their general purpose and complexity. Then, you’ll create a project with a simple structure using the more common features of Terraform: variables, locals, data sources, and provisioners.**
-- [==getbetterdevops.io: How To Deploy Helm Charts With Terraform== 🌟](https://www.roseandglow.co.uk) Do you know you can deploy HelmCharts as any other Terraform resources? It's possible with the official Helm provider.
+- [==getbetterdevops.io: How To Deploy Helm Charts With Terraform== 🌟](https://jnetoto808.com) Do you know you can deploy HelmCharts as any other Terraform resources? It's possible with the official Helm provider.
 - [==medium.com/@dsdatsme: Terraform GitOps CI/CD with Approval & Notifications==](https://medium.com/@dsdatsme/terraform-gitops-ci-cd-with-approval-notifications-6f0807299fc4)
 - [github.com/DhruvinSoni30/Terraform_multiple_modules](https://github.com/DhruvinSoni30/Terraform_multiple_modules) **How to work with multiple terraform modules?**
 - [spacelift.io: Terraform Files – How to Structure a Terraform Project](https://spacelift.io/blog/terraform-files)
@@ -356,7 +356,7 @@
 
 ### Terraform License
 
-- [opencoreventures.com: HashiCorp switching to BSL shows a need for open charter companies](https://www.opencoreventures.com/blog/hashicorp-switching-to-bsl-shows-a-need-for-open-charter-companies)
+- [opencoreventures.com: HashiCorp switching to BSL shows a need for open charter companies](https://opencoreventures.com/insights/hashicorp-switching-to-bsl-shows-a-need-for-open-charter-companies)
 - [medium.com/@hello_9187: Why We Are Not Supporting OpenTF](https://medium.com/@hello_9187/why-we-are-not-supporting-opentf-a46855f52dc4)
 
 ## OpenTOFU vs Terraform
@@ -1024,7 +1024,7 @@ network_plugin = "kubenet"  # use Azure CNI network plugin when windows node poo
 - [mitchellh/terraform-provider-multispace](https://github.com/mitchellh/terraform-provider-multispace) Terraform Provider for cascading runs across multiple workspaces.
 - [kyma-incubator/terraform-provider-kind: Terraform Provider for kind (Kubernetes IN Docker)](https://github.com/kyma-incubator/terraform-provider-kind) The Terraform Provider for kind enables Terraform to provision local Kubernetes clusters on base of Kubernetes IN Docker (kind).
 - [github.com/circa10a/terraform-provider-mailform](https://github.com/circa10a/terraform-provider-mailform) A terraform provider to send physical mail via https://mailform.io
-- [env0.com: How to Use Terraform Providers](https://www.env0.com/blog/how-to-use-terraform-providers)
+- [env0.com: How to Use Terraform Providers](https://www.envzero.com/blog/how-to-use-terraform-providers)
 - [hashicorp.com: Terraform 1.8 provider functions for AWS, Google Cloud, and Kubernetes](https://www.hashicorp.com/blog/terraform-1-8-adds-provider-functions-for-aws-google-cloud-and-kubernetes)
 - [github.com/tlkamp/terraform-provider-validation: Validation Provider](https://github.com/tlkamp/terraform-provider-validation) Extended validation for Terraform in the form of a custom provider.
 

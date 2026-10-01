@@ -57,7 +57,7 @@
 - [tutorialsdojo.com: Real-time Monitoring of 5XX Errors using AWS Lambda, CloudWatch Logs and Slack](https://tutorialsdojo.com/real-time-monitoring-of-5xx-errors-using-aws-lambda-cloudwatch-logs-slack)
 - [dev.to: Go fast and reduce risk: using CDK to deploy your serverless applications on AWS](https://dev.to/aws-builders/go-fast-and-reduce-risk-using-cdk-to-deploy-your-serverless-applications-on-aws-2i3k)
 - [dev.to: Event driven architectures using AWS with example](https://dev.to/aws-builders/event-driven-architectures-using-aws-with-example-3d2d)
-- [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform)
+- [terrateam.io: AWS Lambda Function with Terraform](https://stategraph.com/blog/aws-lambda-function-with-terraform?from=terrateam)
 - [medium.com/lego-engineering: A Journey into Serverless and Handling Step Function Failures](https://medium.com/lego-engineering/a-journey-into-serverless-and-handling-step-function-failures-dba51b4e8e99) Have you ever wondered how you would handle failures in your AWS Step Functions? And what benefits would a robust failure-handling system have?
 - [dev.to/aws-builders: Introduction to AWS SAM (Serverless Application Model)](https://dev.to/aws-builders/introduction-to-aws-sam-serverless-application-model-12oc)
 - [blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step Guide](https://blog.devops.dev/deploying-awesome-app-on-aws-serverless-services-step-by-step-guide-54bc89e4d236?gi=de5362b73d03)

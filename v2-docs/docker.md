@@ -177,9 +177,6 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
 #### Image Compacting
 
   - **(2022)** [developers.redhat.com: Reduce the size of container images with DockerSlim](https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's analysis of the DockerSlim command utility. Discusses dynamically tracing operational execution paths to securely remove unused operating system components.
-#### Optimization Platforms
-
-  - **(2025)** [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.root.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide showcasing automated image squeezing tools. Examines dynamic process tracking to strip out unused OS libraries and reduce security vulnerabilities.
 ### Diagnostics
 
 #### Debugging Runtimes
@@ -390,9 +387,6 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
   - **(2026)** [redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub](https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This press release details the collaboration between Red Hat and Docker to list Universal Base Images directly on the Docker Hub registry. It emphasizes the goal of democratizing enterprise-grade containerization layers, allowing any open-source or commercial developer to utilize secure and standardized packages. This partnership established UBI as a primary pillar of the container software supply chain.
   - **(2021)** [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative article analyzing the strategic importance of hosting Red Hat Universal Base Images on Docker Hub. It highlights how developers benefit from instant access to cryptographically signed, compliant, and regularly updated base layers that easily pass enterprise security audits. The piece underscores the role of UBI in eliminating legal and performance compliance issues across environments.
   - **(2020)** [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide explains the structure, licensing, and optimization of Red Hat Universal Base Images (UBI) for developers using Docker or other non-RHEL runtimes. It showcases how UBI provides a free, secure, and enterprise-grade base image platform that maintains strict compatibility with Red Hat Enterprise Linux. It is crucial for standardizing commercial container dependencies.
-#### Container Management
-
-  - **(2026)** [Portainer Community Edition](https://www.portainer.io/install) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Community Edition of Portainer provides a self-hosted, lightweight administration portal for managing standalone Docker daemons, Swarm clusters, and edge environments. It abstracts complex container and volume operations into a responsive dashboard, reducing operational friction. It remains a popular, stable, and highly trusted portal for developer environments and internal infrastructure management.
 #### Debugging
 
   - **(2026)** [==buildg: Interactive debugger for Dockerfile 🌟==](https://github.com/ktock/buildg) <span class='md-tag md-tag--info'>⭐ 1499</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d76baa85" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 5 L 30 4 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-d76baa85)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildg is an interactive debugger designed specifically for Dockerfiles, built on top of BuildKit. It allows engineers to step through build instructions, set breakpoints, inspect the filesystem state at specific build steps, and launch interactive shells during intermediate builds. This dramatically reduces the trial-and-error loop when debugging complex multi-stage Dockerfiles.
@@ -452,7 +446,7 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
   - **(2020)** [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.com/software/2020/04/08/compose-yourselves-docker-has-published-multi-container-app-spec-needs-contributors-to-help-maintain-and-develop-it/311866) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece chronicles Docker's donation of the Compose specification to the open-source community, highlighting the industry's drive to formalize multi-container application definitions. By establishing an open spec, it enabled tools like Podman-compose and cloud runtimes to deploy applications using standardized YAML models. It provides valuable historical context on container schema evolution.
 ### Kubernetes
 
-#### Container Management (1)
+#### Container Management
 
   - **(2026)** [thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer](https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This step-by-step article illustrates how Portainer's web UI can be utilized to deploy a persistent application (e.g., WordPress with MySQL) onto a Kubernetes cluster. It demystifies the setup of Persistent Volume Claims (PVCs), service ingress, and network isolation, mapping these complex Kubernetes abstractions into accessible dashboard steps. It serves as an excellent onboarding tutorial for operations teams adapting to K8s paradigms.
 ### Linux OS Integration
@@ -513,13 +507,6 @@ description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — 
 #### Alternatives (2)
 
   - **(2021)** [dev.to: How to run docker on Windows without Docker Desktop](https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Shows how to run the Docker Engine on Windows using a native WSL2 Ubuntu distribution instead of Docker Desktop. Helps developers avoid licensing costs on corporate Windows machines.
-## Monitoring and Observability
-
-### Grafana
-
-#### Metrics Collection
-
-  - **(2022)** [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exhaustive integration manual for routing Prometheus-compatible engine metrics from Docker daemons directly to Grafana Cloud. Demonstrates telemetry extraction, container health monitoring, and system dashboard provisioning.
 ## Observability
 
 ### Monitoring (1)

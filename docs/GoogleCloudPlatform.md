@@ -35,7 +35,7 @@
 - [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
 - [Platform comparisons](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
     - [AWS and GCP comparison](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
-    - [Mapping of AWS services to Google Cloud](https://cloud.google.com/docs/compare/aws)
+    - [Mapping of AWS services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
 - [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform)
 - [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
     - [Google Cloud Skills Boost](https://cloud.google.com)

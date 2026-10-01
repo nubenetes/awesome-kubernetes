@@ -55,7 +55,7 @@
 - [cloudify.co: Ansible Vs Terraform 🌟](https://docs.cloudify.co)
 - [techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools](https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045)
 - [spacelift.io: Terraform vs. Ansible : Key Differences and Comparison of Tools](https://spacelift.io/blog/ansible-vs-terraform)
-- [env0.com: Ansible vs Terraform: Choose One or Use Both?](https://www.env0.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together)
+- [env0.com: Ansible vs Terraform: Choose One or Use Both?](https://www.envzero.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together)
 - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison)
 
 ## Tools

@@ -67,7 +67,6 @@ graph TD
 
 #### EDA (1)
 
-  - **(2023)** [eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture 🌟](https://www.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensively contrasts the request-response paradigm of traditional SOA with the asynchronous, log-centric model of Event-Driven Architectures. Highlights Event Store and event sourcing patterns for strict audit trails.
   - **(2023)** [dev.to/aws-builders: Un Modelo de EDA: Event Driven Architectures](https://dev.to/aws-builders/un-modelo-de-eda-event-driven-architectures-4d9f) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Una guía detallada sobre cómo implementar arquitecturas dirigidas por eventos (EDA) utilizando servicios nativos de AWS como EventBridge, SNS, SQS y Lambda para lograr un desacoplamiento de componentes de backend robusto.
   - **(2021)** [equalexperts.com: Event driven architecture: the good, the bad, and the ugly 🌟](https://www.equalexperts.com/blog/tech-focus/event-driven-architecture-the-good-the-bad-and-the-ugly) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the practical realities of deploying EDA at scale. Evaluates benefits (decoupling, high performance) against complexities (distributed debugging, out-of-order execution, schema evolution management).
   - **(2017)** [martinfowler.com: What do you mean by “Event-Driven”? 🌟](https://martinfowler.com/articles/201701-event-driven.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Martin Fowler clarifies the ambiguous term 'Event-Driven'. Outlines four distinct patterns: Event Notification, Event-Carried State Transfer, Event Sourcing, and CQRS, detailing their operational advantages and pain points.
@@ -81,11 +80,6 @@ graph TD
 
   - **(2023)** [architecturenotes.co: 12 Factor App Revisited](https://architecturenotes.co/p/12-factor-app-revisited)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critically evaluates how classic 12-Factor concepts have aged. Addresses the challenges of serverless scaling, API-first interfaces, distributed telemetry, and modern build/release pipelines.
   - **(2021)** [opensource.com: An open source developer's guide to 12-Factor App methodology](https://opensource.com/article/21/11/open-source-12-factor-app-methodology)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the application of 12-Factor methodology to open-source project standards. Highlights maintaining statelessness, dependency isolation, and configuration separation to simplify multi-environment testing and distribution.
-### Saas
-
-#### Multi-tenancy
-
-  - **(2023)** [blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares multi-instance setups (dedicated systems per tenant) against multi-tenant models (shared compute/database with strict software isolation). Examines resource scaling, security boundaries, and noisy neighbor challenges.
 ### Technical Debt
 
 #### Microservices (1)
@@ -981,15 +975,6 @@ graph TD
   - **(2023)** [welivesecurity.com: La ofuscación de código: un arte que reina en la ciberseguridad](https://www.welivesecurity.com/es/recursos-herramientas/ofuscacion-de-codigo-arte-ciberseguridad) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explica cómo la ofuscación de código protege la propiedad intelectual y dificulta la ingeniería inversa por parte de actores maliciosos. Describe métodos comunes como el cambio de flujos de control y cifrado de cadenas.
 ## Software Architecture
 
-### Application Modernization (1)
-
-#### Legacy Migration
-
-??? note "Modernize legacy applications with containers, microservices"
-    **[Access Resource](https://www.techtarget.com/searchcloudcomputing/feature/Modernize-legacy-applications-with-containers-microservices)** 🌟🌟🌟🌟 | Level: Intermediate
-    
-    Examines methodologies for containerizing and decomposing legacy applications into microservices. It highlights refactoring patterns, the strangler fig pattern, and the steps required to isolate state and transition monolithic database architectures to distributed cloud-native databases.
-
 ### Event-driven Systems
 
 #### Asynchronous Messaging
@@ -1062,11 +1047,6 @@ graph TD
 #### Value Proposition
 
   - **(2020)** [devops.com: 6 Advantages of Microservices](https://devops.com/6-advantages-of-microservices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the foundational architectural advantages of adopting a microservices pattern, including technological flexibility, autonomous deployability, localized scaling, fault isolation, and improved team ownership over distinct domain services.
-### Modernization (2)
-
-#### Strangler Pattern
-
-  - **(2021)** [overops.com: Strangler Pattern: How to Deal With Legacy Code During the Container Revolution](https://www.harness.io/products/service-reliability-management)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details the mechanics of the Strangler Fig pattern for migrating legacy codebases into containerized microservices. Analyzes API routing strategies, incremental migration boundaries, and monitoring paradigms for managing dual runtimes.
 ### Monoliths (2)
 
 #### Modular Monolith

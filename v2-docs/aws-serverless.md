@@ -82,11 +82,6 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 #### Fundamentals
 
   - **(2022)** [dev.to/aws-builders: Introduction to AWS SAM (Serverless Application Model)](https://dev.to/aws-builders/introduction-to-aws-sam-serverless-application-model-12oc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to the AWS Serverless Application Model (SAM). Demonstrates how this declarative YAML framework extends CloudFormation, drastically simplifying the resource definition of REST APIs, databases, and scheduled execution scripts.
-### Terraform
-
-#### Serverless Provisioning
-
-  - **(2023)** [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to configure and deploy AWS Lambda functions natively using HashiCorp Terraform. Covers managing the function zip package, continuous IAM role updates, integration with API Gateway, and dealing with Terraform's state transitions.
 ## Modernization
 
 ### Monolith Migration

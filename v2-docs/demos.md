@@ -55,9 +55,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2021)** [systemcraftsman/lab-tekton-pipelines: OpenShift Pipelines workshop](https://github.com/systemcraftsman/lab-tekton-pipelines) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d1c341c6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 10 L 30 8 L 40 10 L 50 7" fill="none" stroke="url(#spark-grad-d1c341c6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured hands-on workshop focused on OpenShift Pipelines (Tekton). Teaches engineers how to write tasks, manage resources, and deploy production-level continuous integration workflows.
 ### Containerization
 
-#### Docker
-
-  - **(2021)** [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.com/learn-create-dockerfile-example) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical walkthrough demonstrating how to construct secure, optimized, and multi-staged Dockerfiles. Discusses layer caching optimizations, base-image selection (e.g., Alpine vs. Debian), and security isolation options. (Live Grounding: Standard foundational knowledge that remains critical for building minimal, vulnerable-free runtime containers).
 #### Self-hosted Apps
 
   - **(2024)** [Mautic](https://github.com/mautic/docker-mautic) <span class='md-tag md-tag--warning'>[DOCKERFILE/SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Official Docker container setups for deploying Mautic, an open-source marketing automation platform, covering multi-container composition, persistent volumes, and database link configurations. (Live Grounding: A great example of migrating legacy monolithic PHP/MySQL stacks into structured OCI container configurations).
@@ -154,9 +151,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Local Development (1)
 
   - **(2020)** [piotrminkowski.com: Spring Boot on Kubernetes with Buildpacks and Skaffold 🌟](https://piotrminkowski.com/2020/12/18/spring-boot-on-kubernetes-with-buildpacks-and-skaffold) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-velocity development workflow blueprint leveraging Cloud Native Buildpacks and Skaffold to accelerate Java Spring Boot coding loops on Kubernetes. Minimizes manual Dockerfile maintenance and streamlines instantaneous hot-reloading code modifications into active development clusters.
-#### Microservices Demo
-
-  - **(2020)** [**redhat-actions/spring-petclinic**](https://github.com/redhat-actions/spring-petclinic) <span class='md-tag md-tag--info'>⭐ 4</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ad3be1d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 11 L 30 2 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-1ad3be1d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Red Hat's enterprise fork of the classical Spring Petclinic microservice framework, tailored for deployment patterns on Red Hat OpenShift and vanilla Kubernetes. Showcases optimized Containerfile definitions and integrated automated CI/CD pipelines.
 #### Project Bootstrapping
 
   - **(2026)** [Spring Initializr 🌟](https://start.spring.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier initialization dashboard for the Spring ecosystem. Incorporates direct dependency bindings to native Kubernetes microservices components, generating pre-configured templates with container-ready, cloud-native properties.
@@ -589,7 +583,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Jfrog Artifactory
 
   - **(2020)** [jfrog.com: 5 Steps to Hosting Your Application on Amazon Cloud Container Service](https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the fundamentals of deploying containerized applications into Amazon Elastic Container Service (ECS). Emphasizes secure image registry integration using JFrog Artifactory as a secure staging area.
-### Docker (1)
+### Docker
 
 #### Prebuilt Images
 

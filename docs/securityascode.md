@@ -16,7 +16,7 @@
 
 ## Introduction
 
-- [searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm](https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) A Kubernetes-friendly compliance as code project hosted by the CNCF has caught on among large enterprises in the first half of 2019, largely through word of mouth.
+- [searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm](https://www.techtarget.com/it-infrastructure/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) A Kubernetes-friendly compliance as code project hosted by the CNCF has caught on among large enterprises in the first half of 2019, largely through word of mouth.
 - [amazon.com: Policy-based countermeasures for Kubernetes – Part 1](https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1)
 - [medium: Automate policies enforcement with Policy-as-Code 🌟](https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0)
 - [blog.gitguardian.com: What is Policy-as-Code? An Introduction to Open Policy Agent](https://blog.gitguardian.com/what-is-policy-as-code-an-introduction-to-open-policy-agent) Learn the benefits of policy as code and start testing your policies for cloud-native environments.
@@ -31,7 +31,7 @@
 - [blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open Policy Agent](https://blog.styra.com/blog/integrating-identity-oauth2-and-openid-connect-in-open-policy-agent)
 - [blog.styra.com: Rego Unit Testing](https://blog.styra.com/blog/rego-unit-testing)
 - [github.com/instrumenta/policies: A set of shared policies for use with Conftest and other Open Policy Agent tools](https://github.com/instrumenta/policies)
-- [itprotoday.com: Who Needs Open Policy Agent?](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Open Policy Agent makes it possible to create a single set of configuration rules and deploy them automatically across a large-scale environment.
+- [itprotoday.com: Who Needs Open Policy Agent?](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Open Policy Agent makes it possible to create a single set of configuration rules and deploy them automatically across a large-scale environment.
 - [blog.styra.com: Dynamic Policy Composition for OPA](https://blog.styra.com/blog/dynamic-policy-composition-for-opa)
 - [blog.styra.com: 5 OPA Deployment Performance Models for Microservices](https://blog.styra.com/blog/5-opa-deployment-performance-models-for-microservices)
 - [blog.styra.com: Open Policy Agent: The Top 5 Kubernetes Admission Control Policies](https://blog.styra.com/blog/open-policy-agent-the-top-5-kubernetes-admission-control-policies)
@@ -109,7 +109,7 @@
 - [kyverno.io: Mutating Resources](https://kyverno.io/docs/writing-policies/mutate) Modify resources during admission control (Kyverno supports mutating resources).
 - [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.solarwinds.com/blog/category/incident-response)
 - [neonmirrors.net: Exploring Kyverno: Part 3, Generation](https://neonmirrors.net/post/2020-12/exploring-kyverno-part3)
-- [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check_deprecated_apis) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
+- [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check-deprecated-apis/check-deprecated-apis/) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
 - [kyverno.io: Generating resources into existing namespaces](https://kyverno.io/docs/writing-policies/generate)
 - [kyverno.io: Add Pod Proxies](https://kyverno.io/policies/other/add-pod-proxies) A kyverno policy to inject K8s Pod proxy env variables.
 - [kyverno.io: Auto-Gen Rules for Pod Controllers](https://kyverno.io/docs/writing-policies/autogen) Automatically generate rules for Pod controllers.
@@ -117,7 +117,7 @@
 - [nirmata.com: Kubernetes Supply Chain Policy Management with Cosign and Kyverno](https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno)
 - [neonmirrors.net: Exploring Kyverno: Introduction 🌟](https://neonmirrors.net/post/2020-11/exploring-kyverno-intro)
 - [nirmata.com: Introducing Kyverno 1.4.2: Trusted And More Efficient!](https://nirmata.com/2021/08/18/introducing-kyverno-1-4-2-trusted-and-more-efficient)
-- [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps) Kyverno, a CNCF policy-as-code sandbox project, can help platform engineers navigate the transition toward the successor to Kubernetes pod security policies.
+- [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://www.techtarget.com/it-infrastructure/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps) Kyverno, a CNCF policy-as-code sandbox project, can help platform engineers navigate the transition toward the successor to Kubernetes pod security policies.
 - [Policy Reporter 🌟](https://github.com/kyverno/policy-reporter) Creates Prometheus Metrics for PolicyReports and ClusterPolicyReports. Ships with an optional Web UI and can send new Results to different Clients like Loki and Elasticsearch. Provides a optional Monitoring Subchart with a ServiceMonitor and Grafana Dashboards for the Prometheus Operator.
 - [sesin.at: Securing Kubernetes with Kyverno: How to Protect Your Users From Themselves by Ritesh Patel](https://www.sesin.at/2021/08/28/securing-kubernetes-with-kyverno-how-to-protect-your-users-from-themselves-by-ritesh-patel)
 - [movi.hashnode.dev: Simplify Kubernetes Cluster Management with Kyverno](https://movi.hashnode.dev/simplify-kubernetes-cluster-management-with-kyverno-ckt6yxjqy0duy95s14groe7h4) Kyverno, a policy engine designed specifically for Kubernetes.

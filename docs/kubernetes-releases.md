@@ -16,7 +16,7 @@
 - [kubernetes.io: Kubernetes 1.21: Power to the Community](https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement)
 - [devclass.com: Kubernetes 1.21 unloads pod security, adds dual IPv4/IPv6 networking, and shuts down gracefully](https://www.devclass.com/containers/2021/04/09/kubernetes-121-unloads-pod-security-adds-dual-ipv4/ipv6-networking-and-shuts-down-gracefully/1623619)
 - [kubernetes.io: Introducing Suspended Jobs in Kubernetes 1.21](https://kubernetes.io/blog/2021/04/12/introducing-suspended-jobs)
-- [analyticsindiamag.com: Kubernetes v1.21 Released: Major Updates & Latest Features](https://analyticsindiamag.com/kubernetes-v1-21-released-major-updates-latest-features)
+- [analyticsindiamag.com: Kubernetes v1.21 Released: Major Updates & Latest Features](https://analyticsindiamag.com/ai-trends/kubernetes-v1-21-released-major-updates-latest-features)
 - [openshift.com: Kubernetes 1.21 Grows Innovative New Features](https://www.redhat.com/en/blog/kubernetes-1.21-grows-innovative-new-features)
 - [Kubernetes v1.16 API deprecation testing](https://gist.github.com/jimangel/0014770713cdca8b363816930ef2520f) Examples of how to test the impact of the v1.16 API deprecations and ways to debug early!
 - [kubernetes.io: Kubernetes 1.21: Metrics Stability hits GA](https://kubernetes.io/blog/2021/04/23/kubernetes-release-1.21-metrics-stability-ga)

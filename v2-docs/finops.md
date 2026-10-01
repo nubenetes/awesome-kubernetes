@@ -69,9 +69,6 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 #### Policy Engines
 
   - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe15c8c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 12 L 30 4 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-fe15c8c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
-#### SMB Frameworks
-
-  - **(2023)** [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down AWS Cloud Financial Management (CFM) pillars specifically optimized for small and medium businesses. Outlines strategies for mapping budgets to cloud infrastructure utilization using AWS Cost Explorer and AWS Budgets, striking a balance between fast delivery and operational cost overhead.
 ### Azure Optimization
 
 #### CLI Tools
@@ -134,11 +131,6 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 #### Macroeconomics
 
   - **(2023)** [infoworld.com: Are we experiencing cloudflation?](https://www.infoworld.com/article/2336761/are-we-experiencing-cloudflation.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the rise of 'cloudflation' driven by hyper-scalers raising subscription costs and baseline infrastructure fees to match inflation. Evaluates enterprise risk mitigation practices, such as shifting workloads to multi-cloud topologies and renegotiating committed-use discounts.
-### Saas Finops
-
-#### License Management
-
-  - **(2024)** [marketplace.atlassian.com:  License Manager - Easily track your software licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-easily-track-your-software-licenses) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details an Atlassian Jira marketplace add-on designed to track and audit developer licenses. Shows how SaaS spend control can be integrated directly into project management platforms.
 ### Strategy and Governance
 
 #### Finops Pitfalls

@@ -48,7 +48,7 @@
 
 ## Grafana Agent
 
-- [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
+- [grafana/agent: Grafana Agent](https://github.com/grafana-cold-storage/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
 - [sid-infinity-yadav.medium.com: Grafana Agent Kubernetes Operator](https://sid-infinity-yadav.medium.com/grafana-agent-kubernetes-operator-f89b744487f5)
 - [levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and Telemetry Collection for Kubernetes Clusters](https://levelup.gitconnected.com/exploring-grafana-agent-flow-simplifying-monitoring-for-kubernetes-2a06a92614?gi=0d8c1bb2c762)
 

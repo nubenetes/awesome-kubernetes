@@ -29,7 +29,7 @@
 - [khanacademy.org](https://www.khanacademy.org)
 - [codely.tv](https://codely.com/en)
 - [ine.com](https://ine.com)
-- [GCF LearnFree.org](https://www.learnfree.org/en)
+- [GCF LearnFree.org](https://www.learnfree.org)
 - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)
 - [SQL Police Department](https://sqlpd.com)
 - [techstudyslack.com](https://techstudyslack.com) TechStudySlack is a Slack for people studying Tech.

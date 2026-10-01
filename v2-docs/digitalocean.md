@@ -9,6 +9,13 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 !!! info "Architectural Context"
     Detailed reference for Digital Ocean in the context of Cloud Providers (Hyperscalers).
 
+## Architecture
+
+### Saas
+
+#### Multi-tenancy
+
+  - **(2023)** [blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares multi-instance setups (dedicated systems per tenant) against multi-tenant models (shared compute/database with strict software isolation). Examines resource scaling, security boundaries, and noisy neighbor challenges.
 ## Cloud Infrastructure
 
 ### Paas
@@ -35,7 +42,6 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 #### Digitalocean App Platform
 
   - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
-  - **(2024)** [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights onboarding pathways and scalability paradigms inside DigitalOcean's PaaS. Highly optimized for small-to-medium enterprises wanting to run microservice networks without complex VM configurations.
 ## Web Servers
 
 ### Nginxconfig

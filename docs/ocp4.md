@@ -121,7 +121,7 @@
 - [openshift.com: A Brief Introduction to Red Hat Advanced Cluster Security for Kubernetes](https://www.redhat.com/en/blog/a-brief-introduction-to-red-hat-advanced-cluster-security-for-kubernetes)
 - [openshift.com: Customizing Virtual Machine Templates in OpenShift](https://www.redhat.com/en/blog/customizing-virtual-machine-templates-in-openshift-1)
 - [thenewstack.io: Red Hat OpenShift 4.8 Adds Serverless Functions, Pipelines-As-Code](https://thenewstack.io/red-hat-openshift-4-8-adds-serverless-functions-pipelines-as-code)
-- [itprotoday.com: With OpenShift 4.8, Red Hat Seeks to 'Expand Workload Possibilities'](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) With OpenShift 4.8, Red Hat seeks to simplify the developer experience and to expand use cases and workload possibilities.
+- [itprotoday.com: With OpenShift 4.8, Red Hat Seeks to 'Expand Workload Possibilities'](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) With OpenShift 4.8, Red Hat seeks to simplify the developer experience and to expand use cases and workload possibilities.
 - [openshift.com: Strategies for Moving .NET Workloads to OpenShift Container Platform](https://www.redhat.com/en/blog/strategies-for-moving-.net-workloads-to-openshift-container-platform)
 - [openshift.com: Ask an OpenShift Admin Office Hour - Authentication and Authorization](https://www.redhat.com/en/blog/ask-an-openshift-admin-office-hour-authentication-and-authorization)
 - [openshift.com: Workload Support for Red Hat OpenShift Matures Across the Industry](https://www.redhat.com/en/blog/workload-support-for-red-hat-openshift-matures-across-the-industry)
@@ -726,7 +726,7 @@ oc login
 - [containerjournal.com: Red Hat Delivers Latest Kubernetes Enhancements](https://cloudnativenow.com/topics/cloudnativeplatforms/red-hat-delivers-latest-kubernetes-enhancements)
 - [Create an OpenShift 4.2 Private Cluster in AWS 🌟](https://access.redhat.com/solutions/4363731)
 - [cloud.ibm.com: openshift-security](https://cloud.ibm.com/docs/openshift?topic=openshift-security)
-- [docs.aporeto.com: OpenShift Master API Protection](https://docs.prismacloud.io/en)
+- [docs.aporeto.com: OpenShift Master API Protection](https://docs.prismacloud.io)
 
 ## Backup and Migrate to OpenShift 4
 
