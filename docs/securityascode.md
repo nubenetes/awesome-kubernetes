@@ -169,3 +169,11 @@
 - [Azure Policy](azure.md)
 
   - **(2026)** [How We're Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees](https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp) 🌟 - An early technical overview of Scam Alert, an on-device machine learning model alerting users about potential scam messages while protecting E2EE.
+
+  - **(2026)** [Using AI to chart a course for our post-quantum migration](https://blog.cloudflare.com/ai-driven-cryptography-discovery) 🌟 - Cloudflare introduces CryptoLabe, an internal AI-powered tool designed to discover cryptography usage across its codebase.
+
+  - **(2026)** [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority) 🌟 - Cloudflare announces its intent to become a public CA to provide free, automated, post-quantum resilient certificates at global scale.
+
+  - **(2026)** [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs) 🌟 - Cloudflare details its upcoming support for Merkle Tree Certificates (MTCs) to solve the scale and performance challenges of post-quantum cryptography.
+
+  - **(2026)** [We tested our own WAF with frontier AI models. Here's what we found](https://blog.cloudflare.com/adaptive-ai-waf-testing) 🌟 - Cloudflare engineered an adaptive AI-driven WAF testing loop that mutates attack vectors to uncover hidden evasion techniques.
