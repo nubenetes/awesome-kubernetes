@@ -61,7 +61,7 @@
 - [devops.com: The DevOps Journey: Continuous Mindset Starts With Cultural Change](https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cultural-change)
 - [==dzone.com/trendreports/devops-3: DevOps==](https://dzone.com/trendreports/devops-3) CI/CD and Application Release Orchestration. With the need for companies to deliver capabilities faster, it has become increasingly clear that DevOps is a practice that many enterprises must adopt (if they haven’t already). A strong CI/CD pipeline leads to a smoother release process, and a smoother release process decreases time to market. In DZone’s "DevOps: CI/CD and Application Release Orchestration" Trend Report, we provide insight into how CI/CD has revolutionized automated testing, offer advice on why an SRE is important to CI/CD, explore the differences between managed and self-hosted CI/CD, and much more. The goal of this Trend Report is to offer guidance to our global audience of DevOps Engineers, Automation Architects, and all those in between on how to best adopt DevOps practices to help scale the productivity of their teams.
 - [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success)
-- [yourdevopsmentor.com: How to become a DevOps engineer – 5 easy steps](https://yourdevopsmentor.com/blog/how-to-become-a-devops-engineer)
+- [yourdevopsmentor.com: How to become a DevOps engineer – 5 easy steps](https://visittheswamp.com)
 - [devops.com: Why MTTR is a Vital Metric for DevOps Teams](https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams)
 - [umbrellainfocare.com: Cloud and DevOps are Made for Each Other](https://www.umbrellainfocare.com/blogs/cloud-and-devops-are-made-for-each-other)
 - [guru99.com: DevOps Lifecycle: Different Phases Explained with Examples 🌟](https://www.guru99.com/devops-lifecycle.html)
@@ -88,7 +88,7 @@
 - [devopscube.com](https://devopscube.com)
 - [devopszone.info](https://www.devopszone.info)
 - [devopsdigest.com](https://www.devopsdigest.com)
-- [Top 15 DevOps blogs to read and follow](https://www.techtarget.com/searchitoperations/feature/Top-15-DevOps-blogs-to-read-and-follow)
+- [Top 15 DevOps blogs to read and follow](https://www.techtarget.com/it-infrastructure/feature/Top-15-DevOps-blogs-to-read-and-follow)
 - [devopstips.net](https://devopstips.net)
 - [devopslearners.com](https://devopslearners.com)
 - [orange-quarter.com: Upskill yourself with these 5 DevOps resources](https://orange-quarter.com/upskill-yourself-with-these-5-devops-resources)
@@ -128,7 +128,7 @@
 ## State of DevOps. Google's DevOps Research and Assessment (DORA)
 
 - [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) 2021 Accelerate State of DevOps report addresses burnout, team performance
-- [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams. [devops.com: summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains) - [dzone: summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
+- [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams. [devops.com: summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains) - [dzone: summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 
 ## Configuration Drift
 
@@ -139,7 +139,7 @@
 
 ### Drift Detection Tools
 
-- [env0.com: Automated Drift Detection 🌟](https://www.env0.com/blog/automated-drift-detection-with-env0) env0 is enabling the ability to automatically detect drift and make sure your real-world resources in the cloud provider are aligned with your Infrastructure as Code files. env0 will alert you once a drift has been detected and gives you the ability to view and fix the drift, which can help mitigate one of the main challenges when using Infrastructure as Code!
+- [env0.com: Automated Drift Detection 🌟](https://www.envzero.com/blog/automated-drift-detection-with-envzero) env0 is enabling the ability to automatically detect drift and make sure your real-world resources in the cloud provider are aligned with your Infrastructure as Code files. env0 will alert you once a drift has been detected and gives you the ability to view and fix the drift, which can help mitigate one of the main challenges when using Infrastructure as Code!
 - [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure)
 
 ## DevOps Docs
@@ -173,7 +173,7 @@
 - [contino.io: How to Make Enterprise Container Strategies That Last (Part One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
 - [scaledagileframework.com: DevOps 🌟🌟](https://www.scaledagileframework.com/devops)
 - [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops)
-- [itprotoday.com: Is the DevOps Model Killing the Developer? In a Word, No](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) The rise of the DevOps model means that app environments are moving faster and running on a larger scale than they did a decade ago.
+- [itprotoday.com: Is the DevOps Model Killing the Developer? In a Word, No](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) The rise of the DevOps model means that app environments are moving faster and running on a larger scale than they did a decade ago.
 - [blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟](https://blogs.vmware.com/cloud-foundation)
 - [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)
 - [medium: How to Become a DevOps Engineer in 2020 (Tj Blogumas)](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8)
@@ -229,7 +229,6 @@
 - [devops.com: Survey Shows Mounting DevOps Frustration and Costs](https://devops.com/survey-shows-mounting-devops-frustration-and-costs)
 - [youtube: The best DevOps tools, frameworks, and platforms in 2021 🌟](https://www.youtube.com/watch?v=js-rq7SvPpE&ab_channel=DevOpsToolkit)
 - [devops.com: DevOps Trends to Watch in 2021 🌟](https://devops.com/devops-trends-to-watch-in-2021)
-- [itproportal.com: How to implement DevOps successfully in 2021 🌟](https://www.itproportal.com/features/how-to-implement-devops-successfully-in-2021) The question isn’t whether or not companies should adopt DevOps, but how to successfully.
 - [devops.com: Nine Pillars of DevOps Best Practices](https://devops.com/nine-pillars-of-devops-best-practices)
 - [medium: Digital Transformation for Modern Enterprises Through DevOps — A Complete Guide](https://medium.com/hackernoon/digital-transformation-for-modern-enterprises-through-devops-a-complete-guide-6f595463c7dd)
 - [weblineindia.com: DevOps Automation – Everything You Need to Know](https://www.weblineindia.com/blog/all-about-devops-automation)
@@ -261,7 +260,6 @@
     - DevOps is one of the most broad topics within software dev because it lacks boundaries and limitations. Many technologies, tools, concepts, processes and ideas converge to give a good DevOps pipeline and DevOps process resulting in agile planning, continuous integration, continuous delivery, and high level monitoring of your enterprise level software systems. Hence, devops is not a single role or even a team's work that deals with all the technologies and processes. It a mixture of culture, traditions and process.
 - [==github.blog: 5 DevOps tips to speed up your developer workflow== 🌟](https://github.blog/developer-skills/5-devops-tips-to-speed-up-your-developer-workflow) From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.
 - [valuecoders.com: Why Should You Adopt DevOps To Deliver Business Value Rapidly?](https://www.valuecoders.com/blog/devops/devops-for-enterprises-growth)
-- [itproportal.com: Stop messing up with CI/CD vs. DevOps and learn the difference finally](https://www.itproportal.com/features/stop-messing-up-with-cicd-vs-devops-and-learn-the-difference-finally) When asking development pros to weigh in on the concept of DevOps, and share their views, we realised one thing.
 - [==blog.udemy.com: Becoming a DevOps Engineer: Understanding the Role and Responsibilities==](https://blog.udemy.com/devops-engineer) The title “DevOps Engineer” itself is confusing, and no one can agree on what precisely a DevOps Engineer is (or does). So, for now, let’s list some typical activities you might have in this role:
     - Providing leadership and guidance for reducing the time it takes to deploy a software change.
     - Managing CI (continuous integration) systems and pipelines.
@@ -322,7 +320,7 @@
 
 ## Serverless DevOps
 
-- [searchitoperations.techtarget.com: Tips and tools to achieve a serverless DevOps workflow](https://www.techtarget.com/searchitoperations/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow) Serverless functions bring the benefits of event-driven computing to a CI/CD pipeline -- but to get there, DevOps teams might need to lean heavily on services and tools from the major cloud computing providers.
+- [searchitoperations.techtarget.com: Tips and tools to achieve a serverless DevOps workflow](https://www.techtarget.com/it-infrastructure/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow) Serverless functions bring the benefits of event-driven computing to a CI/CD pipeline -- but to get there, DevOps teams might need to lean heavily on services and tools from the major cloud computing providers.
 
 ## DevOps as a Service (DaaS)
 
@@ -401,8 +399,8 @@
 - [dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and SREs](https://dzone.com/articles/3-gpt-3-tools-for-developers-software-engineers-de) This article will explore GPT-3 applications in the developer space to discuss how GPT-3 can help DevOps Engineers, SREs, technical customer support, and developers.
     - [Zebrium](https://www.zebrium.com) Monitoring detects problems, Zebrium finds root cause
 Resolve your software incidents 10x faster
-    - [Debuild](https://debuild.co) Debuild is a tool that lets you generate functional web apps from a simple English description.
-    - [seekwell](https://www.seekwell.io) SeekWell helps write SQL requests and synchronizes the results to the apps your team operates in.
+    - [Debuild](https://sharif.io) Debuild is a tool that lets you generate functional web apps from a simple English description.
+    - [seekwell](https://www.thoughtspot.com) SeekWell helps write SQL requests and synchronizes the results to the apps your team operates in.
 
 ## Data as Code
 

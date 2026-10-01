@@ -70,7 +70,7 @@
 - [ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar)
 - [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]](http://web.archive.org/web/20220716010821/https://eng.uber.com/microservice-architecture)
 - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)
-- [Modernize legacy applications with containers, microservices](https://www.techtarget.com/searchcloudcomputing/feature/Modernize-legacy-applications-with-containers-microservices) To break down monolithic apps and modernize them for cloud deployment, enterprise development teams continue to turn to containers and microservices.
+- [Modernize legacy applications with containers, microservices](https://www.techtarget.com/it-infrastructure/feature/Modernize-legacy-applications-with-containers-microservices) To break down monolithic apps and modernize them for cloud deployment, enterprise development teams continue to turn to containers and microservices.
 - [blog.heroku.com: Deconstructing Monolithic Applications into Services](https://www.heroku.com/blog/monolithic-applications-into-services)
 - [vmware.com: How to Deconstruct a Monolith using Microservices – Getting Ready for Cloud-Native](https://blogs.vmware.com/vov/2018/08/06/how-to-deconstruct-a-monolith-using-microservices-getting-ready-for-cloud-native)
 - [thenewstack.io: 7 Best Practices to Build and Maintain Resilient Applications and Infrastructure](https://thenewstack.io/7-best-practices-to-build-and-maintain-resilient-applications-and-infrastructure)
@@ -126,7 +126,7 @@
 - [thenewstack.io: Private vs. Public Cloud: How Kubernetes Shifts the Balance](https://thenewstack.io/private-vs-public-cloud-how-kubernetes-shifts-the-balance)
 - [medium: Microservices Architecture From A to Z 🌟](https://medium.com/swlh/microservices-architecture-from-a-to-z-7287da1c5d28)
 - [skycrafters.io: Do Containers Really Contain? Virtual Machines vs. Containers 🌟](https://skycrafters.io/blog/2021/06/08/do-containers-really-contain)
-- [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
+- [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
 - [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
 - [simform.com: What is Multi Cloud? Why you Need a Multi Cloud Strategy?](https://www.simform.com/blog/multi-cloud-strategy)
 - [blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds](https://www.min.io/blog)
@@ -276,7 +276,7 @@
 
 ## Service-Oriented Arhitecture vs Event-Driven Architecture
 
-- [==eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture== 🌟](https://www.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture) __SOA vs EDA: which should you use? Best article about EventSourcing CQRS related patterns and usages. A close-to-a-must-read for those who wants to clarify and understand better.__
+- [==eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture== 🌟](https://kurrentdb.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture) __SOA vs EDA: which should you use? Best article about EventSourcing CQRS related patterns and usages. A close-to-a-must-read for those who wants to clarify and understand better.__
 
 ## Cloud Native
   - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) - *(Related to ai topic)*
@@ -513,7 +513,7 @@
 ## Monolith to Microservices Using the Strangler Pattern
 
 - [dzone: Monolith to Microservices Using the Strangler Pattern 🌟](https://dzone.com/articles/monolith-to-microservices-using-the-strangler-patt) The Strangler Pattern is a popular design pattern to incrementally transform your monolithic application into microservices by replacing a particular functionality with a new service. Once the new functionality is ready, the old component is strangled, the new service is put into use, and the old component is decommissioned altogether.
-- [overops.com: Strangler Pattern: How to Deal With Legacy Code During the Container Revolution](https://www.harness.io/products/service-reliability-management)
+- [overops.com: Strangler Pattern: How to Deal With Legacy Code During the Container Revolution](https://www.harness.io/products/ai-sre)
 
 ## Microservices to Monolith
 

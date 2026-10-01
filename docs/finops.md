@@ -41,7 +41,7 @@
 - [hystax.com: The difference between cloud cost management and FinOps](https://hystax.com/the-difference-between-cloud-cost-management-and-finops)
 - [infoworld.com: Are we experiencing cloudflation?](https://www.infoworld.com/article/2336761/are-we-experiencing-cloudflation.html) The sticker shock of cloud computing bills has many in the C-suite looking for answers. A solid finops program can close the budget holes and pay for itself.
 - [edgebricks.com: Why Public Clouds Get So Expensive Over Time 🌟](https://edgebricks.com/why-public-clouds-get-so-expensive-over-time)
-- [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know)
+- [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/smart-business/resources-for-smb/cloud-financial-management)
 - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost)
 - [medium.com/adeo-tech: How to save money fast with Kubernetes — Do FinOps](https://medium.com/adeo-tech/how-to-save-money-fast-with-kubernetes-do-finops-3a9cafc9beba) how to reduce your cloud bill and some tips on cloud infrastructure optimization
 - [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) How much will Kubernetes cost to run? That question has become much easier to answer for Azure Kubernetes Service, thanks to OpenCost integration.
@@ -92,7 +92,7 @@
 
 ## Licence Managers
 
-- [marketplace.atlassian.com:  License Manager - Easily track your software licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-easily-track-your-software-licenses) Unified view of software usage, SaaS, cloud resources, domains, SSL certificates info across the enterprise from one place in Jira.
+- [marketplace.atlassian.com:  License Manager - Easily track your software licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-domain-and-ssl-cert-expiration-monitoring) Unified view of software usage, SaaS, cloud resources, domains, SSL certificates info across the enterprise from one place in Jira.
 
 ## EKS
 

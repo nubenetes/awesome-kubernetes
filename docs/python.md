@@ -106,7 +106,7 @@
 - [towardsdatascience.com: All The Important Features and Changes in Python 3.10](https://towardsdatascience.com/all-the-important-features-and-changes-in-python-3-10-e3d1fe542fbf)
 - [freecodecamp.org: Python Map Function – How to Map a List in Python 3.0, With Example Code](https://www.freecodecamp.org/news/python-map-function-how-to-map-a-list-in-python-3-0-with-example-code)
 - [betterprogramming.pub: 3 Seemingly Simple Python Features That Confuse Beginners](https://betterprogramming.pub/3-seemingly-simple-python-features-that-confuse-beginners-313575312dcf)
-- [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/object-oriented-programming-python)
+- [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/ai-trends/object-oriented-programming-python)
 - [analyticsvidhya.com: Top Online Platforms to Learn Python](https://www.analyticsvidhya.com/blog/2021/04/top-online-platforms-to-learn-python)
 - [towardsdatascience.com: There is more to ‘pandas.read_csv()’ than meets the eye](https://towardsdatascience.com/there-is-more-to-pandas-read-csv-than-meets-the-eye-8654cb2b3a03) A deep dive into some of the parameters of the read_csv function in pandas
 - [blog.adnansiddiqi.me: Getting started with Elasticsearch 7 in Python 🌟](https://blog.adnansiddiqi.me/getting-started-with-elasticsearch-7-in-python)
@@ -114,11 +114,11 @@
 - [developers.redhat.com: micropipenv: Installing Python dependencies in containerized applications 🌟](https://developers.redhat.com/articles/2021/05/19/micropipenv-installing-python-dependencies-containerized-applications)
 - [trstringer.com: Debug a Python Application Running in Kubernetes 🌟](https://trstringer.com/debug-python-kubernetes)
 - [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6?gi=65f2d233c055) A handy concept for software development programs
-- [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt file](https://dineshkumarkb.com/tech/how-to-specify-non-pypi-requirements-in-your-requirements-txt-file)
+- [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt file](https://dineshkumarkb.com)
 - [theglitchblog.com: Logging in Python Using Best Practices](https://theglitchblogcom.wordpress.com/2021/06/17/logging-in-python-using-best-practices)
 - [jhhemal.medium.com: Some Tips and Tricks for Writing Better Code in Python](https://jhhemal.medium.com/some-tips-and-tricks-for-writing-better-code-in-python-f65e4b6814fd)
 - [jhhemal.medium.com: Some Essential Built-in Tools for Working with Lists](https://jhhemal.medium.com/some-essential-built-in-tools-for-working-with-lists-81c4f9d5f25e)
-- [dineshkumarkb.com: Reverse a linked list without additional datastructures using python](https://dineshkumarkb.com/tech/reverse-a-linked-list-without-additional-datastructures-using-python)
+- [dineshkumarkb.com: Reverse a linked list without additional datastructures using python](https://dineshkumarkb.com)
 - [analyticsvidhya.com: Implementing ETL Process Using Python to Learn Data Engineering](https://www.analyticsvidhya.com/blog/2021/06/implementing-python-to-learn-data-engineering-etl-process)
 - [infoworld.com: How to use the Python for loop](https://www.infoworld.com/article/2267127/how-to-use-the-python-for-loop.html) The for loop construction in Python easily iterates over a collection of items. Here’s what you need to know to use it well.
 - [stackoverflow.blog: Getting started with… Python 🌟](https://stackoverflow.blog/2021/07/14/getting-started-with-python) Here's a collection of resources on how to get started using Python.
@@ -138,7 +138,7 @@
 - [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c)
 - [sureshdsk.dev: Check diff between two files in Python](https://sureshdsk.dev/check-diff-between-two-files-in-python)
 - [freecodecamp.org: Python String split() and join() Methods – Explained with Examples](https://www.freecodecamp.org/news/python-string-split-and-join-methods-explained-with-examples)
-- [pythonsimplified.com: How to schedule Python scripts using schedule library](https://gifthunterclub.com)
+- [pythonsimplified.com: How to schedule Python scripts using schedule library](https://www.telkom.design)
 - [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class)
 - [treyhunner.com: How to flatten a list in Python](https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python)
 - [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners)

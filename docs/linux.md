@@ -187,7 +187,7 @@
 - [CLImagic subscription](https://www.patreon.com/climagic)
 - [cyberciti.biz: How to save terminal output to a file under Linux/Unix](https://www.cyberciti.biz/faq/how-to-save-terminal-output-to-a-file-under-linux-unix)
 - [cyberciti.biz: ls* Commands Are Even More Useful Than You May Have Thought](https://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples)
-- [linuxtechlab.com: Search a file in Linux using Find & Locate command](https://linuxtechlab.com/search-a-file-in-linux-using-find-locate-command)
+- [linuxtechlab.com: Search a file in Linux using Find & Locate command](https://devopsarsenal.com)
 - [tecmint.com: How to Install and Configure ‘Collectd’ and ‘Collectd-Web’ to Monitor Server Resources in Linux](https://www.tecmint.com/install-collectd-and-collectd-web-to-monitor-server-resources-in-linux)
 - [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux)
 - [cyberciti.biz: How to flush Redis cache and delete everything using the CLI](https://www.cyberciti.biz/faq/how-to-flush-redis-cache-and-delete-everything-using-the-cli)

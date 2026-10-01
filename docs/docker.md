@@ -78,7 +78,7 @@
 - [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)
 - [medium.com/nttlabs: Kubernetes driver for Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64) how Docker BuildX supports building images using BuildKit pods on a Kubernetes cluster. Docker BuildX, the extended version of docker build CLI, now supports distributed image building using Kubernetes!
 - [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)
-- [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+- [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/observe-and-act/monitor-infrastructure/integrations/integration-reference/integration-docker) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 - [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)
 - [blog.gougousis.net: File Permissions: the painful side of Docker 🌟](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker)
     - ["Excellent description of user ids and access rights in Docker; it’s a non trivial issue and there’s no silver bullet other than to avoid running your containers with a privileged user. As a bonus, I personally like openshift approach (random UIDs belonging to the super user GID)"](https://x.com/agarcia)
@@ -145,7 +145,7 @@
 - [docker.com: Docker Compose: What’s New, What’s Changing, What’s Next](https://www.docker.com/blog/new-docker-compose-v2-and-v1-deprecation)
 - [medium.com/@i180826: Using Docker to build React App](https://medium.com/@i180826/using-docker-to-build-react-app-49862615e6f8)
 - [dev.to: Simplify Your Dockerfile wiyth Rust programming language| Kamesh Sampath](https://dev.to/kameshsampath/simplify-your-dockerfile-1j5k)
-- [itprotoday.com: Is Docker Still Worth Learning for IT Operations Teams? Probably Not](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) While Docker isn't dead, Docker tooling may be. Here's why learning Docker tools isn't as important as it once was, especially for ITOps teams.
+- [itprotoday.com: Is Docker Still Worth Learning for IT Operations Teams? Probably Not](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) While Docker isn't dead, Docker tooling may be. Here's why learning Docker tools isn't as important as it once was, especially for ITOps teams.
 - [kennybrast.medium.com: How I Used Docker to Create a Python Dev Environment](https://kennybrast.medium.com/how-i-used-docker-to-create-a-python-dev-environment-48a5d31ae277)
 - [==youtube: Docker 101 (Workshop) how an application can be run using Docker containers. First, you'll learn how to take an application all the way from source code to a running container. Docker-compose, networking, multi-stage and more== 🌟](https://www.youtube.com/watch?v=0mxhS7H6bxM)
 - [codementor.io: Docker: What's Under the Hood?](https://www.codementor.io/blog/docker-technology-5x1kilcbow) How does Docker work? Get a better understanding of the skeleton of Docker, Virtualization, and future development
@@ -258,10 +258,10 @@
 - [sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes Environments) 🌟](https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments)
 - [itnext.io: Building Docker Images The Proper Way 🌟](https://itnext.io/building-docker-images-the-proper-way-3c9807524582?gi=46a905ea9896) Let’s optimize Docker builds to create much smaller and more secure Docker images in a fraction of the usual build time…
 - [returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage](https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage)
-- [==slim.ai==](https://www.root.io) Build secure containers, faster. Secure your software supply chain.
-    - [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.root.io)
+- [==slim.ai==](https://www.aikido.dev/cloud/hardened-images) Build secure containers, faster. Secure your software supply chain.
+    - [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.aikido.dev/cloud/hardened-images)
     - [youtube: The need for Slim Docker Container Images with @DockerSlim & Slim.AI](https://www.youtube.com/watch?v=1o14tIEhZL0)
-    - [==slim.ai: Slim Docker Extension== 🌟](https://www.root.io)
+    - [==slim.ai: Slim Docker Extension== 🌟](https://www.aikido.dev/cloud/hardened-images)
 - [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnkube.com/blog/smaller-docker-images) When it comes to building Docker containers, you should always strive for smaller images. **Images that share layers and are smaller in size are quicker to transfer and deploy.**
 - [contains.dev: Optimizing Docker image size and why it matters](https://contains.dev/blog/optimizing-docker-image-size)
 - [==jpetazzo.github.io: Anti-Patterns When Building Container Images==](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns)
@@ -354,7 +354,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 ## Portainer
 
 - [Portainer 🌟](https://www.portainer.io) Making Docker management easy
-- [Portainer Community Edition](https://www.portainer.io/install)
+- [Portainer Community Edition](https://www.portainer.io/get-started)
 - [thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer](https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer) Here's how to make sure all the contents of your container stay intact even after you delete the container itself.
 
 ## DockStation

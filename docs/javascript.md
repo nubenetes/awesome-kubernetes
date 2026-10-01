@@ -15,7 +15,7 @@
 - [v8.dev:](https://v8.dev) Google’s open source high-performance JavaScript and WebAssembly engine.
 - [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob)
 - [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k)
-- [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg)
+- [dev.to: Getting Started with JavaScript Modules](https://dev.to/heyitsalok/getting-started-with-javascript-modules-2mkg)
 - [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) Usernames should be formatted and they should conform to follow some validation constraints.
 - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course)
 - [dev.to: How to add In-App notifications to any web app!](https://dev.to/novu/how-to-add-in-app-notifications-to-any-web-app-1b4n)

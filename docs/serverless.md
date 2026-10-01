@@ -43,7 +43,7 @@
 - [==c-sharpcorner.com: Why and When to use Azure Functions==](https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions)
 - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions) Here we take a look at two of the programs in Azure's toolbox, Logic Apps and Azure Functions, and compare them with each other.
 - [serverlessguru.com: Enterprise Serverless Adoption 🌟](https://www.sls.guru/blog/enterprise-serverless-adoption) Adopting a new architecture may be intimidating. Having to migrate all of your workloads over to your cloud provider can be time-consuming and stressful. I’m sure you’re wondering, “How can I benefit from serverless?” I’m going to detail how some of the biggest companies in the world are maximizing efficiencies within their organization using serverless technology! Let’s dive in.
-- [aws.amazon.com: Serverless or Kubernetes on AWS 🌟](https://docs.aws.amazon.com/modern-apps-strategy-on-aws-how-to-choose)
+- [aws.amazon.com: Serverless or Kubernetes on AWS 🌟](https://docs.aws.amazon.com/decision-guides/latest/decision-guides/modern-apps-strategy-on-aws-how-to-choose.html)
 - [==serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture== 🌟](https://serverlessland.com/event-driven-architecture) What are Event Driven Architectures ?
 - [medium.com/@marinradjenovic: Why do you still need to think of scalability when architecting Serverless apps?](https://medium.com/@marinradjenovic/why-do-you-still-need-to-think-of-scalability-when-architecting-serverless-apps-a2e1f14e3eca)
 - [architectelevator.com: Concerned about Serverless Lock-in? Consider Patterns!](https://architectelevator.com/cloud/serverless-design-patterns) Design patterns have helped us improve software design for decades. In the cloud, they can also reduce our switching cost. That’s magic!
@@ -159,7 +159,7 @@
 
 ## TriggerMesh serverless event router
 
-- [TriggerMesh](https://www.triggermesh.com) Easily build event-driven applications
+- [TriggerMesh](https://alexiskiryuin.com) Easily build event-driven applications
     - Open-source AWS EventBridge alternative
     - Unified eventing experience
     - Developer-friendly CLI

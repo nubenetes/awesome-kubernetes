@@ -21,7 +21,7 @@
 - [kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7](https://kubernetestutorials.com/install-and-deploy-kubernetes-on-centos-7)
 - [medium.com: Simplifying orchestration with Kubernetes](https://medium.com/@swapnasagarpradhan/simplifying-orchestration-with-kubernetes-e81015681a85)
 - [aquasec.com: 70 Best Kubernetes Tutorials](https://www.aquasec.com/wiki/display/containers/70+Best+Kubernetes+Tutorials) Valuable Kubernetes tutorials from multiple sources, classified into the following categories: Kubernetes AWS and Azure tutorials, networking tutorials, clustering and federation tutorials and more.
-- [cloud.google.com: kubernetes comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic) Learn about kubernetes and how you can use it for continuous integration and delivery.
+- [cloud.google.com: kubernetes comic](https://cloud.google.com/kubernetes-engine) Learn about kubernetes and how you can use it for continuous integration and delivery.
 - [magalix.com: Kubernetes 101 - Concepts and Why It Matters](https://www.magalix.com/blog/kubernetes-101-concepts-and-why-it-matters)
     - [apkplz.net: Learn Kubernetes 1 APK](https://apkplz.net/app/com.LearningSolution.LearnKubernetes)
     - [Google Play Search](https://play.google.com/store/search?q=learn+kubernetes&c=apps)

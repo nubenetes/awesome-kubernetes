@@ -33,7 +33,7 @@
 ## AWS Route 53
 
 - [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center)
-- [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/configuring-route53-for-cost-protection-from-nxdomain-attacks.html)
+- [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency)
 
 ## AWS Elastic Load Balancing (ELB)
 

@@ -52,7 +52,7 @@
 - [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)
 - [MongoDB Cloud Manager](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be)
 - [3T MongoChef – Your New MongoDB GUI](https://studio3t.com)
-    - [Connecting to your MongoDB at MongoLab](https://studio3t.com/knowledge-base/articles/connect-to-mongodb-atlas)
+    - [Connecting to your MongoDB at MongoLab](https://studio3t.com/knowledge-base/desktop-ide/connect-to-mongodb-atlas)
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/products/integrations/kubernetes)
 - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
 - [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport)

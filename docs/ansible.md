@@ -80,7 +80,7 @@
     - [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen)
 - [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin) Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.
 - [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/en/blog/developing-ansible-role) an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.
-- [ansible.com: Ansible whitepaper](https://www.ansible.com/resources/whitepapers/ansible-in-depth) Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.
+- [ansible.com: Ansible whitepaper](https://www.redhat.com/en/engage/ansible-automation-platform-beginners-guide-ebook) Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.
 - [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/en/blog/configure-gmail-using-ansible)
 - [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/en/blog/reverse-proxy-ansible) Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn't bring down the site.
 - [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)
@@ -88,10 +88,10 @@
 - [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/ansible-vs-puppet-which-is-right-for-you)
 - [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/en/blog/install-ansible-way) How to add package repositories and install packages on many hosts by using Ansible.
 - [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux
-- [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands)
+- [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://devopsarsenal.com)
 - [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/devops/ansible-for-beginners)
     - [k21academy.com: Ansible for Beginners Day2 Live Session Review and Q/A 🌟](https://k21academy.com/devops/day2-live-session-review-and-q-a)
-- [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools)
+- [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ai-trends/ansible-vs-docker-a-detailed-comparison-of-devops-tools)
 - [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/en/blog/6-code-pushes-aap) Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.
 - [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/en/blog/ansible-create-users-csv) Automate Linux user account creation in four simple steps with Ansible.
 - [cyberciti.biz: How to define multiple when conditions in Ansible](https://www.cyberciti.biz/faq/how-to-define-multiple-when-conditions-in-ansible)
@@ -99,7 +99,7 @@
 - [redhat.com: How to set up and use Python virtual environments for Ansible](https://www.redhat.com/en/blog/python-venv-ansible) Python's venv module gives you freedom to test new Ansible features before deploying them to production and without disturbing your system install.
 - [redhat.com: Deep dive into Ansible ad hoc commands](https://www.redhat.com/en/blog/ansible-ad-hoc-commands) Make life easier when dealing with Ansible automation by using ad hoc commands.
 - [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/en/blog/software-packages-ansible) Learn how to install new software packages on all your managed hosts with a single Ansible playbook.
-- [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://www.roseandglow.co.uk) Build Image from Ansible code and persist them on local or in AWS ECR
+- [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://jnetoto808.com) Build Image from Ansible code and persist them on local or in AWS ECR
 - [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible)
 - [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/en/blog/ansible-templates-configuration) Ansible templates extend your ability to configure applications quickly and easily. This example uses a template to configure Vim.
 - [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/en/blog/ansiblefest-sysadmins) AnsibleFest offers a lot of information to help sysadmins automate better.
@@ -253,11 +253,11 @@
 ### Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
 
 - [Ansible Tower](https://www.redhat.com/en/technologies/management/ansible)
-- [Ansible Tower Docs](https://legacy-controller-docs.ansible.com/ansible-tower)
+- [Ansible Tower Docs](http://legacy-controller-docs.ansible.com/ansible-tower)
 - [Ansible AWX](https://github.com/ansible/awx)
 - [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.
 - [ansible.com/blog/topic/ansible-tower](https://www.redhat.com/en/blog/channel/red-hat-ansible-automation)
-- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
+- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.redhat.com/en/blog/channel/open-source-communities?intcmp=7015Y000003t7aWQAQ)
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)
 - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower)
 - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx)
