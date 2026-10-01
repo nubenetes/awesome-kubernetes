@@ -152,11 +152,6 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 ##### Production Mechanics
 
   - **(2026)** [==youtube playlist: Tech World with Nana - Complete Kubernetes Tutorial for Beginners 🌟🌟🌟==](https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly granular masterclass detailing Helm templates, complex StatefulSets, dynamic storage provisioning, and ingress configuration. Highly recommended for platform engineers tasked with standardizing real-world production clouds.
-### Kubernetes Fundamentals
-
-#### Visual Learning
-
-  - **(2022)** [**cloud.google.com: kubernetes comic**](https://cloud.google.com/kubernetes-engine/kubernetes-comic) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's classic, highly creative visual guide explaining modern container scaling, lifecycle, and orchestration concepts through graphic storytelling. Perfect for explaining Kubernetes business advantages to technical managers.
 ## Professional Development
 
 ### Opinion and Strategy (1)

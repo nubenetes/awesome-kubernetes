@@ -52,9 +52,6 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 
   - **(2021)** [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesized guide detailing JavaScript object fundamentals, highlighting prototype inheritance, property descriptors, and performance implications of dynamically typed structures.
   - **(2021)** [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exploration of ECMAScript array methods (such as map, filter, and reduce), analyzing memory implications, time complexity, and mutations in highly responsive user interface pipelines.
-#### Module Systems
-
-  - **(2020)** [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to ECMAScript Modules (ESM) compared with CommonJS, mapping how modern bundlers resolve imports, tree-shake unused exports, and perform asynchronous code-splitting.
 ### React Framework
 
 #### Software Architecture

@@ -17,7 +17,6 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
 
   - [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Nginx Reverse Proxy Ubuntu 18.04 in the Kubernetes Tools ecosystem.
   - [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How To Use the Official NGINX Docker Image in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.f5.com/products/nginx/resources/library/complete-nginx-cookbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.f5.com in the Kubernetes Tools ecosystem.
   - [dzone.com: How to Configure HAProxy as a Proxy and Load Balancer](https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: How to Configure HAProxy as a Proxy and Load Balancer in the Kubernetes Tools ecosystem.
 ## Architecture
 

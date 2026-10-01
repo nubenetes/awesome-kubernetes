@@ -26,6 +26,9 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 ##### Microprofile
 
   - **(2020)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement for Red Hat JBoss EAP Expansion Pack (XP) 1.0, enabling support for MicroProfile specifications on top of enterprise application servers. Live Grounding indicates JBoss EAP XP has become a core element for Red Hat customers modernization strategies, providing a bridge between traditional and cloud-native application patterns.
+#### Open Liberty
+
+  - **(2026)** [**openliberty.io**](https://openliberty.io/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project portal for Open Liberty, IBM's open-source, highly modular Java runtime designed for microservices and cloud-native applications. Live Grounding highlights its performance, dynamic reloading capabilities, and seamless integration with container platforms.
 #### Payara Micro
 
 ##### Docker
@@ -52,9 +55,6 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 #### Kumuluzee
 
   - **(2026)** [KumuluzEE](https://ee.kumuluz.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An award-winning, lightweight microservice framework that enables standard Java EE APIs to run as independent, containerized applications. It focuses on modular, plug-and-play architecture, bypassing heavy runtime components to achieve fast startup times and minimal cloud resource utilization.
-#### Payara Server (1)
-
-  - **(2026)** [Payara](https://payara.fish) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Payara Server and Payara Micro provide high-performance, container-friendly environments for running Jakarta EE and MicroProfile workloads. Designed for critical production architectures, it supports built-in clustering, hazelcast-powered data grids, and auto-tuning capabilities inside Kubernetes deployments.
 
 ---
 💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)

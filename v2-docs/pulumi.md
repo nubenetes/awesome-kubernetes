@@ -9,13 +9,6 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 !!! info "Architectural Context"
     Detailed reference for Pulumi - Modern Infrastructure as Code in the context of Hardened Infrastructure.
 
-## Cloud-native Provisioning
-
-### Serverless Containers
-
-#### AWS Fargate
-
-  - **(2026)** [pulumi.com: Running Containers on ECS Fargate](https://www.pulumi.com/registry/packages/aws/how-to-guides/ecs-fargate) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architecture guide detailing how to use Pulumi to configure AWS ECS Fargate environments. Covers programmatic configuration of subnets, target groups, auto-scaling thresholds, and secure IAM policies.
 ## Infrastructure As Code
 
 ### API Integration
@@ -64,9 +57,6 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
   - **(2026)** [Pulumi VS Terraform](https://www.pulumi.com/docs/iac/comparisons/terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular comparison detailing architectural differences between Pulumi's language-native, dynamic resource instantiation model and Terraform's static, declarative HCL configurations.
   - **(2022)** [packetswitch.co.uk: Terraform is Good, but I Like Pulumi](https://www.packetswitch.co.uk/terraform-is-good-but-i-like-pulumi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A platform practitioner's case study demonstrating the developer experience advantages of using Pulumi over Terraform, specifically praising testability and modular software abstractions.
   - **(2021)** [pulumi.com: From Terraform to Infrastructure as Software](https://www.pulumi.com/blog/from-terraform-to-infrastructure-as-software) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thought leadership piece arguing for the transition from static declarative configuration syntax (HCL) to real-time compilable Infrastructure as Software (IAS) via Pulumi.
-#### Migration (1)
-
-  - **(2026)** [pulumi.com: Convert Your Terraform to Pulumi](https://www.pulumi.com/tf2pulumi) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Comprehensive architectural guide to using the `tf2pulumi` engine, explaining key syntax translations, dependency resolutions, and model differences when modernizing from legacy HCL files.
 #### Pulumi (4)
 
   - **(2026)** [Pulumi](https://www.pulumi.com) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pulumi is an industry-leading infrastructure-as-code platform enabling multi-cloud resource provisioning through standard programming languages. It provides rich testing utilities, compiler-driven schema safety, and scalable cloud state backends.

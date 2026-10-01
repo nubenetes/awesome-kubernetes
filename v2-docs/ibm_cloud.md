@@ -18,7 +18,6 @@ description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native a
 ##### Source Code
 
   - **(2026)** [**github.com/openliberty**](https://github.com/openliberty) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The primary GitHub hub containing repositories for Open Liberty, hosting its core runtime, tooling, and integrations. Live Grounding shows a highly collaborative community pushing frequent optimizations for Jakarta EE and MicroProfile.
-  - **(2026)** [**openliberty.io**](https://openliberty.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project portal for Open Liberty, IBM's open-source, highly modular Java runtime designed for microservices and cloud-native applications. Live Grounding highlights its performance, dynamic reloading capabilities, and seamless integration with container platforms.
 #### Websphere
 
 ##### Docker

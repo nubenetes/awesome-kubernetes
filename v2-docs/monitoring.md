@@ -201,18 +201,13 @@ description: "Top Monitoring resources for 2026, AI-ranked: OpenTelemetry Collec
 
 ### Automation (1)
 
-#### CICD
-
-##### Performance Metrics
-
-  - **(2023)** [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/continuous-integration-performance-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on key telemetry indicators required to measure and optimize the health and speed of CI pipelines (e.g., build duration, failure rates, queue time). Curator Insight: Performance guide for development loops. Live Grounding: Essential for engineering managers aiming to reduce feedback cycle times and improve system efficiency.
 #### Monitoring As Code
 
 ##### Gitops
 
   - **(2023)** [thenewstack.io: Monitoring as Code: What It Is and Why You Need It 🌟](https://thenewstack.io/monitoring-as-code-what-it-is-and-why-you-need-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the paradigm of Monitoring as Code (MaC), allowing engineering teams to define dashboard schemas, synthetic tests, and alerting thresholds using declarative configurations in VCS systems. Curator Insight: Paradigm shift from manual dashboard configuration. Live Grounding: Crucial for aligning platform metrics with standard CI/CD and GitOps delivery models.
   - **(2023)** [devops.com: Why Monitoring-as-Code Will be a Must for DevOps Teams](https://devops.com/why-monitoring-as-code-will-be-a-must-for-devops-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the strategic necessity of Monitoring as Code (MaC) within highly automated enterprises, highlighting its ability to prevent manual dashboard decay and streamline alert maintenance. Curator Insight: Organizational transition to MaC. Live Grounding: Essential reading for scaling observability policies uniformly across enterprise development teams.
-### CICD (1)
+### CICD
 
 #### Jenkins
 
@@ -238,7 +233,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: OpenTelemetry Collec
 ###### Releases (1)
 
   - **(2023)** [thenewstack.io: Monitoring API Latencies After Releases: 4 Mistakes to Avoid](https://thenewstack.io/monitoring-api-latencies-after-releases-4-mistakes-to-avoid)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical analysis warning teams against core deployment pitfalls, including the misuse of mathematical averages over high-resolution percentile histograms (P99/P99.9). Curator Insight: Identical post-release performance warning. Live Grounding: Focuses heavily on the structural telemetry issues during rolling upgrades.
-#### CICD (2)
+#### CICD (1)
 
 ##### Change Management
 
@@ -347,7 +342,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: OpenTelemetry Collec
 
 #### Application Performance Monitoring
 
-  - **(2024)** [sentry.io](https://sentry.io/welcome) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical framework for real-time application error tracking and performance profiling. Offers native SDK integrations across key stacks, trace stitching, and code-level context detailing for distributed microservices.
+  - **(2024)** [sentry.io](https://sentry.io/welcome/) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical framework for real-time application error tracking and performance profiling. Offers native SDK integrations across key stacks, trace stitching, and code-level context detailing for distributed microservices.
 #### Dynatrace APM
 
   - **(2016)** [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://adictosaltrabajo.com/2016/10/26/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Spanish technical walk-through demonstrating Dynatrace's enterprise APM dashboard, automated instrumentation, baseline-driven anomaly detection, and deep transactional flow analysis across traditional and microservices runtimes.
@@ -621,7 +616,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2022)** [thenewstack.io: Observability Won’t Replace Monitoring (Because It Shouldn’t) 🌟](https://thenewstack.io/observability-wont-replace-monitoring-because-it-shouldnt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues against the displacement myth of monitoring by observability, asserting that both play critical roles. Monitoring maintains persistent dashboards of known failure vectors, while observability provides reactive exploration tools. Curator Insight: Balanced pragmatic perspective on modern telemetry. Live Grounding: Helps developers resist unnecessary tooling replacements by leveraging combined solutions.
 ## Software Engineering
 
-### CICD (3)
+### CICD (2)
 
 #### Methodology (1)
 

@@ -115,11 +115,6 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
   - **(2021)** [Popular community plugins that can improve your Grafana dashboards 🌟](https://grafana.com/blog/popular-community-plugins-that-can-improve-your-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights top community-created visualization plugins extending the native capabilities of Grafana dashboards, including specialized charting tools, flow diagrams, and advanced geographic mappings. Helps dashboard authors enrich analytics panels and improve observability interfaces across operations groups.
 ## Observability and Monitoring
 
-### Data Collection
-
-#### Telemetry Agents
-
-  - **(2024)** [==grafana/agent: Grafana Agent==](https://github.com/grafana/agent) <span class='md-tag md-tag--info'>⭐ 1709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dcd09096" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 5 L 30 2 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-dcd09096)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An agent for metrics, logs, and trace collection. Live grounding confirms Grafana Agent is now deprecated and succeeded by Grafana Alloy, the vendor's unified telemetry collector for OpenTelemetry and Prometheus.
 ### Grafana Ecosystem
 
 #### Aiops and AI Observability

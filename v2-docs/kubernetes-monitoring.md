@@ -143,9 +143,6 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Opentelemetry Runtime
 
   - **(2023)** [opentelemetry.io: Creating a Kubernetes Cluster with Runtime Observability](https://opentelemetry.io/blog/2023/k8s-runtime-observability) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical blueprint for configuring modern OpenTelemetry collectors and instrumentation operators directly within a cluster. Demonstrates standard practices for unifying tracing, logs, and metrics pipelines into a scalable, open-source standard observability ecosystem.
-#### Signoz and Opentelemetry
-
-  - **(2023)** [signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive implementation guide showcasing SigNoz as a full-featured, open-source alternative to Datadog. It demonstrates configuring OpenTelemetry collectors to ingest cluster metrics, application traces, and platform logs into an integrated ClickHouse backend.
 ## Observability
 
 ### Chatops
@@ -161,9 +158,6 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Operators
 
   - **(2026)** [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) <span class='md-tag md-tag--info'>⭐ 1695</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a590886c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 7 L 30 7 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-a590886c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-grade Kubernetes operator engineered to automate the lifecycle of Fluentd and Fluent Bit collectors. Simplifies logging pipelines through declarative CRDs, featuring dynamic multi-tenant log isolation, secure buffer management, and reliable downstream routing rules.
-#### Security Auditing
-
-  - **(2023)** [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive architectural guide to configuring and securing Kubernetes control plane audit logs. Provides concrete strategies for defining audit policies, optimizing backend targets, and establishing compliance-ready configurations necessary for enterprise security standards.
 #### Sidecar Pattern
 
   - **(2021)** [dev.to: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://dev.to/devopsvn/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-16oi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical analysis of localized cluster logging using Logstash and Fluentd configured within Kubernetes sidecar containers. Focuses on isolating log streams per pod, implementing resource limits to prevent sidecar starvation, and decoupling application logging pipelines from the local node file system.

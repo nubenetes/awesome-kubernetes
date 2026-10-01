@@ -375,9 +375,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
   - **(2021)** [Tagger](https://github.com/ricardomaraschini/tagger) <span class='md-tag md-tag--info'>⭐ 15</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8cf34901" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 3 L 20 7 L 30 9 L 40 3 L 50 10" fill="none" stroke="url(#spark-grad-8cf34901)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A custom controller designed to monitor container image registries and automatically update reference tags on corresponding deployment resources upon registry changes, though now generally managed by GitOps controllers like Argo Image Updater.
 ### Cost Optimization (1)
 
-#### Metrics Analysis
-
-  - **(2018)** [Compass 🌟](https://github.com/winfordlin/Compass) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early monitoring-adjacent helper tool built to observe pod scheduling metrics and identify suboptimal deployment sizes. Long since abandoned, modern alternatives like Kubecost and OpenCost provide the comprehensive telemetry required.
 #### Resource Control
 
   - **(2019)** [kubeonoff](https://github.com/GambitResearch/kubeonoff) <span class='md-tag md-tag--info'>⭐ 24</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7a0d6248" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 8 L 30 13 L 40 6 L 50 8" fill="none" stroke="url(#spark-grad-7a0d6248)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A simple web dashboard designed to allow non-technical team members to scale Kubernetes deployments and statefulsets down to zero or back up. Serves as an early operational utility for dev environment cost reduction.
@@ -1481,11 +1478,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Notifications
 
   - **(2016)** [bitnami-labs/kubewatch](https://github.com/vmware-archive/kubewatch) <span class='md-tag md-tag--info'>⭐ 2426</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-31e9e9b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 12 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-31e9e9b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A popular event-driven Kubernetes watcher that monitors cluster resources and broadcasts real-time changes directly to webhooks and team workspaces like Slack. Note: The project has been archived by VMware; users are urged to migrate to active tools like Botkube.
-### Incident Response
-
-#### Operations
-
-  - **(2026)** [Grafana OnCall OSS](https://grafana.com/oss/oncall) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana OnCall OSS is an open-source, developer-friendly incident response and alert management tool designed to integrate natively with Prometheus and Grafana alerts. It enables on-call engineering teams to easily configure alert schedules, escalation pipelines, and slack integrations directly from an intuitive interface. It simplifies operations by centralizing alerting rules and on-call schedules.
 ### Metrics
 
 #### Dashboards (1)
@@ -1595,7 +1587,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Error Alerting
 
   - **(2021)** [abahmed/kwatch](https://github.com/abahmed/kwatch) <span class='md-tag md-tag--info'>⭐ 1010</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6dc54e89" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 7 L 30 11 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-6dc54e89)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-time error monitor and alert router that monitors Kubernetes logs and pod events. When crash loops occur, it streams exact logs and statuses to systems like Slack, Teams, or custom webhooks.
-## Operations (1)
+## Operations
 
 ### Automation (2)
 
@@ -2277,9 +2269,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler fo
 #### Audit Tools
 
   - **(2021)** [chen-keinan/mesh-kridik](https://github.com/chen-keinan/mesh-kridik) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-92f36741" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 6 L 20 3 L 30 3 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-92f36741)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security auditing and compliance verification tool for cloud-native Service Meshes, validating configurations against strict benchmark rulesets. It supports meshes like Istio, Linkerd, and Consul.
-#### Security Portals
-
-  - **(2021)** [kitploit.com: Mesh-Kridik](https://kitploit.com/2021/12/mesh-kridik-open-source-security.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kitploit technical summary showcasing Mesh-Kridik. It details how the tool scans Service Mesh control plane components, detects security vulnerabilities, and exports visual report matrices to speed up mitigation.
 ### Vulnerabilities
 
 #### Hacking Labs

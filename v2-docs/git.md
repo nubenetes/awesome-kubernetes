@@ -103,13 +103,6 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Gitlab Operator
 
   - **(2022)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/gko-on-ocp) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational installation guide for deploying the GitLab Kubernetes Operator on Red Hat OpenShift. Discusses Ingress controllers, Security Context Constraints (SCC), and persistent storage volumes.
-## Cloud Native Operations
-
-### Kubernetes
-
-#### Policy Enforcement
-
-  - **(2022)** [==datree.io==](https://www.datree.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade CLI validation engine built to run policy and configuration checks on Kubernetes manifests. Datree evaluates configurations against schema rules and security standards before they reach clusters. This is a critical validation step for CI/CD GitOps pipelines.
 ## Community
 
 ### Developer Relations
@@ -188,9 +181,6 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2021)** [css-tricks.com: How to Automate Project Versioning and Releases with Continuous Deployment 🌟](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An implementation guide for setting up automated semver-based deployments and releases. Focuses on integrating semantic-release utilities inside popular continuous integration environments to remove manual distribution workloads.
 ### Continuous Integration
 
-#### Bitbucket Pipelines
-
-  - **(2019)** [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/forums/Bitbucket-questions/configure-bitbucket-pipelines-yml-to-automatically-merge-feature/qaq-p/793222) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A community-focused guide outlining configuration recipes for automerging feature branches into staging or master using `bitbucket-pipelines.yml`. Uses shell scripts and pipeline runners to securely push merge commits back to the remote repository.
 #### Github Actions (1)
 
 ##### Secrets Management
@@ -246,7 +236,6 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Desktop Git Clients
 
   - **(2024)** [Atlassian Sourcetree](https://www.sourcetreeapp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-grade visual desktop client for Git. Offers robust graphic representation of complex branch models, submodule states, and advanced rebasing processes. Designed to simplify interaction with non-standard commit histories.
-  - **(2024)** [gitkraken.com](https://www.gitkraken.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A feature-rich desktop client focusing on graphical representation of interactive branch graphs. Highlights merge tools and deep integrations with cloud-native hosting providers, greatly simplifying complex repository actions for development teams.
   - **(2022)** [gmaster](https://gmaster.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A visualization client designed to resolve merge conflicts using code-structure maps rather than flat text comparisons. Provides refactoring-aware merges to streamline alignments, though widely considered a legacy specialized tool in modern workflows.
 #### Distributed Issue Tracking
 
@@ -441,9 +430,6 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 
   - **(2021)** [dev.to: Git and GitHub for beginners](https://dev.to/ericawanja/git-and-github-for-beginners-33a0) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces basic conceptual terms like local vs. remote, stage vs. commit, and explains pull requests visually to facilitate onboarding for junior software engineers.
   - **(2021)** [dev.to: Introduction to Git and GitHub](https://dev.to/estherwanjiru/introduction-to-git-and-github-25ei) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Direct guide for engineers starting with version control, covering essential commands, setting up SSH auth tokens, and navigating remote interfaces.
-##### Merging Strategies
-
-  - **(2021)** [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive walkthrough analyzing various Git merge models supported natively inside GitHub, tracing structural differences between classic merge commits, squashing, and rebasing.
 ##### Team Collaboration
 
   - **(2021)** [dev.to: Learn how to use Git and GitHub in a team like a pro](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on best-practice development operations inside multi-person engineering branches. Describes clean feature-branching architectures, tracking issues, and utilizing labels during production cycles.
@@ -568,7 +554,6 @@ Assists developers from specification to implementation, verification, and code 
 #### Code Scanning
 
   - **(2021)** [github.blog: Showing code scanning alerts on pull requests](https://github.blog/changelog/2021-09-27-showing-code-scanning-alerts-on-pull-requests) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how CodeQL scanning results are shown directly inside developer pull requests. Accelerates review loops by providing structural vulnerability diagnostics, taint flow graphs, and remediations directly inline during code reviews.
-  - **(2020)** [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/github-launches-code-scanner-to-flag-security-vulnerabilities) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the introduction of CodeQL-powered GitHub Advanced Security scanning. Focuses on native SAST integrations, automated injection flaw triage, secret scanning, and immediate developer alert surfaces within standard PR pipelines.
 ### Supply Chain Security (1)
 
 #### Container Security
@@ -676,11 +661,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2017)** [martinfowler.com: Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — Martin Fowler's foundational deep-dive into feature toggling architecture. He classifies toggles by their dynamism and lifespan (such as release, ops, experimental, and permission flags) and provides patterns for managing complex toggle configurations at scale.
 #### Case Studies (1)
 
-  - **(2021)** [cloudbees.com: Goodbye Sleepless Nights: De-Risking Deployments with Feature Flags](https://www.cloudbees.com/customers/petdesk) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise case study detailing PetDesk's transition to continuous delivery using feature flags. Explains how decoupling deployments from feature activation helped the team eliminate high-stress release windows and reduce system downtime.
   - **(2021)** [github.blog: How we ship code faster and safer with feature flags](https://github.blog/engineering/ship-code-faster-safer-feature-flags) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An inside look at how GitHub manages feature flags at scale to run experiments and mitigate outages. Shows how they integrate internal pull request workflows directly with live production toggles to maintain a fast, safe delivery pipeline.
-#### Community (1)
-
-  - **(2021)** [#FeatureFlags](https://x.com/hashtag/featureflag) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — A real-time community stream tracking discussions, tool releases, and architectural patterns around feature flags. Connects developers to recent open-source implementations and emerging best practices in continuous delivery.
 #### Decoupling
 
   - **(2021)** [thenewstack.io: Wave Goodbye to Release Nights](https://thenewstack.io/wave-goodbye-to-release-nights) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide on using remote configuration and canary rollouts to move away from high-stakes, off-hours deployments. Outlines how routing-layer switches let developers quickly isolate bugs and roll back releases with minimal user impact.
@@ -841,7 +822,6 @@ Assists developers from specification to implementation, verification, and code 
 #### Git Workflows (3)
 
   - **(2011)** [==GitHub Flow==](https://docs.github.com/en/get-started/using-github/github-flow) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — GitHub Flow is a lightweight, branch-based workflow that supports continuous delivery by eliminating the complex branching structures of older patterns. Developers work on short-lived feature branches, using pull requests to run continuous integration tests and solicit reviews before automated deployment directly to the main branch. This approach minimizes merge conflicts and maintains a deployable master branch at all times.
-  - **(2021)** [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A GUI-centric operational guide detailing GitKraken's native GitFlow integration. Demonstrates how to execute branching actions—such as starting and finishing features, hotfixes, and releases—via UI tooling that automates CLI commands to minimize user error.
   - **(2021)** [youtube: Git Flow Is A Bad Idea - Dave Farley](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video presentation by Continuous Delivery co-author Dave Farley criticizing GitFlow. He breaks down how parallel feature branches delay code integration, conflict with true continuous integration (CI) goals, and outlines how trunk-based development delivers faster and safer software updates.
   - **(2021)** [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide that introduces developers to Trunk-Based Development. It contrasts TBD with traditional GitFlow, showing how merging frequent, small commits to a single trunk prevents major merge conflicts and accelerates deployment cycles.
   - **(2020)** [kubernetes.dev: GitHub Workflow](https://www.kubernetes.dev/docs/guide/github-workflow) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official Kubernetes project contributor guidelines detailing its custom, large-scale upstream/downstream fork-and-pull Git workflow. Emphasizes rebase strategies, PR conventions, and the specialized automated Prow bot systems used to manage gating, label tracking, and multi-SIG code approvals.
