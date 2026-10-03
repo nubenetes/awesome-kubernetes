@@ -153,3 +153,6 @@
 
 ## Cars24
   - **(2026)** [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24) 🌟 - Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes and recover lost leads.
+
+## Gilbert + Tobin
+  - **(2026)** [How law firm Gilbert + Tobin governs and scales AI with OpenAI](https://openai.com/index/gilbert-tobin) 🌟 - A case study on how Australian law firm Gilbert + Tobin utilizes ChatGPT Enterprise and Codex for governed legal and technical workflows.

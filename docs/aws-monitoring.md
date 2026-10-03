@@ -29,6 +29,8 @@
 - [How BT uses Amazon CloudWatch to monitor millions of devices](https://aws.amazon.com/blogs/mt/how-bt-uses-amazon-cloudwatch-to-monitor-millions-of-devices)
 - [Extending and exploring alarm history in Amazon CloudWatch – part 2](https://aws.amazon.com/blogs/mt/extending-and-exploring-alarm-history-in-amazon-cloudwatch-part-2)
 - [dzone: Optimize AWS Costs With CloudWatch's Advanced Metrics, Dashboards, and Alerts](https://dzone.com/articles/optimize-aws-costs-with-cloudwatchs-advanced-metri) leveraging advanced dashboarding with Amazon CloudWatch to efficiently manage and analyze AWS costs.
+  - **(2026)** [Now on Amazon CloudWatch Omni: collaborative AI-powered observability for your applications](https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications) 🌟 - AWS introduces CloudWatch Omni, a collaborative AI-powered observability platform.
+  - **(2026)** [Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads](https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads) 🌟 - AWS announces Amazon CloudWatch Omni, bringing AI-powered observability tailored for GenAI and agentic workflows.
 
 ## AWS Cloud Map and HealthChecks
 
@@ -49,3 +51,8 @@
   - **(2026)** [From Silos to Service Topology: Why Netflix Built a Real-Time Service Map](https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?gi=82dbd1ef7444&source=rss----2615bd06b42e---4) 🌟 - Netflix details the architecture of Service Topology, a system that combines eBPF, IPC metrics, and distributed tracing to construct a real-time microservice dependency graph.
 
   - **(2026)** [Introducing Radar Researcher: An AI tool for exploring Internet data in plain language](https://blog.cloudflare.com/introducing-radar-researcher) 🌟 - Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language.
+
+  - **(2026)** [Is your domain using post-quantum encryption? Now you can see for yourself](https://blog.cloudflare.com/post-quantum-visibility) 🌟 - Cloudflare has integrated post-quantum (PQ) cryptography visibility into its HTTP Traffic Analytics and Log Explorer.
+
+## Error Tracking and Performance Monitoring
+  - **(2026)** [Sentry](https://github.com/getsentry/sentry) 🌟 - Developer-first error tracking and performance monitoring.

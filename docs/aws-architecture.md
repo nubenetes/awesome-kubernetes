@@ -42,6 +42,9 @@
   - **(2026)** [AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026) 🌟 - This AWS Weekly Roundup highlights the acquisition of DuckLabs and the launch of Agentic Resource Discovery (ARD) for autonomous infrastructure management.
   - **(2026)** [Happy 20th Birthday, Amazon EC2](https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2) 🌟 - AWS celebrates the 20th anniversary of Amazon Elastic Compute Cloud (EC2), reflecting on its architectural evolution over two decades.
   - **(2026)** [AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026) 🌟 - The late August AWS update introduces a new Local Zone in Las Vegas and outlines the expansion of Student Rewards via the AWS Builder Center.
+  - **(2026)** [AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026) 🌟 - The AWS Weekly Roundup highlights the integration of next-generation LLMs into Amazon Bedrock.
+  - **(2026)** [New low-cost burstable Amazon EC2 T8i instances are generally available](https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available) 🌟 - AWS announces the general availability of the new low-cost, burstable Amazon EC2 T8i instances.
+  - **(2026)** [AWS reimagines the getting started experience](https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience) 🌟 - AWS unveils a reimagined getting started experience to streamline cloud onboarding.
 
 ## AWS Case Studies
 

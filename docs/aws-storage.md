@@ -44,3 +44,8 @@
 
 ## Amazon S3
   - **(2026)** [Amazon S3 annotations: attach rich, queryable context directly to your objects](https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects) 🌟 - An innovative metadata layer on S3 allowing up to 1 GB of rich, mutable, and queryable annotations directly on stored objects.
+  - **(2026)** [Amazon S3 Tables now support all Apache Iceberg V3 data types](https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types) 🌟 - AWS announces full compatibility for Apache Iceberg V3 data types within Amazon S3 Tables, streamlining data lake architectures.
+  - **(2026)** [Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches](https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches) 🌟 - Amazon S3 Vectors introduces metadata pre-filtering capabilities to significantly boost recall on filtered similarity searches.
+
+## Amazon EBS
+  - **(2026)** [Introducing Amazon EBS Volume Clones across AWS accounts](https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts) 🌟 - AWS introduces the capability to clone Amazon EBS volumes directly across different AWS accounts.

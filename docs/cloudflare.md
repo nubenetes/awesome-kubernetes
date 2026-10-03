@@ -22,6 +22,8 @@
   - **(2026)** [Introducing Adaptive Intelligence: undermining the economics of every bot attack](https://blog.cloudflare.com/introducing-adaptive-intelligence) 🌟 - Cloudflare introduces Adaptive Intelligence, a system that continuously retrains its bot detection models to generate disposable rules based on live traffic.
   - **(2026)** [BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents](https://blog.cloudflare.com/botbase-for-operators) 🌟 - Cloudflare launches BotBase for Operators, a dedicated dashboard offering status tracking and behavioral modeling for AI agents and bot operators.
   - **(2026)** [Say it once: introducing Bot Preference Sync](https://blog.cloudflare.com/bot-preference-sync) 🌟 - Bot Preference Sync automatically aligns a site's robots.txt file with the AI bot policies configured in the Cloudflare dashboard.
+  - **(2026)** [Enforce positive security with Cloudflare Application Profiles](https://blog.cloudflare.com/application-profiles) 🌟 - Cloudflare Application Profiles learn HTTP request structures to enforce positive security and detect AI-generated attack payloads.
+  - **(2026)** [Preventing quantum downgrade attacks against IPsec](https://blog.cloudflare.com/ipsec-downgrade-protection) 🌟 - Cloudflare and IETF's transcript authentication extension prevents quantum downgrade attacks on IPsec connections.
 
 ## Networking
   - **(2026)** [How we found a bug in the hyper HTTP library](https://blog.cloudflare.com/hyper-bug) 🌟 - Cloudflare engineers isolate and patch an elusive, multi-version connection pooling bug in Rust's open-source hyper library.
@@ -30,3 +32,9 @@
 
 ## Case Studies
   - **(2026)** [The Cloudflare Blog – Brought to you by EmDash](https://blog.cloudflare.com/cloudflare-blog-uses-emdash) 🌟 - Cloudflare migrated its official blog to EmDash, a new Astro-based CMS, achieving extreme resilience and native MCP integration.
+
+## Domains
+  - **(2026)** [Simplifying domains for people and agents](https://blog.cloudflare.com/simplifying-domains) 🌟 - Cloudflare Registrar launches a new fast search experience across 420+ extensions, accessible via Workers, WebSockets, and API/CLI for agent-based domain management.
+
+## Developer Tools
+  - **(2026)** [Introducing cf: the agentic CLI for the entire Cloudflare API](https://blog.cloudflare.com/cloudflare-cf-cli-launch) 🌟 - A next-generation CLI tailored for agentic development, exposing thousands of Cloudflare API endpoints natively.

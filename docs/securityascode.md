@@ -109,7 +109,7 @@
 - [kyverno.io: Mutating Resources](https://kyverno.io/docs/writing-policies/mutate) Modify resources during admission control (Kyverno supports mutating resources).
 - [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.solarwinds.com/blog/category/incident-response)
 - [neonmirrors.net: Exploring Kyverno: Part 3, Generation](https://neonmirrors.net/post/2020-12/exploring-kyverno-part3)
-- [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check-deprecated-apis/check-deprecated-apis/) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
+- [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check-deprecated-apis/check-deprecated-apis) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
 - [kyverno.io: Generating resources into existing namespaces](https://kyverno.io/docs/writing-policies/generate)
 - [kyverno.io: Add Pod Proxies](https://kyverno.io/policies/other/add-pod-proxies) A kyverno policy to inject K8s Pod proxy env variables.
 - [kyverno.io: Auto-Gen Rules for Pod Controllers](https://kyverno.io/docs/writing-policies/autogen) Automatically generate rules for Pod controllers.
@@ -169,3 +169,11 @@
 - [Azure Policy](azure.md)
 
   - **(2026)** [How We're Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees](https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp) 🌟 - An early technical overview of Scam Alert, an on-device machine learning model alerting users about potential scam messages while protecting E2EE.
+
+  - **(2026)** [Using AI to chart a course for our post-quantum migration](https://blog.cloudflare.com/ai-driven-cryptography-discovery) 🌟 - Cloudflare introduces CryptoLabe, an internal AI-powered tool designed to discover cryptography usage across its codebase.
+
+  - **(2026)** [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority) 🌟 - Cloudflare announces its intent to become a public CA to provide free, automated, post-quantum resilient certificates at global scale.
+
+  - **(2026)** [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs) 🌟 - Cloudflare details its upcoming support for Merkle Tree Certificates (MTCs) to solve the scale and performance challenges of post-quantum cryptography.
+
+  - **(2026)** [We tested our own WAF with frontier AI models. Here's what we found](https://blog.cloudflare.com/adaptive-ai-waf-testing) 🌟 - Cloudflare engineered an adaptive AI-driven WAF testing loop that mutates attack vectors to uncover hidden evasion techniques.

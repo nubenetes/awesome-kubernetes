@@ -70,3 +70,5 @@
 </details>
 
   - **(2026)** [Highlights from Git 2.55](https://github.blog/open-source/git/highlights-from-git-2-55) 🌟 - A technical review of Git 2.55, introducing crucial repository repacking strategies, file system system daemons, and branch visualization limits.
+
+  - **(2026)** [Highlights from Git 2.56](https://github.blog/open-source/git/highlights-from-git-2-56) 🌟 - The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time.
