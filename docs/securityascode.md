@@ -109,7 +109,7 @@
 - [kyverno.io: Mutating Resources](https://kyverno.io/docs/writing-policies/mutate) Modify resources during admission control (Kyverno supports mutating resources).
 - [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.solarwinds.com/blog/category/incident-response)
 - [neonmirrors.net: Exploring Kyverno: Part 3, Generation](https://neonmirrors.net/post/2020-12/exploring-kyverno-part3)
-- [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check-deprecated-apis/check-deprecated-apis/) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
+- [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check-deprecated-apis/check-deprecated-apis) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
 - [kyverno.io: Generating resources into existing namespaces](https://kyverno.io/docs/writing-policies/generate)
 - [kyverno.io: Add Pod Proxies](https://kyverno.io/policies/other/add-pod-proxies) A kyverno policy to inject K8s Pod proxy env variables.
 - [kyverno.io: Auto-Gen Rules for Pod Controllers](https://kyverno.io/docs/writing-policies/autogen) Automatically generate rules for Pod controllers.
