@@ -169,3 +169,5 @@ security from the beginning with continuous testing, automation, zero trust, and
 
 ## Kubernetes
   - **(2026)** [Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks](https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks) 🌟 - AWS introduces native Kubernetes version rollbacks for Amazon EKS clusters to mitigate upgrade risks.
+
+  - **(2026)** [AWS Elastic Beanstalk introduces Cluster Mode](https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode) 🌟 - AWS Elastic Beanstalk introduces Cluster Mode for improved workload management.

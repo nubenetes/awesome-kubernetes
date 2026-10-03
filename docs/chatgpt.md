@@ -97,9 +97,20 @@
 
 ## ChatGPT in Healthcare
   - **(2026)** [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) 🌟 - Enhancing user-facing health queries and clinical safety through physician-evaluated reasoning in GPT-5.5 Instant.
+  - **(2026)** [Healthcare organizations can now connect EHR and additional industry data to ChatGPT](https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources) 🌟 - OpenAI introduces EHR integrations and the Healthcare Public Data plugin for secure, compliant clinical workflows within ChatGPT.
 
 ## GPT-Live
   - **(2026)** [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live) 🌟 - A new generation of voice models featuring a full-duplex architecture for natural human-AI interaction.
 
 ## ChatGPT Sites
   - **(2026)** [Building Websites with ChatGPT Sites - Event - OpenAI Academy](https://openai.com/academy/chatgpt-sites) 🌟 - An OpenAI Academy session demonstrating how to build and deploy interactive websites using the zero-code ChatGPT Sites feature.
+
+## ChatGPT Ads
+  - **(2026)** [A milestone in expanding access to AI: ChatGPT Ads](https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads) 🌟 - ChatGPT Ads reaches a $1 billion annualized revenue run rate, fueling free access to AI for over a billion users globally.
+  - **(2026)** [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) 🌟 - OpenAI's official announcement detailing the pilot program for integrating ads into the ChatGPT Free and Go tiers.
+
+## AI Safety
+  - **(2026)** [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai) 🌟 - An overview of OpenAI's age-appropriate protections for adolescents, highlighting safety frameworks and active learning modes.
+
+## ChatGPT in Sales
+  - **(2026)** [Sales workflows with ChatGPT Work](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex) 🌟 - A technical guide showcasing how sales teams utilize ChatGPT Work plugins to automate pipeline briefs, forecast reviews, and meeting preparations.

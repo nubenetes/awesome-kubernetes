@@ -28,3 +28,11 @@ If you meet the requirements and wish to claim a specific inactive handle, you c
   - **(2026)** [Don't stop early: Case-folding source code at memory speed](https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed) 🌟 - How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.
 
   - **(2026)** [Modeling Device Capabilities for Analytics](https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4) 🌟 - Netflix has built a comprehensive device capability data model to support analytics across its diverse global device ecosystem.
+
+  - **(2026)** [DevFest 2026: Google Developer Events](https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026) 🌟 - DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.
+
+  - **(2026)** [Improving site performance by shipping more CSS](https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css) 🌟 - How we fully migrated github.com away from CSS-in-JS.
+
+  - **(2026)** [Rendering huge pull requests in the GitHub Copilot app](https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app) 🌟 - How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.
+
+  - **(2026)** [Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems](https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems) 🌟 - A mature C++ library for specifying and solving large-scale assignment and resource allocation problems.

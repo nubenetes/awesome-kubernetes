@@ -72,3 +72,9 @@
 
 ## Graph Databases
   - **(2026)** [How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API](https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4) 🌟 - This is the third entry of a multi-part blog series describing how Netflix built a Real-Time Distributed Graph using a gRPC execution API.
+
+  - **(2026)** [Rapidly scaling online storage to serve over 1 billion ChatGPT users](https://openai.com/index/scaling-storage-one-billion-users-part-one) 🌟 - An architectural deep-dive into Habitat, OpenAI's distributed storage platform built to handle 70 million requests per second.
+
+  - **(2026)** [ZGateway: Learnings from Putting a Proxy in Front of ZippyDB](https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta) 🌟 - Meta outlines the architectural evolution of ZippyDB through the implementation of ZGateway, a specialized proxy layer.
+
+  - **(2026)** [Supabase](https://github.com/supabase/supabase) 🌟 - The open source Firebase alternative. Build complete applications using PostgreSQL.

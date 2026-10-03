@@ -25,6 +25,7 @@
 - https://aws.amazon.com/eventbridge
 - [==Building an event-driven application with Amazon EventBridge==](https://aws.amazon.com/blogs/compute/building-an-event-driven-application-with-amazon-eventbridge) **“In event-driven architecture, each component of the application raises an event whenever anything changes. Other components listen and decide what to do with it and how they would like to react.”** – by @talia_nassi
 - [faun.pub: Implementing Event Driven Architecture With AWS EventBridge — Event-Driven Messaging Pattern](https://faun.pub/implementing-event-driven-architecture-with-aws-eventbridge-event-driven-messaging-pattern-9d29262bfade?gi=da1a028e34c2)
+  - **(2026)** [Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications](https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications) 🌟 - AWS launches enhanced custom event buses for Amazon EventBridge, explicitly designed for enterprise-scale event-driven architectures.
 
 ## Tweets
 

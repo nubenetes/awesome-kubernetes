@@ -89,3 +89,4 @@
 
 ## JavaScript Tooling
   - **(2026)** [VoidZero is joining Cloudflare](https://blog.cloudflare.com/voidzero-joins-cloudflare) 🌟 - Cloudflare announces VoidZero is joining the company to commit engineering and resources to the Vite, Vitest, Rolldown, and Oxc ecosystem while maintaining their open-source foundation.
+  - **(2026)** [Next.js applications, powered by Vite: introducing Vinext 1.0](https://blog.cloudflare.com/vinext-nextjs-on-vite) 🌟 - Vinext 1.0 makes Next.js applications portable and deployable to any edge platform using Vite.

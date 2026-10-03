@@ -201,3 +201,6 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
 
 </center>
 </details>
+
+## Modern Java Tooling
+  - **(2026)** [Leave the Class Path in the Rearview Mirror](https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4) 🌟 - Introducing composable, module system native and agent friendly command line tools for modern Java development.
