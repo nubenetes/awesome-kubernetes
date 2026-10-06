@@ -2039,7 +2039,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Transforms Kubernetes into a universal control plane framework to declaratively manage multi-cloud infrastructure via standard custom resources.",
+        "why": "It drives a paradigm shift by transforming Kubernetes into a universal control plane to manage any cloud infrastructure declaratively.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2048,7 +2048,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as the indispensable hardware integration layer required to schedule and run accelerated AI/ML workloads on Kubernetes clusters.",
+        "why": "It serves as the indispensable foundation for scheduling and orchestrating hardware-accelerated AI and machine learning workloads in Kubernetes.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2057,7 +2057,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "Remains the foundational core component driving automated node provisioning and infrastructure elasticity across enterprise cloud environments.",
+        "why": "It remains the core upstream component orchestrating dynamic node capacity and automated scaling across enterprise cloud clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2066,34 +2066,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Sets the enterprise standard for Kubernetes FinOps by delivering real-time cost allocation and multi-cluster capacity observability.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/Azure/azure-workload-identity",
-        "title": "==Azure/azure-workload-identity==",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Establishes a secretless, modern enterprise standard for federating Kubernetes service accounts with cloud IAM via OIDC.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/akuity/kargo",
-        "title": "==github.com/akuity/kargo==",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Fills a major operational gap in GitOps workflows by providing a Kubernetes-native promotion engine across multi-stage environments.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/external-dns",
-        "title": "external-dns",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides essential cluster connectivity automation by dynamically configuring cloud DNS records from active Services and Ingresses.",
+        "why": "It is the industry-standard FinOps tool providing granular real-time cost observability and allocation across multi-cluster environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2102,16 +2075,16 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Allows platform teams to provision and lifecycle-manage native AWS managed services directly using Kubernetes manifests.",
+        "why": "It enables platform teams to declaratively provision and manage AWS cloud services directly through native Kubernetes resource models.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/derailed/k9s",
-        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
-        "date": "2026-06-13",
+        "url": "https://github.com/Azure/azure-workload-identity",
+        "title": "==Azure/azure-workload-identity==",
+        "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as the industry-standard terminal management tool, significantly speeding up real-time cluster triage and developer operations.",
+        "why": "It sets the modern enterprise standard for credential-less, OIDC-federated authentication between Kubernetes workloads and Azure cloud resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2120,7 +2093,34 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Provides crucial autonomous resource rightsizing for container workloads to maximize compute efficiency and prevent resource exhaustion.",
+        "why": "It delivers critical automated resource rightsizing by dynamically adjusting container CPU and memory allocations to maximize cluster efficiency.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/external-dns",
+        "title": "external-dns",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "It is the essential Kubernetes SIGs add-on for automatically synchronizing cluster Ingress and Service endpoints with external DNS providers.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/akuity/kargo",
+        "title": "==github.com/akuity/kargo==",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "It introduces a GitOps-native promotion engine that bridges multi-environment release lifecycles across Kubernetes clusters.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/k8gb-io/k8gb",
+        "title": "k8gb 🌟",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "It delivers cloud-native Global Server Load Balancing to solve multi-cluster failover and geo-traffic routing without proprietary hardware dependencies.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -2862,30 +2862,30 @@
     ],
     "Infrastructure as Code": [
       {
-        "url": "https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more",
-        "title": "New in Terraform 1.15: Dynamic sources, variable deprecation, and more",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "critical",
-        "why": "Terraform 1.15 introduces native dynamic module sources and variable deprecation, fundamentally modernizing modular composition across enterprise codebases.",
-        "category": "Infrastructure as Code"
-      },
-      {
         "url": "https://www.infoq.com/news/2026/05/opentofu-release-terraform",
         "title": "OpenTofu 1.12: the Feature Terraform Never Shipped",
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "OpenTofu 1.12 solves a decade-long architectural limitation in upstream Terraform by unlocking dynamic module configuration within the open-source ecosystem.",
+        "why": "OpenTofu 1.12 delivers key modular capabilities long missing in upstream Terraform, cementing the open-source fork's technical momentum.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://www.pulumi.com/releases/agentic-infrastructure-era",
-        "title": "The Agentic Infrastructure Era | Pulumi Releases",
+        "url": "https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more",
+        "title": "New in Terraform 1.15: Dynamic sources, variable deprecation, and more",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "critical",
+        "why": "Terraform 1.15 introduces native dynamic module sources and versioning, addressing a fundamental architectural limitation in declarative HCL.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://www.pulumi.com/blog/the-agentic-infrastructure-era",
+        "title": "The Agentic Infrastructure Era",
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Marks a significant paradigm shift from static IaC definitions toward autonomous, agentic cloud provisioning and remediation workflows.",
+        "why": "Defines an industry paradigm shift moving from static declarative IaC files toward autonomous, agentic infrastructure management.",
         "category": "Infrastructure as Code"
       },
       {
@@ -2894,7 +2894,7 @@
         "date": "2026-05-29",
         "stars": 5,
         "impact": "high",
-        "why": "The definitive, battle-tested standard module for provisioning enterprise Kubernetes clusters reliably on AWS.",
+        "why": "Serves as the enterprise industry benchmark for deploying and configuring production-ready Amazon EKS clusters with IaC.",
         "category": "Infrastructure as Code"
       },
       {
@@ -2903,7 +2903,7 @@
         "date": "2026-06-03",
         "stars": 5,
         "impact": "high",
-        "why": "De facto industry standard for shifting FinOps left by delivering automated cloud cost projections inside IaC pull requests.",
+        "why": "Acts as the standard shift-left FinOps tool for real-time cloud cost projection in automated IaC pull request workflows.",
         "category": "Infrastructure as Code"
       },
       {
@@ -2912,7 +2912,7 @@
         "date": "2026-05-17",
         "stars": 5,
         "impact": "high",
-        "why": "The foundational community registry underpinning majority production AWS architectures across the cloud-native ecosystem.",
+        "why": "Provides the foundational, battle-tested registry modules relied on by thousands of enterprises to manage core cloud topologies.",
         "category": "Infrastructure as Code"
       },
       {
@@ -2921,7 +2921,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Essential compiler-aware static analysis engine enforcing provider-level compliance, deprecation warnings, and quality standards in CI/CD.",
+        "why": "Essential compiler-aware static analysis tool widely integrated into enterprise CI/CD gates to enforce IaC reliability and standards.",
         "category": "Infrastructure as Code"
       },
       {
@@ -2929,8 +2929,8 @@
         "title": "mineiros-io/terramate",
         "date": "2026-05-27",
         "stars": 3,
-        "impact": "medium",
-        "why": "Solves complex IaC scalability challenges through native change detection, code generation, and monorepo orchestration for Terraform and OpenTofu.",
+        "impact": "high",
+        "why": "Solves complex monorepo scaling challenges by introducing selective change detection and orchestration for Terraform and OpenTofu stacks.",
         "category": "Infrastructure as Code"
       },
       {
@@ -2939,16 +2939,16 @@
         "date": "2026-06-10",
         "stars": 3,
         "impact": "medium",
-        "why": "Provides crucial automated security posture and misconfiguration scanning across Terraform, Kubernetes manifests, and Helm charts.",
+        "why": "Delivers unified security vulnerability and compliance scanning across Terraform, Kubernetes manifests, and Helm charts.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://github.com/ansible/awx-operator",
-        "title": "AWX Operator",
-        "date": "2026-06-10",
+        "url": "https://blog.devops.dev/terraform-drift-detection-in-production-why-plan-isnt-enough-f660af7e1029",
+        "title": "Terraform Drift Detection in Production: Why plan Isn't Enough",
+        "date": "2026-06-02",
         "stars": 4,
         "impact": "medium",
-        "why": "Bridges configuration management with Kubernetes-native lifecycle operations via custom resource definitions.",
+        "why": "Addresses a critical day-2 operational hurdle by analyzing why plan-based monitoring fails to detect real-world infrastructure drift.",
         "category": "Infrastructure as Code"
       }
     ],
@@ -3511,7 +3511,16 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "Marks a transformative shift in enterprise AI infrastructure by natively providing OpenAI frontier models and Codex on Amazon Bedrock.",
+        "why": "Marks a major cloud industry milestone by bringing OpenAI frontier models and Codex directly into Amazon Bedrock for enterprise AI workloads.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/localstack/localstack",
+        "title": "github.com/localstack/localstack",
+        "date": "2026-03-23",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Remains the industry-standard cloud emulator for local AWS development, testing, and continuous integration workflows.",
         "category": "AWS"
       },
       {
@@ -3520,25 +3529,7 @@
         "date": "2025-03-25",
         "stars": 5,
         "impact": "high",
-        "why": "Provides direct engineering transparency and prioritization for AWS's core cloud-native container services including EKS and ECS.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/localstack/localstack",
-        "title": "github.com/localstack/localstack",
-        "date": "2026-03-23",
-        "stars": 5,
-        "impact": "high",
-        "why": "Serves as the de facto open-source cloud emulation platform, dramatically accelerating local cloud-native development and CI test cycles.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/tenable/access-undenied-aws",
-        "title": "ermetic/access-undenied-aws 🌟",
-        "date": "2026-04-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Dramatically reduces security operations overhead by pinpointing the precise SCPs and policy boundaries behind AWS Access Denied errors.",
+        "why": "Provides essential visibility and community input into the engineering roadmap for AWS container platforms including EKS, ECS, and ECR.",
         "category": "AWS"
       },
       {
@@ -3547,25 +3538,34 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Decouples compute from storage to deliver true elastic autoscaling for agentic AI workloads and vector search at scale.",
+        "why": "Introduces a modernized decoupled compute-storage serverless architecture tailored for scaling agentic AI and vector workloads on AWS.",
         "category": "AWS"
       },
       {
-        "url": "https://github.com/awslabs/amazon-ecr-credential-helper",
-        "title": "awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper",
-        "date": "2026-06-09",
-        "stars": 4,
-        "impact": "high",
-        "why": "Provides a critical, production-standard authentication bridge enabling container runtimes to pull seamlessly from Amazon ECR without credential churn.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/open-guides/og-aws",
-        "title": "The Open Guide to Amazon Web Services",
-        "date": "2024-08-16",
+        "url": "https://github.com/tenable/access-undenied-aws",
+        "title": "ermetic/access-undenied-aws 🌟",
+        "date": "2026-04-13",
         "stars": 5,
         "impact": "high",
-        "why": "Offers a massive, community-driven technical encyclopedia documenting unvarnished operational limits and real-world trade-offs across AWS services.",
+        "why": "Drastically reduces enterprise operational friction by parsing CloudTrail and IAM policies to explain exact causes of AWS Access Denied errors.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026",
+        "title": "AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "high",
+        "why": "Announces significant production releases including Anthropic Claude Opus 4.8 on Bedrock and major modernization upgrades for Aurora MySQL.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
+        "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "high",
+        "why": "Showcases an industry-leading cloud-native observability architecture correlating eBPF network flows across large-scale AWS microservices.",
         "category": "AWS"
       },
       {
@@ -3574,7 +3574,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "medium",
-        "why": "Delivers a native open-source security event simulator that empowers enterprise SecOps teams to validate threat detection pipelines on AWS.",
+        "why": "Offers a purpose-built AWS security chaos engineering framework to simulate malicious events and validate detection defenses.",
         "category": "AWS"
       },
       {
@@ -3583,16 +3583,16 @@
         "date": "2024-04-20",
         "stars": 5,
         "impact": "medium",
-        "why": "Brings the intuitive terminal-UI navigation paradigm of k9s to AWS cloud infrastructure management and resource monitoring.",
+        "why": "Delivers a k9s-style interactive terminal user interface that streamlines real-time navigation and monitoring of AWS resources.",
         "category": "AWS"
       },
       {
-        "url": "https://www.learnawsiam.com",
-        "title": "Learn AWS IAM Interactively",
-        "date": "2026-06-02",
+        "url": "https://github.com/awslabs/amazon-ecr-credential-helper",
+        "title": "awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper",
+        "date": "2026-06-09",
         "stars": 4,
         "impact": "medium",
-        "why": "Improves operational IAM security hygiene through interactive browser-based visualization and policy evaluation simulations.",
+        "why": "Provides a crucial native Docker credential helper that eliminates manual credential management for AWS ECR authentication pipelines.",
         "category": "AWS"
       }
     ],
@@ -3695,7 +3695,7 @@
         "date": "2026-06-10",
         "stars": 4,
         "impact": "critical",
-        "why": "Provides a definitive reference catalog for core microservice design patterns, API gateways, and distributed event-driven architectures.",
+        "why": "It serves as the definitive reference catalog for microservices design patterns, distributed consensus engines, API gateways, and distributed tracing architectures.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3703,17 +3703,8 @@
         "title": "rootsongjc/awesome-cloud-native 🌟",
         "date": "2026-06-08",
         "stars": 5,
-        "impact": "high",
-        "why": "Offers an extensive structural mapping of CNCF cloud-native components, service meshes, and dynamic infrastructure services.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://developer.hashicorp.com",
-        "title": "developer.hashicorp.com 🌟",
-        "date": "2026-06-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Acts as the authoritative documentation hub for key architectural primitives including Consul service mesh, Vault secrets management, and Terraform.",
+        "impact": "critical",
+        "why": "It systematically maps the CNCF ecosystem, providing cloud architects with blueprints for service meshes, distributed storage, and cloud-native topologies.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3722,7 +3713,7 @@
         "date": "2026-05-25",
         "stars": 5,
         "impact": "high",
-        "why": "Enables standardized policy-as-code and decoupled authorization architecture across distributed microservices using Open Policy Agent.",
+        "why": "Open Policy Agent provides the architectural foundation for decoupled, declarative policy-as-code and zero-trust authorization across distributed microservices.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3731,16 +3722,16 @@
         "date": "2026-04-25",
         "stars": 5,
         "impact": "high",
-        "why": "Catalogs best practices and frameworks for implementing Kubernetes Operators to automate domain-specific distributed application architectures.",
+        "why": "It curates essential frameworks and SDKs for the Kubernetes Operator pattern, enabling declarative state management and automated domain logic in cloud-native platforms.",
         "category": "Architecture & Microservices"
       },
       {
-        "url": "https://github.com/mailtoharshit/Awesome-Api-Management-Tools",
-        "title": "Awesome API Management Tools",
-        "date": "2022-11-10",
-        "stars": 5,
+        "url": "https://developer.hashicorp.com",
+        "title": "developer.hashicorp.com 🌟",
+        "date": "2026-06-01",
+        "stars": 4,
         "impact": "high",
-        "why": "Focuses on API lifecycle management, contracts, and gateway tooling necessary for decoupling modern microservice ecosystems.",
+        "why": "Provides official architectural patterns and runtime specifications for foundational microservices infrastructure including Consul service discovery and Vault secret governance.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3749,7 +3740,16 @@
         "date": "2026-06-10",
         "stars": 5,
         "impact": "high",
-        "why": "Demonstrates canonical declarative multi-container topologies and service orchestration patterns for microservices environments.",
+        "why": "Offers production-grade declarative specifications for local multi-container topologies and decoupled microservice communication patterns.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/mailtoharshit/Awesome-Api-Management-Tools",
+        "title": "Awesome API Management Tools",
+        "date": "2022-11-10",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Covers critical API gateway implementations and contract lifecycle tools essential for building decoupled, API-first microservices architectures.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3758,25 +3758,25 @@
         "date": "2026-06-09",
         "stars": 5,
         "impact": "medium",
-        "why": "Provides an architecture-as-code framework in Python to programmatically design and document complex cloud-native systems.",
+        "why": "Enables engineering teams to adopt architecture-as-code by generating cloud and microservice topology diagrams directly using Python scripts.",
         "category": "Architecture & Microservices"
       },
       {
-        "url": "https://nubenetes.com/terraform",
-        "title": "Terraform Kubernetes Boilerplates 🌟",
-        "date": "2026-06-14",
+        "url": "https://github.com/clusterpedia-io/clusterpedia",
+        "title": "clusterpedia-io/clusterpedia 🌟",
+        "date": "2026-05-30",
         "stars": 5,
         "impact": "medium",
-        "why": "Supplies production-grade infrastructure blueprints essential for hosting resilient microservice architectures on managed Kubernetes.",
+        "why": "Introduces a novel aggregation architecture for multi-cluster Kubernetes resource synchronization and low-latency discovery.",
         "category": "Architecture & Microservices"
       },
       {
-        "url": "https://github.com/lukemurraynz/awesome-azure-architecture",
-        "title": "github.com/lukemurraynz/awesome-azure-architecture 🌟",
-        "date": "2026-05-23",
+        "url": "https://github.com/akullpp/awesome-java",
+        "title": "Awesome Java 🌟",
+        "date": "2026-04-12",
         "stars": 5,
         "impact": "medium",
-        "why": "Delivers enterprise-ready landing zone blueprints and architectural reference designs for scalable distributed cloud deployments.",
+        "why": "Indexes leading cloud-native microservices frameworks such as Quarkus, Micronaut, and Spring Boot, which power modern enterprise backend modernization.",
         "category": "Architecture & Microservices"
       }
     ],
@@ -4063,7 +4063,7 @@
         "date": "2026-06-01",
         "stars": 0,
         "impact": "critical",
-        "why": "Defines the core industry framework, standards like FOCUS, and foundational operational models for all cloud financial management.",
+        "why": "Serves as the canonical Linux Foundation framework and open standards body defining modern FinOps and FOCUS specifications across the industry.",
         "category": "FinOps & Cloud Cost"
       },
       {
@@ -4071,35 +4071,8 @@
         "title": "cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend",
         "date": "2026-06-18",
         "stars": 0,
-        "impact": "high",
-        "why": "Provides authoritative CNCF guidance addressing the widespread visibility gap in container resource allocation and cluster overspend.",
-        "category": "FinOps & Cloud Cost"
-      },
-      {
-        "url": "https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation",
-        "title": "cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation' (EKS)",
-        "date": "2026-05-17",
-        "stars": 5,
-        "impact": "high",
-        "why": "Details production strategies for autonomous Kubernetes rightsizing and node scaling on EKS to eliminate container waste.",
-        "category": "FinOps & Cloud Cost"
-      },
-      {
-        "url": "https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill",
-        "title": "thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill",
-        "date": "2026-05-18",
-        "stars": 0,
-        "impact": "high",
-        "why": "Offers essential architectural patterns combining Karpenter, Spot instances, and namespace governance to reduce Kubernetes cloud bills.",
-        "category": "FinOps & Cloud Cost"
-      },
-      {
-        "url": "https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9",
-        "title": "engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes' cost by $300,000",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "high",
-        "why": "Demonstrates a real-world enterprise case study of operationalizing FinOps culture and tooling to achieve major cluster savings at scale.",
+        "impact": "critical",
+        "why": "Establishes the CNCF's architectural baseline addressing Kubernetes container-level cost allocation blindspots and runaway infrastructure spend.",
         "category": "FinOps & Cloud Cost"
       },
       {
@@ -4108,7 +4081,43 @@
         "date": "2026-05-17",
         "stars": 5,
         "impact": "high",
-        "why": "Presents AWS's primary open-source enterprise framework for translating complex billing datasets into actionable cost governance dashboards.",
+        "why": "Represents the de facto open-source enterprise standard for deep AWS cost visualization and usage intelligence via CUDOS dashboards.",
+        "category": "FinOps & Cloud Cost"
+      },
+      {
+        "url": "https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill",
+        "title": "thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill",
+        "date": "2026-05-18",
+        "stars": 0,
+        "impact": "high",
+        "why": "Provides an actionable engineering guide combining Karpenter autoscaling, spot instances, and resource quotas to optimize cloud-native compute spend.",
+        "category": "FinOps & Cloud Cost"
+      },
+      {
+        "url": "https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation",
+        "title": "cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation' (EKS)",
+        "date": "2026-05-17",
+        "stars": 5,
+        "impact": "high",
+        "why": "Addresses dynamic container-level rightsizing and intelligent bin-packing to eliminate over-provisioning in production Kubernetes clusters.",
+        "category": "FinOps & Cloud Cost"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/aws-cloud-financial-management/announcing-general-availability-of-aws-cost-anomaly-detection",
+        "title": "Announcing General Availability of AWS Cost Anomaly Detection",
+        "date": "2026-05-18",
+        "stars": 0,
+        "impact": "high",
+        "why": "Introduces production-grade machine learning anomaly detection to alert engineering teams to runaway billing events in real time.",
+        "category": "FinOps & Cloud Cost"
+      },
+      {
+        "url": "https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans",
+        "title": "thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans",
+        "date": "2026-05-17",
+        "stars": 4,
+        "impact": "high",
+        "why": "Highlights crucial operational risks where rigid financial discount commitments can hinder agile architectural evolutions.",
         "category": "FinOps & Cloud Cost"
       },
       {
@@ -4117,34 +4126,25 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Highlights the critical shift in FinOps toward managing and justifying runaway token and infrastructure costs in enterprise AI deployments.",
+        "why": "Highlights the critical emerging FinOps frontier around managing and justifying runaway GenAI infrastructure and token usage expenses.",
         "category": "FinOps & Cloud Cost"
       },
       {
-        "url": "https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67",
-        "title": "medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter",
+        "url": "https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9",
+        "title": "engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes' cost by $300,000",
         "date": "2026-05-17",
         "stars": 0,
         "impact": "medium",
-        "why": "Compares the leading modern Kubernetes autoscaling technologies, Karpenter and CAST AI, for compute optimization.",
+        "why": "Delivers a transparent, production-proven enterprise case study demonstrating how cultural and architectural shifts slashed Kubernetes spend by hundreds of thousands of dollars.",
         "category": "FinOps & Cloud Cost"
       },
       {
-        "url": "https://github.com/towardsthecloud/cloudburn",
-        "title": "Cloudburn: An Open-Source Policy Engine for AWS Spending",
-        "date": "2026-04-09",
+        "url": "https://github.com/mivano/azure-cost-cli",
+        "title": "==github.com/mivano/azure-cost-cli==",
+        "date": "2026-06-08",
         "stars": 4,
         "impact": "medium",
-        "why": "Introduces a policy-as-code approach to spending governance, automatically auditing infrastructure waste via declarative rules.",
-        "category": "FinOps & Cloud Cost"
-      },
-      {
-        "url": "https://medium.com/compass-true-north/halving-kubernetes-compute-costs-with-vertical-pod-autoscaler-df658c043301",
-        "title": "medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical' Pod Autoscaler",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Provides practical implementation techniques for leveraging Kubernetes Vertical Pod Autoscalers to drastically trim container compute requirements.",
+        "why": "Provides a modern developer-centric CLI tool to accelerate tag-based chargeback analysis and discover untagged cloud infrastructure.",
         "category": "FinOps & Cloud Cost"
       }
     ],
@@ -4816,75 +4816,12 @@
     ],
     "Python, Java & Developer Ecosystem": [
       {
-        "url": "https://github.com/metalbear-co/mirrord",
-        "title": "==metalbear-co/mirrord==",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Streamlines cloud-native workflows by transparently mirroring Kubernetes traffic and DNS into local processes without redeployments.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
         "url": "https://github.com/astral-sh/ruff",
         "title": "==Ruff==",
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Redefined the Python development ecosystem by replacing disparate linting and formatting tools with an ultra-fast, Rust-based de facto standard.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://github.com/PlaytikaOSS/testcontainers-spring-boot",
-        "title": "testcontainers-spring-boot 🌟",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Eliminates fragile mocks by automating production-grade container dependencies directly within Spring Boot integration test lifecycles.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://github.com/spring-projects/spring-boot#L73",
-        "title": "github.com/spring-projects: springboot enables these probes automatically when running in k8s",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Ensures seamless container orchestration by automatically exposing native Kubernetes liveness and readiness health probes in Spring Boot.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://github.com/pydantic/pydantic",
-        "title": "pydantic/pydantic",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Serves as the foundational, high-performance data parsing and schema validation backbone for modern Python microservices and APIs.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://github.com/spring-cloud/spring-cloud-kubernetes",
-        "title": "github: Spring Cloud Kubernetes 🌟",
-        "date": "2026-06-12",
-        "stars": 5,
-        "impact": "high",
-        "why": "Allows enterprise Spring applications to natively leverage Kubernetes ConfigMaps, Secrets, and service discovery mechanisms.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://grpc.io",
-        "title": "gRPC",
-        "date": "2026-06-01",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides the industry-standard, high-performance binary RPC protocol powering polyglot microservice communication across cloud-native environments.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://openapi-generator.tech",
-        "title": "OpenAPI Generator 🌟",
-        "date": "2026-06-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "Drives API-first development across enterprise teams by generating boilerplate-free clients and server stubs across over 50 languages.",
+        "why": "Ruff has transformed the Python developer ecosystem by replacing multiple legacy tools with an ultra-fast, Rust-based linter and formatter that drastically cuts CI runtimes.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
@@ -4893,7 +4830,70 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Revolutionizes Java for cloud-native deployment with ultra-fast startup times and minimal memory footprints tailored for GraalVM and containers.",
+        "why": "Quarkus redefined enterprise Java for Kubernetes by delivering sub-atomic startup times and low memory footprints optimized for containers and GraalVM.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://github.com/pydantic/pydantic",
+        "title": "pydantic/pydantic",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Pydantic is the foundational data validation and typing backbone for modern cloud-native Python services and API frameworks.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://grpc.io",
+        "title": "gRPC",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "critical",
+        "why": "gRPC remains the universal cloud-native remote procedure call standard powering low-latency inter-service communication across polyglot microservices.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://github.com/metalbear-co/mirrord",
+        "title": "==metalbear-co/mirrord==",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "mirrord eliminates slow build-and-deploy cycles by seamlessly bridging local developer processes directly into remote Kubernetes namespaces.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://github.com/PlaytikaOSS/testcontainers-spring-boot",
+        "title": "testcontainers-spring-boot 🌟",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Testcontainers automates containerized dependency lifecycles, establishing reproducible, shift-left integration testing for enterprise Spring Boot pipelines.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://github.com/spring-cloud/spring-cloud-kubernetes",
+        "title": "github: Spring Cloud Kubernetes 🌟",
+        "date": "2026-06-12",
+        "stars": 5,
+        "impact": "high",
+        "why": "Spring Cloud Kubernetes provides the native bridge that allows enterprise Java applications to seamlessly consume Kubernetes ConfigMaps, Secrets, and service discovery.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://spring.io/projects/spring-cloud",
+        "title": "Spring Cloud",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Spring Cloud provides the reference architecture and distributed system primitives for operating Java microservices at enterprise scale.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://openapi-generator.tech",
+        "title": "OpenAPI Generator 🌟",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "OpenAPI Generator is an essential developer tooling cornerstone that automates consistent, polyglot client SDKs and server scaffolding from standard API contracts.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
@@ -4902,7 +4902,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Provides the defining, protocol-agnostic specification standard for designing and documenting asynchronous, event-driven microservices.",
+        "why": "AsyncAPI establishes the industry standard for defining, documenting, and governing event-driven microservices across cloud-native architectures.",
         "category": "Python, Java & Developer Ecosystem"
       }
     ],
@@ -6830,9 +6830,9 @@
     },
     "6_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-10-01T10:40:55.921643+02:00",
-        "entry_hash": "0ec4bc6bc88ddb3c",
-        "entry_count": 1402,
+        "last_analyzed": "2026-10-06T20:49:22.540424+02:00",
+        "entry_hash": "7d6d88ef4f1920f9",
+        "entry_count": 1400,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -6884,9 +6884,9 @@
         "method": "gemini"
       },
       "Infrastructure as Code": {
-        "last_analyzed": "2026-10-01T10:41:38.654182+02:00",
-        "entry_hash": "9618f67769395859",
-        "entry_count": 380,
+        "last_analyzed": "2026-10-06T20:49:34.690390+02:00",
+        "entry_hash": "358228b271b0da0c",
+        "entry_count": 379,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -6926,9 +6926,9 @@
         "method": "gemini"
       },
       "AWS": {
-        "last_analyzed": "2026-09-15T12:32:08.859386+02:00",
-        "entry_hash": "dc39aac99440dfe2",
-        "entry_count": 378,
+        "last_analyzed": "2026-10-06T20:49:50.845212+02:00",
+        "entry_hash": "9824211ac933520b",
+        "entry_count": 377,
         "method": "gemini"
       },
       "Security & Compliance": {
@@ -6938,9 +6938,9 @@
         "method": "gemini"
       },
       "Architecture & Microservices": {
-        "last_analyzed": "2026-09-15T12:32:18.560329+02:00",
-        "entry_hash": "a3319ff172088f89",
-        "entry_count": 235,
+        "last_analyzed": "2026-10-06T20:50:05.240254+02:00",
+        "entry_hash": "ac3d541832775746",
+        "entry_count": 234,
         "method": "gemini"
       },
       "Platform Engineering & DevEx": {
@@ -6962,9 +6962,9 @@
         "method": "gemini"
       },
       "FinOps & Cloud Cost": {
-        "last_analyzed": "2026-10-03T23:18:23.794345+02:00",
-        "entry_hash": "7c8ebc027608bf2a",
-        "entry_count": 42,
+        "last_analyzed": "2026-10-06T20:50:20.309213+02:00",
+        "entry_hash": "9d182c85ae35fb04",
+        "entry_count": 41,
         "method": "gemini"
       },
       "Virtualization & Private Cloud": {
@@ -7018,9 +7018,9 @@
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
-        "last_analyzed": "2026-10-03T23:19:11.960773+02:00",
-        "entry_hash": "5d37190f33930f36",
-        "entry_count": 734,
+        "last_analyzed": "2026-10-06T20:50:37.182751+02:00",
+        "entry_hash": "4a32ec6031a0a293",
+        "entry_count": 733,
         "method": "gemini"
       },
       "Linux & System Foundations": {
@@ -7144,6 +7144,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-10-03T23:27:25.434472+02:00"
+    "last_updated": "2026-10-06T20:50:38.188886+02:00"
   }
 }
