@@ -29,6 +29,7 @@
 
 - [dev.to: The most elegant way to performance test your microservices running on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) you'll learn how to measure the performance of backend applications running on Kubernetes & how to use Vegeta, a versatile HTTP load testing and benchmarking tool written in Golang
 - [garden.io: Performance testing on a microservice architecture](https://docs.garden.io)
+- [AbdelrhmanHamouda/locust-k8s-operator](https://github.com/AbdelrhmanHamouda/locust-k8s-operator) Kubernetes operator that runs distributed Locust load tests from a LocustTest custom resource (v1 and v2 API with a conversion webhook). Ships a Helm chart, exports OpenTelemetry metrics, and supports OpenShift.
 
 ## JMeter
 
