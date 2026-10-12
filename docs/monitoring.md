@@ -612,6 +612,7 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 - [Zebrium](https://www.zebrium.com) Monitoring detects problems, Zebrium finds root cause
 Resolve your software incidents 10x faster
 - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) A fancy self-hosted monitoring tool. Uptime Kuma is an open source monitoring tool that can be used to monitor the service uptime along with few other stats like Ping Status, Avg. Response time, uptime etc.
+- [fclairamb/solidping](https://github.com/fclairamb/solidping) Open-source uptime and synthetic monitoring in Go: 40+ check types including Kubernetes and gRPC, private agents, status pages, Helm chart.
 
 ## Other Awesome Lists
 
