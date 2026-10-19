@@ -241,6 +241,7 @@
 - [digitalocean.com: How To Use Journalctl to View and Manipulate Systemd Logs 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs)
 - [github.com/curl/wcurl 🌟](https://github.com/curl/wcurl) a simple wrapper around curl to easily download files
     - [blog.techiescamp.com: wcurl: A Simple Wrapper for curl to download files](https://blog.techiescamp.com/docs/wcurl)
+- [github.com/vpshostreview/vhr-vps-benchmark](https://github.com/vpshostreview/vhr-vps-benchmark) vhr-bench: MIT-licensed Bash script that benchmarks a Linux server or Kubernetes node (sysbench CPU and memory, fio 4k random IOPS) in about a minute
 
 ## Makefiles
 
