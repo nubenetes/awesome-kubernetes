@@ -92,11 +92,11 @@
 ---
 
 <a id="quick-navigation-map"></a>
-## 🗺️ Quick Navigation Map
+## Quick Navigation Map
 
 Nubenetes is organized into a dual-edition knowledge engine (V1 Exhaustive Archive vs V2 Agentic Elite Portal), centralized metadata databases, and an autonomous AI orchestration engine. Use this navigation map to explore the repository structure, documentation directories, and automation tooling.
 
-### 🧭 Repository Architecture & Directory Blueprint
+### Repository Architecture and Directory Blueprint
 
 ```text
 awesome-kubernetes/
@@ -140,7 +140,7 @@ awesome-kubernetes/
 └── 📄 v2-mkdocs.yml                     # MkDocs Material configuration for V2 Elite Portal
 ```
 
-### ⚖️ Dual-Edition Quick Decision Guide
+### ⚖ Dual-Edition Quick Decision Guide
 
 | Need / Use Case | Recommended Edition | Path | Key Highlights |
 | :--- | :--- | :--- | :--- |
@@ -151,7 +151,7 @@ awesome-kubernetes/
 
 ---
 <a id="ai-video-shorts"></a>
-## 🤖 AI-Generated Technical Video Shorts (YouTube Series)
+## AI-Generated Technical Video Shorts (YouTube Series)
 
 This repository is accompanied by an educational video series synthesized with **Gemini NotebookLM** based directly on the architectural patterns, agentic curation engine, and cloud-native insights from this project. All technical shorts are freely accessible on YouTube on the [**@nubenetes**](https://youtube.com/@nubenetes) channel.
 
@@ -224,7 +224,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **19835+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **7202+** |
+| **Total Commits** | **7203+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -262,7 +262,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 3643 | 15,045 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 3644 | 15,049 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -278,8 +278,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 16000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15045]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3643]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15049]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3644]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -291,7 +291,7 @@ xychart-beta
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
 | 2026-06 | 853 | 3,522 | Active Curation |
 | 2026-07 | 382 | 1,577 | Active Curation |
-| 2026-10 | 145 | 598 | Active Curation |
+| 2026-10 | 146 | 602 | Active Curation |
 | 2026-09 | 77 | 318 | Active Curation |
 | 2026-08 | 60 | 247 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
@@ -507,12 +507,14 @@ The V2 portal includes an **AI-powered Intelligence Digest** system that surface
 - **Automatic staleness detection**: entries enriched >6 months ago are re-evaluated by AI (`last_ai_eval`)
 
 #### V2 Data Quality and Pipeline Hardening (June 2026)
-- **CNCF Landscape Integration** (`src/enrichment.py`): Auto-fetches graduation status (Sandbox/Incubating/Graduated/Archived) for CNCF projects to power maturity tags.
+- **Canonical CNCF & LFAI Landscape Integration** (`src/enrichment.py`): Directly parses canonical `landscape.yml` files from CNCF and LF AI & Data Foundations (320+ projects across Sandbox/Incubating/Graduated/Archived) to power maturity tags.
+- **Composite Momentum & Velocity Scoring** (`compute_momentum_score` in `src/enrichment.py`): Combines log-scaled GitHub stars, monthly star velocity (`gh_stars_per_month`), commit freshness, and CNCF graduation bonuses to surface fast-rising Cloud-Native AI tools alongside foundational standards.
 - **GitHub Activity Enrichment**: Fetches issue/PR velocity and assigns community health scores (active/healthy/low/dormant).
 - **License Change Detection**: Compares stored licenses with current GitHub data, flagging high-impact changes (e.g., BSL, SSPL switches).
 - **Deduplication Engine** (`src/dedup.py`): URL normalization, content-hash matching, and title-similarity detection (85% threshold) to eliminate duplicate entries.
 - **Exception Observability**: All 50+ bare `except: pass` patterns across the pipeline replaced with contextual logging.
-- **Expanded Discovery**: Autonomous GitHub trending discovery expanded from 6 to 14 search queries covering DevOps, observability, security, IaC, databases, CI/CD, service mesh, and platform engineering.
+- **Expanded Velocity Discovery**: Autonomous GitHub trending discovery expanded to 20 velocity-sorted search queries covering Cloud-Native AI, GPU scheduling, vLLM inference, MCP servers for K8s, eBPF, DevOps, observability, security, IaC, service mesh, and platform engineering.
+- **Agent-Ready `llms.txt` Index**: Automatically generates `v2-docs/llms.txt` during V2 portal builds so AI coding agents can ingest Nubenetes' curated reference graph directly.
 - **Stale Health Re-check**: Online entries older than 30 days are automatically re-validated instead of being skipped.
 
 #### V2 MkDocs Material Enhancements (June 2026)
@@ -1007,16 +1009,16 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Discovery:** Scans multiple high-trust X.com accounts and RSS feeds.
     - **Quality Hardening (Mandate 2 & 3):** Systematically filters blacklisted domains and applies impact penalties to stale GitHub repositories.
     - **Classification:** Automatically maps new resources using the **Recursive technical hierarchy** and generates multi-language descriptions.
-        *   **K8s & Cloud Native:** `@nubenetes`, `@kubernetesio`, `@cncf`, `@kelseyhightower`, `@memenetes`.
+        *   **K8s & Cloud Native:** `@nubenetes`, `@kubernetesio`, `@cncf`, `@kelseyhightower`, `@memenetes` (plus official Kubernetes & CNCF RSS feeds).
         *   **Hyperscalers:** `@awscloud`, `@Azure`, `@GoogleCloud`, `@0GiS0`, `@NTFAQGuy`, `@cantrillio`, `@pvergadia`, `@QuinnyPig`.
-        *   **AI & Agents:** `@OpenAI`, `@AnthropicAI`, `@GoogleDeepMind`, `@GoogleAI`, `@LoganK`, `@NotebookLM`, `@LangChainAI`, `@llama_index`.
+        *   **AI & Agents:** `@OpenAI`, `@AnthropicAI`, `@GoogleDeepMind`, `@GoogleAI`, `@LoganK`, `@NotebookLM`, `@LangChainAI`, `@llama_index`, `@modelcontextpc`, `@vllm_project`, `@raydistributed`, `@huggingface`, `@NVIDIADev`.
         *   **Productivity:** `@GitHub`, `@Microsoft`, `@Cursor_AI`, `@midudev`, `@natfriedman`, `@karpathy`.
         *   **Data & Infra:** `@Databricks`, `@ApacheSpark`, `@snowflakedb`, `@HashiCorp`, `@PulumiCorp`, `@ArgoProj`, `@fluxcd`.
 2.  **V2VisionEngine ([`src/v2_optimizer.py`](src/v2_optimizer.py))**:
     - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
-    - **2026 Taxonomy:** Reorganizes content into high-density dimensions using **relevance-first sorting**.
+    - **2026 Taxonomy & Momentum Sorting:** Reorganizes content into high-density dimensions using **relevance-first and composite momentum sorting** (`stars`, `momentum_score`, `year`), and emits an agent-ready `llms.txt` index.
     - **MVQ Hardening:** Automatically identifies stale repositories to exclude them from the Elite portal.
-    - **Tags Page Cap (Recommendation #5)**: Caps the technical tag listings in `tags.md` to 100 entries per tag block (sorted by stars/year) to prevent DOM bloat, providing fallback links to the V1 Historical Archive.
+    - **Tags Page Cap (Recommendation #5)**: Caps the technical tag listings in `tags.md` to 100 entries per tag block (sorted by stars/momentum/year) to prevent DOM bloat, providing fallback links to the V1 Historical Archive.
 3.  **IntelligentHealthChecker ([`src/intelligent_health_checker.py`](src/intelligent_health_checker.py))**:
     - **Resilience:** asynchronous health checks with 3x retry and identity rotation.
     - **V1 Integrity:** Focuses on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible.
@@ -1404,9 +1406,9 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Health Check Logic:** [`src/intelligent_health_checker.py`](src/intelligent_health_checker.py) - Link rot prevention and canonical updates.
 - **Twikit Ingestion:** [`src/ingestion_twikit.py`](src/ingestion_twikit.py) - X.com scraping and account rotation logic.
 - **Backup Ingestion:** [`src/ingestion_backup.py`](src/ingestion_backup.py) - Manual and historical JSON data processing.
-- **Discovery Engine:** [`src/autonomous_discovery.py`](src/autonomous_discovery.py) - Multi-source technical news extraction (14 GitHub search queries).
+- **Discovery Engine:** [`src/autonomous_discovery.py`](src/autonomous_discovery.py) - Multi-source technical news extraction (20 velocity-sorted GitHub search queries).
 - **News Digest Engine:** [`src/news_digest.py`](src/news_digest.py) - AI-powered temporal digest across 26 categories with Gemini ranking (3/6/12 months).
-- **Enrichment Pipeline:** [`src/enrichment.py`](src/enrichment.py) - CNCF Landscape integration, GitHub activity enrichment, and license change detection.
+- **Enrichment Pipeline:** [`src/enrichment.py`](src/enrichment.py) - Canonical CNCF/LFAI Landscape YAML integration, composite momentum scoring, GitHub activity enrichment, and license change detection.
 - **Deduplication Engine:** [`src/dedup.py`](src/dedup.py) - URL normalization, content-hash, and title-similarity dedup (85% threshold).
 - **Backfill Utility:** [`scripts/backfill_discovered_at.py`](scripts/backfill_discovered_at.py) - One-shot `discovered_at` population for existing entries.
 - **Gemini Utils:** [`src/gemini_utils.py`](src/gemini_utils.py) - AI model discovery, rate limiting, and session tracking.
@@ -1443,7 +1445,7 @@ Certain files are exempt from the mandatory Table of Contents (TOC) and deep-hie
 - **Automatic Skip**: The Agentic Curator and V2 Builder automatically bypass these files during structural reorganization cycles.
 - **Exception Registry**: Exemptions are managed via the `toc_exempt_files` list in [`data/link_rules.yaml`](data/link_rules.yaml).
 
-### 14.4. Multimedia Series & Technical Video Shorts (YouTube)
+### 14.4. Multimedia Series and Technical Video Shorts (YouTube)
 
 To bridge the gap between static repository documentation and multimodal learning, Nubenetes publishes an AI-synthesized engineering series on YouTube on the [**@nubenetes**](https://youtube.com/@nubenetes) channel. Each technical short dissects a core cloud-native or agentic concept with rigorous technical precision.
 

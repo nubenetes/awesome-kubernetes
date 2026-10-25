@@ -71,20 +71,20 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
             sa_just = "Standard security compliance with typical permission profiles; no specific zero-trust hardening."
             
         # Cloud Native SRE
-        if any(x in text_to_scan for x in ["production", "scalable", "monitoring", "prometheus", "ha", "reliability", "redundant", "kubernetes", "operator", "helm", "flux", "argo", "k3s", "draino"]):
+        if any(x in text_to_scan for x in ["production", "scalable", "monitoring", "prometheus", "ha", "reliability", "redundant", "kubernetes", "operator", "helm", "flux", "argo", "k3s", "draino", "ebpf", "cilium", "opentelemetry", "crd", "gateway-api"]):
             sre_score = 92
-            sre_just = "Excellent operational metrics, clear liveness/readiness configuration, and proven recovery behavior."
+            sre_just = "Excellent operational metrics, Kubernetes-native CRD/Operator lifecycle, and proven Day-2 recovery behavior."
         else:
             sre_score = 65
             sre_just = "Acceptable single-instance footprint, but lacks comprehensive scaling runbooks and observability probes."
             
         # AI Platform Engineer
-        if any(x in text_to_scan for x in ["agent", "mcp", "llm", "ai", "intelligence", "model", "prompt", "backstage", "developer"]):
+        if any(x in text_to_scan for x in ["agent", "mcp", "llm", "ai", "intelligence", "model", "prompt", "backstage", "developer", "gpu", "vllm", "inference", "kuberay", "kueue", "volcano", "dra", "rag", "mlops"]):
             ai_score = 94
-            ai_just = "Highly relevant for 2026 cognitive architectures, supporting developer agility and LLM/agent integrations."
+            ai_just = "Highly relevant for 2026 Cloud-Native AI architectures, supporting GPU/DRA scheduling, LLM inference serving, or MCP agentic orchestration."
         else:
             ai_score = 60
-            ai_just = "Conventional software engineering resource with minimal alignment to agentic orchestration patterns."
+            ai_just = "Conventional software engineering resource with minimal alignment to agentic orchestration or AI workload patterns."
             
         scores = {
             "Security Architect": sa_score,
@@ -139,7 +139,11 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         if "wasm" in text_to_scan: final_tags.add("[WASM]")
         if "gitops" in text_to_scan: final_tags.add("[GITOPS]")
         if "iac" in text_to_scan: final_tags.add("[IAC]")
-        if any(x in text_to_scan for x in ["agent", "mcp", "ai"]): final_tags.add("[AI]")
+        if "mcp" in text_to_scan: final_tags.add("[MCP]")
+        if any(x in text_to_scan for x in ["gpu", "cuda", "dra", "nvidia", "mig"]): final_tags.add("[GPU]")
+        if any(x in text_to_scan for x in ["llm", "vllm", "inference", "tgi", "rag"]): final_tags.add("[LLM]")
+        if any(x in text_to_scan for x in ["mlops", "kubeflow", "kuberay", "kueue", "volcano"]): final_tags.add("[MLOPS]")
+        if any(x in text_to_scan for x in ["agent", "mcp", "ai", "llm"]): final_tags.add("[AI]")
         
         debate_data = {
             "url": url,
@@ -181,8 +185,11 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         f"- Context: {desc}\n"
         f"- Proposed Tags: {tags}\n\n"
         f"{system_mandates}\n\n"
-        "Evaluate this resource across Security, SRE, and AI/Developer DX aspects and assign a score (0 to 100).\n"
-        "Also generate a high-density, professional technical summary (2-5 sentences, O'Reilly technical style) and select appropriate tags.\n"
+        "Evaluate this resource across three dimensions:\n"
+        "1. Security & License Integrity (permissive OSS vs BSL/SSPL, supply chain security)\n"
+        "2. Cloud-Native SRE & K8s Integration (CRDs/Operators, Helm, OpenTelemetry, Gateway API, Day-2 HA)\n"
+        "3. 2026 AI Platform & Agentic Readiness (GPU/DRA scheduling, LLM inference serving, MCP server integration, developer velocity)\n"
+        "Assign a composite score (0 to 100), generate a high-density O'Reilly-style technical summary (2-5 sentences covering Architectural Role, Production Trade-offs, and K8s Compatibility), and select appropriate tags.\n"
         "Respond ONLY in valid JSON format: {\"score\": int, \"justification\": \"string\", \"summary\": \"string\", \"tags\": [\"string\"]}"
     )
     
@@ -237,9 +244,9 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
 
     # 1. Independent Evaluation Round
     personas = {
-        "Security Architect": "Focus on licensing (MIT/Apache vs BSL/SSPL), supply chain security, access control, vulnerabilities, and enterprise compliance.",
-        "Cloud Native SRE": "Focus on high-availability, scalability, production maturity, operational complexity, community health, and performance metrics.",
-        "AI Platform Engineer": "Focus on developer agility, tooling simplicity, AI stack integration (MCP, LLMs, agents), and 2026 architectural relevance."
+        "Security Architect": "Focus on licensing (MIT/Apache 2.0 vs BSL/SSPL), OpenSSF supply chain security, zero-trust RBAC, vulnerabilities, and enterprise compliance.",
+        "Cloud Native SRE": "Focus on Kubernetes-native integration (CRDs, Operators, Helm, Gateway API), Day-2 observability (OpenTelemetry, eBPF), high-availability, and commit velocity.",
+        "AI Platform Engineer": "Focus on 2026 Cloud-Native AI infrastructure (GPU/DRA scheduling, vLLM/KServe inference, KubeRay/Kueue batch orchestration), Model Context Protocol (MCP) exposure, and developer velocity."
     }
     
     scores = {}
@@ -330,10 +337,10 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         f"Security Architect Score: {scores['Security Architect']} | Justification: {justifications['Security Architect']}\n"
         f"Cloud Native SRE Score: {scores['Cloud Native SRE']} | Justification: {justifications['Cloud Native SRE']}\n"
         f"AI Platform Engineer Score: {scores['AI Platform Engineer']} | Justification: {justifications['AI Platform Engineer']}\n\n"
-        "Generate a final, high-density, professional technical summary (2-5 sentences, HSL-themed style, no generic statements).\n"
+        "Generate a final, high-density, professional technical summary (2-5 sentences, O'Reilly style covering Architectural Role, Production Trade-offs/Alternatives, and Kubernetes Compatibility).\n"
         "Select the appropriate subset of tags. You MUST include:\n"
         "1. Standard maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-        "2. Any relevant fine-grained technology stack tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [DB]). Keep them uppercase and wrapped in brackets.\n"
+        "2. Any relevant fine-grained technology stack tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [GPU], [LLM], [MCP], [AI], [DB]). Keep them uppercase and wrapped in brackets.\n"
         "Respond ONLY in valid JSON format: {\"summary\": \"refined summary...\", \"tags\": [\"...\"]}"
     )
     
