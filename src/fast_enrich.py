@@ -153,7 +153,16 @@ async def run_enrichment():
         if not meta:
             continue
             
-        category = meta.get("category", "kubernetes-tools")
+        category = meta.get("category")
+        if not category:
+            v1_locs = meta.get("v1_locations") or []
+            v2_locs = meta.get("v2_locations") or []
+            loc_str = (v1_locs[0] if v1_locs else (v2_locs[0] if v2_locs else ""))
+            if loc_str:
+                category = os.path.basename(loc_str).replace(".md", "")
+            else:
+                category = "kubernetes-tools"
+            meta["category"] = category
         dim = get_dimension_for_category(category)
         readable_cat = get_readable_category(category)
         
@@ -163,25 +172,34 @@ async def run_enrichment():
             
         # 3.2. Build AI Summary
         if not meta.get("ai_summary"):
-            desc = meta.get("description", "").strip()
+            desc = (meta.get("description") or "").strip()
             # If standard V1 description contains markdown links or is empty, build a clean text summary
             if desc and len(desc) > 15:
                 # Remove markdown links text and use description
                 clean_desc = re.sub(r'\[(.*?)\]\((.*?)\)', r'\1', desc)
                 meta["ai_summary"] = clean_desc
             else:
-                title = meta.get("title", url.split("//")[-1].split("/")[0])
-                meta["ai_summary"] = f"A curated technical resource and architectural guide covering {title} in the {readable_cat} ecosystem."
+                raw_title = (meta.get("title") or "").replace("==", "").strip()
+                if not raw_title:
+                    # Derive human-readable title from URL slug rather than bare domain
+                    slug = url.rstrip("/").split("/")[-1].replace("-", " ").replace("_", " ").strip()
+                    raw_title = slug.title() if len(slug) > 3 else url.split("//")[-1].split("/")[0]
+                    meta["title"] = raw_title
+                meta["ai_summary"] = f"Technical documentation and reference for {raw_title} in {readable_cat}."
                 
         # 3.3. Populate other missing metadata fields to ensure compliance
-        if not meta.get("language"):
+        lang_val = meta.get("language")
+        if not lang_val or str(lang_val).strip().lower() in ("none", "n/a", "null", "unknown"):
             meta["language"] = "English"
-        if not meta.get("resource_type"):
+        yr_val = meta.get("year")
+        if not yr_val or str(yr_val).strip().lower() in ("none", "null", "unknown"):
+            meta["year"] = "N/A"
+        if not meta.get("resource_type") or str(meta.get("resource_type")).lower() == "none":
             meta["resource_type"] = "Reference"
-        if not meta.get("complexity"):
+        if not meta.get("complexity") or str(meta.get("complexity")).lower() == "none":
             meta["complexity"] = "Intermediate"
         if not meta.get("tags"):
-            meta["tags"] = ["[COMMUNITY-TOOL]"]
+            meta["tags"] = ["[GUIDE]"] if any(d in url for d in ("learn.microsoft.com", "docs.", "kubernetes.io/docs")) else ["[COMMUNITY-TOOL]"]
             
         inventory[url] = meta
         enriched_count += 1

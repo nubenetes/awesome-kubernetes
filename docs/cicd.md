@@ -100,7 +100,6 @@
 - [medium.com/dynatrace-engineering: How to combine and automate infrastructure and application deployment in a microservice environment](https://medium.com/dynatrace-engineering/how-to-combine-and-automate-infrastructure-and-application-deployment-in-a-microservice-environment-a16b664bb8b5) A collection of best practices to improve your confidence in your deployed applications.
 - [thenewstack.io: 4 Best Practices to Drive Successful Adoption of CI/CD](https://thenewstack.io/four-best-practices-to-drive-successful-adoption-of-ci-cd)
 - [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/how-to-keep-up-with-ci-cd-best-practices)
-- [harness.io: Modern Software Delivery Best Practices & Software Delivery Management](https://www.harness.io/blog)
 - [linkedin pulse: Enabling CI/CD to Boost DevOps | Pavan Belagatti](https://www.linkedin.com/pulse/enabling-cicd-boost-devops-pavan-belagatti)
 - [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/how-to-learn-ci-cd-fast)
 - [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software) This creates complex challenges for developers trying to push commits with confidence and DevOps teams responsible for fine-tuning their pipelines.
@@ -133,7 +132,6 @@
 
 ## Security in CI/CD
   - [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) 🌟 - This blog post explains the benefits of using OpenID Connect (OIDC) for securing GitHub Actions workflows when deploying to Azure. It provides a step-by-step guide on setting up OIDC authentication using Azure CLI, including creating an Azure AD application with federated credentials, and demonstrates its implementation within a GitHub repository workflow. The article highlights how OIDC eliminates the need for long-lived secrets in GitHub, thus enhancing security and simplifying credential management.
-  - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - *(Related to azure topic)*
   - [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) - *(Related to aws-security topic)*
   - [Update to Azure DevOps Allowed IP Addresses](https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses) - *(Related to azure topic)*
 
@@ -142,9 +140,6 @@
 
 ## Progressive Delivery
 
-- [split.io: Progressive Delivery](https://www.harness.io/harness-devops-academy/progressive-delivery)
-- [harness.io: Progressive Delivery: Everything You Need to Know](https://www.harness.io/blog)
-- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 
 ## Deployment Strategies
 

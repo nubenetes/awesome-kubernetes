@@ -74,15 +74,12 @@
 
 #### Secure Docker Registries
 
-- [guides.sonatype.com: secure docker registries](https://help.sonatype.com/index.html)
 - [support.sonatype.com: Using self signed certificates with Nexus Repository Manager and Docker Daemon](https://support.sonatype.com/hc/en-us/articles/217542177-Using-Self-Signed-Certificates-with-Nexus-Repository-Manager-and-Docker-Daemon)
 
 ### SSL/TLS Certificates
 
-- [guides.sonatype.com: secure docker registries](https://help.sonatype.com/index.html)
 - [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide)
 - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/sonatype-nexus-repository.html/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022)
-- [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.f5.com/products/nginx)
 
 #### Add Insecure Registry to Docker
 
@@ -120,10 +117,8 @@
 - [JFrog Container Registry](https://jfrog.com/container-registry) The world’s most advanced, powerful, hybrid Docker and Helm registry. Power your world of Docker without limits.
 - [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production)
 - [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog)
-- [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog)
 - [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops)
 - [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) JFrog’s software is similarly disruptive as MongoDB’s, and likewise its cloud offering is growing faster than the overall company.
-- [jfrog.com: Kubernetes Helm Chart Repositories 🌟](https://docs.jfrog.com)
 - [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integrations/kubernetes-docker-registry)
 - [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.redhat.com/en/blog/18333-2)
 

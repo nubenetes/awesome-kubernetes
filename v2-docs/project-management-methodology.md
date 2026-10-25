@@ -9,18 +9,18 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 !!! info "Architectural Context"
     Detailed reference for Project Management in the context of Platform & Site Reliability.
 
-## Architectural Foundations
+## Standard Reference
 
-### Kubernetes Tools
+  - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Project Management Methodology: A Beginner's Guide in the Project Management Methodology ecosystem (dzone.com).
+  - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: A Complete Guide to the Project Management Lifecycle in the Project Management Methodology ecosystem (dzone.com).
+  - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 40 Project Management Terms and Concepts of 2019 in the Project Management Methodology ecosystem (dzone.com).
+  - [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/newsroom/cloudbees-unify-ai-powered-devops-solution) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cloudbees.com: How Asynchronous Communication Can Boost Productivity in the Project Management Methodology ecosystem (cloudbees.com).
+  - [dzone.com: Productivity: Noise Is the Problem 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone.com: Productivity: Noise Is the Problem 🌟🌟 in the Project Management Methodology ecosystem (dzone.com).
+  - [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9?gi=ee89778c6f98) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: How to manage your technical backlog in the Project Management Methodology ecosystem (levelup.gitconnected.com).
 
-#### General Reference
+## Agile Vs Scrum Vs Kanban
 
-  - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Project Management Methodology: A Beginner's Guide in the Kubernetes Tools ecosystem.
-  - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: A Complete Guide to the Project Management Lifecycle in the Kubernetes Tools ecosystem.
-  - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Top 40 Project Management Terms and Concepts of 2019 in the Kubernetes Tools ecosystem.
-  - [dzone.com: Productivity: Noise Is the Problem 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Productivity: Noise Is the Problem== 🌟🌟 in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://elpais.com/smoda/trabajo/apariencias-venderse-trabajo.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering elpais.com in the Kubernetes Tools ecosystem.
-  - [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com: Agile Vs Scrum: Know the Difference in the Kubernetes Tools ecosystem.
+  - [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com: Agile Vs Scrum: Know the Difference covering Agile vs Scrum vs Kanban in Project Management Methodology (guru99.com).
 ## Architecture
 
 ### Prototyping
@@ -156,9 +156,6 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Developer Productivity (3)
 
   - **(2021)** [pymesyautonomos.com: ¿Está trabajando el empleado realmente desde su casa?](https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Addresses common managerial anxieties about remote work accountability. Contrasts surveillance-heavy keystroke logging techniques with output-oriented, technical project milestones (e.g., code deployment frequency, story completion rates, and system architectural goals) to sustainably measure team velocity.
-#### Team Management
-
-  - **(2021)** [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers tactical guidelines for managing distributed engineering teams working in remote environments. Recommends implementing asynchronous collaboration tools, defining objective performance milestones, and promoting active virtual team meetings to ensure software project alignment and mitigate remote developer isolation.
 ### Security and Compliance
 
 #### Corporate Governance
@@ -169,7 +166,7 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Conflict Resolution
 
   - **(2021)** [blog.trello.com: Consejos para manejar distintos conflictos en un equipo de trabajo](https://blog.trello.com/es/conflictos-en-el-trabajo) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides an operational framework for identifying and resolving interpersonal conflicts within technical delivery teams. Highlights visual tracking systems, regular retrospectives, and structured architectural alignment reviews to defuse typical friction points, such as diverging coding standards or disputed system design decisions.
-### Team Management (1)
+### Team Management
 
 #### Infrastructure Operations
 
@@ -256,27 +253,27 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 
 #### Agile Framework
 
-  - **(2016)** [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational analysis on the core principles of Agile as a paradigm of delivery. Emphasizes self-organization, customer-centric value streams, and continuous iteration as cultural priorities over rigid procedural metrics.
+  - **(2016)** [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational analysis on the core principles of Agile as a paradigm of delivery. Emphasizes self-organization, customer-centric value streams, and continuous iteration as cultural priorities over rigid procedural metrics.
 #### Agile Vs Waterfall
 
-  - **(2022)** [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive-level comparison between waterfall project management and iterative agile frameworks. Details the risk profiles, resource distributions, and delivery tempos associated with each model.
+  - **(2022)** [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive-level comparison between waterfall project management and iterative agile frameworks. Details the risk profiles, resource distributions, and delivery tempos associated with each model.
 #### Enterprise Leadership
 
-  - **(2020)** [enterprisersproject.com: Scrum and Kanban: 3 realities CIOs should know](https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic insights for enterprise technology leaders executing agile transitions. Examines team dynamics, organizational culture barriers, and practical hybrid methodology models within highly regulated business domains.
+  - **(2020)** [enterprisersproject.com: Scrum and Kanban: 3 realities CIOs should know](https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic insights for enterprise technology leaders executing agile transitions. Examines team dynamics, organizational culture barriers, and practical hybrid methodology models within highly regulated business domains.
 #### Product Management (2)
 
-  - **(2020)** [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Scrum.org editorial highlighting the architectural dangers of optimizing engineering velocity without validating product value. Emphasizes establishing early customer feedback loops to prevent shipping incorrect software configurations faster.
-  - **(2020)** [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A critical assessment of the traditional Minimum Viable Product (MVP) approach. Suggests that releasing poor quality MVPs can damage brand reputation, advocating instead for the delivery of highly-polished Minimum Awesome Products.
+  - **(2020)** [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Scrum.org editorial highlighting the architectural dangers of optimizing engineering velocity without validating product value. Emphasizes establishing early customer feedback loops to prevent shipping incorrect software configurations faster.
+  - **(2020)** [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A critical assessment of the traditional Minimum Viable Product (MVP) approach. Suggests that releasing poor quality MVPs can damage brand reputation, advocating instead for the delivery of highly-polished Minimum Awesome Products.
 #### Scrum Framework (1)
 
-  - **(2021)** [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Scrum.org advisory detailing the correct lifecycle of uncompleted Sprint Backlog items. Establishes the architectural pattern of moving unfinished work back to the Product Backlog to preserve sprint scope integrity.
-  - **(2021)** [scrum.org: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Scrum.org walkthrough outlining the changes and accountability updates introduced in the 2020-2021 Scrum Guide, including the addition of Product Goals and simplified commit models.
+  - **(2021)** [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Scrum.org advisory detailing the correct lifecycle of uncompleted Sprint Backlog items. Establishes the architectural pattern of moving unfinished work back to the Product Backlog to preserve sprint scope integrity.
+  - **(2021)** [scrum.org: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Scrum.org walkthrough outlining the changes and accountability updates introduced in the 2020-2021 Scrum Guide, including the addition of Product Goals and simplified commit models.
 #### Scrum Vs Kanban
 
-  - **(2020)** [blog.scrumstudy.com: Scrum and Kanban, alike or different?](https://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural analysis comparing Scrum iterations and Kanban workflows. Explores trade-offs in velocity, team responsibility, and scheduling mechanics, providing project leaders with strategic decision criteria.
+  - **(2020)** [blog.scrumstudy.com: Scrum and Kanban, alike or different?](https://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural analysis comparing Scrum iterations and Kanban workflows. Explores trade-offs in velocity, team responsibility, and scheduling mechanics, providing project leaders with strategic decision criteria.
 #### Scrum With Kanban
 
-  - **(2021)** [**scrum.org: Kanban Guide for Scrum Teams**](https://www.scrum.org/resources/kanban-guide-scrum-teams) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official guide detailing the integration of Kanban practices within established Scrum teams. Explains how to leverage WIP limits, cycle-time tracking, and workflow visualization to optimize team performance without sacrificing Scrum principles.
+  - **(2021)** [**scrum.org: Kanban Guide for Scrum Teams**](https://www.scrum.org/resources/kanban-guide-scrum-teams) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official guide detailing the integration of Kanban practices within established Scrum teams. Explains how to leverage WIP limits, cycle-time tracking, and workflow visualization to optimize team performance without sacrificing Scrum principles.
 ### Anti-patterns
 
 #### Risk Mitigation
@@ -290,6 +287,13 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2021)** [Understanding Responsibility Assignment Matrix (RACI Matrix)](https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the design and execution of the Responsibility Assignment Matrix (RACI), highlighting its critical role in multi-stakeholder enterprise engineering projects. Details how to clarify roles (Responsible, Accountable, Consulted, Informed) to eliminate organizational ambiguity and speed up operational decision-making.
   - **(2021)** [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://analoghq.ai/blog/es/matriz-raci) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a detailed breakdown of the RACI model for assigning responsibility within multidisciplinary digital product teams. Explores how defining ownership upfront helps prevent friction during agile development iterations and release activities.
   - **(2021)** [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An academic and practical analysis of responsibility delegation using the RACI framework. Discusses common implementation pitfalls, such as assigning multiple 'Accountable' parties, and how to balance ownership in complex software delivery and systems administration projects.
+## Security
+
+### Container Security
+
+#### Devsecops
+
+  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 ## Software Engineering
 
 ### Agile Methodologies (3)
@@ -299,7 +303,6 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2022)** [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a visual-oriented breakdown of classic and modern software lifecycle management frameworks. Helps technical architects align operational workflows (such as sprint planning and continuous delivery cycles) with the organizational capability and architecture style of the organization.
   - **(2022)** [softwaretestinghelp.com: Kanban Vs Scrum Vs Agile: A Detailed Comparison To Find Differences](https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides an in-depth operational comparison of Kanban, Scrum, and the broader Agile umbrella, focusing on metrics like lead time, cycle time, and velocity. Assists teams in identifying optimal task visualization mechanics to reduce blockages and operational waste in delivery pipelines.
   - **(2021)** [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparison of major software development paradigms, breaking down the operational mechanics of Scrum, Kanban, Waterfall, Agile, and Lean. Synthesizes when to leverage iterative sprints versus continuous flow models to maximize delivery velocity and quality.
-  - **(2021)** [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes project management frameworks with a focus on contrasting agile methodologies against traditional waterfall planning. Delineates how Scrum and Kanban optimize resource allocation and limit work-in-progress to handle volatile development environments.
 #### Scrum And Kanban
 
   - **(2023)** [atlassian.com: Kanban vs. Scrum](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The industry-standard guide dissecting the tactical differences between Kanban's continuous flow and Scrum's time-boxed sprints. Focuses on roles (Scrum Master, Product Owner) versus non-prescriptive Kanban workflows, helping engineering leads choose optimal cadences.
@@ -309,6 +312,11 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Engineering Culture (1)
 
   - **(2021)** [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](https://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critiques the anti-pattern of Promotion Driven Development (PDD), where engineers select unnecessary, highly complex tools and over-engineer architectures to pad resumes for promotions. Warns against the resulting complexity, technical debt, and team maintenance burdens.
+### Collaboration
+
+#### Documentation Specifications
+
+  - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
 ### Hybrid Methodologies
 
 #### Agile-waterfall Integration
@@ -326,9 +334,13 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Open Source Vulnerabilities
 
   - **(2022)** [**techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code**](https://techcrunch.com/2022/07/27/protestware-code-sabotage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the complex security phenomenon of 'protestware,' where open-source maintainers intentionally introduce destructive changes or regional exploits into widely used packages for political or social reasons. Details the architectural impact on enterprise software supply chains and highlights the urgent necessity for robust dependency pinning, software bills of materials, and strict package mirroring.
+## Spanish
+
+  - **(2018)** [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.wordpress.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for mamaqueesscrum.com: Mamá… ¿Qué es Scrum? covering Spanish in Project Management Methodology (mamaqueesscrum.wordpress.com).
+  - [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://elpais.com/smoda/trabajo/apariencias-venderse-trabajo.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo covering Spanish in Project Management Methodology (elpais.com).
 
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Project Management Tools](./project-management-tools.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

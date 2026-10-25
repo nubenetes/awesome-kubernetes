@@ -9,6 +9,9 @@ description: "Curated, AI-ranked Oraclecloud resources for the 2026 Cloud Native
 !!! info "Architectural Context"
     Detailed reference for Oracle Cloud Infrastructure (OCI) in the context of Cloud Providers (Hyperscalers).
 
+## Artificial Intelligence
+
+  - **(2026)** [Access OpenAI Models and Codex Through Your Oracle Cloud Commitment](https://openai.com/index/openai-on-oracle-cloud) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Access OpenAI Models and Codex Through Your Oracle Cloud Commitment covering Artificial Intelligence in Oraclecloud (openai.com).
 ## Cloud Integrations
 
 ### Oracle Cloud
@@ -38,7 +41,7 @@ description: "Curated, AI-ranked Oraclecloud resources for the 2026 Cloud Native
   - **(2023)** [Oracle Container Engine for Kubernetes (OKE)](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official product documentation for Oracle Container Engine for Kubernetes (OKE). It highlights the architectural integration of managed master nodes, native storage arrays, virtual cloud networks, and IAM profiles, delivering an enterprise-ready environment for demanding production workloads.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Backup](./aws-backup.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

@@ -38,7 +38,6 @@
     - [Mapping of AWS services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
 - [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform)
 - [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
-    - [Google Cloud Skills Boost](https://cloud.google.com)
 - [==cloud.google.com: Microservices architecture on Google Cloud==](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud)
 - [cloud.google.com: How to get started with Google Cloud: Introducing our new learning hub and learning benefits for Innovators](https://cloud.google.com/blog/topics/training-certifications/new-learning-hub-and-benefits-for-google-cloud-innovators)
 
@@ -98,7 +97,6 @@
 
 ## Google Cloud AppSheet
 
-- [Google Cloud AppSheet](https://about.appsheet.com/home)
 - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html) Google’s easy no-code app builder lets you add functionality with spreadsheet formulas and expressions, and even apply machine learning models.
 
 ## Cloud Spanner

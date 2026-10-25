@@ -93,7 +93,6 @@
 - [github.blog: Highlights from Git 2.28](https://github.blog/open-source/git/highlights-from-git-2-28)
 - [codeburst.io: A Resource for all Things Git](https://codeburst.io/a-resource-for-all-things-git-b63d6626beca?gi=0befbb18f6be)
 - [Things You Want to Do in Git and How to Do Them](https://stu2b50.dev/posts/things-you-wante9665)
-- [livecodestream.dev: Git Concepts and Workflow for Beginners](https://newsletter.thelongcommit.com/subscribe)
 - [thenextweb.com: A beginner’s guide to the most popular Git commands](https://thenextweb.com/news/a-beginners-guide-to-the-most-popular-git-commands)
 - [julien.danjou.info: Stop merging your pull requests manually 🌟](https://julien.danjou.info/stop-merging-your-pull-request-manually) -> [mergify 🌟](https://mergify.io)
 - [gitlab.com: How to keep your Git history clean with interactive rebase](https://about.gitlab.com/blog/keep-git-history-clean-with-interactive-rebase) Interactive rebase is one of Git’s most versatile tools. Here's how to use it to correct commit messages, fix mistakes, and more.
@@ -120,7 +119,6 @@
 - [levelup.gitconnected.com: 5 Git Commands to Know Before Your First Tech Job or Internship](https://levelup.gitconnected.com/5-git-commands-to-know-before-your-first-tech-job-or-internship-1b5856313338?gi=6e5a1302825d)
 - [dev.to: Master Git in 7 minutes 🌟](https://dev.to/valeriavg/master-git-in-7-minutes-gai)
 - [blog.greenroots.info: How NOT to use Git in Practice. Ten Git usages, you should know to avoid](https://blog.greenroots.info/how-not-to-use-git-in-practice-ten-git-usages-you-should-know-to-avoid)
-- [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://newsletter.thelongcommit.com/subscribe) Learn how to master GIT with these 5 advanced concepts
 - [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)
 - [midu.dev: Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git)
 - [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples)
@@ -347,7 +345,6 @@ It prescribes that software designers should define formal, precise and verifiab
 ### Trunk-based Development vs. Git Flow
 
 - [toptal.com: Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)
-- [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html)
 - [medium: GitFlow VS Trunk-Based-Development](https://medium.com/@vafrcor2009/gitflow-vs-trunk-based-development-3beff578030b)
 - [Dzone: Why I Prefer Trunk-Based Development Over Feature Branching and GitFlow 🌟](https://dzone.com/articles/why-i-prefer-trunk-based-development-over-feature) Check out the components of Trunk-based Development as implemented by Facebook and Google, and see how it helps resolve and prevent merge conflicts.
 - [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development)
@@ -379,7 +376,6 @@ It prescribes that software designers should define formal, precise and verifiab
 ##### Keystone Interface and Keystone Flags
 
 - [martinfowler.com: KeystoneInterface](https://martinfowler.com/bliki/KeystoneInterface.html)
-- [split.io: Keystone Flags: Feature Flagging With Less Mess](https://www.harness.io/blog?module-name=Feature+Management+%26+Experimentation)
 
 ## Git Commands
 
@@ -450,10 +446,8 @@ git rebase -i HEAD~5
 - [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/gitlab-kubernetes-agent-on-gitlab-com) The GitLab Kubernetes Agent enables secure deployments from GitLab SaaS to your Kubernetes cluster and provides deep integrations of your cluster to GitLab.
 - [docs.gitlab.com: Install GitLab Runner on Red Hat OpenShift](https://docs.gitlab.com/runner/install/openshift.html)
 - [devclass.com: Git a March on: GitLab 13.10 ramps up security, adds support for OpenShift, DORA](https://www.devclass.com/ci-cd/2021/03/23/git-a-march-on-gitlab-1310-ramps-up-security-adds-support-for-openshift-dora/1619889)
-- [about.gitlab.com: GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](https://docs.gitlab.com/releases)
 - [lambdatest.com: How To Use GitLab CI To Run Tests Locally? 🌟](https://www.testmuai.com/blog/use-gitlab-ci-to-run-test-locally)
 - [sdtimes: GitLab 14 aims to do away with DIY DevOps toolchains 🌟](https://sdtimes.com/devops/gitlab-14-aims-to-do-away-with-diy-devops-toolchains)
-- [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://docs.gitlab.com/releases)
 - [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/new-git-default-branch-name)
 - [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/5-code-review-features)
 - [pythonspeed.com: Building Docker images on GitLab CI: Docker-in-Docker and Podman 🌟](https://pythonspeed.com/articles/gitlab-build-docker-image)
@@ -671,7 +665,6 @@ git rebase -i HEAD~5
 
 #### GitHub Copilot X
 
-- [computerhoy.com: GitHub Copilot X: así es la nueva IA parecida a ChatGPT y destinada a ayudar a programadores](https://computerhoy.20minutos.es)
 
 #### Alternatives
 
@@ -727,7 +720,7 @@ git rebase -i HEAD~5
 - [twitter.com/azuredevops](https://x.com/azuredevops)
 - [Microsoft Visual Studio Team Services (VSTS)](https://www.dotnetcurry.com/visualstudio/1322/what-is-visual-studio-team-system-vsts)
 - [Microsoft Visual Studio Team Services (VSTS) Tutorial: The Cloud ALM Platform](https://www.softwaretestinghelp.com/microsoft-vsts-tutorial-1)
-- [slideshare.net: Git version control and trunk based approach with VSTS](https:/https://www.slideshare.net/arunmurughan/git-version-control-and-trunk-based-approach-with-vsts)
+- [slideshare.net: Git version control and trunk based approach with VSTS](https://www.slideshare.net/arunmurughan/git-version-control-and-trunk-based-approach-with-vsts)
 - [Microsoft Replacing Visual Studio Team Services with Azure DevOps](https://redmondmag.com/articles/2018/09/10/microsoft-replacing-vsts-with-azure-devops.aspx)
 - [How We Use Git at Microsoft](https://learn.microsoft.com/en-us/devops/develop/git/what-is-git)
 
@@ -812,7 +805,6 @@ Automate them.
 - [Rultor](https://www.rultor.com) A merging bot for Github pull requests
     - [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
 - [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
-    - [help.github.com: Configuring protected branches](https://docs.github.com/en)
     - [help.github.com: Enabling required status checks:](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
         - Select Require status checks to pass before merging
         - Choose (create) a status check, that always fails
@@ -821,7 +813,6 @@ Automate them.
 
 - [Bors Bot](https://bors.tech)
 - [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
-- [Example: CockroachDB's Bors Merge Bot](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Aconfluence%253A%253Asite%252F9568dfdc-cfdd-4632-a68e-1e18063a3152%26continue%3Dhttps%253A%252F%252Fcockroachlabs.atlassian.net%252Fwiki%252Fspaces%252FCRDB%252Fpages%252F73204099%252FBors%252BMerge%252BBot&application=confluence&orgId=52a68357-cecf-4127-a5ec-32eeac8cf060)
 
 ## Videos
 

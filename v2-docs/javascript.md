@@ -18,6 +18,11 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
   - **(2021)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part of Red Hat's Node.js reference architecture focusing on secure container images. Outlines distroless base choices, multi-stage Docker builds, user permissions management, and resource allocation policies for production runtimes.
 ## Developer Productivity
 
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ### Package Management
 
 #### Supply Chain Security
@@ -70,6 +75,13 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### Regular Expressions
 
   - **(2021)** [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Regular expression guide and implementation for validating user credentials on the client-side. Emphasizes security considerations like ReDoS (Regular Expression Denial of Service) and input sanitization before processing database commits.
+## Introduction
+
+  - [dev.to: Getting Started with JavaScript Modules](https://dev.to/heyitsalok/getting-started-with-javascript-modules-2mkg) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dev.to: Getting Started with JavaScript Modules covering Introduction in Javascript (dev.to).
+## Javascript Tooling
+
+  - **(2026)** [VoidZero is joining Cloudflare](https://blog.cloudflare.com/voidzero-joins-cloudflare) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for VoidZero is joining Cloudflare covering JavaScript Tooling in Javascript (blog.cloudflare.com).
+  - **(2026)** [Next.js applications, powered by Vite: introducing Vinext 1.0](https://blog.cloudflare.com/vinext-nextjs-on-vite) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Next.js applications, powered by Vite: introducing Vinext 1.0 covering JavaScript Tooling in Javascript (blog.cloudflare.com).
 ## Protocols and API Design
 
 ### HTTP Networking
@@ -97,17 +109,9 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### Source Repository
 
   - **(2009)** [==github.com/nodejs/node==](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a2c9c461" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 7 L 30 4 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-a2c9c461)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for server-side architectures.
-## Software Engineering
-
-### Frontend Development (1)
-
-#### React Ecosystem
-
-  - **(2023)** [freecodecamp.org: How to Get Started With React – A Beginner's Guide](https://www.freecodecamp.org/news/get-started-with-react-for-beginners) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory foundational guide to React.js. Covers essential SPA concepts including state management, props, components, and virtual DOM, serving as an onboarding tool for full-stack developers.
-  - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

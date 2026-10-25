@@ -27,7 +27,6 @@
 - [medium: Building a Global Network with AWS Transit Gateway](https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12) Connecting branch and corporate offices into the AWS cloud to build a global network is necessary to provide ubiquitous accessibility for users. This solution uses AWS Transit Gateway, AWS Direct Connect, and AWS Accelerated Site-to-Site VPN to build a modern, secure, scalable, and cost-efficient WAN on top of the AWS global network.
 - [aws.amazon.com: Creating active/passive BGP connections over AWS Direct Connect](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect)
 - [towardsaws.com: Networking Basics in AWS](https://towardsaws.com/networking-basics-in-aws-ab72882855c4?gi=a3ab3b3d2580)
-- [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products) Efficiently manage and monitor your AWS network
 - [Secure Connectivity from Public to Private: Introducing EC2 Instance Connect Endpoint](https://aws.amazon.com/blogs/compute/secure-connectivity-from-public-to-private-introducing-ec2-instance-connect-endpoint-june-13-2023)
 
 ## AWS Route 53
@@ -74,7 +73,6 @@
 ## AWS Latency
 
 - [Find the fastest region from your location](https://latencycheck.altaircp.com) Check AWS response time from you browser. Sharing my mini-project, it measures response time from AWS services from different regions base on your location. let me know what you think.
-- [Linkedin Discussion](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F49531%2F49531-6092152919937794052)
     1. Don't do just a single check, the first check will be a lot slower as DNS lookups will need to be done, etc.
     2. I'd recommend doing at least 3 checks getting an average.
 - Run 6 checks (with a random 3-10 second delay between each one), the first can be ignored, the highest one is also ignored (as a likely outlier), then for the next 4 show the minimum, maximum and average (mean).

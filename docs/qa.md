@@ -32,7 +32,6 @@ the #1 test automation community.
 - [boozangfromthetrenches.com: Root Cause Analysis in Test Automation](https://boozangfromthetrenches.com/root-cause-analysis-in-test-automation/9)
 - [copyconstruct.medium.com: Testing in Production, the safe way 🌟🌟🌟](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 - [blog.thundra.io: How to Fix Your Failing End-to-End Tests?](https://blog.thundra.io/how-to-fix-your-failing-end-to-end-tests)
-- [rookout.com: How Real-Time Debugging Improves Reliability](https://www.dynatrace.com/solutions/observability-for-developers)
 - [itnext.io: Software Development Is Misunderstood 🌟](https://itnext.io/software-development-is-misunderstood-quality-is-fastest-way-to-get-code-into-production-f1f5a0792c69?gi=8270d093aa9a) Quality is fastest way to get code into production. **Non-developers focus on creating code, developers focus on creating maintainable code**
 - [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification) These days where Applications talk to each other using API, the verification of any message between the applications/microservices needs to be verified. This checklist includes some best practices for API verification.
 - [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation)
@@ -48,7 +47,6 @@ the #1 test automation community.
 - [getxray.app: The top 5 software testing trends of 2022](https://www.getxray.app/blog/the-top-5-software-testing-trends-of-2022)
 - [linkedin.com: Microservices are testable in isolation 🌟](https://www.linkedin.com/pulse/microservices-testable-isolation-chris-richardson)
 - [dzone: Testing the Untestable and Other Anti-Patterns](https://dzone.com/articles/testing-the-untestable-and-other-anti-patterns) The productive path to establishing and maintaining effective test automation is not easy. explore well-intentioned yet harmful anti-patterns.
-- [softwaretestingsapiens.com: Roadmap to learn API Testing in Just 30 days](https://www.grantneufeld.ca)
 
 ## Blogs
 

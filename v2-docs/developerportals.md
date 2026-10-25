@@ -19,15 +19,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Ios Ecosystem
 
   - **(2026)** [==developer.apple.com==](https://developer.apple.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apple's developer resources hub, providing SDK documentation, SwiftUI design frameworks, and distribution guidelines. The platform provides fundamental patterns for building client-side integrations with microservices and remote API architectures under strict security criteria.
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: RapidAPI Provides API Marketplace and Insight in the Kubernetes Tools ecosystem.
-  - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone: Breaking Up a Monolithic Database with Kong== in the Kubernetes Tools ecosystem.
-  - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Custom Rate Limiting for Microservices 🌟 in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### API Management
@@ -79,6 +70,9 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 
   - **(2026)** [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identical platform reference focusing on Red Hat 3scale API Gateway configurations. Delivers a cloud-native, operator-driven API management framework optimized for scaling microservices on OpenShift clusters with declarative security controls.
   - **(2018)** [Adding API Gateway Policies Now Easier With Red Hat 3scale API Management](https://developers.redhat.com/blog/2018/05/30/3scale-api-gateway-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the declarative system for defining gateway routing rules and header manipulation schemas inside 3scale API Management without updating custom Lua scripts. Details deployment configurations for standard enterprise security controls.
+#### Saas Platforms
+
+  - **(2026)** [Rapid API:](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A leading enterprise Hub and Gateway solution for API discovery, testing, and monetization. Provides uniform control planes to aggregate heterogeneous upstream microservice APIs, enforce consolidated security policies, and manage global tenant billing workflows.
 #### Security and Protocols
 
   - **(2021)** [developers.redhat.com: Enhance application security by rotating 3scale access tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains robust administrative paradigms for managing secrets through programmatic, seamless rotation of 3scale access tokens. Mitigates exposure risk and integrates directly into CI/CD secrets management flows.
@@ -107,7 +101,7 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
   - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
 #### Cursor IDE
 
-  - **(2025)** [Cursor AI Fundamentals Course](https://cursor.com/es/learn) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational program designed to train engineers on utilizing the Cursor AI code editor effectively. The curriculum covers foundational concepts of context inclusion, codebase indexing, and multi-file code transformations. It teaches developers how to write highly optimized prompts to synthesize software architecture and debug legacy systems directly inside the IDE.
+  - **(2025)** [Cursor AI Fundamentals Course](https://cursor.com/es/learn)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational program designed to train engineers on utilizing the Cursor AI code editor effectively. The curriculum covers foundational concepts of context inclusion, codebase indexing, and multi-file code transformations. It teaches developers how to write highly optimized prompts to synthesize software architecture and debug legacy systems directly inside the IDE.
 ## Developer Platforms
 
 ### Documentation
@@ -121,7 +115,7 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 
 ##### Open Source
 
-  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
+  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
 ## Domain Apis
 
 ### Automotive
@@ -208,13 +202,9 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Transport Layer Security
 
   - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
-## Networking
+## Kong API Manager
 
-### Service Mesh
-
-#### Ebpf Vs Proxy
-
-  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
+  - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Breaking Up a Monolithic Database with Kong covering Kong API Manager in Developerportals (dzone.com).
 ## Platform Engineering
 
 ### Developer Portal
@@ -229,6 +219,9 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Tutorials (1)
 
   - **(2024)** [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical guide to bootstrapping Backstage, configuring the software catalog, and writing custom templates. The resource outlines practical steps to integrate local tooling with the developer portal, enabling swift adoption of self-service developer templates.
+## Rapid API Marketplace. Free Public And Open REST Apis
+
+  - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: RapidAPI Provides API Marketplace and Insight covering Rapid API Marketplace. Free Public and Open REST APIs in Developerportals (dzone.com).
 ## Software Architecture and .NET Development
 
 ### Artificial Intelligence
@@ -243,6 +236,11 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Developer Productivity (1)
 
   - **(2024)** [**Programming with GitHub Copilot Agent Mode**](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering capabilities of GitHub Copilot's 'Agent Mode.' It details how the agent acts autonomously to analyze workspace dependencies, generate multi-file modifications, run localized compilations, and iterate on test suites based on natural language prompts.
+### API Integration
+
+#### Public Directories
+
+  - **(2026)** [Public APIs Directory](https://publicapis.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive index of public, developer-friendly APIs categorized by domain (e.g., weather, auth, finance). Serving as a core design-discovery tool, it enables engineers to rapidly find mock data, integration targets, and third-party solutions for prototyping.
 ### Ai-assisted Development
 
 #### CLI Tools
@@ -272,9 +270,12 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
 #### Functional Programming
 
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
+## Spring Cloud Gateway
+
+  - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Custom Rate Limiting for Microservices 🌟 covering Spring Cloud Gateway in Developerportals (dzone.com).
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Project Management Tools](./project-management-tools.md) | [Testops](./testops.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Project Management Methodology](./project-management-methodology.md) | [Project Management Tools](./project-management-tools.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

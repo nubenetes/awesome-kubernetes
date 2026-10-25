@@ -64,7 +64,6 @@
 
 ## Docker Enterprise and Docker Universal Control Plane (UCP)
 
-- [Universal Control Plane overview](https://docs.docker.com) Docker Universal Control Plane (UCP) is the enterprise-grade cluster management solution from Docker. You install it on-premises or in your virtual private cloud, and it helps you manage your Docker cluster and applications through a single interface.
 
 ## Docker Swarm
 

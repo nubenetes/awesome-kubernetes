@@ -55,7 +55,6 @@
 - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)
 - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)
 - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)
-- [nginx.com: Event-Driven Data Management for Microservices 🌟](https://www.f5.com/products/nginx)
 - [dzone: Event-Driven Architecture as a Strategy](https://dzone.com/articles/event-driven-architecture-as-a-strategy) Event-driven architecture provides five key benefits to modern application architecture: scalability, resilience, agility, data sharing, and cloud enabling.
 - [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams)
 - [wikipedia: Enterprise service bus](https://en.wikipedia.org/wiki/Enterprise_service_bus)

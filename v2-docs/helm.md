@@ -9,6 +9,24 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 !!! info "Architectural Context"
     Detailed reference for Helm Kubernetes Tool in the context of Architectural Foundations.
 
+## Standard Reference
+
+  - [==itnext.io: Reference Other Values in Helm Chart Values File==](https://itnext.io/reference-other-values-in-helm-chart-values-file-19d44d9276c7?gi=3ff4d2dab194) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and architectural reference for itnext.io: Reference Other Values in Helm Chart Values File in the Helm ecosystem (itnext.io).
+  - [==blog.devops.dev: Stop cloning helm charts! Enough! 🌟==](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7?gi=c2cad1327eb5) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and architectural reference for blog.devops.dev: Stop cloning helm charts! Enough! 🌟 in the Helm ecosystem (blog.devops.dev).
+  - [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: managing helm releases the gitops way in the Helm ecosystem (dzone.com).
+  - [dzone: 15 useful helm chart tools](https://dzone.com/articles/15-useful-helm-charts-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: 15 useful helm chart tools in the Helm ecosystem (dzone.com).
+  - [dzone: create install upgrade and rollback a helm chart - part 1](https://dzone.com/articles/create-install-upgrade-and-rollback-a-helm-chart-p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: create install upgrade and rollback a helm chart - part 1 in the Helm ecosystem (dzone.com).
+  - [dzone: cicd with kubernetes and helm](https://dzone.com/articles/cicd-with-kubernetes-and-helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: cicd with kubernetes and helm in the Helm ecosystem (dzone.com).
+  - [itnext.io: Helm 3 Umbrella Charts & Standalone Chart Image Tags — An Alternative Approach](https://itnext.io/helm-3-umbrella-charts-standalone-chart-image-tags-an-alternative-approach-78a218d74e2d?gi=7b0c708b161b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for itnext.io: Helm 3 Umbrella Charts & Standalone Chart Image Tags — An Alternative Approach in the Helm ecosystem (itnext.io).
+  - [cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly](https://www.cncf.io/blog/2021/03/24/add-java-agents-to-existing-kubernetes-and-helm-applications-instantly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly in the Helm ecosystem (cncf.io).
+  - [levelup.gitconnected.com: Helm 101 for Developers](https://levelup.gitconnected.com/helm-101-for-developers-1c28e734937e?gi=123a51f04a56) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: Helm 101 for Developers in the Helm ecosystem (levelup.gitconnected.com).
+  - [levelup.gitconnected.com: Helm—Named Templates](https://levelup.gitconnected.com/helm-named-templates-de2efc3875d0?gi=26acc0b65d45) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: Helm—Named Templates in the Helm ecosystem (levelup.gitconnected.com).
+  - [faun.pub: Helm — Template Actions, Functions, and Pipelines 🌟](https://faun.pub/helm-template-actions-functions-and-pipelines-16ed23ed336f?gi=ab56fbd27d79) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for faun.pub: Helm — Template Actions, Functions, and Pipelines 🌟 in the Helm ecosystem (faun.pub).
+  - [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c?gi=555cc235ace8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser in the Helm ecosystem (blog.devops.dev).
+  - [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c?gi=c6f5043e0d50) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for faun.pub: Package and Deploy Your Application Using Helm Chart in the Helm ecosystem (faun.pub).
+  - [levelup.gitconnected.com: Helm — Data Sharing Between Parent and Child Chart](https://levelup.gitconnected.com/helm-data-sharing-between-parent-and-child-chart-c4487a452d4e?gi=4d1d07339bc1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: Helm — Data Sharing Between Parent and Child Chart in the Helm ecosystem (levelup.gitconnected.com).
+  - [blog.searce.com: Transform Kubernetes Manifests into Helm Chart](https://blog.searce.com/transform-kubernetes-manifests-into-helm-chart-f3d100688423?gi=e3b904bce1f6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for blog.searce.com: Transform Kubernetes Manifests into Helm Chart in the Helm ecosystem (blog.searce.com).
+
 ## Application Delivery
 
 ### Helm
@@ -111,13 +129,10 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 ##### Hashicorp Waypoint
 
   - **(2021)** [**learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps**](https://github.com/hashicorp/waypoint/tree/main/website/content/docs) <span class='md-tag md-tag--info'>⭐ 4727</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-29d81a2f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 7 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-29d81a2f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical guide deploying Helm-based software within HashiCorp Waypoint pipelines. Compares native Waypoint continuous operations with declarative GitOps reconciliations, establishing streamlined automation protocols.
-##### Helm Integration (2)
-
-  - **(2021)** [codefresh.io: Using Helm with GitOps 🌟](https://octopus.com/blog/using-helm-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the synergies and friction points of matching the declarative GitOps model with Helm's transactional release engine. Recommends strategies for separating configuration definitions from package logic.
 ##### Red Hat Openshift
 
   - **(2021)** [youtube: GitOps Guide to the Galaxy: Working with Helm](https://www.youtube.com/watch?v=1FzOlSed5ts&ab_channel=OpenShift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video detailing best practices when pairing Helm with GitOps engines (such as Argo CD). Investigates template-rendering synchronization patterns, managing secret encryption, and maintaining single-source-of-truth states in git.
-#### Helm Integration (3)
+#### Helm Integration (2)
 
   - **(2022)** [Continuously delivering apps to Kubernetes using Helm](https://www.youtube.com/watch?v=CmPK93hg5w8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual and technical walkthrough illustrating the orchestration of continuous delivery models with Helm. Emphasizes declarative rollouts, blue-green strategy alignment, and handling configurations inside unified CI/CD systems.
 ### Continuous Integration
@@ -127,9 +142,12 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 ##### Jenkins
 
   - **(2021)** [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates rapid bootstrap of a Jenkins-driven CI/CD workflow utilizing Helm charts for packaging. Showcases how automation systems leverage the Helm CLI to rapidly package, version, and deploy builds into target namespaces.
+##### Red Hat Openshift (1)
+
+  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Enterprise Platforms
 
-#### Red Hat Openshift (1)
+#### Red Hat Openshift (2)
 
 ##### Certifications
 
@@ -182,23 +200,32 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 
 #### Operator Perspectives
 
-  - **(2021)** [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural reflection detailing key developer-centric shifts encountered when adapting to Kubernetes environments. It explores paradigms like declarative APIs, container-first test loops, and how platform engineers must redefine application boundaries in microservice environments.
+  - **(2021)** [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural reflection detailing key developer-centric shifts encountered when adapting to Kubernetes environments. It explores paradigms like declarative APIs, container-first test loops, and how platform engineers must redefine application boundaries in microservice environments.
+## Database Migrations
+
+  - [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805?gi=6fa3ad57a5bf) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Database migrations on Kubernetes using Helm hooks covering Database Migrations in Helm (itnext.io).
+## Engineering Pipeline
+
+### CICD (1)
+
+  - [Automating Kubernetes Deployments with Helm Charts](https://blog.devops.dev/automating-kubernetes-deployments-with-helm-charts-baaec0e6fbc5?gi=c9d378207430) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Automating Kubernetes Deployments with Helm Charts covering CICD Pipelines With Kubernetes in CI/CD (blog.devops.dev).
+## Helm Chart Documentation
+
+  - [itnext.io: Helm: reusable chart — named templates, and a generic chart for multiple applications](https://itnext.io/helm-reusable-chart-named-templates-and-a-generic-chart-for-multiple-applications-13d9b26e9244?gi=ed6ec1dbc663) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Helm: reusable chart — named templates, and a generic chart for multiple applications covering Helm Chart Documentation in Helm (itnext.io).
+## Helm Charts
+
+  - [Doubleword Control Layer](https://github.com/doublewordai/control-layer-chart) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Doubleword Control Layer covering Helm Charts in Helm (github.com).
+  - [GenieACS](https://github.com/GeiserX/genieacs-container) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GenieACS covering Helm Charts in Helm (github.com).
+## Helm Dashboard
+
+  - [levelup.gitconnected.com: Introduction to Helm Dashboard](https://levelup.gitconnected.com/introduction-to-helm-dashboard-dddf43e38cc2?gi=73dcdae80b54) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Introduction to Helm Dashboard covering Helm Dashboard in Helm (levelup.gitconnected.com).
 ## Infrastructure As Code
 
 ### Helm (3)
 
 #### Prometheus Deployment
 
-  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
-## Kubernetes Tools
-
-### General Reference
-
-  - [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: managing helm releases the gitops way in the Kubernetes Tools ecosystem.
-  - [dzone: 15 useful helm chart tools](https://dzone.com/articles/15-useful-helm-charts-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 15 useful helm chart tools in the Kubernetes Tools ecosystem.
-  - [dzone: create install upgrade and rollback a helm chart - part 1](https://dzone.com/articles/create-install-upgrade-and-rollback-a-helm-chart-p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: create install upgrade and rollback a helm chart - part 1 in the Kubernetes Tools ecosystem.
-  - [dzone: cicd with kubernetes and helm](https://dzone.com/articles/cicd-with-kubernetes-and-helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: cicd with kubernetes and helm in the Kubernetes Tools ecosystem.
-  - [cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly](https://www.cncf.io/blog/2021/03/24/add-java-agents-to-existing-kubernetes-and-helm-applications-instantly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly in the Kubernetes Tools ecosystem.
+  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
 ## Multi-cluster Management
 
 ### Project Sveltos
@@ -229,6 +256,11 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
   - **(2026)** [prometheus-community.github.io: Prometheus Community Kubernetes Helm Charts 🌟](https://prometheus-community.github.io/helm-charts) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Prometheus community Helm charts registry, housing the essential kube-prometheus-stack. This remains the absolute industry standard for managing Prometheus, Grafana dashboards, Alertmanager definitions, and metrics-collector sidecars.
 ## Platform Engineering
 
+### Application Delivery (2)
+
+#### Catalog UI
+
+  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
 ### Kubernetes Gitops and Packaging
 
 #### Alternative Deployment Engines
@@ -244,14 +276,14 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 #### Chart Discovery
 
   - **(2026)** [==Artifact Hub 🌟==](https://artifacthub.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative, CNCF-hosted decentralized web hub designed for discovering, installing, and monitoring cloud-native packages. It aggregates active Helm charts, Kubernetes operators, Tekton tasks, and OCI artifacts with comprehensive security and maintenance tracking.
-  - **(2020)** [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical landscape overview detailing key public repositories and search indexes for sourcing verified Helm charts. This serves as a foundational reference for understanding the historical transition from disparate registries to modern unified catalogs.
+  - **(2020)** [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical landscape overview detailing key public repositories and search indexes for sourcing verified Helm charts. This serves as a foundational reference for understanding the historical transition from disparate registries to modern unified catalogs.
 #### Chart Publishing
 
   - **(2022)** [harness.io: Tutorial: Turning a GitHub Repo Into a Helm Chart Repo](https://www.harness.io/blog/helm-chart-repo) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical hands-on tutorial demonstrating how to turn a standard GitHub repository into a fully compliant Helm Chart registry. It outlines automating publishing workflows utilizing GitHub Pages, Chart Releaser Actions, and package distribution.
 #### Chart Repositories
 
-  - **(2024)** [JFrog ChartCenter](https://chartcenter.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy public Helm registry launched by JFrog to provide security insights, dependency maps, and automated vulnerability scanning for Helm packages. It serves as a historical architectural reference for secure dependency-chain structures.
-  - **(2020)** [New Location For Stable and Incubator Charts](https://helm.sh/blog/new-location-stable-incubator-charts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — The landmark Helm blog announcement detailing the official deprecation and migration path of the legacy 'stable' and 'incubator' Helm repositories. This resource documents the organizational move toward decentralized chart ownership and independent project hosting.
+  - **(2024)** [JFrog ChartCenter](https://chartcenter.io)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy public Helm registry launched by JFrog to provide security insights, dependency maps, and automated vulnerability scanning for Helm packages. It serves as a historical architectural reference for secure dependency-chain structures.
+  - **(2020)** [New Location For Stable and Incubator Charts](https://helm.sh/blog/new-location-stable-incubator-charts)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — The landmark Helm blog announcement detailing the official deprecation and migration path of the legacy 'stable' and 'incubator' Helm repositories. This resource documents the organizational move toward decentralized chart ownership and independent project hosting.
 #### Compliance and Validation
 
   - **(2025)** [redhat-certification: chart-verifier: Rules based tool to certify Helm charts' 🌟](https://github.com/redhat-certification/chart-verifier) <span class='md-tag md-tag--info'>⭐ 61</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f4733b0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 7 L 30 4 L 40 10 L 50 9" fill="none" stroke="url(#spark-grad-f4733b0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's policy-enforcement checker built to certify Helm charts for enterprise deployment suitability on OpenShift platforms. It verifies that packaging templates align with platform standards, security models, and compliance benchmarks.
@@ -273,7 +305,10 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
   - **(2025)** [**github.com/komodorio/helm-dashboard 🌟**](https://github.com/komodorio/helm-dashboard) <span class='md-tag md-tag--info'>⭐ 5716</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-78253049" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 3 L 20 7 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-78253049)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A real-time web UI dashboard tailored for managing, upgrading, and viewing Helm releases. It addresses the visibility gap for platform operators by facilitating live drift visualization, schema validation, and multi-version revision comparisons directly from a user-friendly browser interface.
 #### Java Microservices
 
-  - **(2022)** [openshift.com: Introducing the Quarkus Helm Chart](https://www.redhat.com/en/blog/introducing-the-quarkus-helm-chart) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction detailing the design of the Quarkus Helm Chart, optimized for cloud-native Java microservices. It highlights native compiling integrations, GraalVM deployment profiles, and how to harness OpenShift pipelines for highly efficient container bootstrapping.
+  - **(2022)** [openshift.com: Introducing the Quarkus Helm Chart](https://www.redhat.com/en/blog/introducing-the-quarkus-helm-chart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction detailing the design of the Quarkus Helm Chart, optimized for cloud-native Java microservices. It highlights native compiling integrations, GraalVM deployment profiles, and how to harness OpenShift pipelines for highly efficient container bootstrapping.
+#### Learning Hubs
+
+  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
 #### Legacy Charts
 
   - **(2020)** [==Jenkins==](https://github.com/helm/charts/tree/master/stable/jenkins) <span class='md-tag md-tag--info'>⭐ 15424</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0436d7b7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 9 L 30 13 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-0436d7b7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The deprecated stable Helm chart repository for Jenkins. It is strongly recommended to avoid this legacy version, as active development and security patches have transitioned exclusively to the official Jenkins community repository on Artifact Hub.
@@ -303,10 +338,10 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 
 #### Datree Integration
 
-  - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
+  - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
 

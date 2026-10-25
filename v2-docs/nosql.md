@@ -9,16 +9,21 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 !!! info "Architectural Context"
     Detailed reference for NoSQL Databases and NewSQL in the context of Data & Advanced Analytics.
 
-## Architectural Foundations
+## Standard Reference
 
-### Kubernetes Tools
+  - **(2015)** [NoSQL vs. SQL: Choosing a Data Management Solution](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for NoSQL vs. SQL: Choosing a Data Management Solution in the NoSQL ecosystem (javacodegeeks.com).
+  - [NoSQL Guide, by Martin Fowler](https://martinfowler.com/data/index.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for NoSQL Guide, by Martin Fowler in the NoSQL ecosystem (martinfowler.com).
+  - [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](https://www.blog.facilcloud.com/noticias/sql-vs-nosql-which-one-should-i-use/?lang=es_ES)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Diferencias entre SQL y NoSQL ¿Sabes cuál usar? in the NoSQL ecosystem (blog.facilcloud.com).
 
-#### General Reference
+## Alternatives
 
-  - **(None)** [](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.blog.facilcloud.com/noticias/sql-vs-nosql-which-one-should-i-use/?lang=es_ES)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.blog.facilcloud.com in the Kubernetes Tools ecosystem.
-  - [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Query JSON Using SQL With Couchbase Query Workbench in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
+  - [Cassandra.apache.org](https://cassandra.apache.org/_/index.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster. [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html) [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.ibm.com/products/datastax) [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes) [thenewstack.io: How to Run a Cassandra Operation in Docker](https://thenewstack.io/how-to-run-a-cassandra-operation-in-docker)
+## Cassandra
+
+  - **(2026)** [The Evolution of Cassandra Data Movement at Netflix](https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?gi=b9ccc85333af&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for The Evolution of Cassandra Data Movement at Netflix covering Cassandra in NoSQL (netflixtechblog.com).
+## Couchbase
+
+  - [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Query JSON Using SQL With Couchbase Query Workbench covering Couchbase in NoSQL (dzone.com).
 ## Data Architecture
 
 ### Big Data
@@ -33,31 +38,31 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 
 #### Market Trends
 
-  - **(2021)** [**stackoverflow.blog: Have the tables turned on NoSQL?**](https://stackoverflow.blog/2021/01/14/have-the-tables-turned-on-nosql) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An analysis of post-hype NoSQL database adoption, highlighting the rise of NewSQL and modern distributed relational engines. Evaluates operational trade-offs regarding eventual consistency pain points in heavy transactional pipelines.
+  - **(2021)** [**stackoverflow.blog: Have the tables turned on NoSQL?**](https://stackoverflow.blog/2021/01/14/have-the-tables-turned-on-nosql) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An analysis of post-hype NoSQL database adoption, highlighting the rise of NewSQL and modern distributed relational engines. Evaluates operational trade-offs regarding eventual consistency pain points in heavy transactional pipelines.
 #### Migration Strategies
 
-  - **(2022)** [**How to Evolve from RDBMS to NoSQL + SQL 🌟**](https://www.linkedin.com/pulse/how-evolve-from-rdbms-nosql-sql-jim-scott) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Detailed blueprint for migrating legacy relational databases to a hybrid SQL/NoSQL polyglot persistence design. Explores data modeling normalization adjustments, write path segregation, and dual-run synchronization mechanisms.
+  - **(2022)** [**How to Evolve from RDBMS to NoSQL + SQL 🌟**](https://www.linkedin.com/pulse/how-evolve-from-rdbms-nosql-sql-jim-scott) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Detailed blueprint for migrating legacy relational databases to a hybrid SQL/NoSQL polyglot persistence design. Explores data modeling normalization adjustments, write path segregation, and dual-run synchronization mechanisms.
 #### SQL Vs NoSQL
 
-  - **(2023)** [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative breakdown of relational databases against non-relational storage engines. Outlines key differentiators such as dynamic schema definitions, vertical vs horizontal scalability vectors, and CAP theorem profiles.
-  - **(2021)** [zdnet.com: SQL, NoSQL? What's the difference these days?](https://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the modern convergence of SQL and NoSQL engines. Highlights how traditional relational engines added JSON/document support while NoSQL databases implemented ACID transactional mechanics, blurring historical architectural lines.
+  - **(2023)** [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative breakdown of relational databases against non-relational storage engines. Outlines key differentiators such as dynamic schema definitions, vertical vs horizontal scalability vectors, and CAP theorem profiles.
+  - **(2021)** [zdnet.com: SQL, NoSQL? What's the difference these days?](https://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the modern convergence of SQL and NoSQL engines. Highlights how traditional relational engines added JSON/document support while NoSQL databases implemented ACID transactional mechanics, blurring historical architectural lines.
 ### Database Design
 
 #### E-commerce Applications
 
-  - **(2021)** [dev.to: NoSQL Database Design for E-Commerce Apps in 2021](https://dev.to/danielkolb/nosql-database-design-for-e-commerce-apps-in-2021-390e) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic application of document-oriented schemas to modern digital commerce platforms. Discusses design patterns for cart state retention, product catalog nesting, and denormalization workflows optimized for low-latency retrieval.
+  - **(2021)** [dev.to: NoSQL Database Design for E-Commerce Apps in 2021](https://dev.to/danielkolb/nosql-database-design-for-e-commerce-apps-in-2021-390e) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic application of document-oriented schemas to modern digital commerce platforms. Discusses design patterns for cart state retention, product catalog nesting, and denormalization workflows optimized for low-latency retrieval.
 ### Mongodb Ecosystem
 
 #### Database Security
 
-  - **(2026)** [==MongoDB security tutorial==](https://www.mongodb.com/docs/manual/security) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official security manual outlining secure-by-default production setups for MongoDB. Covers Role-Based Access Control (RBAC), transport encryption (TLS/SSL), network binding, and Client-Side Field Level Encryption (CSFLE).
+  - **(2026)** [==MongoDB security tutorial==](https://www.mongodb.com/docs/manual/security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official security manual outlining secure-by-default production setups for MongoDB. Covers Role-Based Access Control (RBAC), transport encryption (TLS/SSL), network binding, and Client-Side Field Level Encryption (CSFLE).
 #### Database Tooling
 
-  - **(2023)** [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](https://mongodb-tools.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated index of key administrative GUIs, monitoring agents, and helper utilities for the MongoDB engine. Streamlines administration, schema analysis, and query optimization workflows.
+  - **(2023)** [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](https://mongodb-tools.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated index of key administrative GUIs, monitoring agents, and helper utilities for the MongoDB engine. Streamlines administration, schema analysis, and query optimization workflows.
   - **(2021)** [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Differentiates native utility commands: mongodump/mongorestore (BSON binary backup for full disaster recovery) vs mongoexport/mongoimport (JSON/CSV semantic exports ideal for external analytics).
 #### Database-as-a-service
 
-  - **(2022)** [**MongoDB Cloud Manager**](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Video demonstration of MongoDB Cloud Manager's deployment automation capabilities. Explores point-in-time recovery setups, dynamic alerting rules, and multi-node cluster provisioning in public cloud networks.
+  - **(2022)** [**MongoDB Cloud Manager**](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Video demonstration of MongoDB Cloud Manager's deployment automation capabilities. Explores point-in-time recovery setups, dynamic alerting rules, and multi-node cluster provisioning in public cloud networks.
 #### Kubernetes Networking
 
   - **(2022)** [**thenewstack.io: Deploy MongoDB in a Container, Access It Outside the Cluster**](https://thenewstack.io/deploy-mongodb-in-a-container-access-it-outside-the-cluster) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses networking patterns required to expose in-cluster containerized MongoDB services to external application clients safely, discussing NodePorts, external LoadBalancers, and routing constraints.
@@ -72,24 +77,24 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 
 #### Decision Frameworks
 
-  - **(2022)** [**thenewstack.io: Why Choose a NoSQL Database? There Are Many Great Reasons**](https://thenewstack.io/why-choose-a-nosql-database-there-are-many-great-reasons) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes functional arguments for adopting NoSQL engines within enterprise tech stacks. Explores rapid schema iterations, telemetry data streaming integration, and multi-datacenter active-active high-availability patterns.
-  - **(2019)** [**NoSQL Databases: a Survey and Decision Guidance**](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A scientific taxonomy and decision model for selecting non-relational database architectures. Synthesizes transactional consistency models, consistency guarantees (PACELC), and performance characteristics under multi-regional replication topologies.
+  - **(2022)** [**thenewstack.io: Why Choose a NoSQL Database? There Are Many Great Reasons**](https://thenewstack.io/why-choose-a-nosql-database-there-are-many-great-reasons) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes functional arguments for adopting NoSQL engines within enterprise tech stacks. Explores rapid schema iterations, telemetry data streaming integration, and multi-datacenter active-active high-availability patterns.
+  - **(2019)** [**NoSQL Databases: a Survey and Decision Guidance**](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A scientific taxonomy and decision model for selecting non-relational database architectures. Synthesizes transactional consistency models, consistency guarantees (PACELC), and performance characteristics under multi-regional replication topologies.
 #### Document Databases
 
   - **(2026)** [==couchbase.com==](https://www.couchbase.com) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise-class distributed multi-model NoSQL document database combining an in-memory database with SQL-like querying capabilities (N1QL). Architected for low-latency transactional applications and microservices.
   - **(2026)** [**Couchdb.apache.org**](https://couchdb.apache.org) <span class='md-tag md-tag--warning'>[ERLANG CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Apache multi-master replicating document database using HTTP/JSON APIs. Features robust, offline-first sync protocols with ACID qualities, backed by Erlang's battle-tested fault tolerance.
 #### Introductions
 
-  - **(2020)** [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Thoughtworks overview detailing horizontal scaling paradigms, schema flexibility, and non-relational query models. Establishes critical architectural criteria for selecting optimal distributed databases inside microservices environments.
+  - **(2020)** [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Thoughtworks overview detailing horizontal scaling paradigms, schema flexibility, and non-relational query models. Establishes critical architectural criteria for selecting optimal distributed databases inside microservices environments.
 #### Real-time Databases
 
   - **(2026)** [**rethinkdb.com**](https://rethinkdb.com) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Open-source NoSQL database built to push live updates and query changes directly to client-facing web applications. Utilizes its proprietary ReQL language to manage real-time event feeds.
 #### Reference Guides
 
-  - **(2022)** [**sysadminxpert.com: Demystifying NoSQL Databases 🌟**](https://sysadminxpert.com/demystifying-nosql-databases) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Operational primer breaking down NoSQL storage engine architectures, write-ahead logging (WAL), memtables, and dynamic partitioning strategies. Provides systems engineers with performance diagnostic techniques for high-throughput nodes.
+  - **(2022)** [**sysadminxpert.com: Demystifying NoSQL Databases 🌟**](https://sysadminxpert.com/demystifying-nosql-databases) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Operational primer breaking down NoSQL storage engine architectures, write-ahead logging (WAL), memtables, and dynamic partitioning strategies. Provides systems engineers with performance diagnostic techniques for high-throughput nodes.
 #### Time Series
 
-  - **(2023)** [**thenewstack.io: How to Choose and Model Time Series Databases**](https://thenewstack.io/how-to-choose-and-model-time-series-databases) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Deep dive into Time Series Database (TSDB) selection, comparing compression algorithms and write-heavy workloads. Discusses optimization techniques like rollups, downsampling, and indexing temporal event data.
+  - **(2023)** [**thenewstack.io: How to Choose and Model Time Series Databases**](https://thenewstack.io/how-to-choose-and-model-time-series-databases) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Deep dive into Time Series Database (TSDB) selection, comparing compression algorithms and write-heavy workloads. Discusses optimization techniques like rollups, downsampling, and indexing temporal event data.
 #### Wide-column Stores
 
   - **(2026)** [**HBase.apache.org**](https://hbase.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Open-source, distributed, column-oriented database running atop Hadoop DFS. Delivers real-time, random read/write storage access to billions of rows, modeled directly after Google's original Bigtable design.
@@ -100,6 +105,21 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### NoSQL
 
   - **(2012)** [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Martin Fowler’s classic presentation detailing NoSQL database paradigms. Analyzes key-value, document, column-family, and graph databases, clarifying aggregate-oriented modeling and performance trade-offs against relational databases.
+## Infrastructure
+
+### Caching
+
+#### Redis
+
+  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
+## Mongodb Tools And Mongodb As A Service
+
+  - **(2015)** [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for MongoDB Tutorial – A Scalable NoSQL DB covering MongoDB Tools and MongoDB as a Service in NoSQL (javacodegeeks.com).
+  - [3T MongoChef – Your New MongoDB GUI](https://studio3t.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [Connecting to your MongoDB at MongoLab](https://studio3t.com/knowledge-base/desktop-ide/connect-to-mongodb-atlas)
+  - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad?gi=73bd5bb561ae) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage covering MongoDB Tools and MongoDB as a Service in NoSQL (code.likeagirl.io).
+## Newsql
+
+  - [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](https://www.3ds.com/nuodb-distributed-sql-database) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas covering NewSQL in NoSQL (3ds.com).
 ## Observability
 
 ### Microservices Monitoring
@@ -109,7 +129,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

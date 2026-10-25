@@ -1,5 +1,5 @@
 ---
-description: "Top About resources for 2026, AI-ranked: Argo CD, Postman and more — curated Cloud Native tools, guides and references."
+description: "Top About resources for 2026, AI-ranked: Postman, Argo CD and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 
@@ -128,6 +128,13 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 ---
 
+## Artificial Intelligence
+
+  - **(2026)** [HP Inc. launches Frontier Strategic Partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for HP Inc. launches Frontier Strategic Partnership with OpenAI covering Artificial Intelligence in About (openai.com).
+  - **(2026)** [Supporting Europe's Work in Ensuring a Trustworthy AI Ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Supporting Europe's Work in Ensuring a Trustworthy AI Ecosystem covering Artificial Intelligence in About (openai.com).
+  - **(2026)** [Industrial policy for the Intelligence Age: Ideas to Keep People First](https://openai.com/index/industrial-policy-for-the-intelligence-age) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Industrial policy for the Intelligence Age: Ideas to Keep People First covering Artificial Intelligence in About (openai.com).
+  - **(2026)** [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Built to benefit everyone: our plan covering Artificial Intelligence in About (openai.com).
+  - **(2026)** [OpenAI appoints Dali Rajic as Chief Revenue Officer](https://openai.com/index/dali-rajic-chief-revenue-officer) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for OpenAI appoints Dali Rajic as Chief Revenue Officer covering Artificial Intelligence in About (openai.com).
 ## Automation and Orchestration
 
 ### API Orchestration
@@ -148,13 +155,6 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 ### CICD
 
-#### Azure Pipelines
-
-??? note "Azure Pipelines"
-    **[Access Resource](https://learn.microsoft.com/en-us/azure/devops/pipelines)** 🌟🌟🌟🌟 | Level: None
-    
-    Cloud-hosted CI/CD pipeline service by Microsoft, supporting both Windows, Linux, and macOS environments.
-
 #### Jenkins CLI
 
 ??? note "Jenkins CLI"
@@ -172,7 +172,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 #### Jenkins REST API
 
 ??? note "Jenkins Remote Access API"
-    **[Access Resource](https://www.jenkins.io/doc/book/using/remote-access-api)** 🌟🌟🌟🌟 | Level: None
+    **[Access Resource](https://www.jenkins.io/doc/book/using/remote-access-api)** 🌟🌟🌟🌟 | Level: Intermediate
     
     Official documentation for Jenkins RESTful API integration, enabling remote control, status querying, and programmatic pipeline orchestration.
 
@@ -206,14 +206,14 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 #### Terraform Boilerplates
 
 ??? note "Terraform Kubernetes Boilerplates 🌟"
-    **[Access Resource](https://nubenetes.com/terraform/)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    **[Access Resource](https://nubenetes.com/terraform)** 🌟🌟🌟🌟🌟 | Level: Advanced
     
     A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
 #### Terraform Provider
 
 ??? note "Terraform Kubernetes Provider"
-    **[Access Resource](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs)** 🌟🌟🌟🌟 | Level: None
+    **[Access Resource](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs)** 🌟🌟🌟🌟 | Level: Intermediate
     
     Official Kubernetes provider for Terraform, enabling declarative deployment and management of Kubernetes resources using HashiCorp Configuration Language (HCL).
 
@@ -226,23 +226,13 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
     
     Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place upgrades, and robust rollback capabilities.
 
-### Templating Engine
+## Automation And Orchestration
 
-#### Jinja
-
-??? note "jinja 🌟"
-    **[Access Resource](https://github.com/pallets/jinja)** 🌟🌟🌟🌟🌟 | Level: Advanced
-    
-    The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
-
-## Kubernetes Tools
-
-### General Reference
-
-  - [DZone: Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==DZone: Defining Day-2 Operations== in the Kubernetes Tools ecosystem.
+  - [GitLab CI/CD](https://docs.gitlab.com/ci) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GitLab CI/CD covering Automation and Orchestration in About (docs.gitlab.com).
+  - [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Azure Pipelines covering Automation and Orchestration in About (learn.microsoft.com).
 
 ---
-💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
 

@@ -38,7 +38,6 @@
 - [lambdatest.com: How To Integrate Jenkins & Maven With Selenium?](https://www.testmuai.com/blog/selenium-maven-jenkins-integration)
 - [lambdatest.com: Selenium 4 🌟](https://www.testmuai.com/learning-hub/selenium-4)
 - [automationreinvented.blogspot.com: How to run selenium tests from Jenkins? Maven and Jenkins Integration with Testng-Selenium? Run selenium maven project from command line? 🌟](https://automationreinvented.blogspot.com/2021/02/how-to-run-test-selenium-tests-from.html)
-- [lambdatest.com/selenium: Introduction to Selenium Basics](https://www.testmuai.com/selenium) Selenium is an open-source software to automate web testing by controlling browsers
 based on your test scripts.
 - [lambdatest.com: Selenium Webdriver Java Tutorial – Guide for Beginners](https://www.testmuai.com/blog/selenium-java-tutorial-how-to-test-login-process)
 - [lambdatest.com: Complete Guide To Selenium Testing with GitHub Actions 🌟](https://www.testmuai.com/blog/selenium-github-actions-example)
@@ -54,7 +53,6 @@ based on your test scripts.
 - [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot)
 - [lambdatest.com: Debunking The Top 8 Selenium Testing Myths](https://www.testmuai.com/blog/debunking-selenium-testing-myths)
 - [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna) This article is written to highlight Selenium 4 capabilities and how selenium grid can be incorporated with Kubernetes.
-- [==automated-360.com: How to perform Code Quality Check for Selenium Test Automation? (SonarQube)==](https://andara88do.com)
 - [testrigtechnologies.com: Selenium Automation Testing: How to write automated test scripts using selenium](https://www.testrigtechnologies.com/how-to-write-a-test-automation-selenium-test-script)
 - [lambdatest.com: Selenium Locators Tutorial 🌟](https://www.testmuai.com/learning-hub/selenium-locators) Locators in Selenium play an important role in the life of an automation engineer. They provide a path to access web elements that are essential to automate specific actions like click, type, checkboxes, etc.
 - [==lambdatest.com: Selenium Automation Testing: Basics and Getting Started== 🌟](https://www.testmuai.com/blog/selenium-tutorial)

@@ -51,7 +51,6 @@
 - [containerjournal.com: How to Secure Your Kubernetes Cluster 🌟](https://cloudnativenow.com/topics/cloudnativesecurity/how-to-secure-your-kubernetes-cluster)
 - [medium: How to Harden Your Kubernetes Cluster for Production 🌟](https://medium.com/better-programming/how-to-harden-your-kubernetes-cluster-for-production-7e47990efc2a)
 - [kubernetes.io: Cloud native security for your clusters](https://kubernetes.io/blog/2020/11/18/cloud-native-security-for-your-clusters)
-- [tldrsec.com: Risk8s Business: Risk Analysis of Kubernetes Clusters 🌟](https://tldrsec.com/?404=%2Fguides%2Fkubernetes) A zero-to-hero guide for assessing the security risk of your Kubernetes cluster and hardening it.
 - [labs.bishopfox.com: Bad Pods: Kubernetes Pod Privilege Escalation 🌟](https://bishopfox.com/blog/kubernetes-pod-privilege-escalation) What are the risks associated with overly permissive pod creation in Kubernetes? The answer varies based on which of the host’s namespaces and security contexts are allowed. I will describe eight insecure pod configurations and the corresponding methods to perform privilege escalation. This article and the accompanying repository were created to help penetration testers and administrators better understand common misconfiguration scenarios.
 - [sysdig.com: Kubernetes Security Guide 🌟](https://www.sysdig.com/blog/kubernetes-security-guide) Best practices, guidance and steps for implementing Kubernetes security.
 - [resources.whitesourcesoftware.com: Kubernetes Security Best Practices 🌟](https://www.mend.io/blog/kubernetes-security)
@@ -204,7 +203,6 @@
     - IDE linting and plug-ins
 - [faun.pub: Gatekeeper | K8 hardening backlog](https://faun.pub/gatekeeper-k8-hardening-backlog-956d1b6860b6?gi=5269db1320e5) This article summarizes a list of recommendations for hardening Kubernetes clusters (both on-prem and cloud) with Admission and Mutation webhooks using the open-source tool Gatekeeper.
 - [systemweakness.com: OWASP-K8S Security: Insecure Workload Configurations](https://systemweakness.com/owasp-k8s-security-insecure-workload-configurations-c14c4028beb1?gi=679f463e989d) In this series of blogs we will focus on OWASP Top 10 Kubernetes vulnerabilities, Discussing each in a separate blog.
-- [owasp.org: OWASP Kubernetes Top Ten](https://kubernetes-top10.owasp.org) OWASP Kubernetes Top Ten is aimed at helping security practitioners, system administrators, and developers prioritize risks around the Kubernetes ecosystem. This is a prioritized list of these risks backed by data.
 - [darkreading.com: Top 10 Kubernetes Security Risks Every DevSecOps Pro Should Know](https://www.darkreading.com/dr-tech/top-10-kubernetes-security-risks-every-devsecops-needs-to-know) The mission to run any containerized application on any infrastructure makes security a challenge on Kubernetes.
 - [==sysdig.com: OWASP Kubernetes Top 10== 🌟](https://www.sysdig.com/blog/top-owasp-kubernetes) One of the biggest concerns when using Kubernetes is whether we are complying with the security posture and taking into account all possible threats.
 - [itnext.io: Kubernetes OWASP Top 10: Secrets Management](https://itnext.io/kubernetes-owasp-top-10-secrets-management-c996faa87b47?gi=9be3caf81444) you will discuss secrets management in Kubernetes:
@@ -314,12 +312,10 @@
 - [medium: Encrypting the certificate for Kubernetes (Let’s Encrypt) 🌟](https://medium.com/avmconsulting-blog/encrypting-the-certificate-for-kubernetes-lets-encrypt-805d2bf88b2a)
 - [rejupillai.com: Let’s Encrypt the Web (for free)](https://rejupillai.com/index.php/2021/03/06/configure-tls-on-gke-ingress-for-free-with-lets-encrypt)
 - [betterprogramming.pub: Kubernetes and SSL Certificate Management 🌟](https://betterprogramming.pub/kubernetes-and-ssl-certificate-management-5f6a4b6f5ae9) Manage SSL certificate orders in K8s with Helm and Let’s Encrypt.
-- [getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager](https://jnetoto808.com) Automate the provisioning of Let's Encrypt certificates for ingress resources
 - [faun.pub: Automate Certificate Management In Kubernetes Using Cert-Manager](https://faun.pub/automate-certificate-management-in-kubernetes-using-cert-manager-d0745e5c7757?gi=49f59e67b787)
 - [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) Automatically provision and manage TLS certificates in Kubernetes
 - **(2026)** [TokenTimer](https://github.com/tokentimerch/tokentimer-core) 🌟 - AGPL-3.0 certificate lifecycle management for Kubernetes, with Helm and cert-manager integration.
 - [github.com/cert-manager: Policy Approver](https://github.com/cert-manager/approver-policy) Policy Approver is a cert-manager approver that is responsible for Approving or Denying CertificateRequests.
-- [jetstack.io: Getting started using cert-manager with the sig-network Gateway API](https://www.paloaltonetworks.com/idira)
 - [medium.com/@knoldus: Configure SSL certificate with cert-manager on Kubernetes](https://medium.com/@knoldus/configure-ssl-certificate-with-cert-manager-on-kubernetes-e5ca8a804e16)
 - [blog.devgenius.io: Automated DNS/TLS with External DNS & LetsEncrypt on Kubernetes](https://blog.devgenius.io/automated-dns-tls-with-external-dns-letsencrypt-on-kubernetes-6f4f41827df9?gi=c1180bb19f8a) you'll learn how to create TLS certificates for your application with cert-manager and DNS entries with external DNS. Finally, you will expose your applications with an ingress resource to tie it all together.
 - [itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime](https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8?gi=a46837e6dbee) When upgrading Cert-Manager, it's often required to update the CRDs. Unfortunately, it's not a straightforward process. you'll learn a few options that ensure a smooth Cert-Manager upgrade to avoid downtime of production deployment.
@@ -453,7 +449,6 @@ Each of these alternatives provides different features and may be more suitable 
     - Kubeval
     - Kubeconform
     - Kubescore
-- [engineering.dynatrace.com: Kubernetes Security Best Practices -Part 1: Role Based Access Control (RBAC)](https://www.dynatrace.com/news/engineering)
 - [medium.com/dynatrace-engineering: Kubernetes Security Best Practices Part 2: Network Policies](https://medium.com/dynatrace-engineering/kubernetes-security-best-practices-part-2-network-policies-405b36ed9d94) In this blog post, you'll cover the following topics:
     - What a NetworkPolicy is, and why do you need it
     - How NetworkPolicies are structured

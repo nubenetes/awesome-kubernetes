@@ -23,6 +23,10 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 #### Google Cloud
 
   - **(2025)** [Level Up Your Agents: Announcing Google's Official Skills Repository](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's announcement of its official skills repository designed for AI agents. This resource provides ready-made functions, connectors, and tools that can be bound to Gemini-powered agents, enabling them to query enterprise databases, execute administrative tasks, and integrate with standard GCP APIs with strict security guarantees.
+## Anthos. Googles Hybrid And Multi-cloud Platform
+
+  - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d?gi=3cb3aed7aa21) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Anthos — Multi-cluster Management covering Anthos. Googles Hybrid And Multi-Cloud Platform in Googlecloudplatform (itnext.io).
+  - [itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service Load Balancing](https://itnext.io/ingress-for-anthos-multi-cluster-ingress-and-global-service-load-balancing-c56c57b97e82?gi=e5b9e8810011) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service Load Balancing covering Anthos. Googles Hybrid And Multi-Cloud Platform in Googlecloudplatform (itnext.io).
 ## Application Development
 
 ### API Management
@@ -50,21 +54,11 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 #### Platform Review
 
   - **(2020)** [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/2270941/google-cloud-appsheet-review-no-code-with-extras.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A critical, technical review analyzing AppSheet's feature set, emphasizing its data-modeling capabilities, native integration with GCP resources, and automated workflow triggers. Assesses how the platform scales for rapid application delivery compared to traditional development.
-#### Productivity
-
-  - **(2020)** [Google Cloud AppSheet](https://about.appsheet.com/home)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AppSheet delivers a robust, no-code application development platform that integrates directly with Google Workspace, databases, and third-party APIs. Enables business developers to engineer secure mobile and web automation interfaces with zero infrastructure overhead.
 ### Workflows
 
 #### Orchestration
 
   - **(2021)** [cloud.google.com: Service orchestration on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/service-orchestration-google-cloud) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes service orchestration methodologies in Google Cloud, highlighting Cloud Workflows. Illustrates how architects can coordinate microservices, serverless architectures, and external API gateways with low-latency, stateful orchestration mechanisms.
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
 ### Compute
@@ -108,10 +102,10 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [Google Cloud Build](https://cloud.google.com/build) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's serverless continuous integration and continuous delivery platform, enabling high-performance builds across multiple languages. The curator highlights its deep integration with GKE and secure Docker artifact pipelines. Live telemetry confirms that Cloud Build is highly effective for cost-sensitive scaling operations due to its pay-as-you-go billing model.
 #### DevOps Frameworks
 
-  - **(2026)** [cloud.google.com: DevOps](https://cloud.google.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's primary DevOps hub, anchoring its research around DORA (DevOps Research and Assessment) and native cloud capabilities like Cloud Build and GKE. Curator reviews emphasize high-velocity software delivery architectures. Modern GCP engineering patterns rely on these principles to deploy secure, distributed, and containerized architectures on Google Cloud Platform.
+  - **(2026)** [cloud.google.com: DevOps](https://cloud.google.com/devops) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's primary DevOps hub, anchoring its research around DORA (DevOps Research and Assessment) and native cloud capabilities like Cloud Build and GKE. Curator reviews emphasize high-velocity software delivery architectures. Modern GCP engineering patterns rely on these principles to deploy secure, distributed, and containerized architectures on Google Cloud Platform.
 #### Developer Tools
 
-  - **(2026)** [Cloud Developer Tools](https://cloud.google.com/products/tools) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory of Google Cloud developer tools, spanning Cloud Shell, Artifact Registry, and Cloud Code extensions. The curator highlights its streamline-driven integration with local IDE environments. Live platform development metrics show these tools dramatically reduce local setup time for developers building serverless applications or microservices targeted at GCP.
+  - **(2026)** [Cloud Developer Tools](https://cloud.google.com/products/tools) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory of Google Cloud developer tools, spanning Cloud Shell, Artifact Registry, and Cloud Code extensions. The curator highlights its streamline-driven integration with local IDE environments. Live platform development metrics show these tools dramatically reduce local setup time for developers building serverless applications or microservices targeted at GCP.
 #### IDE Integrations
 
   - **(2025)** [Google Cloud Code](https://cloud.google.com/code) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful suite of IDE plugins (VS Code, IntelliJ) designed to accelerate development of cloud-native systems on GCP. Curator highlights focus on debugging Kubernetes clusters directly from local workstations. Live engineering teams use Cloud Code to minimize the gap between local code changes and GCP deployment environments, driving faster development feedback loops.
@@ -193,7 +187,10 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 
 #### GKE Core
 
-  - **(2025)** [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core landing documentation for Google Kubernetes Engine (GKE), highlighting GKE's industry-standard capabilities. Specifically focuses on setting up node pools with custom kernel parameters, eliminating post-bootstrap script workarounds. Provides the baseline reference for standard-setting enterprise container management.
+  - **(2025)** [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core landing documentation for Google Kubernetes Engine (GKE), highlighting GKE's industry-standard capabilities. Specifically focuses on setting up node pools with custom kernel parameters, eliminating post-bootstrap script workarounds. Provides the baseline reference for standard-setting enterprise container management.
+## Cloud Spanner (1)
+
+  - [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner covering Cloud Spanner in Googlecloudplatform (engineering.mercari.com).
 ## Cloud Strategy
 
 ### Service Mapping
@@ -335,7 +332,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [AWS Newfeatures](./aws-newfeatures.md) | [AWS IaC](./aws-iac.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Backup](./aws-backup.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

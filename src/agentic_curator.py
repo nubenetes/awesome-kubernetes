@@ -302,8 +302,9 @@ class AgenticCurator:
             selected_header = "APPEND"
 
         # Format the link line according to Mandate 17
-        year = asset.get("year", "N/A")
-        year_prefix = f"**({year})** " if year and year != "N/A" else ""
+        year = asset.get("year")
+        year_str = str(year).strip() if year is not None else ""
+        year_prefix = f"**({year_str})** " if year_str and year_str.lower() not in ("n/a", "none", "null", "unknown", "") else ""
         link_line = f"  - {year_prefix}[{asset['title']}]({asset['url']}) 🌟 - {asset['description']}"
 
         # Perform programmatic insertion in Python

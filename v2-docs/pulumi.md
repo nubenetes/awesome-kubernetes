@@ -9,6 +9,10 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 !!! info "Architectural Context"
     Detailed reference for Pulumi - Modern Infrastructure as Code in the context of Hardened Infrastructure.
 
+## General Reference
+
+  - [pulumi.com: Running Containers on ECS Fargate](https://www.pulumi.com/dev/examples/aws-ts-hello-fargate) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for pulumi.com: Running Containers on ECS Fargate in the Pulumi ecosystem (pulumi.com).
+  - [pulumi.com: Convert Your Terraform to Pulumi](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-terraform) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for pulumi.com: Convert Your Terraform to Pulumi in the Pulumi ecosystem (pulumi.com).
 ## Infrastructure As Code
 
 ### API Integration
@@ -32,9 +36,6 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 #### AKS
 
   - **(2022)** [octopus.com: Create an AKS Cluster with Pulumi and Octopus Deploy](https://octopus.com/blog/pulumi-and-aks-with-octopus-deploy) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed enterprise deployment case study highlighting the instantiation of Azure Kubernetes Service (AKS) clusters via Pulumi code coupled with Octopus Deploy continuous release orchestrations.
-#### Civo Cloud
-
-  - **(2023)** [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial for deploying high-performance, lightweight K3s clusters on Civo Cloud utilizing Pulumi’s native Civo API bindings, highlighting modular infrastructure design.
 #### Migration
 
   - **(2026)** [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical conversion guide outlining methodologies to translate legacy, static Kubernetes YAML definitions or complex Helm charts directly into expressive, compilable Pulumi programs.
@@ -73,7 +74,7 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
   - **(2021)** [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed insight into the launch of the Pulumi Registry, a public marketplace supporting modular package sharing and reusability of multi-cloud components across diverse language boundaries.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [Kustomize](./kustomize.md) | [IaC](./iac.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [Dotnet](./dotnet.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub: OKD4 and more — curated Cloud Native tools, guides and references."
+description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook and more — curated Cloud Native tools, guides and references."
 ---
 # OCP 4
 
@@ -27,34 +27,20 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Quarkus
 
   - **(2020)** [developers.redhat.com: Spring Boot to Quarkus migrations and more in Red Hat’s migration toolkit for applications 5.1.0](https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An exploration of Red Hat's Migration Toolkit for Applications 5.1.0, focusing on automating the migration path from legacy Spring Boot dependencies to lightweight, Kubernetes-native Quarkus microservices to reduce resource overhead.
-## Architectural Foundations
+## Application Delivery
 
-### Kubernetes Tools
+### Enterprise Modernization
 
-#### General Reference
+#### Multi-cluster Strategy
 
-  - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: OpenShift Egress Options in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/enterprise-kubernetes-with-openshift-part-one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/openshift-4.5-node-improvements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/openshift-upi-using-static-ips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/improved-tooling-and-best-practices-to-help-you-migrate-to-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/openshift-architectures-for-the-edge-with-openshift-4.6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/descheduler-ga-in-openshift-4.7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/customizing-virtual-machine-templates-in-openshift-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/strategies-for-moving-.net-workloads-to-openshift-container-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/ocp-disaster-recovery-part-3-recovering-an-openshift-4-ipi-cluster-with-the-loss-of-two-master-nodes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/openshift-end-to-end-plan-and-deploy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/openshift-end-to-end-core-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/openshift-end-to-end-cluster-customization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/global-load-balancer-for-openshift-clusters-an-operator-based-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
+  - **(2021)** [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates strategies for migrating active application states and resource structures between hybrid and multi-cloud OpenShift clusters without losing critical metadata or transaction continuity.
 ## Artifact Management
 
 ### Container Registries
 
 #### Red Hat Quay
 
-  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive analysis of Red Hat Quay and the integrated OpenShift Container Registry. Details secure image storage, vulnerability scanning with Clair, and geo-replication capabilities. It highlights Quay's enterprise-grade multi-tenancy and RBAC controls, which ensure secure artifact promotion within high-performance microservices pipelines.
+  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive analysis of Red Hat Quay and the integrated OpenShift Container Registry. Details secure image storage, vulnerability scanning with Clair, and geo-replication capabilities. It highlights Quay's enterprise-grade multi-tenancy and RBAC controls, which ensure secure artifact promotion within high-performance microservices pipelines.
 ## CICD
 
 ### App Migration (1)
@@ -72,6 +58,14 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Community Catalog
 
   - **(2026)** [==github.com/redhat-cop/gitops-catalog==](https://github.com/redhat-cop/gitops-catalog) <span class='md-tag md-tag--info'>⭐ 377</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4f48a161" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 8 L 30 11 L 40 6 L 50 13" fill="none" stroke="url(#spark-grad-4f48a161)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An indispensable, community-curated collection of production-ready GitOps blueprints, Argo CD definitions, and cluster config charts maintained by Red Hat CoP.
+### Secops
+
+#### Automated Builds
+
+  - **(2020)** [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.redhat.com/en/blog/keep-your-applications-secure-with-automatic-rebuilds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical guide illustrating how to configure OpenShift's image change triggers and ImageStreams to drive automatic rebuilds of downstream containers when upstream base images update or fix security issues. This methodology tightens SecOps loops, ensuring immediate mitigation of CVEs. It integrates container registry security alerts directly with native cluster build systems.
+## Calico CNI Plug-in
+
+  - [Operator-based Calico CNI Plug-In is Supported on OpenShift 4 🌟](https://www.redhat.com/en/blog/operator-based-calico-cni-plug-in-is-supported-on-openshift-4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Operator-based Calico CNI Plug-In is Supported on OpenShift 4 🌟 covering Calico CNI Plug-in in OCP 4 (redhat.com).
 ## Cloud Infrastructure
 
 ### Managed Kubernetes
@@ -79,6 +73,14 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Azure Red Hat Openshift
 
   - **(2020)** [Introducing Azure Red Hat OpenShift on OpenShift 4 🌟](https://www.redhat.com/en/blog/introducing-azure-red-hat-openshift-on-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the managed Azure Red Hat OpenShift (ARO) offering on OpenShift 4, built on operator-led cluster lifecycle management. It discusses direct integration with Microsoft Azure services, integrated scaling, and unified support channels. This managed service drastically simplifies operational overhead, letting enterprises focus purely on microservices delivery.
+## Cloud Native
+
+### Kubernetes Serverless
+
+#### Knative
+
+  - **(2021)** [**redhat.com: What is knative?**](https://www.redhat.com/en/topics/microservices/what-is-knative) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Red Hat's baseline structural review of Knative, mapping its internal serving controllers, ingress routes, and cluster event models for enterprise operators.
+  - **(2020)** [**datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants**](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines Knative's industry goal of creating an open, pluggable platform layer that frees enterprise organizations from public cloud vendor lock-in.
 ## Cloud Native Application
 
 ### Serverless
@@ -87,20 +89,9 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 
   - **(2020)** [Serverless applications made faster and simpler with **OpenShift Serverless GA**](https://developers.redhat.com/blog/2020/04/30/serverless-applications-made-faster-and-simpler-with-openshift-serverless-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introducing OpenShift Serverless GA, this resource outlines the packaging of Knative into an enterprise-supported product. It details the integration of OpenShift's default routing layer, integration with service mesh (Istio), and developer console enhancements that provide visual revision graphs, simple traffic-splitting controls, and event-source creation.
   - **(2020)** [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through of OpenShift Serverless features. The session demonstrates creating a Node.js microservice, deploying it via git-import, scaling down to absolute zero instances to conserve resources, and automatically scaling up instances to handle sudden HTTP request surges.
-## Cloud Native Infrastructure
+## Cluster Network Operator CNO And Routers
 
-### Service Mesh
-
-#### Openshift
-
-  - **(2022)** [==github.com: Maistra Istio==](https://github.com/maistra/istio) <span class='md-tag md-tag--info'>⭐ 94</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-13d7f9b5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 2 L 30 10 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-13d7f9b5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official GitHub repository for Maistra's modified Istio control plane code. Optimized for multi-tenancy support, advanced security policies, and tight integration within OpenShift environments.
-## Cluster Management
-
-### Scheduling and Node Assignment
-
-#### Dynamic Balancing
-
-  - **(2026)** [==Descheduler for Kubernetes 🌟==](https://github.com/kubernetes-sigs/descheduler) <span class='md-tag md-tag--info'>⭐ 5441</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-05b97c78" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 11 L 30 8 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-05b97c78)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly critical Kubernetes SIG project that addresses scheduling drift by continuously examining running pods against modified constraints, evicting pods that violate affinities, taints, topology spreads, or resource capacities.
+  - [openshift.com: Global Load Balancer for OpenShift clusters: an Operator-Based Approach](https://www.redhat.com/en/blog/global-load-balancer-for-openshift-clusters-an-operator-based-approach)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Global Load Balancer for OpenShift clusters: an Operator-Based Approach covering Cluster Network Operator CNO and Routers in OCP 4 (redhat.com).
 ## Compute and Runtime
 
 ### Local Container Engines
@@ -124,6 +115,13 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Openshift Virtualization
 
   - **(2023)** [cloud.redhat.com: OpenShift Virtualization on Amazon Web Services](https://www.redhat.com/en/blog/openshift-virtualization-on-amazon-web-services) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This architectural guide describes how to run legacy virtual machines natively alongside microservice containers on AWS bare-metal instances using KubeVirt. It establishes the bridge for migrating classic virtualized workloads into cloud-native architectures.
+## Container Management
+
+### Openshift
+
+#### Image Management
+
+  - **(2019)** [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analysis compares OpenShift ImageStreams with vanilla Kubernetes image pulling mechanisms. It explains how ImageStreams provide abstraction layers over container registries, enabling automatic redeployments upon detection of updated remote images (triggers). By decoupling pods from concrete repository URLs, it automates deployment lifecycle workflows for platform engineering teams.
 ## Container Platforms
 
 ### OKD  Openshift
@@ -139,6 +137,18 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Infrastructure Provisioning
 
   - **(2021)** [Fully Automated OpenShift Deployments With VMware vSphere](https://www.redhat.com/en/blog/fully-automated-openshift-deployments-with-vmware-vsphere) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed documentation on Installer-Provisioned Infrastructure (IPI) for Red Hat OpenShift on VMware vSphere environments. The automation workflow covers DNS registration, load balancing, virtual machine provisioning, and cluster bootstrapping directly from the installer. This integration streamlines on-premise private cloud delivery, reducing manual operational overhead to nearly zero.
+## Containerization
+
+### Container Engines
+
+#### Daemonless Execution
+
+  - **(2019)** [developers.redhat.com: Podman and Buildah for Docker users 🌟](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A practical handbook for developers transitionining from legacy Docker tooling to the modern Podman/Buildah stack. It walks through command mapping, registry authentications, building minimal rootless images, and deploying local Kubernetes-style multi-container YAML manifests.
+### Runtimes
+
+#### Kubernetes Integration
+
+  - **(2017)** [cri-o.io](https://cri-o.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official home of CRI-O, an optimized Container Runtime Interface (CRI) designed specifically and exclusively for Kubernetes. CRI-O avoids overhead by supporting only OCI-compliant runtimes, removing unnecessary client CLI abstractions to deliver minimum-footprint workload execution.
 ## Containers and Orchestration
 
 ### Openshift (2)
@@ -152,6 +162,13 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Technical Background
 
   - **(2018)** [nextplatform.com: red hat flexes CoreOS muscle in openshift kubernetes platform](https://www.nextplatform.com/cloud/2018/10/15/red-hat-flexes-coreos-muscle-in-openshift-kubernetes-platform/1631979) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the strategic integration of Red Hat Enterprise Linux CoreOS (RHCOS) within OpenShift 4. Reviews the architectural impact of immutable operating systems on container security, automated node provisioning, and life-cycle scaling.
+## Databases
+
+### Postgresql
+
+#### Developer Tutorials
+
+  - **(2026)** [learn.crunchydata.com 🌟](https://www.crunchydata.com/developers/tutorials) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive educational portal offering structured developer exercises focused on core database engineering. Includes tasks on indexing optimizations, raw performance telemetry, and complex JSON data orchestration strategies in PostgreSQL.
 ## Developer Experience
 
 ### Application Development
@@ -195,7 +212,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Troubleshooting Protocols
 
   - **(2020)** [==blog.openshift.com: Simplifying OpenShift Case Information Gathering Workflow: **Must-Gather Operator** (In the context of Red Hat OpenShift 4.x and Kubernetes, **it is considered a bad practice to ssh into a node and perform debugging actions**) 🌟==](https://www.redhat.com/en/blog/simplifying-openshift-case-information-gathering-workflow-must-gather-operator) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces the Must-Gather Operator framework as a secure alternative to direct SSH debugging of underlying cluster nodes. Details how the automated diagnostic engine programmatically aggregates core configuration files, CRDs, namespace event logs, and kernel metrics.
-### Cluster Management (1)
+### Cluster Management
 
 #### Developer Tooling
 
@@ -280,6 +297,11 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Telemetry Metrics
 
   - **(2021)** [**developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 4: Gathering performance metrics**](https://developers.redhat.com/articles/2021/07/29/troubleshooting-application-performance-red-hat-openshift-metrics-part-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Part 4 of an diagnostics series focusing on scraping application targets and debugging latency. Shows how to use the built-in PromQL interface on OpenShift to trace application runtime anomalies.
+### Openshift (3)
+
+#### Openshift Serverless (1)
+
+  - **(2026)** [==OpenShift Serverless==](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's production-hardened Knative integration. Provides out-of-the-box scale-to-zero capabilities, event routing, and secure cluster integration under the OpenShift console.
 ### Operator Framework
 
 #### Lifecycle Management
@@ -353,6 +375,13 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 
   - **(2021)** [**developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container**](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explains how to execute legacy .NET applications alongside Linux containers on OpenShift. Details the usage of the Windows Machine Config Operator (WMCO) to run and manage Windows Server VMs directly inside OpenShift.
   - **(2021)** [**cloud.redhat.com: Announcing Bring Your Own Host Support for Windows nodes to Red Hat OpenShift**](https://www.redhat.com/en/blog/announcing-bring-your-own-host-support-for-windows-nodes-to-red-hat-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces Bring Your Own Host (BYOH) capabilities for Windows Server workloads on OpenShift. Explains how this feature allows operators to manually bootstrap pre-configured Windows instances into their clusters.
+## Extensibility
+
+### Operators
+
+#### Lifecycle Management (1)
+
+  - **(2024)** [==Red Hat OLM==](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dd898253" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 11 L 30 9 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-dd898253)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Part of the Operator Framework, OLM manages the installation, updates, and role-based access control of Operators running inside a cluster. It acts as an orchestrator for custom resource definitions (CRDs) and controller versions, ensuring dependencies are resolved safely. This tool is standard infrastructure across Red Hat OpenShift and enterprise Kubernetes configurations to scale operations reliably.
 ## Extensibility and Apis
 
 ### Microservices
@@ -365,9 +394,17 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Community Feed
 
   - **(2024)** [twitter.com/operatorhubio](https://x.com/operatorhubio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official community account sharing news, releases, and developments in the operator ecosystem.
-#### OLM Core
+## Extensibility and Development
 
-  - **(2026)** [==OLM Arquitecture==](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8c2ec55e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 8 L 30 12 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-8c2ec55e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository provides deep technical designs for Operator Lifecycle Manager (OLM). It handles updates, dependency validation, and multi-tenant installations of Kubernetes Operators.
+### Registries and Catalogs
+
+#### Operator Discovery
+
+  - **(2026)** [operatorhub.io](https://operatorhub.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — OperatorHub is the central ecosystem registry showcasing community and enterprise Operators. It functions as an indexing catalog that standardizes installation formats, promoting packaging standards aligned with the Operator Lifecycle Manager (OLM) format.
+## Helm Charts And Openshift 4
+
+  - [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://www.redhat.com/en/blog/helm-and-operators-on-openshift-part-1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.openshift.com: Helm and Operators on OpenShift, Part 1 covering Helm Charts and OpenShift 4 in OCP 4 (redhat.com).
+  - [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://www.redhat.com/en/blog/helm-and-operators-on-openshift-part-2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.openshift.com: Helm and Operators on OpenShift, Part 2 covering Helm Charts and OpenShift 4 in OCP 4 (redhat.com).
 ## Industry Solution
 
 ### Construction Industry
@@ -396,11 +433,11 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Self-hosted
 
   - **(2019)** [==GitHub Quay (OSS)==](https://github.com/quay/quay) <span class='md-tag md-tag--info'>⭐ 2785</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d2af50cc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 2 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-d2af50cc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Project Quay is the open-source upstream version of Red Hat Quay, providing a highly scalable container registry designed for cloud-native infrastructure. It features multi-tenancy, geo-replication, advanced security pruning, and Clair integration to secure the software delivery pipeline.
-### Data Protection
+### Kubernetes Distributions
 
-#### Kubernetes Backup Operators
+#### Enterprise Distributions
 
-  - **(2026)** [==github.com/vmware-tanzu/velero==](https://github.com/velero-io/velero) <span class='md-tag md-tag--info'>⭐ 10062</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1fef8e38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 7 L 30 12 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-1fef8e38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Velero is the standard open-source utility for safely backing up and restoring entire Kubernetes cluster structures and persistent volumes. Deeply integrates with both raw cloud APIs and file-level utilities like Kopia and Restic.
+  - **(2026)** [OKD](https://okd.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The community-backed, open-source upstream counterpart to Red Hat OpenShift. OKD integrates Kubernetes with core Linux container tools (like Fedora CoreOS) to offer a complete self-managing, multi-tenant container platform designed for declarative applications, CI/CD, and simplified enterprise operations.
 ### Kubernetes Operators (1)
 
 #### Database and Registry
@@ -436,12 +473,32 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### AWS Provisioning
 
   - **(2020)** [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official AWS blueprint details early CloudFormation-driven automations to instantiate OpenShift 4 environments. While largely replaced by Modern Partner Solutions, it remains an informative model for multi-AZ topology layouts.
-### Scheduling
+## Infrastructure Security
 
-#### Load-aware
+### Container Registries (1)
 
-  - **(2024)** [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) <span class='md-tag md-tag--info'>⭐ 1295</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ef2ffd4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 8 L 30 8 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-3ef2ffd4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of scheduling plugins (TargetLoadPacked and LoadWatcher) under the Trimaran umbrella that enable real-time, load-aware scheduling in Kubernetes. Instead of scheduling purely based on static requests, it utilizes actual node resource utilization metrics. Active in 2026, it is vital for optimizing cluster efficiency and reducing overall infrastructure costs.
-## Networking
+#### Project Quay
+
+  - **(2019)** [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official press release detailing Red Hat's open-sourcing of Project Quay, the upstream foundation of Red Hat Quay. This transition opened up the registry engine, vulnerability scanner (Clair), and helper tools to public collaborative development. It established Project Quay as a fully open, scalable option for global container storage and scanning.
+#### Quay
+
+  - **(2026)** [Quay.io](https://quay.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Quay.io is Red Hat's enterprise-grade hosting platform for container images, offering advanced security and vulnerability scanning. It provides built-in support for fine-grained access control, geographic replication, and integration with external identity providers. Quay serves as a critical infrastructure backbone for secure container image distribution across large scale cluster topologies.
+#### Quay Licensing
+
+  - **(2019)** [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.redhat.com/en/technologies/cloud-computing/quay) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historical reference regarding the commercial positioning and purchasing models of the Red Hat Quay 3.1 Certified Operator within OpenShift ecosystems. While previously highlighting commercial limitations, modern OpenShift ecosystems have integrated operators and community Project Quay alternatives smoothly. This documentation is legacy, detailing enterprise licensing landscapes of the 2019 era.
+## Kubernetes and Openshift
+
+### Networking
+
+#### Traffic Control
+
+  - **(2019)** [redhat.com: Network traffic control for containers in Red Hat OpenShift 🌟](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines ingress/egress bandwidth shaping, container rate-limiting, and packet prioritization within OpenShift's SDN. Live grounding shows that while basic Linux TC limits apply, contemporary architectures utilize service meshes to execute complex L7 rate-limiting policies.
+### Security
+
+#### Architecture
+
+  - **(2018)** [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This seminal architectural analysis details patterns for deploying OpenShift across physical and logical enterprise network security zones. Contrasts legacy perimeter firewall zoning models with flat cloud-native Software-Defined Networks (SDNs), providing proven coexistence topologies.
+## Networking (1)
 
 ### Container Network Interface
 
@@ -476,11 +533,19 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Oauth Providers
 
   - **(2020)** [youtube: OpenShift 4 OAuth Identity Providers](https://www.youtube.com/watch?v=eFxFtUpAT9s) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video presentation detailing identity federation. It explains configuration patterns for LDAP, Active Directory, and custom OAuth providers on OpenShift.
+### OS Security
+
+#### Selinux and MCS
+
+  - **(2013)** [SELinux](https://www.slideshare.net/openshift/openshift-18812162)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early architectural overview of security layers in OpenShift, detailing how SELinux and Multi-Category Security (MCS) keep container filesystems separated.
 ### Traffic Routing
 
 #### Ingress Controllers (1)
 
   - **(2026)** [Ingress Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Kubernetes documentation explaining Ingress. It teaches engineers how to manage HTTP routing, SSL termination, and hostnames at the cluster edge.
+## OCP 4 Overview
+
+  - [Operator Framework](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [quay.io](https://quay.io) container build and registry service Stable tiny Linux distribution with [ignition bootstrap](https://coreos.github.io/ignition) and transaction-based update engine. **OpenShift**: [Wide enterprise adoption](https://www.redhat.com/en/technologies/cloud-computing/openshift) [Security](https://docs.openshift.com/container-platform/4.4/authentication/managing-security-context-constraints.html) [Multi-tenancy features](https://www.slideshare.net/slideshow/20171010-multitenancy-in-openshift/80696233) (self-service)
 ## Observability and Ops
 
 ### Alerting and Telemetry
@@ -498,6 +563,29 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Grafana Old Versions
 
   - **(2018)** [grafana.com/docs/v5.4/](https://archive.grafana.com/docs/grafana/v5.4) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Archived documentation for Grafana v5.4, preserved primarily to reference legacy metrics collection architectures from early OpenShift 4 telemetry configurations.
+## Openshift Container Platform 4 OCP 4
+
+  - [blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟](https://www.redhat.com/en/blog/enterprise-kubernetes-with-openshift-part-one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟 covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [OpenShift 4.5: Node Improvements](https://www.redhat.com/en/blog/openshift-4.5-node-improvements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for OpenShift 4.5: Node Improvements covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: OpenShift UPI using static IPs](https://www.redhat.com/en/blog/openshift-upi-using-static-ips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: OpenShift UPI using static IPs covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [Improved tooling and best practices to help you migrate to OpenShift 4](https://www.redhat.com/en/blog/improved-tooling-and-best-practices-to-help-you-migrate-to-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Improved tooling and best practices to help you migrate to OpenShift 4 covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: OpenShift Architectures for the Edge With OpenShift 4.6](https://www.redhat.com/en/blog/openshift-architectures-for-the-edge-with-openshift-4.6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: OpenShift Architectures for the Edge With OpenShift 4.6 covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: Nested OpenShift using OpenShift Virtualization](https://www.redhat.com/en/blog/nested-openshift-using-openshift-virtualization) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Nested OpenShift using OpenShift Virtualization covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: Descheduler GA in OpenShift 4.7 🌟](https://www.redhat.com/en/blog/descheduler-ga-in-openshift-4.7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Descheduler GA in OpenShift 4.7 🌟 covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟](https://www.redhat.com/en/blog/how-to-configure-ldap-sync-with-cronjobs-in-openshift) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟 covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: A Brief Introduction to Red Hat Advanced Cluster Security for Kubernetes](https://www.redhat.com/en/blog/a-brief-introduction-to-red-hat-advanced-cluster-security-for-kubernetes) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: A Brief Introduction to Red Hat Advanced Cluster Security for Kubernetes covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: Customizing Virtual Machine Templates in OpenShift](https://www.redhat.com/en/blog/customizing-virtual-machine-templates-in-openshift-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Customizing Virtual Machine Templates in OpenShift covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: Strategies for Moving .NET Workloads to OpenShift Container Platform](https://www.redhat.com/en/blog/strategies-for-moving-.net-workloads-to-openshift-container-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Strategies for Moving .NET Workloads to OpenShift Container Platform covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: Workload Support for Red Hat OpenShift Matures Across the Industry](https://www.redhat.com/en/blog/workload-support-for-red-hat-openshift-matures-across-the-industry) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Workload Support for Red Hat OpenShift Matures Across the Industry covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+  - [openshift.com: OCP Disaster Recovery Part 3: Recovering an OpenShift 4 IPI cluster With the Loss of Two Master Nodes 🌟](https://www.redhat.com/en/blog/ocp-disaster-recovery-part-3-recovering-an-openshift-4-ipi-cluster-with-the-loss-of-two-master-nodes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: OCP Disaster Recovery Part 3: Recovering an OpenShift 4 IPI cluster With the Loss of Two Master Nodes 🌟 covering OpenShift Container Platform 4 OCP 4 in OCP 4 (redhat.com).
+## Openshift End-to-end. Day 0 Day 1 And Day 2
+
+  - [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.redhat.com/en/blog/openshift-end-to-end-plan-and-deploy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for OpenShift End-to-End: **Day 0** - Plan and Deploy covering OpenShift End-to-End. Day 0 Day 1 and Day 2 in OCP 4 (redhat.com).
+  - [OpenShift End-to-End: **Day 1** - Core Services](https://www.redhat.com/en/blog/openshift-end-to-end-core-services)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for OpenShift End-to-End: **Day 1** - Core Services covering OpenShift End-to-End. Day 0 Day 1 and Day 2 in OCP 4 (redhat.com).
+  - [OpenShift End-to-End: **Day 2** - Cluster Customization 🌟](https://www.redhat.com/en/blog/openshift-end-to-end-cluster-customization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [Ask an OpenShift Admin Office Hour - Day 2 Operations, Part 1](https://www.redhat.com/en/blog/ask-an-openshift-admin-office-hour-day-2-operations-part-1) [Ask an OpenShift Admin Office Hour - Day 2 Operations, Part 2](https://www.redhat.com/en/blog/ask-an-openshift-admin-office-hour-day-2-operations-part-2)
+## Openshift Hive Cluster-as-a-service. Easily Provision New Paas Environments For Developers
+
+  - [blog.openshift.com: openshift hive cluster as a service](https://www.redhat.com/en/blog/openshift-hive-cluster-as-a-service) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.openshift.com: openshift hive cluster as a service covering OpenShift Hive Cluster-as-a-Service. Easily provision new PaaS environments for developers in OCP 4 (redhat.com).
 ## Operations
 
 ### Benchmarking
@@ -518,16 +606,33 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Openshift Console
 
   - **(2020)** [OpenShift topology view: A milestone towards a better developer experience](https://www.redhat.com/en/blog/openshift-topology-view-milestone-towards-better-developer-experience)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the OpenShift Developer Console Topology View. This visual dashboard maps microservice networks, workloads, and real-time build systems, significantly easing day-to-day application management tasks.
+## Platform and Site Reliability
+
+### DevOps
+
+#### State Of DevOps. Googles DevOps Research And Assessment DORA
+
+  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
 ## Platform Engineering
 
-### Kubernetes Distributions
+### Developer Experience (2)
 
-#### Installer
+#### Red Hat Ecosystem (1)
 
-  - **(2026)** [==github.com/openshift/installer openshift installer 🌟==](https://github.com/openshift/installer) <span class='md-tag md-tag--info'>⭐ 1550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23f8b934" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 12 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-23f8b934)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository hosting the OpenShift Installer engine (IPI/UPI), which handles automated platform provisioning on major hypervisors and public clouds. Generates ignition files, configures bootstraps, and controls the automated installation of the core operators. Essential codebase for platform deployment.
+  - **(2026)** [==Developer Sandbox==](https://developers.redhat.com/developer-sandbox) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides immediate, zero-cost developer access to an active, shared OpenShift cluster environment pre-populated with cloud-native tooling. Eliminates complex infrastructure bootstrapping for developers, letting them deploy containers instantly. In 2026, it is the standard starting sandbox for assessing OpenShift APIs.
+### Ecosystem (1)
+
+#### Marketplace (1)
+
+  - **(2024)** [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally a portal dedicated to discovering, buying, and provisioning certified operators and third-party software on OpenShift. While the standalone portal has transitioned, the actual operational flow has been assimilated directly into the internal OpenShift OperatorHub interface.
+### Kubernetes Distributions (1)
+
+#### Evaluation and Sandbox
+
+  - **(2026)** [**try.openshift.com 🌟**](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Unified gateway for trialing OpenShift deployments across public clouds, virtualization platforms, and local developer workstations (via OpenShift Local). Enables architects to evaluate operational complexity and developer tooling. Continually updated in 2026 to reflect the latest stable 4.x features.
 ## Platforms
 
-### Cluster Management (2)
+### Cluster Management (1)
 
 #### Cluster Provisioning (1)
 
@@ -557,7 +662,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 
   - **(2021)** [okd4-upi-lab-setup: Building an OpenShift - OKD 4.X Lab](https://cgruver.github.io/okd4-upi-lab-setup) <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub lab orchestration repository designed to construct an OKD 4.x environment via User Provisioned Infrastructure (UPI). Using automated Bash scripts and Ansible playbooks, it speeds up the configuration of helper services (DNS, HAProxy, Web server) and manages cluster deployment.
   - **(2020)** [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://www.redhat.com/en/blog/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive blog series instructing network engineers and developers on setting up a bare-metal OKD 4.4 cluster inside a personal home lab. It covers essential infrastructure prep, including configuring DHCP, DNS forwarding, PXE booting, HAProxy for load balancing, and deploying the bootstrap control VM.
-### Lifecycle Management (1)
+### Lifecycle Management (2)
 
 #### Application Migration
 
@@ -574,7 +679,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 
   - **(2025)** [Homepage](https://crc.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The landing portal for Red Hat OpenShift Local (formerly CodeReady Containers / CRC). OpenShift Local packages a minimal, single-node OpenShift cluster into a single virtual machine optimized for local development. Live grounding confirms it is the primary local emulation tool, replacing minishift, and is designed for developers building cloud-native applications directly on macOS, Windows, or Linux.
   - **(2019)** [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers**](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical launch announcement introducing Red Hat CodeReady Containers (now OpenShift Local) for OpenShift 4.2. It marks the transition to Operator-driven OpenShift clusters running on local developer laptops. The single-node environment utilizes host-native hypervisors (Hyper-V, Libvirt, Hyperkit) to containerize all cluster control-plane workloads into a resource-constrained footprint.
-#### Operators
+#### Operators (1)
 
   - **(2020)** [Install Red Hat OpenShift Operators on your laptop using Red Hat CodeReady Containers and Red Hat Marketplace](https://developers.redhat.com/blog/2020/09/09/install-red-hat-openshift-operators-on-your-laptop-using-red-hat-codeready-containers-and-red-hat-marketplace)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This tutorial covers deploying OpenShift Operators inside CodeReady Containers (OpenShift Local). Note: Red Hat Marketplace integration steps are now legacy due to the marketplace's sunset. However, the core technique of utilizing local Operator Lifecycle Manager (OLM) configurations to install enterprise-grade catalog operators on a local developer laptop remains highly relevant.
 #### Remote Deployments
@@ -603,7 +708,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Official Stream
 
   - **(2026)** [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main YouTube page for OpenShift, hosting recorded community developer events, product demonstrations, and architectural panels.
-## Security
+## Security (1)
 
 ### Cloud Security
 
@@ -612,7 +717,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
   - **(2023)** [cloud.ibm.com: openshift-security](https://cloud.ibm.com/docs/openshift?topic=openshift-security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation outlining security controls on Red Hat OpenShift on IBM Cloud (ROKS). It details the split-responsibility model between cloud providers and customers, managing IAM integrations, enforcing private endpoints, setting up CIS/Benchmarks, and isolating network compute nodes to fulfill stringent regulatory standards for enterprise workloads.
 ### Container Registry (1)
 
-#### Project Quay
+#### Project Quay (1)
 
   - **(2026)** [projectquay.io](https://www.projectquay.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The project homepage for Project Quay. Quay is an open-source, highly scalable, and secure container registry engine. The platform provides granular access controls, robot accounts, and support for multi-arch OCI registry specifications, serving as the upstream codebase for Red Hat Quay.
 ### Hardening
@@ -632,13 +737,16 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Cluster Design
 
   - **(2021)** [openshift.com: OpenShift Security Best Practices for Kubernetes Cluster Design 🌟](https://www.redhat.com/en/blog/openshift-security-best-practices-for-kubernetes-cluster-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores architectural security design patterns for OpenShift, including network segmentation, API access control, multi-tenancy models, and secure OS configurations via CoreOS. It highlights key defensive controls like Security Context Constraints (SCCs) and identity provider integrations. A must-read for compliance-oriented infrastructure architects designing high-security Kubernetes platforms.
-## Service Mesh (1)
+## Service Mesh
 
 ### Red Hat Openshift
 
 #### Enterprise Platforms
 
   - **(2020)** [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement detailing the GA availability of Red Hat OpenShift Service Mesh. Explains the integrated packaging of Istio, Envoy, and Jaeger under OpenShift's strict security paradigms.
+## Setting Up OCP4 On AWS
+
+  - [openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS](https://www.redhat.com/en/blog/control-regional-access-to-your-service-on-openshift-running-on-aws) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS covering Setting up OCP4 on AWS in OCP 4 (redhat.com).
 ## Storage
 
 ### Cloud-native Storage
@@ -646,6 +754,21 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Openshift Data Foundation
 
   - **(2023)** [Red Hat OpenShift Container Storage 4](https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift Data Foundation (formerly OpenShift Container Storage 4) delivers software-defined persistent storage engineered for containerized environments. Built on Ceph, Rook, and NooBaa, ODF provides unified block, file, and object storage interfaces directly inside Kubernetes. This architecture simplifies lifecycle operations and enables dynamic provisioning, snapshotting, and disaster recovery across hybrid cloud footprints.
+### Distributed Storage
+
+#### Ceph
+
+  - **(2026)** [Red Hat Ceph Storage](https://ceph.io/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Ceph Storage is an enterprise product offering distributed block, file, and object storage coupled with multi-cloud data federation via NooBaa. It incorporates enterprise efficiency tools like global data compression, data deduplication, asynchronous multi-site replication, and strong encryption policies.
+### Enterprise Storage
+
+#### Red Hat Storage
+
+  - **(2021)** [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural overview analyzes the Red Hat OpenShift Container Storage platform (now OpenShift Data Foundation). It details how combining Ceph, NooBaa, and Rook creates an integrated control plane to deliver multi-cloud block, file, and object endpoints for OpenShift workloads.
+### Kubernetes Storage
+
+#### Storage Orchestrators
+
+  - **(2026)** [==Rook==](https://rook.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Rook acts as a production-hardened CNCF graduated storage orchestrator that natively embeds Ceph within Kubernetes. By managing disks, pools, and filesystems as declarative resources, Rook eliminates manual storage administration and bridges Kubernetes-native paradigms with high-availability bare metal storage.
 ## Storage and Data
 
 ### Cloud Native Storage
@@ -653,7 +776,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
 #### Ceph Operators
 
   - **(2024)** [Rook-Ceph](https://operatorhub.io/operator/rook-ceph) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The OperatorHub page for Rook-Ceph, establishing a Kubernetes-native way to run storage servers directly on a cluster. It turns local drives into dynamic volumes.
-### Enterprise Storage
+### Enterprise Storage (1)
 
 #### Robin Storage
 
@@ -665,7 +788,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: OLM Arquitecture, GitHub:
   - **(2022)** [cloud.redhat.com: Scale your application containers on Red Hat OpenShift Service on AWS (ROSA) clusters using Amazon EFS storage](https://www.redhat.com/en/blog/scale-your-application-containers-on-red-hat-openshift-service-on-aws-rosa-clusters-using-amazon-efs-storage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Teaches architects how to provision and leverage Amazon Elastic File System (EFS) to achieve multi-AZ ReadWriteMany (RWX) storage for scalable application backends.
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

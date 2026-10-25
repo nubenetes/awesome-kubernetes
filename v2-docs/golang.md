@@ -1,5 +1,5 @@
 ---
-description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and more — curated Cloud Native tools, guides and references."
+description: "Top Golang resources for 2026, AI-ranked: Awesome Go, Dapr and more — curated Cloud Native tools, guides and references."
 ---
 # Golang - Go
 
@@ -9,13 +9,6 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
 !!! info "Architectural Context"
     Detailed reference for Golang - Go in the context of Developer Ecosystem.
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: What is the best microservice framework in Go? in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Microservices
@@ -73,6 +66,11 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
 #### Debugging Tools
 
   - [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to a companion code repository for a Groundcover blog exploring Kubernetes container restart triggers. Live Grounding confirms it serves as a lightweight diagnostic template to intercept CrashLoopBackOff states in real-time.
+### Microservice Runtimes
+
+#### Dapr
+
+  - **(2026)** [==Dapr==](https://dapr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.
 ### Web Frameworks
 
 #### Request Binding
@@ -142,6 +140,21 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
 #### Go Templates
 
   - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) <span class='md-tag md-tag--info'>⭐ 4721</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e69250e6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 8 L 30 6 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e69250e6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents Sprig as a comprehensive library of template functions for Go, heavily utilized in Helm charts. Live Grounding confirms its status as an industry-standard dependency for dynamic Helm manifest generation, though recent development has shifted to maintenance mode.
+## Developer Productivity
+
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
+## Go Frameworks And Libraries
+
+  - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com: What is the best microservice framework in Go? covering Go Frameworks and libraries in Golang (reddit.com).
+## Introduction
+
+  - [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60?gi=53ecdaff44c1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Go Does Not Need a Java Style GC covering Introduction in Golang (itnext.io).
+  - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495?gi=5609496be999) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Generics in Go: Viva La Revolution! covering Introduction in Golang (levelup.gitconnected.com).
+  - [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b?gi=121612ddc90f) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Concurrency in Go: shared memory covering Introduction in Golang (levelup.gitconnected.com).
 ## Kubernetes Platform
 
 ### Kubernetes API and Development
@@ -223,6 +236,9 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
 #### Nodejs
 
   - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105318</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b63ca5bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 4 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-b63ca5bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish localization of the leading Node.js architecture and security handbook. It offers comprehensive design blueprints covering error handling, clean architecture, security, production readiness, and testing guidelines for scalable enterprise systems.
+## Tutorials
+
+  - [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887?gi=d8016dbe6b59) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Generically working with Kubernetes objects in Go covering Tutorials in Golang (itnext.io).
 ## Utilities
 
 ### Go Tools (1)
@@ -232,7 +248,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1176</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9746b620" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 4 L 30 7 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-9746b620)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

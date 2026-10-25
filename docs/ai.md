@@ -24,7 +24,6 @@
     - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html) The unique demands of AI workloads drive increasing popularity of pairing on-premises infrastructure with cloud.
 - [hipertextual.com: Diferencias entre Inteligencia Artificial, Machine Learning y Deep Learning](https://hipertextual.com/2023/02/diferencias-ia-machine-learning)
 - [businessinsider.es: Los ingenieros de software están aterrorizados ante la posibilidad de ser sustituidos por la IA](https://www.businessinsider.es/tecnologia/ingenieros-software-estan-aterrorizados-posibilidad-ser-sustituidos-ia-1238112)
-- [computerhoy.com: ¿Qué es el 'Deep Learning' y por qué se considera una revolución en la inteligencia artificial?](https://computerhoy.20minutos.es)
 - [poloclub.github.io: What is a Convolutional Neural Network?](https://poloclub.github.io/cnn-explainer)
 - [freecodecamp.org: Ace Your Deep Learning Job Interview](https://www.freecodecamp.org/news/ace-your-deep-learning-job-interview)
 - [freecodecamp.org: Deep Learning Fundamentals Handbook – What You Need to Know to Start Your Career in AI](https://www.freecodecamp.org/news/deep-learning-fundamentals-handbook-start-a-career-in-ai)

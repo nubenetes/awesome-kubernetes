@@ -32,7 +32,6 @@
 - [percona.com: Using Volume Snapshot/Clone in Kubernetes (GKE & Percona Kubernetes Operator for XtraDB Cluster)](https://www.percona.com/blog/using-volume-snapshot-clone-in-kubernetes)
 - [longhorn issue: Move replica to a different server](https://github.com/longhorn/longhorn/issues/292)
 - [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift)
-- [cloudify.co: Migrating Pods With Containerized Applications Between Nodes In The Same Kubernetes Cluster Using Cloudify 🌟](https://docs.cloudify.co)
 - [thenewstack.io: Red Hat Brings Backup, Snapshots to OpenShift Container Storage](https://thenewstack.io/red-hat-brings-backup-snapshots-to-openshift-container-storage)
 - [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)
 - [Bacula Enterprise for OpenShift and Kubernetes 🌟](https://www.baculasystems.com)
@@ -63,12 +62,10 @@
 
 - [Trillio](https://trilio.io)
 - [TrillioVault for Kubernetes](https://www.trilio.io/triliovault-for-kubernetes)
-- [redhat.com: OpenShift Backup and Cluster failover with Triliovault 🌟](https://www.redhat.com/es/blog)
 
 ## Backup with Kasten K10
 
 - [Kasten](https://www.veeam.com/products/cloud/kubernetes-data-protection.html)
-- [redhat.com: OpenShift Backup and Recovery with Kasten K10](https://www.redhat.com/es/blog)
 - [blog.kasten.io: Extending Kubernetes Application Backup and Mobility to the Edge with Kasten K10 V4.5](https://blog.kasten.io/posts/extending-kubernetes-application-backup-and-mobility-to-the-edge-with-kasten-k10-v4.5)
 - [thenewstack.io: Kasten K10 V4.5: Grafana Observability, More Edge Support](https://thenewstack.io/kasten-k10-v4-5-grafana-observability-more-edge-support)
 - [faun.pub: Kasten K10 on KubeSphere to Ensure Kubernetes Backup and Restore](https://faun.pub/kasten-k10-on-kubesphere-to-ensure-kubernetes-backup-and-restore-1bc59a0b91aa?gi=42a89428618b)
@@ -102,7 +99,7 @@
 - [github.com/konveyor/crane: Crane 2.0 🌟](https://github.com/migtools/crane) Crane 2, a tool for rehosting cloud workloads for Kubernetes.
     - [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) Migrating workloads across clusters, from one k8s distro to another, will be the focus of open-source tool Crane 2.0. (A tool that's part of the Konveyor community.)
 - [kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools) **KubeByExample's newest learning path applies open source tools to help you rehost, replatform, and refractor your applications to Kubernetes.**
-- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https:/https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)
+- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)
     - Despite the incredible pace of adoption of container orchestration platforms, the vast majority of EAP workloads are still running on VMs or bare metal. In a lot of cases enterprise operation teams are mandated to modernize and move these workloads to the cloud, and containerization and migration to Kubernetes is the natural destination. When talking about this migration path, we're often asked questions like:
         - What's involved?
         - How easy is it to move these workloads?
@@ -124,7 +121,6 @@
 
 ## Books
 
-- [kasten.io: Kubernetes Backup & Recovery For Dummies (Free e-book)](https://go.veeam.com/kubernetes-backup-recovery-for-dummies)
 
 ## Slides
 

@@ -9,6 +9,10 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 !!! info "Architectural Context"
     Detailed reference for Microsoft .NET in the context of Developer Ecosystem.
 
+## ASP.NET Core
+
+  - [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for' PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for' PostgreSQL covering ASP.NET Core in Dotnet (dzone.com).
+  - [itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f?gi=f1a56b4d5dab) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture covering ASP.NET Core in Dotnet (itnext.io).
 ## Application Development
 
 ### .NET Framework
@@ -40,13 +44,6 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### RHEL Support
 
   - **(2021)** [**developers.redhat.com: .NET 6 now available for RHEL and OpenShift**](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces native Red Hat Enterprise Linux (RHEL) and OpenShift support for .NET 6. Focuses on pre-configured, secure container base images and integration setups that simplify enterprise deployments.
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for' PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for' PostgreSQL in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure and Orchestration
 
 ### Container Orchestration
@@ -57,13 +54,9 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### Kubernetes
 
   - **(2021)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational guide targeted at .NET architects migrating legacy backends to Kubernetes. Details fundamental infrastructure layers including Pods, ReplicaSets, Deployments, Services, and containerization pipelines using Docker.
-## Mobile Development
+## Nuget Packages And Nuspec File
 
-### Cross-platform
-
-#### Xamarin
-
-  - **(2024)** [dotnet.microsoft.com: What is Xamarin?](https://dotnet.microsoft.com/en-us/apps/xamarin) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource detailing Xamarin's architecture, demonstrating how C# code gets compiled to native binaries using Mono or .NET execution runtimes. It highlights the historically unified codebase approach for mobile UI design. This documentation is primarily of historical interest as the ecosystem transitions entirely to modern .NET MAUI runtimes.
+  - [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/posts/a-dotnet-five-guide-from-idea-to-nuget-package) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package covering NuGet Packages and nuspec file in Dotnet (khalidabuhakmeh.com).
 ## Software Architecture and .NET Development
 
 ### Application Diagnostics
@@ -77,6 +70,11 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### Ioc Containers
 
   - **(2025)** [Lamar](https://jasperfx.github.io/lamar) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced, high-performance IoC container and assembly scanning engine compatible with Microsoft's DI standards. Leverages Roslyn-powered dynamic code compilation to optimize dependency resolution pathways in microservices.
+### Artificial Intelligence
+
+#### Agent Integration
+
+  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines methods for extending autonomous AI coding agents with direct .NET skill injection. Uses Semantic Kernel to build tools enabling LLMs to execute C# compilations, format files, and interact natively with code bases.
 ### Client Technologies
 
 #### CICD and DevOps
@@ -95,7 +93,7 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### Nuget Specification
 
   - **(2026)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) <span class='md-tag md-tag--info'>⭐ 160</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf8c02da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 10 L 30 13 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-bf8c02da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[XML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference specification details the .nuspec XML manifest schema governing NuGet packages. It provides structured guidance on targeting framework frameworks, orchestrating assembly dependencies, defining metadata, and managing compilation assemblies, acting as the foundational automation configuration schema for .NET artifact pipelines.
-  - **(2023)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details framework compatibility structures implemented by NuGet.org, facilitating cross-platform library discovery. Explains target framework resolution paradigms mapping dependencies across .NET Standard, .NET Core, and legacy frameworks.
+  - **(2023)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details framework compatibility structures implemented by NuGet.org, facilitating cross-platform library discovery. Explains target framework resolution paradigms mapping dependencies across .NET Standard, .NET Core, and legacy frameworks.
 #### Publishing Workflows
 
   - **(2023)** [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A concise, developer-centric guide mapping the CLI workflows required to construct and publish NuGet packages. Explores packing commands, validation, local server configuration, target registry configuration, and security practices for handling API keys.
@@ -106,7 +104,7 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
   - **(2024)** [Paradigm framework](https://www.paradigm.net.co) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source development platform designed to facilitate rapid, highly structured .NET microservice engineering. Standardizes dependency configurations, modular architectures, data mapping protocols, and enterprise repository patterns.
 
 ---
-💡 **Explore Related:** [API](./api.md) | [Linux Dev Env](./linux-dev-env.md) | [Devel Sites](./devel-sites.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

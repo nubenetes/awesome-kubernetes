@@ -67,7 +67,6 @@
 ## Miscellaneous
 
 - [wizardzines.com 🌟](https://wizardzines.com) programming zines by Julia Evans
-- [cheatography.com](https://cheatography.com)
 - [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 - [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 - [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets) Browse through our collection of cheat sheets to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy guides on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
@@ -240,7 +239,6 @@
 
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
     - [docker-swarm-cheatsheet-sematext.pdf](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
-- [lzone.de: Docker Swarm Cheat Sheet](https://lzone.de)
 - [kerneltalks.com: Docker swarm cheat sheet](https://kerneltalks.com/virtualization/docker-swarm-cheat-sheet)
 - [codingfriend.medium.com: Docker Swarm Cheatsheet (2017)](https://codingfriend.medium.com/docker-swarm-cheatsheet-22665e3278b1)
 - [blog.programster.org: Docker Swarm Cheatsheet](https://blog.programster.org/docker-swarm-cheatsheet)
@@ -314,7 +312,6 @@
 - [dzone: Terraform Cheat Sheet](https://dzone.com/articles/terraform-cli-cheat-sheet)
 - [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands)
 - [github.com/scraly: Terraform Cheat sheet](https://github.com/scraly/terraform-cheat-sheet/blob/master/terraform-cheat-sheet.pdf)
-- [lzone.de: Terraform Cheat Sheet](https://lzone.de)
 - [thedevopsblog.co.uk: Terraform Cheat Sheet](https://thedevopsblog.co.uk/terraform-cli-cheat-sheet)
 - [acloudguru.com: The Ultimate Terraform Cheatsheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet)
 - [hashicorp.com: Using Template Files with HashiCorp Packer](https://www.hashicorp.com/blog/using-template-files-with-hashicorp-packer)
@@ -339,7 +336,6 @@
 ### SSH Cheat Sheets
 
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
-- [lzone.de: ssh cheat sheet](https://lzone.de)
 - [pentestmonkey.net: ssh cheat sheet](https://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet)
 - [The SSH Commands Cheat Sheet for Linux SysAdmins / Users](https://computingforgeeks.com/ssh-commands-cheat-sheet-linux)
 - [opensource.com: Learn advanced SSH commands with this cheat sheet](https://opensource.com/article/18/4/learn-advanced-ssh-commands-new-cheat-sheet)
@@ -404,7 +400,6 @@
 - [cheatography.com](https://cheatography.com/mikesac/cheat-sheets/maven)
 - [javaguides.net](https://www.javaguides.net/2018/06/maven-cheat-sheet.html)
 - [bogotobogo.com](https://www.bogotobogo.com/Java/tutorials/Spring-Boot/Maven-mvn-command-cheat-sheet.php)
-- [lzone.de/cheat-sheet/Maven](https://lzone.de)
 - [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
 - [confluence.sakaiproject.org](https://sakaiproject.atlassian.net/wiki)
 
@@ -438,7 +433,6 @@
 - [Dzone Refcard: Getting Started with Apache JMeter](https://dzone.com/refcardz/getting-started-with-apache-jmeter?chapter=1)
 - [Groovy Templates Cheat Sheet for JMeter](https://dzone.com/articles/the-groovy-templates-cheat-sheet-for-jmeter) Need help with your Groovy templates? Check out this cheat sheet to help you get started with scripting in Apache JMeter.
 - [JMeter Web Application Testing Cheatsheet](https://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet)
-- [CheatSheet for JMeter __time Function Calls](https://uniquedresses.nl)
 - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
 - [Cheat Sheet for Regular Expression in Jmeter](https://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
@@ -451,7 +445,6 @@
 
 - [markdownguide.org](https://www.markdownguide.org)
     - [Markdown Cheat Sheet 1](https://markdownguide.offshoot.io/cheat-sheet)
-- [guides.github.com: Markdown Cheat Sheet 2](https://docs.github.com/en)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet)
 
@@ -472,7 +465,6 @@
 ## TypeScript
 
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
-- [docs.microsoft.com: Build JavaScript applications using TypeScript](https://www.typescriptlang.org)
 - [levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway, and Authentication — Part 1/2](https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686?gi=41703b0de9f4) Step-by-Step Guide: NestJS Applications with TypeScript, gRPC, API Gateway, Authentication, and Validation.
 - [freecodecamp.org: How TypeScript Interfaces Work – Explained with Examples](https://www.freecodecamp.org/news/how-typescript-interfaces-work)
 

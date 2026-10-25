@@ -44,7 +44,6 @@
 - [scrum.org: Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) The Kanban Guide for Scrum Teams helps you add professional flow concepts to improve your value delivery.
 - [redhat.com: 11 considerations for effectively managing a Linux sysadmin team 🌟](https://www.redhat.com/en/blog/11-manager-considerations) Here are some guidelines for managers when dealing with your system administrator staff members.
 - [medium: Scrum Teams That Don’t Verify Their Outcomes Are Basically Waterfall Teams](https://medium.com/serious-scrum/scrum-teams-that-dont-verify-their-outcomes-are-basically-waterfall-teams-cb208acdcc61)
-- [codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟](https://octopus.com/devops)
 - [medium: Nine Steps to Successfully Start Your New Product Owner Job](https://medium.com/serious-scrum/nine-steps-to-successfully-start-your-new-product-owner-job-b276c85e3dde) What you should do when starting a new journey as a Product Owner
 - [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/newsroom/cloudbees-unify-ai-powered-devops-solution)
 - [cloudbees.com: More Isn’t Always Better: Using Predictive Analytics to Show Adding More People Doesn’t Always Help](https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people)
@@ -107,7 +106,6 @@
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
 - [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
 - [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://analoghq.ai/blog/es/tipos-de-consultoria) La consultoría es un servicio profesional destinado a resolver un problema de tu empresa, ayudándola a detectar falencias y lograr el aprovechamiento de distintas oportunidades para su crecimiento.
-- [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com)
 - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.wordpress.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
 - [bbc.com: Por qué en Japón los jefes NO felicitan a sus empleados cuando hacen bien su trabajo](https://www.bbc.com/mundo/vert-cap-37270163)
 - [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://elpais.com/smoda/trabajo/apariencias-venderse-trabajo.html) Muchos trabajadores sufren en silencio la ‘performance’ diaria de quienes ponen más empeño en contar sus supuestos logros que en materializarlos.
@@ -141,7 +139,6 @@
 ### Agile vs Scrum vs Waterfall vs Kanban vs Lean
 
 - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban)
-- [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com)
 - [What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban)
 - [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://lucid.co/blog/agile-vs-waterfall-vs-kanban-vs-scrum)
 - [rethinkagile.org: 5 reasons why Agile is better than Waterfall](https://www.rethinkagile.org/post/5-reasons-why-agile-is-better-than-waterfall)

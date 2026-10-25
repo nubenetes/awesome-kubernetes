@@ -13,7 +13,6 @@
 ## Introduction
 
 - [medium.com/@andretost_75145: Using ChatGPT to learn Kubernetes and OpenShift](https://medium.com/@andretost_75145/using-chatgpt-to-learn-kubernetes-and-openshift-15051bc95535)
-- [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.redhat.com/en/blog/channel/open-source-communities) You know we had to road test the hottest trend in #generativeAI! In this blog, we put ChatGPT to the test of developing Ansible Playbooks. We also explore Project Wisdom, an Ansible AI capability that is currently in development.
 - [betterprogramming.pub: ChatGPT and Software Architecture](https://betterprogramming.pub/chatgpt-and-software-architecture-308b6e0cc25a) Let’s generate diagrams
 - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google)
 - [abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's assistant](https://abcabhishek.substack.com/p/chatgpt-for-generating-sql-as-a-data) Lets generate SQL using chatGPT and simplify our work

@@ -125,7 +125,6 @@ Thanos Metrics with prometheus in Kubernetes environments.
     - [jonbc.medium.com: Hacking your way to Observability — Part 2 : Alerts](https://jonbc.medium.com/hacking-your-way-to-observability-part-2-c38baaee6b92) Taking advantage of metrics by sending notifications via Slack
 - [==medium.com/gumgum-tech: How to reduce your Prometheus cost | Daniel Fernandez==](https://medium.com/gumgum-tech/how-to-reduce-your-prometheus-cost-6c7cc685e347) Prometheus is an excellent service to monitor your containerized applications. Still, it can get expensive quickly if you ingest all of the Kube-state-metrics metrics, and you are probably not even using them all. This is especially true when using a service like Amazon Managed Service for Prometheus (AMP) because you get billed by metrics ingested and stored.
 - [medium.com/kubecost: Prometheus Grafana: configuration & query examples 🌟](https://medium.com/kubecost/prometheus-grafana-configuration-query-examples-885b91b6ca6)
-- [sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟](https://www.sysdig.com/blog)
 - [dev.to: How to monitor nginx in Kubernetes with Prometheus](https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f) you'll learn how to monitor nginx in Kubernetes with Prometheus and troubleshoot issues related to latency, saturation, etc
 - [promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus)
 - [itnext.io: Hardening Monitoring: a step-by-step guide](https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915?gi=9e6cb6f88257) I walk through how to serve metrics-server, prometheus-server and prometheus-adapter securely.
@@ -222,7 +221,6 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage)
 - [**Cortex**:](https://cortexmetrics.io) Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
     - [github.com/cortexproject/cortex](https://github.com/cortexproject/cortex)
-    - [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [**Thanos**:](https://thanos.io) Open source, **highly available Prometheus setup with long term storage capabilities**.
     - Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
     - [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
@@ -246,7 +244,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [influxdata.com: Building a Metrics & Alerts as a Service (MaaS) Monitoring Solution Using the InfluxDB Stack](https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack)
 - [en.wikipedia.org/wiki/MIT_License](https://en.wikipedia.org/wiki/MIT_License)
 - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation) New language being developed at InfluxData.
-- [influxdb-templates](https://www.influxdata.com) Build and share InfluxDB templates for monitoring solutions that deliver faster time to awesome.
+- [influxdb-templates](https://github.com/influxdata/community-templates) Build and share InfluxDB templates for monitoring solutions that deliver faster time to awesome.
     - [thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates](https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates)
 - [influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker](https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker)
 - [influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud](https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud)
@@ -396,7 +394,6 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 ## Prometheus SaaS Solutions
 
-- [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [logz.io](https://logz.io)
     - [logz.io: Logz.io’s Prometheus-as-a-Service is Generally Available 🌟](https://logz.io/blog/prometheus-as-a-service-launch)
 - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)

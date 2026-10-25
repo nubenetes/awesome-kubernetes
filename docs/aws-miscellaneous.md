@@ -46,7 +46,6 @@
 
 ## AWS OpsWorks
 
-- [AWS OpsWorks](https://aws.amazon.com)
 - [youtube: AWS OpsWorks Overview and Demo](https://www.youtube.com/watch?v=cj_LoG6C2xk&list=PLR3sVanzLpJN6BiYS20K4BMPpiDGifbZy)
 
 ## AWS Cloud Control API
@@ -64,7 +63,6 @@
 
 ## AWS for Windows
 
-- [blog.rackspace.com: Patch and AMI Management for Windows on AWS](https://www.rackspace.com/blog) step-by-step guide about patch and AMI management for Windows on AWS
 
 ## AWS IoT
 
@@ -75,7 +73,6 @@
 
 ## Amazon Alexa. Voice User Interface
 
-- [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com)
 
 ## AWS Partner Network (APN)
 

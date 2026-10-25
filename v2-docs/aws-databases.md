@@ -45,6 +45,9 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 #### Schema Conversion
 
   - [Migrating a commercial database to open source with AWS SCT and AWS DMS](https://aws.amazon.com/blogs/database/migrating-a-commercial-database-to-open-source-with-aws-sct-and-aws-dms) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight examines how the AWS Schema Conversion Tool (SCT) pairs with DMS to automate SQL dialect conversion. Live Grounding shows that SCT translates legacy stored procedures, views, and functions to Postgres-compatible code before streaming data. Essential for teams driving cloud modernization away from costly commercial engines.
+#### Whitepapers
+
+  - **(2019)** [**Whitepaper: Migrating Your Databases to AWS**](https://aws.amazon.com/dms/?audit=2019q1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight offers a comprehensive methodology and step-by-step guidance for planning and executing database migrations to AWS. Live Grounding reviews key architectural patterns, conversion tools (AWS SCT), and common anti-patterns. Crucial reading for enterprise modernization and cloud adoption planning.
 ### Databases
 
 #### Architectural Patterns
@@ -65,6 +68,9 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 #### Legacy Releases (1)
 
   - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions,' Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details historical native enhancements to Amazon RDS PostgreSQL, including foundational logical replication capability. Live Grounding notes that this 2016 release unlocked the capability to use RDS PostgreSQL as a source for change-data capture in AWS DMS. Included for tracing the lineage of managed PostgreSQL features.
+#### Managed Mysql
+
+  - **(2021)** [percona.com: The Benefits of Amazon RDS for MySQL](https://www.percona.com/blog/the-benefits-of-amazon-rds-for-mysql) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight emphasizes Percona's neutral evaluation of the trade-offs of hosting MySQL on Amazon RDS. Live Grounding confirms the study analyzes management convenience against limitations in configuration flexibility and performance tuning. Highly useful for database administrators comparing DIY cloud hosting with managed services.
 #### Modernization
 
   - [Modernize database stored procedures to use Amazon Aurora PostgreSQL federated queries, pg_cron, and AWS Lambda](https://aws.amazon.com/blogs/database/modernize-database-stored-procedures-to-use-amazon-aurora-postgresql-federated-queries-pg_cron-and-aws-lambda) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight details the modernization of legacy stored procedures within PostgreSQL by offloading business logic. Live Grounding shows how pg_cron scheduled jobs trigger serverless AWS Lambda functions via external federated queries. This architectural pattern untangles database compute from core transaction processing.
@@ -85,9 +91,40 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 #### Legacy Releases (2)
 
   - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight details a legacy utility tool (AWS Mobile Hub) that assisted developers in bootstrapping NoSQL data layers. Live Grounding highlights that AWS Mobile Hub has been replaced by the more powerful AWS Amplify framework. Included for legacy archeological reference. [SPANISH CONTENT]
+## Cloud Providers hyperscalers
+
+### AWS
+
+#### AWS Data Mesh And Batch Data Processing
+
+  - **(2026)** [Data Projects: Managing Data Assets at Netflix Scale](https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?gi=0790a4dd71d3&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Data Projects: Managing Data Assets at Netflix Scale covering AWS Data Mesh and Batch Data Processing in AWS (netflixtechblog.com).
+#### AWS Redshift
+
+  - [Tutorial: Tuning Table Design](https://docs.aws.amazon.com/redshift/latest/dg/tutorials-redshift.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Tutorial: Tuning Table Design covering AWS Redshift in AWS (docs.aws.amazon.com).
+#### AWS Schema Conversion Tool
+
+  - [Creating an AWS Schema Conversion Tool Project](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Creating an AWS Schema Conversion Tool Project covering AWS Schema Conversion Tool in AWS (docs.aws.amazon.com).
+#### Graph Databases
+
+  - **(2026)** [How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API](https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API covering Graph Databases in AWS (netflixtechblog.com).
+  - **(2026)** [Rapidly scaling online storage to serve over 1 billion ChatGPT users](https://openai.com/index/scaling-storage-one-billion-users-part-one) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Rapidly scaling online storage to serve over 1 billion ChatGPT users covering Graph Databases in AWS (openai.com).
+  - **(2026)** [ZGateway: Learnings from Putting a Proxy in Front of ZippyDB](https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ZGateway: Learnings from Putting a Proxy in Front of ZippyDB covering Graph Databases in AWS (engineering.fb.com).
+  - **(2026)** [Supabase](https://github.com/supabase/supabase) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Supabase covering Graph Databases in AWS (github.com).
+#### Introduction
+
+  - [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS covering Introduction in AWS (docs.aws.amazon.com).
+  - [Creating a DB Instance Running the Oracle Database Engine](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Creating a DB Instance Running the Oracle Database Engine covering Introduction in AWS (docs.aws.amazon.com).
+  - [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889?gi=18c5f24a06ae) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Manage Redis on AWS from Kubernetes covering Introduction in AWS (itnext.io).
+## Data Engineering
+
+### Data Warehousing
+
+#### ELT Pipeline
+
+  - **(2020)** [**revenuecat.com: Replicating a postgresql cluster to redshift**](https://www.revenuecat.com/blog/engineering/replicating-a-postgresql-cluster-to-redshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents RevenueCat's engineering experience replicating high-throughput transactional Postgres databases into AWS Redshift. Live Grounding evaluates the trade-offs of AWS DMS, custom streaming code, and data synchronization patterns. Offers real-world insights on scale, column-mapping issues, and operational bottlenecks.
 
 ---
-💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
 

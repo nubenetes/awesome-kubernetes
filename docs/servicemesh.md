@@ -27,11 +27,9 @@
 - [thenewstack.io: Service Mesh Adds Security, Observability and Traffic Control to Kubernetes](https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes)
 - [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases)
 - [thenewstack.io: Zero-Trust Security with Service Mesh](https://thenewstack.io/zero-trust-security-with-service-mesh)
-- [solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh](https://www.solo.io/blog)
 - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)
 - [medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟](https://medium.com/@maggarwa/part-1-why-red-hat-openshift-service-mesh-54b8b6ae1a8f)
 - [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.redhat.com/en/blog/introducing-openshift-service-mesh-2.0)
-- [weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments](https://www.suse.com/c/rancher_blog/using-hybrid-and-multi-cloud-service-mesh-based-applications-for-distributed-deployments) Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process. In this blog, we’ll provide an overview of the most common microservice communication requirements that the Service Mesh architecture pattern solves.
 - [thenewstack.io: Offloading Authentication and Authorization from Application Code to a Service Mesh](https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh)
 - [thenewstack.io: How a Service Mesh Can Help DevOps Achieve Business Goals](https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals)
@@ -48,7 +46,6 @@
 - [koyeb.com: Service Mesh and Microservices: Improving Network Management and Observability](https://www.koyeb.com/blog/service-mesh-and-microservices-improving-network-management-and-observability)
 - [thenewstack.io: Accelerate Kubernetes Adoption with a Service Mesh](https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh)
 - [toptal.com: A Kubernetes Service Mesh Comparison 🌟](https://www.toptal.com/kubernetes/service-mesh-comparison)
-- [nginx.com: How to Choose a Service Mesh 🌟](https://www.f5.com/products/nginx)
 - [cncf.io: Networking with a service mesh: use cases, best practices, and comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options)
 - [layer5.io: The Service Mesh Landscape 🌟🌟](https://layer5.io/service-mesh-landscape) Comparison of Service Mesh Strengths
 - [blog.polymatic.systems: Service Mesh Wars, Goodbye Istio](https://blog.polymatic.systems/service-mesh-wars-goodbye-istio-b047d9e533c7) After using Istio in production for almost 2 years, we’re saying goodbye to it. Learn why, as well as the current state of the Service Mesh Wars.
@@ -128,7 +125,6 @@
 
 ## Maesh Service Mesh
 
-- [Maesh](https://traefik.io)
 
 ## Traffic Director (Google's Service Mesh)
 
@@ -181,5 +177,3 @@
   - [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik) - *(Related to kubernetes-networking topic)*
   - [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) - *(Related to kubernetes-networking topic)*
 
-- [nginx.com: Introducing NGINX Service Mesh](https://www.f5.com/products/nginx)
-- [nginx.com: The mTLS Architecture in NGINX Service Mesh](https://www.f5.com/products/nginx)

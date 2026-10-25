@@ -113,7 +113,6 @@
 
 ### Cloud Native
 
-- [Awesome Cloud Native](https://awesome.jimmysong.io)
 - [Awesome Cloud Native Java](https://github.com/saturnism/awesome-cloud-native-java)
 
 ### CI/CD and Pipelines

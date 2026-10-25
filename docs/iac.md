@@ -14,8 +14,6 @@
 
 - [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds) IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).
 - [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types, and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial)
-- [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.stickyminds.com)
-- [cloudify.co: Infrastructure As Code – Is It REALLY Enough For DevOps? IAC DevOps Best Practices 🌟](https://docs.cloudify.co)
 - [bridgecrew.io: 5 tips for securely adopting infrastructure as code](https://bridgecrew.io/blog/5-tips-for-securely-adopting-infrastructure-as-code)
 - [redhat.com: Pull vs. push in automated VM provisioning: What you need to know](https://www.redhat.com/en/blog/pull-push-provisioning-cicd) Understanding the different techniques for provisioning virtual machines in the CI/CD process is essential for enterprise architects planning deployment automation into their designs.
 - [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e?gi=6af9d6b0fec8)
@@ -52,7 +50,6 @@
 - [clickittech.com: Terraform vs CloudFormation: The Final battle 🌟](https://www.clickittech.com/devops/terraform-vs-cloudformation)
 - [k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟](https://k21academy.com/devops/terraform-vs-ansible)
 - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better)
-- [cloudify.co: Ansible Vs Terraform 🌟](https://docs.cloudify.co)
 - [techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools](https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045)
 - [spacelift.io: Terraform vs. Ansible : Key Differences and Comparison of Tools](https://spacelift.io/blog/ansible-vs-terraform)
 - [env0.com: Ansible vs Terraform: Choose One or Use Both?](https://www.envzero.com/blog/ansible-vs-terraform-when-to-choose-one-or-use-them-together)

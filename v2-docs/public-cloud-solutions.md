@@ -9,15 +9,6 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
 !!! info "Architectural Context"
     Detailed reference for Public Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟](https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud== 🌟🌟 in the Kubernetes Tools ecosystem.
-  - [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 5 Hosted Kubernetes Platforms in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.rackspace.com/cloud/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.rackspace.com in the Kubernetes Tools ecosystem.
 ## Cloud Benchmarks
 
 ### Pricing Analysis
@@ -75,7 +66,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
 
 #### Kubernetes DOKS
 
-  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
+  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 ## Cloud Strategy
 
 ### Architecture
@@ -128,6 +119,9 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
 #### Aws-azure Mapping
 
   - **(2026)** [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A direct comparison table matching corresponding AWS and Azure services for infrastructure architects translating environments. Includes virtualization, identity governance, and container orchestration layers. Live grounding demonstrates its high value as a quick-lookup cheatsheet during design sprints.
+#### GCP Translation
+
+  - **(2026)** [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's official engineering guide to translating AWS and Azure infrastructure paradigms into GCP equivalents. It describes VPC networks, database engines, and container services. Live grounding establishes its role as the industry-standard translation manual for cross-cloud architects.
 ### Storage Architectures
 
 #### Hyperscalers (5)
@@ -158,6 +152,10 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
 #### Systemic Risk Analysis
 
   - **(2026)** [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical Spanish news report examining AWS outages that repeatedly disrupted major segments of the internet. It highlights the systemic risks of hyperscaler oligopoly and details developer frustration with cloud availability SLAs. Live grounding confirms these events catalyzed enterprise adoption of hybrid-cloud structures.
+## Kubernetes As A Service
+
+  - [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 5 Hosted Kubernetes Platforms covering Kubernetes as a Service in Public Cloud Solutions (dzone.com).
+  - [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/cloud/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Rackspace.com: Managed Kubernetes covering Kubernetes as a Service in Public Cloud Solutions (rackspace.com).
 ## Kubernetes Management (1)
 
 ### Managed Kubernetes
@@ -184,9 +182,15 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
 #### Platform Operations
 
   - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
+## Outages
+
+  - [faun.pub: Multi-Cloud is NOT the solution to the next AWS outage](https://faun.pub/multi-cloud-is-not-the-solution-to-the-next-aws-outage-bb41c0b14573?gi=6446b11d8a3d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Multi-Cloud is NOT the solution to the next AWS outage covering Outages in Public Cloud Solutions (faun.pub).
+## Public Cloud Services Comparison
+
+  - [Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟](https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟 covering Public Cloud Services Comparison in Public Cloud Solutions (dzone.com).
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Backup](./aws-backup.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

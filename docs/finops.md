@@ -109,7 +109,6 @@
 ### Replex
 
 - [replex.io](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics)
-- [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) FinOps is a cross domain discipline that represents a set of tools, best practices and processes aimed towards making software and infrastructure more cost effective.we provide an introduction to Kubernetes Finops.
 
 ## Cost Optimization Tools
   - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger Governance, and Less Operational Overhead](https://t.co/y414rbxM7l) - *(Related to terraform topic)*

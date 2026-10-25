@@ -157,7 +157,6 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 ### Okteto local kubernetes development
 
-- [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://octopus.com/devops)
 - [github.com/marketplace: Automating your Kubernetes dev environments with the open source oktetohq Cloud got easier with GitHub Actions](https://github.com/marketplace?query=publisher%3Aokteto&type=actions)
 - [blog.palark.com: Okteto Cloud as another way for local development in Kubernetes](https://palark.com/blog/okteto-cloud-for-local-development-in-kubernetes) This article explores an approach featuring application development performed right inside the Kubernetes without needing separate build and deploy steps using Okteto
 
@@ -168,7 +167,6 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 ### K8Studio
 
-- [kubeshop.github.io/monokle](https://docs.monokle.io) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
 - [k8studio.io/blogs: K8studio vs. Lens vs. K9s 🌟](https://k8studio.io/blogs/k8studio-vs-lens-kubernetes-ide) K8studio vs Lens and K9s, probably the best tool to manage kubernetes
 
 ### Lens and OpenLens Kubernetes IDE
