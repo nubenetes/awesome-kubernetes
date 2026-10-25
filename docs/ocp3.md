@@ -76,7 +76,7 @@
     - [OpenShift Toolkit 🌟](https://github.com/redhat-cop/openshift-toolkit)
     - [OpenShift Playbooks](https://github.com/redhat-cop/openshift-playbooks)
 - [**Uncontained.io**](https://uncontained.io) began as a project in the Red Hat Container Community of Practice to share knowledge about OpenShift adoption with members of Red Hat’s Consulting organization.
-    - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation/ )
+    - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation)
     - [uncontained.io/articles/openshift-and-the-org](https://uncontained.io/articles/openshift-and-the-org) 
     - [**v1.uncontained.io**: Red Hat Consulting DevOps And OpenShift Playbooks 🌟](https://v1.uncontained.io) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
 

@@ -247,7 +247,7 @@
 
 ### Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
 
-- [Ansible Tower Docs](http://legacy-controller-docs.ansible.com/ansible-tower)
+- [Ansible Tower Docs](https://legacy-controller-docs.ansible.com/ansible-tower)
 - [Ansible AWX](https://github.com/ansible/awx)
 - [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)

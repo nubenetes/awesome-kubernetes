@@ -99,7 +99,7 @@
 - [CI/CD with fabric8](https://fabric8.io/guide/cdelivery.html)
 - [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library)
 - [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)
-- [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
+- [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin)
 
 ### Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes and OpenShift Plugins
 

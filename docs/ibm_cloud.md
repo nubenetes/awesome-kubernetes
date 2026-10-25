@@ -36,7 +36,7 @@
 ## WebSphere Liberty with support of Java Microservices and Cloud Native Apps
 
 - [WebSphere Liberty](https://developer.ibm.com/wasdev) A fast, light, awesome runtime for your Java apps and microservices, free for developers, and built on Open Liberty.
-- [Download WAS Liberty](https://openliberty.io/downloads/)
+- [Download WAS Liberty](https://openliberty.io/downloads)
 - [DockerHub: websphere-liberty](https://hub.docker.com/_/websphere-liberty) Official IBM WebSphere Application Server for Developers Liberty image.
 
 ### Open Liberty

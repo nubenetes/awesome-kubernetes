@@ -278,7 +278,7 @@
 
 ### Amazon EKS. Deploy example microservices on EKS
 
-- [eksworkshop.com](https://eksworkshop.com/ )
+- [eksworkshop.com](https://eksworkshop.com)
 - [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices)
 - [eksworkshop.com: Configure Cluster Autoscaler (CA)](https://eksworkshop.com/scaling/deploy_ca)
 - [aws.amazon.com: Deploy a kubernetes application](https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html)
