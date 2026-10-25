@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.67]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.67) - 2026-10-25
+
+### Added
+- **Composite Momentum & Velocity Scoring (`src/enrichment.py`)**: Introduced `compute_momentum_score()` combining log-scaled GitHub stars, monthly star velocity (`gh_stars_per_month`), commit freshness/staleness penalties, and CNCF/LFAI maturity bonuses to surface fast-rising Cloud-Native AI tools alongside foundational standards.
+- **Canonical CNCF & LF AI Landscape YAML Integration (`src/enrichment.py`)**: Replaced capped GitHub topic searches with direct parsing of canonical `landscape.yml` files from CNCF and LF AI & Data Foundations (320+ projects across Graduated, Incubating, Sandbox, and Archived).
+- **Agent-Ready `llms.txt` Index (`src/v2_optimizer.py`)**: Added automated generation of `v2-docs/llms.txt` during V2 portal builds, exposing the portal's strategic dimensions and top 60 Flagship / High-Momentum references for AI coding agents.
+- **Cloud-Native AI & GPU Deep-Dive Topic Hubs (`src/v2_optimizer.py`)**: Added `ai` and `mlops` provider hubs and cross-linked `AI Agents & MCP` and `AI & GPU Workloads` on `kubernetes.md`.
+- **In-Page Quick Filters (`docs/static/v2_filter.js`)**: Added `AI & MCP` and `Fresh (2025–2026)` filter pills to the V2 resource filter bar.
+
+### Changed
+- **Velocity-Driven GitHub Discovery & Sources (`src/autonomous_discovery.py`, `data/curation_sources.yaml`)**: Expanded autonomous discovery to 20 velocity-sorted GitHub queries with a rolling 180-day `pushed` cutoff covering K8s + AI/LLM/GPU, MCP servers, vLLM, MLOps, and eBPF, and added official Kubernetes, CNCF, HuggingFace, and NVIDIA feeds/accounts.
+- **Multi-Agent Debate Protocol Rubric (`src/v2_debate.py`)**: Upgraded SRE and AI Platform Engineer evaluation criteria for Kubernetes-native integration (CRDs, Operators, Gateway API, OpenTelemetry/eBPF) and Cloud-Native AI readiness (`[GPU]`, `[LLM]`, `[MCP]`, `[MLOPS]`).
+
 ## [[2.9.61]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.61) - 2026-07-13
 
 ### Added

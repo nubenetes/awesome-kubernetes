@@ -9,6 +9,9 @@ sources:
       - "cncf"             # Cloud Native Computing Foundation
       - "kelseyhightower"  # Industry expert
       - "memenetes"        # Community & technical insights
+    feeds:
+      - "https://kubernetes.io/feed.xml"
+      - "https://www.cncf.io/blog/feed/"
 
   - topic: "Cloud Providers (AWS/Azure/GCP)"
     accounts:
@@ -36,9 +39,15 @@ sources:
       - "swyx"             # AI Engineering & Agent Systems Expert
       - "google-antigravity" # Google Antigravity Agentic SDK Org
       - "GoogleDevs"       # Google Developers (for SDK and API announcements)
+      - "vllm_project"     # High-throughput LLM inference & serving on K8s
+      - "raydistributed"   # KubeRay & distributed AI compute
+      - "huggingface"      # Open-source AI models, TGI & MLOps
+      - "NVIDIADev"        # GPU Operator, DRA, Triton & Cloud-Native AI
     feeds:
       - "https://openai.com/news/rss.xml"
       - "https://blog.google/technology/ai/rss/"
+      - "https://huggingface.co/blog/feed.xml"
+      - "https://developer.nvidia.com/blog/feed/"
 
   - topic: "Developer Productivity & AI Agents"
     accounts:

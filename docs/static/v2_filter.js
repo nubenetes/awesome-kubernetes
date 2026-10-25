@@ -50,6 +50,8 @@
                 <button class="v2-pill" data-filter="DE FACTO STANDARD">De Facto Standard</button>
                 <button class="v2-pill" data-filter="ENTERPRISE-STABLE">Enterprise Stable</button>
                 <button class="v2-pill" data-filter="EMERGING">Emerging</button>
+                <button class="v2-pill" data-filter="AI-MCP">AI &amp; MCP</button>
+                <button class="v2-pill" data-filter="FRESH-2025-2026">Fresh (2025–2026)</button>
                 <button class="v2-pill" data-filter="GUIDE">Guide</button>
                 <button class="v2-pill" data-filter="CASE STUDY">Case Study</button>
                 <button class="v2-pill" data-filter="COMMUNITY-TOOL">Community Tool</button>
@@ -118,6 +120,12 @@
                 if (activeFilter !== "all") {
                     if (activeFilter === "SPANISH") {
                         matchesPill = item.tags.some(tag => tag.includes("SPANISH"));
+                    } else if (activeFilter === "AI-MCP") {
+                        matchesPill = item.tags.some(tag =>
+                            ["[AI]", "[MCP]", "[LLM]", "[GPU]", "[MLOPS]"].some(k => tag.includes(k))
+                        ) || /\b(mcp|llm|vllm|gpu|agentic)\b/.test(item.text);
+                    } else if (activeFilter === "FRESH-2025-2026") {
+                        matchesPill = item.text.includes("(2026)") || item.text.includes("(2025)");
                     } else {
                         matchesPill = item.tags.some(tag => tag.includes(activeFilter));
                     }
