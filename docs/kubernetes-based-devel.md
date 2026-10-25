@@ -198,10 +198,6 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 - [nirops/yakiapp](https://github.com/vivekagate/yakiapp) Yaki stands for "Yet Another Kubernetes IDE". Open Source, Cross platform, Native Kubernetes IDE. Yaki is a desktop application that allows DevOps, Developers, SREs and anyone who wish the manage the applications deployed in their Kubernetes Cluster
 
-### Lumovi
-
-- [Lumovi](https://github.com/Lumovi/Lumovi) is a free and open-source Kubernetes dashboard, on your desktop or in your cluster for a team. Failing things come first, each person acts within their own RBAC, every change shows its kubectl command and lands on a hash-chained audit log, and a built-in MCP server lets AI agents work through it, asking before a change by default.
-
 ## Images
 
 ??? note "Click to expand!"
