@@ -9,22 +9,6 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 !!! info "Architectural Context"
     Detailed reference for OpenShift Container Platform in the context of The Container Stack.
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ref3 in the Kubernetes Tools ecosystem.
-  - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟 in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: OpenShift Egress Options in the Kubernetes Tools ecosystem.
 ## CICD
 
 ### Gitlab
@@ -32,13 +16,21 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 #### Openshift
 
   - **(2017)** [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/blog/get-started-with-openshift-origin-3-and-gitlab) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical tutorial tracking early integration patterns between GitLab CI/CD and OpenShift Origin 3. Demonstrates pipeline orchestration, runner allocation, and deployment tasks. Replaced by GitOps-driven pipelines in contemporary architectures.
+## Career and Industry
+
+### Newsfeeds
+
+#### Subreddits
+
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/openshift covering Subreddits in Newsfeeds (reddit.com).
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/redhat covering Subreddits in Newsfeeds (reddit.com).
 ## Cloud Providers
 
 ### AWS
 
 #### Managed Services
 
-  - **(2020)** [openshift.com: Introducing Red Hat OpenShift Service on AWS](https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Seminal release article introducing ROSA (Red Hat OpenShift Service on AWS). Features direct API integration with AWS, fully managed lifecycle operations, unified billing, and robust hybrid connectivity.
+  - **(2020)** [openshift.com: Introducing Red Hat OpenShift Service on AWS](https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Seminal release article introducing ROSA (Red Hat OpenShift Service on AWS). Features direct API integration with AWS, fully managed lifecycle operations, unified billing, and robust hybrid connectivity.
 #### Workshops
 
   - **(2018)** [blog.openshift.com: AWS and red hat quickstart workshop](https://www.redhat.com/en/blog/aws-and-red-hat-quickstart-workshop) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical workshop manual detailing early CloudFormation blueprints for hosting OpenShift instances on AWS. Replaced entirely by contemporary ROSA (Red Hat OpenShift Service on AWS) implementations.
@@ -46,7 +38,14 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Cost Management
 
-  - **(2021)** [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the significant 75% pricing reduction and SLA upgrade to 99.95% for OpenShift Dedicated. Analyzes cloud licensing cost implications and enterprise planning strategies for multi-cloud deployments.
+  - **(2021)** [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the significant 75% pricing reduction and SLA upgrade to 99.95% for OpenShift Dedicated. Analyzes cloud licensing cost implications and enterprise planning strategies for multi-cloud deployments.
+## Data and AI
+
+### Batch Scheduling
+
+#### Kueue
+
+  - **(2024)** [**Red Hat Build of Kueue**](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on Red Hat's enterprise integration of Kueue, a Kubernetes-native job queueing system designed to manage resource quotas, tenant isolation, and fair-share scheduling for high-performance AI/ML and batch workloads. Live Grounding confirms Kueue is crucial in 2026 for orchestrating GPU and CPU cluster resource allocation dynamically across large-scale enterprise clusters.
 ## Databases
 
 ### Relational
@@ -60,15 +59,12 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Sonatype Nexus
 
-  - **(2026)** [hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Docker repository containing Sonatype Nexus Repository Manager 3. Essential for hosting private software artifacts, dependency proxy caches (npm, NuGet, Maven), and localized container registries in enterprise platforms.
+  - **(2026)** [hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Docker repository containing Sonatype Nexus Repository Manager 3. Essential for hosting private software artifacts, dependency proxy caches (npm, NuGet, Maven), and localized container registries in enterprise platforms.
 ### Container Registries
 
 #### Community
 
-  - **(2026)** [DockerHub OpenShift](https://hub.docker.com/u/openshift) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Public Docker Hub repository hosting community-built images for OpenShift. While still containing useful base reference tools, current 2026 best practices dictate migrating critical dependencies to secure, enterprise-scanned registries.
-#### Red Hat
-
-  - **(2026)** [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://catalog.redhat.com/en) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official enterprise repository registry hosted by Red Hat, containing continuously scanned, signed, and validated base images, middleware operators, and enterprise databases optimized for secure OpenShift cluster rollouts.
+  - **(2026)** [DockerHub OpenShift](https://hub.docker.com/u/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Public Docker Hub repository hosting community-built images for OpenShift. While still containing useful base reference tools, current 2026 best practices dictate migrating critical dependencies to secure, enterprise-scanned registries.
 ### Enterprise Applications
 
 #### Self-hosting
@@ -112,10 +108,30 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Architecture
 
-  - **(2018)** [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This seminal architectural analysis details patterns for deploying OpenShift across physical and logical enterprise network security zones. Contrasts legacy perimeter firewall zoning models with flat cloud-native Software-Defined Networks (SDNs), providing proven coexistence topologies.
+  - **(2018)** [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This seminal architectural analysis details patterns for deploying OpenShift across physical and logical enterprise network security zones. Contrasts legacy perimeter firewall zoning models with flat cloud-native Software-Defined Networks (SDNs), providing proven coexistence topologies.
 #### Network Policies
 
   - **(2020)** [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy) <span class='md-tag md-tag--info'>⭐ 236</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2e739b2c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 3 L 30 6 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-2e739b2c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developed by the Red Hat Community of Practice, this repository provides highly standardized, reusable NetworkPolicy templates. While early implementations relied on basic IP blocks, live engineering practices in 2026 demand these profiles for enforcing zero-trust namespaces.
+## Network Security Zones
+
+  - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟 covering Network Security Zones in Openshift (stackoverflow.com).
+## Openshift 4 Deployment On Vmware Vsphere
+
+  - [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit covering OpenShift 4 deployment on VMWare vSphere in Openshift (reddit.com).
+  - [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Deploying OpenShift 4.4 to VMware vSphere 7 🌟 covering OpenShift 4 deployment on VMWare vSphere in Openshift (redhat.com).
+## Openshift Egress
+
+  - [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to Enable Static Egress IP in OCP covering OpenShift Egress in Openshift (redhat.com).
+  - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: OpenShift Egress Options covering OpenShift Egress in Openshift (dzone.com).
+## Openshift Network Model And Network Policy
+
+  - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/networkpolicies-and-microsegmentation) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for NetworkPolicies and Microsegmentation covering OpenShift Network Model and Network Policy in Openshift (redhat.com).
+## Openshift On Public Cloud
+
+  - [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for OpenShift Dedicated covering OpenShift on Public Cloud in Openshift (redhat.com).
+## Openshift Route And Openshift Ingress
+
+  - [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Kubernetes Ingress vs OpenShift Route covering OpenShift Route and OpenShift Ingress in Openshift (redhat.com).
 ## Orchestration and Packaging
 
 ### Networking (1)
@@ -207,7 +223,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Learning Hubs
 
-  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
+  - **(2025)** [Red Hat Training & Certification Community](https://access.redhat.com/community/learn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official training ecosystem community. It offers platform operators, architects, and developers verified learning pathways, course materials, and labs covering OpenShift administration and cloud-native practices.
 ### Legacy Sandboxes (1)
 
 #### Interactive Learning
@@ -232,9 +248,6 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
   - **(2026)** [==Amazon Red Hat OpenShift==](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Production landing page for ROSA (Red Hat OpenShift on AWS), a fully-managed, jointly-supported Kubernetes service. Offloads platform installation, control plane management, and upgrade logic to AWS and Red Hat. In 2026, it is a dominant architecture model for enterprises scaling workloads across hybrid AWS environments.
 ### Resources and Ebooks
 
-#### CICD and DevOps
-
-  - **(2017)** [O'Reilly Free Book: **DevOps with OpenShift**](https://www.redhat.com/en/resources) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — O'Reilly DevOps manual explaining legacy OpenShift pipeline integrations, build configurations, and container deployment pipelines. While the fundamental team topology and CI/CD concepts are outstanding, its technical recipes have been superseded by modern GitOps (Argo CD) and Tekton pipelines.
 #### Core Openshift
 
   - **(2018)** [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Step-by-step Manning publication covering the legacy OpenShift 3 infrastructure model, focusing on Ansible deployments and local Docker engines. Since OpenShift 4 shifted entirely to an Operator-driven CoreOS model, the book is considered deprecated for modern cluster administration, but excellent for conceptual history.
@@ -249,6 +262,12 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 #### Public Sector
 
   - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
+## Security (1)
+
+  - [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599?gi=140333d6ee28) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ### How is OpenShift Container Platform Secured?
+## Security Context Constraints
+
+  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ref3 covering Security Context Constraints in Openshift (dzone.com).
 ## Software Engineering
 
 ### Base Images
@@ -263,7 +282,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

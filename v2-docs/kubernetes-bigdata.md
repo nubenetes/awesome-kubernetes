@@ -9,17 +9,14 @@ description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud
 !!! info "Architectural Context"
     Detailed reference for Big Data and Kubernetes Big Data in the context of The Container Stack.
 
-## Architectural Foundations
+## Apache Spark
 
-### Kubernetes Tools
-
-#### General Reference
-
-  - [dzone: Run and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Run and Scale an Apache Spark Application on Kubernetes in the Kubernetes Tools ecosystem.
-  - [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Running Apache Spark on Kubernetes in the Kubernetes Tools ecosystem.
+  - [dzone: Run and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Run and Scale an Apache Spark Application on Kubernetes covering Apache Spark in Kubernetes Bigdata (dzone.com).
+  - [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Running Apache Spark on Kubernetes covering Apache Spark in Kubernetes Bigdata (dzone.com).
+  - [levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning](https://levelup.gitconnected.com/master-sparkml-practical-guide-for-machine-learning-1efe1bd9cdce?gi=452820ac9102) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning covering Apache Spark in Kubernetes Bigdata (levelup.gitconnected.com).
 ## Data and AI
 
-### Apache Spark
+### Apache Spark (1)
 
 #### Cost Optimization
 
@@ -27,9 +24,6 @@ description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud
 #### Openshift
 
   - **(2022)** [cloud.redhat.com: Getting Started running Spark workloads on OpenShift](https://www.redhat.com/en/blog/getting-started-running-spark-workloads-on-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides an enterprise guide to running containerized Apache Spark workloads within Red Hat OpenShift, highlighting security-first practices and security context constraints (SCCs). Illustrates leveraging OpenShift's cluster monitoring and dynamic storage classes for big data analytics. Live Grounding confirms OpenShift remains a preferred, secure platform for regulated enterprises executing large-scale analytical tasks.
-#### Orchestration
-
-  - **(2021)** [**datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available**](https://www.datamechanics.co) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces the critical General Availability (GA) milestone of Apache Spark on Kubernetes in the Spark 3.1 release. Details the architectural advantages of using native Kubernetes scheduler bindings instead of standalone Spark or YARN schedulers. Live Grounding validates that this release marked the turning point for Kubernetes-native data engineering pipelines.
 #### Performance and Tuning
 
   - **(2022)** [==coderstan.com: Apache Spark on Kubernetes—Lessons Learned from Launching Millions of Spark Executors (Databricks Data+AI Summit 2022)==](https://coderstan.com/2022/07/15/spark-on-kubernetes-launching-millions-of-spark-executors) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Shares high-scale operational insights and hard-earned engineering lessons from managing millions of Spark executors on Kubernetes clusters. Details scheduling bottlenecks, DNS limits, local SSD configurations, and executor startup latency optimizations. Live Grounding highlights these exact tuning principles as standard operating procedures for operating hyperscale, cost-efficient data platforms today.
@@ -58,7 +52,7 @@ description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud
   - **(2021)** [opensourceforu.com: Kubernetes Adoption Widespread for Big Data: Survey](https://www.opensourceforu.com/2021/12/kubernetes-adoption-widespread-for-big-data-survey/?amp) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details industry survey results illustrating the widespread migration of Big Data and stateful analytics workloads onto Kubernetes. Shows the transition from static, dedicated bare-metal clusters to dynamic, container-orchestrated platforms. Live Grounding confirms this historical trajectory has culminated in 2026, where cloud-native orchestration is the unquestioned standard for running Spark, Flink, and ML training pipelines.
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

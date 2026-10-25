@@ -13,7 +13,6 @@
 
 - [itnext.io: Migrating Apache Spark workloads from AWS EMR to Kubernetes](https://itnext.io/migrating-apache-spark-workloads-from-aws-emr-to-kubernetes-463742b49fda?gi=b2b19a4f6a90)
 - [tomlous.medium.com: CI/CD for Data Engineers. Reliably Deploying Scala Spark containers for Kubernetes with Github Actions](https://tomlous.medium.com/ci-cd-for-data-engineers-68b0fd915545)
-- [datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available](https://www.datamechanics.co)
 - [dzone: Run and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber) Learn how to set up Apache Spark on IBM Cloud Kubernetes Service by pushing the Spark container images to IBM Cloud Container Registry.
 - [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes) This article covers using Spark on K8s to overcome dependency on cloud providers and running Apache Spark on Kubernetes.
 - [cloud.redhat.com: Getting Started running Spark workloads on OpenShift](https://www.redhat.com/en/blog/getting-started-running-spark-workloads-on-openshift)

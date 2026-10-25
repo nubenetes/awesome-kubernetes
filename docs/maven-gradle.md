@@ -46,7 +46,6 @@
 - [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)
 - [maven.apache.org: Introduction to the Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 - [Handwritten Maven archetype project scaffolding](https://www.programmersought.com/article/1858176023)
-- [programmer.ink: Maven scaffolding best practices](https://www.koterstore.nl/service/payment-methods)
 - [Create the scaffolding for your microservice](https://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven) We will use an existing maven archetype that assembles a CDI-based Camel java project that we will then alter to implement the service.
 
 ### Maven Tests

@@ -1,5 +1,5 @@
 ---
-description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt and more — curated Cloud Native tools, guides and references."
+description: "Top Postman resources for 2026, AI-ranked: Newman, Postman and more — curated Cloud Native tools, guides and references."
 ---
 # Test Automation with Postman. API Testing
 
@@ -26,13 +26,6 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
 #### Engineering Blogs
 
   - **(2026)** [**blog.getpostman.com**](https://blog.postman.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official Postman engineering blog highlighting modern practices in API design, automated testing, mocking, and API-first architectures. Contains high-depth articles on security, governance, and integrating API testing into global pipelines. Offers valuable insights into cross-team API collaboration.
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: how to use postman to manage and execute your APIs in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Microservices
@@ -40,6 +33,26 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
 #### Internal Developer Platforms
 
   - **(2021)** [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with' Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Matrix is Postman's internal developer tool designed to orchestrate local microservices development, simplifying the execution and coordination of dependent services. It acts as a lightweight developer portal, bridging the gap between local compose files and remote staging environments. Live engineering truth reveals it as a custom service runner that enhances developer workflow automation and mitigates configuration drift.
+## Automation and Orchestration
+
+### API Orchestration
+
+#### Postman
+
+  - **(2026)** [==Postman==](https://www.postman.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Postman remains a prominent API collaboration platform. It offers developers comprehensive tools to design, mock, test, document, and monitor APIs within an intuitive, team-oriented development lifecycle workspace.
+## Introduction
+
+  - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: how to use postman to manage and execute your APIs covering Introduction in Postman (dzone.com).
+  - [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/tests-and-scripts/performance-testing/testing-api-performance) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learning.postman.com: Simulate user traffic to test your API performance covering Introduction in Postman (learning.postman.com).
+## Quality Assurance
+
+### API Testing Automation
+
+#### Postman Guides
+
+##### Testing Frameworks
+
+  - **(2021)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this masterclass from FreeCodeCamp for comprehensive API testing utilizing Postman. Live Grounding notes that while GUI based testing is powerful for debugging, exporting these suites for CLI integration via Newman remains the gold standard for automated pipelines. It serves as an essential foundational guide for quality engineering.
 ## Security and Governance
 
 ### API Lifecycle (1)
@@ -59,6 +72,11 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [Drools](https://kie.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Drools is a powerful, production-ready Business Rules Management System (BRMS) featuring a forward and backward-chaining inference engine (RETE OO-algorithm) for decoupling enterprise logic from complex microservice structures.
 ## Software Testing
 
+### API Automation
+
+#### KIE Server
+
+  - **(2020)** [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on setting up automated REST API test runners for KIE decision services. Demonstrates performance execution metrics, payload validation models, and CI integration pipelines using Postman and Newman test wrappers.
 ### API Security
 
 #### Postman Integrations
@@ -84,7 +102,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

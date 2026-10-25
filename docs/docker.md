@@ -69,7 +69,6 @@
 - [pythonspeed.com: The worst so-called “best practice” for Docker](https://pythonspeed.com/articles/security-updates-in-docker)
 - [developers.redhat.com: Making environment variables accessible in front-end containers](https://developers.redhat.com/blog/2021/03/04/making-environment-variables-accessible-in-front-end-containers)
 - [medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch Image](https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a)
-- [datamechanics.co: Optimized Apache Spark Docker Images](https://www.datamechanics.co)
 - [theskillpedia.com: Managing docker images - openshift tutorial](https://www.theskillpedia.com/managing-docker-images-openshift-tutorial)
 - [iximiuz.com: Container Networking Is Simple!](https://labs.iximiuz.com/tutorials/container-networking-from-scratch)
 - [r-bloggers.com: Dockerizing Shiny Applications](https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications)
@@ -228,7 +227,6 @@
 
 ## Docker Patterns and Antipatterns
 
-- [codefresh.io: Docker anti-patterns 🌟](https://octopus.com/blog/docker-anti-patterns)
 - [medium: Docker anti-patterns | Codefresh](https://medium.com/containers-101/docker-anti-patterns-ad2a1fcd5ce1)
     - Creating Docker files that are not transparent.
     - Creating Dockerfiles that have side effects.
@@ -239,7 +237,6 @@
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer) 🌟 - This article from Docker introduces their new hardened images, designed to provide developers with a more secure foundation for building and deploying containerized applications. It highlights the benefits of using these images and how they contribute to a stronger security posture.
 
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
-- [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://www.pluralsight.com/cloud-guru)
 - [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan) Docker included a new command called `docker scan` that scans local images against the Snyk security engine, providing you with security visibility into your local Dockerfiles and images.
 - [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices)
 - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)

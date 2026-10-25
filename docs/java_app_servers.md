@@ -38,7 +38,6 @@
 
 ## IBM WebSphere Liberty
 
-- [WebSphere Liberty from IBM](https://openliberty.io/)
 
 ## Alternatives
 

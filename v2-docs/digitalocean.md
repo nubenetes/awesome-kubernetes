@@ -9,13 +9,13 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 !!! info "Architectural Context"
     Detailed reference for Digital Ocean in the context of Cloud Providers (Hyperscalers).
 
-## Architecture
+## Artificial Intelligence and Machine Learning
 
-### Saas
+### LLM Deployment
 
-#### Multi-tenancy
+#### Deepseek R1
 
-  - **(2023)** [blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares multi-instance setups (dedicated systems per tenant) against multi-tenant models (shared compute/database with strict software isolation). Examines resource scaling, security boundaries, and noisy neighbor challenges.
+  - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A cutting-edge deployment guide illustrating execution profiles of the revolutionary DeepSeek R1 reasoning models inside newly provisioned high-performance DigitalOcean GPU Droplets. Addresses architectural configurations for model weights and CUDA drivers.
 ## Cloud Infrastructure
 
 ### Paas
@@ -30,18 +30,21 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 
 #### Community Portal
 
-  - **(2025)** [Community Tools 🌟](https://www.digitalocean.com/community/tools) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An aggregate repository of developer-led open-source automation templates, networking tools, and infrastructure deployment scripts optimized for the DigitalOcean platform ecosystem.
+  - **(2025)** [Community Tools 🌟](https://www.digitalocean.com/community/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An aggregate repository of developer-led open-source automation templates, networking tools, and infrastructure deployment scripts optimized for the DigitalOcean platform ecosystem.
 #### Digitalocean (1)
 
-  - **(2026)** [Digital Ocean](https://www.digitalocean.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developers-first cloud services platform focusing on simplicity, lower cost predictability, and rapid droplet virtual server allocations. Expanded enterprise capacities to accommodate containerized microservices and modern pipelines.
+  - **(2026)** [Digital Ocean](https://www.digitalocean.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developers-first cloud services platform focusing on simplicity, lower cost predictability, and rapid droplet virtual server allocations. Expanded enterprise capacities to accommodate containerized microservices and modern pipelines.
+#### Kubernetes DOKS
+
+  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 #### Visual Deployment
 
-  - **(2022)** [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference landing portal for visual architecture design tools integrated with DigitalOcean Kubernetes. Historically allowed developers to visualize infrastructure topologies and generate corresponding Kubernetes configurations.
+  - **(2022)** [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference landing portal for visual architecture design tools integrated with DigitalOcean Kubernetes. Historically allowed developers to visualize infrastructure topologies and generate corresponding Kubernetes configurations.
 ### Paas (1)
 
 #### Digitalocean App Platform
 
-  - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
+  - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
 ## Web Servers
 
 ### Nginxconfig
@@ -51,7 +54,7 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
   - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

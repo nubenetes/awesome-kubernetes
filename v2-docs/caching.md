@@ -1,5 +1,5 @@
 ---
-description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varnish Cache and more — curated Cloud Native tools, guides and references."
+description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache and more — curated Cloud Native tools, guides and references."
 ---
 # Caching Solutions
 
@@ -9,13 +9,6 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
 !!! info "Architectural Context"
     Detailed reference for Caching Solutions in the context of Networking & Service Mesh.
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: An Introduction to Caching: How and Why We Do It 🌟 in the Kubernetes Tools ecosystem.
 ## Data and Caching
 
 ### CDN
@@ -29,11 +22,13 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
 #### Cache Invalidation
 
   - **(2022)** [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration detailing the complex nature of distributed cache invalidation strategies. It breaks down systemic issues with race conditions, expiration parameters, and multi-region database sync mechanisms.
+#### Slides
+
+  - **(2015)** [Slideshare: Caching](https://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental slide presentation mapping out early caching architectures. It provides high-level overviews of browser cache policies, reverse proxy structures, CDN nodes, and database query caches.
 ### Data Grid
 
 #### In-memory Caching
 
-  - **(2025)** [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Data Grid is a distributed, in-memory key-value store built on top of Infinispan. It facilitates fast transaction caching, active real-time data streaming, and cross-datacenter state sync across Kubernetes clusters.
   - **(2020)** [developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more](https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical release evaluation showcasing Red Hat Data Grid 8.0's updated cloud-native engine. It details the lightweight server container footprint, modern REST API integration pathways, and advanced CLI automation.
   - **(2016)** [Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟](https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical overview detailing JBoss Data Grid's architectural transition. It explains how the grid progressed from a simple JVM object store into a high-capacity, language-agnostic distributed cache.
 ### Edge Caching
@@ -51,15 +46,25 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
 #### Tau Edge
 
   - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-944a1678" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 5 L 30 3 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-944a1678)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
+## Infrastructure
+
+### Caching
+
+#### Redis
+
+  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
 ## Infrastructure and Caching
 
 ### Database and Storage
 
 #### Tarantool and Nginx
 
-  - **(2016)** [highscalability.com: Building nginx and Tarantool based services 🌟](https://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural breakdown of low-latency services combining Nginx and the Tarantool in-memory database. Highlights how custom application routing directly bypassing intermediate application runtimes yields astronomical throughput with sub-millisecond delays.
+  - **(2016)** [highscalability.com: Building nginx and Tarantool based services 🌟](https://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural breakdown of low-latency services combining Nginx and the Tarantool in-memory database. Highlights how custom application routing directly bypassing intermediate application runtimes yields astronomical throughput with sub-millisecond delays.
 ### Edge Caching (1)
 
+#### Legacy Varnish Tuning
+
+  - **(2015)** [slideshare: Varnish - Tips & Tricks - 4Developers 2015](https://www.slideshare.net/piotrpasich/varnish-47199139)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A historical deep-dive into legacy Varnish tuning configurations, highlighting Varnish Configuration Language (VCL) tricks and early cache invalidation mechanisms. While architectural fundamentals remain sound, newer deployments leverage cloud-native operators or CDN-side configurations.
 #### VM Administration
 
   - **(2020)** [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on installation manual detailing how to integrate Varnish Cache on Ubuntu VM environments to accelerate static content delivery. Serves as an excellent foundational reference for monolithic deployments and non-containerized reverse proxies.
@@ -70,7 +75,10 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
   - **(2026)** [==memcached.org==](https://memcached.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard distributed memory object caching system designed for extreme performance and simplicity. Utilizing multi-threaded slab allocation, Memcached continues to serve as the default high-efficiency tier for raw key-value pair lookups.
 #### Redis Deep-dive
 
-  - **(2022)** [**architecturenotes.co: Redis Explained 🌟🌟**](https://architecturenotes.co/p/redis) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An exceptional, visually illustrated deep-dive analyzing Redis execution cycles, single-threaded multiplexing event loops, and data structural formats. Demystifies complex operational mechanisms such as AOF/RDB persistence and memory eviction strategies.
+  - **(2022)** [**architecturenotes.co: Redis Explained 🌟🌟**](https://architecturenotes.co/p/redis) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An exceptional, visually illustrated deep-dive analyzing Redis execution cycles, single-threaded multiplexing event loops, and data structural formats. Demystifies complex operational mechanisms such as AOF/RDB persistence and memory eviction strategies.
+#### Redis Foundations
+
+  - **(2013)** [Slideshare: Introduction to Redis](https://www.slideshare.net/dvirsky/introduction-to-redis)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy educational slide deck focusing on fundamental Redis data types and master-replica layouts. Helpful for conceptual framing, though modern configurations in 2026 leverage more sophisticated cluster/sentinel topologies.
 ### Kubernetes Caching
 
 #### Distributed Caching
@@ -90,27 +98,48 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
 
 #### Nginx Caching
 
-  - **(2014)** [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A progressive conference talk detailing advanced architectural patterns to transform dynamic responses into static cache structures. Explores proxy caching, microcaching, and purge mechanics on the Nginx reverse proxy layer to survive heavy traffic spikes.
+  - **(2014)** [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A progressive conference talk detailing advanced architectural patterns to transform dynamic responses into static cache structures. Explores proxy caching, microcaching, and purge mechanics on the Nginx reverse proxy layer to survive heavy traffic spikes.
 #### Nginx Customization
 
   - **(2015)** [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](https://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-) <span class='md-tag md-tag--warning'>[NGINX CONF CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural configuration showcase demonstrating Nginx's ability to act as a real-time, lightweight image resizing proxy using its native image filter module. Illustrates the power of Nginx as an all-in-one low-footprint media engine.
+## Introduction To Caching
+
+  - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: An Introduction to Caching: How and Why We Do It 🌟 covering Introduction to Caching in Caching (dzone.com).
 ## Networking
 
+### Load Balancing
+
+#### Database Proxy
+
+  - **(2015)** [slideshare: Load Balancing MySQL with HAProxy](https://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Slide presentation focused on load balancing MySQL database backends. It illustrates TCP level health checks, read/write splitting, query redirection patterns, and seamless failover configurations.
+  - **(2015)** [slideshare: Performance Tuning of HAProxy for Database Load Balancing](https://www.slideshare.net/Severalnines/haproxy-mysql-slides) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical slide deck illustrating OS and kernel-level optimizations for HAProxy. It details socket buffer limits, epoll utilization, and high-concurrency TCP handshake tunings for databases.
+  - **(2014)** [slideshare: How To Set Up SQL Load Balancing with HAProxy](https://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step instructional slide deck detailing the setup of robust database proxies. It explores load balancing techniques, health verification agents, and transaction limits for active SQL backends.
+#### Haproxy
+
+  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
+  - **(2015)** [slideshare: Haproxy web performance](https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical presentation slides focusing on HAProxy optimizations. It targets key configurations for decreasing response latency, including Keep-Alive tuning, memory buffers, and HTTP protocol compression.
+  - **(2015)** [slideshare: Haproxy best practice](https://www.slideshare.net/haproxytech/haproxy-best-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of engineering best practices for building highly available HAProxy configurations. It covers multi-tenant rate limiting, connection pooling limits, SSL offloading patterns, and syslog configurations.
 ### Security
 
-#### Haproxy
+#### Haproxy (1)
 
   - **(2023)** [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product portal for HAProxy's Enterprise Web Application Firewall (WAF). It reviews native layer 7 filtering options, custom protection rule sets, and performance profiles designed to mitigate OWASP risks at high traffic volume.
 ## Performance
 
-### Caching
+### Caching (1)
 
 #### Varnish On RHEL
 
   - **(2021)** [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deployment documentation detailing how to install and configure Varnish Cache on RedHat Enterprise Linux. Focuses on setting up Varnish as an edge reverse-proxy caching layer to handle high-concurrency HTTP/S read operations in web services.
+## Redis (1)
+
+  - [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce?gi=131c0b8b3a24) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Redis High availability with Sentinel on Kubernetes(K8s) covering Redis in Caching (faun.pub).
+## Varnish (1)
+
+  - [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Red Hat Enterprise Linux Blog. Tag: Varnish covering Varnish in Caching (redhat.com).
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Web Servers](./web-servers.md) | [Servicemesh](./servicemesh.md) | [Cloudflare](./cloudflare.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

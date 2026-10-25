@@ -9,6 +9,9 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
 !!! info "Architectural Context"
     Detailed reference for Customer Success Stories. Cloud Native Projects in the context of Architectural Foundations.
 
+## Cars24
+
+  - **(2026)** [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Cars24 scales conversations and builds faster with OpenAI covering Cars24 in Customer (openai.com).
 ## Cloud Platform
 
 ### Bioinformatics
@@ -21,6 +24,11 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
 #### Continuous Integration
 
   - **(2023)** [**redhat.com: The Volkswagen Group builds automated testing environment**](https://www.redhat.com/en/success-stories/the-volkswagen-group) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores Volkswagen Group's migration to an automated software-defined testing environment built on Red Hat OpenShift. This platform-based approach streamlines verification cycles for ECU software, accelerating vehicle-to-cloud development pipelines. By leveraging containerized testing nodes and Kubernetes orchestration, VW drastically reduced testing feedback loops while maintaining safety-critical compliance.
+### Enterprise Solutions
+
+#### AI and Infrastructure
+
+  - **(2024)** [**aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS**](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This case study highlights BMW Group's deployment of a generative AI assistant on AWS designed to automate and optimize cloud infrastructure operations. By synthesizing telemetry data and AWS resource metrics, the assistant accelerates infrastructure diagnostics, reduces operational overhead, and drives cost-efficient resource provisioning. It demonstrates how LLMs can be integrated into enterprise cloud operations (AIOps) to simplify complex architectural decision-making.
 ### Healthcare Tech
 
 #### Medical Imaging Platforms
@@ -53,6 +61,9 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
 #### Open Source Labs
 
   - **(2026)** [BMW InnovationLab](https://github.com/BMW-InnovationLab) <span class='md-tag md-tag--warning'>[VARIOUS CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The GitHub organization hosting open-source tools, scripts, and algorithms developed by BMW's InnovationLab team. These projects focus on supply chain optimizations, computer vision algorithms, and robotic tooling modules.
+## Gilbert Tobin
+
+  - **(2026)** [How law firm Gilbert + Tobin governs and scales AI with OpenAI](https://openai.com/index/gilbert-tobin) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How law firm Gilbert + Tobin governs and scales AI with OpenAI covering Gilbert  Tobin in Customer (openai.com).
 ## Infrastructure Orchestration
 
 ### Cloud Security
@@ -76,17 +87,23 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
 #### Enterprise Portals
 
   - **(2024)** [github.com/mercedes-benz](https://github.com/mercedes-benz) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official GitHub portal for Mercedes-Benz's open-source initiatives. It hosts various developer tools, utility libraries, and SDKs dedicated to automotive software, showing their commitment to transparent, community-driven development in modern vehicles. It serves as an archive and collaboration hub for internal components exposed to the open-source ecosystem.
+## Omio
+
+  - **(2026)** [How Omio is building the future of conversational travel](https://openai.com/index/omio) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Omio is building the future of conversational travel covering Omio in Customer (openai.com).
 ## Organizational Culture
 
 ### Migration Journeys
 
 #### BMW Group
 
-  - **(2026)** [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to the corporate hub for BMW's extensive IT and software innovation efforts. Live Grounding highlights BMW's massive internal platform engineering evolution, using Kubernetes and cloud-native standards to manage connected car telemetry and smart-manufacturing software pipelines globally.
-  - **(2021)** [linkedin.com/pulse: How BMW uses Redhat OpenShift?](https://www.linkedin.com/pulse/how-bmw-uses-redhat-openshift-bobby-singh) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight outlines the functional details of how BMW Group integrated Red Hat OpenShift to power their connected car ecosystem. Live Grounding verifies that OpenShift clusters serve as the backbones for real-time telemetry processing, enabling secure, low-latency API interactions with vehicles globally.
+  - **(2026)** [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to the corporate hub for BMW's extensive IT and software innovation efforts. Live Grounding highlights BMW's massive internal platform engineering evolution, using Kubernetes and cloud-native standards to manage connected car telemetry and smart-manufacturing software pipelines globally.
+  - **(2021)** [linkedin.com/pulse: How BMW uses Redhat OpenShift?](https://www.linkedin.com/pulse/how-bmw-uses-redhat-openshift-bobby-singh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight outlines the functional details of how BMW Group integrated Red Hat OpenShift to power their connected car ecosystem. Live Grounding verifies that OpenShift clusters serve as the backbones for real-time telemetry processing, enabling secure, low-latency API interactions with vehicles globally.
   - **(2020)** [Red Hat OpenShift Container Platform Takes Digital Innovation into the Fast Lane with Major European Automaker](https://www.redhat.com/es/about/press-releases/red-hat-openshift-container-platform-takes-digital-innovation-fast-lane-major-european-automaker) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight documents a major European automaker (BMW Group) adopting Red Hat OpenShift to streamline application delivery. Live Grounding confirms this as a milestone enterprise container deployment, using OpenShift to drive autonomous driving workloads and predictive maintenance across dynamic multi-cloud environments.
-  - **(2020)** [BMW takes digital innovation into the fast lane with Red Hat Openshift Container Platform](https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the strategic cloud-native alignment of BMW with Red Hat OpenShift to run critical manufacturing systems. Live Grounding outlines how hybrid cloud infrastructure allows the enterprise to standardize edge environments at assembly plants while maintaining dynamic cloud scalability.
-  - **(2018)** [Youtube: BMW enables the BMW Group to deliver the continuous service that today's consumers expect (video starts at 1:29:00)](https://www.youtube.com/watch?time_continue=5340&v=FUu4kMc0PL8) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight shares a keynote detailing how OpenShift and cloud-native design enabled BMW to execute zero-downtime microservice updates. Live Grounding validates this transformation as a key paradigm shift, proving that legacy automotive giants can achieve fast, continuous release cycles safely.
+  - **(2020)** [BMW takes digital innovation into the fast lane with Red Hat Openshift Container Platform](https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the strategic cloud-native alignment of BMW with Red Hat OpenShift to run critical manufacturing systems. Live Grounding outlines how hybrid cloud infrastructure allows the enterprise to standardize edge environments at assembly plants while maintaining dynamic cloud scalability.
+  - **(2018)** [Youtube: BMW enables the BMW Group to deliver the continuous service that today's consumers expect (video starts at 1:29:00)](https://www.youtube.com/watch?time_continue=5340&v=FUu4kMc0PL8)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight shares a keynote detailing how OpenShift and cloud-native design enabled BMW to execute zero-downtime microservice updates. Live Grounding validates this transformation as a key paradigm shift, proving that legacy automotive giants can achieve fast, continuous release cycles safely.
+## Samsung
+
+  - **(2026)** [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Samsung Electronics brings ChatGPT and Codex to employees covering Samsung in Customer (openai.com).
 ## System Architecture
 
 ### Automotive Systems
@@ -94,6 +111,11 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
 #### Software-defined Vehicles
 
   - **(2023)** [xataka.com: El auge del coche eléctrico y autónomo se ha topado con otra barrera: el software. Volkswagen lo sabe bien](https://www.xataka.com/movilidad/auge-coche-electrico-autonomo-se-ha-topado-otra-barrera-software-volkswagen-sabe-bien) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Analyzes the structural and architectural software challenges faced by Volkswagen (specifically Cariad) during its transition to Electric Vehicles (EVs) and Autonomous Driving (AD). The analysis covers the friction between legacy hardware-centric development cycles and modern, unified software-defined platform architectures. It highlights how decoupled hardware/software layers are critical to avoiding catastrophic launch delays in complex distributed automotive systems.
+### Data Management (1)
+
+#### Enterprise Migration
+
+  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
 ### Industrial Engineering
 
 #### Hardware Integration
@@ -117,7 +139,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [**thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects**](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines four strategic motivations for Mercedes-Benz to sponsor open-source software. By funding critical up-stream components, the enterprise reduces technical debt, improves system security, attracts elite software engineering talent, and actively influences standard roadmaps. It provides a blueprint for enterprise open-source program offices (OSPOs) seeking to justify upstream contributions.
 
 ---
-💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

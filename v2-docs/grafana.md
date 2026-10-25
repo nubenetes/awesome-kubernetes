@@ -1,5 +1,5 @@
 ---
-description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter, Grafana Loki and more — curated Cloud Native tools, guides and references."
+description: "Top Grafana resources for 2026, AI-ranked: Grafana Loki, Grafana Faro and more — curated Cloud Native tools, guides and references."
 ---
 # Grafana
 
@@ -9,46 +9,41 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 !!! info "Architectural Context"
     Detailed reference for Grafana in the context of Architectural Foundations.
 
+## Grafana Agent
+
+  - [levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and Telemetry Collection for Kubernetes Clusters](https://levelup.gitconnected.com/exploring-grafana-agent-flow-simplifying-monitoring-for-kubernetes-2a06a92614?gi=0d8c1bb2c762) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and Telemetry Collection for Kubernetes Clusters covering Grafana Agent in Grafana (levelup.gitconnected.com).
+## Grafana Dashboards
+
+  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openlogic.com: How to develop Grafana Dashboards 🌟 covering Grafana Dashboards in Grafana (openlogic.com).
+  - [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard covering Grafana Dashboards in Grafana (dzone.com).
+  - [github.com/Fractal-Techware/grafana-dashboards](https://github.com/Fractal-Techware/grafana-dashboards) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for github.com/Fractal-Techware/grafana-dashboards covering Grafana Dashboards in Grafana (github.com).
+## Grafana Loki
+
+  - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34?gi=0c71e6906ec1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Logging in Kubernetes with Loki and the PLG Stack covering Grafana Loki in Grafana (itnext.io).
+  - [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc?gi=787658167fbe) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs covering Grafana Loki in Grafana (faun.pub).
 ## Infrastructure As Code
 
 ### Package Archives
 
 #### Visualization
 
-  - **(2020)** [grafana-6.7.2-1.x86_64.rpm](https://grafana.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy RPM binary package of Grafana 6.7.2. Kept as a reference point for historical dashboards and older enterprise network configurations.
-## Kubernetes and Cloud Native
+  - **(2020)** [grafana-6.7.2-1.x86_64.rpm](https://grafana.com)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy RPM binary package of Grafana 6.7.2. Kept as a reference point for historical dashboards and older enterprise network configurations.
+## Introduction
 
-### CICD
-
-#### Continuous Deployment
-
-  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part two of the microservices CI/CD series, detailing continuous deployment onto active Kubernetes clusters. Focuses on orchestrating declarative manifest YAML files, configuring deployment strategies like rolling updates, and handling Kubernetes secrets securely.
-## Kubernetes Tools
-
-### General Reference
-
-  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
-  - [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard in the Kubernetes Tools ecosystem.
-## Middleware
-
-### Messaging Orchestration
-
-#### Artemis Extensions
-
-  - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d9b8e9d6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 9 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-d9b8e9d6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
+  - [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c?gi=a981c1b77db1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos covering Introduction in Grafana (itnext.io).
 ## Observability
 
 ### Infrastructure As Code (1)
 
 #### Grafana Provisioning
 
-  - **(2023)** [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural guide detailing how to manage Grafana as code. Explores declarative tools, GitOps synchronization methods, and APIs (such as Grizzly, Terraform, and Kubernetes Operators) to achieve reproducible visualization dashboards, alert rules, and secure data sources inside multi-tenant configurations.
+  - **(2023)** [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural guide detailing how to manage Grafana as code. Explores declarative tools, GitOps synchronization methods, and APIs (such as Grizzly, Terraform, and Kubernetes Operators) to achieve reproducible visualization dashboards, alert rules, and secure data sources inside multi-tenant configurations.
 ### Log Management
 
 #### Deployment Guides
 
   - **(2021)** [youtube.com: Grafana Loki Promtail | Grafana Loki Setup And Configuration On CentOs](https://www.youtube.com/watch?v=iqpLXUdJ0Ro&ab_channel=Thetips4you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video deployment guide demonstrating how to install and configure Grafana Loki and Promtail on CentOS systems. It covers host-level systemd service configuration, log routing patterns, and connecting local log collectors to centralized Loki nodes.
-#### Grafana Loki
+#### Grafana Loki (1)
 
   - **(2020)** [Log Monitoring and Alerting with Grafana Loki](https://www.infracloud.io/blogs/grafana-loki-log-monitoring-alerting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed deployment guide focusing on log monitoring and alerting integration using Grafana Loki and Promtail. Loki's design indexing only log metadata allows clusters to achieve cost-efficient, low-latency log collection compared to full-text indexing solutions.
   - **(2019)** [thenewstack.io: Grafana Adds Logging to Its Enterprise Observability Stack 🌟](https://thenewstack.io/grafana-adds-logging-to-its-enterprise-observability-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the commercial introduction of Grafana Loki as part of the Grafana Enterprise Observability Stack. This development unified metrics and logging in a single pane of glass, accelerating incident root-cause analysis for operations engineering teams.
@@ -57,11 +52,6 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 #### Kubernetes Scheduling
 
   - **(2021)** [openshift.com: Metrics-Driven Pod Constraints](https://www.redhat.com/en/blog/metrics-driven-pod-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural review detailing how OpenShift uses metrics-driven constraints to dynamically schedule workloads. By consuming Prometheus data points, the scheduler alters pod distribution thresholds based on actual node resource consumption.
-### Scraping and Exporters
-
-#### JVM Monitoring
-
-  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e373ce5a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 9 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-e373ce5a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
 ### Visualization (1)
 
 #### Grafana Configuration
@@ -107,9 +97,6 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
 #### Dashboard Design
 
   - **(2021)** [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed directory detailing Grafana dashboard templates designed for infrastructure health, application profiling, alerting states, and executive summaries. Illustrates best practices for using colors, mapping dynamic parameters, and structuring queries to minimize browser rendering lag. Excellent primer for SRE and platform teams establishing visualization frameworks.
-#### Grafana Cloud Integration
-
-  - **(2021)** [grafana.com: Introducing the AWS CloudWatch integration, Grafana Cloud's first fully managed integration](https://grafana.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on Grafana Cloud's fully managed integration for AWS CloudWatch. Automates connection configurations, IAM policy templates, and out-of-the-box system dashboards to rapidly pull metrics from EC2, RDS, and ECS without setting up complex collectors. This SaaS integration reduces initial ingestion setups down to minutes.
 #### Grafana Plugins
 
   - **(2021)** [Popular community plugins that can improve your Grafana dashboards 🌟](https://grafana.com/blog/popular-community-plugins-that-can-improve-your-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights top community-created visualization plugins extending the native capabilities of Grafana dashboards, including specialized charting tools, flow diagrams, and advanced geographic mappings. Helps dashboard authors enrich analytics panels and improve observability interfaces across operations groups.
@@ -188,7 +175,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Prometheus JMX Exporter
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

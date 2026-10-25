@@ -37,7 +37,6 @@
 - [rancher.com: Rancher 2.5 Delivers On "Computing Everywhere" Strategy](https://www.suse.com/c/rancher_blog/rancher-2-5-delivers-on-computing-everywhere-strategy)
 - [rancher: Speed Up Development with Automated Kubernetes Deployments](https://www.suse.com/c/rancher_blog/speed-up-development-with-automated-kubernetes-deployments)
 - [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops)
-- [SUSE & Rancher Community 🌟](https://www.rancher.com/community) Learn and share with other cloud native enthusiasts
 - [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟](https://aws-quickstart.github.io/quickstart-eks-rancher)
 - [dzone: Getting Started With Rancher 🌟](https://dzone.com/refcardz/getting-started-with-rancher) What is Rancher? And how does it make Kubernetes crazy easy? Rancher is a complete Kubernetes stack that's easy to navigate — whether it's physical servers on-prem or in the cloud. This Refcard helps you get started with Rancher — from zero to fully production-ready.
 - [devclass.com: Rancher presents first big release after SUSE acquisition, ups game on hosted cluster provisioning](https://www.devclass.com/containers/2021/09/02/rancher-presents-first-big-release-after-suse-acquisition-ups-game-on-hosted-cluster-provisioning/1627301)
@@ -104,7 +103,6 @@
 - [blog.alexellis.io: Bare-metal Kubernetes with K3s](https://blog.alexellis.io/bare-metal-kubernetes-with-k3s)
 - [rancher.com: Set up K3s in High Availability using k3d](https://www.suse.com/c/rancher_blog/set-up-k3s-in-high-availability-using-k3d)
 - [rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean](https://www.suse.com/c/rancher_blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean)
-- [community.suse.com: Introduction to K3s 🌟](https://www.rancher.com/community)
 - [k3s_hetzner](https://gitlab.com/k3s_hetzner/k3s_hetzner) How to build a kubernetes cluster in [Hetzner Cloud](https://www.hetzner.com/cloud)
 - [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1)you'll learn:
     - What's new with k3d v3

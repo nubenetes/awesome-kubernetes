@@ -61,7 +61,6 @@
 - [devops.com: The DevOps Journey: Continuous Mindset Starts With Cultural Change](https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cultural-change)
 - [==dzone.com/trendreports/devops-3: DevOps==](https://dzone.com/trendreports/devops-3) CI/CD and Application Release Orchestration. With the need for companies to deliver capabilities faster, it has become increasingly clear that DevOps is a practice that many enterprises must adopt (if they haven’t already). A strong CI/CD pipeline leads to a smoother release process, and a smoother release process decreases time to market. In DZone’s "DevOps: CI/CD and Application Release Orchestration" Trend Report, we provide insight into how CI/CD has revolutionized automated testing, offer advice on why an SRE is important to CI/CD, explore the differences between managed and self-hosted CI/CD, and much more. The goal of this Trend Report is to offer guidance to our global audience of DevOps Engineers, Automation Architects, and all those in between on how to best adopt DevOps practices to help scale the productivity of their teams.
 - [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success)
-- [yourdevopsmentor.com: How to become a DevOps engineer – 5 easy steps](https://visittheswamp.com)
 - [devops.com: Why MTTR is a Vital Metric for DevOps Teams](https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams)
 - [umbrellainfocare.com: Cloud and DevOps are Made for Each Other](https://www.umbrellainfocare.com/blogs/cloud-and-devops-are-made-for-each-other)
 - [guru99.com: DevOps Lifecycle: Different Phases Explained with Examples 🌟](https://www.guru99.com/devops-lifecycle.html)
@@ -174,7 +173,6 @@
 - [scaledagileframework.com: DevOps 🌟🌟](https://www.scaledagileframework.com/devops)
 - [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://cloudnativenow.com/topics/cloudnativedevelopment/how-the-rise-of-containers-will-drive-devops)
 - [itprotoday.com: Is the DevOps Model Killing the Developer? In a Word, No](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) The rise of the DevOps model means that app environments are moving faster and running on a larger scale than they did a decade ago.
-- [blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟](https://blogs.vmware.com/cloud-foundation)
 - [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)
 - [medium: How to Become a DevOps Engineer in 2020 (Tj Blogumas)](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8)
 - [medium: How to Become a DevOps Engineer in 2020 (Shane Shown)](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52)
@@ -198,7 +196,6 @@
 - [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration)
 - [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
 - [medium: How to Become a DevOps Engineer in 2020](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8) Your guide to getting started in a career in DevOps.
-- [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://platform.qa.com/login)
 - [infoq.com: Puppet Releases Its 2020 State of DevOps Report 🌟](https://www.infoq.com/news/2020/11/2020-devops-report)
 - [informationweek.com: What's Holding DevOps Back?](https://www.informationweek.com/software-services/what-s-holding-devops-back-) DevOps teams are at different stages of maturity. However, there are some common challenges they face along the way.
 - [opensource.com: Create a DevOps culture with open source principles](https://opensource.com/article/20/12/remote-devops) Now that more workforces are remote, DevOps teams can maximize their collaboration and productivity by following open source principles.
@@ -339,7 +336,6 @@
 
 - [DevOps Glosary of Terms 🌟](https://digital.ai/glossary)
 - [The Ultimate DevOps Tool Chest 🌟](https://digital.ai/learn/diagram-generator)
-    - [The Ultimate List of Open Source DevOps Tools](https://digital.ai)
 - [Periodic Table of DevOps 🌟](https://digital.ai/learn/devsecops-periodic-table)
 
 ## DevOps Tools

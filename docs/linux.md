@@ -187,7 +187,6 @@
 - [CLImagic subscription](https://www.patreon.com/climagic)
 - [cyberciti.biz: How to save terminal output to a file under Linux/Unix](https://www.cyberciti.biz/faq/how-to-save-terminal-output-to-a-file-under-linux-unix)
 - [cyberciti.biz: ls* Commands Are Even More Useful Than You May Have Thought](https://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples)
-- [linuxtechlab.com: Search a file in Linux using Find & Locate command](https://devopsarsenal.com)
 - [tecmint.com: How to Install and Configure ‘Collectd’ and ‘Collectd-Web’ to Monitor Server Resources in Linux](https://www.tecmint.com/install-collectd-and-collectd-web-to-monitor-server-resources-in-linux)
 - [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux)
 - [cyberciti.biz: How to flush Redis cache and delete everything using the CLI](https://www.cyberciti.biz/faq/how-to-flush-redis-cache-and-delete-everything-using-the-cli)
@@ -203,7 +202,6 @@
 - [redhat.com: 5 Linux commands I'm going to start using](https://www.redhat.com/en/blog/5-linux-commands) Five standard Linux commands that can make your life much easier.
 - [developers.redhat.com: Build your own RPM package with a sample Go program to simplify installing, updating, or removing a piece of software](https://developers.redhat.com/articles/2021/05/21/build-your-own-rpm-package-sample-go-program)
 - [cyberciti.biz: How to copy and transfer files remotely on Linux using scp and rsync](https://www.cyberciti.biz/faq/how-to-copy-and-transfer-files-remotely-on-linux-using-scp-and-rsync)
-- [nginx.com: What Are Namespaces and cgroups, and How Do They Work? 🌟](https://www.f5.com/products/nginx) Namespaces provide isolation of system resources, and cgroups allow for fine‑grained control and enforcement of limits for those resources. Containers are not the only way that you can use namespaces and cgroups. Namespaces and cgroup interfaces are built into the Linux kernel, which means that other applications can use them to provide separation and resource constraints.
 - [cyberciti.biz: How to check CPU temperature on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-check-cpu-temperature-on-ubuntu-linux)
 - [opensource.com: Check used disk space on Linux with du](https://opensource.com/article/21/7/check-disk-space-linux-du) Find out how much disk space you're using with the Linux du command.
 - [linuxshelltips.com: How to Kill Running Linux Process on Particular Port](https://www.linuxshelltips.com/kill-linux-process-with-port)

@@ -20,7 +20,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Decision Intelligence
 
-  - **(2020)** [**youtube: Making Friends with Machine Learning | Cassie Kozyrkov | playlist 🌟**](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A foundational lecture series on structural decision-making and pragmatism in machine learning by Cassie Kozyrkov. Focuses on framing analytics problems, mitigating cognitive biases in model creation, and designing human-centric metrics to measure real business impact.
+  - **(2020)** [**youtube: Making Friends with Machine Learning | Cassie Kozyrkov | playlist 🌟**](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A foundational lecture series on structural decision-making and pragmatism in machine learning by Cassie Kozyrkov. Focuses on framing analytics problems, mitigating cognitive biases in model creation, and designing human-centric metrics to measure real business impact.
 #### Neural Networks
 
   - **(2023)** [marvelousmlops.substack.com: Learn Machine Learning and Neural Networks without Frameworks](https://www.freecodecamp.org/news/learn-machine-learning-and-neural-networks-without-frameworks) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical exploration of the math and implementation mechanics of neural networks from pure scratch, avoiding PyTorch or TensorFlow abstraction layers. Focuses on matrix operations, backpropagation algorithms, and loss optimizations to build strong foundational knowledge.
@@ -28,15 +28,9 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Landscape Evaluation
 
-  - **(2022)** [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An analytical review of thirteen disruptive open-source initiatives restructuring the artificial intelligence and machine learning paradigm. Covers emerging runtimes, foundational data lakes, model-serving layers, and high-performance training acceleration engines that dominate the landscape.
+  - **(2022)** [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An analytical review of thirteen disruptive open-source initiatives restructuring the artificial intelligence and machine learning paradigm. Covers emerging runtimes, foundational data lakes, model-serving layers, and high-performance training acceleration engines that dominate the landscape.
 ## Architectural Foundations
 
-### Kubernetes Tools
-
-#### General Reference
-
-  - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cd.foundation: Announcing the CD Foundation MLOps SIG in the Kubernetes Tools ecosystem.
-  - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"? in the Kubernetes Tools ecosystem.
 ### Mlops and Data Science
 
 #### Generative AI
@@ -49,6 +43,13 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 #### Code Generation
 
   - **(2021)** [towardsdatascience.com: Automatically Generate Machine Learning Code with Just a Few Clicks](https://towardsdatascience.com/automatically-generate-machine-learning-code-with-just-a-few-clicks-7901b2334f97) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores early AutoML and automated code-generation tools designed to accelerate the model-building lifecycle. Evaluates the architectural benefits of removing manual scaffolding from pipeline creation, while stressing the long-term necessity of custom code refactoring for performance-critical production systems.
+## Azure ML
+
+  - [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c?gi=58f9c2754591) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning covering Azure ML in MLOps (blog.devops.dev).
+## Blogs
+
+  - **(2026)** [MAPS: Netflix's Multimodal Asset Personalization at Scale](https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for MAPS: Netflix's Multimodal Asset Personalization at Scale covering Blogs in MLOps (netflixtechblog.com).
+  - **(2026)** [From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta's Ads Ranking](https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta's Ads Ranking covering Blogs in MLOps (engineering.fb.com).
 ## CICD
 
 ### Containers
@@ -60,7 +61,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Sagemaker
 
-  - **(2022)** [**aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed blueprints roadmap by AWS outlining standard enterprise implementation strategies for SageMaker. Addresses resource provisioning, continuous training cycles, multi-account governance, and secure networking architectures required for heavy-duty financial and healthcare deployments.
+  - **(2022)** [**aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed blueprints roadmap by AWS outlining standard enterprise implementation strategies for SageMaker. Addresses resource provisioning, continuous training cycles, multi-account governance, and secure networking architectures required for heavy-duty financial and healthcare deployments.
   - **(2022)** [**aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD**](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced infrastructure-as-code deployment blueprint for multi-environment (Dev, Stage, Prod) MLOps promotion. Orchestrates SageMaker Model Registry with HashiCorp Terraform, GitHub Actions, and Jenkins, demonstrating an enterprise-grade, highly-secured CI/CD model delivery loop.
 ### Azure
 
@@ -73,10 +74,10 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2021)** [youtube: Deploy Convolutional Neural Network (CNN) on Azure with Python | Deep Learning Deployment | MLOPS](https://www.youtube.com/watch?v=6sqGxVI3X1w) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical video tutorial showing step-by-step preparation, containerization, and hosting of a Convolutional Neural Network (CNN) on Azure container endpoints. Demonstrates writing score scripts, declaring environment dependencies, and triggering predictions via REST APIs.
 #### System Design
 
-  - **(2023)** [**learn.microsoft.com: Azure Well-Architected Framework perspective on Azure Machine Learning**](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-machine-learning) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Detailed architecture guidance map aligned to Azure's Well-Architected Framework, focused on Azure Machine Learning. Evaluates cost optimization, operational excellence, reliability, security architectures, and resource management models crucial for enterprise system compliance.
+  - **(2023)** [**learn.microsoft.com: Azure Well-Architected Framework perspective on Azure Machine Learning**](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-machine-learning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Detailed architecture guidance map aligned to Azure's Well-Architected Framework, focused on Azure Machine Learning. Evaluates cost optimization, operational excellence, reliability, security architectures, and resource management models crucial for enterprise system compliance.
 ### Flyte Managed
 
-  - **(2024)** [**Union Cloud**](https://www.union.ai) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A managed enterprise platform powered by Flyte, designed to orchestrate complex machine learning and data engineering workloads. It delivers serverless operational abstraction, dynamic scaling, robust isolation structures, and unified lineage tracing across multi-cloud environments.
+  - **(2024)** [**Union Cloud**](https://www.union.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A managed enterprise platform powered by Flyte, designed to orchestrate complex machine learning and data engineering workloads. It delivers serverless operational abstraction, dynamic scaling, robust isolation structures, and unified lineage tracing across multi-cloud environments.
 ### Google Cloud
 
 #### Data Analytics
@@ -86,7 +87,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Enterprise Platforms
 
-  - **(2021)** [**redhat.com: Introducing Red Hat OpenShift Data Science**](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical introduction of Red Hat OpenShift Data Science (RHODS), a managed hybrid-cloud service leveraging OpenShift Kubernetes. Details out-of-the-box configurations for JupyterHub, PyTorch, TensorFlow, and partner tools like Starburst or Anaconda to simplify operational enterprise scaling.
+  - **(2021)** [**redhat.com: Introducing Red Hat OpenShift Data Science**](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical introduction of Red Hat OpenShift Data Science (RHODS), a managed hybrid-cloud service leveraging OpenShift Kubernetes. Details out-of-the-box configurations for JupyterHub, PyTorch, TensorFlow, and partner tools like Starburst or Anaconda to simplify operational enterprise scaling.
 ## Data Engineering
 
 ### Data Labeling
@@ -98,7 +99,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### CICD (1)
 
-  - **(2022)** [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphore.io/blog/devops-ml-data) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues for the rigorous application of DevOps fundamentals to machine learning training data. Discusses concepts such as immutable data pipelines, data-drift unit testing, semantic versioning of large binary stores, and continuous integration validation applied specifically to high-volume datasets.
+  - **(2022)** [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphore.io/blog/devops-ml-data) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues for the rigorous application of DevOps fundamentals to machine learning training data. Discusses concepts such as immutable data pipelines, data-drift unit testing, semantic versioning of large binary stores, and continuous integration validation applied specifically to high-volume datasets.
 ### Learning Roadmap
 
 #### Machine Learning
@@ -125,21 +126,22 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Medical Imaging
 
-  - **(2024)** [isic-archive.com](https://www.isic-archive.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The International Skin Imaging Collaboration (ISIC) hosts the world's largest open clinical image archive for dermatological AI research. This platform is a critical resource for clinical validation, transfer learning, and training diagnostic computer vision architectures.
+  - **(2024)** [isic-archive.com](https://www.isic-archive.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The International Skin Imaging Collaboration (ISIC) hosts the world's largest open clinical image archive for dermatological AI research. This platform is a critical resource for clinical validation, transfer learning, and training diagnostic computer vision architectures.
 #### Regression Analysis
 
-  - **(2023)** [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multivariate tabular dataset cataloging sports car configurations alongside retail pricing. Ideal for baseline testing of regression models, feature encoding exercises, and setting up clean tabular learning pipelines.
+  - **(2023)** [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A multivariate tabular dataset cataloging sports car configurations alongside retail pricing. Ideal for baseline testing of regression models, feature encoding exercises, and setting up clean tabular learning pipelines.
 ### Developer Tooling
 
 #### Python Ecosystem
 
   - **(2023)** [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical article highlighting the top Python tools and libraries that modern data scientists use to build and optimize their models. It evaluates features across libraries focused on performance, profiling, testing, and memory usage.
+  - **(2026)** [Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning](https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?gi=783a201a0e41&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning covering Data Science in MLOps (netflixtechblog.com).
 ## Data Version Control
 
 ### Developer Tooling (1)
 
   - **(2024)** [**DVC**](https://marketplace.visualstudio.com/items?itemName=Iterative.dvc) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The VS Code extension for Data Version Control (DVC) enables developers to view experiments, visual graphs, and dataset versions natively from their editor. By simplifying visual pipelines, it streamlines collaborative feature engineering and reproducible experimentation.
-  - **(2023)** [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video walk-through and documentation highlighting DVC-based model experimentation processes in VS Code. Shows how database tracking and Git-based data configuration workflows are visualised, resolving typical data-drift tracking issues.
+  - **(2023)** [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video walk-through and documentation highlighting DVC-based model experimentation processes in VS Code. Shows how database tracking and Git-based data configuration workflows are visualised, resolving typical data-drift tracking issues.
 ## Deployment
 
 ### Kubernetes Orchestration
@@ -162,13 +164,16 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 ### Visualization
 
   - **(2024)** [**github.com/aimhubio/aim**](https://github.com/aimhubio/aim) <span class='md-tag md-tag--info'>⭐ 6154</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6cae91fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 9 L 30 3 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-6cae91fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Aim is an open-source, highly responsive experiment tracking and visualization dashboard for machine learning. It provides a robust query language and a user-friendly UI to compare thousands of metrics, hyperparameters, and logs across deep learning runs.
+## Flyte
+
+  - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"? covering Flyte in MLOps (stackoverflow.com).
 ## Generative AI (1)
 
 ### Distributed Systems (1)
 
 #### Case Studies
 
-  - **(2023)** [**youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform**](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical presentation on scaling Large Language Model (LLM) fine-tuning pipelines using Airbnb's state-of-the-art ML platform. Deep dives into high-performance distributed training clusters, dynamic resource balancing, and optimizations implemented to overcome GPU memory scaling bottlenecks.
+  - **(2023)** [**youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform**](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical presentation on scaling Large Language Model (LLM) fine-tuning pipelines using Airbnb's state-of-the-art ML platform. Deep dives into high-performance distributed training clusters, dynamic resource balancing, and optimizations implemented to overcome GPU memory scaling bottlenecks.
 ### LLM Ops
 
 #### AWS (1)
@@ -176,15 +181,15 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2023)** [**towardsdatascience.com: Deploying LLM Apps to AWS, the Open-Source Self-Service Way**](https://towardsdatascience.com/deploying-llm-apps-to-aws-the-open-source-self-service-way-c54b8667d829) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Presents a self-service architectural framework for deploying LLM microservices to AWS with open-source infrastructure-as-code tools. Outlines the provisioning of specialized GPU-backed instances, serverless scaling mechanics, and custom embedding cache deployments to balance performance with operating costs.
 #### Self-assessment
 
-  - **(2023)** [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured self-assessment covering core concepts of Transformer architectures, attention layers, tokenization mechanisms, and transfer learning fundamentals. Designed to benchmark engineering comprehension of large language model internal mechanics.
+  - **(2023)** [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured self-assessment covering core concepts of Transformer architectures, attention layers, tokenization mechanisms, and transfer learning fundamentals. Designed to benchmark engineering comprehension of large language model internal mechanics.
 #### System Design (1)
 
-  - **(2023)** [==huyenchip.com: Building LLM applications for production==](https://huyenchip.com/2023/04/11/llm-engineering.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A seminal, highly-cited framework for deploying Large Language Model applications in production environments. Addresses technical hurdles such as context window management, prompting reliability, latency optimization, cost-efficiency trade-offs, and structural output sanitization. Essential reading for modern generative AI architects.
+  - **(2023)** [==huyenchip.com: Building LLM applications for production==](https://huyenchip.com/2023/04/11/llm-engineering.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A seminal, highly-cited framework for deploying Large Language Model applications in production environments. Addresses technical hurdles such as context window management, prompting reliability, latency optimization, cost-efficiency trade-offs, and structural output sanitization. Essential reading for modern generative AI architects.
 ## Governance
 
 ### Maturity Models
 
-  - **(2022)** [**learn.microsoft.com: Machine Learning operations maturity model 🌟**](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Detail-rich architectural framework defining the five levels of MLOps organizational maturity. Translates nebulous operational tasks into concrete capabilities encompassing model versioning, automated deployments, feature stores, drift alerts, and cross-functional continuous feedback loops.
+  - **(2022)** [**learn.microsoft.com: Machine Learning operations maturity model 🌟**](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Detail-rich architectural framework defining the five levels of MLOps organizational maturity. Translates nebulous operational tasks into concrete capabilities encompassing model versioning, automated deployments, feature stores, drift alerts, and cross-functional continuous feedback loops.
 ## Infrastructure
 
 ### Container Runtimes
@@ -201,13 +206,19 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Kubernetes Setup
 
-  - **(2023)** [jimangel.io: A Practical Guide to Running NVIDIA GPUs on Kubernetes](https://www.jimangel.io/posts/nvidia-rtx-gpu-kubernetes-setup) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on, practical engineering guide details running native NVIDIA RTX graphics units within a custom-built Kubernetes cluster. It walks through low-level container runtime configurations, containerd settings, and the validation steps required for robust resource scheduling.
+  - **(2023)** [jimangel.io: A Practical Guide to Running NVIDIA GPUs on Kubernetes](https://www.jimangel.io/posts/nvidia-rtx-gpu-kubernetes-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on, practical engineering guide details running native NVIDIA RTX graphics units within a custom-built Kubernetes cluster. It walks through low-level container runtime configurations, containerd settings, and the validation steps required for robust resource scheduling.
 #### Nix Package Manager
 
   - **(2023)** [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix) <span class='md-tag md-tag--warning'>[NIX CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth engineering review from Canva detailing their architectural transition to using Nix for managing complex, GPU-accelerated machine learning workloads inside Kubernetes. It addresses the limits of typical container images by relying on Nix to guarantee deterministic and highly reproducible C-library and CUDA dependencies.
 #### Resource Allocation
 
   - **(2024)** [huggingface.co: Implementing Fractional GPUs in Kubernetes with Aliyun Scheduler](https://huggingface.co/blog/NileshInfer/implementing-fractional-gpus-in-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into fractional GPU scheduling policies on Kubernetes using the open-source Aliyun Scheduler. It showcases strategies for maximizing resource utility and lowering infrastructure bills by sharing single physical hardware resources across smaller model-serving pods.
+## Introduction. Mlops
+
+  - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cd.foundation: Announcing the CD Foundation MLOps SIG covering Introduction. MLOps in MLOps (cd.foundation).
+## Kubeflow
+
+  - [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32?gi=0d9f947f4fa3) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Kubeflow Cloud Deployment (AWS) covering Kubeflow in MLOps (blog.devgenius.io).
 ## Kubernetes
 
 ### Architectural Patterns
@@ -219,10 +230,10 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 ### Deployment Guides
 
   - **(2023)** [dev.to/pavanbelagatti: Deploy Any AI/ML Application On Kubernetes: A Step-by-Step Guide!](https://dev.to/pavanbelagatti/deploy-any-aiml-application-on-kubernetes-a-step-by-step-guide-2i37) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on guide showing how to package, deploy, and scale diverse machine learning applications using Kubernetes manifests. Focuses on establishing proper ingress routing, service definitions, CPU/GPU resource constraints, and continuous monitoring sidecars within a native cluster environment.
-### Kubeflow
+### Kubeflow (1)
 
   - **(2026)** [==kubeflow==](https://www.kubeflow.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubeflow is the leading cloud-native open-source MLOps suite designed to construct, deploy, and run modular machine learning workflows on Kubernetes clusters. Provides a comprehensive platform for managing Jupyter notebooks, workflow pipelines, and highly optimized inference deployments.
-  - **(2021)** [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the practical orchestration of complex ML workflows using Kubeflow pipelines on Kubernetes. Outlines the underlying architecture, components (e.g., pipelines, notebook servers, metadata), and strategic advantages over non-containerized distributed ML setups.
+  - **(2021)** [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the practical orchestration of complex ML workflows using Kubeflow pipelines on Kubernetes. Outlines the underlying architecture, components (e.g., pipelines, notebook servers, metadata), and strategic advantages over non-containerized distributed ML setups.
 ## Learning Roadmap (1)
 
 ### Courses
@@ -230,14 +241,18 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2023)** [**freecodecamp.org: MLOps Course – Learn to Build Machine Learning Production Grade Projects**](https://www.freecodecamp.org/news/mlops-course-learn-to-build-machine-learning-production-grade-projects) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A complete, production-grade syllabus designed to guide engineers through model training, automated deployment strategies, CI/CD, and system monitoring. Emphasizes building production-ready architectures with clear structural boundaries rather than pure algorithmic modeling.
 ### Curated Reference
 
-  - **(2024)** [==roadmap.sh: MLOps roadmap==](https://roadmap.sh/r?id=65a112f2b8633950ffcf38b6) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive, structured roadmap detailing the precise skills, methodologies, and technologies required to master modern MLOps. Covers foundational software engineering, distributed system design, data pipelines, model orchestration, and telemetry architectures.
+  - **(2024)** [==roadmap.sh: MLOps roadmap==](https://roadmap.sh/r?id=65a112f2b8633950ffcf38b6) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive, structured roadmap detailing the precise skills, methodologies, and technologies required to master modern MLOps. Covers foundational software engineering, distributed system design, data pipelines, model orchestration, and telemetry architectures.
+## ML Infra
+
+  - **(2026)** [GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model](https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model covering ML Infra in MLOps (engineering.fb.com).
+  - **(2026)** [Meta's AI Storage Blueprint at Scale](https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Meta's AI Storage Blueprint at Scale covering ML Infra in MLOps (engineering.fb.com).
 ## Machine Learning (1)
 
 ### Competitions
 
 #### Datasets (1)
 
-  - **(2024)** [==Kaggle Competitions==](https://www.kaggle.com/competitions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Kaggle stands as the premier community catalog and competition hub for data science. It enables engineers to extract real-world datasets, benchmark their model configurations, and leverage managed GPU runtimes for experimental validation.
+  - **(2024)** [==Kaggle Competitions==](https://www.kaggle.com/competitions) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Kaggle stands as the premier community catalog and competition hub for data science. It enables engineers to extract real-world datasets, benchmark their model configurations, and leverage managed GPU runtimes for experimental validation.
 ### Computer Vision
 
 #### Instance Segmentation
@@ -287,10 +302,13 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Model Pipelines
 
-  - **(2021)** [cortex.dev: How to build a pipeline to retrain and deploy models](https://www.cortex.dev/post/how-to-build-a-pipeline-to-retrain-and-deploy-models) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Outlines pipeline architectures to automate ML model retraining and deployment. Since the underlying Cortex project has been archived, it is preserved here primarily for historical MLOps framework reference.
+  - **(2021)** [cortex.dev: How to build a pipeline to retrain and deploy models](https://www.cortex.dev/post/how-to-build-a-pipeline-to-retrain-and-deploy-models) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Outlines pipeline architectures to automate ML model retraining and deployment. Since the underlying Cortex project has been archived, it is preserved here primarily for historical MLOps framework reference.
 ## Machine Learning  AI Infrastructure  High-throughput Recommendation Retrieval
 
   - **(2026)** [**SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems**](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Meta's SilverTorch architecture redefines recommendation engines by consolidating vector retrieval, filtering, and scoring into a unified, GPU-optimized PyTorch model. Historically, recommendation pipelines relied on disparate microservices that suffered from communication latency and inconsistent feature evaluation. SilverTorch bypasses this by utilizing high-performance layers like GPU Bloom indexes and fused Int8 Approximate Nearest Neighbor (ANN) search inside the model graph, delivering a 23.7x throughput increase and a 20.9x TCO improvement at an 80-million-item scale.
+## Machine Learning Workloads In Kubernetes Using Nix And NVIDIA. Running NVIDIA Gpus On Kubernetes
+
+  - [==catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart 🌟🌟🌟==](https://catalog.ngc.nvidia.com/orgs/nvidia/-/helm-charts/gpu-operator/-?_lr=1) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart 🌟🌟🌟 covering Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes in MLOps (catalog.ngc.nvidia.com).
 ## Medical Imaging (2)
 
 ### End-to-end Pipeline
@@ -303,7 +321,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2021)** [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walks through a complete MLOps workflow deploying a sentiment classifier. Synthesizes MLflow for parameter and metric tracking, AWS SageMaker for hosting scalable compute environments, and Streamlit for rapid front-end application prototyping. Highlights the synergy of multi-cloud and hybrid-SaaS tooling.
 ### Enterprise Patterns
 
-  - **(2022)** [**Machine Learning in Production. What does an end-to-end ML workflow look like in production? (transcript) 🌟🌟🌟**](https://www.union.ai/blog-post/machine-learning-in-production) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A granular transcript and architectural review of an end-to-end production ML pipeline workflow. Identifies key infrastructure challenges such as reliable data ingestion, continuous model validation, distributed caching, and metadata lineage tracking.
+  - **(2022)** [**Machine Learning in Production. What does an end-to-end ML workflow look like in production? (transcript) 🌟🌟🌟**](https://www.union.ai/blog-post/machine-learning-in-production) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A granular transcript and architectural review of an end-to-end production ML pipeline workflow. Identifies key infrastructure challenges such as reliable data ingestion, continuous model validation, distributed caching, and metadata lineage tracking.
 ## Model Serving (1)
 
 ### API Development
@@ -316,7 +334,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Infrastructure Selection
 
-  - **(2024)** [**axelmendoza.com: The Ultimate Guide To ML Model Deployment In 2024**](https://www.axelmendoza.com/posts/ml-model-deployment) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comprehensive blueprint detailing contemporary paradigms of ML serving, contrasting serverless, dedicated clusters (like K8s), and edge processing. Helps infrastructure architects navigate hardware acceleration, pipeline containerization, security policies, and real-time observability structures.
+  - **(2024)** [**axelmendoza.com: The Ultimate Guide To ML Model Deployment In 2024**](https://www.axelmendoza.com/posts/ml-model-deployment) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comprehensive blueprint detailing contemporary paradigms of ML serving, contrasting serverless, dedicated clusters (like K8s), and edge processing. Helps infrastructure architects navigate hardware acceleration, pipeline containerization, security policies, and real-time observability structures.
 ### Kubernetes (1)
 
 #### Kserve
@@ -335,23 +353,26 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2023)** [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official PyPI integration package bridging Apache Airflow workflows and MLflow experiment runs. Provides customized operators and hooks to dynamically log metrics, register models, and fetch operational parameters inside enterprise scheduled orchestration DAGs.
 ### Comparative Analysis
 
-  - **(2023)** [**union.ai: Production-Grade ML Pipelines: Flyte™ vs. Kubeflow**](https://www.union.ai/blog-post/production-grade-ml-pipelines-flyte-vs-kubeflow) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A direct, architecture-focused comparison between Flyte and Kubeflow for building enterprise-grade pipelines. Evaluates core architectural differences, trade-offs in structural state management, ease of local development, compile-time type validation, and deployment complexity on Kubernetes.
-### Flyte
+  - **(2023)** [**union.ai: Production-Grade ML Pipelines: Flyte™ vs. Kubeflow**](https://www.union.ai/blog-post/production-grade-ml-pipelines-flyte-vs-kubeflow) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A direct, architecture-focused comparison between Flyte and Kubeflow for building enterprise-grade pipelines. Evaluates core architectural differences, trade-offs in structural state management, ease of local development, compile-time type validation, and deployment complexity on Kubernetes.
+### Flyte (1)
 
-  - **(2022)** [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/blog/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deeply discusses how Flyte unifies software engineering workflows with rigorous data science experiments. Emphasizes strict typing, local mock testing, deterministic execution environments, and dynamic workflow generation as essential mechanisms for building resilient production-level AI systems.
-  - **(2022)** [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/blog/flyte-mlops-simplified) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights Flyte's capability to isolate infrastructure concerns from data science domains via clean abstract interfaces. Discusses how Flyte's structural containerized execution guarantees clean, versioned deployments without requiring data scientists to directly configure complex Kubernetes parameters.
+  - **(2022)** [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/blog/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deeply discusses how Flyte unifies software engineering workflows with rigorous data science experiments. Emphasizes strict typing, local mock testing, deterministic execution environments, and dynamic workflow generation as essential mechanisms for building resilient production-level AI systems.
+  - **(2022)** [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/blog/flyte-mlops-simplified) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights Flyte's capability to isolate infrastructure concerns from data science domains via clean abstract interfaces. Discusses how Flyte's structural containerized execution guarantees clean, versioned deployments without requiring data scientists to directly configure complex Kubernetes parameters.
 ### Frameworks
 
   - **(2024)** [**zenml.io: ZenML**](https://www.zenml.io) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — ZenML is an extensible MLOps pipeline framework designed to decouple data engineering and machine learning workflows from physical target infrastructure. It integrates with major cloud stacks and allows reproducible local executions to scale to production environments effortlessly.
 ### Workflows
 
   - **(2024)** [==github.com/Netflix/metaflow 🌟==](https://github.com/Netflix/metaflow) <span class='md-tag md-tag--info'>⭐ 10128</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-30434223" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 10 L 30 13 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-30434223)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Metaflow is Netflix's human-centric framework designed for building and managing production-grade data science pipelines. It seamlessly integrates local development with enterprise-scale cloud infrastructures, handling data caching, model versioning, and compute scaling automatically.
+## Other Tools
+
+  - [blog.devgenius.io: Training model with Jenkins using docker: MLOPS](https://blog.devgenius.io/training-model-with-jenkins-using-docker-mlops-b18579ddb677?gi=8bff000e0f9c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Training model with Jenkins using docker: MLOPS covering Other Tools in MLOps (blog.devgenius.io).
 ## Workflow Transition
 
 ### Best Practices
 
   - **(2021)** [towardsdatascience.com: From Jupyter Notebooks to Real-life: MLOps 🌟](https://towardsdatascience.com/from-jupyter-notebooks-to-real-life-mlops-9f590a7b5faa) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the operational chasm between exploratory research in Jupyter notebooks and reliable, production-grade model deployments. Outlines a structured strategy for code modularization, environmental reproducibility, continuous monitoring, and automated retraining architectures.
-  - **(2021)** [analyticsvidhya.com: Bring DevOps To Data Science With MLOps](https://www.analyticsvidhya.com/blog/2021/04/bring-devops-to-data-science-with-continuous-mlops) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the application of classic software engineering DevOps disciplines—such as unit testing, infrastructure-as-code, and active monitoring—to machine learning life cycles. Outlines strategies to dismantle structural friction between software engineering teams and research labs.
+  - **(2021)** [analyticsvidhya.com: Bring DevOps To Data Science With MLOps](https://www.analyticsvidhya.com/blog/2021/04/bring-devops-to-data-science-with-continuous-mlops) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the application of classic software engineering DevOps disciplines—such as unit testing, infrastructure-as-code, and active monitoring—to machine learning life cycles. Outlines strategies to dismantle structural friction between software engineering teams and research labs.
 ## Workshops
 
 ### Infrastructure (1)
@@ -359,7 +380,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2022)** [**ML Platform Workshop**](https://github.com/aporia-ai/mlplatform-workshop) <span class='md-tag md-tag--info'>⭐ 445</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a3327ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 13 L 30 12 L 40 11 L 50 3" fill="none" stroke="url(#spark-grad-8a3327ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A hands-on technical workshop repository showcasing the design of an end-to-end Machine Learning Platform. Demonstrates real-world integration of model registries, tracking servers, and deployment mechanisms under production-like conditions. Excellent educational resource for learning the architectural glue of modern MLOps frameworks.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

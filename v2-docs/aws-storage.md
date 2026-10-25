@@ -9,6 +9,14 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
 !!! info "Architectural Context"
     Detailed reference for AWS Storage. S3 and EBS. AWS Storage Gateway in the context of Cloud Providers (Hyperscalers).
 
+## Amazon EBS
+
+  - **(2026)** [Introducing Amazon EBS Volume Clones across AWS accounts](https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing Amazon EBS Volume Clones across AWS accounts covering Amazon EBS in AWS Storage (aws.amazon.com).
+## Amazon S3
+
+  - **(2026)** [Amazon S3 annotations: attach rich, queryable context directly to your objects](https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon S3 annotations: attach rich, queryable context directly to your objects covering Amazon S3 in AWS Storage (aws.amazon.com).
+  - **(2026)** [Amazon S3 Tables now support all Apache Iceberg V3 data types](https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon S3 Tables now support all Apache Iceberg V3 data types covering Amazon S3 in AWS Storage (aws.amazon.com).
+  - **(2026)** [Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches](https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches covering Amazon S3 in AWS Storage (aws.amazon.com).
 ## Cloud Infrastructure
 
 ### Compute
@@ -92,9 +100,19 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
 #### S3 Security
 
   - **(2023)** [blog.min.io: Certificate-based Authentication for S3](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — MinIO's security engineering guide detailing dynamic certificate-based authentication protocols (mTLS) over S3-compatible APIs. In 2026, MinIO remains the preferred choice for running high-performance private cloud object storage securely without relying on IAM SaaS solutions.
+## Cloud Platform
+
+### AWS Infrastructure
+
+#### Storage Management
+
+  - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
+## Introduction
+
+  - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483?gi=235aba4fa637) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — When you have a front-end application and need to upload files to an S3 bucket securely and keep your bucket private, you can use API Gateway to post your files to S3. If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3.we will not use Lambda.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -1,12 +1,15 @@
+---
+description: "Curated, AI-ranked Chef resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Chef
 
 !!! tip "Nubenetes V2 Elite Portal"
     You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/chef/).
 
 !!! info "Architectural Context"
-    Detailed reference for Chef in the context of Hardened Infrastructure.
+    Detailed reference for Chef in the context of Architectural Foundations.
 
-## Infrastructure as Code
+## Infrastructure As Code
 
 ### Configuration Management
 
@@ -18,5 +21,7 @@
   - **(2024)** [learn.chef.io](https://www.chef.io/training/tutorials) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official learning platform for Chef. Features deep-dive, code-driven tutorials explaining how to programmatically manage enterprise nodes and infrastructure configurations across hybrid cloud environments.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md)
+
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

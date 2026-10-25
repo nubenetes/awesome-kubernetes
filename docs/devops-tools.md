@@ -27,7 +27,6 @@
 - [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)
 - [raygun.com: The 10 best DevOps tools for 2020](https://raygun.com/blog/best-devops-tools)
 - [hackr.io: Top 10 DevOps Tools To Look For in 2020](https://hackr.io/blog/top-devops-tools)
-- [victorops.com: 20 Top DevOps Tools for 2020](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html)
 - [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools)
 - [geekflare.com: devops-tools](https://geekflare.com/devops/config-management-tools)
 - [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools)
@@ -72,7 +71,6 @@
 
 ## Codegiant
 
-- [codegiant.io: Build software faster](https://codegiant.io) Codegiant is a DevSecOps platform with built-in best practices that enables your team to deliver faster.
 
 ## CapabilityPE (capipe)
 

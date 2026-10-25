@@ -1,5 +1,5 @@
 ---
-description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, None and more — curated Cloud Native tools, guides and references."
+description: "Top OCP 3 resources for 2026, AI-ranked: Gradle Cheat Sheets, **KubeFed Operator** and more — curated Cloud Native tools, guides and references."
 ---
 # OCP 3
 
@@ -11,6 +11,11 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
 
 ## App Development
 
+### Frontend
+
+#### Continuous Delivery
+
+  - **(2019)** [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details clean patterns for deploying Angular-based web applications on OpenShift. Demonstrates injecting environment variables at container start time instead of packaging distinct, static bundles for each target environment.
 ### Packaging
 
 #### Helm Charts
@@ -19,13 +24,11 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2019)** [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟](https://www.theodo.com/en-fr/blog/openshift-what-templates-should-you-use-helm-or-openshift) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comparative analysis contrasting OpenShift native templates with Helm charts. Outlines how Helm's global community, revision tracking, and subchart structures provide a superior template solution for complex microservice environments.
 ## Architectural Foundations
 
-### Kubernetes Tools
+### Monitoring
 
-#### General Reference
+#### Thread Dumps. Debugging Java Applications
 
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/using-openshift-3-on-your-local-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - **(None)** [](https://www.redhat.com/en/blog/how-full-is-my-cluster-part-5-a-capacity-management-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 8 Options for Capturing Thread Dumps covering Thread Dumps. Debugging Java Applications in Monitoring (dzone.com).
 ## CICD
 
 ### Gitops
@@ -36,6 +39,16 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
 #### Openshift
 
   - **(2020)** [**blog.openshift.com/: Introduction to GitOps with OpenShift**](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight defines the OpenShift declarative application delivery model. Live Grounding details the Red Hat OpenShift GitOps operator powered by Argo CD. This is the official blueprint for establishing structured continuous integration on Red Hat environments.
+## Capacity Management
+
+  - [blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard](https://www.redhat.com/en/blog/how-full-is-my-cluster-part-5-a-capacity-management-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard covering Capacity Management in OCP 3 (redhat.com).
+## Devsecops and Registry
+
+### Java Tools
+
+#### Gradle Reference
+
+  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
 ## Kubernetes Cluster Operations
 
 ### Autoscaling
@@ -56,6 +69,13 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2019)** [blog.openshift.com/full-cluster-capacity-management-monitoring-openshift](https://www.redhat.com/en/blog/full-cluster-capacity-management-monitoring-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight initiates a series on OpenShift capacity planning. Live Grounding details Prometheus and Grafana alerts, memory saturation metrics, and CPU scheduling limits. Essential for cluster administrators managing highly dense node resources.
   - **(2019)** [blog.openshift.com/full-cluster-part-2-protecting-nodes](https://www.redhat.com/en/blog/full-cluster-part-2-protecting-nodes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on securing host resources from rogue applications. Live Grounding details eviction thresholds, pod limits, and system-reserved configuration paths inside OpenShift clusters. Vital for maintaining node reliability.
   - **(2019)** [full-cluster-part-3-capacity-management](https://www.redhat.com/en/blog/full-cluster-part-3-capacity-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews multi-tenant resource optimization. Live Grounding analyzes quotas, LimitRanges, and tenant isolation layers in enterprise workloads. Highly effective for designing multi-team cluster footprints.
+## Observability
+
+### Application Monitoring
+
+#### Java JMX
+
+  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 ## Platform Architecture
 
 ### Administration
@@ -75,25 +95,27 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
 
 #### Kubernetes Pods
 
-  - **(2018)** [blog.openshift.com/ - Kubernetes: A Pod’s Life 🌟](https://www.redhat.com/en/blog/kubernetes-pods-life) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental exploration of the life cycle of a Kubernetes Pod. Outlines start sequences, init container routines, readiness/liveness checks, and termination processes, establishing a baseline for container orchestration troubleshooting.
+  - **(2018)** [blog.openshift.com/ - Kubernetes: A Pod’s Life 🌟](https://www.redhat.com/en/blog/kubernetes-pods-life)  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental exploration of the life cycle of a Kubernetes Pod. Outlines start sequences, init container routines, readiness/liveness checks, and termination processes, establishing a baseline for container orchestration troubleshooting.
+### Gitops (1)
+
+#### Modern Pipelines
+
+  - **(2020)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces robust continuous delivery architectures utilizing Tekton for image construction and Argo CD for GitOps-based state syncs. Serves as the primary operational blueprint for enterprise microservice platforms in 2026.
 ### High Availability
 
 #### Disaster Recovery
 
-  - **(2019)** [blog.openshift.com/: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the persistence challenges associated with stateful microservices running across multi-site cluster architectures. Evaluates split-brain hazards and suggests synchronous storage configurations to guarantee data integrity.
+  - **(2019)** [blog.openshift.com/: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the persistence challenges associated with stateful microservices running across multi-site cluster architectures. Evaluates split-brain hazards and suggests synchronous storage configurations to guarantee data integrity.
 #### Stretch Clusters
 
-  - **(2019)** [blog.openshift.com/: How to survive an outage and live to tell about it!](https://www.redhat.com/en/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the design of Metro-Area stretch clusters on OpenShift, ensuring high availability in case of datacenter outages. Discusses network transit criteria, ETCD consensus configurations, and storage replications.
+  - **(2019)** [blog.openshift.com/: How to survive an outage and live to tell about it!](https://www.redhat.com/en/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the design of Metro-Area stretch clusters on OpenShift, ensuring high availability in case of datacenter outages. Discusses network transit criteria, ETCD consensus configurations, and storage replications.
 ### Infrastructure
 
 #### Comparisons
 
-  - **(2020)** [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes key platform differences between Google Cloud App Engine and OpenShift. Compares scaling, cluster management boundaries, provider dependencies, and operational flexibility when deploying enterprise workloads.
+  - **(2020)** [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes key platform differences between Google Cloud App Engine and OpenShift. Compares scaling, cluster management boundaries, provider dependencies, and operational flexibility when deploying enterprise workloads.
 ### Multicluster
 
-#### Disaster Recovery (1)
-
-  - **(2021)** [blog.openshift.com/tag/multi-datacenter](https://www.redhat.com/en/blog?f[0]=taxonomy_blog_post_category_tid:107161&f[1]=taxonomy_topic_tid:75521) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A thematic curation of architectural entries covering multi-cluster synchronization, active-active topologies, global service routing, and deployment configurations utilizing Advanced Cluster Management.
 #### Kubernetes Federation
 
   - **(2021)** [**KubeFed Operator**](https://operatorhub.io/operator/kubefed-operator) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The Kubernetes Federation (KubeFed) Operator designed to coordinate configurations across multiple distinct clusters. In 2026, KubeFed has been largely archived, superseded by Red Hat Advanced Cluster Management (RHACM) and Open Cluster Management (OCM).
@@ -104,13 +126,22 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2020)** [developers.redhat.com: Testing memory-based horizontal pod autoscaling on OpenShift 🌟](https://developers.redhat.com/blog/2020/03/19/testing-memory-based-horizontal-pod-autoscaling-on-openshift) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A diagnostic tutorial explaining how to design, execute, and inspect Horizontal Pod Autoscaler scaling metrics based on container RAM thresholds. Includes guidelines for generating stable test scenarios.
 #### Governance
 
-  - **(2020)** [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An informative session demonstrating effective scheduling, configuration, and governing mechanics of OpenShift 4 resources. Highlights the use of LimitRanges, ResourceQuotas, and Node selectors.
+  - **(2020)** [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An informative session demonstrating effective scheduling, configuration, and governing mechanics of OpenShift 4 resources. Highlights the use of LimitRanges, ResourceQuotas, and Node selectors.
   - **(2019)** [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides step-by-step guidance on managing project resource limits inside OpenShift namespaces. Explores configuring quotas via the oc CLI to enforce hard boundaries on CPU, RAM, and storage allocations.
 ### Resources
 
 #### Learning Paths
 
-  - **(2019)** [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational index detailing free courses, interactive sandbox playgrounds, and study materials for professionals pursuing official Red Hat OpenShift certifications.
+  - **(2019)** [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational index detailing free courses, interactive sandbox playgrounds, and study materials for professionals pursuing official Red Hat OpenShift certifications.
+## Platform Engineering
+
+### Gitops (2)
+
+#### Authentication and SSO
+
+##### Openshift (2)
+
+  - **(2022)** [**openshift.com: OpenShift Authentication Integration with ArgoCD**](https://www.redhat.com/en/blog/openshift-authentication-integration-with-argocd) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the integration of OpenShift's native OAuth server with ArgoCD. Explains how to map OpenShift user groups to ArgoCD RBAC roles, establishing a secure, unified single sign-on (SSO) experience for enterprise platforms.
 ## Security
 
 ### Encryption
@@ -120,7 +151,7 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2018)** [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineers through configuring ASP.NET Core microservices with end-to-end TLS encryption on OpenShift. Discusses dynamic integration of local server certificates using OpenShift's service serving certificates feature.
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

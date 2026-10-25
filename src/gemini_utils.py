@@ -6,7 +6,7 @@ import re
 import os
 import time
 from datetime import datetime
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from src.config import GEMINI_API_KEYS, GEMINI_API_VERSION, GEMINI_API_KEYS_DATA
 from src.logger import log_event
@@ -248,11 +248,134 @@ def sanitize_trailing_slashes(url: str) -> str:
     """
     Mandate 34: Enforces a ZERO trailing slash policy.
     Removes ALL trailing slashes and question marks from the end of the URL.
-    Does NOT collapse slashes in the middle of the URL (to avoid breaking protocol or deep links).
+    Also repairs malformed protocol prefixes (e.g. 'ttps://', 'https:/https://')
+    and duplicated locale path segments (e.g. '/en-us/en-us/').
     """
-    if not url or '://' not in url: return url
+    if not url: return url
+    url = url.strip()
+    # Repair malformed protocol prefixes
+    url = re.sub(r'^https?:/+(?=https?://)', '', url, flags=re.IGNORECASE)
+    if url.lower().startswith('ttps://'):
+        url = 'h' + url
+    elif url.lower().startswith('ttp://'):
+        url = 'h' + url
+    url = re.sub(r'^(https?):/+([^/])', r'\1://\2', url, flags=re.IGNORECASE)
+    if '://' not in url: return url
+    # Collapse duplicated locale path segments (e.g. /en-us/en-us/ or /en-us/en-gb/)
+    url = re.sub(r'/(en-us|en-gb)/(?:en-us|en-gb)(/|$)', r'/\1\2', url, flags=re.IGNORECASE)
     # Remove all trailing slashes and question marks from the end of the entire string
     return url.rstrip('/').rstrip('?')
+
+
+# Patterns in redirect target URLs that indicate a soft-404, login wall, or parked/spam redirect
+INVALID_REDIRECT_SUBSTRINGS = (
+    "article_not_found",
+    "page-removed",
+    "page-not-found",
+    "?404=",
+    "showredirectnotfoundbanner=true",
+    "oauth2/v2.0/authorize",
+    "oauth2/authorize",
+    "login.microsoftonline.com",
+    "ciamlogin.com",
+    "id.atlassian.com/login",
+    "accounts.google.com/servicelogin",
+    "platform.qa.com/login",
+    "newsletter.thelongcommit.com/subscribe",
+    "acg-notice.pluralsight.com",
+    "ww-landing-azure-for-architects.html",
+    "ambking1234.limo",
+    "jnetoto808.com",
+    "andara88do.com",
+    "visittheswamp.com",
+    "koterstore.nl",
+    "travelrasik.com",
+    "ww547.coffeeapplied.com",
+    "x1f.one",
+    "yellow-scope.com",
+    "frontdeskchat.com",
+    "uniquedresses.nl",
+)
+
+PARKING_TEXT_INDICATORS = (
+    "buy this domain",
+    "parked free",
+    "domain is for sale",
+    "this domain is for sale",
+    "hugedomains.com",
+    "sedoparking.com",
+    "dan.com",
+    "afternic.com",
+)
+
+GENERIC_REDIRECT_PATH_RE = re.compile(
+    r"^/?(en|en-us|en-gb|es|fr|de|en_us|fr-fr)?/?"
+    r"(blog|blogs|resources|resources/blog|products|product|company/blog|"
+    r"devops|cloud|learn|training|training/browse|community|insights|perspectives|"
+    r"think|index\.html|home|login|subscribe|l/products|what-we-do/entertainment|"
+    r"service/payment-methods|category/asia|idira|cloud-foundation|products/nginx|"
+    r"products/continuous-delivery|products/ai-sre|solutions/observability-for-developers|"
+    r"en/blog/channel/open-source-communities|en/blog/channel/red-hat-ansible-automation|"
+    r"en/technologies/management/ansible|en_us/about-splunk/acquisitions/splunk-on-call\.html|"
+    r"en_us/appdynamics-joins-splunk\.html|observability|cloud-guru|releases|demos|juju|"
+    r"selenium|garage|capabilities/ci-cd-workflows|topic/development|software-development)?/?$",
+    re.IGNORECASE,
+)
+
+
+def is_invalid_or_generic_redirect(original_url: str, final_url: str, response_text: str = "") -> Tuple[bool, str]:
+    """
+    Validates whether a redirect from `original_url` to `final_url` (or `final_url` itself)
+    is a soft-404, login wall, domain-parking/spam page, or a precision-destroying
+    generic homepage/hub redirect.
+    Returns (is_invalid: bool, reason: str).
+    """
+    from urllib.parse import urlparse
+    if not final_url:
+        return True, "empty_url"
+
+    f_lower = final_url.lower()
+    for bad_sub in INVALID_REDIRECT_SUBSTRINGS:
+        if bad_sub in f_lower:
+            return True, f"soft_404_or_login_redirect ({bad_sub})"
+    if re.search(r"(?:^|/)(?:404(?:\.html?|\.php|\.aspx)?)(?:/|$|\?)", urlparse(final_url).path.lower()):
+        return True, "soft_404_or_login_redirect (/404)"
+
+    if response_text:
+        t_lower = response_text[:15000].lower()
+        if any(pk in t_lower for pk in PARKING_TEXT_INDICATORS):
+            return True, "parked_domain"
+
+    p_final = urlparse(final_url)
+    # Reject missing-slash domain corruption like https://blog.openshift.comintroduction-...
+    if re.search(r"\.(com|io|org|net|dev)[a-z0-9]{3,}-", p_final.netloc.lower()):
+        return True, "corrupted_domain_missing_slash"
+
+    if not original_url:
+        return False, "OK"
+
+    u_clean = sanitize_trailing_slashes(original_url)
+    f_clean = sanitize_trailing_slashes(final_url)
+    if u_clean.lower() == f_clean.lower():
+        return False, "OK"
+
+    p_orig = urlparse(u_clean)
+    orig_path = p_orig.path.rstrip("/")
+    final_path = p_final.path.rstrip("/")
+
+    orig_segs = [s for s in orig_path.split("/") if s and s.lower() not in ("en", "en-us", "en-gb", "es", "fr", "de")]
+    final_segs = [s for s in final_path.split("/") if s and s.lower() not in ("en", "en-us", "en-gb", "es", "fr", "de")]
+
+    # If the original URL was a specific deep link (>= 1 meaningful segment) and redirected to a generic root/hub path
+    if len(orig_segs) >= 1:
+        if GENERIC_REDIRECT_PATH_RE.match(final_path):
+            return True, "generic_redirect_loss"
+        if len(orig_segs) >= 2 and len(final_segs) == 0:
+            return True, "generic_redirect_loss"
+        if any(kw in final_path.lower() for kw in ("/training/browse", "/page-removed", "/page-not-found", "/login")):
+            return True, "generic_redirect_loss"
+
+    return False, "OK"
 
 def normalize_url(url: str) -> str:
     """

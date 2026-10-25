@@ -13,7 +13,15 @@ import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
-from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity, fetch_youtube_metadata
+from src.gemini_utils import (
+    call_gemini_with_retry,
+    normalize_url,
+    clean_toc_text,
+    get_github_activity,
+    fetch_youtube_metadata,
+    sanitize_trailing_slashes,
+    is_invalid_or_generic_redirect,
+)
 from src.logger import log_event
 from src.inventory_manager import update_inventory_entry
 from src.awesome_page import build_awesome_lists_header
@@ -264,9 +272,13 @@ class V2VisionEngine:
         log_event("[*] Phase 1: Health Check...")
         if self.render_only:
             # Mandate 19/22: In render-only mode (Fast-Track), we are conservative to avoid pruning valid sections.
-            # We keep links that are explicitly 'online', 'review_required' OR have no status yet.
+            # We keep links that are explicitly 'online', 'review_required' OR have no status yet,
+            # while excluding links known to be dead or matching invalid/hijacked redirect patterns.
             health_inventory = []
             for l in all_v1_links:
+                is_bad_url, _ = is_invalid_or_generic_redirect("", l["url"])
+                if is_bad_url:
+                    continue
                 entry = self.inventory.get(normalize_url(l["url"]), {})
                 status = entry.get("status", "online") # Assume online if unknown for rendering
                 if status in ["online", "review_required"]:
@@ -351,6 +363,11 @@ class V2VisionEngine:
                 if not file.endswith(".md") or file == "index.md": continue
                 path = os.path.join(root, file)
                 with open(path, "r") as f: content = f.read()
+                headings = []
+                for hm in re.finditer(r'^(#{2,4})\s+(.+)$', content, re.MULTILINE):
+                    h_text = clean_toc_text(hm.group(2).strip())
+                    if h_text and h_text.lower() not in ("table of contents", "contents"):
+                        headings.append((hm.start(), h_text))
                 matches = re.finditer(r'^\s*-\s*(?:\*\*\(\d{4}\)\*\*\s+)?\[([^\]]+)\]\(([^\)]+)\)(.*?(?:\n\s{2,}.*)*)', content, re.MULTILINE)
                 for m in matches:
                     title, url, full_desc = m.groups()
@@ -361,7 +378,20 @@ class V2VisionEngine:
                     slug = file.replace(".md", "")
                     if slug in self.merge_map:
                         orig_file = self.merge_map[slug] + ".md"
-                    all_links.append({"title": nuclear_strip(title), "url": url.strip(), "description": full_desc.strip(), "original_file": orig_file})
+                    v1_sec = "General Reference"
+                    m_pos = m.start()
+                    for h_pos, h_name in headings:
+                        if h_pos < m_pos:
+                            v1_sec = h_name
+                        else:
+                            break
+                    all_links.append({
+                        "title": nuclear_strip(title),
+                        "url": sanitize_trailing_slashes(url.strip()),
+                        "description": full_desc.strip(),
+                        "original_file": orig_file,
+                        "v1_section": v1_sec,
+                    })
         return all_links, mosaic_html, videos_html
 
     async def _verify_link_health(self, links: List[Dict]):
@@ -372,8 +402,12 @@ class V2VisionEngine:
         for l in links:
             nu = normalize_url(l["url"])
             entry = self.inventory.get(nu, {})
-            # Mandate 32: skip links under review
-            if entry.get("status") == "review_required": continue
+            # Mandate 32: skip links under review or dead
+            if entry.get("status") in ("review_required", "dead"):
+                continue
+            is_bad_url, _ = is_invalid_or_generic_redirect("", l["url"])
+            if is_bad_url:
+                continue
             
             if not force_full and entry.get("status") == "online":
                 last_checked = entry.get("last_checked", 0)
@@ -408,20 +442,24 @@ class V2VisionEngine:
         norm_url = normalize_url(url)
         entry = self.inventory.get(norm_url, {})
         
-        # Mandate 31: Skip links under review for V2 Elite
-        if entry.get("status") == "review_required":
-            log_event(f"  [-] SKIPPING V2: {url} is under Review.")
+        # Mandate 31: Skip links under review or dead for V2 Elite
+        if entry.get("status") in ("review_required", "dead"):
+            log_event(f"  [-] SKIPPING V2: {url} is {entry.get('status')}.")
             return None
             
-        if entry.get("status") == "online" and os.getenv("FORCE_FULL_CHECK", "false").lower() != "true": return link
+        if entry.get("status") == "online" and os.getenv("FORCE_FULL_CHECK", "false").lower() != "true":
+            return link
         try:
             resp = await client.get(url, timeout=10.0)
             if resp.status_code < 400:
-                final_url = str(resp.url)
-                from src.gemini_utils import sanitize_trailing_slashes
-                final_url = sanitize_trailing_slashes(final_url)
+                final_url = sanitize_trailing_slashes(str(resp.url))
+                is_bad, bad_reason = is_invalid_or_generic_redirect(url, final_url, resp.text or "")
+                if is_bad:
+                    log_event(f"  [-] REJECTING V2 redirect/url {url} -> {final_url} ({bad_reason})")
+                    self.inventory.setdefault(norm_url, {})["status"] = "dead"
+                    return None
                 
-                # Update URL if it was redirected/normalized
+                # Update URL if it was redirected/normalized to a valid specific target
                 if final_url != url:
                     link["url"] = final_url
                 
@@ -483,6 +521,7 @@ class V2VisionEngine:
 
         for l in links:
             item = l.copy()
+            v1_title = nuclear_strip(l.get("title", ""))
             norm_url = normalize_url(l["url"])
             orig_file = l.get("original_file", "unknown.md")
             is_special = orig_file in special_files
@@ -499,6 +538,12 @@ class V2VisionEngine:
             if not force_eval and norm_url in self.inventory:
                 cached = self.inventory[norm_url]
                 item.update(cached)
+                cached_title = nuclear_strip(str(cached.get("title") or ""))
+                if not cached_title and v1_title:
+                    item["title"] = v1_title
+                    cached["title"] = v1_title
+                elif cached_title:
+                    item["title"] = cached_title
                 if is_special: item["is_special"] = True
                 # Mandate 30: Hierarchy and AI Summaries are mandatory for ELITE AI curation.
                 # Optimized Skip Logic: Only skip if we already have BOTH hierarchy and a summary.
@@ -515,6 +560,8 @@ class V2VisionEngine:
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
                     continue
+            if not nuclear_strip(str(item.get("title") or "")) and v1_title:
+                item["title"] = v1_title
             to_evaluate.append(item)
 
         if to_evaluate and (not self.render_only or force_eval):
@@ -871,9 +918,19 @@ class V2VisionEngine:
                 if audit_entry not in self.maturity_audit:
                     self.maturity_audit.append(audit_entry)
                 
-                hierarchy = item.get("hierarchy", [])
+                hierarchy = list(item.get("hierarchy", []))
+                # Repair bogus fast_enrich fallback hierarchy when page is not kubernetes-tools.md
+                if (
+                    orig_file != "kubernetes-tools.md"
+                    and len(hierarchy) >= 2
+                    and hierarchy[1] == "Kubernetes Tools"
+                ):
+                    hierarchy = [dim, v2_structure[orig_file]["title"], item.get("v1_section") or "General Reference"]
+                elif not hierarchy:
+                    hierarchy = [dim, v2_structure[orig_file]["title"], item.get("v1_section") or "General Reference"]
                 # Skip redundant top-level labels
-                if hierarchy and (hierarchy[0] == dim or hierarchy[0] == v2_structure[orig_file]["title"]): hierarchy = hierarchy[1:]
+                while hierarchy and (hierarchy[0] == dim or hierarchy[0] == v2_structure[orig_file]["title"]):
+                    hierarchy = hierarchy[1:]
                 
                 current = v2_structure[orig_file]["content"]
                 cleaned_hierarchy = []
@@ -962,24 +1019,30 @@ class V2VisionEngine:
     async def _render_single_link(self, l: Dict, is_intro: bool) -> str:
         md = ""
         is_gold = is_intro and (l.get("stars") or 0) >= 4
-        title = nuclear_strip(l['title']) 
+        title = nuclear_strip(str(l.get('title') or ''))
+        if not title:
+            url_str = l.get('url', '').strip().rstrip('/')
+            slug_part = url_str.split('/')[-1] if '/' in url_str else url_str
+            slug_part = re.sub(r'\.(html?|md|php|aspx)$', '', slug_part, flags=re.IGNORECASE)
+            title = slug_part.replace('-', ' ').replace('_', ' ').strip().title() or url_str
         if is_gold:
             img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
             md += f"??? note \"{title}\"\n{img}    **[Access Resource]({l['url'].strip()})** {'🌟'*l.get('stars',4)} | Level: {l.get('complexity', 'Beginner')}\n    \n    {l.get('ai_summary', l.get('description', ''))}\n\n"
         else:
-            year = l.get('year', 'N/A')
-            year_prefix = f"**({year})** " if year != 'N/A' else ""
+            year = l.get('year')
+            year_str = str(year).strip() if year is not None else ""
+            year_prefix = f"**({year_str})** " if year_str and year_str.lower() not in ('n/a', 'none', 'null', 'unknown', '') else ""
             gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
             sparkline = ""
             if l.get('gh_stars'):
                 sparkline = " " + self.generate_sparkline_svg(l['url'], l.get('gh_stars', 0))
             
             icon = " 🎥" if l.get("is_video") else ""
-            lang = l.get("language") or "English"
-            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
-            comp = l.get("complexity") or "Intermediate"
+            lang = str(l.get("language") or "English").strip()
+            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() not in ("english", "n/a", "none", "null", "unknown", "") else ""
+            comp = str(l.get("complexity") or "Intermediate").strip()
             level_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
-            res_type = l.get("resource_type") or "Reference"
+            res_type = str(l.get("resource_type") or "Reference").strip()
             type_tag = ""
             if res_type.lower() in ["case study", "guide", "documentation"]:
                 if f"[{res_type.upper()}]" not in l.get("tags", []):
@@ -1012,7 +1075,14 @@ class V2VisionEngine:
             md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{sparkline}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}"
 
             # Layer 2: High-Density Technical Summary (Always Visible Inline)
-            summary = l.get('ai_summary', l.get('description', ''))
+            summary = l.get('ai_summary', l.get('description', '')) or ''
+            if "A curated technical resource and architectural guide covering " in summary:
+                desc_clean = re.sub(r'^[\s\-–—:🌟⭐]+', '', str(l.get('description') or '')).strip()
+                if desc_clean and len(desc_clean) > 10:
+                    summary = desc_clean
+                else:
+                    sec_label = l.get('v1_section') or 'General Reference'
+                    summary = f"Technical documentation and implementation reference for {title} ({sec_label})."
             if summary:
                 # Use a separator and append summary directly to the same line
                 md += f" — {summary.strip()}\n"
@@ -1027,14 +1097,19 @@ class V2VisionEngine:
         if orig_file:
             cat_link = f" — *Go to [Section](./{orig_file})*"
 
-        year = l.get("year", "")
-        year_prefix = f"**({year})** " if year and str(year).lower() != "n/a" else ""
+        year = l.get("year")
+        year_str = str(year).strip() if year is not None else ""
+        year_prefix = f"**({year_str})** " if year_str and year_str.lower() not in ("n/a", "none", "null", "unknown", "") else ""
 
         raw_stars = l.get("stars") or 0
         stars_str = f" {'🌟' * raw_stars}" if raw_stars > 0 else ""
 
         # Title formatting based on impact
-        title = nuclear_strip(l.get("title", "Unknown Resource"))
+        title = nuclear_strip(str(l.get("title") or ""))
+        if not title:
+            url_str = l.get("url", "").strip().rstrip("/")
+            slug_part = url_str.split("/")[-1] if "/" in url_str else url_str
+            title = slug_part.replace("-", " ").replace("_", " ").strip().title() or "Resource"
         link_content = title
         if raw_stars >= 5:
             link_content = f"=={link_content}=="
@@ -1058,9 +1133,9 @@ class V2VisionEngine:
                 color = "primary"
             tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
 
-        lang = l.get("language", "English")
+        lang = str(l.get("language") or "English").strip()
         lang_tag = ""
-        if lang.lower() not in ["english", "n/a", "none"]:
+        if lang.lower() not in ("english", "n/a", "none", "null", "unknown", ""):
             lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
 
         return f"  - {year_prefix}[{link_content}]({l['url'].strip()}){stars_str}{tag_html}{lang_tag}{cat_link}\n"
@@ -1112,7 +1187,11 @@ class V2VisionEngine:
                     md += "    | :--- | :--- | :---: | :--- |\n"
                     for item in items:
                         impact_badge = {"critical": "🔴", "high": "🟡", "medium": "🔵"}.get(item.get("impact", "medium"), "🔵")
-                        t = nuclear_strip(item.get("title", "Unknown")).replace("|", r"\|")
+                        t = nuclear_strip(str(item.get("title") or "")).replace("|", r"\|")
+                        if not t:
+                            u_str = str(item.get("url") or "").strip().rstrip("/")
+                            slug_p = u_str.split("/")[-1] if "/" in u_str else u_str
+                            t = slug_p.replace("-", " ").replace("_", " ").strip().title() or "Resource"
                         why = (item.get("why", "") or "").replace("|", "-").replace("\n", " ")
                         md += f'    | {item.get("date", "")} | [{t}]({item.get("url", "#")}) | {impact_badge} {item.get("impact", "medium")} | {why} |\n'
                     md += "\n"
@@ -2279,7 +2358,6 @@ if __name__ == "__main__":
     asyncio.run(engine.analyze_and_cluster())
     
     # --- PLATINUM GITOPS REPORTING (Multi-Comment) ---
-    from src.gitops_manager import RepositoryController
     from src.config import TARGET_REPO
     
     # 1. High-Density Metrics Calculation

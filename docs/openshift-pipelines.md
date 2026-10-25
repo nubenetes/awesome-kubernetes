@@ -51,7 +51,7 @@
 ### OpenShift Pipelines with Build Config
 
 - [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)
-- [slideshare.net: OpenShift Container Platform CI/CD Build & Deploy 🌟](https:/https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)
+- [slideshare.net: OpenShift Container Platform CI/CD Build & Deploy 🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)
 
 ### OpenShift Pipelines with S2i
 
@@ -74,7 +74,6 @@
 ## Deployments with OpenShift HA in Multiple Datacenters
 
 - [blog.openshift.com: Deploying OpenShift Applications to Multiple Datacenters (with Jenkins)](https://www.redhat.com/en/blog/deploying-openshift-applications-multiple-datacenters)
-- [Using **KubeFed** to deploy applications](https://blog.openshift.comusing-kubefed-to-deploy-applications-to-ocp3-and-ocp4-clusters)
 
 ## ODO - OpenShift Command line for Developers
 
@@ -109,7 +108,7 @@
 
 ### Jenkins Pipelines with OpenShift 3
 
-- [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https:/https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
+- [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
 - [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline)
 
 ### OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax

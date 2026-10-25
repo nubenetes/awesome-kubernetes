@@ -121,7 +121,6 @@
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application) By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker & Kubernetes
 - [swissarmydevops.com](https://swissarmydevops.com)
 - [dev.to: Build a highly available Node.js application using Docker, NGINX and AWS ELB](https://dev.to/sowmenappd/build-a-highly-available-node-js-application-using-docker-nginx-and-aws-elb-3cjp)
-- [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://devopsarsenal.com)
 - [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) This repo contains questions and exercises on various technical topics related to DevOps and SRE. Linux, Jenkins, AWS, Cloud, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, OpenShift, Big Data, Databases, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization, DevOps Interview Questions.
 - [jose-r-lopez/SSI_Materials](https://github.com/jose-r-lopez/SSI_Infraestructure_Automation_Materials) A bunch of infrastructure automation scripts we use in our course, in case you find them useful!
 - [dzone: DIY DevOps, CI, and CD with GitHub, Docker and a VPS](https://dzone.com/articles/diy-devops-ci-and-cd-with-github-docker-and-a-vps) Azure and AWS is insanely cool until you look at your invoice and realise that what you're paying for can easily be replicated for 2% of your current cloud costs.
@@ -131,7 +130,6 @@
 
 ### Ansible and Ansible Tower
 
-- [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://labs.demoredhat.com/demos)
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/toolkit)
 - [blog.stephane-robert.info: Ansible - Utiliser MySQL comme inventaire dynamique (Use MySQL as a dynamic inventory)](https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/inventaires/dynamiques)
 - [opensource.com: Build a Kubernetes Minecraft server with Ansible's Helm modules](https://opensource.com/article/20/10/kubernetes-minecraft-ansible) Deploy a Minecraft server into a Kubernetes cluster with Ansible's new collections.
@@ -237,7 +235,6 @@
 #### Spring Initializr and k8s Initializer
 
 - [Spring Initializr 🌟](https://start.spring.io) a web application that can generate a Spring Boot project structure, fill in your project details, pick your options, and download a bundled up project
-- [k8s Initializer 🌟](https://blackbird.a8r.io) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
 - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML
 - [hashicorp.com: Getting Started with Ambassador and Consul Using Kubernetes Initializer](https://www.hashicorp.com/blog/getting-started-with-ambassador-and-consul-using-kubernetes-initializer) Kubernetes Initializer built by Ambassador Labs provides a new experience for simplifying the deployment of Ambassador and Consul in a Sandbox Kubernetes environment.
 
@@ -453,7 +450,6 @@
 - [==piotrminkowski.com: Continuous Delivery on Kubernetes with Database using ArgoCD and Liquibase==](https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase)
 - [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)
 - [gokuldevops.medium.com: Argo CD-Sample app deployment](https://gokuldevops.medium.com/argo-cdsample-app-deployment-56b36601f279) Argo CD one of the most popular continues deployment tools used in Kubernetes. It is very simple to use and quite powerful. Personally, it is the first tool in my mind when I think of Kubernetes GitOps.
-- [==codefresh.io: Using Argo CD and Kustomize for ConfigMap Rollouts== 🌟🌟](https://octopus.com/blog/using-argo-cd-and-kustomize-for-configmap-rollouts) how to automatically rollout ConfigMap changes in your GitOps workflows using Argo CD and Kustomize.
 - [medium.com/@martin.hodges: Spring Boot CI/CD on Kubernetes using Terraform, Ansible and GitHub: Part 12](https://medium.com/@martin.hodges/use-terraform-ansible-and-github-actions-to-automate-running-your-spring-boot-application-on-e82424da828e)
 - [mrcloudbook.com: Automating Tetris Deployments: DevSecOps with ArgoCD, Terraform, and Jenkins for Two Game Versions](https://mrcloudbook.com/automating-tetris-deployments-devsecops-with-argocd-terraform-and-jenkins-for-two-game-versions)
 - [mrcloudbook.com: GitOps: Deploying Tetris on EKS Using ArgoCD](https://mrcloudbook.com/gitops-deploying-tetris-on-eks-using-argocd)
@@ -482,7 +478,6 @@
 
 - [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration)
 - [Advanced Cluster Management Demos](https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of) Want to manage Kubernetes clusters at scale? Struggle with Application Lifecycle? Need to ensure Security and Compliance policies across clusters? Check out these demos of Red Hat Advanced Cluster Manager (RHACM).
-- [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/blog)
 - [opensift.com: K8s Integrity Shield (tech-preview): Protecting the Integrity of Kubernetes Resources with Signature](https://www.redhat.com/en/blog/k8s-integrity-shield-tech-preview-protecting-the-integrity-of-kubernetes-resources-with-signature)
 - [cloud.redhat.com: How to Observe your Clusters with Red Hat Advanced Cluster Management - Customize the Grafana Dashboard](https://www.redhat.com/en/blog/how-to-observe-your-clusters-with-red-hat-advanced-cluster-management-customize-the-grafana-dashboard)
 
@@ -669,11 +664,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [codeburst.io: Spinnaker by Example: Part 2](https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf?gi=50a9fc7cfb8e)
 - [codeburst.io: Spinnaker by Example: Part 3](https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce?gi=d7f1e06a4e38)
 - [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker) learn how to setup Spinnaker and integrate it with Gitlab CI and Jenkins to build and run CI and CD pipelines.
-- [armory.io: How to Set Up Liquibase in Spinnaker](https://www.harness.io/products/continuous-delivery)
-- [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.harness.io/products/continuous-delivery)
 - [hackernoon: Using Spinnaker with Kubernetes for CI/CD](https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9)
 - [amazon.com: Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane)
-- [armory.io: Git Pull Support in Spinnaker](https://www.harness.io/products/continuous-delivery)
 
 ## Nexus3 on Kubernetes
 
@@ -694,7 +686,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
     - [gitlab.beuth-hochschule.de](https://gitlab.beuth-hochschule.de/users/sign_in)
     - [gitlab.comquent.de: Microservices branch](https://gitlab.comquent.de/petclinic/spring-petclinic-microservices)
 - [deors/deors-demos-petclinic jenkinsfile](https://github.com/deors/deors-demos-petclinic/blob/master/Jenkinsfile)
-- [liatrio.com: building with docker using jenkins pipelines](https://www.liatrio.ai/resources/blog)
 - [stackoverflow: How to define BuildConfig object with Jenkins and openshift](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
 - [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://platform.cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 - [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://training.experfy.com/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
@@ -706,7 +697,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL
 
 - [griddynamics/mpl](https://github.com/griddynamics-archive/mpl)
-- [blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration](https://blog.griddynamics.comdeveloping-a-modular-pipeline-library-to-improve-devops-collaboration)
 - [youtube: Modular Pipeline Library: 4. Petclinic Pipeline 🌟](https://www.youtube.com/watch?v=GLtvxY1S3Aw) MPL demo video about more or less real petclinic pipeline with selenium tests, comparison to bare jenkinsfile pipeline without mpl, modules override mechanisms.
 
 ### PetClinic on Kubernetes
@@ -736,7 +726,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ### OpenShift.io Samples
 
-- [OpenShift.io Samples 🌟🌟](https://workspaces.openshift.com)
 - [github.com/che-samples](https://github.com/che-samples)
 
 ## AWS Samples (Boilerplates)
@@ -770,9 +759,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## Azure Samples
 
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
-- [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://travelrasik.com/category/asia)
-    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 2](https://travelrasik.com/category/asia)
-    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 3](https://travelrasik.com/category/asia)
 - [github.com/microsoft: Contoso Traders - Cloud testing tools demo app](https://github.com/microsoft/contosotraders-cloudtesting) The Contoso Traders app is a sample application showcasing Playwright, Azure Load Testing, Azure Chaos Studio.
 
 ### Azure DevOps Demos. Azure DevOps Pipelines

@@ -26,7 +26,6 @@
 - [medium.com/solo-io: Istio the Easy Way (Again!)](https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce)
 - [blog.christianposta.com: Istio as an Example of When Not to Do Microservices](https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices)
 - [istiobyexample.dev 🌟](https://istiobyexample.dev)
-    - [istiobyexample.dev: Fault Injection](https://istiobyexample.dev)
 - [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)
 - [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know)
 - [magalix.com: Getting Started With Istio: Overview And Installation](https://www.magalix.com/blog/getting-started-with-istio-overview-and-installation)
@@ -48,15 +47,11 @@
 - [thenewstack.io: Kubernetes, Microservices, and Istio  — A Great Fit!](https://thenewstack.io/kubernetes-microservices-istio%E2%80%8A-%E2%80%8Aa-great-fit)
 - [medium: Observability With Istio, Kiali, and Grafana in Kubernetes and Spring Boot 🌟](https://medium.com/swlh/observability-with-istio-kiali-and-grafana-in-kubernetes-and-spring-boot-743af225c24f)
 - [solo.io: Learn how to rate limit requests in Istio 🌟](https://www.solo.io/blog/tutorial-rate-limiting-of-service-requests-in-istio-service-mesh)
-- [solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh](https://www.solo.io/blog)
 - [sysdig.com: How to monitor Istio, the Kubernetes service mesh](https://www.sysdig.com/blog/monitor-istio)
-- [tetrate.io: VM to container communications 101](https://tetrate.io/blog) How can I use Istio Service Mesh to make VMs and containers talk to each other?
 - [redhat-scholars: istio-tutorial 🌟](https://github.com/redhat-scholars/istio-tutorial) Polyglot microservices (Java, Node, .NET) + Istio on Kubernetes/OpenShift
 - [medium: Introduction to Istio Traffic Management. Traffic Routing with Istio by Example 🌟](https://medium.com/swlh/introduction-to-istio-traffic-management-6b62c86f8cb4)
 - [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication) A service mesh is an architectural pattern that provides common network services as a feature of the infrastructure. This typically includes features such as service discovery and policy enforcement to control how services within the mesh can communicate with each other.
 - [medium.com: Increasing observability on Istio: The new Kiali health configuration](https://medium.com/kialiproject/increasing-observability-on-istio-the-new-kiali-health-configuration-3c91852c1bfe)
-- [solo.io: The evolution of VM support in Istio 1.8 (with video)](https://www.solo.io/blog)
-- [jetstack.io: Securing Istio workloads with mTLS using cert-manager](https://www.paloaltonetworks.com/idira)
 - [thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟](https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes)
 - [medium: Managing Microservices With Istio Service Mesh in Kubernetes](https://medium.com/avmconsulting-blog/managing-microservices-with-istio-service-mesh-in-kubernetes-36e1fda81757)
 - [thenewstack.io: Solo.io: Istio Is Winning the Service Mesh War](https://thenewstack.io/solo-io-istio-is-winning-the-service-mesh-war)
@@ -67,9 +62,7 @@
 - [dev.to: A GitOps recipe for Progressive Delivery with Istio 🌟](https://dev.to/stefanprodan/a-gitops-recipe-for-progressive-delivery-2pa3) GitOps and Progressive Delivery featuring
 IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [samos-it.com: Securing Redis with Istio TLS origination](https://samos-it.com/posts/securing-redis-istio-tls-origniation-termination.html) Istio is daunting and not all use cases are well documented. The public docs focus mostly on using the egress gateway for TLS orignation. The use case of using the sidecar for TLS origination with a database isn't documented well. This blog post hopes to solve that.
-- [solo.io: Istio multi-cluster on Red Hat OpenShift with Gloo Mesh](https://www.solo.io/blog)
 - [giffgaff.io: Using Istio with Nginx ingress](https://www.giffgaff.io/tech/using-istio-with-nginx-ingress)
-- [solo.io: Ode to Istio 🌟](https://www.solo.io/blog)
 - [thenewstack.io: Istio 1.10 Improves Scalability and Revision Control](https://thenewstack.io/istio-1-10-improves-scalability-and-revision-control)
 - [istio.io: Configuring failover for external services](https://istio.io/latest/blog/2021/external-locality-failover) Learn how to configure locality load balancing and failover for endpoints that are outside of your mesh.
 - [medium: Automated canary deployments with Flagger and Istio](https://medium.com/google-cloud/automated-canary-deployments-with-flagger-and-istio-ac747827f9d1)
@@ -81,9 +74,6 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [solo.io: Upgrading Istio without Downtime](https://www.solo.io/blog/upgrading-istio-without-downtime)
 - [tetrate.io: Using Istio Service Mesh as API Gateway 🌟](https://tetrate.io/blog/istio-service-mesh-api-gateway)
 - [mirantis.com: Your App Deserves More than Kubernetes Ingress: Kubernetes Ingress vs. Istio Gateway [webinar]](https://www.mirantis.com/blog/your-app-deserves-more-than-kubernetes-ingress-kubernetes-ingress-vs-istio-gateway-webinar)
-- [solo.io: Configuration as Data, GitOps, and Controllers: it’s not simple for multi-cluster](https://www.solo.io/blog)
-- [solo.io: Istio’s networking: An in-depth look at traffic and architecture 🌟](https://www.solo.io/blog) Istio’s networking in a demo environment
-- [solo.io: Navigating __Istio Config__: a look into Istio’s toolkit](https://www.solo.io/blog)
 - [==inder-devops.medium.com: On-premise to cloud migration mock drills using Istio== 🌟](https://faun.pub/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38?gi=bd3b64972e30) Part 1 of a series of articles about cloud migration. Application workload migration from one kubernetes cluster to another using Istio. This article explains an approach that makes use of service mesh capability to migrate entire platform from onpremise to cloud or cluster to cluster migration.
 - [baeldung.com: Service Mesh Architecture with Istio](https://www.baeldung.com/ops/istio-service-mesh)
 - [chrishaessig.medium.com: Multi cluster setup with istio](https://chrishaessig.medium.com/multi-cluster-setup-with-istio-c1c6437f4e8c)

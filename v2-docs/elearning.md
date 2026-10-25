@@ -14,14 +14,16 @@ description: "Top Elearning resources for 2026, AI-ranked: codely.tv, Whizlabs a
   - **(2026)** [**Students prototype learning tools with AI at University of Waterloo**](https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: This academic collaboration highlights how early-stage engineers can leverage standardized, cloud-hosted API models to tackle accessibility and learning barriers.
 
 Live Grounding: Students at the Waterloo Futures Lab developed physical and software prototypes, including interactive sign language interpreters, illustrating how public LLM accessibility accelerates social impact engineering.
-## Architectural Foundations
+## AI Courses
 
-### Kubernetes Tools
+  - **(2026)** [Introducing OpenAI Academy Courses](https://openai.com/index/academy-courses-applying-ai-at-work) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing OpenAI Academy Courses covering AI Courses in Elearning (openai.com).
+## CICD
 
-#### General Reference
+### Git Integration
 
-  - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com in the Kubernetes Tools ecosystem.
-  - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering harvard.edu: CS50: Introduction to Computer Science (free) in the Kubernetes Tools ecosystem.
+#### Azure DevOps
+
+  - **(2024)** [cloudskills.io: Getting Started with Git and Azure DevOps: The Ultimate Guide 🌟](https://ine.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive workflow guide demonstrating advanced Git version control configurations within Azure DevOps projects. Shows how to set up strict PR approval limits and automated checkouts.
 ## Cloud Platforms
 
 ### Openshift
@@ -51,7 +53,27 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Training Courses
 
-  - **(2023)** [Techworld with Nana: Learn DevOps topics easily](https://www.techworld-with-nana.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier technical curriculum focused on infrastructure automation, container mechanics, and deployment pipelines. Successfully bridges the gap between raw system administration and cloud native deployment methodologies.
+  - **(2023)** [Techworld with Nana: Learn DevOps topics easily](https://www.techworld-with-nana.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier technical curriculum focused on infrastructure automation, container mechanics, and deployment pipelines. Successfully bridges the gap between raw system administration and cloud native deployment methodologies.
+## Emerging Technology
+
+### Machine Learning
+
+#### Course
+
+  - **(2024)** [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's structured technical course on ML foundations. Covers gradient descent, model loss, deep neural networks, and scalable tensor processing, serving as an entry point for engineers integrating ML systems into modern APIs.
+## List
+
+  - [Udacity.com](https://www.udacity.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Udacity.com covering List in Elearning (udacity.com).
+  - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com covering List in Elearning (guru99.com).
+  - [GCF LearnFree.org](https://www.learnfree.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GCF LearnFree.org covering List in Elearning (learnfree.org).
+  - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for harvard.edu: CS50: Introduction to Computer Science (free) covering List in Elearning (pll.harvard.edu).
+## Operating Systems and Infrastructure
+
+### Linux
+
+#### Sysadmin Tutorials
+
+  - **(2026)** [**learnitguide.net 🌟**](https://www.learnitguide.net) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated educational platform providing in-depth guides on enterprise Linux administration, DevOps tools, automation, and cloud platforms. Its systematic tutorials are designed to prepare system administrators for managing highly available enterprise environments.
 ## Orchestration
 
 ### Infrastructure As Code
@@ -64,6 +86,18 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 #### Vmware Tanzu Ecosystem
 
   - **(2026)** [**kube.academy**](https://kube.academy) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly polished training engine sponsored by VMware Tanzu. Walks engineers through complex modular tracks detailing multi-tenancy, cluster scaling, control-plane metrics, and security controls within corporate environments.
+## Platform Engineering
+
+### Legacy Sandboxes
+
+#### Interactive Learning
+
+  - **(2022)** [katacoda.com 🌟](https://www.katacoda.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Katacoda was a widely used interactive browser platform for practicing Kubernetes and container administration. The platform was officially terminated by O'Reilly in 2022. Platform engineers in 2026 utilize alternatives like Killercoda for sandbox exercises.
+### Security and Compliance
+
+#### Public Sector
+
+  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Professional Development
 
 ### Certifications
@@ -139,7 +173,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
   - **(2026)** [==codely.tv==](https://codely.com/en) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production architectures.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Newsfeeds](./newsfeeds.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

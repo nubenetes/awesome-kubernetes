@@ -9,14 +9,15 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 !!! info "Architectural Context"
     Detailed reference for Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes in the context of Developer Ecosystem.
 
-## Architectural Foundations
+## Cloud DevOps
 
-### Kubernetes Tools
+### CICD
 
-#### General Reference
+#### Build Environments
 
-  - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen in the Kubernetes Tools ecosystem.
-  - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Jakarta EE & Wildfly Running on Kubernetes in the Kubernetes Tools ecosystem.
+##### Runtime Configuration
+
+  - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to dynamically install Java 23 onto Azure DevOps pipeline agents using automated setup tasks. In 2026, using localized runtime installation tasks is preferred over relying on pre-baked VM images, allowing pipelines to remain flexible and easily adapt to new framework versions.
 ## Cloud-native Java
 
 ### Runtimes
@@ -26,9 +27,6 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 ##### Microprofile
 
   - **(2020)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement for Red Hat JBoss EAP Expansion Pack (XP) 1.0, enabling support for MicroProfile specifications on top of enterprise application servers. Live Grounding indicates JBoss EAP XP has become a core element for Red Hat customers modernization strategies, providing a bridge between traditional and cloud-native application patterns.
-#### Open Liberty
-
-  - **(2026)** [**openliberty.io**](https://openliberty.io/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project portal for Open Liberty, IBM's open-source, highly modular Java runtime designed for microservices and cloud-native applications. Live Grounding highlights its performance, dynamic reloading capabilities, and seamless integration with container platforms.
 #### Payara Micro
 
 ##### Docker
@@ -55,9 +53,16 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 #### Kumuluzee
 
   - **(2026)** [KumuluzEE](https://ee.kumuluz.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An award-winning, lightweight microservice framework that enables standard Java EE APIs to run as independent, containerized applications. It focuses on modular, plug-and-play architecture, bypassing heavy runtime components to achieve fast startup times and minimal cloud resource utilization.
+## Payara
+
+  - [Payara](https://www.azul.com/products/payara-server/?utm_campaign=payara.fish_migration_july_2026&utm_source=payara.fish&utm_medium=referral) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Payara covering Payara in Java_App_Servers (azul.com).
+  - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen covering Payara in Java_App_Servers (dzone.com).
+## Wildfly (1)
+
+  - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Jakarta EE & Wildfly Running on Kubernetes covering WildFly in Java_App_Servers (dzone.com).
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

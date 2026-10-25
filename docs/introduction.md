@@ -58,7 +58,6 @@
 - [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
 - [==Monoliths are the future | Kelsey Hightower==](https://changelog.com/posts/monoliths-are-the-future)
 - [==allthingsdistributed.com: Monoliths are not dinosaurs==](https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html)
-- [weave.works: Going Cloud Native: 6 essential things you need to know](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [Operators and Sidecars Are the New Model for Software Delivery](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 - [jaxenter.com: Practical Implications for Adopting a Multi-Cluster, Multi-Cloud Kubernetes Strategy](https://devm.io/kubernetes/kubernetes-practical-implications-171647)
 - [jaxenter.com: Six Essential Kubernetes Extensions to Add to Your Toolkit 🌟](https://devm.io/kubernetes/kubernetes-extensions-172215)
@@ -66,7 +65,6 @@
 - [addwebsolution.com: How Kubernetes helps businesses manage their IT infrastructure?](https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure)
 - [loves.cloud: Kubernetes: An Introduction](https://loves.cloud/kubernetes-an-introduction)
 - [thenewstack.io: Microservices vs. Monoliths: An Operational Comparison](https://thenewstack.io/microservices/microservices-vs-monoliths-an-operational-comparison)
-- [weave.works: 6 Business Benefits of Kubernetes](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar)
 - [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]](http://web.archive.org/web/20220716010821/https://eng.uber.com/microservice-architecture)
 - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)
@@ -95,7 +93,6 @@
 - [techrepublic.com: Kubernetes will deliver the app store experience for enterprise software, says Weaveworks CEO](https://www.techrepublic.com/article/kubernetes-will-deliver-the-app-store-experience-for-enterprise-software-says-weaveworks-ceo)
 - [shahirdaya.medium.com: What does it mean to be Cloud Native? 🌟](https://shahirdaya.medium.com/what-does-it-mean-to-be-cloud-native-12360a324571)
 - [enterprisersproject.com: 5 hybrid cloud trends to watch in 2021](https://enterprisersproject.com/article/2021/1/5-hybrid-cloud-trends-2021) As hybrid cloud becomes the go-to model for enterprise IT, watch for these trends. Experts discuss cloud platform changes, workload fit, security, and related issues
-- [cloudify.co: Your Guide to Infrastructure Automation & Hybrid Cloud Orchestration 🌟](https://docs.cloudify.co)
 - [jaxenter.com: Kubernetes Is Much Bigger Than Containers: Here’s Where It Will Go Next](https://devm.io/kubernetes/kubernetes-bigger-173675)
 - [skamille.medium.com: Make Boring Plans](https://skamille.medium.com/make-boring-plans-9438ce5cb053)
 - [cloud-melon.com: Under the hood of Kubernetes and microservices](https://cloud-melon.com/2019/12/26/under-the-hood-of-kubernetes-and-microservices)
@@ -129,7 +126,6 @@
 - [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
 - [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
 - [simform.com: What is Multi Cloud? Why you Need a Multi Cloud Strategy?](https://www.simform.com/blog/multi-cloud-strategy)
-- [blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds](https://www.min.io/blog)
 - [xataka.com: La deuda técnica, un lastre para las tecnológicas: un estudio señala que los informáticos pierden casi un día de trabajo a la semana para solventarlas](https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas)
 - [dev.to: When it Pays to Choose Microservices 🌟](https://dev.to/typeable/when-it-pays-to-choose-microservices-12h5)
 - [acloudguru.com: Public cloud vs private cloud: What’s the difference? 🌟](https://www.pluralsight.com/resources/blog/business-and-leadership/public-cloud-vs-private-cloud-whats-the-difference)
@@ -163,7 +159,6 @@
 - [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
 - [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021)
 - [zesty.co: 10 Cloud Deficiencies You Should Know](https://zesty.co/blog/10-cloud-deficiencies)
-- [weave.works: What is a Kubernetes Cluster? 🌟](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [==techrepublic.com: Enterprises get closer to the app store experience with Kubernetes and GitOps==](https://www.techrepublic.com/article/enterprises-get-closer-to-the-app-store-experience-with-kubernetes-and-gitops)
 - [==theregister.com: How Kubernetes lowers costs and automates IT department work==](https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708) 75% of global companies will have started using container applications in their production environments by 2022.
 - [==redhat.com: Top 8 resources for microservices architecture of 2021==](https://www.redhat.com/en/blog/best-microservices-2021) Reining in complexity, doing things consistently, leveraging standards, and modernizing systems are timeless themes in microservices architecture.
@@ -224,7 +219,6 @@
     - Configuration Server
 - [thenewstack.io: What Is Microservices Architecture?](https://thenewstack.io/microservices/what-is-microservices-architecture) Microservices architecture is game changing, allowing development teams to work independently and at cloud native scale.
 - [levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices Architecture? 🌟](https://levelup.gitconnected.com/do-you-know-distributed-job-scheduling-in-microservices-architecture-44082adad8ac?gi=44950d221c7d)
-- [==nginx.com: Best Practices for Configuring Microservices Apps== 🌟](https://www.f5.com/products/nginx) **The guidelines known as the 12‑factor app were first published more than 10 years ago. Since then become the de facto standard way to write and deploy web apps.**
 - [==medium.com/javarevisited: Microservices Communication part 1-every programmer must know== 🌟](https://medium.com/javarevisited/microservices-communication-part-1-every-programmer-must-know-7c6607d2d563) Microservices communication is the heartbeat of any Microservice Architecture and designing them could make or break the system.
     - [medium.com/javarevisited: Microservices Communication — part 2— Sync vs Async vs Hybrid?](https://medium.com/javarevisited/microservices-communication-part-2-sync-vs-async-vs-hybrid-23d057e137d8)
 - [deloitte.com/de: EMEA Center of Excellence for Application Modernization and Migration](https://www.deloitte.com/de/de/services/consulting/services/center-of-excellence-application-modernization.html) Accelerate the transformation of your legacy systems
@@ -341,7 +335,6 @@
 
 ## Self service developer platform
 
-- [weave.works: What is a self-service developer platform and why does it matter?](https://ambking1234.limo/?action=register&marketingRef=6788b227da9499f55f6ea745)
 - [==thenewstack.io: What We Learned from Enabling Developer Self-Service==](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service) Let’s simplify the developer experience and scale DevOps workflows without compromising the security of multi-Kubernetes environments.
 
 ## Shift-Left
@@ -421,7 +414,6 @@
 ### CQRS Pattern
 
 - [medium.com/@mbarkin.narin: Problem Solving Strategies for Microservice Architecture Part III](https://medium.com/@mbarkin.narin/problem-solving-strategies-for-microservice-architecture-part-iii-c15830151890) Distributed Complex Query in Multiple Services
-- [linkedin.com/pulse: Command and Query Responsibility Segregation (CQRS): Optimizing Hybrid Cloud Strategies](https://www.linkedin.com/top-content/?trk=article_not_found)
 - [blog.bitsrc.io: Implementing a Microservices Application with CQRS (Command Query Responsibiltiy Segregation)](https://blog.bitsrc.io/implementing-microservices-with-cqrs-2cecb0b09c66) Building scalable microservices using Java and CQRS
 
 ## Microservices Anti Patterns
@@ -508,16 +500,13 @@
   - [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) - *(Related to aws-training topic)*
 
 - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)
-- [==lightbend.com: From Java EE To Cloud Native: The End Of The Heavyweight Era== 🌟](https://akka.io)
 
 ## Monolith to Microservices Using the Strangler Pattern
 
 - [dzone: Monolith to Microservices Using the Strangler Pattern 🌟](https://dzone.com/articles/monolith-to-microservices-using-the-strangler-patt) The Strangler Pattern is a popular design pattern to incrementally transform your monolithic application into microservices by replacing a particular functionality with a new service. Once the new functionality is ready, the old component is strangled, the new service is put into use, and the old component is decommissioned altogether.
-- [overops.com: Strangler Pattern: How to Deal With Legacy Code During the Container Revolution](https://www.harness.io/products/ai-sre)
 
 ## Microservices to Monolith
 
-- [primevideotech.com: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.aboutamazon.com/what-we-do/entertainment) The move from a distributed microservices architecture to a monolith application helped achieve higher scale, resilience, and reduce costs.
 
 ## Openshift VS Kubernetes
 
@@ -529,7 +518,6 @@
 - [kubedex.com: Kubernetes On-Prem, OpenShift vs PKS vs Rancher](https://kubedex.com/redhat-openshift-vs-pivotal-pks-vs-rancher)
     - [reddit.com: OpenShift vs PKS vs Rancher 🌟](https://www.reddit.com/r/kubernetes/comments/9qxeuw/openshift_vs_pks_vs_rancher)
 - [medium.com: Kubernetes — What Is It, What Problems Does It Solve and How Does It Compare With Alternatives?](https://medium.com/@srikanth.k/kubernetes-what-is-it-what-problems-does-it-solve-how-does-it-compare-with-its-alternatives-937fe80b754f)
-- [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog)
 - [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)
 - [levelup.gitconnected.com: OpenShift — The Next Level of Kubernetes](https://levelup.gitconnected.com/openshift-the-next-level-of-kubernetes-6d58ad722b26?gi=8ddc418d382d) Things you should need to know about OpenShift
 - [ibm.com: OpenShift vs. Kubernetes: What’s the Difference?](https://www.ibm.com/think/topics/openshift-vs-kubernetes)

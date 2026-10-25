@@ -34,7 +34,6 @@
 - [dzone: create install upgrade and rollback a helm chart - part 2](https://dzone.com/articles/create-install-upgrade-rollback-a-helm-chart-part)
 - [dzone: cicd with kubernetes and helm](https://dzone.com/articles/cicd-with-kubernetes-and-helm)
 - [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)
-- [codefresh.io: Using Helm 3 with Helm 2 charts](https://octopus.com/devops)
 - [banzaicloud.com: Helm 3, the Good, the Bad and the Ugly](https://banzaicloud.com/blog/helm3-the-good-the-bad-and-the-ugly)
 - [helm.sh: How to migrate from Helm v2 to Helm v3](https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3)
 - [Helm 3: Validating Helm Chart Values with JSON Schemas 🌟](https://www.arthurkoziel.com/validate-helm-chart-values-with-json-schemas)
@@ -50,7 +49,6 @@
 - [jfrog.com: Steering Straight with Helm Charts Best Practices 🌟](https://jfrog.com/blog/helm-charts-best-practices)
 - [rancher.com: Create Reproducible Security in Kubernetes with Helm 3 and Helm Charts](https://www.suse.com/c/rancher_blog/create-reproducible-security-in-kubernetes-with-helm-3-and-helm-charts)
 - [youtube.com: Demystifying Helm 🌟](https://www.youtube.com/watch?v=2HPsPOwHOlY&ab_channel=DonovanBrown)
-- [harness.io: Introduction to Helm: Charts, Deployments, & More 🌟](https://www.harness.io/blog)
 - [freecodecamp.org: What is a Helm Chart? A Tutorial for Kubernetes Beginners](https://www.freecodecamp.org/news/what-is-a-helm-chart-tutorial-for-kubernetes-beginners)
 - [youtube: GitOps Guide to the Galaxy: Working with Helm](https://www.youtube.com/watch?v=1FzOlSed5ts&ab_channel=OpenShift)
 - [cncf.io: Quick application deployments on MicroK8s using Helm Charts](https://www.cncf.io/blog/2021/03/23/quick-application-deployments-on-microk8s-using-helm-chart)
@@ -75,8 +73,7 @@
 - [cloud.redhat.com: Application Management in Kubernetes Environments with Helm Charts and Kubernetes Operators](https://www.redhat.com/en/blog/application-management-in-kubernetes-environments-with-helm-charts-and-kubernetes-operators)
 - [codersociety.com: 13 Best Practices for using Helm](https://codersociety.com/blog/articles/helm-best-practices) Helm is an indispensable tool for deploying applications to Kubernetes clusters. But it is only by following best practices that you’ll truly reap the benefits of Helm. Here are 13 best practices to help you create, operate, and upgrade applications using Helm.
 - [bridgecrew.io: Applying Kubernetes security best practices to Helm charts](https://bridgecrew.io/blog/applying-kubernetes-security-best-practices-to-helm-charts)
-- [codefresh.io: Using Helm with GitOps 🌟](https://octopus.com/blog/using-helm-with-gitops)
-    - [medium: Using Helm with GitOps](https://medium.com/containers-101/using-helm-with-gitops-555443340369)
+- [medium: Using Helm with GitOps](https://medium.com/containers-101/using-helm-with-gitops-555443340369)
 - [==medium: Test Helm Release in Production Environment with Zero Downtime== 🌟](https://medium.com/@deejiw/test-helm-release-in-production-environment-with-zero-downtime-400c5d41ecdf) Helm has been very popular for Kubernetes production. However, to ensure consistency across releases, today we are going to learn how to test deployment on production environment without any interruption with production pods.
 - [==learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps==](https://github.com/hashicorp/waypoint/tree/main/website/content/docs)
 - [hashicorp.com: Deploying Helm Apps to Kubernetes with Waypoint and GitOps](https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops)
@@ -177,7 +174,6 @@ Kubernetes packages
     - [New Location For Stable and Incubator Charts](https://helm.sh/blog/new-location-stable-incubator-charts)
     - [charts.helm.sh/stable 🌟](https://charts.helm.sh/stable)
     - [charts.helm.sh/incubator 🌟](https://charts.helm.sh/incubator)
-- [Bitnami Helm Charts](https://bitnami.com/home)
 - [JFrog ChartCenter](https://chartcenter.io)
 - [Artifact Hub 🌟](https://artifacthub.io) Find, install and publish Kubernetes packages
 - [KubeApps Hub](https://kubeapps.dev)

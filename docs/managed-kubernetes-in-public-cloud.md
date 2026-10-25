@@ -101,7 +101,6 @@
 - [clickittech.com: Amazon ECS vs EKS : The Best Container Orchestration Platform 🌟](https://www.clickittech.com/cloud-services/amazon-ecs-vs-eks)
 - [faun.pub: Upgrading and Scaling Kubernetes cluster in AWS](https://faun.pub/upgrading-and-scaling-kubernetes-cluster-in-aws-6971b3936465)
 - [youtube/StackSimplify: Kubernetes Deployments on AWS EKS | Amazon Elastic Kubernetes Service | Amazon EKS 🌟](https://www.youtube.com/watch?v=vZK_W-fpft0&ab_channel=StackSimplify)
-- [cloudify.co: Simplifying Hybrid Cloud Deployments With AWS EKS And Outpost](https://docs.cloudify.co)
 - [eksworkshop.com 🌟](https://www.eksworkshop.com)
 - [cast.ai: AWS EKS vs. ECS vs. Fargate: Where to manage your Kubernetes?](https://cast.ai/blog/aws-eks-vs-ecs-vs-fargate-where-to-manage-your-kubernetes)
 - [cast.ai: 8 best practices to reduce your AWS bill for Kubernetes](https://cast.ai/blog/eks-cost-optimization)
@@ -122,7 +121,6 @@
 - [nextlinklabs.com: Handling Auth in EKS Clusters: Setting Up Kubernetes User Access Using AWS IAM](https://nextlinklabs.com/resources/insights/handling-authentication-in-eks-clusters-kubernetes-aws-iam)
 - [neal-davis.medium.com: ECS vs EC2 vs Lambda 🌟](https://neal-davis.medium.com/ecs-vs-ec2-vs-lambda-36b8ca380dea)
 - [faun.pub: Kubernetes Multi-tenancy with Amazon EKS: Best practices and considerations 🌟](https://faun.pub/kubernetes-multi-tenancy-with-amazon-eks-best-practices-and-considerations-60bfd78c2f9a?gi=8d4e0c7147c3)
-- [nginx.com: Deploying NGINX Ingress Controller on Amazon EKS: How We Tested](https://www.f5.com/products/nginx)
 - [hackerxone.com: 13 Steps Guide to Create Kubernetes Cluster on AWS](https://www.hackerxone.com/2021/08/20/13-steps-guide-to-create-kubernetes-cluster-on-amazon-web-serviceaws)
 - [hackerxone.com: Steps to Create Amazon EKS node group on Amazon web Service (AWS)](https://www.hackerxone.com/2021/08/25/steps-to-create-amazon-eks-node-group-on-amazon-web-service-aws)
 - [dev.to: EKS IAM Deep Dive 🌟](https://dev.to/aws-builders/eks-iam-deep-dive-136d)
@@ -245,7 +243,6 @@
 
 ### AWS EKS Vs ECS Vs Fargate
 
-- [cloudify.co: AWS EKS Vs. ECS Vs. Fargate: The Breakdown](https://docs.cloudify.co)
 
 ### EKS Anywhere (on premises)
 
@@ -352,7 +349,6 @@
 - [==medium.com/@gjoshevski: Reduce the cost of running AKS cluster by leveraging Azure Spot VMs| 70% and more== 🌟🌟](https://medium.com/@gjoshevski/reduce-the-cost-of-running-aks-cluster-by-leveraging-azure-spot-vms-70-and-more-e917f568c3b9)
 - [community.ops.io: One day I woke up to a crashed AKS cluster and this is what I did to get it back to life](https://community.ops.io/javi_labs/one-day-wake-up-to-a-crashed-aks-cluster-and-this-is-what-i-did-to-get-it-back-to-life-1592) One day, Javier found a crashed AKS cluster with three nodes stopped and all pods in the "Terminating" state. Learn how Javier debugged the cluster and brought it back to life.
 - [Using CDK to perform continuous deployments in multi-region Kubernetes environments](https://aws.amazon.com/blogs/containers/using-cdk-to-perform-continuous-deployments-in-multi-region-kubernetes-environments) This post demonstrated how to create a continuous deployment pipeline to deploy applications in multiple EKS clusters running in different regions. The accompanying CDK code creates EKS clusters and the CI/CD stack to continuously deploy applications
-- [blog.coffeeapplied.com: Securing AKS in peered virtual networks using only network security groups (NSGs)](http://ww547.coffeeapplied.com/?tkn=19vnMT3S) When you use peering in AKS, with the "default" AKS deployment, your complete cluster, including all pods, is completely open and addressable from your complete peered network. Learn how to fix in this article.
 - [medium.com/@vamsi.lakshman: Overview of Azure Kubernetes Services Networking Models](https://medium.com/@vamsi.lakshman/overview-of-azure-kubernetes-services-networking-models-e3ca0591aebe)
 - [techcommunity.microsoft.com: SQL Server containers on Kubernetes with S3-compatible object storage - Getting started](https://techcommunity.microsoft.com/blog/sqlserver/sql-server-containers-on-kubernetes-with-s3-compatible-object-storage---getting-/3717003) Check out this post on the Microsoft Tech Community : SQL Server containers on Kubernetes with S3-compatible object storage - Getting started - Microsoft Community Hub
 - [learn.microsoft.com: Connect with RDP to Azure Kubernetes Service (AKS) cluster Windows Server nodes for maintenance or troubleshooting](https://learn.microsoft.com/en-us/azure/aks/rdp)
@@ -447,7 +443,6 @@
 - [cloud.google.com: GKE Autopilot 🌟](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview)
 - [medium: How to provision Kubernetes Cluster in GCP Cloud (K8s)? 🌟](https://medium.com/avmconsulting-blog/kubernetes-google-kubernetes-engine-gke-99abf912f912)
 - [youtube: GKE Autopilot - Fully Managed Kubernetes Service From Google 🌟](https://www.youtube.com/watch?v=Zztufl4mFQ4&feature=youtu.be)
-- [insights.project-a.com: Using GitHub Actions to deploy to Kubernetes in GKE 🌟](https://www.project-a.vc/perspectives)
 - [faun.pub: How to automate the setup of a Kubernetes cluster on GCP](https://faun.pub/how-to-automate-the-setup-of-a-kubernetes-cluster-on-gcp-e97918bf41de?gi=5282d77fd945) Using Ansible to install, setup, and configure a Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
 - [Kubernetes Cloud DNS](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cloud-dns) GCP now makes it easy to query DNS for Kubernetes services across multiple clusters from anywhere inside the VPC! The less stuff users have to run in their clusters, the more they can use for their own apps. It was always problematic to make users admin their own DNS.
 - [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model) I look at a new managed service that provisions cloud-native services as if they were k8s resources.

@@ -39,7 +39,6 @@
     - [dev.to: Getting Started With Skaffold](https://dev.to/thenjdevopsguy/getting-started-with-skaffold-5120)
 - [Draft](https://github.com/Azure/draft)
 - [Garden](https://docs.garden.io)
-- [codefresh.io: The ultimate guide for local development on Kubernetes: Draft vs Skaffold vs Garden.io](https://octopus.com/devops)
 - [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing) GoogleCloudTech Code has built-in snippets for creating common resources (pod, service, configmap, etc). Plus diffing and dry-run of YAML.
 
 ## Other Scaffolding Tools

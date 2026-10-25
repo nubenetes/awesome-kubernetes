@@ -26,7 +26,6 @@
 - [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org)
 - OPA is most often used as an admission controller in Kubernetes. An admission controller is where all the semantic validation of Kubernetes resources occur before resources are persisted to etcd and controllers go off and start doing work.
 - [magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟](https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial)
-- [fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)](https://snyk.io/blog)
 - [PolicyHub CLI, a CLI tool that makes Rego policies searchable 🌟](https://github.com/policy-hub/policy-hub-cli) a list of community OPA policies
 - [blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open Policy Agent](https://blog.styra.com/blog/integrating-identity-oauth2-and-openid-connect-in-open-policy-agent)
 - [blog.styra.com: Rego Unit Testing](https://blog.styra.com/blog/rego-unit-testing)
@@ -45,7 +44,6 @@
 - [blog.styra.com: Policy-based infrastructure guardrails with Terraform and OPA 🌟](https://blog.styra.com/blog/policy-based-infrastructure-guardrails-with-terraform-and-opa)
 - [medium: Automated Manifest File Validation Using Open Policy Agent and GitHub Actions | Ravindu Sandeepa Rathugama](https://medium.com/@ravindursr/automated-manifest-file-validation-using-open-policy-agent-and-github-actions-697fa9fd74f0)
 - [thenewstack.io: Weaveworks Adds Policy as Code to Secure Kubernetes Apps (Magalix)](https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps) - [Magalix](https://www.magalix.com)
-- [fugue.co: Securing a Kubernetes pod with Regula and Open Policy Agent](https://snyk.io/blog)
 - [dev.to: Load external data into OPA: The Good, The Bad, and The Ugly](https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc) There are several ways to create a data fetching mechanism for the Open Policy Agent - each of them has its pros and cons. In this guide, you will compare and decide which one is the best for you.
 - [inspektor.cloud: Evaluating open policy agent in rust using wasm](https://inspektor.cloud/blog/evaluating-open-policy-agent-in-rust-using-wasm)
 - [medium.com/4th-coffee: What is Policy-as-Code? An Introduction to Open Policy Agent](https://medium.com/4th-coffee/what-is-policy-as-code-an-introduction-to-open-policy-agent-6098463f8461)
@@ -54,7 +52,6 @@
 
 - [infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent](https://www.infracloud.io/blogs/kubernetes-pod-security-policies-opa)
 - [banzaicloud.com: Istio and Kubernetes ft. OPA policies](https://banzaicloud.com/blog/istio-opa)
-- [fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)](https://snyk.io/blog)
 - [medium: Ensure Content Trust on Kubernetes using Notary and Open Policy Agent](https://medium.com/@siegert.maximilian/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c) A detailed guide to help you to ensure that only signed images can get deployed on the cluster. In this blog post you will learn how to enforce image trust on your Kubernetes Cluster by fully relying on two well known CNCF hosted open source solutions: Notary and Open Policy Agent (OPA).
 - [kubermatic.com: Using Open Policy Agent With Kubermatic Kubernetes Platform](https://www.kubermatic.com/blog/using-open-policy-agent-with-kubermatic)
 - [k8s-security-policies](https://github.com/raspbernetes/k8s-security-policies) This repository provides a security policies library that is used for securing Kubernetes clusters configurations. The security policies are created based on CIS Kubernetes benchmark and rules defined in Kubesec.io. The policies are written in Rego, a high-level declarative language, its purpose-built for expressing policies over complex hierarchical data structures. For detailed information on Rego see the Policy Language documentation.

@@ -222,9 +222,9 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **18662+** |
+| **Total Technical Resources (Links)** | **19835+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **7193+** |
+| **Total Commits** | **7199+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -234,16 +234,16 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 <!-- TOP_CATEGORIES_START -->
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
-| [Kubernetes Tools](docs/kubernetes-tools.md) | 768 |
-| [Kubernetes](docs/kubernetes.md) | 711 |
-| [Terraform](docs/terraform.md) | 414 |
-| [Demos](docs/demos.md) | 363 |
-| [Azure](docs/azure.md) | 296 |
-| [Git](docs/git.md) | 268 |
-| [Visual Studio](docs/visual-studio.md) | 262 |
-| [Monitoring](docs/monitoring.md) | 254 |
-| [Devsecops](docs/devsecops.md) | 232 |
-| [Ocp4](docs/ocp4.md) | 224 |
+| [Kubernetes](docs/kubernetes.md) | 1316 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 834 |
+| [Terraform](docs/terraform.md) | 735 |
+| [Azure](docs/azure.md) | 631 |
+| [Demos](docs/demos.md) | 607 |
+| [Git](docs/git.md) | 604 |
+| [Devsecops](docs/devsecops.md) | 490 |
+| [Managed Kubernetes In Public Cloud](docs/managed-kubernetes-in-public-cloud.md) | 461 |
+| [Jenkins](docs/jenkins.md) | 455 |
+| [Introduction](docs/introduction.md) | 393 |
 <!-- TOP_CATEGORIES_END -->
 
 ### 2.3. Historical Growth (Commits and References)
@@ -262,7 +262,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 3634 | 15,008 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 3640 | 15,033 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -278,8 +278,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 16000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15008]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3634]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15033]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3640]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -291,7 +291,7 @@ xychart-beta
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
 | 2026-06 | 853 | 3,522 | Active Curation |
 | 2026-07 | 382 | 1,577 | Active Curation |
-| 2026-10 | 136 | 561 | Active Curation |
+| 2026-10 | 142 | 586 | Active Curation |
 | 2026-09 | 77 | 318 | Active Curation |
 | 2026-08 | 60 | 247 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
@@ -306,7 +306,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Specialized Topics" : 4262
+    "Specialized Topics" : 5435
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
     "Public/Private Cloud" : 2500
@@ -327,10 +327,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 16795
-    "Spanish" : 1119
-    "French" : 186
-    "Others" : 559
+    "English" : 17851
+    "Spanish" : 1190
+    "French" : 198
+    "Others" : 595
 ```
 <!-- SUB_ECO_CHART_END -->
 

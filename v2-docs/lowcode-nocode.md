@@ -9,13 +9,9 @@ description: "Curated, AI-ranked Lowcode Nocode resources for the 2026 Cloud Nat
 !!! info "Architectural Context"
     Detailed reference for Low Code and No Code in the context of Developer Ecosystem.
 
-## Architectural Foundations
+## General Reference
 
-### Kubernetes Tools
-
-#### General Reference
-
-  - [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Top 10 Low-Code Articles in the Kubernetes Tools ecosystem.
+  - [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 10 Low-Code Articles in the Lowcode Nocode ecosystem (dzone.com).
 ## Platform Engineering
 
 ### Development Paradigms
@@ -36,7 +32,7 @@ description: "Curated, AI-ranked Lowcode Nocode resources for the 2026 Cloud Nat
   - **(2021)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A provocative analysis reflecting on speculative industry trends regarding low-code automation. It highlights how aggressive market expansion projections suggest rapid enterprise adoption, while detailing the ongoing debate about scalability limits.
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

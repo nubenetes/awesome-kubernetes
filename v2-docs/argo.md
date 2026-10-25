@@ -9,6 +9,32 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
 !!! info "Architectural Context"
     Detailed reference for Argo Declarative GitOps for Kubernetes in the context of Engineering Pipeline.
 
+## Argo CD
+
+  - [levelup.gitconnected.com: Getting Started With ArgoCD on your Kubernetes Cluster](https://levelup.gitconnected.com/getting-started-with-argocd-on-your-kubernetes-cluster-552ca5d8cf41?gi=e7f5e2c5374d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Getting Started With ArgoCD on your Kubernetes Cluster covering Argo CD in Argo (levelup.gitconnected.com).
+  - [faun.pub: Deploying Argo CD and Sealed Secrets with Helm](https://faun.pub/deploying-argo-cd-and-sealed-secrets-with-helm-8de12f53051b?gi=3d9609896c6e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Deploying Argo CD and Sealed Secrets with Helm covering Argo CD in Argo (faun.pub).
+  - [faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD GitOps & Helm Charts](https://faun.pub/continuous-deployments-of-kubernetes-applications-using-argo-cd-gitops-helm-charts-9df917caa2e4?gi=b1a20ffc675c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD GitOps & Helm Charts covering Argo CD in Argo (faun.pub).
+  - [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510?gi=938bf0a28d71) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Hygiene of an ArgoCD-built automation at a scale covering Argo CD in Argo (faun.pub).
+  - [blog.devgenius.io: Argo CD Introduction](https://blog.devgenius.io/argo-cd-introduction-4b16f50b0d56?gi=5752a4dc022b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Argo CD Introduction covering Argo CD in Argo (blog.devgenius.io).
+  - [blog.devops.dev: GitOps at Scale](https://blog.devops.dev/gitops-at-scale-69639c9a3dd7?gi=a8c8622eda97) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devops.dev: GitOps at Scale covering Argo CD in Argo (blog.devops.dev).
+  - [overcast.blog: GitOps with ArgoCD for Kubernetes](https://overcast.blog/gitops-with-argocd-for-kubernetes-tips-and-tricks-4b926ba75f88?gi=9a1568771b0a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for overcast.blog: GitOps with ArgoCD for Kubernetes covering Argo CD in Argo (overcast.blog).
+  - [faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from Unintended Deletion](https://faun.pub/argocd-finalizer-shield-protecting-your-clusters-from-unintended-deletion-c7929a82d983?gi=47f1ab1ab79a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from Unintended Deletion covering Argo CD in Argo (faun.pub).
+  - [overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration](https://overcast.blog/kubernetes-argocd-gitlab-webhook-configuration-30bc5a75139e?gi=95b5c450c748) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration covering Argo CD in Argo (overcast.blog).
+## Argo Rollouts
+
+  - [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53?gi=f66f6941f2f6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts covering Argo Rollouts in Argo (faun.pub).
+  - [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf?gi=3a2f10ce8dc2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze covering Argo Rollouts in Argo (faun.pub).
+## Argo Workflows
+
+  - [blog.argoproj.io: Practical Argo Workflows Hardening 🌟](https://blog.argoproj.io/practical-argo-workflows-hardening-dd8429acc1ce?gi=83f17a508156) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.argoproj.io: Practical Argo Workflows Hardening 🌟 covering Argo Workflows in Argo (blog.argoproj.io).
+  - [blog.argoproj.io: Architecting Workflows For Reliability](https://blog.argoproj.io/architecting-workflows-for-reliability-d33bd720c6cc?gi=06babfc7f53d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.argoproj.io: Architecting Workflows For Reliability covering Argo Workflows in Argo (blog.argoproj.io).
+## Automation and Orchestration
+
+### Gitops
+
+#### Argo CD (1)
+
+  - **(2026)** [==Argo CD==](https://argoproj.github.io/argo-cd) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The absolute industry standard for GitOps-based continuous delivery on Kubernetes. Argo CD synchronizes active cluster states with declarative configurations stored in git repositories, providing robust drift correction, visual dashboarding, and audit controls.
 ## Cloud Native
 
 ### Community
@@ -20,7 +46,7 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
   - **(2026)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Call for Proposals portal for ArgoCon North America 2026. Focuses on collecting real-world architectures, case studies, and enterprise patterns utilizing Argo CD, Argo Workflows, Argo Rollouts, and Argo Events.
 ### Orchestration
 
-#### Argo Workflows
+#### Argo Workflows (1)
 
 ##### Templates
 
@@ -30,7 +56,7 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
 ### Argo Project Ecosystem
 
   - **(2021)** [**devops.com: The Argo Project: Making GitOps Practical**](https://devops.com/the-argo-project-making-gitops-practical) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the rapid industry adoption of the Argo ecosystem (Argo CD, Workflows, Rollouts, Events). Explains how the projects solve operational gaps in native Kubernetes, making declarative continuous delivery robust and enterprise-ready.
-### Argo Rollouts
+### Argo Rollouts (1)
 
 #### Blue-green Deployment
 
@@ -38,9 +64,6 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
 #### Canary Deployment
 
   - **(2022)** [**infracloud.io: Progressive Delivery with Argo Rollouts: Canary Deployment**](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-canary-deployment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers a practical exploration of canary rollouts configured via Argo Rollouts. Focuses on setting step-based traffic splitting, managing dynamic service mesh weights (SMI, Linkerd, Istio), and defining automated rollbacks based on analysis metrics.
-#### Configuration Management
-
-  - **(2022)** [**codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts**](https://octopus.com/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Solves the tricky challenge of managing and rolling out application configuration updates dynamically. Demonstrates how to trigger controlled, safe progressive delivery cycles for applications when only ConfigMaps or Secrets are modified.
 #### Progressive Delivery
 
   - **(2023)** [==argoproj.github.io: Argo Rollouts - Kubernetes Progressive Delivery Controller==](https://argoproj.github.io/argo-rollouts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces the core concepts of Argo Rollouts, which replaces standard Kubernetes Deployment objects with custom Rollout resources. Enables automatic analysis, metrics integration (Prometheus, Datadog), and automated rollback strategies.
@@ -111,23 +134,23 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
   - **(2026)** [argoproj.github.io: Argo Events - The Event-driven Workflow Automation Framework](https://argoproj.github.io/argo-events) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard event-driven orchestration engine for Kubernetes. Argo Events integrates with sources like webhooks, S3, or pub-sub, dynamically executing serverless triggers, custom scripts, and Argo Workflows with native scalability.
 #### Gitops Strategy
 
-  - **(2022)** [Why and when do you need Argo CD?](https://mkdev.me/posts/why-and-when-do-you-need-argo-cd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive guide explaining the core capabilities of GitOps and the necessity of declarative pull engines like Argo CD. It details drift management, configuration alignment, and security advantages compared to manual push deployments.
+  - **(2022)** [Why and when do you need Argo CD?](https://mkdev.me/posts/why-and-when-do-you-need-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive guide explaining the core capabilities of GitOps and the necessity of declarative pull engines like Argo CD. It details drift management, configuration alignment, and security advantages compared to manual push deployments.
 #### UI Visualization
 
   - **(2024)** [==feat(ui): Add AppSet to Application Resource Tree in Argo CD==](https://github.com/argoproj/argo-cd/pull/26601) <span class='md-tag md-tag--info'>⭐ 23128</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c23c8a66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 9 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-c23c8a66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Argo CD feature enhancement that maps ApplicationSets directly inside the dashboard UI tree. This view simplifies managing multi-tenant topologies and nested application definitions for platform operators.
 #### Video Guides
 
-  - **(2022)** [youtube: GitOps with Argo-CD & Kubernetes](https://www.youtube.com/watch?v=QrLwFEXvxbo&ab_channel=HoussemDellai) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory video guide showing how to configure and run continuous deployment pipelines using Argo CD and Kubernetes. It walks through initial repository setups, synchronization configurations, and basic troubleshooting procedures.
+  - **(2022)** [youtube: GitOps with Argo-CD & Kubernetes](https://www.youtube.com/watch?v=QrLwFEXvxbo&ab_channel=HoussemDellai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory video guide showing how to configure and run continuous deployment pipelines using Argo CD and Kubernetes. It walks through initial repository setups, synchronization configurations, and basic troubleshooting procedures.
 ## Platform Engineering
 
 ### CICD (1)
 
-#### Argo Workflows (1)
+#### Argo Workflows (2)
 
 ##### Jenkins
 
   - **(2022)** [**Migrating CI/CD from Jenkins to Argo Workflows**](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Shares practical lessons from migrating a legacy Jenkins CI pipeline stack over to container-native Argo Workflows. Compares the performance, cost efficiency, resource overhead, and maintainability of step-based DAG flows.
-### Gitops
+### Gitops (1)
 
 #### AWS EKS
 
@@ -209,5 +232,5 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
 ---
 💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

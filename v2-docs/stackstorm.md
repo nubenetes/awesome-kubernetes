@@ -15,10 +15,11 @@ description: "Curated, AI-ranked Stackstorm resources for the 2026 Cloud Native 
 
 #### Stackstorm
 
+  - **(2025)** [StackStorm.com](https://stackstorm.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated workflow, remediation, and orchestration engine. Utilizes event-driven triggers, custom rules, and structured packs to deliver self-healing capabilities across cloud, network, and system infrastructures.
   - **(2025)** [github.com/StackStorm](https://github.com/StackStorm) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central repositories for the StackStorm platform containing internal event loops, action runners, rules-engine components, pack loaders, and comprehensive infrastructure orchestration drivers.
 
 ---
-💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

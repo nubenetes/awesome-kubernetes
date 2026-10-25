@@ -9,16 +9,6 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Troubleshooting in the context of The Container Stack.
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating” in the Kubernetes Tools ecosystem.
-  - [dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges](https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges== in the Kubernetes Tools ecosystem.
-  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Kubernetes Troubleshooting: A Step-by-Step Guide in the Kubernetes Tools ecosystem.
-  - [How to quarantine pods](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How to quarantine pods in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Pod Lifecycle
@@ -41,7 +31,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 
 #### Migration Strategies
 
-  - **(2026)** [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review addressing drift reconciliation when converting untracked click-ops clouds into declarative state files. Reviews native state import commands and toolkits that automate resource generation.
+  - **(2026)** [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review addressing drift reconciliation when converting untracked click-ops clouds into declarative state files. Reviews native state import commands and toolkits that automate resource generation.
 ## Cloud-native Platforms
 
 ### Operating Systems
@@ -56,6 +46,11 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Ctr CLI
 
   - **(2023)** [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical laboratory exercise focused on managing low-level container images using the containerd 'ctr' CLI. Vital for operations engineers debugging nodes directly where high-level runtimes like docker are not installed.
+## Debugging Techniques And Strategies. Debugging With Ephemeral Containers
+
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Kubernetes Troubleshooting: A Step-by-Step Guide covering Debugging Techniques and Strategies. Debugging with ephemeral containers in Kubernetes Troubleshooting (cncf.io).
+  - [How to quarantine pods](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to quarantine pods covering Debugging Techniques and Strategies. Debugging with ephemeral containers in Kubernetes Troubleshooting (reddit.com).
+  - [zendesk.engineering: Debugging containerd](https://zendesk.engineering/debugging-containerd-a20f28a2a8bf?gi=42f6b1a203d9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for zendesk.engineering: Debugging containerd covering Debugging Techniques and Strategies. Debugging with ephemeral containers in Kubernetes Troubleshooting (zendesk.engineering).
 ## Development Workflow
 
 ### Local Development
@@ -63,6 +58,28 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Bridge To Kubernetes
 
   - **(2021)** [thorsten-hans.com: Debugging apps in Kubernetes with Bridge](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Hands-on guide focusing on Microsoft's 'Bridge to Kubernetes' tool for direct local debugging within an active cluster context. Evaluates how the mechanism redirects traffic to a local machine without modifying production routing topologies.
+## Infrastructure
+
+### Cluster Management
+
+#### RKE2
+
+  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
+### Compute
+
+#### CPU Performance
+
+  - **(2023)** [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates latency spikes caused by the Linux CFS (Completely Fair Scheduler) quota enforcement mechanism in Kubernetes. Highlights how kernel bugs throttle containerized workloads even when usage is far below limits, providing remediation strategies such as adjusting quotas or using CPU pins.
+## Introduction
+
+  - [==itnext.io: Distroless Container Debugging on K8s/OpenShift==](https://itnext.io/distroless-container-debugging-on-k8s-openshift-e418fd66fdad?gi=d0d5fe8a33c5) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — When people focusing more on the security of containers, distroless based images are frequently used to reduce the attack surface. In these images, the package manager, the non-dependent modules or libraries, even the shells are stripped off, only the app and its required dependencies are kept. For the statically linked executable, produced by golang for example, we can even use “scratch” as the base. The potential exploit of vulnerability is therefore greatly reduced. But, on the other hand, it is difficult to troubleshoot the application if even the shell is not available, leaving only the logs from the app. In this paper, we will explore different options to facilitate debugging by bringing back the shell.
+  - [==faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1)==](https://faun.pub/debugging-networkpolicy-part-1-249921cdba37?gi=d0c46ea5dfd0) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1) covering Introduction in Kubernetes Troubleshooting (faun.pub).
+  - [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating” covering Introduction in Kubernetes Troubleshooting (veducate.co.uk).
+  - [levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes](https://levelup.gitconnected.com/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24?gi=8fafc09deed1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes covering Introduction in Kubernetes Troubleshooting (levelup.gitconnected.com).
+  - [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513?gi=a95914aa8486) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob covering Introduction in Kubernetes Troubleshooting (blog.devgenius.io).
+  - [faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud)](https://faun.pub/troubleshooting-kubernetes-nodes-storage-space-shortage-on-aliyun-alibaba-cloud-ac28230fe3d3?gi=c72683b281b1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud) covering Introduction in Kubernetes Troubleshooting (faun.pub).
+  - [dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges](https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges covering Introduction in Kubernetes Troubleshooting (dzone.com).
+  - [levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟](https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba?gi=721bbf72365d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟 covering Introduction in Kubernetes Troubleshooting (levelup.gitconnected.com).
 ## Kubernetes
 
 ### Core Mechanics
@@ -70,6 +87,14 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Pod Lifecycle (1)
 
   - **(2020)** [erkanerol.github.io: I wish pods were fully restartable](https://erkanerol.github.io/post/restartable-pods) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reflective post explores the architectural limitations of the Kubernetes Pod lifecycle, specifically the inability to easily restart individual containers without recreating the entire Pod. It analyzes proposed community designs and current workarounds, such as mutating controllers or rollout restarts. It provides deep architectural insights into the design decisions governing Kubernetes resource controllers.
+### Data Management
+
+#### Backup
+
+  - **(2021)** [thenewstack.io: 5 Best Practices to Back up Kubernetes](https://thenewstack.io/5-best-practices-to-back-up-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Ensuring disaster recovery capability in Kubernetes requires robust backup strategies for both cluster state (etcd) and persistent volume data. This reference highlights best practices including scheduling automated snapshot intervals, isolating backup storage, and regularly testing recovery procedures. Adhering to these patterns safeguards enterprise workloads against data corruption and ransomware.
+#### Checkpointing API
+
+  - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
 ### Networking
 
 #### Ingress Troubleshooting
@@ -88,6 +113,9 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### CPU Scheduling
 
   - **(2021)** [andydote.co.uk: The Problem with CPUs and Kubernetes](https://andydote.co.uk/2021/06/02/os-cpus-and-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A low-level analysis of how the Linux kernel scheduler interacting with CFS quota limits can severely throttle Kubernetes pods, even when total CPU utilization is low. The author exposes the architectural friction between container resource limits and multi-threaded application runtimes like Java and Go. Platform engineers will find valuable tuning techniques to mitigate silent latency spikes caused by CPU throttling.
+#### CPU Throttling
+
+  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
 #### Metrics Collection
 
   - **(2023)** [learnitguide.net: How to Check Memory Usage of a Pod in Kubernetes?](https://www.learnitguide.net/2023/04/how-to-check-memory-usage-of-pod-in.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Monitoring memory consumption is critical to preventing out-of-memory (OOM) evictions and performance degradation. This guide explains how to leverage the Kubernetes Metrics Server via kubectl top, alongside advanced Prometheus queries, to track real-time memory footprints. It contrasts raw memory utilization against requested resource boundaries to help right-size workloads.
@@ -150,6 +178,9 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Methodologies
 
   - **(2022)** [freecodecamp.org: How to Simplify Kubernetes Troubleshooting](https://www.freecodecamp.org/news/how-to-simplify-kubernetes-troubleshooting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive troubleshooting guide reframes cluster diagnostics into a logical, step-by-step methodology rather than chaotic guesswork. It focuses on isolating issues systematically across the application layer, the container runtime, and the underlying orchestrator networking. Utilizing this structured approach significantly lowers the cognitive load of on-call engineers.
+#### Playbooks
+
+  - **(2023)** [10 Real-World Kubernetes Troubleshooting Scenarios and Solutions](https://livingdevops.com/devops/10-real-world-kubernetes-troubleshooting-scenarios-and-solutions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This compilation details ten authentic, highly technical outage scenarios encountered in production Kubernetes clusters, complete with step-by-step diagnostic paths and resolutions. It covers complex issues like DNS resolution failure, certificate expiration, and stateful volume mounting locks. The practical nature of these scenarios makes this an invaluable resource for active operations teams.
 #### Pod Diagnostics
 
   - **(2023)** [learnitguide.net: How To Troubleshoot Kubernetes Pods](https://www.learnitguide.net/2023/04/how-to-troubleshoot-kubernetes-pods.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A focused tutorial describing standard commands and methodologies to diagnose Pod failures such as ImagePullBackOff, CrashLoopBackOff, and Evicted states. It systematically walks through the utilization of kubectl describe, logs, and events to construct an accurate failure timeline. It is perfect for junior engineers looking to build baseline debugging proficiency.
@@ -167,6 +198,19 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Kubectl Plugins
 
   - **(2020)** [==kubectl-debug==](https://github.com/aylei/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 2305</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ce999e8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 6 L 20 4 L 30 9 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-3ce999e8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Originally a popular community-built plugin to launch debugging containers within target pods, `kubectl-debug` has largely been superseded by native Kubernetes Ephemeral Containers (`kubectl debug` command) in modern releases. This project remains a valuable reference for historical context and legacy cluster compatibility. For modern clusters, engineers are strongly advised to transition to built-in Kubernetes diagnostic commands.
+## Kubernetes Network Troubleshooting
+
+  - [itnext.io: Tracing Pod2Pod Network Traffic in Kubernetes | Daniele Polencic](https://itnext.io/tracing-pod-to-pod-network-traffic-in-kubernetes-112523a325b2?gi=1ea4bfbfa628) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Tracing Pod2Pod Network Traffic in Kubernetes | Daniele Polencic covering Kubernetes Network Troubleshooting in Kubernetes Troubleshooting (itnext.io).
+## Kubernetes Platform Engine
+
+### Cluster Operations
+
+#### Memory Management
+
+  - **(2025)** [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses Kubernetes `OOMKilled` (Exit Code 137) events caused by memory leaks, misconfigured resource limits, and JVM heap management issues. Explains how to set appropriate limits/requests while implementing profiling tools to prevent container churn.
+## OOM Kills
+
+  - [itnext.io: Kubernetes Silent Pod Killer](https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9?gi=b61ce468ed02) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Silent Pod Killer covering OOM Kills in Kubernetes Troubleshooting (itnext.io).
 ## Observability (1)
 
 ### Debugging
@@ -179,6 +223,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - **(2021)** [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 373</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-582e5a31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 13 L 30 7 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-582e5a31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kubectl plugin designed to launch temporary debugging containers within a target pod namespace. Streamlines manual container introspection prior to the widespread adoption of native ephemeral containers.
 #### CLI Operations
 
+  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
   - **(2021)** [thenewstack.io: Living with Kubernetes: 12 Commands to Debug Your Workloads 🌟](https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated list of 12 essential kubectl commands designed to streamline low-level container and network diagnostics. Targets common day-2 operational challenges, addressing resource pressure, storage attachments, and system event inspection.
 #### Container Debugging
 
@@ -187,6 +232,9 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Containers
 
   - **(2023)** [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9b83afe9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 7 L 20 12 L 30 12 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-9b83afe9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Kubernetes debugging container designed to simplify troubleshooting inside active pods. It packages key diagnostic tools (curl, dig, iproute2, etc.) for direct execution inside the cluster networking space, serving as an effective sidecar or ephemeral debugging agent.
+#### Ebpf
+
+  - **(2025)** [**inspektor-gadget/inspektor-gadget**](https://github.com/inspektor-gadget/inspektor-gadget) <span class='md-tag md-tag--info'>⭐ 2846</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-37415f61" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 8 L 20 5 L 30 12 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-37415f61)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced eBPF-based debugging and observability framework for Kubernetes clusters. It instruments system calls, network flows, and filesystem activities directly at the kernel level without injecting sidecars, delivering low-overhead runtime inspection and security auditing.
 #### Legacy Tooling
 
   - **(2021)** [palaemon.io](https://palaemon.io)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Legacy troubleshooting tool aimed at optimizing container workloads and analyzing scheduling configurations. Now largely archived but remains historically relevant for declarative scheduling architectures.
@@ -220,9 +268,15 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Multi-cluster
 
   - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-723a78a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 11 L 30 7 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-723a78a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
+## Pause Container
+
+  - [blog.devgenius.io: K8s — pause container](https://blog.devgenius.io/k8s-pause-container-f7abd1e9b488?gi=659c7b1bb468) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: K8s — pause container covering Pause Container in Kubernetes Troubleshooting (blog.devgenius.io).
+## Pod In Terminating Or Unknown Status
+
+  - [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8?gi=046cd4419fd0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status covering Pod in Terminating or Unknown Status in Kubernetes Troubleshooting (blog.devgenius.io).
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

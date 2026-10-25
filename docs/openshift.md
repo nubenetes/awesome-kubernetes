@@ -128,7 +128,6 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ## e-Books
 
-- [O'Reilly Free Book: **DevOps with OpenShift**](https://www.redhat.com/en/resources)
 - [O'Reilly Free Book: **Openshift for developers**](https://www.redhat.com/en/technologies/cloud-computing/openshift/for-developers)
 - [O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration Platform**](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)
 - [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)
@@ -286,7 +285,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ## Openshift Compliant Docker Images
 
-- [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://catalog.redhat.com/en) License required
 - [DockerHub OpenShift](https://hub.docker.com/u/openshift)
 - [github.com/sclorg/](https://github.com/sclorg)
 - [github.com/sclorg/postgresql-container/](https://github.com/sclorg)

@@ -54,5 +54,5 @@ description: "Top Keptn resources for 2026, AI-ranked: Keptn, Quick Start and mo
 ---
 💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 
