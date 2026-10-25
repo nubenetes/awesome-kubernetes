@@ -22,7 +22,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, AKS Labs -
 
 #### Gateway API
 
-  - **(2025)** [**Application Gateway for Containers: Istio Integration**](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) <span class='md-tag md-tag--warning'>[GO / YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced architectural post demonstrating how Azure Application Gateway for Containers (AGC) integrates with Istio Service Mesh via Kubernetes Gateway API. It details how edge traffic routing seamlessly hands off to internal mesh proxy sidecars while preserving end-to-end mTLS and header-based routing. This integration is critical for high-security microservices topologies demanding zero-trust communication.
+  - **(2025)** [**Application Gateway for Containers: Istio Integration**](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) <span class='md-tag md-tag--warning'>[GO / YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced architectural post demonstrating how Azure Application Gateway for Containers (AGC) integrates with Istio Service Mesh via Kubernetes Gateway API. It details how edge traffic routing seamlessly hands off to internal mesh proxy sidecars while preserving end-to-end mTLS and header-based routing. This integration is critical for high-security microservices topologies demanding zero-trust communication.
 ## Cloud Native Infrastructure
 
 ### Data Plane
@@ -83,7 +83,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, AKS Labs -
 #### Performance
 
   - **(2023)** [==Istio Performance/Stability Testing==](https://github.com/istio/tools/blob/master/perf/README.md) <span class='md-tag md-tag--info'>⭐ 372</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-28168c0f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 8 L 30 9 L 40 13 L 50 10" fill="none" stroke="url(#spark-grad-28168c0f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official benchmark suite for evaluating Istio control plane and data plane performance. Platform engineers use this suite to run stress tests, measure sidecar latency injection, and detect potential resource leaks in upstream Envoy proxy layers.
-  - **(2022)** [istio.io: Merbridge - Accelerate your mesh with eBPF](https://istio.io/latest/blog/2022/merbridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents Merbridge, an open-source tool that leverages eBPF to bypass the traditional iptables overhead in Istio environments. By routing data directly between sockets, Merbridge significantly reduces network latency and control plane CPU usage.
+  - **(2022)** [istio.io: Merbridge - Accelerate your mesh with eBPF](https://istio.io/latest/blog/2022/merbridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — Presents Merbridge, an open-source tool that leverages eBPF to bypass the traditional iptables overhead in Istio environments. By routing data directly between sockets, Merbridge significantly reduces network latency and control plane CPU usage.
 #### Release Notes
 
   - **(2021)** [thenewstack.io: Istio 1.10 Improves Scalability and Revision Control](https://thenewstack.io/istio-1-10-improves-scalability-and-revision-control)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines performance enhancements and lifecycle management tooling introduced in Istio 1.10. Specifically reviews canary control plane upgrades and telemetry collection optimizations to limit memory overhead in intensive environments.
@@ -107,7 +107,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, AKS Labs -
 
 #### Hands-on Learning
 
-  - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
+  - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
 ## Continuous Delivery
 
 ### Gitops
@@ -150,7 +150,7 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, AKS Labs -
 
 #### Deployment
 
-  - **(2021)** [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations guide detailing how to run Jaeger in high-traffic production environments on Kubernetes. Compares Elasticsearch and Cassandra storage backends and reviews the deployment of collectors and agents.
+  - **(2021)** [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — An operations guide detailing how to run Jaeger in high-traffic production environments on Kubernetes. Compares Elasticsearch and Cassandra storage backends and reviews the deployment of collectors and agents.
 #### Jaeger
 
   - **(2026)** [Jaeger](https://www.jaegertracing.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The flagship Jaeger engine for distributed tracing, featuring comprehensive backend storage backends (Elasticsearch, Cassandra) and advanced UI query panels for deep dive transaction forensics.

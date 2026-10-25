@@ -46,7 +46,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
 
 ##### Single Region
 
-  - **(2020)** [**Disaster Recovery with AWS Managed Services, Part I: Single Region**](https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-services-part-i-single-region) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The first installment of an AWS technical series discussing single-region disaster recovery designs using server backups and managed services. Live Grounding points to this as a standard primer for establishing concrete RPO and RTO profiles before attempting multi-region failover configurations.
+  - **(2020)** [**Disaster Recovery with AWS Managed Services, Part I: Single Region**](https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-services-part-i-single-region) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — The first installment of an AWS technical series discussing single-region disaster recovery designs using server backups and managed services. Live Grounding points to this as a standard primer for establishing concrete RPO and RTO profiles before attempting multi-region failover configurations.
 #### AWS Compute
 
 ##### EC2

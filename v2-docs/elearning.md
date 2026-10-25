@@ -11,7 +11,7 @@ description: "Top Elearning resources for 2026, AI-ranked: codely.tv, Whizlabs a
 
 ## AI And Machine Learning  Education Technology  Prototypes
 
-  - **(2026)** [**Students prototype learning tools with AI at University of Waterloo**](https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: This academic collaboration highlights how early-stage engineers can leverage standardized, cloud-hosted API models to tackle accessibility and learning barriers.
+  - **(2026)** [**Students prototype learning tools with AI at University of Waterloo**](https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: This academic collaboration highlights how early-stage engineers can leverage standardized, cloud-hosted API models to tackle accessibility and learning barriers.
 
 Live Grounding: Students at the Waterloo Futures Lab developed physical and software prototypes, including interactive sign language interpreters, illustrating how public LLM accessibility accelerates social impact engineering.
 ## AI Courses
@@ -39,7 +39,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 ##### Gamified Learning
 
-  - **(2025)** [SQL Police Department](https://sqlpd.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized gamified engine where users solve mock criminal investigations writing relational SQL queries. Highly effective for building structural query efficiency and database logic before moving to complex stateful containerization.
+  - **(2025)** [SQL Police Department](https://sqlpd.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — A specialized gamified engine where users solve mock criminal investigations writing relational SQL queries. Highly effective for building structural query efficiency and database logic before moving to complex stateful containerization.
 ## Databases (1)
 
 ### Postgresql
@@ -64,8 +64,8 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 ## List
 
   - [Udacity.com](https://www.udacity.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Udacity.com covering List in Elearning (udacity.com).
-  - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com covering List in Elearning (guru99.com).
   - [GCF LearnFree.org](https://www.learnfree.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GCF LearnFree.org covering List in Elearning (learnfree.org).
+  - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com covering List in Elearning (guru99.com).
   - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for harvard.edu: CS50: Introduction to Computer Science (free) covering List in Elearning (pll.harvard.edu).
 ## Operating Systems and Infrastructure
 
@@ -73,7 +73,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Sysadmin Tutorials
 
-  - **(2026)** [**learnitguide.net 🌟**](https://www.learnitguide.net) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated educational platform providing in-depth guides on enterprise Linux administration, DevOps tools, automation, and cloud platforms. Its systematic tutorials are designed to prepare system administrators for managing highly available enterprise environments.
+  - **(2026)** [**learnitguide.net 🌟**](https://www.learnitguide.net) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated educational platform providing in-depth guides on enterprise Linux administration, DevOps tools, automation, and cloud platforms. Its systematic tutorials are designed to prepare system administrators for managing highly available enterprise environments.
 ## Orchestration
 
 ### Infrastructure As Code
@@ -85,7 +85,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Vmware Tanzu Ecosystem
 
-  - **(2026)** [**kube.academy**](https://kube.academy) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly polished training engine sponsored by VMware Tanzu. Walks engineers through complex modular tracks detailing multi-tenancy, cluster scaling, control-plane metrics, and security controls within corporate environments.
+  - **(2026)** [**kube.academy**](https://kube.academy) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly polished training engine sponsored by VMware Tanzu. Walks engineers through complex modular tracks detailing multi-tenancy, cluster scaling, control-plane metrics, and security controls within corporate environments.
 ## Platform Engineering
 
 ### Legacy Sandboxes
@@ -97,14 +97,14 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Public Sector
 
-  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
+  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Professional Development
 
 ### Certifications
 
 #### Cloud and DevOps
 
-  - **(2026)** [**Whizlabs**](https://www.whizlabs.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Professional certification training platform offering detailed exam preparation simulations for CKA, CKAD, and CKS. Combines structured video guides with cloud-based sandboxes to test real-world debugging capabilities, container engineering, and system security practices.
+  - **(2026)** [**Whizlabs**](https://www.whizlabs.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Professional certification training platform offering detailed exam preparation simulations for CKA, CKAD, and CKS. Combines structured video guides with cloud-based sandboxes to test real-world debugging capabilities, container engineering, and system security practices.
 #### Linux and Open Source
 
   - **(2026)** [==The Linux Foundation Training==](https://training.linuxfoundation.org/resources) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive training and certification source for open-source engineering. Directs the primary curricula for the CKA, CKAD, and CKS benchmarks, offering authoritative lessons on container network interfaces, control-plane troubleshooting, and Linux security interfaces.
@@ -112,15 +112,15 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### DevOps and Cloud
 
-  - **(2026)** [**techstudyslack.com**](https://techstudyslack.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An active chat-driven support collective focusing on Cloud Architecture, Kubernetes certifications, and system engineering. Provides peer-to-peer technical debugging, study templates, and resume refinement guides.
+  - **(2026)** [**techstudyslack.com**](https://techstudyslack.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An active chat-driven support collective focusing on Cloud Architecture, Kubernetes certifications, and system engineering. Provides peer-to-peer technical debugging, study templates, and resume refinement guides.
 ### Higher Education
 
 #### Computer Science
 
-  - **(2026)** [**edx.org**](https://www.edx.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A university-grade training engine hosting the Linux Foundation's official cloud-native course catalog. Provides rigorous theoretical lectures combined with command-line practice, bridging standard OS fundamentals with enterprise container orchestration abstractions.
+  - **(2026)** [**edx.org**](https://www.edx.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A university-grade training engine hosting the Linux Foundation's official cloud-native course catalog. Provides rigorous theoretical lectures combined with command-line practice, bridging standard OS fundamentals with enterprise container orchestration abstractions.
 #### Software Engineering
 
-  - **(2026)** [**Coursera.org**](https://www.coursera.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A massive educational platform delivering structured cloud-native specializations designed by industry leaders. Focuses on distributed application architectures, microservices testing, and container deployment flows.
+  - **(2026)** [**Coursera.org**](https://www.coursera.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A massive educational platform delivering structured cloud-native specializations designed by industry leaders. Focuses on distributed application architectures, microservices testing, and container deployment flows.
 ### Mathematics and CS
 
 #### Foundations
@@ -130,7 +130,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Continuous Education
 
-  - **(2026)** [Lynda.com Linkedin Learning](https://www.linkedin.com/learning/?trk=lynda_redirect_learning) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-standard corporate video platform delivering wide-ranging content on Docker containerization, Jenkins pipelines, and basic Kubernetes architecture. While highly polished, the courses tend to prioritize foundational theoretical paradigms over complex, bare-metal operations.
+  - **(2026)** [Lynda.com Linkedin Learning](https://www.linkedin.com/learning/?trk=lynda_redirect_learning) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An industry-standard corporate video platform delivering wide-ranging content on Docker containerization, Jenkins pipelines, and basic Kubernetes architecture. While highly polished, the courses tend to prioritize foundational theoretical paradigms over complex, bare-metal operations.
 ### Opinion and Strategy
 
 #### Career Development
@@ -145,12 +145,12 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Gamified Coding
 
-  - **(2026)** [**codewars.com**](https://www.codewars.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A gamified competitive development portal focused on logical refactoring, testing algorithms, and language mastery. Highly effective for honing programming cleanliness before managing massive microservices codebases.
+  - **(2026)** [**codewars.com**](https://www.codewars.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A gamified competitive development portal focused on logical refactoring, testing algorithms, and language mastery. Highly effective for honing programming cleanliness before managing massive microservices codebases.
 ### Developer Productivity
 
 #### Muscle Memory
 
-  - **(2026)** [typing.io: Typing Practice for Programmers](https://typing.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A niche developmental utility geared towards training muscle memory for code-specific characters, structural syntax, and shell scripting brackets. Uses popular open-source kernels and infrastructure code bases to scale high-speed programming capability.
+  - **(2026)** [typing.io: Typing Practice for Programmers](https://typing.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — A niche developmental utility geared towards training muscle memory for code-specific characters, structural syntax, and shell scripting brackets. Uses popular open-source kernels and infrastructure code bases to scale high-speed programming capability.
 ### Documentation
 
 #### Crowdsourced Guides
@@ -165,7 +165,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Interactive Coding
 
-  - **(2026)** [codecademy.com](https://www.codecademy.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Browser-native sandbox tool building rapid programming muscle memory across Go, Python, and shell scripts. It incorporates localized command-line simulation to introduce the core foundations of container management and terminal automation.
+  - **(2026)** [codecademy.com](https://www.codecademy.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Browser-native sandbox tool building rapid programming muscle memory across Go, Python, and shell scripts. It incorporates localized command-line simulation to introduce the core foundations of container management and terminal automation.
 ### Software Architecture
 
 #### DDD and Testing

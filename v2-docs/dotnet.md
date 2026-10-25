@@ -73,7 +73,7 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 
 #### Agent Integration
 
-  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines methods for extending autonomous AI coding agents with direct .NET skill injection. Uses Semantic Kernel to build tools enabling LLMs to execute C# compilations, format files, and interact natively with code bases.
+  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Examines methods for extending autonomous AI coding agents with direct .NET skill injection. Uses Semantic Kernel to build tools enabling LLMs to execute C# compilations, format files, and interact natively with code bases.
 ### Client Technologies
 
 #### CICD and DevOps

@@ -15,7 +15,7 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 
 #### Deepseek R1
 
-  - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A cutting-edge deployment guide illustrating execution profiles of the revolutionary DeepSeek R1 reasoning models inside newly provisioned high-performance DigitalOcean GPU Droplets. Addresses architectural configurations for model weights and CUDA drivers.
+  - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — A cutting-edge deployment guide illustrating execution profiles of the revolutionary DeepSeek R1 reasoning models inside newly provisioned high-performance DigitalOcean GPU Droplets. Addresses architectural configurations for model weights and CUDA drivers.
 ## Cloud Infrastructure
 
 ### Paas

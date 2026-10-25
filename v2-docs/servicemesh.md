@@ -70,15 +70,10 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 ##### Design Patterns
 
   - **(2023)** [**learn.hashicorp.com: Consul Service Mesh on Kubernetes Design Patterns**](https://developer.hashicorp.com/consul/tutorials/archive/kubernetes-consul-design-patterns) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Presents design patterns for running Consul Service Mesh on Kubernetes. Details transit gateways, multi-datacenter federated sync, and secure token and certificate integration with HashiCorp Vault.
-  - **(2026)** [**consul.io**](https://developer.hashicorp.com/consul) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — HashiCorp's multi-cloud service networking platform featuring integrated service mesh capabilities. Despite HashiCorp's 2023 transition to the Business Source License (BSL), Consul Connect remains highly adopted in enterprise hybrid environments.
+  - **(2026)** [**consul.io**](https://developer.hashicorp.com/consul) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — HashiCorp's multi-cloud service networking platform featuring integrated service mesh capabilities. Despite HashiCorp's 2023 transition to the Business Source License (BSL), Consul Connect remains highly adopted in enterprise hybrid environments.
 #### Decision Matrix
 
   - **(2022)** [**containerjournal.com: When Is Service Mesh Worth It?**](https://cloudnativenow.com/features/when-is-service-mesh-worth-it) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides a rigorous decision framework outlining when to adopt a service mesh. Examines the operational thresholds of system scale, regulatory security standards, and telemetry depth where mesh benefits outweigh the inherent memory and latency overhead.
-#### Ebpf
-
-##### Future Trends
-
-  - **(2022)** [==infoq.com: Sidecars, eBPF and the Future of Service Mesh==](https://www.infoq.com/presentations/service-mesh-ebpf) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains the architectural shift from traditional sidecar proxies to sidecarless kernel-level service routing powered by eBPF. Analyzes how moving L4 networking logic directly into the kernel drastically reduces RAM usage and network latency.
 #### Evaluation
 
   - **(2021)** [**cloudops.com: Comparing Service Meshes: Istio, Linkerd, Consul Connect, and Citrix ADC**](https://www.cloudops.com/blog/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A comprehensive architectural comparison assessing Istio, Linkerd, Consul Connect, and Citrix ADC. Contrast analyses target data plane performance, control plane complexity, and integration profiles with external multi-cloud boundaries.
@@ -87,7 +82,7 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
   - **(2021)** [learnsteps.com: What is a service mesh? Is it born with Kubernetes?](https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Traces the historical genesis of service meshes back to early monolithic networking libraries (Finagle, Hystrix). Illustrates how the deployment pattern migrated to container-based sidecars alongside Kubernetes' rapid adoption.
 #### Landscape
 
-  - **(2025)** [==layer5.io: The Service Mesh Landscape 🌟🌟==](https://layer5.io/service-mesh-landscape) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive tracker mapping out the diverse, evolving service mesh landscape. Managed by Layer5, it catalogues API compatibility, conformance standards, and architecture changes (e.g., sidecarless eBPF vs. sidecars) across all industry meshes.
+  - **(2025)** [==layer5.io: The Service Mesh Landscape 🌟🌟==](https://layer5.io/service-mesh-landscape) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — An interactive tracker mapping out the diverse, evolving service mesh landscape. Managed by Layer5, it catalogues API compatibility, conformance standards, and architecture changes (e.g., sidecarless eBPF vs. sidecars) across all industry meshes.
 #### Linkerd
 
 ##### Gitops
@@ -163,10 +158,15 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 
 ##### Meshery
 
-  - **(2026)** [**Meshery.io:**](https://meshery.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The CNCF multi-mesh manager Meshery. Enables performance benchmarking, conformance checks, and dynamic designing across meshes like Istio, Linkerd, and Consul, using the Service Mesh Performance (SMP) standard.
+  - **(2026)** [**Meshery.io:**](https://meshery.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The CNCF multi-mesh manager Meshery. Enables performance benchmarking, conformance checks, and dynamic designing across meshes like Istio, Linkerd, and Consul, using the Service Mesh Performance (SMP) standard.
 #### Tutorials
 
   - **(2022)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive implementation roadmap designed to guide engineering teams through the planning, deployment, and optimization stages of building an enterprise-grade Istio platform from the ground up.
+#### eBPF
+
+##### Future Trends
+
+  - **(2022)** [==infoq.com: Sidecars, eBPF and the Future of Service Mesh==](https://www.infoq.com/presentations/service-mesh-ebpf) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — Explains the architectural shift from traditional sidecar proxies to sidecarless kernel-level service routing powered by eBPF. Analyzes how moving L4 networking logic directly into the kernel drastically reduces RAM usage and network latency.
 ## Cloud Native Networking
 
 ### Control Plane
@@ -224,9 +224,9 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 ## Introduction
 
   - [==itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟==](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41?gi=f17cdb565828) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟 covering Introduction in Servicemesh (itnext.io).
+  - [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide/-2021) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development covering Introduction in Servicemesh (infoq.com).
   - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Service Mesh Is Still Hard covering Introduction in Servicemesh (cncf.io).
   - [cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options covering Introduction in Servicemesh (cncf.io).
-  - [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide/-2021) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development covering Introduction in Servicemesh (infoq.com).
 ## Linkerd Service Mesh
 
   - [cncf.io: Protocol detection and opaque ports in Linkerd](https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Protocol detection and opaque ports in Linkerd covering Linkerd Service Mesh in Servicemesh (cncf.io).

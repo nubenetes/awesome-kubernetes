@@ -29,7 +29,7 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
 
 #### AWS Resource Importers
 
-  - **(2025)** [**former2.com**](https://former2.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Former2 is an industry-standard open-source browser utility that imports active AWS configurations and outputs valid CloudFormation, Terraform, or AWS CDK structures. Running client-side to protect credentials, it simplifies migrating manually provisioned resources into structured Git repositories.
+  - **(2025)** [**former2.com**](https://former2.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Former2 is an industry-standard open-source browser utility that imports active AWS configurations and outputs valid CloudFormation, Terraform, or AWS CDK structures. Running client-side to protect credentials, it simplifies migrating manually provisioned resources into structured Git repositories.
   - **(2022)** [Accelerate infrastructure as code development with open source Former2](https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This AWS blog post reviews the integration of Former2 into migration workflows. It demonstrates how to securely parse live AWS API parameters to generate accurate, deployable templates for complex networking configurations and database deployments.
 #### Compute Orchestration
 

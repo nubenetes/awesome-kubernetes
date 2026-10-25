@@ -37,7 +37,7 @@ description: "Top CI/CD Kubernetes Plugins resources for 2026, AI-ranked: Jenkin
   - **(2022)** [==openshift-sync==](https://plugins.jenkins.io/openshift-sync) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Jenkins plugin designed to continuously synchronize Jenkins Job states, configurations, and build logs directly with OpenShift’s Build configurations and pipelines. By unifying build states, it provides developers with a single dashboard experience within the native OpenShift console interface.
 ## Kubernetes Job Scheduling
 
-  - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?gi=b7df13ef57ad&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Netflix Simplified Batch Compute with Kueue covering Kubernetes Job Scheduling in CI/CD Kubernetes Plugins (netflixtechblog.com).
+  - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?gi=b7df13ef57ad&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Technical documentation and implementation reference for How Netflix Simplified Batch Compute with Kueue covering Kubernetes Job Scheduling in CI/CD Kubernetes Plugins (netflixtechblog.com).
 
 ---
 💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Registries](./registries.md)

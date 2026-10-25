@@ -17,7 +17,7 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 
 ##### Runtime Configuration
 
-  - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to dynamically install Java 23 onto Azure DevOps pipeline agents using automated setup tasks. In 2026, using localized runtime installation tasks is preferred over relying on pre-baked VM images, allowing pipelines to remain flexible and easily adapt to new framework versions.
+  - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Demonstrates how to dynamically install Java 23 onto Azure DevOps pipeline agents using automated setup tasks. In 2026, using localized runtime installation tasks is preferred over relying on pre-baked VM images, allowing pipelines to remain flexible and easily adapt to new framework versions.
 ## Cloud-native Java
 
 ### Runtimes
@@ -31,18 +31,18 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 
 ##### Docker
 
-  - **(2026)** [**Payara Micro**](https://hub.docker.com/r/payara/micro) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official Docker image for Payara Micro, a lightweight, cloud-optimized container runtime designed specifically for MicroProfile applications. Live Grounding shows Payara Micro is extensively used in dynamic, auto-scaling Kubernetes microservice pods due to its rapid startup and low configuration overhead.
+  - **(2026)** [**Payara Micro**](https://hub.docker.com/r/payara/micro) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official Docker image for Payara Micro, a lightweight, cloud-optimized container runtime designed specifically for MicroProfile applications. Live Grounding shows Payara Micro is extensively used in dynamic, auto-scaling Kubernetes microservice pods due to its rapid startup and low configuration overhead.
 #### Payara Server
 
 ##### Docker (1)
 
-  - **(2026)** [Payara](https://hub.docker.com/r/payara/server-full) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — The official Docker Hub repository for Payara Server Full, providing ready-made container images for complete Jakarta EE runtime capabilities. Live Grounding shows its primary use in legacy system migration, allowing enterprise operations to orchestrate monolithic workloads with modern container tooling.
+  - **(2026)** [Payara](https://hub.docker.com/r/payara/server-full) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The official Docker Hub repository for Payara Server Full, providing ready-made container images for complete Jakarta EE runtime capabilities. Live Grounding shows its primary use in legacy system migration, allowing enterprise operations to orchestrate monolithic workloads with modern container tooling.
 #### Wildfly
 
 ##### Developer Workflow
 
   - **(2021)** [opensource.com: Get started with WildFly for Java web development](https://opensource.com/article/21/7/wildfly) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory guide on using WildFly for web application development, demonstrating fast setup and deploy loops. Live Grounding indicates its practical value for developers looking to run traditional web-profiles on modular container frameworks without heavy J2EE runtime friction.
-  - **(2026)** [**WildFly**](https://www.wildfly.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project homepage for WildFly, Red Hat's open-source application server executing modern Jakarta EE specifications. Live Grounding highlights WildFly as a high-performance, modular system featuring fast startup and low memory usage, heavily favored for container deployments.
+  - **(2026)** [**WildFly**](https://www.wildfly.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project homepage for WildFly, Red Hat's open-source application server executing modern Jakarta EE specifications. Live Grounding highlights WildFly as a high-performance, modular system featuring fast startup and low memory usage, heavily favored for container deployments.
 ## Enterprise Java
 
 ### Runtimes (1)

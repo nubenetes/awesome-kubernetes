@@ -11,11 +11,11 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 
 ## Standard Reference
 
+  - [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9?gi=ee89778c6f98) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: How to manage your technical backlog in the Project Management Methodology ecosystem (levelup.gitconnected.com).
   - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Project Management Methodology: A Beginner's Guide in the Project Management Methodology ecosystem (dzone.com).
   - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: A Complete Guide to the Project Management Lifecycle in the Project Management Methodology ecosystem (dzone.com).
   - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 40 Project Management Terms and Concepts of 2019 in the Project Management Methodology ecosystem (dzone.com).
   - [dzone.com: Productivity: Noise Is the Problem 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone.com: Productivity: Noise Is the Problem 🌟🌟 in the Project Management Methodology ecosystem (dzone.com).
-  - [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9?gi=ee89778c6f98) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: How to manage your technical backlog in the Project Management Methodology ecosystem (levelup.gitconnected.com).
 
 ## Agile Vs Scrum Vs Kanban
 

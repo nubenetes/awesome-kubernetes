@@ -95,7 +95,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 
 #### Devin AI
 
-  - **(2024)** [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/tecnologia/devin-inteligencia-artificial-programa-software) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Cognition's Devin AI agent, demonstrating complete software development automation. Discusses autonomous debugging, repository management, and deployment capabilities representing the cutting-edge intersection of LLMs and DevSecOps pipelines.
+  - **(2024)** [hipertextual.com: Así es Devin, la inteligencia artificial que programa software de principio a fin](https://hipertextual.com/tecnologia/devin-inteligencia-artificial-programa-software) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Overview of Cognition's Devin AI agent, demonstrating complete software development automation. Discusses autonomous debugging, repository management, and deployment capabilities representing the cutting-edge intersection of LLMs and DevSecOps pipelines.
 ## Infrastructure
 
 ### Enterprise Operating Systems

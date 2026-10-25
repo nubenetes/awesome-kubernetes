@@ -162,7 +162,7 @@
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Observability, SRE & Testing</div>
   <div class="trending-card__title"><a href="https://github.com/prometheus/prometheus">prometheus</a></div>
-  <div class="trending-card__meta">2026-06-13 · 64.5k★</div>
+  <div class="trending-card__meta">2026-06-13 · 66.8k★</div>
   <div class="trending-card__why">It is the foundational CNCF benchmark time-series engine that powers metrics scraping and alerting across cloud-native environments.</div>
 </div>
 <div class="trending-card trending-card--extra">
@@ -295,7 +295,7 @@
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Architecture & Microservices</div>
   <div class="trending-card__title"><a href="https://github.com/rootsongjc/awesome-cloud-native">rootsongjc/awesome-cloud-native 🌟</a></div>
-  <div class="trending-card__meta">2026-06-08 · 2.4k★</div>
+  <div class="trending-card__meta">2026-06-08 · 2.5k★</div>
   <div class="trending-card__why">Comprehensive architectural guide mapping the CNCF landscape, service meshes, and dynamic storage foundations that power cloud-native microservices.</div>
 </div>
 <div class="trending-card trending-card--extra">
@@ -418,8 +418,9 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#docker-shell-content" title="1 resources">Docker/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#dockerfile-content" title="20 resources">Dockerfile<span class="v2-heat-n">20</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dockerfile-shell-content" title="1 resources">Dockerfile/Shell<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#ebpf" title="70 resources">EBPF<span class="v2-heat-n">70</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#emerging" title="82 resources">Emerging<span class="v2-heat-n">82</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#emerging" title="488 resources">Emerging<span class="v2-heat-n">488</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1094 resources">Enterprise-Stable<span class="v2-heat-n">1094</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
@@ -435,6 +436,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-typescript-content" title="1 resources">Go/Typescript<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#go-yaml-content-2" title="3 resources">Go/Yaml<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#gpu" title="52 resources">GPU<span class="v2-heat-n">52</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="58 resources">Groovy<span class="v2-heat-n">58</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-hcl-content" title="1 resources">Groovy/Hcl<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-yaml-content" title="1 resources">Groovy/Yaml<span class="v2-heat-n">1</span></a>
@@ -462,14 +464,17 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="1 resources">Kubernetes<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#legacy" title="545 resources">Legacy<span class="v2-heat-n">545</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#legacy" title="552 resources">Legacy<span class="v2-heat-n">552</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#llm" title="81 resources">LLM<span class="v2-heat-n">81</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="335 resources">Markdown<span class="v2-heat-n">335</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="233 resources">MCP<span class="v2-heat-n">233</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#merge-queue" title="1 resources">Merge-Queue<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#mlops" title="54 resources">MLOPS<span class="v2-heat-n">54</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#multi-content" title="2 resources">Multi<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#nginx-conf-content" title="1 resources">Nginx Conf<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#nix-content" title="2 resources">Nix<span class="v2-heat-n">2</span></a>

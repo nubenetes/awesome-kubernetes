@@ -75,7 +75,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 
 #### Hands-on Learning
 
-  - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
+  - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
 ## Deployment and Delivery
 
 ### CICD
@@ -146,7 +146,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 
 #### Comprehensive Reference
 
-  - **(2025)** [**freecodecamp.org: The Kubernetes Handbook 🌟**](https://www.freecodecamp.org/news/the-kubernetes-handbook) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A robust, free reference guide to Kubernetes cluster configuration. Contains detailed walk-throughs on container networks, continuous integration patterns, and localized diagnostic routines with configuration syntax.
+  - **(2025)** [**freecodecamp.org: The Kubernetes Handbook 🌟**](https://www.freecodecamp.org/news/the-kubernetes-handbook) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A robust, free reference guide to Kubernetes cluster configuration. Contains detailed walk-throughs on container networks, continuous integration patterns, and localized diagnostic routines with configuration syntax.
   - **(2024)** [dev.to: Let's Learn Kubernetes Series' Articles](https://dev.to/pghildiyal/series/14818) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A systematic deep dive into Kubernetes design patterns, cluster schedulers, security controls, and storage operations. Promotes highly structured conceptual understanding of how container nodes synchronize states.
 #### Continuous Learning
 
@@ -155,7 +155,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - **(2026)** [==100 Days Of Kubernetes: 100daysofkubernetes.io==](https://100daysofkubernetes.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly progressive community learning roadmap tracing advanced modern platform architectures. Chronicles continuous topics ranging from standard containers to advanced Envoy proxying, service meshes, and GitOps deployments.
 #### Fundamentals (2)
 
-  - **(2025)** [**devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide**](https://devopscube.com/kubernetes-tutorials-beginners) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional introductory portal that distills container architecture into highly digestible guides. Explores standard pod mechanics, ingress controllers, environment configs, and scaling strategies with clean procedural steps.
+  - **(2025)** [**devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide**](https://devopscube.com/kubernetes-tutorials-beginners) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional introductory portal that distills container architecture into highly digestible guides. Explores standard pod mechanics, ingress controllers, environment configs, and scaling strategies with clean procedural steps.
 #### Hands-on Labs (1)
 
 ##### Cheat Sheets
@@ -163,12 +163,12 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - **(2025)** [==omerbsezer/Fast-Kubernetes 🌟🌟==](https://github.com/omerbsezer/Fast-Kubernetes) <span class='md-tag md-tag--info'>⭐ 3493</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7ac8458e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 9 L 20 13 L 30 10 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-7ac8458e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A popular open-source repository featuring highly structured terminal cheat sheets, resource blueprints, and YAML patterns. Focuses on accelerating daily CKA commands, manifest construction, and cluster maintenance routines.
 #### Interactive Platform
 
-  - **(2026)** [**educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive 🌟🌟🌟**](https://www.educative.io/courses/learn-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A text-first training curriculum with browser-native sandbox environments. Investigates internal API server flows, cluster scheduler behaviors, and advanced persistent volumes without installation friction.
+  - **(2026)** [**educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive 🌟🌟🌟**](https://www.educative.io/courses/learn-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A text-first training curriculum with browser-native sandbox environments. Investigates internal API server flows, cluster scheduler behaviors, and advanced persistent volumes without installation friction.
 #### Learning Pathways
 
 ##### Github Repository
 
-  - **(2026)** [**github.com/techiescamp/kubernetes-learning-path 🌟🌟**](https://github.com/techiescamp/kubernetes-learning-path) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A massive, community-backed repository organizing study plans, code repositories, structural templates, and practice exercises. Ideal for self-taught DevOps engineers transitioning to system automation roles.
+  - **(2026)** [**github.com/techiescamp/kubernetes-learning-path 🌟🌟**](https://github.com/techiescamp/kubernetes-learning-path) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A massive, community-backed repository organizing study plans, code repositories, structural templates, and practice exercises. Ideal for self-taught DevOps engineers transitioning to system automation roles.
 #### Official Documentation
 
   - **(2026)** [==kubernetes.io: Kubernetes Tutorials==](https://kubernetes.io/docs/tutorials) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive, authoritative reference portal for Kubernetes concepts. Integrates fundamental conceptual walk-throughs with direct command-line execution, showing how to create Services, scale Deployments, and manage local volumes.

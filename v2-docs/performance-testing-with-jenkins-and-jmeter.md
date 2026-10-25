@@ -88,15 +88,15 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - [Dzone: Apache JMeter Keyboards shortcuts](https://dzone.com/articles/apache-jmeter-keyboard-shortcuts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Apache JMeter Keyboards shortcuts covering JMeter in Performance Testing With Jenkins And Jmeter (dzone.com).
 ## Jmeter Based Cloud Solutions
 
-  - [blazemeter.com](https://www.blazemeter.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blazemeter.com covering JMeter based Cloud solutions in Performance Testing With Jenkins And Jmeter (blazemeter.com).
   - [flood.io](https://www.tricentis.com/products/performance-testing-neoload?utm_source=flood.io&utm_medium=referral) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for flood.io covering JMeter based Cloud solutions in Performance Testing With Jenkins And Jmeter (tricentis.com).
+  - [blazemeter.com](https://www.blazemeter.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blazemeter.com covering JMeter based Cloud solutions in Performance Testing With Jenkins And Jmeter (blazemeter.com).
 ## Performance Engineering
 
 ### Kubernetes Optimization
 
 #### Autonomous Tuning
 
-  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
+  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
 ### Load Testing (1)
 
 #### Distributed Testing
