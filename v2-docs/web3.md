@@ -26,7 +26,7 @@ description: "Curated, AI-ranked Web3 resources for the 2026 Cloud Native archit
   - **(2021)** [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Ethereum co-founder and Polkadot creator Gavin Wood on the engineering philosophy behind Web3. Wood details the transition from trusting centralized authorities to relying on cryptographic truth, smart contracts, and decentralized state machines to enforce transparency.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

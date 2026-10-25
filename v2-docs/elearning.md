@@ -171,12 +171,9 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 #### DDD and Testing
 
   - **(2026)** [==codely.tv==](https://codely.com/en) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production architectures.
-## Spanish E-learning
-
-  - [open-bootcamp.com](https://ultracamp.es) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for open-bootcamp.com covering Spanish E-learning in Elearning (ultracamp.es).
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Newsfeeds](./newsfeeds.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varnish Cache and more — curated Cloud Native tools, guides and references."
+description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache and more — curated Cloud Native tools, guides and references."
 ---
 # Caching Solutions
 
@@ -29,7 +29,6 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
 
 #### In-memory Caching
 
-  - **(2025)** [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Data Grid is a distributed, in-memory key-value store built on top of Infinispan. It facilitates fast transaction caching, active real-time data streaming, and cross-datacenter state sync across Kubernetes clusters.
   - **(2020)** [developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more](https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical release evaluation showcasing Red Hat Data Grid 8.0's updated cloud-native engine. It details the lightweight server container footprint, modern REST API integration pathways, and advanced CLI automation.
   - **(2016)** [Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟](https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical overview detailing JBoss Data Grid's architectural transition. It explains how the grid progressed from a simple JVM object store into a high-capacity, language-agnostic distributed cache.
 ### Edge Caching
@@ -140,7 +139,7 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
   - [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Red Hat Enterprise Linux Blog. Tag: Varnish covering Varnish in Caching (redhat.com).
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Web Servers](./web-servers.md) | [Servicemesh](./servicemesh.md) | [Cloudflare](./cloudflare.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

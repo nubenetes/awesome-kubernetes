@@ -105,9 +105,6 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
 #### AI Integration
 
   - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Implements the Model Context Protocol (MCP) to dynamically generate and modify Draw.io structures directly via conversational AI interfaces. Seamlessly links large language models with visual blueprint execution, allowing real-time canvas updates and automated layout formatting based on conversational technical specs.
-#### Enterprise
-
-  - **(2025)** [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lucidchart's integrated AWS modeling module, optimized to dynamically visualize multi-region topologies, network firewalls, and resource clusters directly using official AWS iconography.
 #### Innovative
 
   - **(2024)** [infviz.io](https://infviz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative diagram platform tailored for parsing cloud systems and outputting highly stylized, lightweight layout maps. Focused on real-time dependency analysis and operational state monitoring.
@@ -182,7 +179,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12?gi=bf216eb2967e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learningdaily.dev: Software architecture diagramming and patterns covering Introduction in Cloud Arch Diagrams (learningdaily.dev).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

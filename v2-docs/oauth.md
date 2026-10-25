@@ -34,7 +34,7 @@ description: "Curated, AI-ranked Oauth resources for the 2026 Cloud Native archi
   - **(2022)** [freecodecamp.org: How to Implement an OAuth2 Resource Server with Spring Security](https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation tutorial detailing the deployment of an OAuth2-compliant resource server using Spring Security. It guides through configuring middleware to parse and authenticate incoming JWT requests.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

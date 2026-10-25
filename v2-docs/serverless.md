@@ -1,5 +1,5 @@
 ---
-description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and more — curated Cloud Native tools, guides and references."
+description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and more — curated Cloud Native tools, guides and references."
 ---
 # Serverless Architectures and Frameworks
 
@@ -216,21 +216,18 @@ description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and m
 ## Openfaas (1)
 
   - [**itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟**](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c?gi=9683e834ed15) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟 covering CICD Tools in Kubernetes Tools (itnext.io).
-  - [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9?gi=6a5cbfbd40a5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Deploy your first Serverless Function to Kubernetes covering OpenFaaS in Serverless (itnext.io).
 ## Serverless Architectures
 
   - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1?gi=2b72868d50d4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Scaling My App: Serverless vs Kubernetes 🌟 covering Serverless Architectures in Serverless (itnext.io).
   - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Implementing Serverless Microservices Architecture on AWS covering Serverless Architectures in Serverless (dzone.com).
   - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: When to Use Serverless, and When to Use Kubernetes 🌟 covering Serverless Architectures in Serverless (dzone.com).
-  - [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689?gi=7a79293b77b5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Serverless simply visually explained 🌟 covering Serverless Architectures in Serverless (itnext.io).
   - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: When to Use Logic Apps and Azure Functions covering Serverless Architectures in Serverless (dzone.com).
-  - [aws.amazon.com: Serverless or Kubernetes on AWS 🌟](https://docs.aws.amazon.com/decision-guides/latest/decision-guides/modern-apps-strategy-on-aws-how-to-choose.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.amazon.com: Serverless or Kubernetes on AWS 🌟 covering Serverless Architectures in Serverless (docs.aws.amazon.com).
 ## Triggermesh Serverless Event Router
 
   - [TriggerMesh](https://alexiskiryuin.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for TriggerMesh covering TriggerMesh serverless event router in Serverless (alexiskiryuin.com).
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md) | [Docker](./docker.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

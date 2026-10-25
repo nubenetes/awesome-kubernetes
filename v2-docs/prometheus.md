@@ -1,5 +1,5 @@
 ---
-description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pushgateway and more — curated Cloud Native tools, guides and references."
+description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collector, Pushgateway and more — curated Cloud Native tools, guides and references."
 ---
 # Prometheus
 
@@ -129,7 +129,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pus
 ## Influxdb And Influxdb Templates
 
   - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Flux queries covering InfluxDB and InfluxDB Templates in Prometheus (dzone.com).
-  - [influxdb-templates](https://github.com/influxdata/community-templates) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for influxdb-templates covering InfluxDB and InfluxDB Templates in Prometheus (github.com).
+  - [influxdb-templates](https://github.com/influxdata/community-templates) <span class='md-tag md-tag--info'>⭐ 377</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8f7abee0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 10 L 30 6 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-8f7abee0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for influxdb-templates covering InfluxDB and InfluxDB Templates in Prometheus (github.com).
 ## Infrastructure As Code
 
 ### Ansible
@@ -214,7 +214,6 @@ description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pus
   - **(2024)** [**Cortex**:](https://cortexmetrics.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural landing page of Cortex, an enterprise-grade, horizontally scalable, multi-tenant TSDB. Note: Since 2024-2025, many users have migrated toward Thanos or VictoriaMetrics, yet Cortex remains a highly resilient classic for long-term storage.
 #### Influxdb
 
-  - **(2022)** [influxdb-templates](https://www.influxdata.com) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pre-packaged configurations and manifests containing Telegraf setups, dashboards, and alert rules. Simplifies rapid deployment of specialized monitoring tasks (e.g., Redis, Nginx) within InfluxDB.
   - **(2022)** [influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud](https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud) <span class='md-tag md-tag--warning'>[FLUX CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to leverage API Invokable Scripts in InfluxDB Cloud to run parameterized queries over HTTP, creating lightweight backend APIs for custom metric visualization utilities.
   - **(2021)** [influxdata.com: Building a Metrics & Alerts as a Service (MaaS) Monitoring Solution Using the InfluxDB Stack](https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores an architecture for metrics and alerting as a service (MaaS) built on the InfluxDB stack. Highlights utilizing multi-tenancy, dynamic bucket allocations, and custom push metric pipelines.
   - **(2021)** [thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates](https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to manage InfluxDB templates inside a GitOps continuous deployment pipeline. Highlights automated testing, version control, and validation of monitoring components via declarative mechanisms.
@@ -244,10 +243,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pus
 
 #### Metrics Collection
 
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
-#### Prometheus Getting Started
-
-  - **(2023)** [grafana.com: Get started with Prometheus with these three easy projects](https://grafana.com/blog/get-started-with-prometheus-with-these-three-easy-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on, multi-project tutorial designed to build core competencies with Prometheus metrics collections, PromQL search syntax, and standard Node Exporter integrations.
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 #### Prometheus Meta-monitoring
 
   - **(2023)** [grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs](https://grafana.com/blog/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance monitoring case study from Grafana Labs. Illustrates the architectural pattern of metamonitoring, utilizing dedicated Prometheus servers to watch, query, and alert on larger global telemetry networks.
@@ -409,7 +405,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pus
   - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

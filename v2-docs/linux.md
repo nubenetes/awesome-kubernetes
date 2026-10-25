@@ -307,7 +307,6 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
 ## Linux Blogs
 
   - [linux.com 🌟](https://www.linux.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for linux.com 🌟 covering Linux Blogs in Linux (linux.com).
-  - [unixmages.com](https://www.chicken-roads.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for unixmages.com covering Linux Blogs in Linux (chicken-roads.com).
 ## Linux Commands And Tools
 
   - [CLImagic subscription](https://www.patreon.com/climagic)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for CLImagic subscription covering Linux Commands and Tools in Linux (patreon.com).
@@ -618,7 +617,7 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
   - **(2022)** [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/en/blog/customize-vm-cloud-images-guestfish) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to integrate `guestfish` pipelines into cloud image provisioning scripts. Details the automated modification of network configurations, credential injection, and software installations within raw VM images.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

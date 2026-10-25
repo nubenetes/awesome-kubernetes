@@ -1,5 +1,5 @@
 ---
-description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat Sheets, complete-alias and more — curated Cloud Native tools, guides and references."
+description: "Top Kubectl Commands resources for 2026, AI-ranked: Helm, Gradle Cheat Sheets and more — curated Cloud Native tools, guides and references."
 ---
 # Kubectl commands
 
@@ -78,11 +78,9 @@ description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat S
 ## Introduction
 
   - [==itnext.io: How to Restart Kubernetes Pods With Kubectl 🌟==](https://itnext.io/how-to-restart-kubernetes-pods-with-kubectl-2a7834a6b961?gi=f0dc7a811eeb) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for itnext.io: How to Restart Kubernetes Pods With Kubectl 🌟 covering Introduction in Kubectl Commands (itnext.io).
-  - [itnext.io: Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712?gi=0662b37c3ea7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Boosting your kubectl productivity covering Introduction in Kubectl Commands (itnext.io).
   - [pixelstech.net: Update & Delete Kubernetes resources in one-line command](https://www.pixelstech.net/article/1604225312-Update-&amp-Delete-Kubernetes-resources-in-one-line-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for pixelstech.net: Update & Delete Kubernetes resources in one-line command covering Introduction in Kubectl Commands (pixelstech.net).
   - [blog.devgenius.io: K8s — Manage Multiple Clusters Using kubectl at Scale](https://blog.devgenius.io/k8s-manage-multiple-clusters-using-kubectl-at-scale-9f200c692099?gi=05153fdb0788) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: K8s — Manage Multiple Clusters Using kubectl at Scale covering Introduction in Kubectl Commands (blog.devgenius.io).
   - [awstip.com: Kubernetes — Creating deployments via command line and with YAML files](https://awstip.com/kubernetes-creating-deployments-via-command-line-and-with-yaml-files-783eaad7b3be?gi=bccab80596c6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Kubernetes — Creating deployments via command line and with YAML files covering Introduction in Kubectl Commands (awstip.com).
-  - [itnext.io: Kubernetes Contexts: Complete Guide for Developers](https://itnext.io/kubernetes-contexts-complete-guide-for-developers-7ea5b2fc75c7?gi=ec41e5825c02) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Contexts: Complete Guide for Developers covering Introduction in Kubectl Commands (itnext.io).
 ## Kubectl Aliases
 
   - [blog.devgenius.io: Daily useful Kubernetes aliases](https://blog.devgenius.io/daily-useful-kubernetes-aliases-c35f7f411f39?gi=c894c90b3e0c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Daily useful Kubernetes aliases covering Kubectl aliases in Kubectl Commands (blog.devgenius.io).
@@ -171,7 +169,7 @@ description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat S
   - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

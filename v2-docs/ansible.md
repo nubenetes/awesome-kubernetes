@@ -262,7 +262,6 @@ description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AW
   - [Dzone: Part 2: Deploying Applications](https://dzone.com/articles/part-2-deploying-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Part 2: Deploying Applications covering Configuration Management with Ansible DevOps Tool in Ansible (dzone.com).
   - [Dzone: 10 easy to use modules in ansible](https://dzone.com/articles/10-easy-to-use-modules-in-ansible-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 10 easy to use modules in ansible covering Configuration Management with Ansible DevOps Tool in Ansible (dzone.com).
   - [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Running Ansible at Scale covering Configuration Management with Ansible DevOps Tool in Ansible (dzone.com).
-  - [ansible.com: Ansible whitepaper](https://www.redhat.com/en/engage/ansible-automation-platform-beginners-guide-ebook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ansible.com: Ansible whitepaper covering Configuration Management with Ansible DevOps Tool in Ansible (redhat.com).
   - [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ai-trends/ansible-vs-docker-a-detailed-comparison-of-devops-tools) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools covering Configuration Management with Ansible DevOps Tool in Ansible (analyticsindiamag.com).
 ## Container Orchestration
 
@@ -561,7 +560,7 @@ description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AW
   - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

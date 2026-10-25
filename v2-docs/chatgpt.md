@@ -152,7 +152,7 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
   - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65?gi=79a3a79d2753) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free! covering Tools in ChatGPT (itnext.io).
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

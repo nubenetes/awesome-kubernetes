@@ -215,7 +215,7 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 ## Helm Charts
 
   - [Doubleword Control Layer](https://github.com/doublewordai/control-layer-chart) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Doubleword Control Layer covering Helm Charts in Helm (github.com).
-  - [GenieACS](https://github.com/GeiserX/genieacs-container) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GenieACS covering Helm Charts in Helm (github.com).
+  - [GenieACS](https://github.com/GeiserX/genieacs-container) <span class='md-tag md-tag--info'>⭐ 136</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a89aaa75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 12 L 30 13 L 40 7 L 50 11" fill="none" stroke="url(#spark-grad-a89aaa75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GenieACS covering Helm Charts in Helm (github.com).
 ## Helm Dashboard
 
   - [levelup.gitconnected.com: Introduction to Helm Dashboard](https://levelup.gitconnected.com/introduction-to-helm-dashboard-dddf43e38cc2?gi=73dcdae80b54) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Introduction to Helm Dashboard covering Helm Dashboard in Helm (levelup.gitconnected.com).
@@ -341,7 +341,7 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

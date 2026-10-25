@@ -1,5 +1,5 @@
 ---
-description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, Docker Registry and more — curated Cloud Native tools, guides and references."
+description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, Harbor and more — curated Cloud Native tools, guides and references."
 ---
 # Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more
 
@@ -139,9 +139,6 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, D
 #### Jfrog Strategy
 
   - **(2021)** [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An external market analysis tracing JFrog's economic trajectory and product adoption patterns, comparing its position in the DevOps ecosystem to MongoDB's disruptive influence in databases. It discusses developer adoption, platform consolidation, and commercial growth. The article presents a non-technical overview of JFrog's platform viability.
-## Nexus As A Docker Repo
-
-  - [Docker Registry](https://help.sonatype.com/en/sonatype-nexus-repository.html/formats/docker-registry) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Docker Registry covering Nexus as a Docker repo in Registries (help.sonatype.com).
 ## Security
 
 ### PKI and Certificates
@@ -154,7 +151,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, D
   - [stackoverflow: run nexus3 with docker in a kubernetes cluster](https://stackoverflow.com/questions/42766349/run-nexus-3-with-docker-in-a-kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow: run nexus3 with docker in a kubernetes cluster covering Setup Nexus Kubernetes. Run nexus3 with docker in a kubernetes cluster in Registries (stackoverflow.com).
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Argo](./argo.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

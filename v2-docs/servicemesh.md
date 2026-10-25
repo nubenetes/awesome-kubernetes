@@ -227,17 +227,10 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
   - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Service Mesh Is Still Hard covering Introduction in Servicemesh (cncf.io).
   - [cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options covering Introduction in Servicemesh (cncf.io).
   - [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide/-2021) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development covering Introduction in Servicemesh (infoq.com).
-## Kubernetes Networking (1)
-
-### Nginx Ingress Controller
-
-  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-retired/ingate) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical documentation and implementation reference for InGate: Ingress & Gateway API Controller (Archived) covering Nginx Ingress Controller in Kubernetes Networking (github.com).
 ## Linkerd Service Mesh
 
   - [cncf.io: Protocol detection and opaque ports in Linkerd](https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Protocol detection and opaque ports in Linkerd covering Linkerd Service Mesh in Servicemesh (cncf.io).
   - [cncf.io: Why Linkerd doesn’t use Envoy](https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Why Linkerd doesn’t use Envoy covering Linkerd Service Mesh in Servicemesh (cncf.io).
-  - [itnext.io: A Practical Guide for Linkerd Authorization Policies](https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9?gi=00200565fd61) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: A Practical Guide for Linkerd Authorization Policies covering Linkerd Service Mesh in Servicemesh (itnext.io).
-  - [buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging](https://buoyant.io/service-mesh-academy) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging covering Linkerd Service Mesh in Servicemesh (buoyant.io).
 ## Networking (1)
 
 ### Ingress and Gateway
@@ -269,12 +262,9 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 #### Ingress Controllers
 
   - **(2023)** [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kourier is a lightweight Ingress implementation specifically designed for Knative Serving, utilizing Envoy as the underlying data plane. It serves as an alternative to large service mesh deployments, providing fast route configurations, cold start mitigation, and scale-to-zero capabilities for serverless containers inside Kubernetes. It is heavily utilized in simplified enterprise serverless setups.
-## Service Mesh Testing
-
-  - [itnext.io: Service Mesh Testing — Tools & Frameworks (Open Source)](https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298?gi=eb16a21a4694) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Service Mesh Testing — Tools & Frameworks (Open Source) covering Service Mesh Testing in Servicemesh (itnext.io).
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Web Servers](./web-servers.md) | [Cloudflare](./cloudflare.md) | [Networking](./networking.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

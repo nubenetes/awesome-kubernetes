@@ -332,7 +332,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

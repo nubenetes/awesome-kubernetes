@@ -190,7 +190,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
   - [Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟](https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟 covering Public Cloud Services Comparison in Public Cloud Solutions (dzone.com).
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Backup](./aws-backup.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

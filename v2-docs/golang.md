@@ -1,5 +1,5 @@
 ---
-description: "Top Golang resources for 2026, AI-ranked: Awesome Go, Dapr and more — curated Cloud Native tools, guides and references."
+description: "Top Golang resources for 2026, AI-ranked: Dapr, Awesome Go and more — curated Cloud Native tools, guides and references."
 ---
 # Golang - Go
 
@@ -248,7 +248,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, Dapr and mor
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1176</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9746b620" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 4 L 30 7 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-9746b620)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -11,9 +11,9 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 
 ## Application Performance Management APM
 
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 Best Performance Testing Tools and APM Solutions covering Application Performance Management APM in Monitoring (dzone.com).
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: APM Tools Comparison covering Application Performance Management APM in Monitoring (dzone.com).
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know covering Application Performance Management APM in Monitoring (dzone.com).
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 Best Performance Testing Tools and APM Solutions covering Application Performance Management APM in Monitoring (dzone.com).
 ## Architecture
 
 ### Microservices
@@ -353,7 +353,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 
   - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing' Solutions covering Monitoring and Observability in Monitoring (dzone.com).
   - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for CNCF End User Technology Radar: Observability, September 2020 🌟 covering Monitoring and Observability in Monitoring (cncf.io).
-  - [matiasmct.medium.com: Observability at Scale](https://itnext.io/observability-at-scale-52d0d9a5fb9b?gi=8f60ed6ebc85) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for matiasmct.medium.com: Observability at Scale covering Monitoring and Observability in Monitoring (itnext.io).
   - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [logz.io: Unified Observability: Announcing Kubernetes 360](https://logz.io/blog/unified-observability-kubernetes-360) A single, unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger that enables DevOps teams to monitor application SLOs in a simple, efficient and actionable manner.
   - [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/what-are-engineering-metrics) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for harness.io: Metrics to Improve Continuous Integration Performance covering Monitoring and Observability in Monitoring (harness.io).
   - [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e?gi=6a51a4ccf392) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: DevOps Meets Observability 🌟 covering Monitoring and Observability in Monitoring (faun.pub).
@@ -540,7 +539,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 
 #### Metrics Collection
 
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 ### Platform Monitoring
 
 #### Dynatrace Agent Deployment
@@ -593,9 +592,6 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
   - [opensearch.org 🌟](https://opensearch.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for opensearch.org 🌟 covering OpenSearch in Monitoring (opensearch.org).
   - [logz.io: Logz.io Announces Support for OpenSearch; A Community-driven Open' Source Fork of Elasticsearch and Kibana](https://logz.io/news-posts/logz-io-announces-support-for-opensearch-a-community-driven-open-source-fork-of-elasticsearch-and-kibana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for logz.io: Logz.io Announces Support for OpenSearch; A Community-driven Open' Source Fork of Elasticsearch and Kibana covering OpenSearch in Monitoring (logz.io).
   - [logz.io: OpenSearch Is Now Generally Available!](https://logz.io/blog/opensearch-1-0-ga-generally-available-elasticsearch-kibana-fork)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for logz.io: OpenSearch Is Now Generally Available! covering OpenSearch in Monitoring (logz.io).
-## Other Tools
-
-  - [fclairamb/solidping](https://github.com/fclairamb/solidping) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for fclairamb/solidping covering Other Tools in Monitoring (github.com).
 ## Performance
 
   - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: The Keys to Performance Tuning and Testing covering Performance in Monitoring (dzone.com).
@@ -688,11 +684,11 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
   - **(2022)** [learnsteps.com: Logging Infrastructure System Design](https://www.learnsteps.com/logging-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural system architecture deep-dive covering high-volume log collection, queuing, indexing, and durable storage tiers (such as ELK, Grafana Loki, or OpenSearch). Curator Insight: Deep blueprint on logging pipeline design. Live Grounding: Essential reading for scaling logging clusters without sacrificing lookup speeds or bloating cloud storage costs.
 ## Thread Dumps. Debugging Java Applications
 
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 8 Options for Capturing Thread Dumps covering Thread Dumps. Debugging Java Applications in Monitoring (dzone.com).
   - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to read a Thread Dump covering Thread Dumps. Debugging Java Applications in Monitoring (dzone.com).
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 8 Options for Capturing Thread Dumps covering Thread Dumps. Debugging Java Applications in Monitoring (dzone.com).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [AWS Containers](./aws-containers.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

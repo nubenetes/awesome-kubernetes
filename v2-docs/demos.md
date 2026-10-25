@@ -1,5 +1,5 @@
 ---
-description: "Top Demos resources for 2026, AI-ranked: Developer Sandbox, SdkMan and more — curated Cloud Native tools, guides and references."
+description: "Top Demos resources for 2026, AI-ranked: SdkMan, Developer Sandbox and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 
@@ -253,7 +253,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - [itnext.io: Deploy Argo CD with Ingress and TLS in Three Steps: No YAML Yak Shaving Required 🌟](https://itnext.io/deploy-argo-cd-with-ingress-and-tls-in-three-steps-no-yaml-yak-shaving-required-bc536d401491?gi=0aa7a7eee420) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [Ambassador Edge Stack. K8S Initializer (scaffolding tool) 🌟](https://blackbird.a8r.io)
   - [itnext.io: Solving ArgoCD Secret Management with the argocd-vault-plugin 🌟](https://itnext.io/argocd-secret-management-with-argocd-vault-plugin-539f104aff05?gi=007ea6fe23c2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Solving ArgoCD Secret Management with the argocd-vault-plugin 🌟 covering ArgoCD in Demos (itnext.io).
   - [blog.argoproj.io: Introducing the ApplicationSet Controller for Argo CD](https://blog.argoproj.io/introducing-the-applicationset-controller-for-argo-cd-982e28b62dc5?gi=225f62b91e41) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.argoproj.io: Introducing the ApplicationSet Controller for Argo CD covering ArgoCD in Demos (blog.argoproj.io).
-  - [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0?gi=38e705ebe56e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.argoproj.io: Getting started with ApplicationSets covering ArgoCD in Demos (blog.argoproj.io).
   - [blog.argoproj.io: Introducing the AppSource Controller for ArgoCD](https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643?gi=8ed6308013ab) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.argoproj.io: Introducing the AppSource Controller for ArgoCD covering ArgoCD in Demos (blog.argoproj.io).
 ## Artificial Intelligence and Llms
 
@@ -1174,9 +1173,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
   - **(2020)** [CodeReady Containers - Red Hat Decision Manager Install Demo](https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An automated installation demo for launching Red Hat Decision Manager on CodeReady Containers (CRC). While valuable for understanding legacy deployment footprints, modern architectures replace CRC with Red Hat OpenShift Local and migrate Decision Manager patterns onto newer cloud-native rule engines.
   - **(2020)** [schabell.org: CodeReady Containers - Building a Cloud-Native Human Resources Process](https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local development of a cloud-native Human Resources workflow using CodeReady Containers. Explains process containerization concepts on single-node platforms, though modern flows favor OpenShift Local frameworks.
-## Modular Pipeline Library MPL. Petclinic Pipeline Example With MPL
-
-  - [griddynamics/mpl](https://github.com/griddynamics-archive/mpl) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for griddynamics/mpl covering Modular Pipeline Library MPL. Petclinic Pipeline example with MPL in Demos (github.com).
 ## Networking
 
 ### Ebpf
@@ -1184,11 +1180,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Calico
 
   - **(2022)** [thenewstack.io: Maximize K3s Resource Efficiency with Calico eBPF Data Plane](https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical review examining performance and resource footprint improvements when deploying Calico's eBPF data plane inside lightweight K3s environments. Demonstrates significant CPU overhead reductions compared to legacy iptables architectures.
-### Ingress
-
-#### Nginx
-
-  - **(2021)** [matthewpalmer.net: Kubernetes Ingress with Nginx Example 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step architectural breakdown of implementing an NGINX Ingress Controller to manage external-to-internal cluster routing. Synthesizes key routing constructs, TLS termination setups via cert-manager, virtual hosting paths, and session affinity configurations vital for modern production topologies.
 ### Security (1)
 
 #### Recipes
@@ -1250,13 +1241,6 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### RKE Best Practices
 
   - **(2021)** [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.io/blog/rancher-kubernetes-engine-security-part-1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Delineates critical security configurations and hardening guidelines for Rancher Kubernetes Engine (RKE) deployments. Explores secure etcd database clustering, role-based access control policies, TLS configuration, and master node network isolation.
-## Platform Architecture
-
-### CICD (7)
-
-#### Legacy Jenkins
-
-  - **(2022)** [==github - using jenkins pipelines with OKD==](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline) <span class='md-tag md-tag--info'>⭐ 8658</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-18bacd56" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 11 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-18bacd56)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Repository detailing baseline code configurations, sample pipelines, and deployment manifests engineered to execute scripted Jenkins procedures inside early versions of the OKD community container platform.
 ## Platform Deployment
 
 ### Quality Assurance (1)
@@ -1274,7 +1258,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 #### Red Hat Ecosystem
 
   - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
-### CICD (8)
+### CICD (7)
 
 #### AWS and Argo CD
 
@@ -1540,20 +1524,15 @@ Live Grounding: Built by a non-technical editor, the interactive application sho
 ## Spinnaker
 
   - [codeburst.io: Spinnaker by Example: Part 1](https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689?gi=f4e8d5ce2c73) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for codeburst.io: Spinnaker by Example: Part 1 covering Spinnaker in Demos (codeburst.io).
-  - [codeburst.io: Spinnaker by Example: Part 2](https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf?gi=50a9fc7cfb8e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for codeburst.io: Spinnaker by Example: Part 2 covering Spinnaker in Demos (codeburst.io).
-  - [codeburst.io: Spinnaker by Example: Part 3](https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce?gi=d7f1e06a4e38) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for codeburst.io: Spinnaker by Example: Part 3 covering Spinnaker in Demos (codeburst.io).
   - [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Continuous Deployment on Kubernetes With Spinnaker covering Spinnaker in Demos (dzone.com).
 ## Terraform (1)
 
   - [==towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform?==](https://towardsaws.com/how-to-deploy-two-tier-aws-architecture-with-terraform-59db7b11dd47?gi=f5982b661dfc) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform? covering Terraform in Demos (towardsaws.com).
   - [faun.pub: AWS ECS Blue/Green Deployment Setup Using Terraform](https://faun.pub/aws-ecs-blue-green-deployment-setup-using-terraform-b56bb4f656ea?gi=3c278d8c79c6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: AWS ECS Blue/Green Deployment Setup Using Terraform covering Terraform in Demos (faun.pub).
   - [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2?gi=ff503c09829a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.plainenglish.io: Creating a custom EC2 module using Terraform covering Terraform in Demos (aws.plainenglish.io).
-## Webhooks App
-
-  - [itnext.io: Journey Of A Microservice Application In The Kubernetes World](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-bdfe795532ef?gi=27082a81d9b2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Journey Of A Microservice Application In The Kubernetes World covering Webhooks app in Demos (itnext.io).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

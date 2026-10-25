@@ -111,7 +111,7 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
   - **(2009)** [==github.com/nodejs/node==](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a2c9c461" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 7 L 30 4 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-a2c9c461)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for server-side architectures.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

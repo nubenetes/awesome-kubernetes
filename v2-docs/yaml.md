@@ -15,7 +15,7 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
 
 #### Git Distributed Version-control System
 
-  - [10 useful Git commands you wish existed – and their alternatives](https://github.com/datreeio/datree) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for 10 useful Git commands you wish existed – and their alternatives covering Git Distributed Version-Control System in Git (github.com).
+  - [10 useful Git commands you wish existed – and their alternatives](https://github.com/datreeio/datree) <span class='md-tag md-tag--info'>⭐ 6330</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c877828f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 3 L 30 4 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-c877828f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for 10 useful Git commands you wish existed – and their alternatives covering Git Distributed Version-Control System in Git (github.com).
 ## Base64
 
   - [base64encode.org](https://www.base64encode.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for base64encode.org covering Base64 in Yaml (base64encode.org).
@@ -152,23 +152,9 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
 
   - [==blog.devgenius.io: YAML with Python==](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab?gi=0b4a9f33e4e1) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for blog.devgenius.io: YAML with Python covering Introduction. Templating YAML Files in Yaml (blog.devgenius.io).
   - [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9?gi=d99ca1ea538c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for javascript.plainenglish.io: Everything You Need To Know About YAML Files covering Introduction. Templating YAML Files in Yaml (javascript.plainenglish.io).
-  - [itnext.io: Python, YAML, and Kubernetes — The Art of Mastering Configuration](https://itnext.io/python-yaml-and-kubernetes-the-art-of-mastering-configuration-cd60029b3f62?gi=da5fc9ffb33a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Python, YAML, and Kubernetes — The Art of Mastering Configuration covering Introduction. Templating YAML Files in Yaml (itnext.io).
 ## JSON. Templating JSON Files
 
   - [dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs.' JSONP](https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs.' JSONP covering JSON. Templating JSON Files in Yaml (dzone.com).
-## Kubernetes (1)
-
-### Devsecops
-
-#### Linting
-
-  - **(2021)** [thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline](https://thomasthornton.cloud/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This post walks through embedding KubeLinter in Azure DevOps CI/CD pipelines to audit Kubernetes manifests and Helm charts. It highlights security and performance check validations, such as identifying missing resource limits, root privileges, or improper security contexts before deployment.
-## Kubernetes YAML Tips
-
-  - [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81?gi=14d66399955b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟 covering K8s YAML tips in Yaml (itnext.io).
-## Other YAML Tools. How To Create Kubernetes YAML Files
-
-  - [itnext.io: How to create Kubernetes YAML files 🌟](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45?gi=fa18b98704bb) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How to create Kubernetes YAML files 🌟 covering Other YAML Tools. How to create Kubernetes YAML files in Yaml (itnext.io).
 ## Platform Engineering
 
 ### Kubernetes Manifests
@@ -187,15 +173,12 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
 ## Static Checking Of Kubernetes YAML Files. Kubernetes YAML Validation Tools
 
   - [Kubeval](https://liveslot168-rtpp.cyou/ls168-fld) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [Kube-score 🌟](https://github.com/zegl/kube-score) **Kubernetes object analysis with recommendations for improved reliability and security. kube-score is a opensource tool that performs static code analysis of Kubernetes object definitions. The output is a list of recommendations where one can improve to make application more secure and resilient.** [Config-lint](https://stelligent.github.io/config-lint) [Copper](https://github.com/cloud66-oss/copper) [Conftest](https://www.conftest.dev) [Polaris](https://github.com/FairwindsOps/polaris)
-## YAML Processors
-
-  - [kadet-hub](https://kadet-hub.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for kadet-hub covering YAML Processors in Yaml (kadet-hub.org).
 ## YAML Validators
 
   - [jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsonformatter.org/yaml-validator covering YAML Validators in Yaml (jsonformatter.org).
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

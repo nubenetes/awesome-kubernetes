@@ -91,7 +91,7 @@
     - **V1 Base Inventory**: 19835 total resources analyzed.
     - **V2 Elite Selection**: 15725 candidates identified (79.28% density ratio).
     - **AI Enrichment Coverage**: 15725 / 15725 (100.0%)
-    - **GitHub Metadata Coverage**: 1764 / 1800 (98.0%) - *Critical for Maturity Tagging*
+    - **GitHub Metadata Coverage**: 1797 / 1800 (99.83%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
 
@@ -404,14 +404,14 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-3" href="/tags/#c-plus-plus-content" title="22 resources">C++<span class="v2-heat-n">22</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#c-bash-content" title="1 resources">C/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#c-c-plus-plus-content" title="1 resources">C/C++<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#case-study" title="111 resources">Case Study<span class="v2-heat-n">111</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#case-study" title="110 resources">Case Study<span class="v2-heat-n">110</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#chinese-content" title="1 resources">Chinese<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ci-cd" title="3 resources">Ci-Cd<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8555 resources">Community-Tool<span class="v2-heat-n">8555</span></a>
+<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8394 resources">Community-Tool<span class="v2-heat-n">8394</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1226 resources">De Facto Standard<span class="v2-heat-n">1226</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1228 resources">De Facto Standard<span class="v2-heat-n">1228</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dev-dx" title="1 resources">Dev-Dx<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#developer-experience" title="1 resources">Developer-Experience<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
@@ -420,7 +420,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dockerfile-shell-content" title="1 resources">Dockerfile/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#emerging" title="82 resources">Emerging<span class="v2-heat-n">82</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1091 resources">Enterprise-Stable<span class="v2-heat-n">1091</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1094 resources">Enterprise-Stable<span class="v2-heat-n">1094</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
@@ -429,16 +429,16 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#github-actions" title="1 resources">Github-Actions<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1039 resources">Go<span class="v2-heat-n">1039</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1040 resources">Go<span class="v2-heat-n">1040</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-typescript-content" title="1 resources">Go/Typescript<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#go-yaml-content-2" title="3 resources">Go/Yaml<span class="v2-heat-n">3</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="59 resources">Groovy<span class="v2-heat-n">59</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="58 resources">Groovy<span class="v2-heat-n">58</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-hcl-content" title="1 resources">Groovy/Hcl<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-yaml-content" title="1 resources">Groovy/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="1056 resources">Guide<span class="v2-heat-n">1056</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="1055 resources">Guide<span class="v2-heat-n">1055</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#haskell-content" title="4 resources">Haskell<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#hcl-content" title="221 resources">Hcl<span class="v2-heat-n">221</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hcl-packer-content" title="1 resources">Hcl/Packer<span class="v2-heat-n">1</span></a>
@@ -452,7 +452,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#java-english-content" title="1 resources">Java / English<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#java-go-node-js-content" title="1 resources">Java / Go / Node.Js<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#java-yaml-content" title="2 resources">Java / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#java-content" title="447 resources">Java<span class="v2-heat-n">447</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#java-content" title="446 resources">Java<span class="v2-heat-n">446</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#java-c-plus-plus-content" title="1 resources">Java/C++<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#javascript-content" title="133 resources">Javascript<span class="v2-heat-n">133</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#javascript-shell-content" title="1 resources">Javascript/Shell<span class="v2-heat-n">1</span></a>
@@ -462,11 +462,11 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="1 resources">Kubernetes<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#legacy" title="549 resources">Legacy<span class="v2-heat-n">549</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#legacy" title="545 resources">Legacy<span class="v2-heat-n">545</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="334 resources">Markdown<span class="v2-heat-n">334</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="335 resources">Markdown<span class="v2-heat-n">335</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#merge-queue" title="1 resources">Merge-Queue<span class="v2-heat-n">1</span></a>
@@ -532,7 +532,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-go-content" title="1 resources">Yaml / Go<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-rego-content" title="1 resources">Yaml / Rego<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-shell-content" title="1 resources">Yaml / Shell<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#yaml-content" title="412 resources">Yaml<span class="v2-heat-n">412</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#yaml-content" title="409 resources">Yaml<span class="v2-heat-n">409</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-bash-content" title="2 resources">Yaml/Bash<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-go-content-2" title="2 resources">Yaml/Go<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-hcl-content" title="2 resources">Yaml/Hcl<span class="v2-heat-n">2</span></a>

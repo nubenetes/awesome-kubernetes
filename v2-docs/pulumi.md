@@ -74,7 +74,7 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
   - **(2021)** [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed insight into the launch of the Pulumi Registry, a public marketplace supporting modular package sharing and reusability of multi-cloud components across diverse language boundaries.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

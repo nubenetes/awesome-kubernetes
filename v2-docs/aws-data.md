@@ -39,12 +39,10 @@ description: "Top AWS Data resources for 2026, AI-ranked: AWS Data Pipeline, Usi
   - **(2026)** [Amazon DynamoDB now supports real-time vector search at any scale](https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon DynamoDB now supports real-time vector search at any scale covering Amazon DynamoDB in AWS (aws.amazon.com).
 #### Introduction
 
-  - [aws.amazon.com/big-data](https://aws.amazon.com/big-data/datalakes-and-analytics) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.amazon.com/big-data covering Introduction in AWS (aws.amazon.com).
-  - [blogs.aws.amazon.com/bigdata](https://aws.amazon.com/blogs/big-data) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blogs.aws.amazon.com/bigdata covering Introduction in AWS (aws.amazon.com).
   - [Using Spark SQL for ETL](https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Using Spark SQL for ETL covering Introduction in AWS (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

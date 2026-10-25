@@ -92,6 +92,9 @@ description: "Top Cheatsheets resources for 2026, AI-ranked: Markdown Cheat Shee
 #### Glossary (1)
 
   - **(2026)** [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative dictionary compiled by Google to standardize terms across core AI and machine learning engineering domains. Explores architectural paradigms, neural network elements, deployment metrics, and training pipeline semantics crucial for production systems.
+#### Python Labs
+
+  - **(2023)** [==github.com/ekramasif: Basic Machine Learning - Python Cheatsheet==](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb) <span class='md-tag md-tag--info'>⭐ 80</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-61a8a922" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 2 L 30 12 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-61a8a922)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive Jupyter Notebook consolidating standard machine learning algorithms in Python. Details array configurations, basic Scikit-Learn validation tests, and pandas pipeline configurations.
 ### Notebook Environments
 
 #### Jupyterlab
@@ -240,9 +243,6 @@ description: "Top Cheatsheets resources for 2026, AI-ranked: Markdown Cheat Shee
 ## Git And Github Cheat Sheets
 
   - [dzone: Top 35 Git Commands With Examples 🌟](https://dzone.com/articles/top-35-git-commands-with-examples-and-bonus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Top 35 Git Commands With Examples 🌟 covering Git and GitHub Cheat Sheets in Cheatsheets (dzone.com).
-## Gitkraken Git Cheat
-
-  - [GitKraken Git Cheat](https://gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GitKraken Git Cheat covering GitKraken Git Cheat in Cheatsheets (gitkraken.com).
 ## Helm Cheat Sheets
 
   - [faun.pub: Helm Command Cheat Sheet | By M. Sharma](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131?gi=d9886df4eead) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Helm Command Cheat Sheet | By M. Sharma covering Helm Cheat Sheets in Cheatsheets (faun.pub).
@@ -370,9 +370,6 @@ description: "Top Cheatsheets resources for 2026, AI-ranked: Markdown Cheat Shee
 ## Kubernetes Knowledge Hubs And Glossary
 
   - [==manifests.io 🌟==](https://www.manifests.io/kubernetes/1.37) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — [manifests.io/kubernetes/1.28](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/)
-## Kubernetes Kustomize Cheat Sheet
-
-  - [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f?gi=73b1ede741fa) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Kustomize Cheat Sheet covering Kubernetes Kustomize Cheat Sheet in Cheatsheets (itnext.io).
 ## Maven Cheat Sheets
 
   - [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jrebel.com/blog/maven-cheat-sheet covering Maven Cheat Sheets in Cheatsheets (jrebel.com).
@@ -441,7 +438,6 @@ description: "Top Cheatsheets resources for 2026, AI-ranked: Markdown Cheat Shee
 ## Packer And Terraform Cheat Sheets
 
   - [dzone: Terraform Cheat Sheet](https://dzone.com/articles/terraform-cli-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Terraform Cheat Sheet covering Packer and Terraform Cheat Sheets in Cheatsheets (dzone.com).
-  - [searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more](https://www.techtarget.com/it-infrastructure/tip/Terraform-cheat-sheet-Notable-commands-HCL-and-more) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more covering Packer and Terraform Cheat Sheets in Cheatsheets (techtarget.com).
 ## Platform
 
 ### Container Orchestration (1)
@@ -654,7 +650,7 @@ description: "Top Cheatsheets resources for 2026, AI-ranked: Markdown Cheat Shee
   - **(2025)** [**blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟**](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on protecting applications by avoiding hardcoded secrets, securing base images, and implementing strict runtime privileges within Docker builds. Provides precise, actionable rules for integrating automated container security checks into CI/CD pipelines.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

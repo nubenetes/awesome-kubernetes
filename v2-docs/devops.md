@@ -591,9 +591,6 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 ### Podcasts
 
   - **(2024)** [bikeshed.fm: The Bike Shed](https://bikeshed.thoughtbot.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused podcast analyzing code health, automated testing frameworks, and dependency updates. Offers practical strategies on handling deployment scaling issues and code design patterns.
-## Drift Detection Tools
-
-  - [env0.com: Automated Drift Detection 🌟](https://www.envzero.com/blog/automated-drift-detection-with-envzero) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for env0.com: Automated Drift Detection 🌟 covering Drift Detection Tools in DevOps (envzero.com).
 ## Education
 
 ### Syllabus
@@ -1018,7 +1015,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2020)** [github.blog: How to make DevOps your competitive advantage](https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights strategic advantages realized by organizations building automated code assembly and validation workflows. Demonstrates how inner-source code bases accelerate release schedules.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [Project Management Methodology](./project-management-methodology.md) | [Project Management Tools](./project-management-tools.md)
+💡 **Explore Related:** [Developerportals](./developerportals.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

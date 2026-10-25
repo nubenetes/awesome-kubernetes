@@ -107,7 +107,7 @@ description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native archite
   - [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 10 Commandments of Microservice Decomposition 🌟 covering Migration Styles. Lift and Shift Cloud Migration Strategy in Faq (dzone.com).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

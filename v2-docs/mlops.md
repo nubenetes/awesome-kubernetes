@@ -136,7 +136,6 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
   - **(2023)** [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical article highlighting the top Python tools and libraries that modern data scientists use to build and optimize their models. It evaluates features across libraries focused on performance, profiling, testing, and memory usage.
   - **(2026)** [Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning](https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?gi=783a201a0e41&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning covering Data Science in MLOps (netflixtechblog.com).
-  - [analyticsindiamag.com: Is coding necessary to work as a data scientist?](https://analyticsindiamag.com/ai-highlights/is-coding-necessary-to-work-as-a-data-scientist) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for analyticsindiamag.com: Is coding necessary to work as a data scientist? covering Data Science in MLOps (analyticsindiamag.com).
 ## Data Version Control
 
 ### Developer Tooling (1)
@@ -217,8 +216,6 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 ## Introduction. Mlops
 
   - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cd.foundation: Announcing the CD Foundation MLOps SIG covering Introduction. MLOps in MLOps (cd.foundation).
-  - [itnext.io: Building ML Componentes on Kubernetes](https://itnext.io/building-ml-componentes-on-kubernetes-fc7e24cb9269?gi=d3b90ca0a89f) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Building ML Componentes on Kubernetes covering Introduction. MLOps in MLOps (itnext.io).
-  - [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/ai-trends/top-tools-for-enabling-ci-cd-in-ml-pipelines) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines covering Introduction. MLOps in MLOps (analyticsindiamag.com).
 ## Kubeflow
 
   - [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32?gi=0d9f947f4fa3) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Kubeflow Cloud Deployment (AWS) covering Kubeflow in MLOps (blog.devgenius.io).
@@ -383,7 +380,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2022)** [**ML Platform Workshop**](https://github.com/aporia-ai/mlplatform-workshop) <span class='md-tag md-tag--info'>⭐ 445</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a3327ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 13 L 30 12 L 40 11 L 50 3" fill="none" stroke="url(#spark-grad-8a3327ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A hands-on technical workshop repository showcasing the design of an end-to-end Machine Learning Platform. Demonstrates real-world integration of model registries, tracking servers, and deployment mechanisms under production-like conditions. Excellent educational resource for learning the architectural glue of modern MLOps frameworks.
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

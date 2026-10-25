@@ -195,7 +195,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Docker Hardened Images for Every Developer covering Docker Security in Docker (docker.com).
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

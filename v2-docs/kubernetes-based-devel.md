@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kubernetes IDE, Minikube and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube, Lens Kubernetes IDE and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Based Development. Kubernetes Distributions for local environments. Kubernetes Development Tools and Dashboards
 
@@ -171,15 +171,12 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kub
 #### Tutorials
 
   - **(2021)** [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical collection of guides covering Minikube configuration strategies. Includes details on exposing cluster nodes to remote endpoints, running direct container updates via local Dockerfiles, and comparing local orchestration setups.
-## Lumovi
-
-  - [Lumovi](https://github.com/Lumovi/Lumovi) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Lumovi covering Lumovi in Kubernetes Based Devel (github.com).
 ## Non-production Kubernetes Local Installers. Kubernetes Distributions For Local Environments. Desktop Kubernetes
 
   - [faun.pub: Finally, (successfully…) setup docker registry inside kind Kubernetes cluster](https://faun.pub/finally-successfully-setup-docker-registry-inside-kind-kubernetes-cluster-5b0381dbb2ec?gi=67d6e06c8bfc) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [==blog.kubesimplify.com: Yours Kindly Drone==](https://blog.kubesimplify.com/yours-kindly-drone) **Kubernetes Native Continuous Integration (CI) on your laptops. A hands-on tutorial on how to use KinD and Drone to set up CI with Kubernetes on your local machine. At the end of these steps, you will have a completely functional Kubernetes & CI to build and deploy cloud-native apps on K8s** [medyagh/setup-minikube](https://github.com/medyagh/setup-minikube) setup-minikube is a Github action that creates a temporary minikube cluster for testing [dev.to: How to run Minikube on Apple M1 chip without Docker Desktop using Colima](https://dev.to/everythingdevops/how-to-run-minikube-on-apple-m1-chip-without-docker-desktop-h76)
   - [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2?gi=10244542445b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Run Kubernetes On Your Machine covering Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s in Kubernetes Based Devel (itnext.io).
   - [itnext.io: Kubernetes local playground alternatives](https://itnext.io/kubernetes-local-playground-alternatives-e1a590632b9f?gi=0955fbd1ac42) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes local playground alternatives covering Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s in Kubernetes Based Devel (itnext.io).
-  - [nodejs-k8s](https://github.com/Megapixel99/nodejs-k8s) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for nodejs-k8s covering Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s in Kubernetes Based Devel (github.com).
+  - [nodejs-k8s](https://github.com/Megapixel99/nodejs-k8s) <span class='md-tag md-tag--info'>⭐ 124</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-79e9052c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 6 L 30 10 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-79e9052c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for nodejs-k8s covering Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s in Kubernetes Based Devel (github.com).
 ## Observability
 
 ### Dashboards
@@ -256,7 +253,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kub
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

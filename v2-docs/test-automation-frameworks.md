@@ -30,9 +30,6 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
 ## Cucumber And Appium. Behavior Driven Development
 
   - [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: API Testing With Cucumber covering Cucumber and Appium. Behavior Driven Development in Test Automation Frameworks (dzone.com).
-## Cypress
-
-  - [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.testmuai.com/blog/playwright-vs-selenium-vs-cypress) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for lambdatest.com: Selenium vs Cypress – Which Is Better in 2021? covering Cypress in Test Automation Frameworks (testmuai.com).
 ## Quality Assurance and Testing
 
 ### API Automation
@@ -161,7 +158,6 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
   - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: top 11 challenges in autmation testing using selenium covering Selenium in Test Automation Frameworks (dzone.com).
 ## Test Automation With Zephyr Jira Plugin
 
-  - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-essential-test-management-for-jira) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Atlassian Marketplace: Zephyr covering Test Automation with Zephyr Jira Plugin in Test Automation Frameworks (marketplace.atlassian.com).
   - [Dzone: 14 of the best automation testing tools available](https://dzone.com/articles/14-of-the-best-automation-testing-tools-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 of the best automation testing tools available covering Test Automation with Zephyr Jira Plugin in Test Automation Frameworks (dzone.com).
   - [Dzone: The power of automated testing and test management](https://dzone.com/articles/the-power-of-automated-testing-and-test-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: The power of automated testing and test management covering Test Automation with Zephyr Jira Plugin in Test Automation Frameworks (dzone.com).
 ## Web Scraping and Automation
@@ -176,7 +172,7 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
   - **(2022)** [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An engineering guide demonstrating how to leverage Selenium for scraping complex, dynamic JavaScript-rendered single-page applications where simple HTTP libraries fail. It outlines managing browser sessions, interacting with dynamic elements, bypassing basic detection systems, and extracting raw DOM data systematically.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Project Management Methodology](./project-management-methodology.md)
+💡 **Explore Related:** [Developerportals](./developerportals.md) | [DevOps](./devops.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

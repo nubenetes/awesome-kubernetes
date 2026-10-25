@@ -15,7 +15,6 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
   - [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Sonarqube scanning in 15 minutes covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
   - [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Quick start with sonarqube for static code analysis covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
   - [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
-  - [itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker](https://itnext.io/sonarqube-running-tests-from-jenkins-pipeline-from-docker-7740702b6f42?gi=3ff8b5dd8108) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker covering Analyzing Code with SonarQube in Sonarqube (itnext.io).
 ## Continuous Integration
 
 ### Code Quality
@@ -43,7 +42,7 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
   - [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Why SonarQube covering Introduction in Sonarqube (dzone.com).
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

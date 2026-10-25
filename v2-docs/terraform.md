@@ -1,5 +1,5 @@
 ---
-description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, tfenv and more — curated Cloud Native tools, guides and references."
+description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, terraform-cdk and more — curated Cloud Native tools, guides and references."
 ---
 # Hashicorp Terraform and Packer. Kubernetes Boilerplates
 
@@ -15,8 +15,6 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
   - [==towardsaws.com: Import Existing AWS Infrastructure to Terraform==](https://towardsaws.com/import-existing-aws-architecture-to-terraform-368b66c48275?gi=a4d271293d36) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and architectural reference for towardsaws.com: Import Existing AWS Infrastructure to Terraform in the Terraform ecosystem (towardsaws.com).
   - [env0.com: We’re Opensourcing Terratag to Make Multicloud Resource Tagging Easier](https://www.envzero.com/blog/were-opensourcing-terratag-to-make-multicloud-resource-tagging-easier) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for env0.com: We’re Opensourcing Terratag to Make Multicloud Resource Tagging Easier in the Terraform ecosystem (envzero.com).
   - [itnext.io: How to use Terraform to create a small-scale Cloud Infrastructure 🌟](https://itnext.io/how-to-use-terraform-to-create-a-small-scale-cloud-infrastructure-abf54fabc9dd?gi=b4b5bc129285) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for itnext.io: How to use Terraform to create a small-scale Cloud Infrastructure 🌟 in the Terraform ecosystem (itnext.io).
-  - [acloudguru.com: What does the Terraform 1.0 release mean for you?](https://www.pluralsight.com/resources/blog/cloud/what-does-the-terraform-1-0-release-mean-for-you)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for acloudguru.com: What does the Terraform 1.0 release mean for you? in the Terraform ecosystem (pluralsight.com).
-  - [terrateam.io: Terraform Pre-Commit Hooks](https://stategraph.com/blog/terraform-pre-commit-hooks?from=terrateam) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for terrateam.io: Terraform Pre-Commit Hooks in the Terraform ecosystem (stategraph.com).
   - [faun.pub: Terraform-Prevent Conditionally Created Resources From Deletion 🌟](https://faun.pub/terraform-prevent-conditionally-created-resources-from-deletion-dcec1b793565?gi=dc4f46650feb) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for faun.pub: Terraform-Prevent Conditionally Created Resources From Deletion 🌟 in the Terraform ecosystem (faun.pub).
   - [faun.pub: The Lifecycle of a Terraform Resource — Lifecycle Meta-Argument](https://faun.pub/the-lifecycle-of-a-terraform-resource-lifecycle-meta-argument-3cc4555ec976?gi=b930cd3b7905) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for faun.pub: The Lifecycle of a Terraform Resource — Lifecycle Meta-Argument in the Terraform ecosystem (faun.pub).
   - [awstip.com: Refactor Terraform code with Moved Blocks — a new way without manually modifying the state](https://awstip.com/refactor-terraform-code-with-moved-blocks-a-new-way-without-manually-modifying-the-state-5ed1d80ed53e?gi=605864603038) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for awstip.com: Refactor Terraform code with Moved Blocks — a new way without manually modifying the state in the Terraform ecosystem (awstip.com).
@@ -25,7 +23,6 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
   - [faun.pub: Import your existing cloud infra into Terraform](https://faun.pub/import-your-existing-cloud-infra-into-terraform-ca70da146152?gi=c44be4eee876) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for faun.pub: Import your existing cloud infra into Terraform in the Terraform ecosystem (faun.pub).
   - [blog.devgenius.io: Kubernetes on Proxmox with Terraform](https://blog.devgenius.io/kubernetes-on-proxmox-with-terraform-6880921af6e4?gi=2e505c380289) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for blog.devgenius.io: Kubernetes on Proxmox with Terraform in the Terraform ecosystem (blog.devgenius.io).
   - [aws.plainenglish.io: The Automation Fellowship: Packer, Terraform, and Ansible — PART III](https://aws.plainenglish.io/the-automation-fellowship-packer-terraform-and-ansible-part-iii-73571ef103e1?gi=ccde134f6250) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for aws.plainenglish.io: The Automation Fellowship: Packer, Terraform, and Ansible — PART III in the Terraform ecosystem (aws.plainenglish.io).
-  - [itnext.io: GitHub Actions: Terraform deployments with a review of planned changes](https://itnext.io/github-actions-terraform-deployments-with-a-review-of-planned-changes-30143358bb5c?gi=7ad138aaff4c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for itnext.io: GitHub Actions: Terraform deployments with a review of planned changes in the Terraform ecosystem (itnext.io).
 
 ## AWS
 
@@ -1103,9 +1100,6 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
 #### Infrastructure As Code (5)
 
   - **(2023)** [==AWS Lambda the Terraform Way==](https://github.com/nsriram/lambda-the-terraform-way) <span class='md-tag md-tag--info'>⭐ 1260</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a88e588" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-8a88e588)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely starred open-source template repository outlining best practices for packaging, versioning, and deploying AWS Lambda functions natively using Terraform. Eliminates dependencies on external serverless frameworks by leveraging HCL zip archiving capabilities.
-## Terraform AKS Boilerplates
-
-  - [itnext.io: How We Used Terraform to Create and Manage a HA AKS Kubernetes Cluster in Azure](https://itnext.io/how-we-used-terraform-to-create-and-manage-a-ha-aks-kubernetes-cluster-in-azure-812f64896c08?gi=2af27b81b616) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How We Used Terraform to Create and Manage a HA AKS Kubernetes Cluster in Azure covering Terraform AKS Boilerplates in Terraform (itnext.io).
 ## Terraform And AWS
 
   - [==towardsaws.com: Creating a Bastion Host for Secure Access to Your AWS Infrastructure with Terraform==](https://towardsaws.com/creating-a-bastion-host-for-secure-access-to-your-aws-infrastructure-with-terraform-17ee287bb3d?gi=6e2f0315bfe5) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for towardsaws.com: Creating a Bastion Host for Secure Access to Your AWS Infrastructure with Terraform covering Terraform and AWS in Terraform (towardsaws.com).
@@ -1146,9 +1140,6 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
 
   - [blog.devops.dev: Terraform Modules](https://blog.devops.dev/terraform-modules-db392bb7e950?gi=4e0b23fd8610) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devops.dev: Terraform Modules covering Terraform Modules in Terraform (blog.devops.dev).
   - [blog.devops.dev: How to manage multiple environments with terraform with the use of modules?](https://blog.devops.dev/how-to-manage-multiple-environments-with-terraform-with-the-use-of-modules-d4ca512d7b4a?gi=1927e5def71c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devops.dev: How to manage multiple environments with terraform with the use of modules? covering Terraform Modules in Terraform (blog.devops.dev).
-## Terraform Providers (3)
-
-  - [env0.com: How to Use Terraform Providers](https://www.envzero.com/blog/how-to-use-terraform-providers) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for env0.com: How to Use Terraform Providers covering Terraform Providers in Terraform (envzero.com).
 ## Terraform Tools
 
   - [cncf.io: Introducing Opta: Terraform on Rails](https://www.cncf.io/blog/2022/02/18/introducing-opta-terraform-on-rails)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Introducing Opta: Terraform on Rails covering Terraform Tools in Terraform (cncf.io).
@@ -1157,7 +1148,7 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
   - [awstip.com: Deploying Azure Infrastructure with Terraform](https://awstip.com/deploying-azure-infrastructure-with-terraform-e34046c65d0f?gi=91abf4aaad19) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Deploying Azure Infrastructure with Terraform covering Terraform with Azure in Terraform (awstip.com).
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

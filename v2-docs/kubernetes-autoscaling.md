@@ -32,7 +32,6 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - [czakozoltan08.medium.com: Stupid Simple Scalability](https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6?gi=a0a201811ce0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for czakozoltan08.medium.com: Stupid Simple Scalability covering HPA and VPA in Kubernetes Autoscaling (itnext.io).
   - [awstip.com: Kubernetes HPA](https://awstip.com/kubernetes-hpa-8b7cf54f115?gi=79980ab29db7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Kubernetes HPA covering HPA and VPA in Kubernetes Autoscaling (awstip.com).
   - [code.egym.de: Horizontal Pod Autoscaler in Kubernetes (Part 1) — Simple Autoscaling using Metrics Server](https://code.egym.com/horizontal-pod-autoscaler-in-kubernetes-part-1-simple-autoscaling-using-metrics-server-929e96cc2ab2?gi=5b23d6ea8888) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.egym.de: Horizontal Pod Autoscaler in Kubernetes (Part 1) — Simple Autoscaling using Metrics Server covering HPA and VPA in Kubernetes Autoscaling (code.egym.com).
-  - [itnext.io: Stupid Simple Scalability](https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6?gi=e7df8931484e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Stupid Simple Scalability covering HPA and VPA in Kubernetes Autoscaling (itnext.io).
   - [faun.pub: Scaling Your Application Using Kubernetes - Harness | Pavan Belagatti](https://faun.pub/scaling-your-application-using-kubernetes-9ad0d6bcf0d6?gi=209d7be5a6f4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Scaling Your Application Using Kubernetes - Harness | Pavan Belagatti covering HPA and VPA in Kubernetes Autoscaling (faun.pub).
   - [code.egym.de: Vertical Pod Autoscaler in Kubernetes](https://code.egym.com/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f?gi=239f642fcddb) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.egym.de: Vertical Pod Autoscaler in Kubernetes covering HPA and VPA in Kubernetes Autoscaling (code.egym.com).
   - [faun.pub: Intelligently estimating your Kubernetes resource needs!](https://faun.pub/intelligently-estimating-your-kubernetes-resource-needs-c12a75ea3138?gi=7d1a3accca7c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Intelligently estimating your Kubernetes resource needs! covering HPA and VPA in Kubernetes Autoscaling (faun.pub).
@@ -115,7 +114,6 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 #### Scaling Intro
 
   - **(2022)** [thinksys.com: Understanding Kubernetes Autoscaling](https://thinksys.com/devops/kubernetes-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A conceptual guide summarizing horizontal, vertical, and cluster autoscaling systems. Explains basic mechanics, helping system administrators structure simple scale profiles without causing resource starvation.
-  - **(2021)** [dev.to: Scaling Your Application With Kubernetes | Pavan Belagatti](https://dev.to/pavanbelagatti/scaling-your-application-with-kubernetes-5715)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A brief overview introducing cloud-native application scaling mechanisms. Explores simple replica configurations and metrics monitoring strategies, serving as an outstanding initial developer onboarding reference.
 ### Cost Optimization
 
 #### Automated Optimization
@@ -181,7 +179,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Scale to Zero With Kubernetes with KEDA and/or Knative covering Kubernetes Scale to Zero in Kubernetes Autoscaling (dzone.com).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -38,10 +38,9 @@ description: "Top CI/CD Kubernetes Plugins resources for 2026, AI-ranked: Jenkin
 ## Kubernetes Job Scheduling
 
   - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?gi=b7df13ef57ad&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Netflix Simplified Batch Compute with Kueue covering Kubernetes Job Scheduling in CI/CD Kubernetes Plugins (netflixtechblog.com).
-  - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Netflix Simplified Batch Compute with Kueue covering Kubernetes Job Scheduling in CI/CD Kubernetes Plugins (netflixtechblog.com).
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -32,7 +32,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - **(2022)** [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://www.vmware.com/products/app-platform/tanzu) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides the canonical reference architecture for running high-scale Spring Cloud applications natively on Kubernetes. Evaluates Spring Cloud Kubernetes integrations for service discovery, centralized configuration via ConfigMaps, and seamless external secrets management, aligning with 2026 Tanzu application platform standards.
 ## CICD
 
-  - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Darkmoon covering Secure Container Based CICD Workflows. Vulnerability Scanner for Container Images in Devsecops (github.com).
+  - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) <span class='md-tag md-tag--info'>⭐ 1140</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8ff6b22b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 8 L 30 6 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-8ff6b22b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Darkmoon covering Secure Container Based CICD Workflows. Vulnerability Scanner for Container Images in Devsecops (github.com).
 ## Cloud Native Operations
 
 ### Kubernetes
@@ -50,9 +50,6 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 ## Container Security Best Practices
 
   - [dzone: A Practical Guide for Container Security](https://dzone.com/articles/a-practical-guide-for-container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: A Practical Guide for Container Security covering Container security best practices in Devsecops (dzone.com).
-## Container Signing. Secure Containers With Notary Or Cosign
-
-  - [itnext.io: Securing Kubernetes Workloads: A Practical Approach to Signed and Encrypted Container Images](https://itnext.io/securing-kubernetes-workloads-a-practical-approach-to-signed-and-encrypted-container-images-ff6e98b65bcd?gi=6015d48f34df) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Securing Kubernetes Workloads: A Practical Approach to Signed and Encrypted Container Images covering Container Signing. Secure Containers with Notary or Cosign in Devsecops (itnext.io).
 ## Containers
 
 ### Security and Hardening
@@ -901,11 +898,6 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Ansible and Cyberark
 
   - **(2021)** [ansible.com: Automating Security with CyberArk and Red Hat Ansible Automation Platform](https://www.redhat.com/en/blog/automating-security-with-cyberark-and-red-hat-ansible-automation-platform) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights patterns for automated incident remediation and threat response using CyberArk security profiles triggered by Ansible playbooks. Details dynamic credential rotation and rapid privilege revocation scenarios under active security events. Provides an enterprise-grade framework for unifying dev-sec-ops monitoring with automated compliance enforcement.
-### CICD (7)
-
-#### Penetration Testing (1)
-
-  - **(2021)** [research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines](https://www.nccgroup.com/research) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case-study driven review from NCC Group outlining real-world exploits used to compromise continuous delivery channels. Common vectors include poorly protected secrets, dependency confusion attacks, and unauthenticated pipeline runners. This security research highlights the critical importance of runtime monitoring and pipeline isolation to prevent supply-chain compromises.
 ### Cloud Security (1)
 
 #### Identity and Access Management (2)
@@ -1018,7 +1010,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - [cncf.io: Seven zero trust rules for Kubernetes](https://www.cncf.io/blog/2022/11/04/seven-zero-trust-rules-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Seven zero trust rules for Kubernetes covering Zero Trust Security in Devsecops (cncf.io).
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Kustomize](./kustomize.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

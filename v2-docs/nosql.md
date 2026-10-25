@@ -12,12 +12,8 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 ## Standard Reference
 
   - **(2015)** [NoSQL vs. SQL: Choosing a Data Management Solution](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for NoSQL vs. SQL: Choosing a Data Management Solution in the NoSQL ecosystem (javacodegeeks.com).
-  - [NoSQL Guide, by Martin Fowler](https://martinfowler.com/data/index.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for NoSQL Guide, by Martin Fowler in the NoSQL ecosystem (martinfowler.com).
   - [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](https://www.blog.facilcloud.com/noticias/sql-vs-nosql-which-one-should-i-use/?lang=es_ES)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Diferencias entre SQL y NoSQL ¿Sabes cuál usar? in the NoSQL ecosystem (blog.facilcloud.com).
 
-## Alternatives
-
-  - [Cassandra.apache.org](https://cassandra.apache.org/_/index.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster. [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html) [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.ibm.com/products/datastax) [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes) [thenewstack.io: How to Run a Cassandra Operation in Docker](https://thenewstack.io/how-to-run-a-cassandra-operation-in-docker)
 ## Cassandra
 
   - **(2026)** [The Evolution of Cassandra Data Movement at Netflix](https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?gi=b9ccc85333af&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for The Evolution of Cassandra Data Movement at Netflix covering Cassandra in NoSQL (netflixtechblog.com).
@@ -115,11 +111,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 ## Mongodb Tools And Mongodb As A Service
 
   - **(2015)** [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for MongoDB Tutorial – A Scalable NoSQL DB covering MongoDB Tools and MongoDB as a Service in NoSQL (javacodegeeks.com).
-  - [3T MongoChef – Your New MongoDB GUI](https://studio3t.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [Connecting to your MongoDB at MongoLab](https://studio3t.com/knowledge-base/desktop-ide/connect-to-mongodb-atlas)
   - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad?gi=73bd5bb561ae) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage covering MongoDB Tools and MongoDB as a Service in NoSQL (code.likeagirl.io).
-## Newsql
-
-  - [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](https://www.3ds.com/nuodb-distributed-sql-database) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas covering NewSQL in NoSQL (3ds.com).
 ## Observability
 
 ### Microservices Monitoring
@@ -129,7 +121,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Yaml](./yaml.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

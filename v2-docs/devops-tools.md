@@ -1,5 +1,5 @@
 ---
-description: "Top DevOps Tools resources for 2026, AI-ranked: ASDF, Claude Code Templates and more — curated Cloud Native tools, guides and references."
+description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templates, Awesome Sysadmin and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Tools aka Toolchain
 
@@ -137,7 +137,6 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: ASDF, Claude Code 
 ## Introduction
 
   - [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: DevOps Toolchain for Beginners 🌟 covering Introduction in DevOps Tools (dzone.com).
-  - [gitkraken.com: DevOps Tools Report 2020 🌟](https://gitkraken.com/reports/devops-report-2020) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for gitkraken.com: DevOps Tools Report 2020 🌟 covering Introduction in DevOps Tools (gitkraken.com).
   - [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com: 30 Best DevOps Tools & Technologies covering Introduction in DevOps Tools (guru99.com).
   - [faun.pub: Top 10 uncommon DevOps tools you should know](https://faun.pub/top-10-uncommon-devops-tools-you-should-know-f4f4464ec7f3?gi=ed880b09ddb6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Top 10 uncommon DevOps tools you should know covering Introduction in DevOps Tools (faun.pub).
 ## Kubernetes and Container Orchestration
@@ -188,7 +187,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: ASDF, Claude Code 
   - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced patterns for orchestrating automated codebase modifications across distributed multi-repository environments using AI workspaces. Evaluates dependency resolution, unified context indexing, and coordinate git-commit strategies during systemic API breaking updates.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

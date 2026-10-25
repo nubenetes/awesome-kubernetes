@@ -104,7 +104,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 ## Azure AD And RBAC. Azure Tenant And Azure Subscription. Service Principal SPN. Microsoft Entra
 
   - [stackoverflow.com: What is the difference between an Azure tenant and' Azure subscription?](https://stackoverflow.com/questions/47307368/what-is-the-difference-between-an-azure-tenant-and-azure-subscription)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow.com: What is the difference between an Azure tenant and' Azure subscription? covering Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra in Azure (stackoverflow.com).
-  - [itnext.io: Secure Azure Cosmos DB access by using Azure Managed Identities](https://itnext.io/secure-azure-cosmos-db-access-by-using-azure-managed-identities-55f9fdf48fda?gi=1e4ece7b4032) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Secure Azure Cosmos DB access by using Azure Managed Identities covering Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra in Azure (itnext.io).
 ## Azure API Management
 
   - [azure.microsoft.com: Azure API Management](https://azure.microsoft.com/en-us/products/api-management) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for azure.microsoft.com: Azure API Management covering Azure API Management in Azure (azure.microsoft.com).
@@ -114,7 +113,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - [docs.microsoft.com: CI/CD workflow using GitOps (Flux v2) - Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for docs.microsoft.com: CI/CD workflow using GitOps (Flux v2) - Azure Arc enabled Kubernetes covering Azure Arc. Azures Hybrid And Multi-Cloud Platform. GitOps with Azure Arc in Azure (learn.microsoft.com).
 ## Azure Bicep
 
-  - **(2023)** [insight-services-apac.github.io: Getting Started with Bicep](https://blog.apac.insight.com/2023/12/04/getting-started-bicep) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for insight-services-apac.github.io: Getting Started with Bicep covering Azure Bicep in Azure (blog.apac.insight.com).
   - [faun.pub: From Terraform to Azure Bicep: What You Need to Know about syntax](https://camargo-wes.medium.com/from-terraform-to-azure-bicep-what-you-need-to-know-bb1c404b7603) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: From Terraform to Azure Bicep: What You Need to Know about syntax covering Azure Bicep in Azure (camargo-wes.medium.com).
 ## Azure CLI. AZ CLI
 
@@ -154,9 +152,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 ## Azure Run Command
 
   - [docs.microsoft.com: Run scripts in your Windows VM by using action Run Commands](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/run-command) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for docs.microsoft.com: Run scripts in your Windows VM by using action Run Commands covering Azure Run Command in Azure (learn.microsoft.com).
-## Azure Tools
-
-  - [github.com/mspnp/AzureNamingTool - Azure Naming Tool 🌟](https://github.com/Azure/AzureNamingTool) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for github.com/mspnp/AzureNamingTool - Azure Naming Tool 🌟 covering Azure Tools in Azure (github.com).
 ## Azure Virtual WAN. Vwan
 
   - [Azure Virtual WAN introduces its first SaaS offering](https://azure.microsoft.com/en-us/blog/azure-virtual-wan-introduces-its-first-saas-offering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Azure Virtual WAN introduces its first SaaS offering covering Azure Virtual WAN. vWAN in Azure (azure.microsoft.com).
@@ -447,8 +442,8 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2025)** [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive comparison of Azure Service Endpoints versus Private Link. The author details critical architectural trade-offs: while Service Endpoints are simple to configure and leverage public IPs, Private Link allocates private endpoints within your virtual network, enhancing the security posture of microservice deployments by blocking data exfiltration channels, albeit with increased cost and complexity.
 #### Security (1)
 
-  - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
   - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
+  - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
 #### Subnet Peering
 
   - **(2025)** [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural paradigm of Subnet Peering in Azure, bypassing the traditional resource-heavy requirements of full Virtual Network (VNet) peering. This feature allows network engineers to establish direct, localized communication paths between designated subnets, optimizing security boundaries and address space usage.
@@ -759,13 +754,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 ##### Infrastructure Automation
 
   - **(2021)** [dotnet-helpers.com: Azure KeyVault Set and Retrieve Secrets using Powershell 🌟](https://dotnet-helpers.com/powershell/azure-keyvault-set-and-retrieve-secrets) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates standard CRUD API routines for setting, changing, and pulling protected application settings from active Azure KeyVault services using current Microsoft Az commands.
-### Virtual Machines
-
-#### Azure VM Agent
-
-##### Script Orchestration
-
-  - **(2023)** [docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/run-command) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guidelines detailing agent-driven script orchestration inside Linux workloads using native Azure Run command capabilities.
 ## Cloud Providers
 
 ### Microsoft AKS
@@ -826,7 +814,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 #### AKS Engine
 
   - **(2021)** [thenewstack.io: Azure Kubernetes Service Replaces Docker with containerd](https://thenewstack.io/azure-kubernetes-service-replaces-docker-with-containerd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep dive into the deprecation of Docker-shim in Azure Kubernetes Service (AKS) in favor of the containerd container runtime. This architectural shift eliminates runtime abstraction layers, drastically reducing node CPU and memory footprint overhead. Real-world implementation details confirm improved container launch latencies and optimal alignment with CNCF runtime specifications.
-### Virtual Machines (1)
+### Virtual Machines
 
 #### SKU Discovery
 
@@ -1436,9 +1424,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 
   - [==techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API==](https://www.techtarget.com/it-infrastructure/tutorial/Get-up-to-speed-with-PowerShell-and-the-Microsoft-Graph-API) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API covering Microsoft Graph PowerShell SDK in Azure (techtarget.com).
   - [docs.microsoft.com: Microsoft Graph migration](https://learn.microsoft.com/en-us/cli/azure/microsoft-graph-migration?view=azure-cli-latest&tabs=powershell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for docs.microsoft.com: Microsoft Graph migration covering Microsoft Graph PowerShell SDK in Azure (learn.microsoft.com).
-## Mobile Apps
-
-  - [itnext.io: How to setup CI CD pipelines for Android with Azure DevOps](https://itnext.io/how-to-setup-ci-cd-pipelines-for-android-with-azure-devops-2a4ded0de0e7?gi=172b407a93d7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How to setup CI CD pipelines for Android with Azure DevOps covering Mobile Apps in Azure (itnext.io).
 ## Modern Workplace
 
 ### Endpoint Management
@@ -1505,7 +1490,6 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - [==azure.microsoft.com: Azure Virtual Network Manager topology view now generally available==](https://azure.microsoft.com/en-us/updates?id=azure-virtual-network-manager-topology-view-now-generally-available) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for azure.microsoft.com: Azure Virtual Network Manager topology view now generally available covering New Features in Azure (azure.microsoft.com).
   - [azure.microsoft.com: Generally available: SFTP support for Azure Blob Storage](https://azure.microsoft.com/en-us/updates/sftp-support-for-azure-blob-storage-now-generally-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for azure.microsoft.com: Generally available: SFTP support for Azure Blob Storage covering New Features in Azure (azure.microsoft.com).
   - [azure.microsoft.com: Generally Available: Durable Functions support of managed identity for Azure Storage](https://azure.microsoft.com/en-us/updates?id=generally-available-durable-functions-support-of-managed-identity-for-azure-storage) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for azure.microsoft.com: Generally Available: Durable Functions support of managed identity for Azure Storage covering New Features in Azure (azure.microsoft.com).
-  - [Generally available: Azure Bastion now support shareable links](https://azure.microsoft.com/en-us/updates/generally-available-azure-bastion-shareable-links)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Generally available: Azure Bastion now support shareable links covering New Features in Azure (azure.microsoft.com).
 ## Operating Systems (1)
 
 ### Azure Linux (1)
@@ -1679,7 +1663,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
 ##### Reverse Shells
 
   - **(2022)** [hackingarticles.in: PowerShell for Pentester: Windows Reverse Shell](https://www.hackingarticles.in/powershell-for-pentester-windows-reverse-shell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides hands-on configuration instructions for building, executing, and defending against dynamic PowerShell-based reverse shells. Analyzes standard socket handling mechanisms inside active Windows target environments.
-### Virtual Machines (2)
+### Virtual Machines (1)
 
 #### Azure Run Command (1)
 
@@ -1705,7 +1689,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - [DevOps Azure Pipelines: YAML Schema](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DevOps Azure Pipelines: YAML Schema covering YAML Schema in DevOps Azure Pipelines in Azure (learn.microsoft.com).
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [AWS Backup](./aws-backup.md) | [AWS Newfeatures](./aws-newfeatures.md)
+💡 **Explore Related:** [AWS Security](./aws-security.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Networking](./aws-networking.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

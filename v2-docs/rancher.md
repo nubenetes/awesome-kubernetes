@@ -151,10 +151,8 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 ## K3S
 
   - [Upgrade Your K3s Clusters Smoothly in Rancher 2.4](https://www.suse.com/c/rancher_blog/upgrade-your-k3s-clusters-smoothly-in-rancher-2-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Upgrade Your K3s Clusters Smoothly in Rancher 2.4 covering K3S in Rancher (suse.com).
-  - [codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy](https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d?gi=2c2335720cfd) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy covering K3S in Rancher (codeburst.io).
   - [rancher.com: Set up Your K3s Cluster for High Availability](https://www.suse.com/c/rancher_blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for rancher.com: Set up Your K3s Cluster for High Availability covering K3S in Rancher (suse.com).
   - [rancher.com: Set up K3s in High Availability using k3d](https://www.suse.com/c/rancher_blog/set-up-k3s-in-high-availability-using-k3d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for rancher.com: Set up K3s in High Availability using k3d covering K3S in Rancher (suse.com).
-  - [itnext.io: Running K3S workload in a restricted environment](https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005?gi=35b2b4f933e8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Running K3S workload in a restricted environment covering K3S in Rancher (itnext.io).
 ## K3S In Public Clouds
 
   - [Run Rancher 2.4 in Azure with K3s and MySQL](https://www.suse.com/c/rancher_blog/run-rancher-2-4-in-azure-with-k3s-and-mysql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Run Rancher 2.4 in Azure with K3s and MySQL covering K3S in Public Clouds in Rancher (suse.com).
@@ -291,7 +289,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - [rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE](https://www.suse.com/c/rancher_blog/stateful-kubernetes-workloads-on-vsphere-with-rke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE covering Rancher RKE on vSphere in Rancher (suse.com).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

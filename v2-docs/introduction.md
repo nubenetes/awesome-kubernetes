@@ -50,7 +50,6 @@ graph TD
     
     Technical documentation and architectural reference for betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture in the Introduction ecosystem (awstip.com).
 
-  - [Modernize legacy applications with containers, microservices](https://www.techtarget.com/it-infrastructure/feature/Modernize-legacy-applications-with-containers-microservices) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical documentation and architectural reference for Modernize legacy applications with containers, microservices in the Introduction ecosystem (techtarget.com).
   - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: Top 7 challenges to becoming cloud native in the Introduction ecosystem (cncf.io).
   - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for How Your Application Architecture Has Evolved 🌟 in the Introduction ecosystem (dzone.com).
   - [dzone: Top 6 Time Wastes as a Software Engineer](https://dzone.com/articles/top-time-wastes-as-a-software-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 6 Time Wastes as a Software Engineer in the Introduction ecosystem (dzone.com).
@@ -763,13 +762,6 @@ graph TD
 #### Introduction (1)
 
   - **(2021)** [semaphoreci.com: Microfrontends: Microservices for the Frontend](https://semaphore.io/blog/microfrontends)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores extending microservice patterns to client-side presentation layers. Evaluates how microfrontends divide a single web application into independent, decoupled frontend modules maintained by autonomous cross-functional teams.
-## Hardened Infrastructure
-
-### IaC
-
-#### Introduction (2)
-
-  - [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e?gi=6af9d6b0fec8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables covering Introduction in IaC (itnext.io).
 ## Infrastructure
 
 ### Cloud Architecture (1)
@@ -1276,7 +1268,7 @@ graph TD
   - [faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services](https://faun.pub/what-is-difference-of-event-driven-architecture-message-driven-architecture-and-microservices-f5623e51f868?gi=ad91ab56fdd9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services covering Understanding the Differences Between Event-Driven Message-Driven and Microservices Architectures in Introduction (faun.pub).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

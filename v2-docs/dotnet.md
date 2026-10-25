@@ -12,7 +12,6 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 ## ASP.NET Core
 
   - [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for' PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for' PostgreSQL covering ASP.NET Core in Dotnet (dzone.com).
-  - [itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f?gi=f1a56b4d5dab) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture covering ASP.NET Core in Dotnet (itnext.io).
 ## Application Development
 
 ### .NET Framework
@@ -104,7 +103,7 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
   - **(2024)** [Paradigm framework](https://www.paradigm.net.co) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source development platform designed to facilitate rapid, highly structured .NET microservice engineering. Standardizes dependency configurations, modular architectures, data mapping protocols, and enterprise repository patterns.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -172,17 +172,13 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
 
   - [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend covering Introduction in Finops (cncf.io).
   - [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417?gi=a308c8ddacb6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: FinOps – introduction, origins and next steps covering Introduction in Finops (faun.pub).
-  - [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/smart-business/resources-for-smb/cloud-financial-management) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know covering Introduction in Finops (aws.amazon.com).
   - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for logz.io: FinOps Observability: Monitoring Kubernetes Cost covering Introduction in Finops (logz.io).
 ## Kubernetes Cost Optimization
 
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9?gi=9d9ff792e945) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000 covering Kubernetes Cost Optimization in Finops (engineering.razorpay.com).
-## Licence Managers
-
-  - [marketplace.atlassian.com:  License Manager - Easily track your software licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-domain-and-ssl-cert-expiration-monitoring) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for marketplace.atlassian.com:  License Manager - Easily track your software licenses covering Licence Managers in Finops (marketplace.atlassian.com).
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Elearning](./elearning.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

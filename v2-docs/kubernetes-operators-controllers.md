@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, K8Spin Operator and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, Capsule Operator and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Operators and Controllers
 
@@ -362,13 +362,6 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 ##### Operators (19)
 
   - **(2023)** [==redhat-cop/keepalived-operator: Keepalived operator==](https://github.com/redhat-cop/keepalived-operator) <span class='md-tag md-tag--info'>⭐ 123</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0c43f46b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 2 L 30 6 L 40 8 L 50 12" fill="none" stroke="url(#spark-grad-0c43f46b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Manages Keepalived deployments within Kubernetes clusters. It coordinates VIP (Virtual IP) failover protocols across physical or virtual cluster node interfaces.
-## Networking and Service Mesh
-
-### Kubernetes Networking
-
-#### Nginx Ingress Controller
-
-  - [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-retired/ingate) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical documentation and implementation reference for InGate: Ingress & Gateway API Controller (Archived) covering Nginx Ingress Controller in Kubernetes Networking (github.com).
 ## Observability
 
 ### Distributed Tracing
@@ -655,7 +648,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - [itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7?gi=2a2cd854cb68) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes covering Writing Kubernetes Operators and Controllers in Kubernetes Operators Controllers (itnext.io).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

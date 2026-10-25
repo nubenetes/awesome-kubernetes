@@ -275,7 +275,7 @@ description: "Top Developerportals resources for 2026, AI-ranked: Backstage Deve
   - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Custom Rate Limiting for Microservices 🌟 covering Spring Cloud Gateway in Developerportals (dzone.com).
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Project Management Methodology](./project-management-methodology.md) | [Project Management Tools](./project-management-tools.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

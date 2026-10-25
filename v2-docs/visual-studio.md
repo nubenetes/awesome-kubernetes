@@ -522,9 +522,6 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### VS Code Tooling (15)
 
   - **(2026)** [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Converts pure functional React components to class-based components. With the widespread adoption of Hooks and functional architectures in modern UI development, this tool has become a legacy helper primarily used for maintaining older web codebases.
-## Github Copilot
-
-  - [code.visualstudio.com: GitHub Copilot in VS Code](https://code.visualstudio.com/docs/agents/overview) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.visualstudio.com: GitHub Copilot in VS Code covering GitHub Copilot in Visual Studio (code.visualstudio.com).
 ## Kubernetes (2)
 
 ### Developer Experience
@@ -570,12 +567,12 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2021)** [Kite 🌟](https://kite.com) <span class='md-tag md-tag--warning'>[NOT APPLICABLE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Kite as a local-AI completion helper. Live Grounding confirms the project is fully retired and non-operational, with software development workflows now dominated by sophisticated cloud and local models like GitHub Copilot, Cursor, and modern LSP tooling.
 ## Vscode
 
-  - [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://github.com/atlassian/atlascode/issues/112) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded covering VSCode in Visual Studio (github.com).
+  - [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://github.com/atlassian/atlascode/issues/112) <span class='md-tag md-tag--info'>⭐ 134</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d155fd9f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 6 L 30 7 L 40 6 L 50 10" fill="none" stroke="url(#spark-grad-d155fd9f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded covering VSCode in Visual Studio (github.com).
   - [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote' Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for docker.com: How to Develop Inside a Container Using Visual Studio Code Remote' Containers 🌟 covering VSCode in Visual Studio (docker.com).
   - [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631?gi=0fbd0f1f2ab6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know covering VSCode in Visual Studio (levelup.gitconnected.com).
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Java_App_Servers](./java_app_servers.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

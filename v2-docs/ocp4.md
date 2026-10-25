@@ -1,5 +1,5 @@
 ---
-description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook and more — curated Cloud Native tools, guides and references."
+description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, OpenShift Serverless and more — curated Cloud Native tools, guides and references."
 ---
 # OCP 4
 
@@ -375,13 +375,6 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 
   - **(2021)** [**developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container**](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explains how to execute legacy .NET applications alongside Linux containers on OpenShift. Details the usage of the Windows Machine Config Operator (WMCO) to run and manage Windows Server VMs directly inside OpenShift.
   - **(2021)** [**cloud.redhat.com: Announcing Bring Your Own Host Support for Windows nodes to Red Hat OpenShift**](https://www.redhat.com/en/blog/announcing-bring-your-own-host-support-for-windows-nodes-to-red-hat-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces Bring Your Own Host (BYOH) capabilities for Windows Server workloads on OpenShift. Explains how this feature allows operators to manually bootstrap pre-configured Windows instances into their clusters.
-## Extensibility
-
-### Operators
-
-#### Lifecycle Management (1)
-
-  - **(2024)** [==Red Hat OLM==](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dd898253" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 11 L 30 9 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-dd898253)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Part of the Operator Framework, OLM manages the installation, updates, and role-based access control of Operators running inside a cluster. It acts as an orchestrator for custom resource definitions (CRDs) and controller versions, ensuring dependencies are resolved safely. This tool is standard infrastructure across Red Hat OpenShift and enterprise Kubernetes configurations to scale operations reliably.
 ## Extensibility and Apis
 
 ### Microservices
@@ -394,6 +387,9 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 #### Community Feed
 
   - **(2024)** [twitter.com/operatorhubio](https://x.com/operatorhubio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official community account sharing news, releases, and developments in the operator ecosystem.
+#### OLM Core
+
+  - **(2026)** [==OLM Arquitecture==](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8c2ec55e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 8 L 30 12 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-8c2ec55e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository provides deep technical designs for Operator Lifecycle Manager (OLM). It handles updates, dependency validation, and multi-tenant installations of Kubernetes Operators.
 ## Extensibility and Development
 
 ### Registries and Catalogs
@@ -404,7 +400,6 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 ## Helm Charts And Openshift 4
 
   - [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://www.redhat.com/en/blog/helm-and-operators-on-openshift-part-1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.openshift.com: Helm and Operators on OpenShift, Part 1 covering Helm Charts and OpenShift 4 in OCP 4 (redhat.com).
-  - [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://www.redhat.com/en/blog/helm-and-operators-on-openshift-part-2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.openshift.com: Helm and Operators on OpenShift, Part 2 covering Helm Charts and OpenShift 4 in OCP 4 (redhat.com).
 ## Industry Solution
 
 ### Construction Industry
@@ -662,7 +657,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 
   - **(2021)** [okd4-upi-lab-setup: Building an OpenShift - OKD 4.X Lab](https://cgruver.github.io/okd4-upi-lab-setup) <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub lab orchestration repository designed to construct an OKD 4.x environment via User Provisioned Infrastructure (UPI). Using automated Bash scripts and Ansible playbooks, it speeds up the configuration of helper services (DNS, HAProxy, Web server) and manages cluster deployment.
   - **(2020)** [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://www.redhat.com/en/blog/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive blog series instructing network engineers and developers on setting up a bare-metal OKD 4.4 cluster inside a personal home lab. It covers essential infrastructure prep, including configuring DHCP, DNS forwarding, PXE booting, HAProxy for load balancing, and deploying the bootstrap control VM.
-### Lifecycle Management (2)
+### Lifecycle Management (1)
 
 #### Application Migration
 
@@ -679,7 +674,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 
   - **(2025)** [Homepage](https://crc.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The landing portal for Red Hat OpenShift Local (formerly CodeReady Containers / CRC). OpenShift Local packages a minimal, single-node OpenShift cluster into a single virtual machine optimized for local development. Live grounding confirms it is the primary local emulation tool, replacing minishift, and is designed for developers building cloud-native applications directly on macOS, Windows, or Linux.
   - **(2019)** [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers**](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical launch announcement introducing Red Hat CodeReady Containers (now OpenShift Local) for OpenShift 4.2. It marks the transition to Operator-driven OpenShift clusters running on local developer laptops. The single-node environment utilizes host-native hypervisors (Hyper-V, Libvirt, Hyperkit) to containerize all cluster control-plane workloads into a resource-constrained footprint.
-#### Operators (1)
+#### Operators
 
   - **(2020)** [Install Red Hat OpenShift Operators on your laptop using Red Hat CodeReady Containers and Red Hat Marketplace](https://developers.redhat.com/blog/2020/09/09/install-red-hat-openshift-operators-on-your-laptop-using-red-hat-codeready-containers-and-red-hat-marketplace)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This tutorial covers deploying OpenShift Operators inside CodeReady Containers (OpenShift Local). Note: Red Hat Marketplace integration steps are now legacy due to the marketplace's sunset. However, the core technique of utilizing local Operator Lifecycle Manager (OLM) configurations to install enterprise-grade catalog operators on a local developer laptop remains highly relevant.
 #### Remote Deployments
@@ -788,7 +783,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
   - **(2022)** [cloud.redhat.com: Scale your application containers on Red Hat OpenShift Service on AWS (ROSA) clusters using Amazon EFS storage](https://www.redhat.com/en/blog/scale-your-application-containers-on-red-hat-openshift-service-on-aws-rosa-clusters-using-amazon-efs-storage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Teaches architects how to provision and leverage Amazon Elastic File System (EFS) to achieve multi-AZ ReadWriteMany (RWX) storage for scalable application backends.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

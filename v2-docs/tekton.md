@@ -60,7 +60,6 @@ description: "Top Tekton resources for 2026, AI-ranked: github: Tekton Pipelines
 ## Introduction
 
   - [itnext.io: Tekton Pipelines Kickstarter. Cloud Native CI/CD with Tekton — Laying The Foundation](https://itnext.io/cloud-native-ci-cd-with-tekton-laying-the-foundation-a377a1b59ac0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Tekton Pipelines Kickstarter. Cloud Native CI/CD with Tekton — Laying The Foundation covering Introduction in Tekton (itnext.io).
-  - [itnext.io: Cloud Native CI/CD with Tekton — Building Custom Tasks](https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb?gi=85454ce71f9f) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Cloud Native CI/CD with Tekton — Building Custom Tasks covering Introduction in Tekton (itnext.io).
 ## Platform Architecture
 
 ### CICD (2)
@@ -70,7 +69,7 @@ description: "Top Tekton resources for 2026, AI-ranked: github: Tekton Pipelines
   - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces OpenShift Pipelines as the modern serverless, cloud-native standard built on the Tekton project. Explains how Tekton's CRD-first strategy delivers secure, isolated build containers without a centralized daemon or controller bottlenecks.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Registries](./registries.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Registries](./registries.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -14,7 +14,6 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Project Management Methodology: A Beginner's Guide in the Project Management Methodology ecosystem (dzone.com).
   - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: A Complete Guide to the Project Management Lifecycle in the Project Management Methodology ecosystem (dzone.com).
   - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 40 Project Management Terms and Concepts of 2019 in the Project Management Methodology ecosystem (dzone.com).
-  - [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/newsroom/cloudbees-unify-ai-powered-devops-solution) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cloudbees.com: How Asynchronous Communication Can Boost Productivity in the Project Management Methodology ecosystem (cloudbees.com).
   - [dzone.com: Productivity: Noise Is the Problem 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone.com: Productivity: Noise Is the Problem 🌟🌟 in the Project Management Methodology ecosystem (dzone.com).
   - [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9?gi=ee89778c6f98) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: How to manage your technical backlog in the Project Management Methodology ecosystem (levelup.gitconnected.com).
 
@@ -334,13 +333,9 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 #### Open Source Vulnerabilities
 
   - **(2022)** [**techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code**](https://techcrunch.com/2022/07/27/protestware-code-sabotage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the complex security phenomenon of 'protestware,' where open-source maintainers intentionally introduce destructive changes or regional exploits into widely used packages for political or social reasons. Details the architectural impact on enterprise software supply chains and highlights the urgent necessity for robust dependency pinning, software bills of materials, and strict package mirroring.
-## Spanish
-
-  - **(2018)** [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.wordpress.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for mamaqueesscrum.com: Mamá… ¿Qué es Scrum? covering Spanish in Project Management Methodology (mamaqueesscrum.wordpress.com).
-  - [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://elpais.com/smoda/trabajo/apariencias-venderse-trabajo.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo covering Spanish in Project Management Methodology (elpais.com).
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Project Management Tools](./project-management-tools.md)
+💡 **Explore Related:** [Developerportals](./developerportals.md) | [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

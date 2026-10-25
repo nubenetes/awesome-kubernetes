@@ -12,7 +12,6 @@ description: "Curated, AI-ranked Lowcode Nocode resources for the 2026 Cloud Nat
 ## General Reference
 
   - [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 10 Low-Code Articles in the Lowcode Nocode ecosystem (dzone.com).
-  - [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0?gi=0da8f879d4c7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for itnext.io: For Developers the Low-Code Winter Is Coming in the Lowcode Nocode ecosystem (itnext.io).
 ## Platform Engineering
 
 ### Development Paradigms
@@ -33,7 +32,7 @@ description: "Curated, AI-ranked Lowcode Nocode resources for the 2026 Cloud Nat
   - **(2021)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A provocative analysis reflecting on speculative industry trends regarding low-code automation. It highlights how aggressive market expansion projections suggest rapid enterprise adoption, while detailing the ongoing debate about scalability limits.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Web3](./web3.md)
+💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

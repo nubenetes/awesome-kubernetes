@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS, Awesome Go and more — curated Cloud Native tools, guides and references."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS, Awesome Compose and more — curated Cloud Native tools, guides and references."
 ---
 # Awesome Lists
 
@@ -13,8 +13,8 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   <div class="awesome-hero__badge">⭐ AWESOME LISTS ⭐</div>
   <div class="awesome-hero__sub">The best curated <code>awesome-*</code> lists · AI-classified · link-validated</div>
   <div class="awesome-hero__stats">
-    <span class="awesome-hero__stat"><strong>122</strong>curated lists</span>
-    <span class="awesome-hero__stat"><strong>32</strong>categories</span>
+    <span class="awesome-hero__stat"><strong>120</strong>curated lists</span>
+    <span class="awesome-hero__stat"><strong>31</strong>categories</span>
   </div>
 </div>
 
@@ -22,13 +22,9 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
     A hand-picked, AI-classified index of the most valuable community **awesome-* lists** — every one link-validated and filed by topic. Jump to a category below, or browse the full directory. For the original exhaustive archive, see the [**V1 Historical Archive**](/v1/other-awesome-lists/).
 
 <div class="awesome-grid">
-  <a class="awesome-card" href="#standard-reference">
-    <span class="awesome-card__name">Standard Reference</span>
-    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
-  </a>
   <a class="awesome-card" href="#ai-and-machine-learning">
     <span class="awesome-card__name">AI and Machine Learning</span>
-    <span class="awesome-card__meta"><span class="awesome-card__count">2</span><span class="awesome-card__stars">lists</span></span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#ai-engineering">
     <span class="awesome-card__name">AI Engineering</span>
@@ -152,10 +148,6 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   </a>
 </div>
 
-## Standard Reference
-
-  - [steveazz/awesome-slo: Awesome SLOs](https://github.com/stevedotmt/awesome-slo) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for steveazz/awesome-slo: Awesome SLOs in the Other Awesome Lists ecosystem (github.com).
-
 ## AI and Machine Learning
 
 ### Mlops
@@ -163,11 +155,6 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
 #### Resources
 
   - **(2026)** [visenger/awesome-mlops: Awesome MLOps](https://github.com/visenger/awesome-mlops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured directory detailing operational machine learning (MLOps) packages, pipeline orchestrators (Kubeflow, MLflow), and feature store architectures. Essential for platform teams bridging data science workflows with production-grade Kubernetes automation frameworks.
-### Training
-
-#### Fundamentals
-
-  - **(2026)** [==ekramasif/Basic-Machine-Learning==](https://github.com/ekramasif/Basic-Machine-Learning) <span class='md-tag md-tag--info'>⭐ 80</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-52a7e37a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 11 L 30 6 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-52a7e37a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fundamental training repository compiling essential algorithms, scientific computing models, and conceptual guides for starting in Machine Learning. Focuses on classical statistical methods, regression math, and basic Python integrations. Provides a valuable baseline for engineering squads learning ML concepts.
 ## AI Engineering
 
 ### Model Context Protocol
@@ -229,7 +216,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
 
   - **(2026)** [github.com/kristofferandreasen/awesome-azure: Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A structured directory detailing Azure-focused scripts, arm templates, and services. It provides functional entry points for systems engineers navigating Microsoft's cloud ecosystem. While some elements lean towards legacy ARM configurations, it provides solid structural patterns for hybrid-cloud architects.
   - **(2026)** [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-maintained resource collection for Azure deployments, automation scripts, and management frameworks. This index aggregates specialized tools and networking resources that complement official Microsoft documentation. It functions as a valuable secondary reference for enterprise cloud-migration pipelines.
-#### Training (1)
+#### Training
 
   - **(2026)** [==github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course==](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5104</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c59a87d6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 10 L 30 6 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-c59a87d6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, hands-on learning roadmap tracking Azure Cloud Administration, DevOps architectures, and fundamental services. Focuses on practical engineering exercises, building CI/CD pipelines, and writing ARM/Bicep infrastructure templates. Serves as an exceptional onboarding tool for transition-phase cloud engineers.
 ### Digitalocean
@@ -375,7 +362,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
 
   - **(2023)** [==magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟==](https://github.com/magnologan/awesome-k8s-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premier directory indexing specialized Kubernetes security packages, scanners, CVE logs, and hardening guides. It collects key scanning tools such as Falco, Trivy, and Polaris, helping cloud compliance officers map cluster defense strategies against known attack matrices.
   - **(2023)** [==ksoclabs/awesome-kubernetes-security 🌟==](https://github.com/ksoclabs/awesome-kubernetes-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An expert-level compilation of Kubernetes security tools, vulnerability papers, threat simulations, and posture management (KSPM) frameworks. Ideal for penetration testers and cloud security engineers auditing the security posture of enterprise orchestrators.
-#### Training (2)
+#### Training (1)
 
   - **(2023)** [==github.com/joseadanof: Awesome Cloud Native Trainings==](https://github.com/joseadanof/awesome-cloudnative-trainings) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thoroughly organized directory cataloging cloud-native certifications (CKA, CKAD, CKS), training centers, and open labs. Extremely useful for platform engineering managers designing structured learning and technical progression tracks for their teams.
 ### Cheat Sheets
@@ -729,7 +716,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

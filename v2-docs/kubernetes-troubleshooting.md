@@ -76,7 +76,6 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - [==faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1)==](https://faun.pub/debugging-networkpolicy-part-1-249921cdba37?gi=d0c46ea5dfd0) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1) covering Introduction in Kubernetes Troubleshooting (faun.pub).
   - [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating” covering Introduction in Kubernetes Troubleshooting (veducate.co.uk).
   - [levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes](https://levelup.gitconnected.com/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24?gi=8fafc09deed1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes covering Introduction in Kubernetes Troubleshooting (levelup.gitconnected.com).
-  - [pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 1)](https://faun.pub/debugging-networkpolicy-part-1-249921cdba37?gi=17a5f66e5f7c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 2)](https://pauldally.medium.com/debugging-networkpolicy-part-2-2d5c42d8465c)
   - [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513?gi=a95914aa8486) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob covering Introduction in Kubernetes Troubleshooting (blog.devgenius.io).
   - [faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud)](https://faun.pub/troubleshooting-kubernetes-nodes-storage-space-shortage-on-aliyun-alibaba-cloud-ac28230fe3d3?gi=c72683b281b1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud) covering Introduction in Kubernetes Troubleshooting (faun.pub).
   - [dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges](https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges covering Introduction in Kubernetes Troubleshooting (dzone.com).
@@ -275,17 +274,9 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 ## Pod In Terminating Or Unknown Status
 
   - [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8?gi=046cd4419fd0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status covering Pod in Terminating or Unknown Status in Kubernetes Troubleshooting (blog.devgenius.io).
-  - [blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8?gi=a9affe6d2f69) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status covering Pod in Terminating or Unknown Status in Kubernetes Troubleshooting (blog.devgenius.io).
-## Security and Compliance
-
-### CICD
-
-#### Penetration Testing
-
-  - **(2021)** [research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines](https://www.nccgroup.com/research) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case-study driven review from NCC Group outlining real-world exploits used to compromise continuous delivery channels. Common vectors include poorly protected secrets, dependency confusion attacks, and unauthenticated pipeline runners. This security research highlights the critical importance of runtime monitoring and pipeline isolation to prevent supply-chain compromises.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

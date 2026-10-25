@@ -1,5 +1,5 @@
 ---
-description: "Top Docker resources for 2026, AI-ranked: img, nerdctl and more — curated Cloud Native tools, guides and references."
+description: "Top Docker resources for 2026, AI-ranked: Gradle Cheat Sheets, img and more — curated Cloud Native tools, guides and references."
 ---
 # Docker
 
@@ -16,7 +16,6 @@ description: "Top Docker resources for 2026, AI-ranked: img, nerdctl and more �
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Docker for LLMs covering LLMOps in AI (docker.com).
 ## Alternatives To Docker. Available Alternatives To Docker For OCI Compliant Container Image Building
 
-  - [itnext.io: Replace Docker Desktop with lima](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19?gi=98b423f12b52) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Replace Docker Desktop with lima covering Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building in Docker (itnext.io).
   - [dzone: Alternatives to Docker Desktop](https://dzone.com/articles/alternatives-to-docker-desktop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Alternatives to Docker Desktop covering Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building in Docker (dzone.com).
   - [dzone: Docker Alternatives: 10 Alternatives to Docker for Your SaaS Application](https://dzone.com/articles/docker-alternatives-10-alternatives-to-docker-for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Docker Alternatives: 10 Alternatives to Docker for Your SaaS Application covering Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building in Docker (dzone.com).
 ## App Development
@@ -653,7 +652,7 @@ description: "Top Docker resources for 2026, AI-ranked: img, nerdctl and more �
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

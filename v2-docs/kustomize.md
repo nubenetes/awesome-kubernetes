@@ -54,9 +54,6 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
 #### Secrets Management
 
   - **(2020)** [Secretize 🌟](https://github.com/bbl/secretize) <span class='md-tag md-tag--info'>⭐ 71</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6c350058" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 9 L 30 6 L 40 12 L 50 12" fill="none" stroke="url(#spark-grad-6c350058)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight command-line utility to convert raw secrets and environment variables directly into encrypted Kubernetes Secret manifests. Helpful for basic automation pipelines, although modern enterprise workflows typically favor external systems like Vault, External Secrets Operator, or sealed-secrets.
-## Comparison Between Helm And Kustomize For Kubernetes YAML Management
-
-  - [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e?gi=5f36edc0e097) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Helm Is Not Enough, You Also Need Kustomize covering Comparison between Helm and Kustomize for Kubernetes yaml management in Kustomize (itnext.io).
 ## Declarative Gitops (1)
 
 ### Gitops Frameworks
@@ -80,7 +77,7 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
   - [faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions](https://faun.pub/how-to-build-a-gitops-workflow-with-argocd-kustomize-and-github-actions-f919e7443295?gi=f4af71b4dff7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions covering Introduction in Kustomize (faun.pub).
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

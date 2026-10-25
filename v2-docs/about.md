@@ -1,5 +1,5 @@
 ---
-description: "Top About resources for 2026, AI-ranked: Postman, Argo CD and more — curated Cloud Native tools, guides and references."
+description: "Top About resources for 2026, AI-ranked: Argo CD, Postman and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 
@@ -226,13 +226,9 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
     
     Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place upgrades, and robust rollback capabilities.
 
-## Automation And Orchestration
-
-  - [GitLab CI/CD](https://docs.gitlab.com/ci) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GitLab CI/CD covering Automation and Orchestration in About (docs.gitlab.com).
-  - [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Azure Pipelines covering Automation and Orchestration in About (learn.microsoft.com).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claude Code Best Practice and more — curated Cloud Native tools, guides and references."
+description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, CAST AI and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 
@@ -383,7 +383,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
   - **(2026)** [Amazon ECS introduces new high-resolution metrics for faster service auto scaling](https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon ECS introduces new high-resolution metrics for faster service auto scaling covering Videos in AI (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [ChatGPT](./chatgpt.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -16,9 +16,6 @@ description: "Top Container Managers resources for 2026, AI-ranked: podman, buil
 #### Kubernetes Integration
 
   - **(2026)** [==sherifabdlnaby/kubephp==](https://github.com/sherifabdlnaby/kubephp) <span class='md-tag md-tag--info'>⭐ 456</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b979da19" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 4 L 20 11 L 30 7 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-b979da19)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PHP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — KubePHP is a specialized repository detailing optimal configurations for deploying PHP applications (particularly PHP-FPM and Nginx sidecars) onto Kubernetes clusters. It addresses PHP-specific cloud-native challenges such as shared volume sessions, OPcache preloading, and graceful shutdown handling. It provides critical scaffolding and architectural advice for modernizing legacy PHP monoliths into production-grade, autoscaled microservices.
-## Buildah
-
-  - [github.com/containers/buildah](https://github.com/podman-container-tools/buildah) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for github.com/containers/buildah covering Buildah in Container Managers (github.com).
 ## Container Infrastructure
 
 ### Advanced Runtimes
@@ -279,15 +276,12 @@ description: "Top Container Managers resources for 2026, AI-ranked: podman, buil
 #### OCI Builders
 
   - **(2026)** [==buildah==](https://buildah.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildah specializes in crafting OCI-compliant container images without requiring a background container daemon. It enables fine-grained Layer management, dramatically reducing the security footprint of target images by keeping build tools outside the final layers.
-## Podman. Pod Manager Tool
-
-  - [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/podman-container-tools/podman) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Libpod is a library used to create container pods. Home of Podman. Libpod provides a library for applications looking to use the Container Pod concept, popularized by Kubernetes. Libpod also contains the Pod Manager tool (Podman). Podman manages pods, containers, container images, and container volumes.
 ## Skopeo
 
-  - [Skopeo](https://github.com/podman-container-tools/skopeo) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Skopeo covering Skopeo in Container Managers (github.com).
+  - [Skopeo](https://github.com/podman-container-tools/skopeo) <span class='md-tag md-tag--info'>⭐ 11348</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-331d1412" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 13 L 30 4 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-331d1412)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for Skopeo covering Skopeo in Container Managers (github.com).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

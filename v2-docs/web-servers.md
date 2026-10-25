@@ -1,5 +1,5 @@
 ---
-description: "Top Web Servers resources for 2026, AI-ranked: Traefik, HAProxy and more — curated Cloud Native tools, guides and references."
+description: "Top Web Servers resources for 2026, AI-ranked: Traefik, NGINXConfig and more — curated Cloud Native tools, guides and references."
 ---
 # Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 
@@ -90,7 +90,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, HAProxy an
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Cloudflare](./cloudflare.md) | [Networking](./networking.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

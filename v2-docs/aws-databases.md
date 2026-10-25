@@ -98,9 +98,6 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 #### AWS Data Mesh And Batch Data Processing
 
   - **(2026)** [Data Projects: Managing Data Assets at Netflix Scale](https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?gi=0790a4dd71d3&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Data Projects: Managing Data Assets at Netflix Scale covering AWS Data Mesh and Batch Data Processing in AWS (netflixtechblog.com).
-#### AWS Redshift
-
-  - [Tutorial: Tuning Table Design](https://docs.aws.amazon.com/redshift/latest/dg/tutorials-redshift.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Tutorial: Tuning Table Design covering AWS Redshift in AWS (docs.aws.amazon.com).
 #### AWS Schema Conversion Tool
 
   - [Creating an AWS Schema Conversion Tool Project](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Creating an AWS Schema Conversion Tool Project covering AWS Schema Conversion Tool in AWS (docs.aws.amazon.com).
@@ -109,10 +106,9 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - **(2026)** [How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API](https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API covering Graph Databases in AWS (netflixtechblog.com).
   - **(2026)** [Rapidly scaling online storage to serve over 1 billion ChatGPT users](https://openai.com/index/scaling-storage-one-billion-users-part-one) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Rapidly scaling online storage to serve over 1 billion ChatGPT users covering Graph Databases in AWS (openai.com).
   - **(2026)** [ZGateway: Learnings from Putting a Proxy in Front of ZippyDB](https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ZGateway: Learnings from Putting a Proxy in Front of ZippyDB covering Graph Databases in AWS (engineering.fb.com).
-  - **(2026)** [Supabase](https://github.com/supabase/supabase) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Supabase covering Graph Databases in AWS (github.com).
+  - **(2026)** [Supabase](https://github.com/supabase/supabase) <span class='md-tag md-tag--info'>⭐ 113904</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-846afa38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 11 L 30 2 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-846afa38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for Supabase covering Graph Databases in AWS (github.com).
 #### Introduction
 
-  - [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS covering Introduction in AWS (docs.aws.amazon.com).
   - [Creating a DB Instance Running the Oracle Database Engine](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Creating a DB Instance Running the Oracle Database Engine covering Introduction in AWS (docs.aws.amazon.com).
   - [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889?gi=18c5f24a06ae) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Manage Redis on AWS from Kubernetes covering Introduction in AWS (itnext.io).
 ## Data Engineering
@@ -124,7 +120,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - **(2020)** [**revenuecat.com: Replicating a postgresql cluster to redshift**](https://www.revenuecat.com/blog/engineering/replicating-a-postgresql-cluster-to-redshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents RevenueCat's engineering experience replicating high-throughput transactional Postgres databases into AWS Redshift. Live Grounding evaluates the trade-offs of AWS DMS, custom streaming code, and data synchronization patterns. Offers real-world insights on scale, column-mapping issues, and operational bottlenecks.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 

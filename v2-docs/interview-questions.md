@@ -133,9 +133,6 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2020)** [automationreinvented.blogspot.com: Top 11 Kubernetes interview question and answers for SDET Devops QA SET-01?](https://automationreinvented.blogspot.com/2020/09/top-11-kubernetes-interview-question.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tactical breakdown of core Kubernetes constructs targeted at system verification and automated QA architectures. Analyzes scheduling, ReplicaSet control loops, and environment variable injections.
   - **(2020)** [automationreinvented.blogspot.com: Top Interview Question on Kubernetes for SDET/Devops Set-03? ReplicaSet in K8S](https://automationreinvented.blogspot.com/2020/11/top-interview-question-on-kubernetes.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focused architectural analysis of the Kubernetes ReplicaSet controller. Evaluates the difference between Deployments and ReplicaSets, selector configuration, and partition recovery methods during failover phases.
   - **(2019)** [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foundational interview review illustrating early Kubernetes core components. Outlines architectural roles for etcd, the API server, kube-scheduler, kube-controller-manager, and pod lifecycle semantics.
-## DevOps Interview Questions
-
-  - [prepare.sh: 100+ DevOps Interview Questions with Answers](https://prepare.sh/interview-questions/devops) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for prepare.sh: 100+ DevOps Interview Questions with Answers covering DevOps Interview Questions in Interview Questions (prepare.sh).
 ## Management
 
 ### Agile
@@ -146,9 +143,6 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
 ## Microservices Interview Questions
 
   - [towardsdev.com: Microservice Interview questions for Backend Developers series-1](https://towardsdev.com/microservice-interview-questions-for-backend-developers-series-1-112d623a7c2a?gi=dc8d39e83a5a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for towardsdev.com: Microservice Interview questions for Backend Developers series-1 covering Microservices Interview Questions in Interview Questions (towardsdev.com).
-## Python Interview Questions
-
-  - [Python mini-quiz](https://mypythonquiz.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Python mini-quiz covering Python Interview Questions in Interview Questions (mypythonquiz.com).
 ## Software Engineering
 
 ### Data Formats
@@ -187,7 +181,7 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2021)** [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Broad UI automation preparation set evaluating Selenium WebDriver API combined with TestNG assertions. Covers dynamic wait mechanisms, Page Object Pattern configurations, and multi-thread test runs.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Newsfeeds](./newsfeeds.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

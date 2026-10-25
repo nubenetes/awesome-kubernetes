@@ -1,5 +1,5 @@
 ---
-description: "Top Message Queue resources for 2026, AI-ranked: Redpanda, Apache Flink and more — curated Cloud Native tools, guides and references."
+description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **Debezium** and more — curated Cloud Native tools, guides and references."
 ---
 # Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub
 
@@ -416,13 +416,6 @@ description: "Top Message Queue resources for 2026, AI-ranked: Redpanda, Apache 
 #### Transactional Outbox
 
   - **(2021)** [developers.redhat.com: The outbox pattern with Apache Kafka and Debezium 🌟](https://developers.redhat.com/articles/2021/09/01/outbox-pattern-apache-kafka-and-debezium) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An implementation walkthrough of the Transactional Outbox pattern utilizing Debezium and Apache Kafka. This pattern guarantees reliable, dual-write-free message propagation from internal microservice datastores directly to downstream Kafka clusters.
-## Hardened Infrastructure
-
-### Kubernetes Security
-
-#### CIS Benchmarks And CIS Operator
-
-  - [ibm.com: CIS Benchmarks](https://www.ibm.com/think/topics) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ibm.com: CIS Benchmarks covering CIS Benchmarks and CIS Operator in Kubernetes Security (ibm.com).
 ## Infrastructure
 
 ### Caching
@@ -795,12 +788,9 @@ description: "Top Message Queue resources for 2026, AI-ranked: Redpanda, Apache 
 ##### Microprofile
 
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
-## Zeebe
-
-  - [Zeebe workflow engine](https://camunda.com/platform/orchestration-engine) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Zeebe workflow engine covering Zeebe in Message Queue (camunda.com).
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Git resources for 2026, AI-ranked: GitHub public roadmap, pre-commit and more — curated Cloud Native tools, guides and references."
+description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot and more — curated Cloud Native tools, guides and references."
 ---
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 
@@ -9,9 +9,6 @@ description: "Top Git resources for 2026, AI-ranked: GitHub public roadmap, pre-
 !!! info "Architectural Context"
     Detailed reference for Git and Patterns for Managing Source Code Branches. Merge BOTs in the context of Architectural Foundations.
 
-## Bitbucket For Git Merges
-
-  - [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/forums/discussion/793222/configure-bitbucket-pipelines-yml-to-automatically-merge-feature-branch-to-master) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Configure bitbucket-pipelines.yml to automatically merge feature branch to master? covering Bitbucket for git merges in Git (community.atlassian.com).
 ## CICD
 
 ### Automation Tools
@@ -105,9 +102,6 @@ description: "Top Git resources for 2026, AI-ranked: GitHub public roadmap, pre-
 #### Gitlab Kubernetes Agent
 
   - **(2022)** [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/gitlab-kubernetes-agent-on-gitlab-com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the GitLab Agent for Kubernetes, enabling pull-based GitOps deployment workflows. This architecture shifts away from traditional push-based CI models, offering enhanced security and continuous state reconciliation.
-#### Gitlab Operator
-
-  - **(2022)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/gko-on-ocp) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational installation guide for deploying the GitLab Kubernetes Operator on Red Hat OpenShift. Discusses Ingress controllers, Security Context Constraints (SCC), and persistent storage volumes.
 ## Community
 
 ### Developer Relations
@@ -282,9 +276,6 @@ description: "Top Git resources for 2026, AI-ranked: GitHub public roadmap, pre-
 #### Reference Lists
 
   - **(2025)** [==Awesome Git 🌟==](https://github.com/dictcp/awesome-git) <span class='md-tag md-tag--info'>⭐ 2886</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4fdba234" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 8 L 30 13 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-4fdba234)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive curated listing of Git workflows, terminal extensions, custom hook libraries, UI clients, branching theories, and visual educational platforms for development teams.
-#### Releases
-
-  - **(2020)** [github.blog: Highlights from Git 2.28](https://github.blog/open-source/git/highlights-from-git-2-28)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Review of the features introduced in Git 2.28, detailing the init.defaultBranch configuration options and internal hashing optimizations to support modern security workflows.
 #### Repository Synchronization
 
   - **(2022)** [blog.kubesimplify.com: Moving code between GIT repositories with Copybara | Daniele Polencic](https://blog.kubesimplify.com/moving-code-between-git-repositories-with-copybara) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates Google's Copybara system for transferring and transforming code layouts between disparate Git repositories. Highly valuable for orchestrating multi-repo synchronization pipelines, especially when bridging public open-source forks with secure internal codebases.
@@ -539,7 +530,7 @@ Assists developers from specification to implementation, verification, and code 
 ## Git Distributed Version-control System
 
   - [dzone.com: Top 20 git commands with examples 🌟](https://dzone.com/articles/top-20-git-commands-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Top 20 git commands with examples 🌟 covering Git Distributed Version-Control System in Git (dzone.com).
-  - [10 useful Git commands you wish existed – and their alternatives](https://github.com/datreeio/datree) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for 10 useful Git commands you wish existed – and their alternatives covering Git Distributed Version-Control System in Git (github.com).
+  - [10 useful Git commands you wish existed – and their alternatives](https://github.com/datreeio/datree) <span class='md-tag md-tag--info'>⭐ 6330</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c877828f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 3 L 30 4 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-c877828f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for 10 useful Git commands you wish existed – and their alternatives covering Git Distributed Version-Control System in Git (github.com).
   - [codeburst.io: Debug your code using git bisect](https://codeburst.io/debug-your-code-using-git-bisect-45db2983cc69?gi=5eebf9ca49ef) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for codeburst.io: Debug your code using git bisect covering Git Distributed Version-Control System in Git (codeburst.io).
   - [codeburst.io: A Resource for all Things Git](https://codeburst.io/a-resource-for-all-things-git-b63d6626beca?gi=0befbb18f6be) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for codeburst.io: A Resource for all Things Git covering Git Distributed Version-Control System in Git (codeburst.io).
   - [levelup.gitconnected.com: 5 Git Commands to Know Before Your First Tech Job or Internship](https://levelup.gitconnected.com/5-git-commands-to-know-before-your-first-tech-job-or-internship-1b5856313338?gi=6e5a1302825d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: 5 Git Commands to Know Before Your First Tech Job or Internship covering Git Distributed Version-Control System in Git (levelup.gitconnected.com).
@@ -572,9 +563,6 @@ Assists developers from specification to implementation, verification, and code 
 ## Github Code Scanner
 
   - [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/ai-news-updates/github-launches-code-scanner-to-flag-security-vulnerabilities) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities covering GitHub Code Scanner in Git (analyticsindiamag.com).
-## Github Copilot (1)
-
-  - **(2025)** [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode?view=visualstudio) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learn.microsoft.com: Use Agent Mode in GitHub Copilot covering GitHub Copilot in Git (learn.microsoft.com).
 ## Github Copilot VS GPT-3
 
   - [python.plainenglish.io: Who Writes Better Code: GitHub CoPilot or GPT-3?](https://python.plainenglish.io/who-writes-better-code-github-copilot-or-gpt-3-9e7441650c9b?gi=4add7e514db5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for python.plainenglish.io: Who Writes Better Code: GitHub CoPilot or GPT-3? covering GitHub CoPilot VS GPT-3 in Git (python.plainenglish.io).
@@ -604,12 +592,6 @@ Assists developers from specification to implementation, verification, and code 
 #### Elasticsearch Alternatives
 
   - **(2021)** [github.blog: Improving GitHub code search](https://github.blog/engineering/improving-github-code-search) <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical architectural breakdown of GitHub's migration to 'Blackbird', a custom-built, high-performance search engine implemented in Rust. Synthesizes how the engineering team replaced standard Elasticsearch clusters to catalog over 15 billion lines of code, minimizing indexing lag and returning complex regular expression queries within milliseconds across multi-tenant shards.
-## Marge Gitlab Bot
-
-  - [Example: Smarkets's Marge-bot for GitLab keeps master always green](https://smarketshq.com/marge-bot-for-gitlab-keeps-master-always-green-6070e9d248df?gi=f10b395fc9c7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Example: Smarkets's Marge-bot for GitLab keeps master always green covering Marge GitLab bot in Git (smarketshq.com).
-## Plastic SCM Bot
-
-  - [blog.plasticscm.com: Add a mergebot to your repo!](https://docs.unity.com/en-us/unity-version-control/create-mergebot) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.plasticscm.com: Add a mergebot to your repo! covering Plastic SCM bot in Git (docs.unity.com).
 ## Project Management
 
 ### Agile and Planning
@@ -908,8 +890,8 @@ Assists developers from specification to implementation, verification, and code 
   - **(2015)** [gist.github.com/JamesMGreene: A comparison of using `git flow` commands' versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed side-by-side terminal command comparison showing what the automated `git-flow` wrapper does under the hood versus raw Git commands. Essential for engineers who need to debug broken branch states or build custom CI/CD scripts without external dependencies.
   - **(2014)** [paulhammant.com: Microsoft's Trunk-Based Development](https://paulhammant.com/2014/04/03/microsofts-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study on how Microsoft adapted Trunk-Based Development practices across large engineering groups. Explores the tooling upgrades and operational adaptations necessary to support thousands of developers pushing to a single main branch daily.
   - **(2013)** [paulhammant.com: What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An foundational architectural essay by Paul Hammant detailing Trunk-Based Development mechanics. He argues that delayed integrations cause system-wide delivery bottlenecks, explaining why high-performing systems rely on dynamic runtime toggling and direct-to-main trunk pushes.
-  - **(2012)** [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive, visual cheatsheet summarizing standard `git-flow` command line operations. Provides developers with quick, copy-pasteable snippets for initializing, executing, and finalizing feature, release, and hotfix branches.
   - **(2012)** [git-flow.readthedocs.io](https://git-flow.readthedocs.io/en/latest) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for the git-flow CLI extension, which wraps core Git commands to automate Vincent Driessen's branching model. It details low-level subcommands for features, releases, and hotfixes, making complex git operations more accessible from the command line.
+  - **(2012)** [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive, visual cheatsheet summarizing standard `git-flow` command line operations. Provides developers with quick, copy-pasteable snippets for initializing, executing, and finalizing feature, release, and hotfix branches.
   - **(2010)** [nvie.com: Feature Branches. A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extract of Vincent Driessen's GitFlow detailing feature branch mechanics. It outlines the conventions for branching off and merging back into the `develop` line, providing a structured approach for isolation that is best suited for scheduled release cycles.
 ## Trunk Based Development
 
@@ -1032,7 +1014,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes rapid tactics for extracting uncommitted, unstaged alterations into a newly spawned local feature branch. Guides developers on preserving workspace fluidity when starting feature-work inside the wrong branch context without triggering merge hazards.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
