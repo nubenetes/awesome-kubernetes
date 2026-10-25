@@ -41,7 +41,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
   - **(2022)** [autodraw.com](https://www.autodraw.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental, AI-powered drawing web client developed by Google. Uses machine learning algorithms to map rough sketches into polished, professional icons and system vectors in real time.
 #### Automated Discovery
 
-  - **(2025)** [**Hyperglance**](https://www.hyperglance.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An enterprise-grade IT visualization and automated inventory mapper. Discovers, maps, and generates complete topology diagrams of cloud environments, tracking Kubernetes resources and network policies automatically.
+  - **(2025)** [**Hyperglance**](https://www.hyperglance.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An enterprise-grade IT visualization and automated inventory mapper. Discovers, maps, and generates complete topology diagrams of cloud environments, tracking Kubernetes resources and network policies automatically.
 #### Diagramming Saas
 
   - **(2026)** [==diagrams.net==](https://www.drawio.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-leading, highly extensible free open-source diagramming engine. Widely used for system design, it provides deep integration with modern design elements, custom XML importing, and offline execution capabilities.
@@ -104,7 +104,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
 
 #### AI Integration
 
-  - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Implements the Model Context Protocol (MCP) to dynamically generate and modify Draw.io structures directly via conversational AI interfaces. Seamlessly links large language models with visual blueprint execution, allowing real-time canvas updates and automated layout formatting based on conversational technical specs.
+  - **(2025)** [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Implements the Model Context Protocol (MCP) to dynamically generate and modify Draw.io structures directly via conversational AI interfaces. Seamlessly links large language models with visual blueprint execution, allowing real-time canvas updates and automated layout formatting based on conversational technical specs.
 #### Innovative
 
   - **(2024)** [infviz.io](https://infviz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative diagram platform tailored for parsing cloud systems and outputting highly stylized, lightweight layout maps. Focused on real-time dependency analysis and operational state monitoring.

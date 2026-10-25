@@ -11,8 +11,8 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
 
 ## Argocd Vs Fluxcd
 
-  - [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: GitOps: Flux vs Argo CD 🌟 covering ArgoCD vs FluxCD in Flux (dzone.com).
   - [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca?gi=0a8d792b3223) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.aenix.io: Argo CD vs Flux CD covering ArgoCD vs FluxCD in Flux (blog.aenix.io).
+  - [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: GitOps: Flux vs Argo CD 🌟 covering ArgoCD vs FluxCD in Flux (dzone.com).
 ## Deployment and Orchestration
 
 ### Gitops
@@ -55,9 +55,9 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
 ## Introduction
 
   - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30?gi=46bee77069f8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux) covering Introduction in Flux (itnext.io).
+  - [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f?gi=07cecdbbf4e8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Flux CD: Getting Started covering Introduction in Flux (levelup.gitconnected.com).
   - [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize covering Introduction in Flux (dzone.com).
   - [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Flux: Server-side reconciliation is coming covering Introduction in Flux (cncf.io).
-  - [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f?gi=07cecdbbf4e8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Flux CD: Getting Started covering Introduction in Flux (levelup.gitconnected.com).
 ## Networking and Security
 
 ### Service Mesh and Gateway

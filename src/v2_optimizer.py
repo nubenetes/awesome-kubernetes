@@ -25,6 +25,7 @@ from src.gemini_utils import (
 from src.logger import log_event
 from src.inventory_manager import update_inventory_entry
 from src.awesome_page import build_awesome_lists_header
+from src.enrichment import compute_momentum_score
 
 
 def nuclear_strip(text: str) -> str:
@@ -75,7 +76,17 @@ def clean_hierarchy_section_name(name: str) -> str:
         "guide": "Guides",
         "guides": "Guides",
         "tool": "Tools",
-        "tools": "Tools"
+        "tools": "Tools",
+        "llm": "LLMs",
+        "llms": "LLMs",
+        "gpu": "GPUs",
+        "gpus": "GPUs",
+        "mcp": "MCP",
+        "rag": "RAG",
+        "ebpf": "eBPF",
+        "mlops": "MLOps",
+        "ai": "AI",
+        "vllm": "vLLM"
     }
     if name_lower in mappings:
         return mappings[name_lower]
@@ -88,7 +99,8 @@ def clean_hierarchy_section_name(name: str) -> str:
             "aws": "AWS", "gcp": "GCP", "api": "API", "sre": "SRE", "iac": "IaC",
             "cli": "CLI", "vm": "VM", "vms": "VMs", "k8s": "Kubernetes", "cicd": "CI/CD",
             "sql": "SQL", "nosql": "NoSQL", "xml": "XML", "yaml": "YAML", "json": "JSON",
-            "devops": "DevOps"
+            "devops": "DevOps", "llm": "LLM", "llms": "LLMs", "gpu": "GPU", "gpus": "GPUs",
+            "mcp": "MCP", "rag": "RAG", "ebpf": "eBPF", "mlops": "MLOps", "ai": "AI", "vllm": "vLLM"
         }
         if w_clean in acronyms_map:
             words[i] = w.lower().replace(w_clean, acronyms_map[w_clean])
@@ -181,6 +193,8 @@ class V2VisionEngine:
                 ("kubernetes-storage", "Storage"),
                 ("kubernetes-autoscaling", "Autoscaling"),
                 ("kubernetes-operators-controllers", "Operators"),
+                ("ai-agents-mcp", "AI Agents & MCP"),
+                ("mlops", "AI & GPU Workloads"),
                 ("kubernetes-alternatives", "Alternatives"),
                 ("kubernetes-bigdata", "Big Data"),
                 ("kubernetes-tutorials", "Tutorials"),
@@ -188,6 +202,18 @@ class V2VisionEngine:
                 ("kubernetes-client-libraries", "Client Libraries"),
                 ("kubernetes-based-devel", "Local Dev"),
                 ("kubernetes-on-premise", "On-Premise"),
+            ],
+            "ai": [
+                ("ai-agents-mcp", "AI Agents & MCP"),
+                ("mlops", "MLOps & GPU Scheduling"),
+                ("chatgpt", "LLMs & Assistants"),
+                ("kubernetes-operators-controllers", "K8s Operators"),
+            ],
+            "mlops": [
+                ("ai", "Core AI & LLMs"),
+                ("ai-agents-mcp", "AI Agents & MCP"),
+                ("kubernetes-autoscaling", "K8s Autoscaling"),
+                ("kubernetes-operators-controllers", "K8s Operators"),
             ],
         }
         
@@ -205,12 +231,12 @@ class V2VisionEngine:
             "- Generate professional, neutral, and advanced technical summaries. Style: O'Reilly technical.\n"
             "- PROTOCOL: Contrast 'Curator Insight' (from source) with 'Live Grounding' (from search).\n"
             "- If discrepancies are found (e.g. project is archived but source says it's new), PRIORITIZE live engineering truth.\n"
-            "- Summaries MUST be high-density: Include architectural value, key features, and technical significance.\n"
+            "- Summaries MUST be high-density: Include (1) Architectural Role, (2) Key Production Trade-offs or Alternatives, and (3) Kubernetes/Cloud-Native Compatibility (CRDs, Operators, Gateway API, MCP, CNCF status).\n"
             "- Format: Use paragraphs and bullet points for complex tools. Aim for 2-5 sentences of depth.\n"
             "PHASE 5: ADVANCED MATURITY TAGGING\n"
             "- Assign tags. You MUST include:\n"
             "  1. 1 to 2 maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-            "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [DB]). Keep them uppercase and wrapped in brackets.\n"
+            "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [GPU], [LLM], [MCP], [AI], [DB]). Keep them uppercase and wrapped in brackets.\n"
         )
         self.inventory = self._load_inventory()
         self.maturity_audit = []
@@ -305,6 +331,7 @@ class V2VisionEngine:
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         self._generate_digest_pages()
         await self._generate_global_tag_index(v2_data)
+        self._generate_llms_txt(v2_data)
 
         # Phase 5: Structural changes — ONLY in full (non-render-only) mode
         # In render-only mode we never delete pages or rewrite the nav, because
@@ -802,15 +829,18 @@ class V2VisionEngine:
                 if inner.isupper() and all(c.isalnum() or c in "_-" for c in inner):
                     tags.add(t_stripped)
         
-        # 1. GitHub Objective Reality (Mandate 43)
+        # 1. GitHub Objective Reality & CNCF Status (Mandate 43)
         raw_gh = item.get("gh_stars", 0)
         gh_stars = int(raw_gh) if str(raw_gh).isdigit() else 0
         curator_stars = int(item.get("stars") or 0)
+        cncf_status = str(item.get("cncf_status") or "").lower()
+        momentum = compute_momentum_score(item)
+        item["momentum_score"] = momentum
 
-        if gh_stars > 15000 or curator_stars >= 5: 
+        if gh_stars > 15000 or curator_stars >= 5 or cncf_status == "graduated": 
             tags.add("[DE FACTO STANDARD]")
             if "[COMMUNITY-TOOL]" in tags: tags.remove("[COMMUNITY-TOOL]")
-        elif gh_stars > 3000 or curator_stars >= 4: 
+        elif gh_stars > 3000 or curator_stars >= 4 or cncf_status == "incubating": 
             tags.add("[ENTERPRISE-STABLE]")
             if "[COMMUNITY-TOOL]" in tags: tags.remove("[COMMUNITY-TOOL]")
         
@@ -821,13 +851,35 @@ class V2VisionEngine:
         if any(x in res_type for x in ["case study", "report", "whitepaper", "success story", "usage"]): 
             tags.add("[CASE STUDY]")
         
-        # 3. Emerging / Legacy logic
-        ai_summary = (item.get("ai_summary") or "").lower()
+        # 3. Emerging / Legacy & Momentum Velocity logic
+        ai_summary = (item.get("ai_summary") or item.get("description") or "").lower()
+        title_lower = (item.get("title") or "").lower()
+        url_lower = (item.get("url") or "").lower()
+        combined_text = f"{title_lower} {ai_summary} {url_lower}"
         complexity = item.get("complexity", "Intermediate")
-        if complexity == "Cutting Edge" or "emerging" in ai_summary or "experimental" in ai_summary or "alpha" in ai_summary:
+        year_str = str(item.get("year") or "")
+        is_recent = year_str in ("2025", "2026")
+        if (
+            complexity == "Cutting Edge"
+            or cncf_status == "sandbox"
+            or (is_recent and momentum >= 60.0 and "[DE FACTO STANDARD]" not in tags)
+            or any(k in ai_summary for k in ("emerging", "experimental", "alpha"))
+        ):
             tags.add("[EMERGING]")
-        if "legacy" in ai_summary or "deprecated" in ai_summary or "archived" in ai_summary or "v1-only" in ai_summary:
+        if cncf_status == "archived" or any(k in ai_summary for k in ("legacy", "deprecated", "archived", "v1-only")):
             tags.add("[LEGACY]")
+
+        # 3b. Fine-grained Cloud-Native AI & K8s stack tags
+        if any(k in combined_text for k in ("mcp", "model context protocol", "model-context-protocol")):
+            tags.add("[MCP]")
+        if any(k in combined_text for k in ("gpu", "nvidia", "cuda", "dra ", "mig ", "fractional gpu")):
+            tags.add("[GPU]")
+        if any(k in combined_text for k in ("vllm", "tgi", "llm", "inference gateway", "kserve", "triton")):
+            tags.add("[LLM]")
+        if any(k in combined_text for k in ("kuberay", "kubeflow", "kueue", "volcano", "mlops", "mlflow")):
+            tags.add("[MLOPS]")
+        if any(k in combined_text for k in ("ebpf", "cilium", "tetragon", "falco")):
+            tags.add("[EBPF]")
 
         # 4. Fallback: Only use [COMMUNITY-TOOL] if no other maturity tag is present
         maturity_tags = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[LEGACY]"}
@@ -945,7 +997,14 @@ class V2VisionEngine:
                 current["__links__"].append(item)
 
         def sort_rec(node):
-            if "__links__" in node: node["__links__"].sort(key=lambda x: (-(x.get("stars") or 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
+            if "__links__" in node:
+                node["__links__"].sort(
+                    key=lambda x: (
+                        -(x.get("stars") or 1),
+                        -float(x.get("momentum_score") or compute_momentum_score(x)),
+                        -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0),
+                    )
+                )
             for k, v in node.items():
                 if k != "__links__" and isinstance(v, dict): sort_rec(v)
                 
@@ -2118,7 +2177,7 @@ class V2VisionEngine:
         # collisions where C / C# / C++ all slugged to "c-content" (broken links).
         def _tag_display(tag):
             d = tag.replace("[", "").replace("]", "").replace("&", "and").title()
-            if d.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
+            if d.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS", "GPU", "LLM", "K8S"]:
                 d = d.upper()
             return d
 
@@ -2260,8 +2319,15 @@ class V2VisionEngine:
             md += f"<details markdown=\"1\">\n"
             md += f"<summary>{summary_text}</summary>\n\n"
             
-            # Sort links under this tag by impact stars and then by year
-            sorted_links = sorted(by_tag[tag], key=lambda x: (-(x.get("stars") or 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
+            # Sort links under this tag by impact stars, composite momentum score, and year
+            sorted_links = sorted(
+                by_tag[tag],
+                key=lambda x: (
+                    -(x.get("stars") or 1),
+                    -float(x.get("momentum_score") or compute_momentum_score(x)),
+                    -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0),
+                ),
+            )
             
             rendered_links = sorted_links[:100]
             for l in rendered_links:
@@ -2282,6 +2348,91 @@ class V2VisionEngine:
             with open(target_path, "r") as f: existing_content = f.read()
         if md != existing_content:
             with open(target_path, "w") as f: f.write(md)
+
+    def _generate_llms_txt(self, v2_structure: Dict[str, Dict]):
+        """Generate v2-docs/llms.txt following the llms.txt specification for AI agents."""
+        lines = [
+            "# Nubenetes V2 Elite Portal — Awesome Kubernetes & Cloud Native AI",
+            "",
+            "> Enterprise-grade, AI-curated reference portal for Kubernetes, Cloud Native infrastructure, Agentic AI/MCP systems, MLOps/GPU scheduling, eBPF networking, GitOps, and Platform Engineering (https://nubenetes.com/).",
+            "",
+            "## Core Portal Hubs",
+            "",
+            "- [The 2026 Vision (Home)](https://nubenetes.com/): High-density entry point with Trending Now, Label Heatmap, and ecosystem overview.",
+            "- [Full Topic Map](https://nubenetes.com/topic-map/): Complete directory of all curated Cloud Native and AI categories.",
+            "- [Technical Tags Index](https://nubenetes.com/tags/): Resources indexed by maturity ([DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING]) and technical stack ([MCP], [GPU], [LLM], [EBPF], [GITOPS]).",
+            "- [Tech & Cloud Intelligence Digest](https://nubenetes.com/tech-digest/): Rolling 3/6/12-month top picks across 22 technical domains.",
+            "- [Methodology & Maturity Taxonomy](https://nubenetes.com/methodology/): Explanation of the 5-tier maturity taxonomy and composite momentum scoring.",
+            "- [V1 Exhaustive Historical Archive](https://nubenetes.com/v1/): Full 19,000+ link historical archive since 2018.",
+            "",
+        ]
+
+        dim_groups: Dict[str, List[str]] = {}
+        for f_name, info in v2_structure.items():
+            slug_check = f_name[:-3] if f_name.endswith(".md") else f_name
+            if slug_check in self.merge_map or slug_check == "uncategorized":
+                continue
+            dim_groups.setdefault(info["dim"], []).append(f_name)
+
+        lines.append("## Strategic Dimensions & Categories")
+        lines.append("")
+        for dim in self.dimensions.keys():
+            if dim not in dim_groups:
+                continue
+            lines.append(f"### {dim}")
+            for f_name in sorted(dim_groups[dim]):
+                slug = f_name[:-3] if f_name.endswith(".md") else f_name
+                title = v2_structure[f_name]["title"]
+                lines.append(f"- [{title}](https://nubenetes.com/{slug}/)")
+            lines.append("")
+
+        # Collect top Platinum (5-star) & AI/K8s De Facto Standard references
+        top_refs: Dict[str, Dict] = {}
+
+        def _collect_top(node):
+            for l in node.get("__links__", []):
+                if (l.get("stars") or 0) >= 5 or "[DE FACTO STANDARD]" in l.get("tags", []):
+                    nu = normalize_url(l["url"])
+                    if nu not in top_refs:
+                        top_refs[nu] = l
+            for k, v in node.items():
+                if k != "__links__" and isinstance(v, dict):
+                    _collect_top(v)
+
+        for info in v2_structure.values():
+            _collect_top(info["content"])
+
+        sorted_top = sorted(
+            top_refs.values(),
+            key=lambda x: (
+                -(x.get("stars") or 0),
+                -float(x.get("momentum_score") or compute_momentum_score(x)),
+                str(x.get("title") or "").lower(),
+            ),
+        )[:60]
+
+        if sorted_top:
+            lines.append("## Flagship De Facto Standards & High-Momentum References")
+            lines.append("")
+            for l in sorted_top:
+                title = nuclear_strip(str(l.get("title") or "Resource"))
+                url = str(l.get("url") or "").strip()
+                summary = str(l.get("ai_summary") or l.get("description") or "").replace("\n", " ").strip()
+                if len(summary) > 200:
+                    summary = summary[:197].rsplit(" ", 1)[0] + "..."
+                lines.append(f"- [{title}]({url}): {summary}")
+            lines.append("")
+
+        content = "\n".join(lines)
+        target_path = os.path.join(V2_DIR, "llms.txt")
+        existing = ""
+        if os.path.exists(target_path):
+            with open(target_path, "r", encoding="utf-8") as f:
+                existing = f.read()
+        if content != existing:
+            with open(target_path, "w", encoding="utf-8") as f:
+                f.write(content)
+            log_event(f"[LLMs.txt] Generated {target_path} ({len(sorted_top)} flagship references)")
 
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]) -> bool:
         try:

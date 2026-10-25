@@ -58,7 +58,7 @@ description: "Curated, AI-ranked Kubernetes Releases resources for the 2026 Clou
 #### V1.21 (1)
 
   - **(2021)** [kubernetes.io: kubernetes 1.21: CronJob Reaches GA](https://kubernetes.io/blog/2021/04/09/kubernetes-release-1.21-cronjob-ga) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight provides the official blog announcement of CronJob reaching GA in Kubernetes 1.21. Live analysis in 2026 acknowledges this as the milestone that finalized the performance and controller upgrades for batch scheduling.
-  - **(2021)** [kubernetes.io: Introducing Suspended Jobs in Kubernetes 1.21](https://kubernetes.io/blog/2021/04/12/introducing-suspended-jobs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces suspended jobs in 1.21. Live grounding in 2026 indicates this feature was a crucial building block for modern external batch orchestrators like Kueue to control execution pauses.
+  - **(2021)** [kubernetes.io: Introducing Suspended Jobs in Kubernetes 1.21](https://kubernetes.io/blog/2021/04/12/introducing-suspended-jobs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight introduces suspended jobs in 1.21. Live grounding in 2026 indicates this feature was a crucial building block for modern external batch orchestrators like Kueue to control execution pauses.
 ### Node Management
 
 #### Fault Tolerance

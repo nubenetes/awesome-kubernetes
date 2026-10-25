@@ -1,0 +1,235 @@
+# Nubenetes V2 Elite Portal — Awesome Kubernetes & Cloud Native AI
+
+> Enterprise-grade, AI-curated reference portal for Kubernetes, Cloud Native infrastructure, Agentic AI/MCP systems, MLOps/GPU scheduling, eBPF networking, GitOps, and Platform Engineering (https://nubenetes.com/).
+
+## Core Portal Hubs
+
+- [The 2026 Vision (Home)](https://nubenetes.com/): High-density entry point with Trending Now, Label Heatmap, and ecosystem overview.
+- [Full Topic Map](https://nubenetes.com/topic-map/): Complete directory of all curated Cloud Native and AI categories.
+- [Technical Tags Index](https://nubenetes.com/tags/): Resources indexed by maturity ([DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING]) and technical stack ([MCP], [GPU], [LLM], [EBPF], [GITOPS]).
+- [Tech & Cloud Intelligence Digest](https://nubenetes.com/tech-digest/): Rolling 3/6/12-month top picks across 22 technical domains.
+- [Methodology & Maturity Taxonomy](https://nubenetes.com/methodology/): Explanation of the 5-tier maturity taxonomy and composite momentum scoring.
+- [V1 Exhaustive Historical Archive](https://nubenetes.com/v1/): Full 19,000+ link historical archive since 2018.
+
+## Strategic Dimensions & Categories
+
+### AI
+- [AI Agents MCP](https://nubenetes.com/ai-agents-mcp/)
+- [AI](https://nubenetes.com/ai/)
+- [ChatGPT](https://nubenetes.com/chatgpt/)
+- [MLOps](https://nubenetes.com/mlops/)
+
+### Architectural Foundations
+- [About](https://nubenetes.com/about/)
+- [Cheatsheets](https://nubenetes.com/cheatsheets/)
+- [Cloud Arch Diagrams](https://nubenetes.com/cloud-arch-diagrams/)
+- [Cloud Asset Inventory](https://nubenetes.com/cloud-asset-inventory/)
+- [Customer](https://nubenetes.com/customer/)
+- [Demos](https://nubenetes.com/demos/)
+- [DevOps Tools](https://nubenetes.com/devops-tools/)
+- [Faq](https://nubenetes.com/faq/)
+- [Git](https://nubenetes.com/git/)
+- [Grafana](https://nubenetes.com/grafana/)
+- [Helm](https://nubenetes.com/helm/)
+- [Introduction](https://nubenetes.com/introduction/)
+- [Kubernetes Tools](https://nubenetes.com/kubernetes-tools/)
+- [Kubernetes Tutorials](https://nubenetes.com/kubernetes-tutorials/)
+- [Kubernetes](https://nubenetes.com/kubernetes/)
+- [Linux](https://nubenetes.com/linux/)
+- [Matrix Table](https://nubenetes.com/matrix-table/)
+- [Mkdocs](https://nubenetes.com/mkdocs/)
+- [Monitoring](https://nubenetes.com/monitoring/)
+- [Other Awesome Lists](https://nubenetes.com/other-awesome-lists/)
+- [Prometheus](https://nubenetes.com/prometheus/)
+
+### Platform & Site Reliability
+- [Chaos Engineering](https://nubenetes.com/chaos-engineering/)
+- [Developerportals](https://nubenetes.com/developerportals/)
+- [DevOps](https://nubenetes.com/devops/)
+- [Performance Testing With Jenkins And Jmeter](https://nubenetes.com/performance-testing-with-jenkins-and-jmeter/)
+- [Project Management Methodology](https://nubenetes.com/project-management-methodology/)
+- [Project Management Tools](https://nubenetes.com/project-management-tools/)
+- [QA](https://nubenetes.com/qa/)
+- [Scaffolding](https://nubenetes.com/scaffolding/)
+- [SRE](https://nubenetes.com/sre/)
+- [Test Automation Frameworks](https://nubenetes.com/test-automation-frameworks/)
+- [Testops](https://nubenetes.com/testops/)
+
+### Hardened Infrastructure
+- [Ansible](https://nubenetes.com/ansible/)
+- [Crossplane](https://nubenetes.com/crossplane/)
+- [Devsecops](https://nubenetes.com/devsecops/)
+- [IaC](https://nubenetes.com/iac/)
+- [Kubernetes Security](https://nubenetes.com/kubernetes-security/)
+- [Kustomize](https://nubenetes.com/kustomize/)
+- [Liquibase](https://nubenetes.com/liquibase/)
+- [Pulumi](https://nubenetes.com/pulumi/)
+- [Securityascode](https://nubenetes.com/securityascode/)
+- [Terraform](https://nubenetes.com/terraform/)
+
+### Cloud Providers (Hyperscalers)
+- [Googlecloudplatform](https://nubenetes.com/GoogleCloudPlatform/)
+- [AWS Backup](https://nubenetes.com/aws-backup/)
+- [AWS IaC](https://nubenetes.com/aws-iac/)
+- [AWS Networking](https://nubenetes.com/aws-networking/)
+- [AWS Newfeatures](https://nubenetes.com/aws-newfeatures/)
+- [AWS Security](https://nubenetes.com/aws-security/)
+- [AWS Serverless](https://nubenetes.com/aws-serverless/)
+- [AWS Storage](https://nubenetes.com/aws-storage/)
+- [AWS](https://nubenetes.com/aws/)
+- [Azure](https://nubenetes.com/azure/)
+- [Digitalocean](https://nubenetes.com/digitalocean/)
+- [Edge Computing](https://nubenetes.com/edge-computing/)
+- [Ibm_Cloud](https://nubenetes.com/ibm_cloud/)
+- [Managed Kubernetes In Public Cloud](https://nubenetes.com/managed-kubernetes-in-public-cloud/)
+- [Oraclecloud](https://nubenetes.com/oraclecloud/)
+- [Public Cloud Solutions](https://nubenetes.com/public-cloud-solutions/)
+
+### Networking & Service Mesh
+- [Caching](https://nubenetes.com/caching/)
+- [Cloudflare](https://nubenetes.com/cloudflare/)
+- [Istio](https://nubenetes.com/istio/)
+- [Kubernetes Networking](https://nubenetes.com/kubernetes-networking/)
+- [Networking](https://nubenetes.com/networking/)
+- [Servicemesh](https://nubenetes.com/servicemesh/)
+- [Web Servers](https://nubenetes.com/web-servers/)
+
+### The Container Stack
+- [Container Managers](https://nubenetes.com/container-managers/)
+- [Docker](https://nubenetes.com/docker/)
+- [Kubectl Commands](https://nubenetes.com/kubectl-commands/)
+- [Kubernetes Alternatives](https://nubenetes.com/kubernetes-alternatives/)
+- [Kubernetes Autoscaling](https://nubenetes.com/kubernetes-autoscaling/)
+- [Kubernetes Backup Migrations](https://nubenetes.com/kubernetes-backup-migrations/)
+- [Kubernetes Based Devel](https://nubenetes.com/kubernetes-based-devel/)
+- [Kubernetes Bigdata](https://nubenetes.com/kubernetes-bigdata/)
+- [Kubernetes Client Libraries](https://nubenetes.com/kubernetes-client-libraries/)
+- [Kubernetes Monitoring](https://nubenetes.com/kubernetes-monitoring/)
+- [Kubernetes On Premise](https://nubenetes.com/kubernetes-on-premise/)
+- [Kubernetes Operators Controllers](https://nubenetes.com/kubernetes-operators-controllers/)
+- [Kubernetes Releases](https://nubenetes.com/kubernetes-releases/)
+- [Kubernetes Storage](https://nubenetes.com/kubernetes-storage/)
+- [Kubernetes Troubleshooting](https://nubenetes.com/kubernetes-troubleshooting/)
+- [Noops](https://nubenetes.com/noops/)
+- [OCP 3](https://nubenetes.com/ocp3/)
+- [OCP 4](https://nubenetes.com/ocp4/)
+- [Openshift](https://nubenetes.com/openshift/)
+- [Rancher](https://nubenetes.com/rancher/)
+- [Serverless](https://nubenetes.com/serverless/)
+
+### Data & Advanced Analytics
+- [Crunchydata](https://nubenetes.com/crunchydata/)
+- [Databases](https://nubenetes.com/databases/)
+- [Message Queue](https://nubenetes.com/message-queue/)
+- [NoSQL](https://nubenetes.com/nosql/)
+- [Yaml](https://nubenetes.com/yaml/)
+
+### Engineering Pipeline
+- [Argo](https://nubenetes.com/argo/)
+- [CI/CD Kubernetes Plugins](https://nubenetes.com/cicd-kubernetes-plugins/)
+- [CI/CD](https://nubenetes.com/cicd/)
+- [Flux](https://nubenetes.com/flux/)
+- [Gitops](https://nubenetes.com/gitops/)
+- [Jenkins Alternatives](https://nubenetes.com/jenkins-alternatives/)
+- [Jenkins](https://nubenetes.com/jenkins/)
+- [Keptn](https://nubenetes.com/keptn/)
+- [Openshift Pipelines](https://nubenetes.com/openshift-pipelines/)
+- [Registries](https://nubenetes.com/registries/)
+- [Sonarqube](https://nubenetes.com/sonarqube/)
+- [Tekton](https://nubenetes.com/tekton/)
+
+### Developer Ecosystem
+- [Chromedevtools](https://nubenetes.com/ChromeDevTools/)
+- [Angular](https://nubenetes.com/angular/)
+- [API](https://nubenetes.com/api/)
+- [Devel Sites](https://nubenetes.com/devel-sites/)
+- [Dotnet](https://nubenetes.com/dotnet/)
+- [Embedded Servlet Containers](https://nubenetes.com/embedded-servlet-containers/)
+- [Golang](https://nubenetes.com/golang/)
+- [Java And Java Performance Optimization](https://nubenetes.com/java-and-java-performance-optimization/)
+- [Java_App_Servers](https://nubenetes.com/java_app_servers/)
+- [Java_Frameworks](https://nubenetes.com/java_frameworks/)
+- [Javascript](https://nubenetes.com/javascript/)
+- [Linux Dev Env](https://nubenetes.com/linux-dev-env/)
+- [Lowcode Nocode](https://nubenetes.com/lowcode-nocode/)
+- [Maven Gradle](https://nubenetes.com/maven-gradle/)
+- [Postman](https://nubenetes.com/postman/)
+- [Python](https://nubenetes.com/python/)
+- [Swagger Code Generator For Rest APIs](https://nubenetes.com/swagger-code-generator-for-rest-apis/)
+- [Visual Studio](https://nubenetes.com/visual-studio/)
+- [Web3](https://nubenetes.com/web3/)
+
+### Career & Industry
+- [Appointment Scheduling](https://nubenetes.com/appointment-scheduling/)
+- [Elearning](https://nubenetes.com/elearning/)
+- [Finops](https://nubenetes.com/finops/)
+- [Freelancing](https://nubenetes.com/freelancing/)
+- [HR](https://nubenetes.com/hr/)
+- [Interview Questions](https://nubenetes.com/interview-questions/)
+- [Newsfeeds](https://nubenetes.com/newsfeeds/)
+- [Recruitment](https://nubenetes.com/recruitment/)
+- [Remote Tech Jobs](https://nubenetes.com/remote-tech-jobs/)
+- [Workfromhome](https://nubenetes.com/workfromhome/)
+
+## Flagship De Facto Standards & High-Momentum References
+
+- [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way): Kelsey Hightower's legendary guide for bootstrapping highly available clusters manually without automated installers. It details SSL/TLS certificate generation, etcd cluster builds, and control...
+- [**Kubespray**](https://github.com/kubernetes-sigs/kubespray): The industry standard Ansible automation framework for deploying enterprise-ready, production-grade clusters. Combining Kubeadm with highly flexible, battle-tested playbooks, it handles network...
+- [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome): The main index repository by Sindre Sorhus, tracking development resources and technologies globally. Highly useful for architects trying to cross-reference multiple tech stack capabilities.
+- [apache/dolphinscheduler: Apache DolphinScheduler 🌟](https://github.com/apache/dolphinscheduler): Apache DolphinScheduler is a highly scalable, distributed workflow visualization scheduler tailored for modern big data and machine learning architectures on Kubernetes. It enables enterprise...
+- [apisix](https://github.com/apache/apisix): Apache APISIX is a high-performance, dynamic cloud-native API gateway built on Nginx and OpenResty. It provides dynamic routing, active health checking, security protection, and telemetry...
+- [App-vNext/Polly](https://github.com/App-vNext/Polly): The premier resilient fault-handling library for the .NET ecosystem. Enables developers to configure sophisticated reliability policies including Retry, Circuit Breaker, Timeout, Bulkhead...
+- [Authelia 🌟](https://github.com/authelia/authelia): Authelia is an open-source authentication and authorization server providing single sign-on (SSO) for applications behind reverse proxies. It supports multi-factor authentication (MFA), dynamic...
+- [Awesome Compose 🌟](https://github.com/docker/awesome-compose): Awesome Compose is an official, highly curated repository of declarative multi-container topologies using Docker Compose. It showcases optimal configuration patterns for databases, caching layers,...
+- [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker): The premier community directory compiling top-tier runtimes, base images, build extensions, registries, and runtime protection systems. An indispensable reference manual for Cloud Native architects.
+- [Awesome Go 🌟](https://github.com/avelino/awesome-go): The definitive curated repository of high-quality Go frameworks, libraries, and software. Unmatched resource for identifying vetted dependencies for enterprise service development. Ideal for...
+- [Awesome Java 🌟](https://github.com/akullpp/awesome-java): A premier directory of validated Java frameworks, high-performance serialization libraries, and microservices engines like Spring Boot, Quarkus, and Micronaut. Essential for legacy modernization...
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers): Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational...
+- [Awesome Python 🌟](https://github.com/vinta/awesome-python): The quintessential curated directory indexing thousands of top-tier Python packages, libraries, frameworks, and tools across data science, web development, containerization, and networking.
+- [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability): A legendary repository outlining the structural design patterns for massive, highly available backend systems. Covering microservices coordination, message brokers, caching schemas, and consensus...
+- [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin): An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by...
+- [AWX](https://github.com/ansible/awx): AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally...
+- [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises): A massive curated repository containing thousands of questions, answers, and hands-on exercises covering Linux, Jenkins, Docker, Kubernetes, Ansible, Terraform, AWS, and system design. (Live...
+- [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph): An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing...
+- [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager): Consolidated record of the cert-manager repository, automating certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
+- [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice): Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting...
+- [Claude Code Templates](https://github.com/davila7/claude-code-templates): Claude Code Templates is an extensive community library containing structured system designs, context guidelines, and prompt schemas optimized for Anthropic's Claude Code and CLI. It helps teams...
+- [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin): A popular community dashboard engineered to coordinate, monitor, and manage Spring Boot applications. By parsing actuator telemetry data, it displays real-time statistics including thread states,...
+- [containerd - An open and reliable container runtime](https://github.com/containerd/containerd): containerd is an industry-standard container runtime designed to be embedded into larger systems like Kubernetes. Following the deprecation of Docker's native runtime engine in Kubernetes,...
+- [dive 🌟](https://github.com/wagoodman/dive): Dive is an indispensable terminal-based tool designed to inspect Docker images, analyze layer contents, and discover ways to shrink image size. By calculating the efficiency metric of individual...
+- [Flag export deprecated in kubernetes 1.14](https://github.com/kubernetes/kubernetes/pull/73787): The upstream Kubernetes pull request deprecating the '--export' flag in 'kubectl get'. Live grounding confirms that as of Kubernetes 1.18+, this flag was completely removed in favor of alternative...
+- [GitHub MCP Server](https://github.com/modelcontextprotocol/servers): Curator Insight: Primary collection of production-grade Model Context Protocol (MCP) servers. Live Grounding: Establishes development standards for JSON-RPC 2.0 based message exchange between host...
+- [github.com/backstage/backstage](https://github.com/backstage/backstage): Backstage is an open-source framework created by Spotify for building customizable internal developer portals. It consolidates service catalogs, software templates, technical documentation, and...
+- [github.com/charlax/professional-programming: A collection of full-stack' resources for programmers 🌟](https://github.com/charlax/professional-programming): A world-class resource collection addressing the operational, psychological, and architectural aspects of professional software engineering. Spans topics from system design and API robustness to...
+- [github.com/containrrr/watchtower](https://github.com/containrrr/watchtower): Watchtower is an automation utility that monitors running Docker containers and automatically updates them whenever a new version of their base image is pushed to a remote registry. It executes...
+- [github.com/dolthub/dolt](https://github.com/dolthub/dolt): An innovative SQL database implementing Git-style version control concepts (clone, push, pull, branch, merge) over table structures and data cells. Perfect for decentralized collaborative data...
+- [github.com/goauthentik/authentik](https://github.com/goauthentik/authentik): authentik is an open-source identity infrastructure built to provide modern Single Sign-On (SSO), Multi-Factor Authentication (MFA), and fine-grained user access rules. It integrates with...
+- [github.com/Ileriayo/markdown-badges: Markdown Badges](https://github.com/Ileriayo/markdown-badges): A massive curated catalog of dynamic, consistent, and beautiful SVG shields and badges for GitHub repositories. It supports a wide array of languages, frameworks, cloud providers, and developer...
+- [github.com/localstack/localstack](https://github.com/localstack/localstack): Curator Insight identifies the open-source repository for LocalStack, the premier AWS cloud emulator. Live Grounding underscores its unparalleled adoption (>65k stars), showing it as a...
+- [github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners' - A Curriculum](https://github.com/microsoft/ML-For-Beginners): Microsoft's 12-week, 26-lesson classical machine learning curriculum focused heavily on hands-on project-based execution using Scikit-learn. It purposely isolates foundational ML patterns—such as...
+- [github.com/mlabonne/llm-course](https://github.com/mlabonne/llm-course): Maxime Labonne's stellar curriculum for mastering Large Language Model engineering. Curator Insight and Live Grounding confirm its value, providing code-driven notebooks covering quantization...
+- [github.com/nodejs/node](https://github.com/nodejs/node): Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for...
+- [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook): The official, highly detailed cookbook of integration patterns and code recipes from OpenAI. Live Grounding and Curator Insight rate this as the definitive reference for engineering structured...
+- [github.com/portainer/portainer](https://github.com/portainer/portainer): Portainer is a container management application that simplifies configuration and monitoring of multi-engine container environments, including Kubernetes. Featuring an intuitive web interface, it...
+- [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus): Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds...
+- [github.com/public-apis/public-apis: Try Public APIs for free 🌟](https://github.com/public-apis/public-apis): A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers...
+- [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73): Details Spring Boot's built-in Kubernetes-native integration features, specifically the auto-detection of container platform hosting. Once identified, it splits Spring Actuator's health check...
+- [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero): Velero is the standard open-source utility for safely backing up and restoring entire Kubernetes cluster structures and persistent volumes. Deeply integrates with both raw cloud APIs and...
+- [github.com: Istio](https://github.com/istio/istio): Main repository containing Istio's unified control plane (Istiod) and orchestration engines. Configures secure high-performance Envoy proxies as sidecars (or in ambient mode) to manage ingress,...
+- [github: Flux Version 2](https://github.com/fluxcd/flux2): The official active repository for Flux v2. Rebuilt from the ground up as a set of Kubernetes controllers (GitOps Toolkit) to allow decoupled, highly parallel reconciliation of Git configurations.
+- [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops): Kubernetes Operations (kops) is a production-grade orchestration tool designed to configure, scale, and manage highly available clusters on public cloud environments. Its declarative structure...
+- [Glances](https://github.com/nicolargo/glances): A Python-based CLI and web tool providing real-time system resource visualization. Glances remains a beloved utility for terminal-driven infrastructure debugging and fast diagnostics on container...
+- [go-micro](https://github.com/micro/go-micro): Curator Insight introduces go-micro as a distributed systems development framework providing key abstractions for microservices. Live Grounding notes its journey through corporate and open-source...
+- [google/python-fire 🌟](https://github.com/google/python-fire): Curator Insight presents Google Fire as a library that instantly derives fully operational CLI endpoints from any Python object. Live Grounding confirms its extensive use in data engineering...
+- [grpc-ecosystem/grpc-gateway: gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway): gRPC-Gateway is an essential reverse-proxy tool that automatically translates incoming RESTful JSON requests into high-performance gRPC calls. By parsing protobuf service definitions, it maintains...
+- [hadolint/hadolint: Haskell Dockerfile Linter](https://github.com/hadolint/hadolint): Hadolint is a Haskell-based linter that parses Dockerfiles and validates them against container best practices and Shellcheck rules. It ensures developers avoid common pitfalls such as running as...
+- [hashicorp/vault](https://github.com/hashicorp/vault): The premier multi-cloud secret manager, data protection engine, and dynamic credential broker. Despite HashiCorp's BSL license shifts, it remains the backbone of enterprise Zero Trust...
+- [Helm](https://github.com/helm/helm): Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place...
+- [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): A highly comprehensive, widely reference-validated repository providing detailed, step-by-step instructions for securing enterprise Linux installations. Key configurations cover SSH daemon...
+- [Huginn](https://github.com/huginn/huginn): A highly versatile open-source system designed for orchestrating automated web-scraping, webhook handling, and event-driven tasks. In 2026, Huginn serves as a vital tool for engineers seeking a...
+- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker): Lazydocker is an immersive, keyboard-driven terminal user interface (TUI) for managing Docker and Docker Compose setups. It aggregates container statuses, logs, CPU/Memory resource graphs,...
+- [jib](https://github.com/GoogleContainerTools/jib): Jib is a fast, specialized build tool by Google that constructs optimized Docker and OCI images for Java applications without requiring a Docker daemon or Dockerfile. Integrating directly into...
+- [joke2k/faker 🌟](https://github.com/joke2k/faker): Curator Insight introduces Faker as an extensive database for mocking data. Live Grounding highlights its standard integration into QA pipelines, where generating randomized, structured database...
+- [joplin](https://github.com/laurent22/joplin): A widely adopted open-source note-taking and to-do application. Supports End-to-End Encryption (E2EE), Markdown editing, and dynamic synchronization across private cloud systems.
+- [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s): K9s is a widely adopted terminal UI that provides live metrics, log streams, and interactive Shell access inside Kubernetes workloads. It transforms long debugging processes into rapid,...
+- [kaniko](https://github.com/GoogleContainerTools/kaniko): Kaniko is an open-source tool developed by Google to build container images from Dockerfiles inside containerized environments (like Kubernetes) without requiring a privileged Docker daemon. It...

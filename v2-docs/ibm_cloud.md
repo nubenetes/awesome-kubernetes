@@ -17,13 +17,13 @@ description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
 
 ##### Source Code
 
-  - **(2026)** [**github.com/openliberty**](https://github.com/openliberty) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The primary GitHub hub containing repositories for Open Liberty, hosting its core runtime, tooling, and integrations. Live Grounding shows a highly collaborative community pushing frequent optimizations for Jakarta EE and MicroProfile.
-  - **(2026)** [**openliberty.io**](https://openliberty.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project portal for Open Liberty, IBM's open-source, highly modular Java runtime designed for microservices and cloud-native applications. Live Grounding highlights its performance, dynamic reloading capabilities, and seamless integration with container platforms.
+  - **(2026)** [**github.com/openliberty**](https://github.com/openliberty) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The primary GitHub hub containing repositories for Open Liberty, hosting its core runtime, tooling, and integrations. Live Grounding shows a highly collaborative community pushing frequent optimizations for Jakarta EE and MicroProfile.
+  - **(2026)** [**openliberty.io**](https://openliberty.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project portal for Open Liberty, IBM's open-source, highly modular Java runtime designed for microservices and cloud-native applications. Live Grounding highlights its performance, dynamic reloading capabilities, and seamless integration with container platforms.
 #### Websphere
 
 ##### Docker
 
-  - **(2026)** [**DockerHub: websphere-liberty**](https://hub.docker.com/_/websphere-liberty) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official WebSphere Liberty image on Docker Hub, providing a highly optimized cloud-native runtime designed for Java EE and MicroProfile. Live Grounding emphasizes its value for enterprise application modernization, delivering low-footprint containers with IBM technical backing.
+  - **(2026)** [**DockerHub: websphere-liberty**](https://hub.docker.com/_/websphere-liberty) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official WebSphere Liberty image on Docker Hub, providing a highly optimized cloud-native runtime designed for Java EE and MicroProfile. Live Grounding emphasizes its value for enterprise application modernization, delivering low-footprint containers with IBM technical backing.
 ## Enterprise Integration
 
 ### Cloud-native Storage
@@ -71,7 +71,7 @@ description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
 
 #### IBM Cloud
 
-  - **(2026)** [**IBM Cloud**](https://www.ibm.com/solutions/cloud) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The business and technical portal for IBM Cloud. Live Grounding highlights its specialization in enterprise hybrid-cloud, secure financial cloud environments, and deep integration with Red Hat OpenShift architectures.
+  - **(2026)** [**IBM Cloud**](https://www.ibm.com/solutions/cloud) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The business and technical portal for IBM Cloud. Live Grounding highlights its specialization in enterprise hybrid-cloud, secure financial cloud environments, and deep integration with Red Hat OpenShift architectures.
 ### Mainframe Modernization
 
 #### IBM (2)
