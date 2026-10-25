@@ -65,6 +65,7 @@
     - [towardsdatascience.com: yq: Mastering YAML Processing in Command Line 🌟](https://towardsdatascience.com/yq-mastering-yaml-processing-in-command-line-e1ff5ebc0823) Learn to parse and manipulate YAML files more efficiently using yq command-line utility and this simple cheat sheet
     - [betterprogramming.pub: My Cheatsheet for the “yq” Tool](https://betterprogramming.pub/my-yq-cheatsheet-34f2b672ee58) Parsing Kubernetes YAML with yq. `yq` is a convenient tool for creating, updating and mangling Kubernetes YAML files. how to use it as well as some practical tips and tricks.
 - [Kapitan](https://kapitan.dev) Generic templated configuration management for Kubernetes, Terraform and other things.
+- [kadet-hub](https://kadet-hub.org) - Registry of Kapitan generators for Kubernetes and Terraform, checked in a sandboxed compile and published to ghcr.io as OCI artifacts with provenance and an SBOM.
 - [azohra/yaml.sh](https://github.com/azohra/yaml.sh) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec)
 - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
 - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
