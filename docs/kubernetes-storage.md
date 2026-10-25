@@ -52,7 +52,6 @@
 - [rancher.com: What is Cloud-Native Storage?](https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage)
 - [softwareengineeringdaily.com: Why Is Storage On Kubernetes So Hard? 🌟](https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard)
 - [thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale](https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale)
-- [blog.min.io: Why Kubernetes Managed Object Storage Matters](https://www.min.io/blog)
 - [gitlab.com: Kubernetes storage provider benchmarks](https://gitlab.com/mrman/k8s-storage-provider-benchmarks)
 - [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud)
 - [marketplace.redhat.com: Dont treat Kubernetes storage as an afterthought: Turn to persistent container storage for high performance and availability](https://marketplace.redhat.com/sunset)
@@ -215,8 +214,6 @@
 
 - [min.io](https://www.min.io) Multi-Cloud Object Storage. MinIO offers high-performance, S3 compatible object storage. Native to Kubernetes, MinIO is the only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud and the
 edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
-- [blog.min.io: Best Practices for Kubernetes Object Storage](https://www.min.io/blog)
-- [blog.min.io: Cloud-Native Object Storage Architectures: Single-Tenant vs Multi-Tenant](https://www.min.io/blog)
 
 ### NetApp Data Store
 

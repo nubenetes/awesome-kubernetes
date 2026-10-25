@@ -4,8 +4,6 @@
 - [youcanbook.me](https://youcanbook.me)
 - [Acuity Scheduling](https://acuityscheduling.com)
 - [Doodle](https://doodle.com/en)
-- [Karen](https://frontdeskchat.com)
-- [ScheduleOnce](https://www.oncehub.com)
 - [Google Calendar appointment slots](https://support.google.com/calendar/answer/11608416?visit_id=639264263696151393-1274317728&rd=1) Ability to create and share appointment slots in Google Calendar natively. It's works for personal gmail accounts too. Requires a Workspace Individual Subscription.
 - [timewatch.com: Outlook Resource Scheduling – View and report on Employee Outlook Calendars](https://www.timewatch.com/blog/outlook-resource-scheduling)
 - [cal.com](https://cal.com) - [venturebeat.com: Open source Calendly alternative Cal.com promises greater data control](https://venturebeat.com/2021/12/21/open-source-calendly-alternative-cal-com-promises-greater-data-control)
@@ -21,4 +19,3 @@
 - [wpamelia.com: Calendly vs YouCanBook.Me](https://wpamelia.com/calendly-vs-youcanbook-me)
 - [wpamelia.com: Calendly vs Acuity](https://wpamelia.com/calendly-vs-acuity)
 - [wpamelia.com: Calendly vs Doodle](https://wpamelia.com/calendly-vs-doodle)
-- [karenapp.io: Calendly vs ScheduleOnce](https://frontdeskchat.com)

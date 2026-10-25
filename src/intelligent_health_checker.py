@@ -246,15 +246,15 @@ class IntelligentLinkCleaner:
                                         async with httpx.AsyncClient(timeout=10, follow_redirects=True, verify=False) as client:
                                             resp_new = await client.get(new_loc)
                                             if resp_new.status_code < 400:
-                                                final_new = str(resp_new.url)
-                                                u_p = u.split("://")[-1].rstrip("/")
-                                                f_p = final_new.split("://")[-1].rstrip("/")
-                                                if u_p.count("/") >= 3 and (f_p.count("/") <= 2 or any(kw in f_p for kw in ["/about", "/products", "/home", "/learn"])):
-                                                    log_event(f"  [⚠️] AI proposed a generic redirect for {u} -> {new_loc}. Rejecting.")
+                                                from src.gemini_utils import sanitize_trailing_slashes, is_invalid_or_generic_redirect
+                                                final_new = sanitize_trailing_slashes(str(resp_new.url))
+                                                is_bad, bad_reason = is_invalid_or_generic_redirect(u, final_new, resp_new.text)
+                                                if is_bad:
+                                                    log_event(f"  [⚠️] AI proposed an invalid/generic redirect for {u} -> {final_new} ({bad_reason}). Rejecting.")
                                                 else:
-                                                    log_event(f"  [✨] RESCUED: {u} -> {new_loc}")
-                                                    check_results[u] = (True, "resurrected", new_loc)
-                                                    self.checkpoint_data["checked_urls"][nu] = [True, "resurrected", new_loc]
+                                                    log_event(f"  [✨] RESCUED: {u} -> {final_new}")
+                                                    check_results[u] = (True, "resurrected", final_new)
+                                                    self.checkpoint_data["checked_urls"][nu] = [True, "resurrected", final_new]
                                     except Exception as e:
                                         log_event(f"[WARN] verify rescued URL {new_loc[:50]}: {str(e)[:100]}")
                             
@@ -278,7 +278,7 @@ class IntelligentLinkCleaner:
 
             status, final_reason = ("INCLUDED", reason) if alive else ("FILTERED", reason)
             
-            if not alive or reason == "generic_redirect_loss":
+            if not alive or reason == "generic_redirect_loss" or reason.startswith("soft_404") or reason == "parked_domain":
                 if is_important:
                     orig_metadata = entry.get("review_metadata") or {}
                     orig_timestamp = orig_metadata.get("timestamp")
@@ -308,7 +308,7 @@ class IntelligentLinkCleaner:
                         }
                         log_event(f"  [⚠️] REVIEW STORED/MAINTAINED: {url}")
                         status, final_reason = "INCLUDED", f"Preserved for Review ({reason})"
-                elif score < 20: 
+                else:
                     entry["status"] = "dead"; self.dead_links[url] = (None, reason)
                     status, final_reason = "FILTERED", f"Dead: {reason}"
             elif final and alive:
@@ -359,19 +359,18 @@ class IntelligentLinkCleaner:
 
     async def _check_url_logic(self, url: str) -> Tuple[bool, str, Optional[str]]:
         headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.5"}
-        parked = ["buy this domain", "parked free", "domain is for sale"]
         nu = normalize_url(url); entry = self.inventory.get(nu, {})
         
         try:
             async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12) as client:
                 resp = await client.get(url)
                 if resp.status_code < 400:
-                    text = resp.text.lower()
-                    final_url = str(resp.url)
-                    from src.gemini_utils import sanitize_trailing_slashes
-                    final_url = sanitize_trailing_slashes(final_url)
+                    from src.gemini_utils import sanitize_trailing_slashes, is_invalid_or_generic_redirect
+                    final_url = sanitize_trailing_slashes(str(resp.url))
                     
-                    if any(kw in text for kw in parked): return False, "parked", None
+                    is_bad, bad_reason = is_invalid_or_generic_redirect(url, final_url, resp.text)
+                    if is_bad:
+                        return False, bad_reason, None
                     
                     # Mandate 22: Content Drift detection (SHA256) - Integrated here for speed
                     new_hash = hashlib.sha256(resp.text.encode()).hexdigest()
@@ -400,12 +399,10 @@ class IntelligentLinkCleaner:
                     if final_url != url:
                         u_p = url.split("://")[-1].rstrip("/"); f_p = final_url.split("://")[-1].rstrip("/")
                         if u_p == f_p: return True, "normalized_slashes", final_url
-                        if u_p.count("/") >= 3 and (f_p.count("/") <= 2 or any(kw in f_p for kw in ["/about", "/products", "/home", "/learn"])):
-                            return False, "generic_redirect_loss", None
                     
                     return True, "OK", final_url if final_url != url else None
                 
-                if resp.status_code in [404, 410]:
+                if resp.status_code in [404, 410, 451]:
                     if "github.com" in url:
                         if "/master/" in url:
                             h = url.replace("/master/", "/main/")
@@ -415,8 +412,11 @@ class IntelligentLinkCleaner:
                                 log_event(f"[WARN] heal master->main for {url}: {str(e)[:100]}")
                         m = re.search(r'(https?://github\.com/[^/]+/[^/]+)', url)
                         if m and (await client.get(m.group(1))).status_code < 400: return True, "consolidated", m.group(1)
-                    return False, "404", None
+                    return False, str(resp.status_code), None
                 return True, f"Soft Block {resp.status_code}", None
+        except httpx.ConnectError as e:
+            log_event(f"[WARN] Connect/DNS error for {url}: {str(e)[:100]}")
+            return False, "connect_or_dns_error", None
         except Exception as e:
             log_event(f"[WARN] URL check logic for {url}: {str(e)[:100]}")
             return True, "Error", None

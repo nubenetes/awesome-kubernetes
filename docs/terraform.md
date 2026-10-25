@@ -178,7 +178,6 @@
 - [tfenv](https://github.com/tfutils/tfenv) Terraform version manager inspired by rbenv
 - [dev.to: Packer and Terraform with Immutable Infrastructure](https://dev.to/cloudskills/packer-and-terraform-with-immutable-infrastructure-47ja)
 - [medium: Terraform: How to Use Conditionals to Dynamically Create Resources](https://medium.com/swlh/terraform-how-to-use-conditionals-for-dynamic-resources-creation-6a191e041857) …don’t struggle looking for if/else statements, you won’t find them…
-- [cloudify.co: Ansible, Terraform And Cloudify](https://docs.cloudify.co)
 - [deloitte.com: Infrastructure as Code (IaC) con Terraform](https://www.deloitte.com/es/es/services/consulting/blogs/todo-tecnologia/infrastructure-as-code-iac-con-terraform.html) Automatización, escalado, optimización y ahorro en tu factura cloud
 - [accurics.com: Terraform Security: Improving IaC Scans with Terraform Plan Output](https://www.tenable.com/cloud-security/products/cnapp)
 - [hashicorp.com: Modern Infrastructure Automation with Packer, Terraform, and Consul (video)](https://www.hashicorp.com/resources/modern-infrastructure-automation-with-packer-terraform-and-consul)
@@ -211,7 +210,6 @@
 - [medium: terraform | git commit -m “all the secrets” | sops tool for managing secrets 🌟](https://medium.com/cloudandthings/terraform-git-commit-m-all-the-secrets-5dfea9b111de) - [sops: Simple and flexible tool for managing secrets 🌟](https://github.com/getsops/sops)
 - [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d) Heroku is great, but how about using Terraform, AWS, Docker and have full control over the entire stack?
 - [learn.hashicorp.com: y Serverless Applications with AWS Lambda and API Gateway 🌟](https://developer.hashicorp.com/terraform/tutorials/aws/lambda-api-gateway)
-- [harness.io: Terraform 201: What It Is, Tutorial, and More 🌟](https://www.harness.io/blog)
 - [medium: Terraform Zero to Hero](https://medium.com/tech-guides/terraform-zero-to-hero-733f6860bb9a)
 - [learn.hashicorp.com: Configure Default Tags for AWS Resources 🌟](https://developer.hashicorp.com/terraform/tutorials/aws/aws-default-tags)
 - [terraform-hcloud-dualstack-k8s: Hetzner Dual-Stack Kubernetes Cluster](https://github.com/tibordp/terraform-hcloud-dualstack-k8s) (Unofficial) Terraform module for a dual-stack Kubernetes cluster on Hetzner Cloud
@@ -271,7 +269,6 @@
 - [==tekanaid.com: Terraform for Beginners – A Beginner’s Guide to Automating Cloud Infrastructure== 🌟](https://tekanaid.com/posts/terraform-for-beginners-course-and-training)
 - [==terrahaxs.com: Choosing the Right Terraform Loop: count vs for_each== 🌟](https://www.terrahaxs.com/blog/count-vs-for-each)
 - [==digitalocean.com: How To Structure a Terraform Project== 🌟](https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project) **Learn about structuring Terraform projects according to their general purpose and complexity. Then, you’ll create a project with a simple structure using the more common features of Terraform: variables, locals, data sources, and provisioners.**
-- [==getbetterdevops.io: How To Deploy Helm Charts With Terraform== 🌟](https://jnetoto808.com) Do you know you can deploy HelmCharts as any other Terraform resources? It's possible with the official Helm provider.
 - [==medium.com/@dsdatsme: Terraform GitOps CI/CD with Approval & Notifications==](https://medium.com/@dsdatsme/terraform-gitops-ci-cd-with-approval-notifications-6f0807299fc4)
 - [github.com/DhruvinSoni30/Terraform_multiple_modules](https://github.com/DhruvinSoni30/Terraform_multiple_modules) **How to work with multiple terraform modules?**
 - [spacelift.io: Terraform Files – How to Structure a Terraform Project](https://spacelift.io/blog/terraform-files)
@@ -506,7 +503,6 @@
   - [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) 🌟 - A comprehensive GitHub repository containing a free ebook on Terraform best practices, translated into multiple languages. It covers various aspects of writing and structuring Terraform code.
 
 - [github.com/ozbillwang/terraform-best-practices](https://github.com/ozbillwang/terraform-best-practices)
-- [globaldatanet.com: Terraform CI/CD Best Practices](https://www.x1f.one)
 - [==bridgecrew.io: Terraform security 101: Best practices for secure infrastructure as code== 🌟](https://bridgecrew.io/blog/terraform-security-101-best-practices-for-secure-infrastructure-as-code)
 - [medium.com/@ranjana-jha: Infrastructure as a code best practices : Terraform](https://medium.com/@ranjana-jha/infrastructure-as-a-code-best-practices-terraform-d7ae4291d621)
 - [sairamkrish.medium.com: Terraform — Best practices and project setup](https://sairamkrish.medium.com/terraform-best-practices-and-project-setup-1772ad04cf5e)
@@ -580,7 +576,6 @@
 - [blog.kasten.io: Working with Kubernetes and Terraform Part 1: Concepts Behind Terraform and Kubernetes](https://blog.kasten.io/concepts-behind-terraform-and-kubernetes)
 - [thenewstack.io: A Better Way to Provision Kubernetes Using Terraform](https://thenewstack.io/a-better-way-to-provision-kubernetes-using-terraform)
 - [==learn.hashicorp.com: Deploy Federated Multi-Cloud Kubernetes Clusters==](https://developer.hashicorp.com/terraform/tutorials/networking/multicloud-kubernetes) you will provision Kubernetes clusters in both Azure and AWS environments using their respective providers, configure Consul federation with mesh gateways across the two clusters using the Helm provider, and deploy microservices across the two clusters to verify federation, all using the same Terraform workflow.
-- [architect.io: Get started with the Terraform Kubernetes provider](https://loopholelabs.io) you'll learn how to define Kubernetes resources using HCL and apply the configuration to the cluster using Terraform
 - [releasehub.com: Terraform Kubernetes Deployment: A Detailed Walkthrough](https://release.com/blog/terraform-kubernetes-deployment-a-detailed-walkthrough) It is possible to combine both. Terraform can be used to deploy Kubernetes clusters. It's quite common, and it lets you deploy K8s just like the rest of your infrastructure.
 - [medium.com/@vinoji2005: Using Terraform with Kubernetes: A Comprehensive Guide](https://medium.com/@vinoji2005/using-terraform-with-kubernetes-a-comprehensive-guide-237f6bbb0586) This guide explores the fundamentals of using Terraform with Kubernetes
     - Setting Up a Kubernetes Cluster with Terraform
@@ -776,7 +771,6 @@
 - [==aws.amazon.com: New – AWS Control Tower Account Factory for Terraform==](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform)
 - [hashicorp.com: HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform) AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.
 - [==aws.amazon.com: AWS Control Tower==](https://aws.amazon.com/controltower) The easiest way to set up and govern a secure multi-account AWS environment
-- [trek10.com: Control Tower: Then vs Now](https://caylent.com/insights) Control Tower today is not the same Control Tower that you may have been introduced to in the past.
 
 #### Porsche Official
 
@@ -1001,7 +995,6 @@ network_plugin = "kubenet"  # use Azure CNI network plugin when windows node poo
 
 ## Terraform Modules
 
-- [offensive-terraform.github.io: Offensive Terraform Modules 🌟](https://offensive-terraform.github.io) Automated multi step offensive attack modules with Infrastructure as Code(IAC)
 - [digitalocean.com: How To Build a Custom Terraform Module](https://www.digitalocean.com/community/tutorials/how-to-build-a-custom-terraform-module)
 - [thomasthornton.cloud: Writing reusable Terraform modules (azure)](https://thomasthornton.cloud/writing-reusable-terraform-modules)
 - [blog.devops.dev: Terraform Modules](https://blog.devops.dev/terraform-modules-db392bb7e950?gi=4e0b23fd8610)
@@ -1079,7 +1072,6 @@ network_plugin = "kubenet"  # use Azure CNI network plugin when windows node poo
     - https://www.jenkins.io/changelog-stable/#v2.289.3
 - [Rover - Terraform Visualizer 🌟](https://github.com/im2nguyen/rover) Interactive Terraform visualization. State and configuration explorer.
     - [hashicorp.com: Rover - Terraform Visualizer](https://www.hashicorp.com/resources/terraform-plan-interactive-configuration-and-state-visualization-with-rover)
-- [cloudify.co: Cloudify and Terraform Integration. Supercharge Your Terraform Templates](https://docs.cloudify.co) Significantly extend Terraform usability with Cloudify's plugin and enjoy end-to-end automation and avoid costly blueprint transformation.
 - [cloudquery.io: Announcing CloudQuery Terraform Drift Detection](https://www.cloudquery.io/blog/announcing-cloudquery-terraform-drift-detection)
 - [run-x/opta: Opta - Supercharge DevOps on any cloud](https://github.com/run-x/opta) Infrastructure-as-code where you work with high-level constructs instead of getting lost in low level cloud configuration
     - [cncf.io: Introducing Opta: Terraform on Rails](https://www.cncf.io/blog/2022/02/18/introducing-opta-terraform-on-rails)

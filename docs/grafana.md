@@ -30,7 +30,6 @@
 - [youtube.com: Grafana Loki Promtail | Grafana Loki Setup And Configuration On CentOs](https://www.youtube.com/watch?v=iqpLXUdJ0Ro&ab_channel=Thetips4you)
 - [grafana.com: What's new in Grafana Cloud for July 2021: Traces, live streaming, Kubernetes and Docker integrations, and more](https://grafana.com/blog/whats-new-in-grafana-cloud-for-july-2021-traces-live-streaming-kubernetes-and-docker-integrations-and-more)
 - [thenewstack.io: Grafana Is Not Worried About AWS Commercialization](https://thenewstack.io/grafana-is-not-worried-about-aws-commercialization)
-- [grafana.com: Introducing the AWS CloudWatch integration, Grafana Cloud's first fully managed integration](https://grafana.com/blog) Latest integration available in Grafana Cloud: the AWS CloudWatch metrics integration, the first of our fully managed integrations that makes it simple to connect and visualize your data in Grafana.
 - [grafana.com: Testing shift left observability with the Grafana Stack, OpenTelemetry, and k6](https://grafana.com/blog/testing-shift-left-observability-with-the-grafana-stack-opentelemetry-and-k6)
 - [thenewstack.io: Will Grafana Become Easier to Use in 2022?](https://thenewstack.io/will-grafana-become-easier-to-use-in-2022)
 - [grafana.com: Top 5 user-requested synthetic monitoring alerts in Grafana Cloud](https://grafana.com/blog/top-5-user-requested-synthetic-monitoring-alerts-in-grafana-cloud)
@@ -42,7 +41,6 @@
 - [==devopscube.com: How To Setup Grafana On Kubernetes==](https://devopscube.com/setup-grafana-kubernetes)
 - [infoq.com: Grafana Cloud Adds Incident and On-Call Management Solutions](https://www.infoq.com/news/2022/02/grafana-incident-oncall)
 - [alexandrev.medium.com: Grafana Alerting vs AlertManager: A Comparison of Two Leading Monitoring Tools | Alex Vazquez](https://alexandrev.medium.com/grafana-alerting-vs-alertmanager-a-comparison-of-two-leading-monitoring-tools-5e262446a5f9)
-- [linkedin.com/pulse: Automatización de procesos con Prometheus, Grafana y WebHook: resolución autónoma de incidentes](https://www.linkedin.com/top-content/?trk=article_not_found)
 - [devops.com: Grafana Labs Acquires Asserts.ai to Bring AI to Observability](https://devops.com/grafana-labs-acquires-assert-ai-to-bring-ai-to-observability)
 - [grafana.com: Why companies choose Grafana Cloud over self-managed OSS stacks](https://grafana.com/blog/why-companies-choose-grafana-cloud-over-self-hosted-oss-stacks)
 
@@ -91,7 +89,6 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ## Grafana Releases
 
 - [Open source observability, meet data transformation: Grafana 7.0 promises to connect, unify, and visualize all your data](https://www.zdnet.com/article/open-source-observability-meet-data-transformation-grafana-7-0-promises-to-connect-unify-and-visualize-all-your-data) Grafana Labs sets the bar for open source observability with Grafana 7.0: more developer friendly, more data sources, data transformation, and growth in the cloud and on premise
-- [Grafana 7.0: “We’ve built one of the best visualisation tools and it’s not tied to any one database”](https://devm.io/blog)
 - [grafana.com: Grafana 8.1 released: New Geomap and Annotations panels, updated plugin management, and more](https://grafana.com/oss/grafana)
 - [thenewstack.io: Grafana 8.2 Wants to ‘Democratize’ Cloud Native Metrics](https://thenewstack.io/grafana-wants-to-democratize-cloud-native-metrics)
 - [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service) Today we announced a partnership with Microsoft that lets customers run Grafana natively within their Azure cloud platform.

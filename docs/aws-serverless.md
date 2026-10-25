@@ -6,9 +6,7 @@
 ## Introduction
 
 - [you can use Python with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/python-package.html)
-- [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](https://www.giantflyingsaucer.com/blog/?p=5730)
 - [AWS Lambda, Echo, and the Future of Cloud Automation](https://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation) A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon's Echo to launch entire AWS environments by using just your voice
-- [Serverless: The Future of Software Architecture?](https://acg-notice.pluralsight.com)
 - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)
 - [AWS Lambda Limits](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)
 - [blog.powerupcloud.com: AWS inventory details in CSV using lambda](https://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)

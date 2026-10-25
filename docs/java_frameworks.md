@@ -157,7 +157,6 @@ optimizing Enterprise Java for the microservices architecture.
 
 ### Server Vendors providing MicroProfile runtimes
 
-- [WebSphere Liberty from IBM](https://openliberty.io/)
 - [TomEE from Tomitribe](https://tomee.apache.org)
 - [Payara](https://www.azul.com/products/payara-server/?utm_campaign=payara.fish_migration_july_2026&utm_source=payara.fish&utm_medium=referral)
 - [RedHat’s WildFly Swarm](https://wildfly-swarm.io)
@@ -173,7 +172,6 @@ optimizing Enterprise Java for the microservices architecture.
 
 ## Spring
 
-- [Spring](https://spring.io)
 - [Spring Framework Architecture 🌟](https://www.javacodegeeks.com/2019/02/spring-framework-architecture.html)
 - [javatutorial.net: Introduction to Spring Web Framework](https://javatutorial.net/introduction-to-spring-web-framework)
 - [javarevisited.blogspot.com: 10 JdbcTemplate Examples in Spring Framework](https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html)
@@ -190,7 +188,6 @@ optimizing Enterprise Java for the microservices architecture.
 - [SpringBoot](https://spring.io/projects/spring-boot)
 - [dzone: All About Spring Boot (Tutorials and Articles)](https://dzone.com/articles/spring-boot-framework-tutorials)
 - [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408)
-- [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog)
 - [dzone: Deploying Spring Boot App to JBoss Wildfly](https://dzone.com/articles/deploying-spring-boot-app-to-jboss-wildfly)
 - [Spring Boot: ¿war o jar? Ambos](https://adictosaltrabajo.com/2018/12/13/spring-boot-war-o-jar-ambos)
 - [javatutorial.net: Spring vs. Java EE](https://javatutorial.net/spring-vs-java-ee)

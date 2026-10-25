@@ -138,7 +138,6 @@
 - [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6)
 - [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53?gi=f66f6941f2f6) we will learn how to automate Blue/Green Deployment with Argo Rollouts.
 - [infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing) This blog post will teach you how to set up blue-green deployments using Argo Rollouts with DNS routing using **Azure Traffic Manager**
-- [codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://octopus.com/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts) how to use Argo Rollouts for settings/ConfigMaps using the Kustomize configmap generators. This is useful during blue/green deployments where you need a (templated) copy of the ConfigMap.
 - [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf?gi=3a2f10ce8dc2)
 
 ## Argo Workflows

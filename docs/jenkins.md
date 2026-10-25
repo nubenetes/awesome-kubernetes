@@ -92,14 +92,12 @@
 - [blog.executeautomation.com: Running Jenkins Build Agent within Docker container – Part A](https://blog.executeautomation.com/running-jenkins-build-agent-within-docker-container-part-a) Jenkins is one of the most popular CI/CD open source tool without any doubt. It has evolved so much in recent past that, the tool can be utilised with many modern way approach to build the application and deploy the application. Jenkins can be scaled with not just by installing different build agents in different machines, rather we can use the power of Docker containers to install agent and perform build operations effortlessly.
 - [lambdatest.com: How To Set Up Continuous Integration With Git and Jenkins?](https://www.testmuai.com/blog/how-to-setup-continuous-integration-with-git-jenkins)
 - [itnext.io: Jenkins: running workers in Kubernetes and Docker images build](https://itnext.io/jenkins-running-workers-in-kubernetes-and-docker-images-build-83299a10f3ca?gi=e9e5d45820d0)
-- [aws.amazon.com: How to cost optimize Jenkins jobs on Kubernetes with EC2 Spot Instances 🌟](https://builder.aws.com/learn)
 - [medium: CI/CD Pipeline of Jenkins Using Groovy Language With Monitoring on the Top of Kubernetes](https://medium.com/swlh/ci-cd-pipeline-of-jenkins-using-groovy-language-with-monitoring-on-the-top-of-kubernetes-b37f962fb0ac)
 - [amazon.com: Building a serverless Jenkins environment on AWS Fargate](https://aws.amazon.com/es/blogs/devops/building-a-serverless-jenkins-environment-on-aws-fargate)
 - [youtube: How to Create a GitLab Multibranch Pipeline in Jenkins](https://www.youtube.com/watch?app=desktop&v=y4XGFluzPHY&ab_channel=CloudBeesTV)
 - [lambdatest.com: Jenkins Tutorial 🌟](https://www.testmuai.com/learning-hub/jenkins)
 - [youtube/Bribe By Bytes: Jenkins Pipelines | Pipeline Concept | Types of Pipelines | Part 1](https://www.youtube.com/watch?v=iddMXjmr7mk&ab_channel=BribeByBytes)
 - [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin) Jenkins can now be used to automate Tekton pipelines too which helps teams digitally transform to more cloud native solutions for their CI and CD. In such a case, you can use Tekton pipeline engine while getting all benefits from Jenkins as an orchestrator, user interface and the reporting engine. The Tekton Client plugin for Jenkins lets you easily use Jenkins to automate creating and running Tekton pipelines. It bridges the Kubernetes learning gap and allows invoking Tekton Pipelines and resources through Jenkins. This allows users to not have much of the Kubernetes specific knowledge beforehand and work. Its a single Jenkins plugin to install - so it’s easy to use.
-- [harness.io: What is Pipeline as Code, and How Can You Leverage It?](https://www.harness.io/blog)
 - [lambdatest.com: How To Set Jenkins Pipeline Environment Variables? 🌟](https://www.testmuai.com/blog/set-jenkins-pipeline-environment-variables-list)
 - [slideshare.net: Jeff Geerling - Jenkins or: How I learned to stop worrying and love automation 🌟](https://www.slideshare.net/geerlingguy/jenkins-or-how-i-learned-to-stop-worrying-and-love-automation) Configuring Jenkins like a pro. Use authorization strategies in jenkinsci unless you want to have Remote Code Execution as a Service! There are many plugins like Matrix Auth, Role Strategy and Folder Auth. Vendors like CloudBees also provide security engines in their products.
 - [youtube - CloudBeesTV: How to Run a Shell Script in Jenkins Pipeline 🌟](https://www.youtube.com/watch?v=mbeQWBNaNKQ&ab_channel=CloudBeesTV)
@@ -601,7 +599,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ### Cloudbees Flow
 
-- [**Cloudbees Flow** 🌟](https://www.cloudbees.com/capabilities/ci-cd-workflows?contentType=application/pdf&wchannelid=ygl06f4wfj&wmediaid=9qcwsqshzr)
 - [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow)
 
 ??? note "Cloudbees Flow Videos. Click to expand!"
@@ -626,7 +623,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     - [tatiyants.com: jenkins build monitor](https://tatiyants.com/jenkins-build-monitor)
 - [Monitor Pro Plugin](https://plugins.jenkins.io/monitor-pro)
 - [ALM Performance: Continuously Monitor Performance and Vitality of your Jenkins Deployment](https://www.almtoolbox.com/jenkins-monitoring.php)
-- [Monitoring jenkins using instana](https://www.ibm.com/think)
 - [medium: prometheus and grafana dashboard](https://medium.com/@gangsta_black/grafana-cool-dashboard-for-monitoring-jenkins-with-prometheus-c7ba4f1c6297)
 - [youtube: Monitoring Jenkins with Grafana and Prometheus](https://www.youtube.com/watch?v=EWFJem7GUAc)
 - [youtube: Jenkins Prometheus Grafana Dashboard | Prometheus Jenkins Monitoring | Prometheus.yml | Thetips4you](https://www.youtube.com/watch?v=N8P9ZLMA2xY)
@@ -637,7 +633,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     - [github.com/jenkinsci/github-autostatus-plugin](https://github.com/jenkinsci/github-autostatus-plugin)
 - [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY)
 - [Jenkins opentelemetry-plugin 🌟](https://github.com/jenkinsci/opentelemetry-plugin) Publish Jenkins performances metrics to an OpenTelemetry endpoint, including distributed traces of job executions and health metrics of the controller. What if you could transform your jenkinsci pipeline into an observable transaction that can be analyzed using OpenTelemetry backends such as Elastic APM? Code analyzed via code?
-- [influxdata.com: Monitoring Jenkins CI with InfluxDB](https://www.influxdata.com)
 - [jenkins.io: Jenkins Remoting Monitoring 🌟](https://www.jenkins.io/projects/gsoc/2021/projects/remoting-monitoring) Goal: Support monitoring of Jenkins remoting networking with open source monitoring tools such as Prometheus, Grafana, etc.
     - [Jenkins Remoting monitoring with OpenTelemetry Plugin 🌟](https://github.com/jenkinsci/remoting-opentelemetry-plugin) Publish Jenkins Remoting monitoring data to an OpenTelemetry endpoint.
     - [Jenkins: Agents Monitoring End User Survey](https://docs.google.com/forms/d/e/1FAIpQLSdiuQN3sm2mQ2E86VTXVXu7bf_9C0hVdzhw2_Kvu3DFqL7EZA/viewform)
@@ -694,8 +689,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ### CloudBees Accelerator
 
-- [CloudBees Accelerator](https://www.cloudbees.com) Shorten Build and Test Times
-- [How to Speed Up Software Development with Build and Test Acceleration Tools](https://www.cloudbees.com/blog)
 
 ## Jenkins Scripts
 
@@ -732,7 +725,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 - [blogs.sap.com: Continuous quality using plugins and Jenkins (ABAP & UI5)](https://blogs.sap.com/2020/10/18/continuous-quality-using-plugins-and-jenkins-abap-ui5)
 - [blogs.sap.com: CI/CD Tools for SAP Cloud Platform ABAP Environment](https://blogs.sap.com/2020/10/22/ci-cd-tools-for-sap-cloud-platform-abap-environment)
-- [sap.github.io/jenkins-library](https://www.project-piper.io) Jenkins shared library for Continuous Delivery pipelines. - [Project Piper Repository](https://github.com/SAP/jenkins-library) The [Project "Piper"](https://www.project-piper.io) offers default pipelines to easily implement CI/CD processes integrating SAP systems. The corresponding "Shared Library" provides a set of "steps" to build your own scenarios beyond defaults.
 
 ## Jenkins Free Templates for AWS CloudFormation
 

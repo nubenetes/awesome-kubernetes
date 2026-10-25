@@ -9,6 +9,29 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 !!! info "Architectural Context"
     Detailed reference for AWS Networking in the context of Cloud Providers (Hyperscalers).
 
+## AWS API Gateway
+
+  - [towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4?gi=0fdc8166675c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway covering AWS API Gateway in AWS Networking (towardsaws.com).
+  - [faun.pub: Using AWS API Gateway As Proxy To Our Internal Application](https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70?gi=400bb82b0fc8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Using AWS API Gateway As Proxy To Our Internal Application covering AWS API Gateway in AWS Networking (faun.pub).
+## AWS Application Load Balancer ALB
+
+  - [faun.pub: End To End SSL Encryption With AWS Application Load Balancer](https://faun.pub/end-to-end-ssl-encryption-with-aws-application-load-balancer-b43db918bd9e?gi=4678fd812e2e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: End To End SSL Encryption With AWS Application Load Balancer covering AWS Application Load Balancer ALB in AWS Networking (faun.pub).
+## AWS Latency
+
+  - [Find the fastest region from your location](https://latencycheck.altaircp.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Find the fastest region from your location covering AWS Latency in AWS Networking (latencycheck.altaircp.com).
+## AWS Route 53
+
+  - [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Configuring Route 53 for cost protection from NXDOMAIN attacks covering AWS Route 53 in AWS Networking (docs.aws.amazon.com).
+## AWS VPC
+
+  - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://medium.datadriveninvestor.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c?gi=f93508c7dad1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ealtili.medium.com: Deepdive to VPCs and Connections to VPC covering AWS VPC in AWS Networking (medium.datadriveninvestor.com).
+  - [awstip.com: Setting Up AWS VPC Endpoint Connection](https://awstip.com/setting-up-aws-vpc-endpoint-connection-d4294d0c2204?gi=aa56490b10f3) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Setting Up AWS VPC Endpoint Connection covering AWS VPC in AWS Networking (awstip.com).
+  - [towardsaws.com: How to centralize VPC endpoints in AWS](https://towardsaws.com/how-to-centralize-vpc-endpoints-in-aws-64c68b5b9d50?gi=fa33988c8ac2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for towardsaws.com: How to centralize VPC endpoints in AWS covering AWS VPC in AWS Networking (towardsaws.com).
+## BGP
+
+  - **(2026)** [Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog](https://blog.cloudflare.com/enforce-first-as-bgp) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog covering BGP in AWS Networking (blog.cloudflare.com).
+  - **(2026)** [Adopting AV1 for Real-Time Communication (RTC) at Scale](https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Adopting AV1 for Real-Time Communication (RTC) at Scale covering BGP in AWS Networking (engineering.fb.com).
+  - **(2026)** [BGP Role model: tracking the adoption of RFC 9234](https://blog.cloudflare.com/rfc9234-bgp-role-model) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for BGP Role model: tracking the adoption of RFC 9234 covering BGP in AWS Networking (blog.cloudflare.com).
 ## Cloud Infrastructure
 
 ### AWS
@@ -79,9 +102,6 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### Serverless Integration
 
   - **(2020)** [dashbird.io: AWS Elastic Load Balancing from a Serverless perspective](https://dashbird.io/blog/aws-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Application Load Balancer configurations when integrated with serverless backends like AWS Lambda. Details pricing, cold-starts, and architectural trade-offs compared to API Gateway. Live systems often choose ALB for cost-effective, high-volume HTTP routing.
-#### Network Management
-
-  - **(2019)** [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AWS Network Manager as a single pane of glass for monitoring global hybrid networks. Live cloud architectures utilize Network Manager to synthesize telemetry from AWS Transit Gateway, SD-WAN devices, and on-premises branch offices into actionable alerts.
 #### Networking Concepts
 
   - **(2020)** [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes AWS's core networking constructs for software engineers. While early guides treat VPC and subnetting as peripheral, modern development architectures position these as foundational security boundaries. The guide details CIDR blocks, VPC structure, and security groups.
@@ -135,6 +155,20 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### Tailscale
 
   - **(2022)** [tailscale.com: Connect to an AWS VPC using subnet routes](https://tailscale.com/docs/install/cloud/aws) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the installation of Tailscale inside an AWS VPC to build low-overhead overlay networks using subnet routing. Real-world engineering proves that Tailscale's WireGuard-based routing simplifies cross-cloud access without the complexity of traditional IPsec VPNs.
+### Azure Networking
+
+#### Hybrid Connectivity
+
+  - **(2025)** [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines best practices for designing resilient Azure ExpressRoute topologies to safeguard production-critical hybrid cloud environments. Architects are guided through configuring dual-homing, active-active paths, BFD (Bidirectional Forwarding Detection), and automated failover strategies to prevent network isolation.
+## Ddos
+
+  - **(2026)** [Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave](https://blog.cloudflare.com/ddos-threat-report-2026-h1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave covering DDoS in AWS Networking (blog.cloudflare.com).
+## Introduction
+
+  - [towardsaws.com: Networking Basics in AWS](https://towardsaws.com/networking-basics-in-aws-ab72882855c4?gi=a3ab3b3d2580) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for towardsaws.com: Networking Basics in AWS covering Introduction in AWS Networking (towardsaws.com).
+## RDMA
+
+  - **(2026)** [MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet](https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet covering RDMA in AWS Networking (engineering.fb.com).
 ## Software Engineering
 
 ### Deployment Patterns
@@ -144,9 +178,12 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### ALB
 
   - **(2021)** [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.
+## Subsea Cables
+
+  - **(2026)** [Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable](https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable covering Subsea Cables in AWS Networking (engineering.fb.com).
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Newfeatures](./aws-newfeatures.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Backup](./aws-backup.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

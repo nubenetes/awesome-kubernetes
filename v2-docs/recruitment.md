@@ -9,13 +9,11 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
 !!! info "Architectural Context"
     Detailed reference for Recruitment. Hiring and Freelancing in the context of Career & Industry.
 
-## Architectural Foundations
+## AI
 
-### Kubernetes Tools
+### Programming
 
-#### General Reference
-
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
+  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Tech companies cutting devs for AI covering Programming in AI (reddit.com).
 ## DevOps Culture
 
 ### Workforce Strategy
@@ -26,9 +24,6 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
 #### Remote Culture
 
   - **(2022)** [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/how-to-navigate-the-great-resignation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic insights from GitLab on navigating post-pandemic talent shifts. Highlights the critical importance of async workflows, transparent documentation, and remote-first practices to attract and retain highly skilled infrastructure engineers.
-#### Talent Retention
-
-  - **(2022)** [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of the causes driving the 'Great Resignation' across professional services in Spain. Examines work-life balance deficiencies, mental exhaustion, and stagnant careers as root causes, providing prescriptive corporate recommendations.
 ## Developer Platform
 
 ### Automation
@@ -256,9 +251,16 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
 #### Employee Engagement
 
   - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Examines nine primary factors contributing to happiness and stability in modern workplaces. Live Grounding: Pinpoints flexibility, operational autonomy, psychological safety, and meaningful work as key drivers to minimize technical debt and turnover within engineering groups.
+## Security (1)
+
+### Container Security
+
+#### Devsecops
+
+  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

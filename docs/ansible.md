@@ -75,7 +75,6 @@
 - [developer.okta.com: Tutorial: Ansible and Account Automation with Okta](https://developer.okta.com/blog/2021/02/05/okta-ansible)
 - [redhat.com: Got automation? Here's a quick guide to get you up to speed on Ansible 🌟](https://www.redhat.com/en/blog/how-start-ansible) This article gives you a quick, high-level guide on how to start with Ansible
 - [opensource.com: How Ansible got started and grew](https://opensource.com/article/21/2/ansible-origin-story)
-- [ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟](https://www.redhat.com/en/blog/channel/open-source-communities)
 - [toptechskills.com: Ansible Tutorials & Courses 🌟](https://www.toptechskills.com/ansible-tutorials-courses) Ansible is an agentless infrastructure as code (IAC) tool that is super effective at configuring cloud and bare metal infrastructure.
     - [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen)
 - [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin) Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.
@@ -88,7 +87,6 @@
 - [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://www.pluralsight.com/resources/blog/cloud/ansible-vs-puppet-which-is-right-for-you)
 - [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/en/blog/install-ansible-way) How to add package repositories and install packages on many hosts by using Ansible.
 - [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux
-- [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://devopsarsenal.com)
 - [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/devops/ansible-for-beginners)
     - [k21academy.com: Ansible for Beginners Day2 Live Session Review and Q/A 🌟](https://k21academy.com/devops/day2-live-session-review-and-q-a)
 - [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ai-trends/ansible-vs-docker-a-detailed-comparison-of-devops-tools)
@@ -99,7 +97,6 @@
 - [redhat.com: How to set up and use Python virtual environments for Ansible](https://www.redhat.com/en/blog/python-venv-ansible) Python's venv module gives you freedom to test new Ansible features before deploying them to production and without disturbing your system install.
 - [redhat.com: Deep dive into Ansible ad hoc commands](https://www.redhat.com/en/blog/ansible-ad-hoc-commands) Make life easier when dealing with Ansible automation by using ad hoc commands.
 - [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/en/blog/software-packages-ansible) Learn how to install new software packages on all your managed hosts with a single Ansible playbook.
-- [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://jnetoto808.com) Build Image from Ansible code and persist them on local or in AWS ECR
 - [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible)
 - [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/en/blog/ansible-templates-configuration) Ansible templates extend your ability to configure applications quickly and easily. This example uses a template to configure Vim.
 - [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/en/blog/ansiblefest-sysadmins) AnsibleFest offers a lot of information to help sysadmins automate better.
@@ -222,7 +219,6 @@
 
 ### Automation services catalog
 
-- [ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible) Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business
 
 ### Red Hat Certified Ansible Content Collections
 
@@ -241,7 +237,6 @@
 
 - [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html)
 - [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook)
-- [Ansible Let's Encrypt Collection](https://www.telekom-mms.com/blog)
 - [redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟](https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks) Here are six ways you can check for problems when running Ansible playbooks.
 - [redhat.com: How to pass extra variables to an Ansible playbook](https://www.redhat.com/en/blog/extra-variables-ansible-playbook) Learn how to pass variables to your Ansible playbooks makes them more portable and flexible.
 
@@ -252,12 +247,9 @@
 
 ### Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
 
-- [Ansible Tower](https://www.redhat.com/en/technologies/management/ansible)
 - [Ansible Tower Docs](http://legacy-controller-docs.ansible.com/ansible-tower)
 - [Ansible AWX](https://github.com/ansible/awx)
 - [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.
-- [ansible.com/blog/topic/ansible-tower](https://www.redhat.com/en/blog/channel/red-hat-ansible-automation)
-- [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.redhat.com/en/blog/channel/open-source-communities?intcmp=7015Y000003t7aWQAQ)
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes)
 - [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower)
 - [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx)
@@ -336,7 +328,6 @@
   - [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory) 🌟 - This guide explains the core concept of Ansible Inventory, detailing its role in organizing and defining automation targets. It covers both static and dynamic inventory types, their respective formats (INI and YAML), and how to configure dynamic inventories using plugins with sources like NetBox. The article also touches upon inventory filtering for precise host automation.
 
 - [Public Cloud Guides 🌟](https://docs.ansible.com/projects/ansible/latest/scenario_guides/cloud_guides.html)
-- [Ansible to automate Microsoft Azure](https://www.redhat.com/es/blog)
 - [medium: AWS Configuration with Web Server in EC2 Using Ansible](https://medium.com/@ayushsingh1525/aws-configuration-with-apache-server-in-ec2-using-ansible-2ef61f98872e)
 
 ## Ansible Kubernetes Module
@@ -347,7 +338,6 @@
 ## NGINX Core Collection for Ansibe
 
 - [galaxy.ansible.com/nginxinc/nginx_core](https://galaxy.ansible.com/nginxinc/nginx_core)
-- [nginx.com: Announcing the NGINX Core Collection for Ansible](https://www.f5.com/products/nginx)
 
 ## Dynatrace with Ansible
 

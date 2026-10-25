@@ -236,7 +236,7 @@
     - **OpenShift**:
         - [Wide enterprise adoption](https://www.redhat.com/en/technologies/cloud-computing/openshift)
         - [Security](https://docs.openshift.com/container-platform/4.4/authentication/managing-security-context-constraints.html)
-        - [Multi-tenancy features](https:/https://www.slideshare.net/slideshow/20171010-multitenancy-in-openshift/80696233) (self-service)
+        - [Multi-tenancy features](https://www.slideshare.net/slideshow/20171010-multitenancy-in-openshift/80696233) (self-service)
 - OpenShift 4 is built on top of Kubernetes 1.13+ 
 - [Release Notes](https://docs.openshift.com/container-platform/4.4/release_notes/ocp-4-4-release-notes.html)
 
@@ -296,7 +296,7 @@
     - Node provisioning with [ignition](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure), which came with CoreOS Container Linux
     - Atomic host updates with [rpm-ostree](https://github.com/coreos/rpm-ostree)
     - [CRI-O](https://cri-o.io) as a container runtime
-    - [SELinux](https:/https://www.slideshare.net/openshift/openshift-18812162) enabled by default
+    - [SELinux](https://www.slideshare.net/openshift/openshift-18812162) enabled by default
 - [Machine API](https://github.com/openshift/machine-api-operator/tree/main): Provisioning of nodes. Abstraction mechanism added (API objects to declaratively manage the cluster):
     - Based on [Kubernetes Cluster API project](https://github.com/kubernetes-sigs/cluster-api) Cluster API is a Kubernetes sub-project focused on providing declarative APIs and tooling to simplify provisioning, upgrading, and operating multiple Kubernetes clusters.
     - Provides a new set of machine resources:
@@ -622,7 +622,6 @@ oc login
 - [youtube: Installing OpenShift 4 on AWS with operatorhub.io integration 🌟](https://www.youtube.com/watch?v=kQJxGtsqphk)
 - [youtube: OpenShift 4 OAuth Identity Providers](https://www.youtube.com/watch?v=eFxFtUpAT9s)
 - [youtube: OpenShift on Google Cloud, AWS, Azure and localhost](https://www.youtube.com/watch?v=G-baPg3XhBo)
-- [youtube: Getting Started with OpenShift 4 Security 🌟](https://www.redhat.com/en/blog)
 - [youtube playlist: London 2020 | OpenShift Commons Gathering 🌟](https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqcy9rg0JF6SCFst5lyyftQ-) OCP4 Updates & Roadmaps, Customer Stories, OpenShift Hive (case study), Operator Ecosystem.
 
 ## OpenShift 4 Training
@@ -716,7 +715,7 @@ oc login
 
 ## OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers
 
-- [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.comopenshift-hive-cluster-as-a-service)
+- [blog.openshift.com: openshift hive cluster as a service](https://www.redhat.com/en/blog/openshift-hive-cluster-as-a-service)
 - [github.com/openshift/hive](https://github.com/openshift/hive) **API driven OpenShift 4 cluster provisioning and management.** Hive is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift clusters. **OpenShift Hive** is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internalIT regulations.
 - [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.comwatch?v=b_norgxfh5y)
 
@@ -726,7 +725,6 @@ oc login
 - [containerjournal.com: Red Hat Delivers Latest Kubernetes Enhancements](https://cloudnativenow.com/topics/cloudnativeplatforms/red-hat-delivers-latest-kubernetes-enhancements)
 - [Create an OpenShift 4.2 Private Cluster in AWS 🌟](https://access.redhat.com/solutions/4363731)
 - [cloud.ibm.com: openshift-security](https://cloud.ibm.com/docs/openshift?topic=openshift-security)
-- [docs.aporeto.com: OpenShift Master API Protection](https://docs.prismacloud.io)
 
 ## Backup and Migrate to OpenShift 4
 
@@ -758,10 +756,10 @@ oc login
 
 ## Helm Charts and OpenShift 4
 
-- [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://blog.openshift.combuild-kubernetes-operators-from-helm-charts-in-5-steps)
+- [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://www.redhat.com/en/blog/build-kubernetes-operators-from-helm-charts-in-5-steps)
 - [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
-- [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://blog.openshift.comhelm-and-operators-on-openshift-part-1)
-- [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://blog.openshift.comhelm-and-operators-on-openshift-part-2)
+- [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://www.redhat.com/en/blog/helm-and-operators-on-openshift-part-1)
+- [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://www.redhat.com/en/blog/helm-and-operators-on-openshift-part-2)
 
 ## Red Hat Marketplace
 

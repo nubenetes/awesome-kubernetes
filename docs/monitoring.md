@@ -63,7 +63,6 @@
 - [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices)
 - [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020)
 - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)
-- [instana.com: The Hidden Cost of Observability: Data Volume](https://www.ibm.com/think)
 - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design)
 - [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline)
 - [thenewstack.io: 3 Key Configuration Challenges for Kubernetes Monitoring with Prometheus](https://thenewstack.io/3-key-configuration-challenges-for-kubernetes-monitoring-with-prometheus)
@@ -79,7 +78,6 @@
 - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes)
     - [logz.io: Unified Observability: Announcing Kubernetes 360](https://logz.io/blog/unified-observability-kubernetes-360) A single, unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger that enables DevOps teams to monitor application SLOs in a simple, efficient and actionable manner.
 - [thenewstack.io: Kubernetes Observability Challenges in Cloud Native Architecture 🌟](https://thenewstack.io/kubernetes-observability-challenges-in-cloud-native-architecture)
-- [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://binero.com/observability)
 - [harness.io: Metrics to Improve Continuous Integration Performance](https://www.harness.io/blog/what-are-engineering-metrics)
 - [thenewstack.io: Best Practices to Optimize Infrastructure Monitoring within DevOps Teams](https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams)
 - [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e?gi=6a51a4ccf392)
@@ -403,7 +401,6 @@ done
     - [dynatrace.com: What is  OpenTelemetry? An open-source standard for logs, metrics, and traces](https://www.dynatrace.com/news/blog/what-is-opentelemetry)
     - [betterprogramming.pub: Distributed Tracing With OpenTelemetry, Spring Cloud Sleuth, Kafka, and Jaeger](https://betterprogramming.pub/distributed-tracing-with-opentelemetry-spring-cloud-sleuth-kafka-and-jaeger-939e35f45821) A step-by-step guide for Distributed Tracing Implementation in Microservices
     - [==logz.io: Beginner’s Guide to OpenTelemetry== 🌟](https://logz.io/learn/opentelemetry-guide)
-    - [timescale.com: Kubernetes Observability in One Command: How to Generate and Store OpenTelemetry Traces Automatically](https://www.tigerdata.com/cloud) If your microservices are written in languages currently supported by the OpenTelemetry Operator, you can start collecting and storing traces with minimal manual work. Learn how to do so with the tobs stack in Kubernetes.
     - [trstringer.com: Observability with OpenTelemetry Part 1 - Introduction](https://trstringer.com/otel-part1-intro)
     - [medium.com/apache-apisix: End-to-end tracing with OpenTelemetry](https://medium.com/apache-apisix/end-to-end-tracing-opentelemetry-a50fceafed74)
 - A major component of the [OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification) is **distributed tracing**.

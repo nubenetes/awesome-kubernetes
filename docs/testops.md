@@ -22,7 +22,6 @@
 
 ## Continuous Testing in DevOps
 
-- [TestOps at the Speed of DevOps. Is DevOps killing Testing and QA or making it more important than ever?](https://www.linkedin.com/top-content/?trk=article_not_found)
 - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits, Tools](https://www.guru99.com/continuous-testing.html)
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
 - [opensource.com: What you need to know about automation testing in CI/CD](https://opensource.com/article/20/7/automation-testing-cicd)
@@ -58,7 +57,7 @@
 
     [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
 
-    [![testops flow](images/testops_flow.jpg)](https://www.linkedin.com/top-content/?trk=article_not_found)
+    ![testops flow](images/testops_flow.jpg)
 
     [![rubber duck debugging](images/Rubber_duck_assisting_with_debugging.jpg)](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
 

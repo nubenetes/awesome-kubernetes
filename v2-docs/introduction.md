@@ -28,6 +28,36 @@ graph TD
 ```
 
 
+## Standard Reference
+
+??? note "blog.devgenius.io: Distributed Monolith"
+    **[Access Resource](https://blog.devgenius.io/distributed-monolith-1d2d9f86a68f?gi=193994382a71)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and architectural reference for blog.devgenius.io: Distributed Monolith in the Introduction ecosystem (blog.devgenius.io).
+
+??? note "eficode.com: The future of Kubernetes – and why developers should look beyond Kubernetes in 2022"
+    **[Access Resource](https://www.eficode.com/insights/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and architectural reference for eficode.com: The future of Kubernetes – and why developers should look beyond Kubernetes in 2022 in the Introduction ecosystem (eficode.com).
+
+??? note "itnext.io: You Don’t Need Microservices 🌟"
+    **[Access Resource](https://itnext.io/you-dont-need-microservices-2ad8508b9e27?gi=d130fef5ab27)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and architectural reference for itnext.io: You Don’t Need Microservices 🌟 in the Introduction ecosystem (itnext.io).
+
+??? note "betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture"
+    **[Access Resource](https://awstip.com/how-to-transform-a-monolith-application-into-a-microservices-architecture-1e00363a03ba?gi=a1cd21714ef8)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and architectural reference for betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture in the Introduction ecosystem (awstip.com).
+
+  - [Modernize legacy applications with containers, microservices](https://www.techtarget.com/it-infrastructure/feature/Modernize-legacy-applications-with-containers-microservices) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical documentation and architectural reference for Modernize legacy applications with containers, microservices in the Introduction ecosystem (techtarget.com).
+  - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: Top 7 challenges to becoming cloud native in the Introduction ecosystem (cncf.io).
+  - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for How Your Application Architecture Has Evolved 🌟 in the Introduction ecosystem (dzone.com).
+  - [dzone: Top 6 Time Wastes as a Software Engineer](https://dzone.com/articles/top-time-wastes-as-a-software-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 6 Time Wastes as a Software Engineer in the Introduction ecosystem (dzone.com).
+  - [dzone: Transitioning from Monolith to Microservices (with python django' example)](https://dzone.com/articles/transitioning-from-monolith-to-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Transitioning from Monolith to Microservices (with python django' example) in the Introduction ecosystem (dzone.com).
+  - [cncf.io: How to justify infrastructure replacement to your manager](https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: How to justify infrastructure replacement to your manager in the Introduction ecosystem (cncf.io).
+  - [levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices Architecture? 🌟](https://levelup.gitconnected.com/do-you-know-distributed-job-scheduling-in-microservices-architecture-44082adad8ac?gi=44950d221c7d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices Architecture? 🌟 in the Introduction ecosystem (levelup.gitconnected.com).
+
 ## Application Modernization
 
 ### Monolith To Microservices
@@ -78,8 +108,14 @@ graph TD
   - **(2023)** [devops.com: 8 Hot Takes: Will We See a Monolithic Renaissance?](https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the potential return to macro-services or modular monoliths to address the operational overhead, network latency, and complex debugging of over-engineered microservice fleets.
 #### Twelve-factor App
 
+  - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
   - **(2023)** [architecturenotes.co: 12 Factor App Revisited](https://architecturenotes.co/p/12-factor-app-revisited)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critically evaluates how classic 12-Factor concepts have aged. Addresses the challenges of serverless scaling, API-first interfaces, distributed telemetry, and modern build/release pipelines.
   - **(2021)** [opensource.com: An open source developer's guide to 12-Factor App methodology](https://opensource.com/article/21/11/open-source-12-factor-app-methodology)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the application of 12-Factor methodology to open-source project standards. Highlights maintaining statelessness, dependency isolation, and configuration separation to simplify multi-environment testing and distribution.
+### Saas
+
+#### Multi-tenancy
+
+  - **(2023)** [blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares multi-instance setups (dedicated systems per tenant) against multi-tenant models (shared compute/database with strict software isolation). Examines resource scaling, security boundaries, and noisy neighbor challenges.
 ### Technical Debt
 
 #### Microservices (1)
@@ -185,11 +221,6 @@ graph TD
 #### Strategies
 
   - **(2021)** [forbes.com: 3 Approaches To A Better Cloud Migration](https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes high-level corporate strategies for executing cloud migrations. It contrasts rehosting (lift-and-shift), platform optimization (replatforming), and cloud-native rebuilding (refactoring) along security, speed, and cost parameters.
-### Modernization
-
-#### Reactive Systems
-
-  - **(2022)** [lightbend.com: From Java EE To Cloud Native: The End Of The Heavyweight Era 🌟](https://akka.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lightbend presents the transition of traditional Java enterprise architectures to reactive, cloud-native frameworks (like Akka/Pekko). Evaluates high-concurrency patterns, asynchronous messaging, and horizontal scale-out benefits over synchronous architectures.
 ### Multi-cloud Strategy
 
 #### Data Management (1)
@@ -279,6 +310,13 @@ graph TD
     
     Explores three fundamental high-availability cloud strategies: active-active vs active-passive configurations, geo-redundant database replication, and zero-downtime DNS-routed failovers. Discusses mathematical SLA models and network traffic planning required to achieve high service uptime.
 
+#### Multi-region Deployments
+
+??? note "engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive"
+    **[Access Resource](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
+
 ### Market Trends (1)
 
 #### Open Source Business Models
@@ -328,6 +366,9 @@ graph TD
 #### Business Drivers
 
   - **(2022)** [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
+## Cloud Automation
+
+  - [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Automation is the future of cloud cost optimization covering Cloud Automation in Introduction (cncf.io).
 ## Cloud Infrastructure
 
 ### Automation
@@ -335,6 +376,9 @@ graph TD
 #### Concepts
 
   - **(2021)** [thenewstack.io: What Is Cloud Automation and How Does It Benefit IT Teams? 🌟](https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies cloud automation paradigms, describing how automated resource provisioning, scaling, and configuration reduce operational overhead and human error. Key focus is placed on programmatic API orchestration and infrastructure-as-code.
+#### Glossary
+
+  - **(2022)** [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive terminology reference mapping modern DevOps, configuration management, and automation jargon. Offers clear, enterprise-aligned definitions for terms like CI/CD, IaC, GitOps, and orchestration engines.
 ### DevOps
 
 #### Infrastructure Abstraction
@@ -355,7 +399,13 @@ graph TD
   - **(2023)** [ibm.com: OpenShift vs. Kubernetes: What’s the Difference?](https://www.ibm.com/think/topics/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative IBM reference contrasting standard Kubernetes and OpenShift. Explains how OpenShift encapsulates the vanilla Kubernetes engine with operational defaults, security governance, and multi-tenant tooling suitable for hybrid cloud environments.
   - **(2021)** [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core differences between vanilla Kubernetes and Red Hat OpenShift, evaluating deployment mechanics, security configurations (SCC vs RBAC), built-in routing, out-of-the-box monitoring, and support models.
   - **(2021)** [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational comparison detailing the architectural boundaries of Kubernetes and OpenShift. Explores developer workflows, installation processes, built-in CI/CD pipelines, and licensing structures.
-  - **(2019)** [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares upstream open-source Kubernetes with Red Hat OpenShift. Focuses on user-interface options, CLI differences, security policies, image registry capabilities, and integrated CI/CD toolchain setups in enterprise deployments.
+## Cloud Infrastructure and Orchestration
+
+### Public Cloud Administration
+
+#### AWS Fundamentals
+
+  - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Cloud Native and Kubernetes Core
 
 ### Business Value and ROI
@@ -371,6 +421,13 @@ graph TD
     **[Access Resource](https://www.alibabacloud.com/blog/getting-started-with-kubernetes-%7C-deep-dive-into-kubernetes-core-concepts_595896)** 🌟🌟🌟🌟 | Level: Advanced
     
     Deep dive into core Kubernetes architectures, detailing controller-manager reconciliation mechanisms, kube-scheduler filters, and API-driven status updates. Provides a technical reference for engineers wanting to design resource control loops and manage standard system interactions.
+
+#### Fundamentals (1)
+
+??? note "cloud.google.com: What is Kubernetes? 🌟"
+    **[Access Resource](https://cloud.google.com/learn/what-is-kubernetes)** 🌟🌟🌟🌟🌟 | Level: Beginner
+    
+    A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 
 #### Orchestrator Comparison
 
@@ -456,23 +513,23 @@ graph TD
 
 #### Kubernetes (1)
 
-  - **(2018)** [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide analyzes the transition from traditional enterprise application servers (like JBoss or WebSphere) to Kubernetes. It positions Kubernetes as the modern application server, handling routing, state management, and lifecycle patterns natively.
+  - **(2018)** [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide analyzes the transition from traditional enterprise application servers (like JBoss or WebSphere) to Kubernetes. It positions Kubernetes as the modern application server, handling routing, state management, and lifecycle patterns natively.
 ### Design Patterns (1)
 
 #### Operators And Sidecars
 
-  - **(2020)** [Operators and Sidecars Are the New Model for Software Delivery](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the architectural shift toward using the Sidecar pattern and Kubernetes Operators as standard software delivery mechanisms. This architecture segregates cross-cutting concerns like proxying, logging, and security away from application logic.
+  - **(2020)** [Operators and Sidecars Are the New Model for Software Delivery](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the architectural shift toward using the Sidecar pattern and Kubernetes Operators as standard software delivery mechanisms. This architecture segregates cross-cutting concerns like proxying, logging, and security away from application logic.
 ### Microservices (4)
 
 #### Enterprise Solutions (1)
 
-  - **(2020)** [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive evaluation of Red Hat OpenShift and its ecosystem for microservices. It highlights built-in support for service mesh, security boundaries, and hybrid cloud portability as essential elements for enterprise deployments.
+  - **(2020)** [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive evaluation of Red Hat OpenShift and its ecosystem for microservices. It highlights built-in support for service mesh, security boundaries, and hybrid cloud portability as essential elements for enterprise deployments.
 ### Software Engineering
 
 #### Monoliths (1)
 
-  - **(2023)** [allthingsdistributed.com: Monoliths are not dinosaurs](https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dr. Werner Vogels highlights that monolithic architectures remain highly relevant. The article argues that architectural choices must align with practical business problems rather than dogmatic adherence to microservices patterns.
-  - **(2020)** [Monoliths are the future | Kelsey Hightower](https://changelog.com/posts/monoliths-are-the-future) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kelsey Hightower advocates for well-structured monolithic applications, challenging the microservices-by-default trend. The case study stresses that organizational discipline and clean boundaries are more important than physical system separation.
+  - **(2023)** [allthingsdistributed.com: Monoliths are not dinosaurs](https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dr. Werner Vogels highlights that monolithic architectures remain highly relevant. The article argues that architectural choices must align with practical business problems rather than dogmatic adherence to microservices patterns.
+  - **(2020)** [Monoliths are the future | Kelsey Hightower](https://changelog.com/posts/monoliths-are-the-future)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kelsey Hightower advocates for well-structured monolithic applications, challenging the microservices-by-default trend. The case study stresses that organizational discipline and clean boundaries are more important than physical system separation.
 ## Cloud Native Infrastructure
 
 ### Business Architecture (1)
@@ -496,7 +553,7 @@ graph TD
 
 ### Containerization (1)
 
-#### Fundamentals (1)
+#### Fundamentals (2)
 
   - **(2020)** [opensource.com: 6 container concepts you need to understand](https://opensource.com/article/20/12/containers-101) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies Linux kernel-level container mechanisms by breaking down the core abstractions. Provides clear explanations of namespaces, cgroups, container images, registries, runtimes, and the relationship between containers and virtual machines.
   - **(2021)** [makeuseof.com: hich Container System Should You Use: Kubernetes or Docker?](https://www.makeuseof.com/kubernetes-or-docker) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the common beginner point of confusion comparing Docker with Kubernetes. Explains that Docker is a containerization engine focused on packing and running single application workloads, while Kubernetes is an orchestrator managing fleets of containers across physical resources.
@@ -518,7 +575,7 @@ graph TD
 
 ### Kubernetes Orchestration
 
-#### Fundamentals (2)
+#### Fundamentals (3)
 
   - **(2020)** [loves.cloud: Kubernetes: An Introduction](https://loves.cloud/kubernetes-an-introduction) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the foundational architecture of Kubernetes, tracing its heritage from Google's internal Borg system to an open-source standard. Explains core concepts such as Pods, Services, Deployments, and the control plane architecture (API Server, etcd, Scheduler, Controller Manager) for bare-metal and cloud migrations.
 #### Future Trends
@@ -559,12 +616,19 @@ graph TD
     
     Discusses the evolution of the Kubernetes API and the growing necessity for user interfaces that abstract the complex YAML declarations. Explores trends like custom controllers, platform wrappers, and programmatic DSLs to simplify operations for non-expert system developers.
 
+#### Technology Assessment
+
+??? note "thenewstack.io: Do I Really Need Kubernetes? 🌟"
+    **[Access Resource](https://thenewstack.io/do-i-really-need-kubernetes)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Offers a pragmatic architectural counter-argument to automatic Kubernetes adoption. Evaluates alternatives such as managed serverless containers (ECS, Cloud Run) and PaaS solutions, analyzing whether the infrastructure scale justifies K8s operational complexity and platform engineering overhead.
+
 ### Professional Development (1)
 
 #### Career Engineering (1)
 
   - **(2020)** [javarevisited.blogspot.com: Why Every Programmer, DevOps Engineer Should learn Docker and Kubernetes in 2020](https://javarevisited.blogspot.com/2020/11/why-devops-engineer-learn-docker-kubernetes.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines why containerization and container orchestration skills have transitioned from advanced operational specialties to core software development competencies. Highlights the industry-wide ubiquity of Docker and Kubernetes for consistent, reproducible builds across local and cloud environments.
-### Technology Assessment
+### Technology Assessment (1)
 
 #### Compute Paradigms
 
@@ -580,6 +644,20 @@ graph TD
 #### Openshift Vs Kubernetes
 
   - **(2021)** [thenewstack.io: What’s the Difference Between Kubernetes and OpenShift?](https://thenewstack.io/kubernetes/whats-the-difference-between-kubernetes-and-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural comparison highlights Red Hat's opinionated enterprise extensions built atop vanilla Kubernetes. It details how OpenShift integrates security defaults, built-in container registries, router mechanisms, and lifecycle management controls (OLM) out of the box.
+## Cloud Providers hyperscalers
+
+### Azure
+
+#### Azure Patterns
+
+  - [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/architectures/baseline-zone-redundant) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Enterprise Web App Patterns - Azure Architecture Center covering Azure Patterns in Azure (learn.microsoft.com).
+## Data and Advanced Analytics
+
+### Databases
+
+#### Introduction
+
+  - [levelup.gitconnected.com: How to design a system to scale to your first 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d?gi=2d80313c98c7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: How to design a system to scale to your first 100 million users covering Introduction in Databases (levelup.gitconnected.com).
 ## Data Engineering
 
 ### Education
@@ -619,12 +697,24 @@ graph TD
 
 ### Software Engineering Principles
 
+#### Developer Cognitive Load
+
+  - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
 #### Programming Languages
 
   - **(2021)** [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Revisa los lenguajes de programación más influyentes y demandados del año 2021, evaluando su adopción en microservicios, frontend y desarrollo móvil. Ayuda a los equipos de desarrollo a evaluar qué tecnologías garantizan mayor facilidad para contratar talento y compatibilidad de librerías a largo plazo.
 #### Technical Debt (1)
 
   - **(2021)** [xataka.com: La deuda técnica, un lastre para las tecnológicas: un estudio señala que los informáticos pierden casi un día de trabajo a la semana para solventarlas](https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analiza las repercusiones financieras y operativas de la deuda técnica dentro de los equipos de desarrollo modernos, destacando que los ingenieros pierden aproximadamente un día por semana mitigándola. El informe subraya la necesidad de implementar prácticas de refactorización continuas y arquitecturas robustas para mitigar este impacto.
+## Developer Platforms
+
+### Git Repositories
+
+#### Github
+
+##### Open Source
+
+  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
 ## Distributed Systems
 
 ### Consensus
@@ -632,6 +722,9 @@ graph TD
 #### Algorithms
 
   - **(2024)** [The Raft Consensus Algorithm 🌟](https://raft.github.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive educational visualizer for the Raft Consensus Algorithm, designed to be more understandable than Paxos. Covers leader election, log replication, safety mechanisms, and cluster membership changes in highly consistent databases.
+## Domain Driven Design DDD
+
+  - [dzone: The Concept of Domain-Driven Design Explained](https://dzone.com/articles/the-concept-of-domain-driven-design-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: The Concept of Domain-Driven Design Explained covering Domain Driven Design DDD in Introduction (dzone.com).
 ## Edge and Iot Orchestration
 
 ### Embedded Software
@@ -641,11 +734,20 @@ graph TD
   - **(2021)** [spectrum.ieee.org: How Software Is Eating the Car](https://spectrum.ieee.org/software-eating-car)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry analysis of software-defined vehicle (SDV) architectures. Investigates how safety-critical embedded frameworks are migrating toward virtualized hardware, container workloads, and modular microservices structures in advanced automotive systems.
 ## Emerging Technology
 
+### Machine Learning
+
+#### Course
+
+  - **(2024)** [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's structured technical course on ML foundations. Covers gradient descent, model loss, deep neural networks, and scalable tensor processing, serving as an entry point for engineers integrating ML systems into modern APIs.
 ### Quantum Computing
 
-#### Fundamentals (3)
+#### Fundamentals (4)
 
   - **(2024)** [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduce los principios de la computación cuántica de manera accesible mediante la analogía de una moneda girando para ilustrar la superposición. Destaca el impacto potencial de los cúbits frente a la computación clásica.
+## Event Driven Architecture EDA
+
+  - [maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed? 🌟](https://thedeepakmaheshwari.medium.com/why-event-driven-architecture-eda-is-needed-fac2f00f25a8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed? 🌟 covering Event Driven Architecture EDA in Introduction (thedeepakmaheshwari.medium.com).
+  - [levelup.gitconnected.com: Error Handling in Event-Driven Systems](https://levelup.gitconnected.com/error-handling-in-event-driven-systems-1f0a7ef2cfb7?gi=d5cecb99d6a0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Error Handling in Event-Driven Systems covering Event Driven Architecture EDA in Introduction (levelup.gitconnected.com).
 ## Frontend Architecture
 
 ### Design Patterns (2)
@@ -658,9 +760,16 @@ graph TD
 #### AWS Serverless
 
   - **(2021)** [aws.amazon.com: Server-side rendering micro-frontends – UI composer and service discovery](https://aws.amazon.com/blogs/compute/server-side-rendering-micro-frontends-ui-composer-and-service-discovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Proposes a reference architecture for deploying server-side rendered (SSR) micro-frontends on AWS. It uses serverless services like AWS Lambda, Amazon CloudFront, and dynamic composition layers to optimize SEO and page load speeds.
-#### Introduction
+#### Introduction (1)
 
   - **(2021)** [semaphoreci.com: Microfrontends: Microservices for the Frontend](https://semaphore.io/blog/microfrontends)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores extending microservice patterns to client-side presentation layers. Evaluates how microfrontends divide a single web application into independent, decoupled frontend modules maintained by autonomous cross-functional teams.
+## Hardened Infrastructure
+
+### IaC
+
+#### Introduction (2)
+
+  - [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e?gi=6af9d6b0fec8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables covering Introduction in IaC (itnext.io).
 ## Infrastructure
 
 ### Cloud Architecture (1)
@@ -673,6 +782,11 @@ graph TD
 #### Finops
 
   - **(2023)** [theregister.com: Basecamp details 'obscene' $3.2 million bill that caused it to quit the cloud](https://www.theregister.com/off-prem/2023/01/16/basecamp-details-32-million-bill-that-saw-it-quit-cloud/270397) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates 37signals' highly publicized exit from AWS public cloud infrastructure. Highlights the architectural transition back to owned bare-metal hardware, showcasing substantial cost reductions and FinOps optimization.
+### Containerization (2)
+
+#### Docker
+
+  - **(2021)** [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares physical hypervisors, virtual machines, and container engines (Docker). Details namespace isolation and cgroups that allow containerized applications to run securely on shared Linux kernels.
 ### Legacy
 
 #### Mainframe
@@ -690,25 +804,6 @@ graph TD
 #### Europe
 
   - **(2022)** [cincodias.elpais.com: El sector del 'data center' eleva a 6.837 millones su inversión directa en nuevos centros en España hasta 2026](https://cincodias.elpais.com/cincodias/2022/03/31/companias/1648738965_952353.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industrial report tracking data center investments in Spain up to 2026. Highlights structural upgrades and major hardware infrastructure investments needed to support highly dense, low-latency regional cloud-native workloads.
-## Kubernetes Tools (1)
-
-### General Reference
-
-  - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Top 7 challenges to becoming cloud native in the Kubernetes Tools ecosystem.
-  - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering How Your Application Architecture Has Evolved 🌟 in the Kubernetes Tools ecosystem.
-  - [dzone: Top 6 Time Wastes as a Software Engineer](https://dzone.com/articles/top-time-wastes-as-a-software-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Top 6 Time Wastes as a Software Engineer in the Kubernetes Tools ecosystem.
-  - [dzone: Transitioning from Monolith to Microservices (with python django' example)](https://dzone.com/articles/transitioning-from-monolith-to-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Transitioning from Monolith to Microservices (with python django' example) in the Kubernetes Tools ecosystem.
-  - [cncf.io: How to justify infrastructure replacement to your manager](https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: How to justify infrastructure replacement to your manager in the Kubernetes Tools ecosystem.
-  - [dzone.com: Shift-Left: A Developer's Pipe(line) Dream?](https://dzone.com/articles/shift-left-a-developers-pipeline-dream)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Shift-Left: A Developer's Pipe(line) Dream?== in the Kubernetes Tools ecosystem.
-  - [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Automation is the future of cloud cost optimization in the Kubernetes Tools ecosystem.
-  - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 7 Microservices Best Practices for Developers 🌟 in the Kubernetes Tools ecosystem.
-  - [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Micro Frontends With Example 🌟 in the Kubernetes Tools ecosystem.
-  - [dzone: Micro-Frontend Architecture](https://dzone.com/articles/micro-frontend-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone: Micro-Frontend Architecture== in the Kubernetes Tools ecosystem.
-  - [dzone: Monolith to Microservices Using the Strangler Pattern 🌟](https://dzone.com/articles/monolith-to-microservices-using-the-strangler-patt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Monolith to Microservices Using the Strangler Pattern 🌟 in the Kubernetes Tools ecosystem.
-  - [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: 4 Cluster Management Tools to Compare in the Kubernetes Tools ecosystem.
-  - [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone.com: A Comparison of Kubernetes Distributions in the Kubernetes Tools ecosystem.
-  - [dzone: 7 Software Development Models You Should Know](https://dzone.com/articles/7-software-development-models-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 7 Software Development Models You Should Know in the Kubernetes Tools ecosystem.
-  - [dzone: The Concept of Domain-Driven Design Explained](https://dzone.com/articles/the-concept-of-domain-driven-design-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone: The Concept of Domain-Driven Design Explained== in the Kubernetes Tools ecosystem.
 ## Methodology (1)
 
 ### Careers
@@ -758,6 +853,11 @@ graph TD
 
   - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
   - **(2023)** [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the inevitability of technical debt as cloud environments and architectures naturally age. Argues that cloud adoption does not eliminate debt but merely shifts it to configuration, infrastructure, and IaC domains.
+## Micro Frontend Architecture. Microservices For The Frontend
+
+  - [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Micro Frontends With Example 🌟 covering Micro Frontend Architecture. Microservices for the Frontend in Introduction (dzone.com).
+  - [levelup.gitconnected.com: Micro Frontend Architecture](https://levelup.gitconnected.com/micro-frontend-architecture-794442e9b325?gi=6af70982ae8c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Micro Frontend Architecture covering Micro Frontend Architecture. Microservices for the Frontend in Introduction (levelup.gitconnected.com).
+  - [dzone: Micro-Frontend Architecture](https://dzone.com/articles/micro-frontend-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Micro-Frontend Architecture covering Micro Frontend Architecture. Microservices for the Frontend in Introduction (dzone.com).
 ## Microservices (5)
 
 ### Anti-patterns (1)
@@ -768,6 +868,11 @@ graph TD
 #### Lessons Learned
 
   - **(2021)** [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid engineering post-mortem of catastrophic distributed systems architectures. It warns against over-engineered microservice boundaries, distributed transactions, massive latency chains, and premature optimization that results in 'distributed monoliths'.
+### Data Management (2)
+
+#### Event-driven Architecture
+
+  - **(2016)** [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece outlines Martin Kleppmann's paradigm of 'turning the database inside-out'. It advocates for treating state logs as a first-class citizen, enabling downstream services to process and construct specialized read-optimized views.
 ### Design Patterns (3)
 
 #### Best Practices (2)
@@ -803,7 +908,7 @@ graph TD
 #### CQRS
 
   - **(2021)** [blog.bitsrc.io: Implementing a Microservices Application with CQRS (Command Query Responsibiltiy Segregation)](https://blog.bitsrc.io/implementing-microservices-with-cqrs-2cecb0b09c66) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a practical, code-driven guide to setting up CQRS in a multi-service Node.js or TypeScript application, explaining how read-replicas are kept synchronized using event messaging systems.
-### Modernization (1)
+### Modernization
 
 #### Automated Migration
 
@@ -861,7 +966,7 @@ graph TD
     
     Establishes a rigorous decision framework for migrating from monolithic systems to microservices, balancing organization size, domain boundaries, and cognitive load. The synthesis emphasizes that microservices should only be selected when parallel development velocity and independent horizontal scaling justify the added network complexity.
 
-#### Fundamentals (4)
+#### Fundamentals (5)
 
 ??? note "thenewstack.io: What Is Microservices Architecture?"
     **[Access Resource](https://thenewstack.io/microservices/what-is-microservices-architecture)** 🌟🌟🌟🌟 | Level: Beginner
@@ -895,6 +1000,26 @@ graph TD
     
     Evaluates systemic failure modes in microservice environments, emphasizing issues like cascading failures, misconfigured circuit breakers, and network partition timeouts. Shows how programmatic resilience-testing strategies can identify failure-handling errors during early design.
 
+## Microservices Best Practices And Design Patterns
+
+??? note "itnext.io: 4 Design Patterns for Containers in Kubernetes | Daniele Polencic 🌟"
+    **[Access Resource](https://itnext.io/4-container-design-patterns-for-kubernetes-a8593028b4cd?gi=4e27e8bc544e)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and implementation reference for itnext.io: 4 Design Patterns for Containers in Kubernetes | Daniele Polencic 🌟 covering Microservices Best Practices and Design Patterns in Introduction (itnext.io).
+
+  - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 7 Microservices Best Practices for Developers 🌟 covering Microservices Best Practices and Design Patterns in Introduction (dzone.com).
+## Monolith To Microservices Using The Strangler Pattern
+
+  - [dzone: Monolith to Microservices Using the Strangler Pattern 🌟](https://dzone.com/articles/monolith-to-microservices-using-the-strangler-patt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Monolith to Microservices Using the Strangler Pattern 🌟 covering Monolith to Microservices Using the Strangler Pattern in Introduction (dzone.com).
+## Multi-tenancy Architecture
+
+  - [levelup.gitconnected.com: 5 Tips To Design For Multi-Tenancy Architecture](https://levelup.gitconnected.com/5-tips-to-design-for-multi-tenancy-architecture-5f7d55657d77?gi=a73b5126a88c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: 5 Tips To Design For Multi-Tenancy Architecture covering Multi-Tenancy Architecture in Introduction (levelup.gitconnected.com).
+  - [levelup.gitconnected.com: Multi-Tenant Application](https://levelup.gitconnected.com/multi-tenant-application-a29153d31c5a?gi=c824c9cfb45d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Multi-Tenant Application covering Multi-Tenancy Architecture in Introduction (levelup.gitconnected.com).
+## Openshift VS Kubernetes
+
+  - [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: 4 Cluster Management Tools to Compare covering Openshift VS Kubernetes in Introduction (dzone.com).
+  - [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: A Comparison of Kubernetes Distributions covering Openshift VS Kubernetes in Introduction (dzone.com).
+  - [levelup.gitconnected.com: OpenShift — The Next Level of Kubernetes](https://levelup.gitconnected.com/openshift-the-next-level-of-kubernetes-6d58ad722b26?gi=8ddc418d382d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: OpenShift — The Next Level of Kubernetes covering Openshift VS Kubernetes in Introduction (levelup.gitconnected.com).
 ## Operations
 
 ### Disaster Recovery
@@ -924,7 +1049,23 @@ graph TD
 #### Workloads
 
   - **(2024)** [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Kubernetes' evolution from a simple microservices hosting platform to an advanced orchestrator for heavy batch processing, AI/ML training runs, and high-performance computing (HPC) jobs.
+## Platform and Site Reliability
+
+### DevOps (2)
+
+#### State Of DevOps. Googles DevOps Research And Assessment DORA
+
+  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
 ## Platform Engineering (3)
+
+### Internal Developer Platforms
+
+#### Organizational Structure (1)
+
+??? note "softwareengineeringdaily.com: The Rise of Platform Engineering 🌟"
+    **[Access Resource](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Historically significant piece tracking the evolution from traditional DevOps silos to Platform Engineering. Discusses building Internal Developer Platforms (IDPs) to lower cognitive load for application developers, establishing self-service infrastructure portals, and applying product management principles to internal tooling.
 
 ### Paas Solutions
 
@@ -973,6 +1114,16 @@ graph TD
 #### Obfuscation
 
   - **(2023)** [welivesecurity.com: La ofuscación de código: un arte que reina en la ciberseguridad](https://www.welivesecurity.com/es/recursos-herramientas/ofuscacion-de-codigo-arte-ciberseguridad) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explica cómo la ofuscación de código protege la propiedad intelectual y dificulta la ingeniería inversa por parte de actores maliciosos. Describe métodos comunes como el cambio de flujos de control y cifrado de cadenas.
+## Service-oriented Arhitecture Vs Event-driven Architecture
+
+??? note "eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture 🌟"
+    **[Access Resource](https://kurrentdb.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and implementation reference for eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture 🌟 covering Service-Oriented Arhitecture vs Event-Driven Architecture in Introduction (kurrentdb.kurrent.io).
+
+## Shift-left
+
+  - [dzone.com: Shift-Left: A Developer's Pipe(line) Dream?](https://dzone.com/articles/shift-left-a-developers-pipeline-dream)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Shift-Left: A Developer's Pipe(line) Dream? covering Shift-Left in Introduction (dzone.com).
 ## Software Architecture
 
 ### Event-driven Systems
@@ -1034,9 +1185,6 @@ graph TD
     
     Establishes a systematic maturity assessment framework for microservice architectures. Evaluates technical implementation levels across continuous deployment pipelines, automated system testing, distributed observability, configuration injection, and organizational alignment.
 
-#### Monolith Transition
-
-  - **(2023)** [primevideotech.com: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.aboutamazon.com/what-we-do/entertainment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The famous Prime Video case study describing the refactoring of a highly distributed, serverless orchestration pipeline back to a consolidated monolithic service. Demonstrates how eliminating network serialization and step functions reduced operating costs by 90%.
 #### Technology Selection
 
 ??? note "devops.com: Why Boring Tech is Best to Avoid a Microservices Mess"
@@ -1054,11 +1202,14 @@ graph TD
   - **(2021)** [kamilgrzybek.com: Modular Monolith: A Primer 🌟](https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural deep dive arguing that modular monoliths are a robust alternative to premature microservices. Outlines domain boundaries, strict module encapsulation, asynchronous internal communication, and database schema segregation rules.
 ## Software Delivery
 
-### DevOps (2)
+### DevOps (3)
 
 #### Industry Trends (1)
 
   - **(2022)** [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines evolutionary trends in agile delivery and DevOps, emphasizing the integration of business operations with engineering pipelines. It underscores automation, value-stream mapping, and the integration of artificial intelligence into CI/CD pipelines.
+## Software Development Models
+
+  - [dzone: 7 Software Development Models You Should Know](https://dzone.com/articles/7-software-development-models-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 7 Software Development Models You Should Know covering Software Development Models in Introduction (dzone.com).
 ## Software Engineering (2)
 
 ### Architecture Patterns (2)
@@ -1108,9 +1259,24 @@ graph TD
 #### Toolkits
 
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
+## Solution Architect. IT Architecture Frameworks
+
+??? note "towardsdev.com: Solution architecture 101 — Are you ready for the Solution Architect Path 🌟"
+    **[Access Resource](https://towardsdev.com/solution-architecture-101-are-you-ready-for-the-solution-architect-path-5a2d01aebbb?gi=bbb0044efdcb)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and implementation reference for towardsdev.com: Solution architecture 101 — Are you ready for the Solution Architect Path 🌟 covering Solution Architect. IT Architecture Frameworks in Introduction (towardsdev.com).
+
+## Twelve-factor Apps In Kubernetes
+
+  - [itnext.io: 12 factor Microservice applications — on Kubernetes](https://itnext.io/12-factor-microservice-applications-on-kubernetes-db913008b018?gi=2ea27ba6d137) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: 12 factor Microservice applications — on Kubernetes covering Twelve-Factor Apps in Kubernetes in Introduction (itnext.io).
+  - [itnext.io: Isolating and Managing Dependencies in 12-factor Microservice Applications — with Kubernetes](https://itnext.io/isolating-and-managing-dependencies-in-12-factor-microservice-applications-with-kubernetes-988638f8bc6d?gi=91047f7b06aa) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Isolating and Managing Dependencies in 12-factor Microservice Applications — with Kubernetes covering Twelve-Factor Apps in Kubernetes in Introduction (itnext.io).
+  - [itnext.io: Processes — for 12-factor Microservice Applications](https://itnext.io/processes-for-12-factor-microservice-applications-70551a9021b?gi=d2266d0e75ef) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Processes — for 12-factor Microservice Applications covering Twelve-Factor Apps in Kubernetes in Introduction (itnext.io).
+## Understanding The Differences Between Event-driven Message-driven And Microservices Architectures
+
+  - [faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services](https://faun.pub/what-is-difference-of-event-driven-architecture-message-driven-architecture-and-microservices-f5623e51f868?gi=ad91ab56fdd9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services covering Understanding the Differences Between Event-Driven Message-Driven and Microservices Architectures in Introduction (faun.pub).
 
 ---
-💡 **Explore Related:** [Matrix Table](./matrix-table.md) | [Demos](./demos.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
 

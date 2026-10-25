@@ -71,8 +71,6 @@
 
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://www.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087)
 - [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona)
-- [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) Descubre si la gente que trabaja contigo te tiene confianza o si debes cambiar ciertas actitudes para obtener mejores resultados.
-- [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es)
 - [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana)
 - [magnet.xataka.com: La "gran renuncia" americana, o cómo los trabajadores se han hartado del sistema y están dejando sus empleos](https://www.xataka.com/magnet/gran-renuncia-americana-como-trabajadores-se-han-hartado-sistema-estan-dejando-sus-empleos)
 - [xataka.com: La Gran Renuncia: en EEUU los empleados están dejando en masa sus trabajos, la gran pregunta es si veremos esto (y cuándo) en España](https://www.xataka.com/pro/gran-renuncia-eeuu-empleados-estan-dejando-masa-sus-trabajos-gran-pregunta-veremos-esto-cuando-espana)

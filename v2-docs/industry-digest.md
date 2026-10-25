@@ -14,14 +14,14 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
+    | 2026-06-02 | [Shovel.Html](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
     | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
 
 === "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
+    | 2026-06-02 | [Shovel.Html](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
     | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
 
 

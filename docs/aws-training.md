@@ -19,10 +19,8 @@
 - [portal.tutorialsdojo.com: AWS Digital Courses (free)](https://portal.tutorialsdojo.com/product-category/aws/aws-digital-courses-2)
 - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws) There's probably nothing you can't build on AWS, but starting your Cloud Journey looking at over 200 AWS Services needs guidance.
 - [==explore.skillbuilder.aws/learn: AWS Skill Builder== 🌟](https://skillbuilder.aws) Your learning center to build in-demand cloud skills
-    - [explore.skillbuilder.aws: AWS Skill Builder - Introducción a AWS Data Pipeline (Español Latinoamérica) | AWS Technical Essentials (Spanish from Latin America) - Free](https://skillbuilder.aws/search?searchText=aws-technical-essential-spanish-from-latin-america&showRedirectNotFoundBanner=true)
 - [aws.amazon.com: Exámenes prácticos gratuitos y 100% en español para que obtenga su certificación](https://aws.amazon.com/es/blogs/aws-spanish/examenes-practicos-gratuitos-y-100-en-espanol-para-que-obtenga-su-certificacion)
 - [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)
-- [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://skillbuilder.aws/search?searchText=aws-security-fundamentals-second-edition&showRedirectNotFoundBanner=true) In this self-paced course, you will learn fundamental AWS cloud security concepts, including AWS access control, data encryption methods, and how network access to your AWS infrastructure can be secured. We will address and your security responsibility in the AWS cloud and the different security-oriented services available.
 - [==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources==](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 - [devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!!](https://devopsmonk.hashnode.dev/learn-aws-if-you-want-to-save-your-career)
 - [==youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟==](https://www.youtube.com/watch?v=zA8guDqfv40)
@@ -35,7 +33,6 @@
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan)
 - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
 - [dev.to: How to become a Certified AWS Solution Architect in 2022](https://dev.to/javinpaul/how-to-become-a-certified-aws-solution-architect-in-2022-35ad)
-- [community.aws/training: Training and Certification](https://builder.aws.com/learn) Advance your cloud skills and elevate your career with Training and Certification
 
 ## Closed groups for AWS certified professionals
 
@@ -44,7 +41,6 @@
 - [A curated list of AWS resources to prepare for the AWS Certifications](https://gist.github.com/leonardofed)
 - [AWS Certified Solutions Architect Professional – Study Guide](https://blue-clouds.com/category/study-guide)
 - [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available)
-- [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found)
 
 ## Tweets
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Career & Industry)."
+description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for the AI age and more — curated Cloud Native tools, guides and references."
 ---
 # Cloud FinOps. Collaborative, Real-Time Cloud Financial Management (CFM)
 
@@ -9,14 +9,28 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 !!! info "Architectural Context"
     Detailed reference for Cloud FinOps. Collaborative, Real-Time Cloud Financial Management (CFM) in the context of Career & Industry.
 
-## Architectural Foundations
+## Articles
 
-### Kubernetes Tools
+  - **(2026)** [What building an AI-native finance function taught me](https://openai.com/index/building-an-ai-native-finance-function) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for What building an AI-native finance function taught me covering Articles in Finops (openai.com).
+  - **(2026)** [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for A scorecard for the AI age covering Articles in Finops (openai.com).
+  - **(2026)** [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to manage AI investments in the agentic era covering Articles in Finops (openai.com).
+  - **(2026)** [How to connect AI usage to business value](https://openai.com/index/how-to-connect-ai-usage-to-business-value) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to connect AI usage to business value covering Articles in Finops (openai.com).
+  - **(2026)** [Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.](https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need. covering Articles in Finops (github.blog).
+## Cloud Infrastructure
 
-#### General Reference
+### Azure Networking
 
-  - [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend in the Kubernetes Tools ecosystem.
-  - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: FinOps Observability: Monitoring Kubernetes Cost in the Kubernetes Tools ecosystem.
+#### Cost Optimization
+
+  - **(2026)** [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This cost-analysis guide scrutinizes the pricing structures of Azure networking patterns, contrasting VNet Peering, Private Link, Virtual WAN, and ExpressRoute. It provides system architects with actionable formulas to optimize egress and internal data transfer fees, which are critical for high-throughput, multi-region distributed microservices.
+  - **(2025)** [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep analysis of the financial implications of Azure data transit. The guide breaks down costs associated with intra-region, inter-region, availability zone traversal, and internet egress. It is highly valuable for designing cost-efficient microservices that utilize high-frequency data synchronizations.
+## Cloud Infrastructure and Orchestration
+
+### Serverless Architecture
+
+#### Case Studies
+
+  - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
 ## Financial Operations
 
 ### Finops
@@ -27,7 +41,7 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
   - **(2021)** [thenewstack.io: 4 Reasons Your Cloud Operations Need a FinOps Team](https://thenewstack.io/4-reasons-your-cloud-operations-need-a-finops-team)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights four critical drivers for establishing a structured FinOps team inside scaling enterprises. Discusses the pitfalls of decentralized cloud spending, the benefits of shared cost responsibility, real-time optimization tooling, and accurate unit economics estimation.
   - **(2021)** [thenewstack.io: Cloud Cost Management for DevOps](https://thenewstack.io/cloud-cost-management-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on practical actions DevOps engineers can implement to control runaway cloud infrastructure budgets. Key solutions analyzed include automated cluster rightsizing, native autoscaling features, orphan volume deletion, and enforcing namespace resource quotas.
   - **(2021)** [thenewstack.io: Tricks for Cloud Cost Optimization | Pavan Belagatti](https://thenewstack.io/tricks-for-cloud-cost-optimization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses key tactical tricks for managing cloud infrastructure billing. Focuses on the implementation of modern open-source Kubernetes cost observability tools (such as Kubecost) alongside active container rightsizing strategies to optimize compute expenditures.
-#### Case Studies
+#### Case Studies (1)
 
   - **(2019)** [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://www.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS Summit presentation deck covering the organizational transformation required to implement FinOps. Contrasts traditional capital expenditure models with modern cloud operational expenses, emphasizing the cultural integration of finance and engineering departments.
 #### Frameworks
@@ -71,6 +85,9 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
   - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe15c8c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 12 L 30 4 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-fe15c8c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
 ### Azure Optimization
 
+#### AI Cost Management
+
+  - **(2025)** [**Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads**](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses cost-optimization techniques for AI and large language model (LLM) workloads running on Azure. Discusses GPU node autoprovisioning, vector database optimization, and Azure OpenAI API consumption pricing models.
 #### CLI Tools
 
   - **(2024)** [**github.com/mivano/azure-cost-cli**](https://github.com/mivano/azure-cost-cli) <span class='md-tag md-tag--info'>⭐ 1118</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-60ca6623" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 7 L 30 3 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-60ca6623)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on tag-based cost-querying using the `azure-cost-cli` tool. Explains how to extract billing data grouped by tags to simplify chargeback allocations and identify untagged resources.
@@ -83,6 +100,9 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 #### Governance
 
   - **(2023)** [**info.microsoft.com: The Road to Azure Cost Governance**](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official Microsoft guide demonstrating how to build a corporate cost governance model. Explains how to integrate Microsoft Cost Management tools, align finance and IT departments, and set up clear internal billing methods.
+#### Landing Zones
+
+  - **(2025)** [==Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization==](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details how to configure a FinOps-compliant Azure Landing Zone. Uses Azure Policy and management groups to enforce resource tag policies, mandate budget limits at subscription boundaries, and automate continuous cost governance.
 #### Pricing Frameworks
 
   - **(2024)** [techcommunity.microsoft.com: Azure Pricing: How to navigate Azure pricing options and resources 🌟](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-pricing-how-to-navigate-azure-pricing-options-and-resources/4166276) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental overview of Azure's pricing strategies and commitment benefits. Outlines how to leverage Azure Hybrid Benefit, Dev/Test tiers, and spot instances to lower baseline computing costs.
@@ -92,6 +112,9 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 #### Savings Potential
 
   - **(2024)** [**techcommunity.microsoft.com: Identify your savings potential in Azure 🌟**](https://techcommunity.microsoft.com/blog/finopsblog/identify-your-savings-potential-in-azure/4131194) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides actionable methods to identify underutilized resources using Azure Advisor. Focuses on right-sizing virtual machines, deleting unassociated disks, and choosing cost-effective storage tiers.
+#### Serverless
+
+  - **(2024)** [**Azure Functions Cost Considerations and Optimization**](https://build5nines.com/azure-functions-cost-considerations-and-optimization) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines cost structures and billing patterns in serverless environments, focusing on Azure Functions. Compares Consumption, Premium, and Dedicated App Service plans, outlining how to minimize cold starts and optimize execution runtimes.
 ### IaC Finops
 
 #### AI Optimization
@@ -111,12 +134,18 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 #### Actionable Frameworks
 
   - **(2023)** [**infoworld.com: 5 steps to bringing Kubernetes costs in line**](https://www.infoworld.com/article/2338303/5-steps-to-bringing-kubernetes-costs-in-line.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Presents a clear five-step methodology to control Kubernetes infrastructure spend. Covers standard practices like adjusting request/limit ratios, configuring cluster autoscalers (VPA/HPA), and moving non-critical workloads to spot instance pools.
+#### Automated Optimization
+
+  - **(2025)** [==CAST AI==](https://cast.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces CAST AI, an automated cost-reduction system for EKS, AKS, and GKE. Highlights how its real-time algorithms adjust cluster sizing, configure spot instances, and scale down resources without manual developer effort.
 #### Cost Management
 
   - **(2023)** [==infoworld.com: Kubernetes cost management for the real world==](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into the challenges of multi-tenant Kubernetes cost attribution across dynamic namespaces. Contrasts raw hyper-scaler billing records against granular container resource consumption metrics, detailing how Kubecost and OpenCost establish accurate, real-world chargeback frameworks.
 #### Cost Platforms
 
   - **(2022)** [**thenewstack.io: Finout Gets a Handle on Kubernetes Costs**](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Reviews Finout's capability to combine multiple cloud invoices (such as AWS, Snowflake, Datadog) and Kubernetes metrics into a single interface. Demonstrates how to link infrastructure spend directly to actual business unit metrics.
+#### Foundational Concepts
+
+  - **(2022)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.
 #### Observability Integrations
 
   - **(2023)** [**thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs**](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Discusses Grafana's work to build native cost-monitoring tools directly into standard monitoring dashboards. Explores using Prometheus metrics from OpenCost to display cluster financial trends alongside hardware utilization data.
@@ -139,16 +168,21 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
 #### Finops Vs Cost Management
 
   - **(2023)** [**hystax.com: The difference between cloud cost management and FinOps**](https://hystax.com/the-difference-between-cloud-cost-management-and-finops) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Delineates the operational boundaries between cloud cost management (siloed, reactive cost-cutting steps) and the FinOps lifecycle (collaborative, business-value mapping). The analysis shows that while cost management tools act as execution platforms, FinOps creates a cultural, cross-functional engineering framework.
-## Fintech
+## Introduction
 
-### Cryptocurrency
+  - [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend covering Introduction in Finops (cncf.io).
+  - [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417?gi=a308c8ddacb6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: FinOps – introduction, origins and next steps covering Introduction in Finops (faun.pub).
+  - [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/smart-business/resources-for-smb/cloud-financial-management) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know covering Introduction in Finops (aws.amazon.com).
+  - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for logz.io: FinOps Observability: Monitoring Kubernetes Cost covering Introduction in Finops (logz.io).
+## Kubernetes Cost Optimization
 
-#### Stablecoins
+  - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9?gi=9d9ff792e945) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000 covering Kubernetes Cost Optimization in Finops (engineering.razorpay.com).
+## Licence Managers
 
-  - **(2026)** [Tether (USDt)](https://tether.to) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for the Tether (USDt) stablecoin, mapping out collateral verifications, multi-blockchain compatibility layers, and institutional fiat liquidity standards. Important for distributed ledger payments and micro-payment applications.
+  - [marketplace.atlassian.com:  License Manager - Easily track your software licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-domain-and-ssl-cert-expiration-monitoring) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for marketplace.atlassian.com:  License Manager - Easily track your software licenses covering Licence Managers in Finops (marketplace.atlassian.com).
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
+💡 **Explore Related:** [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md) | [Workfromhome](./workfromhome.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

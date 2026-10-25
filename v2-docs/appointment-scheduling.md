@@ -19,7 +19,6 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
   - **(2024)** [youcanbook.me](https://youcanbook.me) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commercial booking platform with advanced team scheduling integrations. Offers CSS layout customization, direct CRM linking, and webhook support for automated post-booking workflows.
   - **(2024)** [Acuity Scheduling](https://acuityscheduling.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — SaaS scheduling platform owned by Squarespace, designed for services industries. Features robust intake-form handling, integrated payment processing, and automated reminder sequences.
   - **(2024)** [Doodle](https://doodle.com/en) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Collaborative scheduling engine specializing in group polling to establish consensus times. Cuts down back-and-forth emails when coordinating meetings across varying external directories.
-  - **(2023)** [ScheduleOnce](https://www.oncehub.com) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — OnceHub scheduling software built for enterprise marketing and inbound sales routing. Provides round-robin scheduling, multi-account CRM matching, and advanced resource allocations.
 #### Market Comparisons
 
   - **(2023)** [wpamelia.com: Calendly vs YouCanBook.Me](https://wpamelia.com/calendly-vs-youcanbook-me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting the functional boundaries of Calendly and YouCanBook.Me. Reviews custom notification loops, pricing tiers, and calendar synchronization speeds.
@@ -32,9 +31,12 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
 
   - **(2022)** [timewatch.com: Outlook Resource Scheduling – View and report on Employee Outlook Calendars](https://www.timewatch.com/blog/outlook-resource-scheduling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Outlook's administrative resource scheduler designed to coordinate shared physical and digital workspace assets like conference rooms, vehicles, and equipment.
   - **(2022)** [support.google.com: How to set up an appointment schedule](https://support.google.com/google-workspace-individual/answer/10729749) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the modernized Google Workspace Appointment Schedule booking page ecosystem. Integrates dynamic availability checks to minimize overlap bookings and optimize schedules.
+## General Reference
+
+  - [Google Calendar appointment slots](https://support.google.com/calendar/answer/11608416?visit_id=639264263696151393-1274317728&rd=1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Google Calendar appointment slots in the Appointment Scheduling ecosystem (support.google.com).
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Remote Tech Jobs](./remote-tech-jobs.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

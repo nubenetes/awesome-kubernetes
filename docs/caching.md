@@ -18,7 +18,7 @@
 
 - [Wikipedia: Web cache](https://en.wikipedia.org/wiki/Web_cache)
 - [Wikipedia: Dynamic site acceleration](https://en.wikipedia.org/wiki/Dynamic_site_acceleration)
-- [Slideshare: Caching](https:/https://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)
+- [Slideshare: Caching](https://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)
 - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)
 - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo) When it comes to caching, what was once a nice-to-have it now a must-have. Check out this detailed article to learn everything you need to know about caching!
 - [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)
@@ -55,11 +55,11 @@
 ## HAProxy
 
 - [HAProxy](https://www.haproxy.org)
-- [slideshare: Haproxy web performance](https:/https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)
-- [slideshare: Load Balancing MySQL with HAProxy](https:/https://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270)
-- [slideshare: Haproxy best practice](https:/https://www.slideshare.net/haproxytech/haproxy-best-practice)
-- [slideshare: How To Set Up SQL Load Balancing with HAProxy](https:/https://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143)
-- [slideshare: Performance Tuning of HAProxy for Database Load Balancing](https:/https://www.slideshare.net/Severalnines/haproxy-mysql-slides)
+- [slideshare: Haproxy web performance](https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)
+- [slideshare: Load Balancing MySQL with HAProxy](https://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270)
+- [slideshare: Haproxy best practice](https://www.slideshare.net/haproxytech/haproxy-best-practice)
+- [slideshare: How To Set Up SQL Load Balancing with HAProxy](https://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143)
+- [slideshare: Performance Tuning of HAProxy for Database Load Balancing](https://www.slideshare.net/Severalnines/haproxy-mysql-slides)
 - [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf)
 
 ## Varnish
@@ -72,7 +72,7 @@
 - [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux)
 - [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html)
 - [Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software](https://www.hitch-tls.org)
-- [slideshare: Varnish - Tips & Tricks - 4Developers 2015](https:/https://www.slideshare.net/piotrpasich/varnish-47199139)
+- [slideshare: Varnish - Tips & Tricks - 4Developers 2015](https://www.slideshare.net/piotrpasich/varnish-47199139)
 - [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04)
 - [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) Run and manage Varnish clusters on Kubernetes. Varnish operator manages Varnish clusters using a CustomResourceDefinition that defines a new Kind called VarnishCluster. The operator manages the whole lifecycle of the cluster: creating, deleting and keeping the cluster configuration up to date
 - [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) Varnish Reverse Proxy on Kubernetes
@@ -80,12 +80,12 @@
 ## Memcached
 
 - [memcached.org](https://memcached.org)
-- [Slideshare: Introduction to memcached](https:/https://www.slideshare.net/oemebamo/introduction-to-memcached)
+- [Slideshare: Introduction to memcached](https://www.slideshare.net/oemebamo/introduction-to-memcached)
 
 ## Redis
 
 - [redis.io](https://redis.io)
-- [Slideshare: Introduction to Redis](https:/https://www.slideshare.net/dvirsky/introduction-to-redis)
+- [Slideshare: Introduction to Redis](https://www.slideshare.net/dvirsky/introduction-to-redis)
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
 - [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/p/redis) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
 - [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce?gi=131c0b8b3a24) how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.

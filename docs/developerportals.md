@@ -146,7 +146,6 @@
 
 ### Gloo Federation API Gateway Management
 
-- [Introducing Gloo Federation for Multi-Cluster API Gateway Management](https://www.solo.io/blog)
 - [solo.io: [Tutorial] Securing APIs with OIDC Using Keycloak](https://www.solo.io/blog/tutorial-gloo-integration-with-keycloak) how to integrate the Gloo API gateway with Keycloack in Kubernetes
 
 ### Backstage Developer Portal
@@ -164,7 +163,6 @@
 
 ### NGINX as an API Gateway
 
-- [nginx.com: Deploying NGINX as an API Gateway, Part 1 🌟](https://www.f5.com/products/nginx)
 
 ### Lura API Gateway (based on KrakenD)
 

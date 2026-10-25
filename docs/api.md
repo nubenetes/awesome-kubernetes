@@ -120,7 +120,6 @@
 ## Types of API Protocols. Interprocess Communication in Microservices
 
 - [apifriends.com: What are the different types of APIs? 🌟](https://apifriends.com/api-creation/different-types-apis) Types of API Protocols: SOAP, REST and RPC
-- [vishnuch.tech: Interprocess Communication in Microservices 🌟](https://blog.flatturtle.com) Different IPC methods in microservices like REST API, gRPC, Kafka, RabbitMQ, etc... which developers should know.
 
 ### SOAP API Protocol (Simple Object Access Protocol)
 
@@ -279,7 +278,6 @@
 
 - [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security)
 - [biztechmagazine.com: 6 Steps to Improved API Security](https://biztechmagazine.com/article/2021/07/6-steps-improved-api-security) Application programming interfaces are critical to businesses. Tech leaders must do more to protect them.
-- [portswigger.net: Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net)
 - [thenewstack.io: Developer, Beware: The 3 API Security Risks You Can’t Overlook](https://thenewstack.io/developer-beware-the-3-api-security-risks-you-cant-overlook)
 - [==medium.com/@sajjadfazlani: How to protect your APIs and Microservices?== 🌟](https://medium.com/@sajjadfazlani/how-to-protect-your-apis-and-microservices-f22b99ce2322) **The simplest answer is to enforce 1) Zero Trust and 2) Mitigate the critical security vulnerabilities by considering the OWASP top 10 recommendations.**
 
@@ -287,7 +285,6 @@
   - [Public APIs Directory](https://publicapis.io) - A curated directory of over 1000 free public REST APIs for developers to discover and integrate into their projects. It allows browsing by category, comparing alternatives, and accessing code examples.
 
 - [free-web-services.com](https://free-web-services.com)
-- [SwaggerHub: Free Web Service](https://swagger.io/product)
 - [programmableweb.com](https://www.programmableweb.com)
 - [any-api.com](https://marketplace.apilayer.com)
 - [Rapid API](https://rapidapi.com)

@@ -1,5 +1,5 @@
 ---
-description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and more — curated Cloud Native tools, guides and references."
+description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and more — curated Cloud Native tools, guides and references."
 ---
 # Serverless Architectures and Frameworks
 
@@ -9,16 +9,11 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 !!! info "Architectural Context"
     Detailed reference for Serverless Architectures and Frameworks in the context of The Container Stack.
 
-## Architectural Foundations
+## AI
 
-### Kubernetes Tools
+### Llmops
 
-#### General Reference
-
-  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
-  - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Implementing Serverless Microservices Architecture on AWS in the Kubernetes Tools ecosystem.
-  - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: When to Use Serverless, and When to Use Kubernetes 🌟 in the Kubernetes Tools ecosystem.
-  - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: When to Use Logic Apps and Azure Functions in the Kubernetes Tools ecosystem.
+  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Docker for LLMs covering LLMOps in AI (docker.com).
 ## Architecture Decisions
 
 ### Comparisons
@@ -61,7 +56,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 
 #### Case Studies
 
-  - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
+  - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
 ## Cloud Native
 
 ### Faas Basics
@@ -176,7 +171,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 
 #### Openshift Serverless
 
-  - **(2026)** [==OpenShift Serverless==](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's production-hardened Knative integration. Provides out-of-the-box scale-to-zero capabilities, event routing, and secure cluster integration under the OpenShift console.
+  - **(2026)** [==OpenShift Serverless==](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's production-hardened Knative integration. Provides out-of-the-box scale-to-zero capabilities, event routing, and secure cluster integration under the OpenShift console.
   - **(2021)** [**openshift.com: Why and When you need to consider OpenShift Serverless**](https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analytically presents key decision variables for deploying OpenShift Serverless, highlighting resource cost reductions, pod auto-scaling, and cluster efficiency.
 #### Openshift Serverless Integration
 
@@ -204,6 +199,13 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### Visuals
 
   - **(2023)** [==serverlessland.com: EDA VISUALS 🌟🌟🌟==](https://serverlessland.com/event-driven-architecture/visuals) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated collection of visual explanations covering event-driven mechanics. Helps developers visually digest routing, choreographies, and filtering topologies.
+## Finops and Cloud Cost
+
+### Azure Optimization
+
+#### Serverless (3)
+
+  - **(2024)** [**Azure Functions Cost Considerations and Optimization**](https://build5nines.com/azure-functions-cost-considerations-and-optimization) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines cost structures and billing patterns in serverless environments, focusing on Azure Functions. Compares Consumption, Premium, and Dedicated App Service plans, outlining how to minimize cold starts and optimize execution runtimes.
 ## Infrastructure As Code
 
 ### Serverless Integration
@@ -211,9 +213,24 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### Hybrid Automation
 
   - **(2019)** [**theburningmonk.com: Making Terraform and Serverless framework work together**](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.
+## Openfaas (1)
+
+  - [**itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟**](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c?gi=9683e834ed15) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟 covering CICD Tools in Kubernetes Tools (itnext.io).
+  - [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9?gi=6a5cbfbd40a5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Deploy your first Serverless Function to Kubernetes covering OpenFaaS in Serverless (itnext.io).
+## Serverless Architectures
+
+  - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1?gi=2b72868d50d4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Scaling My App: Serverless vs Kubernetes 🌟 covering Serverless Architectures in Serverless (itnext.io).
+  - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Implementing Serverless Microservices Architecture on AWS covering Serverless Architectures in Serverless (dzone.com).
+  - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: When to Use Serverless, and When to Use Kubernetes 🌟 covering Serverless Architectures in Serverless (dzone.com).
+  - [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689?gi=7a79293b77b5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Serverless simply visually explained 🌟 covering Serverless Architectures in Serverless (itnext.io).
+  - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: When to Use Logic Apps and Azure Functions covering Serverless Architectures in Serverless (dzone.com).
+  - [aws.amazon.com: Serverless or Kubernetes on AWS 🌟](https://docs.aws.amazon.com/decision-guides/latest/decision-guides/modern-apps-strategy-on-aws-how-to-choose.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.amazon.com: Serverless or Kubernetes on AWS 🌟 covering Serverless Architectures in Serverless (docs.aws.amazon.com).
+## Triggermesh Serverless Event Router
+
+  - [TriggerMesh](https://alexiskiryuin.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for TriggerMesh covering TriggerMesh serverless event router in Serverless (alexiskiryuin.com).
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Bigdata](./kubernetes-bigdata.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

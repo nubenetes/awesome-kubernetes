@@ -56,7 +56,6 @@
 ## Alternatives
   - [Buildbot](https://buildbot.net) - *(Related to cicd topic)*
 
-- [Cloudbees Flow](https://www.cloudbees.com/capabilities/ci-cd-workflows?contentType=application/pdf&wchannelid=ygl06f4wfj&wmediaid=9qcwsqshzr)
 - [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
 - [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 - [Agola](https://agola.io)
@@ -69,7 +68,6 @@
 - [GoCD](https://www.gocd.org)
 - [Codefresh](https://octopus.com/codefresh)
 - [skaffold](https://skaffold.dev) Local Kubernetes Development. Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
-- [AWS DevOps - CICD](https://aws.amazon.com/devops)
 - [Google Cloud Build](https://cloud.google.com/build)
 - [Kubeflow](https://www.kubeflow.org) The Machine Learning Toolkit for Kubernetes
 - [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) Screwdriver is a self-contained, pluggable service to help you build, test, and continuously deliver software using the latest containerization technologies.
@@ -103,9 +101,8 @@
 
 - [GitHub Actions CI/CD](https://github.blog/news-insights/product-news/github-actions-now-supports-ci-cd)
 - [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/how-tos/write-workflows)
-- [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) GitHub Actions and Jenkins both get the job done. Let’sfind out whether it’s worth considering moving from Jenkins.
 - [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry)
-- [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)
+- [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.com/improving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)
 - [redhat-actions](https://github.com/redhat-actions)
 - [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runners)
     - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
@@ -161,7 +158,6 @@
 
 - [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform)
 - [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/pipelines)
-- [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog)
 - [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&ab_channel=JFrog)
 - [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://www.redhat.com/en/blog/cloud-devops-with-openshift-and-jfrog)
 
@@ -196,7 +192,6 @@
 - [medium: Spinnaker The Hard Way](https://medium.com/searce/spinnaker-the-hard-way-278913f3f1d8)
 - [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) Spinnaker provides unique building blocks to create tailor-made,and highly-collaborative continuous delivery pipelines.
 - [harness.io: Best Spinnaker Alternatives to Consider](https://www.harness.io/blog/continuous-delivery/spinnaker-alternatives)
-- [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.harness.io/products/continuous-delivery)
 - [jenkins-x.io: Traces for your pipelines](https://jayex.io/blog/2021/04/08/jx3-pipeline-trace) Jenkins X v3 now comes with tracing support for your pipelines out of the box,using Grafana and Tempo directly to store and visualize traces.
 
 ### ArgoCD

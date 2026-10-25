@@ -17,16 +17,16 @@ description: "Curated, AI-ranked Web3 resources for the 2026 Cloud Native archit
 
 ##### Introduction
 
-  - **(2021)** [elconfidencial.com: El futuro de internet ya está aquí y se llama Web3, pero casi nadie sabe de qué se trata](https://www.elconfidencial.com/tecnologia/2021-12-12/el-futuro-de-internet-ya-esta-aqui-y-se-llama-web3-pero-casi-nadie-sabe-lo-que-es_3339244) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish-language introduction to Web3 concepts. It breaks down blockchain-based data layers, self-sovereign identities, decentralized governance (DAOs), and cryptographic tokens, contrasting them with centralized cloud infrastructure controlled by hyper-scalers.
+  - **(2021)** [elconfidencial.com: El futuro de internet ya está aquí y se llama Web3, pero casi nadie sabe de qué se trata](https://www.elconfidencial.com/tecnologia/2021-12-12/el-futuro-de-internet-ya-esta-aqui-y-se-llama-web3-pero-casi-nadie-sabe-lo-que-es_3339244)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish-language introduction to Web3 concepts. It breaks down blockchain-based data layers, self-sovereign identities, decentralized governance (DAOs), and cryptographic tokens, contrasting them with centralized cloud infrastructure controlled by hyper-scalers.
 ##### System Comparison
 
-  - **(2021)** [thenewstack.io: Web3 Architecture and How It Compares to Traditional Web Apps](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical breakdown comparing the architecture of traditional Web2 web applications (database-to-backend-to-frontend) with Web3 decentralized topologies. It outlines the role of blockchain consensus layers, smart contracts, RPC providers, client wallets, and distributed file stores (such as IPFS and Arweave).
+  - **(2021)** [thenewstack.io: Web3 Architecture and How It Compares to Traditional Web Apps](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical breakdown comparing the architecture of traditional Web2 web applications (database-to-backend-to-frontend) with Web3 decentralized topologies. It outlines the role of blockchain consensus layers, smart contracts, RPC providers, client wallets, and distributed file stores (such as IPFS and Arweave).
 ##### Vision and Philosophy
 
-  - **(2021)** [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Ethereum co-founder and Polkadot creator Gavin Wood on the engineering philosophy behind Web3. Wood details the transition from trusting centralized authorities to relying on cryptographic truth, smart contracts, and decentralized state machines to enforce transparency.
+  - **(2021)** [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Ethereum co-founder and Polkadot creator Gavin Wood on the engineering philosophy behind Web3. Wood details the transition from trusting centralized authorities to relying on cryptographic truth, smart contracts, and decentralized state machines to enforce transparency.
 
 ---
-💡 **Explore Related:** [Dotnet](./dotnet.md) | [API](./api.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [Rancher](./rancher.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

@@ -59,7 +59,6 @@
 
 ## OpenShift High Availability
 
-- [blog.openshift.com/tag/multi-datacenter](https://www.redhat.com/en/blog?f[0]=taxonomy_blog_post_category_tid:107161&f[1]=taxonomy_topic_tid:75521)
 - [blog.openshift.com/: How to survive an outage and live to tell about it!](https://www.redhat.com/en/blog/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it)
 - [blog.openshift.com/: Stateful Workloads and the Two Data Center Conundrum](https://www.redhat.com/en/blog/stateful-workloads-and-the-two-data-center-conundrum)
 - [OpenShift 3.11 Multi-cluster Federation](https://www.redhat.com/en/blog/kubernetes-federation-v2-on-openshift-3-11)

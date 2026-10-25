@@ -108,7 +108,6 @@
 - [cybersecuritydive.com: Relationships between DevOps, security warm slowly](https://www.cybersecuritydive.com/news/developer-security-gitlab-devsecops/599599) Some hurdles stem from miscommunication, or balancing quick product releases with undesired security gaps. **"Security people need developers to be more like security people and developers need security people to be more like developers."** James Arlen, CISO at Aiven.
 - [bbvanexttechnologies.com: Filosofía DevSecOps en el desarrollo de aplicaciones sobre Azure](https://www.bbvanexttechnologies.com/blogs/filosofia-devsecops-en-el-desarrollo-de-aplicaciones-sobre-azure)
 - [harness.io: Automated DevSecOps with StackHawk and Harness](https://www.harness.io/blog/what-is-devsecops)
-- [cloudify.co: Understanding DevSecOps And Its Challenges](https://docs.cloudify.co)
 - [containerjournal.com: The What and Why of Cloud-Native Security](https://cloudnativenow.com/editorial-calendar/cloud-native-security/the-what-and-why-of-cloud-native-security)
 - [sysdig.com: Top vulnerability assessment and management best practices](https://www.sysdig.com/blog/vulnerability-assessment)
 - [thenewstack.io: Where Are You on the DevSecOps Maturity Curve?](https://thenewstack.io/where-are-you-on-the-devsecops-maturity-curve)
@@ -448,13 +447,11 @@
 ## Secrets Management
 
 - [blog.gitguardian.com: Secrets in source code (episode 2/3). Why secrets in git are such a problem](https://blog.gitguardian.com/secrets-credentials-api-git)
-- [harness.io: Managing Secrets in CI/CD Pipelines 🌟](https://www.harness.io/blog) How has your organization dealt with the challenge of managing secrets while delivering with CI/CD pipelines? Learn how to improve your process in the article.
 - [smallstep.com: How to Handle Secrets on the Command Line 🌟](https://smallstep.com/blog/command-line-secrets)
 - [cloud.google.com: Analyze secrets with Cloud Asset Inventory](https://docs.cloud.google.com/secret-manager/docs/analyze-resources) Query information about all the secrets across your entire GoogleCloudTech organization! Secret Manager is now integrated with Asset Inventory!
 - [sops: Simple and flexible tool for managing secrets 🌟](https://github.com/getsops/sops)
 - [jenkins-x.io: Setting up the secrets for your installation](https://jayex.io/v3/admin/setup/secrets) Jenkins X 3.x uses Kubernetes External Secrets to manage populating secrets from your underlying secret store.
 - [fpcomplete.com: Announcing Amber, encrypted secrets management](https://academy.fpblock.com/blog/announcing-amber-ci-secret-tool)
-- [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog)
 - [github.com/keilerkonzept/aws-secretsmanager-files](https://pkg.go.dev/github.com/keilerkonzept/aws-secretsmanager-files) Writes AWS Secrets Manager secrets to files on disk. Single binary, no dependencies. osx & linux & windows.
 - [medium: How to Handle Secrets Like a Pro Using Gitops](https://medium.com/containers-101/how-to-handle-secrets-like-a-pro-using-gitops-f3b812536434)
 - [youtube: Which of your Kubernetes Apps are accessing Secrets? 🌟](https://www.youtube.com/watch?v=6UF-QxiRGms&ab_channel=Kubevious) How do you know which apps across all your clusters are using Kubernetes Secrets? How are you sure that your secrets are not leaking? In the next 5 minutes, you will learn right that.
@@ -553,7 +550,6 @@
 #### HashiCorp Vault Agent
 
 - [harness.io: Tutorial: How to Use the New Vault Agent Integration Method With Harness](https://www.harness.io/blog/vault-agent-secrets-management)
-- [harness.io: Tutorial: Vault Agent Advanced Use Case With Kubernetes Delegates and Shared Volumes 🌟](https://www.harness.io/blog)
 - [hashicorp.com: Why Use the Vault Agent for Secrets Management?](https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management)
 - [medium.com/nerd-for-tech: PKI Certs Injection to K8s Pods with Vault Agent Injector](https://medium.com/nerd-for-tech/pki-certs-injection-to-k8s-pods-with-vault-agent-injector-d97482b48f3d) you'll learn how to use the Vault Agent Injector to dynamically generate and Inject PKI Certs to Pods by rendering secrets to a shared volume, containers within the pod will consume Vault secrets without being Vault aware.
 - [hashicorp.com: Refresh Secrets for Kubernetes Applications with Vault Agent](https://www.hashicorp.com/blog/refresh-secrets-for-kubernetes-applications-with-vault-agent) Learn the system signal and live reload methods for updating Kubernetes applications when secrets change. See an example via a Spring Boot application.
@@ -750,7 +746,6 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 ## Nmap scripts
 
 - [therecord.media: UK government plans to release Nmap scripts for finding vulnerabilities](https://therecord.media/uk-government-plans-to-release-nmap-scripts-for-finding-vulnerabilities)
-    - [ncsc.gov.uk: Introducing Scanning Made Easy](https://www.ncsc.gov.uk/information/page-removed) Trial project makes vulnerability scanning easier.
 
 ## Let's Encrypt SSL certificates
 

@@ -22,7 +22,6 @@
 - [opensource.com: Modify your Kubernetes manifests with Kustomize](https://opensource.com/article/21/6/kustomize-kubernetes) Modify your Kubernetes manifests without losing control of what's in the original versions.
 - [dev.to: Introduction to Kustomize - How to customize Kubernetes objects kubernetes](https://dev.to/katiatalhi/introduction-to-kustomize-how-to-customize-kubernetes-objects-3e08)
 - [mirantis.com: Kustomize Tutorial: Creating a Kubernetes app out of multiple pieces](https://www.mirantis.com/blog/introduction-to-kustomize-part-1-creating-a-kubernetes-app-out-of-multiple-pieces)
-- [codefresh.io: Applied GitOps with Kustomize](https://octopus.com/blog/applied-gitops-with-kustomize) Kustomize and how it can help deploy Kubernetes manifest with GitOps. This will allow you to leverage the power of Kustomize to define YAML files without using a templating engine
 - [tech.aabouzaid.com: Set OpenAPI patch strategy for Kubernetes Custom Resources - Kustomize](https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html) Kustomize supports 2 main client-side patching methods for Kubernetes manifests: JSON Patching and Strategic Merge Patch. This article discusses the pros and cons and shows how to add a merging strategy extension for Custom Resources.
 - [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627)
 - [pauldally.medium.com: Kustomize Best Practices (Part 1)](https://pauldally.medium.com/kustomize-best-practices-part-1-86f9f22d2f20) Kubectl includes a very useful command called kustomize that allows a template-free way to customize Kubernetes application configuration.
@@ -38,7 +37,6 @@
 - [==devopscube.com/kustomize-tutorial: Kustomize Tutorial: Comprehensive Guide For Beginners== 🌟](https://devopscube.com/kustomize-tutorial)
 - [blog.devgenius.io: Kustomize — K8 manifest patching](https://blog.devgenius.io/kustomize-simple-manifest-manipulation-9330f7f40d5d?gi=4bcc01910b74) how to manipulate YAML files using Kustomize
 - [faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions](https://faun.pub/how-to-build-a-gitops-workflow-with-argocd-kustomize-and-github-actions-f919e7443295?gi=f4af71b4dff7) Gain speed and clarity by adopting GitOps for your deployments
-- [==techiescamp.com: Kubernetes Kustomize Crash Course==](https://courses.devopscube.com/l/products) In this Kustomize crash course, you will learn all the Kustomize concepts and deploy an application using Kustomize on a Kubernetes cluster.
 - [==devopscube.com/kuztomize-configmap-generators: Kuztomize Secret & Configmap Generators [Practical Examples]==](https://devopscube.com/kuztomize-configmap-generators)
 - [==itnext.io: Generating, transforming, and patching Kubernetes configuration with Kustomize==](https://itnext.io/generating-transforming-and-patching-kubernetes-configuration-with-kustomize-fb7b02476a1b?gi=058ff53ee08e)
 

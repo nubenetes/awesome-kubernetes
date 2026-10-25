@@ -65,7 +65,6 @@
     - [diagrams.net: Use Cloudcraft to export your AWS architecture to a .drawio diagram](https://www.drawio.com/blog/drawio-aws-cloudcraft)
 - [hava.io](https://www.hava.io)
 - [draw.io](https://app.diagrams.net)
-- [CloudMapper (OSS)](https://duo.com/blog)
 - [==Lucidchart==](https://lucid.co/lucidchart)
     - [==Lucidscale: Import your architecture==](https://lucid.co/enterprise/cloud-accelerator) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
 - [infviz.io](https://infviz.io)
@@ -75,11 +74,9 @@
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://www.cloudcraft.co)
 - [hava.io](https://www.hava.io)
-- [CloudMapper (OSS)](https://duo.com/blog)
 - [Lucidchart](https://lucid.co/marketplace/91074b9b/aws)
 - [infviz.io](https://infviz.io)
 - AWS CloudFormer + AWS CloudFormation Designer
-- [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://www.pluralsight.com)
 - [AWS Perspective 🌟](https://docs.aws.amazon.com/solutions/workload-discovery-on-aws) a tool to automatically visualise your loud workloads.
     - https://github.com/awslabs/aws-perspective
     - Perspective inventories your aws accounts and can automatically create architecture diagrams with your resources along with the relationships between them. The diagrams are dynamic and you have the ability to explore them to discover how your resources are associated and connected.
@@ -91,7 +88,6 @@
 
 ## Google Cloud Architecture Diagramming Tool
 
-- [cloud.google.com: Introducing a Google Cloud architecture diagramming tool](https://cloud.google.com/blog)
 
 ## Airflow
 
