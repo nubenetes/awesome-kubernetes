@@ -2500,10 +2500,17 @@ class V2VisionEngine:
             return False
 
 import argparse
+import sys
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--render-only", action="store_true")
+    parser.add_argument("--digest-only", action="store_true", help="Generate only tech-digest.md and industry-digest.md from news_digest.json")
     args = parser.parse_args()
+
+    if args.digest_only:
+        engine = V2VisionEngine(render_only=True)
+        engine._generate_digest_pages()
+        sys.exit(0)
 
     engine = V2VisionEngine(render_only=args.render_only)
     asyncio.run(engine.analyze_and_cluster())

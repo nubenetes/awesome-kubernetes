@@ -177,8 +177,8 @@ async def run_dedup(dry_run: bool = True) -> Dict:
     if dry_run:
         log_event(f"[Dedup] DRY RUN — {len(deduped_pairs)} duplicates found, no changes made")
         for u1, u2, score in sorted(deduped_pairs, key=lambda x: -x[2])[:20]:
-            t1 = inventory.get(u1, {}).get("title", "?")[:60]
-            t2 = inventory.get(u2, {}).get("title", "?")[:60]
+            t1 = str(inventory.get(u1, {}).get("title") or "?")[:60]
+            t2 = str(inventory.get(u2, {}).get("title") or "?")[:60]
             log_event(f"  [{score:.0%}] {t1} <-> {t2}")
     else:
         resolved = resolve_duplicates(inventory, deduped_pairs)

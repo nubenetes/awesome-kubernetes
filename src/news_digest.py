@@ -177,23 +177,25 @@ class NewsDigestEngine:
         Checks ``v2_locations`` paths first (more specific), then falls
         back to the ``category`` field.
         """
-        for loc in entry.get("v2_locations", []):
+        for loc in (entry.get("v2_locations") or []):
+            if not loc or not isinstance(loc, str):
+                continue
             slug = loc.replace(".md", "")
             if slug in self.category_map:
                 return self.category_map[slug]
-        cat = entry.get("category", "")
+        cat = entry.get("category") or ""
         if cat in self.category_map:
             return self.category_map[cat]
         return None
 
     def _get_entry_geo(self, entry: dict, url: str = "") -> str | None:
         """Return the geo digest category using geo_region field, falling back to URL TLD inference."""
-        region = entry.get("geo_region", "")
+        region = entry.get("geo_region") or ""
         for geo_name, geo_val in self.GEO_CATEGORIES.items():
             if region == geo_val:
                 return geo_name
         # Fallback: infer from URL TLD (entry.get("url") populated only after url injection)
-        return self._infer_geo_from_url(entry.get("url", "") or url)
+        return self._infer_geo_from_url(str(entry.get("url") or url or ""))
 
     @staticmethod
     def _infer_geo_from_url(url: str) -> str | None:
@@ -225,17 +227,19 @@ class NewsDigestEngine:
     def _is_within_period(entry: dict, cutoff_iso: str) -> bool:
         """Check if entry falls within the time period using discovered_at,
         with year field as fallback for backfilled entries."""
-        discovered = entry.get("discovered_at", "")
+        discovered = entry.get("discovered_at") or ""
         if discovered:
             try:
-                if discovered >= cutoff_iso:
+                if str(discovered) >= cutoff_iso:
                     return True
             except Exception:
                 pass
-        year = entry.get("year", "")
-        if year and isinstance(year, str) and year.isdigit():
-            cutoff_year = cutoff_iso[:4] if len(cutoff_iso) >= 4 else "2020"
-            return year >= cutoff_year
+        year = entry.get("year")
+        if year is not None:
+            year_str = str(year).strip()
+            if year_str.isdigit():
+                cutoff_year = cutoff_iso[:4] if len(cutoff_iso) >= 4 else "2020"
+                return year_str >= cutoff_year
         return False
 
     # ------------------------------------------------------------------ #
@@ -250,12 +254,12 @@ class NewsDigestEngine:
         period_label = period.replace("_", " ")
         lines: List[str] = []
         for i, e in enumerate(entries[:50]):
-            summary_fragment = (e.get("ai_summary", "") or "")[:200]
+            summary_fragment = str(e.get("ai_summary") or "")[:200]
             lines.append(
-                f'{i}. "{e.get("title", "Unknown")}" '
-                f'({e.get("url", "")}) | '
-                f'Stars: {e.get("stars", 0)} | '
-                f'Year: {e.get("year", "N/A")} | '
+                f'{i}. "{e.get("title") or "Unknown"}" '
+                f'({e.get("url") or ""}) | '
+                f'Stars: {e.get("stars") or 0} | '
+                f'Year: {e.get("year") or "N/A"} | '
                 f'Summary: {summary_fragment}'
             )
         entries_text = "\n".join(lines)
@@ -279,24 +283,40 @@ class NewsDigestEngine:
             f"RESOURCES:\n{entries_text}"
         )
 
+    @staticmethod
+    def _extract_entry_date(e: dict) -> str:
+        """Extract a 10-char date string (YYYY-MM-DD or YYYY) safely from an entry."""
+        discovered = e.get("discovered_at")
+        if discovered and isinstance(discovered, str):
+            return discovered[:10]
+        gh_pushed = e.get("gh_pushed")
+        if gh_pushed and isinstance(gh_pushed, str):
+            return gh_pushed[:10]
+        year = e.get("year")
+        if year is not None:
+            year_str = str(year).strip()
+            if year_str.isdigit() and len(year_str) == 4:
+                return year_str
+        return ""
+
     # ------------------------------------------------------------------ #
     # Star-based fallback (used when Gemini is unavailable / < 3 entries) #
     # ------------------------------------------------------------------ #
 
-    @staticmethod
+    @classmethod
     def _fallback_items(
-        entries: List[dict], cat_name: str, limit: int = 10
+        cls, entries: List[dict], cat_name: str, limit: int = 10
     ) -> List[dict]:
         """Return up to *limit* items using a deterministic star-based
         ranking (no AI call required)."""
         return [
             {
-                "url": e["url"],
-                "title": e.get("title", "Unknown"),
-                "date": e.get("discovered_at", "")[:10],
+                "url": e.get("url") or "",
+                "title": e.get("title") or "Unknown",
+                "date": cls._extract_entry_date(e),
                 "stars": e.get("stars") or 0,
                 "impact": "high" if (e.get("stars") or 0) >= 4 else "medium",
-                "why": (e.get("ai_summary", "") or "")[:200],
+                "why": str(e.get("ai_summary") or "")[:200],
                 "category": cat_name,
             }
             for e in entries[:limit]
@@ -346,17 +366,22 @@ class NewsDigestEngine:
         1. Entry-pool hash matches (same URLs, same period).
         2. Result was analysed no more than MAX_STALENESS_DAYS ago.
         """
-        cell = meta.get(period, {}).get(cat)
-        if not cell:
+        if not isinstance(meta, dict):
+            return False
+        period_meta = meta.get(period)
+        if not isinstance(period_meta, dict):
+            return False
+        cell = period_meta.get(cat)
+        if not isinstance(cell, dict):
             return False
         if cell.get("entry_hash") != pool_hash:
             return False
-        last = cell.get("last_analyzed", "")
+        last = cell.get("last_analyzed") or ""
         if not last:
             return False
         try:
             age = (
-                datetime.now(MADRID_TZ) - datetime.fromisoformat(last)
+                datetime.now(MADRID_TZ) - datetime.fromisoformat(str(last))
             ).days
             return age <= MAX_STALENESS_DAYS
         except Exception:
@@ -420,7 +445,7 @@ class NewsDigestEngine:
                 entries.sort(
                     key=lambda x: (
                         x.get("stars") or 0,
-                        x.get("discovered_at") or "",
+                        str(x.get("discovered_at") or ""),
                     ),
                     reverse=True,
                 )
@@ -462,17 +487,22 @@ class NewsDigestEngine:
                     )
                     ranked: List[dict] = []
                     for item in result.get("items", []):
-                        idx = int(item.get("idx", -1))
+                        if not isinstance(item, dict):
+                            continue
+                        try:
+                            idx = int(item.get("idx", -1))
+                        except (ValueError, TypeError):
+                            continue
                         if 0 <= idx < len(entries):
                             e = entries[idx]
                             ranked.append(
                                 {
-                                    "url": e["url"],
-                                    "title": e.get("title", "Unknown"),
-                                    "date": e.get("discovered_at", "")[:10],
-                                    "stars": e.get("stars", 0),
-                                    "impact": item.get("impact", "medium"),
-                                    "why": item.get("why", ""),
+                                    "url": e.get("url") or "",
+                                    "title": e.get("title") or "Unknown",
+                                    "date": self._extract_entry_date(e),
+                                    "stars": e.get("stars") or 0,
+                                    "impact": item.get("impact") or "medium",
+                                    "why": str(item.get("why") or "")[:200],
                                     "category": cat_name,
                                 }
                             )
@@ -559,7 +589,11 @@ async def run_news_digest() -> None:
     engine.save_digest(digest)
 
     total_items = sum(
-        len(items) for period in digest.values() for items in period.values()
+        len(items)
+        for key, period in digest.items()
+        if key != "_meta" and isinstance(period, dict)
+        for items in period.values()
+        if isinstance(items, list)
     )
     log_event(
         f"NEWS DIGEST COMPLETE: {total_items} total items across all periods"
