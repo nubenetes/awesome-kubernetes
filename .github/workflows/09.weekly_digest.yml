@@ -58,20 +58,33 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: "1"
         run: |
-          python -u -m src.v2_optimizer --render-only
+          python -u -m src.v2_optimizer --digest-only
 
       - name: Commit and Push Weekly Digest
         run: |
           git config --global user.name "Nubenetes Bot"
           git config --global user.email "bot@nubenetes.com"
-          git add data/news_digest.json v2-docs/tech-digest.md v2-docs/industry-digest.md v2-docs/feed.xml || true
+          git add data/news_digest.json v2-docs/tech-digest.md v2-docs/industry-digest.md v2-docs/feed.xml
           if git diff --staged --quiet; then
             echo "No digest changes to commit."
           else
             git commit -m "feat: weekly intelligence digest update [skip ci]"
-            for i in {1..3}; do
-              git pull origin develop --rebase && git push origin develop && break || sleep 10
+            # Discard any unstaged or untracked changes so rebase cannot fail
+            git checkout -- .
+            git clean -fd
+            pushed=0
+            for i in {1..5}; do
+              if git pull origin develop --rebase && git push origin develop; then
+                pushed=1
+                break
+              fi
+              echo "Push attempt $i failed, retrying in 10s..."
+              sleep 10
             done
+            if [ $pushed -eq 0 ]; then
+              echo "Failed to push weekly digest after 5 attempts."
+              exit 1
+            fi
           fi
 
       - name: Trigger V2 Publisher
