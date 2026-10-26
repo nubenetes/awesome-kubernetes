@@ -113,7 +113,7 @@ def generate_visual_report(metrics: list) -> str:
                     <tr>
                         <td>{i}</td>
                         <td><span class="status-tag {status_class}">{m['status']}</span></td>
-                        <td><a href="{m['url']}" target="_blank">{m.get('title', 'N/A')[:60]}...</a></td>
+                        <td><a href="{m['url']}" target="_blank">{str(m.get('title') or 'N/A')[:60]}...</a></td>
                         <td><code>{m['category']}</code></td>
                         <td class="stars">{impact}</td>
                         <td>{m['source']}</td>

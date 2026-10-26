@@ -210,7 +210,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "title": data["title"], "description": data["desc"], "ai_summary": refined_summary,
                             "language": data.get("language", "English"), "resource_type": data.get("type", "Reference"),
                             "complexity": data.get("level", "Intermediate"), "hierarchy": data.get("technical_hierarchy", ["General"]),
-                            "tags": final_tags, "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
+                            "tags": final_tags, "is_microservice": data.get("is_microservice", False), "year": str(data.get("pub_date") or "N/A")[:4],
                             "stars": min(max(score // 20, 0), 5), "impact_score": score, "content_hash": d["hash"],
                             "reputation_status": "Vetted" if not data.get("reputation_penalty") else "Suspicious",
                             "reputation_summary": data.get("reputation_summary", ""),

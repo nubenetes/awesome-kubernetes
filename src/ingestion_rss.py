@@ -52,7 +52,7 @@ class RSSDataExtractor:
                         all_articles.append({
                             "url": entry.link,
                             "title": entry.title,
-                            "text": entry.get("summary", "")[:500],
+                            "text": str(entry.get("summary") or "")[:500],
                             "timestamp": published.isoformat(),
                             "source_type": f"RSS Feed ({feed.feed.get('title', 'Unknown')})"
                         })
