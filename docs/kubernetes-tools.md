@@ -157,6 +157,7 @@
   - [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) - *(Related to terraform topic)*
   - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy) - *(Related to kubernetes-networking topic)*
   - [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) - KubeUI is a desktop application designed to simplify day-to-day Kubernetes cluster management. It offers features for browsing Kubernetes resources and editing YAML manifests directly from a desktop environment.
+  - [kubeNimbus: A Native Kubernetes Desktop Client](https://github.com/Shman4ik/kubeNimbus) - kubeNimbus is a free, open-source desktop client compiled with .NET NativeAOT. It opens on the applications that need attention, each with a health verdict and a one-line reason from the cluster's own status, reads CPU and memory from metrics-server, browses Helm releases and Argo CD applications, and sends no telemetry.
 
 ## CI/CD Tools
   - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) - *(Related to iac topic)*
