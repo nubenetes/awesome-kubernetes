@@ -90,7 +90,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, NGINXConfi
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Servicemesh](./servicemesh.md) | [Cloudflare](./cloudflare.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Networking](./networking.md) | [Caching](./caching.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

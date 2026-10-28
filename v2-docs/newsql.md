@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Newsql resources for the 2026 Cloud Native arch
   - [muratbuffalo.blogspot.com: What’s Really New with NewSQL?](https://muratbuffalo.blogspot.com/2021/11/whats-really-new-with-newsql.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive conceptual deep-dive comparing NewSQL architectures with traditional relational and NoSQL engines. Explores transactional guarantees, distributed consensus (Raft/Paxos), and cloud-native database scaling.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -153,7 +153,7 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
   - **(2024)** [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough engineering analysis contrasting architectural behaviors of HTTP/2 and HTTP/3. Examines the structural transition from TCP-based flows to UDP-based QUIC, detailing performance impacts.
 
 ---
-💡 **Explore Related:** [Web Servers](./web-servers.md) | [Servicemesh](./servicemesh.md) | [Cloudflare](./cloudflare.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

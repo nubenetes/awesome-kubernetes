@@ -65,7 +65,7 @@ description: "Curated, AI-ranked Cloudflare resources for the 2026 Cloud Native 
   - **(2026)** [Temporary Cloudflare Accounts for AI agents](https://blog.cloudflare.com/temporary-accounts) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Temporary Cloudflare Accounts for AI agents covering Serverless in Cloudflare (blog.cloudflare.com).
 
 ---
-💡 **Explore Related:** [Web Servers](./web-servers.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Networking](./networking.md) | [Caching](./caching.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

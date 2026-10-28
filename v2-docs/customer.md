@@ -139,7 +139,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [**thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects**](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines four strategic motivations for Mercedes-Benz to sponsor open-source software. By funding critical up-stream components, the enterprise reduces technical debt, improves system security, attracts elite software engineering talent, and actively influences standard roadmaps. It provides a blueprint for enterprise open-source program offices (OSPOs) seeking to justify upstream contributions.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

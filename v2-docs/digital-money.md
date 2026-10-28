@@ -25,7 +25,7 @@ description: "Top Digital Money resources for 2026, AI-ranked: Highlights from G
   - **(2026)** [Tether (USDt)](https://tether.to) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for the Tether (USDt) stablecoin, mapping out collateral verifications, multi-blockchain compatibility layers, and institutional fiat liquidity standards. Important for distributed ledger payments and micro-payment applications.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

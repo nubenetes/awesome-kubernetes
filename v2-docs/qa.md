@@ -175,7 +175,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - [dzone: Component Tests for Spring Cloud Microservices](https://dzone.com/articles/component-tests-for-spring-cloud-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Component Tests for Spring Cloud Microservices covering Tools in QA (dzone.com).
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

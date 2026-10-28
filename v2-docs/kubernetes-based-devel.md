@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube, Lens Kubernetes IDE and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kubernetes IDE, Minikube and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Based Development. Kubernetes Distributions for local environments. Kubernetes Development Tools and Dashboards
 
@@ -253,7 +253,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -21,7 +21,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kubescape, 
 
 ### Cluster Lifecycle Security
 
-  - **(2020)** [==github.com/stackrox: Certified Kubernetes Security Specialist Study Guide' 🌟==](https://github.com/stackrox/Kubernetes_Security_Specialist_Study_Guide) <span class='md-tag md-tag--info'>⭐ 429</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-53687d8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 7 L 30 11 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-53687d8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive community study handbook for the Linux Foundation CKS exam, detailing system hardening, threat mitigation, microservice security policies, and runtime compliance enforcement.
+  - **(2020)** [==github.com/stackrox: Certified Kubernetes Security Specialist Study Guide' 🌟==](https://github.com/stackrox/Kubernetes_Security_Specialist_Study_Guide) <span class='md-tag md-tag--info'>⭐ 431</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-53687d8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 3 L 30 7 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-53687d8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive community study handbook for the Linux Foundation CKS exam, detailing system hardening, threat mitigation, microservice security policies, and runtime compliance enforcement.
 ## CNI Network Vulnerabilities
 
 ### Network Penetration Testing
@@ -639,7 +639,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kubescape, 
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [Kustomize](./kustomize.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

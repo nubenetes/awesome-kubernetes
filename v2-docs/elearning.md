@@ -80,7 +80,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Real-world Architecture
 
-  - **(2026)** [==techiescamp/devops-projects:Real-World DevOps Projects For Learning==](https://github.com/techiescamp/devops-projects) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A stellar, end-to-end GitHub archive that compiles structural templates, infrastructure blueprints, and multi-tier CI/CD pipelines. Features real-world deployment playbooks using Terraform, Ansible, and Kubernetes for cloud architectures.
+  - **(2026)** [==techiescamp/devops-projects:Real-World DevOps Projects For Learning==](https://github.com/techiescamp/devops-projects) <span class='md-tag md-tag--info'>⭐ 2395</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b9c6e289" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 7 L 30 9 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-b9c6e289)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A stellar, end-to-end GitHub archive that compiles structural templates, infrastructure blueprints, and multi-tier CI/CD pipelines. Features real-world deployment playbooks using Terraform, Ansible, and Kubernetes for cloud architectures.
 ### Kubernetes
 
 #### Vmware Tanzu Ecosystem
@@ -173,7 +173,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
   - **(2026)** [==codely.tv==](https://codely.com/en) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production architectures.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

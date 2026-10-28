@@ -88,7 +88,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
   - **(2016)** [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural retrospective analyzing service failures during a historic AWS Sydney region outage. Live Grounding highlights how this post underscores the vital design-for-failure paradigm, proving that high availability requires cross-region failovers, active-active topologies, and robust client retry configurations.
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Networking](./aws-networking.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

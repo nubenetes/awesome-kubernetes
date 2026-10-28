@@ -264,7 +264,7 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
   - **(2023)** [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kourier is a lightweight Ingress implementation specifically designed for Knative Serving, utilizing Envoy as the underlying data plane. It serves as an alternative to large service mesh deployments, providing fast route configurations, cold start mitigation, and scale-to-zero capabilities for serverless containers inside Kubernetes. It is heavily utilized in simplified enterprise serverless setups.
 
 ---
-💡 **Explore Related:** [Web Servers](./web-servers.md) | [Cloudflare](./cloudflare.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Istio](./istio.md) | [Networking](./networking.md) | [Caching](./caching.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 
