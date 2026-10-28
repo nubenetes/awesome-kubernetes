@@ -36,7 +36,7 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
   - [Google Calendar appointment slots](https://support.google.com/calendar/answer/11608416?visit_id=639264263696151393-1274317728&rd=1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Google Calendar appointment slots in the Appointment Scheduling ecosystem (support.google.com).
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

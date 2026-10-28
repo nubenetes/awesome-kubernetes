@@ -1,5 +1,5 @@
 ---
-description: "Top About resources for 2026, AI-ranked: Argo CD, Postman and more — curated Cloud Native tools, guides and references."
+description: "Top About resources for 2026, AI-ranked: Postman, Helm and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 
@@ -228,7 +228,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

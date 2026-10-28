@@ -168,7 +168,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 
 ##### Github Repository
 
-  - **(2026)** [**github.com/techiescamp/kubernetes-learning-path 🌟🌟**](https://github.com/techiescamp/kubernetes-learning-path) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A massive, community-backed repository organizing study plans, code repositories, structural templates, and practice exercises. Ideal for self-taught DevOps engineers transitioning to system automation roles.
+  - **(2026)** [**github.com/techiescamp/kubernetes-learning-path 🌟🌟**](https://github.com/techiescamp/kubernetes-learning-path) <span class='md-tag md-tag--info'>⭐ 7686</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c77029ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 4 L 20 2 L 30 5 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-c77029ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A massive, community-backed repository organizing study plans, code repositories, structural templates, and practice exercises. Ideal for self-taught DevOps engineers transitioning to system automation roles.
 #### Official Documentation
 
   - **(2026)** [==kubernetes.io: Kubernetes Tutorials==](https://kubernetes.io/docs/tutorials) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive, authoritative reference portal for Kubernetes concepts. Integrates fundamental conceptual walk-throughs with direct command-line execution, showing how to create Services, scale Deployments, and manage local volumes.
@@ -244,7 +244,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Kubernetes Troubleshooting: A Step-by-Step Guide covering Debugging Techniques and Strategies. Debugging with ephemeral containers in Kubernetes Troubleshooting (cncf.io).
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

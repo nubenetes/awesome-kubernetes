@@ -572,7 +572,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote' Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for docker.com: How to Develop Inside a Container Using Visual Studio Code Remote' Containers 🌟 covering VSCode in Visual Studio (docker.com).
 
 ---
-💡 **Explore Related:** [API](./api.md) | [Devel Sites](./devel-sites.md) | [Java_App_Servers](./java_app_servers.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Maven Gradle](./maven-gradle.md) | [Python](./python.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstraint and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plugins, Available kubectl plugins and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes
 
@@ -189,6 +189,9 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
 #### Node Lifecycle
 
   - **(2021)** [trstringer.com: What Determines if a Kubernetes Node is Ready?](https://trstringer.com/kubernetes-node-ready) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into node status evaluation mechanics in Kubernetes. It breaks down how the Kubelet posts heartbeats, how the Node Lifecycle Controller handles Lease resources, and how resource exhaustion (PID, disk, memory pressure) updates NodeConditions.
+#### Scalability Limits
+
+  - **(2025)** [==github.com/kubernetes: Kubernetes Scalability thresholds==](https://github.com/kubernetes/community/blob/main/sig-scalability/configs-and-limits/thresholds.md) <span class='md-tag md-tag--info'>⭐ 12886</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-63f8e2ff" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 2 L 20 6 L 30 10 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-63f8e2ff)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative SIG-Scalability technical specifications outlining physical structural and behavioral boundaries in a standard Kubernetes cluster (such as a maximum of 5,000 nodes, 150,000 total pods, and etcd throughput limits). Documents constraints and performance degradations encountered as these thresholds are reached.
 ### Deployment Anti-patterns
 
 #### Operational Safety
@@ -263,6 +266,11 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
 #### Control Loops
 
   - **(2026)** [learnsteps.com: How Kubernetes works on reconciler pattern](https://www.learnsteps.com/how-kubernetes-works-on-a-reconciler-pattern) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A breakdown detailing the core control loop underlying Kubernetes' architecture: the state reconciliation pattern. Explains how controllers constantly poll state using an active feedback loop, identifying deviations between target specifications and current infrastructure status, and scheduling atomic changes to reconcile them.
+### Kubernetes Enhancements
+
+#### Resources
+
+  - **(2021)** [==KEP-2837: Especificaciones de Recursos a Nivel de Pod==](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md) <span class='md-tag md-tag--info'>⭐ 3887</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-63123df8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 12 L 30 13 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-63123df8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical Kubernetes Enhancement Proposal (KEP) addressing resource specification directly at the Pod level rather than duplicating definitions across individual container configurations. This proposed structural shift promises to optimize vertical pod autoscaling, simplify scheduler math, and streamline declarative application configurations.
 ### Microservices (1)
 
 #### Platform Engineering
@@ -343,6 +351,11 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
   - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — A cutting-edge deployment guide illustrating execution profiles of the revolutionary DeepSeek R1 reasoning models inside newly provisioned high-performance DigitalOcean GPU Droplets. Addresses architectural configurations for model weights and CUDA drivers.
 ## Automation
 
+### Configuration Management (1)
+
+#### Infrastructure As Code (1)
+
+  - **(2023)** [==Ansible for devops: Kubernetes==](https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes) <span class='md-tag md-tag--info'>⭐ 9787</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-18e6053e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 3 L 20 10 L 30 5 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-18e6053e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository contains the official, battle-tested Kubernetes configuration and deployment playbooks accompanying the well-regarded 'Ansible for DevOps' series. It demonstrates structured automation patterns to install, maintain, and bootstrap Kubernetes clusters from bare-metal up to public cloud infrastructure. It serves as a gold-standard reference for blending Ansible's procedural execution model with Kubernetes' declarative state.
 ### Debugging (1)
 
 #### API Objects
@@ -372,7 +385,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
   - **(2025)** [Dependabot Version Updates in Azure DevOps](https://www.returngis.net/2025/02/dependabot-updates-en-azure-devops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A configuration guide describing the implementation of automated Dependabot scanning mechanisms inside Azure DevOps repositories to detect and secure third-party dependencies.
 ## CICD and DevOps
 
-### Infrastructure As Code (1)
+### Infrastructure As Code (2)
 
 #### Orchestration Platforms
 
@@ -674,7 +687,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
 #### Kustomize
 
   - **(2026)** [==kustomize==](https://github.com/kubernetes-sigs/kustomize) <span class='md-tag md-tag--info'>⭐ 12070</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5d9a2ddb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 3 L 30 9 L 40 2 L 50 2" fill="none" stroke="url(#spark-grad-5d9a2ddb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicate entry for Kustomize, highlighting its role as a CNCF-backed declarative customization engine. It uses a composition-based system to configure variations of YAML files without standard template parameters, serving as a clean alternative to Helm.
-## Configuration Management (1)
+## Configuration Management (2)
 
 ### Declarative Templates
 
@@ -1200,7 +1213,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
 #### Guides
 
   - **(2022)** [loft.sh: Kubernetes on Windows: 6 Life-Saving Tools & Tips](https://www.vcluster.com/blog/kubernetes-on-windows-6-life-saving-tools-and-tips) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A technical resource detailing operational best practices, troubleshooting mechanisms, and performance-tuning tricks for running Windows Server containers on hybrid Kubernetes clusters. It addresses common networking pitfalls (such as Calico or Flannel overlay differences) and resource limitation differences between Linux namespaces and Windows Job Objects. It provides engineering teams with practical tips to facilitate legacy .NET Framework containerization.
-## Infrastructure As Code (2)
+## Infrastructure As Code (3)
 
 ### CICD (5)
 
@@ -1668,7 +1681,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
 
 #### Resource Validation
 
-  - **(2026)** [==Deprek8ion==](https://github.com/swade1987/deprek8ion) <span class='md-tag md-tag--info'>⭐ 143</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-956f7034" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 4 L 30 9 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-956f7034)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Rego-based validation policy suite created to audit obsolete API resources in Kubernetes templates. While historically popular for preventing runtime upgrade issues, platform engineering teams are transitioning toward active admission dynamic scanners like Pluto or Kubent in modern workflows.
+  - **(2026)** [==Deprek8ion==](https://github.com/swade1987/deprek8ion) <span class='md-tag md-tag--info'>⭐ 142</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-956f7034" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 6 L 30 11 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-956f7034)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A Rego-based validation policy suite created to audit obsolete API resources in Kubernetes templates. While historically popular for preventing runtime upgrade issues, platform engineering teams are transitioning toward active admission dynamic scanners like Pluto or Kubent in modern workflows.
 ### Garbage Collection (1)
 
 #### Resource Cleanup
@@ -1764,6 +1777,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
 
 #### Probes (1)
 
+  - **(2020)** [==If you have a livenessProbe that takes over one second, it’ll fail when you update to kubernetes 1.20, because a long-standing bug with how the default was handled has been fixed. You must override the ExecProbeTimeout if your probe takes more than 1s==](https://github.com/kubernetes/kubernetes/pull/97057) <span class='md-tag md-tag--info'>⭐ 123002</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5acba9dc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 11 L 20 11 L 30 10 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-5acba9dc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highlights a critical behavior change in Kubernetes 1.20 where `timeoutSeconds` is strictly enforced for Exec probes. Warns how previously un-timeout-bound scripts can trigger sudden restarts across critical services.
   - **(2021)** [**loft.sh: Kubernetes Readiness Probes - Examples & Common Pitfalls**](https://website.vcluster.com/blog/kubernetes-readiness-probes-examples-and-common-pitfalls) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes advanced operational pitfalls in readiness probe configurations. Explains how bad dependency validation (e.g. database pings inside web pod probes) can cause catastrophic, cascading cluster failures.
 #### Troubleshooting (1)
 
@@ -2007,7 +2021,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
   - **(2024)** [==github.com/FairwindsOps: Goldilocks is a utility that can help you identify' a starting point for resource requests and limits==](https://github.com/FairwindsOps/goldilocks) <span class='md-tag md-tag--info'>⭐ 3250</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-07562f2d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 9 L 20 6 L 30 9 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-07562f2d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Goldilocks is a highly popular utility that analyzes Vertical Pod Autoscaler (VPA) recommendations.
 - Automatically creates VPAs for workloads and visualizes ideal resource boundaries in a clean dashboard.
 - Essential for platform engineers aiming to establish baseline CPU and memory allocations.
-  - **(2023)** [==kondense 🌟==](https://github.com/unagex/kondense) <span class='md-tag md-tag--info'>⭐ 368</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d2e004bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 4 L 30 4 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-d2e004bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kondense is an open-source, lightweight auto-tuning utility for Kubernetes.
+  - **(2023)** [==kondense 🌟==](https://github.com/unagex/kondense) <span class='md-tag md-tag--info'>⭐ 378</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d2e004bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 8 L 30 12 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-d2e004bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kondense is an open-source, lightweight auto-tuning utility for Kubernetes.
 - Runs asynchronously to analyze workload consumption and dynamically update resource definitions.
 - Aims to reduce idle node overhead with minimal configuration.
   - **(2024)** [stormforge.io: Automated Kubernetes resource management for platform engineering teams to continuously rightsize workloads with HPA compatibility](https://stormforge.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces StormForge's automated resource optimization platform.
@@ -2241,7 +2255,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
 
 #### Supply Chain Security
 
-  - **(2026)** [==github.com/sigstore: k8s-manifest-sigstore==](https://github.com/sigstore/k8s-manifest-sigstore) <span class='md-tag md-tag--info'>⭐ 87</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c333dbec" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 5 L 30 7 L 40 4 L 50 7" fill="none" stroke="url(#spark-grad-c333dbec)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized framework integrating the Sigstore signature ecosystem with Kubernetes manifests. It enables platform operators to verify configuration payload signatures at deployment time, ensuring declarative resource definitions are not tampered with and originate from trusted pipelines.
+  - **(2026)** [==github.com/sigstore: k8s-manifest-sigstore==](https://github.com/sigstore/k8s-manifest-sigstore) <span class='md-tag md-tag--info'>⭐ 89</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c333dbec" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 13 L 30 11 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-c333dbec)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized framework integrating the Sigstore signature ecosystem with Kubernetes manifests. It enables platform operators to verify configuration payload signatures at deployment time, ensuring declarative resource definitions are not tampered with and originate from trusted pipelines.
 ### Isolation
 
 #### User Namespaces
@@ -2568,7 +2582,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Crossplane, konstrai
   - **(2021)** [**loft.sh: Kubernetes StatefulSet - Examples & Best Practices**](https://www.vcluster.com/blog/kubernetes-statefulset-examples-and-best-practices) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the design space of StatefulSets, concentrating on Volume Claim Templates, headless services, and storage scaling hazards. Highlights best practices for migrating production database clusters into cloud-native topologies.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

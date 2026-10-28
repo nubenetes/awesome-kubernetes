@@ -335,7 +335,7 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2022)** [**techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code**](https://techcrunch.com/2022/07/27/protestware-code-sabotage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the complex security phenomenon of 'protestware,' where open-source maintainers intentionally introduce destructive changes or regional exploits into widely used packages for political or social reasons. Details the architectural impact on enterprise software supply chains and highlights the urgent necessity for robust dependency pinning, software bills of materials, and strict package mirroring.
 
 ---
-💡 **Explore Related:** [Developerportals](./developerportals.md) | [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

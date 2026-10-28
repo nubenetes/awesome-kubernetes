@@ -1,5 +1,5 @@
 ---
-description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and more — curated Cloud Native tools, guides and references."
+description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless, OpenFaaS and more — curated Cloud Native tools, guides and references."
 ---
 # Serverless Architectures and Frameworks
 
@@ -29,6 +29,9 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### Microservices Vs Serverless
 
   - **(2021)** [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates operational tradeoffs, deployment mechanics, and cost models between traditional containerized microservices and pure event-driven serverless architectures.
+## CICD
+
+  - [**itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟**](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c?gi=9683e834ed15) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟 covering CICD Tools in Kubernetes Tools (itnext.io).
 ## Cloud Architecture
 
 ### Comparative Systems
@@ -108,7 +111,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### Anti-patterns
 
   - **(2020)** [**serverlesshorrors.com 🌟**](https://serverlesshorrors.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open community catalog detailing critical serverless horror stories, execution loops, cold-start bottlenecks, and configuration mistakes to help engineers avoid similar traps.
-#### CICD
+#### CICD (1)
 
   - **(2019)** [**theburningmonk.com: Why you should use ephemeral environments when you do serverless**](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Recommends utilizing ephemeral stack deployments per developer or pull request. Highlights how to leverage zero-marginal-cost resource provisioning characteristics of cloud serverless.
 #### Case Studies (1)
@@ -213,9 +216,6 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
 #### Hybrid Automation
 
   - **(2019)** [**theburningmonk.com: Making Terraform and Serverless framework work together**](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.
-## Openfaas (1)
-
-  - [**itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟**](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c?gi=9683e834ed15) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟 covering CICD Tools in Kubernetes Tools (itnext.io).
 ## Serverless Architectures
 
   - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1?gi=2b72868d50d4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Scaling My App: Serverless vs Kubernetes 🌟 covering Serverless Architectures in Serverless (itnext.io).
@@ -227,7 +227,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and m
   - [TriggerMesh](https://alexiskiryuin.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for TriggerMesh covering TriggerMesh serverless event router in Serverless (alexiskiryuin.com).
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

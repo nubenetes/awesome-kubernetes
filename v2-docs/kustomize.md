@@ -79,5 +79,5 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
 ---
 💡 **Explore Related:** [Securityascode](./securityascode.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

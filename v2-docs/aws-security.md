@@ -224,7 +224,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational technical guide to the architecture and operational model of AWS Secrets Manager. The article discusses integration mechanics with AWS RDS, IAM authorization policies, automated rotation via pre-configured Lambda templates, and encryption envelope methods using KMS.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS Networking](./aws-networking.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Networking](./aws-networking.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

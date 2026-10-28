@@ -25,7 +25,7 @@ description: "Curated, AI-ranked Scaleway resources for the 2026 Cloud Native ar
   - [scaleway.com](https://www.scaleway.com/en/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for scaleway.com in the Digitalocean ecosystem (scaleway.com).
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -389,7 +389,7 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
   - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 
 ---
-💡 **Explore Related:** [Devel Sites](./devel-sites.md) | [Visual Studio](./visual-studio.md) | [Java_App_Servers](./java_app_servers.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Maven Gradle](./maven-gradle.md) | [Python](./python.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

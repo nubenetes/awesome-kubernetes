@@ -1,5 +1,5 @@
 ---
-description: "Top AI Agents MCP resources for 2026, AI-ranked: Awesome MCP Servers, GitHub MCP Server and more — curated Cloud Native tools, guides and references."
+description: "Top AI Agents MCP resources for 2026, AI-ranked: Claude Code Best Practice, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
 ---
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
@@ -492,7 +492,7 @@ Core technical aims:
 
 #### Claude Code
 
-  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 68250</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 13 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
   - **(2025)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official hands-on tutorial and demonstration course by Anthropic showing the real-world utility of Claude Code. It covers basic terminal setups, interactive file refactoring, automated git commit orchestration, and contextual testing loops. Highly valuable for teams integrating terminal-based AI agents directly into daily engineering pipelines.
 #### Cursor IDE
 
@@ -667,5 +667,5 @@ Core technical aims:
 ---
 💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

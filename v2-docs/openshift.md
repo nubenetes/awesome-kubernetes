@@ -22,8 +22,8 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Subreddits
 
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/openshift covering Subreddits in Newsfeeds (reddit.com).
   - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/redhat covering Subreddits in Newsfeeds (reddit.com).
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/openshift covering Subreddits in Newsfeeds (reddit.com).
 ## Cloud Providers
 
 ### AWS
@@ -52,7 +52,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Mariadb
 
-  - **(2026)** [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) <span class='md-tag md-tag--info'>⭐ 32</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1673fd96" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 10 L 20 8 L 30 8 L 40 12 L 50 13" fill="none" stroke="url(#spark-grad-1673fd96)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official SCLOrg MariaDB container image optimized specifically for Kubernetes platforms. Includes integrated security scripts, support for arbitrary non-root UID execution, and custom database initialization configurations.
+  - **(2026)** [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) <span class='md-tag md-tag--info'>⭐ 34</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1673fd96" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 10 L 20 10 L 30 4 L 40 8 L 50 9" fill="none" stroke="url(#spark-grad-1673fd96)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official SCLOrg MariaDB container image optimized specifically for Kubernetes platforms. Includes integrated security scripts, support for arbitrary non-root UID execution, and custom database initialization configurations.
 ## Infrastructure
 
 ### Artifact Repositories
@@ -177,8 +177,8 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Red Hat Ecosystem (1)
 
-  - **(2026)** [==developers.redhat.com 🌟==](https://developers.redhat.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's dedicated developer portal providing comprehensive access to tools, sandboxes, and cloud-native frameworks like Quarkus and Spring on Kubernetes. It bridges the gap between raw cluster endpoints and developer workflows. In 2026, it serves as a cornerstone educational hub for enterprise software engineers.
   - **(2026)** [==Developer Sandbox==](https://developers.redhat.com/developer-sandbox) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides immediate, zero-cost developer access to an active, shared OpenShift cluster environment pre-populated with cloud-native tooling. Eliminates complex infrastructure bootstrapping for developers, letting them deploy containers instantly. In 2026, it is the standard starting sandbox for assessing OpenShift APIs.
+  - **(2026)** [==developers.redhat.com 🌟==](https://developers.redhat.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's dedicated developer portal providing comprehensive access to tools, sandboxes, and cloud-native frameworks like Quarkus and Spring on Kubernetes. It bridges the gap between raw cluster endpoints and developer workflows. In 2026, it serves as a cornerstone educational hub for enterprise software engineers.
 ### Ecosystem
 
 #### Marketplace
@@ -200,15 +200,9 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 #### Hybrid Cloud
 
   - **(2026)** [**OpenShift blog 🌟**](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official blog sharing product updates, strategies, and engineering insights on hybrid cloud infrastructures. It details native integrations, security baselines, and virtualization upgrades. Essential reading for platform architects designing multi-cluster, multi-cloud enterprise footprints in 2026.
-#### Installer
-
-  - **(2026)** [==github.com/openshift/installer openshift installer 🌟==](https://github.com/openshift/installer) <span class='md-tag md-tag--info'>⭐ 1550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23f8b934" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 12 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-23f8b934)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository hosting the OpenShift Installer engine (IPI/UPI), which handles automated platform provisioning on major hypervisors and public clouds. Generates ignition files, configures bootstraps, and controls the automated installation of the core operators. Essential codebase for platform deployment.
 #### Legacy Sandboxes
 
   - **(2022)** [OpenShift Online](https://www.redhat.com/en/technologies/cloud-computing/openshift) 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historically the first multi-tenant public cloud developer platform provided by Red Hat. In modern architectures, this service is fully deprecated and replaced by the modern Developer Sandbox and managed public cloud instances. Retained strictly for historical context.
-#### OKD Core
-
-  - **(2026)** [==github.com/openshift/origin 🌟==](https://github.com/openshift/origin) <span class='md-tag md-tag--info'>⭐ 8658</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bda63148" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 3 L 30 7 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-bda63148)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core open-source repository for OKD (formerly OpenShift Origin), representing the upstream Kubernetes community distribution of OpenShift. Consists of cluster installation systems, APIs, and operators. In 2026, it is the primary engine of community innovation and testing before features migrate to commercial OpenShift.
 #### OKD Core Legacy
 
   - **(2018)** [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟](https://www.redhat.com/en/blog/installing-okd-3-10-on-a-single-host) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Archival tutorial explaining the setup of OKD version 3.10 on a single server. Because modern OKD 4 uses Fedora CoreOS (FCOS) and Operator-based installers, the manual playbooks and Docker engine guidelines described in this post are deprecated and of historical interest only.
@@ -282,7 +276,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

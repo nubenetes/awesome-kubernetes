@@ -82,9 +82,6 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
 #### GCP
 
   - **(2024)** [Google Cloud Architecture Icons](https://cloud.google.com/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standardized Google Cloud Platform graphical asset library and system diagram rules. Designed to assist cloud architects in drafting Google-recommended structures with consistent representations for compute, storage, data, and analytical pipelines.
-#### Kubernetes
-
-  - **(2023)** [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/main/icons) <span class='md-tag md-tag--info'>⭐ 12886</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a419dff2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 9 L 20 11 L 30 7 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-a419dff2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official CNCF-maintained Kubernetes graphic catalog containing SVGs and PNGs representing key system objects like Pods, Services, Deployments, ingress, and Custom Resources. Vital for creating highly precise architectural designs of cloud-native infrastructure.
 #### Security
 
   - **(2021)** [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source library of dedicated cybersecurity and DevSecOps icons created by Aqua Security. Empowers application security professionals to visually document threat boundaries, firewall parameters, and container compliance elements in systems architecture graphs.
@@ -179,7 +176,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12?gi=bf216eb2967e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learningdaily.dev: Software architecture diagramming and patterns covering Introduction in Cloud Arch Diagrams (learningdaily.dev).
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

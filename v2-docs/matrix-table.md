@@ -33,7 +33,7 @@ description: "Curated, AI-ranked Matrix Table resources for the 2026 Cloud Nativ
   - **(2020)** [atodorov.me: Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares managed Kubernetes offerings from secondary cloud providers: DigitalOcean, Scaleway, OVHCloud, and Linode. It analyzes storage driver speeds, control plane SLA pricing, and API version support. This evaluation helps teams design multi-cloud setups and avoid the cost overhead associated with tier-1 hyperscalers.
 
 ---
-💡 **Explore Related:** [Chef](./chef.md) | [Xamarin](./xamarin.md) | [Monitoring](./monitoring.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Uncategorized](./uncategorized.md)
 
-🔗 **See Also:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

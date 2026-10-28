@@ -82,7 +82,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 
 #### Infrastructure Design
 
-  - **(2024)** [github.com/stephaneey/azure-and-k8s-architecture: Azure and K8s Architecture' 🌟](https://github.com/stephaneey/azure-and-k8s-architecture) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated open-source repository featuring detailed visual design maps and deployment blueprints for running enterprise-grade workloads on Azure and AKS. Demonstrates architectural patterns for network security zoning, private endpoints, DNS configuration, and highly isolated hub-and-spoke virtual networks.
+  - **(2024)** [github.com/stephaneey/azure-and-k8s-architecture: Azure and K8s Architecture' 🌟](https://github.com/stephaneey/azure-and-k8s-architecture) <span class='md-tag md-tag--info'>⭐ 89</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-15b7fb33" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 12 L 40 13 L 50 12" fill="none" stroke="url(#spark-grad-15b7fb33)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated open-source repository featuring detailed visual design maps and deployment blueprints for running enterprise-grade workloads on Azure and AKS. Demonstrates architectural patterns for network security zoning, private endpoints, DNS configuration, and highly isolated hub-and-spoke virtual networks.
 ## Automation and Orchestration
 
 ### Infrastructure As Code
@@ -897,7 +897,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/it-infrastructure/tip/Compare-tools-for-multi-cloud-Kubernetes-management) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — NetApp Kubernetes Service -- formerly StackPointCloud Cloudify Terraform Rancher Platform9 Managed Kubernetes Red Hat OpenShift Juke, from HTBase, now owned by Juniper Networks.
 
 ---
-💡 **Explore Related:** [AWS Security](./aws-security.md) | [Azure](./azure.md) | [AWS Networking](./aws-networking.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Networking](./aws-networking.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -121,7 +121,7 @@ description: "Top Freelancing resources for 2026, AI-ranked: freelancer, crossov
   - **(2026)** [soshace](https://soshace.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated remote work platform targeting web developers, specifically focusing on React, Angular, and Node.js engineers. It offers transparent vetting and direct client-to-developer contracts. Live grounding emphasizes its utility for medium-sized businesses seeking rapid frontend scaling.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

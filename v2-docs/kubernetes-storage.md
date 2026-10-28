@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEBS and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, Kadalu and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Storage. Cloud Native Storage
 
@@ -246,7 +246,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEB
   - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)
+💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [Chef](./chef.md) | [Xamarin](./xamarin.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 
