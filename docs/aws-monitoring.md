@@ -52,6 +52,7 @@
   - **(2026)** [Introducing Radar Researcher: An AI tool for exploring Internet data in plain language](https://blog.cloudflare.com/introducing-radar-researcher) 🌟 - Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language.
 
   - **(2026)** [Is your domain using post-quantum encryption? Now you can see for yourself](https://blog.cloudflare.com/post-quantum-visibility) 🌟 - Cloudflare has integrated post-quantum (PQ) cryptography visibility into its HTTP Traffic Analytics and Log Explorer.
+  - **(2026)** [Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale](https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4) 🌟 - Netflix outlines the Unified Data Architecture (UDA), a knowledge graph enabling specialized AI agents to reason across distributed systems.
 
 ## Error Tracking and Performance Monitoring
   - **(2026)** [Sentry](https://github.com/getsentry/sentry) 🌟 - Developer-first error tracking and performance monitoring.
