@@ -99,7 +99,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Oct 28, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 01, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -233,14 +233,14 @@
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a></div>
   <div class="trending-card__meta">2026-06-14 · 3.8k★</div>
-  <div class="trending-card__why">The NVIDIA device plugin is the industry-standard foundation for orchestrating GPU resources and hardware acceleration for AI/ML workloads on Kubernetes.</div>
+  <div class="trending-card__why">The NVIDIA device plugin is the foundational industry standard enabling Kubernetes to schedule and manage GPU resources for modern AI/ML workloads.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
   <div class="trending-card__title"><a href="https://github.com/astral-sh/ruff">Ruff</a></div>
   <div class="trending-card__meta">2026-06-14 · 48k★</div>
-  <div class="trending-card__why">Ruff has revolutionized Python tooling by providing an extremely fast, Rust-based unified linter and formatter that drastically cuts CI runtimes.</div>
+  <div class="trending-card__why">Ruff has become the de facto standard Python linter and formatter, radically reducing CI/CD execution times across enterprise codebases.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -253,7 +253,7 @@
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">GCP, OCI & Others</div>
   <div class="trending-card__title"><a href="https://github.com/GoogleCloudPlatform/k8s-config-connector">k8s-config-connector: GCP Config Connector</a></div>
-  <div class="trending-card__meta">2026-06-14 · 1k★</div>
+  <div class="trending-card__meta">2026-06-14 · 1.1k★</div>
   <div class="trending-card__why">Enables true GitOps by allowing teams to manage Google Cloud infrastructure natively through declarative Kubernetes CRDs.</div>
 </div>
 <div class="trending-card">
@@ -286,6 +286,13 @@
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Data, Messaging & Storage</div>
+  <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
+  <div class="trending-card__meta">2026-06-12 · 10.1k★</div>
+  <div class="trending-card__why">Velero is the essential enterprise benchmark for backing up, restoring, and disaster-recovering Kubernetes state and persistent volumes.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Networking & Service Mesh</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a></div>
   <div class="trending-card__meta">2026-06-12 · 2.9k★</div>
@@ -297,13 +304,6 @@
   <div class="trending-card__title"><a href="https://github.com/rootsongjc/awesome-cloud-native">rootsongjc/awesome-cloud-native 🌟</a></div>
   <div class="trending-card__meta">2026-06-08 · 2.5k★</div>
   <div class="trending-card__why">Provides an architectural taxonomy of the CNCF landscape covering service meshes, distributed storage, and cloud-native observability.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Infrastructure as Code</div>
-  <div class="trending-card__title"><a href="https://www.infoq.com/news/2026/05/opentofu-release-terraform">OpenTofu 1.12: the Feature Terraform Never Shipped</a></div>
-  <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Highlights a major milestone in the open-source IaC ecosystem, resolving long-standing module limitations that upstream Terraform historically avoided.</div>
 </div>
 </div>
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -408,7 +408,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#chinese-content" title="1 resources">Chinese<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ci-cd" title="3 resources">Ci-Cd<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8394 resources">Community-Tool<span class="v2-heat-n">8394</span></a>
+<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8393 resources">Community-Tool<span class="v2-heat-n">8393</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1229 resources">De Facto Standard<span class="v2-heat-n">1229</span></a>
@@ -421,7 +421,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-3" href="/tags/#ebpf" title="70 resources">EBPF<span class="v2-heat-n">70</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#emerging" title="488 resources">Emerging<span class="v2-heat-n">488</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1094 resources">Enterprise-Stable<span class="v2-heat-n">1094</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1095 resources">Enterprise-Stable<span class="v2-heat-n">1095</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
@@ -464,7 +464,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="1 resources">Kubernetes<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="559 resources">Legacy<span class="v2-heat-n">559</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="577 resources">Legacy<span class="v2-heat-n">577</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#llm" title="81 resources">LLM<span class="v2-heat-n">81</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
