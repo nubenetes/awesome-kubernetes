@@ -46,6 +46,7 @@
 ### K8s YAML tips
 
 - [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81?gi=14d66399955b)
+  - **(2026)** [How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To](https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml) 🌟 - YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and official document relies on it.
 
 ### YAML anchors and aliases
 
