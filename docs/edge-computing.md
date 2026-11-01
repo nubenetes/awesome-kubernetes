@@ -19,3 +19,9 @@
 ## Edge Security
   - **(2026)** [A revisit of remote Spectre attacks on Cloudflare Workers](https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers) 🌟 - Cloudflare researchers demonstrate a remote Spectre attack in production and deploy in-process isolation defenses.
   - **(2026)** [Secure all your internal vibe-coded applications — in one click](https://blog.cloudflare.com/workers-protected-by-access) 🌟 - Cloudflare Access now attaches directly to Workers, propagating zero-trust authentication across all domains and previews.
+
+## Edge AI
+  - **(2026)** [Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI](https://huggingface.co/blog/webgpu-kernels) 🌟 - A massive release of over 200 versioned WebGPU kernels designed to standardize and accelerate local in-browser AI inference.
+  - **(2026)** [Run AI Models for Edge Application Development with Just a Few Commands](https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands) 🌟 - How to utilize TensorRT Edge-LLM and the DGX Spark 64GB platform to rapidly prototype and deploy AI models for edge embedded applications.
+  - **(2026)** [TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor](https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor) 🌟 - NVIDIA demonstrates a 6.4x edge inference speedup for long-context conversational AI agents using NVFP4 quantization and KV cache reuse on Jetson AGX Thor.
+  - **(2026)** [Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson](https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson) 🌟 - Strategies for deploying and optimizing multi-step reasoning and agentic AI models on resource-constrained NVIDIA Jetson edge devices.
