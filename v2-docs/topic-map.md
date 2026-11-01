@@ -108,7 +108,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-5" href="/managed-kubernetes-in-public-cloud/" title="Managed Kubernetes In Public Cloud — 252 resources"><span class="topic-heatcell__name">Managed Kubernetes In Public Cloud</span><span class="topic-heatcell__n">252</span></a>
 <a class="topic-heatcell th-5" href="/aws-newfeatures/" title="AWS Newfeatures — 125 resources"><span class="topic-heatcell__name">AWS Newfeatures</span><span class="topic-heatcell__n">125</span></a>
 <a class="topic-heatcell th-4" href="/aws-security/" title="AWS Security — 85 resources"><span class="topic-heatcell__name">AWS Security</span><span class="topic-heatcell__n">85</span></a>
-<a class="topic-heatcell th-4" href="/aws/" title="AWS — 80 resources"><span class="topic-heatcell__name">AWS</span><span class="topic-heatcell__n">80</span></a>
+<a class="topic-heatcell th-4" href="/aws/" title="AWS — 81 resources"><span class="topic-heatcell__name">AWS</span><span class="topic-heatcell__n">81</span></a>
 <a class="topic-heatcell th-4" href="/GoogleCloudPlatform/" title="Googlecloudplatform — 71 resources"><span class="topic-heatcell__name">Googlecloudplatform</span><span class="topic-heatcell__n">71</span></a>
 <a class="topic-heatcell th-4" href="/aws-networking/" title="AWS Networking — 50 resources"><span class="topic-heatcell__name">AWS Networking</span><span class="topic-heatcell__n">50</span></a>
 <a class="topic-heatcell th-4" href="/aws-serverless/" title="AWS Serverless — 44 resources"><span class="topic-heatcell__name">AWS Serverless</span><span class="topic-heatcell__n">44</span></a>
@@ -150,7 +150,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-4" href="/rancher/" title="Rancher — 68 resources"><span class="topic-heatcell__name">Rancher</span><span class="topic-heatcell__n">68</span></a>
 <a class="topic-heatcell th-4" href="/serverless/" title="Serverless — 64 resources"><span class="topic-heatcell__name">Serverless</span><span class="topic-heatcell__n">64</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-autoscaling/" title="Kubernetes Autoscaling — 62 resources"><span class="topic-heatcell__name">Kubernetes Autoscaling</span><span class="topic-heatcell__n">62</span></a>
-<a class="topic-heatcell th-4" href="/kubernetes-releases/" title="Kubernetes Releases — 58 resources"><span class="topic-heatcell__name">Kubernetes Releases</span><span class="topic-heatcell__n">58</span></a>
+<a class="topic-heatcell th-4" href="/kubernetes-releases/" title="Kubernetes Releases — 60 resources"><span class="topic-heatcell__name">Kubernetes Releases</span><span class="topic-heatcell__n">60</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-backup-migrations/" title="Kubernetes Backup Migrations — 42 resources"><span class="topic-heatcell__name">Kubernetes Backup Migrations</span><span class="topic-heatcell__n">42</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-alternatives/" title="Kubernetes Alternatives — 39 resources"><span class="topic-heatcell__name">Kubernetes Alternatives</span><span class="topic-heatcell__n">39</span></a>
 <a class="topic-heatcell th-4" href="/kubectl-commands/" title="Kubectl Commands — 39 resources"><span class="topic-heatcell__name">Kubectl Commands</span><span class="topic-heatcell__n">39</span></a>
@@ -341,7 +341,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[AWS Security](./aws-security.md)** <span class="topic-count">85</span>
 - **[AWS Serverless](./aws-serverless.md)** <span class="topic-count">44</span>
 - **[AWS Storage](./aws-storage.md)** <span class="topic-count">25</span>
-- **[AWS](./aws.md)** <span class="topic-count">80</span>
+- **[AWS](./aws.md)** <span class="topic-count">81</span>
 - **[Azure](./azure.md)** <span class="topic-count">393</span>
 - **[Digitalocean](./digitalocean.md)** <span class="topic-count">9</span>
 - **[Edge Computing](./edge-computing.md)** <span class="topic-count">11</span>
@@ -382,7 +382,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Kubernetes Monitoring](./kubernetes-monitoring.md)** <span class="topic-count">70</span>
 - **[Kubernetes On Premise](./kubernetes-on-premise.md)** <span class="topic-count">72</span>
 - **[Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)** <span class="topic-count">128</span>
-- **[Kubernetes Releases](./kubernetes-releases.md)** <span class="topic-count">58</span>
+- **[Kubernetes Releases](./kubernetes-releases.md)** <span class="topic-count">60</span>
 - **[Kubernetes Storage](./kubernetes-storage.md)** <span class="topic-count">81</span>
 - **[Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)** <span class="topic-count">77</span>
 - **[Noops](./noops.md)** <span class="topic-count">7</span>

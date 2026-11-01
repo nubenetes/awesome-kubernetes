@@ -16,6 +16,20 @@ description: "Curated, AI-ranked Kubernetes Releases resources for the 2026 Clou
 #### Security
 
   - **(2023)** [Private Access to the AWS Management Console is generally available](https://aws.amazon.com/about-aws/whats-new/2023/05/aws-management-console-private-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the general availability of Private Access to the AWS Management Console. This feature allows enterprise customers to limit console access to connections originating from specific network endpoints or VPCs, drastically reducing potential attack surfaces and ensuring secure administration paths.
+## Kubernetes
+
+### Control Plane Architecture
+
+#### API Server
+
+##### Mixed Version Proxy
+
+  - **(2026)** [**Kubernetes v1.36: Mixed Version Proxy Graduates to Beta**](https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Architectural breakdown of the Mixed Version Proxy (KEP-4020) graduating to Beta and becoming enabled by default in Kubernetes 1.36. The mechanism prevents false 404 errors during mixed-version control plane rolling upgrades by proxying unrecognized resource requests to a newer peer API server. Enforces peer-aggregated discovery data flows, allowing operators to build and upgrade highly available control planes with zero client disruption.
+#### Cloud Controller Manager CCM
+
+##### Instrumentation
+
+  - **(2026)** [**Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager**](https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analysis of the new alpha metric 'route_controller_route_sync_total' introduced in the Kubernetes v1.36 Cloud Controller Manager (CCM). Designed to facilitate A/B validation of the 'CloudControllerManagerWatchBasedRoutesReconciliation' feature gate, transitioning cloud routing loops from fixed polling intervals to reactive, watch-based reconciliation. Drastically reduces redundant control plane queries to underlying hyperscaler APIs, preventing rate-limiting blocks in large-scale cluster architectures.
 ## Kubernetes Core
 
 ### API Evolution
