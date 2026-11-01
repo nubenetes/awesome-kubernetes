@@ -36,3 +36,23 @@ If you meet the requirements and wish to claim a specific inactive handle, you c
   - **(2026)** [Rendering huge pull requests in the GitHub Copilot app](https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app) 🌟 - How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.
 
   - **(2026)** [Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems](https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems) 🌟 - A mature C++ library for specifying and solving large-scale assignment and resource allocation problems.
+
+  - **(2026)** [OpenAI models are coming to Google Cloud](https://openai.com/index/openai-models-google-cloud) 🌟 - OpenAI and Google Cloud partner to bring frontier models and Codex workflows natively to Gemini's Model Garden, transacted through Google Cloud Marketplace.
+
+  - **(2026)** [tokenizers v1: encode, decode and scaling, measured](https://huggingface.co/blog/tokenizers-v1) 🌟 - Update on the Hugging Face Tokenizers library reaching v1, with significant architectural improvements for scaling and multithreading.
+
+  - **(2026)** [Control How Your GPU Shares Work with Green Contexts](https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts) 🌟 - Explore how Green Contexts offer an advanced mechanism to control and optimize concurrent GPU sharing within single processes.
+
+  - **(2026)** [Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK](https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk) 🌟 - How NVIDIA cuObject and the SCADA Server SDK provide a scalable architectural solution for AI storage integration and GPU data movement.
+
+  - **(2026)** [What's New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering](https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities) 🌟 - Technical breakdown of DLSS 5 controls, RTX Mega Geometry 2.0 for streaming LOD clusters, and new NVIDIA ACE speech models designed for low-latency local AI inference in games.
+
+  - **(2026)** [Introducing CUDA Rust: Two Tracks for Writing GPU Kernels](https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels) 🌟 - NVIDIA announces native GPU programming tracks utilizing Rust, featuring a tile-based system for safe, idiomatic kernel authoring that extends the language's ownership model to CUDA execution.
+
+  - **(2026)** [The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough](https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough) 🌟 - A comprehensive optimization walkthrough utilizing the modern CUDA toolbox, including Compute Sanitizer, CCCL API, Nsight Systems, and CUB.
+
+  - **(2026)** [Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS](https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps) 🌟 - Optimize the energy footprint and output of power-constrained AI factories using the DSX MaxLPS suite.
+
+  - **(2026)** [DataJunction as Netflix's answer to the missing piece of the modern data stack](https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4) 🌟 - Netflix introduces DataJunction (DJ), a semantic layer that centralizes metric definitions and bridges the gap between raw data storage and business dashboarding.
+
+  - **(2026)** [Behind the Scenes: Evolving Netflix's Ads Event Pipeline for Live — Part II](https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4) 🌟 - Netflix details the evolution and scaling of its Ads Event pipeline to support massive live broadcasting workloads by replacing fragmented, legacy pipelines with a unified architecture.
