@@ -18,6 +18,17 @@ GLOBAL_COOLDOWN_UNTIL = 0
 THROTTLED_MODELS = {} # {model_name: timestamp}
 GLOBAL_AI_SEMAPHORE = asyncio.Semaphore(15) # Increased to 15 for high-tier processing
 
+PRO_FRONTIER_KEYWORDS = ("pro", "argon", "carbon", "ultra")
+FLASH_KEYWORDS = ("flash", "lite")
+
+def is_pro_frontier_model(model_name: str) -> bool:
+    name = model_name.lower()
+    return any(k in name for k in PRO_FRONTIER_KEYWORDS)
+
+def is_flash_model(model_name: str) -> bool:
+    name = model_name.lower()
+    return any(k in name for k in FLASH_KEYWORDS)
+
 class GeminiSessionTracker:
     def __init__(self):
         self.model_usage = {} # {model_name: count}
@@ -69,7 +80,7 @@ class GeminiSessionTracker:
         report += "| Model Used | Successful Calls | Hierarchy Logic |\n| :--- | :---: | :--- |\n"
         usage_items = sorted(self.model_usage.items(), key=lambda x: x[1], reverse=True)
         for model, count in usage_items:
-            logic = "Elite Auditor (High Reasoning)" if "pro" in model else "Fast Analyst (High Speed)"
+            logic = "Elite Auditor (High Reasoning)" if is_pro_frontier_model(model) else "Fast Analyst (High Speed)"
             report += f"| `{model}` | **{count}** | {logic} |\n"
         if not self.model_usage: report += "| No AI calls | 0 | N/A |\n"
         
@@ -127,22 +138,31 @@ async def discover_optimal_models():
 
     if not all_supported:
         log_event("  [!] Discovery failed. Falling back to safe defaults.")
-        DISCOVERED_MODELS = ["gemini-1.5-flash-latest", "gemini-1.5-flash", "gemini-1.5-pro"]
+        DISCOVERED_MODELS = [
+            "gemini-3.8-flash",
+            "gemini-3.1-pro-preview",
+            "gemini-1.5-flash-latest",
+            "gemini-1.5-flash",
+            "gemini-1.5-pro",
+        ]
         return DISCOVERED_MODELS
 
     def score_model(name: str) -> float:
         score = 0.0
-        version_match = re.search(r'(\d+\.\d+)', name)
+        # Robust version parser matching both decimals (3.8, 1.5) and integers (4)
+        version_match = re.search(r'gemini-(\d+(?:\.\d+)?)', name) or re.search(r'(\d+(?:\.\d+)?)', name)
         if version_match:
             try:
                 version = float(version_match.group(1))
                 score += version * 50
             except Exception as e:
                 log_event(f"[WARN] parse model version for {name}: {str(e)[:100]}")
-        if "-ultra" in name: score += 100
-        elif "-pro" in name: score += 50
-        elif "-flash" in name: score += 25
-        elif "-lite" in name: score += 10
+        # Tier identification and weighting
+        if "-ultra" in name or "ultra" in name: score += 100
+        elif any(k in name for k in ["argon", "carbon"]): score += 80  # Gen-4 frontier flagships
+        elif "-pro" in name or "pro" in name: score += 50
+        elif "-flash" in name or "flash" in name: score += 25
+        elif "-lite" in name or "lite" in name: score += 10
         if "-latest" in name: score += 5
         if "experimental" in name or "exp" in name: score -= 15
         return score
@@ -517,17 +537,19 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
     
     # 1. Smart Filtering and Re-ordering
     if use_grounding:
-        # For grounding, we MANDATE Pro models as they have superior search/reasoning capabilities
-        models = [m for m in models_pool if "pro" in m]
+        # For grounding/auditing, mandate Pro/Frontier models with superior reasoning & search verification
+        models = [m for m in models_pool if is_pro_frontier_model(m)]
         if not models:
-            models = ["gemini-1.5-pro", "gemini-1.5-pro-latest"]
+            models = ["gemini-3.1-pro-preview", "gemini-1.5-pro", "gemini-1.5-pro-latest"]
     elif prefer_flash:
-        # Strict filter: Only allow flash/lite models
-        models = [m for m in models_pool if "flash" in m or "lite" in m]
+        # Strict filter: Only allow flash/lite models for high-throughput and cost efficiency
+        models = [m for m in models_pool if is_flash_model(m)]
         if not models:
-            models = ["gemini-1.5-flash", "gemini-1.5-flash-latest"]
+            models = ["gemini-3.8-flash", "gemini-1.5-flash", "gemini-1.5-flash-latest"]
     else:
-        models = models_pool
+        # Non-flash tasks (e.g. Debate Synthesis, architectural audits) default to Pro/Frontier reasoning models
+        pro_frontier = [m for m in models_pool if is_pro_frontier_model(m)]
+        models = pro_frontier if pro_frontier else models_pool
 
     total_keys = len(GEMINI_API_KEYS)
     
@@ -589,9 +611,9 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                             except Exception as e:
                                                 log_event(f"[WARN] parse Gemini content JSON for model {model}: {str(e)[:100]}")
                                         
-                                        # QUALITY UPGRADE: If flash failed parsing, don't give up on the key, try a Pro model
-                                        if ("flash" in model or "lite" in model) and any("pro" in m for m in models):
-                                            diagnostics.add_attempt(model, 200, "Flash JSON error - Upgrading to Pro...")
+                                        # QUALITY UPGRADE: If flash failed parsing, don't give up on the key, try a Pro/Frontier model
+                                        if is_flash_model(model) and any(is_pro_frontier_model(m) for m in models):
+                                            diagnostics.add_attempt(model, 200, "Flash JSON error - Upgrading to Pro/Frontier...")
                                             continue 
                                             
                                         diagnostics.add_attempt(model, 200, "JSON not found")
@@ -607,7 +629,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 log_event(f"    [TELEMETRY] 429 Details: {response.text[:200]}")
                                 
                                 # 2. ADAPTIVE TIERING: Mark this specific model as throttled
-                                throttle_duration = 30 if "pro" in model else 15
+                                throttle_duration = 30 if is_pro_frontier_model(model) else 15
                                 THROTTLED_MODELS[f"{current_idx}_{model}"] = time.time() + throttle_duration
                                 
                                 # 3. GLOBAL THROTTLING: Slow down entire engine
