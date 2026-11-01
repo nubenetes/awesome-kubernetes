@@ -51,6 +51,7 @@
 - [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
 - [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching)
 - [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work)
+  - **(2026)** [Origin Range Requests: Serving large files without range-request tuning](https://blog.cloudflare.com/origin-range-requests) 🌟 - Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically.
 
 ## HAProxy
 
