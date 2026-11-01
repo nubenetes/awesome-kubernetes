@@ -358,6 +358,7 @@
 ### Orchest. Data Pipelines with Python and R code. No frameworks. No YAML
 
 - [orchest.io](https://orchest.io) - [orchest/orchest](https://github.com/orchest/orchest) Build data pipelines, the easy way 🛠️. No frameworks. No YAML. Just write Python and R code in Notebooks.
+  - **(2026)** [How to Read Data Into GPU Memory in Python with NVIDIA GPUDirect Storage](https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage) 🌟 - A practical implementation guide for configuring and utilizing NVIDIA GPUDirect Storage to accelerate dataset ingestion pipelines directly into Python GPU arrays.
 
 ## Python standard library Modules and Code
 
@@ -416,6 +417,7 @@
 - https://pypi.org 🌟 **Find, install and publish Python packages with the Python Package Index**. The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.
 - [Click 🌟](https://click.palletsprojects.com/en/stable) is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
 - [PyGithub 🌟](https://github.com/PyGithub/PyGithub) Typed interactions with the GitHub API v3 - [pygithub.readthedocs.io](https://pygithub.readthedocs.io/en/stable) PyGitHub is a Python library to access the GitHub REST API. This library enables you to manage GitHub resources such as repositories, user profiles, and organizations in your Python applications.
+  - **(2026)** [CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access](https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access) 🌟 - CUDA Python 1.0 offers stable Pythonic access and full C API bindings to the NVIDIA platform.
 
 ## Python Snippets
 
@@ -475,3 +477,9 @@
 
 ## Python Community
   - **(2026)** [10 Years of Meta's Commitment to Python](https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python) 🌟 - Meta celebrates its 10th consecutive year sponsoring the Python Software Foundation, underscoring Python's impact on CPython optimizations, PyTorch development, and enterprise applications.
+
+### PyTorch
+  - **(2026)** [Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP](https://huggingface.co/blog/torch-mlp-fusion) 🌟 - Part 2 of a series on PyTorch profiling, focusing on optimizing and fusing linear layers.
+
+## Python Typing
+  - **(2026)** [Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape](https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape) 🌟 - Meta's 2026 Python Typing Survey provides a comprehensive analysis of how AI-assisted tools and evolving type checkers are reshaping Python development.
