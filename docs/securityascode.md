@@ -174,3 +174,10 @@
   - **(2026)** [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs) 🌟 - Cloudflare details its upcoming support for Merkle Tree Certificates (MTCs) to solve the scale and performance challenges of post-quantum cryptography.
 
   - **(2026)** [We tested our own WAF with frontier AI models. Here's what we found](https://blog.cloudflare.com/adaptive-ai-waf-testing) 🌟 - Cloudflare engineered an adaptive AI-driven WAF testing loop that mutates attack vectors to uncover hidden evasion techniques.
+
+  - **(2026)** [4 real? Tracking exploitation and patching of eMudhra's weak keys](https://blog.cloudflare.com/emudhra-patching) 🌟 - Cloudflare details its rapid response to a vulnerability in eMudhra's certificate issuance system that generated RSA private keys with only 4 bits of entropy.
+
+  - **(2026)** [Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale](https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale) 🌟 - Meta introduces JiTTesting, an advanced bug-catching system operating at full scale with a human-on-the-loop approach.
+
+## PrivacyLib
+  - **(2026)** [PrivacyLib: Privacy Controls at the Data Access Boundary](https://engineering.fb.com/2026/10/27/security/privacylib) 🌟 - PrivacyLib is Meta's foundational framework for enforcing privacy controls directly at the data access boundary.

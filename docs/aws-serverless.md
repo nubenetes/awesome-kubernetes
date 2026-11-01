@@ -75,3 +75,8 @@
 
 ## AWS Lambda
   - **(2026)** [Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs](https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms) 🌟 - AWS launches AWS Lambda MicroVMs, a serverless compute primitive that exposes stateful, isolated Firecracker execution environments with unopinionated network ingress and full lifecycle control.
+
+  - **(2026)** [See your serverless: introducing the Headlamp plugin for Knative](https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin) 🌟 - Announcement of the Headlamp plugin for Knative, enabling intuitive visual exploration and management of serverless workloads.
+
+  - **(2026)** [Run a vLLM Server on HF Jobs in One Command](https://huggingface.co/blog/vllm-jobs) 🌟 - A technical guide to spinning up private, OpenAI-compatible LLM endpoints seamlessly using Hugging Face Jobs.
+  - **(2026)** [Announcing AWS Lambda Web Functions](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere) 🌟 - AWS announces Lambda Web Functions, an architecture designed for ultra-low latency HTTP request processing.

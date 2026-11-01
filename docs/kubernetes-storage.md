@@ -127,6 +127,7 @@
     - What are persistent volumes, and how to use them
     - How to use an NFS volume
     - Shared data and volumes between pods
+  - **(2026)** [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time) 🌟 - Kubernetes v1.37 promotes the PersistentVolumeClaimUnusedSinceTime feature gate to Beta, empowering FinOps automation.
 
 ## DoK Community
 
@@ -264,6 +265,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 - [SMB CSI Driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-smb) This driver allows Kubernetes to access SMB Server on both Linux and Windows nodes.
 - [github.com/yandex-cloud: CSI for S3](https://github.com/yandex-cloud/k8s-csi-s3) This is a Container Storage Interface (CSI) for S3 (or S3 compatible) storage. This can dynamically allocate buckets and mount them via a fuse mount into any container.
 - [sklar.rocks: How the CSI (Container Storage Interface) Works](https://sklar.rocks/how-container-storage-interface-works)
+  - **(2026)** [Kubernetes Changed Block Tracking API - Beta Differences](https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta) 🌟 - Changed Block Tracking (CBT) support for CSI drivers shipped as Alpha in September 2025. Explore the v1.37 Beta differences.
 
 ## Kubestr
 
@@ -308,3 +310,9 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/0swOh5C3OVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </center>
+
+## Storage Version Migration
+  - **(2026)** [Kubernetes v1.37: Storage Version Migration Enabled by Default](https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga) 🌟 - Storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37.
+
+## Kubernetes SIG Storage
+  - **(2026)** [Spotlight on SIG Storage](https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026) 🌟 - A summary of recent achievements and the future roadmap for Kubernetes SIG Storage, focusing on robust data protection and CSI advancements.

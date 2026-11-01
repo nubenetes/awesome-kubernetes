@@ -231,6 +231,7 @@
 - [==armosec.io: The New Kubernetes Gateway API and Its Use Cases==](https://www.armosec.io/blog/kubernetes-gateway-api)
 - [medium.com/google-cloud: Security with Kubernetes Gateway API 🌟](https://medium.com/google-cloud/security-with-kubernetes-gateway-api-dcbb934ed2a4)
 - [navendu.me: Comparing Kubernetes Gateway and Ingress APIs](https://navendu.me/posts/gateway-vs-ingress-api) you will explore the new Kubernetes Gateway API and compare it with the existing Kubernetes Ingress API for handling external traffic
+  - **(2026)** [Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release) 🌟 - The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was recently released.
 
 ## Kube-proxy
   - [NFTables mode for kube-proxy in Kubernetes](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy) 🌟 -the new nftables mode for kube-proxy, an alpha feature in Kubernetes 1.29 that is currently in beta and expected to reach General Availability (GA) in version 1.33. The new mode addresses long-standing performance issues associated with the iptables mode, particularly for large Kubernetes clusters with numerous Services. It leverages the capabilities of nftables to improve data plane latency by providing a more scalable and efficient way to handle Service proxying compared to the traditional iptables approach. The article encourages users with recent kernels to try out this new mode.

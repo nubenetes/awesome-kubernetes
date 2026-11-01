@@ -45,6 +45,7 @@
 - [==nativecloud.dev== 🌟](https://nativecloud.dev)
 - [Kube Events](https://kube.events)
   - **(2026)** [Your guide to GitHub Universe 2026 is here: The schedule just launched!](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched) 🌟 - The official session catalog and schedule release for GitHub Universe 2026.
+  - **(2026)** [September 2026 AI Updates](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026) 🌟 - See the full list of September AI updates.
 
 ## Stack Overflow Collectives
 
@@ -55,3 +56,5 @@
     - etc
 
   - **(2026)** [Developer policy update: Transparency, state policy, and what’s ahead](https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead) 🌟 - Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source.
+
+  - **(2026)** [Octoverse 2026: Commits and Pushes Reach New Highs as Developers Build With Agents](https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents) 🌟 - The 2026 Octoverse report demonstrates record-breaking platform growth and the systemic impact of AI coding agents across global software engineering.

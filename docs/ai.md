@@ -170,3 +170,7 @@ security from the beginning with continuous testing, automation, zero trust, and
   - **(2026)** [Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks](https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks) 🌟 - AWS introduces native Kubernetes version rollbacks for Amazon EKS clusters to mitigate upgrade risks.
 
   - **(2026)** [AWS Elastic Beanstalk introduces Cluster Mode](https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode) 🌟 - AWS Elastic Beanstalk introduces Cluster Mode for improved workload management.
+  - **(2026)** [Single-Tenant Titus: VM-Level Isolation on a Multi-Tenant Container Platform](https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4) 🌟 - An overview of how Netflix achieved single-tenant VM-level isolation on Titus using dedicated EC2 instances for performance-sensitive workloads.
+
+## Amazon ECS
+  - **(2026)** [Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services](https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services) 🌟 - Amazon ECS Gateway provides a fully-managed, native ingress routing solution tailored specifically for ECS workloads.

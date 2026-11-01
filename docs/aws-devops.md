@@ -45,3 +45,5 @@
   - **(2026)** [Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)](https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview) 🌟 - An autonomous agentic service that continuously scans codebases to detect, prioritize, and remediate tech debt at scale.
 
   - **(2026)** [The cost of saying yes has changed](https://github.blog/engineering/the-cost-of-saying-yes-has-changed) 🌟 - The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era.
+
+  - **(2026)** [GitHub Universe 2026: Evolving Every Layer of the Stack](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack) 🌟 - Official recap of GitHub Universe 2026, outlining the strategic evolution of the platform to support agentic AI workflows and automated software delivery at scale.

@@ -402,6 +402,7 @@
   - **(2026)** [GitHub Copilot app for Beginners: Automate Dependabot pull request triage](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage) 🌟 - Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.
   - **(2026)** [Tame Dependabot: Group your updates, slow the cadence, keep security fast](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast) 🌟 - Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.
   - **(2026)** [AI-powered fuzzing with the GitHub Security Lab Taskflow Agent](https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent) 🌟 - In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework.
+  - **(2026)** [Staying Evergreen: How we automated secure access and repo hygiene in a shared org](https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org) 🌟 - A technical deep-dive into Evergreen, a GitHub App built to automate outside collaborator access reviews and archive stale repositories.
 
 ## Databases in DMZ and Intranet
 
@@ -653,6 +654,7 @@
 ## Static Analysis SAST
 
 - [DevSecOps – Static Analysis SAST with Jenkins Pipeline](https://digitalvarys.com/devsecops-static-analysis-sast-with-jenkins-pipeline)
+  - **(2026)** [CodeRabbit leverages GPT-6.1 Sol to scale deep code security analysis](https://openai.com/index/gpt-6-1-sol-coderabbit-code-security) 🌟 - CodeRabbit adopts OpenAI's GPT-6.1 Sol to deliver near-Astra level intelligence for automated security reviews at a fraction of the cost.
 
 ## Kubernetes Security Tools
 
@@ -803,6 +805,16 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
   - **(2026)** [The Defender's Window](https://openai.com/index/the-defenders-window) 🌟 - An analysis of how organizations must urgently leverage AI to automate cybersecurity defenses and clear tech debt before attackers exploit the same capabilities.
   - **(2026)** [How we found 24 Android vulnerabilities using our open source AI security agent](https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent) 🌟 - A look at the targeted AI taskflows behind these findings, the bugs they uncovered, and how to run the same open-source agent on your own app.
   - **(2026)** [Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks](https://blog.cloudflare.com/ai-era-framework) 🌟 - Cloudflare details an adaptive application security framework connecting risk discovery, agent governance, runtime protection, and threat response.
+  - **(2026)** [How Check Point accelerates vulnerability research with Daybreak](https://openai.com/index/check-point-daybreak) 🌟 - Check Point utilizes the OpenAI Daybreak Defense Network to reduce vulnerability analysis times from hours to minutes.
+  - **(2026)** [Securing our frontier model training environment](https://openai.com/index/securing-our-frontier-model-training-environment) 🌟 - OpenAI shares how they strengthened containment for internal frontier-model training and evaluation, leveraging their strongest models to red-team boundaries.
+  - **(2026)** [Patch the Planet: global response coordination as agents uncover critical vulnerabilities](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities) 🌟 - OpenAI's Patch the Planet initiative highlights how AI agents like GPT-5.6 Sol uncover critical vulnerabilities, such as a major PHP flaw, to coordinate defensive patches before exploitation.
+  - **(2026)** [Cloudflare links vulnerability discovery to defense with OpenAI](https://openai.com/index/cloudflare-cyber) 🌟 - Cloudflare integrates OpenAI Daybreak and Codex to automate vulnerability discovery and remediation, prioritizing risks and deploying edge protections.
+  - **(2026)** [Democratic governance of frontier AI, part II: Empowering cyber defenders](https://openai.com/index/empowering-cyber-defenders) 🌟 - OpenAI's action plan for cybersecurity in the Intelligence Age, detailing pillars for democratizing cyber defense and building resilience in public institutions.
+  - **(2026)** [SentinelOne cuts malware analysis from weeks to hours with OpenAI Daybreak](https://openai.com/index/sentinelone) 🌟 - SentinelOne leverages the OpenAI Daybreak cybersecurity platform to drastically accelerate reverse engineering of sophisticated malware.
+  - **(2026)** [How Block is building AI-powered security with OpenAI technology](https://openai.com/index/block-ai-powered-security) 🌟 - Block uses the OpenAI Defense Factory and Daybreak models to handle vulnerability discovery and response at scale.
+  - **(2026)** [Sophos cuts threat investigation time by 96% with OpenAI Daybreak](https://openai.com/index/sophos) 🌟 - Sophos applies OpenAI's Daybreak models across its Managed Detection and Response (MDR) services to significantly accelerate threat investigations.
+  - **(2026)** [Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing](https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing) 🌟 - A technical guide on utilizing NVIDIA Confidential Computing and TensorRT LLM to secure sensitive AI inference workloads on Blackwell GPUs.
+  - **(2026)** [Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron](https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron) 🌟 - Creating a validation-first, offensive-defensive agentic cybersecurity system combining Nemotron models, CrowdStrike Falcon telemetry, and specialized agent harnesses.
 
 ## Open Source Security
   - **(2026)** [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet) 🌟 - Collaboration between OpenAI, Trail of Bits, HackerOne, and Calif to deliver automated security patches for open-source software.

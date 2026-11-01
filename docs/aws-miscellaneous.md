@@ -174,3 +174,6 @@
 ## AWS Landing Zone
 
 - [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)
+
+## AWS Trainium
+  - **(2025)** [TorchNeuron: Running HF Models on AWS Trainium is Easier Than Ever](https://huggingface.co/blog/hf-torchneuron) 🌟 - Guide to executing Hugging Face transformer models using TorchNeuron on AWS Trainium instances.

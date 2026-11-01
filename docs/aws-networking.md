@@ -137,6 +137,21 @@
 
 ## RDMA
   - **(2026)** [MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet](https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet) 🌟 - Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet.
+  - **(2026)** [How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack](https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking) 🌟 - An architectural deep-dive into how DOCA GPUNetIO provides a unified GDA-KI foundation for direct GPU-driven network and memory operations.
+  - **(2026)** [Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules](https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules) 🌟 - Spectrum-X Ethernet provides the predictable low latency and resilience required for AI factories, overcoming traditional Ethernet limitations.
 
 ## Subsea Cables
   - **(2026)** [Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable](https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable) 🌟 - Meta's engineering team details the architecture of Petal, the world's first petabit-class transoceanic subsea cable.
+
+## NVLink
+  - **(2026)** [How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories](https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories) 🌟 - A breakdown of the multi-layer resiliency architecture behind NVLink 6, the scale-up networking fabric powering the Vera Rubin NVL72 rack-scale platform.
+  - **(2026)** [NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure](https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure) 🌟 - NVLink Fusion allows hyperscalers and ASIC designers to leverage proven NVIDIA MGX rack architectures and NVLink networks for next-gen AI.
+
+## DPU
+  - **(2026)** [NVIDIA BlueField-4 Powers New Scale in Network Infrastructure for Agentic AI Factories](https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories) 🌟 - An architectural breakdown of how BlueField-4 DPUs optimize network throughput and reduce latency for massive-scale agentic AI training and inference factories.
+
+## Zero Trust
+  - **(2026)** [Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities](https://blog.cloudflare.com/protect-your-netscaler-gateway) 🌟 - Cloudflare outlines strategies for protecting NetScaler gateways and other public-facing authentication surfaces using Zero Trust access policies.
+
+## AI Networking
+  - **(2026)** [Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks](https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks) 🌟 - Meta details its latest networking innovations presented at the 2026 OCP Global Summit.
