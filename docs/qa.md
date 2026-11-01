@@ -54,6 +54,7 @@ the #1 test automation community.
 - https://www.botplayautomation.com/
 - https://www.lambdatest.com/
   - **(2026)** [Your alt text passes automated checks. That doesn't mean it's any good.](https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good) 🌟 - Building a plugin for the GitHub Accessibility Scanner to ensure qualitative alt text evaluation.
+  - **(2026)** [Greptile takes bug detection beyond code review with GPT-6 Astra](https://openai.com/index/greptile-code-review-codex-astra) 🌟 - Greptile uses GPT-6 Astra for automated UI testing, Daybreak for security, and Codex to minimize developer rework.
 
 ## Testing Frameworks
 
