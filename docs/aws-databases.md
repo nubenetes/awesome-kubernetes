@@ -77,3 +77,9 @@
   - **(2026)** [ZGateway: Learnings from Putting a Proxy in Front of ZippyDB](https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta) 🌟 - Meta outlines the architectural evolution of ZippyDB through the implementation of ZGateway, a specialized proxy layer.
 
   - **(2026)** [Supabase](https://github.com/supabase/supabase) 🌟 - The open source Firebase alternative. Build complete applications using PostgreSQL.
+
+  - **(2026)** [Announcing etcd 3.7.0-beta.0 | Kubernetes](https://kubernetes.io/blog/2026/05/20/etcd-370-beta) 🌟 - Kubernetes-centric blog post highlighting the upcoming etcd 3.7.0-beta.0 features for cluster state storage.
+
+  - **(2026)** [Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)](https://openai.com/index/scaling-storage-one-billion-users-part-two) 🌟 - Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.
+
+  - **(2026)** [TimeSeries Tiered Storage Journey: Kafka/Flink streams to Native Cassandra cold reads](https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4) 🌟 - Netflix explores the evolution of its TimeSeries Abstraction platform, transitioning from Kafka and Flink for high-throughput streaming to native Cassandra for tiered cold reads.
