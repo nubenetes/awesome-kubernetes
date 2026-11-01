@@ -268,3 +268,6 @@
     </center>
 
   - [Debugging Kubernetes Systems: Practical Advice with Quality Telemetry](https://…) 🌟 - Adnan Rahic shares practical advice for debugging Kubernetes systems, highlighting the importance of quality telemetry.
+
+## Pod in Pending Status
+  - **(2026)** [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp) 🌟 - Learn how to trace Kueue admission bottlenecks and debug pending Jobs efficiently using Headlamp.
