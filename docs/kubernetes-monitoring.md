@@ -175,3 +175,8 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5ofsNyHZwWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </center>
+
+## Kubernetes Metrics
+  - **(2026)** [Kubernetes v1.37: Native Histograms Graduates to Beta](https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta) 🌟 - I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default.
+  - **(2026)** [Kubernetes v1.37: Metrics API graduates to stable](https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga) 🌟 - Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This API provides CPU and memory usage for nodes and Pods.
+  - **(2026)** [Building a Custom Metrics Exporter for Kubernetes](https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes) 🌟 - Kubernetes ships with built-in awareness of CPU and memory, but most real-world scaling decisions depend on external signals.
