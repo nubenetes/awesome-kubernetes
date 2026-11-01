@@ -1309,3 +1309,9 @@ elastic quotas - Effortless optimization at its finest!
   - [Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen](https://medium.com/itnext/atomic-configmap-updates-in-kubernetes-how-symlinks-and-kubelet-make-it-happen-21a44338c247) 🌟 - Este artículo explica cómo las actualizaciones atómicas de ConfigMap en Kubernetes son posibles gracias a la interacción entre los symlinks y el Kubelet, permitiendo cambios seguros y eficientes.
   - [ASCIIFlow](https://asciiflow.com) 🌟 - Herramienta para crear diagramas en ASCII en el navegador, útil para visualizar arquitecturas y flujos.
   - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing) - *(Related to kubernetes-networking topic)*
+
+## Headlamp
+  - **(2026)** [Kubernetes Dashboard to Headlamp: A Step-by-Step Guide](https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp) 🌟 - A comprehensive guide to transitioning from the legacy Kubernetes Dashboard to Headlamp.
+  - **(2026)** [Introducing the Cluster API plugin for Headlamp](https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin) 🌟 - Launch of the official Cluster API (CAPI) plugin for Headlamp, providing a graphical interface for declarative cluster lifecycle management.
+  - **(2026)** [Inspect Volcano workloads faster with Headlamp](https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin) 🌟 - Introduction of the Volcano plugin for Headlamp, allowing operators to visually manage high-performance batch scheduling for AI and ML.
+  - **(2026)** [From Kubernetes Dashboard to Headlamp: Understanding the Transition](https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp) 🌟 - The official guide detailing the archival of the legacy Kubernetes Dashboard and the strategic migration to Headlamp for cluster visualization.

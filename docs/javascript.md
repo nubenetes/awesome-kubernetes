@@ -90,3 +90,7 @@
 ## JavaScript Tooling
   - **(2026)** [VoidZero is joining Cloudflare](https://blog.cloudflare.com/voidzero-joins-cloudflare) 🌟 - Cloudflare announces VoidZero is joining the company to commit engineering and resources to the Vite, Vitest, Rolldown, and Oxc ecosystem while maintaining their open-source foundation.
   - **(2026)** [Next.js applications, powered by Vite: introducing Vinext 1.0](https://blog.cloudflare.com/vinext-nextjs-on-vite) 🌟 - Vinext 1.0 makes Next.js applications portable and deployable to any edge platform using Vite.
+  - **(2026)** [Introducing tsrs: a Port of TypeScript to Rust](https://blog.cloudflare.com/typescript-rust-port) 🌟 - Cloudflare and VoidZero unveil tsrs, an experimental port of the TypeScript compiler to Rust aimed at massively improving performance and memory efficiency.
+
+## Web APIs
+  - **(2026)** [Experimenting with the proposed Cross-Origin Storage API in Transformers.js](https://huggingface.co/blog/cross-origin-storage) 🌟 - A deep dive into how the Cross-Origin Storage API enables bandwidth-efficient WebML caching in browsers.

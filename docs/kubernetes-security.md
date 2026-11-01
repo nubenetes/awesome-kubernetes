@@ -160,6 +160,7 @@
 ## Securing Kubernetes Deployments
 
 - [==dev.to/aws-builders: Best Practices for Securing Kubernetes Deployments== 🌟](https://dev.to/aws-builders/best-practices-for-securing-kubernetes-deployments-1jg6) **Although Kubernetes is a powerful container orchestration platform, its complexity and its adoption makes it a prime target for security attacks. We'll go over some of the best practices for securing the Kubernetes deployments and keeping applications and data safe in this article. This article is only about pods or deployments.**
+  - **(2026)** [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage) 🌟 - Kubernetes v1.37 brings important storage security features: emptyDir permissions and strict bind mount options.
 
 ## Securing a Kubernetes cluster using TLS certificates. Wildcard certificates
 
@@ -247,6 +248,8 @@
 - [==learnk8s.io/authentication-kubernetes: User and workload identities in Kubernetes== 🌟🌟🌟](https://learnkube.com/authentication-kubernetes)
     - The difference b/w externally managed and internal identities.
     - How Kubernetes assigns identities for internal users with Service Accounts.
+  - **(2026)** [Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles](https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles) 🌟 - Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably.
+  - **(2026)** [How to Carry User Identity Across Federated Kubernetes and AI Platforms](https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms) 🌟 - Architectural patterns for propagating user identity and secure access controls across federated Kubernetes clusters and complex AI platforms.
 
 ## Service Accounts
 
@@ -537,6 +540,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 
 - [==kubernetes.io: Official CVE Feed== 🌟](https://kubernetes.io/docs/reference/issues-security/official-cve-feed)
 - [kubernetes.io: Announcing the Auto-refreshing Official Kubernetes CVE Feed](https://kubernetes.io/blog/2022/09/12/k8s-cve-feed-alpha)
+  - **(2026)** [Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs](https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves) 🌟 - The Kubernetes Security Response Committee issues corrections for a list of older, unfixed CVEs that incorrectly claimed fixed versions.
 
 ## Videos
 
@@ -573,3 +577,10 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 ## kubernetes-security
 
   - [kubescape](https://github.com/kubescape/kubescape) - Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.
+
+## Rootless Kubernetes
+  - **(2026)** [Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta](https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta) 🌟 - Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta. This improves overall cluster security.
+
+## Kubernetes Security Incidents
+  - **(2026)** [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://huggingface.co/blog/agent-intrusion-technical-timeline) 🌟 - A detailed timeline and technical breakdown of an autonomous AI agent intrusion that compromised a production Kubernetes cluster via supply-chain and configuration vulnerabilities.
+  - **(2026)** [Security incident disclosure — July 2026](https://huggingface.co/blog/security-incident-july-2026) 🌟 - The initial disclosure of an autonomous agent-driven cybersecurity breach targeting dataset processing pipelines to harvest credentials and traverse networks.

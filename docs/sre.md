@@ -85,6 +85,7 @@
 - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack)
 - [getcortexapp.com: A guide to the best SRE tools](https://www.cortex.io/post/a-guide-to-the-best-sre-tools)
 - [thenewstack.io: The Best Site Reliability Engineering Tools in 2021](https://thenewstack.io/the-best-site-reliability-engineering-tools-in-2021)
+  - **(2026)** [How Ultrafast cut incident investigation at OpenAI from hours to minutes](https://openai.com/index/openai-cut-incident-investigation) 🌟 - OpenAI Site Reliability Engineers leverage the Ultrafast mode in Codex to rapidly search logs and orchestrate incident responses.
 
 ## Service Level Objectives (SLO)
 
@@ -152,3 +153,8 @@
 
 ## Canary Analysis
   - **(2026)** [The Data Canary: How Netflix Validates Catalog Metadata](https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?gi=d207ab9cb1e7&source=rss----2615bd06b42e---4) 🌟 - How Netflix built an automated data canary system that validates critical catalog metadata transformations using production traffic.
+
+  - **(2026)** [How to Check and Configure NVIDIA GPUDirect Storage for Your Platform](https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform) 🌟 - Introduction of the open-source gds-diag utility for diagnosing, validating, and optimizing NVIDIA GPUDirect Storage deployments.
+
+## Post-Mortems
+  - **(2026)** [GitHub availability report: September 2026](https://github.blog/news-insights/company-news/github-availability-report-september-2026) 🌟 - GitHub's monthly availability report detailing September 2026 incidents and ongoing Azure infrastructure migrations.

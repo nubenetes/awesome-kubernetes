@@ -269,6 +269,7 @@
     - TickInstant GraphQL & REST APIs
     - TickBuilt in authorization for secure data access
     - TickOpen source
+  - **(2026)** [Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes](https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4) 🌟 - Netflix introduces Quasar, a tool that connects proposed API changes with observed references in consumer repositories to measure blast radius.
 
 ## Browser APIs
 
@@ -466,3 +467,7 @@
 
 ## AI APIs
   - **(2026)** [Introducing GPT-Live in the API](https://openai.com/index/introducing-gpt-live-1-in-the-api) 🌟 - A new low-latency architecture and turnless speech model designed for continuous, responsive voice AI interactions.
+  - **(2026)** [Decisions API is now generally available with new updates](https://openai.com/index/decisions-api) 🌟 - The Decisions API evaluates text, images, and JSON to return typed answers 10x faster than the Responses API, classifying content and prioritizing workflows.
+
+## API Design
+  - **(2026)** [From 2,500 requests to 24: Rebuilding star history without the stargazers](https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers) 🌟 - How GitHub redesigned its repository star history API to provide trends without requiring unbounded database queries.

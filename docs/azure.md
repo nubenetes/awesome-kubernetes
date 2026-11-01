@@ -907,3 +907,6 @@
 
     </center>
   - [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) - *(Related to kubernetes-networking topic)*
+
+## Azure AI Foundry
+  - **(2026)** [Hugging Face Models on Foundry Managed Compute](https://huggingface.co/blog/microsoft/foundry-managed-compute) 🌟 - Deploy curated open-weight models onto Microsoft Foundry with enterprise-grade security and governance.

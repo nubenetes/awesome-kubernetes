@@ -28,6 +28,7 @@
 - [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
 - [==aws.amazon.com/well-architected-tool: AWS Well-Architected Tool==](https://aws.amazon.com/well-architected-tool) Do couple of WAR (Well-Architect Review) for public cloud. Basically it is to scan the cloud on 5-6 KPI's : Performance, Cost, Operations, Business etc..
 - [infoq.com: AWS Updates the Well-Architected Framework](https://www.infoq.com/news/2023/04/aws-well-architected-framework)
+  - **(2026)** [Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)](https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview) 🌟 - AWS introduces the Well-Architected Agent, an AI tool designed to autonomously analyze and optimize cloud postures.
 
 ## AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
   - [Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend) - This blog post explores the application of Clean Architecture principles to frontend development, focusing on how to structure applications for better maintainability, testability, and scalability. It discusses separating concerns and organizing code in a way that promotes independence from UI frameworks and external services.
@@ -49,6 +50,7 @@
 ## AWS Case Studies
 
 - [Thomas Publishing Case Study](https://aws.amazon.com/solutions/case-studies)  After moving to AWS, we were able to shut down our largest data center, eliminating hundreds of thousands of dollars in associated real estate, facility operations, and power and cooling costs.
+  - **(2026)** [All the numbers: Amazon Prime Day 2026 powered by AWS](https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws) 🌟 - A detailed technical breakdown of the infrastructure scale and database metrics powering Amazon Prime Day 2026.
 
 ## AWS Best Practices and Tips. AWS Performance. Handling AWS Failures and Outages
 
@@ -60,3 +62,7 @@
 - [AWS Architecture Blog: Use templated answers to perform Well-Architected reviews at scale](https://aws.amazon.com/blogs/architecture/use-templated-answers-to-perform-well-architected-reviews-at-scale)
 - [medium.com/@buraktahtacioglu: AWS Well-Architected Framework — AWS Roadmap](https://medium.com/@buraktahtacioglu/aws-well-architected-framework-aws-roadmap-80aaa6ca7f53)
 - [==cbui.dev: Every company has an "old" production AWS account==](https://www.cbui.dev/every-company-has-an-old-production-aws-account) When companies are in the startup phase, they create their root AWS account and put everything in it. Later on, it might become necessary for the company to have SOC2 certification. These certifications' audit and security requirements require a lockdown of the root AWS account. It is an expensive and painful migration from the root AWS account to a new production account. I've seen it at Venmo and Flex. If you're starting today, I highly recommend setting up your AWS organizations and a sub-account under your root account. This will save you potentially hundreds of thousands to millions of dollars in migration costs down the line.
+
+## AWS Machine Learning and AI
+  - **(2026)** [Does Your Model Run on AWS Trainium? Look It Up](https://huggingface.co/blog/torch-neuronx-model-support) 🌟 - This article details the integration of TorchNeuron, the native PyTorch backend for AWS Trainium via the torch-neuronx package. It enables running Hugging Face Transformers models directly on AWS Trainium instances.
+  - **(2026)** [Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.](https://huggingface.co/blog/amazon/profiling-torchneuron-part-1) 🌟 - Amazon provides a system-level guide to analyzing deep learning inference performance on AWS Trainium using the TorchNeuron PyTorch backend.
