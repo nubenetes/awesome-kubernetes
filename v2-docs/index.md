@@ -141,7 +141,7 @@
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Networking & Service Mesh</div>
   <div class="trending-card__title"><a href="https://github.com/istio/istio">Istio</a></div>
-  <div class="trending-card__meta">2026-06-14 · 38.2k★</div>
+  <div class="trending-card__meta">2026-06-14 · 38.5k★</div>
   <div class="trending-card__why">Istio is the CNCF-graduated enterprise standard for service mesh, pioneering ambient mode and zero-trust microservice networking.</div>
 </div>
 <div class="trending-card">
@@ -176,7 +176,7 @@
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Security & Compliance</div>
   <div class="trending-card__title"><a href="https://github.com/hashicorp/vault">hashicorp/vault</a></div>
-  <div class="trending-card__meta">2026-06-12 · 35.8k★</div>
+  <div class="trending-card__meta">2026-06-12 · 36.5k★</div>
   <div class="trending-card__why">HashiCorp Vault remains the cornerstone of enterprise secrets management, dynamic workload identity, and Zero Trust security architectures.</div>
 </div>
 <div class="trending-card trending-card--extra">
@@ -408,7 +408,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#chinese-content" title="1 resources">Chinese<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ci-cd" title="3 resources">Ci-Cd<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8391 resources">Community-Tool<span class="v2-heat-n">8391</span></a>
+<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8390 resources">Community-Tool<span class="v2-heat-n">8390</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1229 resources">De Facto Standard<span class="v2-heat-n">1229</span></a>
@@ -421,7 +421,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-3" href="/tags/#ebpf" title="70 resources">EBPF<span class="v2-heat-n">70</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#emerging" title="491 resources">Emerging<span class="v2-heat-n">491</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1100 resources">Enterprise-Stable<span class="v2-heat-n">1100</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1101 resources">Enterprise-Stable<span class="v2-heat-n">1101</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
@@ -464,7 +464,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="1 resources">Kubernetes<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="589 resources">Legacy<span class="v2-heat-n">589</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="604 resources">Legacy<span class="v2-heat-n">604</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#llm" title="81 resources">LLM<span class="v2-heat-n">81</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
