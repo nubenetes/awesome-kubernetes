@@ -43,7 +43,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/shorts/BnkctVGCD8A" title="Unindexed Cloud Native Technical Short (ID: BnkctVGCD8A)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="BnkctVGCD8A" data-video-url="https://www.youtube.com/embed/BnkctVGCD8A" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BnkctVGCD8A/hqdefault.jpg" alt="Unindexed Cloud Native Technical Short (ID: BnkctVGCD8A)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
