@@ -319,7 +319,7 @@ class NewsDigestEngine:
                 "date": cls._extract_entry_date(e),
                 "stars": e.get("stars") or 0,
                 "impact": "high" if (e.get("stars") or 0) >= 4 else "medium",
-                "why": str(e.get("ai_summary") or "")[:200],
+                "why": str(e.get("ai_summary") or "").splitlines()[0].strip(),
                 "category": cat_name,
             }
             for e in entries[:limit]
@@ -473,9 +473,8 @@ class NewsDigestEngine:
                     except Exception:
                         is_fresh = False
 
-                if all_cached_in_window and (
-                    self._is_cache_valid(period_name, cat_name, pool_hash, old_meta)
-                    or (period_name != "3_months" and is_fresh)
+                if all_cached_in_window and self._is_cache_valid(
+                    period_name, cat_name, pool_hash, old_meta
                 ):
                     # Refresh dates in cached items to reflect latest inventory metadata
                     for item in cached_items:
@@ -529,7 +528,7 @@ class NewsDigestEngine:
                                     "date": self._extract_entry_date(e),
                                     "stars": e.get("stars") or 0,
                                     "impact": item.get("impact") or "medium",
-                                    "why": str(item.get("why") or "")[:200],
+                                    "why": str(item.get("why") or "").strip(),
                                     "category": cat_name,
                                 }
                             )
