@@ -17,13 +17,12 @@ permissions:
   contents: write
   pull-requests: write
 
-concurrency:
-  group: develop-git-write-lock
-  cancel-in-progress: false
-
 jobs:
   run-metadata:
     runs-on: ubuntu-latest
+    concurrency:
+      group: v2-metadata-develop
+      cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7

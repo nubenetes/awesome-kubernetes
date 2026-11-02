@@ -266002,14 +266002,16 @@ https://github.com/unixorn/awesome-zsh-plugins:
   - other-awesome-lists.md
   youtube_mosaic: {}
   gh_license: BSD-3-Clause
-  gh_pushed: '2026-06-13T16:12:57Z'
-  gh_stars: 17762
+  gh_pushed: '2026-11-02'
+  gh_stars: 18107
   is_special: true
-  gh_open_issues_30d: 7
+  gh_open_issues_30d: 6
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:41:53.423037+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 123.2
+  momentum_score: 90.5
 https://github.com/unxsist/jet-pilot:
   title: github.com/unxsist/jet-pilot
   description: ''
@@ -266044,13 +266046,15 @@ https://github.com/unxsist/jet-pilot:
   - kubernetes-based-devel.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-03-09T18:34:55Z'
-  gh_stars: 624
-  gh_open_issues_30d: 13
+  gh_pushed: '2026-10-31'
+  gh_stars: 662
+  gh_open_issues_30d: 1
   gh_open_prs_30d: 0
-  gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:41:54.172559+02:00'
+  gh_community_health: low
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-based-devel
+  gh_stars_per_month: 18.97
+  momentum_score: 61.5
 https://github.com/up9inc/mizu:
   title: up9inc/mizu
   description: ''
@@ -266085,8 +266089,9 @@ https://github.com/up9inc/mizu:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:41:54.902297+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  momentum_score: 0.0
 https://github.com/upbound/platform-ref-multi-k8s:
   title: 'upbound/platform-ref-multi-k8s: Upbound''s reference platform for multi-cloud''
     Kubernetes with Crossplane'
@@ -266125,13 +266130,15 @@ https://github.com/upbound/platform-ref-multi-k8s:
   - crossplane.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-02-09T19:39:18Z'
+  gh_pushed: '2026-07-06'
   gh_stars: 66
   gh_open_issues_30d: 6
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:41:55.662341+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: crossplane
+  gh_stars_per_month: 0.91
+  momentum_score: 30.7
 https://github.com/updatecli/updatecli:
   title: github.com/updatecli/updatecli
   description: ''
@@ -266167,13 +266174,15 @@ https://github.com/updatecli/updatecli:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-13T12:48:15Z'
-  gh_stars: 930
-  gh_open_issues_30d: 122
+  gh_pushed: '2026-11-02'
+  gh_stars: 1009
+  gh_open_issues_30d: 135
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:41:56.338469+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 12.24
+  momentum_score: 61.3
 https://github.com/upgundecha/howtheysre:
   title: How they SRE
   description: ''
@@ -266211,14 +266220,16 @@ https://github.com/upgundecha/howtheysre:
   - other-awesome-lists.md
   youtube_mosaic: {}
   gh_license: CC0-1.0
-  gh_pushed: '2025-11-17T18:57:19Z'
-  gh_stars: 9731
+  gh_pushed: '2026-09-30'
+  gh_stars: 9830
   is_special: true
   gh_open_issues_30d: 11
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:41:57.081028+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 141.3
+  momentum_score: 88.1
 https://github.com/upmc-enterprises/registry-creds:
   title: 'upmc-enterprises/registry-creds: Registry Credentials ⭐'
   description: ''
@@ -266254,13 +266265,15 @@ https://github.com/upmc-enterprises/registry-creds:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2023-07-31T12:30:03Z'
+  gh_pushed: '2023-07-31'
   gh_stars: 348
   gh_open_issues_30d: 39
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:41:57.833015+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 2.68
+  momentum_score: 29.7
 https://github.com/utilitywarehouse/kube-applier:
   title: utilitywarehouse/kube-applier
   description: ''
@@ -266295,13 +266308,15 @@ https://github.com/utilitywarehouse/kube-applier:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-05-19T11:40:18Z'
+  gh_pushed: '2026-10-21'
   gh_stars: 28
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:41:58.646437+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.24
+  momentum_score: 27.4
 https://github.com/utterance/utterances:
   title: Utterances
   description: null
@@ -266332,11 +266347,15 @@ https://github.com/utterance/utterances:
   - docs/git.md
   v2_locations: []
   youtube_mosaic: {}
-  gh_open_issues_30d: 172
+  gh_open_issues_30d: 173
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:41:59.424532+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: git
+  gh_stars: 9702
+  gh_stars_per_month: 83.64
+  gh_pushed: '2024-08-15'
+  momentum_score: 66.8
 https://github.com/vbouchaud/k8s-ldap-auth:
   title: vbouchaud/k8s-ldap-auth
   description: ''
@@ -266371,8 +266390,9 @@ https://github.com/vbouchaud/k8s-ldap-auth:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:00.112265+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  momentum_score: 0.0
 https://github.com/vchinnipilli/kubestriker:
   title: "kubestriker \U0001F31F"
   description: ''
@@ -266408,13 +266428,15 @@ https://github.com/vchinnipilli/kubestriker:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2024-04-06T11:34:17Z'
-  gh_stars: 1003
+  gh_pushed: '2024-04-06'
+  gh_stars: 1001
   gh_open_issues_30d: 18
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:00.851869+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 13.94
+  momentum_score: 43.9
 https://github.com/veggiemonk/awesome-docker:
   title: "Awesome Docker \U0001F31F"
   description: ''
@@ -266452,14 +266474,16 @@ https://github.com/veggiemonk/awesome-docker:
   - docker.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-14T09:44:52Z'
-  gh_stars: 36214
+  gh_pushed: '2026-11-01'
+  gh_stars: 37159
   is_special: true
-  gh_open_issues_30d: 38
+  gh_open_issues_30d: 72
   gh_open_prs_30d: 0
-  gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:01.582052+02:00'
+  gh_community_health: active
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: docker
+  gh_stars_per_month: 251.93
+  momentum_score: 98.8
 https://github.com/velero-io/velero:
   title: github.com/vmware-tanzu/velero
   description: ''
@@ -266496,14 +266520,16 @@ https://github.com/velero-io/velero:
   - ocp4.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-12T02:14:04Z'
-  gh_stars: 10062
-  gh_open_issues_30d: 793
+  gh_pushed: '2026-10-30'
+  gh_stars: 10366
+  gh_open_issues_30d: 829
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:02.293315+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-backup-migrations
   cncf_status: sandbox
+  gh_stars_per_month: 92.03
+  momentum_score: 87.8
 https://github.com/venkateshk111/terraform-beginners-guide:
   title: "github.com/venkateshk111/terraform-beginners-guide \U0001F31F"
   description: ''
@@ -266538,13 +266564,15 @@ https://github.com/venkateshk111/terraform-beginners-guide:
   - demos.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-01-09T05:33:03Z'
-  gh_stars: 107
+  gh_pushed: '2026-01-09'
+  gh_stars: 125
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:03.002721+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: demos
+  gh_stars_per_month: 2.44
+  momentum_score: 37.7
 https://github.com/vetyy/helm-ecr:
   title: "helm-ecr \U0001F31F"
   description: ''
@@ -266579,13 +266607,15 @@ https://github.com/vetyy/helm-ecr:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2023-03-07T03:45:27Z'
+  gh_pushed: '2023-03-07'
   gh_stars: 24
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:03.736208+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.32
+  momentum_score: 8.9
 https://github.com/viaduct-ai/kustomize-sops:
   title: viaduct-ai/kustomize-sops
   description: ''
@@ -266621,13 +266651,15 @@ https://github.com/viaduct-ai/kustomize-sops:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-04-14T03:42:39Z'
-  gh_stars: 836
+  gh_pushed: '2026-07-10'
+  gh_stars: 853
   gh_open_issues_30d: 36
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:04.472654+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 9.97
+  momentum_score: 55.2
 https://github.com/viatsko/awesome-vscode:
   title: Awesome Visual Studio Code
   description: ''
@@ -266666,14 +266698,16 @@ https://github.com/viatsko/awesome-vscode:
   - visual-studio.md
   youtube_mosaic: {}
   gh_license: CC0-1.0
-  gh_pushed: '2024-06-21T09:46:41Z'
-  gh_stars: 28747
+  gh_pushed: '2026-06-21'
+  gh_stars: 29187
   is_special: true
-  gh_open_issues_30d: 64
+  gh_open_issues_30d: 89
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:05.176954+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 223.37
+  momentum_score: 92.7
 https://github.com/vidispine/hull:
   title: HULL
   description: ''
@@ -266711,13 +266745,15 @@ https://github.com/vidispine/hull:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-05-13T16:51:01Z'
-  gh_stars: 288
-  gh_open_issues_30d: 5
+  gh_pushed: '2026-11-02'
+  gh_stars: 295
+  gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:05.914493+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: helm
+  gh_stars_per_month: 4.1
+  momentum_score: 48.8
 https://github.com/vijaykedar/jenkins-setup-using-terraform:
   title: github.com/vijaykedar/jenkins-setup-using-terraform
   description: ''
@@ -266752,13 +266788,15 @@ https://github.com/vijaykedar/jenkins-setup-using-terraform:
   - terraform.md
   youtube_mosaic: {}
   gh_stars: 0
-  gh_pushed: null
+  gh_pushed: '2024-09-08'
   gh_license: N/A
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:06.687710+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: terraform
+  gh_stars_per_month: 0.0
+  momentum_score: 2.0
 https://github.com/vimwiki/vimwiki:
   title: VimWiki
   description: ''
@@ -266796,13 +266834,15 @@ https://github.com/vimwiki/vimwiki:
   - linux.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2026-04-30T18:15:10Z'
-  gh_stars: 9468
+  gh_pushed: '2026-04-30'
+  gh_stars: 9515
   gh_open_issues_30d: 230
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:07.398536+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: linux
+  gh_stars_per_month: 55.97
+  momentum_score: 78.3
 https://github.com/vincentserpoul/kubench:
   title: kubench
   description: ''
@@ -266830,19 +266870,22 @@ https://github.com/vincentserpoul/kubench:
   - Benchmarking
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[LEGACY]'
   v1_locations:
   - docs/qa.md
   v2_locations:
   - qa.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2021-10-12T21:39:22Z'
+  gh_pushed: '2021-10-12'
   gh_stars: 0
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:08.139935+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: qa
+  gh_stars_per_month: 0.0
+  momentum_score: 0.0
 https://github.com/vinta/awesome-python:
   title: "Awesome Python \U0001F31F"
   description: ''
@@ -266879,14 +266922,16 @@ https://github.com/vinta/awesome-python:
   - other-awesome-lists.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2026-06-12T04:11:12Z'
-  gh_stars: 302828
+  gh_pushed: '2026-11-02'
+  gh_stars: 331982
   is_special: true
-  gh_open_issues_30d: 20
+  gh_open_issues_30d: 24
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:08.884002+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 2208.31
+  momentum_score: 100.0
 https://github.com/viralpoetry/kubesurveyor:
   title: "Kubesurveyor \U0001F31F"
   description: ''
@@ -266922,14 +266967,16 @@ https://github.com/viralpoetry/kubesurveyor:
   v2_locations:
   - kubernetes-tools.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 90
+  gh_pushed: '2024-09-06'
   gh_license: N/A
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:09.621701+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 1.36
+  momentum_score: 19.6
 https://github.com/visenger/awesome-mlops:
   title: 'visenger/awesome-mlops: Awesome MLOps'
   description: ''
@@ -266958,7 +267005,8 @@ https://github.com/visenger/awesome-mlops:
   - MLOps
   - Resources
   tags:
-  - '[COMMUNITY-TOOL]'
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
   - '[MLOPS]'
   v1_locations:
   - docs/other-awesome-lists.md
@@ -266966,15 +267014,17 @@ https://github.com/visenger/awesome-mlops:
   - architectural-foundations.md
   - other-awesome-lists.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 14257
+  gh_pushed: '2024-11-21'
   gh_license: N/A
   is_special: true
   gh_open_issues_30d: 47
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:10.340613+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 175.65
+  momentum_score: 83.4
 https://github.com/vitobotta/velero-notifications:
   title: vitobotta/velero-notifications
   description: ''
@@ -267004,19 +267054,22 @@ https://github.com/vitobotta/velero-notifications:
   - Observability
   tags:
   - '[DE FACTO STANDARD]'
+  - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-operators-controllers.md
   v2_locations:
   - kubernetes-operators-controllers.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2023-12-28T14:37:29Z'
-  gh_stars: 36
+  gh_pushed: '2023-12-28'
+  gh_stars: 35
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:11.065350+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-operators-controllers
+  gh_stars_per_month: 0.64
+  momentum_score: 12.3
 https://github.com/vivekagate/yakiapp:
   title: nirops/yakiapp
   description: ''
@@ -267051,13 +267104,15 @@ https://github.com/vivekagate/yakiapp:
   - kubernetes-based-devel.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2022-09-03T16:26:36Z'
+  gh_pushed: '2022-09-03'
   gh_stars: 102
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:11.756117+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-based-devel
+  gh_stars_per_month: 1.97
+  momentum_score: 6.7
 https://github.com/viveksinghggits/kuui:
   title: KuUI (Kubernetes UI)
   description: ''
@@ -267093,13 +267148,15 @@ https://github.com/viveksinghggits/kuui:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2023-02-06T23:50:25Z'
+  gh_pushed: '2023-02-06'
   gh_stars: 18
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:12.497226+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.21
+  momentum_score: 6.8
 https://github.com/vladimirvivien/ktop:
   title: vladimirvivien/ktop
   description: ''
@@ -267137,13 +267194,15 @@ https://github.com/vladimirvivien/ktop:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-05-16T15:49:51Z'
-  gh_stars: 1093
+  gh_pushed: '2026-07-03'
+  gh_stars: 1116
   gh_open_issues_30d: 11
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:13.194184+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 9.32
+  momentum_score: 56.3
 https://github.com/vllm-project/vllm:
   title: vLLM on Kubernetes
   description: ''
@@ -267180,13 +267239,15 @@ https://github.com/vllm-project/vllm:
   - ai-agents-mcp.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-14T08:44:57Z'
-  gh_stars: 82816
-  gh_open_issues_30d: 8386
+  gh_pushed: '2026-11-02'
+  gh_stars: 96155
+  gh_open_issues_30d: 9800
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:13.906371+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: ai-agents-mcp
+  gh_stars_per_month: 2117.95
+  momentum_score: 100.0
 https://github.com/vmware-archive/buildkit-cli-for-kubectl:
   title: vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)
   description: ''
@@ -267224,13 +267285,15 @@ https://github.com/vmware-archive/buildkit-cli-for-kubectl:
   - kubectl-commands.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2023-09-28T03:00:47Z'
-  gh_stars: 505
+  gh_pushed: '2023-09-28'
+  gh_stars: 504
   gh_open_issues_30d: 41
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:14.619724+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubectl-commands
+  gh_stars_per_month: 6.87
+  momentum_score: 36.3
 https://github.com/vmware-archive/ktx:
   title: "ktx \U0001F31F"
   description: ''
@@ -267265,13 +267328,15 @@ https://github.com/vmware-archive/ktx:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2021-09-28T00:05:59Z'
-  gh_stars: 140
+  gh_pushed: '2021-09-28'
+  gh_stars: 139
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:15.392143+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 1.22
+  momentum_score: 6.6
 https://github.com/vmware-archive/kube-fluentd-operator:
   title: "kube-fluentd-operator \U0001F31F"
   description: ''
@@ -267307,13 +267372,15 @@ https://github.com/vmware-archive/kube-fluentd-operator:
   - kubernetes-operators-controllers.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2025-12-18T19:17:59Z'
-  gh_stars: 321
+  gh_pushed: '2025-12-18'
+  gh_stars: 320
   gh_open_issues_30d: 58
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:16.154724+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-operators-controllers
+  gh_stars_per_month: 3.05
+  momentum_score: 43.8
 https://github.com/vmware-archive/kubecfg:
   title: Kubecfg
   description: null
@@ -267339,7 +267406,8 @@ https://github.com/vmware-archive/kubecfg:
   - Architectural Foundations
   - Kubernetes
   - General Reference
-  tags: []
+  tags:
+  - '[LEGACY]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations: []
@@ -267348,8 +267416,12 @@ https://github.com/vmware-archive/kubecfg:
   gh_open_issues_30d: 44
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:16.884704+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes
+  gh_stars: 720
+  gh_stars_per_month: 6.25
+  gh_pushed: '2021-11-17'
+  momentum_score: 22.8
 https://github.com/vmware-archive/kubewatch:
   title: bitnami-labs/kubewatch
   description: ''
@@ -267385,13 +267457,15 @@ https://github.com/vmware-archive/kubewatch:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2022-09-17T08:58:53Z'
-  gh_stars: 2426
+  gh_pushed: '2022-09-17'
+  gh_stars: 2420
   gh_open_issues_30d: 107
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:17.600795+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 19.28
+  momentum_score: 35.6
 https://github.com/vmware-archive/octant:
   title: vmware-tanzu/octant
   description: ''
@@ -267430,13 +267504,15 @@ https://github.com/vmware-archive/octant:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2023-01-19T20:55:03Z'
-  gh_stars: 6247
+  gh_pushed: '2023-01-19'
+  gh_stars: 6234
   gh_open_issues_30d: 286
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:18.298561+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-on-premise
+  gh_stars_per_month: 69.45
+  momentum_score: 63.3
 https://github.com/vmware-tanzu/antrea:
   title: VMware-tanzu Antrea
   description: ''
@@ -267470,8 +267546,9 @@ https://github.com/vmware-tanzu/antrea:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:18.946247+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-networking
+  momentum_score: 0.0
 https://github.com/vmware-tanzu/buildkit-cli-for-kubectl:
   title: vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)
   description: ''
@@ -267507,8 +267584,9 @@ https://github.com/vmware-tanzu/buildkit-cli-for-kubectl:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:19.612353+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubectl-commands
+  momentum_score: 0.0
 https://github.com/vmware-tanzu/k-bench:
   title: "vmware-tanzu/k-bench \U0001F31F"
   description: ''
@@ -267543,8 +267621,9 @@ https://github.com/vmware-tanzu/k-bench:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:20.295791+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  momentum_score: 0.0
 https://github.com/vmware-tanzu/octant:
   title: vmware-tanzu/octant
   description: ''
@@ -267580,8 +267659,9 @@ https://github.com/vmware-tanzu/octant:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:20.983010+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-on-premise
+  momentum_score: 0.0
 https://github.com/vmware-tanzu/pinniped:
   title: Pinniped
   description: null
@@ -267615,8 +267695,9 @@ https://github.com/vmware-tanzu/pinniped:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:21.657600+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  momentum_score: 0.0
 https://github.com/vmware-tanzu/sonobuoy:
   title: sonobuoy
   description: ''
@@ -267651,13 +267732,15 @@ https://github.com/vmware-tanzu/sonobuoy:
   - qa.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2025-11-25T23:13:32Z'
-  gh_stars: 3043
-  gh_open_issues_30d: 38
+  gh_pushed: '2026-10-14'
+  gh_stars: 3052
+  gh_open_issues_30d: 35
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:22.375511+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: qa
+  gh_stars_per_month: 27.04
+  momentum_score: 71.8
 https://github.com/vmware-tanzu/velero:
   title: github.com/vmware-tanzu/velero
   description: ''
@@ -267693,8 +267776,9 @@ https://github.com/vmware-tanzu/velero:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:23.044607+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-backup-migrations
+  momentum_score: 0.0
 https://github.com/vmware/k-bench:
   title: "vmware-tanzu/k-bench \U0001F31F"
   description: ''
@@ -267729,13 +267813,15 @@ https://github.com/vmware/k-bench:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2026-03-12T03:44:16Z'
+  gh_pushed: '2026-03-12'
   gh_stars: 408
   gh_open_issues_30d: 24
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:23.785046+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 5.12
+  momentum_score: 47.6
 https://github.com/vmware/kube-fluentd-operator:
   title: "kube-fluentd-operator \U0001F31F"
   description: ''
@@ -267770,8 +267856,9 @@ https://github.com/vmware/kube-fluentd-operator:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:24.433560+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-operators-controllers
+  momentum_score: 0.0
 https://github.com/vmware/octant:
   title: VMware octant
   description: ''
@@ -267806,8 +267893,9 @@ https://github.com/vmware/octant:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:25.130628+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  momentum_score: 0.0
 https://github.com/vmware/pinniped:
   title: Pinniped
   description: null
@@ -267839,11 +267927,15 @@ https://github.com/vmware/pinniped:
   v2_locations: []
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_open_issues_30d: 132
+  gh_open_issues_30d: 110
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:25.891713+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars: 744
+  gh_stars_per_month: 9.65
+  gh_pushed: '2026-11-02'
+  momentum_score: 58.3
 https://github.com/volatiletech/sqlboiler:
   title: volatiletech/sqlboiler
   description: ''
@@ -267878,8 +267970,9 @@ https://github.com/volatiletech/sqlboiler:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:26.532191+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: golang
+  momentum_score: 0.0
 https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools:
   title: "Azure/vscode-kubernetes-tools \U0001F31F"
   description: ''
@@ -267915,14 +268008,16 @@ https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools:
   - visual-studio.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-13T01:13:50Z'
-  gh_stars: 762
-  gh_open_issues_30d: 289
+  gh_pushed: '2026-11-01'
+  gh_stars: 773
+  gh_open_issues_30d: 299
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:27.264526+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: visual-studio
   cncf_status: sandbox
+  gh_stars_per_month: 6.85
+  momentum_score: 58.6
 https://github.com/wagoodman/dive:
   title: "dive \U0001F31F"
   description: ''
@@ -267960,13 +268055,15 @@ https://github.com/wagoodman/dive:
   - docker.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2025-12-15T17:20:36Z'
-  gh_stars: 54224
-  gh_open_issues_30d: 216
+  gh_pushed: '2026-11-02'
+  gh_stars: 54693
+  gh_open_issues_30d: 202
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:27.978623+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: docker
+  gh_stars_per_month: 530.14
+  momentum_score: 100.0
 https://github.com/wallarm/sysbindings:
   title: wallarm/sysbindings
   description: ''
@@ -268001,13 +268098,15 @@ https://github.com/wallarm/sysbindings:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2022-08-24T04:45:13Z'
-  gh_stars: 19
+  gh_pushed: '2022-08-24'
+  gh_stars: 18
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:28.708384+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.29
+  momentum_score: 0.0
 https://github.com/wangjia184/pod-inspector:
   title: wangjia184/pod-inspector
   description: ''
@@ -268041,14 +268140,16 @@ https://github.com/wangjia184/pod-inspector:
   v2_locations:
   - kubernetes-tools.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 75
+  gh_pushed: '2021-10-11'
   gh_license: N/A
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:29.445017+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 1.21
+  momentum_score: 3.3
 https://github.com/wardviaene:
   title: "github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) \U0001F31F"
   description: ''
@@ -268122,8 +268223,12 @@ https://github.com/wardviaene/advanced-kubernetes-course:
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:30.178983+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tutorials
+  gh_stars: 194
+  gh_stars_per_month: 1.75
+  gh_pushed: '2022-06-29'
+  momentum_score: 9.7
 https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker:
   title: "wardviaene/advanced-kubernetes-course/spinnaker \U0001F31F"
   description: ''
@@ -268160,14 +268265,16 @@ https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker:
   v2_locations:
   - demos.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 194
+  gh_pushed: '2022-06-29'
   gh_license: N/A
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:30.902474+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: demos
+  gh_stars_per_month: 1.75
+  momentum_score: 9.7
 https://github.com/wardviaene/jenkins-course:
   title: wardviaene/jenkins-course
   description: ''
@@ -268203,14 +268310,16 @@ https://github.com/wardviaene/jenkins-course:
   - jenkins.md
   - demos.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 523
+  gh_pushed: '2024-02-28'
   gh_license: N/A
   gh_open_issues_30d: 11
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:31.630100+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: jenkins
+  gh_stars_per_month: 4.53
+  momentum_score: 34.4
 https://github.com/wardviaene/kubernetes-course:
   title: wardviaene/kubernetes-course
   description: ''
@@ -268247,13 +268356,15 @@ https://github.com/wardviaene/kubernetes-course:
   - kubernetes-tutorials.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2023-03-17T15:48:10Z'
-  gh_stars: 1732
+  gh_pushed: '2023-03-17'
+  gh_stars: 1733
   gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:32.328232+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: demos
+  gh_stars_per_month: 14.29
+  momentum_score: 47.1
 https://github.com/we-dcode/kubetunnel:
   title: github.com/we-dcode/kubetunnel
   description: ''
@@ -268290,13 +268401,15 @@ https://github.com/we-dcode/kubetunnel:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2023-02-21T10:26:19Z'
+  gh_pushed: '2023-02-21'
   gh_stars: 200
   gh_open_issues_30d: 10
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:33.101963+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 4.02
+  momentum_score: 28.6
 https://github.com/weaveworks-experiments/kspan:
   title: "Kspan - Turning Kubernetes Events into spans \U0001F31F"
   description: ''
@@ -268334,13 +268447,15 @@ https://github.com/weaveworks-experiments/kspan:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2023-06-24T11:56:27Z'
-  gh_stars: 807
+  gh_pushed: '2023-06-24'
+  gh_stars: 805
   gh_open_issues_30d: 21
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:33.876100+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 10.97
+  momentum_score: 41.4
 https://github.com/weaveworks/awesome-gitops:
   title: Awesome-GitOps
   description: ''
@@ -268377,14 +268492,16 @@ https://github.com/weaveworks/awesome-gitops:
   - other-awesome-lists.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2025-12-10T07:29:20Z'
-  gh_stars: 1696
+  gh_pushed: '2025-12-10'
+  gh_stars: 1732
   is_special: true
   gh_open_issues_30d: 12
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:34.601190+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 19.39
+  momentum_score: 62.8
 https://github.com/weaveworks/cluster-api-provider-existinginfra:
   title: weaveworks/cluster-api-provider-existinginfra
   description: ''
@@ -268422,13 +268539,15 @@ https://github.com/weaveworks/cluster-api-provider-existinginfra:
   - kubernetes-on-premise.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2022-09-23T16:07:25Z'
+  gh_pushed: '2022-09-23'
   gh_stars: 45
   gh_open_issues_30d: 16
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:35.361612+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-on-premise
+  gh_stars_per_month: 0.59
+  momentum_score: 0.0
 https://github.com/weaveworks/eksctl:
   title: ref2
   description: ''
@@ -268463,8 +268582,9 @@ https://github.com/weaveworks/eksctl:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:36.016261+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: jenkins
+  momentum_score: 0.0
 https://github.com/weaveworks/kubediff:
   title: "kubediff \U0001F31F"
   description: ''
@@ -268493,19 +268613,22 @@ https://github.com/weaveworks/kubediff:
   - State Difference
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2023-10-24T15:14:24Z'
-  gh_stars: 1181
+  gh_pushed: '2023-10-24'
+  gh_stars: 1176
   gh_open_issues_30d: 31
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:36.715341+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 9.36
+  momentum_score: 42.6
 https://github.com/weaveworks/kured:
   title: "weaveworks: kured - Kubernetes Reboot Daemon \U0001F31F"
   description: ''
@@ -268541,8 +268664,9 @@ https://github.com/weaveworks/kured:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:37.363579+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  momentum_score: 0.0
 https://github.com/weaveworks/tf-controller:
   title: 'weaveworks/tf-controller: Weave GitOps Terraform Controller'
   description: ''
@@ -268578,8 +268702,9 @@ https://github.com/weaveworks/tf-controller:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:38.027110+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-operators-controllers
+  momentum_score: 0.0
 https://github.com/weaveworks/weave:
   title: 'github: Weave Net - Weaving Containers into Applications'
   description: ''
@@ -268619,13 +268744,15 @@ https://github.com/weaveworks/weave:
   - gitops.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2024-08-09T08:45:55Z'
-  gh_stars: 6612
+  gh_pushed: '2024-08-09'
+  gh_stars: 6604
   gh_open_issues_30d: 529
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:38.789522+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: gitops
+  gh_stars_per_month: 44.43
+  momentum_score: 61.0
 https://github.com/weaveworks/wksctl:
   title: Weave Kubernetes System Control - wksctl
   description: ''
@@ -268666,13 +268793,15 @@ https://github.com/weaveworks/wksctl:
   - matrix-table.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2023-03-31T12:32:52Z'
-  gh_stars: 389
+  gh_pushed: '2023-03-31'
+  gh_stars: 387
   gh_open_issues_30d: 73
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:39.497721+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: gitops
+  gh_stars_per_month: 4.4
+  momentum_score: 32.6
 https://github.com/webmeshproj/webmesh-vdi:
   title: kVDI
   description: ''
@@ -268707,13 +268836,15 @@ https://github.com/webmeshproj/webmesh-vdi:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: GPL-3.0
-  gh_pushed: '2023-10-20T18:30:30Z'
-  gh_stars: 459
+  gh_pushed: '2023-10-20'
+  gh_stars: 458
   gh_open_issues_30d: 44
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:40.235360+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 5.75
+  momentum_score: 34.9
 https://github.com/welldone-cloud/aws-list-resources:
   title: github.com/welldone-cloud/aws-list-resources
   description: ''
@@ -268750,13 +268881,15 @@ https://github.com/welldone-cloud/aws-list-resources:
   - aws-tools-scripts.md
   youtube_mosaic: {}
   gh_license: AGPL-3.0
-  gh_pushed: '2025-12-21T19:45:27Z'
+  gh_pushed: '2026-10-11'
   gh_stars: 184
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:40.964796+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: aws
+  gh_stars_per_month: 3.73
+  momentum_score: 45.8
 https://github.com/werf/kubedog:
   title: werf/kubedog
   description: ''
@@ -268794,13 +268927,15 @@ https://github.com/werf/kubedog:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-05-26T15:26:53Z'
-  gh_stars: 745
-  gh_open_issues_30d: 36
+  gh_pushed: '2026-10-29'
+  gh_stars: 755
+  gh_open_issues_30d: 34
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:41.710538+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 7.69
+  momentum_score: 57.1
 https://github.com/werf/nelm:
   title: 'Nelm: A Helm Alternative for Kubernetes Deployments'
   description: ''
@@ -268841,13 +268976,15 @@ https://github.com/werf/nelm:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2026-06-11T11:21:07Z'
-  gh_stars: 1083
-  gh_open_issues_30d: 46
+  gh_pushed: '2026-11-02'
+  gh_stars: 1115
+  gh_open_issues_30d: 44
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:42.437114+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: gitops
+  gh_stars_per_month: 32.19
+  momentum_score: 67.4
 https://github.com/werf/werf:
   title: werf/werf
   description: ''
@@ -268886,14 +269023,16 @@ https://github.com/werf/werf:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-11T21:18:12Z'
-  gh_stars: 4694
-  gh_open_issues_30d: 25
+  gh_pushed: '2026-11-02'
+  gh_stars: 4739
+  gh_open_issues_30d: 37
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:43.175344+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
   cncf_status: sandbox
+  gh_stars_per_month: 36.14
+  momentum_score: 77.9
 https://github.com/widdix/aws-cf-templates:
   title: Aws Cf Templates
   description: null
@@ -268927,8 +269066,12 @@ https://github.com/widdix/aws-cf-templates:
   gh_open_issues_30d: 26
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:43.899555+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: aws-iac
+  gh_stars: 2773
+  gh_stars_per_month: 20.68
+  gh_pushed: '2026-10-27'
+  momentum_score: 69.7
 https://github.com/willdady/aws-resource-based-policy-collector:
   title: 'willdady/aws-resource-based-policy-collector: AWS resource-based policy''
     collector'
@@ -268966,13 +269109,15 @@ https://github.com/willdady/aws-resource-based-policy-collector:
   - aws-tools-scripts.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2022-09-17T08:08:58Z'
+  gh_pushed: '2022-09-17'
   gh_stars: 24
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:44.629430+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: aws
+  gh_stars_per_month: 0.43
+  momentum_score: 0.0
 https://github.com/willdady/cdk-iam-credentials-rotator:
   title: 'willdady/cdk-iam-credentials-rotator: IAM Credentials Rotator'
   description: ''
@@ -269009,13 +269154,15 @@ https://github.com/willdady/cdk-iam-credentials-rotator:
   - aws-security.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2022-08-28T12:14:19Z'
+  gh_pushed: '2022-08-28'
   gh_stars: 17
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:45.417624+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: aws-security
+  gh_stars_per_month: 0.3
+  momentum_score: 0.0
 https://github.com/wincent/git-cipher:
   title: git-cipher
   description: ''
@@ -269051,13 +269198,15 @@ https://github.com/wincent/git-cipher:
   - devsecops.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2025-12-29T11:35:38Z'
-  gh_stars: 90
+  gh_pushed: '2025-12-29'
+  gh_stars: 91
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:46.107241+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: devsecops
+  gh_stars_per_month: 0.64
+  momentum_score: 31.5
 https://github.com/windup:
   title: windup
   description: ''
@@ -269135,8 +269284,9 @@ https://github.com/winfordlin/Compass:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:46.759150+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  momentum_score: 0.0
 https://github.com/witchery-project/witchery:
   title: witchery-project/witchery
   description: ''
@@ -269171,13 +269321,15 @@ https://github.com/witchery-project/witchery:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2022-05-17T15:07:34Z'
+  gh_pushed: '2022-05-17'
   gh_stars: 130
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:47.502597+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 2.07
+  momentum_score: 8.2
 https://github.com/wololock/jenkine-pipeline-maven-demo/tree/sdkman:
   title: Jenkins Pipeline Maven build demo
   description: ''
@@ -269212,8 +269364,12 @@ https://github.com/wololock/jenkine-pipeline-maven-demo/tree/sdkman:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:48.230167+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: demos
+  gh_stars: 14
+  gh_stars_per_month: 0.18
+  gh_pushed: '2022-06-12'
+  momentum_score: 0.0
 https://github.com/wongcyrus/aws-account-cloud9-visualizer:
   title: AWS Account Cloud9 Visualizer
   description: ''
@@ -269247,14 +269403,16 @@ https://github.com/wongcyrus/aws-account-cloud9-visualizer:
   v2_locations:
   - cloud-arch-diagrams.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 14
+  gh_pushed: '2022-10-06'
   gh_license: N/A
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:48.985764+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: cloud-arch-diagrams
+  gh_stars_per_month: 0.18
+  momentum_score: 0.0
 https://github.com/wsargent/docker-cheat-sheet:
   title: 'github.com: Docker cheat Sheet'
   description: ''
@@ -269290,13 +269448,15 @@ https://github.com/wsargent/docker-cheat-sheet:
   - cheatsheets.md
   youtube_mosaic: {}
   gh_license: CC-BY-4.0
-  gh_pushed: '2024-12-31T03:00:47Z'
-  gh_stars: 22528
+  gh_pushed: '2024-12-31'
+  gh_stars: 22560
   gh_open_issues_30d: 7
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:49.691805+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: cheatsheets
+  gh_stars_per_month: 151.38
+  momentum_score: 85.0
 https://github.com/wunderio/csi-rclone:
   title: 'csi-rclone: CSI rclone mount plugin'
   description: ''
@@ -269333,13 +269493,15 @@ https://github.com/wunderio/csi-rclone:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2024-09-12T06:37:10Z'
-  gh_stars: 259
-  gh_open_issues_30d: 26
+  gh_pushed: '2026-11-02'
+  gh_stars: 264
+  gh_open_issues_30d: 27
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:50.451597+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 2.92
+  momentum_score: 46.6
 https://github.com/xUnholy/k8s-gitops:
   title: 'Raspbernetes - Kubernetes Cluster: k8s-gitops'
   description: ''
@@ -269375,13 +269537,15 @@ https://github.com/xUnholy/k8s-gitops:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-14T09:15:39Z'
-  gh_stars: 634
-  gh_open_issues_30d: 8
+  gh_pushed: '2026-11-02'
+  gh_stars: 644
+  gh_open_issues_30d: 5
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:51.197974+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 7.71
+  momentum_score: 56.3
 https://github.com/xavier-mt/kerbi:
   title: "Kerbi \U0001F31F"
   description: ''
@@ -269416,13 +269580,15 @@ https://github.com/xavier-mt/kerbi:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2022-06-16T09:03:15Z'
+  gh_pushed: '2022-06-16'
   gh_stars: 14
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:51.940769+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.25
+  momentum_score: 0.0
 https://github.com/xiaods/k8e:
   title: xiaods/k8e
   description: ''
@@ -269459,13 +269625,15 @@ https://github.com/xiaods/k8e:
   - matrix-table.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-06T10:04:34Z'
-  gh_stars: 449
-  gh_open_issues_30d: 6
+  gh_pushed: '2026-10-27'
+  gh_stars: 514
+  gh_open_issues_30d: 7
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:42:52.665580+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-on-premise
+  gh_stars_per_month: 6.85
+  momentum_score: 54.4
 https://github.com/xiaopeng163/docker-compose-tpg:
   title: 'docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments'
   description: ''
@@ -269500,14 +269668,16 @@ https://github.com/xiaopeng163/docker-compose-tpg:
   v2_locations:
   - demos.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 25
+  gh_pushed: '2024-06-19'
   gh_license: N/A
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:53.348018+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: demos
+  gh_stars_per_month: 0.33
+  momentum_score: 9.2
 https://github.com/yahoo/check-log4j:
   title: yahoo/check-log4j
   description: ''
@@ -269544,13 +269714,15 @@ https://github.com/yahoo/check-log4j:
   - devsecops.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-03-08T19:43:51Z'
-  gh_stars: 169
+  gh_pushed: '2026-06-30'
+  gh_stars: 168
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:54.110454+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: devsecops
+  gh_stars_per_month: 2.83
+  momentum_score: 40.0
 https://github.com/yandex-cloud/k8s-csi-s3:
   title: 'github.com/yandex-cloud: CSI for S3'
   description: ''
@@ -269587,13 +269759,15 @@ https://github.com/yandex-cloud/k8s-csi-s3:
   - kubernetes-storage.md
   youtube_mosaic: {}
   gh_license: NOASSERTION
-  gh_pushed: '2026-05-05T12:23:53Z'
-  gh_stars: 859
-  gh_open_issues_30d: 118
+  gh_pushed: '2026-05-05'
+  gh_stars: 893
+  gh_open_issues_30d: 119
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:54.835588+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-storage
+  gh_stars_per_month: 13.88
+  momentum_score: 57.3
 https://github.com/yangshun/tech-interview-handbook:
   title: Tech Interview Handbook
   description: ''
@@ -269630,14 +269804,16 @@ https://github.com/yangshun/tech-interview-handbook:
   - other-awesome-lists.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-04-05T23:58:25Z'
-  gh_stars: 140289
+  gh_pushed: '2026-08-07'
+  gh_stars: 143195
   is_special: true
-  gh_open_issues_30d: 37
+  gh_open_issues_30d: 38
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:55.547991+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 1138.88
+  momentum_score: 100.0
 https://github.com/yangtao309/awesome-api-gateway:
   title: Awesome API Gateway
   description: ''
@@ -269673,15 +269849,17 @@ https://github.com/yangtao309/awesome-api-gateway:
   - architectural-foundations.md
   - other-awesome-lists.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 4
+  gh_pushed: '2025-09-22'
   gh_license: N/A
   is_special: true
-  gh_open_issues_30d: 0
+  gh_open_issues_30d: 1
   gh_open_prs_30d: 0
-  gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:56.353138+02:00'
+  gh_community_health: low
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: other-awesome-lists
+  gh_stars_per_month: 0.03
+  momentum_score: 7.7
 https://github.com/yankils/Simple-DevOps-Project:
   title: yankils/Simple-DevOps-Project
   description: ''
@@ -269716,14 +269894,16 @@ https://github.com/yankils/Simple-DevOps-Project:
   v2_locations:
   - demos.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 969
+  gh_pushed: '2024-08-17'
   gh_license: N/A
   gh_open_issues_30d: 72
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:57.054857+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: demos
+  gh_stars_per_month: 10.13
+  momentum_score: 42.0
 https://github.com/yannh/kubeconform:
   title: "github.com/yannh/kubeconform \U0001F31F"
   description: ''
@@ -269762,13 +269942,15 @@ https://github.com/yannh/kubeconform:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-13T11:53:23Z'
-  gh_stars: 3066
-  gh_open_issues_30d: 90
+  gh_pushed: '2026-06-13'
+  gh_stars: 3245
+  gh_open_issues_30d: 95
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:42:57.801552+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: devsecops
+  gh_stars_per_month: 41.48
+  momentum_score: 70.7
 https://github.com/yashvardhan-kukreja/kube-bench-exporter:
   title: kube-bench-exporter
   description: ''
@@ -269803,13 +269985,15 @@ https://github.com/yashvardhan-kukreja/kube-bench-exporter:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2021-04-03T00:12:14Z'
+  gh_pushed: '2021-04-03'
   gh_stars: 12
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:58.512001+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.18
+  momentum_score: 0.0
 https://github.com/ynqa/bul:
   title: 'bul: Interactive TUI for Exploring Kubernetes Container Logs'
   description: ''
@@ -269849,13 +270033,15 @@ https://github.com/ynqa/bul:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2024-05-23T09:31:41Z'
-  gh_stars: 16
+  gh_pushed: '2024-05-23'
+  gh_stars: 17
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:42:59.237699+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: container-managers
+  gh_stars_per_month: 0.56
+  momentum_score: 8.1
 https://github.com/ynqa/jnv:
   title: "github.com/ynqa/jnv \U0001F31F"
   description: ''
@@ -269891,14 +270077,16 @@ https://github.com/ynqa/jnv:
   - yaml.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-04-03T09:13:20Z'
-  gh_stars: 6044
+  gh_pushed: '2026-10-26'
+  gh_stars: 6131
   is_special: true
   gh_open_issues_30d: 32
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:42:59.956444+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: yaml
+  gh_stars_per_month: 191.79
+  momentum_score: 87.3
 https://github.com/yogeshkk/K8sPurger:
   title: "K8sPurger \U0001F31F"
   description: ''
@@ -269934,13 +270122,15 @@ https://github.com/yogeshkk/K8sPurger:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2024-02-18T19:09:02Z'
-  gh_stars: 256
+  gh_pushed: '2024-02-18'
+  gh_stars: 258
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:00.684335+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 3.87
+  momentum_score: 29.8
 https://github.com/yokawasa/action-setup-kube-tools:
   title: yokawasa/action-setup-kube-tools
   description: ''
@@ -269975,13 +270165,15 @@ https://github.com/yokawasa/action-setup-kube-tools:
   - jenkins-alternatives.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-06-10T14:49:12Z'
-  gh_stars: 92
+  gh_pushed: '2026-10-21'
+  gh_stars: 95
   gh_open_issues_30d: 4
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:43:01.446377+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: jenkins-alternatives
+  gh_stars_per_month: 1.23
+  momentum_score: 37.6
 https://github.com/yonahd/kor:
   title: github.com/yonahd/kor
   description: ''
@@ -270017,13 +270209,15 @@ https://github.com/yonahd/kor:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-05-26T06:51:45Z'
-  gh_stars: 1798
-  gh_open_issues_30d: 23
+  gh_pushed: '2026-11-01'
+  gh_stars: 1902
+  gh_open_issues_30d: 24
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:43:02.142805+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 46.96
+  momentum_score: 72.5
 https://github.com/yonahd/orphaned-configmaps:
   title: 'github.com/yonahd/orphaned-configmaps: Orphaned ConfigMaps'
   description: ''
@@ -270058,14 +270252,16 @@ https://github.com/yonahd/orphaned-configmaps:
   v2_locations:
   - kubernetes-tools.md
   youtube_mosaic: {}
-  gh_stars: 0
-  gh_pushed: null
+  gh_stars: 31
+  gh_pushed: '2024-05-09'
   gh_license: N/A
   gh_open_issues_30d: 2
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:43:02.834929+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.76
+  momentum_score: 12.1
 https://github.com/yteraoka/kubectl-isolate:
   title: kubectl-isolate
   description: ''
@@ -270100,13 +270296,15 @@ https://github.com/yteraoka/kubectl-isolate:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2020-07-05T00:56:41Z'
+  gh_pushed: '2020-07-05'
   gh_stars: 10
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:03.597001+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 0.13
+  momentum_score: 0.0
 https://github.com/zakkg3/ClusterSecret:
   title: 'zakkg3/ClusterSecret: Kubernetes ClusterSecret operator'
   description: ''
@@ -270141,13 +270339,15 @@ https://github.com/zakkg3/ClusterSecret:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-04-01T21:32:29Z'
-  gh_stars: 510
+  gh_pushed: '2026-04-01'
+  gh_stars: 513
   gh_open_issues_30d: 30
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:43:04.326677+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-tools
+  gh_stars_per_month: 6.46
+  momentum_score: 50.1
 https://github.com/zalando/logbook:
   title: logbook
   description: ''
@@ -270183,13 +270383,15 @@ https://github.com/zalando/logbook:
   - java_frameworks.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-06-12T12:58:02Z'
-  gh_stars: 2048
-  gh_open_issues_30d: 26
+  gh_pushed: '2026-11-02'
+  gh_stars: 2071
+  gh_open_issues_30d: 28
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:43:05.044181+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: java_frameworks
+  gh_stars_per_month: 15.28
+  momentum_score: 66.4
 https://github.com/zalando/patroni:
   title: Patroni
   description: ''
@@ -270223,8 +270425,9 @@ https://github.com/zalando/patroni:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:05.707269+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: databases
+  momentum_score: 0.0
 https://github.com/zalando/postgres-operator:
   title: Zalando Postgres Operator
   description: ''
@@ -270259,13 +270462,15 @@ https://github.com/zalando/postgres-operator:
   - databases.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-06-12T22:14:55Z'
-  gh_stars: 5182
-  gh_open_issues_30d: 543
+  gh_pushed: '2026-11-02'
+  gh_stars: 5270
+  gh_open_issues_30d: 559
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:43:06.407392+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: databases
+  gh_stars_per_month: 45.68
+  momentum_score: 77.9
 https://github.com/zalando/spilo:
   title: 'Spilo: HA PostgreSQL Clusters with Docker'
   description: ''
@@ -270300,13 +270505,15 @@ https://github.com/zalando/spilo:
   - databases.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-11T14:18:57Z'
-  gh_stars: 1839
-  gh_open_issues_30d: 144
+  gh_pushed: '2026-10-29'
+  gh_stars: 1876
+  gh_open_issues_30d: 146
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:43:07.178226+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: databases
+  gh_stars_per_month: 13.35
+  momentum_score: 65.1
 https://github.com/zarf-dev/zarf:
   title: defenseunicorns/zarf
   description: ''
@@ -270343,13 +270550,15 @@ https://github.com/zarf-dev/zarf:
   - kubernetes-on-premise.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-12T17:31:07Z'
-  gh_stars: 1925
-  gh_open_issues_30d: 293
+  gh_pushed: '2026-11-02'
+  gh_stars: 2081
+  gh_open_issues_30d: 307
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:43:07.961705+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: kubernetes-on-premise
+  gh_stars_per_month: 32.91
+  momentum_score: 70.9
 https://github.com/zaynali53/DotENV:
   title: Dotenv
   description: null
@@ -270383,8 +270592,12 @@ https://github.com/zaynali53/DotENV:
   gh_open_issues_30d: 1
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:43:08.730133+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: visual-studio
+  gh_stars: 132
+  gh_stars_per_month: 1.0
+  gh_pushed: '2024-03-10'
+  momentum_score: 20.7
 https://github.com/zegl/kube-score:
   title: Kube-score
   description: ''
@@ -270417,11 +270630,15 @@ https://github.com/zegl/kube-score:
   youtube_mosaic: {}
   gh_license: MIT
   is_special: true
-  gh_open_issues_30d: 54
+  gh_open_issues_30d: 55
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:43:09.432510+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: yaml
+  gh_stars: 3106
+  gh_stars_per_month: 31.38
+  gh_pushed: '2026-05-20'
+  momentum_score: 68.8
 https://github.com/zsh-users/zsh-autosuggestions:
   title: "github.com/zsh-users/zsh-autosuggestions \U0001F31F"
   description: ''
@@ -270457,13 +270674,15 @@ https://github.com/zsh-users/zsh-autosuggestions:
   - linux.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2025-06-24T16:15:03Z'
-  gh_stars: 35690
+  gh_pushed: '2025-06-24'
+  gh_stars: 36178
   gh_open_issues_30d: 203
   gh_open_prs_30d: 0
   gh_community_health: active
-  gh_activity_checked: '2026-09-25T11:43:10.178598+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: linux
+  gh_stars_per_month: 228.25
+  momentum_score: 90.0
 https://github.comjoshmsmith/monkey-ops:
   title: 'GitHub: monkey-ops, Openshift compliant, no cluster-admin required'
   description: ''
@@ -270636,8 +270855,9 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:10.802393+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: cheatsheets
+  momentum_score: 0.0
 https://github1s.com:
   title: "github1s.com \U0001F31F"
   description: ''
@@ -275424,8 +275644,9 @@ https://guides.github.com/introduction/flow:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:11.426626+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: git
+  momentum_score: 0.0
 https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf:
   title: 'guides.github.com: Markdown Cheat Sheet 2'
   description: ''
@@ -275461,8 +275682,9 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:12.068821+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: cheatsheets
+  momentum_score: 0.0
 https://guides.sonatype.com/repo3/technical-guides/secure-docker-registries:
   title: 'guides.sonatype.com: secure docker registries'
   description: ''
@@ -279146,8 +279368,9 @@ https://help.github.com/en/github:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:12.682349+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: git
+  momentum_score: 0.0
 https://help.github.com/en/github/administering-a-repository/enabling-required-status-checks:
   title: 'help.github.com: Enabling required status checks:'
   description: ''
@@ -279181,9 +279404,10 @@ https://help.github.com/en/github/administering-a-repository/enabling-required-s
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:13.331495+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: git
   duplicate_of: https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule
+  momentum_score: 0.0
 https://help.sonatype.com/en/404-page.html:
   title: 'guides.sonatype.com: secure docker registries'
   description: ''
@@ -403780,13 +404004,15 @@ https://pkg.go.dev/github.com/keilerkonzept/aws-secretsmanager-files:
   - devsecops.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2024-07-30T22:47:01Z'
+  gh_pushed: '2024-07-30'
   gh_stars: 35
   gh_open_issues_30d: 3
   gh_open_prs_30d: 0
   gh_community_health: low
-  gh_activity_checked: '2026-09-25T11:43:14.058046+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: devsecops
+  gh_stars_per_month: 0.39
+  momentum_score: 11.3
 https://pkg.go.dev/k8s.io/client-go:
   title: pkg.go.dev/k8s.io/client-go
   description: ''
@@ -418392,8 +418618,9 @@ https://resources.github.com/devops/tools/automation/actions:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:14.682708+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: git
+  momentum_score: 0.0
 https://resources.whitesourcesoftware.com/blog-whitesource/kubernetes-security:
   title: "resources.whitesourcesoftware.com: Kubernetes Security Best Practices \U0001F31F"
   description: ''
@@ -473097,8 +473324,9 @@ https://training.github.com/downloads/github-git-cheat-sheet.pdf:
   gh_open_issues_30d: 0
   gh_open_prs_30d: 0
   gh_community_health: dormant
-  gh_activity_checked: '2026-09-25T11:43:15.310978+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: cheatsheets
+  momentum_score: 76.0
 https://training.linuxfoundation.org/resources:
   title: The Linux Foundation Training
   description: ''
@@ -651326,14 +651554,16 @@ https://github.com/fabric8io/fabric8-maven-plugin:
   v2_locations:
   - openshift-pipelines.md
   youtube_mosaic: {}
-  gh_stars: 334
-  gh_pushed: '2024-06-19T04:52:55Z'
+  gh_stars: 330
+  gh_pushed: '2024-06-19'
   gh_license: Apache-2.0
   gh_open_issues_30d: 41
   gh_open_prs_30d: 0
   gh_community_health: healthy
-  gh_activity_checked: '2026-09-25T11:43:16.060963+02:00'
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
   category: openshift-pipelines
+  gh_stars_per_month: 2.56
+  momentum_score: 29.2
 ? https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&dsh=S-837258255%3A1779033921742301&followup=https%3A%2F%2Fconsole.cloud.google.com%2Fproducts&osid=1&passive=1209600&service=cloudconsole&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavdLijoZE8HgBUBXNoU1YfsOf-olUjJ8JfmhFG_0QoTjdDv1sVmFwi8Eo6EXbpyWStjzuTRaQ
 : title: console.cloud.google.com/products
   description: ''
@@ -662433,9 +662663,15 @@ https://github.com/langchain-ai/langchain:
   - ai-agents-mcp.md
   youtube_mosaic: {}
   category: ai-agents-mcp
-  gh_stars: 148406
-  gh_pushed: '2026-10-25T09:17:13Z'
+  gh_stars: 148887
+  gh_pushed: '2026-11-02'
   gh_license: MIT
+  gh_open_issues_30d: 708
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 3024.11
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://openai.com/index/introducing-openai-presence:
   title: Introducing OpenAI Presence
   description: null
@@ -662919,9 +663155,15 @@ https://github.com/Continuum-AI-Corp/OrcaReplay:
   - ai-agents-mcp.md
   youtube_mosaic: {}
   category: ai-agents-mcp
-  gh_stars: 282
-  gh_pushed: '2026-10-01T09:18:56Z'
+  gh_stars: 295
+  gh_pushed: '2026-10-01'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 2
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 136.15
+  momentum_score: 68.8
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://openai.com/index/lseg:
   title: LSEG and OpenAI Partner to Integrate Financial Data into ChatGPT
   description: null
@@ -665373,6 +665615,14 @@ https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive:
   - ai-agents-mcp.md
   youtube_mosaic: {}
   category: ai-agents-mcp
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars: 29
+  gh_stars_per_month: 19.33
+  gh_pushed: '2026-11-02'
+  momentum_score: 44.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://openai.com/index/economic-research-exchange:
   title: Introducing the OpenAI Economic Research Exchange
   description: null
@@ -671743,9 +671993,15 @@ https://github.com/supabase/supabase:
   - aws-databases.md
   youtube_mosaic: {}
   category: aws
-  gh_stars: 113904
-  gh_pushed: '2026-10-25T00:37:17Z'
+  gh_stars: 114445
+  gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 1154
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1331.79
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91?gi=89ce6b861525:
   title: 'aws.plainenglish.io: AWS CodePipeline for Amazon ECS'
   description: null
@@ -672292,9 +672548,15 @@ https://github.com/getsentry/sentry:
   - aws-monitoring.md
   youtube_mosaic: {}
   category: aws
-  gh_stars: 45643
-  gh_pushed: '2026-10-24T22:49:14Z'
+  gh_stars: 45697
+  gh_pushed: '2026-11-02'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 2175
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 232.08
+  momentum_score: 99.4
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://towardsaws.com/networking-basics-in-aws-ab72882855c4?gi=a3ab3b3d2580:
   title: 'towardsaws.com: Networking Basics in AWS'
   description: null
@@ -675340,10 +675602,16 @@ https://github.com/Azure/AzureNamingTool:
   - azure.md
   youtube_mosaic: {}
   category: azure
-  gh_stars: 607
-  gh_pushed: '2026-10-15T08:12:23Z'
+  gh_stars: 608
+  gh_pushed: '2026-10-15'
   gh_license: MIT
   duplicate_of: https://github.com/mspnp/AzureNamingTool
+  gh_open_issues_30d: 16
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 14.85
+  momentum_score: 59.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux:
   title: 'Red Hat Enterprise Linux Blog. Tag: Varnish'
   description: null
@@ -676572,9 +676840,15 @@ https://github.com/victortassinari/FossFLOW:
   - kubernetes-tools.md
   youtube_mosaic: {}
   category: cicd
-  gh_stars: 405
-  gh_pushed: '2025-08-21T14:31:30Z'
+  gh_stars: 407
+  gh_pushed: '2025-08-21'
   gh_license: MIT
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 28.0
+  momentum_score: 53.1
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://www.cloudbees.com/blog/enterprise-need-modern-software-delivery:
   title: 'cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know
     in 2021'
@@ -677286,11 +677560,17 @@ https://github.com/podman-container-tools/podman:
   - container-managers.md
   youtube_mosaic: {}
   category: container-managers
-  gh_stars: 33116
-  gh_pushed: '2026-10-24T10:39:13Z'
+  gh_stars: 33166
+  gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
   duplicate_of: https://github.com/containers/podman
   cncf_status: sandbox
+  gh_open_issues_30d: 983
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 302.61
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://itnext.io/docker-kaniko-buildah-209abdde5f94?gi=2a3756ed035a:
   title: 'itnext.io: Docker, Kaniko, Buildah'
   description: null
@@ -677357,10 +677637,16 @@ https://github.com/podman-container-tools/buildah:
   - container-managers.md
   youtube_mosaic: {}
   category: container-managers
-  gh_stars: 9150
-  gh_pushed: '2026-10-24T10:36:55Z'
+  gh_stars: 9167
+  gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
   duplicate_of: https://github.com/containers/buildah
+  gh_open_issues_30d: 251
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 77.1
+  momentum_score: 84.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/podman-container-tools/skopeo:
   title: Skopeo
   description: null
@@ -677396,9 +677682,15 @@ https://github.com/podman-container-tools/skopeo:
   - kubernetes-tools.md
   youtube_mosaic: {}
   category: container-managers
-  gh_stars: 11348
-  gh_pushed: '2026-10-24T10:36:56Z'
+  gh_stars: 11369
+  gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 79
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 87.66
+  momentum_score: 86.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f?gi=40eb61ef0050:
   title: 'itnext.io: Why do developers find Kubernetes so hard?'
   description: null
@@ -677536,9 +677828,15 @@ https://github.com/meganokeefe/yaml-your-cloud:
   youtube_mosaic: {}
   category: crossplane
   gh_stars: 6
-  gh_pushed: '2021-09-13T17:16:35Z'
+  gh_pushed: '2021-09-13'
   gh_license: Apache-2.0
   duplicate_of: https://github.com/askmeegs/yaml-your-cloud
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 0.09
+  momentum_score: 0.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://openai.com/index/omio:
   title: How Omio is building the future of conversational travel
   description: null
@@ -678015,9 +678313,15 @@ https://github.com/libredb/libredb-studio:
   - databases.md
   youtube_mosaic: {}
   category: databases
-  gh_stars: 1275
-  gh_pushed: '2026-10-24T23:50:42Z'
+  gh_stars: 1312
+  gh_pushed: '2026-11-02'
   gh_license: MIT
+  gh_open_issues_30d: 18
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 125.75
+  momentum_score: 76.4
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/inventaires/dynamiques:
   title: 'blog.stephane-robert.info: Ansible - Utiliser MySQL comme inventaire dynamique
     (Use MySQL as a dynamic inventory)'
@@ -678738,9 +679042,15 @@ https://github.com/griddynamics-archive/mpl:
   youtube_mosaic: {}
   category: demos
   gh_stars: 165
-  gh_pushed: '2024-11-07T04:50:55Z'
+  gh_pushed: '2024-11-07'
   gh_license: Apache-2.0
   duplicate_of: https://github.com/griddynamics/mpl
+  gh_open_issues_30d: 14
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 1.58
+  momentum_score: 33.5
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 ? https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f?gi=30c869b2da6a
 : title: 'itnext.io: Hydrating a Data Lake using Log-based Change Data Capture (CDC)
     with Debezium, Apicurio, and Kafka Connect on AWS'
@@ -680121,9 +680431,15 @@ https://github.com/ASCIT31/Dark-Moon:
   - devsecops.md
   youtube_mosaic: {}
   category: devsecops
-  gh_stars: 1140
-  gh_pushed: '2026-10-25T09:10:08Z'
+  gh_stars: 1194
+  gh_pushed: '2026-10-27'
   gh_license: GPL-3.0
+  gh_open_issues_30d: 6
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 50.74
+  momentum_score: 70.5
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 ? https://itnext.io/securing-kubernetes-workloads-a-practical-approach-to-signed-and-encrypted-container-images-ff6e98b65bcd?gi=6015d48f34df
 : title: 'itnext.io: Securing Kubernetes Workloads: A Practical Approach to Signed
     and Encrypted Container Images'
@@ -682231,6 +682547,7 @@ https://github.com/datreeio/datree:
   - Git Distributed Version-Control System
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[LEGACY]'
   v1_locations:
   - docs/git.md
   - docs/kubernetes-tools.md
@@ -682242,8 +682559,14 @@ https://github.com/datreeio/datree:
   youtube_mosaic: {}
   category: git
   gh_stars: 6330
-  gh_pushed: '2024-04-23T02:14:19Z'
+  gh_pushed: '2024-04-23'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 25
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 93.64
+  momentum_score: 65.2
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://codeburst.io/debug-your-code-using-git-bisect-45db2983cc69?gi=5eebf9ca49ef:
   title: 'codeburst.io: Debug your code using git bisect'
   description: null
@@ -683729,16 +684052,23 @@ https://github.com/grafana-cold-storage/agent:
   - Grafana Agent
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[LEGACY]'
   v1_locations:
   - docs/grafana.md
   v2_locations:
   - grafana.md
   youtube_mosaic: {}
   category: grafana
-  gh_stars: 1748
-  gh_pushed: '2026-07-27T21:38:26Z'
+  gh_stars: 1752
+  gh_pushed: '2026-07-27'
   gh_license: Apache-2.0
   duplicate_of: https://github.com/grafana/agent
+  gh_open_issues_30d: 93
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 20.74
+  momentum_score: 63.3
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://levelup.gitconnected.com/exploring-grafana-agent-flow-simplifying-monitoring-for-kubernetes-2a06a92614?gi=0d8c1bb2c762:
   title: 'levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and
     Telemetry Collection for Kubernetes Clusters'
@@ -683808,8 +684138,14 @@ https://github.com/Fractal-Techware/grafana-dashboards:
   youtube_mosaic: {}
   category: grafana
   gh_stars: 0
-  gh_pushed: '2026-10-09T20:01:00Z'
+  gh_pushed: '2026-10-09'
   gh_license: MIT
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 0.0
+  momentum_score: 18.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34?gi=0c71e6906ec1:
   title: 'itnext.io: Logging in Kubernetes with Loki and the PLG Stack'
   description: null
@@ -684314,8 +684650,14 @@ https://github.com/doublewordai/control-layer-chart:
   youtube_mosaic: {}
   category: helm
   gh_stars: 0
-  gh_pushed: '2026-10-23T11:07:55Z'
+  gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 13
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 0.0
+  momentum_score: 18.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/GeiserX/genieacs-container:
   title: GenieACS
   description: null
@@ -684350,8 +684692,14 @@ https://github.com/GeiserX/genieacs-container:
   youtube_mosaic: {}
   category: helm
   gh_stars: 136
-  gh_pushed: '2026-10-21T00:31:06Z'
+  gh_pushed: '2026-11-01'
   gh_license: GPL-3.0
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 1.47
+  momentum_score: 40.2
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805?gi=6fa3ad57a5bf:
   title: 'itnext.io: Database migrations on Kubernetes using Helm hooks'
   description: null
@@ -685488,8 +685836,14 @@ https://github.com/meganokeefe/learn-istio:
   youtube_mosaic: {}
   category: istio
   gh_stars: 1334
-  gh_pushed: '2024-08-21T04:02:44Z'
+  gh_pushed: '2024-08-21'
   gh_license: N/A
+  gh_open_issues_30d: 1
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 16.9
+  momentum_score: 46.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://faun.pub/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38?gi=bd3b64972e30:
   title: "inder-devops.medium.com: On-premise to cloud migration mock drills using
     Istio \U0001F31F"
@@ -686695,9 +687049,15 @@ https://github.com/jenkinsci/docker:
   - jenkins.md
   youtube_mosaic: {}
   category: jenkins
-  gh_stars: 7676
-  gh_pushed: '2026-10-23T14:04:13Z'
+  gh_stars: 7682
+  gh_pushed: '2026-11-02'
   gh_license: MIT
+  gh_open_issues_30d: 23
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 51.33
+  momentum_score: 80.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/shazChaudhry/docker-jenkins:
   title: 'github.com/shazChaudhry/docker-jenkins: Swarm Cluster setup demonstrating
     how to run scalable Jenkins workers inside a Docker Swarm environment'
@@ -686725,6 +687085,7 @@ https://github.com/shazChaudhry/docker-jenkins:
   - Jenkins on Docker
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[LEGACY]'
   v1_locations:
   - docs/jenkins.md
   v2_locations:
@@ -686732,8 +687093,14 @@ https://github.com/shazChaudhry/docker-jenkins:
   youtube_mosaic: {}
   category: jenkins
   gh_stars: 44
-  gh_pushed: '2019-02-10T17:30:45Z'
+  gh_pushed: '2019-02-10'
   gh_license: N/A
+  gh_open_issues_30d: 1
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 0.38
+  momentum_score: 0.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://jenkinsci.github.io/kubernetes-operator:
   title: 'jenkinsci.github.io/kubernetes-operator: Setup, configuration, backup and
     restore guides for Jenkins Operator'
@@ -688494,8 +688861,14 @@ https://github.com/Megapixel99/nodejs-k8s:
   youtube_mosaic: {}
   category: kubernetes-based-devel
   gh_stars: 124
-  gh_pushed: '2026-08-21T19:50:24Z'
+  gh_pushed: '2026-08-21'
   gh_license: MIT
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 4.08
+  momentum_score: 44.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://web.archive.org/web/20251207094708/https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021:
   title: 'rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and
     Skaffold (Part 1)'
@@ -688680,6 +689053,14 @@ https://github.com/Lumovi/Lumovi:
   - kubernetes-based-devel.md
   youtube_mosaic: {}
   category: kubernetes-based-devel
+  gh_open_issues_30d: 5
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars: 38
+  gh_stars_per_month: 38.0
+  gh_pushed: '2026-10-31'
+  momentum_score: 50.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://itnext.io/migrating-apache-spark-workloads-from-aws-emr-to-kubernetes-463742b49fda?gi=b2b19a4f6a90:
   title: 'itnext.io: Migrating Apache Spark workloads from AWS EMR to Kubernetes'
   description: null
@@ -690129,9 +690510,15 @@ https://github.com/kubernetes-retired/ingate:
   youtube_mosaic: {}
   category: kubernetes-networking
   gh_stars: 715
-  gh_pushed: '2026-06-30T16:24:02Z'
+  gh_pushed: '2026-06-30'
   gh_license: Apache-2.0
   duplicate_of: https://github.com/kubernetes-sigs/ingate
+  gh_open_issues_30d: 5
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 30.69
+  momentum_score: 60.7
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 ? https://engineering.backmarket.com/how-we-improved-third-party-availability-and-latency-with-nginx-in-kubernetes-bb3fc7224ae4?gi=50b8610c2c31
 : title: "engineering.backmarket.com: How we improved third-party availability and
     latency with Nginx in Kubernetes \U0001F31F"
@@ -690544,8 +690931,14 @@ https://github.com/danm-cni/danm:
   youtube_mosaic: {}
   category: kubernetes-networking
   gh_stars: 396
-  gh_pushed: '2026-10-21T12:45:41Z'
+  gh_pushed: '2026-11-02'
   gh_license: BSD-3-Clause
+  gh_open_issues_30d: 10
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 4.04
+  momentum_score: 50.3
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://blog.devgenius.io/k8s-networking-calico-part1-7f74395b6fe2?gi=e909fc0c982e:
   title: 'blog.devgenius.io: K8s Networking — Calico (Part1)'
   description: null
@@ -692073,8 +692466,14 @@ https://github.com/tokentimerch/tokentimer-core:
   youtube_mosaic: {}
   category: kubernetes-security
   gh_stars: 57
-  gh_pushed: '2026-10-25T08:32:56Z'
+  gh_pushed: '2026-11-02'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 64
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 7.99
+  momentum_score: 43.3
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://blog.devgenius.io/automated-dns-tls-with-external-dns-letsencrypt-on-kubernetes-6f4f41827df9?gi=c1180bb19f8a:
   title: 'blog.devgenius.io: Automated DNS/TLS with External DNS & LetsEncrypt on
     Kubernetes'
@@ -692362,6 +692761,11 @@ https://github.com/probityai/agent-evidence-admission:
   gh_stars: 0
   gh_pushed: null
   gh_license: N/A
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  momentum_score: 18.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://itnext.io/implementing-a-restricted-first-pod-security-policyarchitecture-af4e906593b0?gi=5f54b2b7e493:
   title: 'itnext.io: Implementing a Secure-First Pod Security Policy Architecture'
   description: null
@@ -692880,8 +693284,14 @@ https://github.com/raystack/compass:
   youtube_mosaic: {}
   category: kubernetes-tools
   gh_stars: 73
-  gh_pushed: '2026-04-21T21:32:57Z'
+  gh_pushed: '2026-04-21'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 4
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 1.07
+  momentum_score: 31.7
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://blog.devgenius.io/k8s-kubecolor-introduction-3d650effc36f?gi=1d84ec902d67:
   title: 'blog.devgenius.io: K8s — Kubecolor Introduction'
   description: null
@@ -692982,9 +693392,15 @@ https://github.com/mustafaakin/kubernetes-event-exporter:
   youtube_mosaic: {}
   category: kubernetes-tools
   gh_stars: 1041
-  gh_pushed: '2026-06-29T19:01:51Z'
+  gh_pushed: '2026-06-29'
   gh_license: Apache-2.0
   duplicate_of: https://github.com/resmoio/kubernetes-event-exporter
+  gh_open_issues_30d: 108
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 19.73
+  momentum_score: 60.2
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://faun.pub/a-browser-based-remote-desktop-solution-on-kubernetes-d6b3d33e73b6?gi=7285f7297688:
   title: 'faun.pub: A browser based remote desktop solution on kubernetes'
   description: null
@@ -701243,6 +701659,14 @@ https://github.com/fclairamb/solidping:
   - monitoring.md
   youtube_mosaic: {}
   category: monitoring
+  gh_open_issues_30d: 6
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars: 28
+  gh_stars_per_month: 3.75
+  gh_pushed: '2026-11-02'
+  momentum_score: 35.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://martinfowler.com/data/index.html:
   title: NoSQL Guide, by Martin Fowler
   description: null
@@ -701935,9 +702359,15 @@ https://github.com/stevedotmt/awesome-slo:
   youtube_mosaic: {}
   category: other-awesome-lists
   gh_stars: 283
-  gh_pushed: '2025-06-12T19:55:29Z'
+  gh_pushed: '2025-06-12'
   gh_license: CC0-1.0
   duplicate_of: https://github.com/steve-mt/awesome-slo
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 5.98
+  momentum_score: 42.5
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/AbdelrhmanHamouda/locust-k8s-operator:
   title: AbdelrhmanHamouda/locust-k8s-operator
   description: null
@@ -701973,8 +702403,14 @@ https://github.com/AbdelrhmanHamouda/locust-k8s-operator:
   youtube_mosaic: {}
   category: performance-testing-with-jenkins-and-jmeter
   gh_stars: 93
-  gh_pushed: '2026-10-22T14:04:09Z'
+  gh_pushed: '2026-10-22'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 11
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 1.84
+  momentum_score: 39.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://www.tricentis.com/products/performance-testing-neoload:
   title: flood.io
   description: null
@@ -702694,8 +703130,14 @@ https://github.com/influxdata/community-templates:
   youtube_mosaic: {}
   category: prometheus
   gh_stars: 377
-  gh_pushed: '2023-06-15T17:29:23Z'
+  gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 77
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 4.55
+  momentum_score: 50.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://zedible.io:
   title: "exporterhub.io \U0001F31F"
   description: null
@@ -703572,8 +704014,14 @@ https://github.com/notia-ai/SliceOfML:
   youtube_mosaic: {}
   category: python
   gh_stars: 15
-  gh_pushed: '2022-07-16T06:41:13Z'
+  gh_pushed: '2022-07-16'
   gh_license: MIT
+  gh_open_issues_30d: 1
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 0.28
+  momentum_score: 0.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://blog.devops.dev/generating-a-list-of-dictionaries-with-python-77fca1854911?gi=48aaa83f44d2:
   title: 'blog.devops.dev: Generating A List of Dictionaries With Python'
   description: null
@@ -706424,9 +706872,15 @@ https://github.com/atlassian/atlascode/issues/112:
   - visual-studio.md
   youtube_mosaic: {}
   category: visual-studio
-  gh_stars: 134
-  gh_pushed: '2026-10-23T00:23:16Z'
+  gh_stars: 135
+  gh_pushed: '2026-10-29'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 233
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 5.75
+  momentum_score: 46.2
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631?gi=0fbd0f1f2ab6:
   title: 'levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer
     Must Know'
@@ -706809,13 +707263,13 @@ https://liveslot168-rtpp.cyou/ls168-fld:
 https://azure.github.io/Azure-Verified-Modules/indexes/terraform:
   title: 'Azure Verified Modules: Official Terraform Module Index (Resource, Pattern,
     and Utility)'
-  description: Live catalog of all published Terraform Azure Verified Modules (avm-res-*
-    resource modules, avm-ptn-* architecture pattern modules, and avm-utl-* utility
+  description: Live catalog of all published Terraform Azure Verified Modules (`avm-res-*`
+    resource modules, `avm-ptn-*` architecture pattern modules, and `avm-utl-*` utility
     modules) with support status, registry links, and module owners.
   year: '2026'
   stars: 5
-  ai_summary: Live catalog of all published Terraform Azure Verified Modules (avm-res-*
-    resource modules, avm-ptn-* architecture pattern modules, and avm-utl-* utility
+  ai_summary: Live catalog of all published Terraform Azure Verified Modules (`avm-res-*`
+    resource modules, `avm-ptn-*` architecture pattern modules, and `avm-utl-*` utility
     modules) with support status, registry links, and module owners.
   language: English
   resource_type: Reference
@@ -706892,6 +707346,12 @@ https://github.com/Azure/Azure-Verified-Modules:
   gh_stars: 586
   gh_pushed: '2026-10-30'
   gh_license: MIT
+  gh_open_issues_30d: 270
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 14.39
+  momentum_score: 59.2
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/alz-terraform-accelerator:
   title: 'Azure/alz-terraform-accelerator: Azure Landing Zones (ALZ) Terraform Accelerator'
   description: Official CLI and starter framework that bootstraps production-grade
@@ -706941,6 +707401,12 @@ https://github.com/Azure/alz-terraform-accelerator:
   gh_stars: 206
   gh_pushed: '2026-10-27'
   gh_license: MIT
+  gh_open_issues_30d: 6
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 3.1
+  momentum_score: 45.5
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-azurerm-avm-ptn-alz:
   title: 'Azure/terraform-azurerm-avm-ptn-alz: AVM Pattern Module for Azure Landing
     Zones'
@@ -706989,6 +707455,12 @@ https://github.com/Azure/terraform-azurerm-avm-ptn-alz:
   gh_stars: 134
   gh_pushed: '2026-10-28'
   gh_license: MIT
+  gh_open_issues_30d: 5
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 3.1
+  momentum_score: 43.2
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-azurerm-lz-vending:
   title: 'Azure/terraform-azurerm-lz-vending: AVM Subscription Vending Terraform Module'
   description: Official Azure Landing Zone subscription vending module for automating
@@ -707022,6 +707494,7 @@ https://github.com/Azure/terraform-azurerm-lz-vending:
   - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
   - '[IAC]'
+  - '[LEGACY]'
   - '[TERRAFORM]'
   v1_locations:
   - docs/terraform.md
@@ -707033,6 +707506,12 @@ https://github.com/Azure/terraform-azurerm-lz-vending:
   gh_stars: 210
   gh_pushed: '2025-11-28'
   gh_license: MIT
+  gh_open_issues_30d: 37
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 3.88
+  momentum_score: 42.7
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan:
   title: 'Azure/terraform-azurerm-avm-ptn-virtualwan: AVM Pattern Module for Azure
     Virtual WAN'
@@ -707067,6 +707546,7 @@ https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan:
   - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
   - '[IAC]'
+  - '[LEGACY]'
   - '[NETWORKING]'
   - '[TERRAFORM]'
   v1_locations:
@@ -707079,6 +707559,12 @@ https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan:
   gh_stars: 19
   gh_pushed: '2026-09-18'
   gh_license: MIT
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 0.46
+  momentum_score: 26.3
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster:
   title: 'Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource
     Module for AKS'
@@ -707126,6 +707612,12 @@ https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedclust
   gh_stars: 41
   gh_pushed: '2026-11-02'
   gh_license: MIT
+  gh_open_issues_30d: 1
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 1.65
+  momentum_score: 34.1
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account:
   title: 'Azure/terraform-azurerm-avm-res-cognitiveservices-account: AVM Resource
     Module for Azure OpenAI and AI Services'
@@ -707172,6 +707664,12 @@ https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account:
   gh_stars: 14
   gh_pushed: '2026-10-12'
   gh_license: MIT
+  gh_open_issues_30d: 12
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 0.41
+  momentum_score: 24.4
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault:
   title: 'Azure/terraform-azurerm-avm-res-keyvault-vault: AVM Resource Module for
     Azure Key Vault'
@@ -707216,6 +707714,12 @@ https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault:
   gh_stars: 50
   gh_pushed: '2026-11-02'
   gh_license: MIT
+  gh_open_issues_30d: 12
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 1.29
+  momentum_score: 34.3
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork:
   title: 'Azure/terraform-azurerm-avm-res-network-virtualnetwork: AVM Resource Module
     for Azure Virtual Network'
@@ -707260,6 +707764,12 @@ https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork:
   gh_stars: 11
   gh_pushed: '2026-11-02'
   gh_license: MIT
+  gh_open_issues_30d: 3
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 0.68
+  momentum_score: 24.2
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/avm-terraform-governance:
   title: 'Azure/avm-terraform-governance: AVM Terraform CI/CD Linting and Governance
     Engine'
@@ -707295,6 +707805,7 @@ https://github.com/Azure/avm-terraform-governance:
   - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
   - '[IAC]'
+  - '[LEGACY]'
   - '[TERRAFORM]'
   v1_locations:
   - docs/terraform.md
@@ -707306,6 +707817,12 @@ https://github.com/Azure/avm-terraform-governance:
   gh_stars: 5
   gh_pushed: '2026-08-11'
   gh_license: MIT
+  gh_open_issues_30d: 1
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 0.3
+  momentum_score: 18.3
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/tflint-ruleset-avm:
   title: 'Azure/tflint-ruleset-avm: TFLint Ruleset for Azure Verified Modules'
   description: Custom TFLint plugin enforcing Microsoft Azure Verified Modules (AVM)
@@ -707349,6 +707866,12 @@ https://github.com/Azure/tflint-ruleset-avm:
   gh_stars: 16
   gh_pushed: '2026-10-28'
   gh_license: MIT
+  gh_open_issues_30d: 2
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 0.47
+  momentum_score: 25.4
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/Azure/terraform-provider-azapi:
   title: 'Azure/terraform-provider-azapi: Official Azure Resource Manager REST API
     Provider'
@@ -707394,6 +707917,12 @@ https://github.com/Azure/terraform-provider-azapi:
   gh_stars: 245
   gh_pushed: '2026-11-02'
   gh_license: MPL-2.0
+  gh_open_issues_30d: 76
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 3.94
+  momentum_score: 47.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/hashicorp/terraform-provider-azurerm:
   title: 'hashicorp/terraform-provider-azurerm: Official Azure Resource Manager Terraform
     Provider'
@@ -707439,6 +707968,12 @@ https://github.com/hashicorp/terraform-provider-azurerm:
   gh_stars: 4981
   gh_pushed: '2026-11-02'
   gh_license: MPL-2.0
+  gh_open_issues_30d: 2960
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 43.49
+  momentum_score: 77.3
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://learn.microsoft.com/en-us/azure/developer/terraform/overview:
   title: 'Microsoft Learn: Terraform on Azure Official Documentation Hub'
   description: Official Microsoft documentation portal for provisioning, testing,
@@ -707522,6 +708057,12 @@ https://github.com/Azure/terraform:
   gh_stars: 928
   gh_pushed: '2026-11-01'
   gh_license: MIT
+  gh_open_issues_30d: 71
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 8.66
+  momentum_score: 58.9
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://developer.hashicorp.com/terraform/language/stacks:
   title: 'HashiCorp Terraform Language: Terraform Stacks Overview'
   description: Official architectural guide and HCL specification for Terraform Stacks
@@ -707776,6 +708317,12 @@ https://github.com/GoogleCloudPlatform/cloud-foundation-fabric:
   gh_stars: 2125
   gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 21
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 23.27
+  momentum_score: 69.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/aws-ia:
   title: 'aws-ia: AWS Integration and Automation Official Terraform Modules'
   description: Official AWS GitHub organization hosting AWS-maintained Terraform modules,
@@ -707863,6 +708410,12 @@ https://github.com/hashicorp/setup-terraform:
   gh_stars: 1596
   gh_pushed: '2026-10-30'
   gh_license: MPL-2.0
+  gh_open_issues_30d: 77
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 20.08
+  momentum_score: 66.6
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/diggerhq/digger:
   title: 'diggerhq/digger: Open-Source IaC CI/CD Orchestrator for GitHub Actions'
   description: Open-source Terraform and OpenTofu CI/CD orchestration tool that executes
@@ -707911,6 +708464,12 @@ https://github.com/diggerhq/digger:
   gh_stars: 5061
   gh_pushed: '2026-10-30'
   gh_license: MIT
+  gh_open_issues_30d: 509
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 112.72
+  momentum_score: 83.1
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/runatlantis/atlantis:
   title: 'runatlantis/atlantis: Terraform Pull Request Automation'
   description: De facto standard self-hosted GitOps automation daemon for Terraform
@@ -707943,6 +708502,7 @@ https://github.com/runatlantis/atlantis:
   - CI/CD and GitOps
   tags:
   - '[DE FACTO STANDARD]'
+  - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[GITOPS]'
   - '[IAC]'
@@ -707957,6 +708517,13 @@ https://github.com/runatlantis/atlantis:
   gh_stars: 9341
   gh_pushed: '2026-11-02'
   gh_license: Apache-2.0
+  cncf_status: sandbox
+  gh_open_issues_30d: 951
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 87.85
+  momentum_score: 86.9
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/antonbabenko/pre-commit-terraform:
   title: 'antonbabenko/pre-commit-terraform: Git Pre-Commit and CI Hooks for Terraform
     and OpenTofu'
@@ -708000,6 +708567,12 @@ https://github.com/antonbabenko/pre-commit-terraform:
   gh_stars: 3791
   gh_pushed: '2026-11-01'
   gh_license: MIT
+  gh_open_issues_30d: 33
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 30.84
+  momentum_score: 73.8
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/terraform-docs/terraform-docs:
   title: 'terraform-docs/terraform-docs: Automated Documentation Generator for Terraform
     Modules'
@@ -708043,6 +708616,12 @@ https://github.com/terraform-docs/terraform-docs:
   gh_stars: 4835
   gh_pushed: '2026-09-02'
   gh_license: MIT
+  gh_open_issues_30d: 195
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 38.22
+  momentum_score: 76.4
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://github.com/opentofu/opentofu:
   title: OpenTofu Official GitHub Repository
   description: The Linux Foundation / CNCF-governed open-source Infrastructure as
@@ -708075,6 +708654,7 @@ https://github.com/opentofu/opentofu:
   - OpenTofu
   tags:
   - '[DE FACTO STANDARD]'
+  - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[IAC]'
   - '[TERRAFORM]'
@@ -708090,6 +708670,13 @@ https://github.com/opentofu/opentofu:
   gh_stars: 30703
   gh_pushed: '2026-11-02'
   gh_license: MPL-2.0
+  cncf_status: sandbox
+  gh_open_issues_30d: 371
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 785.24
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-02T20:09:48.882661+01:00'
 https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM:
   title: Nubenetes Azure Verified Modules (AVM) Terraform Labs (Playlist)
   description: Official Nubenetes NotebookLM architectural series walking through
@@ -708119,11 +708706,11 @@ https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM:
   - Terraform
   - Azure Verified Modules (AVM)
   tags:
+  - '[AZURE]'
   - '[DE FACTO STANDARD]'
   - '[GUIDE]'
   - '[IAC]'
   - '[TERRAFORM]'
-  - '[AZURE]'
   v1_locations:
   - docs/terraform.md
   - docs/iac.md
@@ -708169,11 +708756,12 @@ https://www.youtube.com/playlist?list=PLCgDGrDt3kNU:
   - Terraform
   - Azure Landing Zones
   tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
   - '[GUIDE]'
   - '[IAC]'
   - '[TERRAFORM]'
-  - '[AZURE]'
   v1_locations:
   - docs/terraform.md
   - docs/iac.md
@@ -708216,10 +708804,11 @@ https://www.youtube.com/watch?v=I4s0A1uXEUg:
   - Terraform
   - Azure Verified Modules (AVM)
   tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
   - '[GUIDE]'
   - '[IAC]'
   - '[TERRAFORM]'
-  - '[AZURE]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -708260,11 +708849,12 @@ https://www.youtube.com/watch?v=IcH7LalL5cc:
   - Terraform
   - CI/CD and GitHub Actions
   tags:
+  - '[CICD]'
+  - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
   - '[GUIDE]'
   - '[IAC]'
   - '[TERRAFORM]'
-  - '[CICD]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -708306,10 +708896,12 @@ https://www.youtube.com/watch?v=BNEGxzQgDB8:
   - Terraform
   - Azure Verified Modules (AVM)
   tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
   - '[GUIDE]'
   - '[IAC]'
+  - '[LEGACY]'
   - '[TERRAFORM]'
-  - '[AZURE]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -708350,10 +708942,11 @@ https://www.youtube.com/watch?v=HjLte2SGCk0:
   - Terraform
   - Azure Landing Zones
   tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
   - '[GUIDE]'
   - '[IAC]'
   - '[TERRAFORM]'
-  - '[AZURE]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -708394,10 +708987,11 @@ https://www.youtube.com/watch?v=mZ944GFanYc:
   - Terraform
   - CI/CD and GitOps
   tags:
+  - '[CICD]'
+  - '[DE FACTO STANDARD]'
   - '[GUIDE]'
   - '[IAC]'
   - '[TERRAFORM]'
-  - '[CICD]'
   v1_locations:
   - docs/iac.md
   v2_locations:
@@ -708438,6 +709032,7 @@ https://www.youtube.com/watch?v=N6PMQzmBwwE:
   - Terraform
   - Testing and Validation
   tags:
+  - '[DE FACTO STANDARD]'
   - '[GUIDE]'
   - '[IAC]'
   - '[TERRAFORM]'
