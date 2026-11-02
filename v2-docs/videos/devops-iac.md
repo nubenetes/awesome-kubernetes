@@ -291,27 +291,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="EsIyH6PSGrE" data-video-url="https://www.youtube.com/embed/EsIyH6PSGrE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/EsIyH6PSGrE/hqdefault.jpg" alt="How Terraform Deploys Azure Verified Modules | AVM Lifecycle Short" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-
-    </center>
-
-??? note "🎬 Deploying Secure Azure Architecture with Verified Modules | AVM Labs"
-    !!! info "Architectural Summary"
-        This video demonstrates how to rapidly provision a hardened, zero-trust Azure foundation using Microsoft's pre-vetted Terraform Azure Verified Modules (AVM) instead of maintaining thousands of lines of custom IaC. It showcases composable patterns that integrate Virtual Networks, automated SSH key vaulting in Azure Key Vault, zero-public-IP compute access via Azure Bastion, and passwordless Storage Account interactions through System-Assigned Managed Identities. In a 2026 Cloud Native context, adopting standardized, vendor-backed IaC modules accelerates deterministic infrastructure delivery while enforcing enterprise-grade security, private endpoints, and RBAC compliance by default.
-
-    <center markdown="1">
-
-    <div class="video-lazy-container" data-video-id="xIkzOaSfB1c" data-video-url="https://www.youtube.com/embed/xIkzOaSfB1c" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/xIkzOaSfB1c/hqdefault.jpg" alt="Deploying Secure Azure Architecture with Verified Modules | AVM Labs" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/EsIyH6PSGrE" title="How Terraform Deploys Azure Verified Modules | AVM Lifecycle Short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -323,12 +303,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="xf5UNTUjYjY" data-video-url="https://www.youtube.com/embed/xf5UNTUjYjY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/xf5UNTUjYjY/hqdefault.jpg" alt="How Azure Private Endpoints Lock Down Data | Private PaaS Security" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/xf5UNTUjYjY" title="How Azure Private Endpoints Lock Down Data | Private PaaS Security" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -340,12 +315,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="2YlxRtiYll4" data-video-url="https://www.youtube.com/embed/2YlxRtiYll4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/2YlxRtiYll4/hqdefault.jpg" alt="How Managed Identities Kill Passwords | Azure Zero-Secret Security" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/2YlxRtiYll4" title="How Managed Identities Kill Passwords | Azure Zero-Secret Security" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -357,12 +327,19 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="QeVoCsTMBOQ" data-video-url="https://www.youtube.com/embed/QeVoCsTMBOQ" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/QeVoCsTMBOQ/hqdefault.jpg" alt="How Azure Bastion Secures Virtual Machines | Zero Public IP Access" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/QeVoCsTMBOQ" title="How Azure Bastion Secures Virtual Machines | Zero Public IP Access" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Terraform Azure Verified Modules AVM
+
+??? note "🎬 Deploying Secure Azure Architecture with Verified Modules | AVM Labs"
+    !!! info "Architectural Summary"
+        This video demonstrates how to rapidly provision a hardened, zero-trust Azure foundation using Microsoft's pre-vetted Terraform Azure Verified Modules (AVM) instead of maintaining thousands of lines of custom IaC. It showcases composable patterns that integrate Virtual Networks, automated SSH key vaulting in Azure Key Vault, zero-public-IP compute access via Azure Bastion, and passwordless Storage Account interactions through System-Assigned Managed Identities. In a 2026 Cloud Native context, adopting standardized, vendor-backed IaC modules accelerates deterministic infrastructure delivery while enforcing enterprise-grade security, private endpoints, and RBAC compliance by default.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/xIkzOaSfB1c" title="Deploying Secure Azure Architecture with Verified Modules | AVM Labs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -374,12 +351,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="oBkA9k32ECQ" data-video-url="https://www.youtube.com/embed/oBkA9k32ECQ" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/oBkA9k32ECQ/hqdefault.jpg" alt="How Azure Centralizes Cloud Monitoring | AVM Log Analytics Workspace" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/oBkA9k32ECQ" title="How Azure Centralizes Cloud Monitoring | AVM Log Analytics Workspace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -391,12 +363,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="ptetbW0C0P8" data-video-url="https://www.youtube.com/embed/ptetbW0C0P8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/ptetbW0C0P8/hqdefault.jpg" alt="Why Azure Platform Teams Choose AzAPI Complexity | ALZ 2026 Architecture" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/ptetbW0C0P8" title="Why Azure Platform Teams Choose AzAPI Complexity | ALZ 2026 Architecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

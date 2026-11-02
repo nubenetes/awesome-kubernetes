@@ -7,7 +7,25 @@
         "date": "2026-10-21",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as an industry-standard Kubernetes operator for automating highly available PostgreSQL cluster lifecycle, backup, and failover operations.",
+        "why": "Crunchy Postgres Operator is an enterprise-standard operator automating resilient, production-ready PostgreSQL lifecycle management on Kubernetes.",
+        "category": "Data, Messaging & Storage"
+      },
+      {
+        "url": "https://github.com/velero-io/velero",
+        "title": "github.com/vmware-tanzu/velero",
+        "date": "2026-10-30",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Velero is the de facto cloud-native standard for Kubernetes cluster disaster recovery and persistent volume backup orchestration.",
+        "category": "Data, Messaging & Storage"
+      },
+      {
+        "url": "https://github.com/zalando/postgres-operator",
+        "title": "Zalando Postgres Operator",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Zalando's Postgres Operator provides battle-tested declarative management and automated high availability for PostgreSQL in production.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -16,34 +34,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Automates deployment, scaling, and operational management of high-throughput ClickHouse analytical databases natively on Kubernetes.",
-        "category": "Data, Messaging & Storage"
-      },
-      {
-        "url": "https://github.com/stashed/stash",
-        "title": "Stash",
-        "date": "2026-10-21",
-        "stars": 4,
-        "impact": "high",
-        "why": "Delivers native Kubernetes persistent volume data protection leveraging CSI VolumeSnapshots and Restic integrations.",
-        "category": "Data, Messaging & Storage"
-      },
-      {
-        "url": "https://github.com/gardener/etcd-backup-restore",
-        "title": "github.com/gardener/etcd-backup-restore",
-        "date": "2026-10-28",
-        "stars": 4,
-        "impact": "high",
-        "why": "Ensures cloud-native control plane resilience by automating etcd snapshot management and continuous delta logging to object storage.",
-        "category": "Data, Messaging & Storage"
-      },
-      {
-        "url": "https://github.com/dolthub/dolt",
-        "title": "github.com/dolthub/dolt",
-        "date": "2026-10-31",
-        "stars": 5,
-        "impact": "high",
-        "why": "Pioneers a technical paradigm shift by bringing Git-style version control concepts like branching and merging to SQL relational data.",
+        "why": "The Altinity ClickHouse Operator is the benchmark solution for running large-scale analytical columnar data stores natively on Kubernetes.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -52,7 +43,7 @@
         "date": "2026-10-24",
         "stars": 5,
         "impact": "high",
-        "why": "Provides an enterprise-ready visual debugging and exploration console for Kafka and Redpanda streaming data platforms.",
+        "why": "Redpanda Console delivers critical real-time observability and developer visibility into Kafka-compatible event-streaming platforms.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -61,34 +52,43 @@
         "date": "2026-10-28",
         "stars": 5,
         "impact": "high",
-        "why": "Offers a comprehensive open-source web interface for administering Apache Kafka topics, schemas, and consumer groups.",
+        "why": "AKHQ offers a comprehensive management interface that streamlines Apache Kafka administration, schema exploration, and topic introspection.",
         "category": "Data, Messaging & Storage"
       },
       {
-        "url": "https://github.com/strimzi/kafka-kubernetes-config-provider",
-        "title": "strimzi/kafka-kubernetes-config-provider: Kubernetes Configuration Provider' for Apache Kafka",
-        "date": "2026-10-27",
-        "stars": 2,
+        "url": "https://github.com/stashed/stash",
+        "title": "Stash",
+        "date": "2026-10-21",
+        "stars": 4,
         "impact": "medium",
-        "why": "Streamlines Kafka operational security by enabling brokers and clients to dynamically load properties from Kubernetes Secrets and ConfigMaps.",
+        "why": "Stash provides native CSI VolumeSnapshot integrations and Restic-backed backups for Kubernetes stateful workloads.",
         "category": "Data, Messaging & Storage"
       },
       {
-        "url": "https://github.com/sauljabin/kaskade",
-        "title": "github.com/sauljabin/kaskade",
-        "date": "2026-10-27",
+        "url": "https://github.com/gardener/etcd-backup-restore",
+        "title": "github.com/gardener/etcd-backup-restore",
+        "date": "2026-10-28",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Gardener's etcd-backup-restore agent ensures continuous delta protection and disaster recovery for the foundational Kubernetes data store.",
+        "category": "Data, Messaging & Storage"
+      },
+      {
+        "url": "https://github.com/zalando/spilo",
+        "title": "Spilo: HA PostgreSQL Clusters with Docker",
+        "date": "2026-10-29",
         "stars": 5,
         "impact": "medium",
-        "why": "Enables fast, developer-friendly inspection of Kafka event streams directly inside terminal workflows.",
+        "why": "Spilo forms the proven containerized foundation for high-availability Patroni-orchestrated PostgreSQL environments across Kubernetes clusters.",
         "category": "Data, Messaging & Storage"
       },
       {
-        "url": "https://github.com/01mf02/jaq",
-        "title": "github.com/01mf02/jaq",
-        "date": "2026-10-30",
+        "url": "https://github.com/dolthub/dolt",
+        "title": "github.com/dolthub/dolt",
+        "date": "2026-10-31",
         "stars": 5,
         "impact": "medium",
-        "why": "Delivers high-performance, memory-safe structured data query processing for large JSON and configuration files.",
+        "why": "Dolt introduces Git-like branching, merging, and versioning paradigms to relational SQL databases for decentralized data workflows.",
         "category": "Data, Messaging & Storage"
       }
     ],
@@ -99,7 +99,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Istio remains the industry standard service mesh, driving service-to-service security, observability, and advanced traffic management across enterprise Kubernetes workloads.",
+        "why": "Istio is the leading service mesh standard defining modern L7 traffic management, mutual TLS, and sidecarless ambient architecture in cloud-native platforms.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -107,17 +107,8 @@
         "title": "Envoy Gateway",
         "date": "2026-10-31",
         "stars": 5,
-        "impact": "high",
-        "why": "Envoy Gateway standardizes cloud-native ingress control by delivering official Kubernetes Gateway API implementation powered by the Envoy proxy ecosystem.",
-        "category": "Networking & Service Mesh"
-      },
-      {
-        "url": "https://github.com/AbsaOSS/k8gb",
-        "title": "K8GB - Kubernetes Global Balancer",
-        "date": "2026-10-16",
-        "stars": 4,
-        "impact": "high",
-        "why": "K8GB provides a Kubernetes-native approach to Global Server Load Balancing across multi-cluster and multi-region environments using CoreDNS.",
+        "impact": "critical",
+        "why": "Envoy Gateway spearheads the industry transition from legacy Ingress to the Kubernetes Gateway API using an officially supported, standardized Envoy control plane.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -126,7 +117,25 @@
         "date": "2026-10-26",
         "stars": 0,
         "impact": "high",
-        "why": "CNI defines the foundational specification and core libraries that enable standardized network connectivity across all cloud-native container runtimes.",
+        "why": "The Container Network Interface (CNI) specification serves as the foundational standard enabling pluggable networking across all Kubernetes clusters.",
+        "category": "Networking & Service Mesh"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLWGYAgXdQh44",
+        "title": "Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides crucial architectural guidance on adopting sidecarless Istio Ambient Mesh and Gateway API configurations in enterprise OpenShift environments.",
+        "category": "Networking & Service Mesh"
+      },
+      {
+        "url": "https://github.com/AbsaOSS/k8gb",
+        "title": "K8GB - Kubernetes Global Balancer",
+        "date": "2026-10-16",
+        "stars": 4,
+        "impact": "high",
+        "why": "Solves multi-cluster cross-region traffic routing by implementing a cloud-native Global Server Load Balancing (GSLB) controller on top of CoreDNS.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -135,7 +144,7 @@
         "date": "2026-10-30",
         "stars": 5,
         "impact": "medium",
-        "why": "This official benchmark suite allows platform engineers to quantify sidecar latency overhead and control plane scalability in production Istio deployments.",
+        "why": "Provides the industry-standard benchmark suite to evaluate control plane scalability and sidecar proxy latency overhead under enterprise workloads.",
         "category": "Networking & Service Mesh"
       },
       {
@@ -144,27 +153,36 @@
         "date": "2026-10-30",
         "stars": 5,
         "impact": "medium",
-        "why": "Flannel offers a lightweight and reliable Layer 3 network fabric ideal for simplified Kubernetes installations and edge computing environments.",
+        "why": "A battle-tested, lightweight overlay CNI that remains a reliable baseline networking plugin for simplified Kubernetes installations.",
         "category": "Networking & Service Mesh"
       },
       {
         "url": "https://github.com/danm-cni/danm",
         "title": "Damn",
-        "date": "2026-10-21",
+        "date": "2026-11-02",
         "stars": 1,
         "impact": "medium",
-        "why": "DANM enables advanced network management capabilities for specialized telecom workloads requiring multiple network interface attachments per pod.",
+        "why": "Addresses advanced multi-interface networking requirements tailored for telco-grade container network functions (CNFs).",
         "category": "Networking & Service Mesh"
       }
     ],
     "AI & Agents": [
+      {
+        "url": "https://github.com/vllm-project/vllm",
+        "title": "vLLM on Kubernetes",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Standardizes high-throughput, memory-efficient LLM inference via PagedAttention directly on Kubernetes clusters.",
+        "category": "AI & Agents"
+      },
       {
         "url": "https://github.com/HolmesGPT/holmesgpt",
         "title": "HolmesGPT (Robusta)",
         "date": "2026-11-01",
         "stars": 2,
         "impact": "critical",
-        "why": "HolmesGPT brings autonomous AI-driven troubleshooting directly to Kubernetes clusters, revolutionizing cloud-native incident response.",
+        "why": "Brings autonomous AI agents directly to cloud-native operations by parsing Prometheus alerts and diagnosing live Kubernetes cluster failures.",
         "category": "AI & Agents"
       },
       {
@@ -172,17 +190,8 @@
         "title": "Awesome MCP Servers",
         "date": "2026-10-23",
         "stars": 5,
-        "impact": "critical",
-        "why": "Awesome MCP Servers establishes the foundational ecosystem for Model Context Protocol integrations connecting AI models to infrastructure tools.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/superlinked/sie",
-        "title": "SIE: Superlinked Inference Engine",
-        "date": "2026-10-28",
-        "stars": 4,
         "impact": "high",
-        "why": "Superlinked Inference Engine provides a production-grade infrastructure layer for scaling embedding and search pipelines.",
+        "why": "Centralizes verified integrations for the Model Context Protocol, the emerging open standard for connecting AI agents to enterprise tooling and data.",
         "category": "AI & Agents"
       },
       {
@@ -191,25 +200,7 @@
         "date": "2026-10-27",
         "stars": 4,
         "impact": "high",
-        "why": "Google Agents CLI standardizes the design, testing, and deployment of agentic workflows using MCP and major LLM APIs.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/tensorchord/Awesome-LLMOps",
-        "title": "github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps",
-        "date": "2026-10-16",
-        "stars": 3,
-        "impact": "high",
-        "why": "Awesome-LLMOps remains the definitive architectural roadmap for configuring production-ready LLM operations tooling.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/decolua/9router",
-        "title": "9Router AI Coding Gateway",
-        "date": "2026-10-28",
-        "stars": 4,
-        "impact": "medium",
-        "why": "9Router AI Coding Gateway introduces essential multi-provider routing and failover capabilities for enterprise coding agents.",
+        "why": "Provides an official enterprise-backed CLI from Google to orchestrate, test, and deploy Model Context Protocol-driven AI workflows.",
         "category": "AI & Agents"
       },
       {
@@ -217,35 +208,53 @@
         "title": "GitHub Spec Kit",
         "date": "2026-10-30",
         "stars": 4,
-        "impact": "medium",
-        "why": "GitHub Spec Kit formalizes Spec-Driven Development to bring engineering rigor and predictability to AI-assisted workflows.",
+        "impact": "high",
+        "why": "Shifts agentic coding toward enterprise reliability through formal Spec-Driven Development practices backed by GitHub.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/shanraisshan/claude-code-best-practice",
-        "title": "Claude Code Best Practice",
+        "url": "https://github.com/superlinked/sie",
+        "title": "SIE: Superlinked Inference Engine",
         "date": "2026-10-28",
+        "stars": 4,
+        "impact": "high",
+        "why": "Delivers production-grade inference infrastructure for embeddings and rerankers essential for scaling semantic search and RAG pipelines.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/decolua/9router",
+        "title": "9Router AI Coding Gateway",
+        "date": "2026-10-28",
+        "stars": 4,
+        "impact": "high",
+        "why": "Solves infrastructure-layer AI gateway challenges by providing smart request routing and failover across multiple LLM providers.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/tensorchord/Awesome-LLMOps",
+        "title": "github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps",
+        "date": "2026-10-16",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Curates essential cloud-native platforms, pipelines, and frameworks required to scale enterprise LLMOps in production.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/langchain-ai/langchain",
+        "title": "LangChain",
+        "date": "2026-11-02",
+        "stars": 1,
+        "impact": "medium",
+        "why": "Serves as the foundational, widely adopted framework powering composable agent architectures and multi-tool orchestration.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/davila7/claude-code-templates",
+        "title": "Claude Code Templates",
+        "date": "2026-11-01",
         "stars": 5,
         "impact": "medium",
-        "why": "Claude Code Best Practices defines crucial architectural patterns and system prompts for advanced CLI-driven agent operations.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/swyxio/skills/tree/main",
-        "title": "Kakuna Codebase Hardening Suite",
-        "date": "2026-10-28",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Kakuna Codebase Hardening Suite offers innovative design patterns for safe, agentic codebase refactoring and evolution.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/crynta/terax-ai",
-        "title": "Terax AI — Lightweight Terminal-First AI Dev Workspace",
-        "date": "2026-10-31",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Terax AI delivers a performant, Rust-based terminal-native workspace tailored for modern AI development loops.",
+        "why": "Provides production-tested prompt architectures and context guidelines for operationalizing next-generation CLI-based coding agents.",
         "category": "AI & Agents"
       }
     ],
@@ -256,16 +265,7 @@
         "date": "2026-10-28",
         "stars": 5,
         "impact": "critical",
-        "why": "Automates Kubernetes native readiness and liveness probes directly within Spring Boot applications.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://github.com/spring-cloud/spring-cloud-kubernetes",
-        "title": "github: Spring Cloud Kubernetes 🌟",
-        "date": "2026-10-27",
-        "stars": 5,
-        "impact": "high",
-        "why": "Seamlessly integrates Kubernetes ConfigMaps and Secrets with Spring Cloud's environment properties.",
+        "why": "Automates Kubernetes liveness and readiness probe configuration directly within enterprise Spring Boot microservices.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
@@ -274,34 +274,16 @@
         "date": "2026-10-23",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as the high-performance, Rust-backed standard for data validation across modern Python applications.",
+        "why": "Acts as the industry-standard data validation and serialization foundation powering modern cloud-native Python frameworks.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
-        "url": "https://github.com/golang/go",
-        "title": "github.com/golang/go",
-        "date": "2026-11-01",
-        "stars": 0,
-        "impact": "critical",
-        "why": "Provides the foundational compiler, toolchain, and runtime that underpins the entire cloud-native ecosystem.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://github.com/golang/vscode-go/blob/master/README.md",
-        "title": "github.com/golang/vscode-go 🌟",
-        "date": "2026-10-28",
+        "url": "https://github.com/spring-cloud/spring-cloud-kubernetes",
+        "title": "github: Spring Cloud Kubernetes 🌟",
+        "date": "2026-10-27",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers essential language server integration and debugging capabilities for Go developers using VS Code.",
-        "category": "Python, Java & Developer Ecosystem"
-      },
-      {
-        "url": "https://github.com/derekparker/delve",
-        "title": "Delve: a debugger for the Go Programming Language",
-        "date": "2026-10-19",
-        "stars": 0,
-        "impact": "high",
-        "why": "Acts as the indispensable, industry-standard debugger for analyzing runtime states in Go microservices.",
+        "why": "Enables Spring Boot applications to natively leverage Kubernetes ConfigMaps, Secrets, and service discovery mechanisms transparently.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
@@ -309,8 +291,8 @@
         "title": "Quarkus Images",
         "date": "2026-08-29",
         "stars": 4,
-        "impact": "medium",
-        "why": "Provides optimized base container images tailored for both JVM execution and native Quarkus binaries.",
+        "impact": "high",
+        "why": "Provides optimized base container images that maximize runtime performance and minimize memory footprints for cloud-native Quarkus workloads.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
@@ -318,26 +300,53 @@
         "title": "GitHub: Eclipse JKube",
         "date": "2026-10-19",
         "stars": 4,
-        "impact": "medium",
-        "why": "Simplifies the generation of Kubernetes resource manifests directly from Maven and Gradle builds.",
+        "impact": "high",
+        "why": "Streamlines Java-to-Kubernetes deployment lifecycles by automating containerization and manifest generation straight from build tools.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
-        "url": "https://github.com/App-vNext/Polly",
-        "title": "App-vNext/Polly",
-        "date": "2026-10-31",
+        "url": "https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools",
+        "title": "Azure/vscode-kubernetes-tools 🌟",
+        "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Enables robust, production-grade resilience patterns like circuit breaking and retries in .NET applications.",
+        "why": "Dramatically improves cloud-native developer productivity with in-editor cluster management, manifest linting, and interactive debugging.",
         "category": "Python, Java & Developer Ecosystem"
       },
       {
-        "url": "https://github.com/go-kratos/kratos",
-        "title": "go-kratos/kratos",
+        "url": "https://github.com/zalando/logbook",
+        "title": "logbook",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides structured, audit-compliant HTTP traffic logging crucial for enterprise security and telemetry in distributed Java microservices.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://github.com/swagger-api/swagger-codegen",
+        "title": "Swagger Codegen",
         "date": "2026-10-26",
-        "stars": 0,
+        "stars": 4,
+        "impact": "high",
+        "why": "Standardizes API-first cloud-native development across polyglot microservice teams via automated OpenAPI client and server generation.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://github.com/fabric8io/docker-maven-plugin",
+        "title": "docker-maven-plugin",
+        "date": "2026-10-21",
+        "stars": 4,
         "impact": "medium",
-        "why": "Offers a comprehensive gRPC-first microservice framework designed for building scalable systems in Go.",
+        "why": "Allows traditional Java enterprise workflows to seamlessly integrate container building and testing within standard Maven executions.",
+        "category": "Python, Java & Developer Ecosystem"
+      },
+      {
+        "url": "https://github.com/vinta/awesome-python",
+        "title": "Awesome Python 🌟",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Serves as the definitive ecosystem index for evaluating production-ready Python tooling, libraries, and networking frameworks.",
         "category": "Python, Java & Developer Ecosystem"
       }
     ],
@@ -435,21 +444,39 @@
     ],
     "Architecture & Microservices": [
       {
+        "url": "https://github.com/etcd-io/etcd",
+        "title": "Etcd",
+        "date": "2026-10-28",
+        "stars": 0,
+        "impact": "critical",
+        "why": "As the core distributed key-value store powering Kubernetes, etcd is foundational to state management and consensus in cloud native microservices architectures.",
+        "category": "Architecture & Microservices"
+      },
+      {
         "url": "https://github.com/rootsongjc/awesome-cloud-native",
         "title": "rootsongjc/awesome-cloud-native 🌟",
         "date": "2026-10-23",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as an essential foundational index for navigating the entire CNCF cloud-native ecosystem and service mesh landscape.",
+        "why": "Provides an architectural blueprint across the CNCF landscape, detailing service meshes, distributed storage, and foundational cloud native components.",
         "category": "Architecture & Microservices"
       },
       {
-        "url": "https://github.com/terrytangyuan/awesome-kubeflow",
-        "title": "github.com/terrytangyuan/awesome-kubeflow: Awesome Kubeflow 🌟",
-        "date": "2026-09-18",
-        "stars": 2,
+        "url": "https://github.com/docker/awesome-compose",
+        "title": "Awesome Compose 🌟",
+        "date": "2026-10-26",
+        "stars": 5,
         "impact": "high",
-        "why": "Bridges the gap between cloud-native infrastructure and MLOps by standardizing Kubeflow deployments on Kubernetes.",
+        "why": "Delivers production-grade multi-container topology configurations and deployment patterns essential for local microservice development and service orchestration.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/upgundecha/howtheysre",
+        "title": "How they SRE",
+        "date": "2026-09-30",
+        "stars": 3,
+        "impact": "high",
+        "why": "Offers real-world operational and resilience patterns from major tech enterprises for building highly available, fault-tolerant distributed systems.",
         "category": "Architecture & Microservices"
       },
       {
@@ -458,7 +485,25 @@
         "date": "2026-10-18",
         "stars": 2,
         "impact": "high",
-        "why": "Provides critical architectural patterns and production-grade templates for building robust, observable serverless microservices.",
+        "why": "Standardizes modern serverless microservice implementation with enterprise patterns for distributed tracing, schema validation, and structured logging.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/terrytangyuan/awesome-kubeflow",
+        "title": "github.com/terrytangyuan/awesome-kubeflow: Awesome Kubeflow 🌟",
+        "date": "2026-09-18",
+        "stars": 2,
+        "impact": "high",
+        "why": "Catalogs best practices for orchestrating scalable machine learning workloads and complex data pipelines natively on top of Kubernetes.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/veggiemonk/awesome-docker",
+        "title": "Awesome Docker 🌟",
+        "date": "2026-11-01",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Serves as an indispensable baseline reference for container runtimes, hardened base images, and runtime security required by microservices.",
         "category": "Architecture & Microservices"
       },
       {
@@ -466,17 +511,8 @@
         "title": "AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot",
         "date": "2026-10-31",
         "stars": 5,
-        "impact": "high",
-        "why": "Leverages AI copilot workflows to automate the validation and verification between infrastructure-as-code and live cloud deployments.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/sottlmarek/DevSecOps",
-        "title": "sottlmarek/DevSecOps: Ultimate DevSecOps library 🌟",
-        "date": "2026-08-12",
-        "stars": 3,
         "impact": "medium",
-        "why": "Standardizes security integration practices across modern CI/CD pipelines to harden the software supply chain.",
+        "why": "Automates the validation and visual synchronization between declarative infrastructure code and active cloud deployments using AI assistance.",
         "category": "Architecture & Microservices"
       },
       {
@@ -485,34 +521,7 @@
         "date": "2026-10-25",
         "stars": 3,
         "impact": "medium",
-        "why": "Offers an extensive catalog of automated risk analysis and container scanning tools vital for DevSecOps implementation.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/docker/awesome-compose",
-        "title": "Awesome Compose 🌟",
-        "date": "2026-10-26",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Accelerates local multi-container development and architecture testing using official Docker Compose patterns.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/globalbao/awesome-azure-policy",
-        "title": "globalbao/awesome-azure-policy: AWESOME-Azure-Policy",
-        "date": "2026-10-07",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Enables automated compliance and governance enforcement for enterprise cloud architectures using Azure Policy definitions.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/ElYusubov/AWESOME-Azure-Bicep",
-        "title": "ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep",
-        "date": "2026-10-29",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Streamlines Azure infrastructure provisioning through a well-maintained library of first-party Bicep modules and registries.",
+        "why": "Supplies automated security tooling and container scanning frameworks necessary to secure microservice software supply chains.",
         "category": "Architecture & Microservices"
       },
       {
@@ -521,18 +530,81 @@
         "date": "2026-10-02",
         "stars": 5,
         "impact": "medium",
-        "why": "Enhances cloud infrastructure security posture by compiling essential auditing and IAM scanning tools for AWS.",
+        "why": "Equips architects with open-source auditing and IAM scanning tools to secure cloud-native infrastructure and distributed cloud microservices.",
         "category": "Architecture & Microservices"
       }
     ],
     "Infrastructure as Code": [
       {
+        "url": "https://github.com/opentofu/opentofu",
+        "title": "OpenTofu Official GitHub Repository",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "OpenTofu provides a Linux Foundation-governed, open-source alternative to Terraform with major innovations like native state encryption.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/stacks",
+        "title": "HashiCorp Terraform Language: Terraform Stacks Overview",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Terraform Stacks fundamentally shifts IaC architecture by introducing native orchestration for complex multi-region, multi-tier cloud environments.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/resources/ephemeral",
+        "title": "HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Ephemeral resources and write-only arguments prevent sensitive short-lived credentials from being permanently exposed within the state file.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/tests",
+        "title": "HashiCorp Terraform Language: Native Tests and Provider Mocking",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Native testing and provider mocking eliminate external toolchain friction by enabling deterministic unit and integration tests directly in HCL.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/aquasecurity/trivy",
+        "title": "aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Trivy serves as the industry-standard unified security scanner across Kubernetes, containers, and Terraform configurations, replacing tfsec.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/bridgecrewio/checkov",
+        "title": "bridgecrewio/checkov: Policy-as-Code Static Analysis for Terraform",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Checkov provides graph-based policy-as-code analysis with thousands of built-in compliance checks for enterprise infrastructure-as-code guardrails.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/runatlantis/atlantis",
+        "title": "runatlantis/atlantis: Terraform Pull Request Automation",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Atlantis remains the cornerstone GitOps pull request workflow engine for collaborative, auditable IaC delivery in production teams.",
+        "category": "Infrastructure as Code"
+      },
+      {
         "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
         "title": "github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module",
         "date": "2026-10-08",
         "stars": 5,
-        "impact": "critical",
-        "why": "The industry-standard Terraform module for Amazon EKS simplifies enterprise Kubernetes cluster provisioning.",
+        "impact": "high",
+        "why": "This de facto industry-standard module defines best practices for provisioning production-grade Amazon EKS clusters and worker fleets.",
         "category": "Infrastructure as Code"
       },
       {
@@ -541,90 +613,27 @@
         "date": "2026-10-21",
         "stars": 5,
         "impact": "high",
-        "why": "Infracost provides essential FinOps capabilities by analyzing HCL and projecting cloud costs before resource allocation.",
+        "why": "Infracost shifts FinOps left into code review workflows by generating real-time cloud cost estimates on pull requests before deployment.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://github.com/terraform-linters/tflint/releases/tag/v0.51.0",
-        "title": "github.com/terraform-linters/tflint",
-        "date": "2026-10-28",
+        "url": "https://github.com/Azure/terraform-provider-azapi",
+        "title": "Azure/terraform-provider-azapi: Official Azure Resource Manager REST API Provider",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "TFLint enforces configuration standards and catches provider-specific errors in Terraform workflows.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/Azure/aztfexport",
-        "title": "github.com/Azure/aztfexport",
-        "date": "2026-10-30",
-        "stars": 5,
-        "impact": "high",
-        "why": "Azure Export for Terraform accelerates brownfield migration by automatically converting existing infrastructure to HCL.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/Checkmarx/kics",
-        "title": "Checkmarx/kics",
-        "date": "2026-10-28",
-        "stars": 3,
-        "impact": "high",
-        "why": "KICS provides critical static code analysis to catch security vulnerabilities across multiple IaC formats.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/terramate-io/terramate",
-        "title": "mineiros-io/terramate",
-        "date": "2026-10-16",
-        "stars": 3,
-        "impact": "high",
-        "why": "Terramate enables advanced orchestration and change detection for large-scale Terraform and OpenTofu monorepos.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/hashicorp/hcl",
-        "title": "github.com/hashicorp/hcl: HCL",
-        "date": "2026-10-30",
-        "stars": 5,
-        "impact": "medium",
-        "why": "HCL serves as the foundational parsing library for the entire declarative infrastructure ecosystem.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/geerlingguy/ansible-role-docker",
-        "title": "Ansible Role: Docker 🌟",
-        "date": "2026-08-18",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Jeff Geerling's Ansible role remains a robust, widely adopted standard for automated Docker engine setups.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/idoavrah/terraform-tui",
-        "title": "github.com/idoavrah/terraform-tui: TFTUI - The Terraform textual UI",
-        "date": "2026-11-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "TFTUI offers platform engineers an interactive terminal interface for visualizing Terraform state graphs.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/stacksimplify/azure-aks-kubernetes-masterclass",
-        "title": "github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟",
-        "date": "2026-10-20",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Comprehensive masterclasses for deploying production-grade Azure Kubernetes Service architectures using HCL.",
+        "why": "The AzAPI provider bypasses traditional provider lag by allowing direct ARM REST API resource manipulation and zero-day feature availability.",
         "category": "Infrastructure as Code"
       }
     ],
     "Kubernetes & Orchestration": [
       {
-        "url": "https://github.com/containerd/nerdctl",
-        "title": "nerdctl 🌟",
-        "date": "2026-11-01",
+        "url": "https://github.com/helm/helm",
+        "title": "Helm",
+        "date": "2026-10-30",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides a robust Docker-compatible CLI specifically designed for containerd to power non-Docker container environments.",
+        "why": "Helm is the de facto package manager and application distribution standard for the entire Kubernetes ecosystem.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -633,34 +642,16 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "critical",
-        "why": "Acts as the foundational OCI Distribution Specification codebase powering enterprise image registries globally.",
+        "why": "Distribution is the foundational OCI specification codebase that underpins modern container image registries globally.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/gravitational/teleport",
-        "title": "Teleport 🌟",
-        "date": "2026-10-20",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Consolidates multi-protocol infrastructure access into a secure, identity-backed gateway with detailed auditing.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/helm/helm",
-        "title": "Helm",
-        "date": "2026-10-30",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Serves as the official package manager implementation for managing complex application charts in Kubernetes.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/pulumi/pulumi",
-        "title": "Pulumi: Infrastructure as Code in Any Programming Language",
-        "date": "2026-10-25",
+        "url": "https://github.com/containerd/nerdctl",
+        "title": "nerdctl 🌟",
+        "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Enables infrastructure as code across multi-cloud environments using general-purpose programming languages.",
+        "why": "Provides a Docker-compatible CLI interface for containerd, standardizing debugging and execution workflows on modern container runtimes.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -669,7 +660,16 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers an essential keyboard-driven terminal UI for live metrics, log streaming, and rapid debugging.",
+        "why": "K9s is the industry-standard terminal dashboard that streamlines everyday cluster observation, management, and troubleshooting.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/helmfile/helmfile",
+        "title": "github.com/helmfile/helmfile",
+        "date": "2026-10-31",
+        "stars": 5,
+        "impact": "high",
+        "why": "Helmfile serves as a crucial declarative orchestrator for managing complex, multi-chart deployments across different Kubernetes environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -678,7 +678,25 @@
         "date": "2026-10-27",
         "stars": 5,
         "impact": "high",
-        "why": "Automates rolling updates for deployments and statefulsets by watching live configuration changes in ConfigMaps and Secrets.",
+        "why": "An ubiquitous operational controller that automates rolling restarts whenever ConfigMaps or Secrets are updated.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/projectcapsule/capsule",
+        "title": "Capsule Operator",
+        "date": "2026-10-25",
+        "stars": 5,
+        "impact": "high",
+        "why": "Capsule enables platform engineering teams to implement secure, hierarchical multi-tenancy without the overhead of multiple clusters.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/gravitational/teleport",
+        "title": "Teleport 🌟",
+        "date": "2026-10-20",
+        "stars": 5,
+        "impact": "high",
+        "why": "Teleport enforces zero-trust, identity-governed access and audit trails across multi-cloud Kubernetes clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -687,16 +705,7 @@
         "date": "2026-10-19",
         "stars": 5,
         "impact": "high",
-        "why": "Extracts instant, system-wide application observability telemetry using advanced kernel-level eBPF probes.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/FairwindsOps/pluto",
-        "title": "Pluto is a cli tool to help discover deprecated apiVersions in Kubernetes 🌟",
-        "date": "2026-10-30",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Simplifies upgrade readiness by proactively discovering deprecated or removed Kubernetes API versions.",
+        "why": "Pixie leverages eBPF to deliver immediate, zero-instrumentation application and network observability for Kubernetes workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -705,7 +714,7 @@
         "date": "2026-10-16",
         "stars": 5,
         "impact": "high",
-        "why": "Establishes a secure enterprise-standard mechanism for mapping Kubernetes Service Accounts to Microsoft Entra ID identities.",
+        "why": "Establishes modern, credential-less security by directly federating Kubernetes service accounts with cloud identity providers.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -731,21 +740,30 @@
     ],
     "CI/CD & GitOps": [
       {
-        "url": "https://github.com/dagger/dagger",
-        "title": "dagger/dagger: Dagger is a portable devkit for CICD",
-        "date": "2026-11-01",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Dagger provides a portable, code-native CI/CD engine built on BuildKit that replaces traditional YAML pipelines.",
-        "category": "CI/CD & GitOps"
-      },
-      {
         "url": "https://github.com/fluxcd/flux2",
         "title": "github: Flux Version 2",
         "date": "2026-11-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Flux v2 offers a robust set of Kubernetes controllers enabling decoupled, highly parallel GitOps reconciliation.",
+        "why": "Flux v2 is a foundational, CNCF-graduated GitOps engine essential for declarative Kubernetes continuous delivery.",
+        "category": "CI/CD & GitOps"
+      },
+      {
+        "url": "https://github.com/dagger/dagger",
+        "title": "dagger/dagger: Dagger is a portable devkit for CICD",
+        "date": "2026-11-01",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Dagger introduces a major paradigm shift by enabling engineers to develop containerized, portable CI/CD pipelines in general-purpose programming languages.",
+        "category": "CI/CD & GitOps"
+      },
+      {
+        "url": "https://github.com/tektoncd/pipeline",
+        "title": "github: Tekton Pipelines",
+        "date": "2026-10-26",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Tekton Pipelines provides the de-facto Kubernetes-native continuous integration framework built entirely on custom resources.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -754,16 +772,16 @@
         "date": "2026-10-28",
         "stars": 5,
         "impact": "high",
-        "why": "The tofu-controller natively bridges OpenTofu and Terraform infrastructure management with GitOps principles in Kubernetes.",
+        "why": "Extends Flux GitOps capabilities directly to infrastructure management using OpenTofu and Terraform.",
         "category": "CI/CD & GitOps"
       },
       {
-        "url": "https://github.com/tektoncd/pipeline",
-        "title": "github: Tekton Pipelines",
-        "date": "2026-10-26",
+        "url": "https://www.youtube.com/playlist?list=PLYbmzkhLGOtI",
+        "title": "Nubenetes ArgoCD and GitOps Automation (Playlist)",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Tekton Pipelines establishes a standardized, declarative framework for multi-step cloud-native CI/CD workflows using CRDs.",
+        "why": "Delivers comprehensive operational guidance for multi-cluster ArgoCD deployment and automated drift reconciliation.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -771,8 +789,17 @@
         "title": "github.com/crumbhole/argocd-lovely-plugin: argocd-lovely-plugin",
         "date": "2026-10-22",
         "stars": 4,
-        "impact": "medium",
-        "why": "Argo CD Lovely Plugin solves complex template layering by cleanly combining Helm, Kustomize, and raw YAML configurations.",
+        "impact": "high",
+        "why": "Solves complex GitOps rendering challenges by cleanly chaining Helm, Kustomize, and raw manifests inside Argo CD.",
+        "category": "CI/CD & GitOps"
+      },
+      {
+        "url": "https://github.com/jenkinsci/helm-charts",
+        "title": "github.com/jenkinsci/helm-charts",
+        "date": "2026-11-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "Serves as the enterprise standard for running scalable, production-grade Jenkins controllers natively on Kubernetes.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -781,7 +808,16 @@
         "date": "2026-10-26",
         "stars": 3,
         "impact": "medium",
-        "why": "Argo CD Vault Replacer bridges GitOps workflows with external HashiCorp Vault secrets during the rendering phase.",
+        "why": "Provides a streamlined method for injecting HashiCorp Vault secrets dynamically during the Argo CD manifest rendering phase.",
+        "category": "CI/CD & GitOps"
+      },
+      {
+        "url": "https://github.com/tektoncd/community",
+        "title": "Tekton community",
+        "date": "2026-10-07",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Hosts crucial governance and design proposals shaping the future of Kubernetes-native CI/CD standards.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -790,34 +826,7 @@
         "date": "2026-10-28",
         "stars": 5,
         "impact": "medium",
-        "why": "OneDev delivers an all-in-one self-hosted Git service and CI/CD platform optimized for lightweight single-node execution.",
-        "category": "CI/CD & GitOps"
-      },
-      {
-        "url": "https://github.com/screwdriver-cd/screwdriver",
-        "title": "Screwdriver API",
-        "date": "2026-10-25",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Screwdriver offers an API-driven, microservices-based architecture for executing container-native dynamic pipelines.",
-        "category": "CI/CD & GitOps"
-      },
-      {
-        "url": "https://github.com/jenkinsci/helm-charts",
-        "title": "github.com/jenkinsci/helm-charts",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Official Jenkins Helm Charts simplify the production-grade deployment of Jenkins controllers onto Kubernetes clusters.",
-        "category": "CI/CD & GitOps"
-      },
-      {
-        "url": "https://github.com/jenkinsci/JenkinsPipelineUnit",
-        "title": "Jenkins Pipeline Unit testing framework",
-        "date": "2026-10-23",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Jenkins Pipeline Unit testing framework accelerates delivery validation by enabling local mock testing of multi-step pipelines.",
+        "why": "Offers an all-in-one, highly scalable Git and CI/CD platform optimized for light footprint self-hosted deployments.",
         "category": "CI/CD & GitOps"
       }
     ],
@@ -915,21 +924,21 @@
     ],
     "AWS": [
       {
-        "url": "https://github.com/infrahouse/infrahouse-toolkit",
-        "title": "github.com/infrahouse/infrahouse-toolkit",
-        "date": "2026-09-26",
-        "stars": 5,
+        "url": "https://github.com/containerscrew/aws-sso-rs",
+        "title": "github.com/containerscrew/aws-sso-auth",
+        "date": "2026-10-26",
+        "stars": 4,
         "impact": "high",
-        "why": "The Infrahouse Toolkit provides operational automation helpers specifically engineered to simplify AWS infrastructure deployment pipelines. It streamlines actions such as dynamic DNS configurations, i",
+        "why": "Streamlines AWS IAM Identity Center authentication workflows via a lightweight Rust CLI to enhance developer productivity and credential security.",
         "category": "AWS"
       },
       {
-        "url": "https://github.com/ExtendDB/extenddb/pull/54",
-        "title": "feat(storage): add Route 53 backend (TXT records, base64-encoded items, the works)",
-        "date": "2026-11-01",
-        "stars": 4,
+        "url": "https://github.com/welldone-cloud/aws-list-resources",
+        "title": "github.com/welldone-cloud/aws-list-resources",
+        "date": "2026-10-11",
+        "stars": 5,
         "impact": "high",
-        "why": "A community-contributed pull request for ExtendDB (an open-source, DynamoDB-compatible adapter written in Rust) that implements a functional storage backend using Amazon Route 53 DNS. The implementati",
+        "why": "Provides a targeted resource discovery utility that eliminates inventory blind spots across multi-region AWS accounts.",
         "category": "AWS"
       },
       {
@@ -938,16 +947,16 @@
         "date": "2026-10-31",
         "stars": 4,
         "impact": "high",
-        "why": "A production-grade cloud infrastructure layout designed to orchestrate Azure, Oracle Cloud Infrastructure (OCI), and hybrid interconnect topologies.\n- Utilizing structured OpenTofu and Terraform archi",
+        "why": "Offers production-grade OpenTofu and Terraform patterns for orchestrating enterprise multi-cloud landing zones and hybrid topologies.",
         "category": "AWS"
       },
       {
-        "url": "https://github.com/containerscrew/aws-sso-rs",
-        "title": "github.com/containerscrew/aws-sso-auth",
-        "date": "2026-10-26",
-        "stars": 4,
-        "impact": "high",
-        "why": "A lightweight Rust-based terminal utility (aws-sso-rs) designed to automate AWS IAM Identity Center login workflows and manage local workstation credential lifecycles. It bypasses slow browser integra",
+        "url": "https://github.com/infrahouse/infrahouse-toolkit",
+        "title": "github.com/infrahouse/infrahouse-toolkit",
+        "date": "2026-09-26",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Automates essential AWS infrastructure pipeline operational tasks such as dynamic DNS configurations.",
         "category": "AWS"
       },
       {
@@ -956,25 +965,43 @@
         "date": "2026-10-28",
         "stars": 3,
         "impact": "medium",
-        "why": "A vital open-source parser designed to track dynamic AWS IP range changes from ip-ranges.json. Essential for configuring robust hybrid on-premises firewalls and programmatic security rules. Modern set",
+        "why": "Enables automated tracking of dynamic AWS IP range changes for hybrid enterprise firewall and security rule management.",
         "category": "AWS"
       },
       {
-        "url": "https://github.com/supabase/supabase",
-        "title": "Supabase",
-        "date": "2026-10-25",
-        "stars": 1,
+        "url": "https://github.com/widdix/aws-cf-templates",
+        "title": "Aws Cf Templates",
+        "date": "2026-10-27",
+        "stars": 0,
         "impact": "medium",
-        "why": "Technical documentation and implementation reference for Supabase covering Graph Databases in AWS (github.com).",
+        "why": "Provides architectural reference patterns and CloudFormation templates for standard AWS infrastructure provisioning.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/ExtendDB/extenddb/pull/54",
+        "title": "feat(storage): add Route 53 backend (TXT records, base64-encoded items, the works)",
+        "date": "2026-11-01",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Demonstrates a novel storage backend paradigm by adapting Route 53 DNS TXT records into a DynamoDB-compatible database adapter.",
         "category": "AWS"
       },
       {
         "url": "https://github.com/getsentry/sentry",
         "title": "Sentry",
-        "date": "2026-10-24",
+        "date": "2026-11-02",
         "stars": 1,
         "impact": "medium",
-        "why": "Technical documentation and implementation reference for Sentry covering Error Tracking and Performance Monitoring in AWS (github.com).",
+        "why": "Delivers implementation guidance for deploying enterprise application performance monitoring and error tracking on AWS.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/supabase/supabase",
+        "title": "Supabase",
+        "date": "2026-11-02",
+        "stars": 1,
+        "impact": "medium",
+        "why": "Provides technical reference documentation for running managed backend and graph database topologies on AWS.",
         "category": "AWS"
       }
     ],
@@ -1108,7 +1135,16 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "critical",
-        "why": "containerd remains the foundational industry-standard OCI container runtime powering modern Kubernetes clusters.",
+        "why": "As the core container runtime powering Kubernetes production workloads worldwide, containerd is fundamental to modern cloud native infrastructure.",
+        "category": "Containers & Runtime"
+      },
+      {
+        "url": "https://github.com/podman-container-tools/podman",
+        "title": "Libpod: Library and tool for running OCI-based containers in Pods",
+        "date": "2026-11-02",
+        "stars": 1,
+        "impact": "high",
+        "why": "Podman and Libpod deliver secure, daemonless container management and pod capabilities vital for modern Linux and enterprise environments.",
         "category": "Containers & Runtime"
       },
       {
@@ -1117,7 +1153,7 @@
         "date": "2026-10-30",
         "stars": 5,
         "impact": "high",
-        "why": "The GitHub build-push-action is the definitive standard for CI/CD container image pipelines and multi-platform builds.",
+        "why": "This GitHub Action is the industry standard for automating container image builds and multi-platform registry delivery within CI/CD pipelines.",
         "category": "Containers & Runtime"
       },
       {
@@ -1126,34 +1162,43 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "high",
-        "why": "crun provides an ultra-fast, low-memory OCI runtime alternative written in C for high-performance node execution.",
+        "why": "crun provides a lightweight, high-performance C alternative to runc, optimizing container startup times and resource usage.",
         "category": "Containers & Runtime"
       },
       {
-        "url": "https://github.com/containers/conmon",
-        "title": "Conmon",
-        "date": "2026-10-29",
-        "stars": 5,
-        "impact": "high",
-        "why": "Conmon is a critical daemonless container monitor enabling robust lifecycle management for CRI-O and Podman.",
-        "category": "Containers & Runtime"
-      },
-      {
-        "url": "https://github.com/podman-container-tools/podman",
-        "title": "Libpod: Library and tool for running OCI-based containers in Pods",
-        "date": "2026-10-24",
+        "url": "https://github.com/podman-container-tools/buildah",
+        "title": "github.com/containers/buildah",
+        "date": "2026-11-02",
         "stars": 1,
         "impact": "high",
-        "why": "Podman and Libpod offer essential daemonless OCI container and pod management capabilities as a Docker alternative.",
+        "why": "Buildah enables rootless, daemonless OCI image construction directly suited for modern secure CI/CD workflows.",
         "category": "Containers & Runtime"
       },
       {
-        "url": "https://github.com/uber/kraken",
-        "title": "uber/kraken",
-        "date": "2026-10-28",
+        "url": "https://github.com/podman-container-tools/skopeo",
+        "title": "Skopeo",
+        "date": "2026-11-02",
+        "stars": 1,
+        "impact": "high",
+        "why": "Skopeo is an essential utility for inspecting, copying, and transferring container images across registries without requiring a local runtime engine.",
+        "category": "Containers & Runtime"
+      },
+      {
+        "url": "https://github.com/GoogleContainerTools/jib",
+        "title": "jib",
+        "date": "2026-10-16",
+        "stars": 5,
+        "impact": "high",
+        "why": "Jib accelerates Java containerization by creating optimized OCI images directly from build tools without daemon overhead.",
+        "category": "Containers & Runtime"
+      },
+      {
+        "url": "https://github.com/wagoodman/dive",
+        "title": "dive 🌟",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "medium",
-        "why": "Uber's Kraken solves massive scale peer-to-peer container image distribution challenges in hyperscale environments.",
+        "why": "Dive is the go-to tool for inspecting image layer composition and reducing container image size footprints.",
         "category": "Containers & Runtime"
       },
       {
@@ -1162,25 +1207,7 @@
         "date": "2026-10-19",
         "stars": 5,
         "impact": "medium",
-        "why": "Hadolint enforces critical container best practices and security guardrails directly within developer workflows.",
-        "category": "Containers & Runtime"
-      },
-      {
-        "url": "https://github.com/GoogleContainerTools/jib",
-        "title": "jib",
-        "date": "2026-10-16",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Google Jib streamlines Java containerization by building optimized OCI images directly without requiring a Docker daemon.",
-        "category": "Containers & Runtime"
-      },
-      {
-        "url": "https://github.com/stepchowfun/docuum",
-        "title": "stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟",
-        "date": "2026-10-25",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Docuum automates host disk hygiene via LRU image eviction to prevent container host storage exhaustion.",
+        "why": "Hadolint enforces Dockerfile best practices and security compliance early in the development lifecycle.",
         "category": "Containers & Runtime"
       },
       {
@@ -1189,8 +1216,100 @@
         "date": "2026-10-23",
         "stars": 5,
         "impact": "medium",
-        "why": "The Quay operator simplifies enterprise container registry lifecycle management natively on Kubernetes.",
+        "why": "The Quay Operator automates the operational lifecycle and deployment of enterprise-grade container registries inside Kubernetes.",
         "category": "Containers & Runtime"
+      }
+    ],
+    "Americas": [
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/stacks",
+        "title": "HashiCorp Terraform Language: Terraform Stacks Overview",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Terraform Stacks introduces a major paradigm shift for orchestrating multi-component, multi-region, and multi-environment cloud infrastructure declaratively.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/resources/ephemeral",
+        "title": "HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Ephemeral resources redefine IaC security by ensuring short-lived secrets and credentials never get persisted into state files.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/tests",
+        "title": "HashiCorp Terraform Language: Native Tests and Provider Mocking",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Native testing frameworks with provider mocking allow teams to validate IaC modules locally and cost-effectively in CI/CD pipelines.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://github.com/bridgecrewio/checkov",
+        "title": "bridgecrewio/checkov: Policy-as-Code Static Analysis for Terraform",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Checkov provides standard policy-as-code security analysis for Kubernetes and cloud IaC to enforce security baselines before deployment.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://github.com/diggerhq/digger",
+        "title": "diggerhq/digger: Open-Source IaC CI/CD Orchestrator for GitHub Actions",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Digger delivers a runner-native GitOps orchestration model for IaC that embeds securely into existing GitHub Actions and GitLab CI runners.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster",
+        "title": "Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource Module for AKS",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "This official Azure Verified Module standardizes enterprise AKS cluster provisioning with Cilium overlay networking and Key Vault integration.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://github.com/GoogleCloudPlatform/cloud-foundation-fabric",
+        "title": "GoogleCloudPlatform/cloud-foundation-fabric: Modular Terraform Blueprints and Landing Zones for GCP",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Google Cloud Foundation Fabric provides authoritative enterprise landing zones and modular patterns for GKE and GCP infrastructure.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://github.com/aws-ia",
+        "title": "aws-ia: AWS Integration and Automation Official Terraform Modules",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "AWS-IA offers official, maintained Terraform modules including EKS Blueprints and cloud-native architectures for enterprise deployment.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://github.com/Azure/terraform-provider-azapi",
+        "title": "Azure/terraform-provider-azapi: Official Azure Resource Manager REST API Provider",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "medium",
+        "why": "The AzAPI provider eliminates delay in cloud feature adoption by letting teams manage preview Azure REST ARM resources natively in Terraform.",
+        "category": "Americas"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/import",
+        "title": "HashiCorp Terraform Language: Config-Driven Import Blocks",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Declarative import blocks streamline enterprise adoption by enabling teams to bring existing unmanaged cloud resources under Terraform state safely.",
+        "category": "Americas"
       }
     ],
     "OpenShift / Red Hat": [
@@ -1292,16 +1411,25 @@
         "date": "2026-10-25",
         "stars": 5,
         "impact": "critical",
-        "why": "Prometheus remains the benchmark telemetry engine and core foundation for cloud-native metrics.",
+        "why": "Serves as the foundational, industry-standard telemetry engine for cloud-native metrics collection and querying.",
         "category": "Observability, SRE & Testing"
       },
       {
-        "url": "https://github.com/grafana/tempo",
-        "title": "Grafana Tempo",
-        "date": "2026-11-01",
+        "url": "https://github.com/prometheus-operator/kube-prometheus",
+        "title": "kube-prometheus",
+        "date": "2026-10-21",
         "stars": 5,
         "impact": "critical",
-        "why": "Grafana Tempo provides high-scale, cost-effective distributed tracing natively integrated with object storage.",
+        "why": "Provides the standard reference architecture and operator pattern for deploying production-ready monitoring stacks on Kubernetes.",
+        "category": "Observability, SRE & Testing"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLRTV86SuuRbk",
+        "title": "Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Leverages eBPF for zero-code kernel-level tracing and metrics collection fully integrated with OpenTelemetry.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1310,16 +1438,16 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Grafana Mimir delivers scalable, multi-tenant long-term storage for Prometheus metrics.",
+        "why": "Enables massive multi-tenant scalability and long-term metric retention for enterprise Prometheus deployments.",
         "category": "Observability, SRE & Testing"
       },
       {
-        "url": "https://github.com/prometheus-operator/kube-prometheus",
-        "title": "kube-prometheus",
-        "date": "2026-10-21",
+        "url": "https://github.com/grafana/tempo",
+        "title": "Grafana Tempo",
+        "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Kube-prometheus serves as the reference monitoring and alerting stack deployment for Kubernetes clusters.",
+        "why": "Delivers highly scalable distributed tracing optimized for enterprise object storage backends.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1328,7 +1456,7 @@
         "date": "2026-10-18",
         "stars": 5,
         "impact": "high",
-        "why": "Sloth automates SRE best practices by generating production-grade SLO alerting rules from simple YAML declarations.",
+        "why": "Automates SRE best practices by converting declarative YAML into production-grade multi-window, multi-burn-rate SLO PromQL alert rules.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1337,7 +1465,7 @@
         "date": "2026-09-24",
         "stars": 5,
         "impact": "high",
-        "why": "Vegeta is an essential, high-performance HTTP load-testing tool optimized for continuous request rates.",
+        "why": "Provides an ultra-fast, constant-rate HTTP load testing utility essential for SRE stress testing and performance validation.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1346,7 +1474,7 @@
         "date": "2026-10-22",
         "stars": 5,
         "impact": "medium",
-        "why": "Blackbox exporter is fundamental for probing endpoint availability and routing across cloud-native environments.",
+        "why": "Standard tool for external synthetic endpoint probing, network routing validation, and TLS certificate checks.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1355,7 +1483,7 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "medium",
-        "why": "Provides production-ready Grafana dashboards for deep visibility into core Kubernetes telemetry.",
+        "why": "Delivers out-of-the-box, community-approved dashboards for deep operational visibility into Kubernetes cluster components.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1364,16 +1492,7 @@
         "date": "2026-10-19",
         "stars": 5,
         "impact": "medium",
-        "why": "Optimizes AWS CloudWatch metric collection with cost-effective batched querying APIs.",
-        "category": "Observability, SRE & Testing"
-      },
-      {
-        "url": "https://github.com/prometheus/jmx_exporter",
-        "title": "Prometheus JMX Exporter 🌟",
-        "date": "2026-10-25",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Critical for scraping JMX metrics from legacy Java applications and enterprise tools running on Kubernetes.",
+        "why": "Optimizes multi-cloud telemetry operations by scraping AWS CloudWatch metrics cost-effectively using batched APIs.",
         "category": "Observability, SRE & Testing"
       }
     ],
@@ -1482,12 +1601,12 @@
     ],
     "Virtualization & Private Cloud": [
       {
-        "url": "https://github.com/electrocucaracha/krd",
-        "title": "krd",
-        "date": "2026-10-30",
+        "url": "https://github.com/zarf-dev/zarf",
+        "title": "defenseunicorns/zarf",
+        "date": "2026-11-02",
         "stars": 5,
-        "impact": "medium",
-        "why": "Automates complex multi-node cluster provisioning with advanced network architectures and hardware acceleration for private clouds.",
+        "impact": "high",
+        "why": "Zarf simplifies and standardizes the deployment of Kubernetes clusters and cloud-native workloads in strictly air-gapped and zero-trust private cloud environments.",
         "category": "Virtualization & Private Cloud"
       },
       {
@@ -1496,7 +1615,7 @@
         "date": "2026-10-24",
         "stars": 5,
         "impact": "high",
-        "why": "Provides a minimalist, secure approach to bootstrapping upstream CNCF-compliant Kubernetes on bare-metal and multi-cloud infrastructure using Terraform.",
+        "why": "Typhoon enables declarative, Terraform-driven Kubernetes bootstrapping directly onto bare-metal and Flatcar Linux for lightweight private cloud infrastructure.",
         "category": "Virtualization & Private Cloud"
       },
       {
@@ -1505,7 +1624,25 @@
         "date": "2026-09-08",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as the community-standard Ansible role for automating core system dependencies and bootstrapping Kubeadm on enterprise Linux distributions.",
+        "why": "This Ansible role provides a community-standard foundation for automating Kubeadm-based Kubernetes cluster provisioning across enterprise VMs and bare-metal nodes.",
+        "category": "Virtualization & Private Cloud"
+      },
+      {
+        "url": "https://github.com/electrocucaracha/krd",
+        "title": "krd",
+        "date": "2026-10-30",
+        "stars": 5,
+        "impact": "medium",
+        "why": "KRD automates multi-node Kubernetes provisioning with advanced networking like SR-IOV for high-performance private cloud workloads.",
+        "category": "Virtualization & Private Cloud"
+      },
+      {
+        "url": "https://github.com/xiaods/k8e",
+        "title": "xiaods/k8e",
+        "date": "2026-10-27",
+        "stars": 5,
+        "impact": "medium",
+        "why": "k8e delivers an easy-to-deploy, lightweight Kubernetes distribution using strict upstream components for edge and private cloud environments.",
         "category": "Virtualization & Private Cloud"
       },
       {
@@ -1514,11 +1651,20 @@
         "date": "2026-08-16",
         "stars": 5,
         "impact": "medium",
-        "why": "Introduces a decentralized computing platform for running Wasm workloads with multi-tenant serverless orchestration on edge infrastructure.",
+        "why": "Tau offers a decentralized WebAssembly execution engine that provides a lightweight serverless alternative to traditional hypervisors and container runtimes.",
         "category": "Virtualization & Private Cloud"
       }
     ],
     "FinOps & Cloud Cost": [
+      {
+        "url": "https://www.youtube.com/playlist?list=PLaNxiRbEBYJ8",
+        "title": "Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "End-to-end Nubenetes NotebookLM FinOps series covering empirical P95/P99 compute rightsizing, Premium SSD v2 storage decoupling, SQL Server core masking, ExpressRoute economics, and coercive Azure Pol",
+        "category": "FinOps & Cloud Cost"
+      },
       {
         "url": "https://github.com/towardsthecloud/cloudburn",
         "title": "Cloudburn: An Open-Source Policy Engine for AWS Spending",
@@ -1527,6 +1673,109 @@
         "impact": "high",
         "why": "Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassig",
         "category": "FinOps & Cloud Cost"
+      }
+    ],
+    "Europe": [
+      {
+        "url": "https://github.com/antonbabenko/pre-commit-terraform",
+        "title": "antonbabenko/pre-commit-terraform: Git Pre-Commit and CI Hooks for Terraform and OpenTofu",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Comprehensive collection of Git pre-commit and CI hooks automating terraform fmt, validate, tflint, trivy, checkov, infracost, and terraform-docs across multi-module repositories.",
+        "category": "Europe"
+      }
+    ],
+    "Spain": [
+      {
+        "url": "https://www.youtube.com/playlist?list=PLB-3xSV3dAoU",
+        "title": "Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Provides localized Spanish-language architectural guidance covering enterprise cloud native design, Azure Landing Zones, and eBPF observability directly tailored for Spanish-speaking engineering teams",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLWGYAgXdQh44",
+        "title": "Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Delivers a major architectural paradigm shift by demonstrating sidecarless Istio Ambient Mesh and Kubernetes Gateway API implementations on enterprise Red Hat OpenShift clusters.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLRTV86SuuRbk",
+        "title": "Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Pioneers zero-code kernel-level instrumentation using eBPF and OpenTelemetry to establish modern multi-cloud observability and trace-log correlation.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLR6nHneHUvqU",
+        "title": "From Cloud Native to AI Native: Why Kubernetes Is the Foundation for Next-Gen AI Agents",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Defines the architectural transition from cloud-native to AI-native paradigms by positioning Kubernetes as the essential orchestration foundation for production AI agents.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLYbmzkhLGOtI",
+        "title": "Nubenetes ArgoCD and GitOps Automation (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Enables enterprise-grade GitOps operations and multi-cluster continuous delivery with automated drift reconciliation using ArgoCD.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=IcH7LalL5cc",
+        "title": "Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Eliminates static credential risk in cloud deployment pipelines by implementing zero-secret Terraform CI/CD workflows powered by OIDC federation.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=BNEGxzQgDB8",
+        "title": "Retiring the CAF Monolith: Azure Verified Modules (AVM) and ALZ Library 2026",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Guides platform teams through retiring legacy monolithic landing zone modules in favor of modular, decoupled Azure Verified Modules.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
+        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a comprehensive architectural blueprint for modern enterprise cloud governance using 2026 Azure Landing Zones and standardized module hierarchies.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLaNxiRbEBYJ8",
+        "title": "Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Establishes a practical FinOps framework for cloud cost optimization through empirical P95/P99 compute rightsizing and storage decoupling.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=N6PMQzmBwwE",
+        "title": "Azure Landing Zones Testing Strategies: Canary, Sandboxes and Non-Prod",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Outlines robust testing and canary policy rollout strategies to ensure continuous validation across enterprise Infrastructure as Code environments.",
+        "category": "Spain"
       }
     ]
   },
@@ -1728,7 +1977,7 @@
       {
         "url": "https://github.com/velero-io/velero",
         "title": "github.com/vmware-tanzu/velero",
-        "date": "2026-06-12",
+        "date": "2026-10-30",
         "stars": 5,
         "impact": "critical",
         "why": "Velero is the essential enterprise benchmark for backing up, restoring, and disaster-recovering Kubernetes state and persistent volumes.",
@@ -2206,7 +2455,7 @@
       {
         "url": "https://github.com/vllm-project/vllm",
         "title": "vLLM on Kubernetes",
-        "date": "2026-06-14",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
         "why": "Standardizes memory-efficient open-source LLM inference and serving on Kubernetes clusters using PagedAttention.",
@@ -2453,30 +2702,30 @@
     ],
     "Security & Compliance": [
       {
-        "url": "https://github.com/hashicorp/vault",
-        "title": "hashicorp/vault",
-        "date": "2026-11-01",
-        "stars": 5,
-        "impact": "critical",
-        "why": "HashiCorp Vault is the foundational enterprise standard for cloud-native dynamic secrets management, encryption, and zero-trust identity brokering.",
-        "category": "Security & Compliance"
-      },
-      {
         "url": "https://www.openpolicyagent.org",
         "title": "OPA Open Policy Agent 🌟",
         "date": "2026-05-17",
         "stars": 5,
         "impact": "critical",
-        "why": "Open Policy Agent is the CNCF-graduated benchmark for unifying and enforcing declarative policy-as-code across Kubernetes clusters and microservices.",
+        "why": "Defines the industry benchmark for policy-as-code, enabling unified, fine-grained authorization across Kubernetes, microservices, and CI/CD pipelines.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/aquasecurity/trivy",
-        "title": "trivy",
-        "date": "2026-06-11",
+        "url": "https://github.com/hashicorp/vault",
+        "title": "hashicorp/vault",
+        "date": "2026-11-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Trivy serves as the ubiquitous container, filesystem, and IaC vulnerability scanner integrated into modern cloud-native CI/CD pipelines.",
+        "why": "Serves as the foundational enterprise backbone for multi-cloud secrets management, data protection, and dynamic Zero Trust credential brokering.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://www.tigera.io/project-calico",
+        "title": "Project Calico 🌟",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Delivers industry-standard cloud-native networking and microsegmentation security using high-performance eBPF and Linux kernel routing.",
         "category": "Security & Compliance"
       },
       {
@@ -2485,34 +2734,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Tetragon leverages in-kernel eBPF hooks to deliver real-time security observability and active runtime attack mitigation with minimal overhead.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://www.tigera.io/project-calico",
-        "title": "Project Calico 🌟",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Calico is an industry-standard networking engine delivering robust eBPF- and iptables-based microsegmentation and network security policies in Kubernetes.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/prowler-cloud/prowler",
-        "title": "github.com/prowler-cloud/prowler 🌟🌟",
-        "date": "2026-10-25",
-        "stars": 5,
-        "impact": "high",
-        "why": "Prowler provides industry-standard cloud security posture management (CSPM) to systematically audit multi-cloud infrastructure against regulatory compliance standards.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/kubescape/kubescape",
-        "title": "kubescape",
-        "date": "2026-06-12",
-        "stars": 5,
-        "impact": "high",
-        "why": "Kubescape provides platform engineers with CNCF-backed automated risk analysis, compliance checking, and Kubernetes cluster hardening.",
+        "why": "Leverages deep kernel eBPF instrumentation to deliver real-time runtime security observability and real-time threat mitigation for containerized workloads.",
         "category": "Security & Compliance"
       },
       {
@@ -2521,25 +2743,52 @@
         "date": "2026-05-17",
         "stars": 5,
         "impact": "high",
-        "why": "Checkov is a leading static code analysis framework that catches security misconfigurations and compliance violations early across IaC templates.",
+        "why": "Prevents security misconfigurations early in the software lifecycle by automated scanning of Infrastructure-as-Code manifests across Terraform, Helm, and Kubernetes.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/kubernetes-sigs/security-profiles-operator",
-        "title": "kubernetes-sigs/security-profiles-operator",
-        "date": "2026-06-12",
-        "stars": 4,
-        "impact": "high",
-        "why": "The Security Profiles Operator natively automates and manages kernel-level Seccomp, AppArmor, and SELinux hardening configurations across Kubernetes clusters.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/getsops/sops",
-        "title": "sops: Simple and flexible tool for managing secrets 🌟",
-        "date": "2026-10-27",
+        "url": "https://github.com/prowler-cloud/prowler",
+        "title": "github.com/prowler-cloud/prowler 🌟🌟",
+        "date": "2026-10-25",
         "stars": 5,
         "impact": "high",
-        "why": "SOPS is the de facto open-source utility for file-level secret encryption seamlessly embedded into cloud-native GitOps deployment pipelines.",
+        "why": "Provides an open-source Cloud Security Posture Management standard for continuous multi-cloud auditing against regulatory frameworks like CIS and PCI-DSS.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://github.com/cloud-custodian/cloud-custodian",
+        "title": "Cloud Custodian",
+        "date": "2026-06-10",
+        "stars": 5,
+        "impact": "high",
+        "why": "Empowers platform teams with a declarative, YAML-based policy engine to automate multi-cloud governance, compliance, and security posture across cloud environments.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://github.com/kubescape/kubescape",
+        "title": "kubescape",
+        "date": "2026-06-12",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers a CNCF-driven suite for end-to-end Kubernetes risk analysis, continuous configuration auditing, and runtime posture enforcement.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://github.com/deepfence/ThreatMapper",
+        "title": "deepfence/ThreatMapper 🌟",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides open-source CNAPP capability to dynamically map runtime attack paths and prioritize active vulnerabilities across cloud-native environments.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://www.keycloak.org",
+        "title": "keycloak.org",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Acts as the industry-standard open-source identity engine for modern web-scale authentication, SSO, and federated user access management.",
         "category": "Security & Compliance"
       }
     ],
@@ -3245,7 +3494,7 @@
       {
         "url": "https://github.com/zarf-dev/zarf",
         "title": "defenseunicorns/zarf",
-        "date": "2026-06-12",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
         "why": "Zarf introduces an essential secure-by-design mechanism for managing cloud-native applications in air-gapped and zero-trust private environments.",
@@ -4041,7 +4290,7 @@
       {
         "url": "https://github.com/velero-io/velero",
         "title": "github.com/vmware-tanzu/velero",
-        "date": "2026-06-12",
+        "date": "2026-10-30",
         "stars": 5,
         "impact": "critical",
         "why": "Velero is the de facto industry-standard utility for Kubernetes disaster recovery, cluster migration, and persistent volume backups.",
@@ -4501,7 +4750,7 @@
       {
         "url": "https://github.com/vllm-project/vllm",
         "title": "vLLM on Kubernetes",
-        "date": "2026-06-14",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
         "why": "Provides essential integration guides and deployment schemas for hosting vLLM on Kubernetes clusters using PagedAttention.",
@@ -4775,48 +5024,39 @@
     ],
     "Security & Compliance": [
       {
+        "url": "https://www.openpolicyagent.org",
+        "title": "OPA Open Policy Agent 🌟",
+        "date": "2026-05-17",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Serves as the foundational, CNCF-graduated policy-as-code engine for unifying access control and governance across Kubernetes, microservices, and CI/CD pipelines.",
+        "category": "Security & Compliance"
+      },
+      {
         "url": "https://github.com/hashicorp/vault",
         "title": "hashicorp/vault",
         "date": "2026-11-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Remains the gold standard for multi-cloud enterprise secret management and Zero Trust data protection.",
+        "why": "Remains the industry-standard multi-cloud secrets management engine and dynamic credential broker essential for enterprise Zero Trust architectures.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/prowler-cloud/prowler",
-        "title": "github.com/prowler-cloud/prowler 🌟🌟",
-        "date": "2026-10-25",
+        "url": "https://www.tigera.io/project-calico",
+        "title": "Project Calico 🌟",
+        "date": "2026-06-18",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as an essential, industry-standard automated tool for continuous multi-cloud security posture management (CSPM).",
+        "why": "Enforces high-performance container network security policies using eBPF and iptables to secure Kubernetes workload communication at scale.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/cilium/tetragon",
-        "title": "Tetragon (Cilium)",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Pioneers kernel-level security observability and runtime enforcement using high-performance eBPF technology.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/kubescape/kubescape",
-        "title": "kubescape",
-        "date": "2026-06-12",
+        "url": "https://github.com/getsops/sops",
+        "title": "sops: Simple and flexible tool for managing secrets 🌟",
+        "date": "2026-10-27",
         "stars": 5,
         "impact": "high",
-        "why": "Provides a comprehensive, CNCF sandbox-backed framework for continuous Kubernetes compliance and risk analysis.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/aquasecurity/trivy",
-        "title": "trivy",
-        "date": "2026-06-11",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Delivers exceptionally fast and versatile vulnerability scanning across container images and IaC configurations.",
+        "why": "Provides essential file-level encryption for GitOps pipelines, enabling secure secret management directly within declarative configuration repositories.",
         "category": "Security & Compliance"
       },
       {
@@ -4825,25 +5065,25 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Maps complex runtime behaviors to trace multi-layer attack paths across modern cloud-native environments.",
+        "why": "Delivers open-source Cloud Native Application Protection Platform (CNAPP) capabilities by mapping runtime attack paths across cloud workloads.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://www.openpolicyagent.org",
-        "title": "OPA Open Policy Agent 🌟",
+        "url": "https://www.checkov.io",
+        "title": "checkov.io",
         "date": "2026-05-17",
         "stars": 5,
-        "impact": "critical",
-        "why": "Acts as the foundational general-purpose policy engine for unifying fine-grained authorization across cloud-native stacks.",
+        "impact": "high",
+        "why": "Provides essential static analysis for Infrastructure-as-Code to detect security misconfigurations in Terraform, Helm, and Kubernetes manifests before deployment.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/hashicorp/vault-csi-provider",
-        "title": "hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store' CSI Driver",
-        "date": "2026-10-29",
-        "stars": 4,
+        "url": "https://github.com/cloud-custodian/cloud-custodian",
+        "title": "Cloud Custodian",
+        "date": "2026-06-10",
+        "stars": 5,
         "impact": "high",
-        "why": "Seamlessly bridges HashiCorp Vault secrets directly into Kubernetes pod volumes via the Secret Store CSI driver.",
+        "why": "Automates multi-cloud governance, security posture management, and compliance rules enforcement across AWS, Azure, and GCP environments.",
         "category": "Security & Compliance"
       },
       {
@@ -4852,16 +5092,25 @@
         "date": "2026-06-12",
         "stars": 4,
         "impact": "high",
-        "why": "Enables native, operator-managed enforcement of Seccomp, AppArmor, and SELinux profiles for hardened workloads.",
+        "why": "Simplifies container runtime hardening by providing an official Kubernetes SIG operator to natively manage Seccomp, AppArmor, and SELinux profiles.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://cloud.google.com/blog/products/identity-security/introducing-google-ai-threat-defense&linkId=62061638",
-        "title": "Introducing Google AI Threat Defense to help you outpace the adversary",
-        "date": "2026-06-02",
-        "stars": 4,
+        "url": "https://github.com/prowler-cloud/prowler",
+        "title": "github.com/prowler-cloud/prowler 🌟🌟",
+        "date": "2026-10-25",
+        "stars": 5,
         "impact": "high",
-        "why": "Introduces cutting-edge autonomous AI threat defense, combining LLM reasoning with cloud posture mapping.",
+        "why": "Acts as the benchmark open-source CSPM tool for auditing multi-cloud infrastructure compliance against CIS benchmarks and regulatory standards.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://github.com/kubescape/kubescape",
+        "title": "kubescape",
+        "date": "2026-06-12",
+        "stars": 5,
+        "impact": "high",
+        "why": "Offers comprehensive Kubernetes configuration scanning, risk analysis, and continuous security compliance verification inside CI/CD automation.",
         "category": "Security & Compliance"
       }
     ],
@@ -5502,7 +5751,7 @@
       {
         "url": "https://github.com/wagoodman/dive",
         "title": "dive 🌟",
-        "date": "2025-12-15",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "medium",
         "why": "An essential developer tool for inspecting container layer composition and auditing images to eliminate bloat and optimize deploy times.",
@@ -5585,7 +5834,7 @@
       {
         "url": "https://github.com/zarf-dev/zarf",
         "title": "defenseunicorns/zarf",
-        "date": "2026-06-12",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "medium",
         "why": "Zarf enables resilient packaging and deployment of cloud-native applications in strict air-gapped security zones.",
@@ -6177,27 +6426,27 @@
   "_meta": {
     "3_months": {
       "Data, Messaging & Storage": {
-        "last_analyzed": "2026-11-02T18:57:15.147192+01:00",
-        "entry_hash": "79c866f805e9c3f2",
-        "entry_count": 14,
+        "last_analyzed": "2026-11-02T20:15:05.670977+01:00",
+        "entry_hash": "601ccd710b5a83c0",
+        "entry_count": 18,
         "method": "gemini"
       },
       "Networking & Service Mesh": {
-        "last_analyzed": "2026-11-02T18:57:31.478876+01:00",
-        "entry_hash": "5dfdf2850939c3b7",
-        "entry_count": 7,
+        "last_analyzed": "2026-11-02T20:15:18.212116+01:00",
+        "entry_hash": "d0a7fe79b0122b6f",
+        "entry_count": 8,
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-02T18:57:40.904030+01:00",
-        "entry_hash": "c6bc139ac601db7f",
-        "entry_count": 16,
+        "last_analyzed": "2026-11-02T20:15:32.895342+01:00",
+        "entry_hash": "4843f51dd25aa22e",
+        "entry_count": 18,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
-        "last_analyzed": "2026-11-02T18:57:43.831926+01:00",
-        "entry_hash": "91ed25c2749c35a4",
-        "entry_count": 27,
+        "last_analyzed": "2026-11-02T20:15:50.977107+01:00",
+        "entry_hash": "8b14d401d03894e3",
+        "entry_count": 30,
         "method": "gemini"
       },
       "Azure": {
@@ -6207,21 +6456,21 @@
         "method": "gemini"
       },
       "Architecture & Microservices": {
-        "last_analyzed": "2026-11-02T18:57:49.191594+01:00",
-        "entry_hash": "4daedced1a2e67f9",
-        "entry_count": 13,
+        "last_analyzed": "2026-11-02T20:16:26.849665+01:00",
+        "entry_hash": "d04f50dae991ed1f",
+        "entry_count": 17,
         "method": "gemini"
       },
       "Infrastructure as Code": {
-        "last_analyzed": "2026-11-02T18:57:51.987944+01:00",
-        "entry_hash": "3bb2bcdad4d52714",
-        "entry_count": 20,
+        "last_analyzed": "2026-11-02T20:16:46.962091+01:00",
+        "entry_hash": "789f4fb4b76e0103",
+        "entry_count": 59,
         "method": "gemini"
       },
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-11-02T18:57:55.240071+01:00",
-        "entry_hash": "796da4a2c9a8b8cf",
-        "entry_count": 111,
+        "last_analyzed": "2026-11-02T20:17:05.871900+01:00",
+        "entry_hash": "02f14ab4088941c0",
+        "entry_count": 123,
         "method": "gemini"
       },
       "Platform Engineering & DevEx": {
@@ -6231,9 +6480,9 @@
         "method": "fallback_small"
       },
       "CI/CD & GitOps": {
-        "last_analyzed": "2026-11-02T18:57:57.968764+01:00",
-        "entry_hash": "f435ef64038e2450",
-        "entry_count": 28,
+        "last_analyzed": "2026-11-02T20:17:39.887748+01:00",
+        "entry_hash": "271034f21344bd9a",
+        "entry_count": 30,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -6243,9 +6492,9 @@
         "method": "gemini"
       },
       "AWS": {
-        "last_analyzed": "2026-11-02T18:58:07.205647+01:00",
-        "entry_hash": "530218ecb13ab7f5",
-        "entry_count": 7,
+        "last_analyzed": "2026-11-02T20:17:50.325807+01:00",
+        "entry_hash": "6910bc5f749351a1",
+        "entry_count": 9,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -6267,9 +6516,15 @@
         "method": "gemini"
       },
       "Containers & Runtime": {
-        "last_analyzed": "2026-11-02T18:58:14.557290+01:00",
-        "entry_hash": "d4d5ecaf2b4155bc",
-        "entry_count": 14,
+        "last_analyzed": "2026-11-02T20:18:02.288273+01:00",
+        "entry_hash": "56e4ac6cb5431fb3",
+        "entry_count": 15,
+        "method": "gemini"
+      },
+      "Americas": {
+        "last_analyzed": "2026-11-02T20:18:14.879603+01:00",
+        "entry_hash": "a700dcabe42b43ba",
+        "entry_count": 26,
         "method": "gemini"
       },
       "OpenShift / Red Hat": {
@@ -6279,9 +6534,9 @@
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
-        "last_analyzed": "2026-11-02T18:58:20.425190+01:00",
-        "entry_hash": "2625fe757f2ac102",
-        "entry_count": 38,
+        "last_analyzed": "2026-11-02T20:18:25.601345+01:00",
+        "entry_hash": "e6269febf23fe90a",
+        "entry_count": 42,
         "method": "gemini"
       },
       "Linux & System Foundations": {
@@ -6297,35 +6552,47 @@
         "method": "fallback_small"
       },
       "Virtualization & Private Cloud": {
-        "last_analyzed": "2026-11-02T18:58:25.747704+01:00",
-        "entry_hash": "292501025cfc4570",
-        "entry_count": 4,
+        "last_analyzed": "2026-11-02T20:18:33.457776+01:00",
+        "entry_hash": "bca09a1b3fdd31ec",
+        "entry_count": 6,
         "method": "gemini"
       },
       "FinOps & Cloud Cost": {
-        "last_analyzed": "2026-11-02T18:58:26.749441+01:00",
-        "entry_hash": "b8d9e3af30498eea",
+        "last_analyzed": "2026-11-02T20:18:34.459070+01:00",
+        "entry_hash": "1f44100a1d9da29c",
+        "entry_count": 2,
+        "method": "fallback_small"
+      },
+      "Europe": {
+        "last_analyzed": "2026-11-02T20:18:34.459102+01:00",
+        "entry_hash": "35ff8797e30e0ea4",
         "entry_count": 1,
         "method": "fallback_small"
+      },
+      "Spain": {
+        "last_analyzed": "2026-11-02T20:18:45.282633+01:00",
+        "entry_hash": "6bc91834c6712e61",
+        "entry_count": 50,
+        "method": "gemini"
       }
     },
     "6_months": {
       "Kubernetes & Orchestration": {
         "last_analyzed": "2026-11-01T13:34:18.463943+01:00",
-        "entry_hash": "a88249e970b0a181",
-        "entry_count": 2116,
+        "entry_hash": "0feb2f33e779e16d",
+        "entry_count": 2119,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
         "last_analyzed": "2026-10-26T21:20:22.565181+01:00",
-        "entry_hash": "ed412d99706a8a23",
-        "entry_count": 833,
+        "entry_hash": "cf03b5bb4f74caa6",
+        "entry_count": 837,
         "method": "gemini"
       },
       "Data, Messaging & Storage": {
         "last_analyzed": "2026-11-01T13:34:30.920495+01:00",
-        "entry_hash": "e4bc250201923e77",
-        "entry_count": 591,
+        "entry_hash": "826f3806b0c03bf9",
+        "entry_count": 592,
         "method": "gemini"
       },
       "Azure": {
@@ -6336,8 +6603,8 @@
       },
       "CI/CD & GitOps": {
         "last_analyzed": "2026-10-26T21:21:00.881943+01:00",
-        "entry_hash": "b1c693b402a76dbf",
-        "entry_count": 629,
+        "entry_hash": "c90d5cd7d66b16bf",
+        "entry_count": 630,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -6354,8 +6621,8 @@
       },
       "AI & Agents": {
         "last_analyzed": "2026-10-26T21:21:56.414137+01:00",
-        "entry_hash": "94a1902b332f08ff",
-        "entry_count": 216,
+        "entry_hash": "636476f2f16dd929",
+        "entry_count": 217,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -6371,15 +6638,15 @@
         "method": "gemini"
       },
       "Security & Compliance": {
-        "last_analyzed": "2026-10-26T21:22:45.895694+01:00",
-        "entry_hash": "ae3495488f2d6cc1",
+        "last_analyzed": "2026-11-02T20:19:04.205401+01:00",
+        "entry_hash": "53c7fead9dd90f67",
         "entry_count": 506,
         "method": "gemini"
       },
       "Infrastructure as Code": {
         "last_analyzed": "2026-11-01T13:35:20.279331+01:00",
-        "entry_hash": "f0089c1d258476e2",
-        "entry_count": 607,
+        "entry_hash": "902b730f5d88d186",
+        "entry_count": 647,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -6402,20 +6669,20 @@
       },
       "Architecture & Microservices": {
         "last_analyzed": "2026-11-02T18:59:02.799513+01:00",
-        "entry_hash": "82b5b4196d1c661a",
-        "entry_count": 353,
+        "entry_hash": "fedcdf8e8a43a637",
+        "entry_count": 356,
         "method": "gemini"
       },
       "AWS": {
         "last_analyzed": "2026-11-02T18:59:05.687113+01:00",
-        "entry_hash": "a5b3173161e1c1a5",
-        "entry_count": 480,
+        "entry_hash": "00d357661d2b3bff",
+        "entry_count": 481,
         "method": "gemini"
       },
       "Containers & Runtime": {
         "last_analyzed": "2026-11-02T18:59:08.452747+01:00",
-        "entry_hash": "42caa017b635d9bd",
-        "entry_count": 296,
+        "entry_hash": "c3f45078f0c6a9e8",
+        "entry_count": 297,
         "method": "gemini"
       },
       "Virtualization & Private Cloud": {
@@ -6426,8 +6693,8 @@
       },
       "Networking & Service Mesh": {
         "last_analyzed": "2026-10-26T21:25:12.524965+01:00",
-        "entry_hash": "d82af283ce0e50ff",
-        "entry_count": 367,
+        "entry_hash": "681e2ea19df2e371",
+        "entry_count": 368,
         "method": "gemini"
       },
       "Platform Engineering & DevEx": {
@@ -6438,20 +6705,20 @@
       },
       "Spain": {
         "last_analyzed": "2026-10-26T21:25:37.317941+01:00",
-        "entry_hash": "bd25dceb3412ada6",
-        "entry_count": 36,
+        "entry_hash": "46001dda6e1bac54",
+        "entry_count": 86,
         "method": "gemini"
       },
       "Europe": {
         "last_analyzed": "2026-10-26T21:25:54.744662+01:00",
-        "entry_hash": "ee7b7dd8ed669f90",
-        "entry_count": 107,
+        "entry_hash": "51b569efb60e5de1",
+        "entry_count": 108,
         "method": "gemini"
       },
       "FinOps & Cloud Cost": {
         "last_analyzed": "2026-10-26T21:26:10.366777+01:00",
-        "entry_hash": "3629a84a6f9e1b01",
-        "entry_count": 58,
+        "entry_hash": "537196f03500f4a2",
+        "entry_count": 59,
         "method": "gemini"
       },
       "Asia-Pacific": {
@@ -6462,22 +6729,22 @@
       },
       "Americas": {
         "last_analyzed": "2026-10-03T23:18:37.134935+02:00",
-        "entry_hash": "1ac69d758d138981",
-        "entry_count": 2,
+        "entry_hash": "3a89a74642efb7e7",
+        "entry_count": 28,
         "method": "fallback_small"
       }
     },
     "12_months": {
       "Kubernetes & Orchestration": {
         "last_analyzed": "2026-10-26T21:26:28.420232+01:00",
-        "entry_hash": "516a6c1c71d0cad4",
-        "entry_count": 2185,
+        "entry_hash": "115610bd8992b89a",
+        "entry_count": 2186,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
         "last_analyzed": "2026-11-02T18:59:15.203626+01:00",
-        "entry_hash": "97ac0c12f4dea3ef",
-        "entry_count": 845,
+        "entry_hash": "a89965523a4d8a78",
+        "entry_count": 848,
         "method": "gemini"
       },
       "Data, Messaging & Storage": {
@@ -6494,8 +6761,8 @@
       },
       "CI/CD & GitOps": {
         "last_analyzed": "2026-11-02T18:59:21.050562+01:00",
-        "entry_hash": "fe26e9d50a794b2e",
-        "entry_count": 637,
+        "entry_hash": "1e522ae69449cd5f",
+        "entry_count": 638,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -6512,8 +6779,8 @@
       },
       "AI & Agents": {
         "last_analyzed": "2026-11-02T18:59:27.317304+01:00",
-        "entry_hash": "c7ad4098e6532366",
-        "entry_count": 456,
+        "entry_hash": "51b6aaeaa6b7eb7d",
+        "entry_count": 457,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -6529,15 +6796,15 @@
         "method": "gemini"
       },
       "Security & Compliance": {
-        "last_analyzed": "2026-11-02T18:59:33.221724+01:00",
-        "entry_hash": "e6bdca882120fb1a",
-        "entry_count": 529,
+        "last_analyzed": "2026-11-02T20:19:20.060899+01:00",
+        "entry_hash": "ebb337d3592b5ed6",
+        "entry_count": 528,
         "method": "gemini"
       },
       "Infrastructure as Code": {
         "last_analyzed": "2026-11-02T18:59:36.342900+01:00",
-        "entry_hash": "f79a936d9610df1c",
-        "entry_count": 618,
+        "entry_hash": "906e997309c916eb",
+        "entry_count": 657,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -6560,8 +6827,8 @@
       },
       "Architecture & Microservices": {
         "last_analyzed": "2026-11-02T18:59:39.173462+01:00",
-        "entry_hash": "98c361ff450534b5",
-        "entry_count": 371,
+        "entry_hash": "9248930eaa697a11",
+        "entry_count": 372,
         "method": "gemini"
       },
       "AWS": {
@@ -6584,8 +6851,8 @@
       },
       "Networking & Service Mesh": {
         "last_analyzed": "2026-10-26T21:31:58.889346+01:00",
-        "entry_hash": "c116f8e126d4420f",
-        "entry_count": 386,
+        "entry_hash": "9d914df6c0399cfe",
+        "entry_count": 387,
         "method": "gemini"
       },
       "Platform Engineering & DevEx": {
@@ -6596,20 +6863,20 @@
       },
       "Spain": {
         "last_analyzed": "2026-10-26T21:32:28.510117+01:00",
-        "entry_hash": "bd25dceb3412ada6",
-        "entry_count": 36,
+        "entry_hash": "46001dda6e1bac54",
+        "entry_count": 86,
         "method": "gemini"
       },
       "Europe": {
         "last_analyzed": "2026-10-26T21:32:46.385764+01:00",
-        "entry_hash": "ee7b7dd8ed669f90",
-        "entry_count": 107,
+        "entry_hash": "51b569efb60e5de1",
+        "entry_count": 108,
         "method": "gemini"
       },
       "FinOps & Cloud Cost": {
         "last_analyzed": "2026-11-02T15:44:48.765647+01:00",
-        "entry_hash": "a13f059068c1b109",
-        "entry_count": 66,
+        "entry_hash": "df7c108729240e44",
+        "entry_count": 67,
         "method": "gemini"
       },
       "Asia-Pacific": {
@@ -6620,11 +6887,11 @@
       },
       "Americas": {
         "last_analyzed": "2026-10-03T23:20:49.442409+02:00",
-        "entry_hash": "1ac69d758d138981",
-        "entry_count": 2,
+        "entry_hash": "3a89a74642efb7e7",
+        "entry_count": 28,
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-11-02T18:59:46.042166+01:00"
+    "last_updated": "2026-11-02T20:19:21.070232+01:00"
   }
 }

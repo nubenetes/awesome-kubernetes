@@ -130,12 +130,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="-JlLcd-4CIs" data-video-url="https://www.youtube.com/embed/-JlLcd-4CIs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/-JlLcd-4CIs/hqdefault.jpg" alt="Unindexed Cloud Native Technical Short (-JlLcd-4CIs)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/-JlLcd-4CIs" title="Unindexed Cloud Native Technical Short (-JlLcd-4CIs)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -145,12 +140,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="jwASueLUzhI" data-video-url="https://www.youtube.com/embed/jwASueLUzhI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/jwASueLUzhI/hqdefault.jpg" alt="Unindexed Cloud Native Architecture & AI Operations Short (ID: jwASueLUzhI)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/jwASueLUzhI" title="Unindexed Cloud Native Architecture & AI Operations Short (ID: jwASueLUzhI)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -160,12 +150,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="-Bo6tLrseDo" data-video-url="https://www.youtube.com/embed/-Bo6tLrseDo" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/-Bo6tLrseDo/hqdefault.jpg" alt="Metadata Unavailable (Video ID: -Bo6tLrseDo)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/-Bo6tLrseDo" title="Metadata Unavailable (Video ID: -Bo6tLrseDo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -175,12 +160,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="Q2fhHPqJnKk" data-video-url="https://www.youtube.com/embed/Q2fhHPqJnKk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/Q2fhHPqJnKk/hqdefault.jpg" alt="Unindexed Cloud Native & AI Architecture Short (ID: Q2fhHPqJnKk)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/Q2fhHPqJnKk" title="Unindexed Cloud Native & AI Architecture Short (ID: Q2fhHPqJnKk)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -190,12 +170,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="O_Mfirh5xqM" data-video-url="https://www.youtube.com/embed/O_Mfirh5xqM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/O_Mfirh5xqM/hqdefault.jpg" alt="Unverified Cloud Native Technical Short (ID: O_Mfirh5xqM)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/O_Mfirh5xqM" title="Unverified Cloud Native Technical Short (ID: O_Mfirh5xqM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -227,12 +202,7 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <div class="video-lazy-container" data-video-id="YWNUZfYelIM" data-video-url="https://www.youtube.com/embed/YWNUZfYelIM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/YWNUZfYelIM/hqdefault.jpg" alt="Unverified Technical Short (ID: YWNUZfYelIM)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/YWNUZfYelIM" title="Unverified Technical Short (ID: YWNUZfYelIM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
