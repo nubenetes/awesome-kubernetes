@@ -283,6 +283,102 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Terraform Azure Verified Modules AVM
+
+??? note "🎬 How Terraform Deploys Azure Verified Modules | AVM Lifecycle Short"
+    !!! info "Architectural Summary"
+        This technical overview examines the four-phase Terraform provisioning lifecycle (init, plan, apply, destroy) utilizing Azure Verified Modules (AVM) to manage complex infrastructure dependencies like private VNet-integrated storage accounts. By mapping architectural relationships into a deterministic state file, it ensures predictable deployment ordering and complete teardown execution. In a 2026 Cloud Native context, adopting standardized modules with strict lifecycle management is essential for preventing configuration drift, eliminating orphaned cloud resources, and enforcing FinOps cost governance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/EsIyH6PSGrE" title="How Terraform Deploys Azure Verified Modules | AVM Lifecycle Short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Azure Private Link Terraform
+
+??? note "🎬 How Azure Private Endpoints Lock Down Data | Private PaaS Security"
+    !!! info "Architectural Summary"
+        This video illustrates how Azure Private Endpoints secure cloud PaaS services like Azure Storage and Key Vault by projecting them directly into virtual network subnets using dedicated RFC 1918 private IP addresses. By integrating Private DNS Zones and eliminating public internet egress, this architecture ensures all sensitive data traffic remains locked within the internal cloud backbone. In a 2026 Cloud Native context, automating this zero-trust network isolation via Terraform and Azure Verified Modules (AVM) is critical for enforcing strict data perimeter compliance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/xf5UNTUjYjY" title="How Azure Private Endpoints Lock Down Data | Private PaaS Security" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Azure Managed Identities Terraform
+
+??? note "🎬 How Managed Identities Kill Passwords | Azure Zero-Secret Security"
+    !!! info "Architectural Summary"
+        This video illustrates how Azure Managed Identities eliminate static credentials and connection strings in cloud-native architectures by binding workloads directly to Microsoft Entra ID. Rather than embedding vulnerable access keys in configuration files, resources dynamically obtain short-lived, automatically rotated tokens governed by granular RBAC permissions. Implementing this zero-secret pattern with Azure Verified Modules (AVM) in Terraform ensures automated credential lifecycle management and enforces strict least-privilege security postures across cloud environments.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/2YlxRtiYll4" title="How Managed Identities Kill Passwords | Azure Zero-Secret Security" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Azure Bastion
+
+??? note "🎬 How Azure Bastion Secures Virtual Machines | Zero Public IP Access"
+    !!! info "Architectural Summary"
+        This video explains how Azure Bastion enforces zero-trust network architecture by providing secure, seamless RDP and SSH connectivity to virtual machines directly through the Azure portal over TLS, completely eliminating the need for public IP addresses. In a 2026 Cloud Native and Infrastructure as Code (IaC) context—particularly when deployed via Terraform and Azure Verified Modules (AVM)—this pattern mitigates port scanning and brute-force attack vectors while standardizing hardened perimeter security across enterprise cloud environments.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/QeVoCsTMBOQ" title="How Azure Bastion Secures Virtual Machines | Zero Public IP Access" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Terraform Azure Verified Modules AVM
+
+??? note "🎬 Deploying Secure Azure Architecture with Verified Modules | AVM Labs"
+    !!! info "Architectural Summary"
+        This video demonstrates how to rapidly provision a hardened, zero-trust Azure foundation using Microsoft's pre-vetted Terraform Azure Verified Modules (AVM) instead of maintaining thousands of lines of custom IaC. It showcases composable patterns that integrate Virtual Networks, automated SSH key vaulting in Azure Key Vault, zero-public-IP compute access via Azure Bastion, and passwordless Storage Account interactions through System-Assigned Managed Identities. In a 2026 Cloud Native context, adopting standardized, vendor-backed IaC modules accelerates deterministic infrastructure delivery while enforcing enterprise-grade security, private endpoints, and RBAC compliance by default.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/xIkzOaSfB1c" title="Deploying Secure Azure Architecture with Verified Modules | AVM Labs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Terraform and Azure Verified Modules AVM
+
+??? note "🎬 How Azure Centralizes Cloud Monitoring | AVM Log Analytics Workspace"
+    !!! info "Architectural Summary"
+        This video demonstrates a 'telemetry-first' infrastructure deployment pattern using Azure Verified Modules (AVM) with Terraform to provision a centralized Log Analytics Workspace prior to compute or networking resources. By leveraging AVM's native shared diagnostic parameters, downstream components such as Virtual Machines, Key Vaults, and Storage Accounts automatically inherit telemetry bindings without repetitive custom diagnostic code. In a 2026 Cloud Native landscape, this standardized observability-as-code approach ensures zero-day visibility, instant cross-system correlation, and automated compliance auditing from the exact moment infrastructure goes live.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/oBkA9k32ECQ" title="How Azure Centralizes Cloud Monitoring | AVM Log Analytics Workspace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Terraform AzAPI and AzureRM
+
+??? note "🎬 Why Azure Platform Teams Choose AzAPI Complexity | ALZ 2026 Architecture"
+    !!! info "Architectural Summary"
+        This architectural overview explains why enterprise Azure platform teams strategically adopt the Terraform AzAPI provider alongside AzureRM to directly interface with the Azure Resource Manager (ARM) REST control plane. In a 2026 Cloud Native context, this dual-provider strategy eliminates upstream provider lag for day-zero security and compliance guardrails while leveraging plan-time OpenAPI schema validation. Central platform teams absorb the raw JSON complexity within Azure Verified Modules (AVM), empowering application teams with clean, composable abstractions for rapid deployment.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/ptetbW0C0P8" title="Why Azure Platform Teams Choose AzAPI Complexity | ALZ 2026 Architecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Kubernetes DevOps
+
+??? note "🎬 Cloud Native Architecture and Automated Operations Playlist (PLIDgJtbMXQ6s)"
+    !!! info "Architectural Summary"
+        This technical resource explores modern cloud-native architectural patterns, focusing on declarative infrastructure management and automated operational workflows. In a 2026 Cloud Native context, these foundational strategies enable resilient, self-healing distributed systems and prepare platform engineering teams for integrating autonomous AI agents into SRE and DevOps pipelines.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLIDgJtbMXQ6s" title="Cloud Native Architecture and Automated Operations Playlist (PLIDgJtbMXQ6s)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"

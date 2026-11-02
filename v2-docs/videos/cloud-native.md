@@ -37,6 +37,36 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 Unindexed Cloud Native Technical Short (ID: BnkctVGCD8A)"
+    !!! info "Architectural Summary"
+        While specific public metadata for video ID BnkctVGCD8A is currently unindexed, concise technical briefings in this format typically address modular cloud-native design patterns, automated infrastructure workflows, or autonomous agentic operations. In a 2026 Cloud Native architecture context, adopting these rapid operational patterns accelerates day-2 Kubernetes management, standardizes GitOps pipelines, and enhances observability and resilience across distributed microservices.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/BnkctVGCD8A" title="Unindexed Cloud Native Technical Short (ID: BnkctVGCD8A)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified Cloud Native Technical Playlist (Truncated ID: PLMiMCcgzkPpw)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier (PLMiMCcgzkPpw) is a truncated 13-character string rather than a full 34-character YouTube playlist ID, preventing exact metadata resolution via public search indexing. In a 2026 Cloud Native architecture context, curated technical playlists typically aggregate modular patterns across Kubernetes orchestration, declarative Infrastructure as Code (IaC), and AI-augmented operational workflows to standardize platform engineering practices.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLMiMCcgzkPpw" title="Unverified Cloud Native Technical Playlist (Truncated ID: PLMiMCcgzkPpw)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified Cloud Native Architecture Playlist (PLQAXmE_Qq4bU)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier (PLQAXmE_Qq4bU) appears to be truncated or unindexed, preventing external metadata verification. In a 2026 Cloud Native context, curated technical playlists typically serve as modular reference tracks for adopting declarative Kubernetes patterns, automated GitOps workflows, and AI-augmented operational resilience.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLQAXmE_Qq4bU" title="Unverified Cloud Native Architecture Playlist (PLQAXmE_Qq4bU)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Red Hat OpenShift
 
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019"
@@ -246,6 +276,174 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
+
+    </center>
+
+## Cloud Native Architecture
+
+??? note "🎬 Unverified / Unavailable Playlist (PLc2WtEw1pojo)"
+    !!! info "Architectural Summary"
+        The specified YouTube playlist URL (PLc2WtEw1pojo) is invalid, truncated, or currently unindexed, preventing verification of its specific technical content. In a 2026 Cloud Native architecture context, technical playlists typically serve as modular knowledge repositories for implementing scalable microservices, GitOps-driven infrastructure automation, and AI-assisted operational workflows.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLc2WtEw1pojo" title="Unverified / Unavailable Playlist (PLc2WtEw1pojo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified or Truncated YouTube Playlist (PLI0K_-6LrXgM)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier (PLI0K_-6LrXgM) is truncated, unindexed, or inaccessible via public search grounding, preventing the verification of specific session metadata. In a 2026 Cloud Native architecture context, engineering teams curate technical playlists to standardize onboarding across distributed systems, Kubernetes topologies, and AI-driven operational workflows (such as MCP-enabled SRE agents). Maintaining accessible, version-controlled documentation alongside video repositories remains critical to prevent knowledge silos when external media links degrade or become private.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLI0K_-6LrXgM" title="Unverified or Truncated YouTube Playlist (PLI0K_-6LrXgM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified or Truncated YouTube Playlist (PLYmAuttxFYjA)"
+    !!! info "Architectural Summary"
+        The provided URL contains a truncated 13-character YouTube playlist identifier (PLYmAuttxFYjA) that does not resolve to any indexed public video or playlist metadata via search grounding. In a 2026 Cloud Native context, maintaining strict configuration hygiene, validating external telemetry links, and ensuring immutable documentation references are essential practices to prevent broken knowledge pipelines in enterprise platform engineering.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLYmAuttxFYjA" title="Unverified or Truncated YouTube Playlist (PLYmAuttxFYjA)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unindexed or Private YouTube Playlist (PLBUzSeBwfM7M)"
+    !!! info "Architectural Summary"
+        The specified YouTube resource identifier (PLBUzSeBwfM7M) appears to be a truncated playlist ID or an unindexed video ID that returns no public metadata across search indices. In a 2026 Cloud Native context, automated ingestion pipelines and AI agents should handle unresolvable or private external references by enforcing strict schema validation and routing dead links to observability dead-letter queues for manual curation.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLBUzSeBwfM7M" title="Unindexed or Private YouTube Playlist (PLBUzSeBwfM7M)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unindexed or Truncated Playlist (PLcgcGU_pGpv8)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier (PLcgcGU_pGpv8) appears to be truncated or unindexed, preventing exact metadata retrieval. In a 2026 Cloud Native context, architectural playlists typically explore core distributed systems patterns, declarative infrastructure management, and the integration of autonomous AI agents via Model Context Protocol (MCP) for automated cloud operations. These foundational concepts remain essential for building resilient, scalable, and self-healing enterprise platforms.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLcgcGU_pGpv8" title="Unindexed or Truncated Playlist (PLcgcGU_pGpv8)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified / Truncated YouTube Playlist (ID: PLY9afYE9hx70)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier (PLY9afYE9hx70) is truncated—containing only 13 characters instead of the standard 34-character YouTube playlist format—and returned no verified metadata via search grounding. In a 2026 Cloud Native context, architectural workflows rely on validated, immutable source references for technical documentation, GitOps state tracking, and AI agent knowledge base ingestion. Please provide the complete 34-character playlist ID or the specific 11-character video ID to enable accurate technical extraction.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLY9afYE9hx70" title="Unverified / Truncated YouTube Playlist (ID: PLY9afYE9hx70)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified Playlist (ID: PLH1sVn4CEfPY)"
+    !!! info "Architectural Summary"
+        The specified YouTube playlist or video identifier (PLH1sVn4CEfPY) could not be resolved via external search indexing, indicating a truncated, private, or unindexed resource. In a 2026 Cloud Native context, architectural documentation and training repositories should rely on immutable, version-controlled artifacts and standardized OpenTelemetry metadata rather than unverified external streaming links to maintain operational governance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLH1sVn4CEfPY" title="Unverified Playlist (ID: PLH1sVn4CEfPY)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified Technical Playlist (Truncated ID: PLUt4PJvFTysY)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier appears to be truncated or unindexed, preventing verification of the exact video metadata via search grounding. In a 2026 Cloud Native architecture context, curated technical playlists typically serve as modular learning paths for platform engineering, distributed systems resiliency, and autonomous AI agent integration.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLUt4PJvFTysY" title="Unverified Technical Playlist (Truncated ID: PLUt4PJvFTysY)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified / Unavailable Playlist (PLNtKxnT9mK7g)"
+    !!! info "Architectural Summary"
+        The specified YouTube playlist URL (PLNtKxnT9mK7g) is truncated, private, or unindexed, preventing verification of its specific technical metadata via external grounding. In a 2026 Cloud Native context, maintaining accessible, version-controlled documentation and verified architectural runbooks is critical for enabling AI-driven operations and automated SRE workflows.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLNtKxnT9mK7g" title="Unverified / Unavailable Playlist (PLNtKxnT9mK7g)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified / Truncated YouTube Playlist (PLOb7y_S6Kcd8)"
+    !!! info "Architectural Summary"
+        The provided playlist identifier (PLOb7y_S6Kcd8) is truncated and cannot be resolved to a valid public YouTube resource. In a 2026 Cloud Native architecture context, automated documentation pipelines and AI Agent ingestion workflows require complete, verifiable resource identifiers to accurately index technical configurations and maintain high-fidelity knowledge graphs.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLOb7y_S6Kcd8" title="Unverified / Truncated YouTube Playlist (PLOb7y_S6Kcd8)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Cloud Native Documentation and Knowledge Management
+
+??? note "🎬 Unindexed or Private YouTube Playlist (PLZhOsH66dFmw)"
+    !!! info "Architectural Summary"
+        The specified YouTube URL (PLZhOsH66dFmw / ZhOsH66dFmw) appears to be a truncated playlist identifier or an unindexed/private video with no publicly verifiable metadata available via search grounding. In a 2026 Cloud Native context, architectural documentation and video artifacts should be accompanied by immutable metadata and OpenTelemetry-compatible indexing to ensure discoverability across automated knowledge pipelines.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLZhOsH66dFmw" title="Unindexed or Private YouTube Playlist (PLZhOsH66dFmw)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unindexed or Truncated YouTube Playlist (PLcUy0RRCT9fg)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier (PLcUy0RRCT9fg) appears to be truncated or unindexed, returning no verifiable metadata via external search grounding. In a 2026 Cloud Native context, engineering teams should ensure technical knowledge bases, architectural runbooks, and training playlists are stored in version-controlled repositories or integrated via Model Context Protocol (MCP) knowledge servers rather than relying on fragile external video links.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLcUy0RRCT9fg" title="Unindexed or Truncated YouTube Playlist (PLcUy0RRCT9fg)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Kubernetes Cloud Native Architecture
+
+??? note "🎬 Unverified Cloud Native Technical Playlist (Truncated ID: PLcCUAwooFb6s)"
+    !!! info "Architectural Summary"
+        Due to a truncated or unindexed YouTube playlist identifier (PLcCUAwooFb6s), specific video metadata could not be externally verified. In a 2026 Cloud Native architecture context, curated technical playlists of this type typically address core distributed systems patterns, Kubernetes orchestration, declarative Infrastructure as Code (IaC), and the integration of autonomous AI Agents via Model Context Protocol (MCP) for automated SRE and Day-2 operations.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLcCUAwooFb6s" title="Unverified Cloud Native Technical Playlist (Truncated ID: PLcCUAwooFb6s)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Cloud Native
+
+??? note "🎬 Unverified Playlist (ID: PLDbL5Dh24a5g)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist URL (PLDbL5Dh24a5g) appears to be truncated or unindexed, as standard YouTube playlist identifiers require 18 to 34 characters and no matching metadata exists in public search indexes. Consequently, a verified technical summary cannot be generated without the complete playlist URL or explicit video titles. In a 2026 Cloud Native architecture context, automated metadata ingestion pipelines should validate URL structures and implement fallback retrieval mechanisms when scraping endpoints are blocked.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLDbL5Dh24a5g" title="Unverified Playlist (ID: PLDbL5Dh24a5g)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified Playlist (PLWwVdOapXzDc)"
+    !!! info "Architectural Summary"
+        The provided playlist URL (PLWwVdOapXzDc) appears to be truncated, private, or unindexed, preventing verification of its specific video contents. In a 2026 Cloud Native architecture context, curated technical playlists typically serve as modular learning pathways for mastering distributed systems, declarative Infrastructure as Code (IaC), and AI-driven platform engineering operations.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLWwVdOapXzDc" title="Unverified Playlist (PLWwVdOapXzDc)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unavailable or Truncated YouTube Playlist (ID: PLZ-bpd1sEISs)"
+    !!! info "Architectural Summary"
+        The provided URL contains a truncated or unindexed playlist identifier (PLZ-bpd1sEISs) that resolves to no verifiable technical metadata. In a 2026 Cloud Native context, automated ingestion and AI Agent knowledge pipelines must enforce strict schema validation and graceful fallback handling when encountering broken or incomplete external data references.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLZ-bpd1sEISs" title="Unavailable or Truncated YouTube Playlist (ID: PLZ-bpd1sEISs)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

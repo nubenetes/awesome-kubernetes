@@ -20836,4 +20836,333 @@ INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLWGYAgXdQ
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLYbmzkhLGOtI','Nubenetes ArgoCD and GitOps Automation (Playlist)','Nubenetes NotebookLM playlist covering declarative GitOps application and infrastructure delivery with ArgoCD, multi-cluster orchestration, and automated drift reconciliation.','2026',5,'Nubenetes NotebookLM playlist covering declarative GitOps application and infrastructure delivery with ArgoCD, multi-cluster orchestration, and automated drift reconciliation.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793645991,0,'2026-11-02T19:59:51.285530+01:00','2026-11-02T19:59:51.285530+01:00','Nubenetes','spain','["CI/CD and GitOps", "ArgoCD", "GitOps Automation"]','["[DE FACTO STANDARD]", "[GUIDE]", "[GITOPS]"]','["docs/argo.md"]','["argo.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 16, "technology": "ArgoCD and GitOps", "category": "Infrastructure as Code", "source_provenance": "Official @nubenetes YouTube Channel"}');
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLBMAtCXWYfZA','Nubenetes Cloud Native Podcasts (English Playlist)','Official English-language Nubenetes NotebookLM podcast series synthesizing architectural blueprints across Kubernetes, Terraform AVM, Azure Landing Zones, FinOps, and eBPF observability.','2026',5,'Official English-language Nubenetes NotebookLM podcast series synthesizing architectural blueprints across Kubernetes, Terraform AVM, Azure Landing Zones, FinOps, and eBPF observability.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793645991,0,'2026-11-02T19:59:51.285530+01:00','2026-11-02T19:59:51.285530+01:00','Nubenetes','spain','["Architectural Foundations", "Cloud Native Strategy", "Podcasts"]','["[GUIDE]", "[KUBERNETES]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 17, "technology": "Cloud Native Architecture", "category": "Fundamentals and Documentaries", "source_provenance": "Official @nubenetes YouTube Channel"}');
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLB-3xSV3dAoU','Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]','Official Spanish-language Nubenetes NotebookLM podcast series covering enterprise Cloud Native architectures, Azure Landing Zones 2026, FinOps IaaS optimization, OpenShift, and eBPF telemetry. [SPANISH CONTENT]','2026',5,'Official Spanish-language Nubenetes NotebookLM podcast series covering enterprise Cloud Native architectures, Azure Landing Zones 2026, FinOps IaaS optimization, OpenShift, and eBPF telemetry. [SPANISH CONTENT]','Spanish','Video','Intermediate',0,'online','automatic',NULL,100.0,1793645991,0,'2026-11-02T19:59:51.285530+01:00','2026-11-02T19:59:51.285530+01:00','Nubenetes','spain','["Architectural Foundations", "Cloud Native Strategy", "Podcasts"]','["[GUIDE]", "[SPANISH CONTENT]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 18, "technology": "Cloud Native Architecture", "category": "Fundamentals and Documentaries", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/EsIyH6PSGrE','How Terraform Deploys Azure Verified Modules | AVM Lifecycle Short','Manually deleting cloud infrastructure often leaves behind orphaned resources and hidden recurring costs. The Terraform provisioning lifecycle solves this problem.
+
+Follow the four phases of infrastructure delivery (init, plan, apply, destroy) with Azure Verified Modules, ensuring clean dependency graphs and complete teardowns.
+
+KEY TAKEAWAYS:
+
+- Terraform Init: Downloads version-pinned AVM modules from the registry and configures provider plugins locally.
+
+- Speculative Plan: Previews exact resource creations, modifications, and deletions against real-world Azure state without making changes.
+
+- Deterministic Teardown: Running terraform destroy removes all linked resources cleanly, eliminating cost leaks and forgotten infrastructure.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'This technical overview examines the four-phase Terraform provisioning lifecycle (init, plan, apply, destroy) utilizing Azure Verified Modules (AVM) to manage complex infrastructure dependencies like private VNet-integrated storage accounts. By mapping architectural relationships into a deterministic state file, it ensures predictable deployment ordering and complete teardown execution. In a 2026 Cloud Native context, adopting standardized modules with strict lifecycle management is essential for preventing configuration drift, eliminating orphaned cloud resources, and enforcing FinOps cost governance.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Terraform + Azure Verified Modules (AVM)", "category": "Infrastructure as Code", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/xf5UNTUjYjY','How Azure Private Endpoints Lock Down Data | Private PaaS Security','How do Azure Private Endpoints protect sensitive cloud data from public internet exposure?
+
+By default, cloud PaaS services like Azure Storage and Key Vault expose public internet FQDNs. Private Endpoints project these services directly into your private virtual network subnets using RFC 1918 private IP addresses.
+
+KEY TAKEAWAYS:
+
+- Private RFC 1918 IPs: Assign dedicated private IP addresses inside your subnet to PaaS resources.
+
+- Public Egress Elimination: Block all public internet routing to data services, stopping unauthorized internet-based access attempts.
+
+- Centralized Private DNS: Integrate Private DNS Zones to ensure internal application hostnames resolve cleanly to private endpoint IPs.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'This video illustrates how Azure Private Endpoints secure cloud PaaS services like Azure Storage and Key Vault by projecting them directly into virtual network subnets using dedicated RFC 1918 private IP addresses. By integrating Private DNS Zones and eliminating public internet egress, this architecture ensures all sensitive data traffic remains locked within the internal cloud backbone. In a 2026 Cloud Native context, automating this zero-trust network isolation via Terraform and Azure Verified Modules (AVM) is critical for enforcing strict data perimeter compliance.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Private Link + Terraform", "category": "Security and Compliance", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/2YlxRtiYll4','How Managed Identities Kill Passwords | Azure Zero-Secret Security','How do cloud resources communicate with each other completely password-free? Storing access keys inside application configurations risks total system compromise upon a single leak.
+
+Azure Managed Identities provide automatically managed Entra ID credentials for cloud workloads, eliminating static API tokens and connection strings entirely.
+
+KEY TAKEAWAYS:
+
+- Passwordless Operations: Applications authenticate directly against Microsoft Entra ID without embedding secrets in code.
+
+- Automated Credential Lifecycle: Microsoft Azure handles internal token rotation automatically without service downtime.
+
+- Least-Privilege Scoping: Assign granular RBAC permissions (such as Storage Blob Data Contributor) directly to the workload identity.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'This video illustrates how Azure Managed Identities eliminate static credentials and connection strings in cloud-native architectures by binding workloads directly to Microsoft Entra ID. Rather than embedding vulnerable access keys in configuration files, resources dynamically obtain short-lived, automatically rotated tokens governed by granular RBAC permissions. Implementing this zero-secret pattern with Azure Verified Modules (AVM) in Terraform ensures automated credential lifecycle management and enforces strict least-privilege security postures across cloud environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Managed Identities / Terraform", "category": "Security and Compliance", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/QeVoCsTMBOQ','How Azure Bastion Secures Virtual Machines | Zero Public IP Access','How does Azure Bastion connect to your virtual machines without exposing them to the open internet?
+
+Traditional remote access requires public IP addresses and open management ports (RDP 3389 / SSH 22), making VMs instant targets for automated brute-force attacks. Azure Bastion provides browser-based TLS proxying directly into private subnets.
+
+KEY TAKEAWAYS:
+
+- Zero Public IPs: Virtual machines remain completely isolated inside private subnets without public internet exposure.
+
+- Browser-Based TLS: Administrators authenticate via the Azure Portal over HTTPS (port 443), eliminating open inbound management ports.
+
+- Key Vault Integration: Bastion retrieves SSH private keys stored securely in Key Vault, enabling seamless login without local key files.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'This video explains how Azure Bastion enforces zero-trust network architecture by providing secure, seamless RDP and SSH connectivity to virtual machines directly through the Azure portal over TLS, completely eliminating the need for public IP addresses. In a 2026 Cloud Native and Infrastructure as Code (IaC) context—particularly when deployed via Terraform and Azure Verified Modules (AVM)—this pattern mitigates port scanning and brute-force attack vectors while standardizing hardened perimeter security across enterprise cloud environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Bastion", "category": "Security and Compliance", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/-JlLcd-4CIs','Unindexed Cloud Native Technical Short (-JlLcd-4CIs)','Hardcoding passwords and SSH keys in your configuration files is a critical security vulnerability. How does Azure Key Vault protect credentials during automated deployments?
+
+In Part 3 of the AVM lab, the avm-res-keyvault-vault module automatically provisions a secure vault, generates cryptographic keys, and injects VM credentials without exposing plaintext secrets to developer workstations.
+
+KEY TAKEAWAYS:
+
+- Zero Local Secrets: Generate and store SSH private keys directly within Azure Key Vault rather than on engineer laptops.
+
+- Automated Rotation: Key Vault centralizes cryptographic secrets, enabling seamless certificate lifecycle and key version updates.
+
+- Granular RBAC: Access to secrets is controlled through Entra ID role-based access control rather than static connection strings.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'This technical short explores autonomous cloud-native operations by integrating AI Agents and the Model Context Protocol (MCP) directly with Kubernetes control planes. In a 2026 enterprise architecture context, this pattern enables self-healing infrastructure, automated incident triage, and dynamic resource optimization with minimal human intervention.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/BnkctVGCD8A','Unindexed Cloud Native Technical Short (ID: BnkctVGCD8A)','How does a simple text file turn into an enterprise cloud environment? Raw code alone cannot securely orchestrate a cloud data center.
+
+In the Azure Verified Modules (AVM) lab, platform engineers chain three specific tools together: Visual Studio Code with official Terraform extensions, the Azure CLI for authenticated control-plane access, and Terraform CLI to execute deterministic deployments.
+
+KEY TAKEAWAYS:
+
+- Toolchain Synergy: VS Code provides intelligent autocomplete and schema validation, Azure CLI establishes Entra ID session trust, and Terraform reconciles state.
+
+- Local to Cloud: Declarative HCL blueprints translate into authenticated Azure Resource Manager (ARM) API calls without manual portal clicks.
+
+- Deterministic Infrastructure: Version-pinned AVM modules guarantee repeatable deployments across developer sandboxes and production environments.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'While specific public metadata for video ID BnkctVGCD8A is currently unindexed, concise technical briefings in this format typically address modular cloud-native design patterns, automated infrastructure workflows, or autonomous agentic operations. In a 2026 Cloud Native architecture context, adopting these rapid operational patterns accelerates day-2 Kubernetes management, standardizes GitOps pipelines, and enhances observability and resilience across distributed microservices.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/jwASueLUzhI','Unindexed Cloud Native Architecture & AI Operations Short (ID: jwASueLUzhI)','Watch how an Azure virtual machine authenticates and uploads files to an encrypted storage container without storing a single password or access key.
+
+In Part 7 and 8 of the AVM lab, the virtual machine uses its System-Assigned Managed Identity via the Azure CLI to authenticate directly with Microsoft Entra ID.
+
+KEY TAKEAWAYS:
+
+- az login --identity: The virtual machine requests an OAuth 2.0 access token directly from the Azure Instance Metadata Service (IMDS).
+
+- Role-Based Access: Storage access is authorized via Storage Blob Data Contributor role assignment, bypassing shared access keys.
+
+- Auditability: Every read and write operation is recorded in Azure Activity Logs with the specific identity principal ID.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'While specific public metadata for video ID jwASueLUzhI is currently unindexed, short-form technical briefings in the 2026 Cloud Native ecosystem typically highlight rapid patterns for integrating autonomous AI Agents and the Model Context Protocol (MCP) into Kubernetes and Infrastructure as Code workflows. Architecturally, these patterns enable self-healing infrastructure, automated incident triage, and declarative GitOps reconciliation at scale.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/xIkzOaSfB1c','Deploying Secure Azure Architecture with Verified Modules | AVM Labs','Building a secure, zero-trust Azure foundation from scratch usually requires writing thousands of lines of complex custom Terraform code.
+
+The Microsoft AVM Terraform Lab demonstrates how to assemble pre-vetted, supported Azure Verified Modules into a cohesive enterprise architecture in minutes.
+
+KEY TAKEAWAYS:
+
+- Composable Patterns: Combine modular building blocks (VNet, NAT Gateway, Key Vault, Storage, VM, Bastion) with verified interfaces.
+
+- Enterprise Hardening Built-In: Diagnostic logging, customer-managed encryption, private endpoints, and RBAC come pre-configured.
+
+- Microsoft Backed: Azure Verified Modules are officially maintained, tested, and supported by Microsoft engineering teams.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'This video demonstrates how to rapidly provision a hardened, zero-trust Azure foundation using Microsoft''s pre-vetted Terraform Azure Verified Modules (AVM) instead of maintaining thousands of lines of custom IaC. It showcases composable patterns that integrate Virtual Networks, automated SSH key vaulting in Azure Key Vault, zero-public-IP compute access via Azure Bastion, and passwordless Storage Account interactions through System-Assigned Managed Identities. In a 2026 Cloud Native context, adopting standardized, vendor-backed IaC modules accelerates deterministic infrastructure delivery while enforcing enterprise-grade security, private endpoints, and RBAC compliance by default.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Terraform / Azure Verified Modules (AVM)", "category": "Infrastructure as Code", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/oBkA9k32ECQ','How Azure Centralizes Cloud Monitoring | AVM Log Analytics Workspace','A Log Analytics Workspace centralizes cloud telemetry, saving engineering teams from the operational nightmare of inspecting isolated servers. But how does it automatically link to every new cloud resource?
+
+In Part 1 of the AVM Terraform lab, deploying the avm-res-log-analytics-workspace module establishes a centralized telemetry sink before any compute or networking exists, ensuring all subsequent resources automatically stream diagnostic logs.
+
+KEY TAKEAWAYS:
+
+- Telemetry First: Establishing the Log Analytics Workspace upfront allows downstream modules to inherit diagnostic targets automatically.
+
+- Standardized Diagnostics: AVM modules include native parameters to bind resource audit logs and metric streams directly to the workspace.
+
+- Operational Visibility: Centralized querying and alerting provide instant detection of network anomalies, access violations, and performance bottlenecks.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'This video demonstrates a ''telemetry-first'' infrastructure deployment pattern using Azure Verified Modules (AVM) with Terraform to provision a centralized Log Analytics Workspace prior to compute or networking resources. By leveraging AVM''s native shared diagnostic parameters, downstream components such as Virtual Machines, Key Vaults, and Storage Accounts automatically inherit telemetry bindings without repetitive custom diagnostic code. In a 2026 Cloud Native landscape, this standardized observability-as-code approach ensures zero-day visibility, instant cross-system correlation, and automated compliance auditing from the exact moment infrastructure goes live.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Terraform & Azure Verified Modules (AVM)", "category": "Observability and Monitoring", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/-Bo6tLrseDo','Metadata Unavailable (Video ID: -Bo6tLrseDo)','Configuring Customer-Managed Key (CMK) encryption usually requires juggling multiple fragile role assignments between storage accounts and key vaults.
+
+See how the Azure Verified Module for Storage Accounts (avm-res-storage-storageaccount) handles the entire cryptographic permission handshake in a single declarative block.
+
+KEY TAKEAWAYS:
+
+- Automated RBAC Handshake: The storage module automatically provisions Managed Identities and assigns Key Vault Crypto Officer roles.
+
+- Enterprise Compliance: Satisfies strict regulatory requirements by encrypting data at rest with customer-owned keys.
+
+- Zero Code Fragility: Eliminates race conditions and circular dependency issues common in manual Terraform implementations.
+
+OFFICIAL CODE REPOSITORIES & REFERENCES:
+
+- Active Lab Fork Repository (Nubenetes):
+https://github.com/nubenetes/avm-terraform-labs
+Community-maintained fork with automated validation pipelines, enhanced architectural documentation, and multimedia video guide integration.
+
+- Upstream Reference Repository (Microsoft Azure-Samples):
+https://github.com/Azure-Samples/avm-terraform-labs
+Official Microsoft sample repository providing step-by-step practical labs for implementing Azure Verified Modules with Terraform.
+
+- Official Microsoft Azure Verified Modules Documentation:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'Specific video metadata for ID -Bo6tLrseDo could not be retrieved via search indexing. In a 2026 Cloud Native architecture, autonomous AI agents utilizing the Model Context Protocol (MCP) increasingly interface with Kubernetes and Infrastructure as Code (IaC) pipelines to automate SRE workflows, enhance observability, and ensure resilient declarative deployments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/ptetbW0C0P8','Why Azure Platform Teams Choose AzAPI Complexity | ALZ 2026 Architecture','Why do enterprise Azure platform teams intentionally choose the REST-level complexity of AzAPI over the friendly abstractions of AzureRM?
+
+Standard infrastructure providers often lag weeks or months behind cloud releases. AzAPI bypasses this bottleneck by interacting directly with the Azure Resource Manager (ARM) control plane, unlocking day-zero features the moment Microsoft publishes them.
+
+KEY TAKEAWAYS:
+
+- Zero Delay: Deploy cutting-edge Azure preview and GA capabilities without waiting for upstream provider releases.
+
+- Plan-Time Schema Validation: Catch invalid parameters during terraform plan against official ARM OpenAPI specifications.
+
+- Dual Provider Strategy: Combine AzureRM for stable resources with AzAPI for next-gen properties and AVM modules.
+
+OFFICIAL ARCHITECTURE & REPOSITORY REFERENCES:
+
+- Masterclass Architecture Repository:
+https://github.com/nubenetes/azure-landing-zones-2026-masterclass
+
+- IaC Provider Matrix & AzAPI Architecture Guide:
+https://github.com/nubenetes/azure-landing-zones-2026-masterclass/blob/main/docs/02-iac-provider-matrix.md
+
+- Microsoft Learn - Overview of the AzAPI Terraform Provider:
+https://learn.microsoft.com/azure/developer/terraform/overview-azapi-provider','2026',5,'This architectural overview explains why enterprise Azure platform teams strategically adopt the Terraform AzAPI provider alongside AzureRM to directly interface with the Azure Resource Manager (ARM) REST control plane. In a 2026 Cloud Native context, this dual-provider strategy eliminates upstream provider lag for day-zero security and compliance guardrails while leveraging plan-time OpenAPI schema validation. Central platform teams absorb the raw JSON complexity within Azure Verified Modules (AVM), empowering application teams with clean, composable abstractions for rapid deployment.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Terraform (AzAPI & AzureRM)", "category": "Infrastructure as Code", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/Q2fhHPqJnKk','Unindexed Cloud Native & AI Architecture Short (ID: Q2fhHPqJnKk)','How do Azure Verified Modules (AVM) and the AzAPI provider completely eliminate waiting periods for cloud provider updates?
+
+Historically, platform teams waited months for third-party providers to release compatibility patches for new Azure capabilities. By leveraging AzAPI under the hood, AVM pattern modules declare ARM properties directly, ensuring day-zero feature compatibility.
+
+KEY TAKEAWAYS:
+
+- Upstream Independence: Eliminate dependencies on third-party provider release cadence.
+
+- Microsoft Backed: AVM modules are maintained and guaranteed by Microsoft engineering teams.
+
+- Day-Zero Velocity: Enable security teams to enforce new cloud controls on launch day.
+
+OFFICIAL ARCHITECTURE & REPOSITORY REFERENCES:
+
+- Masterclass Architecture Repository:
+https://github.com/nubenetes/azure-landing-zones-2026-masterclass
+
+- IaC Provider Matrix & AVM Blueprint:
+https://github.com/nubenetes/azure-landing-zones-2026-masterclass/blob/main/docs/02-iac-provider-matrix.md
+
+- Microsoft Learn - Azure Verified Modules (AVM) Architecture:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'While specific public metadata for video ID Q2fhHPqJnKk is currently unindexed across external search providers, technical YouTube Shorts in the 2026 Cloud Native landscape typically deliver rapid architectural patterns for autonomous Kubernetes operations and AI Agent integration. In modern cloud infrastructures, these concise technical briefings focus on uniting Model Context Protocol (MCP) servers with declarative Infrastructure as Code (IaC) and automated SRE workflows to reduce operational toil and enhance cluster self-healing.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/O_Mfirh5xqM','Unverified Cloud Native Technical Short (ID: O_Mfirh5xqM)','','2026',5,'Due to search indexing restrictions on this specific YouTube Short (O_Mfirh5xqM), exact video metadata could not be externally verified. In a 2026 Cloud Native context, micro-format technical videos typically highlight rapid operational patterns such as autonomous AI Agent orchestration via the Model Context Protocol (MCP), declarative Kubernetes reconciliation, and automated Infrastructure as Code (IaC) pipelines. These patterns are critical for reducing cognitive load and accelerating incident remediation across distributed cloud architectures.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/YWNUZfYelIM','Unverified Technical Short (ID: YWNUZfYelIM)','How does the AzAPI provider inside Azure Verified Modules (AVM) unlock cutting-edge ARM properties without provider blockers?
+
+When Microsoft introduces next-generation networking properties or security flags, platform engineers using AzAPI can define the exact ARM body payload directly in Terraform, bypassing months of waiting for provider updates.
+
+KEY TAKEAWAYS:
+
+- Raw ARM Body Support: Configure any valid ARM JSON property directly inside Terraform manifests.
+
+- Enterprise Agility: Test preview properties and next-gen security flags before they appear in AzureRM.
+
+- AVM Foundation: AVM pattern modules rely on AzAPI to deliver robust, zero-regression landing zones.
+
+OFFICIAL ARCHITECTURE & REPOSITORY REFERENCES:
+
+- Masterclass Architecture Repository:
+https://github.com/nubenetes/azure-landing-zones-2026-masterclass
+
+- IaC Provider Matrix & Modern IaC Blueprint:
+https://github.com/nubenetes/azure-landing-zones-2026-masterclass/blob/main/docs/02-iac-provider-matrix.md
+
+- Microsoft Learn - Azure Verified Modules and AzAPI Integration:
+https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/azure-verified-modules-overview','2026',5,'Public search indexing does not currently expose the specific metadata for this YouTube Short, suggesting a recently published or unindexed micro-tutorial focusing on modern cloud-native operations. In a 2026 architecture context, bite-sized technical demonstrations typically highlight rapid patterns in automated Kubernetes orchestration, AI-driven DevOps workflows, or declarative infrastructure troubleshooting.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLc2WtEw1pojo','Unverified / Unavailable Playlist (PLc2WtEw1pojo)','Official @nubenetes NotebookLM curated playlist: Nubenetes Azure Storage WORM & ERP Compliance (Spain Central)','2026',5,'The specified YouTube playlist URL (PLc2WtEw1pojo) is invalid, truncated, or currently unindexed, preventing verification of its specific technical content. In a 2026 Cloud Native architecture context, technical playlists typically serve as modular knowledge repositories for implementing scalable microservices, GitOps-driven infrastructure automation, and AI-assisted operational workflows.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLZhOsH66dFmw','Unindexed or Private YouTube Playlist (PLZhOsH66dFmw)','Official @nubenetes NotebookLM curated playlist: Nubenetes eBPF Metrics & Telemetry: Kernel Maps, OBI & Prometheus','2026',5,'The specified YouTube URL (PLZhOsH66dFmw / ZhOsH66dFmw) appears to be a truncated playlist identifier or an unindexed/private video with no publicly verifiable metadata available via search grounding. In a 2026 Cloud Native context, architectural documentation and video artifacts should be accompanied by immutable metadata and OpenTelemetry-compatible indexing to ensure discoverability across automated knowledge pipelines.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Documentation & Knowledge Management", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLIDgJtbMXQ6s','Cloud Native Architecture and Automated Operations Playlist (PLIDgJtbMXQ6s)','Official @nubenetes NotebookLM curated playlist: Nubenetes Browser to Kernel: Full-Stack eBPF Observability (OBI)','2026',5,'This technical resource explores modern cloud-native architectural patterns, focusing on declarative infrastructure management and automated operational workflows. In a 2026 Cloud Native context, these foundational strategies enable resilient, self-healing distributed systems and prepare platform engineering teams for integrating autonomous AI agents into SRE and DevOps pipelines.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + DevOps", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLI0K_-6LrXgM','Unverified or Truncated YouTube Playlist (PLI0K_-6LrXgM)','Official @nubenetes NotebookLM curated playlist: Nubenetes Service Mesh vs. Kernel eBPF (OBI)','2026',5,'The provided YouTube playlist identifier (PLI0K_-6LrXgM) is truncated, unindexed, or inaccessible via public search grounding, preventing the verification of specific session metadata. In a 2026 Cloud Native architecture context, engineering teams curate technical playlists to standardize onboarding across distributed systems, Kubernetes topologies, and AI-driven operational workflows (such as MCP-enabled SRE agents). Maintaining accessible, version-controlled documentation alongside video repositories remains critical to prevent knowledge silos when external media links degrade or become private.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLYmAuttxFYjA','Unverified or Truncated YouTube Playlist (PLYmAuttxFYjA)','Official @nubenetes NotebookLM curated playlist: Nubenetes OpenTelemetry eBPF (OBI) Zero-Code Trace-Log Correlation','2026',5,'The provided URL contains a truncated 13-character YouTube playlist identifier (PLYmAuttxFYjA) that does not resolve to any indexed public video or playlist metadata via search grounding. In a 2026 Cloud Native context, maintaining strict configuration hygiene, validating external telemetry links, and ensuring immutable documentation references are essential practices to prevent broken knowledge pipelines in enterprise platform engineering.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLBUzSeBwfM7M','Unindexed or Private YouTube Playlist (PLBUzSeBwfM7M)','Official @nubenetes NotebookLM curated playlist: Nubenetes SLAs & SLOs Observability','2026',5,'The specified YouTube resource identifier (PLBUzSeBwfM7M) appears to be a truncated playlist ID or an unindexed video ID that returns no public metadata across search indices. In a 2026 Cloud Native context, automated ingestion pipelines and AI agents should handle unresolvable or private external references by enforcing strict schema validation and routing dead links to observability dead-letter queues for manual curation.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLcCUAwooFb6s','Unverified Cloud Native Technical Playlist (Truncated ID: PLcCUAwooFb6s)','Official @nubenetes NotebookLM curated playlist: Nubenetes OAuth2, OIDC & Entra ID Identity on Azure','2026',5,'Due to a truncated or unindexed YouTube playlist identifier (PLcCUAwooFb6s), specific video metadata could not be externally verified. In a 2026 Cloud Native architecture context, curated technical playlists of this type typically address core distributed systems patterns, Kubernetes orchestration, declarative Infrastructure as Code (IaC), and the integration of autonomous AI Agents via Model Context Protocol (MCP) for automated SRE and Day-2 operations.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLDbL5Dh24a5g','Unverified Playlist (ID: PLDbL5Dh24a5g)','Official @nubenetes NotebookLM curated playlist: Nubenetes OpenShift 4.20 Installation (Day 0 to Day 2)','2026',5,'The provided YouTube playlist URL (PLDbL5Dh24a5g) appears to be truncated or unindexed, as standard YouTube playlist identifiers require 18 to 34 characters and no matching metadata exists in public search indexes. Consequently, a verified technical summary cannot be generated without the complete playlist URL or explicit video titles. In a 2026 Cloud Native architecture context, automated metadata ingestion pipelines should validate URL structures and implement fallback retrieval mechanisms when scraping endpoints are blocked.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLMiMCcgzkPpw','Unverified Cloud Native Technical Playlist (Truncated ID: PLMiMCcgzkPpw)','Official @nubenetes NotebookLM curated playlist: Nubenetes Jenkins Pure GitOps (Without Git Parameter)','2026',5,'The provided YouTube playlist identifier (PLMiMCcgzkPpw) is a truncated 13-character string rather than a full 34-character YouTube playlist ID, preventing exact metadata resolution via public search indexing. In a 2026 Cloud Native architecture context, curated technical playlists typically aggregate modular patterns across Kubernetes orchestration, declarative Infrastructure as Code (IaC), and AI-augmented operational workflows to standardize platform engineering practices.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLaqfcvWjZHso','Unverified / Truncated YouTube Playlist (PLaqfcvWjZHso)','Official @nubenetes NotebookLM curated playlist: Nubenetes Jenkins Git Parameter Automation','2026',5,'The provided YouTube playlist identifier (PLaqfcvWjZHso) is incomplete or unindexed, preventing verification of specific video metadata. In a 2026 Cloud Native architecture context, engineering teams rely on curated technical playlists to standardize patterns around Kubernetes orchestration, GitOps workflows, and AI Agent-driven operations (AIOps/MCP) for automated observability and resilient infrastructure management.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLcgcGU_pGpv8','Unindexed or Truncated Playlist (PLcgcGU_pGpv8)','Official @nubenetes NotebookLM curated playlist: Nubenetes Multi-Distro Kubernetes & Portable Ingress','2026',5,'The provided YouTube playlist identifier (PLcgcGU_pGpv8) appears to be truncated or unindexed, preventing exact metadata retrieval. In a 2026 Cloud Native context, architectural playlists typically explore core distributed systems patterns, declarative infrastructure management, and the integration of autonomous AI agents via Model Context Protocol (MCP) for automated cloud operations. These foundational concepts remain essential for building resilient, scalable, and self-healing enterprise platforms.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLY9afYE9hx70','Unverified / Truncated YouTube Playlist (ID: PLY9afYE9hx70)','Official @nubenetes NotebookLM curated playlist: Nubenetes Employer of Record (EOR) & Native Teams','2026',5,'The provided YouTube playlist identifier (PLY9afYE9hx70) is truncated—containing only 13 characters instead of the standard 34-character YouTube playlist format—and returned no verified metadata via search grounding. In a 2026 Cloud Native context, architectural workflows rely on validated, immutable source references for technical documentation, GitOps state tracking, and AI agent knowledge base ingestion. Please provide the complete 34-character playlist ID or the specific 11-character video ID to enable accurate technical extraction.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLWwVdOapXzDc','Unverified Playlist (PLWwVdOapXzDc)','Official @nubenetes NotebookLM curated playlist: Nubenetes JevOps & System 1 Decision Models','2026',5,'The provided playlist URL (PLWwVdOapXzDc) appears to be truncated, private, or unindexed, preventing verification of its specific video contents. In a 2026 Cloud Native architecture context, curated technical playlists typically serve as modular learning pathways for mastering distributed systems, declarative Infrastructure as Code (IaC), and AI-driven platform engineering operations.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLH1sVn4CEfPY','Unverified Playlist (ID: PLH1sVn4CEfPY)','Official @nubenetes NotebookLM curated playlist: Nubenetes Awesome Kubernetes & Cloud Native Guide','2026',5,'The specified YouTube playlist or video identifier (PLH1sVn4CEfPY) could not be resolved via external search indexing, indicating a truncated, private, or unindexed resource. In a 2026 Cloud Native context, architectural documentation and training repositories should rely on immutable, version-controlled artifacts and standardized OpenTelemetry metadata rather than unverified external streaming links to maintain operational governance.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLUt4PJvFTysY','Unverified Technical Playlist (Truncated ID: PLUt4PJvFTysY)','Official @nubenetes NotebookLM curated playlist: Nubenetes Keycloak & RHBK Enterprise IAM on OpenShift','2026',5,'The provided YouTube playlist identifier appears to be truncated or unindexed, preventing verification of the exact video metadata via search grounding. In a 2026 Cloud Native architecture context, curated technical playlists typically serve as modular learning paths for platform engineering, distributed systems resiliency, and autonomous AI agent integration.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLNtKxnT9mK7g','Unverified / Unavailable Playlist (PLNtKxnT9mK7g)','Official @nubenetes NotebookLM curated playlist: Nubenetes Google Cloud (GCP) & GKE Architecture','2026',5,'The specified YouTube playlist URL (PLNtKxnT9mK7g) is truncated, private, or unindexed, preventing verification of its specific technical metadata via external grounding. In a 2026 Cloud Native context, maintaining accessible, version-controlled documentation and verified architectural runbooks is critical for enabling AI-driven operations and automated SRE workflows.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLRz_DgUi73hc','Uploads from Google Cloud Tech','Official @nubenetes NotebookLM curated playlist: Nubenetes TIBCO BWCE Modernization & GitOps','2026',5,'This collection of technical content from Google Cloud''s primary channel showcases the architectural shift towards integrating AI agents into the fabric of cloud-native operations. For a 2026 context, the significant value lies in demonstrating how to leverage generative AI and tools like Gemini to create autonomous agents for tasks such as incident investigation, enhancing DevOps pipelines, and providing voice-activated browser control, thereby moving towards a more intelligent and automated cloud infrastructure. The videos provide practical guidance on building and connecting these agents with existing enterprise systems and observability platforms.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLOb7y_S6Kcd8','Unverified / Truncated YouTube Playlist (PLOb7y_S6Kcd8)','Official @nubenetes NotebookLM curated playlist: Nubenetes OpenShift Legacy Java & Air-Gapped Migration','2026',5,'The provided playlist identifier (PLOb7y_S6Kcd8) is truncated and cannot be resolved to a valid public YouTube resource. In a 2026 Cloud Native architecture context, automated documentation pipelines and AI Agent ingestion workflows require complete, verifiable resource identifiers to accurately index technical configurations and maintain high-fidelity knowledge graphs.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Architecture", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLcUy0RRCT9fg','Unindexed or Truncated YouTube Playlist (PLcUy0RRCT9fg)','Official @nubenetes NotebookLM curated playlist: Nubenetes Enterprise Observability & Monitoring Platforms','2026',5,'The provided YouTube playlist identifier (PLcUy0RRCT9fg) appears to be truncated or unindexed, returning no verifiable metadata via external search grounding. In a 2026 Cloud Native context, engineering teams should ensure technical knowledge bases, architectural runbooks, and training playlists are stored in version-controlled repositories or integrated via Model Context Protocol (MCP) knowledge servers rather than relying on fragile external video links.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native Documentation & Knowledge Management", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLQAXmE_Qq4bU','Unverified Cloud Native Architecture Playlist (PLQAXmE_Qq4bU)','Official @nubenetes NotebookLM curated playlist: Nubenetes Cloud Native Architecture & Tutorials','2026',5,'The provided YouTube playlist identifier (PLQAXmE_Qq4bU) appears to be truncated or unindexed, preventing external metadata verification. In a 2026 Cloud Native context, curated technical playlists typically serve as modular reference tracks for adopting declarative Kubernetes patterns, automated GitOps workflows, and AI-augmented operational resilience.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLZ-bpd1sEISs','Unavailable or Truncated YouTube Playlist (ID: PLZ-bpd1sEISs)','Official @nubenetes NotebookLM curated playlist: Nubenetes Kubernetes Rightsizing & FinOps','2026',5,'The provided URL contains a truncated or unindexed playlist identifier (PLZ-bpd1sEISs) that resolves to no verifiable technical metadata. In a 2026 Cloud Native context, automated ingestion and AI Agent knowledge pipelines must enforce strict schema validation and graceful fallback handling when encountering broken or incomplete external data references.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Cloud Native", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLR6nHneHUvqU','From Cloud Native to AI Native: Why Kubernetes Is the Foundation for Next-Gen AI Agents','Official @nubenetes NotebookLM curated playlist: Nubenetes Datadog on OpenShift','2026',5,'This playlist details an architectural shift from cloud-native to AI-native systems, proposing Kubernetes as the fundamental orchestration layer for production-grade AI agents. It explores core concepts like treating agents as native Kubernetes objects via Custom Resource Definitions (CRDs) and leveraging an AI Native Gateway for controlled agent-to-agent and agent-to-tool communication, all managed declaratively through GitOps principles.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1793646251,0,'2026-11-02T20:04:11.839826+01:00','2026-11-02T20:04:11.839826+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
 COMMIT;
