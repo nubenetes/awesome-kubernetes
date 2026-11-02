@@ -285,8 +285,44 @@ def generate_v2_videos():
         '    </div>',
         '  </a>',
         '</div>',
-        ""
+        "",
+        "## Official Nubenetes NotebookLM Video Playlists",
+        "",
+        "Explore our curated AI-synthesized architectural masterclasses and podcasts on the official [**@nubenetes YouTube Channel**](https://www.youtube.com/@nubenetes/playlists):",
+        "",
+        "| Dimension | Curated Playlist | Focus Area |",
+        "| :--- | :--- | :--- |",
+        "| **IaC and Terraform** | [Nubenetes Azure Verified Modules (AVM) Terraform Labs](https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM) | End-to-end Terraform AVM labs and modular patterns |",
+        "| **Cloud Architecture** | [Nubenetes Azure Landing Zones 2026 Blueprint](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) | Enterprise CAF, AVM rebuild, and zero-secret OIDC CI/CD |",
+        "| **FinOps and Cloud Cost** | [Nubenetes Azure Hybrid IaaS FinOps Framework](https://www.youtube.com/playlist?list=PLaNxiRbEBYJ8) | Rightsizing, Premium SSD v2, SQL core masking, and governance |",
+        "| **FinOps and Kubernetes** | [Nubenetes Kubernetes Rightsizing and FinOps](https://www.youtube.com/playlist?list=PLZ-bpd1sEISs) | Container resource optimization and cluster cost efficiency |",
+        "| **eBPF and Observability** | [Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI)](https://www.youtube.com/playlist?list=PLRTV86SuuRbk) | Zero-code kernel telemetry, eBPF maps, and trace-log correlation |",
+        "| **Service Mesh** | [Nubenetes Istio Ambient Mesh and Gateway API on OpenShift](https://www.youtube.com/playlist?list=PLWGYAgXdQh44) | Sidecarless service mesh architecture and Kubernetes Gateway API |",
+        "| **GitOps and CI/CD** | [Nubenetes ArgoCD and GitOps Automation](https://www.youtube.com/playlist?list=PLYbmzkhLGOtI) | Declarative GitOps delivery and Jenkins/ArgoCD automation |",
+        "| **OpenShift and IAM** | [Nubenetes OpenShift 4.20 Installation (Day 0 to Day 2)](https://www.youtube.com/playlist?list=PLDbL5Dh24a5g) | Enterprise OpenShift lifecycle, Keycloak IAM, and OAuth2/OIDC |",
+        "| **Podcasts (EN / ES)** | [Cloud Native Podcasts (English)](https://www.youtube.com/playlist?list=PLBMAtCXWYfZA) · [Podcasts (Español)](https://www.youtube.com/playlist?list=PLB-3xSV3dAoU) | Bilingual NotebookLM audio/video deep-dives across all dimensions |",
     ]
+
+    # Dynamically append any newly discovered @nubenetes playlists from inventory
+    known_playlist_ids = {
+        "PLNKD2Ya-t0zM", "PLCgDGrDt3kNU", "PLaNxiRbEBYJ8", "PLZ-bpd1sEISs",
+        "PLRTV86SuuRbk", "PLWGYAgXdQh44", "PLYbmzkhLGOtI", "PLDbL5Dh24a5g",
+        "PLBMAtCXWYfZA", "PLB-3xSV3dAoU",
+    }
+    for url, entry in inventory.items():
+        if not isinstance(entry, dict):
+            continue
+        if "playlist?list=" in url and (entry.get("company") == "Nubenetes" or "nubenetes" in str(entry.get("source_provenance", "")).lower()):
+            m_pl = re.search(r"[?&]list=([^&#]+)", url)
+            pl_id = m_pl.group(1) if m_pl else ""
+            if pl_id and pl_id not in known_playlist_ids:
+                known_playlist_ids.add(pl_id)
+                dim_label = clean_header(str(entry.get("technology") or entry.get("category") or "Cloud Native"))
+                pl_title = str(entry.get("title") or "Nubenetes Playlist").replace("|", "-")
+                pl_summary = str(entry.get("ai_summary") or entry.get("description") or "").splitlines()[0][:110].replace("|", "-")
+                overview_content.append(f"| **{dim_label}** | [{pl_title}]({url}) | {pl_summary} |")
+
+    overview_content.append("")
     with open(os.path.join(VIDEOS_DIR, "index.md"), "w") as f:
         f.write("\n".join(overview_content))
     print(f"Generated {VIDEOS_DIR}/index.md")

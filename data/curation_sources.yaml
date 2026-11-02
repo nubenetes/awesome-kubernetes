@@ -10,6 +10,7 @@ sources:
       - "kelseyhightower"  # Industry expert
       - "memenetes"        # Community & technical insights
     feeds:
+      - "https://www.youtube.com/feeds/videos.xml?channel_id=UCnrc0CFnNJSG2Kt4Ohdr3UA" # Official @nubenetes YouTube Channel (NotebookLM Deep-Dives)
       - "https://kubernetes.io/feed.xml"
       - "https://www.cncf.io/blog/feed/"
 
@@ -23,6 +24,11 @@ sources:
       - "cantrillio"        # Adrian Cantrill - AWS technical deep-dives
       - "pvergadia"         # Priyanka Vergadia (Cloud Girl) - GCP visual deep-dives
       - "QuinnyPig"        # AWS Billing/FinOps expert
+    feeds:
+      - "https://azure.microsoft.com/en-us/blog/feed/"
+      - "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureToolsBlog"
+      - "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureInfrastructureBlog"
+      - "https://devblogs.microsoft.com/devops/feed/"
 
   - topic: "AI & Agentic Systems"
     accounts:
@@ -75,8 +81,53 @@ sources:
       - "ArgoProj"
       - "fluxcd"
       - "Atlassian"        # Atlassian Engineering / Developer Updates
+      - "antonbabenko"     # Terraform AWS Modules, weekly.tf & Terraform Best Practices
+      - "ned1313"          # Ned Bellavance (Ned in the Cloud) - Terraform & Azure IaC
+      - "opentofuorg"      # OpenTofu Official
+      - "terramateio"      # Terramate IaC Orchestration & Stacks
+      - "gruntwork_io"     # Terragrunt & IaC Automation
+      - "spaceliftio"      # Spacelift IaC CI/CD & TACOS
+      - "crossplane_io"    # Crossplane Cloud Native Control Planes
+      - "envZero"          # env0 IaC Management
+      - "digger_dev"       # Digger Open-Source IaC CI/CD
+      - "infracost"        # FinOps & Cloud Cost Estimates for Terraform in CI/CD
     feeds:
+      - "https://www.hashicorp.com/blog/feed.xml"
+      - "https://opentofu.org/blog/rss.xml"
+      - "https://www.pulumi.com/blog/rss.xml"
+      - "https://nedinthecloud.com/feed/"
+      - "https://mattias.engineer/index.xml"
+      - "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureToolsBlog"
+      - "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureInfrastructureBlog"
+      - "https://devblogs.microsoft.com/devops/feed/"
+      - "https://github.com/hashicorp/terraform/releases.atom"
+      - "https://github.com/opentofu/opentofu/releases.atom"
+      - "https://github.com/hashicorp/terraform-provider-azurerm/releases.atom"
+      - "https://github.com/Azure/terraform-provider-azapi/releases.atom"
+      - "https://github.com/Azure/alz-terraform-accelerator/releases.atom"
+      - "https://github.com/Azure/aztfexport/releases.atom"
+      - "https://github.com/gruntwork-io/terragrunt/releases.atom"
+      - "https://github.com/terramate-io/terramate/releases.atom"
+      - "https://github.com/terraform-linters/tflint/releases.atom"
       - "https://netflixtechblog.com/feed"
       - "https://blog.cloudflare.com/rss/"
       - "https://engineering.fb.com/feed/"
       - "https://aws.amazon.com/blogs/aws/feed/"
+    github_repos_watch:
+      - "hashicorp/terraform"
+      - "opentofu/opentofu"
+      - "Azure/Azure-Verified-Modules"
+      - "Azure/alz-terraform-accelerator"
+      - "Azure/terraform-provider-azapi"
+      - "hashicorp/terraform-provider-azurerm"
+      - "Azure/aztfexport"
+      - "Azure-Samples/avm-terraform-labs"
+      - "terraform-aws-modules/terraform-aws-eks"
+      - "aws-ia/terraform-aws-eks-blueprints"
+      - "GoogleCloudPlatform/cloud-foundation-fabric"
+      - "gruntwork-io/terragrunt"
+      - "terramate-io/terramate"
+      - "diggerhq/digger"
+      - "infracost/infracost"
+      - "terraform-linters/tflint"
+      - "aquasecurity/trivy"

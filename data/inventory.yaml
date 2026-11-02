@@ -35834,40 +35834,52 @@ https://azure.github.io/Azure-Proactive-Resiliency-Library:
   youtube_mosaic: {}
   category: azure
 https://azure.github.io/Azure-Verified-Modules:
-  title: "azure.github.io/Azure-Verified-Modules \U0001F31F"
-  description: ''
-  year: '2024'
-  stars: 0
-  ai_summary: The central documentation portal for Azure Verified Modules (AVM), Microsoft's
-    standardized, validated IaC building blocks. Supports both Bicep and Terraform,
-    guaranteeing reliable, hardened, and highly consistent deployments at enterprise
-    scale.
+  title: Azure Verified Modules (AVM) Official Portal and Specification
+  description: Microsofts unified initiative consolidating official, Microsoft-maintained
+    Bicep and Terraform modules built to Well-Architected Framework (WAF) and Cloud
+    Adoption Framework (CAF) standards. Provides standardized module interfaces for
+    RBAC, Private Endpoints, Diagnostic Settings, Customer-Managed Keys, and Managed
+    Identities across enterprise Azure deployments.
+  year: '2026'
+  stars: 5
+  ai_summary: Microsofts unified initiative consolidating official, Microsoft-maintained
+    Bicep and Terraform modules built to Well-Architected Framework (WAF) and Cloud
+    Adoption Framework (CAF) standards. Provides standardized module interfaces for
+    RBAC, Private Endpoints, Diagnostic Settings, Customer-Managed Keys, and Managed
+    Identities across enterprise Azure deployments.
   language: English
-  resource_type: Documentation
+  resource_type: Official Documentation
   complexity: Intermediate
   is_microservice: false
   status: online
-  addition_method: manual
+  addition_method: automatic
   content_hash: null
-  health_score: null
-  last_checked: null
+  health_score: 100.0
+  last_checked: 1793645367
   needs_ai_refresh: false
   discovered_at: '2024-06-01T00:00:00+02:00'
-  last_ai_eval: null
-  company: null
-  geo_region: null
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
   hierarchy:
-  - Cloud Infrastructure
   - Infrastructure as Code
-  - Azure Verified Modules
+  - Terraform
+  - Azure Verified Modules (AVM)
   tags:
-  - '[COMMUNITY-TOOL]'
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
   v1_locations:
-  - docs/azure.md
+  - docs/terraform.md
+  - docs/iac.md
   v2_locations:
-  - azure.md
+  - terraform.md
+  - iac.md
   youtube_mosaic: {}
-  category: azure
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
 https://azure.github.io/enterprise-azure-policy-as-code:
   title: 'azure.github.io/enterprise-azure-policy-as-code: Enterprise Azure Policy
     as Code Overview'
@@ -195597,48 +195609,53 @@ https://github.com/aquasecurity/starboard:
   gh_activity_checked: '2026-10-25T10:23:34.641435+01:00'
   category: kubernetes-tools
 https://github.com/aquasecurity/trivy:
-  title: trivy
-  description: ''
+  title: 'aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform'
+  description: Industry-standard open-source scanner (superseding tfsec) that detects
+    security misconfigurations, policy violations, and exposed secrets across Terraform
+    HCL, plan files, and modules.
   year: '2026'
   stars: 5
-  ai_summary: Aqua Security's Trivy is an exceptionally fast, highly versatile security
-    scanner for containers, IaC configurations, and software vulnerabilities. Known
-    for its streamlined caching, wide packaging-format support, and outstanding CI
-    integration. It is universally adopted as a de facto container validation tool
-    in secure software pipelines.
-  language: Go
-  resource_type: Tool
+  ai_summary: Industry-standard open-source scanner (superseding tfsec) that detects
+    security misconfigurations, policy violations, and exposed secrets across Terraform
+    HCL, plan files, and modules.
+  language: English
+  resource_type: GitHub Repository
   complexity: Intermediate
-  is_microservice: true
+  is_microservice: false
   status: online
-  addition_method: manual
+  addition_method: automatic
   content_hash: b46c90d466ffbc02632e60e5e9ed5423398d0901907b7641944f45379ed783f8
   health_score: 100.0
-  last_checked: 1779030207
-  needs_ai_refresh: true
+  last_checked: 1793645367
+  needs_ai_refresh: false
   discovered_at: '2026-06-11T14:52:49Z'
-  last_ai_eval: null
-  company: null
-  geo_region: null
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Aqua Security
+  geo_region: global
   hierarchy:
-  - Security
-  - Vulnerability Management
-  - Container Scanning
+  - Infrastructure as Code
+  - Terraform
+  - Security and Compliance
   tags:
   - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[SECURITY]'
+  - '[TERRAFORM]'
   v1_locations:
-  - docs/devsecops.md
+  - docs/terraform.md
   v2_locations:
-  - devsecops.md
+  - terraform.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-11T14:52:49Z'
-  gh_stars: 36431
+  gh_pushed: '2026-11-02'
+  gh_stars: 38914
   gh_open_issues_30d: 280
   gh_open_prs_30d: 0
   gh_community_health: active
   gh_activity_checked: '2026-10-25T10:23:35.413961+01:00'
-  category: devsecops
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
 https://github.com/argilla-io/argilla:
   title: rubrix
   description: ''
@@ -201269,46 +201286,53 @@ https://github.com/bridgecrewio/AirIAM:
   gh_activity_checked: '2026-10-25T10:33:40.918526+01:00'
   category: terraform
 https://github.com/bridgecrewio/checkov:
-  title: "Checkov \U0001F31F"
-  description: ''
+  title: 'bridgecrewio/checkov: Policy-as-Code Static Analysis for Terraform'
+  description: Graph-based static code analysis tool for Infrastructure as Code with
+    over 1,000 built-in CIS, NIST, and cloud security policies for Terraform, Terraform
+    Plan JSON, Bicep, and Kubernetes.
   year: '2026'
   stars: 5
-  ai_summary: Checkov is a static code analysis tool for Infrastructure as Code (IaC)
-    that scans Kubernetes manifests, Helm charts, Terraform, and cloud-provider templates
-    for misconfigurations and security risks, acting as a critical CI/CD gatekeeper.
-  language: Python
-  resource_type: Security Scanner
+  ai_summary: Graph-based static code analysis tool for Infrastructure as Code with
+    over 1,000 built-in CIS, NIST, and cloud security policies for Terraform, Terraform
+    Plan JSON, Bicep, and Kubernetes.
+  language: English
+  resource_type: GitHub Repository
   complexity: Intermediate
   is_microservice: false
   status: online
-  addition_method: manual
+  addition_method: automatic
   content_hash: 98f69842258ecb7f450daae2e657279f373b3e71ba9dbd34c8a40e24dcdd02df
   health_score: 100.0
-  last_checked: 1779032177
-  needs_ai_refresh: true
+  last_checked: 1793645367
+  needs_ai_refresh: false
   discovered_at: '2026-06-11T23:29:10Z'
-  last_ai_eval: null
-  company: null
-  geo_region: null
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Palo Alto Networks
+  geo_region: americas
   hierarchy:
-  - Security & Identity
-  - Compliance & Auditing
-  - Static Code Analysis
+  - Infrastructure as Code
+  - Terraform
+  - Security and Compliance
   tags:
   - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[SECURITY]'
+  - '[TERRAFORM]'
   v1_locations:
-  - docs/kubernetes-tools.md
+  - docs/terraform.md
   v2_locations:
-  - kubernetes-tools.md
+  - terraform.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
-  gh_pushed: '2026-06-11T23:29:10Z'
-  gh_stars: 8790
+  gh_pushed: '2026-11-02'
+  gh_stars: 9127
   gh_open_issues_30d: 214
   gh_open_prs_30d: 0
   gh_community_health: active
   gh_activity_checked: '2026-10-25T10:33:41.724623+01:00'
-  category: kubernetes-tools
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
 https://github.com/bridgecrewio/helm-scanner:
   title: helm-scanner
   description: ''
@@ -706782,3 +706806,1892 @@ https://liveslot168-rtpp.cyou/ls168-fld:
   - yaml.md
   youtube_mosaic: {}
   category: yaml
+https://azure.github.io/Azure-Verified-Modules/indexes/terraform:
+  title: 'Azure Verified Modules: Official Terraform Module Index (Resource, Pattern,
+    and Utility)'
+  description: Live catalog of all published Terraform Azure Verified Modules (avm-res-*
+    resource modules, avm-ptn-* architecture pattern modules, and avm-utl-* utility
+    modules) with support status, registry links, and module owners.
+  year: '2026'
+  stars: 5
+  ai_summary: Live catalog of all published Terraform Azure Verified Modules (avm-res-*
+    resource modules, avm-ptn-* architecture pattern modules, and avm-utl-* utility
+    modules) with support status, registry links, and module owners.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://github.com/Azure/Azure-Verified-Modules:
+  title: 'Azure/Azure-Verified-Modules: Central Governance and Specification Repository'
+  description: Official GitHub repository hosting the Azure Verified Modules (AVM)
+    specifications, module lifecycle rules, governance workflows, and cross-language
+    standards for Terraform and Bicep on Azure.
+  year: '2026'
+  stars: 5
+  ai_summary: Official GitHub repository hosting the Azure Verified Modules (AVM)
+    specifications, module lifecycle rules, governance workflows, and cross-language
+    standards for Terraform and Bicep on Azure.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 586
+  gh_pushed: '2026-10-30'
+  gh_license: MIT
+https://github.com/Azure/alz-terraform-accelerator:
+  title: 'Azure/alz-terraform-accelerator: Azure Landing Zones (ALZ) Terraform Accelerator'
+  description: Official CLI and starter framework that bootstraps production-grade
+    Azure Landing Zones using Terraform Azure Verified Modules (AVM) alongside automated
+    CI/CD pipelines for GitHub Actions (with OIDC Workload Identity Federation) and
+    Azure DevOps Pipelines.
+  year: '2026'
+  stars: 5
+  ai_summary: Official CLI and starter framework that bootstraps production-grade
+    Azure Landing Zones using Terraform Azure Verified Modules (AVM) alongside automated
+    CI/CD pipelines for GitHub Actions (with OIDC Workload Identity Federation) and
+    Azure DevOps Pipelines.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Landing Zones
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GITOPS]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  - docs/iac.md
+  v2_locations:
+  - terraform.md
+  - iac.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 206
+  gh_pushed: '2026-10-27'
+  gh_license: MIT
+https://github.com/Azure/terraform-azurerm-avm-ptn-alz:
+  title: 'Azure/terraform-azurerm-avm-ptn-alz: AVM Pattern Module for Azure Landing
+    Zones'
+  description: Next-generation Azure Verified Module (AVM) pattern module for deploying
+    management group hierarchies, core platform policies, and governance archetypes
+    in Azure Landing Zones, superseding the legacy monolithic CAF Enterprise-Scale
+    module.
+  year: '2026'
+  stars: 5
+  ai_summary: Next-generation Azure Verified Module (AVM) pattern module for deploying
+    management group hierarchies, core platform policies, and governance archetypes
+    in Azure Landing Zones, superseding the legacy monolithic CAF Enterprise-Scale
+    module.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[LEGACY]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 134
+  gh_pushed: '2026-10-28'
+  gh_license: MIT
+https://github.com/Azure/terraform-azurerm-lz-vending:
+  title: 'Azure/terraform-azurerm-lz-vending: AVM Subscription Vending Terraform Module'
+  description: Official Azure Landing Zone subscription vending module for automating
+    subscription creation, management group placement, hub-spoke VNet/Virtual WAN
+    peering, RBAC assignments, and budget alerts via CI/CD pipelines.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Azure Landing Zone subscription vending module for automating
+    subscription creation, management group placement, hub-spoke VNet/Virtual WAN
+    peering, RBAC assignments, and budget alerts via CI/CD pipelines.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 210
+  gh_pushed: '2025-11-28'
+  gh_license: MIT
+https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan:
+  title: 'Azure/terraform-azurerm-avm-ptn-virtualwan: AVM Pattern Module for Azure
+    Virtual WAN'
+  description: Official Azure Verified Module (AVM) pattern module for deploying enterprise
+    global transit hub-and-spoke networks with Azure Virtual WAN, Virtual Hubs, ExpressRoute/VPN
+    gateways, and Azure Firewall routing intent.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Azure Verified Module (AVM) pattern module for deploying enterprise
+    global transit hub-and-spoke networks with Azure Virtual WAN, Virtual Hubs, ExpressRoute/VPN
+    gateways, and Azure Firewall routing intent.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[NETWORKING]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 19
+  gh_pushed: '2026-09-18'
+  gh_license: MIT
+https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster:
+  title: 'Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource
+    Module for AKS'
+  description: Official Azure Verified Module for provisioning production-ready Azure
+    Kubernetes Service (AKS) clusters with private API servers, Entra ID RBAC, Azure
+    CNI Overlay/Cilium, Key Vault CSI, and node pool autoscaling.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Azure Verified Module for provisioning production-ready Azure
+    Kubernetes Service (AKS) clusters with private API servers, Entra ID RBAC, Azure
+    CNI Overlay/Cilium, Key Vault CSI, and node pool autoscaling.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[EBPF]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[KUBERNETES]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 41
+  gh_pushed: '2026-11-02'
+  gh_license: MIT
+https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account:
+  title: 'Azure/terraform-azurerm-avm-res-cognitiveservices-account: AVM Resource
+    Module for Azure OpenAI and AI Services'
+  description: Official Azure Verified Module for deploying Azure OpenAI and Cognitive
+    Services accounts with model deployments, private endpoints, customer-managed
+    encryption keys, and WAF-compliant network isolation.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Azure Verified Module for deploying Azure OpenAI and Cognitive
+    Services accounts with model deployments, private endpoints, customer-managed
+    encryption keys, and WAF-compliant network isolation.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AI]'
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 14
+  gh_pushed: '2026-10-12'
+  gh_license: MIT
+https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault:
+  title: 'Azure/terraform-azurerm-avm-res-keyvault-vault: AVM Resource Module for
+    Azure Key Vault'
+  description: Official Azure Verified Module for Azure Key Vault enforcing RBAC authorization,
+    purge protection, private link endpoints, and diagnostic telemetry.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Azure Verified Module for Azure Key Vault enforcing RBAC authorization,
+    purge protection, private link endpoints, and diagnostic telemetry.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[SECURITY]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 50
+  gh_pushed: '2026-11-02'
+  gh_license: MIT
+https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork:
+  title: 'Azure/terraform-azurerm-avm-res-network-virtualnetwork: AVM Resource Module
+    for Azure Virtual Network'
+  description: Official Azure Verified Module for provisioning Azure Virtual Networks,
+    subnets, NSGs, route tables, peering, and DDoS protection plans.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Azure Verified Module for provisioning Azure Virtual Networks,
+    subnets, NSGs, route tables, peering, and DDoS protection plans.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[NETWORKING]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 11
+  gh_pushed: '2026-11-02'
+  gh_license: MIT
+https://github.com/Azure/avm-terraform-governance:
+  title: 'Azure/avm-terraform-governance: AVM Terraform CI/CD Linting and Governance
+    Engine'
+  description: Official containerized CI/CD testing and policy enforcement toolchain
+    used across all Azure Verified Modules for Terraform, integrating terraform test,
+    tflint, trivy, and Conftest/OPA policy checks.
+  year: '2026'
+  stars: 5
+  ai_summary: Official containerized CI/CD testing and policy enforcement toolchain
+    used across all Azure Verified Modules for Terraform, integrating terraform test,
+    tflint, trivy, and Conftest/OPA policy checks.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - CI/CD and Governance
+  tags:
+  - '[AZURE]'
+  - '[CICD]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 5
+  gh_pushed: '2026-08-11'
+  gh_license: MIT
+https://github.com/Azure/tflint-ruleset-avm:
+  title: 'Azure/tflint-ruleset-avm: TFLint Ruleset for Azure Verified Modules'
+  description: Custom TFLint plugin enforcing Microsoft Azure Verified Modules (AVM)
+    HCL coding standards, interface conventions, and variable specifications in CI
+    pipelines.
+  year: '2026'
+  stars: 5
+  ai_summary: Custom TFLint plugin enforcing Microsoft Azure Verified Modules (AVM)
+    HCL coding standards, interface conventions, and variable specifications in CI
+    pipelines.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Linters and Code Quality
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 16
+  gh_pushed: '2026-10-28'
+  gh_license: MIT
+https://github.com/Azure/terraform-provider-azapi:
+  title: 'Azure/terraform-provider-azapi: Official Azure Resource Manager REST API
+    Provider'
+  description: Official Terraform provider built directly on the Azure ARM REST API,
+    enabling zero-day support for preview Azure features, azapi_update_resource patching,
+    data plane operations, and seamless migration to azurerm.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Terraform provider built directly on the Azure ARM REST API,
+    enabling zero-day support for preview Azure features, azapi_update_resource patching,
+    data plane operations, and seamless migration to azurerm.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Providers
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 245
+  gh_pushed: '2026-11-02'
+  gh_license: MPL-2.0
+https://github.com/hashicorp/terraform-provider-azurerm:
+  title: 'hashicorp/terraform-provider-azurerm: Official Azure Resource Manager Terraform
+    Provider'
+  description: Primary open-source Terraform provider for Microsoft Azure (v4.x+),
+    supporting granular resource lifecycle management, enhanced provider functions,
+    and workload identity authentication.
+  year: '2026'
+  stars: 5
+  ai_summary: Primary open-source Terraform provider for Microsoft Azure (v4.x+),
+    supporting granular resource lifecycle management, enhanced provider functions,
+    and workload identity authentication.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: HashiCorp
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Providers
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 4981
+  gh_pushed: '2026-11-02'
+  gh_license: MPL-2.0
+https://learn.microsoft.com/en-us/azure/developer/terraform/overview:
+  title: 'Microsoft Learn: Terraform on Azure Official Documentation Hub'
+  description: Official Microsoft documentation portal for provisioning, testing,
+    and governing Azure infrastructure with HashiCorp Terraform, AzureRM, AzAPI, and
+    Azure Verified Modules.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Microsoft documentation portal for provisioning, testing, and
+    governing Azure infrastructure with HashiCorp Terraform, AzureRM, AzAPI, and Azure
+    Verified Modules.
+  language: English
+  resource_type: Official Documentation
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Integration
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://github.com/Azure/terraform:
+  title: 'Azure/terraform: Official Microsoft Azure Terraform Hub and Samples'
+  description: Official Microsoft Azure repository coordinating Terraform community
+    tooling, quickstarts, and reference samples on Azure.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Microsoft Azure repository coordinating Terraform community
+    tooling, quickstarts, and reference samples on Azure.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Microsoft
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Integration
+  tags:
+  - '[AZURE]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 928
+  gh_pushed: '2026-11-01'
+  gh_license: MIT
+https://developer.hashicorp.com/terraform/language/stacks:
+  title: 'HashiCorp Terraform Language: Terraform Stacks Overview'
+  description: Official architectural guide and HCL specification for Terraform Stacks
+    (.tfstack.hcl and .tfdeploy.hcl), designed to orchestrate multi-component, multi-region,
+    and multi-environment infrastructure deployments with deferred changes and unified
+    dependency graphs.
+  year: '2025'
+  stars: 5
+  ai_summary: Official architectural guide and HCL specification for Terraform Stacks
+    (.tfstack.hcl and .tfdeploy.hcl), designed to orchestrate multi-component, multi-region,
+    and multi-environment infrastructure deployments with deferred changes and unified
+    dependency graphs.
+  language: English
+  resource_type: Official Documentation
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: HashiCorp
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Terraform Stacks
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://developer.hashicorp.com/terraform/language/resources/ephemeral:
+  title: 'HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments'
+  description: Official specification for Terraform ephemeral blocks, ephemeral input/output
+    variables, and provider write-only attributes (introduced in Terraform 1.10-1.11),
+    guaranteeing that short-lived credentials, tokens, and secrets never persist in
+    .tfstate or plan artifacts.
+  year: '2025'
+  stars: 5
+  ai_summary: Official specification for Terraform ephemeral blocks, ephemeral input/output
+    variables, and provider write-only attributes (introduced in Terraform 1.10-1.11),
+    guaranteeing that short-lived credentials, tokens, and secrets never persist in
+    .tfstate or plan artifacts.
+  language: English
+  resource_type: Official Documentation
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: HashiCorp
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Security and Secrets Management
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[SECURITY]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://developer.hashicorp.com/terraform/language/tests:
+  title: 'HashiCorp Terraform Language: Native Tests and Provider Mocking'
+  description: Authoritative documentation for the native terraform test framework
+    (.tftest.hcl), covering unit and integration testing of Terraform modules, mock_provider
+    and override_resource blocks for cost-free offline unit tests, and assertion blocks.
+  year: '2025'
+  stars: 5
+  ai_summary: Authoritative documentation for the native terraform test framework
+    (.tftest.hcl), covering unit and integration testing of Terraform modules, mock_provider
+    and override_resource blocks for cost-free offline unit tests, and assertion blocks.
+  language: English
+  resource_type: Official Documentation
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: HashiCorp
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Testing and Validation
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://developer.hashicorp.com/terraform/language/import:
+  title: 'HashiCorp Terraform Language: Config-Driven Import Blocks'
+  description: Official reference for declarative import blocks in Terraform (1.5+),
+    enabling teams to bring existing cloud infrastructure under Terraform state management
+    within standard CI/CD plan-and-apply pipelines and automatically generate HCL
+    configuration via -generate-config-out.
+  year: '2025'
+  stars: 5
+  ai_summary: Official reference for declarative import blocks in Terraform (1.5+),
+    enabling teams to bring existing cloud infrastructure under Terraform state management
+    within standard CI/CD plan-and-apply pipelines and automatically generate HCL
+    configuration via -generate-config-out.
+  language: English
+  resource_type: Official Documentation
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: HashiCorp
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - State and Refactoring
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://developer.hashicorp.com/terraform/language/checks:
+  title: 'HashiCorp Terraform Language: Continuous Validation Check Blocks'
+  description: Official documentation on Terraform check blocks and custom conditions
+    (precondition/postcondition), providing non-blocking continuous health assertions
+    and post-deployment infrastructure verification using scoped data sources.
+  year: '2025'
+  stars: 5
+  ai_summary: Official documentation on Terraform check blocks and custom conditions
+    (precondition/postcondition), providing non-blocking continuous health assertions
+    and post-deployment infrastructure verification using scoped data sources.
+  language: English
+  resource_type: Official Documentation
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: HashiCorp
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Testing and Validation
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://github.com/GoogleCloudPlatform/cloud-foundation-fabric:
+  title: 'GoogleCloudPlatform/cloud-foundation-fabric: Modular Terraform Blueprints
+    and Landing Zones for GCP'
+  description: Official Google Cloud repository of production-ready, end-to-end Terraform
+    modules, FAST enterprise landing zone blueprints, GKE patterns, and data/networking
+    reference architectures.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Google Cloud repository of production-ready, end-to-end Terraform
+    modules, FAST enterprise landing zone blueprints, GKE patterns, and data/networking
+    reference architectures.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Google
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Google Cloud Platform
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GCP]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 2125
+  gh_pushed: '2026-11-02'
+  gh_license: Apache-2.0
+https://github.com/aws-ia:
+  title: 'aws-ia: AWS Integration and Automation Official Terraform Modules'
+  description: Official AWS GitHub organization hosting AWS-maintained Terraform modules,
+    EKS Blueprints, VPC/Landing Zone accelerators, and Bedrock/AI reference architectures.
+  year: '2026'
+  stars: 5
+  ai_summary: Official AWS GitHub organization hosting AWS-maintained Terraform modules,
+    EKS Blueprints, VPC/Landing Zone accelerators, and Bedrock/AI reference architectures.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: AWS
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - AWS
+  tags:
+  - '[AWS]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+https://github.com/hashicorp/setup-terraform:
+  title: 'hashicorp/setup-terraform: Official GitHub Action for Terraform CLI'
+  description: Official HashiCorp GitHub Action that sets up the Terraform CLI in
+    GitHub Actions workflows, supporting version pinning, HCP Terraform / Terraform
+    Enterprise credentials configuration, and STDOUT/STDERR wrapper outputs for PR
+    plan comments.
+  year: '2026'
+  stars: 5
+  ai_summary: Official HashiCorp GitHub Action that sets up the Terraform CLI in GitHub
+    Actions workflows, supporting version pinning, HCP Terraform / Terraform Enterprise
+    credentials configuration, and STDOUT/STDERR wrapper outputs for PR plan comments.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: HashiCorp
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - CI/CD and GitHub Actions
+  tags:
+  - '[CICD]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 1596
+  gh_pushed: '2026-10-30'
+  gh_license: MPL-2.0
+https://github.com/diggerhq/digger:
+  title: 'diggerhq/digger: Open-Source IaC CI/CD Orchestrator for GitHub Actions'
+  description: Open-source Terraform and OpenTofu CI/CD orchestration tool that executes
+    plan and apply natively inside existing GitHub Actions or GitLab CI compute runners,
+    featuring PR-level state locking, OIDC cloud authentication, drift detection,
+    and OPA policy checks.
+  year: '2026'
+  stars: 5
+  ai_summary: Open-source Terraform and OpenTofu CI/CD orchestration tool that executes
+    plan and apply natively inside existing GitHub Actions or GitLab CI compute runners,
+    featuring PR-level state locking, OIDC cloud authentication, drift detection,
+    and OPA policy checks.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Digger
+  geo_region: americas
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - CI/CD and GitOps
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[EMERGING]'
+  - '[GITOPS]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  - docs/iac.md
+  v2_locations:
+  - terraform.md
+  - iac.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 5061
+  gh_pushed: '2026-10-30'
+  gh_license: MIT
+https://github.com/runatlantis/atlantis:
+  title: 'runatlantis/atlantis: Terraform Pull Request Automation'
+  description: De facto standard self-hosted GitOps automation daemon for Terraform
+    and OpenTofu that listens to GitHub, GitLab, and Bitbucket webhooks to execute
+    collaborative atlantis plan and atlantis apply workflows directly from Pull Request
+    comments.
+  year: '2026'
+  stars: 5
+  ai_summary: De facto standard self-hosted GitOps automation daemon for Terraform
+    and OpenTofu that listens to GitHub, GitLab, and Bitbucket webhooks to execute
+    collaborative atlantis plan and atlantis apply workflows directly from Pull Request
+    comments.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Cloud Native Computing Foundation
+  geo_region: global
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - CI/CD and GitOps
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GITOPS]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 9341
+  gh_pushed: '2026-11-02'
+  gh_license: Apache-2.0
+https://github.com/antonbabenko/pre-commit-terraform:
+  title: 'antonbabenko/pre-commit-terraform: Git Pre-Commit and CI Hooks for Terraform
+    and OpenTofu'
+  description: Comprehensive collection of Git pre-commit and CI hooks automating
+    terraform fmt, validate, tflint, trivy, checkov, infracost, and terraform-docs
+    across multi-module repositories.
+  year: '2026'
+  stars: 5
+  ai_summary: Comprehensive collection of Git pre-commit and CI hooks automating terraform
+    fmt, validate, tflint, trivy, checkov, infracost, and terraform-docs across multi-module
+    repositories.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Independent
+  geo_region: europe
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Linters and Code Quality
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 3791
+  gh_pushed: '2026-11-01'
+  gh_license: MIT
+https://github.com/terraform-docs/terraform-docs:
+  title: 'terraform-docs/terraform-docs: Automated Documentation Generator for Terraform
+    Modules'
+  description: CLI and GitHub Action utility that automatically generates Markdown,
+    JSON, and YAML documentation tables of inputs, outputs, providers, and requirements
+    from Terraform modules.
+  year: '2026'
+  stars: 5
+  ai_summary: CLI and GitHub Action utility that automatically generates Markdown,
+    JSON, and YAML documentation tables of inputs, outputs, providers, and requirements
+    from Terraform modules.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Independent
+  geo_region: global
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Linters and Code Quality
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 4835
+  gh_pushed: '2026-09-02'
+  gh_license: MIT
+https://github.com/opentofu/opentofu:
+  title: OpenTofu Official GitHub Repository
+  description: The Linux Foundation / CNCF-governed open-source Infrastructure as
+    Code tool forked from Terraform, featuring native client-side state/plan encryption,
+    early variable/locals evaluation in backend and module source blocks, and for_each
+    provider iteration.
+  year: '2026'
+  stars: 5
+  ai_summary: The Linux Foundation / CNCF-governed open-source Infrastructure as Code
+    tool forked from Terraform, featuring native client-side state/plan encryption,
+    early variable/locals evaluation in backend and module source blocks, and for_each
+    provider iteration.
+  language: English
+  resource_type: GitHub Repository
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793645367
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:49:27.646346+01:00'
+  last_ai_eval: '2026-11-02T19:49:27.646346+01:00'
+  company: Linux Foundation
+  geo_region: global
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - OpenTofu
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/terraform.md
+  - docs/iac.md
+  v2_locations:
+  - terraform.md
+  - iac.md
+  youtube_mosaic: {}
+  category: terraform
+  source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 30703
+  gh_pushed: '2026-11-02'
+  gh_license: MPL-2.0
+https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM:
+  title: Nubenetes Azure Verified Modules (AVM) Terraform Labs (Playlist)
+  description: Official Nubenetes NotebookLM architectural series walking through
+    end-to-end Azure Verified Modules (AVM) labs in Terraform, standardized WAF/CAF
+    module interfaces, and enterprise infrastructure delivery on Microsoft Azure.
+  year: '2026'
+  stars: 5
+  ai_summary: Official Nubenetes NotebookLM architectural series walking through end-to-end
+    Azure Verified Modules (AVM) labs in Terraform, standardized WAF/CAF module interfaces,
+    and enterprise infrastructure delivery on Microsoft Azure.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 5
+  technology: Terraform and Azure Verified Modules
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  - '[AZURE]'
+  v1_locations:
+  - docs/terraform.md
+  - docs/iac.md
+  v2_locations:
+  - terraform.md
+  - iac.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLCgDGrDt3kNU:
+  title: 'Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint
+    (Playlist)'
+  description: Curated Nubenetes NotebookLM masterclass playlist covering the 2026
+    Azure Landing Zones (ALZ) architecture rebuild using Terraform Azure Verified
+    Modules (AVM), management group hierarchies, hub-and-spoke/Virtual WAN networking,
+    and zero-secret OIDC CI/CD pipelines.
+  year: '2026'
+  stars: 5
+  ai_summary: Curated Nubenetes NotebookLM masterclass playlist covering the 2026
+    Azure Landing Zones (ALZ) architecture rebuild using Terraform Azure Verified
+    Modules (AVM), management group hierarchies, hub-and-spoke/Virtual WAN networking,
+    and zero-secret OIDC CI/CD pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 6
+  technology: Terraform and Azure Verified Modules
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Landing Zones
+  tags:
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  - '[AZURE]'
+  v1_locations:
+  - docs/terraform.md
+  - docs/iac.md
+  v2_locations:
+  - terraform.md
+  - iac.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=I4s0A1uXEUg:
+  title: 'Azure Verified Modules Lab: Complete Terraform End-to-End Walkthrough'
+  description: Hands-on technical walkthrough demonstrating how to compose and deploy
+    production Azure infrastructure using Terraform Azure Verified Modules (AVM),
+    enforcing RBAC, private endpoints, and diagnostic telemetry out of the box.
+  year: '2026'
+  stars: 5
+  ai_summary: Hands-on technical walkthrough demonstrating how to compose and deploy
+    production Azure infrastructure using Terraform Azure Verified Modules (AVM),
+    enforcing RBAC, private endpoints, and diagnostic telemetry out of the box.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 7
+  technology: Terraform and Azure Verified Modules
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  - '[AZURE]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=IcH7LalL5cc:
+  title: 'Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC'
+  description: Architectural deep-dive into building zero-secret Terraform CI/CD pipelines
+    from Day 0 bootstrap to Day 2 continuous operations using GitHub Actions and OpenID
+    Connect (OIDC) Workload Identity Federation on Azure.
+  year: '2026'
+  stars: 5
+  ai_summary: Architectural deep-dive into building zero-secret Terraform CI/CD pipelines
+    from Day 0 bootstrap to Day 2 continuous operations using GitHub Actions and OpenID
+    Connect (OIDC) Workload Identity Federation on Azure.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 8
+  technology: Terraform CI/CD and GitOps
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - CI/CD and GitHub Actions
+  tags:
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  - '[CICD]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=BNEGxzQgDB8:
+  title: 'Retiring the CAF Monolith: Azure Verified Modules (AVM) and ALZ Library
+    2026'
+  description: Explains the architectural migration from the legacy monolithic CAF
+    Enterprise-Scale Terraform module to the decoupled Azure Landing Zones (ALZ) library
+    and composable Azure Verified Modules (AVM).
+  year: '2026'
+  stars: 5
+  ai_summary: Explains the architectural migration from the legacy monolithic CAF
+    Enterprise-Scale Terraform module to the decoupled Azure Landing Zones (ALZ) library
+    and composable Azure Verified Modules (AVM).
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 9
+  technology: Terraform and Azure Verified Modules
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Verified Modules (AVM)
+  tags:
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  - '[AZURE]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=HjLte2SGCk0:
+  title: 'ALZ 2026 Masterclass: Modular Architecture and AVM Rebuild'
+  description: Comprehensive architectural masterclass analyzing the modular rebuild
+    of Azure Landing Zones (ALZ) for 2026 using Terraform Azure Verified Modules (AVM)
+    and policy-as-code guardrails.
+  year: '2026'
+  stars: 5
+  ai_summary: Comprehensive architectural masterclass analyzing the modular rebuild
+    of Azure Landing Zones (ALZ) for 2026 using Terraform Azure Verified Modules (AVM)
+    and policy-as-code guardrails.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 10
+  technology: Terraform and Azure Verified Modules
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Azure Landing Zones
+  tags:
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  - '[AZURE]'
+  v1_locations:
+  - docs/terraform.md
+  v2_locations:
+  - terraform.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=mZ944GFanYc:
+  title: 'Azure Landing Zones 2026: Automated Framework and Zero-Secret CI/CD'
+  description: Examines the automated bootstrap framework for Azure Landing Zones
+    2026, combining Terraform AVM starter modules with federated OIDC authentication
+    and gated deployment environments.
+  year: '2026'
+  stars: 5
+  ai_summary: Examines the automated bootstrap framework for Azure Landing Zones 2026,
+    combining Terraform AVM starter modules with federated OIDC authentication and
+    gated deployment environments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 11
+  technology: Terraform CI/CD and GitOps
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - CI/CD and GitOps
+  tags:
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  - '[CICD]'
+  v1_locations:
+  - docs/iac.md
+  v2_locations:
+  - iac.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=N6PMQzmBwwE:
+  title: 'Azure Landing Zones Testing Strategies: Canary, Sandboxes and Non-Prod'
+  description: Details multi-stage testing strategies for enterprise Infrastructure
+    as Code, including sandbox management groups, canary policy rollouts, and automated
+    Terraform validation gates.
+  year: '2026'
+  stars: 5
+  ai_summary: Details multi-stage testing strategies for enterprise Infrastructure
+    as Code, including sandbox management groups, canary policy rollouts, and automated
+    Terraform validation gates.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 12
+  technology: Terraform Testing and Validation
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Infrastructure as Code
+  - Terraform
+  - Testing and Validation
+  tags:
+  - '[GUIDE]'
+  - '[IAC]'
+  - '[TERRAFORM]'
+  v1_locations:
+  - docs/iac.md
+  v2_locations:
+  - iac.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLaNxiRbEBYJ8:
+  title: Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)
+  description: End-to-end Nubenetes NotebookLM FinOps series covering empirical P95/P99
+    compute rightsizing, Premium SSD v2 storage decoupling, SQL Server core masking,
+    ExpressRoute economics, and coercive Azure Policy guardrails.
+  year: '2026'
+  stars: 5
+  ai_summary: End-to-end Nubenetes NotebookLM FinOps series covering empirical P95/P99
+    compute rightsizing, Premium SSD v2 storage decoupling, SQL Server core masking,
+    ExpressRoute economics, and coercive Azure Policy guardrails.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 13
+  technology: FinOps and Cloud Cost Optimization
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - FinOps
+  - Cloud Cost Optimization
+  - Azure FinOps Framework
+  tags:
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[FINOPS]'
+  - '[AZURE]'
+  v1_locations:
+  - docs/finops.md
+  v2_locations:
+  - finops.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLRTV86SuuRbk:
+  title: Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF
+    (OBI) (Playlist)
+  description: Curated Nubenetes NotebookLM deep-dive series on zero-code kernel instrumentation
+    using OpenTelemetry eBPF Instrumentation (OBI), kernel maps, Prometheus metrics,
+    and distributed trace-log correlation across Kubernetes clusters.
+  year: '2026'
+  stars: 5
+  ai_summary: Curated Nubenetes NotebookLM deep-dive series on zero-code kernel instrumentation
+    using OpenTelemetry eBPF Instrumentation (OBI), kernel maps, Prometheus metrics,
+    and distributed trace-log correlation across Kubernetes clusters.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 14
+  technology: eBPF and OpenTelemetry
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Observability
+  - eBPF Telemetry
+  - OpenTelemetry
+  tags:
+  - '[EMERGING]'
+  - '[GUIDE]'
+  - '[EBPF]'
+  - '[OBSERVABILITY]'
+  v1_locations:
+  - docs/kubernetes-monitoring.md
+  v2_locations:
+  - kubernetes-monitoring.md
+  youtube_mosaic: {}
+  category: Observability and Monitoring
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLWGYAgXdQh44:
+  title: Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)
+  description: Architectural video series exploring sidecarless Istio Ambient Mesh
+    (ztunnel and waypoint proxies) and Kubernetes Gateway API implementations on Red
+    Hat OpenShift.
+  year: '2026'
+  stars: 5
+  ai_summary: Architectural video series exploring sidecarless Istio Ambient Mesh
+    (ztunnel and waypoint proxies) and Kubernetes Gateway API implementations on Red
+    Hat OpenShift.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 15
+  technology: Istio Ambient Mesh and OpenShift
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Networking
+  - Service Mesh
+  - Istio Ambient Mesh
+  tags:
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[SERVICE-MESH]'
+  - '[KUBERNETES]'
+  v1_locations:
+  - docs/istio.md
+  v2_locations:
+  - istio.md
+  youtube_mosaic: {}
+  category: Networking and Service Mesh
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLYbmzkhLGOtI:
+  title: Nubenetes ArgoCD and GitOps Automation (Playlist)
+  description: Nubenetes NotebookLM playlist covering declarative GitOps application
+    and infrastructure delivery with ArgoCD, multi-cluster orchestration, and automated
+    drift reconciliation.
+  year: '2026'
+  stars: 5
+  ai_summary: Nubenetes NotebookLM playlist covering declarative GitOps application
+    and infrastructure delivery with ArgoCD, multi-cluster orchestration, and automated
+    drift reconciliation.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 16
+  technology: ArgoCD and GitOps
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - CI/CD and GitOps
+  - ArgoCD
+  - GitOps Automation
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[GITOPS]'
+  v1_locations:
+  - docs/argo.md
+  v2_locations:
+  - argo.md
+  youtube_mosaic: {}
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLBMAtCXWYfZA:
+  title: Nubenetes Cloud Native Podcasts (English Playlist)
+  description: Official English-language Nubenetes NotebookLM podcast series synthesizing
+    architectural blueprints across Kubernetes, Terraform AVM, Azure Landing Zones,
+    FinOps, and eBPF observability.
+  year: '2026'
+  stars: 5
+  ai_summary: Official English-language Nubenetes NotebookLM podcast series synthesizing
+    architectural blueprints across Kubernetes, Terraform AVM, Azure Landing Zones,
+    FinOps, and eBPF observability.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 17
+  technology: Cloud Native Architecture
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architectural Foundations
+  - Cloud Native Strategy
+  - Podcasts
+  tags:
+  - '[GUIDE]'
+  - '[KUBERNETES]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  category: Fundamentals and Documentaries
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLB-3xSV3dAoU:
+  title: Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]
+  description: Official Spanish-language Nubenetes NotebookLM podcast series covering
+    enterprise Cloud Native architectures, Azure Landing Zones 2026, FinOps IaaS optimization,
+    OpenShift, and eBPF telemetry. [SPANISH CONTENT]
+  year: '2026'
+  stars: 5
+  ai_summary: Official Spanish-language Nubenetes NotebookLM podcast series covering
+    enterprise Cloud Native architectures, Azure Landing Zones 2026, FinOps IaaS optimization,
+    OpenShift, and eBPF telemetry. [SPANISH CONTENT]
+  language: Spanish
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 18
+  technology: Cloud Native Architecture
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1793645991
+  needs_ai_refresh: false
+  discovered_at: '2026-11-02T19:59:51.285530+01:00'
+  last_ai_eval: '2026-11-02T19:59:51.285530+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architectural Foundations
+  - Cloud Native Strategy
+  - Podcasts
+  tags:
+  - '[GUIDE]'
+  - '[SPANISH CONTENT]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  category: Fundamentals and Documentaries
+  source_provenance: Official @nubenetes YouTube Channel

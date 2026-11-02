@@ -56,6 +56,10 @@
 - [awstrainingwithjagan.com: Comprehensive Comparison of Top Infrastructure as Code (IaC) Tools](https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison)
 
 ## Tools
+  - **(2026)** [Azure Verified Modules (AVM) Official Portal and Specification](https://azure.github.io/Azure-Verified-Modules) 🌟 - Microsoft's unified initiative consolidating official, Microsoft-maintained Bicep and Terraform modules built to Well-Architected Framework (WAF) and Cloud Adoption Framework (CAF) standards. - *(Related to terraform topic)*
+  - **(2026)** [Azure/alz-terraform-accelerator: Azure Landing Zones (ALZ) Terraform Accelerator](https://github.com/Azure/alz-terraform-accelerator) 🌟 - Official CLI and starter framework that bootstraps production-grade Azure Landing Zones using Terraform Azure Verified Modules (AVM) alongside automated CI/CD pipelines for GitHub Actions and Azure DevOps. - *(Related to terraform topic)*
+  - **(2026)** [OpenTofu Official GitHub Repository](https://github.com/opentofu/opentofu) 🌟 - The Linux Foundation / CNCF-governed open-source Infrastructure as Code tool forked from Terraform, featuring client-side state encryption, early variable evaluation in module/backend sources, and provider iteration. - *(Related to terraform topic)*
+  - **(2026)** [diggerhq/digger: Open-Source IaC CI/CD Orchestrator for GitHub Actions](https://github.com/diggerhq/digger) 🌟 - Open-source Terraform and OpenTofu CI/CD orchestration tool that executes plan and apply natively inside existing GitHub Actions or GitLab CI runners with PR locking, OIDC authentication, and drift detection. - *(Related to terraform topic)*
   - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) 🌟 - Pulumi is an open-source Infrastructure as Code (IaC) tool that allows users to define and manage cloud infrastructure using familiar programming languages like Python, JavaScript, TypeScript, Go, C#, and Java. It enables developers to provision and manage resources across various cloud providers and services with the power of general-purpose programming languages, offering benefits like code reuse, testing, and better developer workflows.
   - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows ARM64 Support](https://t.co/C6uicr7ZPS) - *(Related to terraform topic)*
   - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn) - *(Related to ai-agents-mcp topic)*
@@ -115,12 +119,18 @@
 
 ## Videos
 
+- **(2026)** [youtube.com/@nubenetes: Nubenetes Azure Verified Modules (AVM) Terraform Labs (Playlist)](https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM) 🌟 - Official Nubenetes NotebookLM video playlist covering end-to-end Terraform Azure Verified Modules (AVM) labs and modular IaC patterns.
+- **(2026)** [youtube.com/@nubenetes: Nubenetes Azure Landing Zones 2026 — Enterprise CAF and Architecture Blueprint (Playlist)](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) 🌟 - Architectural video series on building modern Azure Landing Zones with Terraform AVM and automated CI/CD governance.
+- **(2026)** [youtube.com/@nubenetes: Azure Landing Zones 2026 — Automated Framework and Zero-Secret CI/CD](https://www.youtube.com/watch?v=mZ944GFanYc) 🌟 - Deep dive into bootstrapping enterprise Infrastructure as Code pipelines with zero shared secrets using OIDC federation and AVM.
+- **(2026)** [youtube.com/@nubenetes: Azure Landing Zones Testing Strategies — Canary, Sandboxes and Non-Prod](https://www.youtube.com/watch?v=N6PMQzmBwwE) 🌟 - Explores continuous validation, canary environments, and policy testing strategies for enterprise Infrastructure as Code.
 - [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA)
 
 ??? note "Click to expand!"
 
 	<center markdown="1">
 
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLNKD2Ya-t0zM" title="Nubenetes Azure Verified Modules (AVM) Terraform Labs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/mZ944GFanYc" title="Azure Landing Zones 2026: Automated Framework and Zero-Secret CI/CD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/POPP2WTJ8es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/EIOuIwKS0P0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/--RRpw_6onA?si=UNaIShD8z-_ZLCwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

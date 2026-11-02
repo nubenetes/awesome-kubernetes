@@ -228,10 +228,12 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                         }
                         if "youtube.com" in url or "youtu.be" in url:
                             title_desc = f"{data['title']} {data['desc']}".lower()
-                            keywords = ["agent", "mcp", "terraform", "devops", "kubernetes", "sre", "mlops", "copilot", "gemini", "claude", "openai", "autogen", "crewai"]
-                            if any(k in title_desc for k in keywords):
+                            keywords = ["agent", "mcp", "terraform", "avm", "azure", "finops", "ebpf", "istio", "openshift", "argocd", "gitops", "devops", "kubernetes", "sre", "mlops", "copilot", "gemini", "claude", "openai", "autogen", "crewai"]
+                            if is_primary or any(k in title_desc for k in keywords):
                                 eval_data["is_featured_video"] = True
                                 eval_data["is_enriched"] = False
+                                if is_primary:
+                                    eval_data["company"] = "Nubenetes"
                         from src.inventory_manager import update_inventory_entry
                         update_inventory_entry(curator.inventory, norm_url, eval_data)
                         evaluations[url] = {**eval_data, "status": "INCLUDED"}

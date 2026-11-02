@@ -187,6 +187,28 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     </center>
 
+## Cloud Native Architecture
+
+??? note "🎬 Nubenetes Cloud Native Podcasts (English Playlist)"
+    !!! info "Architectural Summary"
+        Official English-language Nubenetes NotebookLM podcast series synthesizing architectural blueprints across Kubernetes, Terraform AVM, Azure Landing Zones, FinOps, and eBPF observability.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLBMAtCXWYfZA" title="Nubenetes Cloud Native Podcasts (English Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT] [SPANISH CONTENT]"
+    !!! info "Architectural Summary"
+        Official Spanish-language Nubenetes NotebookLM podcast series covering enterprise Cloud Native architectures, Azure Landing Zones 2026, FinOps IaaS optimization, OpenShift, and eBPF telemetry. [SPANISH CONTENT]
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLB-3xSV3dAoU" title="Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Spring Framework
 
 ??? note "🎬 How a Group of Developers Took Back Control from Enterprise Java | Spring: The Documentary"

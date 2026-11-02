@@ -100,7 +100,9 @@ def clean_hierarchy_section_name(name: str) -> str:
             "cli": "CLI", "vm": "VM", "vms": "VMs", "k8s": "Kubernetes", "cicd": "CI/CD",
             "sql": "SQL", "nosql": "NoSQL", "xml": "XML", "yaml": "YAML", "json": "JSON",
             "devops": "DevOps", "llm": "LLM", "llms": "LLMs", "gpu": "GPU", "gpus": "GPUs",
-            "mcp": "MCP", "rag": "RAG", "ebpf": "eBPF", "mlops": "MLOps", "ai": "AI", "vllm": "vLLM"
+            "mcp": "MCP", "rag": "RAG", "ebpf": "eBPF", "mlops": "MLOps", "ai": "AI", "vllm": "vLLM",
+            "avm": "AVM", "alz": "ALZ", "hcl": "HCL", "aks": "AKS", "eks": "EKS", "gke": "GKE",
+            "oidc": "OIDC", "opa": "OPA"
         }
         if w_clean in acronyms_map:
             words[i] = w.lower().replace(w_clean, acronyms_map[w_clean])
