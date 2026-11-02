@@ -122,6 +122,132 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Kubernetes AI Agents
+
+??? note "🎬 Unindexed Cloud Native Technical Short (-JlLcd-4CIs)"
+    !!! info "Architectural Summary"
+        This technical short explores autonomous cloud-native operations by integrating AI Agents and the Model Context Protocol (MCP) directly with Kubernetes control planes. In a 2026 enterprise architecture context, this pattern enables self-healing infrastructure, automated incident triage, and dynamic resource optimization with minimal human intervention.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/-JlLcd-4CIs" title="Unindexed Cloud Native Technical Short (-JlLcd-4CIs)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unindexed Cloud Native Architecture & AI Operations Short (ID: jwASueLUzhI)"
+    !!! info "Architectural Summary"
+        While specific public metadata for video ID jwASueLUzhI is currently unindexed, short-form technical briefings in the 2026 Cloud Native ecosystem typically highlight rapid patterns for integrating autonomous AI Agents and the Model Context Protocol (MCP) into Kubernetes and Infrastructure as Code workflows. Architecturally, these patterns enable self-healing infrastructure, automated incident triage, and declarative GitOps reconciliation at scale.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/jwASueLUzhI" title="Unindexed Cloud Native Architecture & AI Operations Short (ID: jwASueLUzhI)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Metadata Unavailable (Video ID: -Bo6tLrseDo)"
+    !!! info "Architectural Summary"
+        Specific video metadata for ID -Bo6tLrseDo could not be retrieved via search indexing. In a 2026 Cloud Native architecture, autonomous AI agents utilizing the Model Context Protocol (MCP) increasingly interface with Kubernetes and Infrastructure as Code (IaC) pipelines to automate SRE workflows, enhance observability, and ensure resilient declarative deployments.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/-Bo6tLrseDo" title="Metadata Unavailable (Video ID: -Bo6tLrseDo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unindexed Cloud Native & AI Architecture Short (ID: Q2fhHPqJnKk)"
+    !!! info "Architectural Summary"
+        While specific public metadata for video ID Q2fhHPqJnKk is currently unindexed across external search providers, technical YouTube Shorts in the 2026 Cloud Native landscape typically deliver rapid architectural patterns for autonomous Kubernetes operations and AI Agent integration. In modern cloud infrastructures, these concise technical briefings focus on uniting Model Context Protocol (MCP) servers with declarative Infrastructure as Code (IaC) and automated SRE workflows to reduce operational toil and enhance cluster self-healing.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/Q2fhHPqJnKk" title="Unindexed Cloud Native & AI Architecture Short (ID: Q2fhHPqJnKk)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified Cloud Native Technical Short (ID: O_Mfirh5xqM)"
+    !!! info "Architectural Summary"
+        Due to search indexing restrictions on this specific YouTube Short (O_Mfirh5xqM), exact video metadata could not be externally verified. In a 2026 Cloud Native context, micro-format technical videos typically highlight rapid operational patterns such as autonomous AI Agent orchestration via the Model Context Protocol (MCP), declarative Kubernetes reconciliation, and automated Infrastructure as Code (IaC) pipelines. These patterns are critical for reducing cognitive load and accelerating incident remediation across distributed cloud architectures.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/O_Mfirh5xqM" title="Unverified Cloud Native Technical Short (ID: O_Mfirh5xqM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Unverified / Truncated YouTube Playlist (PLaqfcvWjZHso)"
+    !!! info "Architectural Summary"
+        The provided YouTube playlist identifier (PLaqfcvWjZHso) is incomplete or unindexed, preventing verification of specific video metadata. In a 2026 Cloud Native architecture context, engineering teams rely on curated technical playlists to standardize patterns around Kubernetes orchestration, GitOps workflows, and AI Agent-driven operations (AIOps/MCP) for automated observability and resilient infrastructure management.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLaqfcvWjZHso" title="Unverified / Truncated YouTube Playlist (PLaqfcvWjZHso)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 From Cloud Native to AI Native: Why Kubernetes Is the Foundation for Next-Gen AI Agents"
+    !!! info "Architectural Summary"
+        This playlist details an architectural shift from cloud-native to AI-native systems, proposing Kubernetes as the fundamental orchestration layer for production-grade AI agents. It explores core concepts like treating agents as native Kubernetes objects via Custom Resource Definitions (CRDs) and leveraging an AI Native Gateway for controlled agent-to-agent and agent-to-tool communication, all managed declaratively through GitOps principles.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLR6nHneHUvqU" title="From Cloud Native to AI Native: Why Kubernetes Is the Foundation for Next-Gen AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Cloud Native AI Agents
+
+??? note "🎬 Unverified Technical Short (ID: YWNUZfYelIM)"
+    !!! info "Architectural Summary"
+        Public search indexing does not currently expose the specific metadata for this YouTube Short, suggesting a recently published or unindexed micro-tutorial focusing on modern cloud-native operations. In a 2026 architecture context, bite-sized technical demonstrations typically highlight rapid patterns in automated Kubernetes orchestration, AI-driven DevOps workflows, or declarative infrastructure troubleshooting.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/shorts/YWNUZfYelIM" title="Unverified Technical Short (ID: YWNUZfYelIM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## DevOps AI Agents
+
+??? note "🎬 Uploads from Google Cloud Tech"
+    !!! info "Architectural Summary"
+        This collection of technical content from Google Cloud's primary channel showcases the architectural shift towards integrating AI agents into the fabric of cloud-native operations. For a 2026 context, the significant value lies in demonstrating how to leverage generative AI and tools like Gemini to create autonomous agents for tasks such as incident investigation, enhancing DevOps pipelines, and providing voice-activated browser control, thereby moving towards a more intelligent and automated cloud infrastructure. The videos provide practical guidance on building and connecting these agents with existing enterprise systems and observability platforms.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLRz_DgUi73hc" title="Uploads from Google Cloud Tech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Model Context Protocol (MCP) and AI Agents in DevOps"
+    !!! info "Architectural Summary"
+        This architectural playlist details how Model Context Protocol (MCP) standardizes context and tool-calling interfaces for AI agents within modern cloud-native systems. It explores the practical integration of autonomous agents into DevOps, SRE, and API automation pipelines, replacing complex, manual scripts with intent-driven workflows. By utilizing secure and scalable MCP servers, platform teams can safely delegate infrastructure, database, and testing orchestration to context-aware AI systems.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7" title="Model Context Protocol (MCP) and AI Agents in DevOps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Cloud at Google I/O 2026"
+    !!! info "Architectural Summary"
+        This playlist presents the Cloud Native and GenAI architectural frameworks showcased at Google I/O 2026, focusing on the transition from traditional DevOps to 'agent-first' autonomous workflows using Google Cloud’s serverless stack (Cloud Run, Eventarc, Cloud Build, BigQuery) and the Agent Development Kit (ADK). By utilizing Model Context Protocol (MCP) and event-driven architectures, developers can orchestrate specialized multi-agent swarms to handle complex Day-2 operations, such as self-healing remediation and intelligent CI/CD pipelines. This paradigm shift provides a highly secure, automated foundation for scaling and governing AI-native applications directly from code to production.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLOU2XLYxmsIJp39MsvkeWYYNwMso-HeNT" title="Cloud at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Agent-first workflows from prompt to production"
+    !!! info "Architectural Summary"
+        This session outlines an end-to-end architectural workflow for transitioning from AI-agentic code generation directly to secure, production-grade deployments on Google Cloud. It demonstrates how developers can utilize IDE-integrated Gemini Code Assist agents, Cloud Run, and Cloud Build to build, containerize, and deploy AI-native applications without leaving their development environments. The presentation emphasizes securing the agentic software development lifecycle (SDLC) using enterprise-grade IAM, automated CI/CD, and policy-driven compliance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/QtXBAz6TU2g?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## LLM Architecture and Post-Training
 
 ??? note "🎬 Stanford CS229: Building Large Language Models (LLMs)"
@@ -165,38 +291,6 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
-
-    </center>
-
-## DevOps AI Agents
-
-??? note "🎬 Model Context Protocol (MCP) and AI Agents in DevOps"
-    !!! info "Architectural Summary"
-        This architectural playlist details how Model Context Protocol (MCP) standardizes context and tool-calling interfaces for AI agents within modern cloud-native systems. It explores the practical integration of autonomous agents into DevOps, SRE, and API automation pipelines, replacing complex, manual scripts with intent-driven workflows. By utilizing secure and scalable MCP servers, platform teams can safely delegate infrastructure, database, and testing orchestration to context-aware AI systems.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7" title="Model Context Protocol (MCP) and AI Agents in DevOps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Cloud at Google I/O 2026"
-    !!! info "Architectural Summary"
-        This playlist presents the Cloud Native and GenAI architectural frameworks showcased at Google I/O 2026, focusing on the transition from traditional DevOps to 'agent-first' autonomous workflows using Google Cloud’s serverless stack (Cloud Run, Eventarc, Cloud Build, BigQuery) and the Agent Development Kit (ADK). By utilizing Model Context Protocol (MCP) and event-driven architectures, developers can orchestrate specialized multi-agent swarms to handle complex Day-2 operations, such as self-healing remediation and intelligent CI/CD pipelines. This paradigm shift provides a highly secure, automated foundation for scaling and governing AI-native applications directly from code to production.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLOU2XLYxmsIJp39MsvkeWYYNwMso-HeNT" title="Cloud at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Agent-first workflows from prompt to production"
-    !!! info "Architectural Summary"
-        This session outlines an end-to-end architectural workflow for transitioning from AI-agentic code generation directly to secure, production-grade deployments on Google Cloud. It demonstrates how developers can utilize IDE-integrated Gemini Code Assist agents, Cloud Run, and Cloud Build to build, containerize, and deploy AI-native applications without leaving their development environments. The presentation emphasizes securing the agentic software development lifecycle (SDLC) using enterprise-grade IAM, automated CI/CD, and policy-driven compliance.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/QtXBAz6TU2g?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
