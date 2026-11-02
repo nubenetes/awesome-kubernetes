@@ -87,8 +87,24 @@ jobs:
             fi
           fi
 
-      - name: Trigger V2 Publisher
-        uses: peter-evans/repository-dispatch@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event-type: weekly-digest-ready
+      - name: Create or Update Promotion PR to Master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git pull origin develop --rebase
+          PR_EXISTS=$(gh pr list --head develop --base master --json number --jq '.[0].number')
+
+          if [ -z "$PR_EXISTS" ]; then
+            if [ -n "$(git log origin/master..origin/develop --oneline)" ]; then
+              echo "Creating new PR from develop to master..."
+              gh pr create \
+                --base master \
+                --head develop \
+                --title "🚀 Release: Weekly Intelligence Digest & V2 Portal Update" \
+                --body "Automated promotion from develop to master. Includes the latest weekly intelligence digest (`data/news_digest.json`, `v2-docs/tech-digest.md`, `v2-docs/industry-digest.md`) and V2 portal updates."
+            else
+              echo "develop is already in sync with master. No PR needed."
+            fi
+          else
+            echo "PR #$PR_EXISTS already exists. It is automatically updated with the push to develop."
+          fi
