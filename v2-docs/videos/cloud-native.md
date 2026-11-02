@@ -186,6 +186,18 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Istio Ambient Mesh and OpenShift
+
+??? note "🎬 Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)"
+    !!! info "Architectural Summary"
+        Architectural video series exploring sidecarless Istio Ambient Mesh (ztunnel and waypoint proxies) and Kubernetes Gateway API implementations on Red Hat OpenShift.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLWGYAgXdQh44" title="Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Git
 
 ??? note "🎬 Branching Strategies Explained"

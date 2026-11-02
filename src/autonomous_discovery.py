@@ -40,7 +40,14 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
         f"topic:devops+pushed:>{pushed_cutoff}+stars:>500",
         f"topic:observability+pushed:>{pushed_cutoff}+stars:>200",
         f"topic:cloud-security+pushed:>{pushed_cutoff}+stars:>200",
-        f"topic:terraform+pushed:>{pushed_cutoff}+stars:>500",
+        f"topic:terraform+pushed:>{pushed_cutoff}+stars:>300",
+        f"topic:terraform-module+pushed:>{pushed_cutoff}+stars:>40",
+        f"org:Azure+terraform-azurerm-avm+pushed:>{pushed_cutoff}",
+        f"org:Azure-Samples+terraform+pushed:>{pushed_cutoff}+stars:>5",
+        f"org:aws-ia+terraform+pushed:>{pushed_cutoff}+stars:>20",
+        f"org:terraform-aws-modules+pushed:>{pushed_cutoff}+stars:>100",
+        f"topic:opentofu+pushed:>{pushed_cutoff}+stars:>25",
+        f"topic:terraform+topic:github-actions+pushed:>{pushed_cutoff}+stars:>20",
         f"topic:service-mesh+pushed:>{pushed_cutoff}+stars:>100",
         f"topic:platform-engineering+pushed:>{pushed_cutoff}+stars:>100",
     ]
@@ -76,16 +83,55 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
     return all_repos
 
 
+async def fetch_watched_github_releases(since_date: datetime, repos: list[str]) -> list[dict]:
+    """Fetch recent major/minor GitHub releases from watched repositories (e.g., Terraform, AVM, OpenTofu)."""
+    if not repos:
+        return []
+    releases_found = []
+    headers = {"Accept": "application/vnd.github.v3+json"}
+    if GH_TOKEN:
+        headers["Authorization"] = f"token {GH_TOKEN}"
+    async with httpx.AsyncClient(headers=headers, timeout=10.0) as client:
+        for repo in repos:
+            url = f"https://api.github.com/repos/{repo}/releases?per_page=3"
+            try:
+                resp = await client.get(url)
+                if resp.status_code == 200:
+                    for rel in resp.json():
+                        if rel.get("draft") or rel.get("prerelease"):
+                            continue
+                        pub_raw = rel.get("published_at")
+                        if not pub_raw:
+                            continue
+                        pub_dt = datetime.fromisoformat(pub_raw.replace("Z", "+00:00")).astimezone(MADRID_TZ)
+                        if pub_dt >= since_date:
+                            html_url = rel.get("html_url")
+                            tag_name = rel.get("tag_name") or rel.get("name") or "Release"
+                            body = (rel.get("body") or "")[:500]
+                            releases_found.append({
+                                "url": html_url,
+                                "title": f"{repo} {tag_name} Release",
+                                "text": body,
+                                "context": f"Official GitHub Release {tag_name} for {repo}: {body[:250]}",
+                                "timestamp": pub_dt.isoformat(),
+                                "source_type": f"GitHub Release ({repo})",
+                            })
+            except Exception as e:
+                log_event(f"[WARN] GitHub release watch '{repo}': {str(e)[:100]}")
+                continue
+    return releases_found
+
+
 async def discover_trending_assets() -> list[dict]:
     repos = await fetch_github_trending_cloud_native()
     if not repos:
         return []
 
     prompt = (
-        "Analyze these active Cloud-Native and AI repositories (sorted by monthly star velocity) and select the 6 highest-impact tools for a 2026 Senior Kubernetes & AI Platform Architect.\n"
-        "Prioritize Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/inference serving, KubeRay), MCP servers for Kubernetes/SRE, eBPF observability, and GitOps operators.\n"
+        "Analyze these active Cloud-Native, AI, and Infrastructure as Code (IaC) repositories (sorted by monthly star velocity) and select the 8 highest-impact tools for a 2026 Senior Kubernetes, Cloud & AI Platform Architect.\n"
+        "Prioritize Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/inference serving, KubeRay), MCP servers for Kubernetes/SRE, Modern IaC & Terraform (Azure Verified Modules / AVM, OpenTofu, Terraform CI/CD pipelines, Landing Zones, official cloud samples), eBPF observability, and GitOps operators.\n"
         f"Valid Categories: {', '.join(NUBENETES_CATEGORIES)}\n"
-        f"Repos: {json.dumps(repos[:40])}\n\n"
+        f"Repos: {json.dumps(repos[:50])}\n\n"
         "Respond ONLY with a valid JSON list: [{\"title\": \"...\", \"url\": \"...\", \"description\": \"...\", \"category\": \"...\"}]"
     )
 
@@ -98,7 +144,7 @@ async def discover_trending_assets() -> list[dict]:
 
     # --- HEURISTIC FALLBACK (sorted by velocity) ---
     fallback_results = []
-    for r in repos[:6]:
+    for r in repos[:8]:
         category = "kubernetes-tools"
         desc_lower = r["desc"].lower()
         name_lower = r["name"].lower()
@@ -108,6 +154,10 @@ async def discover_trending_assets() -> list[dict]:
             category = "ai-agents-mcp"
         elif "awesome" in name_lower:
             category = "other-awesome-lists"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("terraform", "opentofu", "terragrunt", "terramate", "tflint", "avm-res", "avm-ptn", "azurerm")):
+            category = "terraform"
+        elif any(k in desc_lower or k in topics_set for k in ("iac", "infrastructure-as-code", "pulumi", "bicep")):
+            category = "iac"
         elif any(k in desc_lower or k in topics_set for k in ("mlops", "gpu", "vllm", "kuberay", "inference", "kubeflow", "kueue", "volcano")):
             category = "mlops"
         elif "ai" in desc_lower or "agent" in desc_lower or "llm" in desc_lower:

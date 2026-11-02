@@ -22,6 +22,105 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Terraform and Azure Verified Modules
+
+??? note "🎬 Nubenetes Azure Verified Modules (AVM) Terraform Labs (Playlist)"
+    !!! info "Architectural Summary"
+        Official Nubenetes NotebookLM architectural series walking through end-to-end Azure Verified Modules (AVM) labs in Terraform, standardized WAF/CAF module interfaces, and enterprise infrastructure delivery on Microsoft Azure.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLNKD2Ya-t0zM" title="Nubenetes Azure Verified Modules (AVM) Terraform Labs (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)"
+    !!! info "Architectural Summary"
+        Curated Nubenetes NotebookLM masterclass playlist covering the 2026 Azure Landing Zones (ALZ) architecture rebuild using Terraform Azure Verified Modules (AVM), management group hierarchies, hub-and-spoke/Virtual WAN networking, and zero-secret OIDC CI/CD pipelines.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLCgDGrDt3kNU" title="Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Azure Verified Modules Lab: Complete Terraform End-to-End Walkthrough"
+    !!! info "Architectural Summary"
+        Hands-on technical walkthrough demonstrating how to compose and deploy production Azure infrastructure using Terraform Azure Verified Modules (AVM), enforcing RBAC, private endpoints, and diagnostic telemetry out of the box.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="I4s0A1uXEUg" data-video-url="https://www.youtube.com/embed/I4s0A1uXEUg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/I4s0A1uXEUg/hqdefault.jpg" alt="Azure Verified Modules Lab: Complete Terraform End-to-End Walkthrough" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Retiring the CAF Monolith: Azure Verified Modules (AVM) and ALZ Library 2026"
+    !!! info "Architectural Summary"
+        Explains the architectural migration from the legacy monolithic CAF Enterprise-Scale Terraform module to the decoupled Azure Landing Zones (ALZ) library and composable Azure Verified Modules (AVM).
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="BNEGxzQgDB8" data-video-url="https://www.youtube.com/embed/BNEGxzQgDB8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BNEGxzQgDB8/hqdefault.jpg" alt="Retiring the CAF Monolith: Azure Verified Modules (AVM) and ALZ Library 2026" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 ALZ 2026 Masterclass: Modular Architecture and AVM Rebuild"
+    !!! info "Architectural Summary"
+        Comprehensive architectural masterclass analyzing the modular rebuild of Azure Landing Zones (ALZ) for 2026 using Terraform Azure Verified Modules (AVM) and policy-as-code guardrails.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="HjLte2SGCk0" data-video-url="https://www.youtube.com/embed/HjLte2SGCk0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/HjLte2SGCk0/hqdefault.jpg" alt="ALZ 2026 Masterclass: Modular Architecture and AVM Rebuild" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Terraform CI CD and GitOps
+
+??? note "🎬 Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC"
+    !!! info "Architectural Summary"
+        Architectural deep-dive into building zero-secret Terraform CI/CD pipelines from Day 0 bootstrap to Day 2 continuous operations using GitHub Actions and OpenID Connect (OIDC) Workload Identity Federation on Azure.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="IcH7LalL5cc" data-video-url="https://www.youtube.com/embed/IcH7LalL5cc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/IcH7LalL5cc/hqdefault.jpg" alt="Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Azure Landing Zones 2026: Automated Framework and Zero-Secret CI/CD"
+    !!! info "Architectural Summary"
+        Examines the automated bootstrap framework for Azure Landing Zones 2026, combining Terraform AVM starter modules with federated OIDC authentication and gated deployment environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="mZ944GFanYc" data-video-url="https://www.youtube.com/embed/mZ944GFanYc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/mZ944GFanYc/hqdefault.jpg" alt="Azure Landing Zones 2026: Automated Framework and Zero-Secret CI/CD" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Terraform Enterprise
 
 ??? note "🎬 Standardizing infrastructure automation with Terraform Enterprise"
@@ -39,6 +138,35 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Terraform Testing and Validation
+
+??? note "🎬 Azure Landing Zones Testing Strategies: Canary, Sandboxes and Non-Prod"
+    !!! info "Architectural Summary"
+        Details multi-stage testing strategies for enterprise Infrastructure as Code, including sandbox management groups, canary policy rollouts, and automated Terraform validation gates.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="N6PMQzmBwwE" data-video-url="https://www.youtube.com/embed/N6PMQzmBwwE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/N6PMQzmBwwE/hqdefault.jpg" alt="Azure Landing Zones Testing Strategies: Canary, Sandboxes and Non-Prod" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## FinOps and Cloud Cost Optimization
+
+??? note "🎬 Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)"
+    !!! info "Architectural Summary"
+        End-to-end Nubenetes NotebookLM FinOps series covering empirical P95/P99 compute rightsizing, Premium SSD v2 storage decoupling, SQL Server core masking, ExpressRoute economics, and coercive Azure Policy guardrails.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLaNxiRbEBYJ8" title="Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## HashiCorp Stack Terraform Vault Consul Boundary
 
 ??? note "🎬 Building a developer platform? Ask these questions."
@@ -53,6 +181,30 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
+
+    </center>
+
+## eBPF and OpenTelemetry
+
+??? note "🎬 Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)"
+    !!! info "Architectural Summary"
+        Curated Nubenetes NotebookLM deep-dive series on zero-code kernel instrumentation using OpenTelemetry eBPF Instrumentation (OBI), kernel maps, Prometheus metrics, and distributed trace-log correlation across Kubernetes clusters.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLRTV86SuuRbk" title="Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## ArgoCD and GitOps
+
+??? note "🎬 Nubenetes ArgoCD and GitOps Automation (Playlist)"
+    !!! info "Architectural Summary"
+        Nubenetes NotebookLM playlist covering declarative GitOps application and infrastructure delivery with ArgoCD, multi-cluster orchestration, and automated drift reconciliation.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLYbmzkhLGOtI" title="Nubenetes ArgoCD and GitOps Automation (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

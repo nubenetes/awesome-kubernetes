@@ -56,11 +56,12 @@
          6. [Porsche Official](#porsche-official)
          7. [AWS Serverless with Terraform](#aws-serverless-with-terraform)
      9. [Terraform with Azure](#terraform-with-azure)
-         1. [Azure Terraform Export aztfexport](#azure-terraform-export-aztfexport)
-         2. [Azure Landing Zones with Terraform. Azure Network Architecture](#azure-landing-zones-with-terraform-azure-network-architecture)
-         3. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
-         4. [Terraform in Azure DevOps. Azure DevOps with terraform](#terraform-in-azure-devops-azure-devops-with-terraform)
-         5. [Terraform Azure Stack Provider](#terraform-azure-stack-provider)
+         1. [Azure Verified Modules AVM for Terraform](#azure-verified-modules-avm-for-terraform)
+         2. [Azure Terraform Export aztfexport](#azure-terraform-export-aztfexport)
+         3. [Azure Landing Zones with Terraform. Azure Network Architecture](#azure-landing-zones-with-terraform-azure-network-architecture)
+         4. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
+         5. [Terraform in Azure DevOps. Azure DevOps with terraform](#terraform-in-azure-devops-azure-devops-with-terraform)
+         6. [Terraform Azure Stack Provider](#terraform-azure-stack-provider)
      10. [Terraform for a Data Engineer](#terraform-for-a-data-engineer)
      11. [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
      12. [Terraform and OCI](#terraform-and-oci)
@@ -132,6 +133,8 @@
 - [nedinthecloud.com](https://nedinthecloud.com)
 
 ## Terraform
+  - **(2025)** [HashiCorp Terraform Language: Config-Driven Import Blocks](https://developer.hashicorp.com/terraform/language/import) 🌟 - Official reference for declarative `import` blocks in Terraform (1.5+), enabling teams to bring existing cloud infrastructure under Terraform state management within standard CI/CD plan-and-apply pipelines and automatically generate HCL configuration via `-generate-config-out`.
+  - **(2025)** [HashiCorp Terraform Language: Continuous Validation Check Blocks](https://developer.hashicorp.com/terraform/language/checks) 🌟 - Official documentation on Terraform `check` blocks and custom conditions (`precondition`/`postcondition`), providing non-blocking continuous health assertions and post-deployment infrastructure verification using scoped data sources.
   - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows ARM64 Support](https://t.co/C6uicr7ZPS) 🌟 - This update to Terraform (version 1.15) introduces significant enhancements, including flexible module management via variable support in source attributes, explicit deprecation warnings for configurations, and native support for Windows ARM64. These features aim to improve user experience, configuration clarity, and platform compatibility.
   - [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code) 🌟 - This article explores how Terraform 2.0 integrates AI capabilities to automatically generate infrastructure code (HCL) from natural language descriptions. It highlights the benefits of using AI with Terraform, such as reducing errors, accelerating deployment, and creating standardized environments.
   - [Terraform Azure Resource IPAM Module](https://registry.terraform.io/modules/hlokensgard/res-ipam/azure/latest) - A Terraform module for managing IP Address Management (IPAM) resources within Azure, facilitating automated provisioning and configuration of IP address spaces.
@@ -358,6 +361,7 @@
 
 ## OpenTOFU vs Terraform
 
+- **(2026)** [OpenTofu Official GitHub Repository](https://github.com/opentofu/opentofu) 🌟 - The Linux Foundation / CNCF-governed open-source Infrastructure as Code tool forked from Terraform, featuring native client-side state/plan encryption, early variable/locals evaluation in backend and module source blocks, and `for_each` provider iteration.
 - [nedinthecloud.com: Comparing Open TOFU And Terraform](https://nedinthecloud.com/2024/01/22/comparing-opentofu-and-terraform)
 
 ## Terraform fmt
@@ -370,10 +374,14 @@
 
 ## terraform stacks
 
+- **(2025)** [HashiCorp Terraform Language: Terraform Stacks Overview](https://developer.hashicorp.com/terraform/language/stacks) 🌟 - Official architectural guide and HCL specification for Terraform Stacks (`.tfstack.hcl` and `.tfdeploy.hcl`), designed to orchestrate multi-component, multi-region, and multi-environment infrastructure deployments with deferred changes and unified dependency graphs.
 - [==hashicorp.com: Terraform stacks, explained==](https://www.hashicorp.com/blog/terraform-stacks-explained) Terraform stacks simplify provisioning and managing resources at scale, reducing the time and overhead of managing infrastructure.
 
 ## Terraform and GitHub Actions
 
+- **(2026)** [hashicorp/setup-terraform: Official GitHub Action for Terraform CLI](https://github.com/hashicorp/setup-terraform) 🌟 - Official HashiCorp GitHub Action that sets up the Terraform CLI in GitHub Actions workflows, supporting version pinning, HCP Terraform / Terraform Enterprise credentials configuration, and STDOUT/STDERR wrapper outputs for PR plan comments.
+- **(2026)** [diggerhq/digger: Open-Source IaC CI/CD Orchestrator for GitHub Actions](https://github.com/diggerhq/digger) 🌟 - Open-source Terraform and OpenTofu CI/CD orchestration tool that executes `plan` and `apply` natively inside your existing GitHub Actions or GitLab CI compute runners, featuring PR-level state locking, OIDC cloud authentication, drift detection, andOPA policy checks.
+- **(2026)** [runatlantis/atlantis: Terraform Pull Request Automation](https://github.com/runatlantis/atlantis) 🌟 - De facto standard self-hosted GitOps automation daemon for Terraform and OpenTofu that listens to GitHub, GitLab, and Bitbucket webhooks to execute collaborative `atlantis plan` and `atlantis apply` workflows directly from Pull Request comments.
 - [learn.hashicorp.com: Automate Terraform with GitHub Actions](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions) Automate infrastructure deployments with CI/CD using Terraform and GitHub Actions
 - [==acloudguru.com: How to use GitHub Actions to automate Terraform==](https://www.pluralsight.com/resources/blog/cloud/how-to-use-github-actions-to-automate-terraform)
 - [==youtube: AWS Backup Set Up Using Terraform cloud and GitHub Actions | Cloud Quick Labs==](https://www.youtube.com/watch?v=4niy0_ZpQ1w&ab_channel=CloudQuickLabs)
@@ -390,6 +398,7 @@
 - [squareops.com: Terraform CI/CD Pipelines with Gitlab [ARCHIVED]](http://web.archive.org/web/20240724222526/https://squareops.com/terraform-pipeline-with-gitlab)
 
 ## Terraform Testing
+  - **(2025)** [HashiCorp Terraform Language: Native Tests and Provider Mocking](https://developer.hashicorp.com/terraform/language/tests) 🌟 - Authoritative documentation for the native `terraform test` framework (`.tftest.hcl`), covering unit and integration testing of Terraform modules, `mock_provider` and `override_resource` blocks for cost-free offline unit tests, and assertion blocks.
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 - A repository providing best-practices for Terraform and OpenTofu, designed to serve as a skill for AI coding agents. It covers testing strategies (native tests vs. Terratest), testing workflows (static, integration, E2E), module patterns, CI/CD workflows, and production infrastructure code.
   - [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) - *(Related to ai topic)*
   - [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines) 🌟 - This article details the experience of learning and implementing the Terraform testing framework within Azure DevOps Pipelines. It emphasizes the importance of testing Infrastructure as Code (IaC) for reliability and safety, aiming to empower readers to confidently integrate Terraform testing into their projects. The post also provides links to useful blogs and YouTube videos for further learning.
@@ -425,6 +434,7 @@
 - [kvs-vishnu23.medium.com: Is AWS CDK better than Terraform?](https://kvs-vishnu23.medium.com/is-aws-cdk-better-than-terraform-85194e7a42cd)
 
 ## Managing secrets in your Terraform code
+  - **(2025)** [HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments](https://developer.hashicorp.com/terraform/language/resources/ephemeral) 🌟 - Official specification for Terraform `ephemeral` blocks, ephemeral input/output variables, and provider `write-only` attributes (introduced in Terraform 1.10–1.11), guaranteeing that short-lived credentials, tokens, and secrets never persist in `.tfstate` or plan artifacts.
   - [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform) 🌟 - This article explains the introduction of ephemeral values in Terraform 1.10, a new feature designed to address concerns about sensitive information in Terraform state and plan files. It details how ephemeral values, applied to input variables, output values, and a new ephemeral resource type, are not written to state or execution plans, thereby enhancing security. The article also touches upon use cases like provider blocks, provisioner blocks, and write-only arguments.
 
 - [==blog.gruntwork.io: A comprehensive guide to managing secrets in your Terraform code== 🌟🌟🌟](https://www.gruntwork.io/blog/a-comprehensive-guide-to-managing-secrets-in-your-terraform-code)
@@ -636,6 +646,7 @@
 - [Global K3s Deployment on Packet Baremetal 🌟](https://github.com/c0dyhi11/k3s-linkerd) This repository contains Terraform scripts to deploy K3s and LinkerD on Packet baremetal servers spanning the globe.
 
 ### Terraform and GCP
+  - **(2026)** [GoogleCloudPlatform/cloud-foundation-fabric: Modular Terraform Blueprints and Landing Zones for GCP](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) 🌟 - Official Google Cloud repository of production-ready, end-to-end Terraform modules, FAST enterprise landing zone blueprints, GKE patterns, and data/networking reference architectures.
   - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga) 🌟 - Announces the General Availability (GA) of version 7.0 of the Terraform provider for Google Cloud, highlighting new features and improvements for managing Google Cloud resources with Terraform.
 
 - [==cloud.google.com: Terraform blueprints and modules for Google Cloud== 🌟](https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints)
@@ -662,6 +673,7 @@
 ==}
 
 ### Terraform and AWS
+  - **(2026)** [aws-ia: AWS Integration and Automation Official Terraform Modules](https://github.com/aws-ia) 🌟 - Official AWS GitHub organization hosting AWS-maintained Terraform modules, EKS Blueprints, VPC/Landing Zone accelerators, and Bedrock/AI reference architectures.
   - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98) - This resource explains how Terraform can be used to standardize deployments within AWS at scale, ensuring consistency, visibility, and control for development teams.
 
 - [Dzone: terraform with AWS](https://dzone.com/articles/terraform-with-aws)
@@ -782,6 +794,8 @@
 
 ### Terraform with Azure
 
+- **(2026)** [Microsoft Learn: Terraform on Azure Official Documentation Hub](https://learn.microsoft.com/en-us/azure/developer/terraform/overview) 🌟 - Official Microsoft documentation portal for provisioning, testing, and governing Azure infrastructure with HashiCorp Terraform, AzureRM, AzAPI, and Azure Verified Modules.
+- **(2026)** [Azure/terraform: Official Microsoft Azure Terraform Hub and Samples](https://github.com/Azure/terraform) 🌟 - Official Microsoft Azure repository coordinating Terraform community tooling, quickstarts, and reference samples on Azure.
 - [registry.terraform.io: Terraform Azure Resources 🌟](https://registry.terraform.io/modules/azurerm/resources/azure/latest) This set of terraform modules will help you to create and manage a Azure Resources.
 - [build5nines.com: Get Started with Terraform on Azure](https://build5nines.com/get-started-with-terraform-on-microsoft-azure)
 - [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)
@@ -824,6 +838,22 @@
 - [build5nines.com: What is Azure Private Link and How to Deploy with Terraform](https://build5nines.com/what-is-azure-private-link-and-how-to-deploy-with-terraform)
 - [thomasthornton.cloud: Writing reusable Terraform modules (azure)](https://thomasthornton.cloud/writing-reusable-terraform-modules)
 
+#### Azure Verified Modules AVM for Terraform
+
+- **(2026)** [Azure Verified Modules (AVM) Official Portal and Specification](https://azure.github.io/Azure-Verified-Modules) 🌟🌟 - Microsoft's unified initiative consolidating official, Microsoft-maintained Bicep and Terraform modules built to Well-Architected Framework (WAF) and Cloud Adoption Framework (CAF) standards, complete with standardized interfaces for RBAC, Private Endpoints, Diagnostic Settings, Customer-Managed Keys, and Managed Identities.
+- **(2026)** [Azure Verified Modules: Official Terraform Module Index (Resource, Pattern, and Utility)](https://azure.github.io/Azure-Verified-Modules/indexes/terraform) 🌟 - Live catalog of all published Terraform Azure Verified Modules (`avm-res-*` resource modules, `avm-ptn-*` architecture pattern modules, and `avm-utl-*` utility modules) with support status and module owners.
+- **(2026)** [Azure/Azure-Verified-Modules: Central Governance and Specification Repository](https://github.com/Azure/Azure-Verified-Modules) 🌟 - Official GitHub repository hosting the AVM specifications, module lifecycle rules, and cross-language standards for Terraform and Bicep on Azure.
+- **(2026)** [Azure/alz-terraform-accelerator: Azure Landing Zones (ALZ) Terraform Accelerator](https://github.com/Azure/alz-terraform-accelerator) 🌟🌟 - Official CLI and starter framework that bootstraps production-grade Azure Landing Zones using Terraform Azure Verified Modules (AVM) alongside automated CI/CD pipelines for GitHub Actions (with OIDC Workload Identity Federation) and Azure DevOps Pipelines.
+- **(2026)** [Azure/terraform-azurerm-avm-ptn-alz: AVM Pattern Module for Azure Landing Zones](https://github.com/Azure/terraform-azurerm-avm-ptn-alz) 🌟 - Next-generation AVM pattern module for deploying management group hierarchies, core platform policies, and governance archetypes in Azure Landing Zones (replacing the legacy monolithic CAF Enterprise-Scale module).
+- **(2026)** [Azure/terraform-azurerm-lz-vending: AVM Subscription Vending Terraform Module](https://github.com/Azure/terraform-azurerm-lz-vending) 🌟 - Official Azure Landing Zone subscription vending module for automating subscription creation, management group placement, hub-spoke VNet/Virtual WAN peering, RBAC assignments, and budget alerts via CI/CD pipelines.
+- **(2026)** [Azure/terraform-azurerm-avm-ptn-virtualwan: AVM Pattern Module for Azure Virtual WAN](https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan) 🌟 - Official AVM pattern module for deploying enterprise global transit hub-and-spoke networks with Azure Virtual WAN, Virtual Hubs, ExpressRoute/VPN gateways, and Azure Firewall routing intent.
+- **(2026)** [Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource Module for AKS](https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster) 🌟 - Official Azure Verified Module for provisioning production-ready Azure Kubernetes Service (AKS) clusters with private API servers, Entra ID RBAC, Azure CNI Overlay/Cilium, Key Vault CSI, and node pool autoscaling.
+- **(2026)** [Azure/terraform-azurerm-avm-res-cognitiveservices-account: AVM Resource Module for Azure OpenAI and AI Services](https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account) 🌟 - Official Azure Verified Module for deploying Azure OpenAI and Cognitive Services accounts with model deployments, private endpoints, customer-managed encryption keys, and WAF-compliant network isolation.
+- **(2026)** [Azure/terraform-azurerm-avm-res-keyvault-vault: AVM Resource Module for Azure Key Vault](https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault) 🌟 - Official Azure Verified Module for Azure Key Vault enforcing RBAC authorization, purge protection, private link endpoints, and diagnostic telemetry.
+- **(2026)** [Azure/terraform-azurerm-avm-res-network-virtualnetwork: AVM Resource Module for Azure Virtual Network](https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork) 🌟 - Official Azure Verified Module for provisioning Azure Virtual Networks, subnets, NSGs, route tables, peering, and DDoS protection plans.
+- **(2026)** [Azure/avm-terraform-governance: AVM Terraform CI/CD Linting and Governance Engine](https://github.com/Azure/avm-terraform-governance) 🌟 - Official containerized CI/CD testing and policy enforcement toolchain used across all Azure Verified Modules for Terraform, integrating `terraform test`, `tflint`, `trivy`, and Conftest/OPA policy checks.
+- **(2026)** [Azure/tflint-ruleset-avm: TFLint Ruleset for Azure Verified Modules](https://github.com/Azure/tflint-ruleset-avm) 🌟 - Custom TFLint plugin enforcing Microsoft Azure Verified Modules (AVM) HCL coding standards, interface conventions, and variable specifications in CI pipelines.
+
 #### Azure Terraform Export aztfexport
 
 - [github.com/Azure/aztfexport](https://github.com/Azure/aztfexport)
@@ -843,6 +873,7 @@
 
 #### Azure Terrafy and AzAPI Terraform Provider
 
+- **(2026)** [Azure/terraform-provider-azapi: Official Azure Resource Manager REST API Provider](https://github.com/Azure/terraform-provider-azapi) 🌟 - Official Terraform provider built directly on the Azure ARM REST API, enabling zero-day support for preview Azure features, `azapi_update_resource` patching, data plane operations, and seamless migration to `azurerm`.
 - [==Announcing Azure Terrafy and AzAPI Terraform Provider Previews==](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-azure-terrafy-and-azapi-terraform-provider-previews/3270937) On Azure, businesses may choose many flavors of IaC tooling to manage their Azure resources including HashiCorp Terraform, Bicep, ARM templates, Ansible and many more. We encourage you to choose the IaC tool that best suits your needs. Our mission is to ensure that no matter which tool you choose, you have the best experience and integration with Azure.
 - [techcommunity.microsoft.com: Azure Terrafy – Import your existing Azure infrastructure into Terraform HCL](https://techcommunity.microsoft.com/blog/itopstalkblog/azure-terrafy-%e2%80%93-import-your-existing-azure-infrastructure-into-terraform-hcl/3357653)
 - [techcommunity.microsoft.com: Announcing AzAPI Dynamic Properties](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-azapi-dynamic-properties/4121855)
@@ -1036,12 +1067,17 @@ network_plugin = "kubenet"  # use Azure CNI network plugin when windows node poo
 
 ### Terraform AzureRM
 
+- **(2026)** [hashicorp/terraform-provider-azurerm: Official Azure Resource Manager Terraform Provider](https://github.com/hashicorp/terraform-provider-azurerm) 🌟 - Primary open-source Terraform provider for Microsoft Azure (v4.x+), supporting granular resource lifecycle management, enhanced provider functions, and workload identity authentication.
 - [hashicorp.com: Terraform AzureRM 3.0 Brings Enhanced Azure Function Support](https://www.hashicorp.com/blog/terraform-azurerm-3-0-brings-enhanced-azure-function-support)
 - [registry.terraform.io: Data Source: azurerm_ip_groups (new)](https://registry.terraform.io/providers/hashicorp/Azurerm/latest/docs/data-sources/ip_groups)
 - [registry.terraform.io/modules/hlokensgard/rbac-administrator](https://registry.terraform.io/modules/hlokensgard/rbac-administrator/azure/latest) A Terraform module that will help you create role assignment for the role Role Based Access Control Administrator.
 
 ## Terraform Code Quality. Terraform Quality Checks. Terraform Linters
 
+- **(2026)** [antonbabenko/pre-commit-terraform: Git Pre-Commit and CI Hooks for Terraform and OpenTofu](https://github.com/antonbabenko/pre-commit-terraform) 🌟 - Comprehensive collection of Git pre-commit and CI hooks automating `terraform fmt`, `validate`, `tflint`, `trivy`, `checkov`, `infracost`, and `terraform-docs` across multi-module repositories.
+- **(2026)** [aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform](https://github.com/aquasecurity/trivy) 🌟 - Industry-standard open-source scanner (superseding `tfsec`) that detects security misconfigurations, policy violations, and exposed secrets across Terraform HCL, plan files, and modules.
+- **(2026)** [bridgecrewio/checkov: Policy-as-Code Static Analysis for Terraform](https://github.com/bridgecrewio/checkov) 🌟 - Graph-based static code analysis tool for Infrastructure as Code with over 1,000 built-in CIS, NIST, and cloud security policies for Terraform, Terraform Plan JSON, Bicep, and Kubernetes.
+- **(2026)** [terraform-docs/terraform-docs: Automated Documentation Generator for Terraform Modules](https://github.com/terraform-docs/terraform-docs) 🌟 - CLI and GitHub Action utility that automatically generates Markdown, JSON, and YAML documentation tables of inputs, outputs, providers, and requirements from Terraform modules.
 - [==prcode.co.uk: Terraform Code Quality==](https://prcode.co.uk/2022/02/08/terraform-code-quality)
 - [github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint/releases/tag/v0.51.0)
 
@@ -1146,10 +1182,21 @@ network_plugin = "kubenet"  # use Azure CNI network plugin when windows node poo
 
 ## Videos
 
+- **(2026)** [youtube.com/@nubenetes: Nubenetes Azure Verified Modules (AVM) Terraform Labs (Playlist)](https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM) 🌟🌟 - Official Nubenetes NotebookLM video series covering end-to-end Azure Verified Modules (AVM) labs, modular Terraform patterns, and enterprise infrastructure automation on Azure.
+- **(2026)** [youtube.com/@nubenetes: Nubenetes Azure Landing Zones 2026 — Enterprise CAF and Architecture Blueprint (Playlist)](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) 🌟🌟 - Deep-dive video playlist exploring the 2026 Azure Landing Zones (ALZ) modular rebuild with Terraform AVM, management group hierarchies, and zero-secret CI/CD pipelines.
+- **(2026)** [youtube.com/@nubenetes: Azure Verified Modules Lab — Complete Terraform End-to-End Walkthrough](https://www.youtube.com/watch?v=I4s0A1uXEUg) 🌟 - Step-by-step architectural walkthrough of provisioning enterprise Azure resources using Terraform Azure Verified Modules (AVM).
+- **(2026)** [youtube.com/@nubenetes: Day 0 to Day 2 — Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC](https://www.youtube.com/watch?v=IcH7LalL5cc) 🌟 - Architectural guide to eliminating static cloud credentials in Terraform CI/CD pipelines using GitHub Actions and OpenID Connect (OIDC) Workload Identity Federation.
+- **(2026)** [youtube.com/@nubenetes: Retiring the CAF Monolith — Azure Verified Modules (AVM) and ALZ Library 2026](https://www.youtube.com/watch?v=BNEGxzQgDB8) 🌟 - Explains the transition from the monolithic CAF Enterprise-Scale Terraform module to the decoupled ALZ Provider and Azure Verified Modules (AVM) architecture.
+- **(2026)** [youtube.com/@nubenetes: ALZ 2026 Masterclass — Modular Architecture and AVM Rebuild](https://www.youtube.com/watch?v=HjLte2SGCk0) 🌟 - Comprehensive masterclass on designing and operating modular Azure Landing Zones with Terraform AVM.
+
 ??? note "Click to expand!"
 
 	<center markdown="1">
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLNKD2Ya-t0zM" title="Nubenetes Azure Verified Modules (AVM) Terraform Labs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCgDGrDt3kNU" title="Nubenetes Azure Landing Zones 2026 Blueprint" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I4s0A1uXEUg" title="Azure Verified Modules Lab: Complete Terraform End-to-End Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IcH7LalL5cc" title="Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PxyyY7TsCqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/l5k1ai_GBDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/gxPykhPxRW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

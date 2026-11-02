@@ -1,13 +1,146 @@
 import yaml
 import os
 import re
+import json
+import time
 import asyncio
 import httpx
+import feedparser
+from datetime import datetime
 from src.logger import log_event
+from src.config import MADRID_TZ
 from src.gemini_utils import call_gemini_with_retry, fetch_youtube_metadata
 from src.inventory_manager import load_inventory, save_inventory
 
 INVENTORY_PATH = "data/inventory.yaml"
+NUBENETES_CHANNEL_ID = "UCnrc0CFnNJSG2Kt4Ohdr3UA"
+NUBENETES_FEED_URL = f"https://www.youtube.com/feeds/videos.xml?channel_id={NUBENETES_CHANNEL_ID}"
+
+
+async def discover_nubenetes_channel_assets(inventory: dict) -> int:
+    """
+    Automatically discovers new playlists and videos published on https://www.youtube.com/@nubenetes
+    (via both the YouTube Atom feed and the /playlists & /videos tabs) and registers them
+    in the inventory as featured videos so they are enriched and added to the V2 Video Hub.
+    """
+    log_event("[*] Syncing official @nubenetes YouTube channel (playlists & new videos)...")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    cookies = {
+        "CONSENT": "YES+cb.20210328-17-p0.en+FX+410",
+        "SOCS": "CAISHAgBEhJnd3NfMjAyMzA4MTAtMF9SQzIaAmVuIAEaBgiAo_CmBg",
+    }
+    discovered = []
+
+    async with httpx.AsyncClient(headers=headers, cookies=cookies, follow_redirects=True, timeout=15.0) as client:
+        # 1. Atom Feed (fastest & most reliable for newest video uploads)
+        try:
+            resp = await client.get(NUBENETES_FEED_URL)
+            if resp.status_code == 200:
+                feed = await asyncio.to_thread(feedparser.parse, resp.content)
+                for entry in feed.entries:
+                    link = entry.get("link", "").strip()
+                    title = entry.get("title", "").strip()
+                    summary = entry.get("summary", "").strip()
+                    if link:
+                        discovered.append({"url": link, "title": title, "raw_desc": summary, "is_playlist": False})
+        except Exception as e:
+            log_event(f"    [WARN] @nubenetes Atom feed check failed: {str(e)[:80]}")
+
+        # 2. Channel /playlists tab (discovers new categorized NotebookLM playlists)
+        try:
+            resp_pl = await client.get("https://www.youtube.com/@nubenetes/playlists")
+            if resp_pl.status_code == 200:
+                m = re.search(r"var ytInitialData = (\{.*?\});</script>", resp_pl.text)
+                if m:
+                    data = json.loads(m.group(1))
+                    def _walk_pl(obj):
+                        if isinstance(obj, dict):
+                            if "lockupViewModel" in obj:
+                                lvm = obj["lockupViewModel"]
+                                cid = lvm.get("contentId", "")
+                                title = (
+                                    lvm.get("metadata", {})
+                                    .get("lockupMetadataViewModel", {})
+                                    .get("title", {})
+                                    .get("content", "")
+                                )
+                                if cid.startswith("PL") and title:
+                                    clean_title = title.lstrip("⭐ ").strip()
+                                    discovered.append({
+                                        "url": f"https://www.youtube.com/playlist?list={cid}",
+                                        "title": f"{clean_title} (Playlist)",
+                                        "raw_desc": f"Official @nubenetes NotebookLM curated playlist: {clean_title}",
+                                        "is_playlist": True,
+                                    })
+                            for v in obj.values():
+                                _walk_pl(v)
+                        elif isinstance(obj, list):
+                            for item in obj:
+                                _walk_pl(item)
+                    _walk_pl(data)
+        except Exception as e:
+            log_event(f"    [WARN] @nubenetes playlists check failed: {str(e)[:80]}")
+
+    now_iso = datetime.now(MADRID_TZ).isoformat()
+    now_ts = int(time.time())
+    added_count = 0
+
+    for item in discovered:
+        url = item["url"]
+        vid_id_match = re.search(r"[?&]v=([^&#]+)", url)
+        embed_alt = f"https://www.youtube.com/embed/{vid_id_match.group(1)}" if vid_id_match else None
+
+        if url in inventory or (embed_alt and embed_alt in inventory):
+            target_key = url if url in inventory else embed_alt
+            if not inventory[target_key].get("is_featured_video"):
+                inventory[target_key]["is_featured_video"] = True
+                inventory[target_key]["company"] = "Nubenetes"
+                inventory[target_key]["source_provenance"] = "Official @nubenetes YouTube Channel"
+                added_count += 1
+            continue
+
+        inventory[url] = {
+            "title": item["title"],
+            "description": item["raw_desc"],
+            "year": str(datetime.now(MADRID_TZ).year),
+            "stars": 5,
+            "ai_summary": item["raw_desc"],
+            "language": "Spanish" if any(w in item["title"].lower() for w in ("español", "ahorra", "economía", "almacenamiento", "finops en azure", "arquitectura de")) else "English",
+            "resource_type": "Video",
+            "complexity": "Intermediate",
+            "is_microservice": False,
+            "is_featured_video": True,
+            "is_enriched": False,
+            "video_order": 25,
+            "technology": "Cloud Native",
+            "category": "Architecture and Cloud Strategy",
+            "status": "online",
+            "addition_method": "automatic",
+            "health_score": 100.0,
+            "last_checked": now_ts,
+            "needs_ai_refresh": False,
+            "discovered_at": now_iso,
+            "last_ai_eval": now_iso,
+            "company": "Nubenetes",
+            "geo_region": "spain",
+            "hierarchy": ["Cloud Native", "Video Masterclasses"],
+            "tags": ["[GUIDE]"],
+            "v1_locations": ["docs/index.md"],
+            "v2_locations": ["index.md"],
+            "youtube_mosaic": {},
+            "source_provenance": "Official @nubenetes YouTube Channel",
+        }
+        added_count += 1
+
+    if added_count > 0:
+        log_event(f"    [+] Discovered {added_count} new @nubenetes videos/playlists for the Video Hub.")
+        save_inventory(inventory)
+    else:
+        log_event("    [OK] @nubenetes channel is up to date with inventory.")
+    return added_count
 
 async def enrich_video_entry(url: str, entry: dict):
     log_event(f"[*] Enriching video: {url}")
@@ -75,7 +208,10 @@ async def main():
 
     inventory = load_inventory()
 
-    video_urls = [u for u, e in inventory.items() if e.get("is_featured_video")]
+    # Auto-discover any new videos or playlists uploaded to https://www.youtube.com/@nubenetes
+    await discover_nubenetes_channel_assets(inventory)
+
+    video_urls = [u for u, e in inventory.items() if isinstance(e, dict) and e.get("is_featured_video")]
     
     tasks = []
     skipped = 0

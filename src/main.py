@@ -15,7 +15,7 @@ from src.config import TARGET_REPO, MADRID_TZ, GH_TOKEN, NUBENETES_CATEGORIES
 from src.ingestion_twikit import SocialDataExtractor
 from src.markdown_ast import MarkdownSanitizer
 from src.agentic_curator import evaluate_extracted_assets, AgenticCurator
-from src.autonomous_discovery import discover_trending_assets
+from src.autonomous_discovery import discover_trending_assets, fetch_watched_github_releases
 from src.gitops_manager import RepositoryController
 from src.logger import log_event
 from src.gemini_utils import call_gemini_with_retry, resolve_url, normalize_url, sanitize_trailing_slashes
@@ -103,6 +103,7 @@ async def master_orchestrator():
     # 2. Load Multi-source Accounts with Topic Filtering
     accounts_to_scan = []
     feeds_to_scan = []
+    repos_to_watch = []
     sources_file = "data/curation_sources.yaml"
     
     # Topic Inclusion Flags (from Env)
@@ -130,13 +131,19 @@ async def master_orchestrator():
                             if acc.lower() not in exclude_list:
                                 all_accounts.add(acc)
                         for feed in topic_data.get("feeds", []):
-                            feeds_to_scan.append(feed)
+                            if feed not in feeds_to_scan:
+                                feeds_to_scan.append(feed)
+                        for gh_repo in topic_data.get("github_repos_watch", []):
+                            if gh_repo not in repos_to_watch:
+                                repos_to_watch.append(gh_repo)
 
                 if all_accounts:
                     accounts_to_scan = list(all_accounts)
                     log_event(f"[*] Multi-source loaded: {len(accounts_to_scan)} accounts from enabled topics.")
                 if feeds_to_scan:
                     log_event(f"[*] RSS Feeds loaded: {len(feeds_to_scan)} technical blogs.")
+                if repos_to_watch:
+                    log_event(f"[*] GitHub Release Watch loaded: {len(repos_to_watch)} core repositories.")
         except Exception as e:
             log_event(f"[!] Error loading sources: {e}")
     
@@ -172,6 +179,13 @@ async def master_orchestrator():
             raw_rss = await rss_client.fetch_links_since(since_date, feeds_to_scan)
             raw_social.extend(raw_rss)
             x_audit_trail.extend(rss_client.audit_trail)
+
+        # C. Watched GitHub Repositories Release Extraction
+        if repos_to_watch:
+            log_event(f"[*] Checking recent GitHub releases across {len(repos_to_watch)} watched repos...")
+            raw_releases = await fetch_watched_github_releases(since_date, repos_to_watch)
+            raw_social.extend(raw_releases)
+            log_event(f"[*] Extracted {len(raw_releases)} recent GitHub releases.")
     
     trending = []
     if not is_historical and not backup_file:
