@@ -470,7 +470,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="2 resources">Kubernetes<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="614 resources">Legacy<span class="v2-heat-n">614</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="615 resources">Legacy<span class="v2-heat-n">615</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#llm" title="81 resources">LLM<span class="v2-heat-n">81</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
