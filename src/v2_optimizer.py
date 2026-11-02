@@ -1327,7 +1327,8 @@ class V2VisionEngine:
                     return None
 
             def _clean_title(t):
-                t = nuclear_strip(t)
+                t = nuclear_strip(t).replace("**", "")
+                t = re.sub(r'[🌟⭐]+', '', t).strip()
                 # "github.com/owner/repo" -> "repo"
                 if "github.com/" in t.lower():
                     t = t.rstrip("/").split("/")[-1]
@@ -1335,7 +1336,7 @@ class V2VisionEngine:
                 m = re.match(r'^[\w.-]+\.[a-z]{2,}:\s*(.+)$', t, re.I)
                 if m:
                     t = m.group(1)
-                return t
+                return t.strip()
 
             def _fmt_stars(n):
                 if not n:
@@ -1344,20 +1345,48 @@ class V2VisionEngine:
                     return f"{n / 1000:.1f}k★".replace(".0k", "k")
                 return f"{n}★"
 
-            def _select_lane(window_key, count, exclude_urls, score_fn):
-                # Build a scored pool from the window's top-2 items per category,
-                # then apply a per-category diversity quota. The scoring policy is
-                # supplied by score_fn so each lane surfaces a different signal.
+            def _latest_item_date(item):
+                url = item.get("url")
+                inv_meta = self.inventory.get(url) if isinstance(self.inventory, dict) and url else None
+                cands = []
+                raw_d = str(item.get("date") or "")[:10]
+                if len(raw_d) == 10 and raw_d.startswith("20"):
+                    cands.append(raw_d)
+                if isinstance(inv_meta, dict):
+                    for k in ("gh_pushed", "discovered_at"):
+                        v = str(inv_meta.get(k) or "")[:10]
+                        if len(v) == 10 and v.startswith("20"):
+                            cands.append(v)
+                return max(cands) if cands else (item.get("date") or "")
+
+            def _select_lane(window_keys, count, exclude_urls, score_fn):
+                if isinstance(window_keys, str):
+                    window_keys = [window_keys]
+                # Build a scored pool from up to 4 non-excluded items per category
+                # across the requested window(s), then apply per-category diversity.
                 pool = []
-                for cat_name, items in digest_data.get(window_key, {}).items():
-                    for item in (items or [])[:2]:
-                        if not isinstance(item, dict) or item.get("url") in exclude_urls:
-                            continue
-                        d = _parse_day(item.get("date"))
-                        age_days = (now.date() - d).days if d else 999
-                        pool.append({**item, "digest_category": cat_name, "_age_days": age_days, "_score": score_fn(item, age_days)})
+                seen_in_pool = set(exclude_urls)
+                for w_key in window_keys:
+                    for cat_name, items in digest_data.get(w_key, {}).items():
+                        taken_for_cat = 0
+                        for item in (items or []):
+                            if not isinstance(item, dict):
+                                continue
+                            u = item.get("url")
+                            if not u or u in seen_in_pool:
+                                continue
+                            fresh_date_str = _latest_item_date(item)
+                            d = _parse_day(fresh_date_str)
+                            age_days = max((now.date() - d).days, 0) if d else 999
+                            enriched_item = {**item, "date": fresh_date_str, "digest_category": cat_name, "_age_days": age_days}
+                            enriched_item["_score"] = score_fn(enriched_item, age_days)
+                            pool.append(enriched_item)
+                            seen_in_pool.add(u)
+                            taken_for_cat += 1
+                            if taken_for_cat >= 4:
+                                break
                 pool.sort(key=lambda x: x["_score"], reverse=True)
-                # Diversity quota: at most one card per category, then backfill.
+                # Diversity quota: at most one card per category first, then backfill.
                 sel, used_cats, used = [], set(), set(exclude_urls)
                 for it in pool:
                     if it["digest_category"] in used_cats or it.get("url") in used:
@@ -1394,13 +1423,23 @@ class V2VisionEngine:
                     if metric:
                         meta += f" · {metric}"
                     new_pill = ' <span class="trending-card__new">🆕 NEW</span>' if show_new and item.get("_age_days", 999) <= 7 else ""
+                    why_text = str(item.get("why") or "").strip()
+                    if why_text and why_text[-1] not in ".!?\"')":
+                        full_ai = str((inv_meta or {}).get("ai_summary") or "").strip()
+                        first_sent = re.split(r'(?<=[.!?])\s+', full_ai)[0].strip() if full_ai else ""
+                        if first_sent and first_sent[-1] in ".!?":
+                            why_text = first_sent
+                        elif "." in why_text:
+                            why_text = why_text.rsplit(".", 1)[0].strip() + "."
+                        else:
+                            why_text = why_text.rsplit(" ", 1)[0].rstrip(",;:-") + "."
                     html += (
                         f'<div class="trending-card{extra_cls}">\n'
                         f'  <div class="trending-card__impact trending-card__impact--{impact}">{impact_icons.get(impact, "🔵")} {impact.upper()}{new_pill}</div>\n'
                         f'  <div class="trending-card__category">{item.get("digest_category", "")}</div>\n'
                         f'  <div class="trending-card__title"><a href="{item.get("url", "#")}">{_clean_title(item.get("title", "Unknown"))}</a></div>\n'
                         f'  <div class="trending-card__meta">{meta}</div>\n'
-                        f'  <div class="trending-card__why">{item.get("why", "")}</div>\n'
+                        f'  <div class="trending-card__why">{why_text}</div>\n'
                         f'</div>\n'
                     )
                 return html
@@ -1442,20 +1481,26 @@ class V2VisionEngine:
                 return _impact(item) * (0.35 + 0.65 * recency)
 
             def _sustained_score(item, age_days):
-                # "Rising this Quarter": reward proven staying power (present across
-                # the 12-month window) and de-prioritise <7d items (those belong in
-                # lane 1) so the two lanes surface genuinely different resources —
-                # not just lane 1's leftovers under a different label.
-                persistence = 1.0 if item.get("url") in twelve_mo_urls else 0.5
-                maturity = 0.35 if age_days < 7 else 1.0
-                decay = 0.5 ** (max(age_days, 0) / 120.0)
-                return _impact(item) * persistence * maturity * (0.45 + 0.55 * decay)
+                # "Rising this Quarter — Sustained Momentum":
+                # Combines (1) Gemini impact tier, (2) multi-window persistence across
+                # 6/12-month horizons, (3) live GitHub star/momentum velocity from
+                # inventory.yaml, and (4) a 45-day quarter recency half-life so active
+                # Q3/Q4 projects outrank dormant older entries.
+                url = item.get("url")
+                inv_meta = self.inventory.get(url) if isinstance(self.inventory, dict) and url else None
+                gh_stars = (inv_meta.get("gh_stars") or 0) if isinstance(inv_meta, dict) else 0
+                momentum = float(inv_meta.get("momentum_score") or 0.0) if isinstance(inv_meta, dict) else 0.0
+                persistence = 1.0 if url in twelve_mo_urls else 0.8
+                velocity_boost = 1.0 + (min(math.log10(max(gh_stars, 10)) / 10.0, 0.45) if gh_stars else 0.15) + (0.25 * momentum)
+                quarter_decay = 0.5 ** (max(age_days, 0) / 45.0)
+                return _impact(item) * persistence * velocity_boost * (0.25 + 0.75 * quarter_decay)
 
             # Lane 1: fresh momentum (3-month window). Pull a deep, category-diverse
             # set; the lane shows the first few and tucks the rest behind "Show more".
             top_items = _select_lane("3_months", 16, set(), _fresh_score)
-            # Lane 2: sustained momentum (6-month window), de-duplicated against lane 1.
-            rising_items = _select_lane("6_months", 12, {it.get("url") for it in top_items}, _sustained_score)
+            # Lane 2: sustained quarter momentum (merges 3_months and 6_months pools),
+            # de-duplicated against lane 1 so both lanes are 100% distinct and current.
+            rising_items = _select_lane(["3_months", "6_months"], 12, {it.get("url") for it in top_items}, _sustained_score)
 
             try:
                 from datetime import datetime as _dt
