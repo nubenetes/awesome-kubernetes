@@ -708773,6 +708773,7 @@ https://www.youtube.com/playlist?list=PLCgDGrDt3kNU:
   - '[ENTERPRISE-STABLE]'
   - '[GUIDE]'
   - '[IAC]'
+  - '[LEGACY]'
   - '[TERRAFORM]'
   v1_locations:
   - docs/terraform.md
