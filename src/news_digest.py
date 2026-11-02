@@ -223,23 +223,25 @@ class NewsDigestEngine:
             pass
         return None
 
-    @staticmethod
-    def _is_within_period(entry: dict, cutoff_iso: str) -> bool:
-        """Check if entry falls within the time period using discovered_at,
-        with year field as fallback for backfilled entries."""
-        discovered = entry.get("discovered_at") or ""
-        if discovered:
-            try:
-                if str(discovered) >= cutoff_iso:
-                    return True
-            except Exception:
-                pass
+    @classmethod
+    def _is_within_period(cls, entry: dict, cutoff_iso: str) -> bool:
+        """Check if entry falls within the time period using effective activity/discovery date.
+        If an entry has a concrete date (discovered_at or gh_pushed), that date strictly dictates eligibility.
+        Fallback to year is only permitted for entries lacking concrete dates when the cutoff year is strictly in the past.
+        """
+        discovered = str(entry.get("discovered_at") or "")[:10]
+        gh_pushed = str(entry.get("gh_pushed") or "")[:10]
+        candidates = [d for d in [discovered, gh_pushed] if len(d) == 10 and d.startswith("20")]
+        if candidates:
+            return max(candidates) >= cutoff_iso[:10]
+
         year = entry.get("year")
         if year is not None:
             year_str = str(year).strip()
-            if year_str.isdigit():
+            if year_str.isdigit() and len(year_str) == 4:
                 cutoff_year = cutoff_iso[:4] if len(cutoff_iso) >= 4 else "2020"
-                return year_str >= cutoff_year
+                if cutoff_year < datetime.now(MADRID_TZ).strftime("%Y"):
+                    return year_str >= cutoff_year
         return False
 
     # ------------------------------------------------------------------ #
@@ -283,15 +285,16 @@ class NewsDigestEngine:
             f"RESOURCES:\n{entries_text}"
         )
 
-    @staticmethod
-    def _extract_entry_date(e: dict) -> str:
-        """Extract a 10-char date string (YYYY-MM-DD or YYYY) safely from an entry."""
-        discovered = e.get("discovered_at")
-        if discovered and isinstance(discovered, str):
-            return discovered[:10]
-        gh_pushed = e.get("gh_pushed")
-        if gh_pushed and isinstance(gh_pushed, str):
-            return gh_pushed[:10]
+    @classmethod
+    def _extract_entry_date(cls, e: dict) -> str:
+        """Extract the most recent 10-char date string (YYYY-MM-DD or YYYY) safely from an entry.
+        Prioritizes the latest concrete date between discovered_at and gh_pushed.
+        """
+        discovered = str(e.get("discovered_at") or "")[:10]
+        gh_pushed = str(e.get("gh_pushed") or "")[:10]
+        candidates = [d for d in [discovered, gh_pushed] if len(d) == 10 and d.startswith("20")]
+        if candidates:
+            return max(candidates)
         year = e.get("year")
         if year is not None:
             year_str = str(year).strip()
@@ -444,8 +447,8 @@ class NewsDigestEngine:
             for cat_name, entries in category_pools.items():
                 entries.sort(
                     key=lambda x: (
-                        x.get("stars") or 0,
-                        str(x.get("discovered_at") or ""),
+                        int(x.get("stars") or 0),
+                        self._extract_entry_date(x),
                     ),
                     reverse=True,
                 )
@@ -453,15 +456,39 @@ class NewsDigestEngine:
                 pool_hash = self._compute_pool_hash(entries)
 
                 # ── Cache hit: reuse without calling Gemini ──
-                if self._is_cache_valid(period_name, cat_name, pool_hash, old_meta):
-                    cached_items = existing.get(period_name, {}).get(cat_name, [])
-                    if cached_items:
-                        digest[period_name][cat_name] = cached_items
-                        new_meta[period_name][cat_name] = (
-                            old_meta[period_name][cat_name]
-                        )
-                        n_cached += 1
-                        continue
+                cached_items = existing.get(period_name, {}).get(cat_name, [])
+                pool_urls = {e.get("url") for e in entries if e.get("url")}
+                all_cached_in_window = bool(cached_items) and all(
+                    it.get("url") in pool_urls for it in cached_items
+                )
+                cell_meta = old_meta.get(period_name, {}).get(cat_name, {})
+                is_fresh = False
+                if isinstance(cell_meta, dict) and cell_meta.get("last_analyzed"):
+                    try:
+                        age = (
+                            datetime.now(MADRID_TZ)
+                            - datetime.fromisoformat(str(cell_meta["last_analyzed"]))
+                        ).days
+                        is_fresh = age <= MAX_STALENESS_DAYS
+                    except Exception:
+                        is_fresh = False
+
+                if all_cached_in_window and (
+                    self._is_cache_valid(period_name, cat_name, pool_hash, old_meta)
+                    or (period_name != "3_months" and is_fresh)
+                ):
+                    # Refresh dates in cached items to reflect latest inventory metadata
+                    for item in cached_items:
+                        url = item.get("url")
+                        if url and url in self.inventory:
+                            item["date"] = self._extract_entry_date(self.inventory[url])
+                    digest[period_name][cat_name] = cached_items
+                    updated_cell_meta = dict(cell_meta)
+                    updated_cell_meta["entry_hash"] = pool_hash
+                    updated_cell_meta["entry_count"] = len(entries)
+                    new_meta[period_name][cat_name] = updated_cell_meta
+                    n_cached += 1
+                    continue
 
                 # ── Fewer than 3 entries: star-based fallback (no AI) ──
                 if len(entries) < 3:
@@ -483,7 +510,7 @@ class NewsDigestEngine:
                         cat_name, entries, period_name
                     )
                     result = await call_gemini_with_retry(
-                        prompt, prefer_flash=True, role="Digest-Analyst"
+                        prompt, max_retries=1, prefer_flash=True, role="Digest-Analyst"
                     )
                     ranked: List[dict] = []
                     for item in result.get("items", []):
@@ -506,6 +533,8 @@ class NewsDigestEngine:
                                     "category": cat_name,
                                 }
                             )
+                    if not ranked:
+                        ranked = self._fallback_items(entries, cat_name, limit=max_items)
                     digest[period_name][cat_name] = ranked[:max_items]
                     new_meta[period_name][cat_name] = {
                         "last_analyzed": datetime.now(MADRID_TZ).isoformat(),
@@ -518,7 +547,7 @@ class NewsDigestEngine:
                         f"  [Digest] {period_name}/{cat_name}: "
                         f"{len(ranked)} items ranked (Gemini)"
                     )
-                except Exception as exc:
+                except (Exception, SystemExit) as exc:
                     log_event(
                         f"  [Digest WARN] {period_name}/{cat_name}: "
                         f"Gemini failed ({str(exc)[:80]}), using fallback"
