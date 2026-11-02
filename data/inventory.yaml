@@ -707815,6 +707815,9 @@ https://github.com/aws-ia:
   youtube_mosaic: {}
   category: terraform
   source_provenance: Targeted IaC & AVM Curation
+  gh_stars: 0
+  gh_pushed: null
+  gh_license: N/A
 https://github.com/hashicorp/setup-terraform:
   title: 'hashicorp/setup-terraform: Official GitHub Action for Terraform CLI'
   description: Official HashiCorp GitHub Action that sets up the Terraform CLI in
@@ -708771,13 +708774,9 @@ https://www.youtube.com/shorts/EsIyH6PSGrE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Terraform + Azure Verified Modules (AVM)
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -708795,6 +708794,11 @@ https://www.youtube.com/shorts/EsIyH6PSGrE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Terraform + Azure Verified Modules (AVM)
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/xf5UNTUjYjY:
   title: How Azure Private Endpoints Lock Down Data | Private PaaS Security
@@ -708858,13 +708862,9 @@ https://www.youtube.com/shorts/xf5UNTUjYjY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Private Link + Terraform
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -708882,6 +708882,11 @@ https://www.youtube.com/shorts/xf5UNTUjYjY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Private Link + Terraform
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/2YlxRtiYll4:
   title: How Managed Identities Kill Passwords | Azure Zero-Secret Security
@@ -708945,13 +708950,9 @@ https://www.youtube.com/shorts/2YlxRtiYll4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Managed Identities / Terraform
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -708969,6 +708970,11 @@ https://www.youtube.com/shorts/2YlxRtiYll4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Managed Identities / Terraform
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/QeVoCsTMBOQ:
   title: How Azure Bastion Secures Virtual Machines | Zero Public IP Access
@@ -709031,13 +709037,9 @@ https://www.youtube.com/shorts/QeVoCsTMBOQ:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Bastion
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709055,6 +709057,11 @@ https://www.youtube.com/shorts/QeVoCsTMBOQ:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Bastion
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/-JlLcd-4CIs:
   title: Unindexed Cloud Native Technical Short (-JlLcd-4CIs)
@@ -709116,13 +709123,9 @@ https://www.youtube.com/shorts/-JlLcd-4CIs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709140,6 +709143,11 @@ https://www.youtube.com/shorts/-JlLcd-4CIs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/BnkctVGCD8A:
   title: 'Unindexed Cloud Native Technical Short (ID: BnkctVGCD8A)'
@@ -709203,13 +709211,9 @@ https://www.youtube.com/shorts/BnkctVGCD8A:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709227,6 +709231,11 @@ https://www.youtube.com/shorts/BnkctVGCD8A:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/jwASueLUzhI:
   title: 'Unindexed Cloud Native Architecture & AI Operations Short (ID: jwASueLUzhI)'
@@ -709288,13 +709297,9 @@ https://www.youtube.com/shorts/jwASueLUzhI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709312,6 +709317,11 @@ https://www.youtube.com/shorts/jwASueLUzhI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/xIkzOaSfB1c:
   title: Deploying Secure Azure Architecture with Verified Modules | AVM Labs
@@ -709375,13 +709385,9 @@ https://www.youtube.com/shorts/xIkzOaSfB1c:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Terraform / Azure Verified Modules (AVM)
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709399,6 +709405,11 @@ https://www.youtube.com/shorts/xIkzOaSfB1c:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Terraform / Azure Verified Modules (AVM)
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/oBkA9k32ECQ:
   title: How Azure Centralizes Cloud Monitoring | AVM Log Analytics Workspace
@@ -709464,13 +709475,9 @@ https://www.youtube.com/shorts/oBkA9k32ECQ:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Terraform & Azure Verified Modules (AVM)
-  category: Observability and Monitoring
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709488,6 +709495,11 @@ https://www.youtube.com/shorts/oBkA9k32ECQ:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Terraform & Azure Verified Modules (AVM)
+  category: Observability and Monitoring
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/-Bo6tLrseDo:
   title: 'Metadata Unavailable (Video ID: -Bo6tLrseDo)'
@@ -709548,13 +709560,9 @@ https://www.youtube.com/shorts/-Bo6tLrseDo:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709572,6 +709580,11 @@ https://www.youtube.com/shorts/-Bo6tLrseDo:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/ptetbW0C0P8:
   title: Why Azure Platform Teams Choose AzAPI Complexity | ALZ 2026 Architecture
@@ -709630,13 +709643,9 @@ https://www.youtube.com/shorts/ptetbW0C0P8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Terraform (AzAPI & AzureRM)
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709654,6 +709663,11 @@ https://www.youtube.com/shorts/ptetbW0C0P8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Terraform (AzAPI & AzureRM)
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Q2fhHPqJnKk:
   title: 'Unindexed Cloud Native & AI Architecture Short (ID: Q2fhHPqJnKk)'
@@ -709711,13 +709725,9 @@ https://www.youtube.com/shorts/Q2fhHPqJnKk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709735,6 +709745,11 @@ https://www.youtube.com/shorts/Q2fhHPqJnKk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/O_Mfirh5xqM:
   title: 'Unverified Cloud Native Technical Short (ID: O_Mfirh5xqM)'
@@ -709752,13 +709767,9 @@ https://www.youtube.com/shorts/O_Mfirh5xqM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709776,6 +709787,11 @@ https://www.youtube.com/shorts/O_Mfirh5xqM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/YWNUZfYelIM:
   title: 'Unverified Technical Short (ID: YWNUZfYelIM)'
@@ -709830,13 +709846,9 @@ https://www.youtube.com/shorts/YWNUZfYelIM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709854,6 +709866,11 @@ https://www.youtube.com/shorts/YWNUZfYelIM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLc2WtEw1pojo:
   title: Unverified / Unavailable Playlist (PLc2WtEw1pojo)
@@ -709870,13 +709887,9 @@ https://www.youtube.com/playlist?list=PLc2WtEw1pojo:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709894,6 +709907,11 @@ https://www.youtube.com/playlist?list=PLc2WtEw1pojo:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLZhOsH66dFmw:
   title: Unindexed or Private YouTube Playlist (PLZhOsH66dFmw)
@@ -709911,13 +709929,9 @@ https://www.youtube.com/playlist?list=PLZhOsH66dFmw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Documentation & Knowledge Management
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709935,6 +709949,11 @@ https://www.youtube.com/playlist?list=PLZhOsH66dFmw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Documentation & Knowledge Management
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLIDgJtbMXQ6s:
   title: Cloud Native Architecture and Automated Operations Playlist (PLIDgJtbMXQ6s)
@@ -709951,13 +709970,9 @@ https://www.youtube.com/playlist?list=PLIDgJtbMXQ6s:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + DevOps
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -709975,6 +709990,11 @@ https://www.youtube.com/playlist?list=PLIDgJtbMXQ6s:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + DevOps
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLI0K_-6LrXgM:
   title: Unverified or Truncated YouTube Playlist (PLI0K_-6LrXgM)
@@ -709994,13 +710014,9 @@ https://www.youtube.com/playlist?list=PLI0K_-6LrXgM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710018,6 +710034,11 @@ https://www.youtube.com/playlist?list=PLI0K_-6LrXgM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLYmAuttxFYjA:
   title: Unverified or Truncated YouTube Playlist (PLYmAuttxFYjA)
@@ -710035,13 +710056,9 @@ https://www.youtube.com/playlist?list=PLYmAuttxFYjA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710059,6 +710076,11 @@ https://www.youtube.com/playlist?list=PLYmAuttxFYjA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLBUzSeBwfM7M:
   title: Unindexed or Private YouTube Playlist (PLBUzSeBwfM7M)
@@ -710076,13 +710098,9 @@ https://www.youtube.com/playlist?list=PLBUzSeBwfM7M:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710100,6 +710118,11 @@ https://www.youtube.com/playlist?list=PLBUzSeBwfM7M:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLcCUAwooFb6s:
   title: 'Unverified Cloud Native Technical Playlist (Truncated ID: PLcCUAwooFb6s)'
@@ -710117,13 +710140,9 @@ https://www.youtube.com/playlist?list=PLcCUAwooFb6s:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710141,6 +710160,11 @@ https://www.youtube.com/playlist?list=PLcCUAwooFb6s:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLDbL5Dh24a5g:
   title: 'Unverified Playlist (ID: PLDbL5Dh24a5g)'
@@ -710159,13 +710183,9 @@ https://www.youtube.com/playlist?list=PLDbL5Dh24a5g:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710183,6 +710203,11 @@ https://www.youtube.com/playlist?list=PLDbL5Dh24a5g:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLMiMCcgzkPpw:
   title: 'Unverified Cloud Native Technical Playlist (Truncated ID: PLMiMCcgzkPpw)'
@@ -710200,13 +710225,9 @@ https://www.youtube.com/playlist?list=PLMiMCcgzkPpw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710224,6 +710245,11 @@ https://www.youtube.com/playlist?list=PLMiMCcgzkPpw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLaqfcvWjZHso:
   title: Unverified / Truncated YouTube Playlist (PLaqfcvWjZHso)
@@ -710241,13 +710267,9 @@ https://www.youtube.com/playlist?list=PLaqfcvWjZHso:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710265,6 +710287,11 @@ https://www.youtube.com/playlist?list=PLaqfcvWjZHso:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLcgcGU_pGpv8:
   title: Unindexed or Truncated Playlist (PLcgcGU_pGpv8)
@@ -710283,13 +710310,9 @@ https://www.youtube.com/playlist?list=PLcgcGU_pGpv8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710307,6 +710330,11 @@ https://www.youtube.com/playlist?list=PLcgcGU_pGpv8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLY9afYE9hx70:
   title: 'Unverified / Truncated YouTube Playlist (ID: PLY9afYE9hx70)'
@@ -710325,13 +710353,9 @@ https://www.youtube.com/playlist?list=PLY9afYE9hx70:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710349,6 +710373,11 @@ https://www.youtube.com/playlist?list=PLY9afYE9hx70:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLWwVdOapXzDc:
   title: Unverified Playlist (PLWwVdOapXzDc)
@@ -710365,13 +710394,9 @@ https://www.youtube.com/playlist?list=PLWwVdOapXzDc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710389,6 +710414,11 @@ https://www.youtube.com/playlist?list=PLWwVdOapXzDc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLH1sVn4CEfPY:
   title: 'Unverified Playlist (ID: PLH1sVn4CEfPY)'
@@ -710406,13 +710436,9 @@ https://www.youtube.com/playlist?list=PLH1sVn4CEfPY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710430,6 +710456,11 @@ https://www.youtube.com/playlist?list=PLH1sVn4CEfPY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLUt4PJvFTysY:
   title: 'Unverified Technical Playlist (Truncated ID: PLUt4PJvFTysY)'
@@ -710446,13 +710477,9 @@ https://www.youtube.com/playlist?list=PLUt4PJvFTysY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710470,6 +710497,11 @@ https://www.youtube.com/playlist?list=PLUt4PJvFTysY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLNtKxnT9mK7g:
   title: Unverified / Unavailable Playlist (PLNtKxnT9mK7g)
@@ -710486,13 +710518,9 @@ https://www.youtube.com/playlist?list=PLNtKxnT9mK7g:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710510,6 +710538,11 @@ https://www.youtube.com/playlist?list=PLNtKxnT9mK7g:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLRz_DgUi73hc:
   title: Uploads from Google Cloud Tech
@@ -710530,13 +710563,9 @@ https://www.youtube.com/playlist?list=PLRz_DgUi73hc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710554,6 +710583,11 @@ https://www.youtube.com/playlist?list=PLRz_DgUi73hc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLOb7y_S6Kcd8:
   title: Unverified / Truncated YouTube Playlist (PLOb7y_S6Kcd8)
@@ -710570,13 +710604,9 @@ https://www.youtube.com/playlist?list=PLOb7y_S6Kcd8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Architecture
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710594,6 +710624,11 @@ https://www.youtube.com/playlist?list=PLOb7y_S6Kcd8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Architecture
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLcUy0RRCT9fg:
   title: Unindexed or Truncated YouTube Playlist (PLcUy0RRCT9fg)
@@ -710611,13 +710646,9 @@ https://www.youtube.com/playlist?list=PLcUy0RRCT9fg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native Documentation & Knowledge Management
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710635,6 +710666,11 @@ https://www.youtube.com/playlist?list=PLcUy0RRCT9fg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native Documentation & Knowledge Management
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLQAXmE_Qq4bU:
   title: Unverified Cloud Native Architecture Playlist (PLQAXmE_Qq4bU)
@@ -710651,13 +710687,9 @@ https://www.youtube.com/playlist?list=PLQAXmE_Qq4bU:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710675,6 +710707,11 @@ https://www.youtube.com/playlist?list=PLQAXmE_Qq4bU:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLZ-bpd1sEISs:
   title: 'Unavailable or Truncated YouTube Playlist (ID: PLZ-bpd1sEISs)'
@@ -710691,13 +710728,9 @@ https://www.youtube.com/playlist?list=PLZ-bpd1sEISs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cloud Native
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710715,6 +710748,11 @@ https://www.youtube.com/playlist?list=PLZ-bpd1sEISs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cloud Native
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLR6nHneHUvqU:
   title: 'From Cloud Native to AI Native: Why Kubernetes Is the Foundation for Next-Gen
@@ -710733,13 +710771,9 @@ https://www.youtube.com/playlist?list=PLR6nHneHUvqU:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1793646251
   needs_ai_refresh: false
@@ -710757,4 +710791,9 @@ https://www.youtube.com/playlist?list=PLR6nHneHUvqU:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
