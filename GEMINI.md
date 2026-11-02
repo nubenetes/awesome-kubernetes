@@ -192,8 +192,8 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Workflow Resilience**: Workflows MUST utilize GitHub Actions Cache (`actions/cache`) to restore progress at startup and save it `always()` at the end, ensuring zero data loss even upon 6-hour timeout cancellations.
 
 55. **Multi-Tier Agentic Model Selection Policy**: To optimize the balance between reasoning depth, execution speed, and API quota safety, models MUST be selected based on task profile:
-    - **Tier 1 (High-Throughput / Formatting)**: Mandatory **Gemini Flash/Lite**. Used for: mass classification (V2), formatting audits (PR Guardian), and high-volume link rescue (Health Checker).
-    - **Tier 2 (High-Context / Human Interpretation)**: Mandatory **Gemini Pro**. Used for: raw social media curation (X.com/RSS), complex architectural auditing, and security-critical verification.
+    - **Tier 1 (High-Throughput / Formatting)**: Mandatory **Gemini Flash/Lite** (e.g., `gemini-3.8-flash`, `gemini-3.5-flash-lite`, or Gen-4 Flash). Used for: mass classification (V2), formatting audits (PR Guardian), and high-volume link rescue (Health Checker).
+    - **Tier 2 (High-Context / Human Interpretation)**: Mandatory **Gemini Pro and Frontier** (e.g., `gemini-3.1-pro-preview`, `gemini-4-argon`, `gemini-4-carbon`). Used for: raw social media curation (X.com/RSS), complex architectural auditing, debate synthesis, and security-critical verification.
     - **Constraint**: Tier 2 tasks MUST be limited to low-volume batches to protect the global RPM quota.
 
 56. **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.

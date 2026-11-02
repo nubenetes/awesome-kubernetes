@@ -6594,7 +6594,7 @@
         "date": "2026-06-01",
         "stars": 0,
         "impact": "critical",
-        "why": "It serves as the definitive industry standard and governance body under the Linux Foundation for cloud cost management and the FOCUS specification.",
+        "why": "As the governing Linux Foundation project, it defines the global standards, certifications, and FOCUS specifications for cloud financial management.",
         "category": "FinOps & Cloud Cost"
       },
       {
@@ -6603,16 +6603,7 @@
         "date": "2026-06-18",
         "stars": 0,
         "impact": "critical",
-        "why": "This official CNCF resource highlights the operational urgency and foundational architectural principles of Kubernetes-native FinOps.",
-        "category": "FinOps & Cloud Cost"
-      },
-      {
-        "url": "https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight",
-        "title": "Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight",
-        "date": "2026-05-17",
-        "stars": 5,
-        "impact": "high",
-        "why": "The CUDOS framework is the enterprise gold standard for deploying granular, production-grade cloud cost intelligence dashboards.",
+        "why": "Brings the Kubernetes FinOps dilemma directly into the CNCF spotlight, addressing systemic multi-tenant cluster overspend.",
         "category": "FinOps & Cloud Cost"
       },
       {
@@ -6621,16 +6612,7 @@
         "date": "2026-05-17",
         "stars": 5,
         "impact": "high",
-        "why": "It delivers practical guidance on autonomous Kubernetes rightsizing and node provisioning to eliminate container over-provisioning.",
-        "category": "FinOps & Cloud Cost"
-      },
-      {
-        "url": "https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill",
-        "title": "thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill",
-        "date": "2026-05-18",
-        "stars": 0,
-        "impact": "high",
-        "why": "It outlines concrete architectural strategies for EKS optimization combining next-gen autoscalers like Karpenter with spot instances.",
+        "why": "Highlights advanced dynamic container rightsizing and automated node provisioning strategies to curtail Kubernetes compute waste.",
         "category": "FinOps & Cloud Cost"
       },
       {
@@ -6639,7 +6621,25 @@
         "date": "2026-05-17",
         "stars": 0,
         "impact": "high",
-        "why": "Provides an essential technical evaluation of the two leading Kubernetes intelligent bin-packing and autoscaling solutions.",
+        "why": "Provides an architectural head-to-head analysis of Karpenter and Cast.ai, the leading modern autoscaling engines for Kubernetes cost optimization.",
+        "category": "FinOps & Cloud Cost"
+      },
+      {
+        "url": "https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill",
+        "title": "thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill",
+        "date": "2026-05-18",
+        "stars": 0,
+        "impact": "high",
+        "why": "Translates cloud-native cost optimization into actionable patterns spanning Karpenter node auto-provisioning, spot instances, and resource quotas.",
+        "category": "FinOps & Cloud Cost"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight",
+        "title": "Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight",
+        "date": "2026-05-17",
+        "stars": 5,
+        "impact": "high",
+        "why": "Serves as the enterprise standard for open-source cloud intelligence and QuickSight dashboards to track granular multi-account expenditures.",
         "category": "FinOps & Cloud Cost"
       },
       {
@@ -6648,34 +6648,34 @@
         "date": "2026-04-09",
         "stars": 4,
         "impact": "medium",
-        "why": "Introduces a modern policy-as-code engine allowing teams to declaratively audit and govern cloud infrastructure spend.",
+        "why": "Introduces a modern declarative policy engine that allows platform teams to programmatically detect idle resources and enforce cloud spend guardrails.",
         "category": "FinOps & Cloud Cost"
       },
       {
-        "url": "https://github.com/dolevshor/azure-finops-guide",
-        "title": "github.com/dolevshor/azure-finops-guide: The Azure FinOps Guide 🌟",
-        "date": "2025-11-02",
-        "stars": 5,
+        "url": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
+        "title": "Uber's COO Says It's Getting Harder to Justify the Money Spent on AI",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "high",
+        "why": "Marks a major industry milestone in FinOps expanding beyond compute and storage into LLM token economics and AI infrastructure ROI.",
+        "category": "FinOps & Cloud Cost"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/aws-cloud-financial-management/announcing-general-availability-of-aws-cost-anomaly-detection",
+        "title": "Announcing General Availability of AWS Cost Anomaly Detection",
+        "date": "2026-05-18",
+        "stars": 0,
         "impact": "medium",
-        "why": "A thorough open-source guide providing actionable policies and automation checklists for multi-cloud FinOps practitioners on Azure.",
+        "why": "Delivers native machine-learning-driven alerting to identify anomalous cloud spend before runaway operational costs escalate.",
         "category": "FinOps & Cloud Cost"
       },
       {
-        "url": "https://github.com/learnk8s/xlskubectl",
-        "title": "learnk8s/xlskubectl",
-        "date": "2026-06-18",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Bridges the gap between raw Kubernetes resource requests/limits and direct financial impact for platform engineers.",
-        "category": "FinOps & Cloud Cost"
-      },
-      {
-        "url": "https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans",
-        "title": "thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans",
-        "date": "2026-05-17",
+        "url": "https://github.com/mivano/azure-cost-cli",
+        "title": "github.com/mivano/azure-cost-cli",
+        "date": "2026-06-08",
         "stars": 4,
         "impact": "medium",
-        "why": "Highlights crucial architectural risks and trade-offs when locking dynamic cloud-native architectures into rigid multi-year commitment models.",
+        "why": "Empowers engineers to extract Azure tag allocations via CLI, facilitating shift-left chargeback and tracking of unallocated infrastructure.",
         "category": "FinOps & Cloud Cost"
       }
     ],
@@ -7243,9 +7243,9 @@
         "method": "gemini"
       },
       "FinOps & Cloud Cost": {
-        "last_analyzed": "2026-10-26T21:32:59.952935+01:00",
-        "entry_hash": "a13f059068c1b109",
-        "entry_count": 66,
+        "last_analyzed": "2026-11-02T15:44:48.765647+01:00",
+        "entry_hash": "ab761b697550131e",
+        "entry_count": 65,
         "method": "gemini"
       },
       "Asia-Pacific": {
@@ -7261,6 +7261,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-11-01T15:16:54.384821+01:00"
+    "last_updated": "2026-11-02T15:44:49.767012+01:00"
   }
 }
