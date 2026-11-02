@@ -27,21 +27,6 @@ search:
 
 ## Europe
 
-=== "Last 3 Months"
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Gaia-X.eu](https://gaia-x.eu) | 🔴 critical | Defines the core European strategic initiative for sovereign, federated cloud and data infrastructure standards. |
-    | 2026-06-01 | [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html) | 🟡 high | Provides crucial policy and architectural direction from the German government on mitigating hyperscaler lock-in through sovereign European cloud frameworks. |
-    | 2026-06-01 | [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes) | 🟡 high | Delivers an acclaimed European university open-source curriculum standardizing practical container orchestration and DevOps adoption. |
-    | 2026-06-01 | [http3-explained.haxx.se: HTTP/3 explained 🌟](https://http3-explained.haxx.se) | 🟡 high | Authoritative guide on HTTP/3 and QUIC protocols essential for modern edge routing, ingress, and cloud networking architecture. |
-    | 2026-06-01 | [thomasmaurer.ch](https://www.thomasmaurer.ch) | 🟡 high | Provides industry-leading guidance on hybrid cloud governance and extending cloud-native management using Azure Arc. |
-    | 2026-06-01 | [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html) | 🔵 medium | Offers hands-on architectural patterns for securing CI/CD pipelines and service account RBAC within production Kubernetes clusters. |
-    | 2026-05-17 | [kateyes.co.uk](https://www.kateyes.co.uk) | 🔵 medium | Enables zero-agent cluster topology mapping and workload visibility for platform diagnostics without heavy observability agent overhead. |
-    | 2026-06-01 | [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet) | 🔵 medium | Serves as an essential troubleshooting reference for resolving DNS and routing failures in enterprise OpenShift deployments. |
-    | 2026-06-01 | [difftastic.wilfred.me.uk](https://difftastic.wilfred.me.uk) | 🔵 medium | Improves developer productivity by applying AST-aware structural diffing to reduce noise when reviewing code and infrastructure-as-code manifests. |
-    | 2026-06-01 | [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) | 🔵 medium | Acts as a quick-reference operational guide for tuning and scaling distributed performance testing against cloud microservices. |
-
 === "Last 6 Months"
 
     | Date | Resource | Impact | Why It Matters |
@@ -75,16 +60,6 @@ search:
 
 ## Spain
 
-=== "Last 3 Months"
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🟡 high | Provides practical, deep-dive Linux system administration and performance tuning essential for running robust container host environments. |
-    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🔵 medium | Highlights enterprise resilience risks and the architectural necessity of multi-region or multi-cloud strategies in the wake of major hyperscaler outages. |
-    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🔵 medium | Demonstrates enterprise-grade API gateway adoption and secure financial cloud integration aligned with European regulatory standards. |
-    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Showcases production cloud API ecosystem maturity in the Spanish insurance sector for high-volume B2B integrations. |
-    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Improves developer upskilling across the Spanish-speaking community in Python, a foundational language for cloud automation and DevOps. |
-
 === "Last 6 Months"
 
     | Date | Resource | Impact | Why It Matters |
@@ -117,12 +92,6 @@ search:
 
 
 ## Asia-Pacific
-
-=== "Last 3 Months"
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in) | 🔵 medium | A comprehensive side-by-side taxonomy mapping tool designed to translate service names across multiple major cloud providers. Extremely useful for engineering teams designing multi-cloud system archit |
 
 === "Last 6 Months"
 
