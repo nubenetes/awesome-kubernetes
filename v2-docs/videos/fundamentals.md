@@ -191,7 +191,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
 ??? note "🎬 Nubenetes Cloud Native Podcasts (English Playlist)"
     !!! info "Architectural Summary"
-        Official English-language Nubenetes NotebookLM podcast series synthesizing architectural blueprints across Kubernetes, Terraform AVM, Azure Landing Zones, FinOps, and eBPF observability.
+        Complete collection of technical architecture podcasts and engineering deep-dive discussions in English covering Kubernetes, Red Hat OpenShift 4.20, P99 Tail Latency, Air-Gapped Observability, Grafana Alloy, Datadog, Gateway API, Google Cloud (GKE), Backstage IDP, Azure Terraform Automation, and OpenTelemetry eBPF (OBI) Zero-Code Trace-Log Correlation.
 
     <center markdown="1">
 
@@ -199,13 +199,35 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     </center>
 
-??? note "🎬 Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT] [SPANISH CONTENT]"
+??? note "🎬 Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]"
     !!! info "Architectural Summary"
-        Official Spanish-language Nubenetes NotebookLM podcast series covering enterprise Cloud Native architectures, Azure Landing Zones 2026, FinOps IaaS optimization, OpenShift, and eBPF telemetry. [SPANISH CONTENT]
+        Complete collection of Spanish-language technical architecture podcasts and engineering deep-dives covering Kubernetes, Red Hat OpenShift 4.20, P99 latency and etcd, air-gapped observability, Grafana Alloy, Datadog, Traefik, Gateway API, Google Cloud (GKE), Backstage IDP, Azure Terraform automation, and zero-code trace-log correlation with OpenTelemetry eBPF (OBI). [SPANISH CONTENT]
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLB-3xSV3dAoU" title="Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLB-3xSV3dAoU" title="Nubenetes Cloud Native Podcasts (Español Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes Cloud Native Architecture and Tutorials (Playlist)"
+    !!! info "Architectural Summary"
+        Foundational cloud-native architectures, platform engineering blueprints, and step-by-step enterprise Kubernetes tutorials.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLQAXmE_Qq4bU" title="Nubenetes Cloud Native Architecture and Tutorials (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Engineering Leadership and Global Teams
+
+??? note "🎬 Nubenetes Employer of Record (EOR) and Native Teams (Playlist)"
+    !!! info "Architectural Summary"
+        Global remote employment, Employer of Record (EOR) architectures, Native Teams guides, payroll compliance, and international engineering hiring without freelance bureaucracy.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLY9afYE9hx70" title="Nubenetes Employer of Record (EOR) and Native Teams (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

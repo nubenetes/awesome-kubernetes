@@ -71,7 +71,8 @@ async def discover_nubenetes_channel_assets(inventory: dict) -> int:
                                     clean_title = title.lstrip("⭐ ").strip()
                                     discovered.append({
                                         "url": f"https://www.youtube.com/playlist?list={cid}",
-                                        "title": f"{clean_title} (Playlist)",
+                                        "cid": cid,
+                                        "title": f"{clean_title} (Playlist)" if not clean_title.endswith("(Playlist)") else clean_title,
                                         "raw_desc": f"Official @nubenetes NotebookLM curated playlist: {clean_title}",
                                         "is_playlist": True,
                                     })
@@ -83,6 +84,35 @@ async def discover_nubenetes_channel_assets(inventory: dict) -> int:
                     _walk_pl(data)
         except Exception as e:
             log_event(f"    [WARN] @nubenetes playlists check failed: {str(e)[:80]}")
+
+        # For any newly discovered playlist not yet in inventory, fetch its full playlistMetadataRenderer description
+        for item in discovered:
+            if item.get("is_playlist") and item["url"] not in inventory:
+                cid = item.get("cid", "")
+                if cid:
+                    try:
+                        rp = await client.get(f"https://www.youtube.com/playlist?list={cid}", headers=headers)
+                        if rp.status_code == 200:
+                            mp = re.search(r"var ytInitialData = (\{.*?\});</script>", rp.text)
+                            if mp:
+                                dp = json.loads(mp.group(1))
+                                desc_box = [""]
+                                def _walk_pdesc(o):
+                                    if isinstance(o, dict):
+                                        if "playlistMetadataRenderer" in o:
+                                            desc_box[0] = o["playlistMetadataRenderer"].get("description", "")
+                                        for v in o.values():
+                                            _walk_pdesc(v)
+                                    elif isinstance(o, list):
+                                        for i in o:
+                                            _walk_pdesc(i)
+                                _walk_pdesc(dp)
+                                if desc_box[0]:
+                                    clean_d = desc_box[0].split("[id:nubenetes-playlist-manager]")[0].split("🤖 Curated automatically")[0].strip()
+                                    if clean_d:
+                                        item["raw_desc"] = clean_d
+                    except Exception:
+                        pass
 
     now_iso = datetime.now(MADRID_TZ).isoformat()
     now_ts = int(time.time())
@@ -156,9 +186,16 @@ async def enrich_video_entry(url: str, entry: dict):
             is_generic = True
 
     if not meta or is_generic:
-        log_event(f"    [!] Missing or generic metadata for {url}. Forcing AI Grounding (Pro Model)...")
-        use_grounding = True
-        context = f"YouTube URL: {url}\nNote: The local scraper was blocked and returned generic platform metadata. YOU MUST SEARCH FOR THE REAL TITLE."
+        existing_title = str(entry.get("title") or "").strip()
+        existing_desc = str(entry.get("description") or entry.get("ai_summary") or "").strip()
+        bad_markers = ("youtube", "before you continue", "n/a", "", "unverified", "unindexed", "truncated", "unavailable")
+        if existing_title and not any(b in existing_title.lower() for b in bad_markers):
+            context = f"Local Context (from channel feed/playlist metadata):\nTitle: {existing_title}\nDescription: {existing_desc}"
+            use_grounding = False
+        else:
+            log_event(f"    [!] Missing or generic metadata for {url}. Forcing AI Grounding (Pro Model)...")
+            use_grounding = True
+            context = f"YouTube URL: {url}\nNote: The local scraper was blocked and returned generic platform metadata. YOU MUST SEARCH FOR THE REAL TITLE."
     else:
         context = f"Local Context (from YouTube extraction):\nTitle: {meta['raw_title']}\nDescription: {meta['raw_description']}"
 
@@ -189,10 +226,20 @@ async def enrich_video_entry(url: str, entry: dict):
         # Use grounding only if direct fetch failed
         data = await call_gemini_with_retry(prompt, prefer_flash=True, use_grounding=use_grounding)
         
-        entry["title"] = data.get("title", meta['raw_title'] if meta else "YouTube Video")
-        entry["ai_summary"] = data["summary"]
-        entry["technology"] = data["technology"]
-        entry["category"] = data["category"]
+        ai_title = str(data.get("title") or "").strip()
+        ai_summary = str(data.get("summary") or "").strip()
+        hallucinated_markers = ("unverified", "unindexed", "truncated", "unavailable", "cannot be resolved", "invalid")
+        if any(m in (ai_title + " " + ai_summary).lower() for m in hallucinated_markers):
+            fallback_title = (meta.get("raw_title") if meta else "") or entry.get("title", "YouTube Video")
+            fallback_desc = (meta.get("raw_description") if meta else "") or entry.get("description", "")
+            entry["title"] = fallback_title.lstrip("⭐ ").strip()
+            if fallback_desc:
+                entry["ai_summary"] = fallback_desc.split("[id:nubenetes-playlist-manager]")[0].split("🤖 Curated automatically")[0].strip()
+        else:
+            entry["title"] = ai_title or (meta['raw_title'] if meta else "YouTube Video")
+            entry["ai_summary"] = ai_summary
+        entry["technology"] = data.get("technology") or entry.get("technology", "Cloud Native")
+        entry["category"] = data.get("category") or entry.get("category", "Architecture and Cloud Strategy")
         entry["is_enriched"] = True
         log_event(f"    [OK] {url} enriched successfully.")
     except Exception as e:
