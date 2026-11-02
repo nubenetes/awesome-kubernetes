@@ -691,10 +691,63 @@ async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
     """
     from src.config import YOUTUBE_API_KEY
     
+    # Handle Playlist URLs (playlist?list=... or embed/videoseries?list=...)
+    if "list=" in url and "v=" not in url and "youtu.be/" not in url and "/shorts/" not in url:
+        pl_id = url.split("list=")[-1].split("&")[0].split("#")[0]
+        if YOUTUBE_API_KEY and pl_id:
+            try:
+                api_url = f"https://www.googleapis.com/youtube/v3/playlists?part=snippet&id={pl_id}&key={YOUTUBE_API_KEY}"
+                async with httpx.AsyncClient() as client:
+                    resp = await client.get(api_url, timeout=10.0)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        if data.get("items"):
+                            snippet = data["items"][0]["snippet"]
+                            log_event(f"    [YT-API] Playlist success for {pl_id}: {snippet.get('title')}")
+                            return {
+                                "raw_title": snippet.get("title", "").strip(),
+                                "raw_description": snippet.get("description", "").strip()[:3000]
+                            }
+            except Exception as e:
+                log_event(f"    [YT-API] Playlist failed for {pl_id}: {e}")
+        # Fallback: scrape playlistMetadataRenderer from youtube.com/playlist?list=...
+        if pl_id:
+            try:
+                cookies = {"CONSENT": "YES+cb.20210328-17-p0.en+FX+410", "SOCS": "CAISHAgBEhJnd3NfMjAyMzA4MTAtMF9SQzIaAmVuIAEaBgiAo_CmBg"}
+                headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "Accept-Language": "en-US,en;q=0.9"}
+                async with httpx.AsyncClient(cookies=cookies, headers=headers, follow_redirects=True, timeout=15.0) as client:
+                    resp = await client.get(f"https://www.youtube.com/playlist?list={pl_id}")
+                    if resp.status_code == 200:
+                        m = re.search(r"var ytInitialData = (\{.*?\});</script>", resp.text)
+                        if m:
+                            yt_data = json.loads(m.group(1))
+                            pl_meta = {}
+                            def _walk_pl_meta(o):
+                                if isinstance(o, dict):
+                                    if "playlistMetadataRenderer" in o:
+                                        pmr = o["playlistMetadataRenderer"]
+                                        pl_meta["title"] = pmr.get("title", "").strip()
+                                        pl_meta["desc"] = pmr.get("description", "").strip()
+                                    for v in o.values():
+                                        _walk_pl_meta(v)
+                                elif isinstance(o, list):
+                                    for i in o:
+                                        _walk_pl_meta(i)
+                            _walk_pl_meta(yt_data)
+                            if pl_meta.get("title"):
+                                return {
+                                    "raw_title": pl_meta["title"],
+                                    "raw_description": pl_meta.get("desc", "")[:3000]
+                                }
+            except Exception as e:
+                log_event(f"    [!] Playlist scrape failed for {pl_id}: {e}")
+        return None
+
     # Extract Video ID
     vid = None
-    if "/embed/" in url: vid = url.split("/embed/")[-1].split("?")[0]
-    elif "youtu.be/" in url: vid = url.split("youtu.be/")[-1].split("?")[0]
+    if "/embed/" in url: vid = url.split("/embed/")[-1].split("?")[0].split("/")[0]
+    elif "/shorts/" in url: vid = url.split("/shorts/")[-1].split("?")[0].split("/")[0]
+    elif "youtu.be/" in url: vid = url.split("youtu.be/")[-1].split("?")[0].split("/")[0]
     elif "v=" in url: vid = url.split("v=")[-1].split("&")[0]
     
     if not vid: return None

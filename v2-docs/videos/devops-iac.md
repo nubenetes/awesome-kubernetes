@@ -26,7 +26,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
 ??? note "🎬 Nubenetes Azure Verified Modules (AVM) Terraform Labs (Playlist)"
     !!! info "Architectural Summary"
-        Official Nubenetes NotebookLM architectural series walking through end-to-end Azure Verified Modules (AVM) labs in Terraform, standardized WAF/CAF module interfaces, and enterprise infrastructure delivery on Microsoft Azure.
+        Hands-on implementation labs and end-to-end Terraform walkthrough for Microsoft Azure Verified Modules (AVM). Covers toolchain setup (VS Code, Azure CLI, Terraform), Log Analytics centralized telemetry sinks, Azure Key Vault secret management, Storage Account Customer-Managed Key (CMK) encryption, Private Endpoints network isolation, zero public IP VM access via Azure Bastion, System-Assigned Managed Identity RBAC, and deterministic infrastructure lifecycle automation.
 
     <center markdown="1">
 
@@ -36,7 +36,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
 ??? note "🎬 Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)"
     !!! info "Architectural Summary"
-        Curated Nubenetes NotebookLM masterclass playlist covering the 2026 Azure Landing Zones (ALZ) architecture rebuild using Terraform Azure Verified Modules (AVM), management group hierarchies, hub-and-spoke/Virtual WAN networking, and zero-secret OIDC CI/CD pipelines.
+        Comprehensive masterclass and enterprise reference architecture for Microsoft Cloud Adoption Framework (CAF) Azure Landing Zones (2026). Covers the retirement of the legacy monolithic CAF module in favor of Azure Verified Modules (AVM) and ALZ Library (2026.10.0), Management Groups hierarchy (Corp vs Online), Customer-Managed Hub-and-Spoke vs Microsoft-Managed Virtual WAN (vWAN), Private Endpoints vs Service Endpoints security perimeters, and Workload Identity Federation (OIDC) zero-secret CI/CD.
 
     <center markdown="1">
 
@@ -82,6 +82,51 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     <div class="video-lazy-container" data-video-id="HjLte2SGCk0" data-video-url="https://www.youtube.com/embed/HjLte2SGCk0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/HjLte2SGCk0/hqdefault.jpg" alt="ALZ 2026 Masterclass: Modular Architecture and AVM Rebuild" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Azure Key Vault Secures Infrastructure | AVM Secret Management"
+    !!! info "Architectural Summary"
+        Demonstrates how the Azure Verified Module for Key Vault (avm-res-keyvault-vault) provisions a hardened vault, generates cryptographic SSH keys in-cloud, and injects virtual machine credentials during Terraform deployments without exposing plaintext secrets on developer workstations.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="-JlLcd-4CIs" data-video-url="https://www.youtube.com/embed/-JlLcd-4CIs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/-JlLcd-4CIs/hqdefault.jpg" alt="How Azure Key Vault Secures Infrastructure | AVM Secret Management" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Local Code Builds Azure Clouds | AVM Terraform Labs Toolchain"
+    !!! info "Architectural Summary"
+        Explains how platform engineers combine Visual Studio Code (with official Terraform schema validation), the Azure CLI (for authenticated Entra ID control-plane sessions), and the Terraform CLI to orchestrate deterministic Azure Verified Modules (AVM) deployments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="BnkctVGCD8A" data-video-url="https://www.youtube.com/embed/BnkctVGCD8A" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BnkctVGCD8A/hqdefault.jpg" alt="How Local Code Builds Azure Clouds | AVM Terraform Labs Toolchain" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Azure Verified Modules Automate CMK Encryption | Storage and Key Vault"
+    !!! info "Architectural Summary"
+        Demonstrates how the Azure Verified Module for Storage Accounts (avm-res-storage-storageaccount) automates the Customer-Managed Key (CMK) cryptographic permission handshake in a single declarative Terraform block, provisioning Managed Identities and assigning Key Vault Crypto Officer roles automatically.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="-Bo6tLrseDo" data-video-url="https://www.youtube.com/embed/-Bo6tLrseDo" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/-Bo6tLrseDo/hqdefault.jpg" alt="How Azure Verified Modules Automate CMK Encryption | Storage and Key Vault" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
@@ -159,11 +204,21 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
 ??? note "🎬 Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)"
     !!! info "Architectural Summary"
-        End-to-end Nubenetes NotebookLM FinOps series covering empirical P95/P99 compute rightsizing, Premium SSD v2 storage decoupling, SQL Server core masking, ExpressRoute economics, and coercive Azure Policy guardrails.
+        Enterprise FinOps architectural framework, mathematical break-even decision models, and continuous automation for hybrid Microsoft Azure IaaS environments (Windows Server, SQL Server on VMs, Hub-and-Spoke networking, ExpressRoute, and Azure Monitor). Covers Azure Hybrid Benefit (AHUB), Constrained vCPUs, Premium SSD v2 decoupling, edge log filtering via AMA and DCR, and sustainable cloud cost reduction ($173k to $39k/mo).
 
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLaNxiRbEBYJ8" title="Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes Kubernetes Rightsizing and FinOps (Playlist)"
+    !!! info "Architectural Summary"
+        Pod failure analysis, container CPU/memory resource optimization, VPA/Goldilocks strategies, and AI-driven workload rightsizing for Kubernetes clusters.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLZ-bpd1sEISs" title="Nubenetes Kubernetes Rightsizing and FinOps (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -188,7 +243,7 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
 ??? note "🎬 Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)"
     !!! info "Architectural Summary"
-        Curated Nubenetes NotebookLM deep-dive series on zero-code kernel instrumentation using OpenTelemetry eBPF Instrumentation (OBI), kernel maps, Prometheus metrics, and distributed trace-log correlation across Kubernetes clusters.
+        Architectural masterclass and production blueprints for multi-cloud Kubernetes observability using OpenTelemetry eBPF (OBI). Covers the multi-backend OpenTelemetry Collector routing blueprint, high-throughput tail-based sampling (80%-95% cost reduction), Grafana LGTM stack integration (tracesToLogsV2), and Zero-Grafana native observability across Red Hat OpenShift, Azure AKS, AWS, and GCP.
 
     <center markdown="1">
 
@@ -196,11 +251,41 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+??? note "🎬 Nubenetes eBPF Metrics and Telemetry: Kernel Maps, OBI and Prometheus (Playlist)"
+    !!! info "Architectural Summary"
+        Zero-code application RED metrics (Golden Signals), Linux kernel socket probes (sockops/tcp_recvmsg), self-monitoring eBPF map capacity, and Prometheus/Mimir Exemplars using OpenTelemetry eBPF (OBI). Covers multi-backend Collector pipelines, GitOps PrometheusRule alerting, multi-cloud architectures (OpenShift, AKS, EKS, GKE, SigNoz), and architectural boundaries.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLZhOsH66dFmw" title="Nubenetes eBPF Metrics and Telemetry: Kernel Maps, OBI and Prometheus (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes Browser to Kernel: Full-Stack eBPF Observability (OBI) (Playlist)"
+    !!! info "Architectural Summary"
+        Full-stack zero-code observability from client-side Single Page Applications (React, Angular) and Server-Side Rendering (Next.js, Node.js) down to Linux host kernel eBPF log enrichment using OpenTelemetry OBI. Covers W3C Trace Context (traceparent) propagation, frontend session correlation, and automated incident triage.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLIDgJtbMXQ6s" title="Nubenetes Browser to Kernel: Full-Stack eBPF Observability (OBI) (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes OpenTelemetry eBPF (OBI) Zero-Code Trace-Log Correlation (Playlist)"
+    !!! info "Architectural Summary"
+        Production-ready architecture, Linux kernel internals, and incident triage workflows for zero-code trace-log correlation using OpenTelemetry eBPF Instrumentation (OBI). Covers in-flight trace ID injection, write/writev syscall tracing, async runtime caveats, and downstream pipeline tuning with Fluent Bit, Vector, and OpenTelemetry Collector.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLYmAuttxFYjA" title="Nubenetes OpenTelemetry eBPF (OBI) Zero-Code Trace-Log Correlation (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## ArgoCD and GitOps
 
 ??? note "🎬 Nubenetes ArgoCD and GitOps Automation (Playlist)"
     !!! info "Architectural Summary"
-        Nubenetes NotebookLM playlist covering declarative GitOps application and infrastructure delivery with ArgoCD, multi-cluster orchestration, and automated drift reconciliation.
+        Declarative GitOps deployments, ArgoCD ApplicationSets, sync waves, multi-cluster architectures, and progressive delivery on Kubernetes and OpenShift.
 
     <center markdown="1">
 
@@ -366,6 +451,23 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Azure Managed Identities and Terraform
+
+??? note "🎬 How Azure VMs Access Storage Without Passwords | Managed Identity RBAC"
+    !!! info "Architectural Summary"
+        Shows how an Azure Virtual Machine provisioned with Azure Verified Modules authenticates via its System-Assigned Managed Identity (az login --identity) against the Azure Instance Metadata Service (IMDS) to access encrypted Blob Storage using RBAC without storing static keys or connection strings.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="jwASueLUzhI" data-video-url="https://www.youtube.com/embed/jwASueLUzhI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/jwASueLUzhI/hqdefault.jpg" alt="How Azure VMs Access Storage Without Passwords | Managed Identity RBAC" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Terraform and Azure Verified Modules AVM
 
 ??? note "🎬 How Azure Centralizes Cloud Monitoring | AVM Log Analytics Workspace"
@@ -400,15 +502,164 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
-## Kubernetes DevOps
-
-??? note "🎬 Cloud Native Architecture and Automated Operations Playlist (PLIDgJtbMXQ6s)"
+??? note "🎬 How AVM and AzAPI Beat AzureRM Updates | ALZ 2026 Architecture Takeaway"
     !!! info "Architectural Summary"
-        This technical resource explores modern cloud-native architectural patterns, focusing on declarative infrastructure management and automated operational workflows. In a 2026 Cloud Native context, these foundational strategies enable resilient, self-healing distributed systems and prepare platform engineering teams for integrating autonomous AI agents into SRE and DevOps pipelines.
+        Explains how Azure Verified Modules (AVM) leverage the AzAPI provider under the hood to declare Azure Resource Manager (ARM) API properties directly, eliminating multi-month waiting periods for third-party provider updates while maintaining Microsoft-backed module interfaces.
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLIDgJtbMXQ6s" title="Cloud Native Architecture and Automated Operations Playlist (PLIDgJtbMXQ6s)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="Q2fhHPqJnKk" data-video-url="https://www.youtube.com/embed/Q2fhHPqJnKk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Q2fhHPqJnKk/hqdefault.jpg" alt="How AVM and AzAPI Beat AzureRM Updates | ALZ 2026 Architecture Takeaway" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AzAPI Enables Day Zero Deployments | ALZ 2026 Architecture Takeaway"
+    !!! info "Architectural Summary"
+        Illustrates how the Terraform AzAPI provider enables Day-Zero deployments on Microsoft Azure by communicating directly with the Azure Resource Manager (ARM) REST control plane, allowing enterprise platform teams to adopt newly released Azure Landing Zone capabilities immediately.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="O_Mfirh5xqM" data-video-url="https://www.youtube.com/embed/O_Mfirh5xqM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/O_Mfirh5xqM/hqdefault.jpg" alt="How AzAPI Enables Day Zero Deployments | ALZ 2026 Architecture Takeaway" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AzAPI Unlocks Day Zero Azure Features | ALZ 2026 Architecture Takeaway"
+    !!! info "Architectural Summary"
+        Details how platform engineers using Azure Verified Modules (AVM) and the AzAPI provider can pass raw ARM JSON payloads directly inside Terraform manifests to unlock preview and newly GA networking or security flags without provider bottlenecks.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="YWNUZfYelIM" data-video-url="https://www.youtube.com/embed/YWNUZfYelIM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/YWNUZfYelIM/hqdefault.jpg" alt="How AzAPI Unlocks Day Zero Azure Features | ALZ 2026 Architecture Takeaway" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Storage Compliance and IaC
+
+??? note "🎬 Nubenetes Azure Storage WORM and ERP Compliance (Spain Central) (Playlist) [SPANISH CONTENT]"
+    !!! info "Architectural Summary"
+        Reference architecture and Infrastructure as Code (Terraform, Bicep, and Ansible) for immutable WORM storage on Azure Blob Storage (StorageV2) in the Spain Central (Madrid) region. Covers regulatory compliance with Article 30 of the Spanish Commercial Code (6-year legal retention), Anti-Fraud Law 11/2021, and VeriFactu Regulation (RD 1007/2023), achieving over 75% FinOps cost optimization via automated lifecycle tiering (Hot, Cool, Cold, Archive) and AEAT audit rehydration strategies. [SPANISH CONTENT]
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLc2WtEw1pojo" title="Nubenetes Azure Storage WORM and ERP Compliance (Spain Central) (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## SRE and Observability
+
+??? note "🎬 Nubenetes SLAs and SLOs Observability (Playlist)"
+    !!! info "Architectural Summary"
+        Comprehensive engineering guide to Service Level Agreements (SLAs), Service Level Objectives (SLOs), Service Level Indicators (SLIs), Error Budgets, and tail latency (P99) observability. Covers why averages lie in distributed microservices, Linux CFS CPU quota throttling, PromQL percentile math, canary deployment SLO gates, tail-based distributed tracing, and enterprise observability platforms.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLBUzSeBwfM7M" title="Nubenetes SLAs and SLOs Observability (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes Enterprise Observability and Monitoring Platforms (Playlist)"
+    !!! info "Architectural Summary"
+        Comparative architecture, high-load stress testing, TCO modeling, and air-gapped monitoring strategies across 12 enterprise observability platforms.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLcUy0RRCT9fg" title="Nubenetes Enterprise Observability and Monitoring Platforms (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes Datadog on OpenShift (Playlist)"
+    !!! info "Architectural Summary"
+        Deploying, tuning, and scaling the Datadog Agent and Operator on Red Hat OpenShift with Security Context Constraints (SCCs), edge log filtering, and FinOps ingestion cost control.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLR6nHneHUvqU" title="Nubenetes Datadog on OpenShift (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Zero-Trust IAM and OIDC
+
+??? note "🎬 Nubenetes OAuth2, OIDC and Entra ID Identity on Azure (Playlist)"
+    !!! info "Architectural Summary"
+        Architectural masterclasses, deep-dive podcasts, and technical walkthroughs on OAuth 2.0, OpenID Connect (OIDC), Microsoft Entra ID App Registrations, On-Behalf-Of (OBO) token exchange, Workload Identity Federation, and secretless zero-trust governance on Microsoft Azure with Terraform.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLcCUAwooFb6s" title="Nubenetes OAuth2, OIDC and Entra ID Identity on Azure (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Jenkins and GitOps
+
+??? note "🎬 Nubenetes Jenkins Pure GitOps (Without Git Parameter) (Playlist)"
+    !!! info "Architectural Summary"
+        Declarative pull-based GitOps architectures, multi-cluster delivery with ArgoCD, and automated canary rollouts eliminating manual Jenkins UI Git Parameter dropdowns.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLMiMCcgzkPpw" title="Nubenetes Jenkins Pure GitOps (Without Git Parameter) (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Jenkins CI CD Automation
+
+??? note "🎬 Nubenetes Jenkins Git Parameter Automation (Playlist)"
+    !!! info "Architectural Summary"
+        Enterprise immutable promotion, SCM tagging, release validation, and CI/CD pipelines using the Jenkins Git Parameter plugin and GitOps delivery patterns.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLaqfcvWjZHso" title="Nubenetes Jenkins Git Parameter Automation (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## SRE and Decision Architecture
+
+??? note "🎬 Nubenetes JevOps and System 1 Decision Models (Playlist)"
+    !!! info "Architectural Summary"
+        Reflexive System 1 decision models for cloud-native infrastructure, submillisecond log filtering, and production deployment patterns on Kubernetes and OpenShift.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLWwVdOapXzDc" title="Nubenetes JevOps and System 1 Decision Models (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Keycloak and Enterprise IAM
+
+??? note "🎬 Nubenetes Keycloak and RHBK Enterprise IAM on OpenShift (Playlist)"
+    !!! info "Architectural Summary"
+        Enterprise identity architecture, Red Hat Build of Keycloak (RHBK), OAuth 2.1, OIDC federation, and multi-region high-availability replication on OpenShift.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLUt4PJvFTysY" title="Nubenetes Keycloak and RHBK Enterprise IAM on OpenShift (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Enterprise Modernization and GitOps
+
+??? note "🎬 Nubenetes TIBCO BWCE Modernization and GitOps (Playlist)"
+    !!! info "Architectural Summary"
+        Enterprise containerization, canary rollouts, Linux CFS CPU throttling tuning, and GitOps delivery pipelines for TIBCO BusinessWorks Container Edition (BWCE) on Kubernetes.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLRz_DgUi73hc" title="Nubenetes TIBCO BWCE Modernization and GitOps (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
