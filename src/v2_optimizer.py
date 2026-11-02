@@ -1145,8 +1145,9 @@ class V2VisionEngine:
                     sec_label = l.get('v1_section') or 'General Reference'
                     summary = f"Technical documentation and implementation reference for {title} ({sec_label})."
             if summary:
+                summary_clean = re.sub(r'(?<!`)(\b[a-zA-Z0-9_-]+-\*)(?!`)', r'`\1`', summary.strip())
                 # Use a separator and append summary directly to the same line
-                md += f" — {summary.strip()}\n"
+                md += f" — {summary_clean}\n"
             else:
                 md += "\n"
         return md

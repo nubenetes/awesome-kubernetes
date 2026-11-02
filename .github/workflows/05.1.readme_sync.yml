@@ -15,10 +15,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: develop-git-write-lock
-  cancel-in-progress: false
-
 jobs:
   sync-readme:
     runs-on: ubuntu-latest
@@ -29,6 +25,9 @@ jobs:
         !contains(github.event.head_commit.message, 'bot/v2-elite-sync') && 
         !contains(github.event.head_commit.message, 'bot/knowledge-update')
       )
+    concurrency:
+      group: readme-sync-develop
+      cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7

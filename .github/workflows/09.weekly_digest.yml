@@ -10,13 +10,12 @@ permissions:
   contents: write
   pull-requests: write
 
-concurrency:
-  group: develop-git-write-lock
-  cancel-in-progress: false
-
 jobs:
   weekly-digest:
     runs-on: ubuntu-latest
+    concurrency:
+      group: weekly-digest-develop
+      cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7

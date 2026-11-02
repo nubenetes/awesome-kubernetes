@@ -22,10 +22,6 @@ permissions:
   contents: write
   pull-requests: write
 
-concurrency:
-  group: develop-git-write-lock
-  cancel-in-progress: false
-
 jobs:
   publish-v2:
     runs-on: ubuntu-latest
@@ -35,6 +31,9 @@ jobs:
        !contains(github.event.head_commit.message, '[skip ci]') &&
        !contains(github.event.head_commit.message, 'bot/v2-elite-sync')) ||
       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    concurrency:
+      group: v2-publish-develop
+      cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
@@ -135,21 +134,20 @@ jobs:
             exit 0
           fi
           git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
+          if git push origin develop; then
+            echo "Push succeeded on initial attempt."
+            exit 0
+          fi
           OUR=$(git rev-parse HEAD)
-          # Deterministic publish loop (replaces the fragile rebase + --ours/--theirs
-          # self-healing that could hang on a conflict and discard the bot's metrics).
-          # The render is authoritative for its generated surface, so each attempt:
-          #   1. hard-resets to the freshest remote tip (no conflict possible),
-          #   2. overlays our generated outputs verbatim (docs/, v2-docs/, inventory,
-          #      news_digest) — source configs in data/ are left untouched,
-          #   3. regenerates README.md (a pure function of the inventory) on top,
-          #   4. commits and pushes; on rejection it retries from the new tip.
-          GENERATED="docs v2-docs data/inventory.yaml data/inventory.sql data/news_digest.json"
           for i in {1..5}; do
-            echo "Publish attempt $i/5..."
+            echo "Publish retry $i/5 after remote advance..."
             git fetch origin develop
             git reset --hard origin/develop
-            git checkout "$OUR" -- $GENERATED
+            git checkout "$OUR" -- data/news_digest.json || true
+            python -u src/v2_video_portal.py
+            python src/reorganize_mosaic.py
+            python -u -m src.rss_generator || true
+            python -u -m src.v2_optimizer --render-only
             python -m src.readme_updater
             python -m src.safety_readme
             git add -A

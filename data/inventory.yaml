@@ -707263,13 +707263,13 @@ https://liveslot168-rtpp.cyou/ls168-fld:
 https://azure.github.io/Azure-Verified-Modules/indexes/terraform:
   title: 'Azure Verified Modules: Official Terraform Module Index (Resource, Pattern,
     and Utility)'
-  description: Live catalog of all published Terraform Azure Verified Modules (avm-res-*
-    resource modules, avm-ptn-* architecture pattern modules, and avm-utl-* utility
+  description: Live catalog of all published Terraform Azure Verified Modules (`avm-res-*`
+    resource modules, `avm-ptn-*` architecture pattern modules, and `avm-utl-*` utility
     modules) with support status, registry links, and module owners.
   year: '2026'
   stars: 5
-  ai_summary: Live catalog of all published Terraform Azure Verified Modules (avm-res-*
-    resource modules, avm-ptn-* architecture pattern modules, and avm-utl-* utility
+  ai_summary: Live catalog of all published Terraform Azure Verified Modules (`avm-res-*`
+    resource modules, `avm-ptn-*` architecture pattern modules, and `avm-utl-*` utility
     modules) with support status, registry links, and module owners.
   language: English
   resource_type: Reference

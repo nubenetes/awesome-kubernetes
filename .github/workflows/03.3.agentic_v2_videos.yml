@@ -31,16 +31,15 @@ permissions:
   contents: write
   pull-requests: write
 
-concurrency:
-  group: develop-git-write-lock
-  cancel-in-progress: false
-
 jobs:
   build-video-hub:
     runs-on: ubuntu-latest
     if: |
       github.event_name != 'workflow_run' || 
       github.event.workflow_run.conclusion == 'success'
+    concurrency:
+      group: v2-videos-develop
+      cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
