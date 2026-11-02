@@ -17,7 +17,11 @@ def to_embed_url(url):
     
     video_id = None
     if "youtu.be/" in url:
-        match = re.search(r"youtu\.be/([^?&#]+)", url)
+        match = re.search(r"youtu\.be/([^?&#/]+)", url)
+        if match:
+            video_id = match.group(1)
+    elif "/shorts/" in url:
+        match = re.search(r"/shorts/([^?&#/]+)", url)
         if match:
             video_id = match.group(1)
     elif "embed/" in url:
@@ -62,11 +66,15 @@ def extract_youtube_id(url):
         return None
     video_id = None
     if "embed/" in url:
-        match = re.search(r"embed/([^?&#]+)", url)
+        match = re.search(r"embed/([^?&#/]+)", url)
+        if match:
+            video_id = match.group(1)
+    elif "/shorts/" in url:
+        match = re.search(r"/shorts/([^?&#/]+)", url)
         if match:
             video_id = match.group(1)
     elif "youtu.be/" in url:
-        match = re.search(r"youtu\.be/([^?&#]+)", url)
+        match = re.search(r"youtu\.be/([^?&#/]+)", url)
         if match:
             video_id = match.group(1)
     else:
@@ -189,25 +197,20 @@ def generate_v2_videos():
         # build the ordered technology list below because it drives the rendering
         # order of the grouped video sections.
         techs = []
-        for v in videos:
-            tech = v.get("technology", "Cloud Native")
-            if tech not in techs:
-                techs.append(tech)
-
-        # Render Grouped Videos
         grouped_by_tech = {}
         for v in videos:
-            tech = v.get("technology", "Cloud Native")
-            if tech not in grouped_by_tech:
-                grouped_by_tech[tech] = []
-            grouped_by_tech[tech].append(v)
+            raw_tech = v.get("technology", "Cloud Native")
+            clean_tech = clean_header(raw_tech) or "Cloud Native"
+            if clean_tech not in techs:
+                techs.append(clean_tech)
+                grouped_by_tech[clean_tech] = []
+            grouped_by_tech[clean_tech].append(v)
 
-        for tech in techs:
-            clean_tech = clean_header(tech)
+        for clean_tech in techs:
             content.append(f"## {clean_tech}")
             content.append("")
 
-            for v in grouped_by_tech[tech]:
+            for v in grouped_by_tech[clean_tech]:
                 summary = v.get("summary", "").strip()
                 # Replace bullet points starting with '* ' with '- ' to avoid markdownlint MD037 errors
                 lines_sum = []
