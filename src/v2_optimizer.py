@@ -1265,9 +1265,29 @@ class V2VisionEngine:
         with open(os.path.join(V2_DIR, "industry-digest.md"), "w", encoding="utf-8") as f:
             f.write(industry_md)
 
+        # Also refresh the "## Trending Now" section in v2-docs/index.md so standalone
+        # digest runs (--digest-only) keep the homepage Trending Now cards in sync.
+        index_path = os.path.join(V2_DIR, "index.md")
+        if os.path.exists(index_path):
+            try:
+                with open(index_path, "r", encoding="utf-8") as f:
+                    idx_content = f.read()
+                start_marker = "## Trending Now\n\n"
+                end_marker = "\n## The Cloud Native Universe We Track"
+                if start_marker in idx_content and end_marker in idx_content:
+                    before, rest = idx_content.split(start_marker, 1)
+                    _, after = rest.split(end_marker, 1)
+                    pulse_md = self._build_trending_now_md()
+                    new_idx_content = f"{before}{start_marker}{pulse_md}\n{end_marker}{after}"
+                    with open(index_path, "w", encoding="utf-8") as f:
+                        f.write(new_idx_content)
+                    log_event("[Digest] Refreshed Trending Now section in v2-docs/index.md")
+            except Exception as e:
+                log_event(f"[WARN] Failed to update Trending Now in index.md: {str(e)[:100]}")
+
         log_event("[Digest] Generated tech-digest.md and industry-digest.md")
 
-    async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
+    def _build_trending_now_md(self) -> str:
         # 1. Build Trending Now from digest data, or fallback to star-based pulse
         digest_data = {}
         digest_path = "data/news_digest.json"
@@ -1462,6 +1482,10 @@ class V2VisionEngine:
         else:
             trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and (meta.get("stars") or 0) >= 4], key=lambda x: (str(x.get("year", "0000")) if str(x.get("year", "")).isdigit() else "0000", -(x.get("stars") or 0)), reverse=True)
             pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('year', 'N/A')})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
+        return pulse_md
+
+    async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
+        pulse_md = self._build_trending_now_md()
         
         # Calculate coverage for the index
         total_v1 = len(self.inventory)
