@@ -64,7 +64,7 @@ jobs:
         run: |
           git config --global user.name "Nubenetes Bot"
           git config --global user.email "bot@nubenetes.com"
-          git add data/news_digest.json v2-docs/tech-digest.md v2-docs/industry-digest.md v2-docs/feed.xml
+          git add data/news_digest.json v2-docs/tech-digest.md v2-docs/industry-digest.md v2-docs/index.md v2-docs/feed.xml
           if git diff --staged --quiet; then
             echo "No digest changes to commit."
           else

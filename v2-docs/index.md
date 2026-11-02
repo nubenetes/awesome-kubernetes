@@ -99,120 +99,120 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 01, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 02, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">AI & Agents</div>
-  <div class="trending-card__title"><a href="https://antigravity.google">Google Antigravity Agentic Platform</a></div>
-  <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Provides a dedicated cloud native platform and SDK to bridge local stateful agent prototypes into scalable GKE production environments.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">OpenShift / Red Hat</div>
-  <div class="trending-card__title"><a href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.22">OpenShift 4 documentation 🌟</a></div>
-  <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Official architectural reference and operational manual defining enterprise deployment, lifecycle management, and security baselines for OpenShift Container Platform.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
-  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Transforms Kubernetes into a universal control plane capable of orchestrating multi-cloud infrastructure via declarative APIs.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Containers & Runtime</div>
-  <div class="trending-card__title"><a href="https://docs.docker.com/build">buildkit</a></div>
-  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">It is the foundational next-generation build engine driving high-performance, concurrent, and cache-efficient container image builds across the ecosystem.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Azure</div>
-  <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
-  <div class="trending-card__meta">2026-06-14 · 5k★</div>
-  <div class="trending-card__why">Azure Linux serves as the container-optimized base OS for AKS, directly shrinking attack surfaces and container footprint across enterprise clusters.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Networking & Service Mesh</div>
   <div class="trending-card__title"><a href="https://github.com/istio/istio">Istio</a></div>
-  <div class="trending-card__meta">2026-06-14 · 38.5k★</div>
-  <div class="trending-card__why">Istio is the CNCF-graduated enterprise standard for service mesh, pioneering ambient mode and zero-trust microservice networking.</div>
+  <div class="trending-card__meta">2026-11-01 · 38.5k★</div>
+  <div class="trending-card__why">Istio remains the industry standard service mesh, driving service-to-service security, observability, and advanced traffic management across enterprise Kubernetes workloads.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Virtualization & Private Cloud</div>
-  <div class="trending-card__title"><a href="https://nubenetes.com/openshift">Openshift Container Platform</a></div>
-  <div class="trending-card__meta">2026-06-14</div>
-  <div class="trending-card__why">OpenShift is the leading enterprise-grade private and hybrid cloud Kubernetes platform with extensive integrated virtualization and developer tooling.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">AI & Agents</div>
+  <div class="trending-card__title"><a href="https://github.com/HolmesGPT/holmesgpt">HolmesGPT (Robusta)</a></div>
+  <div class="trending-card__meta">2026-11-01 · 3.7k★</div>
+  <div class="trending-card__why">HolmesGPT brings autonomous AI-driven troubleshooting directly to Kubernetes clusters, revolutionizing cloud-native incident response.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Observability, SRE & Testing</div>
-  <div class="trending-card__title"><a href="https://github.com/prometheus/prometheus">prometheus</a></div>
-  <div class="trending-card__meta">2026-06-13 · 66.8k★</div>
-  <div class="trending-card__why">Serves as the foundational CNCF metrics and monitoring engine powering telemetry across virtually all Kubernetes environments.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Azure</div>
+  <div class="trending-card__title"><a href="https://github.com/Azure/bicep">Bicep</a></div>
+  <div class="trending-card__meta">2026-11-01 · 3.7k★</div>
+  <div class="trending-card__why">Bicep remains the core declarative DSL for modern Azure cloud-native provisioning and infrastructure-as-code patterns.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Kubernetes & Orchestration</div>
+  <div class="trending-card__title"><a href="https://github.com/containerd/nerdctl">nerdctl 🌟</a></div>
+  <div class="trending-card__meta">2026-11-01 · 10.5k★</div>
+  <div class="trending-card__why">Provides a robust Docker-compatible CLI specifically designed for containerd to power non-Docker container environments.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">CI/CD & GitOps</div>
-  <div class="trending-card__title"><a href="https://github.com/fluxcd/flux2">github: Flux Version 2</a></div>
-  <div class="trending-card__meta">2026-06-13 · 8.5k★</div>
-  <div class="trending-card__why">Flux v2 is a CNCF-graduated pillar of GitOps that powers decoupled, multi-tenant Kubernetes continuous reconciliation via the GitOps Toolkit.</div>
+  <div class="trending-card__title"><a href="https://github.com/dagger/dagger">dagger/dagger: Dagger is a portable devkit for CICD</a></div>
+  <div class="trending-card__meta">2026-11-01 · 16.6k★</div>
+  <div class="trending-card__why">Dagger provides a portable, code-native CI/CD engine built on BuildKit that replaces traditional YAML pipelines.</div>
 </div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">DevOps & Culture</div>
-  <div class="trending-card__title"><a href="https://github.com/backstage/backstage">backstage</a></div>
-  <div class="trending-card__meta">2026-06-13 · 33.6k★</div>
-  <div class="trending-card__why">Backstage is the industry standard framework for internal developer portals, defining modern platform engineering and developer self-service culture.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Security & Compliance</div>
   <div class="trending-card__title"><a href="https://github.com/hashicorp/vault">hashicorp/vault</a></div>
-  <div class="trending-card__meta">2026-06-12 · 36.5k★</div>
-  <div class="trending-card__why">HashiCorp Vault remains the cornerstone of enterprise secrets management, dynamic workload identity, and Zero Trust security architectures.</div>
+  <div class="trending-card__meta">2026-11-01 · 36.5k★</div>
+  <div class="trending-card__why">Remains the definitive backbone for enterprise Zero Trust architectures and dynamic secret management in cloud native environments.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Observability, SRE & Testing</div>
+  <div class="trending-card__title"><a href="https://github.com/grafana/tempo">Grafana Tempo</a></div>
+  <div class="trending-card__meta">2026-11-01 · 5.6k★</div>
+  <div class="trending-card__why">Grafana Tempo provides high-scale, cost-effective distributed tracing natively integrated with object storage.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Containers & Runtime</div>
+  <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
+  <div class="trending-card__meta">2026-10-31 · 21.4k★</div>
+  <div class="trending-card__why">containerd remains the foundational industry-standard OCI container runtime powering modern Kubernetes clusters.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://github.com/harvester/harvester">Harvester</a></div>
+  <div class="trending-card__meta">2026-10-31 · 5.2k★</div>
+  <div class="trending-card__why">Represents an enterprise-stable, open-source HCI solution built on KubeVirt and Longhorn relevant to Red Hat ecosystem virtualized workloads.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
+  <div class="trending-card__title"><a href="https://github.com/spring-projects/spring-boot#L73">spring-projects: springboot enables these probes automatically when running in k8s</a></div>
+  <div class="trending-card__meta">2026-10-28 · 81.8k★</div>
+  <div class="trending-card__why">Automates Kubernetes native readiness and liveness probes directly within Spring Boot applications.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Architecture & Microservices</div>
-  <div class="trending-card__title"><a href="https://github.com/mfornos/awesome-microservices">Awesome microservices</a></div>
-  <div class="trending-card__meta">2026-06-10 · 14.3k★</div>
-  <div class="trending-card__why">Serves as the definitive reference catalog for microservices design patterns, distributed consensus, API gateways, and event-driven communication topologies.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">AWS</div>
-  <div class="trending-card__title"><a href="https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock">Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock</a></div>
-  <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Breaks cloud provider exclusivity by bringing OpenAI's frontier models into Amazon Bedrock, redefining enterprise generative AI infrastructure on AWS.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Infrastructure as Code</div>
-  <div class="trending-card__title"><a href="https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more">New in Terraform 1.15: Dynamic sources, variable deprecation, and more</a></div>
-  <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Terraform 1.15 introduces native dynamic module sources, resolving a long-standing architectural constraint in enterprise infrastructure code reusability.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Linux & System Foundations</div>
-  <div class="trending-card__title"><a href="https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2">World domination with cgroups part 8: down and dirty with cgroup v2</a></div>
-  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Explores the fundamental kernel architecture of cgroups v2 and pressure stall information that underpins container resource isolation and Kubernetes node stability.</div>
+  <div class="trending-card__title"><a href="https://github.com/rootsongjc/awesome-cloud-native">rootsongjc/awesome-cloud-native 🌟</a></div>
+  <div class="trending-card__meta">2026-10-23 · 2.5k★</div>
+  <div class="trending-card__why">Serves as an essential foundational index for navigating the entire CNCF cloud-native ecosystem and service mesh landscape.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Data, Messaging & Storage</div>
-  <div class="trending-card__title"><a href="https://kafka.apache.org">Apache Kafka</a></div>
-  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">It is the de facto industry standard for distributed event streaming and real-time messaging architecture across enterprise systems.</div>
+  <div class="trending-card__title"><a href="https://github.com/CrunchyData/postgres-operator">postgres-operator</a></div>
+  <div class="trending-card__meta">2026-10-21 · 4.5k★</div>
+  <div class="trending-card__why">Serves as an industry-standard Kubernetes operator for automating highly available PostgreSQL cluster lifecycle, backup, and failover operations.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">AWS</div>
+  <div class="trending-card__title"><a href="https://github.com/ExtendDB/extenddb/pull/54">feat(storage): add Route 53 backend (TXT records, base64-encoded items, the works)</a></div>
+  <div class="trending-card__meta">2026-11-01 · 520★</div>
+  <div class="trending-card__why">A community-contributed pull request for ExtendDB (an open-source, DynamoDB-compatible adapter written in Rust) that implements a functional storage backend using Amazon Route 53 DNS. The implementati</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">GCP, OCI & Others</div>
+  <div class="trending-card__title"><a href="https://github.com/GoogleCloudPlatform/k8s-config-connector">k8s-config-connector: GCP Config Connector</a></div>
+  <div class="trending-card__meta">2026-11-01 · 1.1k★</div>
+  <div class="trending-card__why">Config Connector is a Kubernetes Custom Resource Definition (CRD) controller that allows operators to manage Google Cloud resources natively as if they were standard Kubernetes objects. It bridges Git</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Infrastructure as Code</div>
+  <div class="trending-card__title"><a href="https://github.com/terraform-aws-modules/terraform-aws-eks">terraform-aws-eks: AWS EKS Terraform module</a></div>
+  <div class="trending-card__meta">2026-10-08 · 5k★</div>
+  <div class="trending-card__why">The industry-standard Terraform module for Amazon EKS simplifies enterprise Kubernetes cluster provisioning.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://github.com/devtron-labs/devtron">Devtron</a></div>
+  <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
+  <div class="trending-card__why">Consolidates CI/CD, GitOps, and observability into a single open-source AppOps platform for Kubernetes.</div>
 </div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -223,6 +223,13 @@
 <div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Observability, SRE & Testing</div>
+  <div class="trending-card__title"><a href="https://github.com/prometheus/prometheus">prometheus</a></div>
+  <div class="trending-card__meta">2026-10-25 · 66.8k★</div>
+  <div class="trending-card__why">Serves as the foundational, de facto standard telemetry engine and time-series database powering cloud-native observability.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview">Claude Code CLI</a></div>
   <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
@@ -230,10 +237,24 @@
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.22">OpenShift 4 documentation 🌟</a></div>
+  <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Serves as the definitive enterprise documentation and architectural standard for operating Red Hat OpenShift Container Platform.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a></div>
-  <div class="trending-card__meta">2026-06-14 · 3.8k★</div>
-  <div class="trending-card__why">The NVIDIA device plugin is the foundational industry standard enabling Kubernetes to schedule and manage GPU resources for modern AI/ML workloads.</div>
+  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
+  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Crossplane revolutionizes cloud-native architecture by transforming Kubernetes into a universal, declarative control plane across multi-cloud infrastructure.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Azure</div>
+  <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
+  <div class="trending-card__meta">2026-06-14 · 5k★</div>
+  <div class="trending-card__why">Azure Linux provides a lightweight, container-optimized OS designed specifically for high security and minimal footprint inside AKS.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -242,47 +263,40 @@
   <div class="trending-card__meta">2026-06-14 · 48k★</div>
   <div class="trending-card__why">Ruff has become the de facto standard Python linter and formatter, radically reducing CI/CD execution times across enterprise codebases.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">OpenShift / Red Hat</div>
-  <div class="trending-card__title"><a href="https://github.com/openshift/installer">installer openshift installer 🌟</a></div>
-  <div class="trending-card__meta">2026-06-14 · 1.6k★</div>
-  <div class="trending-card__why">Foundational deployment engine automating IPI and UPI platform provisioning across public clouds and bare-metal environments.</div>
+  <div class="trending-card__category">Containers & Runtime</div>
+  <div class="trending-card__title"><a href="https://docs.docker.com/build">buildkit</a></div>
+  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">BuildKit is Docker's next-generation container building engine enabling concurrent execution and advanced caching.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">GCP, OCI & Others</div>
-  <div class="trending-card__title"><a href="https://github.com/GoogleCloudPlatform/k8s-config-connector">k8s-config-connector: GCP Config Connector</a></div>
-  <div class="trending-card__meta">2026-06-14 · 1.1k★</div>
-  <div class="trending-card__why">Enables true GitOps by allowing teams to manage Google Cloud infrastructure natively through declarative Kubernetes CRDs.</div>
+  <div class="trending-card__category">Virtualization & Private Cloud</div>
+  <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kubespray">**Kubespray**</a></div>
+  <div class="trending-card__meta">2026-06-14 · 18.6k★</div>
+  <div class="trending-card__why">Kubespray remains the gold-standard Ansible framework for production-grade, enterprise-ready bare-metal Kubernetes deployments.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Linux & System Foundations</div>
   <div class="trending-card__title"><a href="https://github.com/bpftrace/bpftrace">bpftrace</a></div>
   <div class="trending-card__meta">2026-06-13 · 10.2k★</div>
-  <div class="trending-card__why">eBPF-powered tracing with bpftrace is the modern standard for production Linux kernel profiling, observability, and latency diagnostics.</div>
+  <div class="trending-card__why">bpftrace is the standard high-level tracing language for the Linux eBPF subsystem, crucial for dynamic kernel observation and cloud-native observability.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://github.com/backstage/backstage">backstage</a></div>
+  <div class="trending-card__meta">2026-06-13 · 33.6k★</div>
+  <div class="trending-card__why">Backstage is the CNCF-incubated de facto standard for building Internal Developer Portals to reduce cognitive load across engineering organizations.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">MLOps & Data Science</div>
   <div class="trending-card__title"><a href="https://github.com/Netflix/metaflow">metaflow 🌟</a></div>
   <div class="trending-card__meta">2026-06-13 · 10.1k★</div>
-  <div class="trending-card__why">Metaflow provides a battle-tested abstraction for data scientists to move seamlessly from local prototyping to scalable cloud and Kubernetes orchestration.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Containers & Runtime</div>
-  <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
-  <div class="trending-card__meta">2026-06-13 · 21.4k★</div>
-  <div class="trending-card__why">As the industry-standard CNCF graduated runtime, containerd underpins Kubernetes container execution across virtually all major cloud providers.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Observability, SRE & Testing</div>
-  <div class="trending-card__title"><a href="https://github.com/open-telemetry/opentelemetry-collector">OpenTelemetry Collector</a></div>
-  <div class="trending-card__meta">2026-06-12 · 7.1k★</div>
-  <div class="trending-card__why">Acts as the vendor-agnostic industry standard pipeline for ingesting, transforming, and routing traces, metrics, and logs across distributed environments.</div>
+  <div class="trending-card__why">Metaflow remains the industry standard for production-grade, human-centric ML pipelines that bridge the gap between local dev and cloud scaling.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -290,20 +304,6 @@
   <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
   <div class="trending-card__meta">2026-06-12 · 10.1k★</div>
   <div class="trending-card__why">Velero is the essential enterprise benchmark for backing up, restoring, and disaster-recovering Kubernetes state and persistent volumes.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Networking & Service Mesh</div>
-  <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a></div>
-  <div class="trending-card__meta">2026-06-12 · 2.9k★</div>
-  <div class="trending-card__why">It defines the next-generation Kubernetes routing standard, unifying ingress and service mesh traffic with expressive, role-oriented APIs.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Architecture & Microservices</div>
-  <div class="trending-card__title"><a href="https://github.com/rootsongjc/awesome-cloud-native">rootsongjc/awesome-cloud-native 🌟</a></div>
-  <div class="trending-card__meta">2026-06-08 · 2.5k★</div>
-  <div class="trending-card__why">Provides an architectural taxonomy of the CNCF landscape covering service meshes, distributed storage, and cloud-native observability.</div>
 </div>
 </div>
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>
