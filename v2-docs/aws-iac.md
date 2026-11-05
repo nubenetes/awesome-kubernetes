@@ -73,7 +73,7 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
   - **(2022)** [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detailing the YAML patterns required to create and lock down basic AWS S3 buckets inside CloudFormation templates. It details parameters for versioning rules, basic access controls, and server-side encryption.
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Networking](./aws-networking.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Networking](./aws-networking.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

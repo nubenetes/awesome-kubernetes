@@ -1,5 +1,5 @@
 ---
-description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pushgateway and more — curated Cloud Native tools, guides and references."
+description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, OpenTelemetry Collector and more — curated Cloud Native tools, guides and references."
 ---
 # Prometheus
 
@@ -405,7 +405,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pus
   - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

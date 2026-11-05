@@ -585,5 +585,5 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ---
 💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md) | [NoSQL](./nosql.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

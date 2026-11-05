@@ -40,20 +40,12 @@
       <description>[CRITICAL] client-go is the indispensable official SDK underpinning virtually all production Go-based controllers, operators, and platform automation tools.</description>
     </item>
     <item>
-      <title>llm-d (Kubernetes-Native Distributed LLM Inference)</title>
-      <link>https://github.com/llm-d/llm-d</link>
-      <guid isPermaLink="true">https://github.com/llm-d/llm-d</guid>
+      <title>Red Hat OpenShift AI (RHOAI)</title>
+      <link>https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai</link>
+      <guid isPermaLink="true">https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Co-engineered by industry leaders, llm-d establishes a Kubernetes-native standard for distributed LLM inference leveraging the Gateway API Inference Extension.</description>
-    </item>
-    <item>
-      <title>KAITO (Kubernetes AI Toolchain Operator)</title>
-      <link>https://github.com/kaito-project/kaito</link>
-      <guid isPermaLink="true">https://github.com/kaito-project/kaito</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
-      <category>AI &amp; Agents</category>
-      <description>[CRITICAL] As a CNCF project, KAITO automates the provisioning, right-sizing, and deployment of open-weight LLMs directly on Kubernetes clusters.</description>
+      <description>[CRITICAL] It establishes a production-grade, enterprise standard for running AI/ML workloads natively on Kubernetes using KServe, vLLM, and KubeRay.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
@@ -62,6 +54,22 @@
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
       <description>[CRITICAL] The Gateway API is the modern, role-oriented standard replacing Kubernetes Ingress for expressive L4-L7 traffic routing.</description>
+    </item>
+    <item>
+      <title>Databricks Mosaic AI</title>
+      <link>https://www.databricks.com/product/artificial-intelligence</link>
+      <guid isPermaLink="true">https://www.databricks.com/product/artificial-intelligence</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>MLOps &amp; Data Science</category>
+      <description>[CRITICAL] Databricks Mosaic AI represents an industry-standard shift toward unifying Lakehouse data infrastructure with enterprise AI agent evaluation, fine-tuning, and production governance.</description>
+    </item>
+    <item>
+      <title>vLLM on Kubernetes</title>
+      <link>https://github.com/vllm-project/vllm</link>
+      <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
+      <category>AI &amp; Agents</category>
+      <description>[CRITICAL] Standardizes high-throughput, memory-efficient LLM serving directly on Kubernetes clusters via PagedAttention.</description>
     </item>
     <item>
       <title>OpenTofu Official GitHub Repository</title>
@@ -158,14 +166,6 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
       <category>Observability, SRE &amp; Testing</category>
       <description>[CRITICAL] It provides the community reference architecture for complete, end-to-end Kubernetes cluster monitoring and alerting.</description>
-    </item>
-    <item>
-      <title>github.com/CrunchyData/postgres-operator</title>
-      <link>https://github.com/CrunchyData/postgres-operator</link>
-      <guid isPermaLink="true">https://github.com/CrunchyData/postgres-operator</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] Crunchy Data's operator is an enterprise benchmark for running highly available, production-grade PostgreSQL natively on Kubernetes.</description>
     </item>
   </channel>
 </rss>
