@@ -177,6 +177,8 @@
 - [aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker)
 - [aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd)
   - **(2026)** [From Hugging Face to Amazon SageMaker Studio in one click](https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio) 🌟 - Seamlessly deploy open-weight models from the Hugging Face Hub directly into Amazon SageMaker Studio.
+  - **(2026)** [Amazon SageMaker AI](https://aws.amazon.com/sagemaker/ai) 🌟 - Fully managed machine learning and foundation model platform featuring SageMaker Unified Studio and SageMaker HyperPod for resilient distributed GPU training on Amazon EKS.
+  - **(2026)** [AI on Amazon EKS Blueprints](https://github.com/awslabs/ai-on-eks) 🌟 - Tested production blueprints, Terraform modules, and Helm stacks for running distributed AI/ML training and vLLM/Ray inference workloads on Amazon Elastic Kubernetes Service (EKS).
 
 ## Azure ML
 
@@ -187,11 +189,14 @@
 - [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c?gi=58f9c2754591) Accelerate Model Development, Deployment, and Monitoring at Scale
 - [youtube: Deploy Convolutional Neural Network (CNN) on Azure with Python | Deep Learning Deployment | MLOPS](https://www.youtube.com/watch?v=6sqGxVI3X1w)
 - [==learn.microsoft.com: Azure Well-Architected Framework perspective on Azure Machine Learning==](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-machine-learning)
+  - **(2026)** [Microsoft Azure AI Foundry](https://ai.azure.com) 🌟 - Unified enterprise AI application and MLOps platform combining the Foundry Model Catalog, Azure AI Agent Service, Managed Compute, and AKS-attached Kubernetes compute targets.
+  - **(2026)** [KAITO: Kubernetes AI Toolchain Operator](https://github.com/kaito-project/kaito) 🌟 - CNCF Sandbox operator originated by Microsoft Azure that automates open-weight LLM inference, fine-tuning, and GPU node provisioning on AKS and upstream Kubernetes.
 
 ## Databricks
 
 - [marvelousmlops.substack.com: Model serving architectures on Databricks](https://marvelousmlops.substack.com/p/model-serving-architectures-on-databricks)
 - [medium.com/sync-computing: Top 9 Lessons Learned about Databricks Jobs Serverless](https://medium.com/sync-computing/top-9-lessons-learned-about-databricks-jobs-serverless-41a43e99ded5) We test the latest Databricks Jobs serverless feature and present our pros and cons to help you make the best decision
+  - **(2026)** [Databricks Mosaic AI](https://www.databricks.com/product/artificial-intelligence) 🌟 - Unified Data Intelligence platform for building, evaluating, and governing enterprise AI agents, RAG vector indexes, and fine-tuned models directly alongside Lakehouse data with MLflow 3.0.
 
 ## KServe Cloud Native Model Server
 

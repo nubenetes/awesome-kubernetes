@@ -314,6 +314,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [TestOps and Continuous Testing](testops.md)
 - [Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more](test-automation-frameworks.md)
 ## AI
+- [==Enterprise AI Platforms (Azure AI Foundry, Bedrock, Vertex AI, OpenShift AI)== 🌟](enterprise-ai-platforms.md)
+- [Model Context Protocol (MCP) & AI Agents 🌟](ai-agents-mcp.md)
 - [AI](ai.md)
 - [MLOps](mlops.md)
 - [ChatGPT](chatgpt.md)

@@ -9,7 +9,7 @@ from src.gemini_utils import normalize_url
 
 # Dimensions mapping from v2_optimizer.py
 DIMENSIONS = {
-    "AI": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
+    "AI": ["enterprise-ai-platforms", "ai-agents-mcp", "ai", "chatgpt", "mlops"],
     "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
     "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
     "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase", "chef"],

@@ -29,6 +29,7 @@
 20. [Bunch of Images](#bunch-of-images)
 21. [Videos](#videos)
 22. [Tweets](#tweets)
+23. [Amazon Bedrock and SageMaker AI](#amazon-bedrock-and-sagemaker-ai)
 
 ## Introduction
 
@@ -290,3 +291,11 @@ You can filter by topic using the toolbar above.
 </details>
 
   - [Convert AWS console actions to reusable code with AWS Console-to-Code, now generally available](https://aws.amazon.com/blogs/aws/convert-aws-console-actions-to-reusable-code-with-aws-console-to-code-now-generally-available/?trk=0d3532c8-5f49-4c86-9683-96c2417e9b4b&sc_channel=el) 🌟 - AWS Console-to-Code is now generally available, enabling users to convert AWS console actions and workflows into reusable Infrastructure as Code (IaC) formats like AWS CLI, CloudFormation, and AWS CDK.
+
+## Amazon Bedrock and SageMaker AI
+  - **(2026)** [Amazon Bedrock](https://aws.amazon.com/bedrock) 🌟 - AWS's fully managed serverless platform for foundation models, enterprise RAG Knowledge Bases, Guardrails, and multi-agent collaboration without managing underlying GPU infrastructure.
+  - **(2026)** [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore) 🌟 - Managed serverless agent runtime on AWS providing persistent session microVMs, built-in memory, identity, code interpreter sandboxes, and native Model Context Protocol (MCP) tool hosting.
+  - **(2026)** [Amazon SageMaker AI](https://aws.amazon.com/sagemaker/ai) 🌟 - Fully managed machine learning and foundation model platform featuring SageMaker Unified Studio and SageMaker HyperPod for resilient distributed GPU training on Amazon EKS.
+  - **(2026)** [Strands Agents SDK](https://github.com/strands-agents/harness-sdk) 🌟 - AWS open-source model-driven agent harness and SDK for building production AI agents in Python and TypeScript across Amazon Bedrock, AgentCore, and Amazon EKS.
+  - **(2026)** [Amazon Bedrock Official Samples](https://github.com/aws-samples/amazon-bedrock-samples) 🌟 - Official AWS reference implementations for Amazon Bedrock covering foundation model inference, Knowledge Bases, Guardrails, and enterprise GenAI architectures.
+  - **(2026)** [AI on Amazon EKS Blueprints](https://github.com/awslabs/ai-on-eks) 🌟 - Tested production blueprints, Terraform modules, and Helm stacks for running distributed AI/ML training and vLLM/Ray inference workloads on Amazon Elastic Kubernetes Service (EKS).

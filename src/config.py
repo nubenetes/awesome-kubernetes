@@ -54,7 +54,7 @@ NUBENETES_CATEGORIES = [
     'cloudflare', 'container-managers', 'crossplane', 'crunchydata', 'customer', 'databases', 
     'demos', 'devel-sites', 'developerportals', 'devops-tools', 'devops', 'devsecops', 
     'digital-money', 'digitalocean', 'docker', 'dom', 'dotnet', 'edge-computing', 'elearning', 
-    'embedded-servlet-containers', 'faq', 'finops', 'flux', 'freelancing', 'git', 'gitops', 
+    'embedded-servlet-containers', 'enterprise-ai-platforms', 'faq', 'finops', 'flux', 'freelancing', 'git', 'gitops', 
     'golang', 'grafana', 'helm', 'hr', 'iac', 'ibm_cloud', 'index', 'interview-questions', 
     'introduction', 'istio', 'java-and-java-performance-optimization', 'java_app_servers', 
     'java_frameworks', 'javascript', 'jenkins-alternatives', 'jenkins', 

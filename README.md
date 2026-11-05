@@ -222,9 +222,9 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **19914+** |
-| **Specialized MD Pages** | **162** |
-| **Total Commits** | **7311+** |
+| **Total Technical Resources (Links)** | **19945+** |
+| **Specialized MD Pages** | **163** |
+| **Total Commits** | **7312+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -237,7 +237,7 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 | [Kubernetes](docs/kubernetes.md) | 1316 |
 | [Kubernetes Tools](docs/kubernetes-tools.md) | 833 |
 | [Terraform](docs/terraform.md) | 773 |
-| [Azure](docs/azure.md) | 630 |
+| [Azure](docs/azure.md) | 638 |
 | [Demos](docs/demos.md) | 607 |
 | [Git](docs/git.md) | 604 |
 | [Devsecops](docs/devsecops.md) | 489 |
@@ -262,7 +262,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 3752 | 15,495 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 3753 | 15,499 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -278,8 +278,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 16000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15495]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3752]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15499]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3753]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -292,7 +292,7 @@ xychart-beta
 | 2026-06 | 853 | 3,522 | Active Curation |
 | 2026-07 | 382 | 1,577 | Active Curation |
 | 2026-10 | 170 | 702 | Active Curation |
-| 2026-11 | 84 | 346 | Active Curation |
+| 2026-11 | 85 | 351 | Active Curation |
 | 2026-09 | 77 | 318 | Active Curation |
 | 2026-08 | 60 | 247 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
@@ -307,7 +307,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Specialized Topics" : 5514
+    "Specialized Topics" : 5545
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
     "Public/Private Cloud" : 2500
@@ -328,10 +328,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 17922
-    "Spanish" : 1194
+    "English" : 17950
+    "Spanish" : 1196
     "French" : 199
-    "Others" : 597
+    "Others" : 598
 ```
 <!-- SUB_ECO_CHART_END -->
 
@@ -1011,8 +1011,8 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Quality Hardening (Mandate 2 & 3):** Systematically filters blacklisted domains and applies impact penalties to stale GitHub repositories.
     - **Classification:** Automatically maps new resources using the **Recursive technical hierarchy** and generates multi-language descriptions.
         *   **K8s & Cloud Native:** `@nubenetes`, `@kubernetesio`, `@cncf`, `@kelseyhightower`, `@memenetes` (plus official Kubernetes & CNCF RSS feeds).
-        *   **Hyperscalers:** `@awscloud`, `@Azure`, `@GoogleCloud`, `@0GiS0`, `@NTFAQGuy`, `@cantrillio`, `@pvergadia`, `@QuinnyPig`.
-        *   **AI & Agents:** `@OpenAI`, `@AnthropicAI`, `@GoogleDeepMind`, `@GoogleAI`, `@LoganK`, `@NotebookLM`, `@LangChainAI`, `@llama_index`, `@modelcontextpc`, `@vllm_project`, `@raydistributed`, `@huggingface`, `@NVIDIADev`.
+        *   **Hyperscalers & Enterprise Cloud AI:** `@awscloud`, `@Azure`, `@GoogleCloud`, `@RedHat`, `@openshift`, `@0GiS0`, `@NTFAQGuy`, `@cantrillio`, `@pvergadia`, `@QuinnyPig` (plus Azure AI Foundry, AWS Machine Learning/Bedrock, Google Cloud AI, and Red Hat OpenShift AI RSS feeds and reference repositories).
+        *   **AI & Agents:** `@OpenAI`, `@AnthropicAI`, `@GoogleDeepMind`, `@GoogleAI`, `@LoganK`, `@NotebookLM`, `@LangChainAI`, `@llama_index`, `@modelcontextpc`, `@vllm_project`, `@raydistributed`, `@huggingface`, `@NVIDIADev` (plus `microsoft/agent-framework`, `google/adk-python`, `strands-agents/harness-sdk`, `kaito-project/kaito`, and `llm-d/llm-d`).
         *   **Productivity:** `@GitHub`, `@Microsoft`, `@Cursor_AI`, `@midudev`, `@natfriedman`, `@karpathy`.
         *   **Data & Infra:** `@Databricks`, `@ApacheSpark`, `@snowflakedb`, `@HashiCorp`, `@PulumiCorp`, `@ArgoProj`, `@fluxcd`.
 2.  **V2VisionEngine ([`src/v2_optimizer.py`](src/v2_optimizer.py))**:

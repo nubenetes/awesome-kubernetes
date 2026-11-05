@@ -1,5 +1,5 @@
 ---
-description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more — curated Cloud Native tools, guides and references."
+description: "Top MLOps resources for 2026, AI-ranked: AI on EKS (AWS Labs), Databricks Mosaic AI and more — curated Cloud Native tools, guides and references."
 ---
 # Machine Learning Ops (MLOps) and Data Science
 
@@ -32,6 +32,19 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 #### Landscape Evaluation
 
   - **(2022)** [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/2336757/16-open-source-projects-transforming-ai-and-machine-learning.html) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An analytical review of thirteen disruptive open-source initiatives restructuring the artificial intelligence and machine learning paradigm. Covers emerging runtimes, foundational data lakes, model-serving layers, and high-performance training acceleration engines that dominate the landscape.
+## AI Agents And MCP
+
+### Cloud AI Platforms
+
+#### Amazon Bedrock And Sagemaker AI
+
+  - **(2026)** [==AI on EKS (AWS Labs)==](https://github.com/awslabs/ai-on-eks) <span class='md-tag md-tag--info'>⭐ 228</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f5d148c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 6 L 30 6 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-f5d148c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Official AWS Labs infrastructure-as-code blueprints for running high-scale GenAI and ML workloads on Amazon EKS. Live Grounding: Provides production-tested Terraform and Argo CD templates for vLLM, Ray (KubeRay), Kueue, NVIDIA GPU/AWS Trainium/Inferentia scheduling, and hybrid integration with Amazon SageMaker HyperPod and Bedrock.
+#### Azure AI Foundry
+
+  - **(2026)** [==KAITO (Kubernetes AI Toolchain Operator)==](https://github.com/kaito-project/kaito) <span class='md-tag md-tag--info'>⭐ 1037</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c91c41be" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 6 L 30 13 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-c91c41be)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: CNCF Sandbox operator originally created by Microsoft Azure that automates open-weight LLM/SLM inference and fine-tuning on Kubernetes. Live Grounding: Provisions right-sized GPU nodes automatically via Karpenter, serves models with vLLM using pre-built container images, and serves as the native bridge between Azure AI Foundry model catalogs and self-hosted AKS clusters.
+#### Enterprise And Edge AI Platforms
+
+  - **(2026)** [==Databricks Mosaic AI==](https://www.databricks.com/product/artificial-intelligence) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Unified Data Intelligence platform for building, evaluating, and governing enterprise AI agents, RAG vector indexes, and fine-tuned models directly alongside Lakehouse data. Live Grounding: Combines Mosaic AI Agent Framework, Mosaic AI Gateway, Unity Catalog governance, and MLflow 3.0 observability across AWS, Azure, and GCP.
 ## Architectural Foundations
 
 ### MLOps and Data Science
@@ -64,8 +77,8 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 
 #### Sagemaker
 
-  - **(2022)** [**aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — A detailed blueprints roadmap by AWS outlining standard enterprise implementation strategies for SageMaker. Addresses resource provisioning, continuous training cycles, multi-account governance, and secure networking architectures required for heavy-duty financial and healthcare deployments.
-  - **(2022)** [**aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD**](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — An advanced infrastructure-as-code deployment blueprint for multi-environment (Dev, Stage, Prod) MLOps promotion. Orchestrates SageMaker Model Registry with HashiCorp Terraform, GitHub Actions, and Jenkins, demonstrating an enterprise-grade, highly-secured CI/CD model delivery loop.
+  - **(2022)** [**aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — A detailed blueprints roadmap by AWS outlining standard enterprise implementation strategies for SageMaker. Addresses resource provisioning, continuous training cycles, multi-account governance, and secure networking architectures required for heavy-duty financial and healthcare deployments.
+  - **(2022)** [**aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD**](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — An advanced infrastructure-as-code deployment blueprint for multi-environment (Dev, Stage, Prod) MLOps promotion. Orchestrates SageMaker Model Registry with HashiCorp Terraform, GitHub Actions, and Jenkins, demonstrating an enterprise-grade, highly-secured CI/CD model delivery loop.
 ### Azure
 
 #### Mlflow
@@ -91,6 +104,13 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 #### Enterprise Platforms
 
   - **(2021)** [**redhat.com: Introducing Red Hat OpenShift Data Science**](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical introduction of Red Hat OpenShift Data Science (RHODS), a managed hybrid-cloud service leveraging OpenShift Kubernetes. Details out-of-the-box configurations for JupyterHub, PyTorch, TensorFlow, and partner tools like Starburst or Anaconda to simplify operational enterprise scaling.
+## Cloud Providers
+
+### AWS (1)
+
+#### Amazon Bedrock And Sagemaker AI (1)
+
+  - **(2026)** [==Amazon SageMaker AI (HyperPod and Managed MLOps)==](https://aws.amazon.com/sagemaker/ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: AWS's managed machine learning and foundation model development platform featuring Amazon SageMaker HyperPod with native Amazon EKS orchestration. Live Grounding: Automates fault-tolerant distributed training, automated node health recovery, checkpoint management, and high-throughput model serving across thousands of NVIDIA GPU and AWS Trainium accelerators.
 ## Data Engineering
 
 ### Data Labeling
@@ -179,7 +199,7 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2023)** [**youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform**](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Technical presentation on scaling Large Language Model (LLM) fine-tuning pipelines using Airbnb's state-of-the-art ML platform. Deep dives into high-performance distributed training clusters, dynamic resource balancing, and optimizations implemented to overcome GPU memory scaling bottlenecks.
 ### LLM Ops
 
-#### AWS (1)
+#### AWS (2)
 
   - **(2023)** [**towardsdatascience.com: Deploying LLM Apps to AWS, the Open-Source Self-Service Way**](https://towardsdatascience.com/deploying-llm-apps-to-aws-the-open-source-self-service-way-c54b8667d829) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Presents a self-service architectural framework for deploying LLM microservices to AWS with open-source infrastructure-as-code tools. Outlines the provisioning of specialized GPU-backed instances, serverless scaling mechanics, and custom embedding cache deployments to balance performance with operating costs.
 #### Self-assessment
@@ -319,9 +339,9 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
   - **(2023)** [github.com/10tanmay100: MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS](https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8ced138c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 2 L 20 9 L 30 10 L 40 5 L 50 9" fill="none" stroke="url(#spark-grad-8ced138c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — A template project exploring end-to-end MLOps strategies for medical imaging classifications. Built to serve as a baseline architectural guide, it shows how to parse medical image sets, structure training scripts, and deploy models as queryable endpoints.
 ## Model Life Cycle
 
-### AWS (2)
+### AWS (3)
 
-  - **(2021)** [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Walks through a complete MLOps workflow deploying a sentiment classifier. Synthesizes MLflow for parameter and metric tracking, AWS SageMaker for hosting scalable compute environments, and Streamlit for rapid front-end application prototyping. Highlights the synergy of multi-cloud and hybrid-SaaS tooling.
+  - **(2021)** [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Walks through a complete MLOps workflow deploying a sentiment classifier. Synthesizes MLflow for parameter and metric tracking, AWS SageMaker for hosting scalable compute environments, and Streamlit for rapid front-end application prototyping. Highlights the synergy of multi-cloud and hybrid-SaaS tooling.
 ### Enterprise Patterns
 
   - **(2022)** [**Machine Learning in Production. What does an end-to-end ML workflow look like in production? (transcript) 🌟🌟🌟**](https://www.union.ai/blog-post/machine-learning-in-production) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A granular transcript and architectural review of an end-to-end production ML pipeline workflow. Identifies key infrastructure challenges such as reliable data ingestion, continuous model validation, distributed caching, and metadata lineage tracking.
@@ -385,5 +405,5 @@ description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more �
 ---
 💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

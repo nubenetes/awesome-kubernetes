@@ -79,9 +79,9 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
             sre_just = "Acceptable single-instance footprint, but lacks comprehensive scaling runbooks and observability probes."
             
         # AI Platform Engineer
-        if any(x in text_to_scan for x in ["agent", "mcp", "llm", "ai", "intelligence", "model", "prompt", "backstage", "developer", "gpu", "vllm", "inference", "kuberay", "kueue", "volcano", "dra", "rag", "mlops"]):
+        if any(x in text_to_scan for x in ["agent", "mcp", "llm", "ai", "intelligence", "model", "prompt", "backstage", "developer", "gpu", "vllm", "llm-d", "kaito", "inference", "kuberay", "kueue", "volcano", "dra", "rag", "mlops", "foundry", "bedrock", "vertex", "sagemaker", "openshift-ai", "rhoai", "watsonx", "adk"]):
             ai_score = 94
-            ai_just = "Highly relevant for 2026 Cloud-Native AI architectures, supporting GPU/DRA scheduling, LLM inference serving, or MCP agentic orchestration."
+            ai_just = "Highly relevant for 2026 Cloud-Native & Public Cloud AI architectures (Azure AI Foundry, AWS Bedrock, GCP Vertex AI, OpenShift AI), supporting GPU/DRA scheduling, LLM inference serving, or MCP agentic orchestration."
         else:
             ai_score = 60
             ai_just = "Conventional software engineering resource with minimal alignment to agentic orchestration or AI workload patterns."
@@ -141,8 +141,9 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         if "iac" in text_to_scan: final_tags.add("[IAC]")
         if "mcp" in text_to_scan: final_tags.add("[MCP]")
         if any(x in text_to_scan for x in ["gpu", "cuda", "dra", "nvidia", "mig"]): final_tags.add("[GPU]")
-        if any(x in text_to_scan for x in ["llm", "vllm", "inference", "tgi", "rag"]): final_tags.add("[LLM]")
-        if any(x in text_to_scan for x in ["mlops", "kubeflow", "kuberay", "kueue", "volcano"]): final_tags.add("[MLOPS]")
+        if any(x in text_to_scan for x in ["llm", "vllm", "llm-d", "inference", "tgi", "rag"]): final_tags.add("[LLM]")
+        if any(x in text_to_scan for x in ["mlops", "kubeflow", "kuberay", "kueue", "volcano", "kaito"]): final_tags.add("[MLOPS]")
+        if any(x in text_to_scan for x in ["foundry", "bedrock", "vertex", "sagemaker", "openshift-ai", "rhoai", "opendatahub", "watsonx"]): final_tags.add("[CLOUD-AI]")
         if any(x in text_to_scan for x in ["agent", "mcp", "ai", "llm"]): final_tags.add("[AI]")
         
         debate_data = {
@@ -188,7 +189,7 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         "Evaluate this resource across three dimensions:\n"
         "1. Security & License Integrity (permissive OSS vs BSL/SSPL, supply chain security)\n"
         "2. Cloud-Native SRE & K8s Integration (CRDs/Operators, Helm, OpenTelemetry, Gateway API, Day-2 HA)\n"
-        "3. 2026 AI Platform & Agentic Readiness (GPU/DRA scheduling, LLM inference serving, MCP server integration, developer velocity)\n"
+        "3. 2026 AI Platform & Agentic Readiness (Public Cloud AI Platforms like Azure AI Foundry, AWS Bedrock/AgentCore, GCP Vertex AI, Red Hat OpenShift AI, GPU/DRA scheduling, LLM inference serving, MCP server integration, developer velocity)\n"
         "Assign a composite score (0 to 100), generate a high-density O'Reilly-style technical summary (2-5 sentences covering Architectural Role, Production Trade-offs, and K8s Compatibility), and select appropriate tags.\n"
         "Respond ONLY in valid JSON format: {\"score\": int, \"justification\": \"string\", \"summary\": \"string\", \"tags\": [\"string\"]}"
     )
@@ -246,7 +247,7 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
     personas = {
         "Security Architect": "Focus on licensing (MIT/Apache 2.0 vs BSL/SSPL), OpenSSF supply chain security, zero-trust RBAC, vulnerabilities, and enterprise compliance.",
         "Cloud Native SRE": "Focus on Kubernetes-native integration (CRDs, Operators, Helm, Gateway API), Day-2 observability (OpenTelemetry, eBPF), high-availability, and commit velocity.",
-        "AI Platform Engineer": "Focus on 2026 Cloud-Native AI infrastructure (GPU/DRA scheduling, vLLM/KServe inference, KubeRay/Kueue batch orchestration), Model Context Protocol (MCP) exposure, and developer velocity."
+        "AI Platform Engineer": "Focus on 2026 Public Cloud & Enterprise AI Platforms (Azure AI Foundry, AWS Bedrock/AgentCore/SageMaker AI, GCP Vertex AI/ADK, Red Hat OpenShift AI, IBM watsonx), Cloud-Native AI infrastructure (GPU/DRA scheduling, vLLM/llm-d/KServe inference, KubeRay/Kueue/KAITO), Model Context Protocol (MCP) exposure, and developer velocity."
     }
     
     scores = {}
@@ -340,7 +341,7 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         "Generate a final, high-density, professional technical summary (2-5 sentences, O'Reilly style covering Architectural Role, Production Trade-offs/Alternatives, and Kubernetes Compatibility).\n"
         "Select the appropriate subset of tags. You MUST include:\n"
         "1. Standard maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-        "2. Any relevant fine-grained technology stack tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [GPU], [LLM], [MCP], [AI], [DB]). Keep them uppercase and wrapped in brackets.\n"
+        "2. Any relevant fine-grained technology stack tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [CLOUD-AI], [GPU], [LLM], [MCP], [AI], [DB]). Keep them uppercase and wrapped in brackets.\n"
         "Respond ONLY in valid JSON format: {\"summary\": \"refined summary...\", \"tags\": [\"...\"]}"
     )
     
