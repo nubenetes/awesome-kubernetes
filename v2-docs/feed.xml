@@ -8,156 +8,12 @@
     <lastBuildDate>Thu, 05 Nov 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Kubernetes Gateway API</title>
-      <link>https://github.com/kubernetes-sigs/gateway-api</link>
-      <guid isPermaLink="true">https://github.com/kubernetes-sigs/gateway-api</guid>
+      <title>kubernetes-sigs/kueue: Kubernetes-native Job Queueing</title>
+      <link>https://github.com/kubernetes-sigs/kueue</link>
+      <guid isPermaLink="true">https://github.com/kubernetes-sigs/kueue</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] The Kubernetes Gateway API represents a major industry paradigm shift, superseding standard Ingress with role-oriented, expressive traffic management across clusters and service meshes.</description>
-    </item>
-    <item>
-      <title>vLLM on Kubernetes</title>
-      <link>https://github.com/vllm-project/vllm</link>
-      <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
-      <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Establishes production-grade, memory-efficient LLM serving patterns natively on Kubernetes clusters.</description>
-    </item>
-    <item>
-      <title>OpenTofu Official GitHub Repository</title>
-      <link>https://github.com/opentofu/opentofu</link>
-      <guid isPermaLink="true">https://github.com/opentofu/opentofu</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Infrastructure as Code</category>
-      <description>[CRITICAL] As a CNCF-governed project, OpenTofu provides a community-owned, open-source IaC engine featuring native state encryption and rapid innovation.</description>
-    </item>
-    <item>
-      <title>HashiCorp Terraform Language: Terraform Stacks Overview</title>
-      <link>https://developer.hashicorp.com/terraform/language/stacks</link>
-      <guid isPermaLink="true">https://developer.hashicorp.com/terraform/language/stacks</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Infrastructure as Code</category>
-      <description>[CRITICAL] Introduces a fundamental architectural shift in HCL for orchestrating multi-component, multi-region infrastructure deployments as unified stacks.</description>
-    </item>
-    <item>
-      <title>Libpod: Library and tool for running OCI-based containers in Pods</title>
-      <link>https://github.com/podman-container-tools/podman</link>
-      <guid isPermaLink="true">https://github.com/podman-container-tools/podman</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Containers &amp; Runtime</category>
-      <description>[CRITICAL] Libpod forms the core of Podman, enabling daemonless and rootless OCI container and pod management in enterprise environments.</description>
-    </item>
-    <item>
-      <title>HolmesGPT (Robusta)</title>
-      <link>https://github.com/HolmesGPT/holmesgpt</link>
-      <guid isPermaLink="true">https://github.com/HolmesGPT/holmesgpt</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
-      <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Directly applies autonomous AI agents to Kubernetes operations by investigating Prometheus alerts and pod telemetry.</description>
-    </item>
-    <item>
-      <title>hashicorp/vault</title>
-      <link>https://github.com/hashicorp/vault</link>
-      <guid isPermaLink="true">https://github.com/hashicorp/vault</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Remains the definitive backbone for enterprise Zero Trust architectures and dynamic secret management in cloud native environments.</description>
-    </item>
-    <item>
-      <title>github: Flux Version 2</title>
-      <link>https://github.com/fluxcd/flux2</link>
-      <guid isPermaLink="true">https://github.com/fluxcd/flux2</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
-      <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Flux v2 is a CNCF-graduated GitOps engine that provides decoupled, highly parallel Kubernetes controllers for declarative cloud-native delivery.</description>
-    </item>
-    <item>
-      <title>github.com: Istio</title>
-      <link>https://github.com/istio/istio</link>
-      <guid isPermaLink="true">https://github.com/istio/istio</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] As the premier CNCF graduated service mesh, Istio's ongoing architectural shift toward sidecarless Ambient mode fundamentally transforms zero-trust cloud native networking.</description>
-    </item>
-    <item>
-      <title>github.com/distribution/distribution</title>
-      <link>https://github.com/distribution/distribution</link>
-      <guid isPermaLink="true">https://github.com/distribution/distribution</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Serves as the foundational reference implementation for the OCI Distribution Specification that powers container image registries worldwide.</description>
-    </item>
-    <item>
-      <title>containerd - An open and reliable container runtime</title>
-      <link>https://github.com/containerd/containerd</link>
-      <guid isPermaLink="true">https://github.com/containerd/containerd</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Containers &amp; Runtime</category>
-      <description>[CRITICAL] containerd is the CNCF-graduated core container runtime underpinning modern production Kubernetes clusters worldwide.</description>
-    </item>
-    <item>
-      <title>Envoy Gateway</title>
-      <link>https://github.com/envoyproxy/gateway</link>
-      <guid isPermaLink="true">https://github.com/envoyproxy/gateway</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] Envoy Gateway establishes an officially supported, standardized control plane for Envoy based on Gateway API, unifying edge routing across enterprise environments.</description>
-    </item>
-    <item>
-      <title>Helm</title>
-      <link>https://github.com/helm/helm</link>
-      <guid isPermaLink="true">https://github.com/helm/helm</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Helm remains the de facto package manager for Kubernetes, serving as the core deployment foundation for enterprise cloud-native workloads.</description>
-    </item>
-    <item>
-      <title>github.com/vmware-tanzu/velero</title>
-      <link>https://github.com/velero-io/velero</link>
-      <guid isPermaLink="true">https://github.com/velero-io/velero</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] Velero is the de facto cloud native standard for Kubernetes persistent volume and cluster state backup and disaster recovery.</description>
-    </item>
-    <item>
-      <title>Cosign: Container Signing</title>
-      <link>https://github.com/sigstore/cosign</link>
-      <guid isPermaLink="true">https://github.com/sigstore/cosign</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Serves as the de facto CNCF standard for cryptographically signing and verifying container images and supply chain artifacts.</description>
-    </item>
-    <item>
-      <title>github.com/prowler-cloud/prowler 🌟🌟</title>
-      <link>https://github.com/prowler-cloud/prowler</link>
-      <guid isPermaLink="true">https://github.com/prowler-cloud/prowler</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Provides essential multi-cloud posture management, automating critical compliance auditing against industry-standard benchmarks.</description>
-    </item>
-    <item>
-      <title>github.com/prometheus/prometheus</title>
-      <link>https://github.com/prometheus/prometheus</link>
-      <guid isPermaLink="true">https://github.com/prometheus/prometheus</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] The foundational, CNCF-graduated time-series engine that serves as the de facto standard for cloud-native metrics collection and alerting.</description>
-    </item>
-    <item>
-      <title>kube-prometheus</title>
-      <link>https://github.com/prometheus-operator/kube-prometheus</link>
-      <guid isPermaLink="true">https://github.com/prometheus-operator/kube-prometheus</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] The definitive reference architecture for orchestrating end-to-end Kubernetes control plane and cluster monitoring using the Prometheus Operator stack.</description>
-    </item>
-    <item>
-      <title>github.com/CrunchyData/postgres-operator</title>
-      <link>https://github.com/CrunchyData/postgres-operator</link>
-      <guid isPermaLink="true">https://github.com/CrunchyData/postgres-operator</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] Crunchy Data's Postgres Operator is a benchmark enterprise solution for managing production-grade, highly available PostgreSQL on Kubernetes.</description>
+      <description>[CRITICAL] Kueue has emerged as the standard Kubernetes-native job queueing controller essential for modern AI/ML and batch workload orchestration.</description>
     </item>
     <item>
       <title>kubernetes-sigs/kubebuilder</title>
@@ -165,7 +21,151 @@
       <guid isPermaLink="true">https://github.com/kubernetes-sigs/kubebuilder</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[HIGH] The industry-standard developer framework for scaffolding custom Kubernetes APIs and building production-ready operators.</description>
+      <description>[CRITICAL] Kubebuilder is the industry-standard framework providing foundational scaffolding and controller-runtime abstractions for Kubernetes operators.</description>
+    </item>
+    <item>
+      <title>github.com/kubernetes: **Kubernetes Cluster Autoscaler**</title>
+      <link>https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler</link>
+      <guid isPermaLink="true">https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] Cluster Autoscaler remains the definitive, battle-tested core component for dynamic compute node provisioning and capacity management across cloud providers.</description>
+    </item>
+    <item>
+      <title>kubernetes/client-go: Go client for Kubernetes 🌟</title>
+      <link>https://github.com/kubernetes/client-go</link>
+      <guid isPermaLink="true">https://github.com/kubernetes/client-go</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] client-go is the indispensable official SDK underpinning virtually all production Go-based controllers, operators, and platform automation tools.</description>
+    </item>
+    <item>
+      <title>KAITO (Kubernetes AI Toolchain Operator)</title>
+      <link>https://github.com/kaito-project/kaito</link>
+      <guid isPermaLink="true">https://github.com/kaito-project/kaito</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>AI &amp; Agents</category>
+      <description>[CRITICAL] Automates open-weight model deployment and GPU node provisioning on Kubernetes as a CNCF Sandbox project, standardizing cloud-native AI infrastructure.</description>
+    </item>
+    <item>
+      <title>llm-d (Kubernetes-Native Distributed LLM Inference)</title>
+      <link>https://github.com/llm-d/llm-d</link>
+      <guid isPermaLink="true">https://github.com/llm-d/llm-d</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>AI &amp; Agents</category>
+      <description>[CRITICAL] A breakthrough multi-vendor initiative by Red Hat, Google, IBM, and NVIDIA that standardizes distributed LLM serving using the Kubernetes Gateway API Inference Extension.</description>
+    </item>
+    <item>
+      <title>Kubernetes Gateway API</title>
+      <link>https://github.com/kubernetes-sigs/gateway-api</link>
+      <guid isPermaLink="true">https://github.com/kubernetes-sigs/gateway-api</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Networking &amp; Service Mesh</category>
+      <description>[CRITICAL] The Gateway API is the modern, role-oriented standard replacing Kubernetes Ingress for expressive L4-L7 traffic routing.</description>
+    </item>
+    <item>
+      <title>OpenTofu Official GitHub Repository</title>
+      <link>https://github.com/opentofu/opentofu</link>
+      <guid isPermaLink="true">https://github.com/opentofu/opentofu</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] Provides a truly open-source, Linux Foundation-governed fork of Terraform with client-side state encryption and community-driven innovation.</description>
+    </item>
+    <item>
+      <title>HashiCorp Terraform Language: Terraform Stacks Overview</title>
+      <link>https://developer.hashicorp.com/terraform/language/stacks</link>
+      <guid isPermaLink="true">https://developer.hashicorp.com/terraform/language/stacks</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] Introduces a foundational paradigm shift in HashiCorp Terraform for orchestrating multi-region, multi-environment infrastructure as unified stacks.</description>
+    </item>
+    <item>
+      <title>HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments</title>
+      <link>https://developer.hashicorp.com/terraform/language/resources/ephemeral</link>
+      <guid isPermaLink="true">https://developer.hashicorp.com/terraform/language/resources/ephemeral</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] Eliminates sensitive credential leaks in Terraform state files through native ephemeral values and write-only arguments.</description>
+    </item>
+    <item>
+      <title>kustomize</title>
+      <link>https://github.com/kubernetes-sigs/kustomize</link>
+      <guid isPermaLink="true">https://github.com/kubernetes-sigs/kustomize</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] Kustomize is a ubiquitous declarative configuration engine natively integrated into kubectl that forms the baseline of modern GitOps workflows.</description>
+    </item>
+    <item>
+      <title>hashicorp/vault</title>
+      <link>https://github.com/hashicorp/vault</link>
+      <guid isPermaLink="true">https://github.com/hashicorp/vault</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Security &amp; Compliance</category>
+      <description>[CRITICAL] HashiCorp Vault remains the foundational enterprise engine for dynamic secrets, identity brokering, and zero-trust cloud infrastructure.</description>
+    </item>
+    <item>
+      <title>github: Flux Version 2</title>
+      <link>https://github.com/fluxcd/flux2</link>
+      <guid isPermaLink="true">https://github.com/fluxcd/flux2</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>CI/CD &amp; GitOps</category>
+      <description>[CRITICAL] Flux v2 is a graduated CNCF standard providing the decoupled GitOps Toolkit architecture for enterprise Kubernetes deployments.</description>
+    </item>
+    <item>
+      <title>github.com: Istio</title>
+      <link>https://github.com/istio/istio</link>
+      <guid isPermaLink="true">https://github.com/istio/istio</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Networking &amp; Service Mesh</category>
+      <description>[CRITICAL] Istio is the leading cloud native service mesh standard driving zero-trust security and the sidecarless ambient mesh architecture.</description>
+    </item>
+    <item>
+      <title>containerd - An open and reliable container runtime</title>
+      <link>https://github.com/containerd/containerd</link>
+      <guid isPermaLink="true">https://github.com/containerd/containerd</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Containers &amp; Runtime</category>
+      <description>[CRITICAL] As the industry-standard CNCF runtime embedded in Kubernetes, containerd forms the core foundation of modern container execution.</description>
+    </item>
+    <item>
+      <title>github.com/vmware-tanzu/velero</title>
+      <link>https://github.com/velero-io/velero</link>
+      <guid isPermaLink="true">https://github.com/velero-io/velero</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Data, Messaging &amp; Storage</category>
+      <description>[CRITICAL] Velero is the cloud-native industry standard for comprehensive cluster disaster recovery and persistent volume backups.</description>
+    </item>
+    <item>
+      <title>Cosign: Container Signing</title>
+      <link>https://github.com/sigstore/cosign</link>
+      <guid isPermaLink="true">https://github.com/sigstore/cosign</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Security &amp; Compliance</category>
+      <description>[CRITICAL] Cosign is the CNCF Sigstore standard for cryptographically signing and verifying container images and SBOMs across enterprise supply chains.</description>
+    </item>
+    <item>
+      <title>github.com/prometheus/prometheus</title>
+      <link>https://github.com/prometheus/prometheus</link>
+      <guid isPermaLink="true">https://github.com/prometheus/prometheus</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Observability, SRE &amp; Testing</category>
+      <description>[CRITICAL] Prometheus remains the de facto telemetry and time-series benchmark underpinning all cloud-native observability stacks.</description>
+    </item>
+    <item>
+      <title>kube-prometheus</title>
+      <link>https://github.com/prometheus-operator/kube-prometheus</link>
+      <guid isPermaLink="true">https://github.com/prometheus-operator/kube-prometheus</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Observability, SRE &amp; Testing</category>
+      <description>[CRITICAL] It provides the community reference architecture for complete, end-to-end Kubernetes cluster monitoring and alerting.</description>
+    </item>
+    <item>
+      <title>github.com/CrunchyData/postgres-operator</title>
+      <link>https://github.com/CrunchyData/postgres-operator</link>
+      <guid isPermaLink="true">https://github.com/CrunchyData/postgres-operator</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Data, Messaging &amp; Storage</category>
+      <description>[CRITICAL] Crunchy Data's operator is an enterprise benchmark for running highly available, production-grade PostgreSQL natively on Kubernetes.</description>
     </item>
   </channel>
 </rss>

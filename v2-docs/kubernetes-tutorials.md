@@ -244,7 +244,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Kubernetes Troubleshooting: A Step-by-Step Guide covering Debugging Techniques and Strategies. Debugging with ephemeral containers in Kubernetes Troubleshooting (cncf.io).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

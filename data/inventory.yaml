@@ -711649,10 +711649,10 @@ https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview:
   - Cloud AI Platforms
   - Azure AI Foundry
   tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
   - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
-  - '[CLOUD-AI]'
-  - '[AI]'
   - '[MCP]'
   v1_locations:
   - docs/ai-agents-mcp.md
@@ -712211,12 +712211,12 @@ https://cloud.google.com/products/agent-builder:
   - Cloud AI Platforms
   - Google Cloud Vertex AI
   tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
   - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
-  - '[CLOUD-AI]'
-  - '[AI]'
-  - '[MCP]'
   - '[LLM]'
+  - '[MCP]'
   v1_locations:
   - docs/GoogleCloudPlatform.md
   - docs/ai-agents-mcp.md

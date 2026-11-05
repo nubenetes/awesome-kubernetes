@@ -31,8 +31,8 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 
 #### Subreddits
 
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/openshift covering Subreddits in Newsfeeds (reddit.com).
   - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/redhat covering Subreddits in Newsfeeds (reddit.com).
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/openshift covering Subreddits in Newsfeeds (reddit.com).
 ## Cloud Providers
 
 ### AWS
@@ -290,7 +290,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

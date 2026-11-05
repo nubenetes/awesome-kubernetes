@@ -488,9 +488,6 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
   - **(2020)** [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 1 (2020) 🌟](https://www.cloudbees.com/blog/apm-tools-jenkins-performance) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of an engineering diagnostic series for hunting down master slowdowns in Kubernetes clusters. Focuses on setting up proper application performance monitoring and resolving severe disk-level I/O latency blocks.
 ### Security
 
-#### Access Management
-
-  - **(2021)** [==Connecting and authenticating to Jenkins with Teleport Application Access==](https://github.com/gravitational/teleport/discussions/8330) <span class='md-tag md-tag--info'>⭐ 21056</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-42242706" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 2 L 30 2 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-42242706)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how to secure Jenkins controller instances with identity-aware authorization proxies via Teleport Application Access. *Curator Insight*: Security gateways. *Live Grounding*: Critical blueprint for modern security compliance, eliminating the vulnerability of exposing Jenkins directly to the internet.
 #### Credentials Binding
 
   - **(2021)** [jenkins.io: Git Username/Password Credentials Binding for sh, bat, and powershell 🌟](https://www.jenkins.io/blog/2021/07/27/git-credentials-binding-phase-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers Jenkins secure credential binding updates, preventing execution shells (sh, bat, powershell) from exposing VCS passwords in public log systems. *Curator Insight*: Securing git commands. *Live Grounding*: Baseline security practice required to prevent credentials leakage.
@@ -1119,7 +1116,7 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
     </center>
 
 ---
-💡 **Explore Related:** [Keptn](./keptn.md) | [Gitops](./gitops.md) | [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md)
+💡 **Explore Related:** [Openshift Pipelines](./openshift-pipelines.md) | [Tekton](./tekton.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Demos](./demos.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

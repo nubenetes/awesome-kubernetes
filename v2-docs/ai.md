@@ -1,5 +1,5 @@
 ---
-description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skills for Real Engineers and more — curated Cloud Native tools, guides and references."
+description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claude Code Best Practice and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 
@@ -388,5 +388,5 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 ---
 💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 
