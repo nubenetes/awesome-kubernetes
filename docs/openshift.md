@@ -40,6 +40,7 @@
 20. [OpenShift on AWS](#openshift-on-aws)
 21. [OpenShift Dedicated](#openshift-dedicated)
 22. [Other Awesome Lists](#other-awesome-lists)
+23. [Red Hat OpenShift AI](#red-hat-openshift-ai)
 
 ## OpenShift
   - [Red Hat Build of Kueue](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) - *(Related to kubernetes-operators-controllers topic)*
@@ -337,3 +338,10 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
   - [Rescue My OpenShift Cluster From Loss of 2 Masters](https://medium.com/@haozhao_2156/rescue-my-openshift-cluster-from-loss-of-2-masters-59f118a30f95) 🌟 - Este artículo detalla un escenario real de recuperación de un clúster OpenShift tras la pérdida de dos nodos master, ofreciendo pasos prácticos para la restauración.
   - [Automated Disaster Recovery failover and failback with Red Hat OpenShift](https://www.youtube.com/watch?si=YBt3LmBRNNq-GrqL&v=OPKVKPfJrRA&feature=youtu.be) 🌟 - Este video demuestra cómo configurar la recuperación ante desastres automatizada con failover y failback en Red Hat OpenShift.
+
+## Red Hat OpenShift AI
+  - **(2026)** [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/products/ai/openshift-ai) 🌟 - Enterprise Kubernetes-native AI and MLOps platform built on Red Hat OpenShift, integrating vLLM, KServe, Kubeflow, Ray, Kueue, and InstructLab for hybrid cloud and disconnected on-premise GPU deployments.
+  - **(2026)** [Open Data Hub Operator](https://github.com/opendatahub-io/opendatahub-operator) 🌟 - Upstream Kubernetes operator powering Red Hat OpenShift AI, orchestrating the full lifecycle of model serving, distributed training, and data science pipelines on OpenShift.
+  - **(2026)** [llm-d: Kubernetes-Native Distributed LLM Inference](https://github.com/llm-d/llm-d) 🌟 - Open-source distributed inference framework co-created by Red Hat, Google, IBM, and CoreWeave leveraging vLLM, KV-cache-aware routing, and disaggregated prefill/decode on Kubernetes and OpenShift.
+  - **(2026)** [InstructLab](https://github.com/instructlab/instructlab) 🌟 - Open-source taxonomy-driven synthetic data generation and model alignment framework powering Red Hat Enterprise Linux AI (RHEL AI) and OpenShift AI.
+  - **(2026)** [IBM watsonx](https://www.ibm.com/products/watsonx) 🌟 - Enterprise AI and data platform (`watsonx.ai`, `watsonx.data`, `watsonx.governance`) architected on Red Hat OpenShift for regulated hybrid-cloud AI workloads and model compliance.

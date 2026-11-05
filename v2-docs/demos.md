@@ -1318,7 +1318,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 #### Openshift AI
 
-  - **(2023)** [==OpenShift AI Examples==](https://github.com/CastawayEGR/openshift-ai-examples) <span class='md-tag md-tag--info'>⭐ 25</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d70ac3e8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 12 L 30 9 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-d70ac3e8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — A community collection of machine learning workflows and notebooks deployed on Red Hat OpenShift AI. Details deployment pipelines for distributed training, model serving, and GPU resource slicing.
+  - **(2023)** [==OpenShift AI Examples==](https://github.com/CastawayEGR/openshift-ai-examples) <span class='md-tag md-tag--info'>⭐ 25</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d70ac3e8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 12 L 30 9 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-d70ac3e8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — A community collection of machine learning workflows and notebooks deployed on Red Hat OpenShift AI. Details deployment pipelines for distributed training, model serving, and GPU resource slicing.
 ### Security and Compliance (1)
 
 #### Public Sector
@@ -1539,7 +1539,7 @@ Live Grounding: Built by a non-technical editor, the interactive application sho
   - [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2?gi=ff503c09829a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.plainenglish.io: Creating a custom EC2 module using Terraform covering Terraform in Demos (aws.plainenglish.io).
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md) | [Uncategorized](./uncategorized.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
 

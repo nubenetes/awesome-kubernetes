@@ -212,7 +212,7 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
   - **(2019)** [ref1](https://www.redhat.com/en/blog/understanding-service-accounts-sccs) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains OpenShift Service Accounts, Role-Based Access Control (RBAC), and Security Context Constraints (SCC). Understanding SCCs is vital when deploying complex operators that need custom security postures, such as stateful databases. This reference outlines how to grant specific system permissions safely, protecting multi-tenant clusters from security compromise.
 
 ---
-💡 **Explore Related:** [Message Queue](./message-queue.md) | [NoSQL](./nosql.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

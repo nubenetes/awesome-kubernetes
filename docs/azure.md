@@ -89,6 +89,7 @@
 68. [Images](#images)
 69. [Videos](#videos)
 70. [Tweets](#tweets)
+71. [Azure AI Foundry](#azure-ai-foundry)
 
 <center markdown="1">
 
@@ -910,3 +911,9 @@
 
 ## Azure AI Foundry
   - **(2026)** [Hugging Face Models on Foundry Managed Compute](https://huggingface.co/blog/microsoft/foundry-managed-compute) 🌟 - Deploy curated open-weight models onto Microsoft Foundry with enterprise-grade security and governance.
+  - **(2026)** [Microsoft Azure AI Foundry](https://ai.azure.com) 🌟 - Microsoft's unified enterprise AI application and agent factory combining the Foundry Model Catalog, Azure AI Agent Service, Prompt Flow, evaluation guardrails, and native integration with AKS and Azure Container Apps.
+  - **(2026)** [Azure AI Foundry Architecture and Documentation](https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry) 🌟 - Official architectural documentation for Microsoft Foundry, covering hub-and-project governance, Entra Agent ID, Foundry IQ enterprise RAG via Azure AI Search, and hybrid deployment to Kubernetes.
+  - **(2026)** [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) 🌟 - Open-source framework unifying Semantic Kernel and AutoGen for building, orchestrating, and deploying single- and multi-agent workflows in Python and .NET with native Azure AI Foundry integration.
+  - **(2026)** [Azure AI Foundry Agent Service Starter Samples](https://github.com/Azure-Samples/get-started-with-ai-agents) 🌟 - Production-ready starter templates for deploying AI agent web applications using Azure AI Foundry SDKs, Bicep/Terraform IaC, and Azure Developer CLI (`azd`).
+  - **(2026)** [Azure AI Search and Azure OpenAI RAG Demo](https://github.com/Azure-Samples/azure-search-openai-demo) 🌟 - Enterprise reference implementation for Retrieval-Augmented Generation (RAG) running on Azure using Azure AI Search, Azure AI Foundry, and Azure OpenAI models.
+  - **(2026)** [KAITO: Kubernetes AI Toolchain Operator](https://github.com/kaito-project/kaito) 🌟 - CNCF Sandbox operator originated by Microsoft Azure that automates open-weight LLM inference, fine-tuning, and GPU node provisioning on AKS and upstream Kubernetes.

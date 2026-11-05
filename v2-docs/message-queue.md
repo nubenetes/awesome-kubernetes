@@ -1,5 +1,5 @@
 ---
-description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **Debezium** and more — curated Cloud Native tools, guides and references."
+description: "Top Message Queue resources for 2026, AI-ranked: Redpanda, Apache Flink and more — curated Cloud Native tools, guides and references."
 ---
 # Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub
 
@@ -282,7 +282,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2020)** [Open Data Hub 0.6 brings component updates and Kubeflow architecture](https://developers.redhat.com/blog/2020/05/07/open-data-hub-0-6-brings-component-updates-and-kubeflow-architecture) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — This article outlines the release of Open Data Hub 0.6, highlighting the alignment of its components with the Kubeflow architecture on OpenShift. It details operator-driven deployments of JupyterHub, Kubeflow Pipelines, and Apache Spark, establishing standardized declarative patterns for building cloud-native data science workspaces.
 ##### Core Platform
 
-  - **(2020)** [Open Data Hub](https://opendatahub.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Open Data Hub (ODH) is an open-source, blueprint AI/ML platform built on OpenShift. It integrates projects like JupyterHub, Kubeflow, Apache Spark, and Prometheus. In 2026, ODH stands as the foundation of Red Hat OpenShift AI, demonstrating high enterprise stability for automating large-scale machine learning workflows, model serving, and data pipelines on Kubernetes.
+  - **(2020)** [Open Data Hub](https://opendatahub.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Open Data Hub (ODH) is an open-source, blueprint AI/ML platform built on OpenShift. It integrates projects like JupyterHub, Kubeflow, Apache Spark, and Prometheus. In 2026, ODH stands as the foundation of Red Hat OpenShift AI, demonstrating high enterprise stability for automating large-scale machine learning workflows, model serving, and data pipelines on Kubernetes.
 ##### Roadmap
 
   - **(2020)** [A development roadmap for Open Data Hub](https://developers.redhat.com/blog/2020/06/22/a-development-roadmap-for-open-data-hub)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — This roadmap article discusses the technical evolution of the Open Data Hub platform. It reviews integration strategies for OpenShift Serverless (Knative) for dynamic scaling, advanced Triton and Seldon Core model serving architectures, and metadata tracking systems, transforming monolithic pipelines into resilient microservices.
@@ -790,7 +790,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [NoSQL](./nosql.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [NoSQL](./nosql.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

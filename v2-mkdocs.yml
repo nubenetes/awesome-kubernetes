@@ -75,15 +75,20 @@ plugins:
       type: date
       fallback_to_build_date: true
   - privacy:
-      externals_exclude:
+      assets_exclude:
         - speakerdeck.com/*
+        - img.youtube.com/*
+        - i.ytimg.com/*
+        - youtube.com/*
+        - www.youtube.com/*
+        - www.youtube-nocookie.com/*
+        - cct.google/*
   - social:
       cards: true
       cards_layout_options:
         background_color: "#263238"
         font_family: "Inter"
-      custom_dir: "docs/images/"
-      logo: favicon-ultra.png
+        logo: docs/images/favicon-ultra.png
   - tags:
       tags_file: tags.md
   - minify:

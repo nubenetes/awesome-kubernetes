@@ -88,10 +88,10 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 19914 total resources analyzed.
-    - **V2 Elite Selection**: 15807 candidates identified (79.38% density ratio).
-    - **AI Enrichment Coverage**: 15807 / 15807 (100.0%)
-    - **GitHub Metadata Coverage**: 1822 / 1822 (100.0%) - *Critical for Maturity Tagging*
+    - **V1 Base Inventory**: 19945 total resources analyzed.
+    - **V2 Elite Selection**: 15838 candidates identified (79.41% density ratio).
+    - **AI Enrichment Coverage**: 15838 / 15838 (100.0%)
+    - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
 
@@ -99,43 +99,22 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 05, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 02, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Networking & Service Mesh</div>
-  <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a></div>
-  <div class="trending-card__meta">2026-11-05 · 3k★</div>
-  <div class="trending-card__why">The Kubernetes Gateway API represents a major industry paradigm shift, superseding standard Ingress with role-oriented, expressive traffic management across clusters and service meshes.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Virtualization & Private Cloud</div>
-  <div class="trending-card__title"><a href="https://github.com/k0sproject/k0s">K0s - Zero Friction Kubernetes</a></div>
-  <div class="trending-card__meta">2026-11-05 · 6.6k★</div>
-  <div class="trending-card__why">Provides a single-binary Kubernetes distribution that dramatically simplifies control plane management and deployment across bare-metal and private cloud environments.</div>
-</div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://github.com/vllm-project/vllm">vLLM on Kubernetes</a></div>
   <div class="trending-card__meta">2026-11-02 · 96.2k★</div>
-  <div class="trending-card__why">Establishes production-grade, memory-efficient LLM serving patterns natively on Kubernetes clusters.</div>
+  <div class="trending-card__why">Standardizes high-throughput, memory-efficient LLM inference via PagedAttention directly on Kubernetes clusters.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Infrastructure as Code</div>
   <div class="trending-card__title"><a href="https://github.com/opentofu/opentofu">OpenTofu Official GitHub Repository</a></div>
   <div class="trending-card__meta">2026-11-02 · 30.7k★</div>
-  <div class="trending-card__why">As a CNCF-governed project, OpenTofu provides a community-owned, open-source IaC engine featuring native state encryption and rapid innovation.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Containers & Runtime</div>
-  <div class="trending-card__title"><a href="https://github.com/podman-container-tools/podman">Libpod: Library and tool for running OCI-based containers in Pods</a></div>
-  <div class="trending-card__meta">2026-11-02 · 33.2k★</div>
-  <div class="trending-card__why">Libpod forms the core of Podman, enabling daemonless and rootless OCI container and pod management in enterprise environments.</div>
+  <div class="trending-card__why">OpenTofu provides a Linux Foundation-governed, open-source alternative to Terraform with major innovations like native state encryption.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -146,55 +125,69 @@
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
-  <div class="trending-card__title"><a href="https://github.com/golang/go">go</a></div>
-  <div class="trending-card__meta">2026-11-01 · 139.7k★</div>
-  <div class="trending-card__why">Serves as the foundational language runtime and toolchain underpinning the entire modern cloud-native stack, including Docker and Kubernetes.</div>
+  <div class="trending-card__category">Networking & Service Mesh</div>
+  <div class="trending-card__title"><a href="https://github.com/istio/istio">Istio</a></div>
+  <div class="trending-card__meta">2026-11-01 · 38.5k★</div>
+  <div class="trending-card__why">Istio is the leading service mesh standard defining modern L7 traffic management, mutual TLS, and sidecarless ambient architecture in cloud-native platforms.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/Azure/bicep">Bicep</a></div>
   <div class="trending-card__meta">2026-11-01 · 3.7k★</div>
-  <div class="trending-card__why">Bicep is the native declarative infrastructure-as-code standard for Azure, replacing legacy ARM templates to streamline cloud-native resource provisioning.</div>
+  <div class="trending-card__why">Bicep remains the core declarative DSL for modern Azure cloud-native provisioning and infrastructure-as-code patterns.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">CI/CD & GitOps</div>
   <div class="trending-card__title"><a href="https://github.com/fluxcd/flux2">github: Flux Version 2</a></div>
   <div class="trending-card__meta">2026-11-01 · 8.5k★</div>
-  <div class="trending-card__why">Flux v2 is a CNCF-graduated GitOps engine that provides decoupled, highly parallel Kubernetes controllers for declarative cloud-native delivery.</div>
+  <div class="trending-card__why">Flux v2 is a foundational, CNCF-graduated GitOps engine essential for declarative Kubernetes continuous delivery.</div>
 </div>
-<div class="trending-card trending-card--extra">
+<div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Security & Compliance</div>
   <div class="trending-card__title"><a href="https://github.com/hashicorp/vault">hashicorp/vault</a></div>
   <div class="trending-card__meta">2026-11-01 · 36.5k★</div>
   <div class="trending-card__why">Remains the definitive backbone for enterprise Zero Trust architectures and dynamic secret management in cloud native environments.</div>
 </div>
-<div class="trending-card trending-card--extra">
+<div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/distribution/distribution">distribution</a></div>
   <div class="trending-card__meta">2026-10-31 · 10.7k★</div>
-  <div class="trending-card__why">Serves as the foundational reference implementation for the OCI Distribution Specification that powers container image registries worldwide.</div>
+  <div class="trending-card__why">Distribution is the foundational OCI specification codebase that underpins modern container image registries globally.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Containers & Runtime</div>
+  <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
+  <div class="trending-card__meta">2026-10-31 · 21.4k★</div>
+  <div class="trending-card__why">As the core container runtime powering Kubernetes production workloads worldwide, containerd is fundamental to modern cloud native infrastructure.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://github.com/harvester/harvester">Harvester</a></div>
+  <div class="trending-card__meta">2026-10-31 · 5.2k★</div>
+  <div class="trending-card__why">Represents an enterprise-stable, open-source HCI solution built on KubeVirt and Longhorn relevant to Red Hat ecosystem virtualized workloads.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Data, Messaging & Storage</div>
   <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
   <div class="trending-card__meta">2026-10-30 · 10.4k★</div>
-  <div class="trending-card__why">Velero is the de facto cloud native standard for Kubernetes persistent volume and cluster state backup and disaster recovery.</div>
+  <div class="trending-card__why">Velero is the de facto cloud-native standard for Kubernetes cluster disaster recovery and persistent volume backup orchestration.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">DevOps & Culture</div>
-  <div class="trending-card__title"><a href="https://github.com/devtron-labs/devtron">Devtron</a></div>
-  <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
-  <div class="trending-card__why">Devtron offers a comprehensive open-source AppOps platform for Kubernetes that unifies CI/CD, GitOps, observability, and cost optimization into a single developer control plane.</div>
+  <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
+  <div class="trending-card__title"><a href="https://github.com/spring-projects/spring-boot#L73">spring-projects: springboot enables these probes automatically when running in k8s</a></div>
+  <div class="trending-card__meta">2026-10-28 · 81.8k★</div>
+  <div class="trending-card__why">Automates Kubernetes liveness and readiness probe configuration directly within enterprise Spring Boot microservices.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Architecture & Microservices</div>
   <div class="trending-card__title"><a href="https://github.com/etcd-io/etcd">Etcd</a></div>
   <div class="trending-card__meta">2026-10-28 · 52.4k★</div>
@@ -205,7 +198,7 @@
   <div class="trending-card__category">Observability, SRE & Testing</div>
   <div class="trending-card__title"><a href="https://github.com/prometheus/prometheus">prometheus</a></div>
   <div class="trending-card__meta">2026-10-25 · 66.8k★</div>
-  <div class="trending-card__why">The foundational, CNCF-graduated time-series engine that serves as the de facto standard for cloud-native metrics collection and alerting.</div>
+  <div class="trending-card__why">Serves as the foundational, industry-standard telemetry engine for cloud-native metrics collection and querying.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--high">🟡 HIGH <span class="trending-card__new">🆕 NEW</span></div>
@@ -213,6 +206,13 @@
   <div class="trending-card__title"><a href="https://github.com/bridgecrewio/checkov">bridgecrewio/checkov: Policy-as-Code Static Analysis for Terraform</a></div>
   <div class="trending-card__meta">2026-11-02 · 9.1k★</div>
   <div class="trending-card__why">Checkov provides standard policy-as-code security analysis for Kubernetes and cloud IaC to enforce security baselines before deployment.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Virtualization & Private Cloud</div>
+  <div class="trending-card__title"><a href="https://github.com/zarf-dev/zarf">defenseunicorns/zarf</a></div>
+  <div class="trending-card__meta">2026-11-02 · 2.1k★</div>
+  <div class="trending-card__why">Zarf simplifies and standardizes the deployment of Kubernetes clusters and cloud-native workloads in strictly air-gapped and zero-trust private cloud environments.</div>
 </div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -223,31 +223,17 @@
 <div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Networking & Service Mesh</div>
-  <div class="trending-card__title"><a href="https://github.com/istio/istio">Istio</a></div>
-  <div class="trending-card__meta">2026-11-01 · 38.5k★</div>
-  <div class="trending-card__why">As the premier CNCF graduated service mesh, Istio's ongoing architectural shift toward sidecarless Ambient mode fundamentally transforms zero-trust cloud native networking.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Containers & Runtime</div>
-  <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
-  <div class="trending-card__meta">2026-10-31 · 21.4k★</div>
-  <div class="trending-card__why">containerd is the CNCF-graduated core container runtime underpinning modern production Kubernetes clusters worldwide.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://github.com/helm/helm">Helm</a></div>
-  <div class="trending-card__meta">2026-10-30 · 30.4k★</div>
-  <div class="trending-card__why">Helm remains the de facto package manager for Kubernetes, serving as the core deployment foundation for enterprise cloud-native workloads.</div>
+  <div class="trending-card__category">CI/CD & GitOps</div>
+  <div class="trending-card__title"><a href="https://github.com/dagger/dagger">dagger/dagger: Dagger is a portable devkit for CICD</a></div>
+  <div class="trending-card__meta">2026-11-01 · 16.6k★</div>
+  <div class="trending-card__why">Dagger introduces a major paradigm shift by enabling engineers to develop containerized, portable CI/CD pipelines in general-purpose programming languages.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
   <div class="trending-card__title"><a href="https://github.com/pydantic/pydantic">pydantic/pydantic</a></div>
   <div class="trending-card__meta">2026-10-23 · 29.2k★</div>
-  <div class="trending-card__why">Acts as the industry-standard high-performance data validation framework powering modern Python cloud microservices and APIs.</div>
+  <div class="trending-card__why">Acts as the industry-standard data validation and serialization foundation powering modern cloud-native Python frameworks.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -258,24 +244,38 @@
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Kubernetes & Orchestration</div>
+  <div class="trending-card__title"><a href="https://github.com/helm/helm">Helm</a></div>
+  <div class="trending-card__meta">2026-10-30 · 30.4k★</div>
+  <div class="trending-card__why">Helm is the de facto package manager and application distribution standard for the entire Kubernetes ecosystem.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Networking & Service Mesh</div>
+  <div class="trending-card__title"><a href="https://github.com/envoyproxy/gateway">Envoy Gateway</a></div>
+  <div class="trending-card__meta">2026-10-31 · 3.1k★</div>
+  <div class="trending-card__why">Envoy Gateway spearheads the industry transition from legacy Ingress to the Kubernetes Gateway API using an officially supported, standardized Envoy control plane.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Observability, SRE & Testing</div>
   <div class="trending-card__title"><a href="https://github.com/prometheus-operator/kube-prometheus">kube-prometheus</a></div>
   <div class="trending-card__meta">2026-10-21 · 7.8k★</div>
-  <div class="trending-card__why">The definitive reference architecture for orchestrating end-to-end Kubernetes control plane and cluster monitoring using the Prometheus Operator stack.</div>
+  <div class="trending-card__why">Provides the standard reference architecture and operator pattern for deploying production-ready monitoring stacks on Kubernetes.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Data, Messaging & Storage</div>
   <div class="trending-card__title"><a href="https://github.com/CrunchyData/postgres-operator">postgres-operator</a></div>
   <div class="trending-card__meta">2026-10-21 · 4.5k★</div>
-  <div class="trending-card__why">Crunchy Data's Postgres Operator is a benchmark enterprise solution for managing production-grade, highly available PostgreSQL on Kubernetes.</div>
+  <div class="trending-card__why">Crunchy Postgres Operator is an enterprise-standard operator automating resilient, production-ready PostgreSQL lifecycle management on Kubernetes.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://github.com/HolmesGPT/holmesgpt">HolmesGPT (Robusta)</a></div>
   <div class="trending-card__meta">2026-11-01 · 3.7k★</div>
-  <div class="trending-card__why">Directly applies autonomous AI agents to Kubernetes operations by investigating Prometheus alerts and pod telemetry.</div>
+  <div class="trending-card__why">Brings autonomous AI agents directly to cloud-native operations by parsing Prometheus alerts and diagnosing live Kubernetes cluster failures.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -292,11 +292,11 @@
   <div class="trending-card__why">Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
-  <div class="trending-card__category">CI/CD & GitOps</div>
-  <div class="trending-card__title"><a href="https://github.com/dagger/dagger">dagger/dagger: Dagger is a portable devkit for CICD</a></div>
-  <div class="trending-card__meta">2026-11-01 · 16.6k★</div>
-  <div class="trending-card__why">Dagger introduces a major paradigm shift by leveraging BuildKit to execute portable CI/CD pipelines written in standard programming languages.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Infrastructure as Code</div>
+  <div class="trending-card__title"><a href="https://github.com/terraform-aws-modules/terraform-aws-eks">terraform-aws-eks: AWS EKS Terraform module</a></div>
+  <div class="trending-card__meta">2026-10-08 · 5k★</div>
+  <div class="trending-card__why">The terraform-aws-eks module remains the de facto enterprise standard for deploying production-grade Kubernetes infrastructure on AWS.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -381,7 +381,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 
 <div class="v2-tag-heatmap">
 <a class="v2-heat-tag v2-heat-3" href="/tags/#agnostic-content" title="58 resources">Agnostic<span class="v2-heat-n">58</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#ai" title="1 resources">AI<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#ai" title="18 resources">AI<span class="v2-heat-n">18</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#aiops" title="1 resources">Aiops<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#aks" title="1 resources">Aks<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ansible-content" title="3 resources">Ansible<span class="v2-heat-n">3</span></a>
@@ -411,10 +411,11 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ci-cd" title="3 resources">Ci-Cd<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#cicd" title="4 resources">Cicd<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8387 resources">Community-Tool<span class="v2-heat-n">8387</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#cloud-ai" title="37 resources">CLOUD-AI<span class="v2-heat-n">37</span></a>
+<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8388 resources">Community-Tool<span class="v2-heat-n">8388</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1268 resources">De Facto Standard<span class="v2-heat-n">1268</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1287 resources">De Facto Standard<span class="v2-heat-n">1287</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dev-dx" title="1 resources">Dev-Dx<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#developer-experience" title="1 resources">Developer-Experience<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
@@ -423,8 +424,8 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dockerfile-shell-content" title="1 resources">Dockerfile/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#ebpf" title="71 resources">EBPF<span class="v2-heat-n">71</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#emerging" title="496 resources">Emerging<span class="v2-heat-n">496</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1128 resources">Enterprise-Stable<span class="v2-heat-n">1128</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#emerging" title="501 resources">Emerging<span class="v2-heat-n">501</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1151 resources">Enterprise-Stable<span class="v2-heat-n">1151</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
@@ -435,24 +436,24 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1036 resources">Go<span class="v2-heat-n">1036</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1037 resources">Go<span class="v2-heat-n">1037</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-typescript-content" title="1 resources">Go/Typescript<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#go-yaml-content-2" title="3 resources">Go/Yaml<span class="v2-heat-n">3</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#gpu" title="52 resources">GPU<span class="v2-heat-n">52</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#gpu" title="60 resources">GPU<span class="v2-heat-n">60</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="59 resources">Groovy<span class="v2-heat-n">59</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-hcl-content" title="1 resources">Groovy/Hcl<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-yaml-content" title="1 resources">Groovy/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="1070 resources">Guide<span class="v2-heat-n">1070</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="1077 resources">Guide<span class="v2-heat-n">1077</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#haskell-content" title="4 resources">Haskell<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#hcl-content" title="221 resources">Hcl<span class="v2-heat-n">221</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hcl-packer-content" title="1 resources">Hcl/Packer<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#hcl-yaml-content" title="4 resources">Hcl/Yaml<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#helm-content" title="1 resources">Helm<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#html-content" title="36 resources">Html<span class="v2-heat-n">36</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#iac" title="40 resources">IAC<span class="v2-heat-n">40</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#iac" title="41 resources">IAC<span class="v2-heat-n">41</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#iam" title="1 resources">Iam<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#image-pdf-content" title="1 resources">Image/Pdf<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ini-content" title="1 resources">Ini<span class="v2-heat-n">1</span></a>
@@ -470,17 +471,17 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="2 resources">Kubernetes<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="624 resources">Legacy<span class="v2-heat-n">624</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#llm" title="81 resources">LLM<span class="v2-heat-n">81</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="616 resources">Legacy<span class="v2-heat-n">616</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="97 resources">LLM<span class="v2-heat-n">97</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="338 resources">Markdown<span class="v2-heat-n">338</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="336 resources">Markdown<span class="v2-heat-n">336</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="233 resources">MCP<span class="v2-heat-n">233</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="245 resources">MCP<span class="v2-heat-n">245</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#merge-queue" title="1 resources">Merge-Queue<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#mlops" title="54 resources">MLOPS<span class="v2-heat-n">54</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#mlops" title="62 resources">MLOPS<span class="v2-heat-n">62</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#multi-content" title="2 resources">Multi<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#networking" title="2 resources">Networking<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#nginx-conf-content" title="1 resources">Nginx Conf<span class="v2-heat-n">1</span></a>
@@ -520,6 +521,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#security" title="5 resources">Security<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#sed-content" title="1 resources">Sed<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#sentinel-content" title="1 resources">Sentinel<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#serverless" title="1 resources">Serverless<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#shell-content" title="181 resources">Shell<span class="v2-heat-n">181</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#shell-ansible-content" title="1 resources">Shell/Ansible<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#shell-dockerfile-content" title="2 resources">Shell/Dockerfile<span class="v2-heat-n">2</span></a>

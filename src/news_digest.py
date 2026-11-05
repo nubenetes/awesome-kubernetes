@@ -55,7 +55,7 @@ class NewsDigestEngine:
             "yaml", "kubernetes-storage", "kubernetes-backup-migrations",
         ],
         "AI & Agents": [
-            "ai", "ai-agents-mcp", "chatgpt",
+            "enterprise-ai-platforms", "ai", "ai-agents-mcp", "chatgpt",
         ],
         "MLOps & Data Science": [
             "mlops",

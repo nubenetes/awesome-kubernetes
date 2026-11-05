@@ -26340,6 +26340,7 @@ https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enter
   - AWS
   - SageMaker
   tags:
+  - '[CLOUD-AI]'
   - '[ENTERPRISE-STABLE]'
   - '[MLOPS]'
   v1_locations:
@@ -26425,6 +26426,7 @@ https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enter
   - AWS
   - SageMaker
   tags:
+  - '[CLOUD-AI]'
   - '[ENTERPRISE-STABLE]'
   - '[MLOPS]'
   v1_locations:
@@ -182971,6 +182973,7 @@ https://github.com/CastawayEGR/openshift-ai-examples:
   - Machine Learning Operations
   - OpenShift AI
   tags:
+  - '[CLOUD-AI]'
   - '[DE FACTO STANDARD]'
   - '[GPU]'
   v1_locations:
@@ -391911,6 +391914,7 @@ https://opendatahub.io:
   - Open Data Hub
   - Core Platform
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   - '[MLOPS]'
   v1_locations:
@@ -472294,6 +472298,7 @@ https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf0
   - Model Life Cycle
   - AWS
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   - '[MLOPS]'
   v1_locations:
@@ -596427,6 +596432,7 @@ https://www.redhat.com/en/technologies/management/ansible/automation-coding-assi
   - AI & Automation
   - Code Generation
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   v1_locations:
   - docs/ansible.md
@@ -641443,6 +641449,7 @@ https://www.youtube.com/watch?v=Hc8emNr2igU:
   - Machine Learning Platform
   - OpenShift AI
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   - '[GPU]'
   v1_locations:
@@ -663037,6 +663044,7 @@ https://blog.cloudflare.com/agents-platform-flue-sdk:
   - AI Agents MCP
   - AI Agents
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   - '[MCP]'
   v1_locations:
@@ -663358,6 +663366,7 @@ https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-produc
   - AI Agents MCP
   - AI Agents
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   - '[MCP]'
   v1_locations:
@@ -666801,6 +666810,7 @@ https://openai.com/index/travelers:
   - AI Agents MCP
   - Enterprise AI and Case Studies
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   - '[MCP]'
   v1_locations:
@@ -673752,6 +673762,7 @@ https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york
   - AWS Newfeatures
   - General Announcements
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   v1_locations:
   - docs/aws-newfeatures.md
@@ -673965,6 +673976,7 @@ https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026:
   - AWS Newfeatures
   - General Announcements
   tags:
+  - '[CLOUD-AI]'
   - '[COMMUNITY-TOOL]'
   v1_locations:
   - docs/aws-newfeatures.md
@@ -711560,3 +711572,1415 @@ https://www.youtube.com/playlist?list=PLR6nHneHUvqU:
   technology: SRE and Observability
   category: Observability and Monitoring
   source_provenance: Official @nubenetes YouTube Channel
+https://learn.microsoft.com/en-us/azure/ai-foundry:
+  title: Microsoft Azure AI Foundry (Microsoft Foundry)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Microsoft''s unified enterprise AI application and
+    agent factory platform (formerly Azure AI Studio). Live Grounding: Combines a
+    curated multi-provider Model Catalog (OpenAI, DeepSeek, Meta, Mistral), Foundry
+    Agent Service with native MCP and A2A protocol support, Azure AI Search (Foundry
+    IQ) grounding, and enterprise governance with seamless integration into Azure
+    Kubernetes Service (AKS) and Azure Container Apps.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[CLOUD-AI]'
+  - '[AI]'
+  - '[MCP]'
+  - '[LLM]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  - docs/mlops.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  - mlops.md
+  youtube_mosaic: {}
+  impact_score: 96
+  category: ai-agents-mcp
+https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview:
+  title: Azure AI Foundry Agent Service
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Fully managed enterprise runtime for building, deploying,
+    and scaling stateful multi-agent workflows on Azure. Live Grounding: Provides
+    server-side thread and memory persistence, native Model Context Protocol (MCP)
+    tool invocation, isolated code interpreter sandboxes, OpenTelemetry distributed
+    tracing, and Microsoft Entra Agent ID security without requiring custom Kubernetes
+    state orchestration.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[CLOUD-AI]'
+  - '[AI]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  youtube_mosaic: {}
+  impact_score: 95
+  category: ai-agents-mcp
+https://github.com/microsoft/agent-framework:
+  title: Microsoft Agent Framework
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Open-source multi-language SDK and runtime (Python
+    and .NET) by Microsoft that unifies Semantic Kernel and AutoGen into a single
+    enterprise foundation. Live Grounding: Enables multi-agent orchestration, deterministic
+    graph workflows, and native Model Context Protocol (MCP) tool execution across
+    both self-hosted Kubernetes clusters and Azure AI Foundry Agent Service.'
+  language: English
+  resource_type: Software
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  youtube_mosaic: {}
+  impact_score: 95
+  category: ai-agents-mcp
+  gh_stars: 14547
+  gh_pushed: '2026-11-05'
+  gh_license: MIT
+  gh_community_health: active
+https://github.com/Azure-Samples/get-started-with-ai-agents:
+  title: Azure AI Foundry — Get Started with AI Agents
+  description: null
+  year: '2026'
+  stars: 4
+  ai_summary: 'Curator Insight: Official Microsoft reference implementation for deploying
+    production-grade AI agents on Azure AI Foundry. Live Grounding: Demonstrates end-to-end
+    architecture with Azure Container Apps, AKS microservices, MCP tool servers, automated
+    evaluation pipelines, and Azure Monitor OpenTelemetry tracing.'
+  language: English
+  resource_type: Tutorial
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  youtube_mosaic: {}
+  impact_score: 88
+  category: ai-agents-mcp
+  gh_stars: 381
+  gh_pushed: '2026-10-08'
+  gh_license: MIT
+  gh_community_health: active
+https://github.com/Azure-Samples/azure-search-openai-demo:
+  title: Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Flagship production reference architecture for building
+    grounded enterprise RAG and agentic search applications on Azure AI Foundry. Live
+    Grounding: Combines Azure AI Search hybrid vector/semantic ranking, Microsoft
+    Entra ID RBAC document-level security, and containerized deployment templates
+    for Azure Kubernetes Service (AKS) and Azure Container Apps.'
+  language: English
+  resource_type: Software
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  youtube_mosaic: {}
+  impact_score: 94
+  category: ai-agents-mcp
+  gh_stars: 7803
+  gh_pushed: '2026-11-05'
+  gh_license: MIT
+  gh_community_health: active
+https://github.com/microsoft/ai-agents-for-beginners:
+  title: AI Agents for Beginners (Microsoft)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Comprehensive multi-lesson engineering curriculum
+    by Microsoft covering the design and deployment of production AI agents. Live
+    Grounding: Covers agentic design patterns, tool use, Model Context Protocol (MCP),
+    multi-agent collaboration, and cloud deployment using Azure AI Foundry and Microsoft
+    Agent Framework.'
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 97
+  category: ai-agents-mcp
+  gh_stars: 78993
+  gh_pushed: '2026-11-02'
+  gh_license: MIT
+  gh_community_health: active
+https://github.com/kaito-project/kaito:
+  title: KAITO (Kubernetes AI Toolchain Operator)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: CNCF Sandbox operator originally created by Microsoft
+    Azure that automates open-weight LLM/SLM inference and fine-tuning on Kubernetes.
+    Live Grounding: Provisions right-sized GPU nodes automatically via Karpenter,
+    serves models with vLLM using pre-built container images, and serves as the native
+    bridge between Azure AI Foundry model catalogs and self-hosted AKS clusters.'
+  language: English
+  resource_type: Software
+  complexity: Advanced
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  - docs/mlops.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  - mlops.md
+  youtube_mosaic: {}
+  impact_score: 93
+  cncf_status: sandbox
+  category: ai-agents-mcp
+  gh_stars: 1037
+  gh_pushed: '2026-11-05'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://aws.amazon.com/bedrock/agentcore:
+  title: Amazon Bedrock AgentCore
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: AWS''s flagship enterprise platform for deploying,
+    governing, and scaling autonomous AI agents in production without managing cluster
+    infrastructure. Live Grounding: Features MicroVM-isolated serverless runtimes
+    with 8-hour execution windows, managed short- and long-term session memory, an
+    AgentCore Gateway that turns OpenAPI/Lambda endpoints into MCP servers, and fine-grained
+    AWS IAM Identity Center governance.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: AWS
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Amazon Bedrock and SageMaker AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/aws.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - aws.md
+  youtube_mosaic: {}
+  impact_score: 96
+  category: ai-agents-mcp
+https://github.com/aws-samples/amazon-bedrock-samples:
+  title: Amazon Bedrock Samples
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Official AWS collection of production architectures
+    and blueprints for Amazon Bedrock. Live Grounding: Covers multi-agent orchestration,
+    Knowledge Bases (managed RAG), Guardrails safety policies, model evaluation, and
+    hybrid integration with Amazon EKS microservices.'
+  language: English
+  resource_type: Tutorial
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: AWS
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Amazon Bedrock and SageMaker AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/aws.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - aws.md
+  youtube_mosaic: {}
+  impact_score: 92
+  category: ai-agents-mcp
+  gh_stars: 1532
+  gh_pushed: '2026-10-22'
+  gh_license: MIT-0
+  gh_community_health: active
+https://github.com/awslabs/amazon-bedrock-agent-samples:
+  title: Amazon Bedrock Agent Samples
+  description: null
+  year: '2026'
+  stars: 4
+  ai_summary: 'Curator Insight: Curated AWS Labs repository providing end-to-end implementation
+    patterns for stateful AI agents on Amazon Bedrock and Bedrock AgentCore. Live
+    Grounding: Demonstrates tool-use orchestration, memory persistence, MCP server
+    integration, and enterprise security boundaries.'
+  language: English
+  resource_type: Tutorial
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: AWS
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Amazon Bedrock and SageMaker AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/aws.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - aws.md
+  youtube_mosaic: {}
+  impact_score: 89
+  category: ai-agents-mcp
+  gh_stars: 814
+  gh_pushed: '2026-04-05'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://github.com/strands-agents/harness-sdk:
+  title: Strands Agents SDK
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Open-source, model-driven agent framework created
+    by AWS for building production AI agents with minimal boilerplate. Live Grounding:
+    Supports native Model Context Protocol (MCP) tools, OpenTelemetry observability,
+    and portable execution across Amazon Bedrock AgentCore, AWS Lambda, and Amazon
+    EKS.'
+  language: English
+  resource_type: Software
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: AWS
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Amazon Bedrock and SageMaker AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/aws.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - aws.md
+  youtube_mosaic: {}
+  impact_score: 94
+  category: ai-agents-mcp
+  gh_stars: 9055
+  gh_pushed: '2026-11-05'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://github.com/awslabs/ai-on-eks:
+  title: AI on EKS (AWS Labs)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Official AWS Labs infrastructure-as-code blueprints
+    for running high-scale GenAI and ML workloads on Amazon EKS. Live Grounding: Provides
+    production-tested Terraform and Argo CD templates for vLLM, Ray (KubeRay), Kueue,
+    NVIDIA GPU/AWS Trainium/Inferentia scheduling, and hybrid integration with Amazon
+    SageMaker HyperPod and Bedrock.'
+  language: English
+  resource_type: Software
+  complexity: Advanced
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: AWS
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Amazon Bedrock and SageMaker AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[IAC]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/aws.md
+  - docs/mlops.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - aws.md
+  - mlops.md
+  youtube_mosaic: {}
+  impact_score: 93
+  category: ai-agents-mcp
+  gh_stars: 228
+  gh_pushed: '2026-11-03'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://aws.amazon.com/sagemaker/ai:
+  title: Amazon SageMaker AI (HyperPod and Managed MLOps)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: AWS''s managed machine learning and foundation model
+    development platform featuring Amazon SageMaker HyperPod with native Amazon EKS
+    orchestration. Live Grounding: Automates fault-tolerant distributed training,
+    automated node health recovery, checkpoint management, and high-throughput model
+    serving across thousands of NVIDIA GPU and AWS Trainium accelerators.'
+  language: English
+  resource_type: Official Docs
+  complexity: Advanced
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: AWS
+  geo_region: North America
+  hierarchy:
+  - Cloud Providers
+  - AWS
+  - Amazon Bedrock and SageMaker AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/aws.md
+  - docs/mlops.md
+  v2_locations:
+  - aws.md
+  - mlops.md
+  youtube_mosaic: {}
+  impact_score: 94
+  category: aws
+https://cloud.google.com/products/agent-builder:
+  title: Google Cloud Vertex AI Agent Builder
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Google Cloud''s unified enterprise platform for building,
+    grounding, and orchestrating multi-agent systems powered by Gemini and over 200
+    foundation models. Live Grounding: Combines the managed Vertex AI Agent Engine
+    runtime, Agent Development Kit (ADK), native Model Context Protocol (MCP) and
+    Agent2Agent (A2A) interoperability, and enterprise grounding with seamless portability
+    to Google Kubernetes Engine (GKE).'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Google
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Google Cloud Vertex AI
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[CLOUD-AI]'
+  - '[AI]'
+  - '[MCP]'
+  - '[LLM]'
+  v1_locations:
+  - docs/GoogleCloudPlatform.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - GoogleCloudPlatform.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 96
+  category: ai-agents-mcp
+https://github.com/google/adk-python:
+  title: Google Agent Development Kit (ADK)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Code-first open-source framework by Google for engineering
+    deterministic and LLM-driven multi-agent systems. Live Grounding: Features native
+    support for the Model Context Protocol (MCP), the Agent2Agent (A2A) open interoperability
+    standard, bidirectional audio/video streaming, and one-command deployment to either
+    Google Cloud Vertex AI Agent Engine or containerized GKE/Cloud Run clusters.'
+  language: English
+  resource_type: Software
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Google
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Google Cloud Vertex AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  - '[MCP]'
+  v1_locations:
+  - docs/GoogleCloudPlatform.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - GoogleCloudPlatform.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 96
+  category: ai-agents-mcp
+  gh_stars: 22114
+  gh_pushed: '2026-11-05'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://github.com/GoogleCloudPlatform/generative-ai:
+  title: Google Cloud Generative AI and Vertex AI Reference Architectures
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Official Google Cloud repository of production notebooks,
+    sample apps, and architectural workflows for Gemini on Vertex AI. Live Grounding:
+    Covers Vertex AI Agent Engine, RAG grounding, function calling, multimodal pipelines,
+    evaluation frameworks, and hybrid GKE AI inference deployments.'
+  language: English
+  resource_type: Tutorial
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Google
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Google Cloud Vertex AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/GoogleCloudPlatform.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - GoogleCloudPlatform.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 95
+  category: ai-agents-mcp
+  gh_stars: 17846
+  gh_pushed: '2026-11-05'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://github.com/GoogleCloudPlatform/vertex-ai-samples:
+  title: Google Cloud Vertex AI Samples
+  description: null
+  year: '2026'
+  stars: 4
+  ai_summary: 'Curator Insight: Official Google Cloud repository containing production
+    MLOps pipelines, custom distributed training jobs, and model serving examples
+    on Vertex AI. Live Grounding: Demonstrates Kubeflow-based Vertex AI Pipelines,
+    Ray on Vertex AI, and GPU/TPU workload portability with Google Kubernetes Engine
+    (GKE).'
+  language: English
+  resource_type: Tutorial
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Google
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Google Cloud Vertex AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/GoogleCloudPlatform.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - GoogleCloudPlatform.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 88
+  category: ai-agents-mcp
+  gh_stars: 795
+  gh_pushed: '2026-11-04'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai:
+  title: Red Hat OpenShift AI (RHOAI)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Red Hat''s enterprise-supported hybrid cloud AI and
+    MLOps platform built natively on OpenShift Kubernetes. Live Grounding: Unifies
+    KServe, vLLM, llm-d, Kubeflow Pipelines, KubeRay, Kueue, InstructLab, and Llama
+    Stack into a single operator-managed turnkey platform that delivers Azure AI Foundry/Vertex
+    AI developer velocity across on-premises data centers, air-gapped environments,
+    and public clouds.'
+  language: English
+  resource_type: Official Docs
+  complexity: Advanced
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Red Hat
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Red Hat OpenShift AI
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[CLOUD-AI]'
+  - '[LLM]'
+  - '[MLOPS]'
+  - '[GPU]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/openshift.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - openshift.md
+  youtube_mosaic: {}
+  impact_score: 95
+  category: ai-agents-mcp
+https://github.com/opendatahub-io/opendatahub-operator:
+  title: OpenDataHub Operator
+  description: null
+  year: '2026'
+  stars: 4
+  ai_summary: 'Curator Insight: Upstream open-source Kubernetes operator that powers
+    Red Hat OpenShift AI (RHOAI). Live Grounding: Orchestrates the full lifecycle
+    of enterprise AI/ML components on OpenShift and Kubernetes, including KServe model
+    serving, vLLM inference runtimes, Data Science Pipelines, KubeRay distributed
+    computing, Kueue quota scheduling, and TrustyAI observability.'
+  language: English
+  resource_type: Software
+  complexity: Advanced
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Red Hat
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Red Hat OpenShift AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/openshift.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - openshift.md
+  youtube_mosaic: {}
+  impact_score: 89
+  category: ai-agents-mcp
+  gh_stars: 110
+  gh_pushed: '2026-11-05'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://github.com/llm-d/llm-d:
+  title: llm-d (Kubernetes-Native Distributed LLM Inference)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Co-engineered by Red Hat, Google, IBM, and NVIDIA,
+    llm-d is a Kubernetes-native distributed LLM inference framework built on vLLM
+    and the Kubernetes Gateway API Inference Extension. Live Grounding: Delivers disaggregated
+    prefill/decode serving, KV-cache-aware intelligent routing, and elastic multi-host
+    GPU scaling on OpenShift AI and standard Kubernetes clusters.'
+  language: English
+  resource_type: Software
+  complexity: Cutting Edge
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Red Hat
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Red Hat OpenShift AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/openshift.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - openshift.md
+  youtube_mosaic: {}
+  impact_score: 95
+  category: ai-agents-mcp
+  gh_stars: 5150
+  gh_pushed: '2026-11-05'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://github.com/instructlab/instructlab:
+  title: InstructLab
+  description: null
+  year: '2026'
+  stars: 4
+  ai_summary: 'Curator Insight: Open-source model alignment and synthetic data generation
+    framework co-created by Red Hat and IBM Research and integrated natively into
+    Red Hat OpenShift AI. Live Grounding: Enables enterprise teams to incrementally
+    add domain knowledge and skills to open-source Granite and Llama foundation models
+    using taxonomy-driven synthetic data generation.'
+  language: English
+  resource_type: Software
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Red Hat
+  geo_region: North America
+  hierarchy:
+  - Cloud Providers
+  - OpenShift
+  - Red Hat OpenShift AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/openshift.md
+  v2_locations:
+  - openshift.md
+  youtube_mosaic: {}
+  impact_score: 88
+  category: openshift
+  gh_stars: 1420
+  gh_pushed: '2026-03-30'
+  gh_license: Apache-2.0
+  gh_community_health: active
+https://www.ibm.com/watsonx:
+  title: IBM watsonx Platform
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: IBM''s enterprise AI and data platform built natively
+    on Red Hat OpenShift for hybrid cloud portability and regulatory compliance. Live
+    Grounding: Combines watsonx.ai (Granite foundation models and AgentLab), watsonx.data
+    (open lakehouse), and watsonx.governance (automated EU AI Act and model risk compliance)
+    across on-premises OpenShift and public clouds.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: IBM
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Enterprise and Edge AI Platforms
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[CLOUD-AI]'
+  - '[AI]'
+  - '[LLM]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 92
+  category: ai-agents-mcp
+https://www.databricks.com/product/machine-learning:
+  title: Databricks Mosaic AI
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Unified enterprise platform for building, evaluating,
+    and governing compound AI systems and autonomous agents grounded in Unity Catalog
+    enterprise data. Live Grounding: Provides Mosaic AI Agent Framework, Mosaic AI
+    Gateway, MLflow 3.0 tracing, and serverless GPU model serving across AWS, Azure,
+    and GCP.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Databricks
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Enterprise and Edge AI Platforms
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[CLOUD-AI]'
+  - '[AI]'
+  - '[MLOPS]'
+  - '[LLM]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/mlops.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - mlops.md
+  youtube_mosaic: {}
+  impact_score: 94
+  category: ai-agents-mcp
+https://developers.cloudflare.com/agents:
+  title: Cloudflare Agents Platform
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Serverless edge agentic platform built on Cloudflare
+    Workers and Durable Objects for globally distributed stateful AI agents. Live
+    Grounding: Enables persistent per-agent SQLite state, WebSocket streaming, remote
+    Model Context Protocol (MCP) server hosting, and Cloudflare AI Gateway routing
+    with zero Kubernetes cluster cold-start or idle GPU overhead.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T17:52:41.387064+00:00'
+  last_ai_eval: '2026-11-05T17:52:41.387064+00:00'
+  company: Cloudflare
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Enterprise and Edge AI Platforms
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[MCP]'
+  - '[SERVERLESS]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 91
+  category: ai-agents-mcp
+https://ai.azure.com:
+  title: Microsoft Azure AI Foundry Portal
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Microsoft''s unified enterprise AI application and
+    agent factory portal (Microsoft Foundry). Live Grounding: Combines the Foundry
+    Model Catalog (serverless MaaS and Managed Compute), Azure AI Foundry Agent Service,
+    Prompt Flow, evaluation guardrails, and native hybrid integration with AKS and
+    Azure Container Apps.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T18:07:33.035840+00:00'
+  last_ai_eval: '2026-11-05T18:07:33.035840+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  youtube_mosaic: {}
+  impact_score: 96
+  category: ai-agents-mcp
+https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry:
+  title: Azure AI Foundry Architecture and Documentation
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Official architectural documentation for Microsoft
+    Azure AI Foundry. Live Grounding: Details hub-and-project enterprise governance,
+    Microsoft Entra Agent ID, Foundry IQ enterprise RAG via Azure AI Search, MCP tool
+    orchestration, and hybrid container deployment to AKS.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T18:07:33.035840+00:00'
+  last_ai_eval: '2026-11-05T18:07:33.035840+00:00'
+  company: Microsoft
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Azure AI Foundry
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/azure.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - azure.md
+  youtube_mosaic: {}
+  impact_score: 95
+  category: ai-agents-mcp
+https://aws.amazon.com/bedrock:
+  title: Amazon Bedrock
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: AWS''s flagship fully managed serverless platform
+    for foundation models, enterprise RAG Knowledge Bases, Guardrails, and multi-agent
+    collaboration. Live Grounding: Eliminates idle GPU cluster management while integrating
+    natively with Amazon Bedrock AgentCore and Amazon EKS microservices via AWS IAM
+    Roles for Service Accounts (IRSA) and Pod Identity.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T18:07:33.035840+00:00'
+  last_ai_eval: '2026-11-05T18:07:33.035840+00:00'
+  company: AWS
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Amazon Bedrock and SageMaker AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/aws.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - aws.md
+  youtube_mosaic: {}
+  impact_score: 96
+  category: ai-agents-mcp
+https://cloud.google.com/products/gemini-enterprise-agent-platform:
+  title: Google Cloud Vertex AI and Gemini Enterprise Agent Platform
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Google Cloud''s unified enterprise AI platform featuring
+    Model Garden, Vertex AI Agent Builder, and the managed Agent Engine runtime. Live
+    Grounding: Combines Google Search and enterprise data grounding, native MCP and
+    Agent2Agent (A2A) protocols, and seamless workload portability with Google Kubernetes
+    Engine (GKE).'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T18:07:33.035840+00:00'
+  last_ai_eval: '2026-11-05T18:07:33.035840+00:00'
+  company: Google
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Google Cloud Vertex AI
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  - '[MCP]'
+  v1_locations:
+  - docs/GoogleCloudPlatform.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - GoogleCloudPlatform.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 96
+  category: ai-agents-mcp
+https://www.redhat.com/en/products/ai/openshift-ai:
+  title: Red Hat OpenShift AI (RHOAI)
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Enterprise Kubernetes-native AI and MLOps platform
+    built on Red Hat OpenShift. Live Grounding: Unifies vLLM, llm-d, KServe, Kubeflow
+    Pipelines, KubeRay, Kueue, and InstructLab into an operator-managed turnkey stack
+    for hybrid cloud, sovereign cloud, and air-gapped on-premises GPU deployments.'
+  language: English
+  resource_type: Official Docs
+  complexity: Advanced
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T18:07:33.035840+00:00'
+  last_ai_eval: '2026-11-05T18:07:33.035840+00:00'
+  company: Red Hat
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Red Hat OpenShift AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/openshift.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - openshift.md
+  youtube_mosaic: {}
+  impact_score: 95
+  category: ai-agents-mcp
+https://www.ibm.com/products/watsonx:
+  title: IBM watsonx
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Enterprise AI and data platform (watsonx.ai, watsonx.data,
+    watsonx.governance) architected on Red Hat OpenShift. Live Grounding: Delivers
+    hybrid-cloud portability, open-source Granite foundation models, agentic workflows,
+    and automated EU AI Act and regulatory model risk compliance.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T18:07:33.035840+00:00'
+  last_ai_eval: '2026-11-05T18:07:33.035840+00:00'
+  company: IBM
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Enterprise and Edge AI Platforms
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  impact_score: 92
+  category: ai-agents-mcp
+https://www.databricks.com/product/artificial-intelligence:
+  title: Databricks Mosaic AI
+  description: null
+  year: '2026'
+  stars: 5
+  ai_summary: 'Curator Insight: Unified Data Intelligence platform for building, evaluating,
+    and governing enterprise AI agents, RAG vector indexes, and fine-tuned models
+    directly alongside Lakehouse data. Live Grounding: Combines Mosaic AI Agent Framework,
+    Mosaic AI Gateway, Unity Catalog governance, and MLflow 3.0 observability across
+    AWS, Azure, and GCP.'
+  language: English
+  resource_type: Official Docs
+  complexity: Intermediate
+  is_microservice: true
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T18:07:33.035840+00:00'
+  last_ai_eval: '2026-11-05T18:07:33.035840+00:00'
+  company: Databricks
+  geo_region: North America
+  hierarchy:
+  - AI Agents and MCP
+  - Cloud AI Platforms
+  - Enterprise and Edge AI Platforms
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/ai-agents-mcp.md
+  - docs/mlops.md
+  v2_locations:
+  - ai-agents-mcp.md
+  - mlops.md
+  youtube_mosaic: {}
+  impact_score: 94
+  category: ai-agents-mcp

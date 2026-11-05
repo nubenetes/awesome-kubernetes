@@ -154,5 +154,5 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
 ---
 💡 **Explore Related:** [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

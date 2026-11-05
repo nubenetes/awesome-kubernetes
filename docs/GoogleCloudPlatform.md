@@ -22,6 +22,7 @@
 18. [Videos](#videos)
 19. [Images](#images)
 20. [Tweets](#tweets)
+21. [Vertex AI and Agent Builder](#vertex-ai-and-agent-builder)
 
 ## Introduction
 
@@ -201,3 +202,9 @@
 
 </center>
 </details>
+
+## Vertex AI and Agent Builder
+  - **(2026)** [Google Cloud Vertex AI and Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) 🌟 - Google Cloud's unified enterprise AI platform featuring Model Garden, Vertex AI Agent Builder, managed Agent Engine runtime, Grounding with Google Search, and seamless portability to GKE.
+  - **(2026)** [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) 🌟 - Google's open-source, code-first Python toolkit for building, evaluating, and deploying deterministic and dynamic multi-agent systems natively on Vertex AI Agent Engine or Google Kubernetes Engine (GKE).
+  - **(2026)** [Google Cloud Generative AI Samples](https://github.com/GoogleCloudPlatform/generative-ai) 🌟 - Official repository of production notebooks, sample apps, and reference architectures for Gemini and Vertex AI on Google Cloud.
+  - **(2026)** [Google Cloud Vertex AI Samples](https://github.com/GoogleCloudPlatform/vertex-ai-samples) 🌟 - Notebooks, code samples, and MLOps workflows demonstrating how to develop, train, and deploy machine learning and generative AI models on Vertex AI.

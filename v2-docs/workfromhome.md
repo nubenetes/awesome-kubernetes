@@ -75,7 +75,7 @@ description: "Top Workfromhome resources for 2026, AI-ranked: krisp, Zoom and mo
   - **(2021)** [portafolio.co: Claves para liderar equipos de teletrabajo y no fracasar en el intento](https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Focuses on strategies for leading virtual teams, highlighting methods to establish trust, measure output over physical presence, and implement clear collaboration frameworks. Highlights Spanish-speaking organizational perspectives on easing transition friction for legacy teams.
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Elearning](./elearning.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

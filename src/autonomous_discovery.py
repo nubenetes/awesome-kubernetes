@@ -34,6 +34,11 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
         f"topic:k8s-operator+pushed:>{pushed_cutoff}+stars:>50",
         f"topic:vllm+pushed:>{pushed_cutoff}+stars:>30",
         f"topic:mlops+kubernetes+pushed:>{pushed_cutoff}+stars:>30",
+        f"topic:azure-ai-foundry+pushed:>{pushed_cutoff}+stars:>10",
+        f"topic:amazon-bedrock+pushed:>{pushed_cutoff}+stars:>20",
+        f"topic:vertex-ai+pushed:>{pushed_cutoff}+stars:>20",
+        f"topic:openshift-ai+OR+topic:opendatahub+pushed:>{pushed_cutoff}+stars:>10",
+        f"org:kaito-project+OR+org:llm-d+pushed:>{pushed_cutoff}",
         f"topic:ebpf+kubernetes+pushed:>{pushed_cutoff}+stars:>50",
         f"awesome+kubernetes+pushed:>{pushed_cutoff}+stars:>200",
         f"topic:generative-ai+pushed:>{pushed_cutoff}+stars:>500",
@@ -129,7 +134,7 @@ async def discover_trending_assets() -> list[dict]:
 
     prompt = (
         "Analyze these active Cloud-Native, AI, and Infrastructure as Code (IaC) repositories (sorted by monthly star velocity) and select the 8 highest-impact tools for a 2026 Senior Kubernetes, Cloud & AI Platform Architect.\n"
-        "Prioritize Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/inference serving, KubeRay), MCP servers for Kubernetes/SRE, Modern IaC & Terraform (Azure Verified Modules / AVM, OpenTofu, Terraform CI/CD pipelines, Landing Zones, official cloud samples), eBPF observability, and GitOps operators.\n"
+        "Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI / OpenDataHub, IBM watsonx, Databricks Mosaic AI), Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/llm-d inference serving, KubeRay, KAITO), MCP servers for Kubernetes/SRE, Modern IaC & Terraform (Azure Verified Modules / AVM, OpenTofu, Terraform CI/CD pipelines, Landing Zones, official cloud samples), eBPF observability, and GitOps operators.\n"
         f"Valid Categories: {', '.join(NUBENETES_CATEGORIES)}\n"
         f"Repos: {json.dumps(repos[:50])}\n\n"
         "Respond ONLY with a valid JSON list: [{\"title\": \"...\", \"url\": \"...\", \"description\": \"...\", \"category\": \"...\"}]"
@@ -150,7 +155,7 @@ async def discover_trending_assets() -> list[dict]:
         name_lower = r["name"].lower()
         topics_set = {t.lower() for t in r.get("topics", [])}
 
-        if "mcp" in desc_lower or "context-protocol" in desc_lower or "mcp" in name_lower or "mcp-server" in topics_set:
+        if any(k in desc_lower or k in name_lower or k in topics_set for k in ("mcp", "context-protocol", "mcp-server", "azure-ai-foundry", "bedrock", "vertex-ai", "adk", "agent-framework", "strands-agents")):
             category = "ai-agents-mcp"
         elif "awesome" in name_lower:
             category = "other-awesome-lists"
@@ -158,7 +163,7 @@ async def discover_trending_assets() -> list[dict]:
             category = "terraform"
         elif any(k in desc_lower or k in topics_set for k in ("iac", "infrastructure-as-code", "pulumi", "bicep")):
             category = "iac"
-        elif any(k in desc_lower or k in topics_set for k in ("mlops", "gpu", "vllm", "kuberay", "inference", "kubeflow", "kueue", "volcano")):
+        elif any(k in desc_lower or k in topics_set for k in ("mlops", "gpu", "vllm", "llm-d", "kaito", "kuberay", "inference", "kubeflow", "kueue", "volcano", "sagemaker", "openshift-ai", "opendatahub")):
             category = "mlops"
         elif "ai" in desc_lower or "agent" in desc_lower or "llm" in desc_lower:
             category = "ai"

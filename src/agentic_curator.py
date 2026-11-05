@@ -135,7 +135,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Perform a real-time web search for each resource.\n"
             "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
             "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
-            "- Calculate 'impact_score' (0-100) based on architectural value, innovation, and technical depth (>= 80 is required for inclusion).\n"
+            "- Calculate 'impact_score' (0-100) based on architectural value, innovation, and technical depth (>= 80 is required for inclusion). Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI, IBM watsonx, Databricks Mosaic AI) and Kubernetes-native AI/GPU operators.\n"
             f"- Assign a 'primary_category' strictly from this list: {', '.join(NUBENETES_CATEGORIES)}\n"
             "- If none fit well, use 'uncategorized' and propose a better one in 'suggested_new_category'.\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
@@ -146,7 +146,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "PHASE 4: MULTI-DIMENSIONAL TAGGING\n"
             "- Assign tags. You MUST include:\n"
             "  1. 1 to 2 maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-            "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [DB]). Keep them uppercase and wrapped in brackets.\n"
+            "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [CLOUD-AI], [GPU], [LLM], [MCP], [AI], [DB]). Keep them uppercase and wrapped in brackets.\n"
             "PHASE 5: COMPANY & GEO CLASSIFICATION\n"
             "- Identify 'company': The company/organization that authored or is the primary subject (e.g., 'Google', 'Netflix', 'CNCF', 'Independent').\n"
             "- Identify 'geo_region': The HQ region of that company. Use one of: 'americas', 'europe', 'spain', 'asia_pacific', 'global'.\n"
@@ -228,7 +228,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                         }
                         if "youtube.com" in url or "youtu.be" in url:
                             title_desc = f"{data['title']} {data['desc']}".lower()
-                            keywords = ["agent", "mcp", "terraform", "avm", "azure", "finops", "ebpf", "istio", "openshift", "argocd", "gitops", "devops", "kubernetes", "sre", "mlops", "copilot", "gemini", "claude", "openai", "autogen", "crewai"]
+                            keywords = ["agent", "mcp", "foundry", "bedrock", "vertex", "sagemaker", "watsonx", "kaito", "kserve", "vllm", "terraform", "avm", "azure", "finops", "ebpf", "istio", "openshift", "argocd", "gitops", "devops", "kubernetes", "sre", "mlops", "copilot", "gemini", "claude", "openai", "autogen", "crewai"]
                             if is_primary or any(k in title_desc for k in keywords):
                                 eval_data["is_featured_video"] = True
                                 eval_data["is_enriched"] = False

@@ -30,8 +30,8 @@ description: "Top AWS Monitoring resources for 2026, AI-ranked: github: Electric
   - **(2026)** [Sentry](https://github.com/getsentry/sentry) <span class='md-tag md-tag--info'>⭐ 45697</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a5d3aa66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 2 L 30 12 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-a5d3aa66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for Sentry covering Error Tracking and Performance Monitoring in AWS (github.com).
 #### Metrics
 
-  - [logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping' with Logz.io](https://logz.io/blog/aws-ec2-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping' with Logz.io covering Metrics in AWS (logz.io).
   - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io covering Metrics in AWS (logz.io).
+  - [logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping' with Logz.io](https://logz.io/blog/aws-ec2-metrics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping' with Logz.io covering Metrics in AWS (logz.io).
 #### Service Topology And Dependency Mapping
 
   - **(2026)** [Introducing Radar Researcher: An AI tool for exploring Internet data in plain language](https://blog.cloudflare.com/introducing-radar-researcher) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing Radar Researcher: An AI tool for exploring Internet data in plain language covering Service Topology and Dependency Mapping in AWS (blog.cloudflare.com).
@@ -93,7 +93,7 @@ description: "Top AWS Monitoring resources for 2026, AI-ranked: github: Electric
   - **(2022)** [Custom Health Check: HealthCheckCustomConfig](https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide for Cloud Map API's custom health checks. Explains dynamic service discovery patterns for serverless workloads where traditional load balancer health checks are inapplicable.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
 

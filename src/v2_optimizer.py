@@ -102,7 +102,7 @@ def clean_hierarchy_section_name(name: str) -> str:
             "devops": "DevOps", "llm": "LLM", "llms": "LLMs", "gpu": "GPU", "gpus": "GPUs",
             "mcp": "MCP", "rag": "RAG", "ebpf": "eBPF", "mlops": "MLOps", "ai": "AI", "vllm": "vLLM",
             "avm": "AVM", "alz": "ALZ", "hcl": "HCL", "aks": "AKS", "eks": "EKS", "gke": "GKE",
-            "oidc": "OIDC", "opa": "OPA"
+            "oidc": "OIDC", "opa": "OPA", "rhoai": "RHOAI", "adk": "ADK", "kaito": "KAITO"
         }
         if w_clean in acronyms_map:
             words[i] = w.lower().replace(w_clean, acronyms_map[w_clean])
@@ -238,7 +238,7 @@ class V2VisionEngine:
             "PHASE 5: ADVANCED MATURITY TAGGING\n"
             "- Assign tags. You MUST include:\n"
             "  1. 1 to 2 maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
-            "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [GPU], [LLM], [MCP], [AI], [DB]). Keep them uppercase and wrapped in brackets.\n"
+            "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [CLOUD-AI], [GPU], [LLM], [MCP], [AI], [DB]). Keep them uppercase and wrapped in brackets.\n"
         )
         self.inventory = self._load_inventory()
         self.maturity_audit = []
@@ -876,10 +876,12 @@ class V2VisionEngine:
             tags.add("[MCP]")
         if any(k in combined_text for k in ("gpu", "nvidia", "cuda", "dra ", "mig ", "fractional gpu")):
             tags.add("[GPU]")
-        if any(k in combined_text for k in ("vllm", "tgi", "llm", "inference gateway", "kserve", "triton")):
+        if any(k in combined_text for k in ("vllm", "llm-d", "tgi", "llm", "inference gateway", "kserve", "triton")):
             tags.add("[LLM]")
-        if any(k in combined_text for k in ("kuberay", "kubeflow", "kueue", "volcano", "mlops", "mlflow")):
+        if any(k in combined_text for k in ("kuberay", "kubeflow", "kueue", "volcano", "mlops", "mlflow", "kaito")):
             tags.add("[MLOPS]")
+        if any(k in combined_text for k in ("azure ai foundry", "microsoft foundry", "ai.azure.com", "amazon bedrock", "bedrock agentcore", "sagemaker", "vertex ai", "agent builder", "openshift ai", "rhoai", "opendatahub", "watsonx", "mosaic ai")):
+            tags.add("[CLOUD-AI]")
         if any(k in combined_text for k in ("ebpf", "cilium", "tetragon", "falco")):
             tags.add("[EBPF]")
 
@@ -2144,6 +2146,67 @@ class V2VisionEngine:
                 assert "Pipeline as Code with Jenkins: Architectural Core Principles" in _body, "Safety assertion failed: Jenkins Pipeline principles callout was skipped in V2 jenkins.md!"
                 assert "Jenkins Pipeline Best Practices" in _body, "Safety assertion failed: Jenkins Pipeline best practices callout was skipped in V2 jenkins.md!"
                 assert "Building Declarative Pipelines with OpenShift" in _body, "Safety assertion failed: OpenShift pipeline callout was skipped in V2 jenkins.md!"
+
+            if f_name == "ai-agents-mcp.md":
+                cloud_ai_blueprint = """
+!!! info "Architectural Paradigm Shift: The Managed Agentic Control Plane (2026)"
+    Between 2023 and 2024, running enterprise AI on Kubernetes meant assembling a complex **DIY Kubernetes AI Stack** from scratch (installing NVIDIA GPU Operator, KubeRay, Kubeflow, KServe, vLLM, vector databases, LangChain/LangGraph containers, custom Redis state stores, and OpenTelemetry collectors).
+
+    In 2025–2026, public cloud hyperscalers and enterprise Kubernetes platform vendors introduced a major new architectural layer — **Unified Cloud AI and Agentic Platforms**:
+
+    - **Microsoft Azure**: [Microsoft Azure AI Foundry](https://ai.azure.com) (*Microsoft Foundry*) + [Foundry Agent Service](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview) + [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) + [KAITO](https://github.com/kaito-project/kaito)
+    - **AWS**: [Amazon Bedrock](https://aws.amazon.com/bedrock) + [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore) + [Strands Agents SDK](https://github.com/strands-agents/harness-sdk) + [Amazon SageMaker AI (HyperPod on EKS)](https://aws.amazon.com/sagemaker/ai/)
+    - **Google Cloud**: [Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) + [Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) + [Google Agent Development Kit (ADK)](https://github.com/google/adk-python)
+    - **Red Hat and OpenShift**: [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/products/ai/openshift-ai) + [OpenDataHub Operator](https://github.com/opendatahub-io/opendatahub-operator) + [llm-d](https://github.com/llm-d/llm-d) + [InstructLab](https://github.com/instructlab/instructlab)
+    - **Data and Edge Clouds**: [Databricks Mosaic AI](https://www.databricks.com/product/artificial-intelligence), [IBM watsonx](https://www.ibm.com/products/watsonx), and [Cloudflare Agents Platform](https://developers.cloudflare.com/agents)
+
+    Unlike first-generation ML platforms, these platforms natively solve the **five hardest production challenges of GenAI and multi-agent systems** at the control-plane layer:
+
+    1.  **Stateful Agent Execution and Memory Persistence**: Managed durable conversation threads, episodic/long-term memory, and isolated execution sandboxes (e.g., MicroVM-isolated 8-hour agent sessions and code interpreters in Bedrock AgentCore and Foundry Agent Service) without building custom Kubernetes stateful orchestration.
+    2.  **Native MCP (Model Context Protocol) and A2A (Agent2Agent) Gateways**: Managed protocol gateways that turn existing enterprise REST/OpenAPI services, databases, and serverless functions into authenticated **MCP tool servers** and enable cross-platform multi-agent collaboration (**A2A**).
+    3.  **Enterprise Identity and Zero-Trust Agent Security**: First-class cloud identities for autonomous agents (**Microsoft Entra Agent ID**, **AWS IAM Identity Center for AgentCore**, **GCP IAM**) with automatic document-level RBAC enforced during RAG retrieval (**Azure AI Search / Foundry IQ**, **Bedrock Knowledge Bases**, **Vertex AI Search**).
+    4.  **Serverless Multi-Provider Model Routing and Guardrails**: Unified API gateways providing instant access to 200+ frontier and open-weight models with built-in PII redaction, prompt-injection shields, hallucination grounding checks, and continuous evaluation pipelines.
+    5.  **Zero Idle GPU Tax**: Pay-per-token model endpoints and pay-per-second serverless agent runtimes eliminate the cost of underutilized H100/B200 GPU nodes sitting idle in Kubernetes clusters during off-peak hours.
+
+#### Architectural Comparison Matrix: Managed Cloud AI Platforms vs DIY Kubernetes AI Stack
+
+| Architectural Dimension | Managed Public Cloud AI Platforms (Azure AI Foundry, Bedrock AgentCore, Vertex AI) | Hybrid Turnkey K8s AI Platforms (Red Hat OpenShift AI, KAITO, SageMaker HyperPod) | Standard DIY Kubernetes AI Stack (Self-managed KServe + vLLM + KubeRay + Kubeflow) |
+| :--- | :--- | :--- | :--- |
+| **Time to Production** | **Days** (managed model catalog, RAG, agent state, and guardrails out-of-the-box) | **1–2 Weeks** (operator-managed pre-validated stack on OpenShift, AKS, or EKS) | **3–6 Months** (manual integration of 10+ CNCF/open-source operators and CRDs) |
+| **Operational Overhead (Day-2 SRE)** | **Near Zero** (cloud provider manages GPU drivers, model scaling, and runtime patching) | **Low–Medium** (automated via OpenDataHub, RHOAI, and KAITO operators) | **Very High** (CUDA/driver upgrades, KV-cache tuning, Kueue/Ray upgrades, CRD drift) |
+| **Agent State, Memory and MCP Tooling** | **Built-in Managed Service** (Foundry Agent Service, Bedrock AgentCore, Vertex Agent Engine) | **Framework-based** (Llama Stack, Microsoft Agent Framework, LangGraph on K8s) | **100% Custom Build** (self-hosted Redis/Postgres state + custom MCP sidecars) |
+| **Cost Profile (FinOps)** | **Best for Variable and Spiky Traffic** (pay-per-token or pay-per-second; zero idle GPU waste) | **Best for Sustained Enterprise Baselines** (predictable cluster licensing + auto-provisioned GPUs) | **Best Only at Massive 24/7 Utilization** (>70% continuous GPU saturation with dedicated SREs) |
+| **Enterprise Governance and IAM** | **Turnkey** (Entra Agent ID, AWS IAM, built-in content safety, EU AI Act audit logs) | **Strong** (OpenShift RBAC, TrustyAI, Kueue multi-tenant quotas) | **Fragmented** (requires stitching OPA/Kyverno, Istio, and custom auth proxies) |
+| **Data Sovereignty and Air-Gapped Portability** | **Cloud-Bound** (tied to public cloud regions, though SDKs like ADK and Strands are portable) | **100% Portable and Air-Gap Ready** (runs on-prem, bare-metal, sovereign clouds, or public cloud) | **100% Portable** (zero vendor lock-in; runs on any CNCF-conformant Kubernetes cluster) |
+| **Hardware and Kernel-Level Control** | **Abstracted** (limited control over custom CUDA kernels, MIG slicing, or disaggregated KV cache) | **High** (`llm-d` disaggregated prefill/decode, NVIDIA GPU Operator, DRA, RoCE/InfiniBand) | **Total Control** (custom schedulers, custom vLLM builds, custom kernel/eBPF tuning) |
+
+!!! success "Strategic Verdict: The 2026 Enterprise Decision Framework"
+    1.  **For 80–90% of Enterprise GenAI, RAG, and Agentic Applications — Managed Cloud AI Platforms are a significantly superior alternative to DIY Kubernetes**:
+        If your goal is to build, govern, and scale autonomous AI agents, enterprise RAG copilots, and multi-model workflows using frontier or standard open-weight models, assembling a raw Kubernetes AI stack from scratch is now an engineering anti-pattern (*undifferentiated heavy lifting*). **Azure AI Foundry**, **Amazon Bedrock AgentCore**, and **Google Cloud Vertex AI Agent Builder** deliver faster time-to-market, native enterprise IAM/RBAC, built-in MCP/A2A interoperability, automated evaluation guardrails, and lower Total Cost of Ownership (TCO) for variable workloads.
+    2.  **When Kubernetes-Native AI Platforms Remain Superior (The 10–20% High-Control and Sovereign Tier)**:
+        - **Data Sovereignty, Regulatory Compliance, and Disconnected/Air-Gapped Environments**: Financial, defense, healthcare, and sovereign workloads that cannot send weights or prompts to multi-tenant public cloud APIs. Here, **Red Hat OpenShift AI (RHOAI)** and **IBM watsonx** provide the exact same turnkey platform experience (model registry, vLLM/`llm-d` serving, agent frameworks, governance) natively on Kubernetes.
+        - **Sustained 24/7 High-Volume Open-Weight Inference**: Once token volume crosses a high sustained threshold where per-token API fees exceed dedicated GPU reservation costs, serving open-weight models (Llama, DeepSeek, Qwen, Mistral, Granite) on Kubernetes using **`llm-d`**, **vLLM**, **KServe**, and **KAITO** with the **Kubernetes Gateway API Inference Extension** reduces unit inference costs by **40–70%**.
+        - **Massive Distributed Training and Custom Fine-Tuning**: Multi-node pre-training, RLHF/DPO, or custom CUDA kernel workloads across hundreds of GPUs/TPUs require **KubeRay**, **Kueue**, **Volcano**, or **Amazon SageMaker HyperPod on EKS**.
+    3.  **The 2026 Hybrid Reference Architecture (Cloud AI Control Plane + Kubernetes Execution Plane)**:
+        Every major cloud provider now converges its Managed AI Platform with Kubernetes rather than treating them as mutually exclusive silos:
+        - **Microsoft Azure**: Models and agents governed in **Azure AI Foundry** deploy seamlessly onto **AKS** via **KAITO** (CNCF Sandbox) and the open-source **Microsoft Agent Framework**.
+        - **AWS**: Agents built with **Strands Agents SDK** run portably across **Amazon Bedrock AgentCore** and **Amazon EKS**, while **SageMaker HyperPod** and **AI on EKS** use EKS directly as their distributed GPU orchestrator.
+        - **Google Cloud**: Agents engineered with **Google ADK** deploy with a single command to either **Vertex AI Agent Engine** or **GKE**, while **`llm-d`** brings disaggregated vLLM inference natively to GKE.
+        - **Red Hat OpenShift**: **Red Hat OpenShift AI (RHOAI)** and **`llm-d`** unify the entire open-source AI stack into an enterprise-supported platform across any on-premises or hybrid OpenShift Kubernetes cluster.
+
+??? note "Nubenetes Taxonomy Decision: Cross-Cutting Pillar and [CLOUD-AI] Tag Architecture"
+    In accordance with Nubenetes' **No File Splitting** mandate (`GEMINI.md` Mandate 30), Cloud AI Platforms are intentionally architected as a **Cross-Cutting Architectural Pillar** rather than isolated in a separate `.md` file that would fragment discovery between AI and cloud provider documentation:
+
+    - **Central Cross-Cloud Hub**: Curated and compared side-by-side here in [`ai-agents-mcp.md`](./ai-agents-mcp.md).
+    - **Cloud Provider Deep-Dives**: Cross-indexed directly inside [`azure.md`](./azure.md), [`aws.md`](./aws.md), [`GoogleCloudPlatform.md`](./GoogleCloudPlatform.md), [`openshift.md`](./openshift.md), and [`mlops.md`](./mlops.md).
+    - **Unified `[CLOUD-AI]` Multi-Dimensional Tag**: Automatically prioritized by `src/autonomous_discovery.py`, `src/agentic_curator.py`, `src/v2_debate.py`, and `src/v2_optimizer.py`, indexing all Cloud AI Platform assets under [`/tags/#cloud-ai`](/tags/#cloud-ai) in the V2 Elite Portal.
+"""
+                if "### Cloud AI Platforms\n\n" in _body:
+                    _body = _body.replace("### Cloud AI Platforms\n\n", f"### Cloud AI Platforms\n{cloud_ai_blueprint}\n", 1)
+                else:
+                    _body = f"## Cloud AI Platforms and Managed Agentic Runtimes\n{cloud_ai_blueprint}\n\n" + _body
+                assert "Architectural Paradigm Shift: The Managed Agentic Control Plane (2026)" in _body, "Safety assertion failed: Cloud AI Platforms blueprint injection was skipped in V2 ai-agents-mcp.md!"
+
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid
             # of its categories (auto-derived from the rendered H2 sections).
             if f_name == "other-awesome-lists.md":
@@ -2249,7 +2312,7 @@ class V2VisionEngine:
         # collisions where C / C# / C++ all slugged to "c-content" (broken links).
         def _tag_display(tag):
             d = tag.replace("[", "").replace("]", "").replace("&", "and").title()
-            if d.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS", "GPU", "LLM", "K8S"]:
+            if d.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS", "GPU", "LLM", "K8S", "CLOUD-AI"]:
                 d = d.upper()
             return d
 

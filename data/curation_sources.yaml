@@ -19,6 +19,8 @@ sources:
       - "awscloud"
       - "Azure"
       - "GoogleCloud"
+      - "RedHat"            # Red Hat OpenShift & OpenShift AI
+      - "openshift"         # OpenShift Container Platform & RHOAI
       - "0GiS0"             # Gisela Torres (returngis) - Azure/DevOps expert
       - "NTFAQGuy"          # John Savill - Azure technical deep-dives
       - "cantrillio"        # Adrian Cantrill - AWS technical deep-dives
@@ -26,9 +28,22 @@ sources:
       - "QuinnyPig"        # AWS Billing/FinOps expert
     feeds:
       - "https://azure.microsoft.com/en-us/blog/feed/"
+      - "https://devblogs.microsoft.com/foundry/feed/" # Microsoft Azure AI Foundry Official DevBlog
+      - "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog" # Azure AI Foundry TechCommunity Blog
       - "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureToolsBlog"
       - "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureInfrastructureBlog"
       - "https://devblogs.microsoft.com/devops/feed/"
+      - "https://aws.amazon.com/blogs/machine-learning/feed/" # AWS AI, Amazon Bedrock & SageMaker AI Blog
+      - "https://www.redhat.com/en/rss/blog" # Red Hat OpenShift & OpenShift AI Official Blog
+    github_repos_watch:
+      - "kaito-project/kaito"                      # Azure/CNCF Kubernetes AI Toolchain Operator
+      - "awslabs/ai-on-eks"                        # AWS AI/ML Blueprints on Amazon EKS
+      - "aws-samples/amazon-bedrock-samples"       # Amazon Bedrock & AgentCore Official Samples
+      - "GoogleCloudPlatform/generative-ai"        # Google Cloud Vertex AI & Gemini Samples
+      - "GoogleCloudPlatform/vertex-ai-samples"    # Vertex AI MLOps & Agent Engine Workflows
+      - "Azure-Samples/get-started-with-ai-agents" # Azure AI Foundry Agent Service Templates
+      - "Azure-Samples/azure-search-openai-demo"   # Azure AI Foundry & AI Search Enterprise RAG
+      - "opendatahub-io/opendatahub-operator"      # Red Hat OpenShift AI (RHOAI) Upstream Operator
 
   - topic: "AI & Agentic Systems"
     accounts:
@@ -54,6 +69,19 @@ sources:
       - "https://blog.google/technology/ai/rss/"
       - "https://huggingface.co/blog/feed.xml"
       - "https://developer.nvidia.com/blog/feed/"
+      - "https://devblogs.microsoft.com/foundry/feed/"
+      - "https://aws.amazon.com/blogs/machine-learning/feed/"
+    github_repos_watch:
+      - "microsoft/agent-framework"     # Microsoft Agent Framework (Azure AI Foundry)
+      - "microsoft/ai-agents-for-beginners" # Microsoft AI Agents Curriculum & Foundry Patterns
+      - "google/adk-python"             # Google Agent Development Kit (Vertex AI & Gemini)
+      - "strands-agents/harness-sdk"    # AWS Strands Agents SDK (Amazon Bedrock & AgentCore)
+      - "llm-d/llm-d"                   # Red Hat / Google / IBM Kubernetes Distributed LLM Inference
+      - "kserve/kserve"                 # Cloud-Native Model Serving on Kubernetes & OpenShift AI
+      - "vllm-project/vllm"             # High-Throughput LLM Serving Engine
+      - "ray-project/kuberay"           # Distributed AI Compute on Kubernetes
+      - "kubernetes-sigs/kueue"         # Kubernetes-Native Job Queueing for AI/ML
+      - "kaito-project/kaito"           # Kubernetes AI Toolchain Operator
 
   - topic: "Developer Productivity & AI Agents"
     accounts:
