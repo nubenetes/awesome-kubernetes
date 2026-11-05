@@ -120,7 +120,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - **(2020)** [**revenuecat.com: Replicating a postgresql cluster to redshift**](https://www.revenuecat.com/blog/engineering/replicating-a-postgresql-cluster-to-redshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents RevenueCat's engineering experience replicating high-throughput transactional Postgres databases into AWS Redshift. Live Grounding evaluates the trade-offs of AWS DMS, custom streaming code, and data synchronization patterns. Offers real-world insights on scale, column-mapping issues, and operational bottlenecks.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
 

@@ -188,6 +188,7 @@ nav:
     - "Tech & Cloud Digest": tech-digest.md
     - "Industry & Geo Digest": industry-digest.md
   - "AI":
+    - "Enterprise AI Platforms": enterprise-ai-platforms.md
     - "AI Agents MCP": ai-agents-mcp.md
     - "AI": ai.md
     - "ChatGPT": chatgpt.md

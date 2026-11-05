@@ -1,5 +1,5 @@
 ---
-description: "Top AI Agents MCP resources for 2026, AI-ranked: Strands Agents SDK, Amazon Bedrock and more — curated Cloud Native tools, guides and references."
+description: "Top AI Agents MCP resources for 2026, AI-ranked: Microsoft Agent Framework, Strands Agents SDK and more — curated Cloud Native tools, guides and references."
 ---
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
@@ -8,6 +8,9 @@ description: "Top AI Agents MCP resources for 2026, AI-ranked: Strands Agents SD
 
 !!! info "Architectural Context"
     Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI.
+
+!!! abstract "Deep-Dive Topic Pages"
+    [Enterprise AI Platforms](./enterprise-ai-platforms/) · [Core AI & LLMs](./ai/) · [MLOps & GPU Scheduling](./mlops/) · [LLMs & Assistants](./chatgpt/)
 
 ## AI and Agents
 
@@ -99,10 +102,10 @@ Enables developers to transition from local prototype builds to secure GKE produ
         - **Google Cloud**: Agents engineered with **Google ADK** deploy with a single command to either **Vertex AI Agent Engine** or **GKE**, while **`llm-d`** brings disaggregated vLLM inference natively to GKE.
         - **Red Hat OpenShift**: **Red Hat OpenShift AI (RHOAI)** and **`llm-d`** unify the entire open-source AI stack into an enterprise-supported platform across any on-premises or hybrid OpenShift Kubernetes cluster.
 
-??? note "Nubenetes Taxonomy Decision: Cross-Cutting Pillar and [CLOUD-AI] Tag Architecture"
-    In accordance with Nubenetes' **No File Splitting** mandate (`GEMINI.md` Mandate 30), Cloud AI Platforms are intentionally architected as a **Cross-Cutting Architectural Pillar** rather than isolated in a separate `.md` file that would fragment discovery between AI and cloud provider documentation:
+??? note "Dedicated Hub: Enterprise AI Platforms and [CLOUD-AI] Tag Architecture"
+    Enterprise and Public Cloud AI Platforms also have a dedicated top-level architectural hub in the **AI** navigation section:
 
-    - **Central Cross-Cloud Hub**: Curated and compared side-by-side here in [`ai-agents-mcp.md`](./ai-agents-mcp.md).
+    - **Dedicated Architectural Hub**: Explore [**Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes**](./enterprise-ai-platforms.md) for the complete provider-by-provider breakdown.
     - **Cloud Provider Deep-Dives**: Cross-indexed directly inside [`azure.md`](./azure.md), [`aws.md`](./aws.md), [`GoogleCloudPlatform.md`](./GoogleCloudPlatform.md), [`openshift.md`](./openshift.md), and [`mlops.md`](./mlops.md).
     - **Unified `[CLOUD-AI]` Multi-Dimensional Tag**: Automatically prioritized by `src/autonomous_discovery.py`, `src/agentic_curator.py`, `src/v2_debate.py`, and `src/v2_optimizer.py`, indexing all Cloud AI Platform assets under [`/tags/#cloud-ai`](/tags/#cloud-ai) in the V2 Elite Portal.
 
@@ -769,7 +772,7 @@ Core technical aims:
 *   **Technical Significance**: Redefines open-source collaboration, demonstrating a paradigm where human and AI agents securely build and maintain a massive public codebase.
 
 ---
-💡 **Explore Related:** [MLOps](./mlops.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

@@ -155,7 +155,9 @@ async def discover_trending_assets() -> list[dict]:
         name_lower = r["name"].lower()
         topics_set = {t.lower() for t in r.get("topics", [])}
 
-        if any(k in desc_lower or k in name_lower or k in topics_set for k in ("mcp", "context-protocol", "mcp-server", "azure-ai-foundry", "bedrock", "vertex-ai", "adk", "agent-framework", "strands-agents")):
+        if any(k in desc_lower or k in name_lower or k in topics_set for k in ("azure-ai-foundry", "bedrock", "vertex-ai", "openshift-ai", "opendatahub", "llm-d", "kaito")):
+            category = "enterprise-ai-platforms"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("mcp", "context-protocol", "mcp-server", "adk", "agent-framework", "strands-agents")):
             category = "ai-agents-mcp"
         elif "awesome" in name_lower:
             category = "other-awesome-lists"
