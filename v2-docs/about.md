@@ -1,5 +1,5 @@
 ---
-description: "Top About resources for 2026, AI-ranked: Postman, AWX and more — curated Cloud Native tools, guides and references."
+description: "Top About resources for 2026, AI-ranked: Postman, Helm and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 
@@ -228,7 +228,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 
