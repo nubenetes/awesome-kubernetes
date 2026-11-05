@@ -186,30 +186,21 @@
     ],
     "AI & Agents": [
       {
-        "url": "https://github.com/kaito-project/kaito",
-        "title": "KAITO (Kubernetes AI Toolchain Operator)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Automates open-weight model deployment and GPU node provisioning on Kubernetes as a CNCF Sandbox project, standardizing cloud-native AI infrastructure.",
-        "category": "AI & Agents"
-      },
-      {
         "url": "https://github.com/llm-d/llm-d",
         "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "A breakthrough multi-vendor initiative by Red Hat, Google, IBM, and NVIDIA that standardizes distributed LLM serving using the Kubernetes Gateway API Inference Extension.",
+        "why": "Co-engineered by industry leaders, llm-d establishes a Kubernetes-native standard for distributed LLM inference leveraging the Gateway API Inference Extension.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/vllm-project/vllm",
-        "title": "vLLM on Kubernetes",
-        "date": "2026-11-02",
+        "url": "https://github.com/kaito-project/kaito",
+        "title": "KAITO (Kubernetes AI Toolchain Operator)",
+        "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Establishes the enterprise-standard production blueprint for running high-throughput, memory-efficient vLLM inference workloads natively on Kubernetes.",
+        "impact": "critical",
+        "why": "As a CNCF project, KAITO automates the provisioning, right-sizing, and deployment of open-weight LLMs directly on Kubernetes clusters.",
         "category": "AI & Agents"
       },
       {
@@ -218,16 +209,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies KServe, vLLM, KubeRay, and Kueue into a cohesive, enterprise-grade hybrid cloud AI orchestration platform on OpenShift.",
+        "why": "Provides an enterprise-grade hybrid cloud AI platform orchestrating cloud-native primitives like KServe, vLLM, and Kueue on OpenShift.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://aws.amazon.com/bedrock/agentcore",
-        "title": "Amazon Bedrock AgentCore",
-        "date": "2026-11-05",
+        "url": "https://github.com/vllm-project/vllm",
+        "title": "vLLM on Kubernetes",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Introduces serverless, MicroVM-isolated infrastructure for executing, governing, and scaling autonomous enterprise agent workflows without cluster management overhead.",
+        "why": "Defines the production reference standard for high-throughput, memory-efficient LLM serving on Kubernetes with PagedAttention.",
         "category": "AI & Agents"
       },
       {
@@ -236,16 +227,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Provides a fully managed enterprise runtime with serverless thread and memory persistence for building resilient, stateful multi-agent systems.",
+        "why": "Delivers a fully managed, enterprise runtime for deploying and scaling stateful, multi-agent workflows with persistent memory and thread safety.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/microsoft/agent-framework",
-        "title": "Microsoft Agent Framework",
+        "url": "https://aws.amazon.com/bedrock/agentcore",
+        "title": "Amazon Bedrock AgentCore",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Consolidates Semantic Kernel and AutoGen into a single multi-language enterprise framework, establishing a dominant standard for production agent development.",
+        "why": "Provides serverless, MicroVM-isolated enterprise infrastructure to scale autonomous AI agent swarms without managing underlying clusters.",
         "category": "AI & Agents"
       },
       {
@@ -254,16 +245,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers production-tested GitOps and Infrastructure-as-Code patterns for deploying scalable machine learning and generative AI architectures on Kubernetes.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://developers.cloudflare.com/agents",
-        "title": "Cloudflare Agents Platform",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Demonstrates an innovative edge-native architecture pairing serverless Workers and Durable Objects for globally distributed, stateful AI agent execution.",
+        "why": "Supplies official production-tested IaC blueprints using Terraform and Argo CD to operate enterprise GenAI infrastructure on Amazon EKS.",
         "category": "AI & Agents"
       },
       {
@@ -271,8 +253,26 @@
         "title": "HolmesGPT (Robusta)",
         "date": "2026-11-01",
         "stars": 2,
-        "impact": "medium",
-        "why": "Exemplifies domain-specific autonomous agents by investigating live Prometheus alerts and Kubernetes pod diagnostics to accelerate cluster incident response.",
+        "impact": "high",
+        "why": "Directly operationalizes AI agents within cloud-native environments by autonomously investigating Prometheus alerts and Kubernetes cluster failures.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/microsoft/agent-framework",
+        "title": "Microsoft Agent Framework",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Unifies Semantic Kernel and AutoGen into a single enterprise SDK and runtime for robust multi-agent orchestration.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://cloud.google.com/vertex-ai",
+        "title": "Google Cloud Vertex AI Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Unifies enterprise model management, Ray distributed computing, and autonomous Agent Builder capabilities into a scalable cloud AI platform.",
         "category": "AI & Agents"
       }
     ],
@@ -2602,7 +2602,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes a vendor-neutral, Kubernetes-native standard for distributed LLM inference leveraging the new Gateway API Inference Extension.",
+        "why": "Co-engineered by Red Hat, Google, IBM, and NVIDIA, it pioneers Kubernetes-native distributed LLM inference using the new Gateway API Inference Extension.",
         "category": "AI & Agents"
       },
       {
@@ -2611,7 +2611,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "A CNCF Sandbox operator that automates GPU node provisioning and open-weight model deployment natively inside Kubernetes clusters.",
+        "why": "As a CNCF Sandbox project, KAITO automates open-weight LLM lifecycle management, node provisioning, and inference directly on Kubernetes.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/vllm-project/vllm",
+        "title": "vLLM on Kubernetes",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "vLLM serves as the de facto open-source engine powering high-throughput, memory-efficient LLM inference deployments across cloud-native clusters.",
         "category": "AI & Agents"
       },
       {
@@ -2620,25 +2629,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Provides an enterprise-hardened distribution combining Kubernetes-native AI primitives like KServe, Ray, Kueue, and vLLM.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://aws.amazon.com/bedrock/agentcore",
-        "title": "Amazon Bedrock AgentCore",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers secure, production-grade autonomous agent execution using MicroVM-isolated runtimes without direct cluster management overhead.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
-        "title": "Azure AI Foundry Agent Service",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Offers fully managed enterprise agent hosting with server-side state persistence and native enterprise governance.",
+        "why": "Standardizes enterprise Kubernetes AI by unifying KubeRay, Kueue, KServe, and vLLM into a turnkey hybrid-cloud platform.",
         "category": "AI & Agents"
       },
       {
@@ -2647,25 +2638,25 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes production GitOps and Terraform deployment patterns for scaling GenAI workloads directly on Amazon EKS.",
+        "why": "Delivers production-tested GitOps and IaC reference architectures for scaling distributed generative AI and ML workloads on Amazon EKS.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/vllm-project/vllm",
-        "title": "vLLM on Kubernetes",
-        "date": "2026-11-02",
+        "url": "https://aws.amazon.com/bedrock/agentcore",
+        "title": "Amazon Bedrock AgentCore",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as the de facto open-source high-throughput inference serving engine standard for containerized LLM deployments.",
+        "why": "Provides an enterprise-ready managed runtime with MicroVM isolation for deploying, governing, and scaling autonomous agents in production.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "title": "GitHub MCP Server",
-        "date": "2026-06-07",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+        "title": "Azure AI Foundry Agent Service",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Anchors the Model Context Protocol (MCP) ecosystem, establishing standardized tool and data integration for autonomous agents.",
+        "why": "Offers a fully managed enterprise runtime enabling scalable, stateful multi-agent workflows with server-side thread persistence.",
         "category": "AI & Agents"
       },
       {
@@ -2674,7 +2665,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies Semantic Kernel and AutoGen into an enterprise-grade SDK for building multi-language, multi-agent workflows.",
+        "why": "Unifies AutoGen and Semantic Kernel into a cohesive open-source foundation for building production-grade enterprise agent systems.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "title": "GitHub MCP Server",
+        "date": "2026-06-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Implements the core Model Context Protocol (MCP) standard, enabling autonomous agents to securely interact with modern software and cloud infrastructure.",
         "category": "AI & Agents"
       },
       {
@@ -2683,7 +2683,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Pioneers production-grade agentic software engineering by operating directly within terminal environments and developer toolchains.",
+        "why": "Represents a paradigm shift in developer tooling with an autonomous CLI agent capable of reading codebases, executing tests, and managing Git workflows.",
         "category": "AI & Agents"
       }
     ],
@@ -4996,7 +4996,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Co-engineered by major cloud vendors, llm-d sets the standard for distributed Kubernetes-native LLM inference via the Gateway API Inference Extension.",
+        "why": "Co-engineered by Red Hat, Google, IBM, and NVIDIA, llm-d establishes a Kubernetes-native distributed inference standard leveraging the Gateway API Inference Extension.",
         "category": "AI & Agents"
       },
       {
@@ -5005,16 +5005,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "A CNCF Sandbox operator that automates GPU node provisioning and LLM deployment natively within Kubernetes clusters.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
-        "title": "docs.anthropic.com: Claude Code CLI",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Anthropic's official CLI represents a major paradigm shift toward autonomous, command-line driven agentic software engineering.",
+        "why": "KAITO is a CNCF Sandbox operator that automates GPU node provisioning, open-weight model serving, and fine-tuning natively on Kubernetes.",
         "category": "AI & Agents"
       },
       {
@@ -5022,8 +5013,8 @@
         "title": "vLLM on Kubernetes",
         "date": "2026-11-02",
         "stars": 5,
-        "impact": "high",
-        "why": "Standardizes memory-efficient, PagedAttention-backed LLM serving patterns across cloud-native Kubernetes environments.",
+        "impact": "critical",
+        "why": "Standardizes high-throughput, memory-efficient LLM serving on Kubernetes using PagedAttention across cloud native production stacks.",
         "category": "AI & Agents"
       },
       {
@@ -5032,34 +5023,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies open-source infrastructure engines like vLLM, KServe, and KubeRay into a enterprise production Kubernetes platform.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/awslabs/ai-on-eks",
-        "title": "AI on EKS (AWS Labs)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides production-tested Terraform and Argo CD GitOps blueprints for operating high-scale GenAI workloads on Kubernetes.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://antigravity.google",
-        "title": "antigravity.google: Google Antigravity Agentic Platform",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Google's agentic platform enables stateful multi-agent workflows that scale seamlessly from local prototypes to GKE clusters.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://aws.amazon.com/bedrock/agentcore",
-        "title": "Amazon Bedrock AgentCore",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers secure, MicroVM-isolated runtime environments for deploying and governing autonomous enterprise AI agents.",
+        "why": "Provides a turnkey enterprise hybrid cloud platform unifying KServe, vLLM, KubeRay, and Kubeflow on OpenShift Kubernetes.",
         "category": "AI & Agents"
       },
       {
@@ -5068,16 +5032,52 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Provides a fully managed runtime solving server-side persistence, memory, and orchestration for enterprise multi-agent systems.",
+        "why": "Delivers a fully managed enterprise runtime for orchestrating, securing, and persisting stateful multi-agent workflows at scale.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/punkpeye/awesome-mcp-servers",
-        "title": "Awesome MCP Servers",
-        "date": "2026-10-23",
+        "url": "https://aws.amazon.com/bedrock/agentcore",
+        "title": "Amazon Bedrock AgentCore",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Accelerates industry convergence on the Model Context Protocol (MCP) as the standard for linking AI agents to infrastructure tools.",
+        "why": "Sets a major enterprise benchmark for deploying, securing, and scaling autonomous AI agents without managing underlying cluster infrastructure.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/awslabs/ai-on-eks",
+        "title": "AI on EKS (AWS Labs)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Offers official reference architectures using Terraform and Argo CD to standardize large-scale generative AI operations on Amazon EKS.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "title": "GitHub MCP Server",
+        "date": "2026-06-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Anchors the Model Context Protocol ecosystem, standardizing how autonomous AI agents interface securely with external tools and services.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/microsoft/agent-framework",
+        "title": "Microsoft Agent Framework",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Unifies Semantic Kernel and AutoGen into a single enterprise-ready framework for multi-agent orchestration and development.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+        "title": "docs.anthropic.com: Claude Code CLI",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "Represents a paradigm shift in developer tooling by enabling autonomous agentic code generation and testing directly within terminal workflows.",
         "category": "AI & Agents"
       }
     ],
@@ -6753,9 +6753,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T19:44:29.004302+01:00",
-        "entry_hash": "40ec78ffdc8d9045",
-        "entry_count": 47,
+        "last_analyzed": "2026-11-05T20:24:36.062270+01:00",
+        "entry_hash": "bb8c01e0df7c38f7",
+        "entry_count": 49,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -6935,9 +6935,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T19:50:19.077594+01:00",
-        "entry_hash": "4ddb47d08a143c20",
-        "entry_count": 242,
+        "last_analyzed": "2026-11-05T20:24:54.132562+01:00",
+        "entry_hash": "1daf0abfd6c99e0e",
+        "entry_count": 244,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -7093,9 +7093,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T19:52:04.616257+01:00",
-        "entry_hash": "7d9efd39e20d18a8",
-        "entry_count": 481,
+        "last_analyzed": "2026-11-05T20:25:10.963206+01:00",
+        "entry_hash": "41257ac034ff4747",
+        "entry_count": 483,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -7207,6 +7207,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-05T20:00:04.621576+01:00"
+    "last_updated": "2026-11-05T20:25:11.974619+01:00"
   }
 }

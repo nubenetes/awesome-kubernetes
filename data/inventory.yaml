@@ -712175,6 +712175,11 @@ https://github.com/microsoft/agent-framework:
   gh_pushed: '2026-11-05'
   gh_license: MIT
   gh_community_health: active
+  gh_open_issues_30d: 902
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 786.32
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/Azure-Samples/get-started-with-ai-agents:
   title: Azure AI Foundry — Get Started with AI Agents
   description: null
@@ -712223,7 +712228,12 @@ https://github.com/Azure-Samples/get-started-with-ai-agents:
   gh_stars: 381
   gh_pushed: '2026-10-08'
   gh_license: MIT
-  gh_community_health: active
+  gh_community_health: healthy
+  gh_open_issues_30d: 31
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 15.79
+  momentum_score: 57.4
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/Azure-Samples/azure-search-openai-demo:
   title: Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)
   description: null
@@ -712273,6 +712283,11 @@ https://github.com/Azure-Samples/azure-search-openai-demo:
   gh_pushed: '2026-11-05'
   gh_license: MIT
   gh_community_health: active
+  gh_open_issues_30d: 527
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 171.49
+  momentum_score: 88.0
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/microsoft/ai-agents-for-beginners:
   title: AI Agents for Beginners (Microsoft)
   description: null
@@ -712316,10 +712331,15 @@ https://github.com/microsoft/ai-agents-for-beginners:
   youtube_mosaic: {}
   impact_score: 97
   category: ai-agents-mcp
-  gh_stars: 78993
+  gh_stars: 78998
   gh_pushed: '2026-11-02'
   gh_license: MIT
-  gh_community_health: active
+  gh_community_health: low
+  gh_open_issues_30d: 5
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 3352.11
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/kaito-project/kaito:
   title: KAITO (Kubernetes AI Toolchain Operator)
   description: null
@@ -712374,6 +712394,11 @@ https://github.com/kaito-project/kaito:
   gh_pushed: '2026-11-05'
   gh_license: Apache-2.0
   gh_community_health: active
+  gh_open_issues_30d: 80
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 26.98
+  momentum_score: 68.0
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://aws.amazon.com/bedrock/agentcore:
   title: Amazon Bedrock AgentCore
   description: null
@@ -712469,6 +712494,11 @@ https://github.com/aws-samples/amazon-bedrock-samples:
   gh_pushed: '2026-10-22'
   gh_license: MIT-0
   gh_community_health: active
+  gh_open_issues_30d: 138
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 37.7
+  momentum_score: 70.0
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/awslabs/amazon-bedrock-agent-samples:
   title: Amazon Bedrock Agent Samples
   description: null
@@ -712517,7 +712547,12 @@ https://github.com/awslabs/amazon-bedrock-agent-samples:
   gh_stars: 814
   gh_pushed: '2026-04-05'
   gh_license: Apache-2.0
-  gh_community_health: active
+  gh_community_health: healthy
+  gh_open_issues_30d: 43
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 34.54
+  momentum_score: 62.1
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/strands-agents/harness-sdk:
   title: Strands Agents SDK
   description: null
@@ -712567,6 +712602,11 @@ https://github.com/strands-agents/harness-sdk:
   gh_pushed: '2026-11-05'
   gh_license: Apache-2.0
   gh_community_health: active
+  gh_open_issues_30d: 1132
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 503.99
+  momentum_score: 95.3
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/awslabs/ai-on-eks:
   title: AI on EKS (AWS Labs)
   description: null
@@ -712619,7 +712659,12 @@ https://github.com/awslabs/ai-on-eks:
   gh_stars: 228
   gh_pushed: '2026-11-03'
   gh_license: Apache-2.0
-  gh_community_health: active
+  gh_community_health: healthy
+  gh_open_issues_30d: 34
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 11.52
+  momentum_score: 52.8
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://aws.amazon.com/sagemaker/ai:
   title: Amazon SageMaker AI (HyperPod and Managed MLOps)
   description: null
@@ -712759,10 +712804,15 @@ https://github.com/google/adk-python:
   youtube_mosaic: {}
   impact_score: 96
   category: ai-agents-mcp
-  gh_stars: 22114
+  gh_stars: 22116
   gh_pushed: '2026-11-05'
   gh_license: Apache-2.0
   gh_community_health: active
+  gh_open_issues_30d: 413
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 1140.0
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/GoogleCloudPlatform/generative-ai:
   title: Google Cloud Generative AI and Vertex AI Reference Architectures
   description: null
@@ -712808,10 +712858,15 @@ https://github.com/GoogleCloudPlatform/generative-ai:
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
-  gh_stars: 17846
+  gh_stars: 17847
   gh_pushed: '2026-11-05'
   gh_license: Apache-2.0
   gh_community_health: active
+  gh_open_issues_30d: 90
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 418.29
+  momentum_score: 97.9
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/GoogleCloudPlatform/vertex-ai-samples:
   title: Google Cloud Vertex AI Samples
   description: null
@@ -712862,6 +712917,11 @@ https://github.com/GoogleCloudPlatform/vertex-ai-samples:
   gh_pushed: '2026-11-04'
   gh_license: Apache-2.0
   gh_community_health: active
+  gh_open_issues_30d: 88
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 12.0
+  momentum_score: 59.8
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai:
   title: Red Hat OpenShift AI (RHOAI)
   description: null
@@ -712955,6 +713015,11 @@ https://github.com/opendatahub-io/opendatahub-operator:
   gh_pushed: '2026-11-05'
   gh_license: Apache-2.0
   gh_community_health: active
+  gh_open_issues_30d: 84
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 1.35
+  momentum_score: 38.7
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/llm-d/llm-d:
   title: llm-d (Kubernetes-Native Distributed LLM Inference)
   description: null
@@ -713001,11 +713066,16 @@ https://github.com/llm-d/llm-d:
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
-  gh_stars: 5150
+  gh_stars: 5151
   gh_pushed: '2026-11-05'
   gh_license: Apache-2.0
   gh_community_health: active
   cncf_status: sandbox
+  gh_open_issues_30d: 202
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 278.43
+  momentum_score: 90.6
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://github.com/instructlab/instructlab:
   title: InstructLab
   description: null
@@ -713038,6 +713108,7 @@ https://github.com/instructlab/instructlab:
   - '[CLOUD-AI]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
+  - '[LEGACY]'
   - '[LLM]'
   - '[MLOPS]'
   v1_locations:
@@ -713052,7 +713123,12 @@ https://github.com/instructlab/instructlab:
   gh_stars: 1420
   gh_pushed: '2026-03-30'
   gh_license: Apache-2.0
-  gh_community_health: active
+  gh_community_health: low
+  gh_open_issues_30d: 8
+  gh_open_prs_30d: 0
+  gh_stars_per_month: 43.16
+  momentum_score: 66.4
+  gh_activity_checked: '2026-11-05T20:20:52.742220+01:00'
 https://www.ibm.com/watsonx:
   title: IBM watsonx Platform
   description: null

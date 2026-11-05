@@ -40,20 +40,20 @@
       <description>[CRITICAL] client-go is the indispensable official SDK underpinning virtually all production Go-based controllers, operators, and platform automation tools.</description>
     </item>
     <item>
-      <title>KAITO (Kubernetes AI Toolchain Operator)</title>
-      <link>https://github.com/kaito-project/kaito</link>
-      <guid isPermaLink="true">https://github.com/kaito-project/kaito</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
-      <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Automates open-weight model deployment and GPU node provisioning on Kubernetes as a CNCF Sandbox project, standardizing cloud-native AI infrastructure.</description>
-    </item>
-    <item>
       <title>llm-d (Kubernetes-Native Distributed LLM Inference)</title>
       <link>https://github.com/llm-d/llm-d</link>
       <guid isPermaLink="true">https://github.com/llm-d/llm-d</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] A breakthrough multi-vendor initiative by Red Hat, Google, IBM, and NVIDIA that standardizes distributed LLM serving using the Kubernetes Gateway API Inference Extension.</description>
+      <description>[CRITICAL] Co-engineered by industry leaders, llm-d establishes a Kubernetes-native standard for distributed LLM inference leveraging the Gateway API Inference Extension.</description>
+    </item>
+    <item>
+      <title>KAITO (Kubernetes AI Toolchain Operator)</title>
+      <link>https://github.com/kaito-project/kaito</link>
+      <guid isPermaLink="true">https://github.com/kaito-project/kaito</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>AI &amp; Agents</category>
+      <description>[CRITICAL] As a CNCF project, KAITO automates the provisioning, right-sizing, and deployment of open-weight LLMs directly on Kubernetes clusters.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
