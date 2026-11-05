@@ -67,7 +67,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: AWS Forums, Kube Even
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/bashonubuntuonwindows covering Subreddits in Newsfeeds (reddit.com).
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Workfromhome](./workfromhome.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

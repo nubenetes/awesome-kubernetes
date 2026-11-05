@@ -1,5 +1,5 @@
 ---
-description: "Top Enterprise AI Platforms resources for 2026, AI-ranked: Amazon Bedrock, Amazon Bedrock AgentCore and more — curated Cloud Native tools, guides and references."
+description: "Top Enterprise AI Platforms resources for 2026, AI-ranked: Microsoft Agent Framework, Amazon Bedrock and more — curated Cloud Native tools, guides and references."
 ---
 # Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes
 
@@ -154,7 +154,7 @@ description: "Top Enterprise AI Platforms resources for 2026, AI-ranked: Amazon 
   - **(2026)** [==kubernetes-sigs/kueue: Kubernetes-native Job Queueing==](https://github.com/kubernetes-sigs/kueue) <span class='md-tag md-tag--info'>⭐ 3132</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-48e21aa7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 2 L 20 10 L 30 3 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-48e21aa7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Kueue manages resource quotas across tenant namespaces, supporting complex machine learning and AI orchestration flows. It acts as a cloud-native batch scheduling engine, optimizing utilization within strict resource envelopes.
 
 ---
-💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md) | [AI](./ai.md)
+💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

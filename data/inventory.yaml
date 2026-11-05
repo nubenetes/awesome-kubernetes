@@ -712116,11 +712116,9 @@ https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview:
   - '[ENTERPRISE-STABLE]'
   - '[MCP]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/azure.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - azure.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -712269,11 +712267,9 @@ https://github.com/Azure-Samples/azure-search-openai-demo:
   - '[ENTERPRISE-STABLE]'
   - '[LLM]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/azure.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - azure.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -712377,12 +712373,10 @@ https://github.com/kaito-project/kaito:
   - '[LLM]'
   - '[MLOPS]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/azure.md
   - docs/mlops.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - azure.md
   - mlops.md
   - enterprise-ai-platforms.md
@@ -712435,11 +712429,9 @@ https://aws.amazon.com/bedrock/agentcore:
   - '[ENTERPRISE-STABLE]'
   - '[MCP]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/aws.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - aws.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -712480,11 +712472,9 @@ https://github.com/aws-samples/amazon-bedrock-samples:
   - '[GUIDE]'
   - '[LLM]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/aws.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - aws.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -712534,11 +712524,9 @@ https://github.com/awslabs/amazon-bedrock-agent-samples:
   - '[GUIDE]'
   - '[MCP]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/aws.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - aws.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -712644,12 +712632,10 @@ https://github.com/awslabs/ai-on-eks:
   - '[LLM]'
   - '[MLOPS]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/aws.md
   - docs/mlops.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - aws.md
   - mlops.md
   - enterprise-ai-platforms.md
@@ -712749,11 +712735,9 @@ https://cloud.google.com/products/agent-builder:
   - '[MCP]'
   v1_locations:
   - docs/GoogleCloudPlatform.md
-  - docs/ai-agents-mcp.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
-  - ai-agents-mcp.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
@@ -712849,11 +712833,9 @@ https://github.com/GoogleCloudPlatform/generative-ai:
   - '[LLM]'
   v1_locations:
   - docs/GoogleCloudPlatform.md
-  - docs/ai-agents-mcp.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
-  - ai-agents-mcp.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 95
@@ -712904,11 +712886,9 @@ https://github.com/GoogleCloudPlatform/vertex-ai-samples:
   - '[MLOPS]'
   v1_locations:
   - docs/GoogleCloudPlatform.md
-  - docs/ai-agents-mcp.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
-  - ai-agents-mcp.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 88
@@ -713001,11 +712981,9 @@ https://github.com/opendatahub-io/opendatahub-operator:
   - '[LLM]'
   - '[MLOPS]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/openshift.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - openshift.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -713056,11 +713034,9 @@ https://github.com/llm-d/llm-d:
   - '[GPU]'
   - '[LLM]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/openshift.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - openshift.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -713251,10 +713227,8 @@ https://developers.cloudflare.com/agents:
   - '[MCP]'
   - '[SERVERLESS]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 91
@@ -713295,11 +713269,9 @@ https://ai.azure.com:
   - '[LLM]'
   - '[MCP]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/azure.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - azure.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -713340,11 +713312,9 @@ https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry:
   - '[GUIDE]'
   - '[MCP]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/azure.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - azure.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -713387,11 +713357,9 @@ https://aws.amazon.com/bedrock:
   - '[LLM]'
   - '[MCP]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/aws.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - aws.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -713434,11 +713402,9 @@ https://cloud.google.com/products/gemini-enterprise-agent-platform:
   - '[MCP]'
   v1_locations:
   - docs/GoogleCloudPlatform.md
-  - docs/ai-agents-mcp.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
-  - ai-agents-mcp.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
@@ -713478,11 +713444,9 @@ https://www.redhat.com/en/products/ai/openshift-ai:
   - '[LLM]'
   - '[MLOPS]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/openshift.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - openshift.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
@@ -713522,10 +713486,8 @@ https://www.ibm.com/products/watsonx:
   - '[ENTERPRISE-STABLE]'
   - '[LLM]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 92
@@ -713566,11 +713528,9 @@ https://www.databricks.com/product/artificial-intelligence:
   - '[LLM]'
   - '[MLOPS]'
   v1_locations:
-  - docs/ai-agents-mcp.md
   - docs/mlops.md
   - docs/enterprise-ai-platforms.md
   v2_locations:
-  - ai-agents-mcp.md
   - mlops.md
   - enterprise-ai-platforms.md
   youtube_mosaic: {}
