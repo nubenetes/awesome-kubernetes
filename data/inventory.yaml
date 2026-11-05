@@ -228753,7 +228753,7 @@ https://github.com/kserve/kserve:
   ai_summary: KServe (formerly KFServing) provides a highly performant, serverless
     machine learning inference platform on Kubernetes. It abstracts raw routing, scaling,
     and GPU configurations, supporting frameworks like TensorFlow, PyTorch, and ONNX.
-  language: Go
+  language: English
   resource_type: ML Platform
   complexity: High
   is_microservice: true
@@ -228772,13 +228772,16 @@ https://github.com/kserve/kserve:
   - Model Serving
   - Serverless ML
   tags:
+  - '[CLOUD-AI]'
   - '[DE FACTO STANDARD]'
   - '[GPU]'
   - '[LLM]'
   v1_locations:
   - docs/kubernetes-tools.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - kubernetes-tools.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
   gh_pushed: '2026-11-04'
@@ -231563,7 +231566,7 @@ https://github.com/kubernetes-sigs/kueue:
   ai_summary: Kueue manages resource quotas across tenant namespaces, supporting complex
     machine learning and AI orchestration flows. It acts as a cloud-native batch scheduling
     engine, optimizing utilization within strict resource envelopes.
-  language: Go
+  language: English
   resource_type: Repository
   complexity: Advanced
   is_microservice: false
@@ -231582,12 +231585,15 @@ https://github.com/kubernetes-sigs/kueue:
   - Batch Jobs
   - Queueing
   tags:
+  - '[CLOUD-AI]'
   - '[DE FACTO STANDARD]'
   - '[MLOPS]'
   v1_locations:
   - docs/kubernetes.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - kubernetes.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   gh_license: Apache-2.0
   gh_pushed: '2026-11-05'
@@ -712112,9 +712118,11 @@ https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/azure.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - azure.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
@@ -712155,9 +712163,11 @@ https://github.com/microsoft/agent-framework:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/azure.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - azure.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
@@ -712202,9 +712212,11 @@ https://github.com/Azure-Samples/get-started-with-ai-agents:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/azure.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - azure.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 88
   category: ai-agents-mcp
@@ -712249,9 +712261,11 @@ https://github.com/Azure-Samples/azure-search-openai-demo:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/azure.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - azure.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 94
   category: ai-agents-mcp
@@ -712295,8 +712309,10 @@ https://github.com/microsoft/ai-agents-for-beginners:
   - '[MCP]'
   v1_locations:
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 97
   category: ai-agents-mcp
@@ -712344,10 +712360,12 @@ https://github.com/kaito-project/kaito:
   - docs/ai-agents-mcp.md
   - docs/azure.md
   - docs/mlops.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - azure.md
   - mlops.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 93
   cncf_status: sandbox
@@ -712394,9 +712412,11 @@ https://aws.amazon.com/bedrock/agentcore:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/aws.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - aws.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
   category: ai-agents-mcp
@@ -712437,9 +712457,11 @@ https://github.com/aws-samples/amazon-bedrock-samples:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/aws.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - aws.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 92
   category: ai-agents-mcp
@@ -712484,9 +712506,11 @@ https://github.com/awslabs/amazon-bedrock-agent-samples:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/aws.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - aws.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 89
   category: ai-agents-mcp
@@ -712531,9 +712555,11 @@ https://github.com/strands-agents/harness-sdk:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/aws.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - aws.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 94
   category: ai-agents-mcp
@@ -712581,10 +712607,12 @@ https://github.com/awslabs/ai-on-eks:
   - docs/ai-agents-mcp.md
   - docs/aws.md
   - docs/mlops.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - aws.md
   - mlops.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 93
   category: ai-agents-mcp
@@ -712630,9 +712658,11 @@ https://aws.amazon.com/sagemaker/ai:
   v1_locations:
   - docs/aws.md
   - docs/mlops.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - aws.md
   - mlops.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 94
   category: aws
@@ -712675,9 +712705,11 @@ https://cloud.google.com/products/agent-builder:
   v1_locations:
   - docs/GoogleCloudPlatform.md
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
   category: ai-agents-mcp
@@ -712719,9 +712751,11 @@ https://github.com/google/adk-python:
   v1_locations:
   - docs/GoogleCloudPlatform.md
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
   category: ai-agents-mcp
@@ -712766,9 +712800,11 @@ https://github.com/GoogleCloudPlatform/generative-ai:
   v1_locations:
   - docs/GoogleCloudPlatform.md
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
@@ -712814,9 +712850,11 @@ https://github.com/GoogleCloudPlatform/vertex-ai-samples:
   v1_locations:
   - docs/GoogleCloudPlatform.md
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 88
   category: ai-agents-mcp
@@ -712905,9 +712943,11 @@ https://github.com/opendatahub-io/opendatahub-operator:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/openshift.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - openshift.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 89
   category: ai-agents-mcp
@@ -712953,9 +712993,11 @@ https://github.com/llm-d/llm-d:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/openshift.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - openshift.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
@@ -713000,8 +713042,10 @@ https://github.com/instructlab/instructlab:
   - '[MLOPS]'
   v1_locations:
   - docs/openshift.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - openshift.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 88
   category: openshift
@@ -713132,8 +713176,10 @@ https://developers.cloudflare.com/agents:
   - '[SERVERLESS]'
   v1_locations:
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 91
   category: ai-agents-mcp
@@ -713175,9 +713221,11 @@ https://ai.azure.com:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/azure.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - azure.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
   category: ai-agents-mcp
@@ -713218,9 +713266,11 @@ https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/azure.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - azure.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
@@ -713263,9 +713313,11 @@ https://aws.amazon.com/bedrock:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/aws.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - aws.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
   category: ai-agents-mcp
@@ -713307,9 +713359,11 @@ https://cloud.google.com/products/gemini-enterprise-agent-platform:
   v1_locations:
   - docs/GoogleCloudPlatform.md
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - GoogleCloudPlatform.md
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 96
   category: ai-agents-mcp
@@ -713350,9 +713404,11 @@ https://www.redhat.com/en/products/ai/openshift-ai:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/openshift.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - openshift.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 95
   category: ai-agents-mcp
@@ -713391,8 +713447,10 @@ https://www.ibm.com/products/watsonx:
   - '[LLM]'
   v1_locations:
   - docs/ai-agents-mcp.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 92
   category: ai-agents-mcp
@@ -713434,9 +713492,95 @@ https://www.databricks.com/product/artificial-intelligence:
   v1_locations:
   - docs/ai-agents-mcp.md
   - docs/mlops.md
+  - docs/enterprise-ai-platforms.md
   v2_locations:
   - ai-agents-mcp.md
   - mlops.md
+  - enterprise-ai-platforms.md
   youtube_mosaic: {}
   impact_score: 94
   category: ai-agents-mcp
+https://cloud.google.com/vertex-ai:
+  title: Google Cloud Vertex AI Platform
+  description: Google Cloud's unified enterprise AI platform providing access to 200+
+    foundation models in Model Garden (Gemini, Claude, Llama, DeepSeek), Ray on Vertex
+    AI, and end-to-end MLOps.
+  year: '2026'
+  stars: 5
+  ai_summary: Google Cloud's flagship enterprise AI platform unifying Model Garden
+    (offering 200+ models including Gemini, Claude, and Llama), Vertex AI Agent Builder,
+    Ray on Vertex AI, and automated evaluation guardrails. Provides seamless portability
+    between managed cloud runtimes and Google Kubernetes Engine (GKE).
+  language: English
+  resource_type: tool
+  complexity: advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: ''
+  health_score: 100.0
+  last_checked: 1793906189
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T20:16:29.791119'
+  last_ai_eval: '2026-11-05T20:16:29.791119'
+  company: null
+  geo_region: null
+  hierarchy:
+  - AI
+  - Enterprise AI Platforms
+  - Google Cloud Vertex AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[DOCUMENTATION]'
+  - '[ENTERPRISE-STABLE]'
+  v1_locations:
+  - docs/enterprise-ai-platforms.md
+  - docs/GoogleCloudPlatform.md
+  v2_locations:
+  - enterprise-ai-platforms.md
+  - GoogleCloudPlatform.md
+  youtube_mosaic: {}
+https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed:
+  title: Red Hat OpenShift AI Official Documentation
+  description: Complete architectural and operations documentation for deploying and
+    managing Red Hat OpenShift AI across self-managed OpenShift and hybrid cloud environments.
+  year: '2026'
+  stars: 5
+  ai_summary: Official engineering and operations documentation for Red Hat OpenShift
+    AI (RHOAI) self-managed deployments. Covers architectural topology, NVIDIA/AMD
+    GPU operator prerequisites, OpenDataHub pipeline configurations, KServe model
+    mesh serving, distributed Ray/Kueue training, and air-gapped sovereign cloud installation.
+  language: English
+  resource_type: documentation
+  complexity: advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: ''
+  health_score: 100.0
+  last_checked: 1793906189
+  needs_ai_refresh: false
+  discovered_at: '2026-11-05T20:16:29.791119'
+  last_ai_eval: '2026-11-05T20:16:29.791119'
+  company: null
+  geo_region: null
+  hierarchy:
+  - AI
+  - Enterprise AI Platforms
+  - Red Hat OpenShift AI
+  tags:
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[DOCUMENTATION]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/enterprise-ai-platforms.md
+  - docs/openshift.md
+  v2_locations:
+  - enterprise-ai-platforms.md
+  - openshift.md
+  youtube_mosaic: {}

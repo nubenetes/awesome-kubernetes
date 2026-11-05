@@ -9,6 +9,13 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 !!! info "Architectural Context"
     Detailed reference for Google Cloud Platform in the context of Cloud Providers (Hyperscalers).
 
+## AI
+
+### Enterprise AI Platforms
+
+#### Google Cloud Vertex AI
+
+  - **(2026)** [==Google Cloud Vertex AI Platform==](https://cloud.google.com/vertex-ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google Cloud's flagship enterprise AI platform unifying Model Garden (offering 200+ models including Gemini, Claude, and Llama), Vertex AI Agent Builder, Ray on Vertex AI, and automated evaluation guardrails. Provides seamless portability between managed cloud runtimes and Google Kubernetes Engine (GKE).
 ## AI and Orchestration
 
 ### Agentic Workflows
@@ -20,7 +27,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
 
 ### Cloud AI Platforms
 
-#### Google Cloud Vertex AI
+#### Google Cloud Vertex AI (1)
 
   - **(2026)** [==Google Agent Development Kit (ADK)==](https://github.com/google/adk-python) <span class='md-tag md-tag--info'>⭐ 22114</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6c2c589a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 2 L 30 10 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-6c2c589a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Curator Insight: Code-first open-source framework by Google for engineering deterministic and LLM-driven multi-agent systems. Live Grounding: Features native support for the Model Context Protocol (MCP), the Agent2Agent (A2A) open interoperability standard, bidirectional audio/video streaming, and one-command deployment to either Google Cloud Vertex AI Agent Engine or containerized GKE/Cloud Run clusters.
   - **(2026)** [==Google Cloud Generative AI and Vertex AI Reference Architectures==](https://github.com/GoogleCloudPlatform/generative-ai) <span class='md-tag md-tag--info'>⭐ 17846</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eb0f7380" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 9 L 30 5 L 40 8 L 50 3" fill="none" stroke="url(#spark-grad-eb0f7380)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: Official Google Cloud repository of production notebooks, sample apps, and architectural workflows for Gemini on Vertex AI. Live Grounding: Covers Vertex AI Agent Engine, RAG grounding, function calling, multimodal pipelines, evaluation frameworks, and hybrid GKE AI inference deployments.
@@ -343,7 +350,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [AWS Networking](./aws-networking.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Networking](./aws-networking.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

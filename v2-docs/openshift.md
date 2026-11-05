@@ -9,11 +9,18 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
 !!! info "Architectural Context"
     Detailed reference for OpenShift Container Platform in the context of The Container Stack.
 
+## AI
+
+### Enterprise AI Platforms
+
+#### Red Hat Openshift AI
+
+  - **(2026)** [==Red Hat OpenShift AI Official Documentation==](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Official engineering and operations documentation for Red Hat OpenShift AI (RHOAI) self-managed deployments. Covers architectural topology, NVIDIA/AMD GPU operator prerequisites, OpenDataHub pipeline configurations, KServe model mesh serving, distributed Ray/Kueue training, and air-gapped sovereign cloud installation.
 ## AI Agents And MCP
 
 ### Cloud AI Platforms
 
-#### Red Hat Openshift AI
+#### Red Hat Openshift AI (1)
 
   - **(2026)** [==Red Hat OpenShift AI (RHOAI)==](https://www.redhat.com/en/products/ai/openshift-ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Enterprise Kubernetes-native AI and MLOps platform built on Red Hat OpenShift. Live Grounding: Unifies vLLM, llm-d, KServe, Kubeflow Pipelines, KubeRay, Kueue, and InstructLab into an operator-managed turnkey stack for hybrid cloud, sovereign cloud, and air-gapped on-premises GPU deployments.
   - **(2026)** [==llm-d (Kubernetes-Native Distributed LLM Inference)==](https://github.com/llm-d/llm-d) <span class='md-tag md-tag--info'>⭐ 5150</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-98a8d706" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 8 L 20 5 L 30 8 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-98a8d706)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: Co-engineered by Red Hat, Google, IBM, and NVIDIA, llm-d is a Kubernetes-native distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension. Live Grounding: Delivers disaggregated prefill/decode serving, KV-cache-aware intelligent routing, and elastic multi-host GPU scaling on OpenShift AI and standard Kubernetes clusters.
@@ -50,7 +57,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
   - **(2021)** [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the significant 75% pricing reduction and SLA upgrade to 99.95% for OpenShift Dedicated. Analyzes cloud licensing cost implications and enterprise planning strategies for multi-cloud deployments.
 ### Openshift (1)
 
-#### Red Hat Openshift AI (1)
+#### Red Hat Openshift AI (2)
 
   - **(2026)** [**InstructLab**](https://github.com/instructlab/instructlab) <span class='md-tag md-tag--info'>⭐ 1420</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8cae7f87" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 4 L 30 4 L 40 8 L 50 3" fill="none" stroke="url(#spark-grad-8cae7f87)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Open-source model alignment and synthetic data generation framework co-created by Red Hat and IBM Research and integrated natively into Red Hat OpenShift AI. Live Grounding: Enables enterprise teams to incrementally add domain knowledge and skills to open-source Granite and Llama foundation models using taxonomy-driven synthetic data generation.
 ## Data and AI
@@ -290,7 +297,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Am
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 
