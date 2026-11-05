@@ -1,5 +1,5 @@
 ---
-description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTelemetry Collector and more — curated Cloud Native tools, guides and references."
+description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, OpenTelemetry Collector and more — curated Cloud Native tools, guides and references."
 ---
 # Prometheus
 
@@ -305,7 +305,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTel
   - **(2022)** [promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes six critical anti-patterns when setting up Prometheus. Addresses excessive metrics cardinality, sub-optimal query designs using rate(), and failing to configure robust alert routing mechanisms.
 #### Configuration Management
 
-  - **(2022)** [==Promgen 🌟==](https://github.com/line/promgen) <span class='md-tag md-tag--info'>⭐ 1124</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e69c3c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 5 L 30 11 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-8e69c3c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Promgen is a web UI and CLI helper utility designed to simplify the generation of scrape target targets and custom alerting rule files for large-scale Prometheus configurations.
+  - **(2022)** [==Promgen 🌟==](https://github.com/line/promgen) <span class='md-tag md-tag--info'>⭐ 1133</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e69c3c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 8 L 20 5 L 30 9 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-8e69c3c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Promgen is a web UI and CLI helper utility designed to simplify the generation of scrape target targets and custom alerting rule files for large-scale Prometheus configurations.
 #### Core Architecture
 
   - **(2024)** [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep architectural dive into the internal engineering of Prometheus TSDB. Discusses memory-mapped files, write-ahead logging (WAL), chunk compression, compaction cycles, and dynamic metric block structures.
@@ -405,7 +405,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTel
   - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -154,7 +154,7 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
   - **(2023)** [**infoworld.com: Kubernetes costs less, but less than what?**](https://www.infoworld.com/article/2338474/kubernetes-costs-less-but-less-than-what.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Critically evaluates the total cost of ownership (TCO) of containerizing applications. Compares VM hosting models, serverless containers, and managed Kubernetes platforms, demonstrating how poorly configured resource requests can make Kubernetes deployments more expensive than traditional systems.
 #### Tooling
 
-  - **(2023)** [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source spreadsheet integration that translates raw kubectl command outputs into clean cost estimation worksheets. Helps engineers understand how container limits, requests, and node sizing translate into monthly cloud charges.
+  - **(2023)** [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl) <span class='md-tag md-tag--info'>⭐ 2005</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b9e8b61f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 3 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-b9e8b61f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source spreadsheet integration that translates raw kubectl command outputs into clean cost estimation worksheets. Helps engineers understand how container limits, requests, and node sizing translate into monthly cloud charges.
 ### Market Trends
 
 #### Macroeconomics
@@ -178,7 +178,7 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9?gi=9d9ff792e945) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000 covering Kubernetes Cost Optimization in Finops (engineering.razorpay.com).
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Workfromhome](./workfromhome.md) | [Elearning](./elearning.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Recruitment](./recruitment.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

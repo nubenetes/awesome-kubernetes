@@ -276,7 +276,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8?gi=046cd4419fd0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status covering Pod in Terminating or Unknown Status in Kubernetes Troubleshooting (blog.devgenius.io).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 
