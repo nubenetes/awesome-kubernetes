@@ -1,5 +1,5 @@
 ---
-description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot and more — curated Cloud Native tools, guides and references."
+description: "Top Git resources for 2026, AI-ranked: Gradle Cheat Sheets, GitHub public roadmap and more — curated Cloud Native tools, guides and references."
 ---
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 
@@ -1014,7 +1014,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes rapid tactics for extracting uncommitted, unstaged alterations into a newly spawned local feature branch. Guides developers on preserving workspace fluidity when starting feature-work inside the wrong branch context without triggering merge hazards.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

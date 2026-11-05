@@ -52,7 +52,7 @@ description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Nat
   - **(2026)** [How Wasmer used Codex to build Edge.js](https://openai.com/index/wasmer) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Wasmer used Codex to build Edge.js covering WebAssembly in Edge Computing (openai.com).
 
 ---
-💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Networking](./aws-networking.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Networking](./aws-networking.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

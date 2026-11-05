@@ -302,7 +302,7 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51?gi=4475c993bd52) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for The Maester - Terraform Module covering Tools in IaC (cloudtips.nl).
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [Terraform](./terraform.md) | [Ansible](./ansible.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

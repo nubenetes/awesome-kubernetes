@@ -186,30 +186,12 @@
     ],
     "AI & Agents": [
       {
-        "url": "https://github.com/llm-d/llm-d",
-        "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Co-engineered by industry leaders, llm-d establishes a Kubernetes-native standard for distributed LLM inference leveraging the Gateway API Inference Extension.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/kaito-project/kaito",
-        "title": "KAITO (Kubernetes AI Toolchain Operator)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "As a CNCF project, KAITO automates the provisioning, right-sizing, and deployment of open-weight LLMs directly on Kubernetes clusters.",
-        "category": "AI & Agents"
-      },
-      {
         "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai",
         "title": "Red Hat OpenShift AI (RHOAI)",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Provides an enterprise-grade hybrid cloud AI platform orchestrating cloud-native primitives like KServe, vLLM, and Kueue on OpenShift.",
+        "impact": "critical",
+        "why": "It establishes a production-grade, enterprise standard for running AI/ML workloads natively on Kubernetes using KServe, vLLM, and KubeRay.",
         "category": "AI & Agents"
       },
       {
@@ -217,35 +199,8 @@
         "title": "vLLM on Kubernetes",
         "date": "2026-11-02",
         "stars": 5,
-        "impact": "high",
-        "why": "Defines the production reference standard for high-throughput, memory-efficient LLM serving on Kubernetes with PagedAttention.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
-        "title": "Azure AI Foundry Agent Service",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers a fully managed, enterprise runtime for deploying and scaling stateful, multi-agent workflows with persistent memory and thread safety.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://aws.amazon.com/bedrock/agentcore",
-        "title": "Amazon Bedrock AgentCore",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides serverless, MicroVM-isolated enterprise infrastructure to scale autonomous AI agent swarms without managing underlying clusters.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/awslabs/ai-on-eks",
-        "title": "AI on EKS (AWS Labs)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Supplies official production-tested IaC blueprints using Terraform and Argo CD to operate enterprise GenAI infrastructure on Amazon EKS.",
+        "impact": "critical",
+        "why": "Standardizes high-throughput, memory-efficient LLM serving directly on Kubernetes clusters via PagedAttention.",
         "category": "AI & Agents"
       },
       {
@@ -254,7 +209,7 @@
         "date": "2026-11-01",
         "stars": 2,
         "impact": "high",
-        "why": "Directly operationalizes AI agents within cloud-native environments by autonomously investigating Prometheus alerts and Kubernetes cluster failures.",
+        "why": "Demonstrates practical SRE agentic automation by autonomously troubleshooting Kubernetes incidents, pod logs, and Prometheus alerts.",
         "category": "AI & Agents"
       },
       {
@@ -263,7 +218,52 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies Semantic Kernel and AutoGen into a single enterprise SDK and runtime for robust multi-agent orchestration.",
+        "why": "Unifies Microsoft's Semantic Kernel and AutoGen into an enterprise-ready runtime for building resilient multi-agent systems.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/strands-agents/harness-sdk",
+        "title": "Strands Agents SDK",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides an AWS-backed, model-driven SDK with native Model Context Protocol support for lightweight production agent development.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://developers.cloudflare.com/agents",
+        "title": "Cloudflare Agents Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Pioneers serverless edge agent hosting by combining distributed Durable Objects and per-agent persistent SQLite state.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/microsoft/azure-skills",
+        "title": "Microsoft Azure Skills (MCP Server)",
+        "date": "2026-11-05",
+        "stars": 4,
+        "impact": "high",
+        "why": "Bridges agentic workflows with cloud operations by exposing over 200 Azure infrastructure management tools via the Model Context Protocol.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/punkpeye/awesome-mcp-servers",
+        "title": "Awesome MCP Servers",
+        "date": "2026-10-23",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Serves as the central ecosystem index for standardized Model Context Protocol tools connecting autonomous agents to external data and systems.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry",
+        "title": "Microsoft Azure AI Foundry (Microsoft Foundry)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an end-to-end enterprise platform combining multi-provider model catalogs with production agent management and governance.",
         "category": "AI & Agents"
       },
       {
@@ -272,7 +272,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies enterprise model management, Ray distributed computing, and autonomous Agent Builder capabilities into a scalable cloud AI platform.",
+        "why": "Unifies enterprise foundation models, Ray distributed compute, and autonomous agent orchestration into a managed cloud platform.",
         "category": "AI & Agents"
       }
     ],
@@ -462,12 +462,30 @@
     ],
     "Azure": [
       {
+        "url": "https://github.com/kaito-project/kaito",
+        "title": "KAITO (Kubernetes AI Toolchain Operator)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "CNCF Sandbox operator that bridges Kubernetes with GenAI by automating open-weight LLM/SLM inference, fine-tuning, and GPU orchestration.",
+        "category": "Azure"
+      },
+      {
         "url": "https://github.com/microsoft/azurelinux",
         "title": "github.com/microsoft/CBL-Mariner",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Azure Linux provides a hardened, container-optimized host OS tailored specifically for running production workloads securely on AKS.",
+        "why": "The purpose-built, secure, container-optimized host OS underpinning AKS and Microsoft's cloud native container infrastructure.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+        "title": "Azure AI Foundry Agent Service",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a fully managed runtime for building, deploying, and governing stateful enterprise multi-agent workflows at cloud scale.",
         "category": "Azure"
       },
       {
@@ -475,8 +493,17 @@
         "title": "Bicep",
         "date": "2026-11-01",
         "stars": 5,
-        "impact": "critical",
-        "why": "Bicep is Microsoft's primary domain-specific language for Azure infrastructure as code, significantly streamlining declarative resource authoring.",
+        "impact": "high",
+        "why": "The standard declarative DSL for Azure infrastructure as code, critical for modular and validated platform engineering pipelines.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/Azure-Samples/azure-search-openai-demo",
+        "title": "Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Microsoft's flagship production reference architecture standardizing enterprise RAG and vector search implementations on Azure.",
         "category": "Azure"
       },
       {
@@ -485,16 +512,7 @@
         "date": "2026-08-27",
         "stars": 5,
         "impact": "high",
-        "why": "APIOps brings cloud-native GitOps principles to Azure API Management, enabling automated and repeatable API lifecycle deployments.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/microsoft/finops-toolkit",
-        "title": "github.com/microsoft/finops-toolkit",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "The official FinOps toolkit provides standardized architectures and automation to operationalize cloud financial management across enterprise Azure tenants.",
+        "why": "Enables GitOps automation and continuous delivery workflows for Azure API Management infrastructure and configuration.",
         "category": "Azure"
       },
       {
@@ -503,7 +521,16 @@
         "date": "2026-09-22",
         "stars": 4,
         "impact": "high",
-        "why": "Delivers core architectural blueprints for Azure Arc, the foundational control plane for managing hybrid and multi-cloud Kubernetes clusters.",
+        "why": "Authoritative architectural blueprints detailing how Azure Arc extends cloud native governance and Azure services to hybrid Kubernetes.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/microsoft/finops-toolkit",
+        "title": "github.com/microsoft/finops-toolkit",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "medium",
+        "why": "The official framework operationalizing cloud financial management, reservation modeling, and cost governance across enterprise Azure tenancies.",
         "category": "Azure"
       },
       {
@@ -511,44 +538,17 @@
         "title": "floci-az",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "high",
-        "why": "Floci-AZ drastically accelerates cloud-native local development by offering a single-port local emulator for key Azure and AKS services.",
+        "impact": "medium",
+        "why": "A local multi-service Azure emulator that streamlines cloud native microservice testing and accelerates developer inner loops.",
         "category": "Azure"
       },
       {
-        "url": "https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update",
-        "title": "github.com/Azure/Enterprise-Scale: ALZ AMA Update",
-        "date": "2026-10-29",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry",
+        "title": "Azure AI Foundry Architecture and Documentation",
+        "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Essential architectural guidance for enterprise landing zone governance during critical migrations away from deprecated legacy monitoring agents.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/Azure/azqr",
-        "title": "github.com/Azure/azqr",
-        "date": "2026-10-30",
-        "stars": 3,
         "impact": "medium",
-        "why": "Provides an automated CLI scanner to quickly benchmark deployed Azure architectures against Microsoft's Well-Architected Framework.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/mdixon47/azure-hub-spoke-teraform",
-        "title": "Azure Hub and Spoke Infrastructure via Terraform",
-        "date": "2026-08-17",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Serves as an essential reference implementation for standing up enterprise hub-and-spoke network topologies via Terraform.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/Cloud-Architekt/AzureAD-Attack-Defense",
-        "title": "github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook",
-        "date": "2026-10-26",
-        "stars": 0,
-        "impact": "medium",
-        "why": "A practical operational security guide detailing real-world identity attack vectors and defensive mitigations across Entra ID.",
+        "why": "Essential architectural baseline for enterprise AI governance, secure agent identities, and hybrid data retrieval on Azure.",
         "category": "Azure"
       }
     ],
@@ -942,12 +942,57 @@
     ],
     "AWS": [
       {
+        "url": "https://github.com/awslabs/ai-on-eks",
+        "title": "AI on EKS (AWS Labs)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Provides official production blueprints combining Amazon EKS, Argo CD, and GPU orchestration for running high-scale GenAI workloads.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/bedrock",
+        "title": "Amazon Bedrock",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Serves as AWS's core enterprise foundation model platform, abstracting GPU management while integrating managed RAG and guardrails.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/bedrock/agentcore",
+        "title": "Amazon Bedrock AgentCore",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Introduces microVM-isolated, serverless runtime environments for deploying and governing autonomous enterprise AI agents.",
+        "category": "AWS"
+      },
+      {
         "url": "https://aws.amazon.com/sagemaker/ai",
         "title": "Amazon SageMaker AI (HyperPod and Managed MLOps)",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "critical",
-        "why": "Integrates managed foundation model training with native Amazon EKS orchestration, bridging large-scale AI workloads and cloud-native infrastructure.",
+        "impact": "high",
+        "why": "Brings resilient foundation model training and automated cluster recovery to AWS with native Amazon EKS orchestration.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/aws-samples/amazon-bedrock-samples",
+        "title": "Amazon Bedrock Samples",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers canonical AWS reference architectures and patterns for enterprise multi-agent workflows and managed RAG implementations.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/awslabs/amazon-bedrock-agent-samples",
+        "title": "Amazon Bedrock Agent Samples",
+        "date": "2026-11-05",
+        "stars": 4,
+        "impact": "high",
+        "why": "Offers hands-on architectural implementations for stateful tool orchestration and enterprise agentic systems on AWS.",
         "category": "AWS"
       },
       {
@@ -955,17 +1000,8 @@
         "title": "github.com/ministryofjustice: Modernisation Platform - Architecture Decisions",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Provides a transparent, production-proven architectural decision record (ADR) reference for enterprise-grade public sector AWS modernization.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/widdix/aws-cf-templates",
-        "title": "Aws Cf Templates",
-        "date": "2026-10-27",
-        "stars": 0,
-        "impact": "high",
-        "why": "Delivers battle-tested, modular CloudFormation reference architectures for foundational enterprise AWS infrastructure.",
+        "impact": "medium",
+        "why": "Supplies real-world public-sector architecture decision records demonstrating production AWS cloud governance and modernization standards.",
         "category": "AWS"
       },
       {
@@ -973,8 +1009,8 @@
         "title": "github.com/containerscrew/aws-sso-auth",
         "date": "2026-10-26",
         "stars": 4,
-        "impact": "high",
-        "why": "Significantly streamlines daily developer workflows and session management for AWS IAM Identity Center using a fast Rust-native CLI.",
+        "impact": "medium",
+        "why": "Improves developer productivity and security posture by streamlining AWS IAM Identity Center credential lifecycle management via a fast Rust CLI.",
         "category": "AWS"
       },
       {
@@ -983,16 +1019,7 @@
         "date": "2026-10-11",
         "stars": 5,
         "impact": "medium",
-        "why": "Solves multi-region discovery gaps to give FinOps and security teams complete visibility into active account resources.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/foggykitchen/foggykitchen-landing-zone-orchestrator",
-        "title": "FoggyKitchen Landing Zone Orchestrator",
-        "date": "2026-10-31",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Facilitates structured OpenTofu and Terraform landing zone orchestration across hybrid cloud topologies.",
+        "why": "Addresses account-wide visibility and compliance blind spots by scanning all active AWS resources across disparate regions.",
         "category": "AWS"
       },
       {
@@ -1001,34 +1028,7 @@
         "date": "2026-09-26",
         "stars": 5,
         "impact": "medium",
-        "why": "Automates routine infrastructure operations and pipeline steps across standard AWS operational environments.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/getsentry/sentry",
-        "title": "Sentry",
-        "date": "2026-11-02",
-        "stars": 1,
-        "impact": "medium",
-        "why": "Serves as an essential reference for running application performance monitoring and centralized error tracking on AWS.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/supabase/supabase",
-        "title": "Supabase",
-        "date": "2026-11-02",
-        "stars": 1,
-        "impact": "medium",
-        "why": "Demonstrates modern open-source backend and database operational practices hosted within the AWS ecosystem.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/seligman/aws-ip-ranges",
-        "title": "github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json",
-        "date": "2026-10-28",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Automates tracking of dynamic AWS IP range updates required for zero-trust perimeter firewalls and hybrid interconnects.",
+        "why": "Streamlines AWS infrastructure pipeline operations with purpose-built automation helpers for dynamic networking and deployment tasks.",
         "category": "AWS"
       }
     ],
@@ -1440,12 +1440,39 @@
     ],
     "OpenShift / Red Hat": [
       {
+        "url": "https://www.redhat.com/en/products/ai/openshift-ai",
+        "title": "Red Hat OpenShift AI (RHOAI)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Serves as Red Hat's flagship enterprise platform for deploying, managing, and scaling distributed AI and MLOps workloads on OpenShift.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/llm-d/llm-d",
+        "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a collaborative, Kubernetes-native inference framework co-engineered by Red Hat to optimize distributed LLM serving using the Gateway API.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
         "url": "https://github.com/instructlab/instructlab",
         "title": "InstructLab",
         "date": "2026-11-05",
         "stars": 4,
-        "impact": "critical",
-        "why": "InstructLab drives Red Hat's open-source generative AI strategy and directly powers model alignment capabilities within Red Hat OpenShift AI.",
+        "impact": "high",
+        "why": "Drives community-driven generative model alignment and synthetic data generation directly integrated into the Red Hat AI ecosystem.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/opendatahub-io/opendatahub-operator",
+        "title": "OpenDataHub Operator",
+        "date": "2026-11-05",
+        "stars": 4,
+        "impact": "high",
+        "why": "Acts as the foundational open-source upstream operator that orchestrates AI/ML lifecycle components for OpenShift AI.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -1454,16 +1481,7 @@
         "date": "2026-10-25",
         "stars": 5,
         "impact": "high",
-        "why": "Quay serves as the open-source foundation for Red Hat Quay, providing scalable, security-focused container registry infrastructure for enterprise clusters.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/redhat-cop/gitops-catalog",
-        "title": "github.com/redhat-cop/gitops-catalog",
-        "date": "2026-10-19",
-        "stars": 5,
-        "impact": "high",
-        "why": "This repository provides production-ready GitOps blueprints and Argo CD configurations curated directly by the Red Hat Community of Practice.",
+        "why": "Underpins enterprise OpenShift deployments with a mature, scalable, and secure container image registry featuring advanced geo-replication.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -1472,7 +1490,16 @@
         "date": "2026-10-23",
         "stars": 0,
         "impact": "high",
-        "why": "The OCS Operator drives Red Hat OpenShift Data Foundation, enabling integrated software-defined persistent storage across OpenShift environments.",
+        "why": "Powers OpenShift Data Foundation by delivering automated, cloud-native software-defined storage management across hybrid clusters.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/redhat-cop/gitops-catalog",
+        "title": "github.com/redhat-cop/gitops-catalog",
+        "date": "2026-10-19",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Accelerates GitOps adoption across enterprise clusters through production-grade Argo CD patterns curated by the Red Hat Community of Practice.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -1480,8 +1507,8 @@
         "title": "Rpm Ostree",
         "date": "2026-09-30",
         "stars": 0,
-        "impact": "high",
-        "why": "rpm-ostree is the core immutable OS technology underpinning Red Hat Enterprise Linux CoreOS (RHCOS) on OpenShift 4 worker and control plane nodes.",
+        "impact": "medium",
+        "why": "Supplies the core hybrid image/package transactional OS technology underpinning Red Hat Enterprise Linux CoreOS across all OpenShift nodes.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -1490,7 +1517,7 @@
         "date": "2026-10-31",
         "stars": 0,
         "impact": "medium",
-        "why": "CodeReady Containers (CRC) is the primary solution for local OpenShift development, enabling developers to run full-featured clusters locally.",
+        "why": "Enables developers to run streamlined, fully functional single-node OpenShift clusters locally for rapid application testing and prototyping.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -1499,34 +1526,7 @@
         "date": "2026-11-05",
         "stars": 0,
         "impact": "medium",
-        "why": "Cluster API serves as the upstream standard informing OpenShift's declarative Machine API and multi-cloud cluster lifecycle management.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/sclorg/mariadb-container",
-        "title": "github.com/sclorg/mariadb-container",
-        "date": "2026-10-13",
-        "stars": 1,
-        "impact": "medium",
-        "why": "Provides official Red Hat Software Collections containers engineered specifically to run securely under OpenShift restricted Security Context Constraints.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/redhat-cop/container-pipelines",
-        "title": "OpenShift Container Pipelines Samples 🌟",
-        "date": "2026-09-14",
-        "stars": 2,
-        "impact": "medium",
-        "why": "Offers architectural reference patterns from Red Hat engineers for structuring native CI/CD pipelines on OpenShift clusters.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/harvester/harvester",
-        "title": "Harvester",
-        "date": "2026-10-31",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Provides an open-source KubeVirt-based HCI platform that mirrors and competes with the cloud-native virtualization paradigm used by OpenShift Virtualization.",
+        "why": "Provides the declarative infrastructure management framework that powers modern OpenShift 4 machine lifecycle automation.",
         "category": "OpenShift / Red Hat"
       }
     ],
@@ -1716,12 +1716,12 @@
     ],
     "MLOps & Data Science": [
       {
-        "url": "https://github.com/datalab-to/surya",
-        "title": "github.com/VikParuchuri/surya",
-        "date": "2026-10-29",
+        "url": "https://www.databricks.com/product/artificial-intelligence",
+        "title": "Databricks Mosaic AI",
+        "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning. It delivers high-fidelity reading and structuring of dense scientific papers, tables, and financial lay",
+        "impact": "critical",
+        "why": "Databricks Mosaic AI represents an industry-standard shift toward unifying Lakehouse data infrastructure with enterprise AI agent evaluation, fine-tuning, and production governance.",
         "category": "MLOps & Data Science"
       },
       {
@@ -1729,8 +1729,17 @@
         "title": "tensorchord/envd: Reproducible development environment for AI/ML 🌟",
         "date": "2026-10-02",
         "stars": 3,
+        "impact": "high",
+        "why": "Bridges local ML prototyping and cloud-native production by generating isolated, containerized environments with native CUDA support from declarative Python code.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://github.com/datalab-to/surya",
+        "title": "github.com/VikParuchuri/surya",
+        "date": "2026-10-29",
+        "stars": 5,
         "impact": "medium",
-        "why": "An innovative local development environment generator for ML engineering. Envd translates Python declarations into isolated container definitions, ensuring high reproducibility for CUDA packages, pip ",
+        "why": "Provides high-accuracy multilingual OCR and layout extraction essential for unstructured data ingestion in enterprise RAG and document processing pipelines.",
         "category": "MLOps & Data Science"
       }
     ],
@@ -2229,12 +2238,30 @@
     ],
     "Azure": [
       {
+        "url": "https://github.com/kaito-project/kaito",
+        "title": "KAITO (Kubernetes AI Toolchain Operator)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "KAITO is a CNCF Sandbox operator bridging Kubernetes and GenAI by automating the deployment and right-sizing of open-weight LLMs on containerized infrastructure.",
+        "category": "Azure"
+      },
+      {
         "url": "https://github.com/microsoft/azurelinux",
         "title": "github.com/microsoft/CBL-Mariner",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "critical",
-        "why": "Azure Linux serves as the hardened, container-optimized host OS underpinning AKS nodes for secure cloud-native workloads.",
+        "impact": "high",
+        "why": "Azure Linux serves as Microsoft's container-optimized, security-hardened host OS specifically engineered for minimal footprint within AKS environments.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+        "title": "Azure AI Foundry Agent Service",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a fully managed enterprise runtime enabling teams to build, deploy, and scale stateful multi-agent workflows with managed memory and identity.",
         "category": "Azure"
       },
       {
@@ -2242,26 +2269,17 @@
         "title": "Bicep",
         "date": "2026-11-01",
         "stars": 5,
-        "impact": "critical",
-        "why": "Bicep is the primary declarative infrastructure-as-code standard for Azure, drastically simplifying platform automation over legacy ARM templates.",
+        "impact": "high",
+        "why": "Serves as the modern, enterprise-standard declarative Infrastructure as Code DSL for provisioning and validating Azure resources.",
         "category": "Azure"
       },
       {
-        "url": "https://jumpstart.azure.com",
-        "title": "azurearcjumpstart.io",
-        "date": "2026-06-01",
+        "url": "https://github.com/Azure-Samples/azure-search-openai-demo",
+        "title": "Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Azure Arc Jumpstart delivers production-ready automation blueprints for deploying and operating hybrid Kubernetes and multi-cloud architectures.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/Azure/apiops",
-        "title": "github.com/Azure/apiops 🌟",
-        "date": "2026-08-27",
-        "stars": 5,
-        "impact": "high",
-        "why": "APIOps brings GitOps methodologies to Azure API Management, enabling declarative and automated lifecycle management for enterprise gateway topologies.",
+        "why": "Acts as the canonical, production-ready enterprise reference architecture for deploying hybrid RAG solutions on Azure AI infrastructure.",
         "category": "Azure"
       },
       {
@@ -2270,7 +2288,34 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "The official FinOps Toolkit standardizes cloud financial management and automated cost governance for large-scale enterprise deployments.",
+        "why": "Delivers Microsoft's official toolset to implement FinOps governance, automate cost allocation, and manage cloud financial operations at enterprise scale.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry",
+        "title": "Azure AI Foundry Architecture and Documentation",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Establishes the foundational enterprise governance, hub-and-project architecture, and identity management for autonomous AI agent workloads.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://jumpstart.azure.com",
+        "title": "azurearcjumpstart.io",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Accelerates hybrid cloud adoption by providing automated, hands-on deployment blueprints for Azure Arc-enabled Kubernetes and infrastructure.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/Azure/apiops",
+        "title": "github.com/Azure/apiops 🌟",
+        "date": "2026-08-27",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Applies cloud-native GitOps principles and CI/CD pipelines to Azure API Management configuration and deployment lifecycles.",
         "category": "Azure"
       },
       {
@@ -2278,44 +2323,8 @@
         "title": "floci-az",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "high",
-        "why": "Floci-AZ offers an all-in-one local Azure service and AKS emulator, significantly shortening developer feedback loops for cloud-native microservices.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update",
-        "title": "github.com/Azure/Enterprise-Scale: ALZ AMA Update",
-        "date": "2026-10-29",
-        "stars": 5,
-        "impact": "high",
-        "why": "This update guides enterprise landing zones through the crucial deprecation of legacy Log Analytics agents in favor of Azure Monitor Agent.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=pMfG-vYvnv8&feature=youtu.be",
-        "title": "Azure Update 22nd May 2026",
-        "date": "2026-06-02",
-        "stars": 4,
         "impact": "medium",
-        "why": "Covers critical cloud-native enhancements including zero-code automatic telemetry instrumentation for Azure Kubernetes Service workloads.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=sig3n7XyaaA&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=2&pp=iAQB",
-        "title": "Azure Update 15th May 2026",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Tracks major serverless container milestones including the rollout of Azure Container Apps Express and advanced cloud networking management.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://www.hashicorp.com/blog/azure-hub-and-spoke-generally-available-for-hcp-vault-dedicated",
-        "title": "Azure Hub-and-Spoke Generally Available for HCP Vault Dedicated",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Delivers native hub-and-spoke network integration for HCP Vault Dedicated, strengthening zero-trust identity and secrets management on Azure.",
+        "why": "Enhances the local developer inner loop by providing a unified local emulator for core Azure container, event, and database services.",
         "category": "Azure"
       }
     ],
@@ -2597,21 +2606,12 @@
     ],
     "AI & Agents": [
       {
-        "url": "https://github.com/llm-d/llm-d",
-        "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
+        "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai",
+        "title": "Red Hat OpenShift AI (RHOAI)",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Co-engineered by Red Hat, Google, IBM, and NVIDIA, it pioneers Kubernetes-native distributed LLM inference using the new Gateway API Inference Extension.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/kaito-project/kaito",
-        "title": "KAITO (Kubernetes AI Toolchain Operator)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "As a CNCF Sandbox project, KAITO automates open-weight LLM lifecycle management, node provisioning, and inference directly on Kubernetes.",
+        "why": "Provides a turnkey enterprise MLOps platform built natively on Kubernetes, integrating KServe, vLLM, and Ray for distributed AI workloads.",
         "category": "AI & Agents"
       },
       {
@@ -2620,43 +2620,16 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "vLLM serves as the de facto open-source engine powering high-throughput, memory-efficient LLM inference deployments across cloud-native clusters.",
+        "why": "Standardizes high-throughput, memory-efficient LLM serving with PagedAttention across cloud-native containerized architectures.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai",
-        "title": "Red Hat OpenShift AI (RHOAI)",
-        "date": "2026-11-05",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+        "title": "docs.anthropic.com: Claude Code CLI",
+        "date": "2026-06-18",
         "stars": 5,
-        "impact": "high",
-        "why": "Standardizes enterprise Kubernetes AI by unifying KubeRay, Kueue, KServe, and vLLM into a turnkey hybrid-cloud platform.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/awslabs/ai-on-eks",
-        "title": "AI on EKS (AWS Labs)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers production-tested GitOps and IaC reference architectures for scaling distributed generative AI and ML workloads on Amazon EKS.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://aws.amazon.com/bedrock/agentcore",
-        "title": "Amazon Bedrock AgentCore",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides an enterprise-ready managed runtime with MicroVM isolation for deploying, governing, and scaling autonomous agents in production.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
-        "title": "Azure AI Foundry Agent Service",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Offers a fully managed enterprise runtime enabling scalable, stateful multi-agent workflows with server-side thread persistence.",
+        "impact": "critical",
+        "why": "Represents a paradigm shift in autonomous agentic developer tooling operating directly within terminal and git execution environments.",
         "category": "AI & Agents"
       },
       {
@@ -2665,7 +2638,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies AutoGen and Semantic Kernel into a cohesive open-source foundation for building production-grade enterprise agent systems.",
+        "why": "Unifies Semantic Kernel and AutoGen into a definitive enterprise-ready runtime and SDK for building scalable multi-agent systems.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://developers.cloudflare.com/agents",
+        "title": "Cloudflare Agents Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Pioneers serverless, stateful agent execution at the edge by leveraging Workers, Durable Objects, and localized persistence.",
         "category": "AI & Agents"
       },
       {
@@ -2674,16 +2656,43 @@
         "date": "2026-06-07",
         "stars": 5,
         "impact": "high",
-        "why": "Implements the core Model Context Protocol (MCP) standard, enabling autonomous agents to securely interact with modern software and cloud infrastructure.",
+        "why": "Establishes reference implementations for the Model Context Protocol, accelerating standardized agent-to-infrastructure connectivity.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
-        "title": "docs.anthropic.com: Claude Code CLI",
+        "url": "https://blog.cloudflare.com/claude-managed-agents",
+        "title": "Announcing Claude Managed Agents on Cloudflare",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "high",
+        "why": "Demonstrates the convergence of frontier models and secure sandboxed serverless environments for hosting autonomous agents at scale.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry",
+        "title": "Microsoft Azure AI Foundry (Microsoft Foundry)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Acts as an enterprise control plane for deploying, evaluating, and governing compound multi-model agent applications in production.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://antigravity.google",
+        "title": "antigravity.google: Google Antigravity Agentic Platform",
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Represents a paradigm shift in developer tooling with an autonomous CLI agent capable of reading codebases, executing tests, and managing Git workflows.",
+        "why": "Bridges local prototype agent development with enterprise deployment patterns targeting managed Kubernetes clusters like GKE.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://www.databricks.com/product/machine-learning",
+        "title": "Databricks Mosaic AI",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an enterprise foundation for building and governing data-grounded compound AI architectures and autonomous agents.",
         "category": "AI & Agents"
       }
     ],
@@ -2781,12 +2790,12 @@
     ],
     "OpenShift / Red Hat": [
       {
-        "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22",
-        "title": "OpenShift 4 documentation 🌟",
-        "date": "2026-06-18",
+        "url": "https://www.redhat.com/en/products/ai/openshift-ai",
+        "title": "Red Hat OpenShift AI (RHOAI)",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Serves as the definitive architectural, operational, and lifecycle management source of truth for enterprise OpenShift deployments.",
+        "why": "Serves as Red Hat's flagship enterprise MLOps platform, orchestrating end-to-end AI lifecycles directly on OpenShift.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -2795,16 +2804,25 @@
         "date": "2026-06-12",
         "stars": 5,
         "impact": "critical",
-        "why": "Decouples and containerizes OpenShift control planes, dramatically lowering hosting costs and revolutionizing multi-cluster scalability.",
+        "why": "Revolutionizes OpenShift architecture by hosting decoupled, containerized control planes to dramatically reduce infrastructure costs and spin-up times.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://github.com/operator-framework/operator-lifecycle-manager",
-        "title": "Red Hat OLM",
-        "date": "2026-06-11",
+        "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22",
+        "title": "OpenShift 4 documentation 🌟",
+        "date": "2026-06-18",
         "stars": 5,
         "impact": "critical",
-        "why": "Governs the packaging, installation, and lifecycle updates of Kubernetes Operators, serving as a core foundation of modern platform engineering.",
+        "why": "Provides the definitive enterprise reference for deploying, securing, and managing OpenShift 4 container platform architectures.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/llm-d/llm-d",
+        "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Represents a cutting-edge, Red Hat co-engineered framework standardizing distributed LLM inference on Kubernetes Gateway APIs.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -2813,7 +2831,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Provides the foundational infrastructure-as-code automation engine for deploying OpenShift reliably across hybrid and multi-cloud environments.",
+        "why": "Drives automated, declarative platform installation (IPI/UPI) across multi-cloud and bare-metal environments.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -2822,7 +2840,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Represents the premier enterprise-managed OpenShift offering on AWS, accelerating public cloud migration with joint native support.",
+        "why": "Delivers a turnkey, jointly supported turnkey managed OpenShift experience on AWS for enterprise cloud-native modernization.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -2831,25 +2849,25 @@
         "date": "2026-11-05",
         "stars": 4,
         "impact": "high",
-        "why": "Brings cutting-edge synthetic data generation and open-source model alignment directly into Red Hat's enterprise OpenShift AI strategy.",
+        "why": "Pioneers an open-source synthetic data generation and model alignment methodology natively integrated into the OpenShift AI ecosystem.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://github.com/redhat-cop/gitops-catalog",
-        "title": "github.com/redhat-cop/gitops-catalog",
-        "date": "2026-10-19",
-        "stars": 5,
+        "url": "https://github.com/opendatahub-io/opendatahub-operator",
+        "title": "OpenDataHub Operator",
+        "date": "2026-11-05",
+        "stars": 4,
         "impact": "high",
-        "why": "Delivers production-tested, reusable GitOps blueprints and Argo CD configurations curated directly by Red Hat's Community of Practice.",
+        "why": "Acts as the upstream core operator powering OpenShift AI, managing KubeRay, Kubeflow, and model-serving runtimes.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://github.com/openshift/origin",
-        "title": "github.com/openshift/origin 🌟",
-        "date": "2026-06-12",
+        "url": "https://github.com/operator-framework/operator-lifecycle-manager",
+        "title": "Red Hat OLM",
+        "date": "2026-06-11",
         "stars": 5,
         "impact": "high",
-        "why": "Acts as the primary upstream open-source incubator (OKD) where cutting-edge features for the entire OpenShift platform are validated.",
+        "why": "Provides the essential cluster component responsible for automated dependency management, upgrades, and RBAC enforcement for Kubernetes operators.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -2858,16 +2876,7 @@
         "date": "2026-06-09",
         "stars": 5,
         "impact": "high",
-        "why": "Enables fully declarative, Kubernetes-native worker node provisioning and lifecycle management across heterogeneous cloud providers.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/quay/quay",
-        "title": "GitHub Quay (OSS)",
-        "date": "2026-10-25",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Serves as the scalable open-source upstream foundation for Red Hat Quay, securing artifact distribution across enterprise clusters.",
+        "why": "Implements automated, declarative node provisioning and autoscaling within OpenShift clusters via upstream Cluster API concepts.",
         "category": "OpenShift / Red Hat"
       }
     ],
@@ -3149,21 +3158,30 @@
     ],
     "MLOps & Data Science": [
       {
-        "url": "https://github.com/Netflix/metaflow",
-        "title": "github.com/Netflix/metaflow 🌟",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Metaflow remains the industry standard for production-grade, human-centric ML pipelines that bridge the gap between local dev and cloud scaling.",
-        "category": "MLOps & Data Science"
-      },
-      {
         "url": "https://docs.ray.io/en/latest",
         "title": "Ray",
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Ray is the fundamental distributed execution engine for modern AI workloads, essential for cloud-native scaling of compute-heavy Python tasks.",
+        "why": "Ray is the de facto industry standard for distributed computing, serving as the foundational execution engine for large-scale AI training and inference on Kubernetes.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://www.databricks.com/product/artificial-intelligence",
+        "title": "Databricks Mosaic AI",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Mosaic AI establishes an end-to-end enterprise framework for evaluating, governing, and deploying production RAG and agentic workflows directly on lakehouse architecture.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://github.com/Netflix/metaflow",
+        "title": "github.com/Netflix/metaflow 🌟",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Metaflow standardizes developer-friendly production pipelines by abstracting distributed cloud compute and infrastructure orchestration for data science teams.",
         "category": "MLOps & Data Science"
       },
       {
@@ -3171,8 +3189,8 @@
         "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
         "date": "2026-06-02",
         "stars": 4,
-        "impact": "critical",
-        "why": "SilverTorch introduces a major architectural shift by consolidating retrieval and scoring into a unified GPU-optimized model, changing recommendation engine design.",
+        "impact": "high",
+        "why": "Meta's SilverTorch introduces an architectural paradigm shift that replaces multi-stage retrieval pipelines with a unified, GPU-accelerated model.",
         "category": "MLOps & Data Science"
       },
       {
@@ -3181,7 +3199,7 @@
         "date": "2026-05-19",
         "stars": 5,
         "impact": "high",
-        "why": "Llama-recipes is the definitive resource for enterprise-ready PEFT and quantization workflows required for deploying LLMs efficiently.",
+        "why": "Serves as Meta's definitive implementation guide and best-practice baseline for parameter-efficient fine-tuning, quantization, and LLM operationalization.",
         "category": "MLOps & Data Science"
       },
       {
@@ -3190,34 +3208,16 @@
         "date": "2026-06-08",
         "stars": 5,
         "impact": "high",
-        "why": "Argilla is essential for human-in-the-loop workflows, critical for building high-quality, fine-tuned datasets in modern AI pipelines.",
+        "why": "Argilla delivers critical data-centric MLOps infrastructure for human-in-the-loop feedback, RLHF, and continuous LLM alignment pipelines.",
         "category": "MLOps & Data Science"
       },
       {
-        "url": "https://github.com/datalab-to/surya",
-        "title": "github.com/VikParuchuri/surya",
-        "date": "2026-10-29",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Surya provides a high-fidelity, deep learning-based tool for document processing that solves critical extraction challenges in data engineering.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://github.com/XuehaiPan/nvitop",
-        "title": "github.com/XuehaiPan/nvitop 🌟",
-        "date": "2026-05-25",
+        "url": "https://github.com/aimhubio/aim",
+        "title": "github.com/aimhubio/aim",
+        "date": "2026-06-13",
         "stars": 4,
         "impact": "medium",
-        "why": "nvitop is the de facto standard replacement for nvidia-smi, providing the visibility into GPU utilization required for cloud-native ML troubleshooting.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://github.com/tensorchord/envd",
-        "title": "tensorchord/envd: Reproducible development environment for AI/ML 🌟",
-        "date": "2026-10-02",
-        "stars": 3,
-        "impact": "medium",
-        "why": "envd simplifies the creation of reproducible development environments, critical for ensuring consistent CUDA and library configurations in containerized workflows.",
+        "why": "Aim provides a modern, high-performance, open-source alternative for tracking, searching, and visualizing massive amounts of ML experiment metadata.",
         "category": "MLOps & Data Science"
       },
       {
@@ -3226,16 +3226,25 @@
         "date": "2026-06-18",
         "stars": 4,
         "impact": "medium",
-        "why": "This comprehensive guide serves as the foundational reference for mapping complex ML tooling architectures to Kubernetes environments.",
+        "why": "An exhaustive reference mapping operational blueprints, drivers, and scheduler configurations required to successfully run machine learning workloads on Kubernetes.",
         "category": "MLOps & Data Science"
       },
       {
-        "url": "https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant",
-        "title": "redhat.com: Bring Your Own Knowledge — Automation Intelligent Assistant (RAG)",
-        "date": "2026-06-25",
+        "url": "https://github.com/tensorchord/envd",
+        "title": "tensorchord/envd: Reproducible development environment for AI/ML 🌟",
+        "date": "2026-10-02",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Envd streamlines cloud-native AI engineering by compiling high-level Python specifications into reproducible, CUDA-optimized OCI containers.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://github.com/XuehaiPan/nvitop",
+        "title": "github.com/XuehaiPan/nvitop 🌟",
+        "date": "2026-05-25",
         "stars": 4,
         "impact": "medium",
-        "why": "Provides a practical, enterprise-focused blueprint for implementing RAG, a critical pattern for current business AI integration.",
+        "why": "A vital operational utility that modernizes terminal-based GPU monitoring and process tracking across bare-metal and containerized ML nodes.",
         "category": "MLOps & Data Science"
       }
     ],
@@ -3425,12 +3434,21 @@
     ],
     "AWS": [
       {
-        "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock",
-        "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
+        "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=n/a&linkId=953986722",
+        "title": "OpenAI Models and Codex on Amazon Bedrock are Now Generally Available",
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "Expanding Amazon Bedrock to include OpenAI frontier models and Codex ends cloud exclusivity and reshapes enterprise generative AI architecture on AWS.",
+        "why": "Marks a pivotal industry shift by providing enterprise-governed, native access to OpenAI frontier models directly on AWS infrastructure.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/awslabs/ai-on-eks",
+        "title": "AI on EKS (AWS Labs)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Provides official production-grade Terraform and Argo CD blueprints for scaling generative AI and distributed ML workloads on Amazon EKS.",
         "category": "AWS"
       },
       {
@@ -3438,8 +3456,26 @@
         "title": "Amazon SageMaker AI (HyperPod and Managed MLOps)",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "critical",
-        "why": "Integrates managed foundation model training with native Amazon EKS orchestration to bridge cloud-native Kubernetes workloads and large-scale AI operations.",
+        "impact": "high",
+        "why": "Delivers native Amazon EKS orchestration alongside SageMaker HyperPod to automate resilient distributed training at enterprise scale.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/bedrock/agentcore",
+        "title": "Amazon Bedrock AgentCore",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Introduces microVM-isolated serverless infrastructure for deploying and governing autonomous enterprise AI agents without cluster overhead.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/bedrock",
+        "title": "Amazon Bedrock",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Anchors AWS's serverless foundation model ecosystem with turnkey managed RAG, model safety guardrails, and multi-agent coordination.",
         "category": "AWS"
       },
       {
@@ -3448,7 +3484,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Decoupling compute from storage in OpenSearch Serverless delivers true elasticity optimized for dynamic agentic AI and vector search workloads.",
+        "why": "Redesigns OpenSearch Serverless with complete compute-storage decoupling optimized for low-latency agentic vector workloads.",
         "category": "AWS"
       },
       {
@@ -3457,7 +3493,16 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Introduces agentic AI automation directly into enterprise modernization pipelines to accelerate legacy VMware, mainframe, and application migrations to AWS.",
+        "why": "Accelerates the modernization and replatforming of legacy enterprise applications into cloud-native services using agentic automation.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/aws-samples/amazon-bedrock-samples",
+        "title": "Amazon Bedrock Samples",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Supplies standardized reference architectures and implementation patterns for deploying production-grade GenAI systems on AWS.",
         "category": "AWS"
       },
       {
@@ -3465,8 +3510,8 @@
         "title": "awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper",
         "date": "2026-06-09",
         "stars": 4,
-        "impact": "high",
-        "why": "A critical utility for cloud-native workflows that automates seamless IAM-based container registry authentication, eliminating insecure long-lived tokens.",
+        "impact": "medium",
+        "why": "Eliminates token refresh scripting by providing native, IAM-driven Docker credential lifecycle management for Amazon ECR container registries.",
         "category": "AWS"
       },
       {
@@ -3474,44 +3519,8 @@
         "title": "awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "high",
-        "why": "Provides an official open-source framework for security chaos engineering and validating detection pipelines against simulated threats in AWS environments.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
-        "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "Demonstrates battle-tested, large-scale cloud-native observability by correlating eBPF network flows into real-time microservice topology maps on AWS.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://aws.amazon.com/about-aws/global-infrastructure/innovation/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=n/a&linkId=951858139",
-        "title": "AWS Global Infrastructure Innovation",
-        "date": "2026-06-02",
-        "stars": 4,
         "impact": "medium",
-        "why": "Details crucial hardware and networking innovations, including custom Graviton and Trainium silicon that underpin cost-performance optimizations in the cloud.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://aws.amazon.com/backup",
-        "title": "AWS Backup Service",
-        "date": "2026-06-01",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Acts as the backbone for centralized, policy-driven data protection and compliance across multi-service AWS architectures.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/ministryofjustice/modernisation-platform/tree/main/architecture-decision-record",
-        "title": "github.com/ministryofjustice: Modernisation Platform - Architecture Decisions",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Offers rare, production-grade architectural decision records detailing cloud governance, security baselines, and infrastructure automation for enterprise modernization.",
+        "why": "Empowers DevSecOps teams to validate intrusion detection and response systems by simulating real-world security events in AWS environments.",
         "category": "AWS"
       }
     ],
@@ -4623,12 +4632,12 @@
     ],
     "Azure": [
       {
-        "url": "https://github.com/Azure/bicep",
-        "title": "Bicep",
-        "date": "2026-11-01",
+        "url": "https://github.com/kaito-project/kaito",
+        "title": "KAITO (Kubernetes AI Toolchain Operator)",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Bicep serves as the premier declarative DSL for provisioning Azure resources, fundamentally changing how teams author infrastructure over raw JSON ARM templates.",
+        "why": "As a CNCF Sandbox project created by Azure, KAITO automates GPU provisioning and open-weight model deployment natively on Kubernetes.",
         "category": "Azure"
       },
       {
@@ -4637,7 +4646,34 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Azure Linux (CBL-Mariner) provides a container-optimized, lightweight OS explicitly designed for high-security and minimal footprint inside AKS clusters.",
+        "why": "Azure Linux serves as Microsoft's security-hardened, container-optimized host OS powering AKS worker nodes across enterprise deployments.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+        "title": "Azure AI Foundry Agent Service",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Provides a fully managed cloud-native runtime for orchestrating stateful, multi-agent AI architectures with native enterprise identity and memory persistence.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/Azure/bicep",
+        "title": "Bicep",
+        "date": "2026-11-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Bicep is the primary declarative Infrastructure-as-Code standard for provisioning Azure infrastructure with native validation and zero-day resource support.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://ai.azure.com",
+        "title": "Microsoft Azure AI Foundry Portal",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Consolidates enterprise foundation model access, fine-tuning pipelines, and agent governance into Azure's primary AI control plane.",
         "category": "Azure"
       },
       {
@@ -4646,16 +4682,16 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "The Azure Arc Jumpstart portal accelerates hybrid cloud adoption by offering automated sandbox scenarios for hybrid Kubernetes and servers.",
+        "why": "Serves as the definitive implementation blueprint for managing hybrid and multicloud Kubernetes infrastructure via Azure Arc.",
         "category": "Azure"
       },
       {
-        "url": "https://github.com/Azure/apiops",
-        "title": "github.com/Azure/apiops 🌟",
-        "date": "2026-08-27",
+        "url": "https://github.com/Azure-Samples/azure-search-openai-demo",
+        "title": "Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Azure APIOps brings critical GitOps principles to Azure API Management (APIM), enabling automated configuration control and deployment pipelines.",
+        "why": "The industry's de facto reference architecture for production-grade retrieval-augmented generation (RAG) on Azure cloud infrastructure.",
         "category": "Azure"
       },
       {
@@ -4664,25 +4700,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "The official Microsoft FinOps toolkit standardizes cost management reports, compute reservations, and governance metrics for enterprise cloud spend.",
+        "why": "Delivers production-ready automation and data pipelines to standardize cloud cost optimization and FinOps governance across Azure tenants.",
         "category": "Azure"
       },
       {
-        "url": "https://github.com/Retzork/terraform-journey/tree/main/11%20Multi%20Region%20Zero%20Trust%20Architecture",
-        "title": "Terraform Azure Multi-Region Zero-Trust Architecture",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "Provides an enterprise-grade Terraform blueprint for secure, multi-region hub-and-spoke networking architectures on Azure.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update",
-        "title": "github.com/Azure/Enterprise-Scale: ALZ AMA Update",
-        "date": "2026-10-29",
+        "url": "https://github.com/Azure/apiops",
+        "title": "github.com/Azure/apiops 🌟",
+        "date": "2026-08-27",
         "stars": 5,
         "impact": "high",
-        "why": "Establishes crucial migration frameworks and monitoring recommendations as Azure Landing Zones (ALZ) deprecate the legacy Log Analytics agent.",
+        "why": "Applies cloud-native GitOps principles and declarative configuration automation to Azure API Management environments.",
         "category": "Azure"
       },
       {
@@ -4691,25 +4718,7 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Floci-AZ offers a local open-source service emulator for Azure storage, databases, and AKS, streamlining local cloud-native development loops.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/mspnp/AzureNamingTool",
-        "title": "github.com/mspnp/AzureNamingTool - Azure Naming Tool 🌟",
-        "date": "2026-01-13",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Provides an integrated UI and programmatic API to enforce consistent, governance-compliant resource naming structures across all Azure components.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://techcommunity.microsoft.com/blog/azuretoolsblog/from-prompt-to-production-open-in-vs-code-for-terraform-in-azure-copilot/4494931",
-        "title": "From Prompt to Production: Open in VS Code for Terraform in Azure Copilot",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Bridges AI-assisted infrastructure design with production workflows by enabling direct prompt-to-VS Code Terraform generation in Azure Copilot.",
+        "why": "Offers a lightweight local emulator unifying Azure PaaS and AKS-like services onto a single port for rapid developer testing.",
         "category": "Azure"
       }
     ],
@@ -4991,30 +5000,12 @@
     ],
     "AI & Agents": [
       {
-        "url": "https://github.com/llm-d/llm-d",
-        "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Co-engineered by Red Hat, Google, IBM, and NVIDIA, llm-d establishes a Kubernetes-native distributed inference standard leveraging the Gateway API Inference Extension.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/kaito-project/kaito",
-        "title": "KAITO (Kubernetes AI Toolchain Operator)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "KAITO is a CNCF Sandbox operator that automates GPU node provisioning, open-weight model serving, and fine-tuning natively on Kubernetes.",
-        "category": "AI & Agents"
-      },
-      {
         "url": "https://github.com/vllm-project/vllm",
         "title": "vLLM on Kubernetes",
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Standardizes high-throughput, memory-efficient LLM serving on Kubernetes using PagedAttention across cloud native production stacks.",
+        "why": "Establishes the production standard for hosting high-throughput, memory-efficient LLM inference engines like vLLM natively on Kubernetes clusters.",
         "category": "AI & Agents"
       },
       {
@@ -5022,44 +5013,8 @@
         "title": "Red Hat OpenShift AI (RHOAI)",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Provides a turnkey enterprise hybrid cloud platform unifying KServe, vLLM, KubeRay, and Kubeflow on OpenShift Kubernetes.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
-        "title": "Azure AI Foundry Agent Service",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers a fully managed enterprise runtime for orchestrating, securing, and persisting stateful multi-agent workflows at scale.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://aws.amazon.com/bedrock/agentcore",
-        "title": "Amazon Bedrock AgentCore",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Sets a major enterprise benchmark for deploying, securing, and scaling autonomous AI agents without managing underlying cluster infrastructure.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/awslabs/ai-on-eks",
-        "title": "AI on EKS (AWS Labs)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Offers official reference architectures using Terraform and Argo CD to standardize large-scale generative AI operations on Amazon EKS.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "title": "GitHub MCP Server",
-        "date": "2026-06-07",
-        "stars": 5,
-        "impact": "high",
-        "why": "Anchors the Model Context Protocol ecosystem, standardizing how autonomous AI agents interface securely with external tools and services.",
+        "impact": "critical",
+        "why": "Delivers an enterprise-grade hybrid cloud AI platform natively orchestrated on Kubernetes via KServe, KubeRay, and Kueue.",
         "category": "AI & Agents"
       },
       {
@@ -5068,7 +5023,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies Semantic Kernel and AutoGen into a single enterprise-ready framework for multi-agent orchestration and development.",
+        "why": "Unifies Semantic Kernel and AutoGen into a standardized multi-language foundation for enterprise multi-agent architectures.",
         "category": "AI & Agents"
       },
       {
@@ -5077,7 +5032,61 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Represents a paradigm shift in developer tooling by enabling autonomous agentic code generation and testing directly within terminal workflows.",
+        "why": "Sets a new benchmark for autonomous agentic software engineering directly inside terminal environments and CI/CD pipelines.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "title": "GitHub MCP Server",
+        "date": "2026-06-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Codifies the open Model Context Protocol (MCP) standard for connecting AI agents to enterprise tools and external data sources.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://developers.cloudflare.com/agents",
+        "title": "Cloudflare Agents Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Introduces a distributed serverless edge runtime combining Durable Objects and persistent state for scalable autonomous agents.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://antigravity.google",
+        "title": "antigravity.google: Google Antigravity Agentic Platform",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides an end-to-end framework enabling developers to graduate stateful AI agents from local workstations directly to production Google Kubernetes Engine clusters.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry",
+        "title": "Microsoft Azure AI Foundry (Microsoft Foundry)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Consolidates multi-model catalogs, agent runtime scaffolding, and enterprise evaluation pipelines into a single managed cloud platform.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://cloud.google.com/vertex-ai",
+        "title": "Google Cloud Vertex AI Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Integrates distributed Ray orchestration, Vertex AI Agent Builder, and enterprise model governance into a unified hyperscaler AI platform.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/strands-agents/harness-sdk",
+        "title": "Strands Agents SDK",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides AWS's official open-source harness SDK optimized for building production-ready AI agents with native Model Context Protocol support.",
         "category": "AI & Agents"
       }
     ],
@@ -5175,48 +5184,39 @@
     ],
     "OpenShift / Red Hat": [
       {
+        "url": "https://www.redhat.com/en/products/ai/openshift-ai",
+        "title": "Red Hat OpenShift AI (RHOAI)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Serves as Red Hat's foundational enterprise platform for operationalizing distributed AI and MLOps workflows natively on Kubernetes.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
         "url": "https://github.com/openshift/hypershift",
         "title": "github.com/openshift/hypershift: HyperShift",
         "date": "2026-06-12",
         "stars": 5,
         "impact": "critical",
-        "why": "HyperShift decouples OpenShift control planes to run them as containerized workloads, fundamentally reducing cluster overhead and enabling rapid provision at scale.",
+        "why": "Revolutionizes OpenShift architecture by hosting decoupled, containerized control planes to dramatically reduce infrastructure overhead and provisioning time.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://github.com/instructlab/instructlab",
-        "title": "InstructLab",
+        "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22",
+        "title": "OpenShift 4 documentation 🌟",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "critical",
+        "why": "The definitive architectural and operational standard for deploying, securing, and maintaining enterprise OpenShift 4 environments.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/llm-d/llm-d",
+        "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
         "date": "2026-11-05",
-        "stars": 4,
-        "impact": "critical",
-        "why": "InstructLab provides an open-source framework for model alignment and synthetic data generation, serving as a cornerstone for Red Hat OpenShift AI.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/aws",
-        "title": "Amazon Red Hat OpenShift",
-        "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Amazon Red Hat OpenShift (ROSA) provides a fully-managed, joint AWS-Red Hat environment that accelerates enterprise cloud-native migration.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/operator-framework/operator-lifecycle-manager",
-        "title": "Red Hat OLM",
-        "date": "2026-06-11",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Operator Lifecycle Manager (OLM) standardizes how Kubernetes Operators are installed, updated, and governed across enterprise OpenShift environments.",
-        "category": "OpenShift / Red Hat"
-      },
-      {
-        "url": "https://github.com/openshift/machine-api-operator/tree/main",
-        "title": "Machine API",
-        "date": "2026-06-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "The Machine API Operator implements declarative, Cluster API-driven node lifecycle management directly within OpenShift.",
+        "why": "Represents a cutting-edge, Kubernetes-native distributed LLM inference framework co-engineered by Red Hat, Google, IBM, and NVIDIA.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -5225,34 +5225,34 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "The OpenShift Installer serves as the essential provision engine driving automated, multi-cloud IPI/UPI deployment workflows.",
+        "why": "The foundational installer engine that powers declarative, automated IPI and UPI cluster deployments across all supported clouds and bare-metal.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless",
-        "title": "OpenShift Serverless",
+        "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/aws",
+        "title": "Amazon Red Hat OpenShift",
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "OpenShift Serverless delivers enterprise-hardened Knative integration to enable event-driven architectures and scale-to-zero capabilities.",
+        "why": "Delivers a turnkey, jointly supported managed OpenShift experience that anchors enterprise cloud migrations on AWS.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://github.com/redhat-cop/gitops-catalog",
-        "title": "github.com/redhat-cop/gitops-catalog",
-        "date": "2026-10-19",
-        "stars": 5,
-        "impact": "medium",
-        "why": "The GitOps Catalog gives platform teams standardized, community-tested Argo CD patterns for automating cluster configuration and application delivery.",
+        "url": "https://github.com/instructlab/instructlab",
+        "title": "InstructLab",
+        "date": "2026-11-05",
+        "stars": 4,
+        "impact": "high",
+        "why": "Drives community-driven model alignment and synthetic data generation directly embedded into Red Hat's cloud-native AI stack.",
         "category": "OpenShift / Red Hat"
       },
       {
-        "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22",
-        "title": "OpenShift 4 documentation 🌟",
-        "date": "2026-06-18",
+        "url": "https://github.com/operator-framework/operator-lifecycle-manager",
+        "title": "Red Hat OLM",
+        "date": "2026-06-11",
         "stars": 5,
         "impact": "high",
-        "why": "The official OpenShift 4 documentation serves as the primary technical baseline for enterprise architecture, security policy, and lifecycle operations.",
+        "why": "Acts as the core orchestration backbone for automating the lifecycle, dependency resolution, and updates of Kubernetes Operators.",
         "category": "OpenShift / Red Hat"
       },
       {
@@ -5261,7 +5261,16 @@
         "date": "2026-06-12",
         "stars": 5,
         "impact": "medium",
-        "why": "OKD (Origin) provides the upstream community-driven foundation where next-generation OpenShift features and Kubernetes extensions are developed.",
+        "why": "Serves as the vital open-source upstream distribution (OKD) driving continuous community innovation into enterprise OpenShift releases.",
+        "category": "OpenShift / Red Hat"
+      },
+      {
+        "url": "https://github.com/openshift/machine-api-operator/tree/main",
+        "title": "Machine API",
+        "date": "2026-06-09",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Enables declarative, Cluster-API-aligned node management and automated dynamic infrastructure scaling within OpenShift clusters.",
         "category": "OpenShift / Red Hat"
       }
     ],
@@ -5548,7 +5557,16 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Ray is the de facto standard distributed execution framework powering modern large-scale distributed training and model serving infrastructure across cloud-native environments.",
+        "why": "Ray has emerged as the de facto distributed computing engine powering large-scale AI training, fine-tuning, and serving across cloud-native environments.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://www.databricks.com/product/artificial-intelligence",
+        "title": "Databricks Mosaic AI",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Mosaic AI establishes a comprehensive enterprise blueprint for building, evaluating, and governing generative AI agents directly atop lakehouse data architectures.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5557,7 +5575,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Metaflow bridges local data science experimentation with scalable production pipelines on enterprise cloud and container infrastructure.",
+        "why": "Metaflow bridges the gap between data science experimentation and production-grade cloud infrastructure with robust workflow orchestration.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5566,16 +5584,7 @@
         "date": "2026-05-19",
         "stars": 5,
         "impact": "high",
-        "why": "Meta's official recipes provide production-tested blueprints for parameter-efficient fine-tuning (PEFT), LoRA, and quantization for enterprise LLM deployment.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://github.com/argilla-io/argilla",
-        "title": "rubrix",
-        "date": "2026-06-08",
-        "stars": 5,
-        "impact": "high",
-        "why": "Argilla delivers an open-source, human-in-the-loop curation and evaluation platform critical for high-quality LLM alignment and fine-tuning pipelines.",
+        "why": "Serves as the standard implementation reference for enterprise PEFT, LoRA fine-tuning, and optimized deployment of open foundation models.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5584,7 +5593,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "SilverTorch shifts the recommendation system paradigm by unifying vector indexing, retrieval, and ranking into a single GPU-optimized deep learning model.",
+        "why": "Introduces a paradigm shift in recommendation architectures by collapsing retrieval, filtering, and scoring into a unified GPU-accelerated model.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5593,7 +5602,25 @@
         "date": "2026-06-18",
         "stars": 4,
         "impact": "high",
-        "why": "This comprehensive reference architecture maps out the tooling, operators, and orchestration layers required to operate machine learning workloads on Kubernetes.",
+        "why": "Provides an exhaustive operational playbook for deploying, managing, and scaling machine learning workloads natively on Kubernetes.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale",
+        "title": "Meta's AI Storage Blueprint at Scale",
+        "date": "2026",
+        "stars": 1,
+        "impact": "high",
+        "why": "Details production-tested storage architectures required to sustain maximum GPU utilization during massive distributed AI model training runs.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://github.com/argilla-io/argilla",
+        "title": "rubrix",
+        "date": "2026-06-08",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Empowers data teams with open-source human-in-the-loop data curation and feedback loops critical for fine-tuning LLMs.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5602,34 +5629,16 @@
         "date": "2026-06-13",
         "stars": 4,
         "impact": "medium",
-        "why": "Aim provides a responsive, open-source experiment tracker and visualization engine offering an accessible self-hosted alternative to proprietary ML telemetry tools.",
+        "why": "Offers an open-source, high-performance alternative to proprietary experiment trackers capable of managing millions of metrics at enterprise scale.",
         "category": "MLOps & Data Science"
       },
       {
-        "url": "https://github.com/XuehaiPan/nvitop",
-        "title": "github.com/XuehaiPan/nvitop 🌟",
-        "date": "2026-05-25",
-        "stars": 4,
+        "url": "https://github.com/tensorchord/envd",
+        "title": "tensorchord/envd: Reproducible development environment for AI/ML 🌟",
+        "date": "2026-10-02",
+        "stars": 3,
         "impact": "medium",
-        "why": "nvitop modernizes GPU monitoring on training nodes by providing real-time, interactive terminal insights into hardware utilization and process memory.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://github.com/datalab-to/surya",
-        "title": "github.com/VikParuchuri/surya",
-        "date": "2026-10-29",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Surya accelerates multimodal document AI pipelines with deep learning-based layout analysis and multilingual OCR for unstructured enterprise data.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant",
-        "title": "redhat.com: Bring Your Own Knowledge — Automation Intelligent Assistant (RAG)",
-        "date": "2026-06-25",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Red Hat's architecture guide outlines enterprise-ready patterns for integrating vector databases, ingestion pipelines, and RAG into Kubernetes platforms.",
+        "why": "Streamlines cloud-native MLOps by compiling declarative Python configurations into reproducible, hardware-accelerated container environments.",
         "category": "MLOps & Data Science"
       }
     ],
@@ -5819,21 +5828,30 @@
     ],
     "AWS": [
       {
-        "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock",
-        "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
-        "date": "2026-06-02",
-        "stars": 4,
+        "url": "https://github.com/awslabs/ai-on-eks",
+        "title": "AI on EKS (AWS Labs)",
+        "date": "2026-11-05",
+        "stars": 5,
         "impact": "critical",
-        "why": "Marks a major shift in cloud AI distribution by bringing OpenAI's frontier models directly into Amazon Bedrock's enterprise ecosystem.",
+        "why": "Provides production-ready GitOps and Terraform blueprints for scaling generative AI workloads natively on Amazon EKS.",
         "category": "AWS"
       },
       {
-        "url": "https://kubernetes.io/blog/2026/05/20/etcd-370-beta",
-        "title": "Announcing etcd 3.7.0-beta.0 | Kubernetes",
+        "url": "https://aws.amazon.com/bedrock/agentcore",
+        "title": "Amazon Bedrock AgentCore",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Enables microVM-isolated, serverless hosting and scaling of autonomous enterprise AI agents directly within the AWS security boundary.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=n/a&linkId=953986722",
+        "title": "OpenAI Models and Codex on Amazon Bedrock are Now Generally Available",
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "Delivers a major architectural upgrade to the primary distributed state store underpinning all Kubernetes cluster control planes.",
+        "why": "Represents a massive cloud industry paradigm shift by bringing frontier OpenAI models natively into AWS's managed governance perimeter.",
         "category": "AWS"
       },
       {
@@ -5842,7 +5860,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Integrates native Amazon EKS orchestration with fault-tolerant distributed training infrastructure for large-scale AI workloads.",
+        "why": "Bridges machine learning infrastructure with cloud native patterns by integrating SageMaker HyperPod directly with Amazon EKS orchestration.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/bedrock",
+        "title": "Amazon Bedrock",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Serves as AWS's foundational managed platform for deploying enterprise-scale foundation models, guardrails, and serverless RAG systems.",
         "category": "AWS"
       },
       {
@@ -5851,7 +5878,7 @@
         "date": "2026-03-23",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as the foundational, industry-standard open-source cloud emulator for local AWS development and testing.",
+        "why": "Remains the de facto cloud-native emulator enabling offline, cost-effective development and CI/CD testing of AWS service dependencies.",
         "category": "AWS"
       },
       {
@@ -5860,25 +5887,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Re-engineers OpenSearch Serverless with a fully decoupled compute and storage architecture optimized for agentic AI vector search.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/awslabs/amazon-ecr-credential-helper",
-        "title": "awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper",
-        "date": "2026-06-09",
-        "stars": 4,
-        "impact": "high",
-        "why": "Provides essential, automated IAM credential integration for container runtimes and Kubernetes CI/CD pipelines accessing Amazon ECR.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/99designs/aws-vault",
-        "title": "AWS Vault",
-        "date": "2025-12-30",
-        "stars": 5,
-        "impact": "high",
-        "why": "Remains the ubiquitous developer utility for securely managing and scoping temporary AWS CLI credentials via OS keystores.",
+        "why": "Introduces a disaggregated compute-storage architecture that radically improves serverless vector search elasticity for dynamic AI applications.",
         "category": "AWS"
       },
       {
@@ -5887,7 +5896,16 @@
         "date": "2026-04-13",
         "stars": 5,
         "impact": "high",
-        "why": "Dramatically reduces operational friction by parsing CloudTrail events to pinpoint exact IAM boundaries and SCPs causing access blocks.",
+        "why": "Significantly simplifies AWS security operations by deterministically diagnosing complex IAM permission boundaries and Service Control Policy denials.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/awslabs/amazon-ecr-credential-helper",
+        "title": "awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper",
+        "date": "2026-06-09",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Solves core operational friction in container delivery pipelines by providing transparent, credential-less authentication to Amazon ECR.",
         "category": "AWS"
       },
       {
@@ -5895,17 +5913,8 @@
         "title": "AWS Transform",
         "date": "2026-06-02",
         "stars": 4,
-        "impact": "high",
-        "why": "Leverages agentic AI automation to significantly accelerate enterprise legacy software migration and cloud-native refactoring.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://github.com/awslabs/aws-cloudsaga",
-        "title": "awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS",
-        "date": "2026-06-13",
-        "stars": 5,
         "impact": "medium",
-        "why": "Allows cloud security operations teams to programmatically simulate security incidents to validate detection pipelines directly inside AWS.",
+        "why": "Applies agentic automation to modernize legacy enterprise monoliths into cloud native architectures on AWS.",
         "category": "AWS"
       }
     ],
@@ -6753,9 +6762,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T20:24:36.062270+01:00",
-        "entry_hash": "bb8c01e0df7c38f7",
-        "entry_count": 49,
+        "last_analyzed": "2026-11-05T20:47:42.767122+01:00",
+        "entry_hash": "f8a0a2c857b3062c",
+        "entry_count": 35,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -6771,9 +6780,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-05T19:45:17.299588+01:00",
-        "entry_hash": "da23e61777754a8b",
-        "entry_count": 21,
+        "last_analyzed": "2026-11-05T20:48:01.659294+01:00",
+        "entry_hash": "0cbe3b61b1c3bbe5",
+        "entry_count": 26,
         "method": "gemini"
       },
       "Infrastructure as Code": {
@@ -6807,9 +6816,9 @@
         "method": "gemini"
       },
       "AWS": {
-        "last_analyzed": "2026-11-05T19:47:02.580956+01:00",
-        "entry_hash": "43e3c5d1342c2ec4",
-        "entry_count": 11,
+        "last_analyzed": "2026-11-05T20:48:16.822998+01:00",
+        "entry_hash": "13bc9bde8494cab1",
+        "entry_count": 16,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -6843,9 +6852,9 @@
         "method": "gemini"
       },
       "OpenShift / Red Hat": {
-        "last_analyzed": "2026-11-05T19:48:16.657644+01:00",
-        "entry_hash": "625b42da2df05201",
-        "entry_count": 16,
+        "last_analyzed": "2026-11-05T20:48:30.805654+01:00",
+        "entry_hash": "3e010f10cee8d8e7",
+        "entry_count": 19,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -6861,10 +6870,10 @@
         "method": "gemini"
       },
       "MLOps & Data Science": {
-        "last_analyzed": "2026-11-02T18:58:24.334222+01:00",
-        "entry_hash": "5e8a56838ea4e86a",
-        "entry_count": 2,
-        "method": "fallback_small"
+        "last_analyzed": "2026-11-05T20:48:39.298813+01:00",
+        "entry_hash": "b3147787d711ab49",
+        "entry_count": 3,
+        "method": "gemini"
       },
       "Virtualization & Private Cloud": {
         "last_analyzed": "2026-11-05T19:48:59.138208+01:00",
@@ -6911,9 +6920,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-05T19:49:48.121963+01:00",
-        "entry_hash": "1bac0b7062c34266",
-        "entry_count": 319,
+        "last_analyzed": "2026-11-05T20:48:55.680547+01:00",
+        "entry_hash": "2b7f8f029172fbc2",
+        "entry_count": 324,
         "method": "gemini"
       },
       "CI/CD & GitOps": {
@@ -6935,9 +6944,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T20:24:54.132562+01:00",
-        "entry_hash": "1daf0abfd6c99e0e",
-        "entry_count": 244,
+        "last_analyzed": "2026-11-05T20:49:36.438759+01:00",
+        "entry_hash": "c37ad0791d578c95",
+        "entry_count": 230,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -6947,9 +6956,9 @@
         "method": "gemini"
       },
       "OpenShift / Red Hat": {
-        "last_analyzed": "2026-11-05T19:50:35.526235+01:00",
-        "entry_hash": "f3586edae8481599",
-        "entry_count": 482,
+        "last_analyzed": "2026-11-05T20:49:54.037235+01:00",
+        "entry_hash": "12250221d2920316",
+        "entry_count": 485,
         "method": "gemini"
       },
       "Security & Compliance": {
@@ -6971,9 +6980,9 @@
         "method": "gemini"
       },
       "MLOps & Data Science": {
-        "last_analyzed": "2026-11-02T18:58:39.720027+01:00",
-        "entry_hash": "243c1345382e4949",
-        "entry_count": 74,
+        "last_analyzed": "2026-11-05T20:50:14.314330+01:00",
+        "entry_hash": "13fa5d424e9cccdb",
+        "entry_count": 75,
         "method": "gemini"
       },
       "GCP, OCI & Others": {
@@ -6989,9 +6998,9 @@
         "method": "gemini"
       },
       "AWS": {
-        "last_analyzed": "2026-11-05T19:51:11.273069+01:00",
-        "entry_hash": "0c8c77b7352cd54e",
-        "entry_count": 482,
+        "last_analyzed": "2026-11-05T20:50:34.046669+01:00",
+        "entry_hash": "79a234d0d34b8f57",
+        "entry_count": 487,
         "method": "gemini"
       },
       "Containers & Runtime": {
@@ -7069,9 +7078,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-02T18:59:18.198791+01:00",
-        "entry_hash": "dca8304d7bf96c6b",
-        "entry_count": 327,
+        "last_analyzed": "2026-11-05T20:50:53.216899+01:00",
+        "entry_hash": "8831fc0ed99d9838",
+        "entry_count": 332,
         "method": "gemini"
       },
       "CI/CD & GitOps": {
@@ -7093,9 +7102,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T20:25:10.963206+01:00",
-        "entry_hash": "41257ac034ff4747",
-        "entry_count": 483,
+        "last_analyzed": "2026-11-05T20:51:11.594710+01:00",
+        "entry_hash": "bb0f29ba1d758cdf",
+        "entry_count": 469,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -7105,9 +7114,9 @@
         "method": "gemini"
       },
       "OpenShift / Red Hat": {
-        "last_analyzed": "2026-11-05T19:52:15.758283+01:00",
-        "entry_hash": "b8eb529d53b0c530",
-        "entry_count": 485,
+        "last_analyzed": "2026-11-05T20:51:31.194425+01:00",
+        "entry_hash": "6b6c7346fd693049",
+        "entry_count": 488,
         "method": "gemini"
       },
       "Security & Compliance": {
@@ -7129,9 +7138,9 @@
         "method": "gemini"
       },
       "MLOps & Data Science": {
-        "last_analyzed": "2026-10-26T21:30:06.943367+01:00",
-        "entry_hash": "ae6cfc2cc082117c",
-        "entry_count": 79,
+        "last_analyzed": "2026-11-05T20:51:48.830431+01:00",
+        "entry_hash": "00c64a47cb2d606a",
+        "entry_count": 80,
         "method": "gemini"
       },
       "GCP, OCI & Others": {
@@ -7147,9 +7156,9 @@
         "method": "gemini"
       },
       "AWS": {
-        "last_analyzed": "2026-11-05T19:52:47.380395+01:00",
-        "entry_hash": "9d3988ec254fd488",
-        "entry_count": 533,
+        "last_analyzed": "2026-11-05T20:52:05.327833+01:00",
+        "entry_hash": "56015f0610f84299",
+        "entry_count": 538,
         "method": "gemini"
       },
       "Containers & Runtime": {
@@ -7207,6 +7216,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-05T20:25:11.974619+01:00"
+    "last_updated": "2026-11-05T20:52:06.332689+01:00"
   }
 }

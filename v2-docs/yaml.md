@@ -25,8 +25,8 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
 
 #### Advanced Templating
 
-  - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
   - **(2022)** [**ytt**](https://get-ytt.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A structured, command-line template engine designed to process YAML files as semantic AST objects rather than raw strings. Developed by VMware Carvel, ytt uses Python-like Starlark code to safely patch, template, and validate complex cloud-native resource manifests.
+  - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
 #### CLI Operations
 
   - **(2021)** [==Kubectl output options 🌟==](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated technical guide detailing advanced kubectl formatting options. It covers jsonpath extractions, custom columns, and Go templating recipes. This cheat sheet is incredibly valuable for platform engineers querying complex cluster statuses directly from the command line.
@@ -178,7 +178,7 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
   - [jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsonformatter.org/yaml-validator covering YAML Validators in Yaml (jsonformatter.org).
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md) | [NoSQL](./nosql.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

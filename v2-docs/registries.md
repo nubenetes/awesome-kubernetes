@@ -151,7 +151,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
   - [stackoverflow: run nexus3 with docker in a kubernetes cluster](https://stackoverflow.com/questions/42766349/run-nexus-3-with-docker-in-a-kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow: run nexus3 with docker in a kubernetes cluster covering Setup Nexus Kubernetes. Run nexus3 with docker in a kubernetes cluster in Registries (stackoverflow.com).
 
 ---
-💡 **Explore Related:** [Keptn](./keptn.md) | [Jenkins](./jenkins.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Tekton](./tekton.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Demos](./demos.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

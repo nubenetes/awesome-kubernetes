@@ -40,7 +40,7 @@ description: "Curated, AI-ranked Swagger Code Generator For Rest APIs resources 
   - **(2015)** [**Swagger Codegen**](https://github.com/swagger-api/swagger-codegen) <span class='md-tag md-tag--info'>⭐ 17793</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eda1e66e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 8 L 30 13 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-eda1e66e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Maven Gradle](./maven-gradle.md) | [Python](./python.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

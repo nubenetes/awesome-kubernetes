@@ -93,7 +93,7 @@ description: "Top AWS Monitoring resources for 2026, AI-ranked: github: Electric
   - **(2022)** [Custom Health Check: HealthCheckCustomConfig](https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide for Cloud Map API's custom health checks. Explains dynamic service discovery patterns for serverless workloads where traditional load balancer health checks are inapplicable.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
 
-🔗 **See Also:** [Finops](./finops.md) | [Serverless](./serverless.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -27,7 +27,7 @@ description: "Curated, AI-ranked Chromedevtools resources for the 2026 Cloud Nat
   - [jsontoolbox.com](https://www.jsontoolbox.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsontoolbox.com covering Other Tools in Chromedevtools (jsontoolbox.com).
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Maven Gradle](./maven-gradle.md) | [Python](./python.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 

@@ -119,9 +119,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">AI & Agents</div>
-  <div class="trending-card__title"><a href="https://github.com/llm-d/llm-d">llm-d (Kubernetes-Native Distributed LLM Inference)</a></div>
-  <div class="trending-card__meta">2026-11-05 · 5.2k★</div>
-  <div class="trending-card__why">Co-engineered by industry leaders, llm-d establishes a Kubernetes-native standard for distributed LLM inference leveraging the Gateway API Inference Extension.</div>
+  <div class="trending-card__title"><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai">Red Hat OpenShift AI (RHOAI)</a></div>
+  <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">It establishes a production-grade, enterprise standard for running AI/ML workloads natively on Kubernetes using KServe, vLLM, and KubeRay.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -133,9 +133,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Azure</div>
-  <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
-  <div class="trending-card__meta">2026-11-05 · 5.4k★</div>
-  <div class="trending-card__why">Azure Linux provides a hardened, container-optimized host OS tailored specifically for running production workloads securely on AKS.</div>
+  <div class="trending-card__title"><a href="https://github.com/kaito-project/kaito">KAITO (Kubernetes AI Toolchain Operator)</a></div>
+  <div class="trending-card__meta">2026-11-05 · 1k★</div>
+  <div class="trending-card__why">CNCF Sandbox operator that bridges Kubernetes with GenAI by automating open-weight LLM/SLM inference, fine-tuning, and GPU orchestration.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -147,9 +147,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">AWS</div>
-  <div class="trending-card__title"><a href="https://aws.amazon.com/sagemaker/ai">Amazon SageMaker AI (HyperPod and Managed MLOps)</a></div>
-  <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Integrates managed foundation model training with native Amazon EKS orchestration, bridging large-scale AI workloads and cloud-native infrastructure.</div>
+  <div class="trending-card__title"><a href="https://github.com/awslabs/ai-on-eks">AI on EKS (AWS Labs)</a></div>
+  <div class="trending-card__meta">2026-11-05 · 228★</div>
+  <div class="trending-card__why">Provides official production blueprints combining Amazon EKS, Argo CD, and GPU orchestration for running high-scale GenAI workloads.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -161,11 +161,18 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">OpenShift / Red Hat</div>
-  <div class="trending-card__title"><a href="https://github.com/instructlab/instructlab">InstructLab</a></div>
-  <div class="trending-card__meta">2026-11-05 · 1.4k★</div>
-  <div class="trending-card__why">InstructLab drives Red Hat's open-source generative AI strategy and directly powers model alignment capabilities within Red Hat OpenShift AI.</div>
+  <div class="trending-card__title"><a href="https://www.redhat.com/en/products/ai/openshift-ai">Red Hat OpenShift AI (RHOAI)</a></div>
+  <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Serves as Red Hat's flagship enterprise platform for deploying, managing, and scaling distributed AI and MLOps workloads on OpenShift.</div>
 </div>
 <div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">MLOps & Data Science</div>
+  <div class="trending-card__title"><a href="https://www.databricks.com/product/artificial-intelligence">Databricks Mosaic AI</a></div>
+  <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Databricks Mosaic AI represents an industry-standard shift toward unifying Lakehouse data infrastructure with enterprise AI agent evaluation, fine-tuning, and production governance.</div>
+</div>
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Infrastructure as Code</div>
   <div class="trending-card__title"><a href="https://github.com/opentofu/opentofu">OpenTofu Official GitHub Repository</a></div>
@@ -214,13 +221,6 @@
   <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
   <div class="trending-card__why">Unifies Kubernetes AppOps, GitOps, and observability into a single interface, significantly streamlining enterprise cloud native delivery workflows.</div>
 </div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Virtualization & Private Cloud</div>
-  <div class="trending-card__title"><a href="https://github.com/kubernetes/kubeadm">Kubernetes Cluster with Kubeadm</a></div>
-  <div class="trending-card__meta">2026-10-29 · 4k★</div>
-  <div class="trending-card__why">Serves as the foundational, CNCF-standard bootstrapping engine powering modern bare-metal and private cloud Kubernetes deployments.</div>
-</div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
 </div>
@@ -228,6 +228,13 @@
 <div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>
 <input type="checkbox" id="trend-expand-rising" class="trending-toggle">
 <div class="trending-grid">
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">AI & Agents</div>
+  <div class="trending-card__title"><a href="https://github.com/vllm-project/vllm">vLLM on Kubernetes</a></div>
+  <div class="trending-card__meta">2026-11-02 · 96.2k★</div>
+  <div class="trending-card__why">Standardizes high-throughput, memory-efficient LLM serving directly on Kubernetes clusters via PagedAttention.</div>
+</div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Networking & Service Mesh</div>
@@ -259,11 +266,11 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Azure</div>
-  <div class="trending-card__title"><a href="https://github.com/Azure/bicep">Bicep</a></div>
-  <div class="trending-card__meta">2026-11-01 · 3.7k★</div>
-  <div class="trending-card__why">Bicep is Microsoft's primary domain-specific language for Azure infrastructure as code, significantly streamlining declarative resource authoring.</div>
+  <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
+  <div class="trending-card__meta">2026-11-05 · 5.4k★</div>
+  <div class="trending-card__why">The purpose-built, secure, container-optimized host OS underpinning AKS and Microsoft's cloud native container infrastructure.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Architecture & Microservices</div>
   <div class="trending-card__title"><a href="https://github.com/etcd-io/etcd">Etcd</a></div>
@@ -272,10 +279,10 @@
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">AI & Agents</div>
-  <div class="trending-card__title"><a href="https://github.com/kaito-project/kaito">KAITO (Kubernetes AI Toolchain Operator)</a></div>
-  <div class="trending-card__meta">2026-11-05 · 1k★</div>
-  <div class="trending-card__why">As a CNCF project, KAITO automates the provisioning, right-sizing, and deployment of open-weight LLMs directly on Kubernetes clusters.</div>
+  <div class="trending-card__category">Virtualization & Private Cloud</div>
+  <div class="trending-card__title"><a href="https://github.com/kubernetes/kubeadm">Kubernetes Cluster with Kubeadm</a></div>
+  <div class="trending-card__meta">2026-10-29 · 4k★</div>
+  <div class="trending-card__why">Serves as the foundational, CNCF-standard bootstrapping engine powering modern bare-metal and private cloud Kubernetes deployments.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
@@ -300,17 +307,10 @@
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
-  <div class="trending-card__category">MLOps & Data Science</div>
-  <div class="trending-card__title"><a href="https://github.com/datalab-to/surya">surya</a></div>
-  <div class="trending-card__meta">2026-10-29 · 21.6k★</div>
-  <div class="trending-card__why">Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
-  <div class="trending-card__category">Virtualization & Private Cloud</div>
-  <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kubespray">Kubespray</a></div>
-  <div class="trending-card__meta">2026-11-05 · 18.8k★</div>
-  <div class="trending-card__why">Remains the enterprise standard Ansible-based framework for operating production-grade Kubernetes across private data centers and bare-metal.</div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://github.com/llm-d/llm-d">llm-d (Kubernetes-Native Distributed LLM Inference)</a></div>
+  <div class="trending-card__meta">2026-11-05 · 5.2k★</div>
+  <div class="trending-card__why">Provides a collaborative, Kubernetes-native inference framework co-engineered by Red Hat to optimize distributed LLM serving using the Gateway API.</div>
 </div>
 </div>
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -444,7 +444,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1036 resources">Go<span class="v2-heat-n">1036</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1034 resources">Go<span class="v2-heat-n">1034</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -479,12 +479,12 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="2 resources">Kubernetes<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="638 resources">Legacy<span class="v2-heat-n">638</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="637 resources">Legacy<span class="v2-heat-n">637</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="99 resources">LLM<span class="v2-heat-n">99</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="335 resources">Markdown<span class="v2-heat-n">335</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="338 resources">Markdown<span class="v2-heat-n">338</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="247 resources">MCP<span class="v2-heat-n">247</span></a>
