@@ -1,5 +1,5 @@
 ---
-description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, Amazon Bedrock and more — curated Cloud Native tools, guides and references."
+description: "Top AWS resources for 2026, AI-ranked: Amazon Bedrock, Amazon Bedrock AgentCore and more — curated Cloud Native tools, guides and references."
 ---
 # Public Cloud Provider. Amazon Web Services
 
@@ -270,7 +270,7 @@ description: "Top AWS resources for 2026, AI-ranked: Awesome AWS, Amazon Bedrock
   - [AWS, Azure, GCP: Resource Hierarchies](https://levelup.gitconnected.com/aws-azure-gcp-resource-hierarchies-25b829127511?gi=0e46520abcd5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS, Azure, GCP: Resource Hierarchies covering Resource Hierarchies in AWS (levelup.gitconnected.com).
 
 ---
-💡 **Explore Related:** [AWS Networking](./aws-networking.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS Storage](./aws-storage.md) | [Azure](./azure.md) | [AWS Networking](./aws-networking.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

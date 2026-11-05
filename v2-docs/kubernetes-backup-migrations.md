@@ -129,7 +129,7 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
   - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
 
 ---
-💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 
