@@ -146,6 +146,290 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Kubernetes MLOps
+
+??? note "🎬 Cloud Tethered vs Air Gapped Enterprise AI | Hybrid Control Planes"
+    !!! info "Architectural Summary"
+        This architectural comparison contrasts cloud-tethered hybrid AI models—leveraging Kubernetes operators like KAITO with Azure AI Foundry inside private virtual networks—against fully air-gapped bare-metal distributions like Red Hat OpenShift AI. It provides an enterprise blueprint for resolving the tension between rapid cloud innovation and strict regulatory sovereignty with zero external egress. For 2026 cloud-native deployments, understanding these hybrid control plane topologies is critical for architecting compliant, sovereign inference platforms.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="uW_1qkhghgc" data-video-url="https://www.youtube.com/embed/uW_1qkhghgc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/uW_1qkhghgc/hqdefault.jpg" alt="Cloud Tethered vs Air Gapped Enterprise AI | Hybrid Control Planes" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Turnkey Platforms Tame Kubernetes AI | OpenShift AI & watsonx"
+    !!! info "Architectural Summary"
+        This architectural breakdown analyzes the enterprise shift from assembling fragile DIY Kubernetes AI infrastructures to adopting pre-integrated turnkey platforms like Red Hat OpenShift AI and IBM watsonx. By consolidating distributed workload schedulers, model servers, and orchestration operators (such as Ray, Kueue, KServe, and vLLM) under unified lifecycle management, enterprises eliminate multi-operator maintenance overhead. This approach provides critical air-gapped compliance, automated Day-2 operations, and reduces enterprise AI time-to-value from six months to under two weeks in regulated environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="eyGnHQSPX4w" data-video-url="https://www.youtube.com/embed/eyGnHQSPX4w" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/eyGnHQSPX4w/hqdefault.jpg" alt="How Turnkey Platforms Tame Kubernetes AI | OpenShift AI & watsonx" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## MLOps AI Agents
+
+??? note "🎬 How InstructLab Teaches AI New Skills | Synthetic Data Model Alignment"
+    !!! info "Architectural Summary"
+        InstructLab introduces a taxonomy-driven, synthetic data generation workflow to align open-source foundation models with specialized domain knowledge and agent skills without requiring expensive full-parameter retraining. By defining skills in declarative YAML files and using teacher models to synthesize validated training datasets, it enables GitOps-aligned model refinement integrated natively with enterprise platforms like OpenShift AI. For 2026 cloud-native architectures, this approach provides a cost-effective, scalable foundation for continuously fine-tuning and deploying specialized enterprise AI agents across Kubernetes clusters.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="t1ANWLvtsi8" data-video-url="https://www.youtube.com/embed/t1ANWLvtsi8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/t1ANWLvtsi8/hqdefault.jpg" alt="How InstructLab Teaches AI New Skills | Synthetic Data Model Alignment" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Enterprise AI Platforms Architecture Unpacked | Identity, Security & FinOps"
+    !!! info "Architectural Summary"
+        This architectural breakdown analyzes the shift toward managed enterprise AI control planes to solve scaling bottlenecks across identity, governance, and FinOps. It emphasizes replacing shared API tokens with first-class Agent identities via Microsoft Entra Agent ID and AWS IAM Identity Center for document-level RBAC, implementing continuous evaluation pipelines for model safety, and eliminating idle GPU provisioning costs through consumption-based token execution runtimes.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="_EIKE8OLMs8" data-video-url="https://www.youtube.com/embed/_EIKE8OLMs8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/_EIKE8OLMs8/hqdefault.jpg" alt="Enterprise AI Platforms Architecture Unpacked | Identity, Security & FinOps" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 The End of DIY Enterprise AI | The 2026 Agentic Control Plane Playbook"
+    !!! info "Architectural Summary"
+        This architectural overview contrasts the legacy approach of maintaining bespoke Kubernetes infrastructure for LLM applications with modern managed agentic control planes like Amazon Bedrock and Azure AI Foundry. It highlights the paradigm shift toward built-in multi-model routing, API-level safety guardrails, and serverless MicroVM sandboxes that eliminate pod orchestration overhead for agentic execution. Cloud architects can leverage this blueprint to drastically reduce operational friction and accelerate enterprise agent deployment.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="_RMJLGU2roo" data-video-url="https://www.youtube.com/embed/_RMJLGU2roo" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/_RMJLGU2roo/hqdefault.jpg" alt="The End of DIY Enterprise AI | The 2026 Agentic Control Plane Playbook" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 2026 AI Architecture Shift: Lakehouse AI & Serverless Edge Agents"
+    !!! info "Architectural Summary"
+        This briefing analyzes the emerging enterprise architectural transition from complex DIY Kubernetes infrastructure to governed Lakehouse platforms and stateful serverless edge agent runtimes. By leveraging Databricks Mosaic AI with Unity Catalog alongside Cloudflare Agents utilizing Durable Objects and edge SQLite, teams achieve low-latency session persistence and model execution directly co-located with enterprise data. This paradigm eliminates Kubernetes cluster maintenance overhead, enabling engineering organizations to focus on scalable agentic logic, MCP gateways, and domain-specific AI workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Zhn0M9rlw_k" data-video-url="https://www.youtube.com/embed/Zhn0M9rlw_k" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Zhn0M9rlw_k/hqdefault.jpg" alt="2026 AI Architecture Shift: Lakehouse AI & Serverless Edge Agents" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 What's new in Google AI"
+    !!! info "Architectural Summary"
+        This presentation outlines Google's latest end-to-end AI stack from Google I/O 2026, focusing on deployment strategies for multimodal models, media generation, and intelligent agents. It details how to leverage Google's managed infrastructure and MLOps tools to tune, serve, and scale open-source models in cloud-native environments. Additionally, it introduces new 'vibe-coding' workflows and agentic capabilities designed to streamline next-generation AI application development.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="SSe1VmVrtw0" data-video-url="https://www.youtube.com/embed/SSe1VmVrtw0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/SSe1VmVrtw0/hqdefault.jpg" alt="What's new in Google AI" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19"
+    !!! info "Architectural Summary"
+        This episode details the architectural evolution of OpenAI's image generation capabilities to Images 2.0, focusing on the shift from single-turn prompting to multi-modal 'creative agents' integrated with code execution engines like Codex. It addresses the MLOps and infrastructure challenges of scaling real-time generative pipelines to 1.5 billion weekly requests while maintaining strict character consistency and prompt alignment. For 2026 Cloud Native topologies, this highlights the necessity of building low-latency, event-driven agent orchestration layers that seamlessly bind generative media models with stateful transactional systems.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="bH2nP-aCFjk" data-video-url="https://www.youtube.com/embed/bH2nP-aCFjk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/bH2nP-aCFjk/hqdefault.jpg" alt="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 ComfyUI + Google Models: A Creator-Friendly Agent Workflow"
+    !!! info "Architectural Summary"
+        This architectural overview highlights Google Cloud's integration of Gemini, Veo, and Imagen models with Avid and ComfyUI to deliver secure, agentic workflows for media production. The framework details how multimodal search and generative AI pipelines are orchestrated on Google Cloud compute infrastructure, streamlining video rendering, editing, and creative asset management.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="ppMWxjsmk2k" data-video-url="https://www.youtube.com/embed/ppMWxjsmk2k" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ppMWxjsmk2k/hqdefault.jpg" alt="ComfyUI + Google Models: A Creator-Friendly Agent Workflow" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## MLOps with AI
+
+??? note "🎬 How llm d Splits AI Compute | Disaggregated Inference on Kubernetes"
+    !!! info "Architectural Summary"
+        This architectural breakdown demonstrates disaggregated LLM inference on Kubernetes by decoupling compute-bound prompt ingestion (prefill) from memory-bandwidth-bound token generation (decode) across specialized GPU pools. By leveraging the Kubernetes Gateway API Inference Extension for KV-cache-aware routing, cloud native platforms eliminate severe hardware bottlenecks, slashing Time-to-First-Token (TTFT) and reducing inference compute costs by 40-70%.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="EjkL9runM-o" data-video-url="https://www.youtube.com/embed/EjkL9runM-o" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/EjkL9runM-o/hqdefault.jpg" alt="How llm d Splits AI Compute | Disaggregated Inference on Kubernetes" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Kueue Schedules Kubernetes AI Workloads | Fair-Share GPU Queuing"
+    !!! info "Architectural Summary"
+        This architectural breakdown explains how Kueue functions as a cloud-native job queue controller on Kubernetes to manage multi-tenant access to scarce GPU accelerators. It highlights fair-share cohort queuing, enabling workloads to safely borrow idle GPU capacity across namespace boundaries with preemption and rapid reclamation to prevent cluster starvation. For modern AI platforms, this mechanism maximizes costly hardware utilization while eliminating out-of-memory cluster disruptions during concurrent training runs.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="RHHQJUp21Xk" data-video-url="https://www.youtube.com/embed/RHHQJUp21Xk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/RHHQJUp21Xk/hqdefault.jpg" alt="How Kueue Schedules Kubernetes AI Workloads | Fair-Share GPU Queuing" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving"
+    !!! info "Architectural Summary"
+        This architectural analysis explores the strategic trade-offs between managed serverless cloud AI platforms and dedicated Kubernetes clusters optimized for disaggregated inference using vLLM and llm-d. It demonstrates how decoupling compute-heavy prefill stages from memory-bound decode stages enables teams to cut high-volume inference costs by 40-70% while avoiding idle GPU waste across variable workloads.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="TUyX5PzEPGA" data-video-url="https://www.youtube.com/embed/TUyX5PzEPGA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/TUyX5PzEPGA/hqdefault.jpg" alt="The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## AI Agents MCP
+
+??? note "🎬 How AI Agents Use Company Tools | Model Context Protocol (MCP) Gateways"
+    !!! info "Architectural Summary"
+        This architectural brief examines how Model Context Protocol (MCP) gateways standardize and secure AI agent interactions with enterprise data stores, serverless APIs, and internal SaaS platforms. By transforming existing OpenAPI specifications and cloud functions into authenticated, audited MCP tool servers, organizations eliminate brittle custom API sidecars. In modern cloud-native architectures, this provides an essential control plane layer enforcing strict identity propagation, granular authorization, and compliance logging across autonomous agentic workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="PPpSLpXL1HA" data-video-url="https://www.youtube.com/embed/PPpSLpXL1HA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/PPpSLpXL1HA/hqdefault.jpg" alt="How AI Agents Use Company Tools | Model Context Protocol (MCP) Gateways" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Kubernetes AI Agents
+
+??? note "🎬 Why Managed AI Platforms Are Replacing Kubernetes | 2026 Enterprise Shift"
+    !!! info "Architectural Summary"
+        Examines the 2026 enterprise architectural shift moving away from complex, self-managed Kubernetes AI stacks toward managed cloud control planes like Azure AI Foundry and Amazon Bedrock AgentCore. Offloading stateful agent plumbing—such as isolated execution sandboxes, server-side memory threads, MCP proxies, and CUDA driver tuning—eliminates cluster operational overhead and accelerates production agent delivery.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="elweRHyvWPc" data-video-url="https://www.youtube.com/embed/elweRHyvWPc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/elweRHyvWPc/hqdefault.jpg" alt="Why Managed AI Platforms Are Replacing Kubernetes | 2026 Enterprise Shift" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 AI Control Planes vs Kubernetes: 2026 Hybrid Reference Architecture"
+    !!! info "Architectural Summary"
+        This architectural breakdown contrasts managed hyperscaler AI control planes against DIY Kubernetes stacks, highlighting why platform teams are shifting away from unmaintainable DIY AI infrastructure. It establishes a 2026 hybrid reference architecture demonstrating model governance in cloud catalogs paired with native cluster execution via tools like Azure KAITO, AWS Strands, and Google Agent Development Kit (ADK). This blueprint enables enterprise platform engineering teams to eliminate undifferentiated Day-2 operational burdens while deploying production-ready autonomous AI agents at scale.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="TFK1tQ0bWnE" data-video-url="https://www.youtube.com/embed/TFK1tQ0bWnE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/TFK1tQ0bWnE/hqdefault.jpg" alt="AI Control Planes vs Kubernetes: 2026 Hybrid Reference Architecture" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 2026 AI Architecture Shift: Zero-Trust Agent IAM & Enterprise Governance"
+    !!! info "Architectural Summary"
+        This architectural breakdown examines the shift from fragmented, DIY Kubernetes-based AI deployments to managed cloud AI control planes governed by zero-trust agent identity frameworks. It details how first-class cryptographic identities (such as Microsoft Entra Agent ID and AWS IAM Identity Center) and query-time document-level RBAC secure enterprise RAG workflows and autonomous agents. Furthermore, it highlights domain-specific model alignment via synthetic data generation with InstructLab on OpenShift AI, balancing infrastructure maintenance against core business value.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="sfK3eKrKqOI" data-video-url="https://www.youtube.com/embed/sfK3eKrKqOI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/sfK3eKrKqOI/hqdefault.jpg" alt="2026 AI Architecture Shift: Zero-Trust Agent IAM & Enterprise Governance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Kubernetes MLOps with AI
+
+??? note "🎬 How the Enterprise AI Decision Matrix Works | Cloud AI vs Kubernetes"
+    !!! info "Architectural Summary"
+        This architectural briefing outlines a three-gate decision framework for enterprise platform teams deciding between managed cloud AI services and Kubernetes in 2026. It establishes key evaluation criteria including data sovereignty and air-gapped deployments (OpenShift AI/watsonx), inference economics balancing pay-per-token models against sustained 24/7 self-hosted clusters using llm-d, and deep hardware customization leveraging KubeRay and Kueue for distributed AI workloads.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="mnkSjYsyfrg" data-video-url="https://www.youtube.com/embed/mnkSjYsyfrg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/mnkSjYsyfrg/hqdefault.jpg" alt="How the Enterprise AI Decision Matrix Works | Cloud AI vs Kubernetes" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## MLOps Kubernetes
+
+??? note "🎬 Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration"
+    !!! info "Architectural Summary"
+        This architectural explainer details how to design and operate enterprise-grade distributed AI training platforms on Kubernetes, contrasting managed cloud AI suites with high-scale Kubernetes clusters. It covers multi-tenant batch scheduling using Kueue and KubeRay, lossless RoCEv2 and InfiniBand networking fabrics for low-latency gradient synchronization, and automated fault recovery using SageMaker HyperPod on EKS. The video provides a critical blueprint for cloud architects building resilient, non-disruptive infrastructure for large-scale model training runs in 2026.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="YbQP5WRSn_o" data-video-url="https://www.youtube.com/embed/YbQP5WRSn_o" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/YbQP5WRSn_o/hqdefault.jpg" alt="Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## LLM Architecture and Post-Training
 
 ??? note "🎬 Stanford CS229: Building Large Language Models (LLMs)"
@@ -275,53 +559,6 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="DjBBV7oZxm8" data-video-url="https://www.youtube.com/embed/DjBBV7oZxm8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/DjBBV7oZxm8/hqdefault.jpg" alt="A Hacker's Guide to Language Models" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-
-    </center>
-
-## MLOps AI Agents
-
-??? note "🎬 What's new in Google AI"
-    !!! info "Architectural Summary"
-        This presentation outlines Google's latest end-to-end AI stack from Google I/O 2026, focusing on deployment strategies for multimodal models, media generation, and intelligent agents. It details how to leverage Google's managed infrastructure and MLOps tools to tune, serve, and scale open-source models in cloud-native environments. Additionally, it introduces new 'vibe-coding' workflows and agentic capabilities designed to streamline next-generation AI application development.
-
-    <center markdown="1">
-
-    <div class="video-lazy-container" data-video-id="SSe1VmVrtw0" data-video-url="https://www.youtube.com/embed/SSe1VmVrtw0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/SSe1VmVrtw0/hqdefault.jpg" alt="What's new in Google AI" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-
-    </center>
-
-??? note "🎬 Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19"
-    !!! info "Architectural Summary"
-        This episode details the architectural evolution of OpenAI's image generation capabilities to Images 2.0, focusing on the shift from single-turn prompting to multi-modal 'creative agents' integrated with code execution engines like Codex. It addresses the MLOps and infrastructure challenges of scaling real-time generative pipelines to 1.5 billion weekly requests while maintaining strict character consistency and prompt alignment. For 2026 Cloud Native topologies, this highlights the necessity of building low-latency, event-driven agent orchestration layers that seamlessly bind generative media models with stateful transactional systems.
-
-    <center markdown="1">
-
-    <div class="video-lazy-container" data-video-id="bH2nP-aCFjk" data-video-url="https://www.youtube.com/embed/bH2nP-aCFjk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/bH2nP-aCFjk/hqdefault.jpg" alt="Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-
-    </center>
-
-??? note "🎬 ComfyUI + Google Models: A Creator-Friendly Agent Workflow"
-    !!! info "Architectural Summary"
-        This architectural overview highlights Google Cloud's integration of Gemini, Veo, and Imagen models with Avid and ComfyUI to deliver secure, agentic workflows for media production. The framework details how multimodal search and generative AI pipelines are orchestrated on Google Cloud compute infrastructure, streamlining video rendering, editing, and creative asset management.
-
-    <center markdown="1">
-
-    <div class="video-lazy-container" data-video-id="ppMWxjsmk2k" data-video-url="https://www.youtube.com/embed/ppMWxjsmk2k" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/ppMWxjsmk2k/hqdefault.jpg" alt="ComfyUI + Google Models: A Creator-Friendly Agent Workflow" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
