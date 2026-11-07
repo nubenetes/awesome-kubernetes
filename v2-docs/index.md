@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 19947 total resources analyzed.
-    - **V2 Elite Selection**: 15840 candidates identified (79.41% density ratio).
-    - **AI Enrichment Coverage**: 15840 / 15840 (100.0%)
+    - **V1 Base Inventory**: 19963 total resources analyzed.
+    - **V2 Elite Selection**: 15856 candidates identified (79.43% density ratio).
+    - **AI Enrichment Coverage**: 15856 / 15856 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -106,7 +106,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 05, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 07, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -121,7 +121,7 @@
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai">Red Hat OpenShift AI (RHOAI)</a></div>
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">It establishes a production-grade, enterprise standard for running AI/ML workloads natively on Kubernetes using KServe, vLLM, and KubeRay.</div>
+  <div class="trending-card__why">Delivers a fully supported, Kubernetes-native enterprise platform integrating vLLM, KServe, and Kueue for hybrid AI operations.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -182,9 +182,9 @@
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLB-3xSV3dAoU">Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]</a></div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLRTV86SuuRbk">Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)</a></div>
   <div class="trending-card__meta">2026-11-02 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Complete collection of Spanish-language technical architecture podcasts and engineering deep-dives covering Kubernetes, Red Hat OpenShift 4.20, P99 latency and etcd, air-gapped observability, Grafana Alloy, Datadog, Traefik, Gateway API, Google Cloud (GKE), Backstage IDP, Azure Terraform automation, and zero-code trace-log correlation with OpenTelemetry eBPF (OBI).</div>
+  <div class="trending-card__why">Demonstrates zero-code multi-cloud Kubernetes telemetry using OpenTelemetry eBPF Instrumentation (OBI) to eliminate conventional agent and sidecar monitoring friction.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -208,14 +208,14 @@
   <div class="trending-card__why">As the industry-standard CNCF runtime embedded in Kubernetes, containerd forms the core foundation of modern container execution.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Data, Messaging & Storage</div>
   <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
   <div class="trending-card__meta">2026-10-30 · 10.4k★</div>
   <div class="trending-card__why">Velero is the cloud-native industry standard for comprehensive cluster disaster recovery and persistent volume backups.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">DevOps & Culture</div>
   <div class="trending-card__title"><a href="https://github.com/devtron-labs/devtron">Devtron</a></div>
   <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
@@ -233,7 +233,7 @@
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://github.com/vllm-project/vllm">vLLM on Kubernetes</a></div>
   <div class="trending-card__meta">2026-11-02 · 96.2k★</div>
-  <div class="trending-card__why">Standardizes high-throughput, memory-efficient LLM serving directly on Kubernetes clusters via PagedAttention.</div>
+  <div class="trending-card__why">Serves as the foundational standard for high-performance, memory-efficient LLM inference and serving on production Kubernetes clusters.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -275,7 +275,7 @@
   <div class="trending-card__category">Architecture & Microservices</div>
   <div class="trending-card__title"><a href="https://github.com/etcd-io/etcd">Etcd</a></div>
   <div class="trending-card__meta">2026-10-28 · 52.4k★</div>
-  <div class="trending-card__why">Serves as the foundational CNCF-graduated distributed key-value store underpinning Kubernetes cluster state and resilient cloud native architectures.</div>
+  <div class="trending-card__why">Serves as the foundational distributed key-value store and consensus engine powering Kubernetes state management and microservice discovery.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>

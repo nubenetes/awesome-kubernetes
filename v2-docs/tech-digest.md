@@ -158,16 +158,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-08-20 | [Awesome microservices](https://github.com/mfornos/awesome-microservices) | 🔴 critical | Provides an extensive, foundational catalog of microservices design patterns, distributed consensus engines, API gateways, and event-driven architectures. |
-    | 2026-10-28 | [Etcd](https://github.com/etcd-io/etcd) | 🔴 critical | Serves as the foundational CNCF-graduated distributed key-value store underpinning Kubernetes cluster state and resilient cloud native architectures. |
-    | 2026-10-23 | [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native) | 🟡 high | Maps the CNCF cloud native landscape systematically across service meshes, distributed storage, and foundational platform architectures. |
-    | 2026-10-15 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | 🟡 high | Offers an authoritative directory of modern software architecture patterns, distributed systems paradigms, and enterprise design styles. |
-    | 2026-11-02 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | 🟡 high | Enables architects to define and version cloud infrastructure and microservice topologies directly as executable Python code. |
-    | 2026-10-26 | [Awesome Compose 🌟](https://github.com/docker/awesome-compose) | 🟡 high | Curates official multi-container deployment patterns and service compositions essential for local microservice development and testing. |
-    | 2026-10-18 | [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture) | 🔵 medium | Provides validated enterprise reference architectures, landing zones, and cloud system designs for large-scale deployments. |
-    | 2026-09-30 | [How they SRE](https://github.com/upgundecha/howtheysre) | 🔵 medium | Documents real-world production reliability and distributed systems architecture practices from leading technology organizations. |
-    | 2026-11-01 | [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) | 🔵 medium | Compiles runtime components, base image standards, and security tooling essential for building containerized microservice architectures. |
-    | 2026-10-18 | [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) | 🔵 medium | Delivers production-ready patterns for observability, input validation, and clean architecture in serverless microservices. |
+    | 2026-10-28 | [Etcd](https://github.com/etcd-io/etcd) | 🔴 critical | Serves as the foundational distributed key-value store and consensus engine powering Kubernetes state management and microservice discovery. |
+    | 2026-08-20 | [Awesome microservices](https://github.com/mfornos/awesome-microservices) | 🔴 critical | A premier comprehensive directory covering distributed patterns, event-streaming buses, and API gateway architectures for microservices. |
+    | 2026-10-23 | [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native) | 🟡 high | Provides platform architects with a systematic catalog mapping CNCF service meshes, storage, and orchestration layers. |
+    | 2026-10-15 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | 🟡 high | Curates modern enterprise architectural paradigms, domain-driven design principles, and scalable distributed system blueprints. |
+    | 2026-11-02 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | 🟡 high | Standardizes the diagrams-as-code pattern, enabling engineers to programmatically define and maintain cloud architecture topologies. |
+    | 2026-09-30 | [How they SRE](https://github.com/upgundecha/howtheysre) | 🟡 high | Offers real-world architectural case studies and operational telemetry practices from leading tech organizations running at massive scale. |
+    | 2026-10-26 | [Awesome Compose 🌟](https://github.com/docker/awesome-compose) | 🔵 medium | Supplies standardized multi-container topology recipes essential for local microservice orchestration and component decoupling. |
+    | 2026-11-01 | [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker) | 🔵 medium | Foundational reference for the container runtimes, base images, and packaging standards that underpin microservice architectures. |
+    | 2026-10-18 | [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture) | 🔵 medium | Bridges high-level architectural standards with concrete enterprise landing zones and cloud native reference designs. |
+    | 2026-10-18 | [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) | 🔵 medium | Delivers production-tested architectural patterns for observability, input validation, and tracing in serverless microservices. |
 
 === "Last 6 Months"
 
@@ -254,46 +254,46 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | It establishes a production-grade, enterprise standard for running AI/ML workloads natively on Kubernetes using KServe, vLLM, and KubeRay. |
-    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Standardizes high-throughput, memory-efficient LLM serving directly on Kubernetes clusters via PagedAttention. |
-    | 2026-11-01 | [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt) | 🟡 high | Demonstrates practical SRE agentic automation by autonomously troubleshooting Kubernetes incidents, pod logs, and Prometheus alerts. |
-    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🟡 high | Unifies Microsoft's Semantic Kernel and AutoGen into an enterprise-ready runtime for building resilient multi-agent systems. |
-    | 2026-11-05 | [Strands Agents SDK](https://github.com/strands-agents/harness-sdk) | 🟡 high | Provides an AWS-backed, model-driven SDK with native Model Context Protocol support for lightweight production agent development. |
-    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Pioneers serverless edge agent hosting by combining distributed Durable Objects and per-agent persistent SQLite state. |
-    | 2026-11-05 | [Microsoft Azure Skills (MCP Server)](https://github.com/microsoft/azure-skills) | 🟡 high | Bridges agentic workflows with cloud operations by exposing over 200 Azure infrastructure management tools via the Model Context Protocol. |
-    | 2026-10-23 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 🔵 medium | Serves as the central ecosystem index for standardized Model Context Protocol tools connecting autonomous agents to external data and systems. |
-    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Delivers an end-to-end enterprise platform combining multi-provider model catalogs with production agent management and governance. |
-    | 2026-11-05 | [Google Cloud Vertex AI Platform](https://cloud.google.com/vertex-ai) | 🟡 high | Unifies enterprise foundation models, Ray distributed compute, and autonomous agent orchestration into a managed cloud platform. |
+    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | Delivers a fully supported, Kubernetes-native enterprise platform integrating vLLM, KServe, and Kueue for hybrid AI operations. |
+    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Serves as the foundational standard for high-performance, memory-efficient LLM inference and serving on production Kubernetes clusters. |
+    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Provides an enterprise-grade control plane combining multi-model catalogs with end-to-end tooling for deploying production AI agents. |
+    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🟡 high | Unifies Semantic Kernel and AutoGen into a single official enterprise SDK for multi-agent orchestration. |
+    | 2026-11-05 | [Google Cloud Vertex AI Platform](https://cloud.google.com/vertex-ai) | 🟡 high | Anchors Google Cloud's enterprise agent strategy by integrating Model Garden, Agent Builder, and distributed Ray runtimes. |
+    | 2026-11-05 | [Databricks Mosaic AI](https://www.databricks.com/product/machine-learning) | 🟡 high | Enables enterprise teams to build, evaluate, and govern compound AI agent systems deeply integrated with Unity Catalog data governance. |
+    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Introduces a distributed serverless runtime on Workers and Durable Objects for deploying persistent, stateful edge AI agents at global scale. |
+    | 2026-11-05 | [Strands Agents SDK](https://github.com/strands-agents/harness-sdk) | 🟡 high | Delivers an AWS-backed open-source framework tailored for building production-ready agents with native Model Context Protocol (MCP) integrations. |
+    | 2026-11-01 | [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt) | 🟡 high | Demonstrates the direct application of autonomous AI agents to Kubernetes operations by investigating Prometheus alerts and pod diagnostics in real time. |
+    | 2026-11-07 | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | 🔵 medium | Offers an essential architectural blueprint comparing managed cloud AI control planes against Kubernetes-native stacks for platform engineers. |
 
 === "Last 6 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | Provides a turnkey enterprise MLOps platform built natively on Kubernetes, integrating KServe, vLLM, and Ray for distributed AI workloads. |
-    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Standardizes high-throughput, memory-efficient LLM serving with PagedAttention across cloud-native containerized architectures. |
-    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🔴 critical | Represents a paradigm shift in autonomous agentic developer tooling operating directly within terminal and git execution environments. |
-    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🟡 high | Unifies Semantic Kernel and AutoGen into a definitive enterprise-ready runtime and SDK for building scalable multi-agent systems. |
-    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Pioneers serverless, stateful agent execution at the edge by leveraging Workers, Durable Objects, and localized persistence. |
-    | 2026-06-07 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers) | 🟡 high | Establishes reference implementations for the Model Context Protocol, accelerating standardized agent-to-infrastructure connectivity. |
-    | 2026-06-02 | [Announcing Claude Managed Agents on Cloudflare](https://blog.cloudflare.com/claude-managed-agents) | 🟡 high | Demonstrates the convergence of frontier models and secure sandboxed serverless environments for hosting autonomous agents at scale. |
-    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Acts as an enterprise control plane for deploying, evaluating, and governing compound multi-model agent applications in production. |
-    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Bridges local prototype agent development with enterprise deployment patterns targeting managed Kubernetes clusters like GKE. |
-    | 2026-11-05 | [Databricks Mosaic AI](https://www.databricks.com/product/machine-learning) | 🟡 high | Delivers an enterprise foundation for building and governing data-grounded compound AI architectures and autonomous agents. |
+    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | Red Hat OpenShift AI establishes the benchmark enterprise stack for orchestrating KServe, vLLM, and Ray workloads natively on Kubernetes. |
+    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Standardizes high-throughput PagedAttention LLM inference on Kubernetes, serving as the foundational deployment pattern for cloud-native AI workloads. |
+    | 2026-11-07 | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | 🔴 critical | Provides an essential architectural decision matrix evaluating hyperscaler AI control planes against Kubernetes-native AI operational platforms. |
+    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🟡 high | Unifies Semantic Kernel and AutoGen into an official multi-language enterprise runtime for orchestrating multi-agent systems. |
+    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Acts as Microsoft's flagship enterprise control plane for governing multi-provider model catalogs and autonomous agent lifecycles at scale. |
+    | 2026-11-05 | [Google Cloud Vertex AI Platform](https://cloud.google.com/vertex-ai) | 🟡 high | Delivers a fully managed enterprise foundation integrating Ray, foundational model garden services, and agent evaluation tools on Google Cloud. |
+    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Bridges local agentic prototyping with enterprise production deployments targeting secure Google Kubernetes Engine environments. |
+    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Pioneers serverless edge infrastructure for globally distributed, stateful AI agents using Durable Objects and persistent SQLite state. |
+    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Sets the industry standard for CLI-driven autonomous agentic software development and codebase lifecycle automation. |
+    | 2026-06-07 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers) | 🟡 high | Standardizes interoperable tool connectivity and context exchange for AI agents via production-grade Model Context Protocol implementations. |
 
 === "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Establishes the production standard for hosting high-throughput, memory-efficient LLM inference engines like vLLM natively on Kubernetes clusters. |
-    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | Delivers an enterprise-grade hybrid cloud AI platform natively orchestrated on Kubernetes via KServe, KubeRay, and Kueue. |
-    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🟡 high | Unifies Semantic Kernel and AutoGen into a standardized multi-language foundation for enterprise multi-agent architectures. |
-    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Sets a new benchmark for autonomous agentic software engineering directly inside terminal environments and CI/CD pipelines. |
-    | 2026-06-07 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers) | 🟡 high | Codifies the open Model Context Protocol (MCP) standard for connecting AI agents to enterprise tools and external data sources. |
-    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Introduces a distributed serverless edge runtime combining Durable Objects and persistent state for scalable autonomous agents. |
-    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Provides an end-to-end framework enabling developers to graduate stateful AI agents from local workstations directly to production Google Kubernetes Engine clusters. |
-    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Consolidates multi-model catalogs, agent runtime scaffolding, and enterprise evaluation pipelines into a single managed cloud platform. |
-    | 2026-11-05 | [Google Cloud Vertex AI Platform](https://cloud.google.com/vertex-ai) | 🟡 high | Integrates distributed Ray orchestration, Vertex AI Agent Builder, and enterprise model governance into a unified hyperscaler AI platform. |
-    | 2026-11-05 | [Strands Agents SDK](https://github.com/strands-agents/harness-sdk) | 🟡 high | Provides AWS's official open-source harness SDK optimized for building production-ready AI agents with native Model Context Protocol support. |
+    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | It serves as the flagship Kubernetes-native enterprise platform integrating vLLM, KServe, KubeRay, and Kueue for production AI workloads. |
+    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Standardizes high-throughput, memory-efficient LLM inference serving on cloud native Kubernetes infrastructure using PagedAttention. |
+    | 2026-06-07 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers) | 🔴 critical | Establishes the industry standard for Model Context Protocol (MCP) server implementations, enabling interoperable tool execution across AI agents. |
+    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🔴 critical | Unifies Semantic Kernel and AutoGen into a single enterprise-ready framework for multi-agent orchestration and development. |
+    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Provides a comprehensive enterprise control plane and agent factory unifying curated multi-provider foundation models with governance. |
+    | 2026-11-05 | [Google Cloud Vertex AI Platform](https://cloud.google.com/vertex-ai) | 🟡 high | Delivers enterprise-scale agent building, evaluation, and distributed Ray execution natively integrated into Google Cloud. |
+    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Introduces an end-to-end SDK and platform for building stateful AI agents with seamless pathing to production GKE clusters. |
+    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Redefines autonomous software engineering by executing complex codebase modifications, testing, and git operations via CLI agents. |
+    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Pioneers serverless, globally distributed stateful agent architectures combining edge workers with persistent Durable Object state. |
+    | 2026-11-07 | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | 🟡 high | Delivers a critical architectural analysis comparing managed cloud AI control planes against self-hosted Kubernetes platforms. |
 
 
 ## MLOps & Data Science

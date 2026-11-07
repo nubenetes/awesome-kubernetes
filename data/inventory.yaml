@@ -713728,13 +713728,9 @@ https://www.youtube.com/shorts/uW_1qkhghgc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + MLOps
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -713752,6 +713748,11 @@ https://www.youtube.com/shorts/uW_1qkhghgc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/t1ANWLvtsi8:
   title: How InstructLab Teaches AI New Skills | Synthetic Data Model Alignment
@@ -713808,13 +713809,9 @@ https://www.youtube.com/shorts/t1ANWLvtsi8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -713832,6 +713829,11 @@ https://www.youtube.com/shorts/t1ANWLvtsi8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/EjkL9runM-o:
   title: How llm d Splits AI Compute | Disaggregated Inference on Kubernetes
@@ -713886,13 +713888,9 @@ https://www.youtube.com/shorts/EjkL9runM-o:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps with AI
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -713910,6 +713908,11 @@ https://www.youtube.com/shorts/EjkL9runM-o:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/RHHQJUp21Xk:
   title: How Kueue Schedules Kubernetes AI Workloads | Fair-Share GPU Queuing
@@ -713965,13 +713968,9 @@ https://www.youtube.com/shorts/RHHQJUp21Xk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps with AI
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -713989,6 +713988,11 @@ https://www.youtube.com/shorts/RHHQJUp21Xk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/_EIKE8OLMs8:
   title: Enterprise AI Platforms Architecture Unpacked | Identity, Security & FinOps
@@ -714042,13 +714046,9 @@ https://www.youtube.com/shorts/_EIKE8OLMs8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714066,6 +714066,11 @@ https://www.youtube.com/shorts/_EIKE8OLMs8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/_RMJLGU2roo:
   title: The End of DIY Enterprise AI | The 2026 Agentic Control Plane Playbook
@@ -714120,13 +714125,9 @@ https://www.youtube.com/shorts/_RMJLGU2roo:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714144,6 +714145,11 @@ https://www.youtube.com/shorts/_RMJLGU2roo:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/PPpSLpXL1HA:
   title: How AI Agents Use Company Tools | Model Context Protocol (MCP) Gateways
@@ -714199,13 +714205,9 @@ https://www.youtube.com/shorts/PPpSLpXL1HA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: AI Agents + MCP
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714223,6 +714225,11 @@ https://www.youtube.com/shorts/PPpSLpXL1HA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AI Agents + MCP
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/elweRHyvWPc:
   title: Why Managed AI Platforms Are Replacing Kubernetes | 2026 Enterprise Shift
@@ -714278,13 +714285,9 @@ https://www.youtube.com/shorts/elweRHyvWPc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714302,6 +714305,11 @@ https://www.youtube.com/shorts/elweRHyvWPc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/eyGnHQSPX4w:
   title: How Turnkey Platforms Tame Kubernetes AI | OpenShift AI & watsonx
@@ -714358,13 +714366,9 @@ https://www.youtube.com/shorts/eyGnHQSPX4w:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + MLOps
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714382,6 +714386,11 @@ https://www.youtube.com/shorts/eyGnHQSPX4w:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/mnkSjYsyfrg:
   title: How the Enterprise AI Decision Matrix Works | Cloud AI vs Kubernetes
@@ -714436,13 +714445,9 @@ https://www.youtube.com/shorts/mnkSjYsyfrg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + MLOps with AI
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714460,6 +714465,11 @@ https://www.youtube.com/shorts/mnkSjYsyfrg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps with AI
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=TFK1tQ0bWnE:
   title: 'AI Control Planes vs Kubernetes: 2026 Hybrid Reference Architecture'
@@ -714550,13 +714560,9 @@ https://www.youtube.com/watch?v=TFK1tQ0bWnE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714574,6 +714580,11 @@ https://www.youtube.com/watch?v=TFK1tQ0bWnE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=sfK3eKrKqOI:
   title: '2026 AI Architecture Shift: Zero-Trust Agent IAM & Enterprise Governance'
@@ -714658,13 +714669,9 @@ https://www.youtube.com/watch?v=sfK3eKrKqOI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714682,6 +714689,11 @@ https://www.youtube.com/watch?v=sfK3eKrKqOI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=Zhn0M9rlw_k:
   title: '2026 AI Architecture Shift: Lakehouse AI & Serverless Edge Agents'
@@ -714768,13 +714780,9 @@ https://www.youtube.com/watch?v=Zhn0M9rlw_k:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714792,6 +714800,11 @@ https://www.youtube.com/watch?v=Zhn0M9rlw_k:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=TUyX5PzEPGA:
   title: 'The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving'
@@ -714876,13 +714889,9 @@ https://www.youtube.com/watch?v=TUyX5PzEPGA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps with AI
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -714900,6 +714909,11 @@ https://www.youtube.com/watch?v=TUyX5PzEPGA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=YbQP5WRSn_o:
   title: 'Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration'
@@ -714987,13 +715001,9 @@ https://www.youtube.com/watch?v=YbQP5WRSn_o:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + Kubernetes
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794060768
   needs_ai_refresh: false
@@ -715011,4 +715021,9 @@ https://www.youtube.com/watch?v=YbQP5WRSn_o:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + Kubernetes
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
