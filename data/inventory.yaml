@@ -713620,3 +713620,56 @@ https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed:
   - enterprise-ai-platforms.md
   - openshift.md
   youtube_mosaic: {}
+https://www.youtube.com/playlist?list=PLBZl7QsgYjrw:
+  title: 'Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes
+    (Playlist)'
+  description: 'Architectural reference comparison matrix and production engineering
+    deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI
+    Foundry, Amazon Bedrock AgentCore, Google Cloud Vertex AI) versus Hybrid and Turnkey
+    Kubernetes (Red Hat OpenShift AI, IBM watsonx, llm-d, vLLM, KServe, Kueue, KAITO),
+    zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture.'
+  year: '2026'
+  stars: 5
+  ai_summary: 'Architectural reference comparison matrix and production engineering
+    deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI
+    Foundry, Amazon Bedrock AgentCore, Google Cloud Vertex AI) versus Hybrid and Turnkey
+    Kubernetes (Red Hat OpenShift AI, IBM watsonx, llm-d, vLLM, KServe, Kueue, KAITO),
+    zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture.'
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793646500
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T14:00:00.000000+01:00'
+  last_ai_eval: '2026-11-07T14:00:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - AI and Future Operations
+  - Enterprise AI Platforms
+  - Cloud AI Control Planes vs Kubernetes
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai.md
+  v2_locations:
+  - enterprise-ai-platforms.md
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 1
+  technology: Enterprise AI Platforms
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel

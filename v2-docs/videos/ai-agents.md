@@ -5,6 +5,18 @@
 
 Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
+## Enterprise AI Platforms
+
+??? note "🎬 Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)"
+    !!! info "Architectural Summary"
+        Architectural reference comparison matrix and production engineering deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI Foundry, Amazon Bedrock AgentCore, Google Cloud Vertex AI) versus Hybrid and Turnkey Kubernetes (Red Hat OpenShift AI, IBM watsonx, llm-d, vLLM, KServe, Kueue, KAITO), zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLBZl7QsgYjrw" title="Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Red Hat OpenShift
 
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019"
