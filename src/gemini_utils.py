@@ -148,11 +148,12 @@ async def discover_optimal_models():
     if not all_supported:
         log_event("  [!] Discovery failed. Falling back to safe defaults.")
         DISCOVERED_MODELS = [
+            "gemini-2.5-flash",
+            "gemini-2.5-flash-lite",
+            "gemini-3.6-flash",
+            "gemini-3.7-flash",
             "gemini-3.8-flash",
             "gemini-3.1-pro-preview",
-            "gemini-1.5-flash-latest",
-            "gemini-1.5-flash",
-            "gemini-1.5-pro",
         ]
         return DISCOVERED_MODELS
 
@@ -612,7 +613,7 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                 CURRENT_KEY_INDEX = current_idx
                                 if 'candidates' in resp_json and resp_json['candidates']:
                                     parts = resp_json['candidates'][0].get('content', {}).get('parts', [])
-                                    text_resp = "".join(p.get('text', '') for p in parts if isinstance(p, dict) and 'text' in p)
+                                    text_resp = "".join(p.get('text', '') for p in parts if isinstance(p, dict) and 'text' in p and not p.get('thought', False))
                                     if response_format == "json":
                                         match = re.search(r'\{.*\}|\[.*\]', text_resp, re.DOTALL)
                                         if match:
@@ -628,10 +629,12 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                             continue 
                                             
                                         diagnostics.add_attempt(model, 200, "JSON not found")
-                                        break 
+                                        THROTTLED_MODELS[f"{current_idx}_{model}"] = time.time() + 60
+                                        continue 
                                     return text_resp
                                 diagnostics.add_attempt(model, 200, "No candidates")
-                                break 
+                                THROTTLED_MODELS[f"{current_idx}_{model}"] = time.time() + 60
+                                continue 
                                 
                             elif response.status_code == 429:
                                 consecutive_429s += 1

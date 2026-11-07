@@ -242,8 +242,14 @@ async def enrich_video_entry(url: str, entry: dict):
         entry["category"] = data.get("category") or entry.get("category", "Architecture and Cloud Strategy")
         entry["is_enriched"] = True
         log_event(f"    [OK] {url} enriched successfully.")
-    except Exception as e:
-        log_event(f"    [ERROR] Failed to parse AI response for {url}: {e}")
+    except (Exception, SystemExit) as e:
+        log_event(f"    [WARN] AI enrichment failed for {url} ({e}). Falling back to YouTube metadata.")
+        fallback_title = (meta.get("raw_title") if meta else "") or entry.get("title", "YouTube Video")
+        fallback_desc = (meta.get("raw_description") if meta else "") or entry.get("description", "")
+        entry["title"] = fallback_title.lstrip("⭐ ").strip()
+        if fallback_desc:
+            entry["ai_summary"] = fallback_desc.split("[id:nubenetes-playlist-manager]")[0].split("🤖 Curated automatically")[0].strip()
+        entry["is_enriched"] = True
     
     return entry
 
