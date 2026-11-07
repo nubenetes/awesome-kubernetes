@@ -295,6 +295,7 @@ def generate_v2_videos():
         "",
         "| Dimension | Curated Playlist | Focus Area |",
         "| :--- | :--- | :--- |",
+        "| **Enterprise AI Platforms** | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | Architectural reference comparison matrix and production engineering deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI Foundry, Bedrock AgentCore, Vertex AI) vs Turnkey Kubernetes (Red Hat OpenShift AI, watsonx, llm-d, vLLM, Kueue, KAITO), zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture. |",
         "| **IaC and Terraform** | [Nubenetes Azure Verified Modules (AVM) Terraform Labs](https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM) | Hands-on Terraform AVM implementation labs: VS Code/Azure CLI toolchain, Log Analytics sinks, Key Vault secrets, Storage CMK encryption, Private Endpoints, Azure Bastion zero-public-IP access, and Managed Identity RBAC. |",
         "| **Cloud Architecture** | [Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) | Enterprise CAF reference architecture: retiring the legacy CAF monolith in favor of AVM and ALZ Library (2026.10.0), Management Groups, Hub-Spoke vs. Virtual WAN, Private Endpoints, and zero-secret OIDC CI/CD. |",
         "| **FinOps and Cloud Cost** | [Nubenetes Azure Hybrid IaaS FinOps Framework](https://www.youtube.com/playlist?list=PLaNxiRbEBYJ8) | Mathematical break-even decision models and continuous automation for Azure IaaS: Azure Hybrid Benefit (AHUB), Constrained vCPUs, Premium SSD v2 decoupling, and AMA/DCR edge log filtering. |",
@@ -328,7 +329,7 @@ def generate_v2_videos():
 
     # Dynamically append any newly discovered @nubenetes playlists from inventory
     known_playlist_ids = {
-        "PLNKD2Ya-t0zM", "PLCgDGrDt3kNU", "PLaNxiRbEBYJ8", "PLZ-bpd1sEISs",
+        "PLBZl7QsgYjrw", "PLNKD2Ya-t0zM", "PLCgDGrDt3kNU", "PLaNxiRbEBYJ8", "PLZ-bpd1sEISs",
         "PLc2WtEw1pojo", "PLcCUAwooFb6s", "PLUt4PJvFTysY", "PLDbL5Dh24a5g",
         "PLOb7y_S6Kcd8", "PLWGYAgXdQh44", "PLI0K_-6LrXgM", "PLRTV86SuuRbk",
         "PLZhOsH66dFmw", "PLYmAuttxFYjA", "PLIDgJtbMXQ6s", "PLBUzSeBwfM7M",

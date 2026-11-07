@@ -73,7 +73,15 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           FORCE_ENRICH: ${{ github.event.inputs.force_enrich || 'false' }}
         run: |
+          set +e
           python src/enrich_videos.py
+          EXIT_CODE=$?
+          set -e
+          if [ $EXIT_CODE -eq 42 ]; then
+            echo "⚠️ Video enrichment circuit breaker tripped (Exit 42). Continuing to portal generator with fallback metadata."
+          elif [ $EXIT_CODE -ne 0 ]; then
+            exit $EXIT_CODE
+          fi
 
       - name: Execute Video Portal Generator
         run: |

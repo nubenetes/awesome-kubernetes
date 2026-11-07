@@ -191,7 +191,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "It establishes a production-grade, enterprise standard for running AI/ML workloads natively on Kubernetes using KServe, vLLM, and KubeRay.",
+        "why": "Delivers a fully supported, Kubernetes-native enterprise platform integrating vLLM, KServe, and Kueue for hybrid AI operations.",
         "category": "AI & Agents"
       },
       {
@@ -200,61 +200,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Standardizes high-throughput, memory-efficient LLM serving directly on Kubernetes clusters via PagedAttention.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/HolmesGPT/holmesgpt",
-        "title": "HolmesGPT (Robusta)",
-        "date": "2026-11-01",
-        "stars": 2,
-        "impact": "high",
-        "why": "Demonstrates practical SRE agentic automation by autonomously troubleshooting Kubernetes incidents, pod logs, and Prometheus alerts.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/microsoft/agent-framework",
-        "title": "Microsoft Agent Framework",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Unifies Microsoft's Semantic Kernel and AutoGen into an enterprise-ready runtime for building resilient multi-agent systems.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/strands-agents/harness-sdk",
-        "title": "Strands Agents SDK",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides an AWS-backed, model-driven SDK with native Model Context Protocol support for lightweight production agent development.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://developers.cloudflare.com/agents",
-        "title": "Cloudflare Agents Platform",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Pioneers serverless edge agent hosting by combining distributed Durable Objects and per-agent persistent SQLite state.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/microsoft/azure-skills",
-        "title": "Microsoft Azure Skills (MCP Server)",
-        "date": "2026-11-05",
-        "stars": 4,
-        "impact": "high",
-        "why": "Bridges agentic workflows with cloud operations by exposing over 200 Azure infrastructure management tools via the Model Context Protocol.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/punkpeye/awesome-mcp-servers",
-        "title": "Awesome MCP Servers",
-        "date": "2026-10-23",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Serves as the central ecosystem index for standardized Model Context Protocol tools connecting autonomous agents to external data and systems.",
+        "why": "Serves as the foundational standard for high-performance, memory-efficient LLM inference and serving on production Kubernetes clusters.",
         "category": "AI & Agents"
       },
       {
@@ -263,7 +209,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers an end-to-end enterprise platform combining multi-provider model catalogs with production agent management and governance.",
+        "why": "Provides an enterprise-grade control plane combining multi-model catalogs with end-to-end tooling for deploying production AI agents.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/microsoft/agent-framework",
+        "title": "Microsoft Agent Framework",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Unifies Semantic Kernel and AutoGen into a single official enterprise SDK for multi-agent orchestration.",
         "category": "AI & Agents"
       },
       {
@@ -272,7 +227,52 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies enterprise foundation models, Ray distributed compute, and autonomous agent orchestration into a managed cloud platform.",
+        "why": "Anchors Google Cloud's enterprise agent strategy by integrating Model Garden, Agent Builder, and distributed Ray runtimes.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://www.databricks.com/product/machine-learning",
+        "title": "Databricks Mosaic AI",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Enables enterprise teams to build, evaluate, and govern compound AI agent systems deeply integrated with Unity Catalog data governance.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://developers.cloudflare.com/agents",
+        "title": "Cloudflare Agents Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Introduces a distributed serverless runtime on Workers and Durable Objects for deploying persistent, stateful edge AI agents at global scale.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/strands-agents/harness-sdk",
+        "title": "Strands Agents SDK",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an AWS-backed open-source framework tailored for building production-ready agents with native Model Context Protocol (MCP) integrations.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/HolmesGPT/holmesgpt",
+        "title": "HolmesGPT (Robusta)",
+        "date": "2026-11-01",
+        "stars": 2,
+        "impact": "high",
+        "why": "Demonstrates the direct application of autonomous AI agents to Kubernetes operations by investigating Prometheus alerts and pod diagnostics in real time.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLBZl7QsgYjrw",
+        "title": "Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)",
+        "date": "2026-11-07",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Offers an essential architectural blueprint comparing managed cloud AI control planes against Kubernetes-native stacks for platform engineers.",
         "category": "AI & Agents"
       }
     ],
@@ -370,21 +370,21 @@
     ],
     "Architecture & Microservices": [
       {
-        "url": "https://github.com/mfornos/awesome-microservices",
-        "title": "Awesome microservices",
-        "date": "2026-08-20",
-        "stars": 4,
-        "impact": "critical",
-        "why": "Provides an extensive, foundational catalog of microservices design patterns, distributed consensus engines, API gateways, and event-driven architectures.",
-        "category": "Architecture & Microservices"
-      },
-      {
         "url": "https://github.com/etcd-io/etcd",
         "title": "Etcd",
         "date": "2026-10-28",
         "stars": 0,
         "impact": "critical",
-        "why": "Serves as the foundational CNCF-graduated distributed key-value store underpinning Kubernetes cluster state and resilient cloud native architectures.",
+        "why": "Serves as the foundational distributed key-value store and consensus engine powering Kubernetes state management and microservice discovery.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/mfornos/awesome-microservices",
+        "title": "Awesome microservices",
+        "date": "2026-08-20",
+        "stars": 4,
+        "impact": "critical",
+        "why": "A premier comprehensive directory covering distributed patterns, event-streaming buses, and API gateway architectures for microservices.",
         "category": "Architecture & Microservices"
       },
       {
@@ -393,7 +393,7 @@
         "date": "2026-10-23",
         "stars": 5,
         "impact": "high",
-        "why": "Maps the CNCF cloud native landscape systematically across service meshes, distributed storage, and foundational platform architectures.",
+        "why": "Provides platform architects with a systematic catalog mapping CNCF service meshes, storage, and orchestration layers.",
         "category": "Architecture & Microservices"
       },
       {
@@ -402,7 +402,7 @@
         "date": "2026-10-15",
         "stars": 0,
         "impact": "high",
-        "why": "Offers an authoritative directory of modern software architecture patterns, distributed systems paradigms, and enterprise design styles.",
+        "why": "Curates modern enterprise architectural paradigms, domain-driven design principles, and scalable distributed system blueprints.",
         "category": "Architecture & Microservices"
       },
       {
@@ -411,25 +411,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Enables architects to define and version cloud infrastructure and microservice topologies directly as executable Python code.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/docker/awesome-compose",
-        "title": "Awesome Compose 🌟",
-        "date": "2026-10-26",
-        "stars": 5,
-        "impact": "high",
-        "why": "Curates official multi-container deployment patterns and service compositions essential for local microservice development and testing.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/lukemurraynz/awesome-azure-architecture",
-        "title": "github.com/lukemurraynz/awesome-azure-architecture 🌟",
-        "date": "2026-10-18",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Provides validated enterprise reference architectures, landing zones, and cloud system designs for large-scale deployments.",
+        "why": "Standardizes the diagrams-as-code pattern, enabling engineers to programmatically define and maintain cloud architecture topologies.",
         "category": "Architecture & Microservices"
       },
       {
@@ -437,8 +419,17 @@
         "title": "How they SRE",
         "date": "2026-09-30",
         "stars": 3,
+        "impact": "high",
+        "why": "Offers real-world architectural case studies and operational telemetry practices from leading tech organizations running at massive scale.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/docker/awesome-compose",
+        "title": "Awesome Compose 🌟",
+        "date": "2026-10-26",
+        "stars": 5,
         "impact": "medium",
-        "why": "Documents real-world production reliability and distributed systems architecture practices from leading technology organizations.",
+        "why": "Supplies standardized multi-container topology recipes essential for local microservice orchestration and component decoupling.",
         "category": "Architecture & Microservices"
       },
       {
@@ -447,7 +438,16 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "medium",
-        "why": "Compiles runtime components, base image standards, and security tooling essential for building containerized microservice architectures.",
+        "why": "Foundational reference for the container runtimes, base images, and packaging standards that underpin microservice architectures.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/lukemurraynz/awesome-azure-architecture",
+        "title": "github.com/lukemurraynz/awesome-azure-architecture 🌟",
+        "date": "2026-10-18",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Bridges high-level architectural standards with concrete enterprise landing zones and cloud native reference designs.",
         "category": "Architecture & Microservices"
       },
       {
@@ -456,7 +456,7 @@
         "date": "2026-10-18",
         "stars": 2,
         "impact": "medium",
-        "why": "Delivers production-ready patterns for observability, input validation, and clean architecture in serverless microservices.",
+        "why": "Delivers production-tested architectural patterns for observability, input validation, and tracing in serverless microservices.",
         "category": "Architecture & Microservices"
       }
     ],
@@ -1868,12 +1868,12 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/playlist?list=PLB-3xSV3dAoU",
-        "title": "Nubenetes Cloud Native Podcasts (Español Playlist) [SPANISH CONTENT]",
+        "url": "https://www.youtube.com/playlist?list=PLc2WtEw1pojo",
+        "title": "Nubenetes Azure Storage WORM and ERP Compliance (Spain Central) (Playlist)",
         "date": "2026-11-02",
         "stars": 5,
-        "impact": "critical",
-        "why": "Provides localized Spanish-language architectural guidance covering enterprise cloud native design, Azure Landing Zones, and eBPF observability directly tailored for Spanish-speaking engineering teams",
+        "impact": "high",
+        "why": "Addresses strict European compliance and ERP immutable WORM storage requirements natively deployed in the Microsoft Azure Spain Central region.",
         "category": "Spain"
       },
       {
@@ -1882,7 +1882,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Delivers a major architectural paradigm shift by demonstrating sidecarless Istio Ambient Mesh and Kubernetes Gateway API implementations on enterprise Red Hat OpenShift clusters.",
+        "why": "Provides an architectural blueprint for sidecarless Istio Ambient Mesh and Gateway API adoption to dramatically reduce networking overhead in cloud-native platforms.",
         "category": "Spain"
       },
       {
@@ -1891,16 +1891,34 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Pioneers zero-code kernel-level instrumentation using eBPF and OpenTelemetry to establish modern multi-cloud observability and trace-log correlation.",
+        "why": "Demonstrates zero-code multi-cloud Kubernetes telemetry using OpenTelemetry eBPF Instrumentation (OBI) to eliminate conventional agent and sidecar monitoring friction.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLR6nHneHUvqU",
-        "title": "From Cloud Native to AI Native: Why Kubernetes Is the Foundation for Next-Gen AI Agents",
+        "url": "https://www.youtube.com/shorts/RHHQJUp21Xk",
+        "title": "How Kueue Schedules Kubernetes AI Workloads | Fair-Share GPU Queuing",
+        "date": "2026-11-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Highlights Kueue as the standard cloud-native job queue controller for fair-share GPU orchestration across multi-tenant enterprise AI workloads on Kubernetes.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
+        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
+        "date": "2026-11-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Explores disaggregated inference architectures on Kubernetes by decoupling compute-bound prefill from memory-bound decode stages to maximize GPU utilization.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLI0K_-6LrXgM",
+        "title": "Nubenetes Service Mesh vs. Kernel eBPF (OBI) (Playlist)",
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Defines the architectural transition from cloud-native to AI-native paradigms by positioning Kubernetes as the essential orchestration foundation for production AI agents.",
+        "why": "Clarifies the architectural boundaries and production synergies between kernel-level eBPF instrumentation and application-layer service meshes like Istio.",
         "category": "Spain"
       },
       {
@@ -1909,16 +1927,16 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Enables enterprise-grade GitOps operations and multi-cluster continuous delivery with automated drift reconciliation using ArgoCD.",
+        "why": "Covers scalable declarative GitOps deployments using ArgoCD ApplicationSets, sync waves, and progressive delivery across multi-cluster environments.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=IcH7LalL5cc",
-        "title": "Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC",
-        "date": "2026-11-02",
+        "url": "https://www.youtube.com/watch?v=TUyX5PzEPGA",
+        "title": "The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving",
+        "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Eliminates static credential risk in cloud deployment pipelines by implementing zero-secret Terraform CI/CD workflows powered by OIDC federation.",
+        "why": "Analyzes the strategic enterprise trade-offs between hyperscaler managed AI platforms and running cost-effective disaggregated LLM serving on Kubernetes.",
         "category": "Spain"
       },
       {
@@ -1926,35 +1944,17 @@
         "title": "Retiring the CAF Monolith: Azure Verified Modules (AVM) and ALZ Library 2026",
         "date": "2026-11-02",
         "stars": 5,
-        "impact": "high",
-        "why": "Guides platform teams through retiring legacy monolithic landing zone modules in favor of modular, decoupled Azure Verified Modules.",
+        "impact": "medium",
+        "why": "Details the critical enterprise migration path from legacy monolithic CAF templates toward modular Azure Verified Modules and modernized landing zones.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
-        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
-        "date": "2026-11-02",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides a comprehensive architectural blueprint for modern enterprise cloud governance using 2026 Azure Landing Zones and standardized module hierarchies.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLaNxiRbEBYJ8",
-        "title": "Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)",
+        "url": "https://www.youtube.com/watch?v=IcH7LalL5cc",
+        "title": "Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC",
         "date": "2026-11-02",
         "stars": 5,
         "impact": "medium",
-        "why": "Establishes a practical FinOps framework for cloud cost optimization through empirical P95/P99 compute rightsizing and storage decoupling.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=N6PMQzmBwwE",
-        "title": "Azure Landing Zones Testing Strategies: Canary, Sandboxes and Non-Prod",
-        "date": "2026-11-02",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Outlines robust testing and canary policy rollout strategies to ensure continuous validation across enterprise Infrastructure as Code environments.",
+        "why": "Establishes production standards for zero-secret infrastructure pipelines using GitHub Actions and OpenID Connect workload identity federation.",
         "category": "Spain"
       }
     ]
@@ -2611,7 +2611,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides a turnkey enterprise MLOps platform built natively on Kubernetes, integrating KServe, vLLM, and Ray for distributed AI workloads.",
+        "why": "Red Hat OpenShift AI establishes the benchmark enterprise stack for orchestrating KServe, vLLM, and Ray workloads natively on Kubernetes.",
         "category": "AI & Agents"
       },
       {
@@ -2620,16 +2620,16 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Standardizes high-throughput, memory-efficient LLM serving with PagedAttention across cloud-native containerized architectures.",
+        "why": "Standardizes high-throughput PagedAttention LLM inference on Kubernetes, serving as the foundational deployment pattern for cloud-native AI workloads.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
-        "title": "docs.anthropic.com: Claude Code CLI",
-        "date": "2026-06-18",
+        "url": "https://www.youtube.com/playlist?list=PLBZl7QsgYjrw",
+        "title": "Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)",
+        "date": "2026-11-07",
         "stars": 5,
         "impact": "critical",
-        "why": "Represents a paradigm shift in autonomous agentic developer tooling operating directly within terminal and git execution environments.",
+        "why": "Provides an essential architectural decision matrix evaluating hyperscaler AI control planes against Kubernetes-native AI operational platforms.",
         "category": "AI & Agents"
       },
       {
@@ -2638,34 +2638,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies Semantic Kernel and AutoGen into a definitive enterprise-ready runtime and SDK for building scalable multi-agent systems.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://developers.cloudflare.com/agents",
-        "title": "Cloudflare Agents Platform",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Pioneers serverless, stateful agent execution at the edge by leveraging Workers, Durable Objects, and localized persistence.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "title": "GitHub MCP Server",
-        "date": "2026-06-07",
-        "stars": 5,
-        "impact": "high",
-        "why": "Establishes reference implementations for the Model Context Protocol, accelerating standardized agent-to-infrastructure connectivity.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://blog.cloudflare.com/claude-managed-agents",
-        "title": "Announcing Claude Managed Agents on Cloudflare",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "Demonstrates the convergence of frontier models and secure sandboxed serverless environments for hosting autonomous agents at scale.",
+        "why": "Unifies Semantic Kernel and AutoGen into an official multi-language enterprise runtime for orchestrating multi-agent systems.",
         "category": "AI & Agents"
       },
       {
@@ -2674,7 +2647,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Acts as an enterprise control plane for deploying, evaluating, and governing compound multi-model agent applications in production.",
+        "why": "Acts as Microsoft's flagship enterprise control plane for governing multi-provider model catalogs and autonomous agent lifecycles at scale.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://cloud.google.com/vertex-ai",
+        "title": "Google Cloud Vertex AI Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers a fully managed enterprise foundation integrating Ray, foundational model garden services, and agent evaluation tools on Google Cloud.",
         "category": "AI & Agents"
       },
       {
@@ -2683,16 +2665,34 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Bridges local prototype agent development with enterprise deployment patterns targeting managed Kubernetes clusters like GKE.",
+        "why": "Bridges local agentic prototyping with enterprise production deployments targeting secure Google Kubernetes Engine environments.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://www.databricks.com/product/machine-learning",
-        "title": "Databricks Mosaic AI",
+        "url": "https://developers.cloudflare.com/agents",
+        "title": "Cloudflare Agents Platform",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers an enterprise foundation for building and governing data-grounded compound AI architectures and autonomous agents.",
+        "why": "Pioneers serverless edge infrastructure for globally distributed, stateful AI agents using Durable Objects and persistent SQLite state.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+        "title": "docs.anthropic.com: Claude Code CLI",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "Sets the industry standard for CLI-driven autonomous agentic software development and codebase lifecycle automation.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "title": "GitHub MCP Server",
+        "date": "2026-06-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Standardizes interoperable tool connectivity and context exchange for AI agents via production-grade Model Context Protocol implementations.",
         "category": "AI & Agents"
       }
     ],
@@ -3894,93 +3894,93 @@
     ],
     "Spain": [
       {
-        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
-        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
-        "date": "2026-05-17",
-        "stars": 0,
+        "url": "https://www.youtube.com/playlist?list=PLc2WtEw1pojo",
+        "title": "Nubenetes Azure Storage WORM and ERP Compliance (Spain Central) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
         "impact": "critical",
-        "why": "The launch of the AWS Spain cloud region directly enhances infrastructure latency, data sovereignty, and cloud-native adoption for enterprise workloads in Spain.",
+        "why": "Provides concrete enterprise reference architecture and compliance automation tailored specifically for the Azure Spain Central (Madrid) cloud region.",
         "category": "Spain"
       },
       {
-        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
-        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
-        "date": "2026-06-01",
-        "stars": 0,
+        "url": "https://www.youtube.com/playlist?list=PLWGYAgXdQh44",
+        "title": "Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Captures the architectural paradigm shift toward sidecarless Istio Ambient Mesh and Gateway API for lower-overhead zero-trust Kubernetes networking.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLRTV86SuuRbk",
+        "title": "Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
         "impact": "high",
-        "why": "Examines critical resilience and high-availability operational lessons from major hyperscaler infrastructure outages impacting local ecosystems.",
+        "why": "Demonstrates the cutting-edge shift toward zero-code multi-cloud Kubernetes telemetry using OpenTelemetry eBPF instrumentation.",
         "category": "Spain"
       },
       {
-        "url": "https://systemadmin.es",
-        "title": "systemadmin.es",
-        "date": "2026-06-01",
-        "stars": 3,
+        "url": "https://www.youtube.com/shorts/RHHQJUp21Xk",
+        "title": "How Kueue Schedules Kubernetes AI Workloads | Fair-Share GPU Queuing",
+        "date": "2026-11-07",
+        "stars": 5,
         "impact": "high",
-        "why": "Provides practical technical guidance on Linux kernel performance tuning and system administration essential for underlying cloud infrastructure.",
+        "why": "Explains how CNCF Kueue solves critical enterprise GPU scarcity through fair-share cohort queuing on Kubernetes.",
         "category": "Spain"
       },
       {
-        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
-        "title": "computing.es: Retos del outsourcing de servicios IT en España",
-        "date": "2026-06-14",
-        "stars": 3,
+        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
+        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
+        "date": "2026-11-07",
+        "stars": 5,
         "impact": "high",
-        "why": "Addresses operational friction and organizational scaling challenges when outsourcing DevSecOps capabilities within Spanish IT enterprises.",
+        "why": "Addresses next-generation AI serving efficiency by decoupling prefill compute from decode memory bandwidth across distributed Kubernetes nodes.",
         "category": "Spain"
       },
       {
-        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
-        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
-        "date": "2026-06-18",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Provides crucial enterprise strategic perspective on iteratively adopting and operationalizing AI without destabilizing existing platforms.",
+        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
+        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Defines modern modular enterprise cloud foundation patterns, replacing monolithic CAF modules with composable Azure Verified Modules.",
         "category": "Spain"
       },
       {
-        "url": "https://apimarket.cecabank.es",
-        "title": "Cecabank API Market",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Demonstrates enterprise-grade API marketplace implementation and PSD2 financial compliance architectures in the Spanish banking sector.",
+        "url": "https://www.youtube.com/watch?v=IcH7LalL5cc",
+        "title": "Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Enforces modern enterprise DevSecOps by eliminating static cloud credentials in CI/CD through OIDC Workload Identity Federation.",
         "category": "Spain"
       },
       {
-        "url": "https://api-market.santalucia.es",
-        "title": "santalucia.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Showcases production API marketplace patterns for B2B enterprise service integration in the insurance domain.",
+        "url": "https://www.youtube.com/playlist?list=PLYbmzkhLGOtI",
+        "title": "Nubenetes ArgoCD and GitOps Automation (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Covers essential production-grade GitOps patterns including ApplicationSets and sync waves for scalable multi-cluster operations.",
         "category": "Spain"
       },
       {
-        "url": "https://www.atareao.es/ubuntu/tuneles-ssh",
-        "title": "Túneles SSH",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Covers essential Linux secure remote networking and tunneling mechanisms fundamental for infrastructure administrators.",
+        "url": "https://www.youtube.com/playlist?list=PLI0K_-6LrXgM",
+        "title": "Nubenetes Service Mesh vs. Kernel eBPF (OBI) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an essential decision framework contrasting L4/L7 service meshes with kernel-level eBPF observability and security.",
         "category": "Spain"
       },
       {
-        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
-        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
-        "date": "2026-05-17",
-        "stars": 0,
+        "url": "https://www.youtube.com/playlist?list=PLB-3xSV3dAoU",
+        "title": "Nubenetes Cloud Native Podcasts (Español Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
         "impact": "medium",
-        "why": "Explores lightweight, distributed remote development environments tailored for modern cloud-based developer workflows.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://libropython.es",
-        "title": "Think Python en espanol (Piensa en Python)",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Expands local developer accessibility to modern Python fundamentals, supporting broader cloud automation and scripting skills.",
+        "why": "Provides localized technical architecture deep-dives covering Kubernetes internals and latency optimizations for the Spanish-speaking community.",
         "category": "Spain"
       }
     ],
@@ -5000,39 +5000,21 @@
     ],
     "AI & Agents": [
       {
-        "url": "https://github.com/vllm-project/vllm",
-        "title": "vLLM on Kubernetes",
-        "date": "2026-11-02",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Establishes the production standard for hosting high-throughput, memory-efficient LLM inference engines like vLLM natively on Kubernetes clusters.",
-        "category": "AI & Agents"
-      },
-      {
         "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai",
         "title": "Red Hat OpenShift AI (RHOAI)",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Delivers an enterprise-grade hybrid cloud AI platform natively orchestrated on Kubernetes via KServe, KubeRay, and Kueue.",
+        "why": "It serves as the flagship Kubernetes-native enterprise platform integrating vLLM, KServe, KubeRay, and Kueue for production AI workloads.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/microsoft/agent-framework",
-        "title": "Microsoft Agent Framework",
-        "date": "2026-11-05",
+        "url": "https://github.com/vllm-project/vllm",
+        "title": "vLLM on Kubernetes",
+        "date": "2026-11-02",
         "stars": 5,
-        "impact": "high",
-        "why": "Unifies Semantic Kernel and AutoGen into a standardized multi-language foundation for enterprise multi-agent architectures.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
-        "title": "docs.anthropic.com: Claude Code CLI",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Sets a new benchmark for autonomous agentic software engineering directly inside terminal environments and CI/CD pipelines.",
+        "impact": "critical",
+        "why": "Standardizes high-throughput, memory-efficient LLM inference serving on cloud native Kubernetes infrastructure using PagedAttention.",
         "category": "AI & Agents"
       },
       {
@@ -5040,26 +5022,17 @@
         "title": "GitHub MCP Server",
         "date": "2026-06-07",
         "stars": 5,
-        "impact": "high",
-        "why": "Codifies the open Model Context Protocol (MCP) standard for connecting AI agents to enterprise tools and external data sources.",
+        "impact": "critical",
+        "why": "Establishes the industry standard for Model Context Protocol (MCP) server implementations, enabling interoperable tool execution across AI agents.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://developers.cloudflare.com/agents",
-        "title": "Cloudflare Agents Platform",
+        "url": "https://github.com/microsoft/agent-framework",
+        "title": "Microsoft Agent Framework",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Introduces a distributed serverless edge runtime combining Durable Objects and persistent state for scalable autonomous agents.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://antigravity.google",
-        "title": "antigravity.google: Google Antigravity Agentic Platform",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides an end-to-end framework enabling developers to graduate stateful AI agents from local workstations directly to production Google Kubernetes Engine clusters.",
+        "impact": "critical",
+        "why": "Unifies Semantic Kernel and AutoGen into a single enterprise-ready framework for multi-agent orchestration and development.",
         "category": "AI & Agents"
       },
       {
@@ -5068,7 +5041,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Consolidates multi-model catalogs, agent runtime scaffolding, and enterprise evaluation pipelines into a single managed cloud platform.",
+        "why": "Provides a comprehensive enterprise control plane and agent factory unifying curated multi-provider foundation models with governance.",
         "category": "AI & Agents"
       },
       {
@@ -5077,16 +5050,43 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Integrates distributed Ray orchestration, Vertex AI Agent Builder, and enterprise model governance into a unified hyperscaler AI platform.",
+        "why": "Delivers enterprise-scale agent building, evaluation, and distributed Ray execution natively integrated into Google Cloud.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/strands-agents/harness-sdk",
-        "title": "Strands Agents SDK",
+        "url": "https://antigravity.google",
+        "title": "antigravity.google: Google Antigravity Agentic Platform",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "Introduces an end-to-end SDK and platform for building stateful AI agents with seamless pathing to production GKE clusters.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+        "title": "docs.anthropic.com: Claude Code CLI",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "Redefines autonomous software engineering by executing complex codebase modifications, testing, and git operations via CLI agents.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://developers.cloudflare.com/agents",
+        "title": "Cloudflare Agents Platform",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Provides AWS's official open-source harness SDK optimized for building production-ready AI agents with native Model Context Protocol support.",
+        "why": "Pioneers serverless, globally distributed stateful agent architectures combining edge workers with persistent Durable Object state.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLBZl7QsgYjrw",
+        "title": "Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)",
+        "date": "2026-11-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers a critical architectural analysis comparing managed cloud AI control planes against self-hosted Kubernetes platforms.",
         "category": "AI & Agents"
       }
     ],
@@ -6288,93 +6288,93 @@
     ],
     "Spain": [
       {
-        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
-        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
-        "date": "2026-05-17",
-        "stars": 0,
+        "url": "https://www.youtube.com/playlist?list=PLc2WtEw1pojo",
+        "title": "Nubenetes Azure Storage WORM and ERP Compliance (Spain Central) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
         "impact": "critical",
-        "why": "The launch of the AWS Spain Region represents a foundational milestone for low-latency, sovereign enterprise cloud infrastructure in the country.",
+        "why": "Provides an essential regulatory and compliance architecture for immutable WORM storage deployed directly in the Azure Spain Central (Madrid) region.",
         "category": "Spain"
       },
       {
-        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
-        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
-        "date": "2026-06-18",
-        "stars": 4,
+        "url": "https://www.youtube.com/playlist?list=PLB-3xSV3dAoU",
+        "title": "Nubenetes Cloud Native Podcasts (Español Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
         "impact": "high",
-        "why": "Provides essential strategic guidance against over-ambitious enterprise AI roadmaps, prioritizing pragmatic, scalable engineering foundations.",
+        "why": "Offers localized, Spanish-language engineering deep-dives into modern Kubernetes operations, OpenShift 4.20, and air-gapped observability.",
         "category": "Spain"
       },
       {
-        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
-        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
-        "date": "2026-06-01",
-        "stars": 0,
+        "url": "https://www.youtube.com/playlist?list=PLWGYAgXdQh44",
+        "title": "Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Guides the enterprise transition to sidecarless Istio Ambient Mesh and Kubernetes Gateway API with ztunnel HBONE mTLS on OpenShift.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/RHHQJUp21Xk",
+        "title": "How Kueue Schedules Kubernetes AI Workloads | Fair-Share GPU Queuing",
+        "date": "2026-11-07",
+        "stars": 5,
         "impact": "high",
-        "why": "Highlights the critical architectural importance of multi-region resilience and systemic risk mitigation across public cloud providers.",
+        "why": "Explains how CNCF Kueue optimizes scarce GPU utilization through fair-share multi-tenant job queuing on Kubernetes AI clusters.",
         "category": "Spain"
       },
       {
-        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
-        "title": "computing.es: Retos del outsourcing de servicios IT en España",
-        "date": "2026-06-14",
-        "stars": 3,
+        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
+        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
+        "date": "2026-11-07",
+        "stars": 5,
         "impact": "high",
-        "why": "Directly tackles the friction of scaling DevSecOps practices and overcoming technical silos within outsourced enterprise delivery teams.",
+        "why": "Details the technical paradigm shift of disaggregated LLM inference on Kubernetes by decoupling prefill and decode phases across specialized accelerators.",
         "category": "Spain"
       },
       {
-        "url": "https://systemadmin.es",
-        "title": "systemadmin.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Serves as a practical localized resource for deep Linux kernel performance tuning, virtualization, and storage management.",
+        "url": "https://www.youtube.com/playlist?list=PLRTV86SuuRbk",
+        "title": "Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Establishes a zero-code observability standard using OpenTelemetry eBPF and collector routing blueprints across hybrid and multi-cloud Kubernetes clusters.",
         "category": "Spain"
       },
       {
-        "url": "https://apimarket.cecabank.es",
-        "title": "Cecabank API Market",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Demonstrates modern API gateway architecture and secure microservice integration under regulated PSD2 financial compliance.",
+        "url": "https://www.youtube.com/playlist?list=PLYbmzkhLGOtI",
+        "title": "Nubenetes ArgoCD and GitOps Automation (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers production-grade declarative GitOps and progressive delivery architectures across multi-cluster environments using ArgoCD ApplicationSets.",
         "category": "Spain"
       },
       {
-        "url": "https://api-market.santalucia.es",
-        "title": "santalucia.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Showcases production-grade enterprise API management for external ecosystem interoperability in the insurance sector.",
+        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
+        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Replaces legacy monolithic Cloud Adoption Framework templates with modular, maintainable Azure Verified Modules for enterprise landing zones.",
         "category": "Spain"
       },
       {
-        "url": "https://libropython.es",
-        "title": "Think Python en espanol (Piensa en Python)",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Delivers an accessible, modern Python learning resource to strengthen foundational programming skills for Spanish-speaking automation engineers.",
+        "url": "https://www.youtube.com/playlist?list=PLI0K_-6LrXgM",
+        "title": "Nubenetes Service Mesh vs. Kernel eBPF (OBI) (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Navigates the key architectural trade-offs between sidecarless service meshes and kernel eBPF instrumentation for platform networking and telemetry.",
         "category": "Spain"
       },
       {
-        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
-        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Highlights next-generation lightweight developer tooling with integrated remote execution capabilities suited for cloud development environments.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.atareao.es/ubuntu/tuneles-ssh",
-        "title": "Túneles SSH",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Covers essential operational networking fundamentals for secure infrastructure access and bastion tunneling in Linux environments.",
+        "url": "https://www.youtube.com/watch?v=IcH7LalL5cc",
+        "title": "Day 0 to Day 2: Zero-Secret CI/CD Pipelines with GitHub Actions and OIDC",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Eliminates long-lived pipeline credentials by establishing zero-secret Terraform deployments using OpenID Connect federated identities in GitHub Actions.",
         "category": "Spain"
       }
     ],
@@ -6762,9 +6762,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T20:47:42.767122+01:00",
-        "entry_hash": "f8a0a2c857b3062c",
-        "entry_count": 35,
+        "last_analyzed": "2026-11-07T15:17:29.676202+01:00",
+        "entry_hash": "0ee15d097571729c",
+        "entry_count": 36,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -6774,9 +6774,9 @@
         "method": "gemini"
       },
       "Architecture & Microservices": {
-        "last_analyzed": "2026-11-05T19:45:01.169024+01:00",
-        "entry_hash": "0cb071280a5c0646",
-        "entry_count": 24,
+        "last_analyzed": "2026-11-07T15:17:43.973839+01:00",
+        "entry_hash": "2e81320c5c6c6844",
+        "entry_count": 23,
         "method": "gemini"
       },
       "Azure": {
@@ -6894,9 +6894,9 @@
         "method": "fallback_small"
       },
       "Spain": {
-        "last_analyzed": "2026-11-02T20:18:45.282633+01:00",
-        "entry_hash": "6bc91834c6712e61",
-        "entry_count": 50,
+        "last_analyzed": "2026-11-07T15:18:01.460357+01:00",
+        "entry_hash": "d924b74c149d0878",
+        "entry_count": 66,
         "method": "gemini"
       }
     },
@@ -6944,9 +6944,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T20:49:36.438759+01:00",
-        "entry_hash": "c37ad0791d578c95",
-        "entry_count": 230,
+        "last_analyzed": "2026-11-07T15:18:16.981096+01:00",
+        "entry_hash": "dbdbd0bd6f8a958e",
+        "entry_count": 231,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -7028,9 +7028,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-10-26T21:25:37.317941+01:00",
-        "entry_hash": "46001dda6e1bac54",
-        "entry_count": 86,
+        "last_analyzed": "2026-11-07T15:18:30.516353+01:00",
+        "entry_hash": "0a1cece3614b1d2b",
+        "entry_count": 102,
         "method": "gemini"
       },
       "Europe": {
@@ -7102,9 +7102,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-05T20:51:11.594710+01:00",
-        "entry_hash": "bb0f29ba1d758cdf",
-        "entry_count": 469,
+        "last_analyzed": "2026-11-07T15:18:43.826208+01:00",
+        "entry_hash": "6ad70e02ae919a87",
+        "entry_count": 470,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -7186,9 +7186,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-10-26T21:32:28.510117+01:00",
-        "entry_hash": "46001dda6e1bac54",
-        "entry_count": 86,
+        "last_analyzed": "2026-11-07T15:18:58.005856+01:00",
+        "entry_hash": "0a1cece3614b1d2b",
+        "entry_count": 102,
         "method": "gemini"
       },
       "Europe": {
@@ -7216,6 +7216,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-05T21:13:31.567797+01:00"
+    "last_updated": "2026-11-07T15:28:04.974857+01:00"
   }
 }

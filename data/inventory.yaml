@@ -713620,3 +713620,1410 @@ https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed:
   - enterprise-ai-platforms.md
   - openshift.md
   youtube_mosaic: {}
+https://www.youtube.com/playlist?list=PLBZl7QsgYjrw:
+  title: 'Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes
+    (Playlist)'
+  description: 'Architectural reference comparison matrix and production engineering
+    deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI
+    Foundry, Amazon Bedrock AgentCore, Google Cloud Vertex AI) versus Hybrid and Turnkey
+    Kubernetes (Red Hat OpenShift AI, IBM watsonx, llm-d, vLLM, KServe, Kueue, KAITO),
+    zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture.'
+  year: '2026'
+  stars: 5
+  ai_summary: 'Architectural reference comparison matrix and production engineering
+    deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI
+    Foundry, Amazon Bedrock AgentCore, Google Cloud Vertex AI) versus Hybrid and Turnkey
+    Kubernetes (Red Hat OpenShift AI, IBM watsonx, llm-d, vLLM, KServe, Kueue, KAITO),
+    zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture.'
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1793646500
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T14:00:00.000000+01:00'
+  last_ai_eval: '2026-11-07T14:00:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - AI and Future Operations
+  - Enterprise AI Platforms
+  - Cloud AI Control Planes vs Kubernetes
+  tags:
+  - '[AI]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[LLM]'
+  - '[MCP]'
+  v1_locations:
+  - docs/ai.md
+  v2_locations:
+  - enterprise-ai-platforms.md
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 1
+  technology: Enterprise AI Platforms
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/uW_1qkhghgc:
+  title: Cloud Tethered vs Air Gapped Enterprise AI | Hybrid Control Planes
+  description: 'Public cloud AI is fast, but sending sensitive enterprise data to
+    public APIs is often legally prohibited.
+
+
+    Discover how two competing architectures solve the data privacy and sovereign
+    control dilemma:
+
+
+    KEY TAKEAWAYS:
+
+
+    - Cloud-Tethered Extensions: Use operators like KAITO to govern models in cloud
+    catalogs (Azure AI Foundry) while executing inference inside your private virtual
+    networks.
+
+
+    - Completely Air-Gapped Kubernetes: Deploy turnkey stacks like Red Hat OpenShift
+    AI on bare-metal clusters, guaranteeing zero external network egress.
+
+
+    - Workload Match: Choose cloud-tethered for agility and speed; choose air-gapped
+    sovereign Kubernetes for strict regulatory isolation.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural comparison contrasts cloud-tethered hybrid AI models—leveraging
+    Kubernetes operators like KAITO with Azure AI Foundry inside private virtual networks—against
+    fully air-gapped bare-metal distributions like Red Hat OpenShift AI. It provides
+    an enterprise blueprint for resolving the tension between rapid cloud innovation
+    and strict regulatory sovereignty with zero external egress. For 2026 cloud-native
+    deployments, understanding these hybrid control plane topologies is critical for
+    architecting compliant, sovereign inference platforms.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/t1ANWLvtsi8:
+  title: How InstructLab Teaches AI New Skills | Synthetic Data Model Alignment
+  description: 'How does InstructLab teach an open-source foundation model highly
+    specific new domain skills without expensive retraining?
+
+
+    Normally, fine-tuning an enterprise model requires writing thousands of manual
+    prompt-response pairs or paying for costly full parameter retraining.
+
+
+    KEY TAKEAWAYS:
+
+
+    - Taxonomy-Driven Alignment: Submit human-readable YAML files defining new domain
+    knowledge or procedural agent skills.
+
+
+    - Synthetic Data Generation: Teacher models generate thousands of validated training
+    examples automatically from simple seed examples.
+
+
+    - Native OpenShift AI Integration: Seamlessly compiles new model skills into open-source
+    foundation models like Granite and Llama.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: InstructLab introduces a taxonomy-driven, synthetic data generation
+    workflow to align open-source foundation models with specialized domain knowledge
+    and agent skills without requiring expensive full-parameter retraining. By defining
+    skills in declarative YAML files and using teacher models to synthesize validated
+    training datasets, it enables GitOps-aligned model refinement integrated natively
+    with enterprise platforms like OpenShift AI. For 2026 cloud-native architectures,
+    this approach provides a cost-effective, scalable foundation for continuously
+    fine-tuning and deploying specialized enterprise AI agents across Kubernetes clusters.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/EjkL9runM-o:
+  title: How llm d Splits AI Compute | Disaggregated Inference on Kubernetes
+  description: 'Disaggregated inference splits AI processing in two, but how does
+    it eliminate severe hardware bottlenecks?
+
+
+    Forcing a single GPU to process massive prompt context and generate tokens creates
+    massive compute and memory bandwidth inefficiencies.
+
+
+    KEY TAKEAWAYS:
+
+
+    - Prefill vs Decode Separation: Distributes compute-heavy prompt ingestion (prefill)
+    and memory-bandwidth-bound token generation (decode) to dedicated GPUs.
+
+
+    - Intelligent Cache Routing: Uses the Kubernetes Gateway API Inference Extension
+    to direct requests based on KV-cache affinity.
+
+
+    - Massive Latency Drop: Drastically reduces Time-to-First-Token (TTFT) and slashes
+    unit inference costs by 40-70%.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown demonstrates disaggregated LLM inference
+    on Kubernetes by decoupling compute-bound prompt ingestion (prefill) from memory-bandwidth-bound
+    token generation (decode) across specialized GPU pools. By leveraging the Kubernetes
+    Gateway API Inference Extension for KV-cache-aware routing, cloud native platforms
+    eliminate severe hardware bottlenecks, slashing Time-to-First-Token (TTFT) and
+    reducing inference compute costs by 40-70%.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/RHHQJUp21Xk:
+  title: How Kueue Schedules Kubernetes AI Workloads | Fair-Share GPU Queuing
+  description: 'Kueue manages batch scheduling on Kubernetes, but how does it decide
+    who gets access to scarce, expensive GPUs?
+
+
+    When multiple data science and ML engineering teams submit training jobs simultaneously,
+    hardware bottlenecks can cause cluster-wide starvation.
+
+
+    KEY TAKEAWAYS:
+
+
+    - Cloud-Native Job Queuing: Kueue acts as a traffic controller, managing multi-tenant
+    resource quotas across namespace boundaries.
+
+
+    - Resource Borrowing: Safely borrow unused GPU capacity from adjacent cohort queues
+    while guaranteeing immediate reclamation upon demand.
+
+
+    - Maximized Hardware Utilization: Eliminates idle GPU nodes while preventing catastrophic
+    out-of-memory cluster crashes.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown explains how Kueue functions as a cloud-native
+    job queue controller on Kubernetes to manage multi-tenant access to scarce GPU
+    accelerators. It highlights fair-share cohort queuing, enabling workloads to safely
+    borrow idle GPU capacity across namespace boundaries with preemption and rapid
+    reclamation to prevent cluster starvation. For modern AI platforms, this mechanism
+    maximizes costly hardware utilization while eliminating out-of-memory cluster
+    disruptions during concurrent training runs.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/_EIKE8OLMs8:
+  title: Enterprise AI Platforms Architecture Unpacked | Identity, Security & FinOps
+  description: 'Deploying one AI model is easy, but scaling across an enterprise creates
+    security, budget, and compliance nightmares.
+
+
+    See how the 2026 shift to managed AI control planes solves all three:
+
+
+    KEY TAKEAWAYS:
+
+
+    - First-Class Agent Identities: End shared API keys with Microsoft Entra Agent
+    ID and AWS IAM Identity Center, enforcing strict document-level RBAC.
+
+
+    - Continuous Model Evaluation: Built-in benchmarking pipelines score accuracy,
+    tone, and safety automatically before deployments go live.
+
+
+    - Eradicating the Idle GPU Tax: Pay only for active tokens and execution seconds
+    instead of financing empty H100 GPU clusters overnight.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown analyzes the shift toward managed enterprise
+    AI control planes to solve scaling bottlenecks across identity, governance, and
+    FinOps. It emphasizes replacing shared API tokens with first-class Agent identities
+    via Microsoft Entra Agent ID and AWS IAM Identity Center for document-level RBAC,
+    implementing continuous evaluation pipelines for model safety, and eliminating
+    idle GPU provisioning costs through consumption-based token execution runtimes.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/_RMJLGU2roo:
+  title: The End of DIY Enterprise AI | The 2026 Agentic Control Plane Playbook
+  description: 'Building enterprise AI in 2024 meant spending months assembling custom
+    Kubernetes stacks for a single chatbot. That playbook is officially obsolete.
+
+
+    Here is how the 2026 managed agentic control plane changes the engineering equation:
+
+
+    KEY TAKEAWAYS:
+
+
+    - Built-In Multi-Model Routing: Azure AI Foundry and Amazon Bedrock route queries
+    across 200+ frontier and open models with automated fallback.
+
+
+    - Integrated Content Guardrails: Real-time PII redaction, prompt-injection defense,
+    and hallucination grounding checks execute automatically at the API layer.
+
+
+    - Serverless Execution Sandboxes: Run agent code in MicroVM-isolated sandboxes
+    with zero Kubernetes pod orchestration.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural overview contrasts the legacy approach of maintaining
+    bespoke Kubernetes infrastructure for LLM applications with modern managed agentic
+    control planes like Amazon Bedrock and Azure AI Foundry. It highlights the paradigm
+    shift toward built-in multi-model routing, API-level safety guardrails, and serverless
+    MicroVM sandboxes that eliminate pod orchestration overhead for agentic execution.
+    Cloud architects can leverage this blueprint to drastically reduce operational
+    friction and accelerate enterprise agent deployment.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/PPpSLpXL1HA:
+  title: How AI Agents Use Company Tools | Model Context Protocol (MCP) Gateways
+  description: 'How does the Model Context Protocol (MCP) safely translate an AI agent''s
+    reasoning into secure internal database commands?
+
+
+    Before MCP, giving AI access to enterprise systems required custom, brittle API
+    sidecars with dangerous security exposures.
+
+
+    KEY TAKEAWAYS:
+
+
+    - Standardized Protocol: MCP establishes an open, standard protocol for connecting
+    AI models to enterprise databases, tools, and SaaS APIs.
+
+
+    - Managed Gateways: Cloud platforms convert OpenAPI specs and serverless functions
+    into authenticated MCP tool servers with zero manual code.
+
+
+    - Enforced Security: Every tool call is authenticated with enterprise credentials
+    and audit-logged for compliance.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural brief examines how Model Context Protocol (MCP) gateways
+    standardize and secure AI agent interactions with enterprise data stores, serverless
+    APIs, and internal SaaS platforms. By transforming existing OpenAPI specifications
+    and cloud functions into authenticated, audited MCP tool servers, organizations
+    eliminate brittle custom API sidecars. In modern cloud-native architectures, this
+    provides an essential control plane layer enforcing strict identity propagation,
+    granular authorization, and compliance logging across autonomous agentic workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AI Agents + MCP
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/elweRHyvWPc:
+  title: Why Managed AI Platforms Are Replacing Kubernetes | 2026 Enterprise Shift
+  description: 'Why are 85% of enterprises abandoning DIY Kubernetes AI stacks in
+    favor of Managed Cloud AI platforms?
+
+
+    Building a stateful agent with memory, database tool access, and user authentication
+    on Kubernetes requires custom Redis stores, MCP proxies, and complex ingress.
+
+
+    KEY TAKEAWAYS:
+
+
+    - Control Plane Acceleration: Platforms like Azure AI Foundry and Amazon Bedrock
+    AgentCore provide server-side conversation threads and isolated execution sandboxes
+    natively.
+
+
+    - Zero Cluster Maintenance: Eliminate CUDA driver updates, KV-cache tuning, and
+    GPU node autoscaling headaches.
+
+
+    - Focus on Value: Stop maintaining infrastructure plumbing and start delivering
+    production agents that drive business revenue.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: Examines the 2026 enterprise architectural shift moving away from complex,
+    self-managed Kubernetes AI stacks toward managed cloud control planes like Azure
+    AI Foundry and Amazon Bedrock AgentCore. Offloading stateful agent plumbing—such
+    as isolated execution sandboxes, server-side memory threads, MCP proxies, and
+    CUDA driver tuning—eliminates cluster operational overhead and accelerates production
+    agent delivery.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/eyGnHQSPX4w:
+  title: How Turnkey Platforms Tame Kubernetes AI | OpenShift AI & watsonx
+  description: 'Why are enterprises turning to turnkey Kubernetes platforms instead
+    of assembling DIY stacks from scratch?
+
+
+    When sensitive banking or healthcare data cannot touch public cloud APIs, building
+    a self-hosted AI stack manually means maintaining 10+ open-source operators.
+
+
+    KEY TAKEAWAYS:
+
+
+    - Pre-Integrated Stacks: Turnkey platforms like Red Hat OpenShift AI (RHOAI) and
+    IBM watsonx bundle vLLM, KServe, Kueue, and Ray under single enterprise operators.
+
+
+    - Air-Gapped Compliance: Complete data sovereignty and air-gapped readiness with
+    automated Day-2 patching and vendor support.
+
+
+    - Time to Value: Reduces cluster deployment times from 6 months of DIY engineering
+    to under two weeks.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown analyzes the enterprise shift from assembling
+    fragile DIY Kubernetes AI infrastructures to adopting pre-integrated turnkey platforms
+    like Red Hat OpenShift AI and IBM watsonx. By consolidating distributed workload
+    schedulers, model servers, and orchestration operators (such as Ray, Kueue, KServe,
+    and vLLM) under unified lifecycle management, enterprises eliminate multi-operator
+    maintenance overhead. This approach provides critical air-gapped compliance, automated
+    Day-2 operations, and reduces enterprise AI time-to-value from six months to under
+    two weeks in regulated environments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/mnkSjYsyfrg:
+  title: How the Enterprise AI Decision Matrix Works | Cloud AI vs Kubernetes
+  description: 'How do leading platform architects choose between Managed Cloud AI
+    and Kubernetes in 2026?
+
+
+    Avoid costly engineering delays and wasted GPU hardware by following the 3-gate
+    enterprise decision matrix:
+
+
+    KEY TAKEAWAYS:
+
+
+    - Gate 1 (Sovereignty & Air-Gap): Workloads requiring disconnected on-prem environments
+    require Turnkey Kubernetes (Red Hat OpenShift AI or IBM watsonx).
+
+
+    - Gate 2 (Inference Economics): Variable, spiky agent traffic belongs on pay-per-token
+    Cloud AI; sustained 24/7 high-volume inference wins on Kubernetes with llm-d.
+
+
+    - Gate 3 (Hardware Customization): Standard models thrive on serverless APIs;
+    custom CUDA kernels and multi-node training demand KubeRay and Kueue on Kubernetes.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural briefing outlines a three-gate decision framework
+    for enterprise platform teams deciding between managed cloud AI services and Kubernetes
+    in 2026. It establishes key evaluation criteria including data sovereignty and
+    air-gapped deployments (OpenShift AI/watsonx), inference economics balancing pay-per-token
+    models against sustained 24/7 self-hosted clusters using llm-d, and deep hardware
+    customization leveraging KubeRay and Kueue for distributed AI workloads.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps with AI
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=TFK1tQ0bWnE:
+  title: 'AI Control Planes vs Kubernetes: 2026 Hybrid Reference Architecture'
+  description: 'Comprehensive architectural breakdown comparing Managed AI Control
+    Planes with Kubernetes and detailing the 2026 Hybrid Reference Architecture.
+
+
+    Discover why hyperscalers and Kubernetes platform vendors no longer treat cloud
+    AI and Kubernetes as competing silos, but converge them via open frameworks and
+    operators like KAITO, Strands SDK, and Google ADK.
+
+
+    TIMESTAMPS:
+
+    0:00 - Introduction: The 2026 AI Evolution and Control Plane Convergence
+
+    1:05 - Section 1: The Death of DIY Kubernetes AI Stacks
+
+    2:15 - Section 2: Managed Platforms vs Turnkey vs DIY Architectural Matrix
+
+    4:00 - Section 3: The Strategic Verdict: Eliminating Undifferentiated Heavy Lifting
+
+    5:00 - When Self-Managed Kubernetes Wins: Air-Gapped and High-Scale FinOps
+
+    6:00 - Section 4: The 2026 Hybrid Reference Architecture (KAITO, Strands SDK,
+    Google ADK)
+
+    7:00 - Conclusion: Engineering Roadmap for 2026
+
+
+    KEY ARCHITECTURAL TAKEAWAYS:
+
+
+    - Multi-Dimensional Comparison: Managed platforms offer days to production and
+    near-zero Day-2 SRE, while DIY Kubernetes requires 3-6 months of manual integration.
+
+
+    - Hybrid Orchestration: Models governed in cloud catalogs deploy seamlessly to
+    AKS via KAITO, to EKS via Strands SDK, and to GKE via Google ADK.
+
+
+    - Engineering Focus: Platform engineering teams must eliminate undifferentiated
+    operational burdens to ship autonomous business agents faster.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.
+
+
+    - KAITO (Kubernetes AI Toolchain Operator):
+
+    https://github.com/Azure/kaito
+
+
+    - Google Agent Development Kit (ADK):
+
+    https://github.com/google/agent-development-kit
+
+
+    - Microsoft Agent Framework:
+
+    https://github.com/microsoft/agent-framework'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown contrasts managed hyperscaler AI control
+    planes against DIY Kubernetes stacks, highlighting why platform teams are shifting
+    away from unmaintainable DIY AI infrastructure. It establishes a 2026 hybrid reference
+    architecture demonstrating model governance in cloud catalogs paired with native
+    cluster execution via tools like Azure KAITO, AWS Strands, and Google Agent Development
+    Kit (ADK). This blueprint enables enterprise platform engineering teams to eliminate
+    undifferentiated Day-2 operational burdens while deploying production-ready autonomous
+    AI agents at scale.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=sfK3eKrKqOI:
+  title: '2026 AI Architecture Shift: Zero-Trust Agent IAM & Enterprise Governance'
+  description: 'In-depth architectural explainer examining enterprise identity, security
+    boundaries, and model governance in the 2026 agentic era.
+
+
+    Learn how modern platforms replace fragmented API tokens with first-class cloud
+    identities (Microsoft Entra Agent ID, AWS IAM Identity Center) and enforce document-level
+    RBAC during enterprise RAG retrieval.
+
+
+    TIMESTAMPS:
+
+    0:00 - Introduction: The 2026 AI Architecture Migration
+
+    1:05 - Section 1: Paradigm Shift from DIY Kubernetes to Managed Control Planes
+
+    2:15 - Section 2: Overcoming the Five Hardest GenAI Production Challenges
+
+    3:20 - Section 3: Enterprise Governance, Zero-Trust IAM and Entra Agent ID
+
+    4:25 - Section 4: Model Alignment and OpenShift AI with InstructLab
+
+    5:35 - Section 5: The Strategic Verdict: Cloud AI Platforms vs Kubernetes
+
+    6:45 - Executive Resource Allocation: Infrastructure vs Business Value
+
+
+    KEY ARCHITECTURAL TAKEAWAYS:
+
+
+    - Zero-Trust Agent IAM: Autonomous agents receive first-class cryptographic identities
+    (Entra Agent ID, IAM Identity Center), ending static credential risks.
+
+
+    - Document-Level RBAC: RAG pipelines dynamically enforce user permissions at query
+    time across vector indices and knowledge bases.
+
+
+    - Model Alignment with InstructLab: OpenShift AI enables domain knowledge and
+    skill injection using synthetic data generation without massive retraining.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.
+
+
+    - InstructLab Open Source Project:
+
+    https://github.com/instructlab/instructlab
+
+
+    - Azure AI Foundry Security and Governance:
+
+    https://learn.microsoft.com/azure/ai-studio/concepts/rbac-ai-studio'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown examines the shift from fragmented, DIY
+    Kubernetes-based AI deployments to managed cloud AI control planes governed by
+    zero-trust agent identity frameworks. It details how first-class cryptographic
+    identities (such as Microsoft Entra Agent ID and AWS IAM Identity Center) and
+    query-time document-level RBAC secure enterprise RAG workflows and autonomous
+    agents. Furthermore, it highlights domain-specific model alignment via synthetic
+    data generation with InstructLab on OpenShift AI, balancing infrastructure maintenance
+    against core business value.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=Zhn0M9rlw_k:
+  title: '2026 AI Architecture Shift: Lakehouse AI & Serverless Edge Agents'
+  description: 'Explore two game-changing architectural paradigms transforming enterprise
+    generative AI in 2026: Lakehouse Data Intelligence platforms and Serverless Edge
+    Agent runtimes.
+
+
+    Discover how Databricks Mosaic AI unites vector search and governance directly
+    with enterprise data, while Cloudflare Agents Platform uses Durable Objects and
+    edge SQLite to achieve globally distributed stateful agents without Kubernetes
+    overhead.
+
+
+    TIMESTAMPS:
+
+    0:00 - Introduction: The 2026 AI Architecture Shift
+
+    1:05 - Moving Beyond DIY K8s Infrastructure Heavy Lifting
+
+    2:40 - Lakehouse AI: Databricks Mosaic AI, Unity Catalog and MLflow 3.0
+
+    3:25 - Serverless Edge Agents: Cloudflare Agents Platform and Durable Objects
+
+    4:10 - Globally Distributed Persistent State with Edge SQLite and AI Gateway
+
+    5:20 - The Strategic Verdict: Lakehouse and Edge vs Cluster Maintenance
+
+    6:05 - Architectural Takeaways for Engineering Leaders
+
+
+    KEY ARCHITECTURAL TAKEAWAYS:
+
+
+    - Lakehouse Integration: Governed data intelligence (Unity Catalog + Mosaic AI)
+    brings model execution directly to enterprise data repositories.
+
+
+    - Stateful Edge Runtimes: Durable Objects and edge SQLite provide sub-millisecond
+    session persistence and native MCP gateways without cold starts.
+
+
+    - Developer Focus: Eliminate cluster babysitting so engineering talent focuses
+    entirely on high-value agentic logic and domain workflows.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.
+
+
+    - Databricks Mosaic AI Architecture:
+
+    https://www.databricks.com/product/machine-learning
+
+
+    - Cloudflare Agents Platform Documentation:
+
+    https://developers.cloudflare.com/agents/'
+  year: '2026'
+  stars: 5
+  ai_summary: This briefing analyzes the emerging enterprise architectural transition
+    from complex DIY Kubernetes infrastructure to governed Lakehouse platforms and
+    stateful serverless edge agent runtimes. By leveraging Databricks Mosaic AI with
+    Unity Catalog alongside Cloudflare Agents utilizing Durable Objects and edge SQLite,
+    teams achieve low-latency session persistence and model execution directly co-located
+    with enterprise data. This paradigm eliminates Kubernetes cluster maintenance
+    overhead, enabling engineering organizations to focus on scalable agentic logic,
+    MCP gateways, and domain-specific AI workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=TUyX5PzEPGA:
+  title: 'The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving'
+  description: 'Architectural analysis of the major 2026 infrastructure fork: Managed
+    Public Cloud AI Platforms versus high-control Kubernetes running disaggregated
+    inference.
+
+
+    Learn how architects navigate between serverless pay-per-token platforms that
+    eliminate idle GPU costs, and custom Kubernetes environments leveraging llm-d
+    and vLLM to cut high-volume inference costs by 40-70%.
+
+
+    TIMESTAMPS:
+
+    0:00 - Introduction: The 2026 Enterprise Infrastructure Fork
+
+    1:15 - Section 1: The Paradigm Shift (DIY K8s vs Managed AI Control Planes)
+
+    2:45 - Section 2: Managed Cloud AI and Eliminating the Idle GPU Tax
+
+    4:05 - Section 3: Disaggregated Inference with llm-d and vLLM on Kubernetes
+
+    5:45 - Section 4: Workload Matching: Spiky Traffic vs Continuous Batching
+
+    6:40 - Section 5: The Strategic Verdict: Choosing Your Lane
+
+    7:50 - Key Takeaways: TCO Optimization and Execution Strategy
+
+
+    KEY ARCHITECTURAL TAKEAWAYS:
+
+
+    - The Infrastructure Fork: Variable, spiky workloads thrive on serverless managed
+    control planes; sustained 24/7 high-volume inference demands dedicated Kubernetes
+    nodes.
+
+
+    - Disaggregated Serving: llm-d separates compute-intensive prefill from memory-bandwidth-bound
+    decode phases, optimizing GPU memory bandwidth.
+
+
+    - Economic Realities: Choosing the wrong side of the fork either creates massive
+    idle GPU waste or leads to runaway per-token cloud API bills.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.
+
+
+    - llm-d Distributed Inference Project:
+
+    https://github.com/vllm-project/llm-d
+
+
+    - Red Hat OpenShift AI Documentation:
+
+    https://docs.redhat.com/en/documentation/red_hat_openshift_ai/'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural analysis explores the strategic trade-offs between
+    managed serverless cloud AI platforms and dedicated Kubernetes clusters optimized
+    for disaggregated inference using vLLM and llm-d. It demonstrates how decoupling
+    compute-heavy prefill stages from memory-bound decode stages enables teams to
+    cut high-volume inference costs by 40-70% while avoiding idle GPU waste across
+    variable workloads.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=YbQP5WRSn_o:
+  title: 'Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration'
+  description: 'Deep-dive architectural explainer on moving from localized AI prototypes
+    to production-grade, globally scaled models on enterprise infrastructure.
+
+
+    Explore the foundational orchestration required for resilient distributed training,
+    fault-tolerant cluster operations, multi-tenant GPU batch scheduling, and high-performance
+    network fabrics.
+
+
+    TIMESTAMPS:
+
+    0:00 - Introduction: Moving from AI Prototypes to Production Scale
+
+    0:55 - The 2026 AI Infrastructure Landscape: Cloud AI vs High-Scale K8s
+
+    1:50 - The Architectural Comparison Matrix: When Kubernetes Wins
+
+    3:25 - Distributed Pipeline Orchestration: KubeRay, Kubeflow and Kueue
+
+    4:45 - High-Performance Networking Fabrics: RoCEv2 and InfiniBand
+
+    5:55 - Case Study: Amazon SageMaker HyperPod on EKS
+
+    6:25 - Fault-Tolerant Training: Automated Node Health and Checkpointing
+
+    7:55 - Key Architectural Takeaways: Resilient AI at Scale
+
+
+    KEY ARCHITECTURAL TAKEAWAYS:
+
+
+    - Cloud-Native Batch Queuing: Kueue manages fair-share quotas across multi-tenant
+    data science teams, preventing runaway GPU starvation.
+
+
+    - Bare-Metal Interconnects: High-throughput distributed training requires lossless
+    RoCEv2 or InfiniBand fabrics to avoid inter-node gradient synchronization bottlenecks.
+
+
+    - Automated Checkpointing: Fault-tolerant infrastructure like Amazon SageMaker
+    HyperPod detects hardware degradation and replaces degraded nodes without aborting
+    multi-day training runs.
+
+
+    OFFICIAL ARCHITECTURAL BLUEPRINT & REFERENCES:
+
+
+    - Nubenetes Enterprise AI Platforms Guide:
+
+    https://nubenetes.com/enterprise-ai-platforms/
+
+    Comprehensive architectural analysis and comparison matrix of cloud AI control
+    planes vs Kubernetes.
+
+
+    - Nubenetes Awesome Kubernetes Portal:
+
+    https://github.com/nubenetes/awesome-kubernetes
+
+    Curated open-source cloud native architectures, platforms, and production blueprints.
+
+
+    - AWS Labs AI on EKS Blueprints:
+
+    https://github.com/awslabs/ai-on-eks
+
+
+    - Kubernetes-SIGs Kueue Project:
+
+    https://github.com/kubernetes-sigs/kueue'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural explainer details how to design and operate enterprise-grade
+    distributed AI training platforms on Kubernetes, contrasting managed cloud AI
+    suites with high-scale Kubernetes clusters. It covers multi-tenant batch scheduling
+    using Kueue and KubeRay, lossless RoCEv2 and InfiniBand networking fabrics for
+    low-latency gradient synchronization, and automated fault recovery using SageMaker
+    HyperPod on EKS. The video provides a critical blueprint for cloud architects
+    building resilient, non-disruptive infrastructure for large-scale model training
+    runs in 2026.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794060768
+  needs_ai_refresh: false
+  discovered_at: '2026-11-07T15:12:48.247662+01:00'
+  last_ai_eval: '2026-11-07T15:12:48.247662+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + Kubernetes
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel

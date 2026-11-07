@@ -45,7 +45,7 @@
       <guid isPermaLink="true">https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] It establishes a production-grade, enterprise standard for running AI/ML workloads natively on Kubernetes using KServe, vLLM, and KubeRay.</description>
+      <description>[CRITICAL] Delivers a fully supported, Kubernetes-native enterprise platform integrating vLLM, KServe, and Kueue for hybrid AI operations.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
@@ -69,7 +69,7 @@
       <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Standardizes high-throughput, memory-efficient LLM serving directly on Kubernetes clusters via PagedAttention.</description>
+      <description>[CRITICAL] Serves as the foundational standard for high-performance, memory-efficient LLM inference and serving on production Kubernetes clusters.</description>
     </item>
     <item>
       <title>OpenTofu Official GitHub Repository</title>
