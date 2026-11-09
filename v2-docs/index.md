@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 19980 total resources analyzed.
-    - **V2 Elite Selection**: 15873 candidates identified (79.44% density ratio).
-    - **AI Enrichment Coverage**: 15873 / 15873 (100.0%)
+    - **V1 Base Inventory**: 19994 total resources analyzed.
+    - **V2 Elite Selection**: 15887 candidates identified (79.46% density ratio).
+    - **AI Enrichment Coverage**: 15887 / 15887 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -109,6 +109,13 @@
 <div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 09, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Spain</div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLAs2nHm8nh2A">Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher</a></div>
+  <div class="trending-card__meta">2026-11-09 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Delivers an exhaustive comparative evaluation of leading enterprise Kubernetes distributions across hybrid and multi-cloud footprints.</div>
+</div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Networking & Service Mesh</div>
@@ -165,7 +172,7 @@
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">Serves as Red Hat's flagship enterprise platform for deploying, managing, and scaling distributed AI and MLOps workloads on OpenShift.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">MLOps & Data Science</div>
   <div class="trending-card__title"><a href="https://www.databricks.com/product/artificial-intelligence">Databricks Mosaic AI</a></div>
@@ -178,13 +185,6 @@
   <div class="trending-card__title"><a href="https://github.com/opentofu/opentofu">OpenTofu Official GitHub Repository</a></div>
   <div class="trending-card__meta">2026-11-02 · 30.7k★</div>
   <div class="trending-card__why">Provides a truly open-source, Linux Foundation-governed fork of Terraform with client-side state encryption and community-driven innovation.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLRTV86SuuRbk">Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)</a></div>
-  <div class="trending-card__meta">2026-11-02 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Addresses next-generation multi-cloud observability by pairing OpenTelemetry Collectors with kernel-level eBPF instrumentation to eliminate agent overhead.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>

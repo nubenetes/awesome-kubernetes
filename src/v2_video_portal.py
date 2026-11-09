@@ -295,6 +295,8 @@ def generate_v2_videos():
         "",
         "| Dimension | Curated Playlist | Focus Area |",
         "| :--- | :--- | :--- |",
+        "| **Microsoft Foundry Architecture and Migration** | [Nubenetes Microsoft Foundry: Enterprise AI Architecture and Migration Guide](https://www.youtube.com/playlist?list=PLIHPlQVunY48) | Comprehensive architectural guide, technical reference, and migration blueprint for Microsoft Foundry: consolidated resource architecture (Microsoft.CognitiveServices/accounts), project workspace isolation, azure-ai-projects SDK (AIProjectClient), Foundry Agent Service, Responses API, automated quality/safety evaluations, and FinOps governance. |",
+        "| **Microsoft Foundry (Español)** | [Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA](https://www.youtube.com/playlist?list=PLCvH88mzNLo8) | Guía arquitectónica completa y metodología de migración empresarial para Microsoft Foundry en Microsoft Azure (Español): unificación del plano de control bajo Microsoft.CognitiveServices/accounts, proyectos aislados, SDK azure-ai-projects, evaluación de modelos y seguridad con Azure Private Link. [SPANISH CONTENT] |",
         "| **Azure Container Strategy** | [Nubenetes Azure Container Strategy: ACI, Container Apps and AKS Architecture](https://www.youtube.com/playlist?list=PLUlxI33bzjWQ) | Architectural decision guide and engineering deep dive on Azure Container Strategy: Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS Standard and AKS Automatic). Covers the 5 decision dimensions (Control, Operations, Scale, Networking, Portability), KEDA queue scaling, Karpenter NAP, Envoy ingress, subnet delegation, persistent volumes, and FinOps idle-compute economics. |",
         "| **Enterprise Kubernetes Platforms** | [Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu and Rancher](https://www.youtube.com/playlist?list=PLAs2nHm8nh2A) | Strategic evaluation and multi-distribution matrix for enterprise Kubernetes platforms across cloud, hybrid on-premises, edge, and private data centers: AKS Standard/Automatic, AKS Local (Azure Arc / Azure Stack HCI), Red Hat OpenShift (ARO), VMware Tanzu (VKS), and SUSE Rancher (RKE2 fleet management). |",
         "| **Enterprise AI Platforms** | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | Architectural reference comparison matrix and production engineering deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI Foundry, Bedrock AgentCore, Vertex AI) vs Turnkey Kubernetes (Red Hat OpenShift AI, watsonx, llm-d, vLLM, Kueue, KAITO), zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture. |",
@@ -331,6 +333,7 @@ def generate_v2_videos():
 
     # Dynamically append any newly discovered @nubenetes playlists from inventory
     known_playlist_ids = {
+        "PLIHPlQVunY48", "PLCvH88mzNLo8",
         "PLUlxI33bzjWQ", "PLAs2nHm8nh2A",
         "PLBZl7QsgYjrw", "PLNKD2Ya-t0zM", "PLCgDGrDt3kNU", "PLaNxiRbEBYJ8", "PLZ-bpd1sEISs",
         "PLc2WtEw1pojo", "PLcCUAwooFb6s", "PLUt4PJvFTysY", "PLDbL5Dh24a5g",

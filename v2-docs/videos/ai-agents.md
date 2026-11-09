@@ -240,6 +240,106 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 Inside Microsoft Foundry's New Architecture | Azure AI Migration [Short]"
+    !!! info "Architectural Summary"
+        Microsoft AI Foundry unifies Azure AI Studio, Azure OpenAI, and Cognitive Services under a consolidated Microsoft.CognitiveServices/accounts enterprise control plane, eliminating fragmented hubs and disparate APIs. The architecture introduces multi-project isolation that shares underlying virtual network configurations, security baselines, and provisioned compute quotas while enforcing team-level governance boundaries. In modern cloud native environments, this architecture provides a standardized control plane pattern for scaling enterprise agentic workflows and LLM orchestration with centralized resource allocation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="pPeNvrZUnV8" data-video-url="https://www.youtube.com/embed/pPeNvrZUnV8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/pPeNvrZUnV8/hqdefault.jpg" alt="Inside Microsoft Foundry's New Architecture | Azure AI Migration [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 The Great Foundry Shift (Part 1): Architectural Transformation & Hub Convergence"
+    !!! info "Architectural Summary"
+        This architectural breakdown analyzes the transition from legacy Azure AI Studio hubs and standalone OpenAI services to the unified Microsoft Azure AI Foundry control plane under Microsoft.CognitiveServices. It demonstrates how cloud platform engineers can establish multi-tenant enterprise boundaries with granular project-level RBAC, centralized token quota allocation, and streamlined governance. For modern cloud-native architectures, this shift provides a standardized foundation to eliminate noisy-neighbor bottlenecks and orchestrate scalable enterprise AI workloads.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="dG74MjIVo1U" data-video-url="https://www.youtube.com/embed/dG74MjIVo1U" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/dG74MjIVo1U/hqdefault.jpg" alt="The Great Foundry Shift (Part 1): Architectural Transformation & Hub Convergence" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Microsoft Foundry Migration Blueprint: Step-by-Step Code & Infra Transition"
+    !!! info "Architectural Summary"
+        This architectural guide details the technical migration of enterprise generative AI and RAG workloads from legacy Azure AI Studio configurations to Microsoft AI Foundry using the modern azure-ai-projects SDK. It outlines zero-downtime cutover patterns, unified orchestration via AIProjectClient, and identity-first security utilizing Microsoft Entra ID managed identities alongside preserved Azure AI Search vector pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="LOUDptSyJQI" data-video-url="https://www.youtube.com/embed/LOUDptSyJQI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/LOUDptSyJQI/hqdefault.jpg" alt="Microsoft Foundry Migration Blueprint: Step-by-Step Code & Infra Transition" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Arquitectura de Microsoft Foundry: Migración Empresarial y Control de Recursos"
+    !!! info "Architectural Summary"
+        Analiza la convergencia arquitectónica de Azure AI Studio, Azure OpenAI y Cognitive Services hacia el plano de control unificado de Microsoft AI Foundry bajo el proveedor de recursos Microsoft.CognitiveServices. Detalla el aislamiento multinivel mediante proyectos, la segmentación estricta de red a través de Azure Private Link y la gobernanza empresarial basada en RBAC y gestión granular de cuotas. Esta evolución proporciona una base sólida para arquitecturas de agentes de IA y flujos de trabajo MLOps nativos de nube, eliminando la exposición pública y facilitando el control de costos corporativo.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="jlYcf5S5Wvw" data-video-url="https://www.youtube.com/embed/jlYcf5S5Wvw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/jlYcf5S5Wvw/hqdefault.jpg" alt="Arquitectura de Microsoft Foundry: Migración Empresarial y Control de Recursos" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción"
+    !!! info "Architectural Summary"
+        Presents a phased architectural framework for migrating generative AI workloads to Microsoft Azure AI Foundry with zero downtime. It details the transition to the unified `azure-ai-projects` SDK and `AIProjectClient` to orchestrate models, agents, and continuous automated evaluation pipelines (including groundedness metrics and Azure AI Content Safety guardrails). This guidance is vital for enterprise MLOps teams standardizing model lifecycle management and safe AI agent deployments in modern cloud environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Y5g-xEnYMYw" data-video-url="https://www.youtube.com/embed/Y5g-xEnYMYw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Y5g-xEnYMYw/hqdefault.jpg" alt="Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide"
+    !!! info "Architectural Summary"
+        This masterclass provides an architectural blueprint for operationalizing generative AI workloads using Microsoft AI Foundry, spanning foundation model evaluation, Azure AI Search-backed enterprise RAG, and real-time content safety guardrails. It demonstrates how to integrate multi-modal LLMs (GPT-4o, Phi-3.5, and open-weights models) seamlessly into production Azure Landing Zones with standardized network topologies and security baselines. For cloud-native architects, it establishes an enterprise-ready framework for bridging AI agent orchestration, governance, and compliant cloud infrastructure.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="0jIpmIPxCSs" data-video-url="https://www.youtube.com/embed/0jIpmIPxCSs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/0jIpmIPxCSs/hqdefault.jpg" alt="Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Nubenetes Microsoft Foundry: Enterprise AI Architecture & Migration Guide"
+    !!! info "Architectural Summary"
+        This architectural guide details the enterprise transition to Microsoft Foundry, unifying Azure OpenAI and Azure AI Studio under a consolidated resource model with project workspace isolation. It provides reference implementations for autonomous agent orchestrations using the azure-ai-projects SDK, Foundry Agent Service, and enterprise RAG integrated with Azure AI Search over zero-trust private endpoints. Additionally, it establishes 2026-ready FinOps governance and automated safety evaluations to balance TPM rate-limiting with provisioned throughput units (PTU) for mission-critical generative workloads.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLIHPlQVunY48" title="Nubenetes Microsoft Foundry: Enterprise AI Architecture & Migration Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ??? note "🎬 What's new in Google AI"
     !!! info "Architectural Summary"
         This presentation outlines Google's latest end-to-end AI stack from Google I/O 2026, focusing on deployment strategies for multimodal models, media generation, and intelligent agents. It details how to leverage Google's managed infrastructure and MLOps tools to tune, serve, and scale open-source models in cloud-native environments. Additionally, it introduces new 'vibe-coding' workflows and agentic capabilities designed to streamline next-generation AI application development.
@@ -325,6 +425,21 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="TUyX5PzEPGA" data-video-url="https://www.youtube.com/embed/TUyX5PzEPGA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/TUyX5PzEPGA/hqdefault.jpg" alt="The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 The Great Microsoft Foundry Shift: Phased Enterprise AI Playbook"
+    !!! info "Architectural Summary"
+        This architectural playbook outlines a zero-downtime, five-stage migration methodology (Discover, Assess, Adapt, Validate, Roll out) for transitioning enterprise AI workloads to Microsoft AI Foundry. By utilizing side-by-side validation with shadow endpoints alongside legacy deployments, platform engineering teams can de-risk model upgrades while enforcing cross-cutting governance, RBAC, and telemetry hooks before cutover. In a 2026 Cloud Native context, this framework provides a standardized blueprint for unifying fragmented generative AI models and agents into an enterprise-ready, governed MLOps fabric.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="qW-sUej_8gA" data-video-url="https://www.youtube.com/embed/qW-sUej_8gA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/qW-sUej_8gA/hqdefault.jpg" alt="The Great Microsoft Foundry Shift: Phased Enterprise AI Playbook" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
@@ -423,6 +538,84 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="YbQP5WRSn_o" data-video-url="https://www.youtube.com/embed/YbQP5WRSn_o" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/YbQP5WRSn_o/hqdefault.jpg" alt="Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure AI Foundry MLOps
+
+??? note "🎬 Navigating the Microsoft Foundry Upgrade | SDK & Project Migration"
+    !!! info "Architectural Summary"
+        This architectural guide details the migration strategy from legacy, fragmented Azure AI libraries to the unified Microsoft Foundry SDK (azure-ai-projects) centered around AIProjectClient. It emphasizes enterprise-grade Zero-Trust authentication via DefaultAzureCredential and Entra ID alongside declarative, unified connection strings across distributed cloud-native environments. For modern platform teams, this transition streamlines enterprise governance, secretless authentication, and consistent MLOps orchestration for production AI workloads.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="t_rzLVBe8CU" data-video-url="https://www.youtube.com/embed/t_rzLVBe8CU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/t_rzLVBe8CU/hqdefault.jpg" alt="Navigating the Microsoft Foundry Upgrade | SDK & Project Migration" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure AI Foundry MLOps AI Agents
+
+??? note "🎬 Microsoft Foundry Production Readiness: Evaluations, SLAs & Safety [Short]"
+    !!! info "Architectural Summary"
+        This architectural overview outlines how to harden generative AI workloads for production using Azure AI Foundry. It focuses on integrating automated quality metrics (groundedness, coherence, relevance) directly into CI/CD deployment pipelines alongside runtime prompt injection shields and content safety guardrails. In a 2026 cloud-native context, it demonstrates how SREs and MLOps teams ensure enterprise reliability through provisioned throughput (PTU), dynamic multi-region failovers, and rigorous SLA latency benchmarking under load.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="JDlkNqJIy9Q" data-video-url="https://www.youtube.com/embed/JDlkNqJIy9Q" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/JDlkNqJIy9Q/hqdefault.jpg" alt="Microsoft Foundry Production Readiness: Evaluations, SLAs & Safety [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA"
+    !!! info "Architectural Summary"
+        This architectural guide details the enterprise migration and consolidation of Azure AI services into Microsoft Azure AI Foundry under a unified control plane with Microsoft.CognitiveServices/accounts. It demonstrates multi-tenant project compartmentalization using the azure-ai-projects SDK and AIProjectClient, establishing rigorous automated LLM evaluations for groundedness, coherence, and safety. Designed for resilient cloud-native AI workloads, it emphasizes zero-trust enterprise isolation via Azure Private Link and streamlined model lifecycle management.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLCvH88mzNLo8" title="Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Azure AI Foundry AI Agents Observability
+
+??? note "🎬 Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability"
+    !!! info "Architectural Summary"
+        This deep dive explores Microsoft Foundry's enterprise Agent Service architecture, demonstrating how managed state persistence, OpenAPI tool calling, and sandboxed code execution eliminate bespoke orchestration middleware. It highlights enterprise observability patterns via OpenTelemetry and Azure Monitor, enabling distributed tracing across LLM token usage, latency bottlenecks, and guardrail evaluation. For modern cloud platforms, this provides an operational blueprint for deploying production-grade, observable, and secured autonomous AI agent workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="STC4L1w2cPg" data-video-url="https://www.youtube.com/embed/STC4L1w2cPg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/STC4L1w2cPg/hqdefault.jpg" alt="Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure AI Foundry FinOps
+
+??? note "🎬 The Great Foundry Shift: Enterprise AI Operating Model & FinOps Governance"
+    !!! info "Architectural Summary"
+        This architectural guide details the implementation of a scalable enterprise operating model and FinOps framework for generative AI workloads on Microsoft Azure AI Foundry. It provides actionable strategies for token rate limiting, quota splitting, and cross-departmental chargeback models, while identifying the capacity threshold between Pay-As-You-Go consumption and Provisioned Throughput Units (PTU). For 2026 enterprise cloud platforms, it establishes essential governance guardrails and policy enforcement mechanisms to ensure predictable unit economics and regulatory compliance at scale.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="CkFIcxzEnVw" data-video-url="https://www.youtube.com/embed/CkFIcxzEnVw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/CkFIcxzEnVw/hqdefault.jpg" alt="The Great Foundry Shift: Enterprise AI Operating Model & FinOps Governance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>

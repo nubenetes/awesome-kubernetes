@@ -716456,3 +716456,831 @@ https://www.youtube.com/playlist?list=PLUlxI33bzjWQ:
   technology: Azure Containers (AKS / ACA / ACI)
   category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/pPeNvrZUnV8:
+  title: Inside Microsoft Foundry's New Architecture | Azure AI Migration [Short]
+  description: "Inside Microsoft Foundry's New Architecture: How Azure is unifying
+    Azure AI Studio, Azure OpenAI, and Cognitive Services into a consolidated enterprise
+    control plane.\n\n\U0001F511 Key Architectural Takeaways:\n• Unified Resource
+    Model: Consolidation under Microsoft.CognitiveServices/accounts simplifies resource
+    governance and eliminates fragmented AI hubs.\n• Multi-Project Isolation: Independent
+    project workspaces share underlying quota, networking, and security configurations
+    while preserving team boundaries.\n• Centralized Quota & Governance: Single-pane-of-glass
+    allocation for provisioned and pay-as-you-go AI workloads across the organization.\n\n\U0001F4DA
+    Official Reference Documentation:\n• Microsoft AI Foundry Documentation: https://learn.microsoft.com/azure/ai-foundry/\n•
+    Microsoft AI Foundry Architecture & Concepts: https://learn.microsoft.com/azure/ai-foundry/concepts/architecture\n•
+    Azure AI Services Overview: https://learn.microsoft.com/azure/ai-services/\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #CloudArchitecture #AzureAI #PlatformEngineering #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: Microsoft AI Foundry unifies Azure AI Studio, Azure OpenAI, and Cognitive
+    Services under a consolidated Microsoft.CognitiveServices/accounts enterprise
+    control plane, eliminating fragmented hubs and disparate APIs. The architecture
+    introduces multi-project isolation that shares underlying virtual network configurations,
+    security baselines, and provisioned compute quotas while enforcing team-level
+    governance boundaries. In modern cloud native environments, this architecture
+    provides a standardized control plane pattern for scaling enterprise agentic workflows
+    and LLM orchestration with centralized resource allocation.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/t_rzLVBe8CU:
+  title: Navigating the Microsoft Foundry Upgrade | SDK & Project Migration
+  description: "Navigating the Microsoft Foundry Upgrade: Essential developer and
+    platform engineering steps for transitioning legacy AI workloads to the new Microsoft
+    Foundry SDK.\n\n\U0001F511 Key Architectural Takeaways:\n• SDK Modernization:
+    Transitioning from fragmented libraries to azure-ai-projects and AIProjectClient.\n•
+    Unified Connection Strings: Consistent resource binding and connection management
+    across local, dev, and production environments.\n• Zero-Trust Identity: Seamless
+    authentication via DefaultAzureCredential and Microsoft Entra ID without embedding
+    API keys.\n\n\U0001F4DA Official Reference Documentation:\n• Microsoft AI Foundry
+    Getting Started: https://learn.microsoft.com/azure/ai-foundry/\n• Azure AI Projects
+    Client Library for Python: https://learn.microsoft.com/python/api/overview/azure/ai-projects-readme\n•
+    Azure AI SDK Overview: https://learn.microsoft.com/azure/ai-foundry/how-to/develop/sdk-overview\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #AzureSDK #Python #AIEngineering #CloudMigration #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details the migration strategy from legacy,
+    fragmented Azure AI libraries to the unified Microsoft Foundry SDK (azure-ai-projects)
+    centered around AIProjectClient. It emphasizes enterprise-grade Zero-Trust authentication
+    via DefaultAzureCredential and Entra ID alongside declarative, unified connection
+    strings across distributed cloud-native environments. For modern platform teams,
+    this transition streamlines enterprise governance, secretless authentication,
+    and consistent MLOps orchestration for production AI workloads.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + MLOps
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/JDlkNqJIy9Q:
+  title: 'Microsoft Foundry Production Readiness: Evaluations, SLAs & Safety [Short]'
+  description: "Microsoft Foundry Production Readiness: How to systematically evaluate,
+    harden, and validate generative AI solutions before deploying to production.\n\n\U0001F511
+    Key Architectural Takeaways:\n• Automated Quality Evaluation: Groundedness, relevance,
+    coherence, and fluency metrics integrated into CI/CD pipelines.\n• Integrated
+    Content Safety: Multi-modal content moderation, prompt shields against injection
+    attacks, and jailbreak detection.\n• Production SLAs & Resiliency: Dynamic failovers,
+    provisioned throughput (PTU), and latency benchmarking under load.\n\n\U0001F4DA
+    Official Reference Documentation:\n• Evaluation of Generative AI Applications:
+    https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-approach\n• Azure
+    AI Content Safety Documentation: https://learn.microsoft.com/azure/ai-services/content-safety/overview\n•
+    Azure Well-Architected Framework for AI: https://learn.microsoft.com/azure/well-architected/ai/\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #AIEvaluation #ContentSafety #EnterpriseAI #ProductionReadiness #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural overview outlines how to harden generative AI workloads
+    for production using Azure AI Foundry. It focuses on integrating automated quality
+    metrics (groundedness, coherence, relevance) directly into CI/CD deployment pipelines
+    alongside runtime prompt injection shields and content safety guardrails. In a
+    2026 cloud-native context, it demonstrates how SREs and MLOps teams ensure enterprise
+    reliability through provisioned throughput (PTU), dynamic multi-region failovers,
+    and rigorous SLA latency benchmarking under load.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry / MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/qW-sUej_8gA:
+  title: 'The Great Microsoft Foundry Shift: Phased Enterprise AI Playbook'
+  description: "The Great Microsoft Foundry Shift: A phased, battle-tested migration
+    playbook for transitioning enterprise AI workloads to Microsoft Foundry with zero
+    downtime.\n\n\U0001F511 Key Architectural Takeaways:\n• 5-Stage Migration Lifecycle:
+    Discover ➔ Assess ➔ Adapt ➔ Validate ➔ Roll out.\n• Non-Disruptive Side-by-Side
+    Validation: Running shadow endpoints in parallel with legacy Azure OpenAI/Studio
+    deployments.\n• Cross-Cutting Governance: Establishing policy compliance, RBAC,
+    and telemetry hooks prior to cutover.\n\n\U0001F4DA Official Reference Documentation:\n•
+    Microsoft AI Foundry Concepts & Migration: https://learn.microsoft.com/azure/ai-foundry/concepts/architecture\n•
+    Azure Cloud Adoption Framework (CAF) for AI: https://learn.microsoft.com/azure/cloud-adoption-framework/innovate/ai/\n•
+    Managing Projects in Microsoft Foundry: https://learn.microsoft.com/azure/ai-foundry/how-to/create-projects\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #CloudMigration #EnterpriseArchitecture #PlatformEngineering #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural playbook outlines a zero-downtime, five-stage migration
+    methodology (Discover, Assess, Adapt, Validate, Roll out) for transitioning enterprise
+    AI workloads to Microsoft AI Foundry. By utilizing side-by-side validation with
+    shadow endpoints alongside legacy deployments, platform engineering teams can
+    de-risk model upgrades while enforcing cross-cutting governance, RBAC, and telemetry
+    hooks before cutover. In a 2026 Cloud Native context, this framework provides
+    a standardized blueprint for unifying fragmented generative AI models and agents
+    into an enterprise-ready, governed MLOps fabric.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/i72ZvGizCEE:
+  title: 'Microsoft Foundry Enterprise Controls: Security, VNet & Deadlines'
+  description: "Microsoft Foundry Enterprise Controls & Critical Deadlines: Network
+    perimeter security, identity isolation, and managing model deprecation schedules.\n\n\U0001F511
+    Key Architectural Takeaways:\n• Network Perimeter Defense: Azure Private Endpoints,
+    disabled public ingress, and managed VNet outbound rules.\n• Data Protection at
+    Rest & Transit: Customer-Managed Keys (CMK) and Azure Managed Identity integration.\n•
+    Deprecation Lifecycles: Tracking model retirement timelines and implementing automated
+    canary testing for newer LLM checkpoints.\n\n\U0001F4DA Official Reference Documentation:\n•
+    Security in Microsoft AI Foundry: https://learn.microsoft.com/azure/ai-foundry/concepts/security\n•
+    Azure OpenAI Model Deprecation & Retires: https://learn.microsoft.com/azure/ai-services/openai/concepts/models\n•
+    Azure Virtual Network & Private Link: https://learn.microsoft.com/azure/private-link/private-endpoint-overview\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #EnterpriseSecurity #ZeroTrust #PrivateLink #FinOps #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural overview details enterprise governance and perimeter
+    defense for Microsoft Azure AI Foundry workloads, emphasizing zero-trust network
+    isolation via Azure Private Endpoints, disabled public ingress, and managed VNet
+    outbound routing. It highlights robust data protection through Customer-Managed
+    Keys (CMK) and Azure Managed Identities alongside operational lifecycle strategies
+    to manage LLM deprecation via automated canary deployments. For 2026 enterprise
+    cloud-native environments, these patterns provide a hardened blueprint for securely
+    deploying generative AI and agentic systems while strictly complying with corporate
+    security boundaries.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry
+  category: Security and Compliance
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=dG74MjIVo1U:
+  title: 'The Great Foundry Shift (Part 1): Architectural Transformation & Hub Convergence'
+  description: "The Great Foundry Shift (Part 1): Architectural Transformation & Hub
+    Convergence.\n\nIn this deep dive, we examine the structural evolution of enterprise
+    AI on Microsoft Azure. We break down the transition from legacy Azure AI Studio
+    hubs and standalone Azure OpenAI resources to the unified Microsoft Foundry architecture,
+    explaining how platform engineering teams can achieve enterprise-scale isolation,
+    consolidated quota allocation, and centralized governance.\n\n⏱️ Timestamps &
+    Topic Breakdown:\n00:00 - Introduction: The Evolution toward Microsoft Foundry\n01:15
+    - Why Azure AI Studio & OpenAI Hubs Needed Convergence\n02:40 - The New Consolidated
+    Resource Architecture (Microsoft.CognitiveServices)\n04:10 - Enterprise Project
+    Isolation & Multi-Tenant Boundaries\n05:35 - Centralized Quota Allocation & Billing
+    Management\n06:40 - Strategic Roadmap & Next Steps for Platform Engineers\n\n\U0001F511
+    Key Architectural Takeaways:\n• Single Control Plane: Replaces decoupled AI hubs
+    with a streamlined resource model under Microsoft.CognitiveServices/accounts.\n•
+    Fine-Grained Workspace Boundaries: Foundry Projects provide strict RBAC scoping,
+    asset isolation, and cost tracking for diverse developer squads.\n• Scalable Quota
+    Distribution: Eliminate noisy-neighbor bottlenecks through centralized token capacity
+    management.\n\n\U0001F4DA Official Reference Documentation:\n• Microsoft AI Foundry
+    Documentation: https://learn.microsoft.com/azure/ai-foundry/\n• Azure AI Foundry
+    Concepts & Workspace Model: https://learn.microsoft.com/azure/ai-foundry/concepts/architecture\n•
+    Azure Architecture Center - AI Workload Guide: https://learn.microsoft.com/azure/architecture/guide/ai/\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #AzureAI #CloudArchitecture #PlatformEngineering #EnterpriseAI #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown analyzes the transition from legacy Azure
+    AI Studio hubs and standalone OpenAI services to the unified Microsoft Azure AI
+    Foundry control plane under Microsoft.CognitiveServices. It demonstrates how cloud
+    platform engineers can establish multi-tenant enterprise boundaries with granular
+    project-level RBAC, centralized token quota allocation, and streamlined governance.
+    For modern cloud-native architectures, this shift provides a standardized foundation
+    to eliminate noisy-neighbor bottlenecks and orchestrate scalable enterprise AI
+    workloads.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=LOUDptSyJQI:
+  title: 'Microsoft Foundry Migration Blueprint: Step-by-Step Code & Infra Transition'
+  description: "Microsoft Foundry Migration Blueprint: Step-by-Step Code & Infrastructure
+    Transition.\n\nA hands-on engineering guide to migrating active enterprise generative
+    AI workloads to Microsoft Foundry. We cover dependency updates, migrating from
+    legacy SDK wrappers to the new azure-ai-projects library, configuring AIProjectClient,
+    shifting vector store connections, and managing seamless cutovers.\n\n⏱️ Timestamps
+    & Topic Breakdown:\n00:00 - Migration Overview: From Azure AI Studio to Microsoft
+    Foundry\n01:20 - Inventory & Discovery: Auditing Models, Endpoints & Connections\n02:50
+    - Transitioning the Codebase: The azure-ai-projects Python SDK\n04:15 - Moving
+    Vector Search & RAG Data Pipelines\n05:30 - Security & Identity: DefaultAzureCredential
+    & Entra ID Scoping\n06:30 - Zero-Downtime Rollout Strategy & Verification\n\n\U0001F511
+    Key Architectural Takeaways:\n• Modern SDK Architecture: Leverage AIProjectClient
+    for unified model inference, agent orchestration, and evaluation.\n• Identity-First
+    Security: Replace API keys with Microsoft Entra ID managed identities and fine-grained
+    Cognitive Services roles.\n• Pipeline Compatibility: Maintain continuous integration
+    with existing Azure AI Search vector indexes without full reindexing.\n\n\U0001F4DA
+    Official Reference Documentation:\n• Microsoft AI Foundry Migration Overview:
+    https://learn.microsoft.com/azure/ai-foundry/\n• Azure AI Projects Client Library
+    for Python: https://learn.microsoft.com/python/api/overview/azure/ai-projects-readme\n•
+    Connect Your App to Azure AI Foundry: https://learn.microsoft.com/azure/ai-foundry/how-to/develop/sdk-overview\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #CloudMigration #Python #AIEngineering #DevOps #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details the technical migration of enterprise
+    generative AI and RAG workloads from legacy Azure AI Studio configurations to
+    Microsoft AI Foundry using the modern azure-ai-projects SDK. It outlines zero-downtime
+    cutover patterns, unified orchestration via AIProjectClient, and identity-first
+    security utilizing Microsoft Entra ID managed identities alongside preserved Azure
+    AI Search vector pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=jlYcf5S5Wvw:
+  title: 'Arquitectura de Microsoft Foundry: Migración Empresarial y Control de Recursos'
+  description: "Arquitectura de Microsoft Foundry: Migración Empresarial y Control
+    de Recursos.\n\nAnálisis técnico en profundidad sobre la arquitectura y evolución
+    de Microsoft Foundry en Azure. Analizamos la convergencia de Azure AI Studio,
+    Azure OpenAI y los Servicios Cognitivos en un plano de control unificado, detallando
+    el modelo de recursos, el aislamiento de proyectos, las redes privadas virtuales
+    y el gobierno empresarial.\n\n⏱️ Marcas de Tiempo y Contenidos:\n00:00 - Introducción:
+    La Transformación hacia Microsoft Foundry\n01:10 - Desafíos de los Modelos Previos:
+    Hubs, Proyectos y Recursos Aislados\n02:35 - El Nuevo Modelo de Recursos Unificado
+    en Azure (Microsoft.CognitiveServices)\n03:55 - Redes Privadas, Private Endpoints
+    y Aislamiento de Red (VNet)\n05:15 - Gobernanza Empresarial, Roles RBAC y Gestión
+    de Cuotas\n06:10 - Resumen y Próximos Pasos en la Estrategia Cloud Native\n\n\U0001F511
+    Puntos Clave de Arquitectura:\n• Plano de Control Unificado: Centralización bajo
+    el modelo de recursos Microsoft.CognitiveServices/accounts para simplificar la
+    administración.\n• Aislamiento por Proyectos: Los proyectos de Foundry permiten
+    compartimentar accesos, cuotas y activos manteniendo directivas de seguridad corporativas.\n•
+    Seguridad de Red Integral: Integración nativa con Azure Private Link, eliminando
+    la exposición pública de los endpoints de inferencia.\n\n\U0001F4DA Documentación
+    Oficial de Referencia:\n• Documentación Oficial de Microsoft AI Foundry: https://learn.microsoft.com/azure/ai-foundry/\n•
+    Arquitectura y Conceptos de Microsoft Foundry: https://learn.microsoft.com/azure/ai-foundry/concepts/architecture\n•
+    Seguridad y Aislamiento de Red en Azure AI: https://learn.microsoft.com/azure/ai-foundry/concepts/security\n\n\U0001F310
+    Explora Arquitecturas Cloud Native e IA:\n• Portal Nubenetes: https://nubenetes.com/\n•
+    Catálogo de Vídeos de Nubenetes: https://nubenetes.com/videos/\n\n#MicrosoftFoundry
+    #AzureAIFoundry #ArquitecturaCloud #AzureAI #PlatformEngineering #CloudNative
+    #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: Analiza la convergencia arquitectónica de Azure AI Studio, Azure OpenAI
+    y Cognitive Services hacia el plano de control unificado de Microsoft AI Foundry
+    bajo el proveedor de recursos Microsoft.CognitiveServices. Detalla el aislamiento
+    multinivel mediante proyectos, la segmentación estricta de red a través de Azure
+    Private Link y la gobernanza empresarial basada en RBAC y gestión granular de
+    cuotas. Esta evolución proporciona una base sólida para arquitecturas de agentes
+    de IA y flujos de trabajo MLOps nativos de nube, eliminando la exposición pública
+    y facilitando el control de costos corporativo.
+  language: Spanish
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=Y5g-xEnYMYw:
+  title: 'Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción'
+  description: "Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción.\n\nGuía
+    práctica y metodológica para planificar y ejecutar la migración de soluciones
+    de IA generativa a Microsoft Foundry. Cubrimos las etapas de descubrimiento, adaptación
+    de librerías al SDK azure-ai-projects, suites de evaluación continua, guardarraíles
+    de seguridad y gestión del ciclo de vida de los modelos.\n\n⏱️ Marcas de Tiempo
+    y Contenidos:\n00:00 - Marco de Trabajo para la Migración a Producción\n01:05
+    - Metodología por Fases: De la Auditoría al Despliegue\n02:20 - Adaptación de
+    Código con el SDK azure-ai-projects\n03:40 - Métricas de Evaluación Automatizada
+    y Content Safety\n04:55 - Gestión del Ciclo de Vida de Modelos y Fechas Límite\n05:40
+    - Conclusiones y Validación de la Puesta en Producción\n\n\U0001F511 Puntos Clave
+    de Arquitectura:\n• Metodología de Migración Segura: Descubrimiento, evaluación,
+    adaptación, validación y despliegue sin tiempos de inactividad.\n• Modernización
+    de SDKs: Implementación de AIProjectClient para orquestar modelos, agentes y evaluaciones
+    de forma unificada.\n• Evaluación y Seguridad: Uso de Azure AI Content Safety
+    y pipelines de evaluación para validar groundedness y mitigar riesgos en producción.\n\n\U0001F4DA
+    Documentación Oficial de Referencia:\n• Guía de Migración en Microsoft AI Foundry:
+    https://learn.microsoft.com/azure/ai-foundry/\n• Evaluación de Aplicaciones de
+    IA Generativa: https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-approach\n•
+    Ciclo de Vida y Retirada de Modelos en Azure: https://learn.microsoft.com/azure/ai-services/openai/concepts/models\n\n\U0001F310
+    Explora Arquitecturas Cloud Native e IA:\n• Portal Nubenetes: https://nubenetes.com/\n•
+    Catálogo de Vídeos de Nubenetes: https://nubenetes.com/videos/\n\n#MicrosoftFoundry
+    #AzureAIFoundry #MigracionIA #Python #IAGenerativa #AzureDevOps #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: Presents a phased architectural framework for migrating generative AI
+    workloads to Microsoft Azure AI Foundry with zero downtime. It details the transition
+    to the unified `azure-ai-projects` SDK and `AIProjectClient` to orchestrate models,
+    agents, and continuous automated evaluation pipelines (including groundedness
+    metrics and Azure AI Content Safety guardrails). This guidance is vital for enterprise
+    MLOps teams standardizing model lifecycle management and safe AI agent deployments
+    in modern cloud environments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=STC4L1w2cPg:
+  title: 'Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability'
+  description: "Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability.\n\nExplore
+    advanced developer and operational capabilities in Microsoft Foundry. We unpack
+    the Foundry Agent Service, tool calling, serverless code interpretation, stateful
+    conversation persistence, and how to implement comprehensive observability using
+    OpenTelemetry and Azure Monitor Application Insights.\n\n⏱️ Timestamps & Topic
+    Breakdown:\n00:00 - Introduction & The Agentic Paradigm in Microsoft Foundry\n01:15
+    - Microsoft Foundry Agent Service Architecture & Capabilities\n02:40 - The Responses
+    API: Tool Calling, Code Interpreter & Bing Grounding\n04:05 - End-to-End Observability:
+    OpenTelemetry & Azure Monitor Tracing\n05:25 - Continuous Evaluation, Red Teaming
+    & Guardrails\n06:15 - Production Summary & Engineering Best Practices\n\n\U0001F511
+    Key Architectural Takeaways:\n• Native Agent Service: Built-in state management,
+    tool execution, and multi-turn thread handling without bespoke middleware.\n•
+    Unified Tool Execution: Seamless integration with enterprise OpenAPI specs, Python
+    code execution sandboxes, and web search grounding.\n• Distributed Tracing: Deep
+    visibility into token consumption, latency breakdown, and execution spans via
+    OpenTelemetry standards.\n\n\U0001F4DA Official Reference Documentation:\n• Azure
+    AI Agent Service Overview: https://learn.microsoft.com/azure/ai-services/agents/overview\n•
+    Monitoring & Tracing in Azure AI Foundry: https://learn.microsoft.com/azure/ai-foundry/how-to/monitor-applications\n•
+    Microsoft AI Foundry Architecture: https://learn.microsoft.com/azure/ai-foundry/concepts/architecture\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #AIAgents #OpenTelemetry #Observability #PlatformEngineering #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This deep dive explores Microsoft Foundry's enterprise Agent Service
+    architecture, demonstrating how managed state persistence, OpenAPI tool calling,
+    and sandboxed code execution eliminate bespoke orchestration middleware. It highlights
+    enterprise observability patterns via OpenTelemetry and Azure Monitor, enabling
+    distributed tracing across LLM token usage, latency bottlenecks, and guardrail
+    evaluation. For modern cloud platforms, this provides an operational blueprint
+    for deploying production-grade, observable, and secured autonomous AI agent workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + AI Agents + Observability
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=CkFIcxzEnVw:
+  title: 'The Great Foundry Shift: Enterprise AI Operating Model & FinOps Governance'
+  description: "The Great Foundry Shift: Enterprise AI Operating Model & FinOps Governance.\n\nA
+    strategic guide for cloud architects, platform leads, and FinOps practitioners
+    navigating enterprise AI operations on Microsoft Foundry. Learn how to design
+    a sustainable operating model, control generative AI spending across business
+    units, optimize Token-per-Minute (TPM) limits, and balance Pay-As-You-Go with
+    Provisioned Throughput Units (PTU).\n\n⏱️ Timestamps & Topic Breakdown:\n00:00
+    - Strategic Perspective: The Great Foundry Shift Explained\n01:25 - Establishing
+    an Enterprise AI Center of Excellence (CoE)\n02:50 - FinOps for GenAI: Pay-As-You-Go
+    vs Provisioned Throughput (PTU)\n04:20 - Token Rate Limiting, Quota Splitting
+    & Cross-Chargebacks\n05:45 - Compliance, Audit Logs & Enterprise Data Sovereignty\n06:50
+    - The Future of Enterprise AI Operations on Azure\n\n\U0001F511 Key Architectural
+    Takeaways:\n• AI Cost Transparency: Tagging, cost allocation, and chargeback models
+    tailored for token-based workloads.\n• Capacity Planning: Determining the inflection
+    point where PTU deployment becomes more cost-effective than consumption-based
+    inference.\n• Governance Guardrails: Enforcing Azure Policy across all Foundry
+    projects to mandate networking, key vaults, and logging configurations.\n\n\U0001F4DA
+    Official Reference Documentation:\n• Microsoft AI Foundry Concepts & Governance:
+    https://learn.microsoft.com/azure/ai-foundry/concepts/architecture\n• Plan and
+    Manage Costs for Azure OpenAI & AI Services: https://learn.microsoft.com/azure/ai-services/openai/how-to/manage-costs\n•
+    Microsoft Cloud Adoption Framework - AI Governance: https://learn.microsoft.com/azure/cloud-adoption-framework/innovate/ai/\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #FinOps #EnterpriseAI #CloudGovernance #PlatformEngineering #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details the implementation of a scalable enterprise
+    operating model and FinOps framework for generative AI workloads on Microsoft
+    Azure AI Foundry. It provides actionable strategies for token rate limiting, quota
+    splitting, and cross-departmental chargeback models, while identifying the capacity
+    threshold between Pay-As-You-Go consumption and Provisioned Throughput Units (PTU).
+    For 2026 enterprise cloud platforms, it establishes essential governance guardrails
+    and policy enforcement mechanisms to ensure predictable unit economics and regulatory
+    compliance at scale.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + FinOps
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=0jIpmIPxCSs:
+  title: 'Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide'
+  description: "Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide.\n\nThe
+    comprehensive masterclass on Microsoft Foundry. We guide you through the entire
+    lifecycle: navigating the portal, evaluating foundation models across the model
+    catalog (GPT-4o, Phi-3.5, Mistral, Llama 3), implementing Enterprise RAG with
+    Azure AI Search, applying real-time content safety filters, and operationalizing
+    applications in production landing zones.\n\n⏱️ Timestamps & Topic Breakdown:\n00:00
+    - Masterclass Introduction: Microsoft Foundry in the Enterprise\n01:30 - Exploring
+    the Microsoft Foundry Portal & Model Catalog\n03:00 - Deploying Multi-Modal Models:
+    GPT-4o, Phi & Open-Source LLMs\n04:35 - Building Advanced RAG with Azure AI Search
+    Integration\n06:10 - Applying Real-Time Safety Guardrails & Prompt Shield\n07:35
+    - Deployment Architecture: Connecting to Azure Landing Zones\n08:30 - Summary
+    & Production Checklist for Architects\n\n\U0001F511 Key Architectural Takeaways:\n•
+    End-to-End Lifecycle: Unifies model discovery, fine-tuning, RAG indexing, evaluation,
+    and production deployment.\n• Open Model Ecosystem: Deploy proprietary frontier
+    models and leading open-weights LLMs side-by-side with uniform APIs.\n• Production
+    Landing Zone Integration: Native alignment with Azure Landing Zones (ALZ) security
+    baselines and network topology.\n\n\U0001F4DA Official Reference Documentation:\n•
+    Microsoft AI Foundry Official Portal & Documentation: https://learn.microsoft.com/azure/ai-foundry/\n•
+    Model Catalog in Azure AI Foundry: https://learn.microsoft.com/azure/ai-foundry/how-to/model-catalog-overview\n•
+    Enterprise RAG with Azure AI Search: https://learn.microsoft.com/azure/search/retrieval-augmented-generation-overview\n•
+    Azure Well-Architected Framework for AI: https://learn.microsoft.com/azure/well-architected/ai/\n\n\U0001F310
+    Explore Cloud Native & AI Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#MicrosoftFoundry #AzureAIFoundry
+    #Masterclass #EnterpriseAI #AzureArchitecture #GenerativeAI #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This masterclass provides an architectural blueprint for operationalizing
+    generative AI workloads using Microsoft AI Foundry, spanning foundation model
+    evaluation, Azure AI Search-backed enterprise RAG, and real-time content safety
+    guardrails. It demonstrates how to integrate multi-modal LLMs (GPT-4o, Phi-3.5,
+    and open-weights models) seamlessly into production Azure Landing Zones with standardized
+    network topologies and security baselines. For cloud-native architects, it establishes
+    an enterprise-ready framework for bridging AI agent orchestration, governance,
+    and compliant cloud infrastructure.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLCvH88mzNLo8:
+  title: 'Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA'
+  description: 'Guía arquitectónica completa y metodología de migración empresarial
+    para Microsoft Foundry en Microsoft Azure (Español).
+
+
+    Analiza la unificación del plano de control de IA en Azure bajo Microsoft.CognitiveServices/accounts,
+    la compartimentación de proyectos, la transición al SDK azure-ai-projects con
+    AIProjectClient, evaluación automatizada de modelos (groundedness, coherencia
+    y seguridad de contenidos), aislamiento con Azure Private Link y gestión del ciclo
+    de vida de modelos.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details the enterprise migration and consolidation
+    of Azure AI services into Microsoft Azure AI Foundry under a unified control plane
+    with Microsoft.CognitiveServices/accounts. It demonstrates multi-tenant project
+    compartmentalization using the azure-ai-projects SDK and AIProjectClient, establishing
+    rigorous automated LLM evaluations for groundedness, coherence, and safety. Designed
+    for resilient cloud-native AI workloads, it emphasizes zero-trust enterprise isolation
+    via Azure Private Link and streamlined model lifecycle management.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLIHPlQVunY48:
+  title: 'Nubenetes Microsoft Foundry: Enterprise AI Architecture & Migration Guide'
+  description: 'Comprehensive architectural guide, technical reference, and migration
+    blueprint for Microsoft Foundry (formerly Azure AI Studio & Azure OpenAI).
+
+
+    Covers the consolidated resource architecture (Microsoft.CognitiveServices/accounts),
+    project workspace isolation, upgrading to the azure-ai-projects Python SDK (AIProjectClient),
+    Foundry Agent Service, Responses API, automated quality and safety evaluations,
+    Enterprise RAG with Azure AI Search, Private Endpoints and VNet security, and
+    FinOps operating models (TPM rate limiting, Pay-As-You-Go vs PTU).'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details the enterprise transition to Microsoft
+    Foundry, unifying Azure OpenAI and Azure AI Studio under a consolidated resource
+    model with project workspace isolation. It provides reference implementations
+    for autonomous agent orchestrations using the azure-ai-projects SDK, Foundry Agent
+    Service, and enterprise RAG integrated with Azure AI Search over zero-trust private
+    endpoints. Additionally, it establishes 2026-ready FinOps governance and automated
+    safety evaluations to balance TPM rate-limiting with provisioned throughput units
+    (PTU) for mission-critical generative workloads.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794238620
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:37:00.909362+01:00'
+  last_ai_eval: '2026-11-09T16:37:00.909362+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
