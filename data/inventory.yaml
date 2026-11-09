@@ -715095,13 +715095,9 @@ https://www.youtube.com/shorts/gbXCFGCR1-Q:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715119,6 +715115,11 @@ https://www.youtube.com/shorts/gbXCFGCR1-Q:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/jGvJ4tCzH90:
   title: 'SUSE Rancher vs VMware Tanzu: Multi-Cloud vs Private Cloud Kubernetes'
@@ -715175,13 +715176,9 @@ https://www.youtube.com/shorts/jGvJ4tCzH90:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715199,6 +715196,11 @@ https://www.youtube.com/shorts/jGvJ4tCzH90:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/RyxKRdYWnuE:
   title: 'VMware Tanzu vs vSphere Kubernetes Service (VKS): Enterprise Modernization
@@ -715258,13 +715260,9 @@ https://www.youtube.com/shorts/RyxKRdYWnuE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715282,6 +715280,11 @@ https://www.youtube.com/shorts/RyxKRdYWnuE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/R8JUMZPpXA8:
   title: 'How to Choose Your Azure Container Strategy: ACI, ACA, AKS Automatic & Standard'
@@ -715337,13 +715340,9 @@ https://www.youtube.com/shorts/R8JUMZPpXA8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715361,6 +715360,11 @@ https://www.youtube.com/shorts/R8JUMZPpXA8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/NHeyQpW6i5s:
   title: 'AKS vs Azure Container Apps: The Cost of Control & Scale-to-Zero FinOps'
@@ -715412,13 +715416,9 @@ https://www.youtube.com/shorts/NHeyQpW6i5s:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715436,6 +715436,11 @@ https://www.youtube.com/shorts/NHeyQpW6i5s:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/27qa8ycKKqQ:
   title: 'Azure Container Apps vs AKS: The 5 Enterprise Evaluation Dimensions'
@@ -715487,13 +715492,9 @@ https://www.youtube.com/shorts/27qa8ycKKqQ:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Container Apps vs AKS
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715511,6 +715512,11 @@ https://www.youtube.com/shorts/27qa8ycKKqQ:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Container Apps vs AKS
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/fiDX1UQEJGk:
   title: 'Azure Container Apps vs AKS Architecture: Subnet Delegation & Network Isolation'
@@ -715560,13 +715566,9 @@ https://www.youtube.com/shorts/fiDX1UQEJGk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Container Apps / AKS
-  category: Networking and Service Mesh
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715584,6 +715586,11 @@ https://www.youtube.com/shorts/fiDX1UQEJGk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Container Apps / AKS
+  category: Networking and Service Mesh
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/cFEVTanz10Q:
   title: 'Picking the Right Azure Container Service: ACI vs ACA vs AKS Control Spectrum'
@@ -715635,13 +715642,9 @@ https://www.youtube.com/shorts/cFEVTanz10Q:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Containers (ACI, ACA, AKS)
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715659,6 +715662,11 @@ https://www.youtube.com/shorts/cFEVTanz10Q:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Containers (ACI, ACA, AKS)
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/rzSGdZlZXOg:
   title: 'Azure Containers Explained: Developer Velocity vs Infrastructure Governance'
@@ -715704,13 +715712,9 @@ https://www.youtube.com/shorts/rzSGdZlZXOg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715728,6 +715732,11 @@ https://www.youtube.com/shorts/rzSGdZlZXOg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/OAS-Ptba1Ls:
   title: 'The Hybrid Azure Container Strategy: Combining Container Apps & AKS Core
@@ -715782,13 +715791,9 @@ https://www.youtube.com/shorts/OAS-Ptba1Ls:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Kubernetes Service & Azure Container Apps
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715806,6 +715811,11 @@ https://www.youtube.com/shorts/OAS-Ptba1Ls:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Kubernetes Service & Azure Container Apps
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/KHuhkhgc2Ck:
   title: 'How Azure Container Autoscaling Works: KEDA Queue Scaling vs Cluster Autoscaler'
@@ -715856,13 +715866,9 @@ https://www.youtube.com/shorts/KHuhkhgc2Ck:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Container Apps / KEDA
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715880,6 +715886,11 @@ https://www.youtube.com/shorts/KHuhkhgc2Ck:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Container Apps / KEDA
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/u9TLuO1wNPw:
   title: 'Why Azure Container Apps Blocks Custom Operators: CRDs & API Abstraction
@@ -715931,13 +715942,9 @@ https://www.youtube.com/shorts/u9TLuO1wNPw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Container Apps
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -715955,6 +715962,11 @@ https://www.youtube.com/shorts/u9TLuO1wNPw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Container Apps
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=AdKSA50W4P4:
   title: 'AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud'
@@ -716059,13 +716071,9 @@ https://www.youtube.com/watch?v=AdKSA50W4P4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -716083,6 +716091,11 @@ https://www.youtube.com/watch?v=AdKSA50W4P4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=kSlp-I6WvqE:
   title: 'Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix'
@@ -716184,13 +716197,9 @@ https://www.youtube.com/watch?v=kSlp-I6WvqE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -716208,6 +716217,11 @@ https://www.youtube.com/watch?v=kSlp-I6WvqE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=gIBnUR1CHNY:
   title: 'Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide'
@@ -716303,13 +716317,9 @@ https://www.youtube.com/watch?v=gIBnUR1CHNY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Containers (AKS / ACA / ACI)
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -716327,6 +716337,11 @@ https://www.youtube.com/watch?v=gIBnUR1CHNY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Containers (AKS / ACA / ACI)
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLAs2nHm8nh2A:
   title: 'Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher'
@@ -716358,13 +716373,9 @@ https://www.youtube.com/playlist?list=PLAs2nHm8nh2A:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -716382,6 +716393,11 @@ https://www.youtube.com/playlist?list=PLAs2nHm8nh2A:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLUlxI33bzjWQ:
   title: '⭐ Nubenetes Azure Container Strategy: ACI, Container Apps & AKS Architecture'
@@ -716414,13 +716430,9 @@ https://www.youtube.com/playlist?list=PLUlxI33bzjWQ:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Containers (AKS / ACA / ACI)
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794232540
   needs_ai_refresh: false
@@ -716438,4 +716450,9 @@ https://www.youtube.com/playlist?list=PLUlxI33bzjWQ:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Containers (AKS / ACA / ACI)
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel

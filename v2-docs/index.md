@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 19963 total resources analyzed.
-    - **V2 Elite Selection**: 15856 candidates identified (79.43% density ratio).
-    - **AI Enrichment Coverage**: 15856 / 15856 (100.0%)
+    - **V1 Base Inventory**: 19980 total resources analyzed.
+    - **V2 Elite Selection**: 15873 candidates identified (79.44% density ratio).
+    - **AI Enrichment Coverage**: 15873 / 15873 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -106,7 +106,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 07, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 09, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -142,7 +142,7 @@
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kueue">kubernetes-sigs/kueue: Kubernetes-native Job Queueing</a></div>
   <div class="trending-card__meta">2026-11-05 · 3.1k★</div>
-  <div class="trending-card__why">Kueue has emerged as the standard Kubernetes-native job queueing controller essential for modern AI/ML and batch workload orchestration.</div>
+  <div class="trending-card__why">Kueue has become the CNCF standard for batch scheduling and quota management, enabling scalable AI/ML and HPC workloads on Kubernetes.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -184,24 +184,24 @@
   <div class="trending-card__category">Spain</div>
   <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLRTV86SuuRbk">Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)</a></div>
   <div class="trending-card__meta">2026-11-02 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Demonstrates zero-code multi-cloud Kubernetes telemetry using OpenTelemetry eBPF Instrumentation (OBI) to eliminate conventional agent and sidecar monitoring friction.</div>
+  <div class="trending-card__why">Addresses next-generation multi-cloud observability by pairing OpenTelemetry Collectors with kernel-level eBPF instrumentation to eliminate agent overhead.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">CI/CD & GitOps</div>
   <div class="trending-card__title"><a href="https://github.com/fluxcd/flux2">github: Flux Version 2</a></div>
   <div class="trending-card__meta">2026-11-01 · 8.5k★</div>
   <div class="trending-card__why">Flux v2 is a graduated CNCF standard providing the decoupled GitOps Toolkit architecture for enterprise Kubernetes deployments.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Security & Compliance</div>
   <div class="trending-card__title"><a href="https://github.com/hashicorp/vault">hashicorp/vault</a></div>
   <div class="trending-card__meta">2026-11-01 · 36.5k★</div>
   <div class="trending-card__why">HashiCorp Vault remains the foundational enterprise engine for dynamic secrets, identity brokering, and zero-trust cloud infrastructure.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Containers & Runtime</div>
   <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
   <div class="trending-card__meta">2026-10-31 · 21.4k★</div>
@@ -261,7 +261,7 @@
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kubebuilder">kubernetes-sigs/kubebuilder</a></div>
   <div class="trending-card__meta">2026-11-05 · 9.4k★</div>
-  <div class="trending-card__why">Kubebuilder is the industry-standard framework providing foundational scaffolding and controller-runtime abstractions for Kubernetes operators.</div>
+  <div class="trending-card__why">Kubebuilder serves as the industry-standard scaffolding and development framework for implementing production-ready Kubernetes Custom Resource Definitions and controllers.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
