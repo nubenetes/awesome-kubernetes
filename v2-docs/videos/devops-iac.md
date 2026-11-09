@@ -663,6 +663,23 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Azure AI Foundry
+
+??? note "🎬 Microsoft Foundry Enterprise Controls: Security, VNet & Deadlines"
+    !!! info "Architectural Summary"
+        This architectural overview details enterprise governance and perimeter defense for Microsoft Azure AI Foundry workloads, emphasizing zero-trust network isolation via Azure Private Endpoints, disabled public ingress, and managed VNet outbound routing. It highlights robust data protection through Customer-Managed Keys (CMK) and Azure Managed Identities alongside operational lifecycle strategies to manage LLM deprecation via automated canary deployments. For 2026 enterprise cloud-native environments, these patterns provide a hardened blueprint for securely deploying generative AI and agentic systems while strictly complying with corporate security boundaries.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="i72ZvGizCEE" data-video-url="https://www.youtube.com/embed/i72ZvGizCEE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/i72ZvGizCEE/hqdefault.jpg" alt="Microsoft Foundry Enterprise Controls: Security, VNet & Deadlines" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"
