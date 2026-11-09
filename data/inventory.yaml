@@ -717284,3 +717284,612 @@ https://www.youtube.com/playlist?list=PLIHPlQVunY48:
   technology: MLOps + AI Agents
   category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=ZNMJVmmo6IA:
+  title: 'Kubernetes Autoscaling Architecture: Layer 1 Workload vs. Layer 2 Infrastructure
+    Deep Dive'
+  description: "Deep dive into the two-layer architectural model of Kubernetes autoscaling:
+    Layer 1 (Pod & Workload Level) vs. Layer 2 (Node & Infrastructure Level). Learn
+    why cluster instability and cost blowouts stem from scaling the wrong layer or
+    relying on inflated resource requests.\n\n\U0001F511 Architectural Breakdown:\n•
+    Layer 1 (Workload Capacity): Adjusting replica counts (horizontal scaling via
+    HPA, KEDA, Knative) or container resource requests (vertical scaling via VPA).\n•
+    Layer 2 (Infrastructure Capacity): Provisioning and deprovisioning cloud VMs/bare-metal
+    instances when the Kubernetes scheduler detects pending, unschedulable pods (Cluster
+    Autoscaler, Karpenter).\n• The Decoupling Trap: Node autoscalers bin-pack based
+    on requested resources, NOT actual CPU utilization. Severe overprovisioning leads
+    to artificial node scale-outs and stranded cloud capacity.\n• Interaction Pipeline:
+    How Metrics Server polling intervals, HPA controller evaluation loops, kube-scheduler
+    predicates, and cloud provider APIs coordinate under load.\n\n\U0001F4DA Official
+    Documentation & Technical References:\n• Kubernetes Scheduler & Resource Management:
+    https://kubernetes.io/docs/concepts/scheduling-eviction/\n• Kubernetes Workload
+    Autoscaling: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/\n•
+    Karpenter Node Provisioning: https://karpenter.sh/\n• CloudPilot AI Autoscaling
+    Architecture: https://cloudpilot.ai/blog/k8s-autoscaling-comparison/\n• Ivinco
+    Kubernetes Autoscaling Guide: https://www.ivinco.com/blog/kubernetes-autoscaling\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Kubernetes
+    #Autoscaling #CloudNative #PlatformEngineering #Karpenter #HPA #DevOps #SRE #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown examines the operational decoupling between
+    Layer 1 workload scaling (HPA, VPA, KEDA) and Layer 2 infrastructure provisioning
+    (Cluster Autoscaler, Karpenter). It details how node bin-packing decisions drive
+    cloud spend based strictly on pod resource requests rather than real-time utilization,
+    leading to artificial capacity scale-outs. For modern cloud-native architectures,
+    mastering this interaction pipeline—from Metrics Server polling loops to scheduler
+    predicates—is essential for eliminating stranded capacity and ensuring resilient
+    cluster scaling.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/rMlEo2dowJg:
+  title: 'How Knative Panic Mode Scales HTTP Traffic: Concurrency & Latency Defense
+    [Short]'
+  description: "How the Knative Pod Autoscaler (KPA) uses Panic Mode and request concurrency
+    metrics to protect HTTP tail latency (p95/p99) during traffic surges.\n\n⚡ Key
+    Architectural Highlights:\n• Request-Driven Scaling: Scales based on in-flight
+    HTTP/gRPC request concurrency or requests-per-second (RPS) rather than delayed
+    CPU/memory metrics.\n• Sub-Second Panic Mode: Instantly bypasses standard 60-second
+    stable averaging windows when incoming request spikes exceed thresholds, rapidly
+    scaling up pods in sub-second time.\n• True Scale-to-Zero: Gracefully drains traffic
+    and scales workloads to zero when idle, activating activator proxies on incoming
+    requests.\n\n\U0001F4DA Reference Documentation:\n• Knative Autoscaling Overview:
+    https://knative.dev/docs/serving/autoscaling/\n• Knative KPA vs HPA: https://knative.dev/docs/serving/autoscaling/autoscaler-types/\n•
+    ThinhDA Engineering Autoscaling Analysis: https://thinhdanggroup.github.io/keda-knative-kubenetes/\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Knative
+    #Kubernetes #Serverless #Autoscaling #Microservices #CloudNative #SRE #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown explores how the Knative Pod Autoscaler
+    (KPA) defends p95/p99 tail latencies during traffic spikes by leveraging real-time
+    in-flight request concurrency rather than lagging CPU or memory metrics. When
+    sudden surges breach stable evaluation thresholds, Knative shifts from its standard
+    60-second averaging window into sub-second Panic Mode to rapidly scale workloads.
+    In modern cloud native serverless platforms, this dual-mode autoscaling combined
+    with scale-to-zero activator proxies provides critical cost efficiency alongside
+    instantaneous resiliency against bursty microservice traffic.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Knative
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/odCadu7u5c4:
+  title: 'How to Autoscale Kubernetes Microservices: HPA vs. VPA vs. KEDA [Short]'
+  description: "How to select the right Layer 1 workload autoscaler for microservices:
+    Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA), or KEDA.\n\n\U0001F4A1
+    Workload Decision Framework:\n• Stateless Microservices: Use native HPA for steady
+    CPU/memory utilization (~15–75s reaction loop).\n• Event-Driven Workers & Queues:
+    Use KEDA to scale based on external event signals (Kafka lag, AWS SQS, RabbitMQ,
+    Redis) with native scale-to-zero.\n• Monoliths & Batch Sizing: Use VPA to analyze
+    historical usage patterns and rightsize resource request baselines without manual
+    developer guesswork.\n\n\U0001F4DA Reference Documentation:\n• Kubernetes HPA:
+    https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/\n•
+    KEDA Event-Driven Autoscaling: https://keda.sh/\n• CloudPilot AI Autoscaling Guide:
+    https://cloudpilot.ai/blog/k8s-autoscaling-comparison/\n\n\U0001F310 Explore Cloud
+    Native & Platform Engineering Architectures:\n• Nubenetes Portal: https://nubenetes.com/\n•
+    Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Kubernetes #Autoscaling
+    #Microservices #HPA #KEDA #VPA #CloudNative #PlatformEngineering #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide establishes a practical workload autoscaling
+    decision matrix for Kubernetes microservices by evaluating HPA, VPA, and KEDA
+    against distinct traffic profiles. It highlights HPA for steady-state CPU/memory-based
+    scaling, KEDA for reactive event-driven patterns with true scale-to-zero capabilities
+    (such as Kafka lag and SQS queues), and VPA for rightsizing baseline pod allocations
+    in batch or monolithic workloads. In modern cloud native platform engineering,
+    correctly pairing these mechanisms optimizes compute unit economics while mitigating
+    pod evictions and latency spikes.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/KbRcPBzgnk8:
+  title: 'Why Karpenter Beats Cluster Autoscaler: Dynamic Node Provisioning & Speed
+    [Short]'
+  description: "Why high-performance Karpenter outperforms traditional Cluster Autoscaler
+    for cloud-native infrastructure provisioning.\n\n⚡ Key Architectural Differences:\n•
+    Provisioning Speed: 45–90 seconds directly through cloud APIs vs. 3–5 minutes
+    waiting on Auto Scaling Groups (ASGs / VMSS).\n• Group-Less Flexibility: Evaluates
+    pending pod constraints (CPU, RAM, GPU, Spot) directly to launch optimal VM instances
+    without rigid node groups.\n• Active Multi-Node Consolidation: Continuously repacks
+    pods onto cheaper instances and terminates underutilized nodes to maximize FinOps
+    efficiency.\n\n\U0001F4DA Reference Documentation:\n• Karpenter Documentation:
+    https://karpenter.sh/\n• CAST AI Autoscaling Breakdown: https://cast.ai/blog/best-kubernetes-autoscaling-tools/\n•
+    CloudBolt ML Pod Rightsizing with Karpenter: https://www.cloudbolt.io/blog/cast-ai-alternative/\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Karpenter
+    #Kubernetes #FinOps #ClusterAutoscaler #CloudArchitecture #PlatformEngineering
+    #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: Karpenter fundamentally improves Kubernetes node provisioning by bypassing
+    rigid cloud provider Auto Scaling Groups (ASGs/VMSS) and directly calling cloud
+    APIs to provision right-sized compute in 45–90 seconds based on pending pod requirements.
+    Its group-less architecture enables dynamic selection of heterogeneous CPU, memory,
+    and accelerator instances while continuously executing multi-node consolidation
+    to minimize cluster fragmentation. For modern platform engineering and FinOps
+    strategies, this dynamic consolidation ensures optimal resource utilization, fast
+    burst handling, and immediate infrastructure cost reduction.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/VPu2Rmt2sBs:
+  title: 'How In-Place Pod Resizing Stops Kubernetes Waste: VPA Without Evictions
+    [Short]'
+  description: "How in-place container resource resizing eliminates pod evictions
+    and closes the overprovisioning gap in Kubernetes.\n\n\U0001F50D Key Architectural
+    Highlights:\n• Disruption-Free Resizing: Leverages the Kubernetes `/resize` subresource
+    (`InPlaceOrRecreate` / `InPlace` modes) to dynamically adjust CPU and memory requests
+    without restarting or evicting running containers.\n• Eliminating Guesswork: Automatically
+    right-sizes container requests based on actual historical workload telemetry.\n•
+    FinOps Optimization: Eliminates the safety buffers developers add to avoid OOMKills,
+    reclaiming up to 40% of stranded cluster memory.\n\n\U0001F4DA Reference Documentation:\n•
+    Kubernetes In-Place Pod Resizing: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#resize-container-resources\n•
+    Vertical Pod Autoscaler Concepts: https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler\n•
+    CloudPilot AI Autoscaling Guide: https://cloudpilot.ai/blog/k8s-autoscaling-comparison/\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Kubernetes
+    #VPA #FinOps #InPlaceResizing #CloudNative #DevOps #SRE #PlatformEngineering #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown explores Kubernetes in-place pod resizing,
+    demonstrating how mutating CPU and memory allocations via the /resize subresource
+    eliminates workload evictions and restarts traditionally required by Vertical
+    Pod Autoscalers. By enabling non-disruptive, telemetry-driven container adjustments,
+    platform teams can safely eradicate speculative buffer overprovisioning and reclaim
+    up to 40% of stranded node memory. For modern cloud-native FinOps strategies,
+    this mechanism bridges the divide between real-time resource rightsizing and high-availability
+    workload SLAs.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/ILivqueOrS4:
+  title: 'How Predictive Autoscaling Defeats Lag: Machine Learning & Time-Series Forecasting
+    [Short]'
+  description: "How predictive autoscaling uses time-series machine learning models
+    to eliminate the 60–90 second reactive lag of standard Kubernetes HPA.\n\n\U0001F4C8
+    Key Architectural Highlights:\n• Proactive Scaling: Integrates time-series forecasting
+    (Facebook Prophet, ML workload classification) with KEDA to provision capacity
+    minutes before predictable traffic spikes hit.\n• Overcoming Reactive Lag: Standard
+    HPA requires ~15s polling and ~60s Metrics Server scraping before initiating scale-up.
+    Predictive scaling prevents latency spikes before they occur.\n• Feed-Forward
+    Economics: Automatically scales down during known off-peak hours while guaranteeing
+    headroom for planned surges.\n\n\U0001F4DA Reference Documentation:\n• DZone:
+    Designing a Predictive Autoscaler with KEDA: https://dzone.com/articles/beyond-reactive-hpa-designing-a-predictive-autoscaler\n•
+    KEDA Prometheus & Cron Scalers: https://keda.sh/\n• CloudBolt / StormForge ML
+    Pod Rightsizing: https://www.cloudbolt.io/blog/cast-ai-alternative/\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#PredictiveAutoscaling
+    #Kubernetes #MachineLearning #KEDA #HPA #SRE #PlatformEngineering #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: Addresses the inherent 60–90 second reactive metric collection and polling
+    lag of standard Kubernetes Horizontal Pod Autoscalers (HPA) by integrating time-series
+    machine learning models (like Prophet) directly into event-driven autoscaling
+    architectures via KEDA. This proactive feed-forward scaling provisions capacity
+    minutes prior to deterministic workload surges, ensuring sub-second SLO compliance
+    during peak traffic while maximizing cost efficiency during off-peak intervals.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=D_twmWLrBbI:
+  title: 'Karpenter vs. Cluster Autoscaler: Deep Dive on Node Autoscaling & Consolidation'
+  description: "Deep dive comparison of Layer 2 infrastructure autoscalers in Kubernetes:
+    Karpenter vs. traditional Cluster Autoscaler (CA). Detailed analysis of scheduling
+    mechanics, provisioning latency, group-less instance selection, Spot instance
+    management, and active node consolidation economics.\n\n\U0001F511 Core Technical
+    Comparisons:\n• Provisioning Speed: Cluster Autoscaler takes 3–5 minutes per scale-up
+    (bound to cloud ASGs/VMSS), whereas Karpenter provisions compute instances in
+    45–90 seconds directly via cloud APIs.\n• Node Group Abstraction: Cluster Autoscaler
+    requires predefined node pools with homogenous VM sizes. Karpenter is completely
+    group-less, dynamically evaluating exact pod requirements (CPU, RAM, GPU, architecture,
+    Spot preferences).\n• Dynamic Bin-Packing & Spot Fallback: Automated multi-architecture
+    instance selection with seamless Spot-to-On-Demand fallback.\n• Active Multi-Node
+    Consolidation: Karpenter continuously repacks workloads onto fewer, cheaper nodes
+    and terminates idle VMs to slash cloud infrastructure spend.\n• Pod Disruption
+    Guardrails: Operational requirements for PodDisruptionBudgets (PDBs) and termination
+    grace periods to prevent service outages during aggressive node downscaling.\n\n\U0001F4DA
+    Official Documentation & Technical References:\n• Karpenter Official Documentation:
+    https://karpenter.sh/\n• Kubernetes Cluster Autoscaler: https://github.com/kubernetes/autoscaler\n•
+    CAST AI Autoscaling Analysis: https://cast.ai/blog/best-kubernetes-autoscaling-tools/\n•
+    CloudBolt / StormForge Karpenter Integration: https://www.cloudbolt.io/blog/cast-ai-alternative/\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Karpenter
+    #ClusterAutoscaler #Kubernetes #FinOps #CloudCost #PlatformEngineering #DevOps
+    #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural analysis contrasts traditional Auto Scaling Group-bound
+    Cluster Autoscalers with the group-less, API-driven provisioning engine of Karpenter.
+    It demonstrates how bypassing node pool abstractions cuts scale-up latency to
+    under 90 seconds while dynamically matching pod compute requests across diverse
+    instance types and Spot-to-On-Demand fallbacks. Additionally, it highlights continuous
+    bin-packing consolidation mechanics governed by PodDisruptionBudgets to drive
+    cloud infrastructure optimization and FinOps efficiency.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=-cwXdqYqZgc:
+  title: 'Production Guardrails for Kubernetes Autoscaling: Anti-Conflict Rules &
+    FinOps'
+  description: "Essential production guardrails, anti-conflict patterns, and FinOps
+    governance for running autoscaling reliably at scale in Kubernetes clusters.\n\n\U0001F6A8
+    Critical Anti-Conflict Rules & Safeguards:\n1. Never Pair HPA & VPA on the Same
+    Metric: Running HPA and VPA concurrently on CPU creates a destructive positive
+    feedback loop (HPA adds replicas, VPA shrinks requests, HPA adds even more replicas).
+    Safe Pattern: Run HPA on request rate or queue depth, and VPA on memory only (or
+    run VPA in Off/Recommendation mode).\n2. Single Ownership Per Workload: Never
+    attach both HPA and KEDA (or Knative and KEDA) directly to the same deployment
+    object.\n3. Configure PodDisruptionBudgets (PDBs): Mandate PDBs with explicit
+    maxUnavailable or minAvailable on all production workloads to ensure node consolidation
+    (Karpenter or CA) does not cause unexpected downtime.\n4. Set Explicit Min/Max
+    Bounds: Always enforce minReplicas and maxReplicas on workload autoscalers, and
+    maximum node limits on infrastructure pools to cap runaway cloud spend.\n5. Resource
+    Requests Everywhere: Node autoscalers bin-pack based on requested resources, not
+    real-time usage. Omitting or severely inflating requests destroys cluster bin-packing
+    efficiency.\n\n\U0001F4DA Official Documentation & Technical References:\n• Kubernetes
+    Pod Disruption Budgets: https://kubernetes.io/docs/tasks/run-application/configure-pdb/\n•
+    HPA & VPA Coexistence Best Practices: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/\n•
+    CloudPilot AI Autoscaling Guide: https://cloudpilot.ai/blog/k8s-autoscaling-comparison/\n•
+    CAST AI Production Autoscaling Rules: https://cast.ai/blog/best-kubernetes-autoscaling-tools/\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Kubernetes
+    #Autoscaling #ProductionReadiness #FinOps #SRE #PlatformEngineering #DevOps #PDB
+    #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details essential anti-conflict patterns and
+    governance rules required to run multi-tier Kubernetes autoscaling reliably at
+    enterprise scale. It outlines prevention strategies against destructive feedback
+    loops between HPA and VPA, enforces strict single-ownership controllers, and establishes
+    FinOps boundaries using explicit replica caps and resource requests. Crucially,
+    it highlights the operational necessity of PodDisruptionBudgets (PDBs) to ensure
+    automated node consolidation tools like Karpenter maintain workload availability
+    without runaway cloud costs.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=7TaMSrY2LME:
+  title: 'Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter'
+  description: "Comprehensive architectural guide and decision matrix covering the
+    complete modern Kubernetes autoscaling spectrum across Layer 1 (Workload/Pod Level)
+    and Layer 2 (Node/Infrastructure Level).\n\n⏱️ Masterclass Sections:\n• Two-Layer
+    Architecture: Workload capacity vs. Infrastructure capacity.\n• Horizontal Pod
+    Autoscaler (HPA): CPU, memory, and custom metric thresholds (~15–75s reaction
+    loop).\n• Vertical Pod Autoscaler (VPA): Historical usage analysis and in-place
+    container resizing without pod evictions.\n• KEDA (Kubernetes Event-Driven Autoscaling):
+    70+ external scalers (Kafka, AWS SQS, RabbitMQ, Cron) with scale-to-zero.\n• Knative
+    Pod Autoscaler (KPA): Request concurrency, RPS metrics, and sub-second panic mode
+    for HTTP APIs.\n• Predictive ML Autoscaling: Time-series forecasting (Prophet,
+    StormForge) eliminating reactive metric lag.\n• Node Autoscaling: Traditional
+    Cluster Autoscaler (CA) vs. High-performance, group-less Karpenter (45–90s node
+    provisioning).\n• Production Guardrails: Anti-conflict rules, PDB configuration,
+    and resource request governance.\n\n\U0001F4CA Complete Comparison Matrix:\n|
+    Tool | Layer | Primary Trigger Signal | Reaction Speed | Scale to Zero |\n| HPA
+    | Workload | CPU / RAM / Custom Metrics | ~15–75 sec | No (built-in CPU) |\n|
+    VPA | Workload | Historical CPU / RAM trends | Hours / Days | N/A |\n| KEDA |
+    Workload | Queue depth, Kafka lag, Cron | 2–30 sec polling | Yes |\n| Knative
+    KPA | Workload | In-flight HTTP concurrency, RPS | Instant / Panic | Yes |\n|
+    Predictive HPA | Workload | Time-series ML model forecast | Proactive | Yes |\n|
+    Cluster Autoscaler | Infrastructure | Unscheduled (Pending) pod queue | 3–5 min
+    | Yes (Nodes) |\n| Karpenter | Infrastructure | Unschedulable Pod constraints
+    | 45–90 sec | Yes (Nodes) |\n\n\U0001F4DA Official Documentation & Technical References:\n•
+    Kubernetes Horizontal Pod Autoscaler: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/\n•
+    In-Place Pod Resource Resizing: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#resize-container-resources\n•
+    Karpenter High-Performance Node Provisioning: https://karpenter.sh/\n• KEDA Event-Driven
+    Autoscaling: https://keda.sh/\n• Knative Serving Autoscaling (KPA vs HPA): https://knative.dev/docs/serving/autoscaling/autoscaler-types/\n•
+    CloudPilot AI: Scaling Kubernetes the Right Way (HPA, VPA, CA, Karpenter, KEDA):
+    https://cloudpilot.ai/blog/k8s-autoscaling-comparison/\n• CAST AI: Best Kubernetes
+    Autoscaling Tools Compared: https://cast.ai/blog/best-kubernetes-autoscaling-tools/\n\n\U0001F310
+    Explore Cloud Native & Platform Engineering Architectures:\n• Nubenetes Portal:
+    https://nubenetes.com/\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n\n#Kubernetes
+    #Autoscaling #HPA #VPA #KEDA #Karpenter #CloudNative #PlatformEngineering #FinOps
+    #DevOps #Nubenetes"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details a complete multi-tier Kubernetes autoscaling
+    framework, contrasting Layer 1 workload mechanics (HPA, VPA with in-place pod
+    resizing, KEDA event triggers, and Knative request-concurrency panic loops) against
+    Layer 2 infrastructure provisioning with Cluster Autoscaler and group-less Karpenter.
+    It highlights critical trade-offs in reaction speeds, proactive ML-based forecasting,
+    and anti-conflict guardrails such as PodDisruptionBudgets and resource quotas.
+    In modern cloud-native architectures, this synthesis provides platform teams with
+    an essential blueprint to eliminate cold starts and align workload responsiveness
+    directly with FinOps cost optimization.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLF-sI1t2ehbs:
+  title: 'Nubenetes Kubernetes Autoscaling: HPA, VPA, KEDA, Knative & Karpenter Guide'
+  description: 'Comprehensive architectural guide, decision matrix, and production
+    engineering reference for Kubernetes autoscaling across Layer 1 (Workload/Pod
+    Level) and Layer 2 (Node/Infrastructure Level).
+
+
+    Covers Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA) with in-place
+    container resizing (/resize subresource), KEDA event-driven scaling (Kafka lag,
+    SQS, RabbitMQ, Cron) with scale-to-zero, Knative Pod Autoscaler (KPA) with sub-second
+    panic mode for HTTP concurrency, predictive ML time-series forecasting (Prophet,
+    StormForge), Cluster Autoscaler (CA), and high-performance group-less node provisioning
+    with Karpenter (45–90s direct cloud spin-up and active multi-node consolidation).
+    Includes essential production guardrails, anti-conflict rules (preventing HPA+VPA
+    CPU feedback loops), and PodDisruptionBudget (PDB) safeguards.'
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details multi-tier Kubernetes elasticity across
+    Layer 1 workload autoscaling (HPA, in-place VPA resize, KEDA event-driven scale-to-zero,
+    and Knative) and Layer 2 node provisioning using Karpenter and Cluster Autoscaler.
+    It provides production-tested patterns to prevent HPA-VPA resonance feedback loops,
+    leverage predictive time-series forecasting, and enforce robust PodDisruptionBudget
+    safeguards for cloud-native platforms operating at hyperscale.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794254037
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T20:53:57.587497+01:00'
+  last_ai_eval: '2026-11-09T20:53:57.587497+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel

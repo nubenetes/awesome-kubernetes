@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 19994 total resources analyzed.
-    - **V2 Elite Selection**: 15887 candidates identified (79.46% density ratio).
-    - **AI Enrichment Coverage**: 15887 / 15887 (100.0%)
+    - **V1 Base Inventory**: 20004 total resources analyzed.
+    - **V2 Elite Selection**: 15897 candidates identified (79.47% density ratio).
+    - **AI Enrichment Coverage**: 15897 / 15897 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -112,9 +112,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLAs2nHm8nh2A">Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher</a></div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/watch?v=7TaMSrY2LME">Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter</a></div>
   <div class="trending-card__meta">2026-11-09 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Delivers an exhaustive comparative evaluation of leading enterprise Kubernetes distributions across hybrid and multi-cloud footprints.</div>
+  <div class="trending-card__why">Provides a comprehensive architectural framework uniting Layer 1 workload autoscaling (HPA, in-place VPA, KEDA) and Layer 2 node elasticity via Karpenter.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
