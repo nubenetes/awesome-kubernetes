@@ -167,6 +167,121 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 Kubernetes Autoscaling Architecture: Layer 1 Workload vs. Layer 2 Infrastructure Deep Dive"
+    !!! info "Architectural Summary"
+        This architectural breakdown examines the operational decoupling between Layer 1 workload scaling (HPA, VPA, KEDA) and Layer 2 infrastructure provisioning (Cluster Autoscaler, Karpenter). It details how node bin-packing decisions drive cloud spend based strictly on pod resource requests rather than real-time utilization, leading to artificial capacity scale-outs. For modern cloud-native architectures, mastering this interaction pipeline—from Metrics Server polling loops to scheduler predicates—is essential for eliminating stranded capacity and ensuring resilient cluster scaling.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="ZNMJVmmo6IA" data-video-url="https://www.youtube.com/embed/ZNMJVmmo6IA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ZNMJVmmo6IA/hqdefault.jpg" alt="Kubernetes Autoscaling Architecture: Layer 1 Workload vs. Layer 2 Infrastructure Deep Dive" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How to Autoscale Kubernetes Microservices: HPA vs. VPA vs. KEDA [Short]"
+    !!! info "Architectural Summary"
+        This architectural guide establishes a practical workload autoscaling decision matrix for Kubernetes microservices by evaluating HPA, VPA, and KEDA against distinct traffic profiles. It highlights HPA for steady-state CPU/memory-based scaling, KEDA for reactive event-driven patterns with true scale-to-zero capabilities (such as Kafka lag and SQS queues), and VPA for rightsizing baseline pod allocations in batch or monolithic workloads. In modern cloud native platform engineering, correctly pairing these mechanisms optimizes compute unit economics while mitigating pod evictions and latency spikes.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="odCadu7u5c4" data-video-url="https://www.youtube.com/embed/odCadu7u5c4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/odCadu7u5c4/hqdefault.jpg" alt="How to Autoscale Kubernetes Microservices: HPA vs. VPA vs. KEDA [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Why Karpenter Beats Cluster Autoscaler: Dynamic Node Provisioning & Speed [Short]"
+    !!! info "Architectural Summary"
+        Karpenter fundamentally improves Kubernetes node provisioning by bypassing rigid cloud provider Auto Scaling Groups (ASGs/VMSS) and directly calling cloud APIs to provision right-sized compute in 45–90 seconds based on pending pod requirements. Its group-less architecture enables dynamic selection of heterogeneous CPU, memory, and accelerator instances while continuously executing multi-node consolidation to minimize cluster fragmentation. For modern platform engineering and FinOps strategies, this dynamic consolidation ensures optimal resource utilization, fast burst handling, and immediate infrastructure cost reduction.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="KbRcPBzgnk8" data-video-url="https://www.youtube.com/embed/KbRcPBzgnk8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/KbRcPBzgnk8/hqdefault.jpg" alt="Why Karpenter Beats Cluster Autoscaler: Dynamic Node Provisioning & Speed [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How In-Place Pod Resizing Stops Kubernetes Waste: VPA Without Evictions [Short]"
+    !!! info "Architectural Summary"
+        This architectural breakdown explores Kubernetes in-place pod resizing, demonstrating how mutating CPU and memory allocations via the /resize subresource eliminates workload evictions and restarts traditionally required by Vertical Pod Autoscalers. By enabling non-disruptive, telemetry-driven container adjustments, platform teams can safely eradicate speculative buffer overprovisioning and reclaim up to 40% of stranded node memory. For modern cloud-native FinOps strategies, this mechanism bridges the divide between real-time resource rightsizing and high-availability workload SLAs.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="VPu2Rmt2sBs" data-video-url="https://www.youtube.com/embed/VPu2Rmt2sBs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/VPu2Rmt2sBs/hqdefault.jpg" alt="How In-Place Pod Resizing Stops Kubernetes Waste: VPA Without Evictions [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Karpenter vs. Cluster Autoscaler: Deep Dive on Node Autoscaling & Consolidation"
+    !!! info "Architectural Summary"
+        This architectural analysis contrasts traditional Auto Scaling Group-bound Cluster Autoscalers with the group-less, API-driven provisioning engine of Karpenter. It demonstrates how bypassing node pool abstractions cuts scale-up latency to under 90 seconds while dynamically matching pod compute requests across diverse instance types and Spot-to-On-Demand fallbacks. Additionally, it highlights continuous bin-packing consolidation mechanics governed by PodDisruptionBudgets to drive cloud infrastructure optimization and FinOps efficiency.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="D_twmWLrBbI" data-video-url="https://www.youtube.com/embed/D_twmWLrBbI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/D_twmWLrBbI/hqdefault.jpg" alt="Karpenter vs. Cluster Autoscaler: Deep Dive on Node Autoscaling & Consolidation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Production Guardrails for Kubernetes Autoscaling: Anti-Conflict Rules & FinOps"
+    !!! info "Architectural Summary"
+        This architectural guide details essential anti-conflict patterns and governance rules required to run multi-tier Kubernetes autoscaling reliably at enterprise scale. It outlines prevention strategies against destructive feedback loops between HPA and VPA, enforces strict single-ownership controllers, and establishes FinOps boundaries using explicit replica caps and resource requests. Crucially, it highlights the operational necessity of PodDisruptionBudgets (PDBs) to ensure automated node consolidation tools like Karpenter maintain workload availability without runaway cloud costs.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="-cwXdqYqZgc" data-video-url="https://www.youtube.com/embed/-cwXdqYqZgc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/-cwXdqYqZgc/hqdefault.jpg" alt="Production Guardrails for Kubernetes Autoscaling: Anti-Conflict Rules & FinOps" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter"
+    !!! info "Architectural Summary"
+        This architectural guide details a complete multi-tier Kubernetes autoscaling framework, contrasting Layer 1 workload mechanics (HPA, VPA with in-place pod resizing, KEDA event triggers, and Knative request-concurrency panic loops) against Layer 2 infrastructure provisioning with Cluster Autoscaler and group-less Karpenter. It highlights critical trade-offs in reaction speeds, proactive ML-based forecasting, and anti-conflict guardrails such as PodDisruptionBudgets and resource quotas. In modern cloud-native architectures, this synthesis provides platform teams with an essential blueprint to eliminate cold starts and align workload responsiveness directly with FinOps cost optimization.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="7TaMSrY2LME" data-video-url="https://www.youtube.com/embed/7TaMSrY2LME" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/7TaMSrY2LME/hqdefault.jpg" alt="Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Nubenetes Kubernetes Autoscaling: HPA, VPA, KEDA, Knative & Karpenter Guide"
+    !!! info "Architectural Summary"
+        This architectural guide details multi-tier Kubernetes elasticity across Layer 1 workload autoscaling (HPA, in-place VPA resize, KEDA event-driven scale-to-zero, and Knative) and Layer 2 node provisioning using Karpenter and Cluster Autoscaler. It provides production-tested patterns to prevent HPA-VPA resonance feedback loops, leverage predictive time-series forecasting, and enforce robust PodDisruptionBudget safeguards for cloud-native platforms operating at hyperscale.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLF-sI1t2ehbs" title="Nubenetes Kubernetes Autoscaling: HPA, VPA, KEDA, Knative & Karpenter Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Red Hat OpenShift
 
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019"
@@ -561,6 +676,23 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLUlxI33bzjWQ" title="⭐ Nubenetes Azure Container Strategy: ACI, Container Apps & AKS Architecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Knative
+
+??? note "🎬 How Knative Panic Mode Scales HTTP Traffic: Concurrency & Latency Defense [Short]"
+    !!! info "Architectural Summary"
+        This architectural breakdown explores how the Knative Pod Autoscaler (KPA) defends p95/p99 tail latencies during traffic spikes by leveraging real-time in-flight request concurrency rather than lagging CPU or memory metrics. When sudden surges breach stable evaluation thresholds, Knative shifts from its standard 60-second averaging window into sub-second Panic Mode to rapidly scale workloads. In modern cloud native serverless platforms, this dual-mode autoscaling combined with scale-to-zero activator proxies provides critical cost efficiency alongside instantaneous resiliency against bursty microservice traffic.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="rMlEo2dowJg" data-video-url="https://www.youtube.com/embed/rMlEo2dowJg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/rMlEo2dowJg/hqdefault.jpg" alt="How Knative Panic Mode Scales HTTP Traffic: Concurrency & Latency Defense [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
