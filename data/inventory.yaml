@@ -716486,13 +716486,9 @@ https://www.youtube.com/shorts/pPeNvrZUnV8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716510,6 +716506,11 @@ https://www.youtube.com/shorts/pPeNvrZUnV8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/t_rzLVBe8CU:
   title: Navigating the Microsoft Foundry Upgrade | SDK & Project Migration
@@ -716540,13 +716541,9 @@ https://www.youtube.com/shorts/t_rzLVBe8CU:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure AI Foundry + MLOps
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716564,6 +716561,11 @@ https://www.youtube.com/shorts/t_rzLVBe8CU:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + MLOps
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/JDlkNqJIy9Q:
   title: 'Microsoft Foundry Production Readiness: Evaluations, SLAs & Safety [Short]'
@@ -716594,13 +716596,9 @@ https://www.youtube.com/shorts/JDlkNqJIy9Q:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure AI Foundry / MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716618,6 +716616,11 @@ https://www.youtube.com/shorts/JDlkNqJIy9Q:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry / MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/qW-sUej_8gA:
   title: 'The Great Microsoft Foundry Shift: Phased Enterprise AI Playbook'
@@ -716648,13 +716651,9 @@ https://www.youtube.com/shorts/qW-sUej_8gA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps with AI
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716672,6 +716671,11 @@ https://www.youtube.com/shorts/qW-sUej_8gA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/i72ZvGizCEE:
   title: 'Microsoft Foundry Enterprise Controls: Security, VNet & Deadlines'
@@ -716703,13 +716707,9 @@ https://www.youtube.com/shorts/i72ZvGizCEE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure AI Foundry
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716727,6 +716727,11 @@ https://www.youtube.com/shorts/i72ZvGizCEE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=dG74MjIVo1U:
   title: 'The Great Foundry Shift (Part 1): Architectural Transformation & Hub Convergence'
@@ -716767,13 +716772,9 @@ https://www.youtube.com/watch?v=dG74MjIVo1U:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716791,6 +716792,11 @@ https://www.youtube.com/watch?v=dG74MjIVo1U:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=LOUDptSyJQI:
   title: 'Microsoft Foundry Migration Blueprint: Step-by-Step Code & Infra Transition'
@@ -716828,13 +716834,9 @@ https://www.youtube.com/watch?v=LOUDptSyJQI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716852,6 +716854,11 @@ https://www.youtube.com/watch?v=LOUDptSyJQI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=jlYcf5S5Wvw:
   title: 'Arquitectura de Microsoft Foundry: Migración Empresarial y Control de Recursos'
@@ -716893,13 +716900,9 @@ https://www.youtube.com/watch?v=jlYcf5S5Wvw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716917,6 +716920,11 @@ https://www.youtube.com/watch?v=jlYcf5S5Wvw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=Y5g-xEnYMYw:
   title: 'Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción'
@@ -716955,13 +716963,9 @@ https://www.youtube.com/watch?v=Y5g-xEnYMYw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -716979,6 +716983,11 @@ https://www.youtube.com/watch?v=Y5g-xEnYMYw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=STC4L1w2cPg:
   title: 'Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability'
@@ -717017,13 +717026,9 @@ https://www.youtube.com/watch?v=STC4L1w2cPg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure AI Foundry + AI Agents + Observability
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -717041,6 +717046,11 @@ https://www.youtube.com/watch?v=STC4L1w2cPg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + AI Agents + Observability
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=CkFIcxzEnVw:
   title: 'The Great Foundry Shift: Enterprise AI Operating Model & FinOps Governance'
@@ -717081,13 +717091,9 @@ https://www.youtube.com/watch?v=CkFIcxzEnVw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure AI Foundry + FinOps
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -717105,6 +717111,11 @@ https://www.youtube.com/watch?v=CkFIcxzEnVw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + FinOps
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=0jIpmIPxCSs:
   title: 'Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide'
@@ -717146,13 +717157,9 @@ https://www.youtube.com/watch?v=0jIpmIPxCSs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -717170,6 +717177,11 @@ https://www.youtube.com/watch?v=0jIpmIPxCSs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLCvH88mzNLo8:
   title: 'Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA'
@@ -717195,13 +717207,9 @@ https://www.youtube.com/playlist?list=PLCvH88mzNLo8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure AI Foundry + MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -717219,6 +717227,11 @@ https://www.youtube.com/playlist?list=PLCvH88mzNLo8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Foundry + MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLIHPlQVunY48:
   title: 'Nubenetes Microsoft Foundry: Enterprise AI Architecture & Migration Guide'
@@ -717245,13 +717258,9 @@ https://www.youtube.com/playlist?list=PLIHPlQVunY48:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794238620
   needs_ai_refresh: false
@@ -717269,4 +717278,9 @@ https://www.youtube.com/playlist?list=PLIHPlQVunY48:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
