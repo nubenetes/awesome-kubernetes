@@ -715027,3 +715027,119 @@ https://www.youtube.com/watch?v=YbQP5WRSn_o:
   technology: MLOps + Kubernetes
   category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLUlxI33bzjWQ:
+  title: 'Nubenetes Azure Container Strategy: ACI, Container Apps and AKS Architecture
+    (Playlist)'
+  description: 'Comprehensive architectural decision guide and engineering deep dive
+    on Azure Container Strategy: Azure Container Instances (ACI), Azure Container
+    Apps (ACA), and Azure Kubernetes Service (AKS Standard and AKS Automatic Mode).
+    Explores the 5 enterprise decision dimensions (Control, Operations, Scale, Networking,
+    and Portability), KEDA event-driven autoscaling, Karpenter-driven Node Autoprovisioning
+    (NAP), Envoy ingress and subnet delegation, microservices communication via Dapr,
+    persistent volume CSI drivers, CRD operator boundaries, and FinOps idle-compute
+    economics.'
+  year: '2026'
+  stars: 5
+  ai_summary: 'Comprehensive architectural decision guide and engineering deep dive
+    on Azure Container Strategy: Azure Container Instances (ACI), Azure Container
+    Apps (ACA), and Azure Kubernetes Service (AKS Standard and AKS Automatic Mode).
+    Explores the 5 enterprise decision dimensions (Control, Operations, Scale, Networking,
+    and Portability), KEDA event-driven autoscaling, Karpenter-driven Node Autoprovisioning
+    (NAP), Envoy ingress and subnet delegation, microservices communication via Dapr,
+    persistent volume CSI drivers, CRD operator boundaries, and FinOps idle-compute
+    economics.'
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794257000
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T14:40:00.000000+01:00'
+  last_ai_eval: '2026-11-09T14:40:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - Azure Container Strategy
+  - ACA vs AKS Architecture
+  tags:
+  - '[AZURE]'
+  - '[CONTAINER-APPS]'
+  - '[AKS]'
+  - '[FINOPS]'
+  - '[KEDA]'
+  - '[KARPENTER]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/azure.md
+  v2_locations:
+  - azure.md
+  - kubernetes.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 1
+  technology: Azure Container Strategy
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLAs2nHm8nh2A:
+  title: 'Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu and Rancher
+    (Playlist)'
+  description: 'Strategic evaluation, architecture trade-offs, and multi-distribution
+    matrix for Enterprise Kubernetes Platforms across Public Cloud, Hybrid On-Premises,
+    Sovereign Edge, and Private Enterprise Data Centers. Compares Azure Kubernetes
+    Service (AKS Standard and AKS Automatic), AKS Local (hybrid on-premises via Azure
+    Arc and Azure Local / Azure Stack HCI), Red Hat OpenShift (Azure Red Hat OpenShift
+    / ARO), VMware Tanzu (vSphere Kubernetes Service / VKS), and SUSE Rancher (RKE2
+    multicloud fleet management).'
+  year: '2026'
+  stars: 5
+  ai_summary: 'Strategic evaluation, architecture trade-offs, and multi-distribution
+    matrix for Enterprise Kubernetes Platforms across Public Cloud, Hybrid On-Premises,
+    Sovereign Edge, and Private Enterprise Data Centers. Compares Azure Kubernetes
+    Service (AKS Standard and AKS Automatic), AKS Local (hybrid on-premises via Azure
+    Arc and Azure Local / Azure Stack HCI), Red Hat OpenShift (Azure Red Hat OpenShift
+    / ARO), VMware Tanzu (vSphere Kubernetes Service / VKS), and SUSE Rancher (RKE2
+    multicloud fleet management).'
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794257000
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T14:40:00.000000+01:00'
+  last_ai_eval: '2026-11-09T14:40:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - Enterprise Kubernetes
+  - Multi-Distro & Hybrid Cloud
+  tags:
+  - '[KUBERNETES]'
+  - '[OPENSHIFT]'
+  - '[AKS]'
+  - '[TANZU]'
+  - '[RANCHER]'
+  - '[HYBRID-CLOUD]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/kubernetes.md
+  v2_locations:
+  - kubernetes.md
+  - openshift.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 2
+  technology: Enterprise Kubernetes Platforms
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
