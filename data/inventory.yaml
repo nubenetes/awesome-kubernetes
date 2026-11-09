@@ -717323,13 +717323,9 @@ https://www.youtube.com/watch?v=ZNMJVmmo6IA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717347,6 +717343,11 @@ https://www.youtube.com/watch?v=ZNMJVmmo6IA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/rMlEo2dowJg:
   title: 'How Knative Panic Mode Scales HTTP Traffic: Concurrency & Latency Defense
@@ -717379,13 +717380,9 @@ https://www.youtube.com/shorts/rMlEo2dowJg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Knative
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717403,6 +717400,11 @@ https://www.youtube.com/shorts/rMlEo2dowJg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Knative
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/odCadu7u5c4:
   title: 'How to Autoscale Kubernetes Microservices: HPA vs. VPA vs. KEDA [Short]'
@@ -717434,13 +717436,9 @@ https://www.youtube.com/shorts/odCadu7u5c4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717458,6 +717456,11 @@ https://www.youtube.com/shorts/odCadu7u5c4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/KbRcPBzgnk8:
   title: 'Why Karpenter Beats Cluster Autoscaler: Dynamic Node Provisioning & Speed
@@ -717490,13 +717493,9 @@ https://www.youtube.com/shorts/KbRcPBzgnk8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717514,6 +717513,11 @@ https://www.youtube.com/shorts/KbRcPBzgnk8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/VPu2Rmt2sBs:
   title: 'How In-Place Pod Resizing Stops Kubernetes Waste: VPA Without Evictions
@@ -717546,13 +717550,9 @@ https://www.youtube.com/shorts/VPu2Rmt2sBs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717570,6 +717570,11 @@ https://www.youtube.com/shorts/VPu2Rmt2sBs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/ILivqueOrS4:
   title: 'How Predictive Autoscaling Defeats Lag: Machine Learning & Time-Series Forecasting
@@ -717601,13 +717606,9 @@ https://www.youtube.com/shorts/ILivqueOrS4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + MLOps
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717625,6 +717626,11 @@ https://www.youtube.com/shorts/ILivqueOrS4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + MLOps
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=D_twmWLrBbI:
   title: 'Karpenter vs. Cluster Autoscaler: Deep Dive on Node Autoscaling & Consolidation'
@@ -717664,13 +717670,9 @@ https://www.youtube.com/watch?v=D_twmWLrBbI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717688,6 +717690,11 @@ https://www.youtube.com/watch?v=D_twmWLrBbI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=-cwXdqYqZgc:
   title: 'Production Guardrails for Kubernetes Autoscaling: Anti-Conflict Rules &
@@ -717730,13 +717737,9 @@ https://www.youtube.com/watch?v=-cwXdqYqZgc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717754,6 +717757,11 @@ https://www.youtube.com/watch?v=-cwXdqYqZgc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=7TaMSrY2LME:
   title: 'Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter'
@@ -717806,13 +717814,9 @@ https://www.youtube.com/watch?v=7TaMSrY2LME:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717830,6 +717834,11 @@ https://www.youtube.com/watch?v=7TaMSrY2LME:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLF-sI1t2ehbs:
   title: 'Nubenetes Kubernetes Autoscaling: HPA, VPA, KEDA, Knative & Karpenter Guide'
@@ -717858,13 +717867,9 @@ https://www.youtube.com/playlist?list=PLF-sI1t2ehbs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794254037
   needs_ai_refresh: false
@@ -717882,4 +717887,9 @@ https://www.youtube.com/playlist?list=PLF-sI1t2ehbs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel

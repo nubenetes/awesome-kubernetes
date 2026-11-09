@@ -1868,66 +1868,21 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/watch?v=TUyX5PzEPGA",
-        "title": "The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Explores the architectural paradigm shift toward disaggregated LLM serving and K8s orchestration using modern engines like vLLM and llm-d.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=TFK1tQ0bWnE",
-        "title": "AI Control Planes vs Kubernetes: 2026 Hybrid Reference Architecture",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides an essential reference architecture navigating the strategic choice between hyperscaler AI control planes and DIY Kubernetes platforms.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLAs2nHm8nh2A",
-        "title": "Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher",
+        "url": "https://www.youtube.com/watch?v=7TaMSrY2LME",
+        "title": "Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter",
         "date": "2026-11-09",
         "stars": 5,
         "impact": "critical",
-        "why": "Delivers an exhaustive comparative evaluation of leading enterprise Kubernetes distributions across hybrid and multi-cloud footprints.",
+        "why": "Provides a comprehensive architectural framework uniting Layer 1 workload autoscaling (HPA, in-place VPA, KEDA) and Layer 2 node elasticity via Karpenter.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=YbQP5WRSn_o",
-        "title": "Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration",
+        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
+        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
         "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Addresses production-grade distributed AI training architectures and efficient GPU orchestration patterns on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=AdKSA50W4P4",
-        "title": "AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides a comprehensive architectural roadmap for hybrid enterprise deployments spanning public cloud AKS, AKS Local, and OpenShift.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=kSlp-I6WvqE",
-        "title": "Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Analyzes the trade-off continuum between developer abstraction platforms and granular cluster control across major enterprise distributions.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=gIBnUR1CHNY",
-        "title": "Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Establishes a foundational enterprise decision framework across container execution models from serverless instances to managed Kubernetes.",
+        "why": "Explores the cutting-edge paradigm of disaggregated LLM inference on Kubernetes by decoupling prefill and decode compute phases to optimize GPU utilization.",
         "category": "Spain"
       },
       {
@@ -1936,25 +1891,70 @@
         "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Breaks down CNCF Kueue fair-share queuing mechanisms essential for maximizing scarce GPU accelerator utilization on Kubernetes.",
+        "why": "Covers Kueue, the CNCF standard for cloud-native fair-share queuing and multi-tenant GPU allocation for enterprise AI workloads.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
-        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
+        "url": "https://www.youtube.com/watch?v=D_twmWLrBbI",
+        "title": "Karpenter vs. Cluster Autoscaler: Deep Dive on Node Autoscaling & Consolidation",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an essential architectural breakdown of group-less node provisioning with Karpenter versus legacy autoscaling groups.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=kSlp-I6WvqE",
+        "title": "Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Evaluates strategic trade-offs across leading enterprise Kubernetes platforms including OpenShift, AKS, Rancher, and Tanzu.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=-cwXdqYqZgc",
+        "title": "Production Guardrails for Kubernetes Autoscaling: Anti-Conflict Rules & FinOps",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Addresses vital production guardrails and FinOps policies to prevent destructive autoscaling thrashing between HPA and infrastructure scalers.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/VPu2Rmt2sBs",
+        "title": "How In-Place Pod Resizing Stops Kubernetes Waste: VPA Without Evictions [Short]",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Details Kubernetes in-place pod resizing, a major technical milestone enabling dynamic CPU and memory adjustments without disruptive pod restarts.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AdKSA50W4P4",
+        "title": "AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Outlines hybrid enterprise container strategy across public cloud managed AKS, on-premises edge AKS Local, and Red Hat OpenShift.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ZNMJVmmo6IA",
+        "title": "Kubernetes Autoscaling Architecture: Layer 1 Workload vs. Layer 2 Infrastructure Deep Dive",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Dissects the foundational architectural separation between workload-level metrics scaling and infrastructure compute provisioning in Kubernetes.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/PPpSLpXL1HA",
+        "title": "How AI Agents Use Company Tools | Model Context Protocol (MCP) Gateways",
         "date": "2026-11-07",
         "stars": 5,
         "impact": "medium",
-        "why": "Demonstrates cutting-edge disaggregated AI inference by decoupling compute-heavy prefill from bandwidth-bound decoding on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
-        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
-        "date": "2026-11-02",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Supplies an updated 2026 enterprise landing zone architecture standardizing governance, networking, and platform engineering best practices.",
+        "why": "Examines how enterprise Model Context Protocol (MCP) gateways standardize secure interactions between AI agents and cloud-native services.",
         "category": "Spain"
       }
     ]
@@ -3894,21 +3894,12 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/playlist?list=PLAs2nHm8nh2A",
-        "title": "Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher",
+        "url": "https://www.youtube.com/watch?v=7TaMSrY2LME",
+        "title": "Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter",
         "date": "2026-11-09",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides an end-to-end architectural benchmark across leading enterprise Kubernetes distributions including AKS, OpenShift, Tanzu, and Rancher.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=AdKSA50W4P4",
-        "title": "AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Navigates enterprise decision-making across public, managed, and edge hybrid Kubernetes deployment topologies with AKS Local and OpenShift.",
+        "why": "Provides a comprehensive multi-tier autoscaling architecture bridging workload-layer elasticity (HPA, VPA, KEDA) with node-level provisioning.",
         "category": "Spain"
       },
       {
@@ -3916,26 +3907,17 @@
         "title": "Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix",
         "date": "2026-11-09",
         "stars": 5,
-        "impact": "high",
-        "why": "Establishes a practical trade-off matrix balancing developer velocity in serverless containers against infrastructure control in enterprise Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLBZl7QsgYjrw",
-        "title": "Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)",
-        "date": "2026-11-07",
-        "stars": 5,
         "impact": "critical",
-        "why": "Delivers an authoritative comparison between hyperscaler managed AI control planes and self-hosted Kubernetes AI orchestration.",
+        "why": "Establishes an essential enterprise platform evaluation matrix across major Kubernetes distributions including AKS, OpenShift, Tanzu, and Rancher.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
-        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
-        "date": "2026-11-07",
+        "url": "https://www.youtube.com/watch?v=D_twmWLrBbI",
+        "title": "Karpenter vs. Cluster Autoscaler: Deep Dive on Node Autoscaling & Consolidation",
+        "date": "2026-11-09",
         "stars": 5,
         "impact": "high",
-        "why": "Introduces cutting-edge disaggregated LLM serving patterns on Kubernetes by separating compute-bound prefill from bandwidth-bound decode phases.",
+        "why": "Delivers a critical architectural analysis contrasting API-driven Karpenter compute consolidation with legacy node group autoscalers.",
         "category": "Spain"
       },
       {
@@ -3944,43 +3926,61 @@
         "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Covers CNCF Kueue for multi-tenant fair-share GPU queuing, addressing critical hardware utilization bottlenecks in cloud native AI.",
+        "why": "Addresses the paramount enterprise bottleneck of GPU scarcity using CNCF Kueue for fair-share workload scheduling on Kubernetes.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=TFK1tQ0bWnE",
-        "title": "AI Control Planes vs Kubernetes: 2026 Hybrid Reference Architecture",
+        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
+        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
         "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Defines the 2026 reference architecture bridging platform engineering practices between managed AI control planes and cloud native infrastructure.",
+        "why": "Introduces a technical paradigm shift in cloud-native AI by disaggregating prefill compute from token decode memory bandwidth during LLM inference.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=TUyX5PzEPGA",
-        "title": "The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Analyzes the enterprise architectural fork between turnkey serverless AI APIs and high-throughput disaggregated inference clusters running vLLM on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=YbQP5WRSn_o",
-        "title": "Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration",
+        "url": "https://www.youtube.com/shorts/PPpSLpXL1HA",
+        "title": "How AI Agents Use Company Tools | Model Context Protocol (MCP) Gateways",
         "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Details resilient distributed AI training architectures and dynamic GPU scheduling strategies on large-scale Kubernetes clusters.",
+        "why": "Explores the emerging Model Context Protocol (MCP) gateway architecture standardizing secure enterprise tool and data access for AI agents.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
-        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
-        "date": "2026-11-02",
+        "url": "https://www.youtube.com/watch?v=gIBnUR1CHNY",
+        "title": "Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide",
+        "date": "2026-11-09",
         "stars": 5,
         "impact": "high",
-        "why": "Establishes baseline enterprise governance and modular landing zone patterns required before scaling production Kubernetes and AI workloads.",
+        "why": "Offers an authoritative architectural decision framework delineating operational overhead and control trade-offs across ACI, ACA, and AKS.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=-cwXdqYqZgc",
+        "title": "Production Guardrails for Kubernetes Autoscaling: Anti-Conflict Rules & FinOps",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Solves destructive race conditions and FinOps waste by establishing anti-conflict production guardrails across layered Kubernetes autoscalers.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/VPu2Rmt2sBs",
+        "title": "How In-Place Pod Resizing Stops Kubernetes Waste: VPA Without Evictions [Short]",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Highlights the transformative in-place pod resizing capability in Kubernetes that enables dynamic resource adjustment without disruptive evictions.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=0jIpmIPxCSs",
+        "title": "Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Provides a complete enterprise blueprint for operationalizing production generative AI and RAG workloads on managed cloud control planes.",
         "category": "Spain"
       }
     ],
@@ -6288,39 +6288,39 @@
     ],
     "Spain": [
       {
+        "url": "https://www.youtube.com/watch?v=7TaMSrY2LME",
+        "title": "Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Delivers an exhaustive, multi-tier architectural guide unifying workload scaling mechanics with modern dynamic node provisioning via Karpenter.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=D_twmWLrBbI",
+        "title": "Karpenter vs. Cluster Autoscaler: Deep Dive on Node Autoscaling & Consolidation",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Explores the fundamental paradigm shift from static VMSS/ASG cluster autoscalers to Karpenter's rapid, group-less compute consolidation.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AdKSA50W4P4",
+        "title": "AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a comprehensive architectural decision framework for enterprise hybrid cloud deployments comparing AKS, AKS Local, and OpenShift.",
+        "category": "Spain"
+      },
+      {
         "url": "https://www.youtube.com/watch?v=kSlp-I6WvqE",
         "title": "Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix",
         "date": "2026-11-09",
         "stars": 5,
-        "impact": "critical",
-        "why": "Provides a comprehensive architectural framework for evaluating enterprise Kubernetes distributions across operational overhead, governance, and developer productivity.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=gIBnUR1CHNY",
-        "title": "Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide",
-        "date": "2026-11-09",
-        "stars": 5,
         "impact": "high",
-        "why": "Establishes definitive architectural boundaries and cost-control trade-offs across Azure's primary container compute hosting options.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=0jIpmIPxCSs",
-        "title": "Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers an end-to-end masterclass for operationalizing generative AI workloads and enterprise RAG on modern cloud control planes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
-        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "high",
-        "why": "Addresses a major technical paradigm shift by disaggregating LLM prefill and decode compute phases on Kubernetes clusters.",
+        "why": "Dissects the governance versus developer-velocity trade-offs across major enterprise Kubernetes distributions including Tanzu, Rancher, and AKS.",
         "category": "Spain"
       },
       {
@@ -6329,7 +6329,43 @@
         "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Covers Kueue as the cloud-native standard for multi-tenant GPU job queuing and fair-share scheduling across AI workloads.",
+        "why": "Addresses the critical platform challenge of multi-tenant GPU accelerator contention using cloud-native fair-share queuing with CNCF Kueue.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/EjkL9runM-o",
+        "title": "How llm d Splits AI Compute | Disaggregated Inference on Kubernetes",
+        "date": "2026-11-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "Introduces state-of-the-art disaggregated LLM inference patterns on Kubernetes, separating prefill and decode compute phases.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ZNMJVmmo6IA",
+        "title": "Kubernetes Autoscaling Architecture: Layer 1 Workload vs. Layer 2 Infrastructure Deep Dive",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Analyzes the essential architectural boundary between Layer 1 pod metrics and Layer 2 infrastructure provisioning to prevent autoscaling conflicts.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gIBnUR1CHNY",
+        "title": "Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Establishes clear enterprise criteria for choosing between serverless container abstractions and granular Kubernetes control planes on Azure.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=0jIpmIPxCSs",
+        "title": "Microsoft Foundry Masterclass: Complete End-to-End Enterprise AI Guide",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Provides an end-to-end architectural roadmap for production generative AI governance, evaluation, and retrieval-augmented generation.",
         "category": "Spain"
       },
       {
@@ -6338,43 +6374,7 @@
         "date": "2026-11-07",
         "stars": 5,
         "impact": "medium",
-        "why": "Explores how the emerging Model Context Protocol (MCP) standardizes secure agent connectivity with enterprise APIs and data stores.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=TFK1tQ0bWnE",
-        "title": "AI Control Planes vs Kubernetes: 2026 Hybrid Reference Architecture",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Navigates the strategic platform engineering dilemma between building DIY Kubernetes AI stacks and adopting managed cloud AI control planes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=TUyX5PzEPGA",
-        "title": "The 2026 Infrastructure Fork: Managed Cloud AI vs Disaggregated K8s Serving",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Analyzes the infrastructure fork between hyperscaler AI services and specialized high-throughput disaggregated inference engines running on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=YbQP5WRSn_o",
-        "title": "Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "high",
-        "why": "Details production-grade distributed training resilience, network fabric topology, and hardware fault recovery for large-scale Kubernetes GPU clusters.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
-        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
-        "date": "2026-11-02",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Outlines modern Azure Landing Zone modular architectures, guiding enterprise platform migrations away from monolithic CAF templates.",
+        "why": "Standardizes secure enterprise integration between autonomous AI agents and backend systems using Model Context Protocol gateways.",
         "category": "Spain"
       }
     ],
@@ -6894,9 +6894,9 @@
         "method": "fallback_small"
       },
       "Spain": {
-        "last_analyzed": "2026-11-09T16:42:08.057903+01:00",
-        "entry_hash": "74afb95e3262e3a7",
-        "entry_count": 97,
+        "last_analyzed": "2026-11-09T20:58:43.568782+01:00",
+        "entry_hash": "62f7d304dad7c6ef",
+        "entry_count": 107,
         "method": "gemini"
       }
     },
@@ -7028,9 +7028,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-09T16:42:23.962801+01:00",
-        "entry_hash": "d06c57d97ceca7da",
-        "entry_count": 133,
+        "last_analyzed": "2026-11-09T20:58:58.545681+01:00",
+        "entry_hash": "64aac28bc7a5d3b7",
+        "entry_count": 143,
         "method": "gemini"
       },
       "Europe": {
@@ -7186,9 +7186,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-09T16:42:39.380359+01:00",
-        "entry_hash": "d06c57d97ceca7da",
-        "entry_count": 133,
+        "last_analyzed": "2026-11-09T20:59:15.919382+01:00",
+        "entry_hash": "64aac28bc7a5d3b7",
+        "entry_count": 143,
         "method": "gemini"
       },
       "Europe": {
@@ -7216,6 +7216,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-09T19:29:38.840653+01:00"
+    "last_updated": "2026-11-09T20:59:16.921289+01:00"
   }
 }
