@@ -14,16 +14,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | Kueue has emerged as the standard Kubernetes-native job queueing controller essential for modern AI/ML and batch workload orchestration. |
-    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | Kubebuilder is the industry-standard framework providing foundational scaffolding and controller-runtime abstractions for Kubernetes operators. |
-    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Cluster Autoscaler remains the definitive, battle-tested core component for dynamic compute node provisioning and capacity management across cloud providers. |
-    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🔴 critical | client-go is the indispensable official SDK underpinning virtually all production Go-based controllers, operators, and platform automation tools. |
-    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🔴 critical | Kustomize is a ubiquitous declarative configuration engine natively integrated into kubectl that forms the baseline of modern GitOps workflows. |
-    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | Karmada delivers production-grade multi-cluster orchestration and intelligent resource distribution across hybrid and multi-cloud topologies. |
-    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | KServe defines the enterprise standard for highly optimized, serverless machine learning model serving and dynamic GPU inference on Kubernetes. |
-    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | ExternalDNS is a vital ecosystem component automating public and private DNS record management directly from Ingress and Gateway API resources. |
-    | 2026-11-05 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Vertical Pod Autoscaler provides automated, workload-level CPU and memory rightsizing crucial for cost optimization and cluster bin-packing. |
-    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is the preeminent terminal management interface accelerating cluster observability, workload inspection, and day-to-day operations. |
+    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | Kueue has become the CNCF standard for batch scheduling and quota management, enabling scalable AI/ML and HPC workloads on Kubernetes. |
+    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | Kubebuilder serves as the industry-standard scaffolding and development framework for implementing production-ready Kubernetes Custom Resource Definitions and controllers. |
+    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | The core Kubernetes Cluster Autoscaler remains the foundational mechanism governing dynamic node provisioning and cost efficiency across enterprise cloud clusters. |
+    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🔴 critical | client-go is the fundamental SDK underpinning virtually every production Go-based operator, controller, and infrastructure tool in the Kubernetes ecosystem. |
+    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | Karmada delivers enterprise-grade multi-cluster federation, providing centralized governance and cross-cloud workload scheduling without altering native Kubernetes APIs. |
+    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | KServe standardizes cloud-native, serverless machine learning model deployment, dynamic scaling, and GPU management on top of Kubernetes. |
+    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | ExternalDNS is a ubiquitous ecosystem add-on that synchronizes exposed Kubernetes Services and Ingresses directly with external DNS providers. |
+    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🟡 high | Kustomize remains the de facto declarative configuration management tool embedded directly into kubectl for overlay-based manifest customization. |
+    | 2026-11-03 | [github.com/kubernetes-sigs/aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | 🟡 high | The AWS Load Balancer Controller is essential enterprise infrastructure for provisioning and managing native ALBs and NLBs directly from Kubernetes manifests. |
+    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is the industry's most widely adopted terminal-based management interface, streamlining operational observability and daily cluster administration. |
 
 === "Last 6 Months"
 
@@ -44,16 +44,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-10-30 | [Helm](https://github.com/helm/helm) | 🔴 critical | Helm is the de facto standard package manager for Kubernetes, enabling declarative application packaging, deployment, and lifecycle management across the cloud-native ecosystem. |
-    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | Kubebuilder is the industry-standard framework for scaffolding and building production-grade Custom Resource Definitions (CRDs) and Kubernetes controllers. |
-    | 2026-10-31 | [github.com/distribution/distribution](https://github.com/distribution/distribution) | 🔴 critical | The Distribution project provides the foundational codebase for the OCI Distribution Specification that powers container image registries worldwide. |
-    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is the ubiquitous terminal UI that dramatically accelerates cluster troubleshooting and real-time workload management for platform engineers. |
-    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | Karmada provides enterprise-grade multi-cluster federation and workload scheduling across hybrid and multi-cloud Kubernetes environments. |
-    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | KServe serves as the leading cloud-native serverless machine learning inference platform for orchestrating AI/ML workloads on Kubernetes. |
-    | 2026-10-31 | [github.com/helmfile/helmfile](https://github.com/helmfile/helmfile) | 🟡 high | Helmfile enables declarative GitOps orchestration and parameter synchronization for multi-chart Helm deployments across complex environments. |
-    | 2026-11-03 | [github.com/kubernetes-sigs/aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | 🟡 high | The AWS Load Balancer Controller is essential infrastructure software for managing native AWS ALBs and NLBs seamlessly within EKS and Kubernetes clusters. |
-    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | ExternalDNS is a vital ecosystem controller that automates DNS record provisioning across external cloud providers based on Kubernetes Ingresses and Services. |
-    | 2026-11-01 | [nerdctl 🌟](https://github.com/containerd/nerdctl) | 🟡 high | Nerdctl delivers a Docker-compatible CLI experience directly tailored for containerd, enabling modern container inspection and management in non-Docker environments. |
+    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | It is the de facto industry-standard framework powering modern Kubernetes operator development and custom controller architecture. |
+    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | Provides native batch job queueing and multi-tenant resource management essential for running large-scale AI and machine learning workloads on Kubernetes. |
+    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Remains the foundational, widely deployed core component for dynamic infrastructure scaling across all major cloud providers. |
+    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🟡 high | Serves as the foundational client library and programmatic backbone behind virtually every Go-based Kubernetes integration and controller. |
+    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | Delivers production-grade multi-cluster federation and cross-region workload distribution using native Kubernetes API semantics. |
+    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | Standardizes serverless, scalable AI/ML model inference on Kubernetes across multi-framework production environments. |
+    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | Acts as an indispensable ecosystem tool automating external DNS record lifecycle management directly from Ingress and Service manifests. |
+    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🟡 high | Serves as the ubiquitous, template-free configuration engine natively embedded in kubectl and modern GitOps deployment pipelines. |
+    | 2026-11-05 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Automates workload right-sizing to optimize compute costs and eliminate pod resource starvation in enterprise clusters. |
+    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🔵 medium | Drastically streamlines operational workflows and real-time cluster troubleshooting as the most widely adopted terminal-based management tool. |
 
 
 ## Containers & Runtime
@@ -173,16 +173,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-08-20 | [Awesome microservices](https://github.com/mfornos/awesome-microservices) | 🔴 critical | Provides a definitive master catalog of microservices design patterns, distributed consensus engines, and event-driven architectures essential for scalable cloud-native systems. |
-    | 2026-05-30 | [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) | 🔴 critical | Solves multi-cluster Kubernetes visibility by acting as a high-performance search engine across distributed infrastructure. |
-    | 2026-06-01 | [awesome-architecture.com: 🎨 Awesome Software Architecture 🌟](https://awesome-architecture.com) | 🟡 high | Aggregates authoritative architectural templates and patterns specifically targeted at distributed systems and high-concurrency microservices. |
-    | 2026-05-11 | [github.com/adriannovegil/awesome-observability: Awesome Observability 🌟](https://github.com/adriannovegil/awesome-observability) | 🟡 high | Maps critical telemetry, OpenTelemetry, and observability tools vital for operating distributed microservices architectures. |
-    | 2026-05-25 | [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa) | 🟡 high | Enforces policy-as-code and automated governance across complex Kubernetes and cloud-native environments using OPA. |
-    | 2026-06-14 | [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform) | 🟡 high | Provides enterprise-stable infrastructure-as-code boilerplates tailored for multi-cloud Kubernetes deployments. |
-    | 2026-10-23 | [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native) | 🟡 high | Serves as an essential foundational mapping of the entire CNCF cloud-native ecosystem for platform architects. |
-    | 2026-11-02 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | 🔵 medium | Enables engineers to define and automate cloud architecture diagrams programmatically using Python code. |
-    | 2026-10-18 | [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) | 🔵 medium | Delivers production-grade serverless patterns and robust tracing configurations for event-driven cloud functions. |
-    | 2026-06-01 | [developer.hashicorp.com 🌟](https://developer.hashicorp.com) | 🔵 medium | Provides the core technical documentation and authoritative reference hub for managing declarative hybrid cloud infrastructure. |
+    | 2026-08-20 | [Awesome microservices](https://github.com/mfornos/awesome-microservices) | 🔴 critical | Serves as the definitive directory for distributed system patterns, API gateways, and decoupled microservice communication architectures. |
+    | 2026-10-23 | [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native) | 🔴 critical | Provides an essential structural mapping of CNCF cloud-native components, service meshes, and platform engineering primitives. |
+    | 2026-11-02 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | 🟡 high | Pioneers the diagrams-as-code paradigm to automate reproducible, version-controlled cloud architecture visualizations directly in Python. |
+    | 2026-06-18 | [developer.com: Overcoming the Common Microservices Anti-Patterns](https://dzone.com/articles/microservices-anti-patterns) | 🟡 high | Delivers crucial architectural guidance for dissecting and mitigating common distributed pitfalls such as distributed monoliths and database coupling. |
+    | 2026-06-14 | [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform) | 🟡 high | Offers production-ready IaC baselines specifically structured for scalable multi-cloud Kubernetes cluster architectures. |
+    | 2026-05-25 | [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa) | 🟡 high | Establishes unified policy-as-code and fine-grained authorization architectures across distributed microservice meshes and clusters. |
+    | 2026-06-01 | [developer.hashicorp.com 🌟](https://developer.hashicorp.com) | 🟡 high | Acts as the unified architectural reference for enterprise service discovery, service mesh networking, and declarative infrastructure provisioning. |
+    | 2026-10-26 | [Awesome Compose 🌟](https://github.com/docker/awesome-compose) | 🔵 medium | Supplies official declarative patterns for orchestrating complex, multi-container microservice environments locally and in CI/CD. |
+    | 2026-05-30 | [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) | 🔵 medium | Solves multi-cluster management bottlenecks by establishing a unified search and synchronization layer across distributed Kubernetes fleets. |
+    | 2026-10-18 | [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture) | 🔵 medium | Curates enterprise landing zones and reference architecture blueprints essential for building resilient, cloud-scale distributed systems. |
 
 === "Last 12 Months"
 
@@ -454,16 +454,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org) | 🔴 critical | Defines the industry benchmark for policy-as-code, enabling unified, fine-grained authorization across Kubernetes, microservices, and CI/CD pipelines. |
-    | 2026-11-01 | [hashicorp/vault](https://github.com/hashicorp/vault) | 🔴 critical | Serves as the foundational enterprise backbone for multi-cloud secrets management, data protection, and dynamic Zero Trust credential brokering. |
-    | 2026-06-18 | [Project Calico 🌟](https://www.tigera.io/project-calico) | 🔴 critical | Delivers industry-standard cloud-native networking and microsegmentation security using high-performance eBPF and Linux kernel routing. |
-    | 2026-06-14 | [Tetragon (Cilium)](https://github.com/cilium/tetragon) | 🟡 high | Leverages deep kernel eBPF instrumentation to deliver real-time runtime security observability and real-time threat mitigation for containerized workloads. |
-    | 2026-05-17 | [checkov.io](https://www.checkov.io) | 🟡 high | Prevents security misconfigurations early in the software lifecycle by automated scanning of Infrastructure-as-Code manifests across Terraform, Helm, and Kubernetes. |
-    | 2026-10-25 | [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler) | 🟡 high | Provides an open-source Cloud Security Posture Management standard for continuous multi-cloud auditing against regulatory frameworks like CIS and PCI-DSS. |
-    | 2026-06-10 | [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) | 🟡 high | Empowers platform teams with a declarative, YAML-based policy engine to automate multi-cloud governance, compliance, and security posture across cloud environments. |
-    | 2026-11-05 | [kubescape](https://github.com/kubescape/kubescape) | 🟡 high | Delivers a CNCF-driven suite for end-to-end Kubernetes risk analysis, continuous configuration auditing, and runtime posture enforcement. |
-    | 2026-06-01 | [deepfence/ThreatMapper 🌟](https://github.com/deepfence/ThreatMapper) | 🟡 high | Provides open-source CNAPP capability to dynamically map runtime attack paths and prioritize active vulnerabilities across cloud-native environments. |
-    | 2026-06-01 | [keycloak.org](https://www.keycloak.org) | 🟡 high | Acts as the industry-standard open-source identity engine for modern web-scale authentication, SSO, and federated user access management. |
+    | 2026-05-17 | [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org) | 🔴 critical | As a CNCF graduated project, OPA remains the de facto open-source standard for unified, declarative policy enforcement across cloud-native architectures. |
+    | 2026-11-01 | [hashicorp/vault](https://github.com/hashicorp/vault) | 🔴 critical | Vault is the cornerstone enterprise solution for secrets orchestration, dynamic credential brokering, and zero trust identity in cloud environments. |
+    | 2026-10-26 | [Cosign: Container Signing](https://github.com/sigstore/cosign) | 🔴 critical | Cosign has established itself as the ubiquitous industry standard for cryptographic container image signing and software supply chain verification. |
+    | 2026-06-14 | [Tetragon (Cilium)](https://github.com/cilium/tetragon) | 🟡 high | Tetragon leads the shift toward eBPF-driven runtime security, enabling real-time kernel-level threat detection and autonomous enforcement. |
+    | 2026-06-18 | [Project Calico 🌟](https://www.tigera.io/project-calico) | 🟡 high | Calico is an essential networking and security standard for enforcing granular network policies and microsegmentation in production Kubernetes clusters. |
+    | 2026-05-17 | [checkov.io](https://www.checkov.io) | 🟡 high | Checkov is a widely adopted static analysis tool that operationalizes security by catching Infrastructure-as-Code misconfigurations early in CI/CD pipelines. |
+    | 2026-11-05 | [kubescape](https://github.com/kubescape/kubescape) | 🟡 high | Kubescape provides continuous Kubernetes posture management and risk assessment against hardening frameworks as an active CNCF sandbox tool. |
+    | 2026-10-25 | [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler) | 🟡 high | Prowler is an industry-standard open-source CSPM tool performing automated security assessments and CIS benchmark auditing across multi-cloud estates. |
+    | 2026-06-01 | [keycloak.org](https://www.keycloak.org) | 🟡 high | Keycloak serves as the premier open-source IAM platform providing standardized OpenID Connect and SAML identity brokering for cloud applications. |
+    | 2026-11-05 | [kubernetes-sigs/security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | 🟡 high | The Security Profiles Operator streamlines the management and enforcement of native Linux security profiles like Seccomp and AppArmor across Kubernetes fleets. |
 
 === "Last 12 Months"
 
@@ -565,16 +565,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD is the industry-standard declarative GitOps continuous delivery engine for Kubernetes clusters. |
-    | 2026-11-01 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 delivers a modular set of Kubernetes controllers designed for automated GitOps reconciliation and cluster lifecycle management. |
-    | 2026-11-01 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🟡 high | Dagger revolutionizes CI/CD by executing containerized pipelines defined in general-purpose programming languages via BuildKit. |
-    | 2026-10-26 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton Pipelines provides a cloud-native, Kubernetes-CRD-driven engine for building decentralized CI/CD workflows. |
-    | 2026-10-28 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | Tofu-Controller extends GitOps automation to infrastructure as code by reconciling OpenTofu and Terraform resources natively in Kubernetes. |
-    | 2026-11-02 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | The Jenkins Kubernetes plugin enables dynamic, cloud-native scalability by auto-provisioning ephemeral build agent pods on demand. |
-    | 2026-11-05 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | Prow powers large-scale governance and test automation for massive cloud-native ecosystem projects using a Kubernetes-native microservices architecture. |
-    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🟡 high | Helm serves as the foundational package manager for Kubernetes, enabling structured templating and release lifecycle management for cloud-native applications. |
-    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🟡 high | Glasskube offers a next-generation Go-based package manager that simplifies cloud-native software discovery, dependencies, and automated updates on Kubernetes. |
-    | 2026-11-02 | [Nubenetes ArgoCD and GitOps Automation (Playlist)](https://www.youtube.com/playlist?list=PLYbmzkhLGOtI) | 🟡 high | This comprehensive guide covers advanced multi-cluster architectures, ApplicationSets, and progressive delivery patterns using Argo CD. |
+    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD is the industry-standard declarative GitOps continuous delivery engine for Kubernetes environments. |
+    | 2026-11-01 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 represents the CNCF-graduated benchmark for modular, controller-based GitOps synchronization and progressive delivery. |
+    | 2026-11-01 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger introduces a paradigm shift in CI/CD by executing containerized, portable pipelines defined in standard programming languages via BuildKit. |
+    | 2026-10-26 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton Pipelines provides the foundational Kubernetes-native framework and Custom Resource Definitions for building decentralized CI execution engines. |
+    | 2026-10-28 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | Tofu-controller natively extends GitOps reconciliation principles to OpenTofu and Terraform infrastructure as code within Kubernetes. |
+    | 2026-11-05 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | Prow is the proven, high-scale Kubernetes-native CI/CD system driving release engineering and ChatOps governance across the cloud-native ecosystem. |
+    | 2026-11-02 | [Nubenetes ArgoCD and GitOps Automation (Playlist)](https://www.youtube.com/playlist?list=PLYbmzkhLGOtI) | 🟡 high | Delivers practical, high-value blueprints for production GitOps architectures, multi-cluster setups, and Argo CD ApplicationSet workflows. |
+    | 2026-11-02 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | The de-facto enterprise standard for running hybrid CI workloads by dynamically provisioning isolated, auto-scaling worker pods in Kubernetes. |
+    | 2026-06-14 | [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) | 🔵 medium | Significantly improves enterprise GitOps manageability by integrating ApplicationSet topology visualization directly into the Argo CD user interface. |
+    | 2025-12-16 | [argoproj-labs/argocd-autopilot: Argo-CD Autopilot](https://github.com/argoproj-labs/argocd-autopilot) | 🔵 medium | Streamlines Day-1 and Day-2 GitOps operations by implementing opinionated, automated repository structures for Argo CD multi-cluster deployments. |
 
 
 ## Observability, SRE & Testing

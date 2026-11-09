@@ -21459,4 +21459,384 @@ https://github.com/awslabs/ai-on-eks
 
 - Kubernetes-SIGs Kueue Project:
 https://github.com/kubernetes-sigs/kueue','2026',5,'This architectural explainer details how to design and operate enterprise-grade distributed AI training platforms on Kubernetes, contrasting managed cloud AI suites with high-scale Kubernetes clusters. It covers multi-tenant batch scheduling using Kueue and KubeRay, lossless RoCEv2 and InfiniBand networking fabrics for low-latency gradient synchronization, and automated fault recovery using SageMaker HyperPod on EKS. The video provides a critical blueprint for cloud architects building resilient, non-disruptive infrastructure for large-scale model training runs in 2026.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794060768,0,'2026-11-07T15:12:48.247662+01:00','2026-11-07T15:12:48.247662+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + Kubernetes", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/gbXCFGCR1-Q','AKS vs AKS Local vs OpenShift: Choosing Your Enterprise Kubernetes Platform','Deciding where your enterprise Kubernetes infrastructure lives: AKS Cloud, AKS Local, or Red Hat OpenShift.
+
+Where your infrastructure lives, your team''s Day-2 maintenance capacity, and your regulatory security compliance define your Kubernetes platform choice. This breakdown compares cloud-managed simplicity, hybrid edge data sovereignty, and turnkey enterprise compliance.
+
+KEY TAKEAWAYS:
+
+- AKS Cloud: Minimizes operational overhead with a fully managed control plane and Automatic mode for instant out-of-the-box Karpenter node provisioning and scaling.
+
+- AKS Local: Extends the Azure cloud management experience directly to on-premises factories and data centers via Azure Arc, guaranteeing absolute data sovereignty and ultra-low latency.
+
+- Red Hat OpenShift: Turnkey enterprise platform bundling automated software delivery pipelines, private registries, and strict secure-by-default policies for regulated industries.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Azure Kubernetes Service (AKS) Architecture:
+https://learn.microsoft.com/azure/aks/
+
+- AKS on Azure Local (Azure Stack HCI & Azure Arc):
+https://learn.microsoft.com/azure/azure-local/manage/aks/
+
+- Azure Red Hat OpenShift (ARO) Architecture:
+https://learn.microsoft.com/azure/azure-red-hat-openshift/
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural comparison evaluates enterprise Kubernetes deployment models across managed public cloud (AKS Cloud), hybrid edge data centers (AKS Local via Azure Arc), and fully integrated enterprise distributions (Red Hat OpenShift). It establishes decision boundaries based on Day-2 operational maintenance capacity, automated node scaling, strict data sovereignty requirements, and out-of-the-box regulatory compliance guardrails.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/jGvJ4tCzH90','SUSE Rancher vs VMware Tanzu: Multi-Cloud vs Private Cloud Kubernetes','Architectural comparison between SUSE Rancher and VMware Tanzu for enterprise Kubernetes fleet governance.
+
+SUSE Rancher delivers a universal, vendor-neutral control plane managing Kubernetes clusters across AWS, Azure, Google Cloud, and bare-metal servers. In contrast, VMware Tanzu integrates deeply with VMware vSphere virtualization, turning existing private enterprise data centers into cloud-native platforms.
+
+KEY TAKEAWAYS:
+
+- SUSE Rancher: Open, multicloud fleet management and policy enforcement across any CNCF-certified cluster.
+- VMware Tanzu: Tight integration with ESXi hypervisors and vCenter, ideal for private data center modernization.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Enterprise Architecture Analysis:
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- SUSE Rancher Documentation:
+https://rancher.com/docs/
+
+- VMware Tanzu Platform:
+https://tanzu.vmware.com/
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural comparison evaluates SUSE Rancher versus VMware Tanzu for enterprise Kubernetes fleet governance across hybrid and distributed environments. While SUSE Rancher delivers a vendor-neutral, multi-cloud control plane capable of managing any CNCF-certified cluster across hyperscalers and bare-metal edge deployments, VMware Tanzu provides deep hypervisor-level integration with vSphere and ESXi to transform traditional private data centers into cloud-native platforms.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/RyxKRdYWnuE','VMware Tanzu vs vSphere Kubernetes Service (VKS): Enterprise Modernization [Short]','Architectural breakdown of how VMware Tanzu and vSphere Kubernetes Service (VKS) bridge legacy enterprise virtualization and container runtimes.
+
+Raw Kubernetes is often too complex for infrastructure teams to deploy without extensive automation. VKS provides the low-level compute engine embedded in vSphere, while Tanzu layers fleet governance, developer self-service, and policy management on top.
+
+KEY TAKEAWAYS:
+
+- vSphere Kubernetes Service (VKS): Embedded hypervisor-level container execution inside ESXi clusters.
+- VMware Tanzu: Full lifecycle fleet management, developer portals, and centralized cluster governance.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Enterprise Architecture Analysis:
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- VMware vSphere with Tanzu Documentation:
+https://docs.vmware.com/en/VMware-vSphere/
+
+- VMware Tanzu Overview:
+https://tanzu.vmware.com/
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural breakdown analyzes how vSphere Kubernetes Service (VKS) and VMware Tanzu bridge enterprise virtualization and cloud-native container runtimes. While VKS embeds native Kubernetes compute directly into the ESXi hypervisor layer, Tanzu delivers centralized multi-cluster fleet governance, developer self-service abstractions, and policy enforcement across hybrid environments. In a 2026 enterprise strategy, this decoupled paradigm enables organizations to modernize legacy virtualization footprints into scalable Kubernetes platforms while preserving mature operational tooling.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/R8JUMZPpXA8','How to Choose Your Azure Container Strategy: ACI, ACA, AKS Automatic & Standard','Fast-paced architectural overview mapping the complete Azure container spectrum.
+
+Explore the control continuum: Azure Container Instances (ACI) for lightweight scripts, Azure Container Apps (ACA) for serverless event-driven microservices, AKS Automatic for Karpenter-managed node autoprovisioning, and AKS Standard for full-access cluster governance.
+
+KEY TAKEAWAYS:
+
+- Choose ACI for zero-orchestration batch tasks and per-second billing.
+- Choose ACA for web apps and microservices with automatic KEDA scaling.
+- Choose AKS Automatic for Kubernetes API compatibility without node management.
+- Choose AKS Standard for custom networking, service meshes, and daemonsets.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Microsoft Learn: Choosing an Azure Compute Service:
+https://learn.microsoft.com/azure/architecture/guide/technology-choices/compute-decision-tree
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural decision framework maps Azure''s container compute continuum, evaluating trade-offs between operational abstraction and infrastructure control. It contrasts serverless task execution via Azure Container Instances (ACI) and event-driven microservices on Azure Container Apps (ACA) against Kubernetes-native options, highlighting AKS Automatic with Karpenter-driven node autoprovisioning alongside AKS Standard for deep networking and daemonset governance. This guide equips cloud architects to right-size orchestration complexity, optimize operational overhead, and enforce cloud-native workload isolation.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/NHeyQpW6i5s','AKS vs Azure Container Apps: The Cost of Control & Scale-to-Zero FinOps','Real-world FinOps breakdown comparing the cost of running a retail API on AKS versus Azure Container Apps.
+
+Discover how paying for idle Kubernetes worker nodes drains cloud budgets during off-peak hours (the 3:00 AM scenario), and how Azure Container Apps'' true scale-to-zero model slashes compute bills for variable workloads.
+
+KEY TAKEAWAYS:
+
+- The Idle Tax: AKS requires running at least one node pool 24/7, incurring compute costs even with zero traffic.
+- Scale to Zero: ACA dynamically deallocates all replicas when queue depths and HTTP requests drop to zero.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Azure Container Apps Pricing & Billing:
+https://azure.microsoft.com/pricing/details/container-apps/
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural comparison analyzes the FinOps trade-offs between hosting variable retail workloads on Azure Kubernetes Service (AKS) versus Azure Container Apps (ACA). It highlights the costly ''idle tax'' inherent to running baseline 24/7 AKS worker node pools compared to ACA''s event-driven, scale-to-zero model powered by KEDA during zero-traffic windows. For modern cloud platforms, this distinction establishes crucial decision criteria for balancing deep infrastructure control against serverless, consumption-based cost efficiency.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/27qa8ycKKqQ','Azure Container Apps vs AKS: The 5 Enterprise Evaluation Dimensions','The 5 essential evaluation criteria enterprise cloud architects must evaluate before choosing between Azure Container Apps and AKS: Application Complexity, Scale & Throughput Patterns, Operational DevOps Overhead, Ecosystem Extensibility, and Engineering Team Maturity.
+
+KEY TAKEAWAYS:
+
+- Application Complexity: Stateless microservices belong on ACA; complex distributed systems fit AKS.
+- DevOps Overhead: ACA eliminates Kubernetes administration; AKS requires dedicated SRE resources.
+- Ecosystem Extensibility: AKS allows full CRD and operator customization; ACA enforces a managed boundary.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Microsoft Learn: Container App Options:
+https://learn.microsoft.com/azure/container-apps/compare-options
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural breakdown delineates a strategic decision matrix between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS) across five critical enterprise dimensions: application complexity, scaling dynamics, DevOps operational burden, ecosystem extensibility, and engineering maturity. It highlights how serverless container abstraction minimizes Day-2 operational overhead for stateless microservices while full-fledged Kubernetes remains essential for complex stateful topologies, custom CRDs, and fine-grained cluster control.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Container Apps vs AKS", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/fiDX1UQEJGk','Azure Container Apps vs AKS Architecture: Subnet Delegation & Network Isolation','Architectural deep dive into network boundaries and VNet integration.
+
+Understand how Azure Container Apps enforces dedicated subnet delegation and managed Envoy ingress within an internal environment, compared to AKS Azure CNI Overlay and granular Calico/Cilium network security policies.
+
+KEY TAKEAWAYS:
+
+- ACA Network Model: Dedicated delegated subnet with managed Envoy ingress and automated mTLS.
+- AKS Network Model: Direct pod IP allocation via Azure CNI Overlay with granular NetworkSecurityPolicies.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Azure Container Apps VNet Integration:
+https://learn.microsoft.com/azure/container-apps/vnet-custom
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural comparison evaluates enterprise network isolation patterns between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS). It analyzes how ACA simplifies operational overhead through dedicated subnet delegation, automated mTLS, and managed internal Envoy ingress, contrasted against AKS''s granular, high-control model using Azure CNI Overlay and Cilium or Calico network security policies for complex microsegmentation.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Container Apps / AKS", "category": "Networking and Service Mesh", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/cFEVTanz10Q','Picking the Right Azure Container Service: ACI vs ACA vs AKS Control Spectrum','Quick decision guide navigating the Azure container landscape: ACI, ACA, and AKS.
+
+Learn when to use ACI for fast batch automation, ACA for auto-scaling microservices with Dapr and KEDA, and AKS when your workloads demand custom daemonsets and cluster-level operators.
+
+KEY TAKEAWAYS:
+
+- ACI: Standalone container execution with zero infrastructure management.
+- ACA: Full serverless microservices platform with built-in service discovery and scaling.
+- AKS: Unrestricted Kubernetes cluster for custom operators and complex state.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Microsoft Learn: Choosing an Azure Compute Option:
+https://learn.microsoft.com/azure/architecture/guide/technology-choices/compute-decision-tree
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural decision guide maps the control and operational overhead trade-offs across Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS). It delineates optimal workload placement by recommending ACI for isolated, bursty batch tasks, ACA for serverless microservices powered by built-in Dapr and KEDA autoscaling, and AKS for complex platforms demanding custom daemonsets, operators, and granular cluster configuration.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Containers (ACI, ACA, AKS)", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/rzSGdZlZXOg','Azure Containers Explained: Developer Velocity vs Infrastructure Governance','Unpacking the central tension in modern cloud infrastructure: how fast developers can push code to production versus how much security and operational governance the platform team maintains over clusters.
+
+KEY TAKEAWAYS:
+
+- Developer Velocity: ACA hides infrastructure complexity, allowing software teams to deploy without writing Kubernetes manifests.
+- Infrastructure Governance: AKS provides total control over security policies, node configurations, and network isolation.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Azure Container Apps Overview:
+https://learn.microsoft.com/azure/container-apps/overview
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural comparison evaluates the strategic trade-offs between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS) for enterprise container deployments. ACA maximizes developer velocity through serverless abstraction and simplified operational overhead, whereas AKS delivers granular control over node topology, fine-grained network isolation, and strict enterprise security governance.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/OAS-Ptba1Ls','The Hybrid Azure Container Strategy: Combining Container Apps & AKS Core [Short]','Why modern cloud architecture doesn''t force a binary choice between Azure Container Apps and AKS.
+
+Discover the Hybrid Reference Architecture: deploying public APIs and event-driven consumers on ACA while hosting core stateful databases and heavy distributed workloads on AKS.
+
+KEY TAKEAWAYS:
+
+- Modern enterprises do not need to choose exclusively between ACA and AKS.
+- Deploy customer-facing APIs and serverless microservices on ACA for instant scaling.
+- Anchor high-throughput stateful backends and specialized compute on AKS.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Azure Architecture Center: Hybrid Container Solutions:
+https://learn.microsoft.com/azure/architecture/guide/technology-choices/compute-decision-tree
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural brief outlines a hybrid Azure container strategy that replaces the binary trade-off between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS). By decoupling customer-facing, event-driven microservices onto ACA for serverless elasticity while reserving AKS for high-throughput stateful data services and specialized workloads, platform teams maximize developer velocity without sacrificing infrastructure control. In a 2026 cloud-native context, this pattern establishes an optimal tiering model that balances operational simplicity with deep Kubernetes cluster customization.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Kubernetes Service & Azure Container Apps", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/KHuhkhgc2Ck','How Azure Container Autoscaling Works: KEDA Queue Scaling vs Cluster Autoscaler','Explaining the mechanics of container autoscaling in Microsoft Azure.
+
+Contrast traditional Kubernetes CPU/memory metrics with ACA''s native KEDA event-driven scaling that monitors queue depth, HTTP requests, and Kafka lag to scale containers before resource saturation occurs.
+
+KEY TAKEAWAYS:
+
+- Traditional Scaling: HPA scales on lagging indicators like CPU or memory spikes.
+- Event-Driven Scaling: KEDA monitors queue depth, scaling preemptively before bottlenecks impact users.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- KEDA Scaling in Azure Container Apps:
+https://learn.microsoft.com/azure/container-apps/scale-app
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural breakdown contrasts traditional reactive Horizontal Pod Autoscalers (HPA) relying on lagging CPU and memory metrics against preemptive event-driven autoscaling powered natively by KEDA in Azure Container Apps. By evaluating upstream signals such as message queue depth, HTTP concurrency, and Kafka consumer lag, platforms can scale container instances dynamically before resource saturation induces latency spikes. In modern cloud-native architectures, this event-driven paradigm is critical for orchestrating responsive, cost-optimized microservices and asynchronous distributed workloads.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Container Apps / KEDA", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/u9TLuO1wNPw','Why Azure Container Apps Blocks Custom Operators: CRDs & API Abstraction Walls','Technical explanation of the Kubernetes API abstraction wall in Azure Container Apps.
+
+Learn why ACA restricts Custom Resource Definitions (CRDs) and custom operators, and why stateful databases requiring custom storage controllers belong on AKS.
+
+KEY TAKEAWAYS:
+
+- Managed Abstraction: Hiding the Kube-API prevents custom operator installation.
+- Stateful Requirements: Applications needing custom CSI block storage drivers and database failover controllers require AKS.
+
+OFFICIAL REFERENCES:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+
+- Azure Container Apps vs AKS Feature Comparison:
+https://learn.microsoft.com/azure/container-apps/compare-options
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural breakdown examines the deliberate Kubernetes API abstraction boundary within Azure Container Apps (ACA), explaining why access to the kube-apiserver is restricted to block Custom Resource Definitions (CRDs) and custom operators. It highlights that stateful workloads dependent on specialized storage controllers, custom CSI drivers, and automated database failover operators fundamentally require the control-plane access provided by Azure Kubernetes Service (AKS). Consequently, platform engineers must weigh ACA''s simplified operational overhead against AKS''s extensibility when designing cloud-native application runtimes.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Container Apps", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=AdKSA50W4P4','AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud','Deep-dive architectural explainer on navigating the complex enterprise Kubernetes landscape: Azure Container Apps, AKS Automatic, AKS Standard, AKS Local, and Red Hat OpenShift.
+
+Architecting a modern cloud-native strategy is no longer just a technical selection; it is an organizational commitment that dictates engineering velocity, infrastructure governance, and operational total cost of ownership. This session maps the full spectrum of container orchestration models from serverless abstraction to bare-metal edge deployments.
+
+TIMESTAMPS:
+0:00 - The Kubernetes Management Dilemma
+0:55 - The Control-Plane Spectrum: ACA to AKS
+1:45 - AKS Cloud Deployment Models: Standard vs Automatic Mode
+3:15 - AKS Local and Hybrid Cloud: On-Premises & Edge
+4:30 - The Red Hat OpenShift Alternative (ARO)
+5:50 - Operational Trade-Offs, Governance & FinOps Costs
+7:10 - Making Your Final Architectural Decision
+
+KEY ARCHITECTURAL TAKEAWAYS:
+
+- Management Spectrum: Every architectural choice trades operational simplicity for granular control of the underlying Kubernetes API server. Azure Container Apps abstracts the control plane entirely, while AKS Standard provides unrestricted access at the expense of Day-2 operational overhead.
+
+- AKS Automatic Convergence: Bridges the gap by implementing automated Karpenter-driven Node Autoprovisioning (NAP), enforced security guardrails, and managed cluster upgrades while retaining native Kubernetes API compatibility.
+
+- Hybrid & Edge with AKS Local: Extends Azure cloud management to sovereign on-premises data centers and edge locations via Azure Arc and Azure Local (Azure Stack HCI), establishing consistent GitOps and container runtimes.
+
+- Turnkey Enterprise OpenShift: Azure Red Hat OpenShift (ARO) provides an opinionated enterprise platform with integrated DevSecOps, built-in CI/CD pipelines, and enterprise ingress, ideal for regulated hybrid multicloud environments.
+
+OFFICIAL ARCHITECTURAL REFERENCES & FURTHER READING:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+Comprehensive decision framework for choosing between Azure Container Apps and Azure Kubernetes Service.
+
+- Azure Kubernetes Service (AKS) Official Documentation:
+https://learn.microsoft.com/azure/aks/intro-kubernetes
+
+- AKS Automatic Mode Architecture:
+https://learn.microsoft.com/azure/aks/intro-aks-automatic
+
+- AKS on Azure Local & Hybrid Cloud (Azure Arc):
+https://learn.microsoft.com/azure/azure-local/manage/aks/
+
+- Azure Red Hat OpenShift (ARO) Architecture:
+https://learn.microsoft.com/azure/azure-red-hat-openshift/intro-openshift
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural guide navigates the enterprise container orchestration spectrum across Azure Container Apps, AKS Automatic, AKS Standard, AKS Local, and Azure Red Hat OpenShift (ARO). It evaluates the trade-offs between granular control-plane access and managed operational simplicity, spotlighting Karpenter-driven Node Autoprovisioning, Arc-enabled hybrid edge consistency, and opinionated DevSecOps platforms. The framework equips cloud architects with a structured decision matrix to optimize Day-2 operational overhead, compliance, and FinOps across hybrid and multicloud topologies.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=kSlp-I6WvqE','Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix','Architectural analysis of the core enterprise container dilemma: balancing developer velocity against granular infrastructure governance.
+
+Moving from legacy virtual machines to modern microservices introduces a dizzying array of orchestration platforms. This explainer cuts through the noise, breaking down application-centric serverless platforms, managed cloud clusters, and multi-distro Kubernetes fleets.
+
+TIMESTAMPS:
+0:00 - Power vs Productivity: The Container Dilemma
+1:05 - Decoupling the App: Serverless ACA with KEDA & Dapr
+2:30 - Deep Dive into AKS: The Heavyweight Orchestrator
+3:45 - The Middle Ground: AKS Automatic & Node Autoprovisioning
+5:10 - Multi-Distro Landscape: OpenShift, VMware Tanzu, SUSE Rancher & RKE
+6:40 - Granular Governance vs YAML Overhead
+7:30 - Final Architectural Decision Framework
+
+KEY ARCHITECTURAL TAKEAWAYS:
+
+- Application Decoupling: Azure Container Apps removes the burden of managing node pools, Helm manifests, and networking overlays by bundling built-in KEDA event-driven autoscaling and Dapr microservice building blocks.
+
+- The Heavyweight Orchestrator: AKS provides total freedom for custom CRDs, service meshes (Istio, Linkerd), and custom CNI plugins, but requires dedicated platform engineering teams to maintain the cluster lifecycle.
+
+- Multi-Distro Kubernetes Fleets: For organizations spanning on-premises and multiple public clouds, SUSE Rancher and RKE2 offer universal fleet management, while VMware Tanzu bridges vSphere virtualization environments.
+
+- Strategic Alignment: Selecting a container platform is an operational contract. Choose serverless abstraction when shipping business logic is paramount; choose full Kubernetes when custom kernel, networking, or multi-tenant isolation policies are required.
+
+OFFICIAL ARCHITECTURAL REFERENCES & FURTHER READING:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+In-depth evaluation of control versus simplicity across enterprise container workloads.
+
+- Azure Kubernetes Service (AKS) Documentation:
+https://learn.microsoft.com/azure/aks/
+
+- SUSE Rancher & RKE2 Fleet Management:
+https://rancher.com/docs/
+
+- VMware Tanzu Platform Architecture:
+https://tanzu.vmware.com/
+
+- Red Hat OpenShift Enterprise Documentation:
+https://docs.openshift.com/
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural breakdown navigates enterprise container adoption by evaluating the spectrum between developer-focused serverless platforms (Azure Container Apps with KEDA and Dapr) and granular infrastructure engines like AKS, OpenShift, VMware Tanzu, and SUSE Rancher. It frames the selection process as an operational contract, analyzing trade-offs across Day-2 operations, custom CNI/service mesh governance, and automated node provisioning. For cloud architects designing multi-cloud fleets, it provides a structured decision framework balancing developer velocity against infrastructure isolation and platform engineering overhead.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=gIBnUR1CHNY','Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide','Comprehensive engineering explainer mapping out the full Azure container ecosystem: Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS).
+
+Navigating container choices across Microsoft Azure requires evaluating isolation primitives, scaling mechanics, operational complexity, and pricing models to determine the optimal platform for each enterprise workload.
+
+TIMESTAMPS:
+0:00 - Cutting Through the Noise: The Azure Container Landscape
+1:10 - Fast and Serverless: Azure Container Instances (ACI)
+2:40 - Microservices Architecture with Azure Container Apps (ACA)
+4:15 - Event-Driven Autoscaling with KEDA & Dapr Integration
+5:30 - Deep Dive into AKS: Stateful Workloads & High-Performance Compute
+7:00 - The 2026 Bridge: AKS Automatic & Serverless Nodes
+8:10 - Architectural Decision Matrix: Matching Engine to Workload
+
+KEY ARCHITECTURAL TAKEAWAYS:
+
+- Ephemeral Simplicity (ACI): Ideal for isolated batch processing, CI/CD runners, and scheduled data scripts. Provides Hyper-V hardware isolation with per-second billing and zero cluster management.
+
+- Serverless Microservices (ACA): Built on top of managed Kubernetes, ACA provides automated ingress routing, TLS certificate management, and event-driven scaling from zero to thousands of replicas via KEDA.
+
+- Extensible Core (AKS): The essential platform for long-running stateful services, distributed databases, complex DaemonSets, and high-performance GPU compute.
+
+- Decision Alignment: Avoid over-engineering basic APIs with raw Kubernetes clusters, and avoid constraining complex distributed systems within serverless abstraction walls.
+
+OFFICIAL ARCHITECTURAL REFERENCES & FURTHER READING:
+
+- Build5Nines Architectural Guide (Chris Pietschmann):
+https://build5nines.com/azure-container-apps-vs-aks-which-is-right-for-your-enterprise-application/
+Complete architectural guide on picking the right container platform in Azure.
+
+- Azure Container Instances (ACI) Overview:
+https://learn.microsoft.com/azure/container-instances/container-instances-overview
+
+- Azure Container Apps (ACA) Overview:
+https://learn.microsoft.com/azure/container-apps/overview
+
+- Azure Kubernetes Service (AKS) Overview:
+https://learn.microsoft.com/azure/aks/intro-kubernetes
+
+- Nubenetes Cloud Native Architecture Portal:
+https://nubenetes.com/','2026',5,'This architectural guide dissects Azure''s container hosting landscape, establishing clear boundaries between Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS). It details how to balance operational overhead against cluster control by leveraging ACI for isolated ephemeral batch workloads, ACA for serverless microservices orchestrated via Dapr and KEDA, and AKS (including AKS Automatic) for complex, stateful, and GPU-intensive cloud-native platforms. Modern enterprise architects can utilize this decision framework to prevent over-engineering simple APIs while avoiding the operational constraints of serverless abstractions for distributed systems.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Containers (AKS / ACA / ACI)", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLAs2nHm8nh2A','Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher','Strategic evaluation, architecture trade-offs, and multi-distribution matrix for Enterprise Kubernetes Platforms across Public Cloud, Hybrid On-Premises, Sovereign Edge, and Private Enterprise Data Centers.
+
+Compares Azure Kubernetes Service (AKS Standard & AKS Automatic), AKS Local (hybrid on-premises via Azure Arc and Azure Local / Azure Stack HCI), Red Hat OpenShift (Azure Red Hat OpenShift / ARO), VMware Tanzu (vSphere Kubernetes Service / VKS), and SUSE Rancher (RKE2 multicloud fleet management).
+
+Covers Day-2 operational overhead, API abstraction versus raw control, GitOps fleet consistency, enterprise DevSecOps pipelines, regulatory compliance, data sovereignty, and hardware hypervisor integration.','2026',5,'This architectural comparison evaluates enterprise Kubernetes distributions—including AKS (Standard/Automatic), AKS Local via Azure Arc, Red Hat OpenShift (ARO), VMware Tanzu (VKS), and SUSE Rancher (RKE2)—across hybrid, sovereign, and public cloud environments. It analyzes the critical trade-offs between managed API abstraction and bare-metal control, focusing on Day-2 operations, multi-cluster fleet GitOps synchronization, and hardware hypervisor integration. Designed for modern multi-cloud architectures, it provides decision frameworks for balancing regulatory sovereignty, platform operational overhead, and unified enterprise DevSecOps governance.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLUlxI33bzjWQ','⭐ Nubenetes Azure Container Strategy: ACI, Container Apps & AKS Architecture','Comprehensive architectural decision guide and engineering deep dive on Azure Container Strategy: Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS Standard & AKS Automatic Mode).
+
+Explores the 5 enterprise decision dimensions (Control, Operations, Scale, Networking, and Portability), KEDA event-driven autoscaling, Karpenter-driven Node Autoprovisioning (NAP), Envoy ingress and subnet delegation, microservices communication via Dapr, persistent volume CSI drivers, CRD operator boundaries, and FinOps idle-compute economics.
+
+Based on the foundational architectural decision matrix by Chris Pietschmann (Build5Nines) and official Microsoft cloud-native engineering patterns.','2026',5,'This architectural decision guide delivers an engineering deep dive into Azure''s container hosting spectrum, contrasting Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS Standard and Automatic Mode) across control, operational overhead, scale, networking, and portability. It details critical cloud-native mechanisms including Karpenter-backed Node Autoprovisioning (NAP), KEDA event-driven autoscaling, Dapr microservice integration, and FinOps idle-compute dynamics. For 2026 enterprise architectures, it establishes a definitive rubric to navigate serverless container abstractions versus full orchestrator governance across hybrid and multi-tenant workloads.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794232540,0,'2026-11-09T14:55:40.613789+01:00','2026-11-09T14:55:40.613789+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure Containers (AKS / ACA / ACI)", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
 COMMIT;

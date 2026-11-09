@@ -37,6 +37,136 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 AKS vs AKS Local vs OpenShift: Choosing Your Enterprise Kubernetes Platform"
+    !!! info "Architectural Summary"
+        This architectural comparison evaluates enterprise Kubernetes deployment models across managed public cloud (AKS Cloud), hybrid edge data centers (AKS Local via Azure Arc), and fully integrated enterprise distributions (Red Hat OpenShift). It establishes decision boundaries based on Day-2 operational maintenance capacity, automated node scaling, strict data sovereignty requirements, and out-of-the-box regulatory compliance guardrails.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="gbXCFGCR1-Q" data-video-url="https://www.youtube.com/embed/gbXCFGCR1-Q" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/gbXCFGCR1-Q/hqdefault.jpg" alt="AKS vs AKS Local vs OpenShift: Choosing Your Enterprise Kubernetes Platform" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 SUSE Rancher vs VMware Tanzu: Multi-Cloud vs Private Cloud Kubernetes"
+    !!! info "Architectural Summary"
+        This architectural comparison evaluates SUSE Rancher versus VMware Tanzu for enterprise Kubernetes fleet governance across hybrid and distributed environments. While SUSE Rancher delivers a vendor-neutral, multi-cloud control plane capable of managing any CNCF-certified cluster across hyperscalers and bare-metal edge deployments, VMware Tanzu provides deep hypervisor-level integration with vSphere and ESXi to transform traditional private data centers into cloud-native platforms.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="jGvJ4tCzH90" data-video-url="https://www.youtube.com/embed/jGvJ4tCzH90" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/jGvJ4tCzH90/hqdefault.jpg" alt="SUSE Rancher vs VMware Tanzu: Multi-Cloud vs Private Cloud Kubernetes" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 VMware Tanzu vs vSphere Kubernetes Service (VKS): Enterprise Modernization [Short]"
+    !!! info "Architectural Summary"
+        This architectural breakdown analyzes how vSphere Kubernetes Service (VKS) and VMware Tanzu bridge enterprise virtualization and cloud-native container runtimes. While VKS embeds native Kubernetes compute directly into the ESXi hypervisor layer, Tanzu delivers centralized multi-cluster fleet governance, developer self-service abstractions, and policy enforcement across hybrid environments. In a 2026 enterprise strategy, this decoupled paradigm enables organizations to modernize legacy virtualization footprints into scalable Kubernetes platforms while preserving mature operational tooling.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="RyxKRdYWnuE" data-video-url="https://www.youtube.com/embed/RyxKRdYWnuE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/RyxKRdYWnuE/hqdefault.jpg" alt="VMware Tanzu vs vSphere Kubernetes Service (VKS): Enterprise Modernization [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How to Choose Your Azure Container Strategy: ACI, ACA, AKS Automatic & Standard"
+    !!! info "Architectural Summary"
+        This architectural decision framework maps Azure's container compute continuum, evaluating trade-offs between operational abstraction and infrastructure control. It contrasts serverless task execution via Azure Container Instances (ACI) and event-driven microservices on Azure Container Apps (ACA) against Kubernetes-native options, highlighting AKS Automatic with Karpenter-driven node autoprovisioning alongside AKS Standard for deep networking and daemonset governance. This guide equips cloud architects to right-size orchestration complexity, optimize operational overhead, and enforce cloud-native workload isolation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="R8JUMZPpXA8" data-video-url="https://www.youtube.com/embed/R8JUMZPpXA8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/R8JUMZPpXA8/hqdefault.jpg" alt="How to Choose Your Azure Container Strategy: ACI, ACA, AKS Automatic & Standard" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 AKS vs Azure Container Apps: The Cost of Control & Scale-to-Zero FinOps"
+    !!! info "Architectural Summary"
+        This architectural comparison analyzes the FinOps trade-offs between hosting variable retail workloads on Azure Kubernetes Service (AKS) versus Azure Container Apps (ACA). It highlights the costly 'idle tax' inherent to running baseline 24/7 AKS worker node pools compared to ACA's event-driven, scale-to-zero model powered by KEDA during zero-traffic windows. For modern cloud platforms, this distinction establishes crucial decision criteria for balancing deep infrastructure control against serverless, consumption-based cost efficiency.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="NHeyQpW6i5s" data-video-url="https://www.youtube.com/embed/NHeyQpW6i5s" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/NHeyQpW6i5s/hqdefault.jpg" alt="AKS vs Azure Container Apps: The Cost of Control & Scale-to-Zero FinOps" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Azure Containers Explained: Developer Velocity vs Infrastructure Governance"
+    !!! info "Architectural Summary"
+        This architectural comparison evaluates the strategic trade-offs between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS) for enterprise container deployments. ACA maximizes developer velocity through serverless abstraction and simplified operational overhead, whereas AKS delivers granular control over node topology, fine-grained network isolation, and strict enterprise security governance.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="rzSGdZlZXOg" data-video-url="https://www.youtube.com/embed/rzSGdZlZXOg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/rzSGdZlZXOg/hqdefault.jpg" alt="Azure Containers Explained: Developer Velocity vs Infrastructure Governance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud"
+    !!! info "Architectural Summary"
+        This architectural guide navigates the enterprise container orchestration spectrum across Azure Container Apps, AKS Automatic, AKS Standard, AKS Local, and Azure Red Hat OpenShift (ARO). It evaluates the trade-offs between granular control-plane access and managed operational simplicity, spotlighting Karpenter-driven Node Autoprovisioning, Arc-enabled hybrid edge consistency, and opinionated DevSecOps platforms. The framework equips cloud architects with a structured decision matrix to optimize Day-2 operational overhead, compliance, and FinOps across hybrid and multicloud topologies.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="AdKSA50W4P4" data-video-url="https://www.youtube.com/embed/AdKSA50W4P4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/AdKSA50W4P4/hqdefault.jpg" alt="AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix"
+    !!! info "Architectural Summary"
+        This architectural breakdown navigates enterprise container adoption by evaluating the spectrum between developer-focused serverless platforms (Azure Container Apps with KEDA and Dapr) and granular infrastructure engines like AKS, OpenShift, VMware Tanzu, and SUSE Rancher. It frames the selection process as an operational contract, analyzing trade-offs across Day-2 operations, custom CNI/service mesh governance, and automated node provisioning. For cloud architects designing multi-cloud fleets, it provides a structured decision framework balancing developer velocity against infrastructure isolation and platform engineering overhead.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="kSlp-I6WvqE" data-video-url="https://www.youtube.com/embed/kSlp-I6WvqE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/kSlp-I6WvqE/hqdefault.jpg" alt="Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher"
+    !!! info "Architectural Summary"
+        This architectural comparison evaluates enterprise Kubernetes distributions—including AKS (Standard/Automatic), AKS Local via Azure Arc, Red Hat OpenShift (ARO), VMware Tanzu (VKS), and SUSE Rancher (RKE2)—across hybrid, sovereign, and public cloud environments. It analyzes the critical trade-offs between managed API abstraction and bare-metal control, focusing on Day-2 operations, multi-cluster fleet GitOps synchronization, and hardware hypervisor integration. Designed for modern multi-cloud architectures, it provides decision frameworks for balancing regulatory sovereignty, platform operational overhead, and unified enterprise DevSecOps governance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLAs2nHm8nh2A" title="Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Red Hat OpenShift
 
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019"
@@ -302,6 +432,135 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLNtKxnT9mK7g" title="Nubenetes Google Cloud (GCP) and GKE Architecture (Playlist)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Azure Container Apps vs AKS
+
+??? note "🎬 Azure Container Apps vs AKS: The 5 Enterprise Evaluation Dimensions"
+    !!! info "Architectural Summary"
+        This architectural breakdown delineates a strategic decision matrix between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS) across five critical enterprise dimensions: application complexity, scaling dynamics, DevOps operational burden, ecosystem extensibility, and engineering maturity. It highlights how serverless container abstraction minimizes Day-2 operational overhead for stateless microservices while full-fledged Kubernetes remains essential for complex stateful topologies, custom CRDs, and fine-grained cluster control.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="27qa8ycKKqQ" data-video-url="https://www.youtube.com/embed/27qa8ycKKqQ" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/27qa8ycKKqQ/hqdefault.jpg" alt="Azure Container Apps vs AKS: The 5 Enterprise Evaluation Dimensions" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Container Apps AKS
+
+??? note "🎬 Azure Container Apps vs AKS Architecture: Subnet Delegation & Network Isolation"
+    !!! info "Architectural Summary"
+        This architectural comparison evaluates enterprise network isolation patterns between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS). It analyzes how ACA simplifies operational overhead through dedicated subnet delegation, automated mTLS, and managed internal Envoy ingress, contrasted against AKS's granular, high-control model using Azure CNI Overlay and Cilium or Calico network security policies for complex microsegmentation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="fiDX1UQEJGk" data-video-url="https://www.youtube.com/embed/fiDX1UQEJGk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/fiDX1UQEJGk/hqdefault.jpg" alt="Azure Container Apps vs AKS Architecture: Subnet Delegation & Network Isolation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Containers ACI ACA AKS
+
+??? note "🎬 Picking the Right Azure Container Service: ACI vs ACA vs AKS Control Spectrum"
+    !!! info "Architectural Summary"
+        This architectural decision guide maps the control and operational overhead trade-offs across Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS). It delineates optimal workload placement by recommending ACI for isolated, bursty batch tasks, ACA for serverless microservices powered by built-in Dapr and KEDA autoscaling, and AKS for complex platforms demanding custom daemonsets, operators, and granular cluster configuration.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="cFEVTanz10Q" data-video-url="https://www.youtube.com/embed/cFEVTanz10Q" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/cFEVTanz10Q/hqdefault.jpg" alt="Picking the Right Azure Container Service: ACI vs ACA vs AKS Control Spectrum" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Kubernetes Service and Azure Container Apps
+
+??? note "🎬 The Hybrid Azure Container Strategy: Combining Container Apps & AKS Core [Short]"
+    !!! info "Architectural Summary"
+        This architectural brief outlines a hybrid Azure container strategy that replaces the binary trade-off between Azure Container Apps (ACA) and Azure Kubernetes Service (AKS). By decoupling customer-facing, event-driven microservices onto ACA for serverless elasticity while reserving AKS for high-throughput stateful data services and specialized workloads, platform teams maximize developer velocity without sacrificing infrastructure control. In a 2026 cloud-native context, this pattern establishes an optimal tiering model that balances operational simplicity with deep Kubernetes cluster customization.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="OAS-Ptba1Ls" data-video-url="https://www.youtube.com/embed/OAS-Ptba1Ls" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/OAS-Ptba1Ls/hqdefault.jpg" alt="The Hybrid Azure Container Strategy: Combining Container Apps & AKS Core [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Container Apps KEDA
+
+??? note "🎬 How Azure Container Autoscaling Works: KEDA Queue Scaling vs Cluster Autoscaler"
+    !!! info "Architectural Summary"
+        This architectural breakdown contrasts traditional reactive Horizontal Pod Autoscalers (HPA) relying on lagging CPU and memory metrics against preemptive event-driven autoscaling powered natively by KEDA in Azure Container Apps. By evaluating upstream signals such as message queue depth, HTTP concurrency, and Kafka consumer lag, platforms can scale container instances dynamically before resource saturation induces latency spikes. In modern cloud-native architectures, this event-driven paradigm is critical for orchestrating responsive, cost-optimized microservices and asynchronous distributed workloads.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="KHuhkhgc2Ck" data-video-url="https://www.youtube.com/embed/KHuhkhgc2Ck" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/KHuhkhgc2Ck/hqdefault.jpg" alt="How Azure Container Autoscaling Works: KEDA Queue Scaling vs Cluster Autoscaler" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Container Apps
+
+??? note "🎬 Why Azure Container Apps Blocks Custom Operators: CRDs & API Abstraction Walls"
+    !!! info "Architectural Summary"
+        This architectural breakdown examines the deliberate Kubernetes API abstraction boundary within Azure Container Apps (ACA), explaining why access to the kube-apiserver is restricted to block Custom Resource Definitions (CRDs) and custom operators. It highlights that stateful workloads dependent on specialized storage controllers, custom CSI drivers, and automated database failover operators fundamentally require the control-plane access provided by Azure Kubernetes Service (AKS). Consequently, platform engineers must weigh ACA's simplified operational overhead against AKS's extensibility when designing cloud-native application runtimes.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="u9TLuO1wNPw" data-video-url="https://www.youtube.com/embed/u9TLuO1wNPw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/u9TLuO1wNPw/hqdefault.jpg" alt="Why Azure Container Apps Blocks Custom Operators: CRDs & API Abstraction Walls" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Containers AKS ACA ACI
+
+??? note "🎬 Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide"
+    !!! info "Architectural Summary"
+        This architectural guide dissects Azure's container hosting landscape, establishing clear boundaries between Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS). It details how to balance operational overhead against cluster control by leveraging ACI for isolated ephemeral batch workloads, ACA for serverless microservices orchestrated via Dapr and KEDA, and AKS (including AKS Automatic) for complex, stateful, and GPU-intensive cloud-native platforms. Modern enterprise architects can utilize this decision framework to prevent over-engineering simple APIs while avoiding the operational constraints of serverless abstractions for distributed systems.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="gIBnUR1CHNY" data-video-url="https://www.youtube.com/embed/gIBnUR1CHNY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/gIBnUR1CHNY/hqdefault.jpg" alt="Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 ⭐ Nubenetes Azure Container Strategy: ACI, Container Apps & AKS Architecture"
+    !!! info "Architectural Summary"
+        This architectural decision guide delivers an engineering deep dive into Azure's container hosting spectrum, contrasting Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS Standard and Automatic Mode) across control, operational overhead, scale, networking, and portability. It details critical cloud-native mechanisms including Karpenter-backed Node Autoprovisioning (NAP), KEDA event-driven autoscaling, Dapr microservice integration, and FinOps idle-compute dynamics. For 2026 enterprise architectures, it establishes a definitive rubric to navigate serverless container abstractions versus full orchestrator governance across hybrid and multi-tenant workloads.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLUlxI33bzjWQ" title="⭐ Nubenetes Azure Container Strategy: ACI, Container Apps & AKS Architecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

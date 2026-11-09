@@ -67,8 +67,13 @@ jobs:
             git commit -m "chore: update inventory stars and licenses [skip ci]"
             # Retry rebase+push to survive concurrent bot pushes to develop.
             for i in {1..5}; do
-              git pull origin develop --rebase && git push origin develop && exit 0
-              echo "Push attempt $i/5 rejected — retrying..."; sleep $((i * 3))
+              if git pull origin develop --rebase -X theirs && git push origin develop; then
+                echo "Successfully rebased and pushed inventory metadata."
+                exit 0
+              fi
+              echo "Push attempt $i/5 rejected or conflicted — aborting rebase and retrying..."
+              git rebase --abort 2>/dev/null || true
+              sleep $((i * 3))
             done
             echo "::error::Inventory metadata push failed after 5 attempts."; exit 1
           fi
