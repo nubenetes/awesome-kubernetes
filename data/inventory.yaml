@@ -716456,3 +716456,85 @@ https://www.youtube.com/playlist?list=PLUlxI33bzjWQ:
   technology: Azure Containers (AKS / ACA / ACI)
   category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLIHPlQVunY48:
+  title: 'Nubenetes Microsoft Foundry: Enterprise AI Architecture and Migration Guide (Playlist)'
+  description: 'Comprehensive architectural guide, technical reference, and migration blueprint for Microsoft Foundry: consolidated resource architecture (Microsoft.CognitiveServices/accounts), project workspace isolation, azure-ai-projects SDK (AIProjectClient), Foundry Agent Service, Responses API, automated quality/safety evaluations, and FinOps governance.'
+  year: '2026'
+  stars: 5
+  ai_summary: 'Comprehensive architectural guide, technical reference, and migration blueprint for Microsoft Foundry: consolidated resource architecture (Microsoft.CognitiveServices/accounts), project workspace isolation, azure-ai-projects SDK (AIProjectClient), Foundry Agent Service, Responses API, automated quality/safety evaluations, and FinOps governance.'
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794260000
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:30:00.000000+01:00'
+  last_ai_eval: '2026-11-09T16:30:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - Enterprise AI Platforms
+  - Microsoft Foundry
+  tags:
+  - '[AI]'
+  - '[AZURE]'
+  - '[GUIDE]'
+  - '[FINOPS]'
+  v1_locations:
+  - docs/azure.md
+  v2_locations:
+  - azure.md
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 1
+  technology: Microsoft Foundry
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLCvH88mzNLo8:
+  title: 'Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA (Playlist)'
+  description: 'Guía arquitectónica completa y metodología de migración empresarial para Microsoft Foundry en Microsoft Azure (Español): unificación del plano de control bajo Microsoft.CognitiveServices/accounts, proyectos aislados, SDK azure-ai-projects, evaluación de modelos y seguridad con Azure Private Link. [SPANISH CONTENT]'
+  year: '2026'
+  stars: 5
+  ai_summary: 'Guía arquitectónica completa y metodología de migración empresarial para Microsoft Foundry en Microsoft Azure (Español): unificación del plano de control bajo Microsoft.CognitiveServices/accounts, proyectos aislados, SDK azure-ai-projects, evaluación de modelos y seguridad con Azure Private Link. [SPANISH CONTENT]'
+  language: Spanish
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794260000
+  needs_ai_refresh: false
+  discovered_at: '2026-11-09T16:30:00.000000+01:00'
+  last_ai_eval: '2026-11-09T16:30:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - Enterprise AI Platforms
+  - Microsoft Foundry (Español)
+  tags:
+  - '[AI]'
+  - '[AZURE]'
+  - '[GUIDE]'
+  - '[SPANISH]'
+  v1_locations:
+  - docs/azure.md
+  v2_locations:
+  - azure.md
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 2
+  technology: Microsoft Foundry (Español)
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
