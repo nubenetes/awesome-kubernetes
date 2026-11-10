@@ -1,8 +1,8 @@
-mkdocs-material>=9.8.0
+mkdocs-material>=9.8.1
 pymdown-extensions>=12.3
 yt-dlp
 youtube-transcript-api
 mkdocs-redirects>=1.2.3
 mkdocs-minify-plugin>=0.8.0
-mkdocs-rss-plugin>=1.19.0
-mkdocs-git-revision-date-localized-plugin>=1.6.2
+mkdocs-rss-plugin>=1.20.0
+mkdocs-git-revision-date-localized-plugin>=1.6.3
