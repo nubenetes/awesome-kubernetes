@@ -1,5 +1,5 @@
 ---
-description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless, OpenFaaS and more — curated Cloud Native tools, guides and references."
+description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and more — curated Cloud Native tools, guides and references."
 ---
 # Serverless Architectures and Frameworks
 
@@ -227,7 +227,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
   - [TriggerMesh](https://alexiskiryuin.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for TriggerMesh covering TriggerMesh serverless event router in Serverless (alexiskiryuin.com).
 
 ---
-💡 **Explore Related:** [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

@@ -124,6 +124,9 @@ description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AW
 #### Project Structure
 
   - **(2023)** [tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project](https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural patterns for structural scaling in Ansible. Recommends multi-environment directories, external roles, and separated configuration scopes to maximize system maintenance and clarity.
+#### Reference Architectures
+
+  - **(2024)** [==Ansible for DevOps Examples==](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9939</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-253833c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 12 L 30 4 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-253833c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-standard GitHub repository containing configuration blueprints for Jeff Geerling's 'Ansible for DevOps'. Serves as a primary reference for deploying Kubernetes clusters and microservices.
 #### Reference Projects
 
   - **(2023)** [middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction](https://www.middlewareinventory.com/blog/ansible-playbook-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of practical Ansible playbook blueprints. Offers concrete system administration examples covering package management, file state adjustments, and cron-job automation.
@@ -557,7 +560,7 @@ description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AW
   - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [IaC](./iac.md) | [Securityascode](./securityascode.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

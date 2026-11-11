@@ -1009,7 +1009,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
   - [cncf.io: Seven zero trust rules for Kubernetes](https://www.cncf.io/blog/2022/11/04/seven-zero-trust-rules-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Seven zero trust rules for Kubernetes covering Zero Trust Security in Devsecops (cncf.io).
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

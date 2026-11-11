@@ -717922,13 +717922,9 @@ https://www.youtube.com/shorts/W-tQ_AWBfo0:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Observability + SRE + AI Agents
-  category: Observability and Monitoring
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -717946,6 +717942,11 @@ https://www.youtube.com/shorts/W-tQ_AWBfo0:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Observability + SRE + AI Agents
+  category: Observability and Monitoring
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/cn_lMyaAWk4:
   title: 'The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features'
@@ -717974,13 +717975,9 @@ https://www.youtube.com/shorts/cn_lMyaAWk4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -717998,6 +717995,11 @@ https://www.youtube.com/shorts/cn_lMyaAWk4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/ioMFzCbMfz8:
   title: 'How OpenShift 5 Modernizes Cloud Native Development: Dev Spaces & Tooling'
@@ -718022,13 +718024,9 @@ https://www.youtube.com/shorts/ioMFzCbMfz8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: OpenShift
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718046,6 +718044,11 @@ https://www.youtube.com/shorts/ioMFzCbMfz8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: OpenShift
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/sYAEKwUDqJY:
   title: 'How OpenShift 5 Simplifies Cluster Upgrades: In-Place Update from 4.22 [Short]'
@@ -718073,13 +718076,9 @@ https://www.youtube.com/shorts/sYAEKwUDqJY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718097,6 +718096,11 @@ https://www.youtube.com/shorts/sYAEKwUDqJY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Xk6zkGfV34s:
   title: 'How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation
@@ -718125,13 +718129,9 @@ https://www.youtube.com/shorts/Xk6zkGfV34s:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718149,6 +718149,11 @@ https://www.youtube.com/shorts/Xk6zkGfV34s:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/N3u6VpDj6Bw:
   title: How Change Block Tracking (CBT) Speeds Up OpenShift Virtualization 5 Backups
@@ -718175,13 +718180,9 @@ https://www.youtube.com/shorts/N3u6VpDj6Bw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: OpenShift Virtualization
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718199,6 +718200,11 @@ https://www.youtube.com/shorts/N3u6VpDj6Bw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: OpenShift Virtualization
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/-YbJ4TgLUg4:
   title: Three OpenShift 5 Breaking Changes to Address Before Upgrading
@@ -718223,13 +718229,9 @@ https://www.youtube.com/shorts/-YbJ4TgLUg4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: OpenShift / Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718247,6 +718249,11 @@ https://www.youtube.com/shorts/-YbJ4TgLUg4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: OpenShift / Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/u07rBU5fYTE:
   title: 'How OpenShift 5 Secures Sovereign Clouds: Air-Gapped & Zero-Trust Governance'
@@ -718272,13 +718279,9 @@ https://www.youtube.com/shorts/u07rBU5fYTE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Red Hat OpenShift
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718296,6 +718299,11 @@ https://www.youtube.com/shorts/u07rBU5fYTE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Red Hat OpenShift
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/MX505_pRGD0:
   title: How Confidential Containers Protect AI Models in Red Hat OpenShift 5 [Short]
@@ -718323,13 +718331,9 @@ https://www.youtube.com/shorts/MX505_pRGD0:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Confidential Containers (CoCo) + OpenShift
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718347,6 +718351,11 @@ https://www.youtube.com/shorts/MX505_pRGD0:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Confidential Containers (CoCo) + OpenShift
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/-1xhWXGE82w:
   title: 'How OpenShift 5 Secures AI Workloads: Model Context Protocol & Zero-Trust
@@ -718375,13 +718384,9 @@ https://www.youtube.com/shorts/-1xhWXGE82w:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718399,6 +718404,11 @@ https://www.youtube.com/shorts/-1xhWXGE82w:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/H4U7khZdAoI:
   title: How O-Cloud Manager Deploys Telco & Edge Clusters on OpenShift 5 [Short]
@@ -718425,13 +718435,9 @@ https://www.youtube.com/shorts/H4U7khZdAoI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: OpenShift & Telco Edge
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718449,6 +718455,11 @@ https://www.youtube.com/shorts/H4U7khZdAoI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: OpenShift & Telco Edge
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=4-oLXvCaZiM:
   title: 'Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades
@@ -718485,13 +718496,9 @@ https://www.youtube.com/watch?v=4-oLXvCaZiM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718509,6 +718516,11 @@ https://www.youtube.com/watch?v=4-oLXvCaZiM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=1bs9TiAjWO8:
   title: 'Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization'
@@ -718551,13 +718563,9 @@ https://www.youtube.com/watch?v=1bs9TiAjWO8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718575,6 +718583,11 @@ https://www.youtube.com/watch?v=1bs9TiAjWO8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLXDBfnEd7RX8:
   title: '⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide'
@@ -718613,13 +718626,9 @@ https://www.youtube.com/playlist?list=PLXDBfnEd7RX8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794434170
   needs_ai_refresh: false
@@ -718637,4 +718646,9 @@ https://www.youtube.com/playlist?list=PLXDBfnEd7RX8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
