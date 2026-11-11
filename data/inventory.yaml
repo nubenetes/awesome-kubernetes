@@ -717894,3 +717894,57 @@ https://www.youtube.com/playlist?list=PLF-sI1t2ehbs:
   technology: Kubernetes
   category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLXDBfnEd7RX8:
+  title: 'Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide'
+  description: 'Comprehensive architectural guide, technical deep dives, and production
+    engineering reference for Red Hat OpenShift 5, the next-generation enterprise
+    hybrid cloud application platform: Kubernetes 1.36 and CRI-O 1.36 core, non-disruptive
+    minor-style in-place updates from 4.22, 3-year enterprise release lifecycle, OpenShift
+    Lightspeed autonomous agentic AI triage, Model Context Protocol (MCP) server & gateway
+    GA, OpenShift Virtualization 5 with QEMU Change Block Tracking (CBT) backups, Confidential
+    Containers (CoCo) with hardware-enforced TEEs, and O-Cloud Manager zero-touch edge provisioning.'
+  year: '2026'
+  stars: 5
+  ai_summary: This comprehensive architectural guide and production reference details
+    the core innovations in Red Hat OpenShift 5, including Kubernetes 1.36 and CRI-O 1.36 core
+    foundation, non-disruptive minor-style in-place cluster upgrades from 4.22, 3-year release
+    cadence with 24 months lifecycle support, OpenShift Lightspeed supervised and autonomous agentic
+    AI troubleshooting, General Availability of Model Context Protocol (MCP) servers and gateways
+    via Red Hat Connectivity Link, OpenShift Virtualization 5 featuring storage-agnostic QEMU
+    Change Block Tracking (CBT) backups, hardware-enforced Confidential Containers (CoCo), and
+    O-Cloud Manager zero-touch edge provisioning.
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794260500
+  needs_ai_refresh: false
+  discovered_at: '2026-11-11T22:45:00.000000+01:00'
+  last_ai_eval: '2026-11-11T22:45:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - Container Strategy
+  - Red Hat OpenShift
+  tags:
+  - '[OPENSHIFT]'
+  - '[KUBERNETES]'
+  - '[VIRTUALIZATION]'
+  - '[AI]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/openshift.md
+  v2_locations:
+  - cloud-native.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 3
+  technology: Red Hat OpenShift
+  category: Architecture and Cloud Strategy
+  source_provenance: Official @nubenetes YouTube Channel
