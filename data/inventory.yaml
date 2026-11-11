@@ -252921,6 +252921,7 @@ https://github.com/ray-project/kuberay:
   gh_activity_checked: '2026-10-25T22:51:57.643776+01:00'
   category: ai-agents-mcp
   momentum_score: 76.7
+  cncf_status: sandbox
 https://github.com/rayfrankenstein/AITOW:
   title: 'rayfrankenstein/AITOW: #AgileKillsKittens (or Agile In Their Own Words:''
     The Problem With Agile & Scrum)'

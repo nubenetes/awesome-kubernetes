@@ -375,7 +375,7 @@
         "date": "2026-10-28",
         "stars": 0,
         "impact": "critical",
-        "why": "Serves as the foundational distributed key-value store and consensus engine powering Kubernetes state management and microservice discovery.",
+        "why": "The foundational CNCF-graduated distributed key-value store underpinning Kubernetes and modern cloud native distributed state architecture.",
         "category": "Architecture & Microservices"
       },
       {
@@ -383,8 +383,8 @@
         "title": "Awesome microservices",
         "date": "2026-08-20",
         "stars": 4,
-        "impact": "critical",
-        "why": "A premier comprehensive directory covering distributed patterns, event-streaming buses, and API gateway architectures for microservices.",
+        "impact": "high",
+        "why": "Essential curated guide covering core microservice design patterns, distributed consensus engines, API gateways, and event-driven topologies.",
         "category": "Architecture & Microservices"
       },
       {
@@ -393,16 +393,7 @@
         "date": "2026-10-23",
         "stars": 5,
         "impact": "high",
-        "why": "Provides platform architects with a systematic catalog mapping CNCF service meshes, storage, and orchestration layers.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/mehdihadeli/awesome-software-architecture",
-        "title": "Awesome Software Architecture",
-        "date": "2026-10-15",
-        "stars": 0,
-        "impact": "high",
-        "why": "Curates modern enterprise architectural paradigms, domain-driven design principles, and scalable distributed system blueprints.",
+        "why": "Comprehensive landscape index systematically mapping cloud native architecture, service meshes, dynamic storage, and CNCF standards.",
         "category": "Architecture & Microservices"
       },
       {
@@ -411,16 +402,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes the diagrams-as-code pattern, enabling engineers to programmatically define and maintain cloud architecture topologies.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/upgundecha/howtheysre",
-        "title": "How they SRE",
-        "date": "2026-09-30",
-        "stars": 3,
-        "impact": "high",
-        "why": "Offers real-world architectural case studies and operational telemetry practices from leading tech organizations running at massive scale.",
+        "why": "Enables architectural diagramming as code in Python, drastically streamlining cloud infrastructure documentation and system design.",
         "category": "Architecture & Microservices"
       },
       {
@@ -428,8 +410,8 @@
         "title": "Awesome Compose 🌟",
         "date": "2026-10-26",
         "stars": 5,
-        "impact": "medium",
-        "why": "Supplies standardized multi-container topology recipes essential for local microservice orchestration and component decoupling.",
+        "impact": "high",
+        "why": "Official repository providing declarative multi-container topologies and optimal composition patterns for local microservice stacks.",
         "category": "Architecture & Microservices"
       },
       {
@@ -437,8 +419,26 @@
         "title": "Awesome Docker 🌟",
         "date": "2026-11-01",
         "stars": 5,
+        "impact": "high",
+        "why": "Definitive directory of container runtimes, packaging standards, and runtime security tools fundamental to microservice deployments.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/mehdihadeli/awesome-software-architecture",
+        "title": "Awesome Software Architecture",
+        "date": "2026-10-15",
+        "stars": 0,
+        "impact": "high",
+        "why": "Extensive architectural reference cataloging distributed system design patterns, DDD paradigms, and enterprise system structures.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/upgundecha/howtheysre",
+        "title": "How they SRE",
+        "date": "2026-09-30",
+        "stars": 3,
         "impact": "medium",
-        "why": "Foundational reference for the container runtimes, base images, and packaging standards that underpin microservice architectures.",
+        "why": "Compiles battle-tested operational blueprints, high-concurrency cluster failovers, and reliability architectures from major tech organizations.",
         "category": "Architecture & Microservices"
       },
       {
@@ -447,7 +447,7 @@
         "date": "2026-10-18",
         "stars": 5,
         "impact": "medium",
-        "why": "Bridges high-level architectural standards with concrete enterprise landing zones and cloud native reference designs.",
+        "why": "Detailed catalog of enterprise cloud landing zones and reference blueprints for scaling complex cloud infrastructure.",
         "category": "Architecture & Microservices"
       },
       {
@@ -456,7 +456,7 @@
         "date": "2026-10-18",
         "stars": 2,
         "impact": "medium",
-        "why": "Delivers production-tested architectural patterns for observability, input validation, and tracing in serverless microservices.",
+        "why": "Provides production-grade architectural blueprints, schema validation, and distributed tracing standards for serverless microservices.",
         "category": "Architecture & Microservices"
       }
     ],
@@ -559,7 +559,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides a truly open-source, Linux Foundation-governed fork of Terraform with client-side state encryption and community-driven innovation.",
+        "why": "OpenTofu represents the premier Linux Foundation-governed open-source fork of Terraform, introducing essential innovations like state encryption and community-driven governance.",
         "category": "Infrastructure as Code"
       },
       {
@@ -568,7 +568,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Introduces a foundational paradigm shift in HashiCorp Terraform for orchestrating multi-region, multi-environment infrastructure as unified stacks.",
+        "why": "Terraform Stacks introduces a paradigm shift in multi-environment, multi-tier IaC orchestration and automated cross-stack lifecycle management.",
         "category": "Infrastructure as Code"
       },
       {
@@ -576,8 +576,8 @@
         "title": "HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments",
         "date": "2026-11-02",
         "stars": 5,
-        "impact": "critical",
-        "why": "Eliminates sensitive credential leaks in Terraform state files through native ephemeral values and write-only arguments.",
+        "impact": "high",
+        "why": "Ephemeral resources and write-only arguments solve a fundamental security flaw by ensuring sensitive credentials never persist into unencrypted state files.",
         "category": "Infrastructure as Code"
       },
       {
@@ -586,7 +586,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as the unified cloud native security standard superseding tfsec for vulnerability and misconfiguration scanning across IaC.",
+        "why": "Trivy has emerged as the CNCF-backed unified standard for scanning IaC misconfigurations, secrets, and policy violations across Terraform modules.",
         "category": "Infrastructure as Code"
       },
       {
@@ -595,34 +595,7 @@
         "date": "2026-10-08",
         "stars": 5,
         "impact": "high",
-        "why": "Represents the industry-standard community Terraform module for deploying production-grade, highly scalable Amazon EKS clusters.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://developer.hashicorp.com/terraform/language/tests",
-        "title": "HashiCorp Terraform Language: Native Tests and Provider Mocking",
-        "date": "2026-11-02",
-        "stars": 5,
-        "impact": "high",
-        "why": "Standardizes native unit and integration testing with provider mocking, replacing heavy external testing frameworks for IaC verification.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/runatlantis/atlantis",
-        "title": "runatlantis/atlantis: Terraform Pull Request Automation",
-        "date": "2026-11-02",
-        "stars": 5,
-        "impact": "high",
-        "why": "Remains the benchmark self-hosted GitOps collaboration framework for executing plan-and-apply workflows directly within pull requests.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/infracost/infracost",
-        "title": "Infracost 🌟",
-        "date": "2026-10-21",
-        "stars": 5,
-        "impact": "high",
-        "why": "Enables shift-left cloud cost governance by generating actionable FinOps cost estimates directly from Terraform code diffs in CI/CD.",
+        "why": "The terraform-aws-eks module is the de facto enterprise blueprint for cloud native Kubernetes infrastructure provisioning on AWS.",
         "category": "Infrastructure as Code"
       },
       {
@@ -631,16 +604,43 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Modernizes Azure Landing Zone architecture by replacing legacy monolithic CAF code with modular, composable Azure Verified Modules.",
+        "why": "Marks the definitive architectural shift from monolithic CAF Enterprise-Scale to composable, decoupled Azure Verified Modules for enterprise platform engineering.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster",
-        "title": "Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource Module for AKS",
+        "url": "https://github.com/runatlantis/atlantis",
+        "title": "runatlantis/atlantis: Terraform Pull Request Automation",
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers Microsoft's official, enterprise-hardened Terraform module for provisioning secure AKS clusters with CNI Overlay and Cilium support.",
+        "why": "Atlantis remains the industry-standard self-hosted GitOps execution engine powering collaborative pull-request-driven Terraform and OpenTofu workflows.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/Azure/terraform-provider-azapi",
+        "title": "Azure/terraform-provider-azapi: Official Azure Resource Manager REST API Provider",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "The AzAPI provider fundamentally improves Azure IaC by enabling zero-day resource deployment and in-place ARM updates without waiting for provider release cycles.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/infracost/infracost",
+        "title": "Infracost 🌟",
+        "date": "2026-10-21",
+        "stars": 5,
+        "impact": "high",
+        "why": "Infracost institutionalizes FinOps by shifting cloud cost estimations and budget guardrails directly into pull request checks before IaC deployment.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/tests",
+        "title": "HashiCorp Terraform Language: Native Tests and Provider Mocking",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Native testing and provider mocking in HCL standardize unit and integration testing without requiring external Go-based testing harnesses or billable infrastructure.",
         "category": "Infrastructure as Code"
       }
     ],
@@ -651,7 +651,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Kueue has become the CNCF standard for batch scheduling and quota management, enabling scalable AI/ML and HPC workloads on Kubernetes.",
+        "why": "Kueue has become the CNCF standard for orchestrating AI/ML batch jobs and managing multi-tenant scheduling queues natively in Kubernetes.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -660,7 +660,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Kubebuilder serves as the industry-standard scaffolding and development framework for implementing production-ready Kubernetes Custom Resource Definitions and controllers.",
+        "why": "Kubebuilder is the authoritative industry framework for developing production-grade Kubernetes custom controllers and operators.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -669,16 +669,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "The core Kubernetes Cluster Autoscaler remains the foundational mechanism governing dynamic node provisioning and cost efficiency across enterprise cloud clusters.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes/client-go",
-        "title": "kubernetes/client-go: Go client for Kubernetes 🌟",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "client-go is the fundamental SDK underpinning virtually every production Go-based operator, controller, and infrastructure tool in the Kubernetes ecosystem.",
+        "why": "Cluster Autoscaler remains the foundational core component driving cloud infrastructure elasticity and cost efficiency across production deployments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -687,7 +678,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Karmada delivers enterprise-grade multi-cluster federation, providing centralized governance and cross-cloud workload scheduling without altering native Kubernetes APIs.",
+        "why": "Karmada provides advanced, non-intrusive multi-cluster federation and workload distribution across hybrid and multi-cloud environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -696,7 +687,16 @@
         "date": "2026-11-04",
         "stars": 5,
         "impact": "high",
-        "why": "KServe standardizes cloud-native, serverless machine learning model deployment, dynamic scaling, and GPU management on top of Kubernetes.",
+        "why": "KServe is the leading cloud-native model serving platform enabling standardized, auto-scaling inference workloads on Kubernetes.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes/client-go",
+        "title": "kubernetes/client-go: Go client for Kubernetes 🌟",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Client-go is the mission-critical programmatic foundation that powers nearly every custom controller and platform tool in the cloud native ecosystem.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -705,7 +705,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "ExternalDNS is a ubiquitous ecosystem add-on that synchronizes exposed Kubernetes Services and Ingresses directly with external DNS providers.",
+        "why": "ExternalDNS is an essential networking add-on that automates DNS management by syncing ingress and service records directly with cloud DNS providers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -714,16 +714,16 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Kustomize remains the de facto declarative configuration management tool embedded directly into kubectl for overlay-based manifest customization.",
+        "why": "Kustomize is the ubiquitous template-free configuration management standard natively integrated into Kubernetes delivery workflows.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/kubernetes-sigs/aws-load-balancer-controller",
-        "title": "github.com/kubernetes-sigs/aws-load-balancer-controller",
-        "date": "2026-11-03",
+        "url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler",
+        "title": "VPA: Vertical Pod Autoscaler",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "The AWS Load Balancer Controller is essential enterprise infrastructure for provisioning and managing native ALBs and NLBs directly from Kubernetes manifests.",
+        "why": "Vertical Pod Autoscaler provides automated, data-driven CPU and memory rightsizing crucial for optimizing cluster resource utilization.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -732,7 +732,7 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "high",
-        "why": "K9s is the industry's most widely adopted terminal-based management interface, streamlining operational observability and daily cluster administration.",
+        "why": "K9s is the industry-standard terminal interface adopted by platform teams to dramatically accelerate day-2 observability and cluster troubleshooting.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -855,7 +855,7 @@
         "date": "2026-10-26",
         "stars": 4,
         "impact": "critical",
-        "why": "The industry-standard reference microservice for teaching and testing Kubernetes progressive delivery, observability, and container health probes.",
+        "why": "Podinfo is the industry standard reference microservice used across CNCF projects and certifications to teach Kubernetes observability, progressive delivery, and health checking.",
         "category": "Certification & Training"
       },
       {
@@ -864,16 +864,7 @@
         "date": "2026-10-20",
         "stars": 0,
         "impact": "high",
-        "why": "A comprehensive hands-on curriculum covering production-grade EKS architectures, IRSA, and ingress controllers essential for cloud native certifications.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://github.com/techiescamp/devops-projects",
-        "title": "techiescamp/devops-projects:Real-World DevOps Projects For Learning",
-        "date": "2026-10-27",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides structured, real-world DevOps project templates and CI/CD blueprints bridging theoretical knowledge and operational engineering.",
+        "why": "Provides an extensive, hands-on masterclass covering production EKS operations, IRSA, and core cloud-native infrastructure patterns essential for Kubernetes certification candidates.",
         "category": "Certification & Training"
       },
       {
@@ -882,16 +873,16 @@
         "date": "2026-10-14",
         "stars": 0,
         "impact": "high",
-        "why": "Offers an enterprise-relevant reference implementation demonstrating how to containerize and orchestrate Spring Boot workloads natively on Kubernetes.",
+        "why": "Delivers a practical blueprint for running enterprise Spring Boot workloads on Kubernetes using native primitives like ConfigMaps and Spring Cloud Kubernetes.",
         "category": "Certification & Training"
       },
       {
-        "url": "https://github.com/spring-petclinic/spring-petclinic-microservices",
-        "title": "Spring PetClinic Microservices",
-        "date": "2026-10-23",
+        "url": "https://github.com/techiescamp/devops-projects",
+        "title": "techiescamp/devops-projects:Real-World DevOps Projects For Learning",
+        "date": "2026-10-27",
         "stars": 5,
         "impact": "high",
-        "why": "The canonical decomposed microservices reference architecture widely used across the industry for training teams in distributed systems design.",
+        "why": "Offers structured, real-world deployment playbooks across Terraform and CI/CD pipelines tailored for practical DevOps skills acquisition.",
         "category": "Certification & Training"
       },
       {
@@ -899,17 +890,17 @@
         "title": "github.com/learning-cloud-native-go/myapp: Learning Cloud Native Go -' myapp 🌟",
         "date": "2026-10-18",
         "stars": 3,
-        "impact": "medium",
-        "why": "Serves as a dedicated educational Go repository showcasing 12-factor cloud-native principles, structured telemetry, and Kubernetes probes.",
+        "impact": "high",
+        "why": "Serves as an ideal educational implementation of twelve-factor cloud-native Go application development with built-in telemetry and probes.",
         "category": "Certification & Training"
       },
       {
-        "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "title": "rohitg00/ai-engineering-from-scratch",
+        "url": "https://github.com/spring-petclinic/spring-petclinic-microservices",
+        "title": "Spring PetClinic Microservices",
         "date": "2026-10-23",
-        "stars": 4,
+        "stars": 5,
         "impact": "medium",
-        "why": "A rigorous 20-phase engineering curriculum providing foundational and practical training for deploying AI systems to production.",
+        "why": "Canonical reference application for training developers on decomposing monolithic architectures into distributed Spring Cloud microservices.",
         "category": "Certification & Training"
       },
       {
@@ -918,16 +909,7 @@
         "date": "2026-10-03",
         "stars": 0,
         "impact": "medium",
-        "why": "Provides advanced architectural blueprints for distributed tracing, API gateway routing, and service resilience patterns in modern cloud environments.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://github.com/unitypark/aws-serverless-demos",
-        "title": "github.com/unitypark/aws-serverless-demos",
-        "date": "2026-08-11",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Delivers practical Infrastructure-as-Code examples using AWS CDK to train teams on deploying event-driven serverless architectures.",
+        "why": "Provides updated training material for distributed systems patterns including API gateways, resiliency, and distributed tracing.",
         "category": "Certification & Training"
       },
       {
@@ -936,7 +918,25 @@
         "date": "2026-10-17",
         "stars": 5,
         "impact": "medium",
-        "why": "A high-density operational reference hub aggregating essential commands and syntax for containers, databases, and backend platforms.",
+        "why": "Consolidates high-density cheat sheets across containers, databases, and programming environments useful for rapid certification revision.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://github.com/spring-projects/spring-petclinic",
+        "title": "github.com/spring-projects/spring-petclinic",
+        "date": "2026-09-29",
+        "stars": 5,
+        "impact": "medium",
+        "why": "The ubiquitous benchmark workload universally leveraged across cloud-native training courses for containerization and CI/CD demonstrations.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://github.com/detailyang/awesome-cheatsheet",
+        "title": "detailyang/awesome-cheatsheet",
+        "date": "2026-10-20",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Serves as an operational quick-reference for system administration commands, networking tools, and runtime diagnostics during hands-on exams.",
         "category": "Certification & Training"
       }
     ],
@@ -1537,7 +1537,7 @@
         "date": "2026-10-25",
         "stars": 5,
         "impact": "critical",
-        "why": "Prometheus remains the de facto telemetry and time-series benchmark underpinning all cloud-native observability stacks.",
+        "why": "Prometheus remains the foundational CNCF graduated metric engine and the ubiquitous industry standard for cloud-native telemetry.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1546,7 +1546,7 @@
         "date": "2026-10-21",
         "stars": 5,
         "impact": "critical",
-        "why": "It provides the community reference architecture for complete, end-to-end Kubernetes cluster monitoring and alerting.",
+        "why": "Kube-prometheus delivers the canonical, production-ready reference monitoring architecture for Kubernetes control planes and workloads.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1554,8 +1554,8 @@
         "title": "kube-state-metrics 🌟",
         "date": "2026-11-05",
         "stars": 4,
-        "impact": "high",
-        "why": "Crucial system component that translates Kubernetes control plane states and workload definitions into queryable Prometheus metrics.",
+        "impact": "critical",
+        "why": "Kube-state-metrics is an indispensable cluster service that translates Kubernetes API objects into core operational metrics across all enterprise environments.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1564,7 +1564,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Solves enterprise metric durability and horizontal scalability by providing multi-tenant, long-term storage for Prometheus.",
+        "why": "Grafana Mimir solves enterprise-scale observability challenges with horizontally scalable, multi-tenant long-term storage for Prometheus metrics.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1573,7 +1573,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Sets the enterprise standard for high-volume distributed tracing with cost-effective object-storage backends.",
+        "why": "Grafana Tempo serves as the premier cost-effective distributed tracing backend utilizing cloud object storage for massive scale.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1582,7 +1582,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes Kubernetes-native chaos engineering and SRE resiliency testing using declarative Custom Resource Definitions.",
+        "why": "Litmus Chaos provides a Kubernetes-native, CRD-driven chaos engineering framework vital for modern SRE resilience testing.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1591,7 +1591,7 @@
         "date": "2026-11-05",
         "stars": 2,
         "impact": "high",
-        "why": "Leverages eBPF kernel instrumentation to provide distributed network observability and deep packet diagnostics across Kubernetes clusters.",
+        "why": "Microsoft Retina establishes a powerful eBPF-driven paradigm for deep, high-performance network observability and diagnostics in Kubernetes.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1600,7 +1600,7 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "Delivers real-time, zero-instrumentation L7 protocol inspection and network debugging for microservices via eBPF.",
+        "why": "Kubeshark modernizes microservice troubleshooting by bringing kernel-level eBPF L7 protocol inspection and packet capture into Kubernetes.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1609,7 +1609,7 @@
         "date": "2026-10-18",
         "stars": 5,
         "impact": "high",
-        "why": "Automates the generation of complex multi-window, multi-burn-rate PromQL alerts from declarative SLO definitions.",
+        "why": "Sloth standardizes declarative SRE best practices by automating complex multi-window, multi-burn-rate SLO alerting in PromQL.",
         "category": "Observability, SRE & Testing"
       },
       {
@@ -1618,7 +1618,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers production-grade architectural blueprints for modern multi-cloud observability combining OpenTelemetry and eBPF.",
+        "why": "Provides an architectural blueprint for modern multi-cloud observability uniting OpenTelemetry collector routing with eBPF instrumentation.",
         "category": "Observability, SRE & Testing"
       }
     ],
@@ -3347,7 +3347,7 @@
         "date": "2026-08-20",
         "stars": 4,
         "impact": "critical",
-        "why": "Serves as the definitive directory for distributed system patterns, API gateways, and decoupled microservice communication architectures.",
+        "why": "Serves as the definitive directory for microservices design patterns, distributed consensus engines, API gateways, and distributed event systems.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3356,7 +3356,16 @@
         "date": "2026-10-23",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides an essential structural mapping of CNCF cloud-native components, service meshes, and platform engineering primitives.",
+        "why": "Provides an authoritative structural taxonomy of CNCF cloud-native architecture components spanning service meshes, storage, and runtime fabrics.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://awesome-architecture.com",
+        "title": "awesome-architecture.com: 🎨 Awesome Software Architecture 🌟",
+        "date": "2026-06-01",
+        "stars": 2,
+        "impact": "high",
+        "why": "Consolidates architectural blueprints, domain-driven design strategies, and patterns essential for structuring high-concurrency microservices.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3365,7 +3374,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Pioneers the diagrams-as-code paradigm to automate reproducible, version-controlled cloud architecture visualizations directly in Python.",
+        "why": "Enables engineering teams to codify and version-control complex multi-cloud and microservice architecture topologies directly in Python.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3374,7 +3383,7 @@
         "date": "2026-06-18",
         "stars": 3,
         "impact": "high",
-        "why": "Delivers crucial architectural guidance for dissecting and mitigating common distributed pitfalls such as distributed monoliths and database coupling.",
+        "why": "Addresses critical failure modes in distributed systems engineering by detailing how to identify and avoid distributed monolith anti-patterns.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3383,7 +3392,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Offers production-ready IaC baselines specifically structured for scalable multi-cloud Kubernetes cluster architectures.",
+        "why": "Delivers production-tested IaC blueprints for architecting secure, enterprise-grade multi-tenant Kubernetes platform foundations.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3392,25 +3401,7 @@
         "date": "2026-05-25",
         "stars": 5,
         "impact": "high",
-        "why": "Establishes unified policy-as-code and fine-grained authorization architectures across distributed microservice meshes and clusters.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://developer.hashicorp.com",
-        "title": "developer.hashicorp.com 🌟",
-        "date": "2026-06-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Acts as the unified architectural reference for enterprise service discovery, service mesh networking, and declarative infrastructure provisioning.",
-        "category": "Architecture & Microservices"
-      },
-      {
-        "url": "https://github.com/docker/awesome-compose",
-        "title": "Awesome Compose 🌟",
-        "date": "2026-10-26",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Supplies official declarative patterns for orchestrating complex, multi-container microservice environments locally and in CI/CD.",
+        "why": "Enforces decoupled, policy-as-code architectural boundaries across microservices, ingress gateways, and orchestrators using Open Policy Agent.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3419,7 +3410,7 @@
         "date": "2026-05-30",
         "stars": 5,
         "impact": "medium",
-        "why": "Solves multi-cluster management bottlenecks by establishing a unified search and synchronization layer across distributed Kubernetes fleets.",
+        "why": "Offers a scalable architectural pattern for centralized resource indexing and discovery across complex multi-cluster microservice estates.",
         "category": "Architecture & Microservices"
       },
       {
@@ -3428,7 +3419,16 @@
         "date": "2026-10-18",
         "stars": 5,
         "impact": "medium",
-        "why": "Curates enterprise landing zones and reference architecture blueprints essential for building resilient, cloud-scale distributed systems.",
+        "why": "Delivers verified enterprise landing zone architectures and reference designs for orchestrating robust distributed systems in public cloud environments.",
+        "category": "Architecture & Microservices"
+      },
+      {
+        "url": "https://github.com/docker/awesome-compose",
+        "title": "Awesome Compose 🌟",
+        "date": "2026-10-26",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Standardizes declarative multi-container topologies and service orchestration patterns for local microservices development and testing.",
         "category": "Architecture & Microservices"
       }
     ],
@@ -4361,7 +4361,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "It is the de facto industry-standard framework powering modern Kubernetes operator development and custom controller architecture.",
+        "why": "It is the de facto industry-standard framework for building production-grade Kubernetes operators and custom controllers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4370,7 +4370,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides native batch job queueing and multi-tenant resource management essential for running large-scale AI and machine learning workloads on Kubernetes.",
+        "why": "It provides cloud-native queue management that has become essential for orchestrating AI/ML and batch workloads on Kubernetes.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4379,7 +4379,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Remains the foundational, widely deployed core component for dynamic infrastructure scaling across all major cloud providers.",
+        "why": "It serves as the foundational core component for dynamic node elasticity and cluster scaling across major cloud providers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4387,8 +4387,8 @@
         "title": "kubernetes/client-go: Go client for Kubernetes 🌟",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "high",
-        "why": "Serves as the foundational client library and programmatic backbone behind virtually every Go-based Kubernetes integration and controller.",
+        "impact": "critical",
+        "why": "It is the bedrock programmatic interface powering virtually every Go-based controller, operator, and platform tool in the ecosystem.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4397,16 +4397,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers production-grade multi-cluster federation and cross-region workload distribution using native Kubernetes API semantics.",
+        "why": "It enables enterprise-grade multi-cluster orchestration and seamless cross-region workload distribution at scale.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/kserve/kserve",
-        "title": "KFServing 🌟",
-        "date": "2026-11-04",
+        "url": "https://github.com/kcp-dev/kcp",
+        "title": "kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster' - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes serverless, scalable AI/ML model inference on Kubernetes across multi-framework production environments.",
+        "why": "It represents a significant paradigm shift by decoupling the Kubernetes API and controller model from traditional container orchestration.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4415,7 +4415,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Acts as an indispensable ecosystem tool automating external DNS record lifecycle management directly from Ingress and Service manifests.",
+        "why": "It is the ubiquitous standard for automatically synchronizing Kubernetes ingress and service routing with external cloud DNS providers.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kserve/kserve",
+        "title": "KFServing 🌟",
+        "date": "2026-11-04",
+        "stars": 5,
+        "impact": "high",
+        "why": "It defines the modern cloud-native architectural standard for serverless machine learning inference orchestration.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4424,16 +4433,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as the ubiquitous, template-free configuration engine natively embedded in kubectl and modern GitOps deployment pipelines.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler",
-        "title": "VPA: Vertical Pod Autoscaler",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Automates workload right-sizing to optimize compute costs and eliminate pod resource starvation in enterprise clusters.",
+        "why": "It provides the canonical, template-free configuration customization engine integrated directly into core Kubernetes workflows.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4441,8 +4441,8 @@
         "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
         "date": "2026-10-31",
         "stars": 5,
-        "impact": "medium",
-        "why": "Drastically streamlines operational workflows and real-time cluster troubleshooting as the most widely adopted terminal-based management tool.",
+        "impact": "high",
+        "why": "It is the preeminent terminal UI adopted across the industry to streamline cluster diagnostics, observability, and operations.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -6774,9 +6774,9 @@
         "method": "gemini"
       },
       "Architecture & Microservices": {
-        "last_analyzed": "2026-11-07T15:17:43.973839+01:00",
-        "entry_hash": "2e81320c5c6c6844",
-        "entry_count": 23,
+        "last_analyzed": "2026-11-11T20:03:41.011012+01:00",
+        "entry_hash": "1b97592fcced9124",
+        "entry_count": 22,
         "method": "gemini"
       },
       "Azure": {
@@ -6786,15 +6786,15 @@
         "method": "gemini"
       },
       "Infrastructure as Code": {
-        "last_analyzed": "2026-11-05T19:45:57.998513+01:00",
-        "entry_hash": "26df090a39445393",
-        "entry_count": 63,
+        "last_analyzed": "2026-11-11T20:04:18.865447+01:00",
+        "entry_hash": "846c713de3da7500",
+        "entry_count": 62,
         "method": "gemini"
       },
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-11-09T15:00:57.733706+01:00",
-        "entry_hash": "ea3c4d348c3f1eba",
-        "entry_count": 207,
+        "last_analyzed": "2026-11-11T20:04:37.098736+01:00",
+        "entry_hash": "84b0d9ee34ba0d46",
+        "entry_count": 206,
         "method": "gemini"
       },
       "Platform Engineering & DevEx": {
@@ -6810,9 +6810,9 @@
         "method": "gemini"
       },
       "Certification & Training": {
-        "last_analyzed": "2026-11-05T19:46:51.366884+01:00",
-        "entry_hash": "a4896b12beaba48e",
-        "entry_count": 19,
+        "last_analyzed": "2026-11-11T20:04:53.439808+01:00",
+        "entry_hash": "11e27cd86e5682b4",
+        "entry_count": 17,
         "method": "gemini"
       },
       "AWS": {
@@ -6858,9 +6858,9 @@
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
-        "last_analyzed": "2026-11-05T19:48:32.525927+01:00",
-        "entry_hash": "3afc45cdb4daa691",
-        "entry_count": 53,
+        "last_analyzed": "2026-11-11T20:05:11.293564+01:00",
+        "entry_hash": "3c9121b6f0b28305",
+        "entry_count": 52,
         "method": "gemini"
       },
       "Linux & System Foundations": {
@@ -6992,9 +6992,9 @@
         "method": "gemini"
       },
       "Architecture & Microservices": {
-        "last_analyzed": "2026-11-09T15:01:48.460413+01:00",
-        "entry_hash": "7eb845a592cdd6e3",
-        "entry_count": 355,
+        "last_analyzed": "2026-11-11T20:05:26.106602+01:00",
+        "entry_hash": "d863c0d490e8443d",
+        "entry_count": 353,
         "method": "gemini"
       },
       "AWS": {
@@ -7060,9 +7060,9 @@
     },
     "12_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-11-09T15:02:19.563334+01:00",
-        "entry_hash": "aa731d15b4a7d3bd",
-        "entry_count": 2187,
+        "last_analyzed": "2026-11-11T20:05:44.320050+01:00",
+        "entry_hash": "6532d6a1cf5b3db8",
+        "entry_count": 2186,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7216,6 +7216,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-09T21:03:21.571073+01:00"
+    "last_updated": "2026-11-11T20:05:45.339690+01:00"
   }
 }
