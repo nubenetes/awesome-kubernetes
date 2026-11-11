@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20018 total resources analyzed.
-    - **V2 Elite Selection**: 15911 candidates identified (79.48% density ratio).
-    - **AI Enrichment Coverage**: 15911 / 15911 (100.0%)
+    - **V1 Base Inventory**: 20026 total resources analyzed.
+    - **V2 Elite Selection**: 15919 candidates identified (79.49% density ratio).
+    - **AI Enrichment Coverage**: 15919 / 15919 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -114,7 +114,7 @@
   <div class="trending-card__category">Spain</div>
   <div class="trending-card__title"><a href="https://www.youtube.com/watch?v=4-oLXvCaZiM">Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5</a></div>
   <div class="trending-card__meta">2026-11-11 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Delivers a comprehensive technical deep dive into Red Hat OpenShift 5, spotlighting enterprise AI integration and non-disruptive in-place upgrades.</div>
+  <div class="trending-card__why">Explica la arquitectura clave de OpenShift 5 con actualizaciones mayores sin interrupciones y virtualización nativa sobre Kubernetes 1.36.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>

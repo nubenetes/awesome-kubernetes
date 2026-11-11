@@ -718682,13 +718682,9 @@ https://www.youtube.com/shorts/BHxPC2TanRk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: AI Agents + Cloud Native
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -718706,6 +718702,11 @@ https://www.youtube.com/shorts/BHxPC2TanRk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AI Agents + Cloud Native
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/JOX1-fBvoJ0:
   title: 'How GraphRAG Fixes Vector RAG Blind Spots: Multi-Hop Reasoning & Accuracy
@@ -718739,13 +718740,9 @@ https://www.youtube.com/shorts/JOX1-fBvoJ0:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: GraphRAG + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -718763,6 +718760,11 @@ https://www.youtube.com/shorts/JOX1-fBvoJ0:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: GraphRAG + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/ksF7JeaUqrM:
   title: 'Why GraphRAG Will Not Replace Standard RAG: The 5x Compute Reality Check
@@ -718794,13 +718796,9 @@ https://www.youtube.com/shorts/ksF7JeaUqrM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps with AI
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -718818,6 +718816,11 @@ https://www.youtube.com/shorts/ksF7JeaUqrM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps with AI
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/r0jvhSmO-dY:
   title: 'How Graphify Compresses Codebases for AI: 71x Token Reduction with ASTs
@@ -718849,13 +718852,9 @@ https://www.youtube.com/shorts/r0jvhSmO-dY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -718873,6 +718872,11 @@ https://www.youtube.com/shorts/r0jvhSmO-dY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/svU_V0URvIc:
   title: 'How AI Swarms Coordinate With Dual Graphs: Commit DAGs vs Knowledge Graphs'
@@ -718903,13 +718907,9 @@ https://www.youtube.com/shorts/svU_V0URvIc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -718927,6 +718927,11 @@ https://www.youtube.com/shorts/svU_V0URvIc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/88YDYS56Hbg:
   title: 'How Karpathy''s AI Never Forgets: Compiling Knowledge into Persistent Graphs'
@@ -718956,13 +718961,9 @@ https://www.youtube.com/shorts/88YDYS56Hbg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -718980,6 +718981,11 @@ https://www.youtube.com/shorts/88YDYS56Hbg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=5J484Se-Nso:
   title: 'From Prompts to Graph Swarms: Andrej Karpathy''s AI Graph Architecture Masterclass'
@@ -719028,13 +719034,9 @@ https://www.youtube.com/watch?v=5J484Se-Nso:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -719052,6 +719054,11 @@ https://www.youtube.com/watch?v=5J484Se-Nso:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLE9XanQNEMZs:
   title: 'Andrej Karpathy: AI Graph Architecture, GraphRAG & Swarms Guide'
@@ -719097,13 +719104,9 @@ https://www.youtube.com/playlist?list=PLE9XanQNEMZs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794435648
   needs_ai_refresh: false
@@ -719121,4 +719124,9 @@ https://www.youtube.com/playlist?list=PLE9XanQNEMZs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
