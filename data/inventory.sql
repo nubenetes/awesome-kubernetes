@@ -22533,4 +22533,147 @@ Covers the Kubernetes 1.36 and CRI-O 1.36 core foundation, non-disruptive minor-
 Official Announcement: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
 Documentation & Architecture: https://docs.redhat.com/en/documentation/openshift_container_platform/
 Explore Video Tracks: https://nubenetes.com/videos/','2026',5,'Red Hat OpenShift 5 introduces a modernized enterprise platform built on Kubernetes 1.36, featuring non-disruptive in-place upgrades from 4.22 and storage-agnostic QEMU Change Block Tracking for Virtualization 5. It integrates agentic platform operations via OpenShift Lightspeed alongside native Model Context Protocol (MCP) server and gateway orchestration for enterprise AI workflows. This architectural guide establishes a 2026 operational reference for confidential workloads using hardware TEEs and zero-touch edge deployments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/BHxPC2TanRk','How AI Evolved From Prompts to Swarms: The 5-Layer Graph Architecture','The architectural evolution of the modern AI stack: moving from primitive prompt engineering to graph-orchestrated multi-agent swarms.
+
+⚡ Architectural Highlights:
+• Layer 1 (Prompt): Atomic natural language instructions.
+• Layer 2 (Context): Token windows and short-term working memory.
+• Layer 3 (Harness Engineering): Execution sandboxes, tool integration, and enterprise guardrails.
+• Layer 4 (The Loop): Autonomous observe-act-verify cognitive cycles.
+• Layer 5 (Graph Engineering): Multi-agent control topologies, message-passing DAGs, and persistent memory.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural breakdown traces the evolution of modern generative AI stacks across five tiers: atomic prompts, context window management, harness sandboxing with tool execution, autonomous observe-act-verify loops, and message-passing DAG graph engineering. For 2026 cloud-native systems, this progression outlines the migration from isolated LLM calls to robust multi-agent swarms integrated into microservices and event-driven control planes. Mastering these layers enables platform engineers to build deterministic, resilient agentic workflows with persistent memory and sandboxed tool-calling capabilities.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "AI Agents + Cloud Native", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/JOX1-fBvoJ0','How GraphRAG Fixes Vector RAG Blind Spots: Multi-Hop Reasoning & Accuracy [Short]','How GraphRAG overcomes the catastrophic blind spots of flat chunk-based Vector RAG through explicit entity relationship networks.
+
+⚡ Architectural Highlights:
+• The Vector RAG trap: How standard chunking turns relational data and financial tables into meaningless word soup.
+• Multi-hop traversal: Tracing complete evidence chains (person to organization to policy) across document boundaries.
+• Enterprise impact: Up to 15%–30% accuracy boost on complex analytical and synthesis queries.
+• Connecting disconnected data silos that isolated vector embeddings cannot mathematically correlate.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+• Microsoft Research GraphRAG Overview: https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-complex-data/
+• Neo4j Knowledge Graph & GraphRAG: https://neo4j.com/generative-ai/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural brief contrasts traditional vector embedding chunking with GraphRAG, illustrating how structured entity-relationship graphs eliminate context fragmentation and enable deterministic multi-hop reasoning across disconnected enterprise data silos. By traversing complete evidence chains across document boundaries, it delivers a 15%–30% accuracy enhancement for complex analytical and synthesis queries. In 2026 cloud-native architectures, this approach is foundational for grounding autonomous AI agents, multi-agent frameworks, and enterprise-grade retrieval pipelines without semantic loss.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "GraphRAG + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/ksF7JeaUqrM','Why GraphRAG Will Not Replace Standard RAG: The 5x Compute Reality Check [Short]','Why GraphRAG complements rather than replaces Vector RAG: an architectural reality check on compute overhead, latency, and query patterns.
+
+⚡ Architectural Highlights:
+• The 5x compute cost trade-off: Heavy upfront entity extraction and storage vs. instant vector embedding.
+• Query latency profiles: Graph traversal vs. sub-50ms approximate nearest neighbor (ANN) vector search.
+• When standard RAG wins: Isolated single-fact lookups and flat documentation.
+• The hybrid sweet spot: Combining vector similarity for speed and knowledge graphs for complex relational reasoning.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+• Microsoft Research GraphRAG Overview: https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-complex-data/
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural breakdown analyzes the real-world trade-offs between GraphRAG and traditional Vector RAG, highlighting the substantial 5x compute overhead required for upfront entity extraction and multi-hop graph traversal. While standard Vector RAG remains superior for sub-50ms single-fact retrieval over flat documentation, enterprise 2026 cloud-native AI systems must adopt hybrid retrieval pipelines that pair ANN vector similarity with targeted knowledge graphs for complex relational reasoning.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps with AI", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/r0jvhSmO-dY','How Graphify Compresses Codebases for AI: 71x Token Reduction with ASTs [Short]','How open-source Graphify brings Andrej Karpathy''s graph vision to life, converting massive codebases into queryable knowledge graphs with zero LLM token waste.
+
+⚡ Architectural Highlights:
+• Deterministic Tree-sitter AST parsing across 19 languages without burning LLM tokens.
+• Automatic identification of architectural "god nodes", clusters, and cross-module dependencies.
+• Generates interactive queryable graph wikis, cutting agent token usage by up to 71.5x.
+• Pay the extraction cost once; execute every subsequent agent lookup with micro-token overhead.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'Graphify operationalizes deterministic Tree-sitter AST parsing across 19 languages to convert massive codebases into queryable knowledge graphs without burning LLM extraction tokens. By systematically mapping architectural dependencies, clusters, and god nodes into an interactive graph wiki, it reduces AI agent context token consumption by up to 71.5x. This architecture establishes a high-efficiency foundation for 2026 cloud-native workflows, allowing autonomous coding and DevOps agents to perform ultra-low-overhead queries across large-scale repositories.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/svU_V0URvIc','How AI Swarms Coordinate With Dual Graphs: Commit DAGs vs Knowledge Graphs','How massive multi-agent swarms coordinate without chaos by strictly separating the org chart of work from the brain of the world using Dual Graphs.
+
+⚡ Architectural Highlights:
+• Commit DAG: Tracks task lineage, agent execution branches, and code commit provenance.
+• Knowledge Graph: Tracks domain entities, verified facts, and source citations.
+• Decoupling work history from semantic memory prevents multi-agent hallucinations.
+• Phased swarm scaling: From single reflective loops to full multi-agent concurrency.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural pattern demonstrates how multi-agent swarms scale reliably by decoupling task execution history from semantic memory through dual graphs. By isolating a Commit DAG (tracking task lineage, agent branches, and code provenance) from a verified Knowledge Graph (storing domain entities and citations), teams eliminate compounding agent hallucinations during concurrent execution. In a 2026 cloud-native context, this dual-graph topology provides the essential state-synchronization and governance backbone for autonomous multi-agent DevOps and SRE workflows.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/88YDYS56Hbg','How Karpathy''s AI Never Forgets: Compiling Knowledge into Persistent Graphs','How Andrej Karpathy''s compiled knowledge thesis solves AI amnesia: "The agent forgets, the graph does not."
+
+⚡ Architectural Highlights:
+• The fundamental shift: Are tokens for generating code or compiling persistent knowledge?
+• Moving memory out of volatile, expensive context windows into structured queryable graphs.
+• How compiling repositories into graph wikis eliminates redundant re-reading across agent sessions.
+• Achieving 70x+ token efficiency by caching structural relationships permanently.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural breakdown explores Andrej Karpathy''s thesis on shifting LLM token usage from ephemeral context-window generation to compiling structured, persistent knowledge graphs. By externalizing codebases and system relationships into persistent graph memory, autonomous software engineering agents eliminate token-heavy re-reading and solve context amnesia. In 2026 cloud-native agentic workflows, this paradigm delivers over 70x token efficiency and stable cross-session state for autonomous platform engineering and SRE agents.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=5J484Se-Nso','From Prompts to Graph Swarms: Andrej Karpathy''s AI Graph Architecture Masterclass','Comprehensive architectural guide and technical masterclass exploring the structural shift from isolated, fragile text prompts to persistent graph-engineered multi-agent swarms, inspired by Andrej Karpathy''s systems engineering thesis: "Delete everything, keep Graph."
+
+⏱️ Masterclass Architectural Breakdown:
+• Beyond Prompt Engineering: The 5-Layer AI Architecture Stack:
+  - Layer 1: Prompt (atomic natural language instruction)
+  - Layer 2: Context Window (temporary volatile tokens)
+  - Layer 3: Harness Engineering (execution sandbox & guardrails)
+  - Layer 4: The Loop (observe-act-verify cognitive cycle)
+  - Layer 5: Graph Engineering (multi-agent topology, tool routing & persistent state)
+• Overcoming "The Context Crash" & AI Amnesia: Why dumping chat transcripts causes catastrophic forgetting and sky-high token costs.
+• Karpathy''s Compiled Knowledge: "Are tokens for generating code or compiling knowledge?" Transforming raw codebases into persistent, queryable wikis.
+• Graphify Engine: Deterministic Tree-sitter AST parsing across 19 languages, identifying "god nodes" and slashing query token consumption by up to 71.5x.
+• Dual Graphs for Agent Swarms: Decoupling the Commit DAG (work lineage, execution branches) from the Knowledge Graph (domain entities, evidence chains).
+• 4-Stage Multi-Agent Maturity Path: Single reflective loop (Day 1) to Planning & roles (Week 1) to Persistent knowledge graph (Month 1) to Massive multi-agent swarm (Month 2).
+• GraphRAG vs. Vector RAG: Multi-hop reasoning and relational entity networks vs. flat chunk similarity. 15%–30% accuracy boost on complex queries vs. 5x compute overhead.
+• Cognition''s Golden Rule: Fan out for research; remain strictly single-threaded for shared codebase writing.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Eureka Labs (AI-Native Education): https://eurekalabs.ai/
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+• Microsoft Research GraphRAG Overview: https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-complex-data/
+• Neo4j Knowledge Graph & GraphRAG: https://neo4j.com/generative-ai/
+
+🌐 Explore Cloud Native & Agentic AI Architectures:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This masterclass outlines the paradigm shift from fragile prompt engineering to graph-engineered multi-agent swarms, addressing context crashes and AI amnesia through persistent compiled knowledge. It establishes an enterprise blueprint decoupling execution lineage (Commit DAGs) from relational domain models (Knowledge Graphs) alongside deterministic AST parsing to slash token overhead up to 71x. For 2026 cloud-native systems, this architecture provides the foundational design pattern for orchestrating autonomous, stateful agent swarms across distributed CI/CD and platform engineering pipelines.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLE9XanQNEMZs','Andrej Karpathy: AI Graph Architecture, GraphRAG & Swarms Guide','Comprehensive architectural guide, technical deep dives, and production engineering reference on modern AI Graph Architecture, GraphRAG, and Multi-Agent Swarms, synthesized from Andrej Karpathy''s systems engineering thesis: "Delete everything, keep Graph."
+
+Covers the 5-Layer AI Architecture Stack (Prompt to Context Window to Harness Engineering to Autonomous Loops to Graph Engineering), solving "The Context Crash" and catastrophic forgetting (AI amnesia), compiling repositories into persistent queryable wikis, the Graphify deterministic Tree-sitter AST engine (71.5x token cost reduction across 19 languages), Dual Graphs for agent swarms (Commit DAG for task lineage and execution provenance decoupled from Knowledge Graph for domain facts and citations), the 4-stage agent swarm maturity path, pragmatic trade-offs between GraphRAG and Vector RAG (15% to 30% multi-hop accuracy boost vs 5x compute overhead), and Cognition''s golden rule (fan out for broad research, stay single-threaded for shared codebase writing).
+
+Reference Lecture: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+Andrej Karpathy Portal: https://karpathy.ai/
+Microsoft Research GraphRAG: https://microsoft.github.io/graphrag/
+Neo4j Generative AI: https://neo4j.com/generative-ai/
+Explore Video Tracks: https://nubenetes.com/videos/
+Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural guide details the five-layer AI system stack, addressing context window degradation and catastrophic forgetting through persistent knowledge graphs and deterministic Tree-sitter AST compilation. It establishes a dual-graph execution framework that decouples task lineage commit DAGs from domain knowledge bases to coordinate deterministic multi-agent swarms. For 2026 cloud-native platforms, this pattern bridges the gap between raw LLM harness engineering and autonomous, multi-hop distributed code refactoring while optimizing retrieval compute costs.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
 COMMIT;
