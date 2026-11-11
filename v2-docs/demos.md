@@ -1,5 +1,5 @@
 ---
-description: "Top Demos resources for 2026, AI-ranked: Developer Sandbox, SdkMan and more — curated Cloud Native tools, guides and references."
+description: "Top Demos resources for 2026, AI-ranked: SdkMan, Developer Sandbox and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 
@@ -1539,7 +1539,7 @@ Live Grounding: Built by a non-technical editor, the interactive application sho
   - [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2?gi=ff503c09829a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.plainenglish.io: Creating a custom EC2 module using Terraform covering Terraform in Demos (aws.plainenglish.io).
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md) | [Uncategorized](./uncategorized.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

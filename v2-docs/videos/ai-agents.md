@@ -355,6 +355,21 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 From Prompts to Graph Swarms: Andrej Karpathy's AI Graph Architecture Masterclass"
+    !!! info "Architectural Summary"
+        This masterclass outlines the paradigm shift from fragile prompt engineering to graph-engineered multi-agent swarms, addressing context crashes and AI amnesia through persistent compiled knowledge. It establishes an enterprise blueprint decoupling execution lineage (Commit DAGs) from relational domain models (Knowledge Graphs) alongside deterministic AST parsing to slash token overhead up to 71x. For 2026 cloud-native systems, this architecture provides the foundational design pattern for orchestrating autonomous, stateful agent swarms across distributed CI/CD and platform engineering pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="5J484Se-Nso" data-video-url="https://www.youtube.com/embed/5J484Se-Nso" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/5J484Se-Nso/hqdefault.jpg" alt="From Prompts to Graph Swarms: Andrej Karpathy's AI Graph Architecture Masterclass" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ??? note "🎬 What's new in Google AI"
     !!! info "Architectural Summary"
         This presentation outlines Google's latest end-to-end AI stack from Google I/O 2026, focusing on deployment strategies for multimodal models, media generation, and intelligent agents. It details how to leverage Google's managed infrastructure and MLOps tools to tune, serve, and scale open-source models in cloud-native environments. Additionally, it introduces new 'vibe-coding' workflows and agentic capabilities designed to streamline next-generation AI application development.
@@ -462,6 +477,21 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 Why GraphRAG Will Not Replace Standard RAG: The 5x Compute Reality Check [Short]"
+    !!! info "Architectural Summary"
+        This architectural breakdown analyzes the real-world trade-offs between GraphRAG and traditional Vector RAG, highlighting the substantial 5x compute overhead required for upfront entity extraction and multi-hop graph traversal. While standard Vector RAG remains superior for sub-50ms single-fact retrieval over flat documentation, enterprise 2026 cloud-native AI systems must adopt hybrid retrieval pipelines that pair ANN vector similarity with targeted knowledge graphs for complex relational reasoning.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="ksF7JeaUqrM" data-video-url="https://www.youtube.com/embed/ksF7JeaUqrM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ksF7JeaUqrM/hqdefault.jpg" alt="Why GraphRAG Will Not Replace Standard RAG: The 5x Compute Reality Check [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## AI Agents MCP
 
 ??? note "🎬 How AI Agents Use Company Tools | Model Context Protocol (MCP) Gateways"
@@ -523,6 +553,106 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
+
+    </center>
+
+??? note "🎬 The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 establishes a modern enterprise platform foundation built on Kubernetes 1.36 and CRI-O, delivering seamless, non-disruptive in-place upgrades from OpenShift 4.22 alongside storage-agnostic Change Block Tracking (CBT) in OpenShift Virtualization 5. Critically, it native-integrates Model Context Protocol (MCP) server and gateway infrastructure alongside OpenShift Lightspeed to operationalize supervised and autonomous agentic AI workflows for automated incident triage and SRE remediation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="cn_lMyaAWk4" data-video-url="https://www.youtube.com/embed/cn_lMyaAWk4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/cn_lMyaAWk4/hqdefault.jpg" alt="The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How OpenShift 5 Simplifies Cluster Upgrades: In-Place Update from 4.22 [Short]"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 eliminates traditional major-version migration friction by introducing non-disruptive, in-place upgrade pathways directly from OpenShift 4.22 treated like minor payload updates. The architecture incorporates pre-flight blast radius and readiness verification through OpenShift Lightspeed AI agents, backed by a predictable 3-year major release cadence and 24-month support window. This significantly reduces Day-2 operational risk and migration overhead across enterprise Kubernetes fleets.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="sYAEKwUDqJY" data-video-url="https://www.youtube.com/embed/sYAEKwUDqJY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/sYAEKwUDqJY/hqdefault.jpg" alt="How OpenShift 5 Simplifies Cluster Upgrades: In-Place Update from 4.22 [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift Lightspeed introduces agentic AI diagnostic workflows into Kubernetes cluster operations, fundamentally transforming incident response and reducing Mean Time to Resolution (MTTR). Operating across supervised and autonomous modes, the agent correlates telemetry, logs, and events to diagnose complex system failures while enforcing human-in-the-loop governance prior to remediation. This capability represents the vanguard of 2026 AIOps, shifting platform engineering from manual alert triage toward resilient, AI-assisted cluster remediation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Xk6zkGfV34s" data-video-url="https://www.youtube.com/embed/Xk6zkGfV34s" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Xk6zkGfV34s/hqdefault.jpg" alt="How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How OpenShift 5 Secures AI Workloads: Model Context Protocol & Zero-Trust [Short]"
+    !!! info "Architectural Summary"
+        This architectural overview demonstrates how Red Hat OpenShift secures autonomous AI agents and generative AI workloads utilizing the Model Context Protocol (MCP) server and gateway via Red Hat Connectivity Link. It establishes a policy-governed framework enforcing zero-trust identity, audit logging, and strict authorization on all agent interactions with Kubernetes cluster APIs. This approach provides an enterprise-grade standard for governing agentic AI access across modern cloud-native platforms.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="-1xhWXGE82w" data-video-url="https://www.youtube.com/embed/-1xhWXGE82w" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/-1xhWXGE82w/hqdefault.jpg" alt="How OpenShift 5 Secures AI Workloads: Model Context Protocol & Zero-Trust [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 introduces seamless in-place major version upgrades paired with Lightspeed AI agentic pre-flight checks to map CRD/API conflicts before maintenance windows. OpenShift Virtualization 5 enhances platform convergence with QEMU Change Block Tracking for differential backups while utilizing Confidential Containers (CoCo) to secure enterprise AI model memory on untrusted infrastructure.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="4-oLXvCaZiM" data-video-url="https://www.youtube.com/embed/4-oLXvCaZiM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/4-oLXvCaZiM/hqdefault.jpg" alt="Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 introduces a modernized enterprise hybrid cloud platform aligned with Kubernetes 1.36, featuring non-disruptive in-place upgrades from 4.22 and an enterprise 3-year release cadence. It integrates Agentic AI platform operations via OpenShift Lightspeed and the Model Context Protocol (MCP) gateway, alongside OpenShift Virtualization 5 enhancements like QEMU Change Block Tracking and Confidential Containers (CoCo). This architecture provides a resilient, AI-governed foundation for unified management of virtualized workloads, containerized applications, and hardware-secured AI models.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="1bs9TiAjWO8" data-video-url="https://www.youtube.com/embed/1bs9TiAjWO8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/1bs9TiAjWO8/hqdefault.jpg" alt="Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 ⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 introduces a modernized enterprise platform built on Kubernetes 1.36, featuring non-disruptive in-place upgrades from 4.22 and storage-agnostic QEMU Change Block Tracking for Virtualization 5. It integrates agentic platform operations via OpenShift Lightspeed alongside native Model Context Protocol (MCP) server and gateway orchestration for enterprise AI workflows. This architectural guide establishes a 2026 operational reference for confidential workloads using hardware TEEs and zero-touch edge deployments.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLXDBfnEd7RX8" title="⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
@@ -638,6 +768,144 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Observability SRE AI Agents
+
+??? note "🎬 How OpenShift Lightspeed Correlates Observability: Conversational Perses Dashboards [Short]"
+    !!! info "Architectural Summary"
+        This architectural short demonstrates how OpenShift Lightspeed uses conversational generative AI to produce production-grade Perses dashboards directly from natural language prompts, bypassing the need for manual PromQL engineering. By dynamically correlating multi-tenant metrics, cluster logs, and distributed trace events in real time, it eliminates dedicated dashboard maintenance for Day 2 operations. In a 2026 enterprise cloud-native paradigm, this pattern transitions telemetry visualization into an on-demand, agent-driven workflow that accelerates incident triage and system observability.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="W-tQ_AWBfo0" data-video-url="https://www.youtube.com/embed/W-tQ_AWBfo0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/W-tQ_AWBfo0/hqdefault.jpg" alt="How OpenShift Lightspeed Correlates Observability: Conversational Perses Dashboards [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## AI Agents Cloud Native
+
+??? note "🎬 How AI Evolved From Prompts to Swarms: The 5-Layer Graph Architecture"
+    !!! info "Architectural Summary"
+        This architectural breakdown traces the evolution of modern generative AI stacks across five tiers: atomic prompts, context window management, harness sandboxing with tool execution, autonomous observe-act-verify loops, and message-passing DAG graph engineering. For 2026 cloud-native systems, this progression outlines the migration from isolated LLM calls to robust multi-agent swarms integrated into microservices and event-driven control planes. Mastering these layers enables platform engineers to build deterministic, resilient agentic workflows with persistent memory and sandboxed tool-calling capabilities.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="BHxPC2TanRk" data-video-url="https://www.youtube.com/embed/BHxPC2TanRk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BHxPC2TanRk/hqdefault.jpg" alt="How AI Evolved From Prompts to Swarms: The 5-Layer Graph Architecture" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## GraphRAG AI Agents
+
+??? note "🎬 How GraphRAG Fixes Vector RAG Blind Spots: Multi-Hop Reasoning & Accuracy [Short]"
+    !!! info "Architectural Summary"
+        This architectural brief contrasts traditional vector embedding chunking with GraphRAG, illustrating how structured entity-relationship graphs eliminate context fragmentation and enable deterministic multi-hop reasoning across disconnected enterprise data silos. By traversing complete evidence chains across document boundaries, it delivers a 15%–30% accuracy enhancement for complex analytical and synthesis queries. In 2026 cloud-native architectures, this approach is foundational for grounding autonomous AI agents, multi-agent frameworks, and enterprise-grade retrieval pipelines without semantic loss.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="JOX1-fBvoJ0" data-video-url="https://www.youtube.com/embed/JOX1-fBvoJ0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/JOX1-fBvoJ0/hqdefault.jpg" alt="How GraphRAG Fixes Vector RAG Blind Spots: Multi-Hop Reasoning & Accuracy [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## DevOps AI Agents
+
+??? note "🎬 How Graphify Compresses Codebases for AI: 71x Token Reduction with ASTs [Short]"
+    !!! info "Architectural Summary"
+        Graphify operationalizes deterministic Tree-sitter AST parsing across 19 languages to convert massive codebases into queryable knowledge graphs without burning LLM extraction tokens. By systematically mapping architectural dependencies, clusters, and god nodes into an interactive graph wiki, it reduces AI agent context token consumption by up to 71.5x. This architecture establishes a high-efficiency foundation for 2026 cloud-native workflows, allowing autonomous coding and DevOps agents to perform ultra-low-overhead queries across large-scale repositories.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="r0jvhSmO-dY" data-video-url="https://www.youtube.com/embed/r0jvhSmO-dY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/r0jvhSmO-dY/hqdefault.jpg" alt="How Graphify Compresses Codebases for AI: 71x Token Reduction with ASTs [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AI Swarms Coordinate With Dual Graphs: Commit DAGs vs Knowledge Graphs"
+    !!! info "Architectural Summary"
+        This architectural pattern demonstrates how multi-agent swarms scale reliably by decoupling task execution history from semantic memory through dual graphs. By isolating a Commit DAG (tracking task lineage, agent branches, and code provenance) from a verified Knowledge Graph (storing domain entities and citations), teams eliminate compounding agent hallucinations during concurrent execution. In a 2026 cloud-native context, this dual-graph topology provides the essential state-synchronization and governance backbone for autonomous multi-agent DevOps and SRE workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="svU_V0URvIc" data-video-url="https://www.youtube.com/embed/svU_V0URvIc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/svU_V0URvIc/hqdefault.jpg" alt="How AI Swarms Coordinate With Dual Graphs: Commit DAGs vs Knowledge Graphs" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Karpathy's AI Never Forgets: Compiling Knowledge into Persistent Graphs"
+    !!! info "Architectural Summary"
+        This architectural breakdown explores Andrej Karpathy's thesis on shifting LLM token usage from ephemeral context-window generation to compiling structured, persistent knowledge graphs. By externalizing codebases and system relationships into persistent graph memory, autonomous software engineering agents eliminate token-heavy re-reading and solve context amnesia. In 2026 cloud-native agentic workflows, this paradigm delivers over 70x token efficiency and stable cross-session state for autonomous platform engineering and SRE agents.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="88YDYS56Hbg" data-video-url="https://www.youtube.com/embed/88YDYS56Hbg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/88YDYS56Hbg/hqdefault.jpg" alt="How Karpathy's AI Never Forgets: Compiling Knowledge into Persistent Graphs" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Andrej Karpathy: AI Graph Architecture, GraphRAG & Swarms Guide"
+    !!! info "Architectural Summary"
+        This architectural guide details the five-layer AI system stack, addressing context window degradation and catastrophic forgetting through persistent knowledge graphs and deterministic Tree-sitter AST compilation. It establishes a dual-graph execution framework that decouples task lineage commit DAGs from domain knowledge bases to coordinate deterministic multi-agent swarms. For 2026 cloud-native platforms, this pattern bridges the gap between raw LLM harness engineering and autonomous, multi-hop distributed code refactoring while optimizing retrieval compute costs.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLE9XanQNEMZs" title="Andrej Karpathy: AI Graph Architecture, GraphRAG & Swarms Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Model Context Protocol (MCP) and AI Agents in DevOps"
+    !!! info "Architectural Summary"
+        This architectural playlist details how Model Context Protocol (MCP) standardizes context and tool-calling interfaces for AI agents within modern cloud-native systems. It explores the practical integration of autonomous agents into DevOps, SRE, and API automation pipelines, replacing complex, manual scripts with intent-driven workflows. By utilizing secure and scalable MCP servers, platform teams can safely delegate infrastructure, database, and testing orchestration to context-aware AI systems.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7" title="Model Context Protocol (MCP) and AI Agents in DevOps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Cloud at Google I/O 2026"
+    !!! info "Architectural Summary"
+        This playlist presents the Cloud Native and GenAI architectural frameworks showcased at Google I/O 2026, focusing on the transition from traditional DevOps to 'agent-first' autonomous workflows using Google Cloud’s serverless stack (Cloud Run, Eventarc, Cloud Build, BigQuery) and the Agent Development Kit (ADK). By utilizing Model Context Protocol (MCP) and event-driven architectures, developers can orchestrate specialized multi-agent swarms to handle complex Day-2 operations, such as self-healing remediation and intelligent CI/CD pipelines. This paradigm shift provides a highly secure, automated foundation for scaling and governing AI-native applications directly from code to production.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLOU2XLYxmsIJp39MsvkeWYYNwMso-HeNT" title="Cloud at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Agent-first workflows from prompt to production"
+    !!! info "Architectural Summary"
+        This session outlines an end-to-end architectural workflow for transitioning from AI-agentic code generation directly to secure, production-grade deployments on Google Cloud. It demonstrates how developers can utilize IDE-integrated Gemini Code Assist agents, Cloud Run, and Cloud Build to build, containerize, and deploy AI-native applications without leaving their development environments. The presentation emphasizes securing the agentic software development lifecycle (SDLC) using enterprise-grade IAM, automated CI/CD, and policy-driven compliance.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/QtXBAz6TU2g?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## LLM Architecture and Post-Training
 
 ??? note "🎬 Stanford CS229: Building Large Language Models (LLMs)"
@@ -681,38 +949,6 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
-
-    </center>
-
-## DevOps AI Agents
-
-??? note "🎬 Model Context Protocol (MCP) and AI Agents in DevOps"
-    !!! info "Architectural Summary"
-        This architectural playlist details how Model Context Protocol (MCP) standardizes context and tool-calling interfaces for AI agents within modern cloud-native systems. It explores the practical integration of autonomous agents into DevOps, SRE, and API automation pipelines, replacing complex, manual scripts with intent-driven workflows. By utilizing secure and scalable MCP servers, platform teams can safely delegate infrastructure, database, and testing orchestration to context-aware AI systems.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7" title="Model Context Protocol (MCP) and AI Agents in DevOps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Cloud at Google I/O 2026"
-    !!! info "Architectural Summary"
-        This playlist presents the Cloud Native and GenAI architectural frameworks showcased at Google I/O 2026, focusing on the transition from traditional DevOps to 'agent-first' autonomous workflows using Google Cloud’s serverless stack (Cloud Run, Eventarc, Cloud Build, BigQuery) and the Agent Development Kit (ADK). By utilizing Model Context Protocol (MCP) and event-driven architectures, developers can orchestrate specialized multi-agent swarms to handle complex Day-2 operations, such as self-healing remediation and intelligent CI/CD pipelines. This paradigm shift provides a highly secure, automated foundation for scaling and governing AI-native applications directly from code to production.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLOU2XLYxmsIJp39MsvkeWYYNwMso-HeNT" title="Cloud at Google I/O 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
-
-    </center>
-
-??? note "🎬 Agent-first workflows from prompt to production"
-    !!! info "Architectural Summary"
-        This session outlines an end-to-end architectural workflow for transitioning from AI-agentic code generation directly to secure, production-grade deployments on Google Cloud. It demonstrates how developers can utilize IDE-integrated Gemini Code Assist agents, Cloud Run, and Cloud Build to build, containerize, and deploy AI-native applications without leaving their development environments. The presentation emphasizes securing the agentic software development lifecycle (SDLC) using enterprise-grade IAM, automated CI/CD, and policy-driven compliance.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/QtXBAz6TU2g?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

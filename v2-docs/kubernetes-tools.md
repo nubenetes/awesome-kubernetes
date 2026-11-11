@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kaniko and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Plugins, Tools, Extensions and Projects
 
@@ -1263,8 +1263,8 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kanik
   - **(2022)** [KubeSurvival 🌟](https://github.com/aporia-ai/kubesurvival) <span class='md-tag md-tag--info'>⭐ 187</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e57532cb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 5 L 30 9 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-e57532cb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A scanning utility that audits existing clusters to determine the absolute cheapest VM instance shapes capable of hosting current workloads. Ensures high-availability parameters and compute requirements are fully met before suggesting migration profiles.
 ## Introduction
 
-  - [itnext.io: Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572?gi=887de64bcad5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Essential Tools: 2021 covering Introduction in Kubernetes Tools (itnext.io).
   - [itnext.io: Kubernetes GitOps Tools](https://itnext.io/kubernetes-gitops-tools-cf0247eb5368?gi=c18903d989a5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes GitOps Tools covering Introduction in Kubernetes Tools (itnext.io).
+  - [itnext.io: Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572?gi=887de64bcad5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Essential Tools: 2021 covering Introduction in Kubernetes Tools (itnext.io).
   - [blog.devgenius.io: 7 Open Source Kubernetes Developer Tools to Follow in 2022](https://blog.devgenius.io/7-open-source-kubernetes-developer-tools-to-follow-in-2022-78a5e5dbd4e3?gi=b8443ead8c0f) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: 7 Open Source Kubernetes Developer Tools to Follow in 2022 covering Introduction in Kubernetes Tools (blog.devgenius.io).
   - [blog.devops.dev: Tools to manage Kubernetes](https://blog.devops.dev/tools-to-manage-kubernetes-15b675f407d4?gi=c764a369b543) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devops.dev: Tools to manage Kubernetes covering Introduction in Kubernetes Tools (blog.devops.dev).
 ## Kateyes
@@ -2779,7 +2779,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kanik
   - **(2020)** [github.com/alexellis/run-job](https://github.com/alexellis/run-job) <span class='md-tag md-tag--info'>⭐ 211</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fdd899b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 7 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-fdd899b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented utility written in Go to quickly trigger Kubernetes Jobs, track execution statuses, and stream execution logs directly to stdout. Simplifies local workflow testing and diagnostic debugging.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

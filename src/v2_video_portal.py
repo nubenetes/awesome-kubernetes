@@ -6,6 +6,8 @@ INVENTORY_PATH = "data/inventory.yaml"
 VIDEOS_DIR = "v2-docs/videos"
 
 PLAYLIST_DATES = {
+    "PLE9XanQNEMZs": "Nov 2026",
+    "PLXDBfnEd7RX8": "Nov 2026",
     "PLF-sI1t2ehbs": "Nov 2026",
     "PLIHPlQVunY48": "Nov 2026",
     "PLCvH88mzNLo8": "Nov 2026",
@@ -330,7 +332,7 @@ def generate_v2_videos():
         "",
         "## Official Nubenetes NotebookLM Video Playlists",
         "",
-        '!!! info "36 Curated Architectural Tracks · Verified through November 2026"',
+        '!!! info "38 Curated Architectural Tracks · Verified through November 2026"',
         '    Explore our modular, AI-synthesized architectural masterclasses and deep dives on the official [**@nubenetes YouTube Channel**](https://www.youtube.com/@nubenetes/playlists). Organized across five core engineering domains, each track is continuously updated to reflect 2026 enterprise standards.',
         "",
         "### 🤖 Enterprise AI, Agents and Control Planes",
@@ -340,6 +342,7 @@ def generate_v2_videos():
         "| **Microsoft Foundry Architecture and Migration** | [Nubenetes Microsoft Foundry: Enterprise AI Architecture and Migration Guide](https://www.youtube.com/playlist?list=PLIHPlQVunY48) | `Nov 2026` | Comprehensive architectural guide, technical reference, and migration blueprint for Microsoft Foundry: consolidated resource architecture (Microsoft.CognitiveServices/accounts), project workspace isolation, azure-ai-projects SDK (AIProjectClient), Foundry Agent Service, Responses API, automated quality/safety evaluations, and FinOps governance. |",
         "| **Microsoft Foundry (Español)** | [Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA](https://www.youtube.com/playlist?list=PLCvH88mzNLo8) | `Nov 2026` | Guía arquitectónica completa y metodología de migración empresarial para Microsoft Foundry en Microsoft Azure (Español): unificación del plano de control bajo Microsoft.CognitiveServices/accounts, proyectos aislados, SDK azure-ai-projects, evaluación de modelos y seguridad con Azure Private Link. [SPANISH CONTENT] |",
         "| **Enterprise AI Platforms** | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | `Nov 2026` | Architectural reference comparison matrix and production engineering deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI Foundry, Bedrock AgentCore, Vertex AI) vs Turnkey Kubernetes (Red Hat OpenShift AI, watsonx, llm-d, vLLM, Kueue, KAITO), zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture. |",
+        "| **AI Graph Architecture and Swarms** | [Nubenetes Andrej Karpathy: AI Graph Architecture, GraphRAG & Swarms Guide](https://www.youtube.com/playlist?list=PLE9XanQNEMZs) | `Nov 2026` | Comprehensive architectural guide, technical deep dives, and production reference on AI Graph Architecture, GraphRAG, and Multi-Agent Swarms synthesized from Andrej Karpathy's thesis (\"Delete everything, keep Graph\"): 5-layer AI architecture stack, compiled knowledge wikis solving AI amnesia, Graphify deterministic Tree-sitter AST parsing (71.5x token reduction), Dual Graphs (Commit DAG vs Knowledge Graph) for multi-agent coordination, GraphRAG vs Vector RAG trade-offs (15%–30% accuracy boost vs 5x compute overhead), and Cognition's golden rule. |",
         "| **AI Agents and Radar** | [Nubenetes Awesome Kubernetes and Cloud Native Guide](https://www.youtube.com/playlist?list=PLH1sVn4CEfPY) | `Sep 2026` | Curated cloud-native architectural guides, 2026 technology radars, Model Context Protocol (MCP) AI agents, and production Kubernetes blueprints. |",
         "",
         "### ☁️ Container Strategy and Kubernetes Platforms",
@@ -349,6 +352,7 @@ def generate_v2_videos():
         "| **Azure Container Strategy** | [Nubenetes Azure Container Strategy: ACI, Container Apps and AKS Architecture](https://www.youtube.com/playlist?list=PLUlxI33bzjWQ) | `Nov 2026` | Architectural decision guide and engineering deep dive on Azure Container Strategy: Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS Standard and AKS Automatic). Covers the 5 decision dimensions (Control, Operations, Scale, Networking, Portability), KEDA queue scaling, Karpenter NAP, Envoy ingress, subnet delegation, persistent volumes, and FinOps idle-compute economics. |",
         "| **Enterprise Kubernetes Platforms** | [Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu and Rancher](https://www.youtube.com/playlist?list=PLAs2nHm8nh2A) | `Nov 2026` | Strategic evaluation and multi-distribution matrix for enterprise Kubernetes platforms across cloud, hybrid on-premises, edge, and private data centers: AKS Standard/Automatic, AKS Local (Azure Arc / Azure Stack HCI), Red Hat OpenShift (ARO), VMware Tanzu (VKS), and SUSE Rancher (RKE2 fleet management). |",
         "| **Kubernetes Autoscaling Strategy** | [Nubenetes Kubernetes Autoscaling: HPA, VPA, KEDA, Knative & Karpenter Guide](https://www.youtube.com/playlist?list=PLF-sI1t2ehbs) | `Nov 2026` | Comprehensive architectural guide, decision matrix, and production engineering reference for Kubernetes autoscaling across Layer 1 (Workload: HPA, VPA in-place resizing, KEDA, Knative KPA, predictive ML) and Layer 2 (Infrastructure: Cluster Autoscaler, Karpenter group-less provisioning, active consolidation, and PDB anti-conflict rules). |",
+        "| **Red Hat OpenShift 5** | [Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide](https://www.youtube.com/playlist?list=PLXDBfnEd7RX8) | `Nov 2026` | Comprehensive architectural guide, technical deep dives, and production reference for Red Hat OpenShift 5: Kubernetes 1.36 and CRI-O 1.36 core, non-disruptive in-place updates from 4.22, 3-year release lifecycle, OpenShift Lightspeed autonomous AI triage, Model Context Protocol (MCP) server & gateway GA, OpenShift Virtualization 5 with QEMU Change Block Tracking (CBT) backups, Confidential Containers (CoCo) with hardware TEEs, and O-Cloud Manager edge deployments. |",
         "| **Red Hat OpenShift** | [Nubenetes OpenShift 4.20 Installation (Day 0 to Day 2)](https://www.youtube.com/playlist?list=PLDbL5Dh24a5g) | `Oct 2026` | End-to-end OpenShift 4.20 lifecycle across bare metal, VMware, Nutanix, and Hyper-V: ABI/IPI/UPI installers, SNO, HyperShift (HCP), ZTP, air-gapped mirroring, Day 1 hardening, etcd recovery, and OADP. |",
         "| **OpenShift Modernization** | [Nubenetes OpenShift Legacy Java and Air-Gapped Migration](https://www.youtube.com/playlist?list=PLOb7y_S6Kcd8) | `Sep 2026` | Air-gapped OpenShift architectures, legacy J2EE lift-and-shift container modernization, and zero-trust database routing in disconnected environments. |",
         "| **Multi-Distro Kubernetes** | [Nubenetes Multi-Distro Kubernetes and Portable Ingress](https://www.youtube.com/playlist?list=PLcgcGU_pGpv8) | `Sep 2026` | Portable Helm architecture across OpenShift, RKE2, K3s, kubeadm, and Tanzu with air-gapped ingress, MetalLB/Cilium networking, and HashiCorp Vault External Secrets. |",
@@ -397,6 +401,8 @@ def generate_v2_videos():
 
     # Dynamically append any newly discovered @nubenetes playlists from inventory
     known_playlist_ids = {
+        "PLE9XanQNEMZs",
+        "PLXDBfnEd7RX8",
         "PLF-sI1t2ehbs",
         "PLIHPlQVunY48", "PLCvH88mzNLo8",
         "PLUlxI33bzjWQ", "PLAs2nHm8nh2A",

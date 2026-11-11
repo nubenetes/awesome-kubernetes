@@ -162,7 +162,7 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Catchpoint's acquisition of WebPageTest, the industry-standard front-end performance auditing tool. Synthesizing live ecosystem changes, the platform continues to operate as an essential resource for tracing core web vitals and waterfall execution charts, bolstered by Catchpoint's global infrastructure.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

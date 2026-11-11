@@ -30,5 +30,5 @@ description: "Curated, AI-ranked HR resources for the 2026 Cloud Native architec
 ---
 💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

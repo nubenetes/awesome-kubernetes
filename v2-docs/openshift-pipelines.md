@@ -126,7 +126,7 @@ description: "Top Openshift Pipelines resources for 2026, AI-ranked: JKube, GitH
   - **(2023)** [==github - fabric8, maven plugin==](https://github.com/fabric8io/fabric8-maven-plugin) <span class='md-tag md-tag--info'>⭐ 330</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bdcaaf1e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 7 L 40 10 L 50 12" fill="none" stroke="url(#spark-grad-bdcaaf1e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A Maven plugin designed to package Java projects into lightweight Docker/OCI images and generate corresponding Kubernetes resource manifests automatically. Double-Evidence: Note that this project is archived and superseded by Eclipse JKube in modern development environments.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Tekton](./tekton.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins](./jenkins.md) | [Tekton](./tekton.md)
 
-🔗 **See Also:** [Demos](./demos.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

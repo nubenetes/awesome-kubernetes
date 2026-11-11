@@ -1,5 +1,5 @@
 ---
-description: "Top Postman resources for 2026, AI-ranked: Postman, Newman and more — curated Cloud Native tools, guides and references."
+description: "Top Postman resources for 2026, AI-ranked: Newman, Postman and more — curated Cloud Native tools, guides and references."
 ---
 # Test Automation with Postman. API Testing
 
@@ -102,7 +102,7 @@ description: "Top Postman resources for 2026, AI-ranked: Postman, Newman and mor
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Maven Gradle](./maven-gradle.md) | [Python](./python.md)
+💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
 

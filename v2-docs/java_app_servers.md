@@ -62,7 +62,7 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
   - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Jakarta EE & Wildfly Running on Kubernetes covering WildFly in Java_App_Servers (dzone.com).
 
 ---
-💡 **Explore Related:** [Java_Frameworks](./java_frameworks.md) | [Maven Gradle](./maven-gradle.md) | [Python](./python.md)
+💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
 

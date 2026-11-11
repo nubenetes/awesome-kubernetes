@@ -173,7 +173,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
   - **(2026)** [==codely.tv==](https://codely.com/en) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production architectures.
 
 ---
-💡 **Explore Related:** [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md) | [Appointment Scheduling](./appointment-scheduling.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

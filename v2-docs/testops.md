@@ -91,7 +91,7 @@ description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and m
   - [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791?gi=902871e1fce5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions covering Kubernetes Load Testing and High Load Tuning in Kubernetes Autoscaling (itnext.io).
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

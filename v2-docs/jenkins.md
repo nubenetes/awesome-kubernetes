@@ -1116,7 +1116,7 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
     </center>
 
 ---
-💡 **Explore Related:** [Openshift Pipelines](./openshift-pipelines.md) | [Tekton](./tekton.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Tekton](./tekton.md)
 
-🔗 **See Also:** [Demos](./demos.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

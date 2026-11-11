@@ -356,8 +356,8 @@ description: "Top CI/CD resources for 2026, AI-ranked: Azure DevOps MCP Server, 
   - **(2023)** [devops.com: 8 Security Considerations for CI/CD](https://devops.com/8-security-considerations-for-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Actionable checklist of eight vital security considerations for pipeline configurations. Addresses fundamental practices such as secure secrets injection, runner environment isolation, least-privilege RBAC, and validation processes to prevent supply-chain vulnerabilities.
 #### Self-hosted Runners (1)
 
-  - **(2025)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative open-source self-hosting solution that provisions fast, secure, on-demand EC2 single-use runners for GitHub Actions on AWS. Offers extreme cost reductions (up to 10x) utilizing EC2 spot instances with minimal boot delays.
   - **(2025)** [Cloud Posse runs-on: GitHub Actions Self-Hosted Runners](https://docs.cloudposse.com/components/library/aws/runs-on) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of Cloud Posse Terraform modules designed to automate secure, dynamically autoscaling self-hosted GitHub Actions runners inside AWS networks, optimization execution speed while keeping compute costs minimal.
+  - **(2025)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative open-source self-hosting solution that provisions fast, secure, on-demand EC2 single-use runners for GitHub Actions on AWS. Offers extreme cost reductions (up to 10x) utilizing EC2 spot instances with minimal boot delays.
 ### Gitops (2)
 
 #### Configuration Management
@@ -438,5 +438,5 @@ description: "Top CI/CD resources for 2026, AI-ranked: Azure DevOps MCP Server, 
 ---
 💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Tekton](./tekton.md)
 
-🔗 **See Also:** [Demos](./demos.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

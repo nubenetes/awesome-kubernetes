@@ -25,7 +25,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">Architectural Foundations</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-6" href="/kubernetes/" title="Kubernetes — 666 resources"><span class="topic-heatcell__name">Kubernetes</span><span class="topic-heatcell__n">666</span></a>
+<a class="topic-heatcell th-6" href="/kubernetes/" title="Kubernetes — 663 resources"><span class="topic-heatcell__name">Kubernetes</span><span class="topic-heatcell__n">663</span></a>
 <a class="topic-heatcell th-6" href="/kubernetes-tools/" title="Kubernetes Tools — 640 resources"><span class="topic-heatcell__name">Kubernetes Tools</span><span class="topic-heatcell__n">640</span></a>
 <a class="topic-heatcell th-6" href="/git/" title="Git — 364 resources"><span class="topic-heatcell__name">Git</span><span class="topic-heatcell__n">364</span></a>
 <a class="topic-heatcell th-6" href="/demos/" title="Demos — 354 resources"><span class="topic-heatcell__name">Demos</span><span class="topic-heatcell__n">354</span></a>
@@ -40,7 +40,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-4" href="/grafana/" title="Grafana — 48 resources"><span class="topic-heatcell__name">Grafana</span><span class="topic-heatcell__n">48</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-tutorials/" title="Kubernetes Tutorials — 47 resources"><span class="topic-heatcell__name">Kubernetes Tutorials</span><span class="topic-heatcell__n">47</span></a>
 <a class="topic-heatcell th-4" href="/aws-tools-scripts/" title="AWS Tools Scripts — 45 resources"><span class="topic-heatcell__name">AWS Tools Scripts</span><span class="topic-heatcell__n">45</span></a>
-<a class="topic-heatcell th-4" href="/cloud-arch-diagrams/" title="Cloud Arch Diagrams — 43 resources"><span class="topic-heatcell__name">Cloud Arch Diagrams</span><span class="topic-heatcell__n">43</span></a>
+<a class="topic-heatcell th-4" href="/cloud-arch-diagrams/" title="Cloud Arch Diagrams — 44 resources"><span class="topic-heatcell__name">Cloud Arch Diagrams</span><span class="topic-heatcell__n">44</span></a>
 <a class="topic-heatcell th-4" href="/aws-databases/" title="AWS Databases — 37 resources"><span class="topic-heatcell__name">AWS Databases</span><span class="topic-heatcell__n">37</span></a>
 <a class="topic-heatcell th-4" href="/devops-tools/" title="DevOps Tools — 36 resources"><span class="topic-heatcell__name">DevOps Tools</span><span class="topic-heatcell__n">36</span></a>
 <a class="topic-heatcell th-4" href="/customer/" title="Customer — 34 resources"><span class="topic-heatcell__name">Customer</span><span class="topic-heatcell__n">34</span></a>
@@ -48,8 +48,8 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-3" href="/mkdocs/" title="Mkdocs — 24 resources"><span class="topic-heatcell__name">Mkdocs</span><span class="topic-heatcell__n">24</span></a>
 <a class="topic-heatcell th-3" href="/faq/" title="Faq — 22 resources"><span class="topic-heatcell__name">Faq</span><span class="topic-heatcell__n">22</span></a>
 <a class="topic-heatcell th-3" href="/aws-monitoring/" title="AWS Monitoring — 20 resources"><span class="topic-heatcell__name">AWS Monitoring</span><span class="topic-heatcell__n">20</span></a>
-<a class="topic-heatcell th-3" href="/aws-pricing/" title="AWS Pricing — 18 resources"><span class="topic-heatcell__name">AWS Pricing</span><span class="topic-heatcell__n">18</span></a>
 <a class="topic-heatcell th-3" href="/aws-devops/" title="AWS DevOps — 18 resources"><span class="topic-heatcell__name">AWS DevOps</span><span class="topic-heatcell__n">18</span></a>
+<a class="topic-heatcell th-3" href="/aws-pricing/" title="AWS Pricing — 18 resources"><span class="topic-heatcell__name">AWS Pricing</span><span class="topic-heatcell__n">18</span></a>
 <a class="topic-heatcell th-3" href="/aws-training/" title="AWS Training — 17 resources"><span class="topic-heatcell__name">AWS Training</span><span class="topic-heatcell__n">17</span></a>
 <a class="topic-heatcell th-3" href="/aws-containers/" title="AWS Containers — 16 resources"><span class="topic-heatcell__name">AWS Containers</span><span class="topic-heatcell__n">16</span></a>
 <a class="topic-heatcell th-3" href="/about/" title="About — 16 resources"><span class="topic-heatcell__name">About</span><span class="topic-heatcell__n">16</span></a>
@@ -57,24 +57,24 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-3" href="/uncategorized/" title="Uncategorized — 9 resources"><span class="topic-heatcell__name">Uncategorized</span><span class="topic-heatcell__n">9</span></a>
 <a class="topic-heatcell th-3" href="/aws-data/" title="AWS Data — 9 resources"><span class="topic-heatcell__name">AWS Data</span><span class="topic-heatcell__n">9</span></a>
 <a class="topic-heatcell th-2" href="/aws-messaging/" title="AWS Messaging — 6 resources"><span class="topic-heatcell__name">AWS Messaging</span><span class="topic-heatcell__n">6</span></a>
-<a class="topic-heatcell th-2" href="/oauth/" title="Oauth — 5 resources"><span class="topic-heatcell__name">Oauth</span><span class="topic-heatcell__n">5</span></a>
 <a class="topic-heatcell th-2" href="/aws-spain/" title="AWS Spain — 5 resources"><span class="topic-heatcell__name">AWS Spain</span><span class="topic-heatcell__n">5</span></a>
+<a class="topic-heatcell th-2" href="/oauth/" title="Oauth — 5 resources"><span class="topic-heatcell__name">Oauth</span><span class="topic-heatcell__n">5</span></a>
 <a class="topic-heatcell th-2" href="/matrix-table/" title="Matrix Table — 4 resources"><span class="topic-heatcell__name">Matrix Table</span><span class="topic-heatcell__n">4</span></a>
 <a class="topic-heatcell th-2" href="/dom/" title="Dom — 4 resources"><span class="topic-heatcell__name">Dom</span><span class="topic-heatcell__n">4</span></a>
 <a class="topic-heatcell th-2" href="/react/" title="React — 3 resources"><span class="topic-heatcell__name">React</span><span class="topic-heatcell__n">3</span></a>
-<a class="topic-heatcell th-2" href="/scaleway/" title="Scaleway — 2 resources"><span class="topic-heatcell__name">Scaleway</span><span class="topic-heatcell__n">2</span></a>
 <a class="topic-heatcell th-2" href="/digital-money/" title="Digital Money — 2 resources"><span class="topic-heatcell__name">Digital Money</span><span class="topic-heatcell__n">2</span></a>
-<a class="topic-heatcell th-2" href="/chef/" title="Chef — 2 resources"><span class="topic-heatcell__name">Chef</span><span class="topic-heatcell__n">2</span></a>
 <a class="topic-heatcell th-2" href="/stackstorm/" title="Stackstorm — 2 resources"><span class="topic-heatcell__name">Stackstorm</span><span class="topic-heatcell__n">2</span></a>
-<a class="topic-heatcell th-1" href="/newsql/" title="Newsql — 1 resources"><span class="topic-heatcell__name">Newsql</span><span class="topic-heatcell__n">1</span></a>
+<a class="topic-heatcell th-2" href="/scaleway/" title="Scaleway — 2 resources"><span class="topic-heatcell__name">Scaleway</span><span class="topic-heatcell__n">2</span></a>
+<a class="topic-heatcell th-2" href="/chef/" title="Chef — 2 resources"><span class="topic-heatcell__name">Chef</span><span class="topic-heatcell__n">2</span></a>
 <a class="topic-heatcell th-1" href="/xamarin/" title="Xamarin — 1 resources"><span class="topic-heatcell__name">Xamarin</span><span class="topic-heatcell__n">1</span></a>
+<a class="topic-heatcell th-1" href="/newsql/" title="Newsql — 1 resources"><span class="topic-heatcell__name">Newsql</span><span class="topic-heatcell__n">1</span></a>
 <a class="topic-heatcell th-1" href="/private-cloud-solutions/" title="Private Cloud Solutions — 1 resources"><span class="topic-heatcell__name">Private Cloud Solutions</span><span class="topic-heatcell__n">1</span></a>
 </div>
 </div>
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">Platform & Site Reliability</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-5" href="/devops/" title="DevOps — 229 resources"><span class="topic-heatcell__name">DevOps</span><span class="topic-heatcell__n">229</span></a>
+<a class="topic-heatcell th-5" href="/devops/" title="DevOps — 230 resources"><span class="topic-heatcell__name">DevOps</span><span class="topic-heatcell__n">230</span></a>
 <a class="topic-heatcell th-4" href="/project-management-methodology/" title="Project Management Methodology — 91 resources"><span class="topic-heatcell__name">Project Management Methodology</span><span class="topic-heatcell__n">91</span></a>
 <a class="topic-heatcell th-4" href="/developerportals/" title="Developerportals — 80 resources"><span class="topic-heatcell__name">Developerportals</span><span class="topic-heatcell__n">80</span></a>
 <a class="topic-heatcell th-4" href="/sre/" title="SRE — 53 resources"><span class="topic-heatcell__name">SRE</span><span class="topic-heatcell__n">53</span></a>
@@ -93,7 +93,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-6" href="/terraform/" title="Terraform — 432 resources"><span class="topic-heatcell__name">Terraform</span><span class="topic-heatcell__n">432</span></a>
 <a class="topic-heatcell th-5" href="/devsecops/" title="Devsecops — 310 resources"><span class="topic-heatcell__name">Devsecops</span><span class="topic-heatcell__n">310</span></a>
 <a class="topic-heatcell th-5" href="/kubernetes-security/" title="Kubernetes Security — 192 resources"><span class="topic-heatcell__name">Kubernetes Security</span><span class="topic-heatcell__n">192</span></a>
-<a class="topic-heatcell th-5" href="/ansible/" title="Ansible — 188 resources"><span class="topic-heatcell__name">Ansible</span><span class="topic-heatcell__n">188</span></a>
+<a class="topic-heatcell th-5" href="/ansible/" title="Ansible — 189 resources"><span class="topic-heatcell__name">Ansible</span><span class="topic-heatcell__n">189</span></a>
 <a class="topic-heatcell th-4" href="/iac/" title="IaC — 79 resources"><span class="topic-heatcell__name">IaC</span><span class="topic-heatcell__n">79</span></a>
 <a class="topic-heatcell th-4" href="/securityascode/" title="Securityascode — 50 resources"><span class="topic-heatcell__name">Securityascode</span><span class="topic-heatcell__n">50</span></a>
 <a class="topic-heatcell th-3" href="/kustomize/" title="Kustomize — 22 resources"><span class="topic-heatcell__name">Kustomize</span><span class="topic-heatcell__n">22</span></a>
@@ -126,7 +126,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">Networking & Service Mesh</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-5" href="/kubernetes-networking/" title="Kubernetes Networking — 137 resources"><span class="topic-heatcell__name">Kubernetes Networking</span><span class="topic-heatcell__n">137</span></a>
+<a class="topic-heatcell th-5" href="/kubernetes-networking/" title="Kubernetes Networking — 138 resources"><span class="topic-heatcell__name">Kubernetes Networking</span><span class="topic-heatcell__n">138</span></a>
 <a class="topic-heatcell th-4" href="/servicemesh/" title="Servicemesh — 69 resources"><span class="topic-heatcell__name">Servicemesh</span><span class="topic-heatcell__n">69</span></a>
 <a class="topic-heatcell th-4" href="/istio/" title="Istio — 64 resources"><span class="topic-heatcell__name">Istio</span><span class="topic-heatcell__n">64</span></a>
 <a class="topic-heatcell th-4" href="/networking/" title="Networking — 44 resources"><span class="topic-heatcell__name">Networking</span><span class="topic-heatcell__n">44</span></a>
@@ -138,13 +138,13 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">The Container Stack</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-5" href="/ocp4/" title="OCP 4 — 190 resources"><span class="topic-heatcell__name">OCP 4</span><span class="topic-heatcell__n">190</span></a>
+<a class="topic-heatcell th-5" href="/ocp4/" title="OCP 4 — 188 resources"><span class="topic-heatcell__name">OCP 4</span><span class="topic-heatcell__n">188</span></a>
 <a class="topic-heatcell th-5" href="/docker/" title="Docker — 179 resources"><span class="topic-heatcell__name">Docker</span><span class="topic-heatcell__n">179</span></a>
-<a class="topic-heatcell th-5" href="/kubernetes-operators-controllers/" title="Kubernetes Operators Controllers — 128 resources"><span class="topic-heatcell__name">Kubernetes Operators Controllers</span><span class="topic-heatcell__n">128</span></a>
+<a class="topic-heatcell th-5" href="/kubernetes-operators-controllers/" title="Kubernetes Operators Controllers — 129 resources"><span class="topic-heatcell__name">Kubernetes Operators Controllers</span><span class="topic-heatcell__n">129</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-storage/" title="Kubernetes Storage — 81 resources"><span class="topic-heatcell__name">Kubernetes Storage</span><span class="topic-heatcell__n">81</span></a>
 <a class="topic-heatcell th-4" href="/container-managers/" title="Container Managers — 78 resources"><span class="topic-heatcell__name">Container Managers</span><span class="topic-heatcell__n">78</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-troubleshooting/" title="Kubernetes Troubleshooting — 77 resources"><span class="topic-heatcell__name">Kubernetes Troubleshooting</span><span class="topic-heatcell__n">77</span></a>
-<a class="topic-heatcell th-4" href="/openshift/" title="Openshift — 74 resources"><span class="topic-heatcell__name">Openshift</span><span class="topic-heatcell__n">74</span></a>
+<a class="topic-heatcell th-4" href="/openshift/" title="Openshift — 75 resources"><span class="topic-heatcell__name">Openshift</span><span class="topic-heatcell__n">75</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-on-premise/" title="Kubernetes On Premise — 72 resources"><span class="topic-heatcell__name">Kubernetes On Premise</span><span class="topic-heatcell__n">72</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-monitoring/" title="Kubernetes Monitoring — 70 resources"><span class="topic-heatcell__name">Kubernetes Monitoring</span><span class="topic-heatcell__n">70</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-based-devel/" title="Kubernetes Based Devel — 70 resources"><span class="topic-heatcell__name">Kubernetes Based Devel</span><span class="topic-heatcell__n">70</span></a>
@@ -153,8 +153,8 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-4" href="/kubernetes-autoscaling/" title="Kubernetes Autoscaling — 62 resources"><span class="topic-heatcell__name">Kubernetes Autoscaling</span><span class="topic-heatcell__n">62</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-releases/" title="Kubernetes Releases — 60 resources"><span class="topic-heatcell__name">Kubernetes Releases</span><span class="topic-heatcell__n">60</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-backup-migrations/" title="Kubernetes Backup Migrations — 42 resources"><span class="topic-heatcell__name">Kubernetes Backup Migrations</span><span class="topic-heatcell__n">42</span></a>
+<a class="topic-heatcell th-4" href="/kubectl-commands/" title="Kubectl Commands — 40 resources"><span class="topic-heatcell__name">Kubectl Commands</span><span class="topic-heatcell__n">40</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-alternatives/" title="Kubernetes Alternatives — 39 resources"><span class="topic-heatcell__name">Kubernetes Alternatives</span><span class="topic-heatcell__n">39</span></a>
-<a class="topic-heatcell th-4" href="/kubectl-commands/" title="Kubectl Commands — 39 resources"><span class="topic-heatcell__name">Kubectl Commands</span><span class="topic-heatcell__n">39</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-client-libraries/" title="Kubernetes Client Libraries — 34 resources"><span class="topic-heatcell__name">Kubernetes Client Libraries</span><span class="topic-heatcell__n">34</span></a>
 <a class="topic-heatcell th-4" href="/ocp3/" title="OCP 3 — 30 resources"><span class="topic-heatcell__name">OCP 3</span><span class="topic-heatcell__n">30</span></a>
 <a class="topic-heatcell th-3" href="/kubernetes-bigdata/" title="Kubernetes Bigdata — 11 resources"><span class="topic-heatcell__name">Kubernetes Bigdata</span><span class="topic-heatcell__n">11</span></a>
@@ -264,7 +264,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[AWS Training](./aws-training.md)** <span class="topic-count">17</span>
 - **[Cheatsheets](./cheatsheets.md)** <span class="topic-count">188</span>
 - **[Chef](./chef.md)** <span class="topic-count">2</span>
-- **[Cloud Arch Diagrams](./cloud-arch-diagrams.md)** <span class="topic-count">43</span>
+- **[Cloud Arch Diagrams](./cloud-arch-diagrams.md)** <span class="topic-count">44</span>
 - **[Cloud Asset Inventory](./cloud-asset-inventory.md)** <span class="topic-count">10</span>
 - **[Customer](./customer.md)** <span class="topic-count">34</span>
 - **[Demos](./demos.md)** <span class="topic-count">354</span>
@@ -278,7 +278,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Introduction](./introduction.md)** <span class="topic-count">229</span>
 - **[Kubernetes Tools](./kubernetes-tools.md)** <span class="topic-count">640</span>
 - **[Kubernetes Tutorials](./kubernetes-tutorials.md)** <span class="topic-count">47</span>
-- **[Kubernetes](./kubernetes.md)** <span class="topic-count">666</span>
+- **[Kubernetes](./kubernetes.md)** <span class="topic-count">663</span>
 - **[Linux](./linux.md)** <span class="topic-count">201</span>
 - **[Matrix Table](./matrix-table.md)** <span class="topic-count">4</span>
 - **[Mkdocs](./mkdocs.md)** <span class="topic-count">24</span>
@@ -302,7 +302,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 
 - **[Chaos Engineering](./chaos-engineering.md)** <span class="topic-count">34</span>
 - **[Developerportals](./developerportals.md)** <span class="topic-count">80</span>
-- **[DevOps](./devops.md)** <span class="topic-count">229</span>
+- **[DevOps](./devops.md)** <span class="topic-count">230</span>
 - **[Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)** <span class="topic-count">45</span>
 - **[Project Management Methodology](./project-management-methodology.md)** <span class="topic-count">91</span>
 - **[Project Management Tools](./project-management-tools.md)** <span class="topic-count">26</span>
@@ -318,7 +318,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 
 ## Hardened Infrastructure
 
-- **[Ansible](./ansible.md)** <span class="topic-count">188</span>
+- **[Ansible](./ansible.md)** <span class="topic-count">189</span>
 - **[Crossplane](./crossplane.md)** <span class="topic-count">10</span>
 - **[Devsecops](./devsecops.md)** <span class="topic-count">310</span>
 - **[IaC](./iac.md)** <span class="topic-count">79</span>
@@ -361,7 +361,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Caching](./caching.md)** <span class="topic-count">34</span>
 - **[Cloudflare](./cloudflare.md)** <span class="topic-count">22</span>
 - **[Istio](./istio.md)** <span class="topic-count">64</span>
-- **[Kubernetes Networking](./kubernetes-networking.md)** <span class="topic-count">137</span>
+- **[Kubernetes Networking](./kubernetes-networking.md)** <span class="topic-count">138</span>
 - **[Networking](./networking.md)** <span class="topic-count">44</span>
 - **[Servicemesh](./servicemesh.md)** <span class="topic-count">69</span>
 - **[Web Servers](./web-servers.md)** <span class="topic-count">21</span>
@@ -374,7 +374,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 
 - **[Container Managers](./container-managers.md)** <span class="topic-count">78</span>
 - **[Docker](./docker.md)** <span class="topic-count">179</span>
-- **[Kubectl Commands](./kubectl-commands.md)** <span class="topic-count">39</span>
+- **[Kubectl Commands](./kubectl-commands.md)** <span class="topic-count">40</span>
 - **[Kubernetes Alternatives](./kubernetes-alternatives.md)** <span class="topic-count">39</span>
 - **[Kubernetes Autoscaling](./kubernetes-autoscaling.md)** <span class="topic-count">62</span>
 - **[Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)** <span class="topic-count">42</span>
@@ -383,14 +383,14 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Kubernetes Client Libraries](./kubernetes-client-libraries.md)** <span class="topic-count">34</span>
 - **[Kubernetes Monitoring](./kubernetes-monitoring.md)** <span class="topic-count">70</span>
 - **[Kubernetes On Premise](./kubernetes-on-premise.md)** <span class="topic-count">72</span>
-- **[Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)** <span class="topic-count">128</span>
+- **[Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)** <span class="topic-count">129</span>
 - **[Kubernetes Releases](./kubernetes-releases.md)** <span class="topic-count">60</span>
 - **[Kubernetes Storage](./kubernetes-storage.md)** <span class="topic-count">81</span>
 - **[Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)** <span class="topic-count">77</span>
 - **[Noops](./noops.md)** <span class="topic-count">7</span>
 - **[OCP 3](./ocp3.md)** <span class="topic-count">30</span>
-- **[OCP 4](./ocp4.md)** <span class="topic-count">190</span>
-- **[Openshift](./openshift.md)** <span class="topic-count">74</span>
+- **[OCP 4](./ocp4.md)** <span class="topic-count">188</span>
+- **[Openshift](./openshift.md)** <span class="topic-count">75</span>
 - **[Rancher](./rancher.md)** <span class="topic-count">68</span>
 - **[Serverless](./serverless.md)** <span class="topic-count">64</span>
 

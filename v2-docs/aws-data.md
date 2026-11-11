@@ -42,7 +42,7 @@ description: "Top AWS Data resources for 2026, AI-ranked: AWS Data Pipeline, Usi
   - [Using Spark SQL for ETL](https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Using Spark SQL for ETL covering Introduction in AWS (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

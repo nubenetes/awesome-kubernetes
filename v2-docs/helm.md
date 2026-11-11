@@ -341,7 +341,7 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Introduction](./introduction.md) | [Matrix Table](./matrix-table.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20004 total resources analyzed.
-    - **V2 Elite Selection**: 15897 candidates identified (79.47% density ratio).
-    - **AI Enrichment Coverage**: 15897 / 15897 (100.0%)
+    - **V1 Base Inventory**: 20026 total resources analyzed.
+    - **V2 Elite Selection**: 15919 candidates identified (79.49% density ratio).
+    - **AI Enrichment Coverage**: 15919 / 15919 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -112,9 +112,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/watch?v=7TaMSrY2LME">Modern Kubernetes Autoscaling Guide: HPA, VPA, KEDA, Knative, CA & Karpenter</a></div>
-  <div class="trending-card__meta">2026-11-09 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Provides a comprehensive architectural framework uniting Layer 1 workload autoscaling (HPA, in-place VPA, KEDA) and Layer 2 node elasticity via Karpenter.</div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/watch?v=4-oLXvCaZiM">Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5</a></div>
+  <div class="trending-card__meta">2026-11-11 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Explica la arquitectura clave de OpenShift 5 con actualizaciones mayores sin interrupciones y virtualización nativa sobre Kubernetes 1.36.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -444,7 +444,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1034 resources">Go<span class="v2-heat-n">1034</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1038 resources">Go<span class="v2-heat-n">1038</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -479,12 +479,12 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="2 resources">Kubernetes<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="637 resources">Legacy<span class="v2-heat-n">637</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="638 resources">Legacy<span class="v2-heat-n">638</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="99 resources">LLM<span class="v2-heat-n">99</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="338 resources">Markdown<span class="v2-heat-n">338</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="334 resources">Markdown<span class="v2-heat-n">334</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="247 resources">MCP<span class="v2-heat-n">247</span></a>

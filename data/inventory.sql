@@ -22305,4 +22305,375 @@ INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=7TaMSrY2LME','Mo
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLF-sI1t2ehbs','Nubenetes Kubernetes Autoscaling: HPA, VPA, KEDA, Knative & Karpenter Guide','Comprehensive architectural guide, decision matrix, and production engineering reference for Kubernetes autoscaling across Layer 1 (Workload/Pod Level) and Layer 2 (Node/Infrastructure Level).
 
 Covers Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA) with in-place container resizing (/resize subresource), KEDA event-driven scaling (Kafka lag, SQS, RabbitMQ, Cron) with scale-to-zero, Knative Pod Autoscaler (KPA) with sub-second panic mode for HTTP concurrency, predictive ML time-series forecasting (Prophet, StormForge), Cluster Autoscaler (CA), and high-performance group-less node provisioning with Karpenter (45–90s direct cloud spin-up and active multi-node consolidation). Includes essential production guardrails, anti-conflict rules (preventing HPA+VPA CPU feedback loops), and PodDisruptionBudget (PDB) safeguards.','2026',5,'This architectural guide details multi-tier Kubernetes elasticity across Layer 1 workload autoscaling (HPA, in-place VPA resize, KEDA event-driven scale-to-zero, and Knative) and Layer 2 node provisioning using Karpenter and Cluster Autoscaler. It provides production-tested patterns to prevent HPA-VPA resonance feedback loops, leverage predictive time-series forecasting, and enforce robust PodDisruptionBudget safeguards for cloud-native platforms operating at hyperscale.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794254037,0,'2026-11-09T20:53:57.587497+01:00','2026-11-09T20:53:57.587497+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/W-tQ_AWBfo0','How OpenShift Lightspeed Correlates Observability: Conversational Perses Dashboards [Short]','How OpenShift 5 enables conversational observability: generating production-ready Perses dashboards using natural language queries in OpenShift Lightspeed.
+
+⚡ Highlights:
+• Generate complex Perses dashboards without manually hand-crafting PromQL queries.
+• Real-time correlation of metrics, cluster logs, and trace events across multi-tenant workloads.
+• Eliminates the need for dedicated dashboard engineering for Day 2 platform visibility.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Perses Project & OpenShift Observability: https://docs.redhat.com/en/documentation/openshift_container_platform/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #OpenShiftLightspeed #Perses #Observability #PromQL #SRE #Nubenetes','2026',5,'This architectural short demonstrates how OpenShift Lightspeed uses conversational generative AI to produce production-grade Perses dashboards directly from natural language prompts, bypassing the need for manual PromQL engineering. By dynamically correlating multi-tenant metrics, cluster logs, and distributed trace events in real time, it eliminates dedicated dashboard maintenance for Day 2 operations. In a 2026 enterprise cloud-native paradigm, this pattern transitions telemetry visualization into an on-demand, agent-driven workflow that accelerates incident triage and system observability.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Observability + SRE + AI Agents", "category": "Observability and Monitoring", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/cn_lMyaAWk4','The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features','The top architectural innovations in Red Hat OpenShift 5: Kubernetes 1.36 core, non-disruptive in-place upgrades from 4.22, OpenShift Virtualization 5 with Change Block Tracking, and agentic AI incident triage.
+
+⚡ Highlights:
+• Kubernetes 1.36 and CRI-O 1.36 foundation.
+• Seamless in-place upgrades from OpenShift 4.22.
+• OpenShift Lightspeed supervised and autonomous agentic workflows.
+• OpenShift Virtualization 5 with storage-agnostic CBT backups.
+• Model Context Protocol (MCP) server & gateway GA.
+
+📚 Official References:
+• Read the Announcement Blog: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat OpenShift Platform: https://www.redhat.com/en/technologies/cloud-computing/openshift
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #RedHat #Kubernetes #CloudNative #PlatformEngineering #Nubenetes','2026',5,'Red Hat OpenShift 5 establishes a modern enterprise platform foundation built on Kubernetes 1.36 and CRI-O, delivering seamless, non-disruptive in-place upgrades from OpenShift 4.22 alongside storage-agnostic Change Block Tracking (CBT) in OpenShift Virtualization 5. Critically, it native-integrates Model Context Protocol (MCP) server and gateway infrastructure alongside OpenShift Lightspeed to operationalize supervised and autonomous agentic AI workflows for automated incident triage and SRE remediation.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/ioMFzCbMfz8','How OpenShift 5 Modernizes Cloud Native Development: Dev Spaces & Tooling','How Red Hat OpenShift 5 elevates the developer experience with Kubernetes 1.36 primitives, unified consoles, and cloud-native workspaces.
+
+⚡ Highlights:
+• Kubernetes 1.36 & CRI-O 1.36 API modernizations.
+• Frictionless inner-loop development with Red Hat OpenShift Dev Spaces.
+• Built-in security guardrails allowing developers to ship faster with confidence.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat Developer Tools & OpenShift: https://developers.redhat.com/products/openshift/overview
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #DeveloperExperience #Kubernetes #DevOps #CloudNative #Nubenetes','2026',5,'This architectural overview examines how Red Hat OpenShift 5 accelerates developer inner-loop workflows through native integration with Kubernetes 1.36 and CRI-O 1.36 primitives. It showcases how cloud-native developer workspaces in OpenShift Dev Spaces eliminate environment parity issues while maintaining continuous compliance and platform-level security guardrails.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "OpenShift", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/sYAEKwUDqJY','How OpenShift 5 Simplifies Cluster Upgrades: In-Place Update from 4.22 [Short]','How Red Hat OpenShift 5 eliminates major version upgrade friction with an in-place, non-disruptive update path directly from OpenShift 4.22.
+
+⚡ Highlights:
+• No complex cluster migration plan required: treated like a standard minor payload jump.
+• Pre-flight blast radius analysis and readiness verification via OpenShift Lightspeed.
+• 3-year major release cadence and 24-month lifecycle support for enterprise planning.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• OpenShift Lifecycle & Support Policies: https://access.redhat.com/support/policy/updates/openshift
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #ClusterUpgrade #Kubernetes #DevOps #SRE #PlatformEngineering #Nubenetes','2026',5,'Red Hat OpenShift 5 eliminates traditional major-version migration friction by introducing non-disruptive, in-place upgrade pathways directly from OpenShift 4.22 treated like minor payload updates. The architecture incorporates pre-flight blast radius and readiness verification through OpenShift Lightspeed AI agents, backed by a predictable 3-year major release cadence and 24-month support window. This significantly reduces Day-2 operational risk and migration overhead across enterprise Kubernetes fleets.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/Xk6zkGfV34s','How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]','How Red Hat OpenShift 5 transforms 2 a.m. cluster incident response using OpenShift Lightspeed and agentic diagnostic workflows.
+
+⚡ Highlights:
+• Supervised mode: AI investigates alerts, correlates logs/metrics, and awaits human sign-off before running remediations.
+• Autonomous mode (Tech Preview): System deep-dives diagnostics autonomously while retaining human-in-the-loop safeguards.
+• Drastically cuts Mean Time to Resolution (MTTR) by replacing manual triage sleuthing.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat OpenShift Lightspeed: https://www.redhat.com/en/technologies/cloud-computing/openshift/lightspeed
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShiftLightspeed #AgenticAI #OpenShift5 #Kubernetes #SRE #AIOps #Nubenetes','2026',5,'Red Hat OpenShift Lightspeed introduces agentic AI diagnostic workflows into Kubernetes cluster operations, fundamentally transforming incident response and reducing Mean Time to Resolution (MTTR). Operating across supervised and autonomous modes, the agent correlates telemetry, logs, and events to diagnose complex system failures while enforcing human-in-the-loop governance prior to remediation. This capability represents the vanguard of 2026 AIOps, shifting platform engineering from manual alert triage toward resilient, AI-assisted cluster remediation.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/N3u6VpDj6Bw','How Change Block Tracking (CBT) Speeds Up OpenShift Virtualization 5 Backups [Short]','How Change Block Tracking (QEMU CBT) in OpenShift Virtualization 5 slashes backup windows and storage I/O impact for enterprise VMs.
+
+⚡ Highlights:
+• Storage-agnostic differential snapshots backing up only modified data blocks.
+• Eliminates the need to read and process entire virtual disk images during backups.
+• Drastically reduces network bandwidth, backup duration, and VM performance degradation.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• OpenShift Virtualization Data Protection: https://www.redhat.com/en/technologies/cloud-computing/openshift/virtualization
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShiftVirtualization #CBT #OpenShift5 #DisasterRecovery #KubeVirt #Nubenetes','2026',5,'Change Block Tracking (QEMU CBT) in OpenShift Virtualization 5 introduces storage-agnostic differential backups that track and ingest only modified disk sectors between snapshot intervals. By removing the requirement to scan entire virtual disk images, this architectural enhancement drastically slashes backup windows, minimizes storage I/O, and prevents VM performance degradation across enterprise Kubernetes virtualization workloads.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "OpenShift Virtualization", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/-YbJ4TgLUg4','Three OpenShift 5 Breaking Changes to Address Before Upgrading','The three critical architectural breaking changes and API removals to audit in your OpenShift 4.22 clusters before upgrading to OpenShift 5.
+
+⚡ Highlights:
+• Upstream Kubernetes 1.36 API removals and controller changes.
+• Operator lifecycle prerequisite checks and CRD schema migrations.
+• Pre-upgrade payload validation with automated blast radius analysis.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• OpenShift Container Platform Release Notes: https://docs.redhat.com/en/documentation/openshift_container_platform/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #BreakingChanges #Kubernetes #PlatformEngineering #DevOps #Nubenetes','2026',5,'This video details the critical architectural pre-requisites and breaking changes to audit when preparing OpenShift 4.22 clusters for the OpenShift 5 upgrade path. It covers upstream Kubernetes 1.36 API removals, Operator Lifecycle Manager CRD schema migrations, and automated pre-upgrade payload validation to minimize blast radius.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "OpenShift / Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/u07rBU5fYTE','How OpenShift 5 Secures Sovereign Clouds: Air-Gapped & Zero-Trust Governance','How Red Hat OpenShift 5 delivers sovereign cloud resilience with zero-trust architectural boundaries, air-gapped operations, and strict data residency controls.
+
+⚡ Highlights:
+• Disconnected and air-gapped installation profiles with automated mirroring.
+• Fine-grained zero-trust RBAC and crypto-compliant operating system foundations.
+• Enforcing local data sovereignty requirements for regulated industries.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat Sovereign Cloud Architecture: https://www.redhat.com/en/solutions/sovereign-cloud
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #SovereignCloud #ZeroTrust #AirGapped #CloudSecurity #Nubenetes','2026',5,'This architectural brief outlines how Red Hat OpenShift 5 provides robust sovereign cloud governance through automated air-gapped installation profiles, image mirroring, and zero-trust security boundaries. In a 2026 cloud-native landscape shaped by strict geopolitical data residency and regulatory mandates, it demonstrates how organizations can enforce crypto-compliant operating system controls and strict operational isolation without sacrificing modern container orchestration workflows.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Red Hat OpenShift", "category": "Security and Compliance", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/MX505_pRGD0','How Confidential Containers Protect AI Models in Red Hat OpenShift 5 [Short]','How Confidential Containers (CoCo) in OpenShift 5 protect intellectual property, proprietary LLMs, and sensitive data from memory dumps and root compromises.
+
+⚡ Highlights:
+• Hardware-enforced memory encryption using hardware Trusted Execution Environments (TEEs).
+• Shields weights, training data, and inference prompts even from cluster administrators.
+• Secure enterprise multi-tenant AI deployments on public cloud or shared bare-metal clusters.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat Confidential Computing: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/confidential-computing
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #ConfidentialContainers #CoCo #AISecurity #TrustedExecutionEnvironments #Nubenetes','2026',5,'This architecture short examines how Confidential Containers (CoCo) in Red Hat OpenShift leverage hardware-enforced Trusted Execution Environments (TEEs) to protect proprietary LLM weights, training data, and inference prompts from memory dumps and hypervisor-level compromises. In a modern cloud-native paradigm, this enables zero-trust multi-tenant AI deployments on untrusted public cloud and shared bare-metal infrastructure, ensuring full data confidentiality even against privileged cluster administrators.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Confidential Containers (CoCo) + OpenShift", "category": "Security and Compliance", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/-1xhWXGE82w','How OpenShift 5 Secures AI Workloads: Model Context Protocol & Zero-Trust [Short]','How Red Hat OpenShift 5 secures autonomous AI agents and enterprise generative AI workloads using the Model Context Protocol (MCP) server and gateway.
+
+⚡ Highlights:
+• GA of OpenShift MCP server and gateway via Red Hat Connectivity Link.
+• Secure, policy-governed access for autonomous agents interacting with cluster APIs.
+• Enforces zero-trust identity, audit logging, and authorization on all agentic interactions.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat Connectivity Link & AI APIs: https://docs.redhat.com/en/documentation/openshift_container_platform/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #ModelContextProtocol #AISecurity #AIAgents #ConnectivityLink #Nubenetes','2026',5,'This architectural overview demonstrates how Red Hat OpenShift secures autonomous AI agents and generative AI workloads utilizing the Model Context Protocol (MCP) server and gateway via Red Hat Connectivity Link. It establishes a policy-governed framework enforcing zero-trust identity, audit logging, and strict authorization on all agent interactions with Kubernetes cluster APIs. This approach provides an enterprise-grade standard for governing agentic AI access across modern cloud-native platforms.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/H4U7khZdAoI','How O-Cloud Manager Deploys Telco & Edge Clusters on OpenShift 5 [Short]','How Red Hat O-Cloud Manager on OpenShift 5 orchestrates carrier-grade O-RAN infrastructure and thousands of distributed edge sites.
+
+⚡ Highlights:
+• Zero-touch provisioning (ZTP) and centralized lifecycle management for far-edge nodes.
+• O-RAN compliant IMS and DMS services for telecommunication network functions.
+• Autonomous operation with resilient local survivability during backhaul disconnections.
+
+📚 Official References:
+• Announcing Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat Telecommunications Solutions: https://www.redhat.com/en/solutions/telecommunications
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/
+
+#OpenShift5 #OCloudManager #ORAN #TelcoEdge #EdgeComputing #Nubenetes','2026',5,'Red Hat O-Cloud Manager on OpenShift 5 delivers centralized orchestration and Zero-Touch Provisioning (ZTP) for carrier-grade O-RAN infrastructure across thousands of distributed far-edge nodes. By integrating O-RAN compliant Infrastructure Management Services (IMS) and Deployment Management Services (DMS), the platform guarantees autonomous operation and local survivability during backhaul disconnections. This approach establishes a resilient, scalable architecture for executing mission-critical telecommunication workloads at the cloud edge.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "OpenShift & Telco Edge", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=4-oLXvCaZiM','Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5','Technical deep dive into the foundational architectural pillars of Red Hat OpenShift 5: operational predictability, intelligent agentic management, modern virtualization, and zero-trust security.
+
+🔑 Core Engineering Highlights:
+• The "Uneventful" Update: Transitioning clusters from OpenShift 4.22 to 5.0 in-place without re-paving infrastructure or rebuilding operator states.
+• Intelligent Update Pre-Flight: Lightspeed-augmented update guidance mapping out potential CRD/API conflicts and blast radius before maintenance windows open.
+• OpenShift Virtualization 5: Node-centric unified management UI consolidating networking, physical storage, VM status, and container pods into a single pane of glass.
+• QEMU Change Block Tracking: Storage-agnostic block-level differential snapshots drastically reducing backup windows and storage I/O impact.
+• Enterprise AI Security: Model protection via Confidential Containers (CoCo) preventing memory dump extraction on untrusted infrastructure.
+
+📚 Official Reference & Research Documentation:
+• Red Hat Announcement: What''s New in Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat OpenShift Product Documentation: https://docs.redhat.com/en/documentation/openshift_container_platform/
+• Red Hat OpenShift Virtualization: https://www.redhat.com/en/technologies/cloud-computing/openshift/virtualization
+• Red Hat Developer Portal: https://developers.redhat.com/
+
+🌐 Explore Cloud Native & Platform Engineering Architectures:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Architectural Portal: https://nubenetes.com/
+
+#OpenShift5 #RedHatOpenShift #Kubernetes #PlatformEngineering #CloudArchitecture #OpenShiftVirt #SRE #Nubenetes','2026',5,'Red Hat OpenShift 5 introduces seamless in-place major version upgrades paired with Lightspeed AI agentic pre-flight checks to map CRD/API conflicts before maintenance windows. OpenShift Virtualization 5 enhances platform convergence with QEMU Change Block Tracking for differential backups while utilizing Confidential Containers (CoCo) to secure enterprise AI model memory on untrusted infrastructure.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=1bs9TiAjWO8','Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization','Comprehensive architectural guide and technical overview of Red Hat OpenShift 5, the next-generation enterprise hybrid cloud application platform.
+
+⏱️ Masterclass Architectural Breakdown:
+• Kubernetes 1.36 & CRI-O 1.36 Core: Upstream alignment with enhanced scheduling, memory management, and container execution.
+• In-Place Upgrades from 4.22: Non-disruptive, minor-style update payload coordination eliminating complex cluster migration plans.
+• 3-Year Enterprise Release Cadence: Aligned with RHEL major releases and providing 24 months of lifecycle support (12 months full + 12 months maintenance).
+• Agentic AI Platform Operations: OpenShift Lightspeed integration with supervised and autonomous triage workflows for automated alert investigation.
+• Model Context Protocol (MCP): General availability of OpenShift MCP server and gateway via Red Hat Connectivity Link for governed agent access.
+• OpenShift Virtualization 5: Storage-agnostic Change Block Tracking (QEMU CBT) for fast incremental backups, memory-aware VM balancing, and declarative Autopilot policies.
+• Confidential Containers (CoCo): Hardware-enforced Trusted Execution Environments (TEEs) protecting proprietary AI models in use.
+
+📚 Official Reference & Research Documentation:
+• Red Hat Announcement: What''s New in Red Hat OpenShift 5: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+• Red Hat OpenShift Platform Overview: https://www.redhat.com/en/technologies/cloud-computing/openshift
+• Red Hat OpenShift Documentation: https://docs.redhat.com/en/documentation/openshift_container_platform/
+• Red Hat OpenShift Virtualization Architecture: https://www.redhat.com/en/technologies/cloud-computing/openshift/virtualization
+• Red Hat Hybrid Cloud Console: https://console.redhat.com/
+
+🌐 Explore Cloud Native & Platform Engineering Architectures:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Architectural Portal: https://nubenetes.com/
+
+#OpenShift5 #RedHat #Kubernetes #OpenShiftVirtualization #CloudNative #PlatformEngineering #DevOps #Nubenetes','2026',5,'Red Hat OpenShift 5 introduces a modernized enterprise hybrid cloud platform aligned with Kubernetes 1.36, featuring non-disruptive in-place upgrades from 4.22 and an enterprise 3-year release cadence. It integrates Agentic AI platform operations via OpenShift Lightspeed and the Model Context Protocol (MCP) gateway, alongside OpenShift Virtualization 5 enhancements like QEMU Change Block Tracking and Confidential Containers (CoCo). This architecture provides a resilient, AI-governed foundation for unified management of virtualized workloads, containerized applications, and hardware-secured AI models.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLXDBfnEd7RX8','⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide','Comprehensive architectural guide, technical deep dives, and production engineering reference for Red Hat OpenShift 5, the next-generation enterprise hybrid cloud application platform.
+
+Covers the Kubernetes 1.36 and CRI-O 1.36 core foundation, non-disruptive minor-style in-place updates from OpenShift 4.22 eliminating cluster repaving, the 3-year major release cadence (24-month lifecycle with 12 months full + 12 months maintenance), agentic AI platform operations via OpenShift Lightspeed (supervised and autonomous triage workflows, conversational Perses dashboard generation), General Availability of Model Context Protocol (MCP) server & gateway through Red Hat Connectivity Link, OpenShift Virtualization 5 with storage-agnostic QEMU Change Block Tracking (CBT) for accelerated VM backups, Confidential Containers (CoCo) with hardware-enforced Trusted Execution Environments (TEEs), and O-Cloud Manager zero-touch provisioning for edge and telco O-RAN sites.
+
+Official Announcement: https://www.redhat.com/en/blog/announcing-red-hat-openshift-5
+Documentation & Architecture: https://docs.redhat.com/en/documentation/openshift_container_platform/
+Explore Video Tracks: https://nubenetes.com/videos/','2026',5,'Red Hat OpenShift 5 introduces a modernized enterprise platform built on Kubernetes 1.36, featuring non-disruptive in-place upgrades from 4.22 and storage-agnostic QEMU Change Block Tracking for Virtualization 5. It integrates agentic platform operations via OpenShift Lightspeed alongside native Model Context Protocol (MCP) server and gateway orchestration for enterprise AI workflows. This architectural guide establishes a 2026 operational reference for confidential workloads using hardware TEEs and zero-touch edge deployments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794434170,0,'2026-11-11T22:56:10.580261+01:00','2026-11-11T22:56:10.580261+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/BHxPC2TanRk','How AI Evolved From Prompts to Swarms: The 5-Layer Graph Architecture','The architectural evolution of the modern AI stack: moving from primitive prompt engineering to graph-orchestrated multi-agent swarms.
+
+⚡ Architectural Highlights:
+• Layer 1 (Prompt): Atomic natural language instructions.
+• Layer 2 (Context): Token windows and short-term working memory.
+• Layer 3 (Harness Engineering): Execution sandboxes, tool integration, and enterprise guardrails.
+• Layer 4 (The Loop): Autonomous observe-act-verify cognitive cycles.
+• Layer 5 (Graph Engineering): Multi-agent control topologies, message-passing DAGs, and persistent memory.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural breakdown traces the evolution of modern generative AI stacks across five tiers: atomic prompts, context window management, harness sandboxing with tool execution, autonomous observe-act-verify loops, and message-passing DAG graph engineering. For 2026 cloud-native systems, this progression outlines the migration from isolated LLM calls to robust multi-agent swarms integrated into microservices and event-driven control planes. Mastering these layers enables platform engineers to build deterministic, resilient agentic workflows with persistent memory and sandboxed tool-calling capabilities.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "AI Agents + Cloud Native", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/JOX1-fBvoJ0','How GraphRAG Fixes Vector RAG Blind Spots: Multi-Hop Reasoning & Accuracy [Short]','How GraphRAG overcomes the catastrophic blind spots of flat chunk-based Vector RAG through explicit entity relationship networks.
+
+⚡ Architectural Highlights:
+• The Vector RAG trap: How standard chunking turns relational data and financial tables into meaningless word soup.
+• Multi-hop traversal: Tracing complete evidence chains (person to organization to policy) across document boundaries.
+• Enterprise impact: Up to 15%–30% accuracy boost on complex analytical and synthesis queries.
+• Connecting disconnected data silos that isolated vector embeddings cannot mathematically correlate.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+• Microsoft Research GraphRAG Overview: https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-complex-data/
+• Neo4j Knowledge Graph & GraphRAG: https://neo4j.com/generative-ai/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural brief contrasts traditional vector embedding chunking with GraphRAG, illustrating how structured entity-relationship graphs eliminate context fragmentation and enable deterministic multi-hop reasoning across disconnected enterprise data silos. By traversing complete evidence chains across document boundaries, it delivers a 15%–30% accuracy enhancement for complex analytical and synthesis queries. In 2026 cloud-native architectures, this approach is foundational for grounding autonomous AI agents, multi-agent frameworks, and enterprise-grade retrieval pipelines without semantic loss.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "GraphRAG + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/ksF7JeaUqrM','Why GraphRAG Will Not Replace Standard RAG: The 5x Compute Reality Check [Short]','Why GraphRAG complements rather than replaces Vector RAG: an architectural reality check on compute overhead, latency, and query patterns.
+
+⚡ Architectural Highlights:
+• The 5x compute cost trade-off: Heavy upfront entity extraction and storage vs. instant vector embedding.
+• Query latency profiles: Graph traversal vs. sub-50ms approximate nearest neighbor (ANN) vector search.
+• When standard RAG wins: Isolated single-fact lookups and flat documentation.
+• The hybrid sweet spot: Combining vector similarity for speed and knowledge graphs for complex relational reasoning.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+• Microsoft Research GraphRAG Overview: https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-complex-data/
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural breakdown analyzes the real-world trade-offs between GraphRAG and traditional Vector RAG, highlighting the substantial 5x compute overhead required for upfront entity extraction and multi-hop graph traversal. While standard Vector RAG remains superior for sub-50ms single-fact retrieval over flat documentation, enterprise 2026 cloud-native AI systems must adopt hybrid retrieval pipelines that pair ANN vector similarity with targeted knowledge graphs for complex relational reasoning.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps with AI", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/r0jvhSmO-dY','How Graphify Compresses Codebases for AI: 71x Token Reduction with ASTs [Short]','How open-source Graphify brings Andrej Karpathy''s graph vision to life, converting massive codebases into queryable knowledge graphs with zero LLM token waste.
+
+⚡ Architectural Highlights:
+• Deterministic Tree-sitter AST parsing across 19 languages without burning LLM tokens.
+• Automatic identification of architectural "god nodes", clusters, and cross-module dependencies.
+• Generates interactive queryable graph wikis, cutting agent token usage by up to 71.5x.
+• Pay the extraction cost once; execute every subsequent agent lookup with micro-token overhead.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'Graphify operationalizes deterministic Tree-sitter AST parsing across 19 languages to convert massive codebases into queryable knowledge graphs without burning LLM extraction tokens. By systematically mapping architectural dependencies, clusters, and god nodes into an interactive graph wiki, it reduces AI agent context token consumption by up to 71.5x. This architecture establishes a high-efficiency foundation for 2026 cloud-native workflows, allowing autonomous coding and DevOps agents to perform ultra-low-overhead queries across large-scale repositories.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/svU_V0URvIc','How AI Swarms Coordinate With Dual Graphs: Commit DAGs vs Knowledge Graphs','How massive multi-agent swarms coordinate without chaos by strictly separating the org chart of work from the brain of the world using Dual Graphs.
+
+⚡ Architectural Highlights:
+• Commit DAG: Tracks task lineage, agent execution branches, and code commit provenance.
+• Knowledge Graph: Tracks domain entities, verified facts, and source citations.
+• Decoupling work history from semantic memory prevents multi-agent hallucinations.
+• Phased swarm scaling: From single reflective loops to full multi-agent concurrency.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural pattern demonstrates how multi-agent swarms scale reliably by decoupling task execution history from semantic memory through dual graphs. By isolating a Commit DAG (tracking task lineage, agent branches, and code provenance) from a verified Knowledge Graph (storing domain entities and citations), teams eliminate compounding agent hallucinations during concurrent execution. In a 2026 cloud-native context, this dual-graph topology provides the essential state-synchronization and governance backbone for autonomous multi-agent DevOps and SRE workflows.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/88YDYS56Hbg','How Karpathy''s AI Never Forgets: Compiling Knowledge into Persistent Graphs','How Andrej Karpathy''s compiled knowledge thesis solves AI amnesia: "The agent forgets, the graph does not."
+
+⚡ Architectural Highlights:
+• The fundamental shift: Are tokens for generating code or compiling persistent knowledge?
+• Moving memory out of volatile, expensive context windows into structured queryable graphs.
+• How compiling repositories into graph wikis eliminates redundant re-reading across agent sessions.
+• Achieving 70x+ token efficiency by caching structural relationships permanently.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural breakdown explores Andrej Karpathy''s thesis on shifting LLM token usage from ephemeral context-window generation to compiling structured, persistent knowledge graphs. By externalizing codebases and system relationships into persistent graph memory, autonomous software engineering agents eliminate token-heavy re-reading and solve context amnesia. In 2026 cloud-native agentic workflows, this paradigm delivers over 70x token efficiency and stable cross-session state for autonomous platform engineering and SRE agents.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=5J484Se-Nso','From Prompts to Graph Swarms: Andrej Karpathy''s AI Graph Architecture Masterclass','Comprehensive architectural guide and technical masterclass exploring the structural shift from isolated, fragile text prompts to persistent graph-engineered multi-agent swarms, inspired by Andrej Karpathy''s systems engineering thesis: "Delete everything, keep Graph."
+
+⏱️ Masterclass Architectural Breakdown:
+• Beyond Prompt Engineering: The 5-Layer AI Architecture Stack:
+  - Layer 1: Prompt (atomic natural language instruction)
+  - Layer 2: Context Window (temporary volatile tokens)
+  - Layer 3: Harness Engineering (execution sandbox & guardrails)
+  - Layer 4: The Loop (observe-act-verify cognitive cycle)
+  - Layer 5: Graph Engineering (multi-agent topology, tool routing & persistent state)
+• Overcoming "The Context Crash" & AI Amnesia: Why dumping chat transcripts causes catastrophic forgetting and sky-high token costs.
+• Karpathy''s Compiled Knowledge: "Are tokens for generating code or compiling knowledge?" Transforming raw codebases into persistent, queryable wikis.
+• Graphify Engine: Deterministic Tree-sitter AST parsing across 19 languages, identifying "god nodes" and slashing query token consumption by up to 71.5x.
+• Dual Graphs for Agent Swarms: Decoupling the Commit DAG (work lineage, execution branches) from the Knowledge Graph (domain entities, evidence chains).
+• 4-Stage Multi-Agent Maturity Path: Single reflective loop (Day 1) to Planning & roles (Week 1) to Persistent knowledge graph (Month 1) to Massive multi-agent swarm (Month 2).
+• GraphRAG vs. Vector RAG: Multi-hop reasoning and relational entity networks vs. flat chunk similarity. 15%–30% accuracy boost on complex queries vs. 5x compute overhead.
+• Cognition''s Golden Rule: Fan out for research; remain strictly single-threaded for shared codebase writing.
+
+📚 Official Reference & Research Documentation:
+• Reference Lecture: Andrej Karpathy: The Future of AI Is a Graph: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+• Andrej Karpathy Official Portal: https://karpathy.ai/
+• Andrej Karpathy YouTube Channel: https://www.youtube.com/@AndrejKarpathy
+• Eureka Labs (AI-Native Education): https://eurekalabs.ai/
+• Microsoft Research GraphRAG Architecture: https://microsoft.github.io/graphrag/
+• Microsoft Research GraphRAG Overview: https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-complex-data/
+• Neo4j Knowledge Graph & GraphRAG: https://neo4j.com/generative-ai/
+
+🌐 Explore Cloud Native & Agentic AI Architectures:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'This masterclass outlines the paradigm shift from fragile prompt engineering to graph-engineered multi-agent swarms, addressing context crashes and AI amnesia through persistent compiled knowledge. It establishes an enterprise blueprint decoupling execution lineage (Commit DAGs) from relational domain models (Knowledge Graphs) alongside deterministic AST parsing to slash token overhead up to 71x. For 2026 cloud-native systems, this architecture provides the foundational design pattern for orchestrating autonomous, stateful agent swarms across distributed CI/CD and platform engineering pipelines.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLE9XanQNEMZs','Andrej Karpathy: AI Graph Architecture, GraphRAG & Swarms Guide','Comprehensive architectural guide, technical deep dives, and production engineering reference on modern AI Graph Architecture, GraphRAG, and Multi-Agent Swarms, synthesized from Andrej Karpathy''s systems engineering thesis: "Delete everything, keep Graph."
+
+Covers the 5-Layer AI Architecture Stack (Prompt to Context Window to Harness Engineering to Autonomous Loops to Graph Engineering), solving "The Context Crash" and catastrophic forgetting (AI amnesia), compiling repositories into persistent queryable wikis, the Graphify deterministic Tree-sitter AST engine (71.5x token cost reduction across 19 languages), Dual Graphs for agent swarms (Commit DAG for task lineage and execution provenance decoupled from Knowledge Graph for domain facts and citations), the 4-stage agent swarm maturity path, pragmatic trade-offs between GraphRAG and Vector RAG (15% to 30% multi-hop accuracy boost vs 5x compute overhead), and Cognition''s golden rule (fan out for broad research, stay single-threaded for shared codebase writing).
+
+Reference Lecture: https://www.youtube.com/watch?v=Rlk0GLRWwTI
+Andrej Karpathy Portal: https://karpathy.ai/
+Microsoft Research GraphRAG: https://microsoft.github.io/graphrag/
+Neo4j Generative AI: https://neo4j.com/generative-ai/
+Explore Video Tracks: https://nubenetes.com/videos/
+Platform Engineering Portal: https://nubenetes.com/','2026',5,'This architectural guide details the five-layer AI system stack, addressing context window degradation and catastrophic forgetting through persistent knowledge graphs and deterministic Tree-sitter AST compilation. It establishes a dual-graph execution framework that decouples task lineage commit DAGs from domain knowledge bases to coordinate deterministic multi-agent swarms. For 2026 cloud-native platforms, this pattern bridges the gap between raw LLM harness engineering and autonomous, multi-hop distributed code refactoring while optimizing retrieval compute costs.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794435648,0,'2026-11-11T23:20:48.826643+01:00','2026-11-11T23:20:48.826643+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
 COMMIT;
