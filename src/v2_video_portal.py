@@ -6,6 +6,7 @@ INVENTORY_PATH = "data/inventory.yaml"
 VIDEOS_DIR = "v2-docs/videos"
 
 PLAYLIST_DATES = {
+    "PLE9XanQNEMZs": "Nov 2026",
     "PLXDBfnEd7RX8": "Nov 2026",
     "PLF-sI1t2ehbs": "Nov 2026",
     "PLIHPlQVunY48": "Nov 2026",
@@ -331,7 +332,7 @@ def generate_v2_videos():
         "",
         "## Official Nubenetes NotebookLM Video Playlists",
         "",
-        '!!! info "37 Curated Architectural Tracks · Verified through November 2026"',
+        '!!! info "38 Curated Architectural Tracks · Verified through November 2026"',
         '    Explore our modular, AI-synthesized architectural masterclasses and deep dives on the official [**@nubenetes YouTube Channel**](https://www.youtube.com/@nubenetes/playlists). Organized across five core engineering domains, each track is continuously updated to reflect 2026 enterprise standards.',
         "",
         "### 🤖 Enterprise AI, Agents and Control Planes",
@@ -341,6 +342,7 @@ def generate_v2_videos():
         "| **Microsoft Foundry Architecture and Migration** | [Nubenetes Microsoft Foundry: Enterprise AI Architecture and Migration Guide](https://www.youtube.com/playlist?list=PLIHPlQVunY48) | `Nov 2026` | Comprehensive architectural guide, technical reference, and migration blueprint for Microsoft Foundry: consolidated resource architecture (Microsoft.CognitiveServices/accounts), project workspace isolation, azure-ai-projects SDK (AIProjectClient), Foundry Agent Service, Responses API, automated quality/safety evaluations, and FinOps governance. |",
         "| **Microsoft Foundry (Español)** | [Nubenetes Microsoft Foundry: Arquitectura y Migración Empresarial de IA](https://www.youtube.com/playlist?list=PLCvH88mzNLo8) | `Nov 2026` | Guía arquitectónica completa y metodología de migración empresarial para Microsoft Foundry en Microsoft Azure (Español): unificación del plano de control bajo Microsoft.CognitiveServices/accounts, proyectos aislados, SDK azure-ai-projects, evaluación de modelos y seguridad con Azure Private Link. [SPANISH CONTENT] |",
         "| **Enterprise AI Platforms** | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | `Nov 2026` | Architectural reference comparison matrix and production engineering deep-dive on Enterprise AI Platforms: Managed Cloud AI Control Planes (Azure AI Foundry, Bedrock AgentCore, Vertex AI) vs Turnkey Kubernetes (Red Hat OpenShift AI, watsonx, llm-d, vLLM, Kueue, KAITO), zero-trust Agent IAM (Entra Agent ID), and the 2026 Hybrid Reference Architecture. |",
+        "| **AI Graph Architecture and Swarms** | [Nubenetes Andrej Karpathy: AI Graph Architecture, GraphRAG & Swarms Guide](https://www.youtube.com/playlist?list=PLE9XanQNEMZs) | `Nov 2026` | Comprehensive architectural guide, technical deep dives, and production reference on AI Graph Architecture, GraphRAG, and Multi-Agent Swarms synthesized from Andrej Karpathy's thesis (\"Delete everything, keep Graph\"): 5-layer AI architecture stack, compiled knowledge wikis solving AI amnesia, Graphify deterministic Tree-sitter AST parsing (71.5x token reduction), Dual Graphs (Commit DAG vs Knowledge Graph) for multi-agent coordination, GraphRAG vs Vector RAG trade-offs (15%–30% accuracy boost vs 5x compute overhead), and Cognition's golden rule. |",
         "| **AI Agents and Radar** | [Nubenetes Awesome Kubernetes and Cloud Native Guide](https://www.youtube.com/playlist?list=PLH1sVn4CEfPY) | `Sep 2026` | Curated cloud-native architectural guides, 2026 technology radars, Model Context Protocol (MCP) AI agents, and production Kubernetes blueprints. |",
         "",
         "### ☁️ Container Strategy and Kubernetes Platforms",
@@ -399,6 +401,7 @@ def generate_v2_videos():
 
     # Dynamically append any newly discovered @nubenetes playlists from inventory
     known_playlist_ids = {
+        "PLE9XanQNEMZs",
         "PLXDBfnEd7RX8",
         "PLF-sI1t2ehbs",
         "PLIHPlQVunY48", "PLCvH88mzNLo8",
