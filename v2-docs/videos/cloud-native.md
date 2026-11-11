@@ -402,6 +402,21 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 How OpenShift 5 Modernizes Cloud Native Development: Dev Spaces & Tooling"
+    !!! info "Architectural Summary"
+        This architectural overview examines how Red Hat OpenShift 5 accelerates developer inner-loop workflows through native integration with Kubernetes 1.36 and CRI-O 1.36 primitives. It showcases how cloud-native developer workspaces in OpenShift Dev Spaces eliminate environment parity issues while maintaining continuous compliance and platform-level security guardrails.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="ioMFzCbMfz8" data-video-url="https://www.youtube.com/embed/ioMFzCbMfz8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ioMFzCbMfz8/hqdefault.jpg" alt="How OpenShift 5 Modernizes Cloud Native Development: Dev Spaces & Tooling" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ??? note "🎬 Fran Heeran, Red Hat | Red Hat Summit 2026"
     !!! info "Architectural Summary"
         In this Red Hat Summit 2026 interview, Fran Heeran details how telecommunications providers are shifting from heavily siloed infrastructure to unified cloud-native architectures. By leveraging OpenShift Virtualization, telcos can centrally manage both legacy virtual machines and modern containers across core networks and the far edge, accelerating deployments up to 50%. This unified architecture additionally enables sovereign cloud offerings and closed-loop network automation by feeding AI outputs directly into Ansible-driven remediation workflows.
@@ -689,6 +704,57 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="rMlEo2dowJg" data-video-url="https://www.youtube.com/embed/rMlEo2dowJg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/rMlEo2dowJg/hqdefault.jpg" alt="How Knative Panic Mode Scales HTTP Traffic: Concurrency & Latency Defense [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## OpenShift Virtualization
+
+??? note "🎬 How Change Block Tracking (CBT) Speeds Up OpenShift Virtualization 5 Backups [Short]"
+    !!! info "Architectural Summary"
+        Change Block Tracking (QEMU CBT) in OpenShift Virtualization 5 introduces storage-agnostic differential backups that track and ingest only modified disk sectors between snapshot intervals. By removing the requirement to scan entire virtual disk images, this architectural enhancement drastically slashes backup windows, minimizes storage I/O, and prevents VM performance degradation across enterprise Kubernetes virtualization workloads.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="N3u6VpDj6Bw" data-video-url="https://www.youtube.com/embed/N3u6VpDj6Bw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/N3u6VpDj6Bw/hqdefault.jpg" alt="How Change Block Tracking (CBT) Speeds Up OpenShift Virtualization 5 Backups [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## OpenShift Kubernetes
+
+??? note "🎬 Three OpenShift 5 Breaking Changes to Address Before Upgrading"
+    !!! info "Architectural Summary"
+        This video details the critical architectural pre-requisites and breaking changes to audit when preparing OpenShift 4.22 clusters for the OpenShift 5 upgrade path. It covers upstream Kubernetes 1.36 API removals, Operator Lifecycle Manager CRD schema migrations, and automated pre-upgrade payload validation to minimize blast radius.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="-YbJ4TgLUg4" data-video-url="https://www.youtube.com/embed/-YbJ4TgLUg4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/-YbJ4TgLUg4/hqdefault.jpg" alt="Three OpenShift 5 Breaking Changes to Address Before Upgrading" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## OpenShift and Telco Edge
+
+??? note "🎬 How O-Cloud Manager Deploys Telco & Edge Clusters on OpenShift 5 [Short]"
+    !!! info "Architectural Summary"
+        Red Hat O-Cloud Manager on OpenShift 5 delivers centralized orchestration and Zero-Touch Provisioning (ZTP) for carrier-grade O-RAN infrastructure across thousands of distributed far-edge nodes. By integrating O-RAN compliant Infrastructure Management Services (IMS) and Deployment Management Services (DMS), the platform guarantees autonomous operation and local survivability during backhaul disconnections. This approach establishes a resilient, scalable architecture for executing mission-critical telecommunication workloads at the cloud edge.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="H4U7khZdAoI" data-video-url="https://www.youtube.com/embed/H4U7khZdAoI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/H4U7khZdAoI/hqdefault.jpg" alt="How O-Cloud Manager Deploys Telco & Edge Clusters on OpenShift 5 [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>

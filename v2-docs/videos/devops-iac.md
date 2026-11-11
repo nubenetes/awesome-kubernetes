@@ -680,6 +680,40 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Red Hat OpenShift
+
+??? note "🎬 How OpenShift 5 Secures Sovereign Clouds: Air-Gapped & Zero-Trust Governance"
+    !!! info "Architectural Summary"
+        This architectural brief outlines how Red Hat OpenShift 5 provides robust sovereign cloud governance through automated air-gapped installation profiles, image mirroring, and zero-trust security boundaries. In a 2026 cloud-native landscape shaped by strict geopolitical data residency and regulatory mandates, it demonstrates how organizations can enforce crypto-compliant operating system controls and strict operational isolation without sacrificing modern container orchestration workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="u07rBU5fYTE" data-video-url="https://www.youtube.com/embed/u07rBU5fYTE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/u07rBU5fYTE/hqdefault.jpg" alt="How OpenShift 5 Secures Sovereign Clouds: Air-Gapped & Zero-Trust Governance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Confidential Containers CoCo OpenShift
+
+??? note "🎬 How Confidential Containers Protect AI Models in Red Hat OpenShift 5 [Short]"
+    !!! info "Architectural Summary"
+        This architecture short examines how Confidential Containers (CoCo) in Red Hat OpenShift leverage hardware-enforced Trusted Execution Environments (TEEs) to protect proprietary LLM weights, training data, and inference prompts from memory dumps and hypervisor-level compromises. In a modern cloud-native paradigm, this enables zero-trust multi-tenant AI deployments on untrusted public cloud and shared bare-metal infrastructure, ensuring full data confidentiality even against privileged cluster administrators.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="MX505_pRGD0" data-video-url="https://www.youtube.com/embed/MX505_pRGD0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/MX505_pRGD0/hqdefault.jpg" alt="How Confidential Containers Protect AI Models in Red Hat OpenShift 5 [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"

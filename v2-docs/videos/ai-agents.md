@@ -526,6 +526,106 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 establishes a modern enterprise platform foundation built on Kubernetes 1.36 and CRI-O, delivering seamless, non-disruptive in-place upgrades from OpenShift 4.22 alongside storage-agnostic Change Block Tracking (CBT) in OpenShift Virtualization 5. Critically, it native-integrates Model Context Protocol (MCP) server and gateway infrastructure alongside OpenShift Lightspeed to operationalize supervised and autonomous agentic AI workflows for automated incident triage and SRE remediation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="cn_lMyaAWk4" data-video-url="https://www.youtube.com/embed/cn_lMyaAWk4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/cn_lMyaAWk4/hqdefault.jpg" alt="The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How OpenShift 5 Simplifies Cluster Upgrades: In-Place Update from 4.22 [Short]"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 eliminates traditional major-version migration friction by introducing non-disruptive, in-place upgrade pathways directly from OpenShift 4.22 treated like minor payload updates. The architecture incorporates pre-flight blast radius and readiness verification through OpenShift Lightspeed AI agents, backed by a predictable 3-year major release cadence and 24-month support window. This significantly reduces Day-2 operational risk and migration overhead across enterprise Kubernetes fleets.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="sYAEKwUDqJY" data-video-url="https://www.youtube.com/embed/sYAEKwUDqJY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/sYAEKwUDqJY/hqdefault.jpg" alt="How OpenShift 5 Simplifies Cluster Upgrades: In-Place Update from 4.22 [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift Lightspeed introduces agentic AI diagnostic workflows into Kubernetes cluster operations, fundamentally transforming incident response and reducing Mean Time to Resolution (MTTR). Operating across supervised and autonomous modes, the agent correlates telemetry, logs, and events to diagnose complex system failures while enforcing human-in-the-loop governance prior to remediation. This capability represents the vanguard of 2026 AIOps, shifting platform engineering from manual alert triage toward resilient, AI-assisted cluster remediation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Xk6zkGfV34s" data-video-url="https://www.youtube.com/embed/Xk6zkGfV34s" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Xk6zkGfV34s/hqdefault.jpg" alt="How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How OpenShift 5 Secures AI Workloads: Model Context Protocol & Zero-Trust [Short]"
+    !!! info "Architectural Summary"
+        This architectural overview demonstrates how Red Hat OpenShift secures autonomous AI agents and generative AI workloads utilizing the Model Context Protocol (MCP) server and gateway via Red Hat Connectivity Link. It establishes a policy-governed framework enforcing zero-trust identity, audit logging, and strict authorization on all agent interactions with Kubernetes cluster APIs. This approach provides an enterprise-grade standard for governing agentic AI access across modern cloud-native platforms.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="-1xhWXGE82w" data-video-url="https://www.youtube.com/embed/-1xhWXGE82w" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/-1xhWXGE82w/hqdefault.jpg" alt="How OpenShift 5 Secures AI Workloads: Model Context Protocol & Zero-Trust [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 introduces seamless in-place major version upgrades paired with Lightspeed AI agentic pre-flight checks to map CRD/API conflicts before maintenance windows. OpenShift Virtualization 5 enhances platform convergence with QEMU Change Block Tracking for differential backups while utilizing Confidential Containers (CoCo) to secure enterprise AI model memory on untrusted infrastructure.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="4-oLXvCaZiM" data-video-url="https://www.youtube.com/embed/4-oLXvCaZiM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/4-oLXvCaZiM/hqdefault.jpg" alt="Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 introduces a modernized enterprise hybrid cloud platform aligned with Kubernetes 1.36, featuring non-disruptive in-place upgrades from 4.22 and an enterprise 3-year release cadence. It integrates Agentic AI platform operations via OpenShift Lightspeed and the Model Context Protocol (MCP) gateway, alongside OpenShift Virtualization 5 enhancements like QEMU Change Block Tracking and Confidential Containers (CoCo). This architecture provides a resilient, AI-governed foundation for unified management of virtualized workloads, containerized applications, and hardware-secured AI models.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="1bs9TiAjWO8" data-video-url="https://www.youtube.com/embed/1bs9TiAjWO8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/1bs9TiAjWO8/hqdefault.jpg" alt="Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 ⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide"
+    !!! info "Architectural Summary"
+        Red Hat OpenShift 5 introduces a modernized enterprise platform built on Kubernetes 1.36, featuring non-disruptive in-place upgrades from 4.22 and storage-agnostic QEMU Change Block Tracking for Virtualization 5. It integrates agentic platform operations via OpenShift Lightspeed alongside native Model Context Protocol (MCP) server and gateway orchestration for enterprise AI workflows. This architectural guide establishes a 2026 operational reference for confidential workloads using hardware TEEs and zero-touch edge deployments.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLXDBfnEd7RX8" title="⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Kubernetes MLOps with AI
 
 ??? note "🎬 How the Enterprise AI Decision Matrix Works | Cloud AI vs Kubernetes"
@@ -631,6 +731,23 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="CkFIcxzEnVw" data-video-url="https://www.youtube.com/embed/CkFIcxzEnVw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/CkFIcxzEnVw/hqdefault.jpg" alt="The Great Foundry Shift: Enterprise AI Operating Model & FinOps Governance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Observability SRE AI Agents
+
+??? note "🎬 How OpenShift Lightspeed Correlates Observability: Conversational Perses Dashboards [Short]"
+    !!! info "Architectural Summary"
+        This architectural short demonstrates how OpenShift Lightspeed uses conversational generative AI to produce production-grade Perses dashboards directly from natural language prompts, bypassing the need for manual PromQL engineering. By dynamically correlating multi-tenant metrics, cluster logs, and distributed trace events in real time, it eliminates dedicated dashboard maintenance for Day 2 operations. In a 2026 enterprise cloud-native paradigm, this pattern transitions telemetry visualization into an on-demand, agent-driven workflow that accelerates incident triage and system observability.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="W-tQ_AWBfo0" data-video-url="https://www.youtube.com/embed/W-tQ_AWBfo0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/W-tQ_AWBfo0/hqdefault.jpg" alt="How OpenShift Lightspeed Correlates Observability: Conversational Perses Dashboards [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
