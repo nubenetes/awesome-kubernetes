@@ -981,6 +981,51 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 How AWS Emulator Proves Its Accuracy (Fidelity & Issue Logs) [Short]"
+    !!! info "Architectural Summary"
+        AWS Emulator provides transparent API parity verification for AI-generated cloud emulation by publishing automated per-release Fidelity Reports alongside live directories tracking both unresolved functional gaps and resolved behaviors. In a 2026 cloud-native context, this structured accountability enables engineers to reliably shift-left integration testing and CI/CD validation locally without unexpected API drift or cloud provisioning overhead.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="j8Y2YjNH_Hg" data-video-url="https://www.youtube.com/embed/j8Y2YjNH_Hg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/j8Y2YjNH_Hg/hqdefault.jpg" alt="How AWS Emulator Proves Its Accuracy (Fidelity & Issue Logs) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AI Agents Set Up AWS Emulator (Agent Toolkit Skill) [Short]"
+    !!! info "Architectural Summary"
+        This short demonstrates equipping AI coding agents like Claude Code, Kiro, and Cursor with an offline AWS sandbox via the AWS CLI Agent Toolkit skill (`aws-emulator`). By provisioning a local, high-fidelity mock environment, autonomous agents can independently start the emulator, configure local SDK endpoint overrides, trap client-side validation errors, and iterate rapidly without incurring AWS cloud spend or latency.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="cAxPdJSab6A" data-video-url="https://www.youtube.com/embed/cAxPdJSab6A" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/cAxPdJSab6A/hqdefault.jpg" alt="How AI Agents Set Up AWS Emulator (Agent Toolkit Skill) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone"
+    !!! info "Architectural Summary"
+        This architectural breakdown explores Amazon's open-source `aws/aws-emulator`, a local AWS cloud clone featuring 436 Rust service crates generated and maintained autonomously by AI agent loops without human PRs. The architecture leverages Smithy models, an in-memory state engine with SigV4 verification, and custom runtime thread sizing to support both standalone HTTPS and zero-socket embedded test execution. In a 2026 Cloud Native context, it provides an ultra-fast, zero-cost sandbox essential for local integration testing, CI/CD pipelines, and autonomous AI coding agents validating AWS infrastructure interactions.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="e15CNmR8oY0" data-video-url="https://www.youtube.com/embed/e15CNmR8oY0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/e15CNmR8oY0/hqdefault.jpg" alt="AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ??? note "🎬 Model Context Protocol (MCP) and AI Agents in DevOps"
     !!! info "Architectural Summary"
         This architectural playlist details how Model Context Protocol (MCP) standardizes context and tool-calling interfaces for AI agents within modern cloud-native systems. It explores the practical integration of autonomous agents into DevOps, SRE, and API automation pipelines, replacing complex, manual scripts with intent-driven workflows. By utilizing secure and scalable MCP servers, platform teams can safely delegate infrastructure, database, and testing orchestration to context-aware AI systems.
@@ -1151,6 +1196,23 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="5C7q6zeMq1w" data-video-url="https://www.youtube.com/embed/5C7q6zeMq1w" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/5C7q6zeMq1w/hqdefault.jpg" alt="2026 Medical AI Correction: Clinical Imaging Market & Strategy Deep Dive" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## IaC Terraform AI Agents
+
+??? note "🎬 Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs"
+    !!! info "Architectural Summary"
+        This architectural guide details how to integrate Amazon's open-source AWS Emulator into local workflows, Atmos, and CI/CD pipelines to validate Terraform infrastructure without live cloud credentials or third-party licensing. It explores operational workarounds for HTTP 501 control-plane fidelity gaps, endpoint redirection patterns via AWS_ENDPOINT_URL, and strategies for sandboxing ephemeral test environments. The breakdown also covers deployment optimizations—leveraging prebuilt containers over 100+ GB Rust compilation artifacts—and enabling secure local execution for AI coding agents.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="wJeUCakwZO0" data-video-url="https://www.youtube.com/embed/wJeUCakwZO0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/wJeUCakwZO0/hqdefault.jpg" alt="Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>

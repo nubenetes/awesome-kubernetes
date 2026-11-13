@@ -720204,3 +720204,612 @@ https://www.youtube.com/playlist?list=PLZOsodxc3GIM:
   technology: AWS Emulator + Terraform + CI/CD
   category: DevOps and Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/VUzdShlAC1I:
+  title: Taking Control of AWS Emulator Telemetry (4 Ways to Opt Out)
+  description: "AWS Emulator enables aggregate usage telemetry by default (zero request
+    bodies, code, or credentials). Four clean ways to turn it off: `--telemetry off`
+    (`-t off`), `export EMULATOR_TELEMETRY=off`, `~/.aws/emulator/config.toml` (`enabled
+    = false`), or `Telemetry::Off` in `aws-emulator-embedded`. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n•
+    Official Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases
+    & Fidelity: https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps,
+    Terraform & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details four mechanisms to disable default
+    telemetry within AWS Emulator, spanning CLI flags, environment variables, persistent
+    configuration files, and embedded SDK primitives. Managing telemetry egress is
+    vital for enterprise environments adhering to zero-trust, air-gapped, or strict
+    regulatory compliance baselines during local offline cloud emulation and CI/CD
+    testing. Establishing these declarative controls ensures total isolation and eliminates
+    metadata leakage across local-first development workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AWS Emulator
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/DG0yCOvNWSQ:
+  title: Why Building AWS Emulator Takes 100GB (Rust Workspace Cost) [Short]
+  description: "Compiling `aws/aws-emulator` from source demands 100+ GB of free disk
+    space for `target/` because the workspace ships 436 per-service Rust crates. Fix:
+    install prebuilt RPM/DEB packages or Docker, build one service via `cargo build
+    -p service-s3`, share `CARGO_TARGET_DIR`, or enable `sccache`. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n•
+    Official Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases
+    & Fidelity: https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps,
+    Terraform & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Compiling the open-source AWS Emulator from source creates an immense
+    disk footprint exceeding 100GB in the cargo target directory due to 400+ distinct
+    per-service Rust crates generating redundant intermediate artifacts. Platform
+    engineers can mitigate this developer workstation and CI/CD disk bottleneck by
+    consuming prebuilt RPM/DEB/Docker binaries, compiling targeted crates via `cargo
+    build -p`, sharing target directories, or leveraging distributed compiler caching
+    with `sccache`. This optimization is essential for streamlining offline cloud
+    emulation and integration testing pipelines without exhausting local compute resources.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/j8Y2YjNH_Hg:
+  title: How AWS Emulator Proves Its Accuracy (Fidelity & Issue Logs) [Short]
+  description: "How trustworthy is an AI-built AWS clone? Amazon publishes automated
+    per-release Fidelity Reports on GitHub Releases alongside live public directories:
+    `issues/things-that-do-not-work/` (6,689 tracked gaps) and `issues/things-that-now-work/`
+    (13,727 resolved behaviors). #Shorts\n\n\U0001F4DA Official Repository & Technical
+    References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n• Official
+    Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases & Fidelity:
+    https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps, Terraform
+    & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: AWS Emulator provides transparent API parity verification for AI-generated
+    cloud emulation by publishing automated per-release Fidelity Reports alongside
+    live directories tracking both unresolved functional gaps and resolved behaviors.
+    In a 2026 cloud-native context, this structured accountability enables engineers
+    to reliably shift-left integration testing and CI/CD validation locally without
+    unexpected API drift or cloud provisioning overhead.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/DAH5vQMVQDI:
+  title: How AWS Emulator Tests Code In-Process (Embedded Rust) [Short]
+  description: "Skip sockets, localhost ports, and self-signed TLS certs: the `aws-emulator-embedded`
+    Rust crate runs an isolated `InMemoryEngine` per unit test (`AwsEmulatorEmbedded::new`),
+    plugging `emulator.http_client()` and `aws_credentials_provider()` straight into
+    parallel AWS SDK clients. #Shorts\n\n\U0001F4DA Official Repository & Technical
+    References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n• Official
+    Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases & Fidelity:
+    https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps, Terraform
+    & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: The `aws-emulator-embedded` Rust crate eliminates network sockets, localhost
+    port contention, and TLS certificate overhead by executing an isolated in-memory
+    engine directly within the test process. By injecting native in-memory HTTP clients
+    and credentials providers directly into AWS SDK client instances, it enables blazing-fast,
+    hermetic, and parallel unit testing of cloud-dependent code paths. This approach
+    sets a critical benchmark for high-velocity 2026 CI/CD pipelines by removing external
+    container dependencies and flaky network emulation.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Rust
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/cAxPdJSab6A:
+  title: How AI Agents Set Up AWS Emulator (Agent Toolkit Skill) [Short]
+  description: "Give Claude Code, Kiro, or Cursor an instant offline AWS sandbox:
+    run `aws agent-toolkit add-skill --skill-name aws-emulator --region us-east-1`
+    (AWS CLI v2.35.0+) so agents can start the emulator, wire SDK endpoints, catch
+    `ValidationException`s, and iterate locally in milliseconds. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n•
+    Official Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases
+    & Fidelity: https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps,
+    Terraform & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This short demonstrates equipping AI coding agents like Claude Code,
+    Kiro, and Cursor with an offline AWS sandbox via the AWS CLI Agent Toolkit skill
+    (`aws-emulator`). By provisioning a local, high-fidelity mock environment, autonomous
+    agents can independently start the emulator, configure local SDK endpoint overrides,
+    trap client-side validation errors, and iterate rapidly without incurring AWS
+    cloud spend or latency.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/g-D2sB1gXS8:
+  title: How to Sandbox AWS Emulator in CI/CD (GitHub Actions & Atmos) [Short]
+  description: "Keep GitHub Actions, GitLab CI, and integration suites clean and fast:
+    run `aws-emulator` on isolated per-job ports, poll `/__admin/health`, cache `CARGO_TARGET_DIR`
+    / `sccache`, and disable telemetry (`EMULATOR_TELEMETRY=off`) with zero IAM role
+    or cloud account risk. #Shorts\n\n\U0001F4DA Official Repository & Technical References:\n•
+    AWS Emulator GitHub: https://github.com/aws/aws-emulator\n• Official Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n•
+    Releases & Fidelity: https://github.com/aws/aws-emulator/releases\n\n\U0001F310
+    More DevOps, Terraform & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide demonstrates how to sandbox local AWS emulation
+    inside CI/CD pipelines such as GitHub Actions, GitLab CI, and Atmos using dynamic
+    per-job port allocation and admin health check polling. By caching Rust build
+    targets with sccache and disabling telemetry, platform teams achieve deterministic,
+    sub-second integration test runs with zero cloud credential exposure or AWS billing
+    overhead.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: CI/CD + Infrastructure as Code
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/WqL87cECloU:
+  title: Validating Terraform with AWS Emulator (Endpoints & Limits) [Short]
+  description: "Want fast Terraform validation without risking real AWS bills? Wire
+    the AWS provider (`AWS_ENDPOINT_URL`, `AWS_CA_BUNDLE`, `skip_credentials_validation`)
+    or Atmos (`atmos emulator up aws -s local`) to `127.0.0.1:9297`—and watch out
+    for service-specific `501 Not Implemented` IaC control-plane gaps. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n•
+    Official Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases
+    & Fidelity: https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps,
+    Terraform & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Accelerate local Infrastructure as Code verification cycles by pointing
+    Terraform AWS provider configurations (`AWS_ENDPOINT_URL`, custom CA bundles,
+    and skipped credential validation) or Atmos tooling directly to the local AWS
+    Emulator on port 9297. This strategy completely eliminates pre-production cloud
+    spend and shortens test loops during module synthesis, while requiring platform
+    teams to manage API fidelity boundaries and `501 Not Implemented` control-plane
+    gaps. In modern cloud-native delivery pipelines, local control-plane emulation
+    enables deterministic pre-flight validation before committing changes to live
+    cloud environments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC + Terraform
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/2MNcmkj9PMk:
+  title: How AWS Emulator Fakes the Cloud (Smithy, Router & State) [Short]
+  description: "How does `aws/aws-emulator` simulate 436 AWS services in milliseconds?
+    Each `service-{name}` crate compiles wire protocols directly from AWS Smithy models,
+    mounts onto one HTTP router backed by a shared `InMemoryEngine`, validates SigV4
+    signatures, and answers gaps with `501 Not Implemented`. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n•
+    Official Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases
+    & Fidelity: https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps,
+    Terraform & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: The open-source AWS Emulator simulates hundreds of AWS services in milliseconds
+    by compiling wire protocols directly from official AWS Smithy models into modular
+    Rust service crates mounted on a single HTTP router. State is managed via a high-performance
+    in-memory engine alongside native SigV4 signature validation, returning deterministic
+    501 Not Implemented codes for unsupported API endpoints. For 2026 cloud-native
+    architectures, this enables hyper-fast local integration testing, reproducible
+    CI/CD pipelines, and cost-free validation of distributed cloud topologies without
+    live sandbox dependencies.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AWS / Rust / Cloud Emulation
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/Uzosrqiq4I8:
+  title: How to Reroute AWS Requests Locally (CLI, SDK & CA Bundle)
+  description: "Point any AWS CLI command or SDK at your local AWS Emulator (`https://127.0.0.1:9297`)
+    by exporting `AWS_ENDPOINT_URL`, `AWS_SHARED_CREDENTIALS_FILE`, `AWS_CONFIG_FILE`,
+    `AWS_CA_BUNDLE=~/.aws/emulator/9297/ca.pem`, and `AWS_EC2_METADATA_DISABLED=true`
+    so requests never hit production AWS. #Shorts\n\n\U0001F4DA Official Repository
+    & Technical References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n•
+    Official Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases
+    & Fidelity: https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps,
+    Terraform & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural tip demonstrates how to cleanly isolate local development
+    and testing from production by rerouting AWS CLI and SDK traffic to a local AWS
+    Emulator. By exporting standard environment variables—including AWS_ENDPOINT_URL,
+    custom CA certificates via AWS_CA_BUNDLE, and disabling EC2 metadata resolution—developers
+    can achieve zero-cost, hermetic shift-left integration testing without cloud provider
+    egress.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AWS CLI
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/u9rUEuuzXMI:
+  title: How to Run AWS Emulator Locally (Linux, Docker & Port 9297) [Short]
+  description: "Spin up Amazon's official AWS Emulator locally in seconds without
+    touching a real AWS account: prebuilt RPM/Debian packages on Linux (`x86_64` and
+    `aarch64`), Docker containers on macOS and Windows, and `GET /__admin/health`
+    on `https://127.0.0.1:9297`. #Shorts\n\n\U0001F4DA Official Repository & Technical
+    References:\n• AWS Emulator GitHub: https://github.com/aws/aws-emulator\n• Official
+    Docs: https://docs.aws.amazon.com/emulator/latest/userguide/\n• Releases & Fidelity:
+    https://github.com/aws/aws-emulator/releases\n\n\U0001F310 More DevOps, Terraform
+    & AWS Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Amazon's official AWS Emulator enables local multi-service cloud emulation
+    on Linux, macOS, and Windows using native packages and Docker containers without
+    requiring active AWS accounts or incurring cloud spend. By exposing local administrative
+    health checks on port 9297 (`https://127.0.0.1:9297/__admin/health`), it streamlines
+    offline testing and integration verification. This shifts cloud infrastructure
+    testing left, providing high-fidelity, deterministic environments for CI pipelines
+    and local cloud-native development.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=e15CNmR8oY0:
+  title: 'AWS Emulator: Inside Amazon''s AI-Built Local AWS Cloud Clone'
+  description: "Deep architectural breakdown of `aws/aws-emulator`, Amazon's CC0-1.0
+    open-source local AWS API emulator designed for developers and AI coding agents—spanning
+    436 generated service crates without a single line of human-authored PR code.\n\n\U0001F3AF
+    Architecture & Agent Workflow Covered:\n• Autonomous Agent Factory (`AGENTS.md`):
+    How Test Writers, Issue Finders, and Fixers continuously generate tests against
+    real AWS, catch divergences, and merge validated patches (`v1.0.345`+ velocity,
+    zero manual PRs per `CONTRIBUTING.md`).\n• Smithy Workspace & InMemoryEngine:
+    One Rust crate per AWS service under `services/service-{name}` backed by a shared
+    `vendor/engine` `InMemoryEngine`, SigV4 auth & presigned URL verification, and
+    `scaffolded.rs` returning `501 Not Implemented` for unmodeled ops.\n• Router &
+    Runtime Design (`core/router`): Chunked service mounting (`mount_chunk_NN`) with
+    explicit 64 MB router / 16 MB worker thread stacks instead of `#[tokio::main]`
+    to survive massive workspace deserializers.\n• Dual Execution Modes: Standalone
+    self-signed HTTPS server on `127.0.0.1:9297` alongside `aws-emulator-embedded`
+    for zero-socket, isolated per-test execution inside Rust test suites.\n\n\U0001F4DA
+    Official Repository, Documentation & Ecosystem References:\n• AWS Emulator GitHub
+    (CC0-1.0): https://github.com/aws/aws-emulator\n• Official User Guide: https://docs.aws.amazon.com/emulator/latest/userguide/what-is-service.html\n•
+    Pointing AWS SDKs & CLI: https://docs.aws.amazon.com/emulator/latest/userguide/point-sdk-to-emulator.html\n•
+    Embedded Mode (Rust): https://docs.aws.amazon.com/emulator/latest/userguide/getting-started-embedded.html\n•
+    AI Coding Agent Skill: https://docs.aws.amazon.com/emulator/latest/userguide/getting-started-agent.html\n•
+    Fidelity & Releases: https://github.com/aws/aws-emulator/releases\n• Atmos Emulator
+    Integration: https://atmos.tools/\n\n\U0001F310 Explore More DevOps, IaC & Cloud
+    Native Tracks:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n• Nubenetes
+    Portal: https://nubenetes.com/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown explores Amazon's open-source `aws/aws-emulator`,
+    a local AWS cloud clone featuring 436 Rust service crates generated and maintained
+    autonomously by AI agent loops without human PRs. The architecture leverages Smithy
+    models, an in-memory state engine with SigV4 verification, and custom runtime
+    thread sizing to support both standalone HTTPS and zero-socket embedded test execution.
+    In a 2026 Cloud Native context, it provides an ultra-fast, zero-cost sandbox essential
+    for local integration testing, CI/CD pipelines, and autonomous AI coding agents
+    validating AWS infrastructure interactions.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=wJeUCakwZO0:
+  title: 'Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs'
+  description: "Practical survival guide for running Amazon's open-source AWS Emulator
+    (github.com/aws/aws-emulator) in real-world Terraform, Atmos, and CI/CD workflows—and
+    knowing where its local in-memory emulation shines versus where control-plane
+    and IaC limits still bite.\n\n\U0001F3AF Key Topics Covered:\n• Terraform & IaC
+    Validation: Routing Terraform AWS provider calls to `https://127.0.0.1:9297` via
+    `AWS_ENDPOINT_URL`, `AWS_CA_BUNDLE`, `skip_credentials_validation`, and automating
+    spin-up/teardown with tools like Atmos (`atmos emulator up aws -s local`).\n•
+    Surviving 501 Gaps & Fidelity Limits: Navigating control-plane vs. data-plane
+    readiness using release fidelity reports (`v1.0.345`), `issues/things-that-do-not-work/`
+    (6,689 tracked gaps), and `issues/things-that-now-work/` (13,727 resolved behaviors).\n•
+    CI/CD Sandboxing Strategy: Running ephemeral per-job emulator processes on dedicated
+    ports with `/__admin/health` readiness probes, zero cloud credentials, and avoiding
+    LocalStack/SaaS license friction.\n• Build & Operational Gotchas: Using prebuilt
+    Linux RPM/DEB packages or Docker instead of hitting the 100+ GB full Rust `target/`
+    build, and managing default opt-out telemetry cleanly in CI.\n\n\U0001F4DA Official
+    Repository, Documentation & Ecosystem References:\n• AWS Emulator GitHub (CC0-1.0):
+    https://github.com/aws/aws-emulator\n• Official User Guide: https://docs.aws.amazon.com/emulator/latest/userguide/what-is-service.html\n•
+    Pointing AWS SDKs & CLI: https://docs.aws.amazon.com/emulator/latest/userguide/point-sdk-to-emulator.html\n•
+    Embedded Mode (Rust): https://docs.aws.amazon.com/emulator/latest/userguide/getting-started-embedded.html\n•
+    AI Coding Agent Skill: https://docs.aws.amazon.com/emulator/latest/userguide/getting-started-agent.html\n•
+    Fidelity & Releases: https://github.com/aws/aws-emulator/releases\n• Atmos Emulator
+    Integration: https://atmos.tools/\n\n\U0001F310 Explore More DevOps, IaC & Cloud
+    Native Tracks:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n• Nubenetes
+    Portal: https://nubenetes.com/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural guide details how to integrate Amazon's open-source
+    AWS Emulator into local workflows, Atmos, and CI/CD pipelines to validate Terraform
+    infrastructure without live cloud credentials or third-party licensing. It explores
+    operational workarounds for HTTP 501 control-plane fidelity gaps, endpoint redirection
+    patterns via AWS_ENDPOINT_URL, and strategies for sandboxing ephemeral test environments.
+    The breakdown also covers deployment optimizations—leveraging prebuilt containers
+    over 100+ GB Rust compilation artifacts—and enabling secure local execution for
+    AI coding agents.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC + Terraform + AI Agents
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794602492
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T21:41:32.273563+01:00'
+  last_ai_eval: '2026-11-13T21:41:32.273563+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
