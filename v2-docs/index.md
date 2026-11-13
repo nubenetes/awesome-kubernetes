@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20045 total resources analyzed.
-    - **V2 Elite Selection**: 15938 candidates identified (79.51% density ratio).
-    - **AI Enrichment Coverage**: 15938 / 15938 (100.0%)
+    - **V1 Base Inventory**: 20058 total resources analyzed.
+    - **V2 Elite Selection**: 15951 candidates identified (79.52% density ratio).
+    - **AI Enrichment Coverage**: 15951 / 15951 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -112,9 +112,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLXDBfnEd7RX8">Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide</a></div>
-  <div class="trending-card__meta">2026-11-11 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Delivers the comprehensive reference guide for OpenShift 5 on Kubernetes 1.36, highlighting frictionless in-place major upgrades and enterprise virtualization.</div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLPVDu1Q58BQM">Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide</a></div>
+  <div class="trending-card__meta">2026-11-12 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Delivers an essential blueprint for building self-hosted bare-metal GPU cloud infrastructure using NVIDIA Kubernetes Engine.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>

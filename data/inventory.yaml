@@ -720227,13 +720227,9 @@ https://www.youtube.com/shorts/VUzdShlAC1I:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: AWS Emulator
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720251,6 +720247,11 @@ https://www.youtube.com/shorts/VUzdShlAC1I:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AWS Emulator
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/DG0yCOvNWSQ:
   title: Why Building AWS Emulator Takes 100GB (Rust Workspace Cost) [Short]
@@ -720276,13 +720277,9 @@ https://www.youtube.com/shorts/DG0yCOvNWSQ:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720300,6 +720297,11 @@ https://www.youtube.com/shorts/DG0yCOvNWSQ:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/j8Y2YjNH_Hg:
   title: How AWS Emulator Proves Its Accuracy (Fidelity & Issue Logs) [Short]
@@ -720323,13 +720325,9 @@ https://www.youtube.com/shorts/j8Y2YjNH_Hg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720347,6 +720345,11 @@ https://www.youtube.com/shorts/j8Y2YjNH_Hg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/DAH5vQMVQDI:
   title: How AWS Emulator Tests Code In-Process (Embedded Rust) [Short]
@@ -720371,13 +720374,9 @@ https://www.youtube.com/shorts/DAH5vQMVQDI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Rust
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720395,6 +720394,11 @@ https://www.youtube.com/shorts/DAH5vQMVQDI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Rust
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/cAxPdJSab6A:
   title: How AI Agents Set Up AWS Emulator (Agent Toolkit Skill) [Short]
@@ -720418,13 +720422,9 @@ https://www.youtube.com/shorts/cAxPdJSab6A:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720442,6 +720442,11 @@ https://www.youtube.com/shorts/cAxPdJSab6A:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/g-D2sB1gXS8:
   title: How to Sandbox AWS Emulator in CI/CD (GitHub Actions & Atmos) [Short]
@@ -720464,13 +720469,9 @@ https://www.youtube.com/shorts/g-D2sB1gXS8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: CI/CD + Infrastructure as Code
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720488,6 +720489,11 @@ https://www.youtube.com/shorts/g-D2sB1gXS8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: CI/CD + Infrastructure as Code
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/WqL87cECloU:
   title: Validating Terraform with AWS Emulator (Endpoints & Limits) [Short]
@@ -720514,13 +720520,9 @@ https://www.youtube.com/shorts/WqL87cECloU:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: IaC + Terraform
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720538,6 +720540,11 @@ https://www.youtube.com/shorts/WqL87cECloU:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC + Terraform
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/2MNcmkj9PMk:
   title: How AWS Emulator Fakes the Cloud (Smithy, Router & State) [Short]
@@ -720563,13 +720570,9 @@ https://www.youtube.com/shorts/2MNcmkj9PMk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: AWS / Rust / Cloud Emulation
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720587,6 +720590,11 @@ https://www.youtube.com/shorts/2MNcmkj9PMk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AWS / Rust / Cloud Emulation
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Uzosrqiq4I8:
   title: How to Reroute AWS Requests Locally (CLI, SDK & CA Bundle)
@@ -720610,13 +720618,9 @@ https://www.youtube.com/shorts/Uzosrqiq4I8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: AWS CLI
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720634,6 +720638,11 @@ https://www.youtube.com/shorts/Uzosrqiq4I8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AWS CLI
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/u9rUEuuzXMI:
   title: How to Run AWS Emulator Locally (Linux, Docker & Port 9297) [Short]
@@ -720658,13 +720667,9 @@ https://www.youtube.com/shorts/u9rUEuuzXMI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720682,6 +720687,11 @@ https://www.youtube.com/shorts/u9rUEuuzXMI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=e15CNmR8oY0:
   title: 'AWS Emulator: Inside Amazon''s AI-Built Local AWS Cloud Clone'
@@ -720723,13 +720733,9 @@ https://www.youtube.com/watch?v=e15CNmR8oY0:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720747,6 +720753,11 @@ https://www.youtube.com/watch?v=e15CNmR8oY0:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=wJeUCakwZO0:
   title: 'Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs'
@@ -720788,13 +720799,9 @@ https://www.youtube.com/watch?v=wJeUCakwZO0:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: IaC + Terraform + AI Agents
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794602492
   needs_ai_refresh: false
@@ -720812,4 +720819,9 @@ https://www.youtube.com/watch?v=wJeUCakwZO0:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC + Terraform + AI Agents
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
