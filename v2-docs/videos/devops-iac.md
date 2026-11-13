@@ -714,6 +714,23 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Kubernetes SPIFFE SPIRE TPM
+
+??? note "🎬 How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]"
+    !!! info "Architectural Summary"
+        NVIDIA Kubernetes Engine (NVKE) establishes a hardware-rooted zero-trust architecture for bare-metal GPU clusters by combining TPM-based node attestation via SPIFFE/SPIRE with encrypted mTLS transport before granting cluster join credentials. It enforces multi-tenant cluster isolation using dedicated control planes, per-cluster etcd encryption at rest, fleet OIDC integration, and verifiable NVKR SBOMs. This design serves as a essential blueprint for securing high-performance AI/ML infrastructure and bare-metal GPU fleets in modern cloud-native environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="SO6i_-fUero" data-video-url="https://www.youtube.com/embed/SO6i_-fUero" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/SO6i_-fUero/hqdefault.jpg" alt="How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"

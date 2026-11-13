@@ -22680,4 +22680,225 @@ INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLGtiisOtF
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLPVDu1Q58BQM','Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide','Architectural masterclass and engineering deep dives on NVIDIA Kubernetes Engine (NVKE) for self-hosting bare-metal GPU clouds.','2026',5,'Architectural deep dives and production engineering guide on NVIDIA Kubernetes Engine (NVKE) for building self-hosted bare-metal GPU cloud infrastructure. Covers the nvkectl kind-to-management-to-tenant cluster factory lifecycle on Kubernetes 1.36.3 and Ubuntu 26.04/24.04 LTS, the 13-module Go 1.27.4 workspace, PostgreSQL workflow_outbox with Temporal orchestration, CAPI v1.13.6 and CAPNICo v0.1.0 bare-metal provisioning, nvke-agent gRPC port 15005, TPM and SPIFFE/SPIRE 1.14.1 workload identity, OVN-Kubernetes 2.4.2 networking, and the NVKR/AICR/CRE/NVSentinel DSX OS stack.','English','Video','Advanced',0,'online','automatic',NULL,100.0,1794512600,0,'2026-11-12T20:00:00.000000+01:00','2026-11-12T20:00:00.000000+01:00','Nubenetes','spain','["Cloud Native", "Container Strategy", "Bare-Metal GPU Kubernetes"]','["[KUBERNETES]", "[NVIDIA]", "[GPU]", "[BARE-METAL]", "[GUIDE]"]','["docs/index.md"]','["cloud-native.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Bare-Metal GPU Kubernetes + NVIDIA DSX OS", "category": "Container Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLEy77ddIvsH4','Nubenetes Medical Imaging AI: Clinical Ecosystem & Strategy (2026)','Architectural and strategic analysis of the 2026 medical imaging AI ecosystem, radiology orchestration platforms, biomarkers, and clinical governance.','2026',5,'Strategic and architectural guide to the 2026 medical imaging AI ecosystem following the post-hype clinical correction. Examines hospital radiology AI orchestration gateways (Incepto Medical), quantitative imaging biomarkers and radiomics (Quibim), non-contrast CT acute stroke triage (Methinks AI), and dermatology lesion screening (Legit.Health), alongside post-market model drift ("algorithm zombies"), MLOps continuous monitoring, EU MDR, EU AI Act compliance, and federated clinical data spaces such as EUCAIM.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599000,0,'2026-11-13T18:00:00.000000+01:00','2026-11-13T18:00:00.000000+01:00','Nubenetes','spain','["Architecture and Cloud Strategy", "AI and Future Operations", "Clinical AI Governance"]','["[AI]", "[HEALTHCARE]", "[GOVERNANCE]", "[MLOPS]", "[GUIDE]"]','["docs/ai.md"]','["ai-agents.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Clinical AI + MLOps Governance", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLPshE-mkC590','Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)','Análisis estratégicos en español sobre el ecosistema de la inteligencia artificial en imagen médica, regulación sanitaria y gobernanza clínica.','2026',5,'Análisis estratégicos en español sobre el ecosistema de la inteligencia artificial en imagen médica tras la corrección clínica de 2026 y un crecimiento del 34,2% anual en España [SPANISH CONTENT]. Explora plataformas de orquestación radiológica hospitalaria (Incepto Medical), biomarcadores cuantitativos de imagen (Quibim), triaje urgente de ictus sin contraste (Methinks AI) y dermatología digital (Legit.Health), así como el fenómeno de los "algoritmos zombis", la vigilancia poscomercialización, la contratación pública hospitalaria y el cumplimiento CE, FDA y EU AI Act.','Spanish','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599000,0,'2026-11-13T18:30:00.000000+01:00','2026-11-13T18:30:00.000000+01:00','Nubenetes','spain','["Architecture and Cloud Strategy", "AI and Future Operations", "Clinical AI Governance"]','["[AI]", "[SPANISH]", "[HEALTHCARE]", "[GOVERNANCE]", "[GUIDE]"]','["docs/ai.md"]','["ai-agents.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Clinical AI + MLOps Governance", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/-0n4ZfMxLQM','How to Measure AI Agent Skill Lift & pass@k in Sandboxed Runs [Short]','Guesswork doesn''t cut it for agent engineering. SkillEvaluator Tier 3 runs paired with-skill vs. baseline trials inside Harbor sandboxes (`codex`, `claude-code`, `opencode`) to compute signed Skill Lift and `pass@k` across Security, Correctness, Discoverability, Effectiveness, and Efficiency. #Shorts
+
+📚 Official Repository & Technical References:
+• NVIDIA SkillEvaluator GitHub: https://github.com/NVIDIA/SkillEvaluator
+• Official Docs: https://docs.nvidia.com/skills/skillevaluator/
+• Research Paper (arXiv:2608.20614): https://arxiv.org/abs/2608.20614
+• Agent Skills Specification: https://agentskills.io/
+
+🌐 More AI Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'This video outlines quantitative evaluation methodologies for AI agents using NVIDIA SkillEvaluator within isolated Harbor sandboxes across environments like Codex and Claude Code. By running paired trials comparing skill-augmented models against baseline runs, engineering teams compute empirical metrics such as signed Skill Lift and pass@k across security, correctness, discoverability, and efficiency. This testing methodology establishes essential validation and regression gating required before operationalizing autonomous agents into cloud-native engineering workflows.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/GE7NTMJdd20','How SkillEvaluator Detects Overlapping & Conflicting Agent Instructions [Short]','Bloat and overlapping rules across `SKILL.md` files confuse coding agents and waste context tokens. Here is how SkillEvaluator Tier 2 (`context-optimization-check` and `similarity-check`) clusters overlapping sections via embeddings + LLM verdicts—while `tier3 interact` measures multi-skill interaction effects cleanly. #Shorts
+
+📚 Official Repository & Technical References:
+• NVIDIA SkillEvaluator GitHub: https://github.com/NVIDIA/SkillEvaluator
+• Official Docs: https://docs.nvidia.com/skills/skillevaluator/
+• Research Paper (arXiv:2608.20614): https://arxiv.org/abs/2608.20614
+• Agent Skills Specification: https://agentskills.io/
+
+🌐 More AI Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'This architectural walkthrough details how NVIDIA SkillEvaluator eliminates context bloat and instruction conflicts across multi-agent `SKILL.md` rule sets using Tier 2 embedding clustering combined with LLM-as-a-judge verdicts. It highlights how Tier 3 interaction testing measures multi-skill operational interference to preserve context windows and prevent behavioral drift in autonomous coding agents. This provides essential guardrails for enterprise DevOps and SRE teams operationalizing standardized agentic workflows at scale.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/utYcuHPT1YY','How SkillEvaluator Tier 1 Secures AI Agents (SkillSpector & PII) [Short]','Before running an agent skill in production, Tier 1 (`skillevaluator validate --tiers 1`) gates schemas, Python AST scripts (`lint-scripts`), Unicode smuggling, PII/secrets (`pii-scan` + Gitleaks), Semgrep, and SkillSpector security analysis—deterministically and without requiring an LLM API key. #Shorts
+
+📚 Official Repository & Technical References:
+• NVIDIA SkillEvaluator GitHub: https://github.com/NVIDIA/SkillEvaluator
+• Official Docs: https://docs.nvidia.com/skills/skillevaluator/
+• Research Paper (arXiv:2608.20614): https://arxiv.org/abs/2608.20614
+• Agent Skills Specification: https://agentskills.io/
+
+🌐 More AI Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'NVIDIA SkillEvaluator Tier 1 establishes a deterministic, offline security gate for AI agent skills prior to production deployment, eliminating the need for runtime LLM API calls. It combines Python AST linting, Unicode smuggling detection, secret/PII scanning via Gitleaks, and static analysis with Semgrep and SkillSpector to enforce strict supply chain security and compliance across agentic execution environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "Security and Compliance", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/JDqpQOK6zjc','How NVIDIA Evaluates AI Agent Skills: Tier 1-3 Pipeline Explained [Short]','How do you prove an AI agent skill (`SKILL.md` + scripts/references) actually improves agent behavior instead of breaking security or burning context? A 83-second overview of NVIDIA SkillEvaluator''s 3-tier pipeline: Tier 1 deterministic security/quality gates, Tier 2 embedding deduplication, and Tier 3 live Harbor sandboxed A/B runs. #Shorts
+
+📚 Official Repository & Technical References:
+• NVIDIA SkillEvaluator GitHub: https://github.com/NVIDIA/SkillEvaluator
+• Official Docs: https://docs.nvidia.com/skills/skillevaluator/
+• Research Paper (arXiv:2608.20614): https://arxiv.org/abs/2608.20614
+• Agent Skills Specification: https://agentskills.io/
+
+🌐 More AI Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'NVIDIA SkillEvaluator implements an automated three-tier validation pipeline to qualify modular AI agent skills before deployment into production registries. The architecture sequentially enforces Tier 1 static security and deterministic schema gates, Tier 2 vector embedding deduplication to eliminate context bloat, and Tier 3 isolated sandboxed A/B execution runs to empirically benchmark agentic performance gains. This systematic evaluation pattern provides an indispensable CI/CD safety harness for scalable, multi-agent cloud-native operations in 2026.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=DVWkJ-5Z_zY','NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security Guide','Complete technical walkthrough of NVIDIA SkillEvaluator (Apache 2.0), the three-tier validation, deduplication, and sandboxed benchmark suite for Agent Skills (agentskills.io) inside the NVIDIA Verified Skills pipeline.
+
+🎯 Three-Tier Architecture Covered:
+• Tier 1 — Deterministic Static & Security Gates (`skillevaluator tier1` / `quality-check` / `security-scan` / `pii-scan`): Validates schema, weighted static quality scores (e.g., bundled `text-analyzer` scoring 84.5/100 B), Python AST script linting (`lint-scripts`), Unicode smuggling, secrets/PII, license checks, SkillSpector, Gitleaks, and Semgrep—plus optional 9-criterion `--llm` / `--llm-verify` rubric review.
+• Tier 2 — Semantic Deduplication & Overlap Detection (`skillevaluator tier2` / `context-optimization-check` / `similarity-check`): Uses embedding cosine similarity + Union-Find clustering (0.80+ intra-skill) with Chat-LLM verification (`DUPLICATE`, `INTENTIONAL_DETAIL`, `RELATED_BUT_DISTINCT`) and catalog-wide similarity/overlap checks (`EXACT_DUPLICATE` 0.95+, `HIGH_SIMILARITY` 0.90+).
+• Tier 3 — Live Sandboxed Agent Evaluation (`skillevaluator tier3` / `tier3 interact`): Runs real agents (`codex`, `claude-code`, `opencode`) in Harbor Docker/Kata/local sandboxes with vs. without a skill to quantify Skill Lift and pass@k across 5 dimensions (Security, Correctness, Discoverability, Effectiveness, Efficiency) and multi-skill interaction (`goal_accuracy`).
+• CI/CD & Onboarding: `skillevaluator ci init` (GitHub Actions / GitLab CI with SARIF, HTML, JSON, `BENCHMARK.md`), `npx skills add NVIDIA/SkillEvaluator`, and NVIDIA Build (`nv_build`) prototyping.
+
+📚 Official Repository, Paper & Documentation:
+• NVIDIA SkillEvaluator GitHub: https://github.com/NVIDIA/SkillEvaluator
+• Official Documentation: https://docs.nvidia.com/skills/skillevaluator/
+• NVIDIA Developer Blog: https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/
+• Research Paper (arXiv:2608.20614): https://arxiv.org/abs/2608.20614
+• NVIDIA Verified Skills Pipeline: https://github.com/NVIDIA/skills
+• SkillSpector Security Scanner: https://github.com/NVIDIA/SkillSpector
+• Harbor Evaluation Framework: https://github.com/harbor-framework/harbor
+• Agent Skills Specification: https://agentskills.io/
+
+🌐 Explore More AI & Cloud Native Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'NVIDIA SkillEvaluator establishes an enterprise-grade validation framework for Agent Skills, structuring verification across deterministic static security gates (Tier 1), embedding-based semantic deduplication (Tier 2), and live sandboxed agent execution (Tier 3). Utilizing isolated Docker and Kata runtime environments via Harbor, it quantifies empirical Skill Lift and pass@k across correctness, safety, and efficiency dimensions. This end-to-end pipeline integrates seamlessly into Cloud Native CI/CD systems, generating standardized SARIF reports to enforce zero-trust security and supply-chain integrity for autonomous AI agents.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "DevOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=Tvz-CxJr9nM','Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema','Radiografía estratégica de la evolución de la Inteligencia Artificial en imagen médica en España y Europa: del hype especulativo a la madurez asistencial, el rigor regulatorio (marcado CE y FDA) y la consolidación de scale-ups con impacto hospitalario medible.
+
+🎯 Puntos Clave del Ecosistema:
+• Contexto de Mercado (2025-2026): Proyección de 1.400M$ de gasto global en IA sanitaria y un crecimiento anual del 34,2% en España impulsado por rigor clínico y ROI asistencial.
+• La Amenaza del Algoritmo Zombi: Cómo evitar el deterioro silencioso de modelos estáticos en entornos hospitalarios vivos.
+• Casos Clave y Scale-ups en España y Europa: Quibim (biomarcadores de imagen), Incepto Medical (orquestación radiológica), Methinks AI (triaje urgente de ictus) y Legit.Health (dermatología clínica).
+• Contratación Pública e Interoperabilidad: Por qué los algoritmos aislados pierden frente a plataformas integradas en flujos reales.
+
+📚 Artículo de Origen y Referencias Oficiales del Ecosistema:
+• Artículo en LinkedIn Pulse: https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical (Plataforma de Orquestación IA Radiológica): https://incepto-medical.com/
+• Quibim (Biomarcadores Cuantitativos de Imagen Médica): https://quibim.ai/
+• Methinks AI (Triaje de Ictus en TC sin Contraste): https://methinks.ai/
+• Legit.Health (IA Clínica en Dermatología): https://legit.health/
+• SERAM (Sociedad Española de Radiología Médica): https://www.seram.es/
+• AEMPS (Agencia Española de Medicamentos y Productos Sanitarios): https://www.aemps.gob.es/
+• Reglamento Europeo de IA (EU AI Act): https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+• European Cancer Imaging Initiative (EUCAIM): https://cancerimage.eu/
+
+🌐 Más Series de Arquitectura e IA:
+• Catálogo de Vídeos Nubenetes: https://nubenetes.com/videos/
+• Portal Nubenetes: https://nubenetes.com/','2026',5,'Analiza la transición estratégica de la IA en imagen médica desde algoritmos aislados hacia plataformas de orquestación integradas en flujos clínicos reales e interoperables con sistemas hospitalarios (PACS/RIS). En el contexto Cloud Native de 2026, subraya la urgencia de implementar arquitecturas de MLOps robustas con observabilidad continua para prevenir el deterioro silencioso (''algoritmos zombi'') y garantizar el cumplimiento estricto del EU AI Act y certificaciones sanitarias.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=ykrlQKFAhgI','La Corrección Clínica en IA Médica: Estrategia e Imagen en España','Análisis estratégico sobre la corrección clínica en la inteligencia artificial aplicada a la imagen médica en 2026: por qué el mercado abandona los prototipos aislados para exigir integración hospitalaria real, validación continua frente a la deriva de datos y cumplimiento regulatorio europeo.
+
+🎯 Puntos Clave del Análisis:
+• Del Hype a la Práctica Clínica: Integración en flujos PACS/RIS, retorno clínico medible y plataformas de orquestación hospitalaria.
+• Algoritmos Zombis y Deriva de Modelos: Riesgos clínicos y de responsabilidad cuando los modelos estáticos siguen operando tras cambios de escáner o población.
+• El Ecosistema Español y Europeo de Imagen Médica: Orquestación radiológica, biomarcadores cuantitativos, triaje urgente de ictus y apoyo diagnóstico en dermatología.
+• Marco Regulatorio: MDR europeo, Ley de IA (EU AI Act), EUCAIM y vigilancia poscomercialización.
+
+📚 Artículo de Origen y Referencias Oficiales del Ecosistema:
+• Artículo en LinkedIn Pulse: https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical (Plataforma de Orquestación IA Radiológica): https://incepto-medical.com/
+• Quibim (Biomarcadores Cuantitativos de Imagen Médica): https://quibim.ai/
+• Methinks AI (Triaje de Ictus en TC sin Contraste): https://methinks.ai/
+• Legit.Health (IA Clínica en Dermatología): https://legit.health/
+• SERAM (Sociedad Española de Radiología Médica): https://www.seram.es/
+• AEMPS (Agencia Española de Medicamentos y Productos Sanitarios): https://www.aemps.gob.es/
+• Reglamento Europeo de IA (EU AI Act): https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+• European Cancer Imaging Initiative (EUCAIM): https://cancerimage.eu/
+
+🌐 Más Series de Arquitectura e IA:
+• Catálogo de Vídeos Nubenetes: https://nubenetes.com/videos/
+• Portal Nubenetes: https://nubenetes.com/','2026',5,'Analiza la transición arquitectónica y operativa desde prototipos aislados de IA médica hacia plataformas integradas de orquestación clínica en flujos PACS/RIS para 2026. Detalla cómo combatir la deriva de modelos (''algoritmos zombis'') mediante canalizaciones de MLOps y observabilidad continua tras variaciones de escáneres o poblaciones. Establece los requisitos técnicos para cumplir con el marco regulatorio europeo (EU AI Act, MDR) y asegurar la trazabilidad poscomercialización a nivel hospitalario.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/AOkBV18m_NQ','How Methinks AI Spots Strokes Without Contrast Dye [Short]','In acute stroke emergencies, waiting for contrast-enhanced imaging costs critical brain tissue. Here is how Methinks AI analyzes standard non-contrast CT scans to detect large vessel occlusions faster and accelerate life-saving triage. #Shorts
+
+📚 Article & Official Ecosystem References:
+• Source Article (LinkedIn Pulse): https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical: https://incepto-medical.com/
+• Quibim: https://quibim.ai/
+• Methinks AI: https://methinks.ai/
+• EU AI Act & Healthcare Framework: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
+🌐 More AI & Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'This video examines how Methinks AI deploys deep learning computer vision models to detect large vessel occlusions directly from non-contrast CT scans, eliminating delays associated with dye-enhanced imaging in emergency clinical triage. For cloud-native healthcare architectures, it illustrates the critical role of edge-deployed, low-latency AI inference pipelines and compliant medical MLOps within strictly regulated environments governed by frameworks like the EU AI Act.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/M1qtKgk9YH4','How AI Triages Skin Diseases & Dermatology Lesions [Short]','How clinical computer vision helps physicians prioritize dermatology referrals, measure skin lesion severity consistently, and reduce diagnostic bottlenecks across primary care and specialist clinics.
+
+• Dermatology AI Reference (Legit.Health): https://legit.health/
+#Shorts
+
+📚 Article & Official Ecosystem References:
+• Source Article (LinkedIn Pulse): https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical: https://incepto-medical.com/
+• Quibim: https://quibim.ai/
+• Methinks AI: https://methinks.ai/
+• EU AI Act & Healthcare Framework: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
+🌐 More AI & Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'Explores the application of clinical computer vision and deep learning models to triage dermatology referrals and standardize lesion severity scoring across primary and specialized healthcare tiers. In modern cloud native environments, this architecture demonstrates the integration of secure, compliant edge-to-cloud MLOps pipelines that execute medical image inference while adhering to stringent healthcare governance frameworks such as the EU AI Act.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/SgdTSjNe5gk','Why Medical AI Becomes an Algorithm Zombie & Model Drift Risks','What turns a deployed hospital AI model into an "algorithm zombie"? When scanners upgrade or clinical populations shift, static models keep outputting high-confidence predictions on stale assumptions—making continuous monitoring and post-market validation essential. #Shorts
+
+📚 Article & Official Ecosystem References:
+• Source Article (LinkedIn Pulse): https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical: https://incepto-medical.com/
+• Quibim: https://quibim.ai/
+• Methinks AI: https://methinks.ai/
+• EU AI Act & Healthcare Framework: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
+🌐 More AI & Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'Static medical AI models risk turning into ''algorithm zombies'' when deployed in evolving clinical environments, outputting high-confidence predictions on stale data due to hardware upgrades or shifting patient demographics. Building resilient cloud-native MLOps platforms requires continuous drift monitoring, automated feedback loops, and post-market validation pipelines to align with strict regulatory frameworks like the EU AI Act. Cloud architects must treat runtime observability and validation as core non-functional requirements in mission-critical AI deployments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI Agents", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/6QFZI9L1nUw','How AI Extracts Quantitative Imaging Biomarkers (Quibim)','Medical scans contain far more biological signal than the human eye scores routinely. A quick look at how quantitative imaging AI and radiomics platforms like Quibim transform MRI, CT, and PET pixels into measurable clinical biomarkers. #Shorts
+
+📚 Article & Official Ecosystem References:
+• Source Article (LinkedIn Pulse): https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical: https://incepto-medical.com/
+• Quibim: https://quibim.ai/
+• Methinks AI: https://methinks.ai/
+• EU AI Act & Healthcare Framework: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
+🌐 More AI & Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'This video highlights how quantitative imaging AI and radiomics platforms like Quibim extract hidden biological signals from MRI, CT, and PET scans, transforming raw pixel data into standardized clinical biomarkers beyond visual human perception. From a cloud-native architecture standpoint, this demonstrates the requirement for high-throughput MLOps pipelines and scalable inference services designed to securely ingest, process, and analyze massive DICOM datasets within regulated healthcare environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/dM2eBP3tSnw','How Incepto Gateway Unifies Medical Imaging AI in Hospitals [Short]','Hospital radiology departments cannot maintain dozens of disconnected AI point tools. Here is how Incepto Medical''s orchestration gateway unifies deployment, PACS workflow integration, and multi-vendor clinical AI governance under a single platform. #Shorts
+
+📚 Article & Official Ecosystem References:
+• Source Article (LinkedIn Pulse): https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical: https://incepto-medical.com/
+• Quibim: https://quibim.ai/
+• Methinks AI: https://methinks.ai/
+• EU AI Act & Healthcare Framework: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
+🌐 More AI & Engineering Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'Incepto Gateway acts as a unified orchestration layer that integrates heterogeneous multi-vendor medical imaging AI algorithms directly into clinical PACS workflows, eliminating point-tool sprawl. By standardizing edge DICOM data pipelines and centralizing governance, it simplifies model lifecycle management and regulatory compliance enforcement under frameworks like the EU AI Act. This architectural pattern provides a scalable blueprint for deploying and governing specialized domain-specific AI workloads within modern enterprise healthcare infrastructure.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + Enterprise AI Orchestration", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=eZaHPMBREWg','Strategic Analysis AI 2026: European Medical Imaging Ecosystem & Platforms','Strategic ecosystem analysis mapping the core layers of Medical Imaging AI in 2026—from hospital AI orchestration gateways to quantitative biomarker extraction, acute emergency triage, and specialized visual diagnostics.
+
+🎯 Strategic Layers Analyzed:
+• Orchestration & Distribution Layer: How gateway platforms eliminate fragmented hospital deployments by unifying multiple third-party radiology AI engines.
+• Quantitative Imaging & Precision Medicine: Turning raw MRI, CT, and PET pixel data into reproducible biological biomarkers.
+• Time-Critical Emergency Triage: Accelerating acute clinical pathways (such as non-contrast CT stroke detection) where minutes directly impact patient outcomes.
+• Competitive Moat & Ecosystem Outlook: Regulatory barriers, clinical evidence thresholds, and sustainable business models in Spain and Europe.
+
+📚 LinkedIn Article & Official Ecosystem References:
+• Source Article (LinkedIn Pulse): https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical (Radiology AI Orchestration): https://incepto-medical.com/
+• Quibim (Quantitative Imaging Biomarkers): https://quibim.ai/
+• Methinks AI (Non-Contrast CT Stroke Triage): https://methinks.ai/
+• Legit.Health (Clinical Dermatology AI): https://legit.health/
+• EU Artificial Intelligence Act (EC): https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+• EU Medical Device Regulation (MDR): https://health.ec.europa.eu/medical-devices-sector/overview_en
+• European Cancer Imaging Initiative (EUCAIM): https://cancerimage.eu/
+
+🌐 Explore More Engineering & AI Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This strategic analysis maps the 2026 European medical imaging AI ecosystem, highlighting orchestration gateways that unify multi-vendor radiology engines into hospital clinical workflows. It evaluates cloud-native MLOps architectures for quantitative biomarker extraction and emergency triage while navigating strict EU MDR and EU AI Act regulatory compliance. The session provides cloud architects with strategic patterns for building interoperable, high-throughput AI platforms across enterprise health environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Medical Imaging AI + MLOps", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=5C7q6zeMq1w','2026 Medical AI Correction: Clinical Imaging Market & Strategy Deep Dive','In-depth strategic analysis of the 2026 correction in medical imaging AI—examining why point-solution hype is giving way to clinical validation, hospital workflow integration, post-market drift monitoring, and regulated European HealthTech platforms.
+
+🎯 Key Themes Covered:
+• Beyond Point Solutions: Why standalone diagnostic models struggle without PACS/RIS integration, clinical ROI, and multi-algorithm gateways.
+• Post-Market Drift & "Algorithm Zombies": The operational and liability gap when static medical AI models face new scanners, protocols, or shifting patient demographics.
+• European & Spanish Clinical Imaging Ecosystem: Real-world adoption across radiology orchestration, quantitative imaging biomarkers, emergency stroke triage, and dermatology decision support.
+• Regulatory & Governance Alignment: Navigating EU MDR, EU AI Act high-risk medical AI requirements, and continuous clinical auditing.
+
+📚 LinkedIn Article & Official Ecosystem References:
+• Source Article (LinkedIn Pulse): https://www.linkedin.com/pulse/el-ecosistema-de-la-inteligencia-artificial-en-imagen-i%C3%B1aki-fernandez-rlwke/
+• Incepto Medical (Radiology AI Orchestration): https://incepto-medical.com/
+• Quibim (Quantitative Imaging Biomarkers): https://quibim.ai/
+• Methinks AI (Non-Contrast CT Stroke Triage): https://methinks.ai/
+• Legit.Health (Clinical Dermatology AI): https://legit.health/
+• EU Artificial Intelligence Act (EC): https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+• EU Medical Device Regulation (MDR): https://health.ec.europa.eu/medical-devices-sector/overview_en
+• European Cancer Imaging Initiative (EUCAIM): https://cancerimage.eu/
+
+🌐 Explore More Engineering & AI Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This strategic deep dive analyzes the 2026 market correction in medical imaging AI, detailing the operational transition from isolated point-solution models to integrated multi-algorithm platforms embedded into clinical workflows like PACS and RIS. It addresses critical enterprise platform challenges including post-market algorithm drift monitoring (''algorithm zombies''), continuous clinical auditing, and regulatory compliance under the EU AI Act and EU MDR. The session provides actionable insights for cloud architects building resilient, observable, and compliant MLOps ecosystems in regulated HealthTech environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "MLOps + AI Governance", "category": "AI and Future Operations", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/SO6i_-fUero','How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]','How NVIDIA Kubernetes Engine (NVKE) establishes hardware-rooted zero-trust identity and cluster isolation across bare-metal GPU nodes.
+
+⚡ Security Architecture Highlights:
+• Hardware TPM Node Attestation: Bare-metal nodes attest via SPIFFE/SPIRE (v1.14.1, TPM plugin 1.9.0) before receiving Kubernetes join credentials.
+• mTLS Agent Transport: Enforces encrypted SPIFFE/external-mtls transport modes between the site controller and each node''s nvke-agent daemon.
+• Cluster Isolation & OIDC: Per-cluster etcd encryption at rest, dedicated tenant control planes, fleet-wide OIDC integration, and verifiable NVKR SBOMs (with explicit preview notes on API port 30080 auth & FDE scope).
+
+📚 Official Repository & Technical References:
+• NVIDIA Kubernetes Engine (NVKE) GitHub: https://github.com/dsx-ai-factory/nvke
+• NVKE DSX Stack & Architecture: https://github.com/dsx-ai-factory/nvke/blob/main/docs/architecture.md
+• NVIDIA Kubernetes Recipes (NVKR): https://github.com/dsx-ai-factory/nvkr
+• NVIDIA AI Cluster Runtime (AICR): https://docs.nvidia.com/aicr
+
+🌐 Explore More Architectural Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Platform Engineering Portal: https://nubenetes.com/','2026',5,'NVIDIA Kubernetes Engine (NVKE) establishes a hardware-rooted zero-trust architecture for bare-metal GPU clusters by combining TPM-based node attestation via SPIFFE/SPIRE with encrypted mTLS transport before granting cluster join credentials. It enforces multi-tenant cluster isolation using dedicated control planes, per-cluster etcd encryption at rest, fleet OIDC integration, and verifiable NVKR SBOMs. This design serves as a essential blueprint for securing high-performance AI/ML infrastructure and bare-metal GPU fleets in modern cloud-native environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794599282,0,'2026-11-13T20:48:02.417252+01:00','2026-11-13T20:48:02.417252+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kubernetes, SPIFFE/SPIRE, TPM", "category": "Security and Compliance", "source_provenance": "Official @nubenetes YouTube Channel"}');
 COMMIT;
