@@ -762,6 +762,69 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Bare-Metal GPU Kubernetes NVIDIA DSX OS
+
+??? note "🎬 Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide"
+    !!! info "Architectural Summary"
+        Architectural deep dives and production engineering guide on NVIDIA Kubernetes Engine (NVKE) for building self-hosted bare-metal GPU cloud infrastructure. Covers the nvkectl kind-to-management-to-tenant cluster factory lifecycle on Kubernetes 1.36.3 and Ubuntu 26.04/24.04 LTS, the 13-module Go 1.27.4 workspace, PostgreSQL workflow_outbox with Temporal orchestration, CAPI v1.13.6 and CAPNICo v0.1.0 bare-metal provisioning, nvke-agent gRPC port 15005, TPM and SPIFFE/SPIRE 1.14.1 workload identity, OVN-Kubernetes 2.4.2 networking, and the NVKR/AICR/CRE/NVSentinel DSX OS stack.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLPVDu1Q58BQM" title="Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Rust
+
+??? note "🎬 How AWS Emulator Tests Code In-Process (Embedded Rust) [Short]"
+    !!! info "Architectural Summary"
+        The `aws-emulator-embedded` Rust crate eliminates network sockets, localhost port contention, and TLS certificate overhead by executing an isolated in-memory engine directly within the test process. By injecting native in-memory HTTP clients and credentials providers directly into AWS SDK client instances, it enables blazing-fast, hermetic, and parallel unit testing of cloud-dependent code paths. This approach sets a critical benchmark for high-velocity 2026 CI/CD pipelines by removing external container dependencies and flaky network emulation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="DAH5vQMVQDI" data-video-url="https://www.youtube.com/embed/DAH5vQMVQDI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/DAH5vQMVQDI/hqdefault.jpg" alt="How AWS Emulator Tests Code In-Process (Embedded Rust) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## AWS Rust Cloud Emulation
+
+??? note "🎬 How AWS Emulator Fakes the Cloud (Smithy, Router & State) [Short]"
+    !!! info "Architectural Summary"
+        The open-source AWS Emulator simulates hundreds of AWS services in milliseconds by compiling wire protocols directly from official AWS Smithy models into modular Rust service crates mounted on a single HTTP router. State is managed via a high-performance in-memory engine alongside native SigV4 signature validation, returning deterministic 501 Not Implemented codes for unsupported API endpoints. For 2026 cloud-native architectures, this enables hyper-fast local integration testing, reproducible CI/CD pipelines, and cost-free validation of distributed cloud topologies without live sandbox dependencies.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="2MNcmkj9PMk" data-video-url="https://www.youtube.com/embed/2MNcmkj9PMk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/2MNcmkj9PMk/hqdefault.jpg" alt="How AWS Emulator Fakes the Cloud (Smithy, Router & State) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## AWS CLI
+
+??? note "🎬 How to Reroute AWS Requests Locally (CLI, SDK & CA Bundle)"
+    !!! info "Architectural Summary"
+        This architectural tip demonstrates how to cleanly isolate local development and testing from production by rerouting AWS CLI and SDK traffic to a local AWS Emulator. By exporting standard environment variables—including AWS_ENDPOINT_URL, custom CA certificates via AWS_CA_BUNDLE, and disabling EC2 metadata resolution—developers can achieve zero-cost, hermetic shift-left integration testing without cloud provider egress.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Uzosrqiq4I8" data-video-url="https://www.youtube.com/embed/Uzosrqiq4I8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Uzosrqiq4I8/hqdefault.jpg" alt="How to Reroute AWS Requests Locally (CLI, SDK & CA Bundle)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Azure Verified Modules AVM
 
 ??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot"

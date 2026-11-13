@@ -714,6 +714,118 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Kubernetes SPIFFE SPIRE TPM
+
+??? note "🎬 How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]"
+    !!! info "Architectural Summary"
+        NVIDIA Kubernetes Engine (NVKE) establishes a hardware-rooted zero-trust architecture for bare-metal GPU clusters by combining TPM-based node attestation via SPIFFE/SPIRE with encrypted mTLS transport before granting cluster join credentials. It enforces multi-tenant cluster isolation using dedicated control planes, per-cluster etcd encryption at rest, fleet OIDC integration, and verifiable NVKR SBOMs. This design serves as a essential blueprint for securing high-performance AI/ML infrastructure and bare-metal GPU fleets in modern cloud-native environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="SO6i_-fUero" data-video-url="https://www.youtube.com/embed/SO6i_-fUero" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/SO6i_-fUero/hqdefault.jpg" alt="How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## AWS Emulator Terraform CI CD
+
+??? note "🎬 Nubenetes AWS Emulator: Local AWS APIs, Terraform & CI/CD Guide"
+    !!! info "Architectural Summary"
+        Complete technical reference and survival guide for Amazon's open-source AWS Emulator (github.com/aws/aws-emulator, CC0-1.0), spanning 436 Smithy-generated Rust service crates backed by a shared InMemoryEngine. Covers standalone local execution (Linux RPM/DEB packages and Docker serving HTTPS on 127.0.0.1:9297 with GET /__admin/health), CLI and SDK endpoint routing (AWS_ENDPOINT_URL, AWS_CA_BUNDLE, ca.pem), Terraform and Atmos IaC validation workflows (provider endpoint wiring, skip_credentials_validation, handling 501 Not Implemented control-plane gaps vs. LocalStack), ephemeral per-job CI/CD sandboxing in GitHub Actions and GitLab CI, aws-emulator-embedded in-process Rust unit testing, AI coding agent setup (aws agent-toolkit add-skill), automated release fidelity tracking (v1.0.345), managing the 100+ GB Rust workspace build cost (CARGO_TARGET_DIR and sccache), and disabling default telemetry.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLZOsodxc3GIM" title="Nubenetes AWS Emulator: Local AWS APIs, Terraform & CI/CD Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## AWS Emulator
+
+??? note "🎬 Taking Control of AWS Emulator Telemetry (4 Ways to Opt Out)"
+    !!! info "Architectural Summary"
+        This architectural guide details four mechanisms to disable default telemetry within AWS Emulator, spanning CLI flags, environment variables, persistent configuration files, and embedded SDK primitives. Managing telemetry egress is vital for enterprise environments adhering to zero-trust, air-gapped, or strict regulatory compliance baselines during local offline cloud emulation and CI/CD testing. Establishing these declarative controls ensures total isolation and eliminates metadata leakage across local-first development workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="VUzdShlAC1I" data-video-url="https://www.youtube.com/embed/VUzdShlAC1I" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/VUzdShlAC1I/hqdefault.jpg" alt="Taking Control of AWS Emulator Telemetry (4 Ways to Opt Out)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## DevOps
+
+??? note "🎬 Why Building AWS Emulator Takes 100GB (Rust Workspace Cost) [Short]"
+    !!! info "Architectural Summary"
+        Compiling the open-source AWS Emulator from source creates an immense disk footprint exceeding 100GB in the cargo target directory due to 400+ distinct per-service Rust crates generating redundant intermediate artifacts. Platform engineers can mitigate this developer workstation and CI/CD disk bottleneck by consuming prebuilt RPM/DEB/Docker binaries, compiling targeted crates via `cargo build -p`, sharing target directories, or leveraging distributed compiler caching with `sccache`. This optimization is essential for streamlining offline cloud emulation and integration testing pipelines without exhausting local compute resources.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="DG0yCOvNWSQ" data-video-url="https://www.youtube.com/embed/DG0yCOvNWSQ" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/DG0yCOvNWSQ/hqdefault.jpg" alt="Why Building AWS Emulator Takes 100GB (Rust Workspace Cost) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How to Run AWS Emulator Locally (Linux, Docker & Port 9297) [Short]"
+    !!! info "Architectural Summary"
+        Amazon's official AWS Emulator enables local multi-service cloud emulation on Linux, macOS, and Windows using native packages and Docker containers without requiring active AWS accounts or incurring cloud spend. By exposing local administrative health checks on port 9297 (`https://127.0.0.1:9297/__admin/health`), it streamlines offline testing and integration verification. This shifts cloud infrastructure testing left, providing high-fidelity, deterministic environments for CI pipelines and local cloud-native development.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="u9rUEuuzXMI" data-video-url="https://www.youtube.com/embed/u9rUEuuzXMI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/u9rUEuuzXMI/hqdefault.jpg" alt="How to Run AWS Emulator Locally (Linux, Docker & Port 9297) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## CI CD Infrastructure as Code
+
+??? note "🎬 How to Sandbox AWS Emulator in CI/CD (GitHub Actions & Atmos) [Short]"
+    !!! info "Architectural Summary"
+        This architectural guide demonstrates how to sandbox local AWS emulation inside CI/CD pipelines such as GitHub Actions, GitLab CI, and Atmos using dynamic per-job port allocation and admin health check polling. By caching Rust build targets with sccache and disabling telemetry, platform teams achieve deterministic, sub-second integration test runs with zero cloud credential exposure or AWS billing overhead.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="g-D2sB1gXS8" data-video-url="https://www.youtube.com/embed/g-D2sB1gXS8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/g-D2sB1gXS8/hqdefault.jpg" alt="How to Sandbox AWS Emulator in CI/CD (GitHub Actions & Atmos) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## IaC Terraform
+
+??? note "🎬 Validating Terraform with AWS Emulator (Endpoints & Limits) [Short]"
+    !!! info "Architectural Summary"
+        Accelerate local Infrastructure as Code verification cycles by pointing Terraform AWS provider configurations (`AWS_ENDPOINT_URL`, custom CA bundles, and skipped credential validation) or Atmos tooling directly to the local AWS Emulator on port 9297. This strategy completely eliminates pre-production cloud spend and shortens test loops during module synthesis, while requiring platform teams to manage API fidelity boundaries and `501 Not Implemented` control-plane gaps. In modern cloud-native delivery pipelines, local control-plane emulation enables deterministic pre-flight validation before committing changes to live cloud environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="WqL87cECloU" data-video-url="https://www.youtube.com/embed/WqL87cECloU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/WqL87cECloU/hqdefault.jpg" alt="Validating Terraform with AWS Emulator (Endpoints & Limits) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"

@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20026 total resources analyzed.
-    - **V2 Elite Selection**: 15919 candidates identified (79.49% density ratio).
-    - **AI Enrichment Coverage**: 15919 / 15919 (100.0%)
+    - **V1 Base Inventory**: 20058 total resources analyzed.
+    - **V2 Elite Selection**: 15951 candidates identified (79.52% density ratio).
+    - **AI Enrichment Coverage**: 15951 / 15951 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -106,81 +106,74 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 11, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 13, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/watch?v=4-oLXvCaZiM">Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5</a></div>
-  <div class="trending-card__meta">2026-11-11 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Explica la arquitectura clave de OpenShift 5 con actualizaciones mayores sin interrupciones y virtualización nativa sobre Kubernetes 1.36.</div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLPVDu1Q58BQM">Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide</a></div>
+  <div class="trending-card__meta">2026-11-12 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Delivers an essential blueprint for building self-hosted bare-metal GPU cloud infrastructure using NVIDIA Kubernetes Engine.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Networking & Service Mesh</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a></div>
   <div class="trending-card__meta">2026-11-05 · 3k★</div>
   <div class="trending-card__why">The Gateway API is the modern, role-oriented standard replacing Kubernetes Ingress for expressive L4-L7 traffic routing.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai">Red Hat OpenShift AI (RHOAI)</a></div>
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">Delivers a fully supported, Kubernetes-native enterprise platform integrating vLLM, KServe, and Kueue for hybrid AI operations.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
   <div class="trending-card__title"><a href="https://github.com/metalbear-co/mirrord">metalbear-co/mirrord</a></div>
   <div class="trending-card__meta">2026-11-05 · 5.4k★</div>
   <div class="trending-card__why">Revolutionizes the cloud-native inner dev loop by transparently bridging local processes directly into remote Kubernetes namespaces without container rebuilds.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/kaito-project/kaito">KAITO (Kubernetes AI Toolchain Operator)</a></div>
   <div class="trending-card__meta">2026-11-05 · 1k★</div>
   <div class="trending-card__why">CNCF Sandbox operator that bridges Kubernetes with GenAI by automating open-weight LLM/SLM inference, fine-tuning, and GPU orchestration.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kueue">kubernetes-sigs/kueue: Kubernetes-native Job Queueing</a></div>
   <div class="trending-card__meta">2026-11-05 · 3.1k★</div>
-  <div class="trending-card__why">Kueue has become the CNCF standard for orchestrating AI/ML batch jobs and managing multi-tenant scheduling queues natively in Kubernetes.</div>
+  <div class="trending-card__why">Kueue has become the de facto cloud-native batch scheduling and queueing engine powering large-scale AI and ML workloads on Kubernetes.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AWS</div>
   <div class="trending-card__title"><a href="https://github.com/awslabs/ai-on-eks">AI on EKS (AWS Labs)</a></div>
   <div class="trending-card__meta">2026-11-05 · 228★</div>
   <div class="trending-card__why">Provides official production blueprints combining Amazon EKS, Argo CD, and GPU orchestration for running high-scale GenAI workloads.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">GCP, OCI & Others</div>
-  <div class="trending-card__title"><a href="https://cloud.google.com/products/agent-builder">Google Cloud Vertex AI Agent Builder</a></div>
-  <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Provides Google Cloud's core managed control plane for orchestrating grounded multi-agent systems and enterprise foundation models.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">OpenShift / Red Hat</div>
   <div class="trending-card__title"><a href="https://www.redhat.com/en/products/ai/openshift-ai">Red Hat OpenShift AI (RHOAI)</a></div>
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">Serves as Red Hat's flagship enterprise platform for deploying, managing, and scaling distributed AI and MLOps workloads on OpenShift.</div>
 </div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Observability, SRE & Testing</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes/kube-state-metrics">kube-state-metrics</a></div>
   <div class="trending-card__meta">2026-11-05 · 6.2k★</div>
   <div class="trending-card__why">Kube-state-metrics is an indispensable cluster service that translates Kubernetes API objects into core operational metrics across all enterprise environments.</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">MLOps & Data Science</div>
   <div class="trending-card__title"><a href="https://www.databricks.com/product/artificial-intelligence">Databricks Mosaic AI</a></div>
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
@@ -202,6 +195,13 @@
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">GCP, OCI & Others</div>
+  <div class="trending-card__title"><a href="https://github.com/GoogleCloudPlatform/k8s-config-connector">k8s-config-connector: GCP Config Connector</a></div>
+  <div class="trending-card__meta">2026-11-01 · 1.1k★</div>
+  <div class="trending-card__why">Enables true GitOps by allowing platform teams to manage Google Cloud infrastructure natively through declarative Kubernetes CRDs.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Security & Compliance</div>
   <div class="trending-card__title"><a href="https://github.com/hashicorp/vault">hashicorp/vault</a></div>
   <div class="trending-card__meta">2026-11-01 · 36.5k★</div>
@@ -219,7 +219,7 @@
   <div class="trending-card__category">Data, Messaging & Storage</div>
   <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
   <div class="trending-card__meta">2026-10-30 · 10.4k★</div>
-  <div class="trending-card__why">Velero is the cloud-native industry standard for comprehensive cluster disaster recovery and persistent volume backups.</div>
+  <div class="trending-card__why">Velero is the de facto industry standard for Kubernetes cluster disaster recovery, state backup, and persistent volume migration.</div>
 </div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -261,7 +261,7 @@
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kubebuilder">kubernetes-sigs/kubebuilder</a></div>
   <div class="trending-card__meta">2026-11-05 · 9.4k★</div>
-  <div class="trending-card__why">Kubebuilder is the authoritative industry framework for developing production-grade Kubernetes custom controllers and operators.</div>
+  <div class="trending-card__why">Kubebuilder serves as the industry-standard developer framework for scaffolding production-grade Kubernetes Custom Resource Definitions and controllers.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -296,14 +296,14 @@
   <div class="trending-card__category">GCP, OCI & Others</div>
   <div class="trending-card__title"><a href="https://github.com/google/adk-python">Google Agent Development Kit (ADK)</a></div>
   <div class="trending-card__meta">2026-11-05 · 22.1k★</div>
-  <div class="trending-card__why">Delivers an open-source, code-first framework with native Model Context Protocol (MCP) support for developing deterministic multi-agent applications.</div>
+  <div class="trending-card__why">Provides an open-source, code-first multi-agent development framework with native support for the Model Context Protocol (MCP).</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Data, Messaging & Storage</div>
   <div class="trending-card__title"><a href="https://github.com/CrunchyData/postgres-operator">postgres-operator</a></div>
   <div class="trending-card__meta">2026-10-21 · 4.5k★</div>
-  <div class="trending-card__why">Crunchy Data's operator is an enterprise benchmark for running highly available, production-grade PostgreSQL natively on Kubernetes.</div>
+  <div class="trending-card__why">The Crunchy Data operator provides enterprise-grade automation for running highly available, production-ready PostgreSQL on Kubernetes.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>

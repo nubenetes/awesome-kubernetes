@@ -370,6 +370,36 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 How AI Triages Skin Diseases & Dermatology Lesions [Short]"
+    !!! info "Architectural Summary"
+        Explores the application of clinical computer vision and deep learning models to triage dermatology referrals and standardize lesion severity scoring across primary and specialized healthcare tiers. In modern cloud native environments, this architecture demonstrates the integration of secure, compliant edge-to-cloud MLOps pipelines that execute medical image inference while adhering to stringent healthcare governance frameworks such as the EU AI Act.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="M1qtKgk9YH4" data-video-url="https://www.youtube.com/embed/M1qtKgk9YH4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/M1qtKgk9YH4/hqdefault.jpg" alt="How AI Triages Skin Diseases & Dermatology Lesions [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Why Medical AI Becomes an Algorithm Zombie & Model Drift Risks"
+    !!! info "Architectural Summary"
+        Static medical AI models risk turning into 'algorithm zombies' when deployed in evolving clinical environments, outputting high-confidence predictions on stale data due to hardware upgrades or shifting patient demographics. Building resilient cloud-native MLOps platforms requires continuous drift monitoring, automated feedback loops, and post-market validation pipelines to align with strict regulatory frameworks like the EU AI Act. Cloud architects must treat runtime observability and validation as core non-functional requirements in mission-critical AI deployments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="SgdTSjNe5gk" data-video-url="https://www.youtube.com/embed/SgdTSjNe5gk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/SgdTSjNe5gk/hqdefault.jpg" alt="Why Medical AI Becomes an Algorithm Zombie & Model Drift Risks" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ??? note "🎬 What's new in Google AI"
     !!! info "Architectural Summary"
         This presentation outlines Google's latest end-to-end AI stack from Google I/O 2026, focusing on deployment strategies for multimodal models, media generation, and intelligent agents. It details how to leverage Google's managed infrastructure and MLOps tools to tune, serve, and scale open-source models in cloud-native environments. Additionally, it introduces new 'vibe-coding' workflows and agentic capabilities designed to streamline next-generation AI application development.
@@ -876,6 +906,126 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 How to Measure AI Agent Skill Lift & pass@k in Sandboxed Runs [Short]"
+    !!! info "Architectural Summary"
+        This video outlines quantitative evaluation methodologies for AI agents using NVIDIA SkillEvaluator within isolated Harbor sandboxes across environments like Codex and Claude Code. By running paired trials comparing skill-augmented models against baseline runs, engineering teams compute empirical metrics such as signed Skill Lift and pass@k across security, correctness, discoverability, and efficiency. This testing methodology establishes essential validation and regression gating required before operationalizing autonomous agents into cloud-native engineering workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="-0n4ZfMxLQM" data-video-url="https://www.youtube.com/embed/-0n4ZfMxLQM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/-0n4ZfMxLQM/hqdefault.jpg" alt="How to Measure AI Agent Skill Lift & pass@k in Sandboxed Runs [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How SkillEvaluator Detects Overlapping & Conflicting Agent Instructions [Short]"
+    !!! info "Architectural Summary"
+        This architectural walkthrough details how NVIDIA SkillEvaluator eliminates context bloat and instruction conflicts across multi-agent `SKILL.md` rule sets using Tier 2 embedding clustering combined with LLM-as-a-judge verdicts. It highlights how Tier 3 interaction testing measures multi-skill operational interference to preserve context windows and prevent behavioral drift in autonomous coding agents. This provides essential guardrails for enterprise DevOps and SRE teams operationalizing standardized agentic workflows at scale.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="GE7NTMJdd20" data-video-url="https://www.youtube.com/embed/GE7NTMJdd20" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/GE7NTMJdd20/hqdefault.jpg" alt="How SkillEvaluator Detects Overlapping & Conflicting Agent Instructions [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How SkillEvaluator Tier 1 Secures AI Agents (SkillSpector & PII) [Short]"
+    !!! info "Architectural Summary"
+        NVIDIA SkillEvaluator Tier 1 establishes a deterministic, offline security gate for AI agent skills prior to production deployment, eliminating the need for runtime LLM API calls. It combines Python AST linting, Unicode smuggling detection, secret/PII scanning via Gitleaks, and static analysis with Semgrep and SkillSpector to enforce strict supply chain security and compliance across agentic execution environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="utYcuHPT1YY" data-video-url="https://www.youtube.com/embed/utYcuHPT1YY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/utYcuHPT1YY/hqdefault.jpg" alt="How SkillEvaluator Tier 1 Secures AI Agents (SkillSpector & PII) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How NVIDIA Evaluates AI Agent Skills: Tier 1-3 Pipeline Explained [Short]"
+    !!! info "Architectural Summary"
+        NVIDIA SkillEvaluator implements an automated three-tier validation pipeline to qualify modular AI agent skills before deployment into production registries. The architecture sequentially enforces Tier 1 static security and deterministic schema gates, Tier 2 vector embedding deduplication to eliminate context bloat, and Tier 3 isolated sandboxed A/B execution runs to empirically benchmark agentic performance gains. This systematic evaluation pattern provides an indispensable CI/CD safety harness for scalable, multi-agent cloud-native operations in 2026.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="JDqpQOK6zjc" data-video-url="https://www.youtube.com/embed/JDqpQOK6zjc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/JDqpQOK6zjc/hqdefault.jpg" alt="How NVIDIA Evaluates AI Agent Skills: Tier 1-3 Pipeline Explained [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security Guide"
+    !!! info "Architectural Summary"
+        NVIDIA SkillEvaluator establishes an enterprise-grade validation framework for Agent Skills, structuring verification across deterministic static security gates (Tier 1), embedding-based semantic deduplication (Tier 2), and live sandboxed agent execution (Tier 3). Utilizing isolated Docker and Kata runtime environments via Harbor, it quantifies empirical Skill Lift and pass@k across correctness, safety, and efficiency dimensions. This end-to-end pipeline integrates seamlessly into Cloud Native CI/CD systems, generating standardized SARIF reports to enforce zero-trust security and supply-chain integrity for autonomous AI agents.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="DVWkJ-5Z_zY" data-video-url="https://www.youtube.com/embed/DVWkJ-5Z_zY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/DVWkJ-5Z_zY/hqdefault.jpg" alt="NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security Guide" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AWS Emulator Proves Its Accuracy (Fidelity & Issue Logs) [Short]"
+    !!! info "Architectural Summary"
+        AWS Emulator provides transparent API parity verification for AI-generated cloud emulation by publishing automated per-release Fidelity Reports alongside live directories tracking both unresolved functional gaps and resolved behaviors. In a 2026 cloud-native context, this structured accountability enables engineers to reliably shift-left integration testing and CI/CD validation locally without unexpected API drift or cloud provisioning overhead.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="j8Y2YjNH_Hg" data-video-url="https://www.youtube.com/embed/j8Y2YjNH_Hg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/j8Y2YjNH_Hg/hqdefault.jpg" alt="How AWS Emulator Proves Its Accuracy (Fidelity & Issue Logs) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AI Agents Set Up AWS Emulator (Agent Toolkit Skill) [Short]"
+    !!! info "Architectural Summary"
+        This short demonstrates equipping AI coding agents like Claude Code, Kiro, and Cursor with an offline AWS sandbox via the AWS CLI Agent Toolkit skill (`aws-emulator`). By provisioning a local, high-fidelity mock environment, autonomous agents can independently start the emulator, configure local SDK endpoint overrides, trap client-side validation errors, and iterate rapidly without incurring AWS cloud spend or latency.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="cAxPdJSab6A" data-video-url="https://www.youtube.com/embed/cAxPdJSab6A" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/cAxPdJSab6A/hqdefault.jpg" alt="How AI Agents Set Up AWS Emulator (Agent Toolkit Skill) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone"
+    !!! info "Architectural Summary"
+        This architectural breakdown explores Amazon's open-source `aws/aws-emulator`, a local AWS cloud clone featuring 436 Rust service crates generated and maintained autonomously by AI agent loops without human PRs. The architecture leverages Smithy models, an in-memory state engine with SigV4 verification, and custom runtime thread sizing to support both standalone HTTPS and zero-socket embedded test execution. In a 2026 Cloud Native context, it provides an ultra-fast, zero-cost sandbox essential for local integration testing, CI/CD pipelines, and autonomous AI coding agents validating AWS infrastructure interactions.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="e15CNmR8oY0" data-video-url="https://www.youtube.com/embed/e15CNmR8oY0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/e15CNmR8oY0/hqdefault.jpg" alt="AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ??? note "🎬 Model Context Protocol (MCP) and AI Agents in DevOps"
     !!! info "Architectural Summary"
         This architectural playlist details how Model Context Protocol (MCP) standardizes context and tool-calling interfaces for AI agents within modern cloud-native systems. It explores the practical integration of autonomous agents into DevOps, SRE, and API automation pipelines, replacing complex, manual scripts with intent-driven workflows. By utilizing secure and scalable MCP servers, platform teams can safely delegate infrastructure, database, and testing orchestration to context-aware AI systems.
@@ -903,6 +1053,170 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/QtXBAz6TU2g?list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz" title="Agent-first workflows from prompt to production" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## NVIDIA SkillEvaluator AI Agent Security
+
+??? note "🎬 Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide"
+    !!! info "Architectural Summary"
+        Comprehensive architectural guide and production engineering reference on NVIDIA SkillEvaluator (arXiv:2608.20614) for evaluating, securing, and benchmarking AI coding agent skills across Codex, Claude Code, and OpenCode. Covers the 3-tier evaluation funnel: Tier 1 static AST linting and security scanning (SkillSpector, Gitleaks, Semgrep, PII and prompt-injection checks), Tier 2 semantic deduplication and cross-skill overlap detection, and Tier 3 live Harbor sandboxed benchmarking measuring Skill Lift, pass@k improvements, and token/latency cost trade-offs.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLGtiisOtFk3s" title="Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Clinical AI MLOps Governance
+
+??? note "🎬 Nubenetes Medical Imaging AI: Clinical Ecosystem & Strategy (2026)"
+    !!! info "Architectural Summary"
+        Strategic and architectural guide to the 2026 medical imaging AI ecosystem following the post-hype clinical correction. Examines hospital radiology AI orchestration gateways (Incepto Medical), quantitative imaging biomarkers and radiomics (Quibim), non-contrast CT acute stroke triage (Methinks AI), and dermatology lesion screening (Legit.Health), alongside post-market model drift ("algorithm zombies"), MLOps continuous monitoring, EU MDR, EU AI Act compliance, and federated clinical data spaces such as EUCAIM.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLEy77ddIvsH4" title="Nubenetes Medical Imaging AI: Clinical Ecosystem & Strategy (2026)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español) [SPANISH CONTENT]"
+    !!! info "Architectural Summary"
+        Análisis estratégicos en español sobre el ecosistema de la inteligencia artificial en imagen médica tras la corrección clínica de 2026 y un crecimiento del 34,2% anual en España [SPANISH CONTENT]. Explora plataformas de orquestación radiológica hospitalaria (Incepto Medical), biomarcadores cuantitativos de imagen (Quibim), triaje urgente de ictus sin contraste (Methinks AI) y dermatología digital (Legit.Health), así como el fenómeno de los "algoritmos zombis", la vigilancia poscomercialización, la contratación pública hospitalaria y el cumplimiento CE, FDA y EU AI Act.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLPshE-mkC590" title="Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## MLOps AI
+
+??? note "🎬 Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema"
+    !!! info "Architectural Summary"
+        Analiza la transición estratégica de la IA en imagen médica desde algoritmos aislados hacia plataformas de orquestación integradas en flujos clínicos reales e interoperables con sistemas hospitalarios (PACS/RIS). En el contexto Cloud Native de 2026, subraya la urgencia de implementar arquitecturas de MLOps robustas con observabilidad continua para prevenir el deterioro silencioso ('algoritmos zombi') y garantizar el cumplimiento estricto del EU AI Act y certificaciones sanitarias.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Tvz-CxJr9nM" data-video-url="https://www.youtube.com/embed/Tvz-CxJr9nM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Tvz-CxJr9nM/hqdefault.jpg" alt="Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 La Corrección Clínica en IA Médica: Estrategia e Imagen en España"
+    !!! info "Architectural Summary"
+        Analiza la transición arquitectónica y operativa desde prototipos aislados de IA médica hacia plataformas integradas de orquestación clínica en flujos PACS/RIS para 2026. Detalla cómo combatir la deriva de modelos ('algoritmos zombis') mediante canalizaciones de MLOps y observabilidad continua tras variaciones de escáneres o poblaciones. Establece los requisitos técnicos para cumplir con el marco regulatorio europeo (EU AI Act, MDR) y asegurar la trazabilidad poscomercialización a nivel hospitalario.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="ykrlQKFAhgI" data-video-url="https://www.youtube.com/embed/ykrlQKFAhgI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ykrlQKFAhgI/hqdefault.jpg" alt="La Corrección Clínica en IA Médica: Estrategia e Imagen en España" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Methinks AI Spots Strokes Without Contrast Dye [Short]"
+    !!! info "Architectural Summary"
+        This video examines how Methinks AI deploys deep learning computer vision models to detect large vessel occlusions directly from non-contrast CT scans, eliminating delays associated with dye-enhanced imaging in emergency clinical triage. For cloud-native healthcare architectures, it illustrates the critical role of edge-deployed, low-latency AI inference pipelines and compliant medical MLOps within strictly regulated environments governed by frameworks like the EU AI Act.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="AOkBV18m_NQ" data-video-url="https://www.youtube.com/embed/AOkBV18m_NQ" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/AOkBV18m_NQ/hqdefault.jpg" alt="How Methinks AI Spots Strokes Without Contrast Dye [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AI Extracts Quantitative Imaging Biomarkers (Quibim)"
+    !!! info "Architectural Summary"
+        This video highlights how quantitative imaging AI and radiomics platforms like Quibim extract hidden biological signals from MRI, CT, and PET scans, transforming raw pixel data into standardized clinical biomarkers beyond visual human perception. From a cloud-native architecture standpoint, this demonstrates the requirement for high-throughput MLOps pipelines and scalable inference services designed to securely ingest, process, and analyze massive DICOM datasets within regulated healthcare environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="6QFZI9L1nUw" data-video-url="https://www.youtube.com/embed/6QFZI9L1nUw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/6QFZI9L1nUw/hqdefault.jpg" alt="How AI Extracts Quantitative Imaging Biomarkers (Quibim)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## MLOps Enterprise AI Orchestration
+
+??? note "🎬 How Incepto Gateway Unifies Medical Imaging AI in Hospitals [Short]"
+    !!! info "Architectural Summary"
+        Incepto Gateway acts as a unified orchestration layer that integrates heterogeneous multi-vendor medical imaging AI algorithms directly into clinical PACS workflows, eliminating point-tool sprawl. By standardizing edge DICOM data pipelines and centralizing governance, it simplifies model lifecycle management and regulatory compliance enforcement under frameworks like the EU AI Act. This architectural pattern provides a scalable blueprint for deploying and governing specialized domain-specific AI workloads within modern enterprise healthcare infrastructure.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="dM2eBP3tSnw" data-video-url="https://www.youtube.com/embed/dM2eBP3tSnw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/dM2eBP3tSnw/hqdefault.jpg" alt="How Incepto Gateway Unifies Medical Imaging AI in Hospitals [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Medical Imaging AI MLOps
+
+??? note "🎬 Strategic Analysis AI 2026: European Medical Imaging Ecosystem & Platforms"
+    !!! info "Architectural Summary"
+        This strategic analysis maps the 2026 European medical imaging AI ecosystem, highlighting orchestration gateways that unify multi-vendor radiology engines into hospital clinical workflows. It evaluates cloud-native MLOps architectures for quantitative biomarker extraction and emergency triage while navigating strict EU MDR and EU AI Act regulatory compliance. The session provides cloud architects with strategic patterns for building interoperable, high-throughput AI platforms across enterprise health environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="eZaHPMBREWg" data-video-url="https://www.youtube.com/embed/eZaHPMBREWg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/eZaHPMBREWg/hqdefault.jpg" alt="Strategic Analysis AI 2026: European Medical Imaging Ecosystem & Platforms" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## MLOps AI Governance
+
+??? note "🎬 2026 Medical AI Correction: Clinical Imaging Market & Strategy Deep Dive"
+    !!! info "Architectural Summary"
+        This strategic deep dive analyzes the 2026 market correction in medical imaging AI, detailing the operational transition from isolated point-solution models to integrated multi-algorithm platforms embedded into clinical workflows like PACS and RIS. It addresses critical enterprise platform challenges including post-market algorithm drift monitoring ('algorithm zombies'), continuous clinical auditing, and regulatory compliance under the EU AI Act and EU MDR. The session provides actionable insights for cloud architects building resilient, observable, and compliant MLOps ecosystems in regulated HealthTech environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="5C7q6zeMq1w" data-video-url="https://www.youtube.com/embed/5C7q6zeMq1w" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/5C7q6zeMq1w/hqdefault.jpg" alt="2026 Medical AI Correction: Clinical Imaging Market & Strategy Deep Dive" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## IaC Terraform AI Agents
+
+??? note "🎬 Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs"
+    !!! info "Architectural Summary"
+        This architectural guide details how to integrate Amazon's open-source AWS Emulator into local workflows, Atmos, and CI/CD pipelines to validate Terraform infrastructure without live cloud credentials or third-party licensing. It explores operational workarounds for HTTP 501 control-plane fidelity gaps, endpoint redirection patterns via AWS_ENDPOINT_URL, and strategies for sandboxing ephemeral test environments. The breakdown also covers deployment optimizations—leveraging prebuilt containers over 100+ GB Rust compilation artifacts—and enabling secure local execution for AI coding agents.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="wJeUCakwZO0" data-video-url="https://www.youtube.com/embed/wJeUCakwZO0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/wJeUCakwZO0/hqdefault.jpg" alt="Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 

@@ -14,46 +14,46 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | Kueue has become the CNCF standard for orchestrating AI/ML batch jobs and managing multi-tenant scheduling queues natively in Kubernetes. |
-    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | Kubebuilder is the authoritative industry framework for developing production-grade Kubernetes custom controllers and operators. |
-    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Cluster Autoscaler remains the foundational core component driving cloud infrastructure elasticity and cost efficiency across production deployments. |
-    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | Karmada provides advanced, non-intrusive multi-cluster federation and workload distribution across hybrid and multi-cloud environments. |
-    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | KServe is the leading cloud-native model serving platform enabling standardized, auto-scaling inference workloads on Kubernetes. |
-    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🟡 high | Client-go is the mission-critical programmatic foundation that powers nearly every custom controller and platform tool in the cloud native ecosystem. |
-    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | ExternalDNS is an essential networking add-on that automates DNS management by syncing ingress and service records directly with cloud DNS providers. |
-    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🟡 high | Kustomize is the ubiquitous template-free configuration management standard natively integrated into Kubernetes delivery workflows. |
-    | 2026-11-05 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Vertical Pod Autoscaler provides automated, data-driven CPU and memory rightsizing crucial for optimizing cluster resource utilization. |
-    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is the industry-standard terminal interface adopted by platform teams to dramatically accelerate day-2 observability and cluster troubleshooting. |
+    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | Kueue has become the de facto cloud-native batch scheduling and queueing engine powering large-scale AI and ML workloads on Kubernetes. |
+    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | Kubebuilder serves as the industry-standard developer framework for scaffolding production-grade Kubernetes Custom Resource Definitions and controllers. |
+    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Cluster Autoscaler remains the foundational core component driving dynamic cloud node elasticity across production Kubernetes environments. |
+    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🔴 critical | Kustomize is a ubiquitous declarative manifest customization engine essential to modern GitOps and configuration management workflows. |
+    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | Karmada provides advanced, production-proven multi-cluster orchestration and workload federation across hybrid and multi-cloud architectures. |
+    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | KServe standardizes serverless model serving and inference management on Kubernetes, bridging cloud-native orchestration with enterprise AI deployments. |
+    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🟡 high | Client-go is the foundational programming toolkit and SDK that underpins virtually all custom controllers and platform extensions in the Kubernetes ecosystem. |
+    | 2026-11-05 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | Vertical Pod Autoscaler provides critical automated workload rightsizing that drives cluster efficiency, stability, and cloud FinOps optimization. |
+    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | ExternalDNS is an indispensable ecosystem component that automates external DNS lifecycle management directly from Kubernetes Service and Ingress resources. |
+    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is the industry's most popular terminal-based operational UI, drastically accelerating real-time cluster triage, debugging, and workload administration. |
 
 === "Last 6 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | Kueue provides essential native job queueing and quota management for orchestrating large-scale AI/ML workloads across enterprise clusters. |
-    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | Cluster Autoscaler remains the authoritative, production-critical component for dynamically managing compute node capacity across major cloud providers. |
-    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🟡 high | Kubebuilder is the industry-standard SDK for scaffolding and maintaining custom resources and controllers across the cloud-native ecosystem. |
-    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🟡 high | Client-go is the foundational client library powering the majority of operational tooling, operators, and platform automation in Kubernetes. |
-    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | Karmada delivers advanced multi-cluster federation and cross-cloud scheduling capabilities necessary for distributed enterprise architectures. |
-    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | KServe establishes the standard for cloud-native model inference by abstracting serverless scaling and GPU orchestration on Kubernetes. |
-    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | K9s is an indispensable terminal-based management interface that drastically accelerates real-time cluster operations and pod troubleshooting. |
-    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | External-dns automates critical public and private DNS records directly from Ingress and Service resources across DNS providers. |
-    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🟡 high | Kustomize provides the template-free, declarative YAML customization engine baked directly into kubectl workflows worldwide. |
-    | 2026-11-03 | [github.com/kubernetes-sigs/aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | 🟡 high | AWS Load Balancer Controller is essential for provisioning and orchestrating AWS Application and Network Load Balancers in production EKS environments. |
+    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | It is the foundational core component for dynamically managing node capacity and infrastructure elasticity across all major cloud providers. |
+    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🔴 critical | It serves as the definitive Go SDK and architectural engine powering almost all Kubernetes controllers, operators, and platform tools. |
+    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | It remains the industry-standard developer framework for scaffolding and building custom Kubernetes APIs and controllers. |
+    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🔴 critical | It is the ubiquitous, template-free configuration customization engine natively integrated into kubectl and standard GitOps workflows. |
+    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🟡 high | It provides Kubernetes-native queueing and quota management critical for orchestrating modern AI/ML and distributed batch computing workloads. |
+    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | It addresses complex enterprise hybrid and multi-cloud operations by providing seamless, production-grade multi-cluster workload federation. |
+    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | It establishes the standard cloud-native architecture for high-performance, serverless machine learning inference and model serving at scale. |
+    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | It is the standard Kubernetes-SIG utility for automating dynamic DNS record lifecycle management across cloud providers. |
+    | 2026-11-05 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | It delivers critical automated resource rightsizing to maximize cluster bin-packing efficiency and optimize cloud compute spend. |
+    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🔵 medium | It is the most widely adopted terminal-based management dashboard for real-time cluster inspection, debugging, and incident response. |
 
 === "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | It is the de facto industry-standard framework for building production-grade Kubernetes operators and custom controllers. |
-    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | It provides cloud-native queue management that has become essential for orchestrating AI/ML and batch workloads on Kubernetes. |
-    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | It serves as the foundational core component for dynamic node elasticity and cluster scaling across major cloud providers. |
-    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🔴 critical | It is the bedrock programmatic interface powering virtually every Go-based controller, operator, and platform tool in the ecosystem. |
-    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | It enables enterprise-grade multi-cluster orchestration and seamless cross-region workload distribution at scale. |
-    | 2026-11-05 | [kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster' - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters](https://github.com/kcp-dev/kcp) | 🟡 high | It represents a significant paradigm shift by decoupling the Kubernetes API and controller model from traditional container orchestration. |
-    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | It is the ubiquitous standard for automatically synchronizing Kubernetes ingress and service routing with external cloud DNS providers. |
-    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | It defines the modern cloud-native architectural standard for serverless machine learning inference orchestration. |
-    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🟡 high | It provides the canonical, template-free configuration customization engine integrated directly into core Kubernetes workflows. |
-    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | It is the preeminent terminal UI adopted across the industry to streamline cluster diagnostics, observability, and operations. |
+    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | It serves as the de facto industry-standard framework for building production-grade Kubernetes APIs and custom controllers. |
+    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | It provides cloud-native batch and queue management essential for orchestrating large-scale AI, ML, and high-performance computing workloads. |
+    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | It remains the foundational core component ensuring automated, production-grade cloud node capacity scaling across enterprise clusters. |
+    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🔴 critical | It is the foundational client SDK powering nearly every Go-based operator, custom controller, and CLI tool in the cloud native ecosystem. |
+    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🔴 critical | As a native component of kubectl, it defines the standard for template-free, declarative Kubernetes configuration and GitOps pipelines. |
+    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | It delivers an advanced CNCF multi-cluster federation engine that enables intelligent cross-cloud workload distribution and centralized governance. |
+    | 2026-11-05 | [kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster' - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters](https://github.com/kcp-dev/kcp) | 🟡 high | It introduces a radical paradigm shift by decoupling the Kubernetes API server and control plane model from physical container workloads. |
+    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | It provides automated, dynamic synchronization between Kubernetes services or ingresses and major external DNS providers. |
+    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | It establishes the standard cloud-native serverless architecture for deploying, scaling, and managing AI/ML inference workloads. |
+    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | It is the most widely adopted terminal-based management interface, dramatically improving day-to-day cluster administration and operational velocity. |
 
 
 ## Containers & Runtime
@@ -206,16 +206,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-10-30 | [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) | 🔴 critical | Velero is the cloud-native industry standard for comprehensive cluster disaster recovery and persistent volume backups. |
-    | 2026-10-21 | [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) | 🔴 critical | Crunchy Data's operator is an enterprise benchmark for running highly available, production-grade PostgreSQL natively on Kubernetes. |
-    | 2026-11-02 | [Zalando Postgres Operator](https://github.com/zalando/postgres-operator) | 🟡 high | Zalando's mature operator automates HA Spilo PostgreSQL clusters at massive scale with automated failover and offsite backups. |
-    | 2026-11-05 | [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner' 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) | 🟡 high | The official SIG-Storage provisioner allows stateful databases to consume low-latency local NVMe/SSD storage with minimal overhead. |
-    | 2026-11-01 | [Altinity/clickhouse-operator](https://github.com/Altinity/clickhouse-operator) | 🟡 high | Altinity's operator serves as the de facto standard for orchestrating scalable, high-throughput ClickHouse columnar data warehouses on Kubernetes. |
-    | 2026-10-24 | [redpanda-data/kowl](https://github.com/redpanda-data/console) | 🟡 high | Redpanda Console provides essential real-time observability, payload debugging, and management for Kafka and Redpanda event-streaming clusters. |
-    | 2026-10-28 | [AKHQ (previously known as KafkaHQ) 🌟](https://github.com/tchiotludo/akhq) | 🟡 high | AKHQ is a leading open-source web console providing unified administration across Kafka topics, consumer groups, and schema registries. |
-    | 2026-10-21 | [Stash](https://github.com/stashed/stash) | 🔵 medium | Stash simplifies cloud-native data protection by combining native CSI VolumeSnapshots with Restic-backed persistent volume replication. |
-    | 2026-10-28 | [github.com/gardener/etcd-backup-restore](https://github.com/gardener/etcd-backup-restore) | 🔵 medium | Gardener's etcd backup agent ensures control plane durability by continuously synchronizing transactional deltas and snapshots to object storage. |
-    | 2026-10-31 | [github.com/dolthub/dolt](https://github.com/dolthub/dolt) | 🔵 medium | Dolt introduces a novel paradigm to modern data management by bringing Git-style branching, merging, and versioning directly to SQL tables. |
+    | 2026-10-30 | [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) | 🔴 critical | Velero is the de facto industry standard for Kubernetes cluster disaster recovery, state backup, and persistent volume migration. |
+    | 2026-10-21 | [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) | 🔴 critical | The Crunchy Data operator provides enterprise-grade automation for running highly available, production-ready PostgreSQL on Kubernetes. |
+    | 2026-11-02 | [Zalando Postgres Operator](https://github.com/zalando/postgres-operator) | 🟡 high | A battle-tested PostgreSQL operator from Zalando that standardizes automated failovers, scaling, and backups using Patroni. |
+    | 2026-11-05 | [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner' 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) | 🟡 high | The official SIG-Storage provisioner critical for running high-IOPS, low-latency stateful workloads on local NVMe/SSD storage in Kubernetes. |
+    | 2026-11-01 | [Altinity/clickhouse-operator](https://github.com/Altinity/clickhouse-operator) | 🟡 high | The enterprise standard for deploying and scaling high-throughput ClickHouse columnar analytical databases natively on Kubernetes. |
+    | 2026-10-24 | [redpanda-data/kowl](https://github.com/redpanda-data/console) | 🟡 high | A premier high-performance web console providing granular operational visibility and debugging for modern event-streaming platforms like Kafka and Redpanda. |
+    | 2026-10-28 | [AKHQ (previously known as KafkaHQ) 🌟](https://github.com/tchiotludo/akhq) | 🟡 high | A widely adopted, feature-complete administrative dashboard for managing Apache Kafka topics, consumer groups, and schema registries. |
+    | 2026-10-28 | [github.com/gardener/etcd-backup-restore](https://github.com/gardener/etcd-backup-restore) | 🟡 high | Gardener's utility provides essential automated snapshotting, delta logging, and disaster recovery capabilities for the core Kubernetes etcd datastore. |
+    | 2026-10-31 | [github.com/dolthub/dolt](https://github.com/dolthub/dolt) | 🔵 medium | Pioneers Git-style branching, merging, and versioning paradigms directly within relational SQL data structures. |
+    | 2026-10-30 | [SMB CSI Driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-smb) | 🔵 medium | Fills a crucial enterprise storage gap by providing dynamic provisioning and mounting of SMB shared volumes across hybrid heterogeneous Kubernetes nodes. |
 
 === "Last 6 Months"
 
@@ -517,16 +517,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-02 | [The Agentic Infrastructure Era](https://www.pulumi.com/blog/the-agentic-infrastructure-era) | 🔴 critical | Signals a massive paradigm shift from static, human-written YAML configurations to autonomous, self-healing cloud platforms. |
-    | 2026-06-02 | [OpenTofu 1.12: the Feature Terraform Never Shipped](https://www.infoq.com/news/2026/05/opentofu-release-terraform) | 🟡 high | Solves long-standing upstream Terraform modular limitations by introducing critical pre-condition and dynamic capabilities. |
-    | 2026-06-02 | [Ten More Things You Can Do With Pulumi Neo](https://www.pulumi.com/blog/10-more-things-you-can-do-with-neo) | 🟡 high | Bridges the gap between AI code generation and autonomous infrastructure management directly within enterprise platforms. |
-    | 2026-05-21 | [terraform-review-agent](https://github.com/infiniumtek/terraform-review-agent) | 🟡 high | Demonstrates the state-of-the-art in agentic DevOps by moving past traditional static analysis into cognitive, AI-driven IaC reviews. |
-    | 2026-06-02 | [New in Terraform 1.15: Dynamic sources, variable deprecation, and more](https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more) | 🟡 high | Introduces native dynamic module sources and versioning, improving flexibility for multi-environment IaC engineering. |
-    | 2026-10-08 | [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) | 🟡 high | The definitive, battle-tested standard for orchestrating enterprise-grade Amazon EKS infrastructure via Terraform. |
-    | 2026-10-21 | [Infracost 🌟](https://github.com/infracost/infracost) | 🟡 high | Provides critical pre-allocation cost projections by parsing HCL configurations against cloud pricing APIs. |
-    | 2026-10-30 | [github.com/Azure/aztfexport](https://github.com/Azure/aztfexport) | 🔵 medium | Streamlines infrastructure migration by automatically reverse-engineering existing Azure resources into clean Terraform code. |
-    | 2026-06-14 | [github.com/cloudposse/atmos](https://github.com/cloudposse/atmos) | 🔵 medium | Simplifies multi-account and multi-region cloud orchestration using clean hierarchical YAML stack structures. |
-    | 2026-10-16 | [mineiros-io/terramate](https://github.com/terramate-io/terramate) | 🔵 medium | Optimizes large-scale continuous deployment pipelines and selective change detection across large Terraform and OpenTofu monorepos. |
+    | 2026-11-02 | [OpenTofu Official GitHub Repository](https://github.com/opentofu/opentofu) | 🔴 critical | Provides an open-source, Linux Foundation-governed fork of Terraform featuring breakthrough capabilities like client-side state encryption. |
+    | 2026-11-02 | [HashiCorp Terraform Language: Terraform Stacks Overview](https://developer.hashicorp.com/terraform/language/stacks) | 🔴 critical | Introduces a foundational paradigm shift in HCL for orchestrating multi-region, multi-environment infrastructure as unified stacks. |
+    | 2026-11-02 | [HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments](https://developer.hashicorp.com/terraform/language/resources/ephemeral) | 🟡 high | Eliminates security leakage by ensuring short-lived credentials and sensitive values are never persisted to Terraform state files. |
+    | 2026-11-02 | [HashiCorp Terraform Language: Native Tests and Provider Mocking](https://developer.hashicorp.com/terraform/language/tests) | 🟡 high | Replaces third-party testing frameworks with native HCL unit and integration testing, complete with provider mocking capabilities. |
+    | 2026-11-02 | [aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform](https://github.com/aquasecurity/trivy) | 🟡 high | Serves as the unified cloud-native standard for scanning Terraform configurations, modules, and plans for security misconfigurations and CVEs. |
+    | 2026-11-02 | [runatlantis/atlantis: Terraform Pull Request Automation](https://github.com/runatlantis/atlantis) | 🟡 high | Remains the de facto open-source GitOps engine for collaborative, PR-driven Terraform and OpenTofu execution workflows. |
+    | 2026-10-21 | [Infracost 🌟](https://github.com/infracost/infracost) | 🟡 high | Brings proactive FinOps into CI/CD by dynamically analyzing HCL changes to project cloud infrastructure costs prior to apply. |
+    | 2026-10-08 | [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) | 🟡 high | Acts as the enterprise gold standard for architecting production Kubernetes clusters on AWS via declarative Infrastructure as Code. |
+    | 2026-11-02 | [Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource Module for AKS](https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster) | 🟡 high | Delivers the official Microsoft Azure Verified Module for provisioning production-grade, secure Azure Kubernetes Service infrastructure. |
+    | 2026-11-02 | [Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) | 🟡 high | Delivers a modern reference architecture guiding platform teams through the migration from legacy monolithic CAF modules to modular Azure Landing Zones. |
 
 
 ## CI/CD & GitOps
@@ -881,16 +881,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [KAITO (Kubernetes AI Toolchain Operator)](https://github.com/kaito-project/kaito) | 🔴 critical | As a CNCF Sandbox project created by Azure, KAITO automates GPU provisioning and open-weight model deployment natively on Kubernetes. |
-    | 2026-11-05 | [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) | 🔴 critical | Azure Linux serves as Microsoft's security-hardened, container-optimized host OS powering AKS worker nodes across enterprise deployments. |
-    | 2026-11-05 | [Azure AI Foundry Agent Service](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview) | 🔴 critical | Provides a fully managed cloud-native runtime for orchestrating stateful, multi-agent AI architectures with native enterprise identity and memory persistence. |
-    | 2026-11-01 | [Bicep](https://github.com/Azure/bicep) | 🟡 high | Bicep is the primary declarative Infrastructure-as-Code standard for provisioning Azure infrastructure with native validation and zero-day resource support. |
-    | 2026-11-05 | [Microsoft Azure AI Foundry Portal](https://ai.azure.com) | 🟡 high | Consolidates enterprise foundation model access, fine-tuning pipelines, and agent governance into Azure's primary AI control plane. |
-    | 2026-06-01 | [azurearcjumpstart.io](https://jumpstart.azure.com) | 🟡 high | Serves as the definitive implementation blueprint for managing hybrid and multicloud Kubernetes infrastructure via Azure Arc. |
-    | 2026-11-05 | [Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)](https://github.com/Azure-Samples/azure-search-openai-demo) | 🟡 high | The industry's de facto reference architecture for production-grade retrieval-augmented generation (RAG) on Azure cloud infrastructure. |
-    | 2026-11-05 | [github.com/microsoft/finops-toolkit](https://github.com/microsoft/finops-toolkit) | 🟡 high | Delivers production-ready automation and data pipelines to standardize cloud cost optimization and FinOps governance across Azure tenants. |
-    | 2026-08-27 | [github.com/Azure/apiops 🌟](https://github.com/Azure/apiops) | 🟡 high | Applies cloud-native GitOps principles and declarative configuration automation to Azure API Management environments. |
-    | 2026-11-01 | [floci-az](https://github.com/floci-io/floci-az) | 🔵 medium | Offers a lightweight local emulator unifying Azure PaaS and AKS-like services onto a single port for rapid developer testing. |
+    | 2026-11-05 | [KAITO (Kubernetes AI Toolchain Operator)](https://github.com/kaito-project/kaito) | 🔴 critical | As a CNCF Sandbox project, KAITO bridges Kubernetes and generative AI by automating right-sized GPU provisioning and lifecycle management for open-weight models on AKS. |
+    | 2026-11-05 | [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) | 🔴 critical | Azure Linux serves as the lean, security-hardened container host OS purpose-built to optimize AKS node performance and reduce attack surface. |
+    | 2026-11-01 | [Bicep](https://github.com/Azure/bicep) | 🟡 high | Bicep is Microsoft's primary domain-specific language for declarative Infrastructure as Code, standardizing scalable cloud resource provisioning. |
+    | 2026-11-05 | [Azure AI Foundry Agent Service](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview) | 🟡 high | The Agent Service provides a fully managed enterprise runtime enabling teams to build, deploy, and scale stateful multi-agent systems natively in Azure. |
+    | 2026-11-05 | [Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)](https://github.com/Azure-Samples/azure-search-openai-demo) | 🟡 high | This serves as Microsoft's definitive reference architecture for deploying production-ready enterprise RAG with hybrid vector search and managed security. |
+    | 2026-11-05 | [Microsoft Azure AI Foundry Portal](https://ai.azure.com) | 🟡 high | Foundry is Microsoft's unified control plane consolidating foundation models, agent runtimes, and enterprise governance into a central platform. |
+    | 2026-06-01 | [azurearcjumpstart.io](https://jumpstart.azure.com) | 🟡 high | Azure Arc Jumpstart delivers production-tested automation scenarios for extending cloud-native governance and Kubernetes orchestration into hybrid environments. |
+    | 2026-11-05 | [github.com/microsoft/finops-toolkit](https://github.com/microsoft/finops-toolkit) | 🟡 high | The FinOps Toolkit standardizes cloud financial operations and cost governance architectures across large-scale Azure enterprise deployments. |
+    | 2026-08-27 | [github.com/Azure/apiops 🌟](https://github.com/Azure/apiops) | 🔵 medium | APIOps brings declarative GitOps continuous integration and deployment patterns to Azure API Management infrastructure. |
+    | 2026-11-01 | [floci-az](https://github.com/floci-io/floci-az) | 🔵 medium | Floci-AZ significantly improves developer experience by emulating core Azure services and AKS locally on a single unified port. |
 
 
 ## GCP, OCI & Others
@@ -899,14 +899,13 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-01 | [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) | 🔴 critical | Enables declarative GitOps management of Google Cloud infrastructure directly through native Kubernetes custom resources. |
-    | 2026-11-05 | [Google Cloud Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) | 🔴 critical | Provides Google Cloud's core managed control plane for orchestrating grounded multi-agent systems and enterprise foundation models. |
-    | 2026-11-05 | [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) | 🟡 high | Delivers an open-source, code-first framework with native Model Context Protocol (MCP) support for developing deterministic multi-agent applications. |
-    | 2026-10-30 | [Google Cloud Buildpacks](https://github.com/GoogleCloudPlatform/buildpacks) | 🟡 high | Standardizes CNCF Cloud Native Buildpacks to automate secure OCI container generation without requiring Dockerfile maintenance. |
-    | 2026-11-05 | [Google Cloud Vertex AI and Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) | 🟡 high | Offers production-ready enterprise agent runtimes combining managed Model Garden access with verified enterprise grounding integrations. |
-    | 2026-11-05 | [Google Cloud Generative AI and Vertex AI Reference Architectures](https://github.com/GoogleCloudPlatform/generative-ai) | 🟡 high | Supplies official production reference architectures and enterprise design patterns for deploying Gemini on Vertex AI. |
-    | 2026-11-05 | [Google Cloud Vertex AI Samples](https://github.com/GoogleCloudPlatform/vertex-ai-samples) | 🔵 medium | Features end-to-end Kubeflow pipeline definitions and cloud-native MLOps serving implementations on GCP infrastructure. |
-    | 2026-08-14 | [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) | 🔵 medium | Mitigates database credential sprawl across cloud environments by translating IAM identities directly into ephemeral database access. |
+    | 2026-11-01 | [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) | 🔴 critical | Enables true GitOps by allowing platform teams to manage Google Cloud infrastructure natively through declarative Kubernetes CRDs. |
+    | 2026-10-30 | [Google Cloud Buildpacks](https://github.com/GoogleCloudPlatform/buildpacks) | 🟡 high | Implements CNCF Cloud Native Buildpacks to streamline secure, reproducible OCI container image generation without Dockerfiles across GCP environments. |
+    | 2026-11-05 | [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) | 🟡 high | Provides an open-source, code-first multi-agent development framework with native support for the Model Context Protocol (MCP). |
+    | 2026-11-05 | [Google Cloud Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) | 🟡 high | Delivers Google Cloud's core enterprise managed platform for orchestrating, grounding, and deploying production Gemini-based agents. |
+    | 2026-11-05 | [Google Cloud Vertex AI and Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) | 🟡 high | Offers an enterprise-grade runtime uniting foundation models, Model Garden, and agent grounding pipelines under unified governance. |
+    | 2026-11-05 | [Google Cloud Vertex AI Samples](https://github.com/GoogleCloudPlatform/vertex-ai-samples) | 🔵 medium | Provides production-tested reference patterns combining Vertex AI with cloud native MLOps tooling like Kubeflow Pipelines. |
+    | 2026-11-05 | [Google Cloud Generative AI and Vertex AI Reference Architectures](https://github.com/GoogleCloudPlatform/generative-ai) | 🔵 medium | Supplies standardized architectural blueprints and production notebooks for implementing enterprise RAG and generative AI workflows on GCP. |
 
 === "Last 6 Months"
 

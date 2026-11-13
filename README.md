@@ -217,14 +217,14 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 ## 2. Repository Metrics and Evolution
 
 ### 2.1. The "Heart" of Nubenetes
-(Stats as of 2026-11-11)
+(Stats as of 2026-11-13)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **20026+** |
+| **Total Technical Resources (Links)** | **20058+** |
 | **Specialized MD Pages** | **163** |
-| **Total Commits** | **7377+** |
+| **Total Commits** | **7387+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -262,7 +262,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 3818 | 15,768 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 3828 | 15,809 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -278,8 +278,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 16000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15768]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3818]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15809]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3828]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -292,7 +292,7 @@ xychart-beta
 | 2026-06 | 853 | 3,522 | Active Curation |
 | 2026-07 | 382 | 1,577 | Active Curation |
 | 2026-10 | 170 | 702 | Active Curation |
-| 2026-11 | 150 | 619 | Active Curation |
+| 2026-11 | 160 | 660 | Active Curation |
 | 2026-09 | 77 | 318 | Active Curation |
 | 2026-08 | 60 | 247 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
@@ -307,7 +307,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Specialized Topics" : 5626
+    "Specialized Topics" : 5658
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
     "Public/Private Cloud" : 2500
@@ -328,10 +328,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 18023
-    "Spanish" : 1201
+    "English" : 18052
+    "Spanish" : 1203
     "French" : 200
-    "Others" : 600
+    "Others" : 601
 ```
 <!-- SUB_ECO_CHART_END -->
 
