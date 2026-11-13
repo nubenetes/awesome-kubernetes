@@ -731,6 +731,18 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## AWS Emulator Terraform CI CD
+
+??? note "🎬 Nubenetes AWS Emulator: Local AWS APIs, Terraform & CI/CD Guide"
+    !!! info "Architectural Summary"
+        Complete technical reference and survival guide for Amazon's open-source AWS Emulator (github.com/aws/aws-emulator, CC0-1.0), spanning 436 Smithy-generated Rust service crates backed by a shared InMemoryEngine. Covers standalone local execution (Linux RPM/DEB packages and Docker serving HTTPS on 127.0.0.1:9297 with GET /__admin/health), CLI and SDK endpoint routing (AWS_ENDPOINT_URL, AWS_CA_BUNDLE, ca.pem), Terraform and Atmos IaC validation workflows (provider endpoint wiring, skip_credentials_validation, handling 501 Not Implemented control-plane gaps vs. LocalStack), ephemeral per-job CI/CD sandboxing in GitHub Actions and GitLab CI, aws-emulator-embedded in-process Rust unit testing, AI coding agent setup (aws agent-toolkit add-skill), automated release fidelity tracking (v1.0.345), managing the 100+ GB Rust workspace build cost (CARGO_TARGET_DIR and sccache), and disabling default telemetry.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLZOsodxc3GIM" title="Nubenetes AWS Emulator: Local AWS APIs, Terraform & CI/CD Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"
