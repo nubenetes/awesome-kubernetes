@@ -906,6 +906,40 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## NVIDIA SkillEvaluator AI Agent Security
+
+??? note "🎬 Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide"
+    !!! info "Architectural Summary"
+        Comprehensive architectural guide and production engineering reference on NVIDIA SkillEvaluator (arXiv:2608.20614) for evaluating, securing, and benchmarking AI coding agent skills across Codex, Claude Code, and OpenCode. Covers the 3-tier evaluation funnel: Tier 1 static AST linting and security scanning (SkillSpector, Gitleaks, Semgrep, PII and prompt-injection checks), Tier 2 semantic deduplication and cross-skill overlap detection, and Tier 3 live Harbor sandboxed benchmarking measuring Skill Lift, pass@k improvements, and token/latency cost trade-offs.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLGtiisOtFk3s" title="Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Clinical AI MLOps Governance
+
+??? note "🎬 Nubenetes Medical Imaging AI: Clinical Ecosystem & Strategy (2026)"
+    !!! info "Architectural Summary"
+        Strategic and architectural guide to the 2026 medical imaging AI ecosystem following the post-hype clinical correction. Examines hospital radiology AI orchestration gateways (Incepto Medical), quantitative imaging biomarkers and radiomics (Quibim), non-contrast CT acute stroke triage (Methinks AI), and dermatology lesion screening (Legit.Health), alongside post-market model drift ("algorithm zombies"), MLOps continuous monitoring, EU MDR, EU AI Act compliance, and federated clinical data spaces such as EUCAIM.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLEy77ddIvsH4" title="Nubenetes Medical Imaging AI: Clinical Ecosystem & Strategy (2026)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español) [SPANISH CONTENT]"
+    !!! info "Architectural Summary"
+        Análisis estratégicos en español sobre el ecosistema de la inteligencia artificial en imagen médica tras la corrección clínica de 2026 y un crecimiento del 34,2% anual en España [SPANISH CONTENT]. Explora plataformas de orquestación radiológica hospitalaria (Incepto Medical), biomarcadores cuantitativos de imagen (Quibim), triaje urgente de ictus sin contraste (Methinks AI) y dermatología digital (Legit.Health), así como el fenómeno de los "algoritmos zombis", la vigilancia poscomercialización, la contratación pública hospitalaria y el cumplimiento CE, FDA y EU AI Act.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLPshE-mkC590" title="Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## LLM Architecture and Post-Training
 
 ??? note "🎬 Stanford CS229: Building Large Language Models (LLMs)"

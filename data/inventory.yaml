@@ -719130,3 +719130,197 @@ https://www.youtube.com/playlist?list=PLE9XanQNEMZs:
   technology: DevOps + AI Agents
   category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLGtiisOtFk3s:
+  title: 'Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide'
+  description: Comprehensive architectural guide and technical deep dives on NVIDIA
+    SkillEvaluator for auditing, deduplicating, and benchmarking AI coding agent skills.
+  year: '2026'
+  stars: 5
+  ai_summary: 'Comprehensive architectural guide and production engineering reference
+    on NVIDIA SkillEvaluator (arXiv:2608.20614) for evaluating, securing, and benchmarking
+    AI coding agent skills across Codex, Claude Code, and OpenCode. Covers the 3-tier
+    evaluation funnel: Tier 1 static AST linting and security scanning (SkillSpector,
+    Gitleaks, Semgrep, PII and prompt-injection checks), Tier 2 semantic deduplication
+    and cross-skill overlap detection, and Tier 3 live Harbor sandboxed benchmarking
+    measuring Skill Lift, pass@k improvements, and token/latency cost trade-offs.'
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794599000
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T19:00:00.000000+01:00'
+  last_ai_eval: '2026-11-13T19:00:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - AI and Future Operations
+  - AI Agents and Security
+  tags:
+  - '[AI]'
+  - '[AGENTS]'
+  - '[NVIDIA]'
+  - '[SECURITY]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/ai.md
+  v2_locations:
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: NVIDIA SkillEvaluator + AI Agent Security
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLPVDu1Q58BQM:
+  title: 'Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide'
+  description: Architectural masterclass and engineering deep dives on NVIDIA Kubernetes
+    Engine (NVKE) for self-hosting bare-metal GPU clouds.
+  year: '2026'
+  stars: 5
+  ai_summary: Architectural deep dives and production engineering guide on NVIDIA
+    Kubernetes Engine (NVKE) for building self-hosted bare-metal GPU cloud infrastructure.
+    Covers the nvkectl kind-to-management-to-tenant cluster factory lifecycle on Kubernetes
+    1.36.3 and Ubuntu 26.04/24.04 LTS, the 13-module Go 1.27.4 workspace, PostgreSQL
+    workflow_outbox with Temporal orchestration, CAPI v1.13.6 and CAPNICo v0.1.0 bare-metal
+    provisioning, nvke-agent gRPC port 15005, TPM and SPIFFE/SPIRE 1.14.1 workload
+    identity, OVN-Kubernetes 2.4.2 networking, and the NVKR/AICR/CRE/NVSentinel DSX
+    OS stack.
+  language: English
+  resource_type: Video
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794512600
+  needs_ai_refresh: false
+  discovered_at: '2026-11-12T20:00:00.000000+01:00'
+  last_ai_eval: '2026-11-12T20:00:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Container Strategy
+  - Bare-Metal GPU Kubernetes
+  tags:
+  - '[KUBERNETES]'
+  - '[NVIDIA]'
+  - '[GPU]'
+  - '[BARE-METAL]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - cloud-native.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Bare-Metal GPU Kubernetes + NVIDIA DSX OS
+  category: Container Strategy
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLEy77ddIvsH4:
+  title: 'Nubenetes Medical Imaging AI: Clinical Ecosystem & Strategy (2026)'
+  description: Architectural and strategic analysis of the 2026 medical imaging AI
+    ecosystem, radiology orchestration platforms, biomarkers, and clinical governance.
+  year: '2026'
+  stars: 5
+  ai_summary: Strategic and architectural guide to the 2026 medical imaging AI ecosystem
+    following the post-hype clinical correction. Examines hospital radiology AI orchestration
+    gateways (Incepto Medical), quantitative imaging biomarkers and radiomics (Quibim),
+    non-contrast CT acute stroke triage (Methinks AI), and dermatology lesion screening
+    (Legit.Health), alongside post-market model drift ("algorithm zombies"), MLOps
+    continuous monitoring, EU MDR, EU AI Act compliance, and federated clinical data
+    spaces such as EUCAIM.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794599000
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T18:00:00.000000+01:00'
+  last_ai_eval: '2026-11-13T18:00:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - AI and Future Operations
+  - Clinical AI Governance
+  tags:
+  - '[AI]'
+  - '[HEALTHCARE]'
+  - '[GOVERNANCE]'
+  - '[MLOPS]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/ai.md
+  v2_locations:
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Clinical AI + MLOps Governance
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLPshE-mkC590:
+  title: 'Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)'
+  description: Análisis estratégicos en español sobre el ecosistema de la inteligencia
+    artificial en imagen médica, regulación sanitaria y gobernanza clínica.
+  year: '2026'
+  stars: 5
+  ai_summary: Análisis estratégicos en español sobre el ecosistema de la inteligencia
+    artificial en imagen médica tras la corrección clínica de 2026 y un crecimiento
+    del 34,2% anual en España [SPANISH CONTENT]. Explora plataformas de orquestación
+    radiológica hospitalaria (Incepto Medical), biomarcadores cuantitativos de imagen
+    (Quibim), triaje urgente de ictus sin contraste (Methinks AI) y dermatología digital
+    (Legit.Health), así como el fenómeno de los "algoritmos zombis", la vigilancia
+    poscomercialización, la contratación pública hospitalaria y el cumplimiento CE,
+    FDA y EU AI Act.
+  language: Spanish
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794599000
+  needs_ai_refresh: false
+  discovered_at: '2026-11-13T18:30:00.000000+01:00'
+  last_ai_eval: '2026-11-13T18:30:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Architecture and Cloud Strategy
+  - AI and Future Operations
+  - Clinical AI Governance
+  tags:
+  - '[AI]'
+  - '[SPANISH]'
+  - '[HEALTHCARE]'
+  - '[GOVERNANCE]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/ai.md
+  v2_locations:
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Clinical AI + MLOps Governance
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel

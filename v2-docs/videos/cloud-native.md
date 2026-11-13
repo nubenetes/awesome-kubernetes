@@ -762,6 +762,18 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Bare-Metal GPU Kubernetes NVIDIA DSX OS
+
+??? note "🎬 Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide"
+    !!! info "Architectural Summary"
+        Architectural deep dives and production engineering guide on NVIDIA Kubernetes Engine (NVKE) for building self-hosted bare-metal GPU cloud infrastructure. Covers the nvkectl kind-to-management-to-tenant cluster factory lifecycle on Kubernetes 1.36.3 and Ubuntu 26.04/24.04 LTS, the 13-module Go 1.27.4 workspace, PostgreSQL workflow_outbox with Temporal orchestration, CAPI v1.13.6 and CAPNICo v0.1.0 bare-metal provisioning, nvke-agent gRPC port 15005, TPM and SPIFFE/SPIRE 1.14.1 workload identity, OVN-Kubernetes 2.4.2 networking, and the NVKR/AICR/CRE/NVSentinel DSX OS stack.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLPVDu1Q58BQM" title="Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Azure Verified Modules AVM
 
 ??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot"
