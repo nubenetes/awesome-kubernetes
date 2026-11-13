@@ -7,7 +7,7 @@
         "date": "2026-10-30",
         "stars": 5,
         "impact": "critical",
-        "why": "Velero is the cloud-native industry standard for comprehensive cluster disaster recovery and persistent volume backups.",
+        "why": "Velero is the de facto industry standard for Kubernetes cluster disaster recovery, state backup, and persistent volume migration.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -16,7 +16,7 @@
         "date": "2026-10-21",
         "stars": 5,
         "impact": "critical",
-        "why": "Crunchy Data's operator is an enterprise benchmark for running highly available, production-grade PostgreSQL natively on Kubernetes.",
+        "why": "The Crunchy Data operator provides enterprise-grade automation for running highly available, production-ready PostgreSQL on Kubernetes.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -25,7 +25,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "Zalando's mature operator automates HA Spilo PostgreSQL clusters at massive scale with automated failover and offsite backups.",
+        "why": "A battle-tested PostgreSQL operator from Zalando that standardizes automated failovers, scaling, and backups using Patroni.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -34,7 +34,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "The official SIG-Storage provisioner allows stateful databases to consume low-latency local NVMe/SSD storage with minimal overhead.",
+        "why": "The official SIG-Storage provisioner critical for running high-IOPS, low-latency stateful workloads on local NVMe/SSD storage in Kubernetes.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -43,7 +43,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Altinity's operator serves as the de facto standard for orchestrating scalable, high-throughput ClickHouse columnar data warehouses on Kubernetes.",
+        "why": "The enterprise standard for deploying and scaling high-throughput ClickHouse columnar analytical databases natively on Kubernetes.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -52,7 +52,7 @@
         "date": "2026-10-24",
         "stars": 5,
         "impact": "high",
-        "why": "Redpanda Console provides essential real-time observability, payload debugging, and management for Kafka and Redpanda event-streaming clusters.",
+        "why": "A premier high-performance web console providing granular operational visibility and debugging for modern event-streaming platforms like Kafka and Redpanda.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -61,16 +61,7 @@
         "date": "2026-10-28",
         "stars": 5,
         "impact": "high",
-        "why": "AKHQ is a leading open-source web console providing unified administration across Kafka topics, consumer groups, and schema registries.",
-        "category": "Data, Messaging & Storage"
-      },
-      {
-        "url": "https://github.com/stashed/stash",
-        "title": "Stash",
-        "date": "2026-10-21",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Stash simplifies cloud-native data protection by combining native CSI VolumeSnapshots with Restic-backed persistent volume replication.",
+        "why": "A widely adopted, feature-complete administrative dashboard for managing Apache Kafka topics, consumer groups, and schema registries.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -78,8 +69,8 @@
         "title": "github.com/gardener/etcd-backup-restore",
         "date": "2026-10-28",
         "stars": 4,
-        "impact": "medium",
-        "why": "Gardener's etcd backup agent ensures control plane durability by continuously synchronizing transactional deltas and snapshots to object storage.",
+        "impact": "high",
+        "why": "Gardener's utility provides essential automated snapshotting, delta logging, and disaster recovery capabilities for the core Kubernetes etcd datastore.",
         "category": "Data, Messaging & Storage"
       },
       {
@@ -88,7 +79,16 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "medium",
-        "why": "Dolt introduces a novel paradigm to modern data management by bringing Git-style branching, merging, and versioning directly to SQL tables.",
+        "why": "Pioneers Git-style branching, merging, and versioning paradigms directly within relational SQL data structures.",
+        "category": "Data, Messaging & Storage"
+      },
+      {
+        "url": "https://github.com/kubernetes-csi/csi-driver-smb",
+        "title": "SMB CSI Driver for Kubernetes",
+        "date": "2026-10-30",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Fills a crucial enterprise storage gap by providing dynamic provisioning and mounting of SMB shared volumes across hybrid heterogeneous Kubernetes nodes.",
         "category": "Data, Messaging & Storage"
       }
     ],
@@ -651,7 +651,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Kueue has become the CNCF standard for orchestrating AI/ML batch jobs and managing multi-tenant scheduling queues natively in Kubernetes.",
+        "why": "Kueue has become the de facto cloud-native batch scheduling and queueing engine powering large-scale AI and ML workloads on Kubernetes.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -660,7 +660,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Kubebuilder is the authoritative industry framework for developing production-grade Kubernetes custom controllers and operators.",
+        "why": "Kubebuilder serves as the industry-standard developer framework for scaffolding production-grade Kubernetes Custom Resource Definitions and controllers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -669,7 +669,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Cluster Autoscaler remains the foundational core component driving cloud infrastructure elasticity and cost efficiency across production deployments.",
+        "why": "Cluster Autoscaler remains the foundational core component driving dynamic cloud node elasticity across production Kubernetes environments.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/kustomize",
+        "title": "kustomize",
+        "date": "2026-11-01",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Kustomize is a ubiquitous declarative manifest customization engine essential to modern GitOps and configuration management workflows.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -678,7 +687,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Karmada provides advanced, non-intrusive multi-cluster federation and workload distribution across hybrid and multi-cloud environments.",
+        "why": "Karmada provides advanced, production-proven multi-cluster orchestration and workload federation across hybrid and multi-cloud architectures.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -687,7 +696,7 @@
         "date": "2026-11-04",
         "stars": 5,
         "impact": "high",
-        "why": "KServe is the leading cloud-native model serving platform enabling standardized, auto-scaling inference workloads on Kubernetes.",
+        "why": "KServe standardizes serverless model serving and inference management on Kubernetes, bridging cloud-native orchestration with enterprise AI deployments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -696,25 +705,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Client-go is the mission-critical programmatic foundation that powers nearly every custom controller and platform tool in the cloud native ecosystem.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/external-dns",
-        "title": "external-dns",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "ExternalDNS is an essential networking add-on that automates DNS management by syncing ingress and service records directly with cloud DNS providers.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/kustomize",
-        "title": "kustomize",
-        "date": "2026-11-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "Kustomize is the ubiquitous template-free configuration management standard natively integrated into Kubernetes delivery workflows.",
+        "why": "Client-go is the foundational programming toolkit and SDK that underpins virtually all custom controllers and platform extensions in the Kubernetes ecosystem.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -723,7 +714,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Vertical Pod Autoscaler provides automated, data-driven CPU and memory rightsizing crucial for optimizing cluster resource utilization.",
+        "why": "Vertical Pod Autoscaler provides critical automated workload rightsizing that drives cluster efficiency, stability, and cloud FinOps optimization.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/external-dns",
+        "title": "external-dns",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "ExternalDNS is an indispensable ecosystem component that automates external DNS lifecycle management directly from Kubernetes Service and Ingress resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -732,7 +732,7 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "high",
-        "why": "K9s is the industry-standard terminal interface adopted by platform teams to dramatically accelerate day-2 observability and cluster troubleshooting.",
+        "why": "K9s is the industry's most popular terminal-based operational UI, drastically accelerating real-time cluster triage, debugging, and workload administration.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -1095,25 +1095,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Enables declarative GitOps management of Google Cloud infrastructure directly through native Kubernetes custom resources.",
-        "category": "GCP, OCI & Others"
-      },
-      {
-        "url": "https://cloud.google.com/products/agent-builder",
-        "title": "Google Cloud Vertex AI Agent Builder",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides Google Cloud's core managed control plane for orchestrating grounded multi-agent systems and enterprise foundation models.",
-        "category": "GCP, OCI & Others"
-      },
-      {
-        "url": "https://github.com/google/adk-python",
-        "title": "Google Agent Development Kit (ADK)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers an open-source, code-first framework with native Model Context Protocol (MCP) support for developing deterministic multi-agent applications.",
+        "why": "Enables true GitOps by allowing platform teams to manage Google Cloud infrastructure natively through declarative Kubernetes CRDs.",
         "category": "GCP, OCI & Others"
       },
       {
@@ -1122,7 +1104,25 @@
         "date": "2026-10-30",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes CNCF Cloud Native Buildpacks to automate secure OCI container generation without requiring Dockerfile maintenance.",
+        "why": "Implements CNCF Cloud Native Buildpacks to streamline secure, reproducible OCI container image generation without Dockerfiles across GCP environments.",
+        "category": "GCP, OCI & Others"
+      },
+      {
+        "url": "https://github.com/google/adk-python",
+        "title": "Google Agent Development Kit (ADK)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides an open-source, code-first multi-agent development framework with native support for the Model Context Protocol (MCP).",
+        "category": "GCP, OCI & Others"
+      },
+      {
+        "url": "https://cloud.google.com/products/agent-builder",
+        "title": "Google Cloud Vertex AI Agent Builder",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers Google Cloud's core enterprise managed platform for orchestrating, grounding, and deploying production Gemini-based agents.",
         "category": "GCP, OCI & Others"
       },
       {
@@ -1131,16 +1131,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Offers production-ready enterprise agent runtimes combining managed Model Garden access with verified enterprise grounding integrations.",
-        "category": "GCP, OCI & Others"
-      },
-      {
-        "url": "https://github.com/GoogleCloudPlatform/generative-ai",
-        "title": "Google Cloud Generative AI and Vertex AI Reference Architectures",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Supplies official production reference architectures and enterprise design patterns for deploying Gemini on Vertex AI.",
+        "why": "Offers an enterprise-grade runtime uniting foundation models, Model Garden, and agent grounding pipelines under unified governance.",
         "category": "GCP, OCI & Others"
       },
       {
@@ -1149,16 +1140,16 @@
         "date": "2026-11-05",
         "stars": 4,
         "impact": "medium",
-        "why": "Features end-to-end Kubeflow pipeline definitions and cloud-native MLOps serving implementations on GCP infrastructure.",
+        "why": "Provides production-tested reference patterns combining Vertex AI with cloud native MLOps tooling like Kubeflow Pipelines.",
         "category": "GCP, OCI & Others"
       },
       {
-        "url": "https://github.com/kloeckner-i/db-auth-gateway",
-        "title": "db-auth-gateway",
-        "date": "2026-08-14",
+        "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+        "title": "Google Cloud Generative AI and Vertex AI Reference Architectures",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "medium",
-        "why": "Mitigates database credential sprawl across cloud environments by translating IAM identities directly into ephemeral database access.",
+        "why": "Supplies standardized architectural blueprints and production notebooks for implementing enterprise RAG and generative AI workflows on GCP.",
         "category": "GCP, OCI & Others"
       }
     ],
@@ -1868,12 +1859,39 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/watch?v=jlYcf5S5Wvw",
-        "title": "Arquitectura de Microsoft Foundry: Migración Empresarial y Control de Recursos",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/playlist?list=PLPshE-mkC590",
+        "title": "Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a localized strategic breakdown of clinical AI adoption, orchestration platforms, and regulatory compliance tailored to the Spanish healthcare ecosystem.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Tvz-CxJr9nM",
+        "title": "Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Details the architectural migration in Spain from isolated AI algorithms to unified, interoperable hospital workflows integrated with clinical PACS/RIS.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ykrlQKFAhgI",
+        "title": "La Corrección Clínica en IA Médica: Estrategia e Imagen en España",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Addresses operational model drift and architectural strategies for sustaining production medical AI deployments within Spanish clinical environments.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLXDBfnEd7RX8",
+        "title": "⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide",
+        "date": "2026-11-11",
         "stars": 5,
         "impact": "critical",
-        "why": "Proporciona un desglose arquitectónico en español crucial para empresas que consolidan servicios cognitivos en el plano de control unificado de Microsoft Foundry.",
+        "why": "Delivers the comprehensive reference guide for OpenShift 5 on Kubernetes 1.36, highlighting frictionless in-place major upgrades and enterprise virtualization.",
         "category": "Spain"
       },
       {
@@ -1882,79 +1900,52 @@
         "date": "2026-11-11",
         "stars": 5,
         "impact": "critical",
-        "why": "Explica la arquitectura clave de OpenShift 5 con actualizaciones mayores sin interrupciones y virtualización nativa sobre Kubernetes 1.36.",
+        "why": "Analyzes mission-critical enterprise Kubernetes platform updates including agentic pre-flight checks and native OpenShift Virtualization 5 enhancements.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=Y5g-xEnYMYw",
-        "title": "Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Ofrece una guía paso a paso en español para migrar cargas de trabajo de IA generativa a producción sin tiempo de inactividad.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=AdKSA50W4P4",
-        "title": "AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Establece un marco de decisión fundamental entre modelos de Kubernetes administrado público, edge híbrido y distribuciones empresariales.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=kSlp-I6WvqE",
-        "title": "Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Compara rigurosamente la compensación entre productividad de desarrollo y gobernanza de infraestructura entre AKS, OpenShift, Tanzu y Rancher.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=1bs9TiAjWO8",
-        "title": "Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization",
+        "url": "https://www.youtube.com/shorts/u07rBU5fYTE",
+        "title": "How OpenShift 5 Secures Sovereign Clouds: Air-Gapped & Zero-Trust Governance",
         "date": "2026-11-11",
         "stars": 5,
         "impact": "high",
-        "why": "Detalla los cambios arquitectónicos en OpenShift 5 alineados con Kubernetes 1.36 y diagnósticos agenticos de IA para operaciones de clúster.",
+        "why": "Provides key sovereign cloud and zero-trust governance architectures essential for meeting stringent European and Spanish data sovereignty standards.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=gIBnUR1CHNY",
-        "title": "Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/playlist?list=PLPVDu1Q58BQM",
+        "title": "Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide",
+        "date": "2026-11-12",
         "stars": 5,
-        "impact": "high",
-        "why": "Entrega una guía arquitectónica decisiva para seleccionar el nivel de cómputo de contenedores adecuado en entornos cloud híbridos de Azure.",
+        "impact": "critical",
+        "why": "Serves as an essential architectural reference for deploying and operating bare-metal NVIDIA Kubernetes Engine (NVKE) infrastructure for enterprise AI.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=STC4L1w2cPg",
-        "title": "Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Profundiza en la persistencia de estado y ejecución de agentes autónomos empresariales mediante APIs estandarizadas y observabilidad.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=5J484Se-Nso",
-        "title": "From Prompts to Graph Swarms: Andrej Karpathy's AI Graph Architecture Masterclass",
+        "url": "https://www.youtube.com/shorts/MX505_pRGD0",
+        "title": "How Confidential Containers Protect AI Models in Red Hat OpenShift 5 [Short]",
         "date": "2026-11-11",
         "stars": 5,
         "impact": "high",
-        "why": "Define el cambio de paradigma de ingeniería de prompts a arquitecturas de enjambre con grafos de conocimiento persistentes para mitigar la degradación de contexto.",
+        "why": "Examines Confidential Containers (CoCo) leveraging hardware-enforced TEEs to secure proprietary LLM weights in cloud native environments.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=CkFIcxzEnVw",
-        "title": "The Great Foundry Shift: Enterprise AI Operating Model & FinOps Governance",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/shorts/SO6i_-fUero",
+        "title": "How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]",
+        "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Aborda el modelo operativo y las prácticas de FinOps requeridas para gobernar los costes de inferencia y despliegue de IA a escala empresarial.",
+        "why": "Details hardware-rooted zero-trust security for bare-metal GPU clusters utilizing CNCF SPIFFE/SPIRE attestation and TPM verification.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/gbXCFGCR1-Q",
+        "title": "AKS vs AKS Local vs OpenShift: Choosing Your Enterprise Kubernetes Platform",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Outlines a clear decision framework comparing public managed cloud, hybrid edge (AKS Local), and OpenShift for enterprise Kubernetes governance.",
         "category": "Spain"
       }
     ]
@@ -1962,30 +1953,12 @@
   "6_months": {
     "Kubernetes & Orchestration": [
       {
-        "url": "https://github.com/kubernetes-sigs/kueue",
-        "title": "kubernetes-sigs/kueue: Kubernetes-native Job Queueing",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Kueue provides essential native job queueing and quota management for orchestrating large-scale AI/ML workloads across enterprise clusters.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
         "url": "https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler",
         "title": "github.com/kubernetes: **Kubernetes Cluster Autoscaler**",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Cluster Autoscaler remains the authoritative, production-critical component for dynamically managing compute node capacity across major cloud providers.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/kubebuilder",
-        "title": "kubernetes-sigs/kubebuilder",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Kubebuilder is the industry-standard SDK for scaffolding and maintaining custom resources and controllers across the cloud-native ecosystem.",
+        "why": "It is the foundational core component for dynamically managing node capacity and infrastructure elasticity across all major cloud providers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -1993,8 +1966,35 @@
         "title": "kubernetes/client-go: Go client for Kubernetes 🌟",
         "date": "2026-11-05",
         "stars": 5,
+        "impact": "critical",
+        "why": "It serves as the definitive Go SDK and architectural engine powering almost all Kubernetes controllers, operators, and platform tools.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/kubebuilder",
+        "title": "kubernetes-sigs/kubebuilder",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "It remains the industry-standard developer framework for scaffolding and building custom Kubernetes APIs and controllers.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/kustomize",
+        "title": "kustomize",
+        "date": "2026-11-01",
+        "stars": 5,
+        "impact": "critical",
+        "why": "It is the ubiquitous, template-free configuration customization engine natively integrated into kubectl and standard GitOps workflows.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/kueue",
+        "title": "kubernetes-sigs/kueue: Kubernetes-native Job Queueing",
+        "date": "2026-11-05",
+        "stars": 5,
         "impact": "high",
-        "why": "Client-go is the foundational client library powering the majority of operational tooling, operators, and platform automation in Kubernetes.",
+        "why": "It provides Kubernetes-native queueing and quota management critical for orchestrating modern AI/ML and distributed batch computing workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2003,7 +2003,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Karmada delivers advanced multi-cluster federation and cross-cloud scheduling capabilities necessary for distributed enterprise architectures.",
+        "why": "It addresses complex enterprise hybrid and multi-cloud operations by providing seamless, production-grade multi-cluster workload federation.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2012,16 +2012,7 @@
         "date": "2026-11-04",
         "stars": 5,
         "impact": "high",
-        "why": "KServe establishes the standard for cloud-native model inference by abstracting serverless scaling and GPU orchestration on Kubernetes.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/derailed/k9s",
-        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
-        "date": "2026-10-31",
-        "stars": 5,
-        "impact": "high",
-        "why": "K9s is an indispensable terminal-based management interface that drastically accelerates real-time cluster operations and pod troubleshooting.",
+        "why": "It establishes the standard cloud-native architecture for high-performance, serverless machine learning inference and model serving at scale.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2030,25 +2021,25 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "External-dns automates critical public and private DNS records directly from Ingress and Service resources across DNS providers.",
+        "why": "It is the standard Kubernetes-SIG utility for automating dynamic DNS record lifecycle management across cloud providers.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/kubernetes-sigs/kustomize",
-        "title": "kustomize",
-        "date": "2026-11-01",
+        "url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler",
+        "title": "VPA: Vertical Pod Autoscaler",
+        "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Kustomize provides the template-free, declarative YAML customization engine baked directly into kubectl workflows worldwide.",
+        "why": "It delivers critical automated resource rightsizing to maximize cluster bin-packing efficiency and optimize cloud compute spend.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/kubernetes-sigs/aws-load-balancer-controller",
-        "title": "github.com/kubernetes-sigs/aws-load-balancer-controller",
-        "date": "2026-11-03",
+        "url": "https://github.com/derailed/k9s",
+        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
+        "date": "2026-10-31",
         "stars": 5,
-        "impact": "high",
-        "why": "AWS Load Balancer Controller is essential for provisioning and orchestrating AWS Application and Network Load Balancers in production EKS environments.",
+        "impact": "medium",
+        "why": "It is the most widely adopted terminal-based management dashboard for real-time cluster inspection, debugging, and incident response.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -3894,21 +3885,12 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/watch?v=jlYcf5S5Wvw",
-        "title": "Arquitectura de Microsoft Foundry: Migración Empresarial y Control de Recursos",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/playlist?list=PLXDBfnEd7RX8",
+        "title": "⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide",
+        "date": "2026-11-11",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides a Spanish-language architectural breakdown of the Microsoft Foundry control plane migration for enterprise governance.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Y5g-xEnYMYw",
-        "title": "Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers an actionable zero-downtime migration and SDK strategy for production generative AI workloads targeting the Spanish market.",
+        "why": "Provides a comprehensive enterprise guide to Red Hat OpenShift 5, covering Kubernetes 1.36 alignment, in-place upgrades, and advanced virtualization capabilities.",
         "category": "Spain"
       },
       {
@@ -3917,61 +3899,52 @@
         "date": "2026-11-11",
         "stars": 5,
         "impact": "critical",
-        "why": "Details the major architectural shift in OpenShift 5 with Kubernetes 1.36 and non-disruptive in-place upgrades.",
+        "why": "Details the architectural shift in OpenShift 5 with seamless major-version updates and native agentic AI integration for enterprise hybrid clouds.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=AdKSA50W4P4",
-        "title": "AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/playlist?list=PLPVDu1Q58BQM",
+        "title": "Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide",
+        "date": "2026-11-12",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Delivers an end-to-end architectural guide for deploying self-hosted bare-metal GPU cloud infrastructure using NVIDIA Kubernetes Engine.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLPshE-mkC590",
+        "title": "Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)",
+        "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Evaluates enterprise Kubernetes deployment models across public cloud, hybrid edge (AKS Local), and managed OpenShift.",
+        "why": "Offers localized strategic analysis of the rapidly expanding clinical imaging AI ecosystem and orchestration architectures across Spain.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=kSlp-I6WvqE",
-        "title": "Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/watch?v=Tvz-CxJr9nM",
+        "title": "Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema",
+        "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Offers an extensive comparative matrix across AKS, OpenShift, Tanzu, and Rancher balancing platform control against developer velocity.",
+        "why": "Directly evaluates the operational transition from isolated AI models to integrated hospital platform workflows within the Spanish healthcare market.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=gIBnUR1CHNY",
-        "title": "Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/watch?v=ykrlQKFAhgI",
+        "title": "La Corrección Clínica en IA Médica: Estrategia e Imagen en España",
+        "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Establishes a practical architectural decision framework across Azure container compute options (ACI, ACA, AKS).",
+        "why": "Addresses critical architectural patterns for integrating medical imaging AI into clinical PACS/RIS workflows specifically tailored to Spain's clinical correction.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=4-oLXvCaZiM",
-        "title": "Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5",
-        "date": "2026-11-11",
+        "url": "https://www.youtube.com/shorts/SO6i_-fUero",
+        "title": "How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]",
+        "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Explores OpenShift 5 production capabilities including agentic AI pre-flight checks and KubeVirt modernizations.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=STC4L1w2cPg",
-        "title": "Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Deep dives into managed AI agent services, persistent execution environments, and cloud native observability patterns.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=5J484Se-Nso",
-        "title": "From Prompts to Graph Swarms: Andrej Karpathy's AI Graph Architecture Masterclass",
-        "date": "2026-11-11",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Analyzes the paradigm shift from ephemeral prompt engineering to persistent graph-based multi-agent architectures.",
+        "why": "Establishes hardware-rooted zero-trust security for bare-metal Kubernetes GPU clusters using TPM attestation and SPIFFE/SPIRE mTLS.",
         "category": "Spain"
       },
       {
@@ -3979,8 +3952,26 @@
         "title": "How Confidential Containers Protect AI Models in Red Hat OpenShift 5 [Short]",
         "date": "2026-11-11",
         "stars": 5,
+        "impact": "high",
+        "why": "Demonstrates how Confidential Containers (CoCo) leverage hardware-enforced TEEs to secure proprietary AI weights in production OpenShift environments.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/gbXCFGCR1-Q",
+        "title": "AKS vs AKS Local vs OpenShift: Choosing Your Enterprise Kubernetes Platform",
+        "date": "2026-11-09",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides an architectural decision framework comparing enterprise Kubernetes options across public cloud, hybrid edge (AKS Local), and OpenShift.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=DVWkJ-5Z_zY",
+        "title": "NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security Guide",
+        "date": "2026-11-13",
+        "stars": 5,
         "impact": "medium",
-        "why": "Addresses confidential computing in containers by leveraging hardware TEEs to secure sensitive AI models and data on Kubernetes.",
+        "why": "Defines an enterprise validation pipeline for AI agent skills combining static security scanning, semantic deduplication, and sandboxed benchmarking.",
         "category": "Spain"
       }
     ],
@@ -4361,7 +4352,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "It is the de facto industry-standard framework for building production-grade Kubernetes operators and custom controllers.",
+        "why": "It serves as the de facto industry-standard framework for building production-grade Kubernetes APIs and custom controllers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4370,7 +4361,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "It provides cloud-native queue management that has become essential for orchestrating AI/ML and batch workloads on Kubernetes.",
+        "why": "It provides cloud-native batch and queue management essential for orchestrating large-scale AI, ML, and high-performance computing workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4379,7 +4370,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "It serves as the foundational core component for dynamic node elasticity and cluster scaling across major cloud providers.",
+        "why": "It remains the foundational core component ensuring automated, production-grade cloud node capacity scaling across enterprise clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4388,7 +4379,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "It is the bedrock programmatic interface powering virtually every Go-based controller, operator, and platform tool in the ecosystem.",
+        "why": "It is the foundational client SDK powering nearly every Go-based operator, custom controller, and CLI tool in the cloud native ecosystem.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/kustomize",
+        "title": "kustomize",
+        "date": "2026-11-01",
+        "stars": 5,
+        "impact": "critical",
+        "why": "As a native component of kubectl, it defines the standard for template-free, declarative Kubernetes configuration and GitOps pipelines.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4397,7 +4397,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "It enables enterprise-grade multi-cluster orchestration and seamless cross-region workload distribution at scale.",
+        "why": "It delivers an advanced CNCF multi-cluster federation engine that enables intelligent cross-cloud workload distribution and centralized governance.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4406,7 +4406,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "It represents a significant paradigm shift by decoupling the Kubernetes API and controller model from traditional container orchestration.",
+        "why": "It introduces a radical paradigm shift by decoupling the Kubernetes API server and control plane model from physical container workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4415,7 +4415,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "It is the ubiquitous standard for automatically synchronizing Kubernetes ingress and service routing with external cloud DNS providers.",
+        "why": "It provides automated, dynamic synchronization between Kubernetes services or ingresses and major external DNS providers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4424,16 +4424,7 @@
         "date": "2026-11-04",
         "stars": 5,
         "impact": "high",
-        "why": "It defines the modern cloud-native architectural standard for serverless machine learning inference orchestration.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/kustomize",
-        "title": "kustomize",
-        "date": "2026-11-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "It provides the canonical, template-free configuration customization engine integrated directly into core Kubernetes workflows.",
+        "why": "It establishes the standard cloud-native serverless architecture for deploying, scaling, and managing AI/ML inference workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -4442,7 +4433,7 @@
         "date": "2026-10-31",
         "stars": 5,
         "impact": "high",
-        "why": "It is the preeminent terminal UI adopted across the industry to streamline cluster diagnostics, observability, and operations.",
+        "why": "It is the most widely adopted terminal-based management interface, dramatically improving day-to-day cluster administration and operational velocity.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -4637,7 +4628,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "As a CNCF Sandbox project created by Azure, KAITO automates GPU provisioning and open-weight model deployment natively on Kubernetes.",
+        "why": "As a CNCF Sandbox project, KAITO bridges Kubernetes and generative AI by automating right-sized GPU provisioning and lifecycle management for open-weight models on AKS.",
         "category": "Azure"
       },
       {
@@ -4646,16 +4637,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Azure Linux serves as Microsoft's security-hardened, container-optimized host OS powering AKS worker nodes across enterprise deployments.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
-        "title": "Azure AI Foundry Agent Service",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides a fully managed cloud-native runtime for orchestrating stateful, multi-agent AI architectures with native enterprise identity and memory persistence.",
+        "why": "Azure Linux serves as the lean, security-hardened container host OS purpose-built to optimize AKS node performance and reduce attack surface.",
         "category": "Azure"
       },
       {
@@ -4664,25 +4646,16 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Bicep is the primary declarative Infrastructure-as-Code standard for provisioning Azure infrastructure with native validation and zero-day resource support.",
+        "why": "Bicep is Microsoft's primary domain-specific language for declarative Infrastructure as Code, standardizing scalable cloud resource provisioning.",
         "category": "Azure"
       },
       {
-        "url": "https://ai.azure.com",
-        "title": "Microsoft Azure AI Foundry Portal",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+        "title": "Azure AI Foundry Agent Service",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Consolidates enterprise foundation model access, fine-tuning pipelines, and agent governance into Azure's primary AI control plane.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://jumpstart.azure.com",
-        "title": "azurearcjumpstart.io",
-        "date": "2026-06-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "Serves as the definitive implementation blueprint for managing hybrid and multicloud Kubernetes infrastructure via Azure Arc.",
+        "why": "The Agent Service provides a fully managed enterprise runtime enabling teams to build, deploy, and scale stateful multi-agent systems natively in Azure.",
         "category": "Azure"
       },
       {
@@ -4691,7 +4664,25 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "The industry's de facto reference architecture for production-grade retrieval-augmented generation (RAG) on Azure cloud infrastructure.",
+        "why": "This serves as Microsoft's definitive reference architecture for deploying production-ready enterprise RAG with hybrid vector search and managed security.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://ai.azure.com",
+        "title": "Microsoft Azure AI Foundry Portal",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Foundry is Microsoft's unified control plane consolidating foundation models, agent runtimes, and enterprise governance into a central platform.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://jumpstart.azure.com",
+        "title": "azurearcjumpstart.io",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Azure Arc Jumpstart delivers production-tested automation scenarios for extending cloud-native governance and Kubernetes orchestration into hybrid environments.",
         "category": "Azure"
       },
       {
@@ -4700,7 +4691,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers production-ready automation and data pipelines to standardize cloud cost optimization and FinOps governance across Azure tenants.",
+        "why": "The FinOps Toolkit standardizes cloud financial operations and cost governance architectures across large-scale Azure enterprise deployments.",
         "category": "Azure"
       },
       {
@@ -4708,8 +4699,8 @@
         "title": "github.com/Azure/apiops 🌟",
         "date": "2026-08-27",
         "stars": 5,
-        "impact": "high",
-        "why": "Applies cloud-native GitOps principles and declarative configuration automation to Azure API Management environments.",
+        "impact": "medium",
+        "why": "APIOps brings declarative GitOps continuous integration and deployment patterns to Azure API Management infrastructure.",
         "category": "Azure"
       },
       {
@@ -4718,7 +4709,7 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Offers a lightweight local emulator unifying Azure PaaS and AKS-like services onto a single port for rapid developer testing.",
+        "why": "Floci-AZ significantly improves developer experience by emulating core Azure services and AKS locally on a single unified port.",
         "category": "Azure"
       }
     ],
@@ -5368,57 +5359,57 @@
     ],
     "Infrastructure as Code": [
       {
-        "url": "https://www.pulumi.com/blog/the-agentic-infrastructure-era",
-        "title": "The Agentic Infrastructure Era",
-        "date": "2026-06-02",
-        "stars": 4,
+        "url": "https://github.com/opentofu/opentofu",
+        "title": "OpenTofu Official GitHub Repository",
+        "date": "2026-11-02",
+        "stars": 5,
         "impact": "critical",
-        "why": "Signals a massive paradigm shift from static, human-written YAML configurations to autonomous, self-healing cloud platforms.",
+        "why": "Provides an open-source, Linux Foundation-governed fork of Terraform featuring breakthrough capabilities like client-side state encryption.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://www.infoq.com/news/2026/05/opentofu-release-terraform",
-        "title": "OpenTofu 1.12: the Feature Terraform Never Shipped",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "Solves long-standing upstream Terraform modular limitations by introducing critical pre-condition and dynamic capabilities.",
+        "url": "https://developer.hashicorp.com/terraform/language/stacks",
+        "title": "HashiCorp Terraform Language: Terraform Stacks Overview",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Introduces a foundational paradigm shift in HCL for orchestrating multi-region, multi-environment infrastructure as unified stacks.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://www.pulumi.com/blog/10-more-things-you-can-do-with-neo",
-        "title": "Ten More Things You Can Do With Pulumi Neo",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "Bridges the gap between AI code generation and autonomous infrastructure management directly within enterprise platforms.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/infiniumtek/terraform-review-agent",
-        "title": "terraform-review-agent",
-        "date": "2026-05-21",
-        "stars": 4,
-        "impact": "high",
-        "why": "Demonstrates the state-of-the-art in agentic DevOps by moving past traditional static analysis into cognitive, AI-driven IaC reviews.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more",
-        "title": "New in Terraform 1.15: Dynamic sources, variable deprecation, and more",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "Introduces native dynamic module sources and versioning, improving flexibility for multi-environment IaC engineering.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
-        "title": "github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module",
-        "date": "2026-10-08",
+        "url": "https://developer.hashicorp.com/terraform/language/resources/ephemeral",
+        "title": "HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments",
+        "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "The definitive, battle-tested standard for orchestrating enterprise-grade Amazon EKS infrastructure via Terraform.",
+        "why": "Eliminates security leakage by ensuring short-lived credentials and sensitive values are never persisted to Terraform state files.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/language/tests",
+        "title": "HashiCorp Terraform Language: Native Tests and Provider Mocking",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Replaces third-party testing frameworks with native HCL unit and integration testing, complete with provider mocking capabilities.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/aquasecurity/trivy",
+        "title": "aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Serves as the unified cloud-native standard for scanning Terraform configurations, modules, and plans for security misconfigurations and CVEs.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/runatlantis/atlantis",
+        "title": "runatlantis/atlantis: Terraform Pull Request Automation",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Remains the de facto open-source GitOps engine for collaborative, PR-driven Terraform and OpenTofu execution workflows.",
         "category": "Infrastructure as Code"
       },
       {
@@ -5427,34 +5418,34 @@
         "date": "2026-10-21",
         "stars": 5,
         "impact": "high",
-        "why": "Provides critical pre-allocation cost projections by parsing HCL configurations against cloud pricing APIs.",
+        "why": "Brings proactive FinOps into CI/CD by dynamically analyzing HCL changes to project cloud infrastructure costs prior to apply.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://github.com/Azure/aztfexport",
-        "title": "github.com/Azure/aztfexport",
-        "date": "2026-10-30",
+        "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
+        "title": "github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module",
+        "date": "2026-10-08",
         "stars": 5,
-        "impact": "medium",
-        "why": "Streamlines infrastructure migration by automatically reverse-engineering existing Azure resources into clean Terraform code.",
+        "impact": "high",
+        "why": "Acts as the enterprise gold standard for architecting production Kubernetes clusters on AWS via declarative Infrastructure as Code.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://github.com/cloudposse/atmos",
-        "title": "github.com/cloudposse/atmos",
-        "date": "2026-06-14",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Simplifies multi-account and multi-region cloud orchestration using clean hierarchical YAML stack structures.",
+        "url": "https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster",
+        "title": "Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource Module for AKS",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers the official Microsoft Azure Verified Module for provisioning production-grade, secure Azure Kubernetes Service infrastructure.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://github.com/terramate-io/terramate",
-        "title": "mineiros-io/terramate",
-        "date": "2026-10-16",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Optimizes large-scale continuous deployment pipelines and selective change detection across large Terraform and OpenTofu monorepos.",
+        "url": "https://www.youtube.com/playlist?list=PLCgDGrDt3kNU",
+        "title": "Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)",
+        "date": "2026-11-02",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers a modern reference architecture guiding platform teams through the migration from legacy monolithic CAF modules to modular Azure Landing Zones.",
         "category": "Infrastructure as Code"
       }
     ],
@@ -6288,93 +6279,93 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/watch?v=4-oLXvCaZiM",
-        "title": "Red Hat OpenShift 5 Technical Deep Dive: Enterprise AI, In-Place Upgrades & Virt 5",
-        "date": "2026-11-11",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides an architectural deep dive into Red Hat OpenShift 5, detailing Kubernetes 1.36 primitives, seamless in-place major version upgrades, and OpenShift Virtualization 5.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=AdKSA50W4P4",
-        "title": "AKS vs AKS Local vs OpenShift: Enterprise Kubernetes Strategy & Hybrid Cloud",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Delivers an essential architectural guide evaluating hybrid cloud container orchestration across AKS Automatic, AKS Local via Azure Arc, and Azure Red Hat OpenShift.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=kSlp-I6WvqE",
-        "title": "Control vs Productivity: AKS, OpenShift, Tanzu & Rancher Multi-Distro Matrix",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Establishes a comprehensive evaluation matrix comparing enterprise Kubernetes platforms (AKS, OpenShift, VMware Tanzu, and SUSE Rancher) balancing operational control against developer velocity.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=gIBnUR1CHNY",
-        "title": "Azure Container Strategy: ACI vs ACA vs AKS Architectural Decision Guide",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Defines a critical decision framework for selecting between ACI, Azure Container Apps, and AKS based on networking, density, and infrastructure control trade-offs.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=jlYcf5S5Wvw",
-        "title": "Arquitectura de Microsoft Foundry: Migración Empresarial y Control de Recursos",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides a Spanish-language enterprise blueprint detailing the control-plane consolidation of Azure AI Studio and Azure OpenAI into Microsoft AI Foundry.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Y5g-xEnYMYw",
-        "title": "Guía de Migración a Microsoft Foundry: Estrategia, SDK y Paso a Producción",
-        "date": "2026-11-09",
-        "stars": 5,
-        "impact": "high",
-        "why": "Offers an actionable Spanish-language roadmap for zero-downtime production migration to Microsoft AI Foundry using the modern azure-ai-projects SDK.",
-        "category": "Spain"
-      },
-      {
         "url": "https://www.youtube.com/playlist?list=PLXDBfnEd7RX8",
         "title": "⭐ Nubenetes Red Hat OpenShift 5: Architecture, AI & Virtualization Guide",
         "date": "2026-11-11",
         "stars": 5,
-        "impact": "high",
-        "why": "Curates a complete Nubenetes guide on OpenShift 5 architecture, storage-agnostic Change Block Tracking for virtualization, and agentic AI operations.",
+        "impact": "critical",
+        "why": "Provides an end-to-end architectural guide to Red Hat OpenShift 5 built on Kubernetes 1.36, featuring frictionless in-place upgrades and storage-agnostic virtualization.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLAs2nHm8nh2A",
-        "title": "Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu & Rancher",
-        "date": "2026-11-09",
+        "url": "https://www.youtube.com/playlist?list=PLPVDu1Q58BQM",
+        "title": "Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide",
+        "date": "2026-11-12",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Delivers an essential production engineering reference for building sovereign, bare-metal GPU cloud infrastructure using NVIDIA Kubernetes Engine (NVKE).",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1bs9TiAjWO8",
+        "title": "Red Hat OpenShift 5 Architecture Guide: Kubernetes 1.36, Agentic AI & Virtualization",
+        "date": "2026-11-11",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Examines the foundational enterprise hybrid cloud platform architecture aligned with Kubernetes 1.36 and enterprise three-year lifecycle maintenance.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLPshE-mkC590",
+        "title": "Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)",
+        "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Assembles a multi-distribution Nubenetes reference syllabus analyzing governance, fleet management, and operational boundaries across leading enterprise Kubernetes platforms.",
+        "why": "Analyzes the clinical AI imaging ecosystem and hospital orchestration gateways specifically tailored to the Spanish healthcare market and regulatory landscape.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=5J484Se-Nso",
-        "title": "From Prompts to Graph Swarms: Andrej Karpathy's AI Graph Architecture Masterclass",
+        "url": "https://www.youtube.com/watch?v=Tvz-CxJr9nM",
+        "title": "Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Details the strategic transition in Spain from isolated AI algorithms to integrated, interoperable clinical orchestration platforms across regional healthcare systems.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ykrlQKFAhgI",
+        "title": "La Corrección Clínica en IA Médica: Estrategia e Imagen en España",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Explores the operational and architectural strategies required in Spain to mitigate clinical model drift and integrate AI workloads into live PACS/RIS pipelines.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLGtiisOtFk3s",
+        "title": "Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Establishes a standardized framework for evaluating, securing, and benchmarking AI coding agent skills within sandboxed container environments.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/SO6i_-fUero",
+        "title": "How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Demonstrates hardware-rooted zero-trust security for bare-metal Kubernetes GPU clusters using TPM attestation and SPIFFE/SPIRE mTLS identities.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/MX505_pRGD0",
+        "title": "How Confidential Containers Protect AI Models in Red Hat OpenShift 5 [Short]",
         "date": "2026-11-11",
         "stars": 5,
         "impact": "high",
-        "why": "Details a foundational paradigm shift in cloud native AI from stateless prompt engineering to persistent, graph-orchestrated multi-agent swarms.",
+        "why": "Addresses confidential computing in cloud native AI by leveraging Confidential Containers (CoCo) to protect proprietary models within hardware TEEs.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=STC4L1w2cPg",
-        "title": "Microsoft Foundry Deep Dive: Agent Service, Responses API & Observability",
+        "url": "https://www.youtube.com/shorts/gbXCFGCR1-Q",
+        "title": "AKS vs AKS Local vs OpenShift: Choosing Your Enterprise Kubernetes Platform",
         "date": "2026-11-09",
         "stars": 5,
-        "impact": "high",
-        "why": "Explores enterprise Agent Service architecture, managed state persistence, and observability integrations within Microsoft Foundry.",
+        "impact": "medium",
+        "why": "Offers an enterprise decision matrix contrasting public cloud, hybrid edge (AKS Local), and integrated platforms like OpenShift for distributed Kubernetes fleets.",
         "category": "Spain"
       }
     ],
@@ -6750,9 +6741,9 @@
   "_meta": {
     "3_months": {
       "Data, Messaging & Storage": {
-        "last_analyzed": "2026-11-05T19:43:56.699382+01:00",
-        "entry_hash": "d5db700a4623ab6d",
-        "entry_count": 28,
+        "last_analyzed": "2026-11-13T20:52:56.544752+01:00",
+        "entry_hash": "22a3416ec74babc6",
+        "entry_count": 27,
         "method": "gemini"
       },
       "Networking & Service Mesh": {
@@ -6792,9 +6783,9 @@
         "method": "gemini"
       },
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-11-11T20:04:37.098736+01:00",
-        "entry_hash": "84b0d9ee34ba0d46",
-        "entry_count": 206,
+        "last_analyzed": "2026-11-13T20:53:11.882532+01:00",
+        "entry_hash": "e0396a6ddfd1616b",
+        "entry_count": 205,
         "method": "gemini"
       },
       "Platform Engineering & DevEx": {
@@ -6828,9 +6819,9 @@
         "method": "gemini"
       },
       "GCP, OCI & Others": {
-        "last_analyzed": "2026-11-05T19:47:24.500579+01:00",
-        "entry_hash": "5645a168139098b9",
-        "entry_count": 8,
+        "last_analyzed": "2026-11-13T20:53:20.922741+01:00",
+        "entry_hash": "e18b8f13afd5cfe8",
+        "entry_count": 7,
         "method": "gemini"
       },
       "Security & Compliance": {
@@ -6894,17 +6885,17 @@
         "method": "fallback_small"
       },
       "Spain": {
-        "last_analyzed": "2026-11-11T23:25:38.085074+01:00",
-        "entry_hash": "df00d2fa1588b28b",
-        "entry_count": 129,
+        "last_analyzed": "2026-11-13T20:53:57.315023+01:00",
+        "entry_hash": "bc7232635fe02150",
+        "entry_count": 148,
         "method": "gemini"
       }
     },
     "6_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-11-05T19:49:13.022834+01:00",
-        "entry_hash": "6740d0f271ee5eb7",
-        "entry_count": 2125,
+        "last_analyzed": "2026-11-13T20:54:12.504565+01:00",
+        "entry_hash": "94445ea047eb628d",
+        "entry_count": 2123,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7028,9 +7019,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-11T23:25:56.468263+01:00",
-        "entry_hash": "1d8b2212c3a4cc6c",
-        "entry_count": 165,
+        "last_analyzed": "2026-11-13T20:54:30.193135+01:00",
+        "entry_hash": "1982a92feffe667c",
+        "entry_count": 184,
         "method": "gemini"
       },
       "Europe": {
@@ -7060,9 +7051,9 @@
     },
     "12_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-11-11T20:05:44.320050+01:00",
-        "entry_hash": "6532d6a1cf5b3db8",
-        "entry_count": 2186,
+        "last_analyzed": "2026-11-13T20:54:46.348919+01:00",
+        "entry_hash": "066ac085caf5e687",
+        "entry_count": 2185,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7078,9 +7069,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-05T20:50:53.216899+01:00",
-        "entry_hash": "8831fc0ed99d9838",
-        "entry_count": 332,
+        "last_analyzed": "2026-11-13T20:55:00.074127+01:00",
+        "entry_hash": "a32fe3bc539417eb",
+        "entry_count": 329,
         "method": "gemini"
       },
       "CI/CD & GitOps": {
@@ -7126,9 +7117,9 @@
         "method": "gemini"
       },
       "Infrastructure as Code": {
-        "last_analyzed": "2026-11-02T18:59:36.342900+01:00",
-        "entry_hash": "906e997309c916eb",
-        "entry_count": 657,
+        "last_analyzed": "2026-11-13T20:55:20.799661+01:00",
+        "entry_hash": "0ada47522630334c",
+        "entry_count": 656,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -7186,9 +7177,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-11T23:26:15.545353+01:00",
-        "entry_hash": "1d8b2212c3a4cc6c",
-        "entry_count": 165,
+        "last_analyzed": "2026-11-13T20:55:38.847300+01:00",
+        "entry_hash": "1982a92feffe667c",
+        "entry_count": 184,
         "method": "gemini"
       },
       "Europe": {
@@ -7216,6 +7207,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-11T23:30:25.775189+01:00"
+    "last_updated": "2026-11-13T20:55:39.849336+01:00"
   }
 }

@@ -719349,13 +719349,9 @@ https://www.youtube.com/shorts/-0n4ZfMxLQM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719373,6 +719369,11 @@ https://www.youtube.com/shorts/-0n4ZfMxLQM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/GE7NTMJdd20:
   title: How SkillEvaluator Detects Overlapping & Conflicting Agent Instructions [Short]
@@ -719398,13 +719399,9 @@ https://www.youtube.com/shorts/GE7NTMJdd20:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719422,6 +719419,11 @@ https://www.youtube.com/shorts/GE7NTMJdd20:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/utYcuHPT1YY:
   title: How SkillEvaluator Tier 1 Secures AI Agents (SkillSpector & PII) [Short]
@@ -719446,13 +719448,9 @@ https://www.youtube.com/shorts/utYcuHPT1YY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719470,6 +719468,11 @@ https://www.youtube.com/shorts/utYcuHPT1YY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/JDqpQOK6zjc:
   title: 'How NVIDIA Evaluates AI Agent Skills: Tier 1-3 Pipeline Explained [Short]'
@@ -719496,13 +719499,9 @@ https://www.youtube.com/shorts/JDqpQOK6zjc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719520,6 +719519,11 @@ https://www.youtube.com/shorts/JDqpQOK6zjc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=DVWkJ-5Z_zY:
   title: 'NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security
@@ -719567,13 +719571,9 @@ https://www.youtube.com/watch?v=DVWkJ-5Z_zY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719591,6 +719591,11 @@ https://www.youtube.com/watch?v=DVWkJ-5Z_zY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=Tvz-CxJr9nM:
   title: 'Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema'
@@ -719629,13 +719634,9 @@ https://www.youtube.com/watch?v=Tvz-CxJr9nM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719653,6 +719654,11 @@ https://www.youtube.com/watch?v=Tvz-CxJr9nM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=ykrlQKFAhgI:
   title: 'La Corrección Clínica en IA Médica: Estrategia e Imagen en España'
@@ -719692,13 +719698,9 @@ https://www.youtube.com/watch?v=ykrlQKFAhgI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719716,6 +719718,11 @@ https://www.youtube.com/watch?v=ykrlQKFAhgI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/AOkBV18m_NQ:
   title: How Methinks AI Spots Strokes Without Contrast Dye [Short]
@@ -719740,13 +719747,9 @@ https://www.youtube.com/shorts/AOkBV18m_NQ:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719764,6 +719767,11 @@ https://www.youtube.com/shorts/AOkBV18m_NQ:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/M1qtKgk9YH4:
   title: How AI Triages Skin Diseases & Dermatology Lesions [Short]
@@ -719787,13 +719795,9 @@ https://www.youtube.com/shorts/M1qtKgk9YH4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719811,6 +719815,11 @@ https://www.youtube.com/shorts/M1qtKgk9YH4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/SgdTSjNe5gk:
   title: Why Medical AI Becomes an Algorithm Zombie & Model Drift Risks
@@ -719835,13 +719844,9 @@ https://www.youtube.com/shorts/SgdTSjNe5gk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719859,6 +719864,11 @@ https://www.youtube.com/shorts/SgdTSjNe5gk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/6QFZI9L1nUw:
   title: How AI Extracts Quantitative Imaging Biomarkers (Quibim)
@@ -719883,13 +719893,9 @@ https://www.youtube.com/shorts/6QFZI9L1nUw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719907,6 +719913,11 @@ https://www.youtube.com/shorts/6QFZI9L1nUw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/dM2eBP3tSnw:
   title: How Incepto Gateway Unifies Medical Imaging AI in Hospitals [Short]
@@ -719931,13 +719942,9 @@ https://www.youtube.com/shorts/dM2eBP3tSnw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + Enterprise AI Orchestration
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -719955,6 +719962,11 @@ https://www.youtube.com/shorts/dM2eBP3tSnw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + Enterprise AI Orchestration
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=eZaHPMBREWg:
   title: 'Strategic Analysis AI 2026: European Medical Imaging Ecosystem & Platforms'
@@ -719991,13 +720003,9 @@ https://www.youtube.com/watch?v=eZaHPMBREWg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Medical Imaging AI + MLOps
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -720015,6 +720023,11 @@ https://www.youtube.com/watch?v=eZaHPMBREWg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Medical Imaging AI + MLOps
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=5C7q6zeMq1w:
   title: '2026 Medical AI Correction: Clinical Imaging Market & Strategy Deep Dive'
@@ -720053,13 +720066,9 @@ https://www.youtube.com/watch?v=5C7q6zeMq1w:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + AI Governance
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -720077,6 +720086,11 @@ https://www.youtube.com/watch?v=5C7q6zeMq1w:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + AI Governance
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/SO6i_-fUero:
   title: 'How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption
@@ -720109,13 +720123,9 @@ https://www.youtube.com/shorts/SO6i_-fUero:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes, SPIFFE/SPIRE, TPM
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794599282
   needs_ai_refresh: false
@@ -720133,4 +720143,9 @@ https://www.youtube.com/shorts/SO6i_-fUero:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes, SPIFFE/SPIRE, TPM
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
