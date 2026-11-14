@@ -825,6 +825,274 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Azure Naming Tool
+
+??? note "🎬 How Azure Naming Tool Stores Data [Short]"
+    !!! info "Architectural Summary"
+        Azure Naming Tool v5 introduces an abstracted dual storage layer via the IStorageProvider interface, retaining portable JSON files while introducing an Entity Framework Core SQLite backend for 10-100x faster queries and ACID transactions. This architectural shift enables high-performance resource generation and live Azure Tenant Validation, essential for enterprise-scale governance within Cloud Adoption Framework (CAF) implementations. In modern cloud-native environments, this ensures programmatic, consistent resource naming and tagging enforcement across automated Bicep and Terraform IaC pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="keltNNs66Zk" data-video-url="https://www.youtube.com/embed/keltNNs66Zk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/keltNNs66Zk/hqdefault.jpg" alt="How Azure Naming Tool Stores Data [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Naming Tool Azure Resource Graph
+
+??? note "🎬 How the Azure Naming Tool Validates Resources"
+    !!! info "Architectural Summary"
+        Azure Naming Tool v5 enforces Cloud Adoption Framework (CAF) standards by verifying syntax, length, and character constraints before querying live tenant state via Azure Resource Graph. Backed by Managed Identity and SQLite, the tool proactively detects resource name collisions across subscriptions and handles conflicts using configurable policies such as AutoIncrement, SuffixRandom, NotifyOnly, or Fail. This mechanism provides essential pre-flight governance and determinism for enterprise Infrastructure as Code (IaC) pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="jzIrxX-73nc" data-video-url="https://www.youtube.com/embed/jzIrxX-73nc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/jzIrxX-73nc/hqdefault.jpg" alt="How the Azure Naming Tool Validates Resources" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure CAF Governance
+
+??? note "🎬 How the Azure Naming Tool Enforces Cloud Standards [Short]"
+    !!! info "Architectural Summary"
+        The Azure Naming Tool operationalizes Microsoft Cloud Adoption Framework (CAF) naming conventions into automated, repeatable governance guardrails across enterprise environments. By configuring standardized resource types, environments, locations, and custom delimiters into a unified generator, platform engineering teams prevent governance drift and ensure schema consistency across IaC templates. In modern cloud-native architectures, this central enforcement layer enables programmatic policy compliance and seamless integration into automated provisioning pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="gTggR2USsEs" data-video-url="https://www.youtube.com/embed/gTggR2USsEs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/gTggR2USsEs/hqdefault.jpg" alt="How the Azure Naming Tool Enforces Cloud Standards [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Architecture and Cloud Governance
+
+??? note "🎬 Azure Naming Tool Architecture Teardown: .NET 10, Blazor & Dual Storage"
+    !!! info "Architectural Summary"
+        This architectural teardown of Azure Naming Tool v5 explores the implementation of .NET 10, Blazor Server SignalR circuits, and a dual storage abstraction layer comparing legacy JSON persistence against EF Core 10 SQLite for ACID compliance and 10–100x query performance gains. It analyzes key platform tradeoffs, including SQLite file-locking pitfalls on Azure Container Apps with Azure Files network mounts versus dedicated local storage. For modern cloud platforms, this provides an actionable blueprint for architecting performant, API-versioned enterprise governance tools integrated into automated IaC and resource provisioning pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="SQ7e-AyqsSA" data-video-url="https://www.youtube.com/embed/SQ7e-AyqsSA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/SQ7e-AyqsSA/hqdefault.jpg" alt="Azure Naming Tool Architecture Teardown: .NET 10, Blazor & Dual Storage" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Apache Kafka 4 x and Event Streaming
+
+??? note "🎬 Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide"
+    !!! info "Architectural Summary"
+        Comprehensive 14-video Apache Kafka 4.x architectural series (7 deep dives and 7 Shorts). Covers post-ZooKeeper KRaft @metadata consensus, Strimzi CNCF operator CRDs and KafkaNodePool controller/broker isolation, NVMe vs AWS gp3 storage and Strimzi Drain Cleaner, KIP-848 incremental broker-side rebalancing, KIP-932 Share Groups (Queues for Kafka) with KIP-1222 lease RENEW locks and KIP-1191 DLQs, Tiered Storage (KIP-405, KIP-1023, KIP-1241 delayed S3 offload) through Diskless Kafka (KIP-1150, KIP-1163, AutoMQ, WarpStream, Redpanda Cloud Topics, Aiven Inkless), 5-byte Schema Registry wire contracts across Confluent/Karapace/Apicurio/AxonOps (Go + MCP), MirrorMaker 2 offset translation and loop prevention vs Cluster Linking DR, JMX P1 alerting (KIP-1291 kernel I/O, KIP-714 client telemetry, 80% PVC threshold), and SRE broker benchmarks (Kafka vs Redpanda vs Apache Pulsar vs RabbitMQ vs NATS JetStream).
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLLNGug_lQ4z8" title="Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Kafka Pulsar RabbitMQ NATS
+
+??? note "🎬 Choosing Your Messaging Broker: Kafka vs Pulsar vs RabbitMQ vs NATS [Short]"
+    !!! info "Architectural Summary"
+        Provides a workload-driven architectural decision framework matching distributed messaging platforms to cloud-native requirements: Apache Kafka and Redpanda for high-throughput immutable event streaming, Apache Pulsar for decoupled tiered storage and vast multi-tenant topic counts, RabbitMQ for complex AMQP task routing, and NATS JetStream for lightweight, sub-millisecond edge and microservices communication. This taxonomy enables architects to optimize throughput, latency, and operational storage costs across heterogeneous event-driven topologies.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="sWWfqvnXsCE" data-video-url="https://www.youtube.com/embed/sWWfqvnXsCE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/sWWfqvnXsCE/hqdefault.jpg" alt="Choosing Your Messaging Broker: Kafka vs Pulsar vs RabbitMQ vs NATS [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Kafka on Kubernetes
+
+??? note "🎬 How Kafka Partitions Fail on Kubernetes (URP & MinISR)"
+    !!! info "Architectural Summary"
+        This architectural breakdown traces the JMX metric failure cascade (UnderReplicatedPartitions to UnderMinIsrPartitions and OfflinePartitionsCount) caused by uncoordinated Kubernetes node drains terminating Kafka broker pods faster than replication can recover. It highlights how integrating the Strimzi Drain Cleaner with eviction admission webhooks ensures deterministic broker rolling restarts, safeguarding partition quorum and preventing data-plane write outages in high-throughput cloud-native environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="DTnPk1CgSO8" data-video-url="https://www.youtube.com/embed/DTnPk1CgSO8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/DTnPk1CgSO8/hqdefault.jpg" alt="How Kafka Partitions Fail on Kubernetes (URP & MinISR)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Apache Kafka
+
+??? note "🎬 How Kafka Consumers Survive Data Center Disasters (MM2) [Short]"
+    !!! info "Architectural Summary"
+        This architectural breakdown addresses multi-region disaster recovery for Apache Kafka, highlighting why standby clusters inherently diverge in log offsets during cross-cluster replication. It details how MirrorMaker 2 (MM2) emits continuous offset translation checkpoints to map consumer positions accurately across regions, enabling seamless consumer failover without message duplication or skipping. For modern cloud-native architectures, mastering automated offset translation is vital for maintaining fault-tolerant, active-passive streaming topologies across distinct cloud regions.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="qK-LHFBmadE" data-video-url="https://www.youtube.com/embed/qK-LHFBmadE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/qK-LHFBmadE/hqdefault.jpg" alt="How Kafka Consumers Survive Data Center Disasters (MM2) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Kafka Schema Registry Prevents Pipeline Crashes"
+    !!! info "Architectural Summary"
+        Kafka Schema Registry enforces strict schema governance across event-driven architectures by pairing a compact 4-byte schema ID with configurable backward, forward, or full compatibility checks. This mechanism intercepts breaking contract modifications—such as uncoordinated field deletions or schema mutations—at publish time before poison-pill records can crash downstream consumers. In cloud-native microservices and real-time streaming architectures, it provides a resilient data contract layer that ensures safe, decoupled continuous delivery without pipeline degradation.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Rb0NCefXOk0" data-video-url="https://www.youtube.com/embed/Rb0NCefXOk0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Rb0NCefXOk0/hqdefault.jpg" alt="How Kafka Schema Registry Prevents Pipeline Crashes" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Kafka Decouples Compute & Storage (Tiered to Diskless)"
+    !!! info "Architectural Summary"
+        This architectural breakdown traces the evolution of Apache Kafka from traditional local-disk brokers to Tiered Storage and emerging diskless architectures. By decoupling compute from storage and writing directly to cloud object storage, brokers become stateless compute proxies, enabling rapid elastic scaling on Kubernetes and dramatically cutting multi-AZ data replication egress costs.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="tzKK4hHuQms" data-video-url="https://www.youtube.com/embed/tzKK4hHuQms" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/tzKK4hHuQms/hqdefault.jpg" alt="How Kafka Decouples Compute & Storage (Tiered to Diskless)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Kafka 4.0 Fixes Rebalance Pauses & Adds Share Groups [Short]"
+    !!! info "Architectural Summary"
+        Apache Kafka 4.0 modernizes cloud-native event streaming architectures by shifting consumer group reconciliation to the broker via KIP-848, eliminating legacy stop-the-world rebalance pauses. In addition, KIP-932 introduces Share Groups with per-record acknowledgements, enabling point-to-point message queuing concurrency across multiple consumers on a single partition without compromising scalability.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Off52robJwE" data-video-url="https://www.youtube.com/embed/Off52robJwE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Off52robJwE/hqdefault.jpg" alt="How Kafka 4.0 Fixes Rebalance Pauses & Adds Share Groups [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Kafka 4.0 Isolates KRaft Controllers from Brokers with Strimzi [Short]"
+    !!! info "Architectural Summary"
+        Colocating Apache Kafka KRaft metadata controllers with data-intensive brokers frequently induces JVM memory starvation, GC pauses, and false split-brain election alarms under heavy storage churn. By leveraging Strimzi's KafkaNodePool custom resource in Kubernetes, architects can cleanly decouple quorum controllers onto dedicated, lightweight compute instances separate from high-throughput broker storage pools. This architectural isolation guarantees quorum stability and deterministic Raft consensus performance essential for mission-critical event streaming architectures.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="BZvGKb855cs" data-video-url="https://www.youtube.com/embed/BZvGKb855cs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BZvGKb855cs/hqdefault.jpg" alt="How Kafka 4.0 Isolates KRaft Controllers from Brokers with Strimzi [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Kafka Disaster Recovery: Multi-Region DR, MirrorMaker 2 & Failback Runbooks"
+    !!! info "Architectural Summary"
+        This architectural guide details multi-region disaster recovery for enterprise Apache Kafka deployments, evaluating synchronous stretch clusters versus asynchronous replication topologies based on tiered RPO and RTO profiles. It examines the operational mechanics of MirrorMaker 2 connectors, offset translation, and loop prevention versus native broker Cluster Linking. Furthermore, it outlines concrete failover and failback runbooks, highlighting partition health verification, idempotent consumer design, and bidirectional sync reversal essential for cloud-native event-driven resilience.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Y4ctPuDIXhY" data-video-url="https://www.youtube.com/embed/Y4ctPuDIXhY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Y4ctPuDIXhY/hqdefault.jpg" alt="Kafka Disaster Recovery: Multi-Region DR, MirrorMaker 2 & Failback Runbooks" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Kafka Storage Evolution: Tiered Storage (KIP-405) to Diskless (KIP-1150)"
+    !!! info "Architectural Summary"
+        This architectural breakdown traces Apache Kafka's storage evolution from tightly coupled local NVMe storage to KIP-405 Tiered Storage and emerging diskless paradigms like KIP-1150, AutoMQ, and WarpStream. It demonstrates how decoupling compute from persistent storage slashes cross-AZ replication egress costs and log-compaction S3 API expenses while transforming brokers into stateless event proxies. For 2026 cloud-native platforms, these patterns provide a resilient blueprint for operating high-throughput, horizontally elastic streaming infrastructure at a fraction of traditional enterprise TCO.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="gOcDUB-jiLI" data-video-url="https://www.youtube.com/embed/gOcDUB-jiLI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/gOcDUB-jiLI/hqdefault.jpg" alt="Kafka Storage Evolution: Tiered Storage (KIP-405) to Diskless (KIP-1150)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Kafka 4.x Next-Gen Messaging: KIP-848 Rebalance & KIP-932 Share Groups"
+    !!! info "Architectural Summary"
+        This architectural deep dive analyzes Apache Kafka 4.0's transformative protocols, detailing how KIP-848 eradicates stop-the-world client rebalances by offloading group coordination incrementally to the broker via ConsumerGroupHeartbeat RPCs. It also examines KIP-932 Share Groups, which decouple consumer concurrency from partition counts to provide native point-to-point queue semantics, record-level locks, and broker-managed dead-letter queues. For 2026 cloud-native architectures, these capabilities eliminate the need to run parallel message brokers like RabbitMQ alongside Kafka, vastly simplifying scalable, event-driven microservices.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="JDLt0Vt83Ec" data-video-url="https://www.youtube.com/embed/JDLt0Vt83Ec" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/JDLt0Vt83Ec/hqdefault.jpg" alt="Kafka 4.x Next-Gen Messaging: KIP-848 Rebalance & KIP-932 Share Groups" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops"
+    !!! info "Architectural Summary"
+        This architectural breakdown examines the production operationalization of Apache Kafka 4.0 in a purely post-ZooKeeper cloud-native ecosystem. It highlights running KRaft consensus on Kubernetes via the Strimzi operator, enforcing resource isolation between data brokers and controller quorums using KafkaNodePools to eliminate GC-induced split-brain elections. Additionally, it evaluates storage trade-offs between local NVMe persistent volumes and cloud block storage alongside zero-downtime Day-2 upgrade and migration strategies.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="hacr-JaxbZk" data-video-url="https://www.youtube.com/embed/hacr-JaxbZk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/hacr-JaxbZk/hqdefault.jpg" alt="Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Kafka and Distributed Event Brokers
+
+??? note "🎬 Event Broker Battles: Kafka vs Redpanda vs Pulsar vs RabbitMQ vs NATS"
+    !!! info "Architectural Summary"
+        This architectural breakdown delivers an empirical SRE comparison between modern distributed messaging systems, contrasting JVM-based runtimes like Apache Kafka against C++ Seastar thread-per-core architectures like Redpanda, smart-broker routing in RabbitMQ, and tiered storage in Apache Pulsar. It benchmarks critical production failure modes including multi-topic degradation, backlog drain contention, and consumer catch-up IOPS starvation. Cloud architects gain a concrete decision framework for deploying streaming infrastructure based on throughput resilience, latency envelopes, and workload isolation requirements.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="YP5R5RkED_Y" data-video-url="https://www.youtube.com/embed/YP5R5RkED_Y" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/YP5R5RkED_Y/hqdefault.jpg" alt="Event Broker Battles: Kafka vs Redpanda vs Pulsar vs RabbitMQ vs NATS" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Azure Verified Modules AVM
 
 ??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot"
