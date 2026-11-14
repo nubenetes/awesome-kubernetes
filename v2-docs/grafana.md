@@ -175,7 +175,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Grafana Loki, Grafana F
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

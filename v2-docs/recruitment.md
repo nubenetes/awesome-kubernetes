@@ -260,7 +260,7 @@ description: "Top Recruitment resources for 2026, AI-ranked: relocate.me, recrui
   - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Freelancing](./freelancing.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Go, Awesome Java and more — curated Cloud Native tools, guides and references."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Kubectl plugins, Available kubectl plugins and more — curated Cloud Native tools, guides and."
 ---
 # Awesome Lists
 
@@ -721,7 +721,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Go,
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--info'>⭐ 102</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e62f23d4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 10 L 30 3 L 40 8 L 50 7" fill="none" stroke="url(#spark-grad-e62f23d4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md) | [Faq](./faq.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

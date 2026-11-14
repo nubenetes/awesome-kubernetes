@@ -720901,13 +720901,9 @@ https://www.youtube.com/shorts/keltNNs66Zk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Naming Tool
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -720925,6 +720921,11 @@ https://www.youtube.com/shorts/keltNNs66Zk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Naming Tool
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/23IcESr73UI:
   title: How Bicep Deploys the Azure Naming Tool [Short]
@@ -720948,13 +720949,9 @@ https://www.youtube.com/shorts/23IcESr73UI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Bicep
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -720972,6 +720969,11 @@ https://www.youtube.com/shorts/23IcESr73UI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Bicep
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Eym7PPULwCQ:
   title: How Terraform Automates Azure Naming [Short]
@@ -720995,13 +720997,9 @@ https://www.youtube.com/shorts/Eym7PPULwCQ:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: IaC + Terraform
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721019,6 +721017,11 @@ https://www.youtube.com/shorts/Eym7PPULwCQ:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC + Terraform
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/81NwX6YGoJg:
   title: How Azure Naming Tool Automates IaC Compliance [Short]
@@ -721041,13 +721044,9 @@ https://www.youtube.com/shorts/81NwX6YGoJg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: IaC
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721065,6 +721064,11 @@ https://www.youtube.com/shorts/81NwX6YGoJg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/uBH7GzQplok:
   title: How the Azure Naming Tool Automates Governance [Short]
@@ -721087,13 +721091,9 @@ https://www.youtube.com/shorts/uBH7GzQplok:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Governance + Infrastructure as Code
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721111,6 +721111,11 @@ https://www.youtube.com/shorts/uBH7GzQplok:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Governance + Infrastructure as Code
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/YMzMpjE_li4:
   title: How to Enforce Azure Naming Compliance
@@ -721133,13 +721138,9 @@ https://www.youtube.com/shorts/YMzMpjE_li4:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Naming Tool
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721157,6 +721158,11 @@ https://www.youtube.com/shorts/YMzMpjE_li4:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Naming Tool
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/jzIrxX-73nc:
   title: How the Azure Naming Tool Validates Resources
@@ -721181,13 +721187,9 @@ https://www.youtube.com/shorts/jzIrxX-73nc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Naming Tool / Azure Resource Graph
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721205,6 +721207,11 @@ https://www.youtube.com/shorts/jzIrxX-73nc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Naming Tool / Azure Resource Graph
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/gTggR2USsEs:
   title: How the Azure Naming Tool Enforces Cloud Standards [Short]
@@ -721228,13 +721235,9 @@ https://www.youtube.com/shorts/gTggR2USsEs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure CAF / Governance
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721252,6 +721255,11 @@ https://www.youtube.com/shorts/gTggR2USsEs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure CAF / Governance
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=jkxueb9fcRE:
   title: 'Azure Naming Tool in Production: Tenant Validation, Terraform & Bicep'
@@ -721288,13 +721296,9 @@ https://www.youtube.com/watch?v=jkxueb9fcRE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Terraform + Bicep + Azure Resource Manager
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721312,6 +721316,11 @@ https://www.youtube.com/watch?v=jkxueb9fcRE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Terraform + Bicep + Azure Resource Manager
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=SQ7e-AyqsSA:
   title: 'Azure Naming Tool Architecture Teardown: .NET 10, Blazor & Dual Storage'
@@ -721349,13 +721358,9 @@ https://www.youtube.com/watch?v=SQ7e-AyqsSA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Architecture & Cloud Governance
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721373,6 +721378,11 @@ https://www.youtube.com/watch?v=SQ7e-AyqsSA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Architecture & Cloud Governance
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=yRBGAES2Jb8:
   title: 'Azure Naming Tool v5: Cloud Adoption Framework Naming Governance'
@@ -721409,13 +721419,9 @@ https://www.youtube.com/watch?v=yRBGAES2Jb8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure CAF & IaC
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794660281
   needs_ai_refresh: false
@@ -721433,4 +721439,9 @@ https://www.youtube.com/watch?v=yRBGAES2Jb8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure CAF & IaC
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel

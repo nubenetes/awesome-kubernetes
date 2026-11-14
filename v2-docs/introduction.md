@@ -1268,7 +1268,7 @@ graph TD
   - [faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services](https://faun.pub/what-is-difference-of-event-driven-architecture-message-driven-architecture-and-microservices-f5623e51f868?gi=ad91ab56fdd9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services covering Understanding the Differences Between Event-Driven Message-Driven and Microservices Architectures in Introduction (faun.pub).
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Faq](./faq.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

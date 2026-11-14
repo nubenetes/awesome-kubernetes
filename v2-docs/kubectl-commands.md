@@ -1,5 +1,5 @@
 ---
-description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat Sheets, Helm and more — curated Cloud Native tools, guides and references."
+description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat Sheets, complete-alias and more — curated Cloud Native tools, guides and references."
 ---
 # Kubectl commands
 
@@ -169,7 +169,7 @@ description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat S
   - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

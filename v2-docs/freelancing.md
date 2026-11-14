@@ -123,5 +123,5 @@ description: "Top Freelancing resources for 2026, AI-ranked: freelancer, crossov
 ---
 💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

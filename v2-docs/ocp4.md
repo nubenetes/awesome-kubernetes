@@ -1,5 +1,5 @@
 ---
-description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook and more — curated Cloud Native tools, guides and references."
+description: "Top OCP 4 resources for 2026, AI-ranked: OpenShift Serverless, AWS Account Set Up and more — curated Cloud Native tools, guides and references."
 ---
 # OCP 4
 
@@ -375,13 +375,6 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 
   - **(2021)** [**developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container**](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explains how to execute legacy .NET applications alongside Linux containers on OpenShift. Details the usage of the Windows Machine Config Operator (WMCO) to run and manage Windows Server VMs directly inside OpenShift.
   - **(2021)** [**cloud.redhat.com: Announcing Bring Your Own Host Support for Windows nodes to Red Hat OpenShift**](https://www.redhat.com/en/blog/announcing-bring-your-own-host-support-for-windows-nodes-to-red-hat-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces Bring Your Own Host (BYOH) capabilities for Windows Server workloads on OpenShift. Explains how this feature allows operators to manually bootstrap pre-configured Windows instances into their clusters.
-## Extensibility
-
-### Operators
-
-#### Lifecycle Management (1)
-
-  - **(2024)** [==Red Hat OLM==](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dd898253" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 11 L 30 9 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-dd898253)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Part of the Operator Framework, OLM manages the installation, updates, and role-based access control of Operators running inside a cluster. It acts as an orchestrator for custom resource definitions (CRDs) and controller versions, ensuring dependencies are resolved safely. This tool is standard infrastructure across Red Hat OpenShift and enterprise Kubernetes configurations to scale operations reliably.
 ## Extensibility and Apis
 
 ### Microservices
@@ -394,6 +387,9 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 #### Community Feed
 
   - **(2024)** [twitter.com/operatorhubio](https://x.com/operatorhubio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official community account sharing news, releases, and developments in the operator ecosystem.
+#### OLM Core
+
+  - **(2026)** [==OLM Arquitecture==](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8c2ec55e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 8 L 30 12 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-8c2ec55e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository provides deep technical designs for Operator Lifecycle Manager (OLM). It handles updates, dependency validation, and multi-tenant installations of Kubernetes Operators.
 ## Extensibility and Development
 
 ### Registries and Catalogs
@@ -419,6 +415,11 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 #### Ansible
 
   - **(2021)** [tommeramber/ocp-automations](https://github.com/tommeramber/ocp-automations) <span class='md-tag md-tag--info'>⭐ 7</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-57037a3a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 10 L 30 7 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-57037a3a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community repository of automation playbooks and scripts designed to streamline configuration, security hardening, and deployment procedures across diverse OpenShift Container Platform clusters.
+### Cluster Management (1)
+
+#### Declarative Nodes
+
+  - **(2026)** [==Machine API==](https://github.com/openshift/machine-api-operator/tree/main) <span class='md-tag md-tag--info'>⭐ 186</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cfd5c3f3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 7 L 30 3 L 40 3 L 50 10" fill="none" stroke="url(#spark-grad-cfd5c3f3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Machine API Operator is a foundational component of OpenShift 4's declarative node lifecycle. Based on upstream Cluster API, it manages clusters of Machine objects as standard Kubernetes resources, enabling auto-scaling, self-healing nodes, and seamless multi-cloud provider instance integration directly from the cluster console.
 ### Cluster Provisioning
 
 #### AWS Quick Starts
@@ -471,6 +472,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
   - **(2022)** [dkrallis.wordpress.com: How to create an OpenShift Cluster in Azure and how you can interact with Azure DevOps environment – Part A](https://dkrallis.wordpress.com/2022/11/25/how-to-create-an-openshift-cluster-in-azure-and-how-you-can-interact-with-azure-devops-environment-part-a) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step tutorial showing how to deploy private Azure Red Hat OpenShift (ARO) instances and manage pipeline execution via secure Azure DevOps agents.
 #### AWS Provisioning
 
+  - **(2026)** [==AWS Account Set Up 🌟==](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) <span class='md-tag md-tag--info'>⭐ 1550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-132ea455" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 5 L 30 2 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-132ea455)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository guide outlines the specific IAM policies, resource quotas, Route53 configurations, and networking permissions required to install OpenShift on AWS using the native installer-provisioned infrastructure (IPI). It is a vital technical reference for cloud infrastructure engineers.
   - **(2020)** [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official AWS blueprint details early CloudFormation-driven automations to instantiate OpenShift 4 environments. While largely replaced by Modern Partner Solutions, it remains an informative model for multi-AZ topology layouts.
 ## Infrastructure Security
 
@@ -631,7 +633,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
   - **(2026)** [**try.openshift.com 🌟**](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Unified gateway for trialing OpenShift deployments across public clouds, virtualization platforms, and local developer workstations (via OpenShift Local). Enables architects to evaluate operational complexity and developer tooling. Continually updated in 2026 to reflect the latest stable 4.x features.
 ## Platforms
 
-### Cluster Management (1)
+### Cluster Management (2)
 
 #### Cluster Provisioning (1)
 
@@ -661,7 +663,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 
   - **(2021)** [okd4-upi-lab-setup: Building an OpenShift - OKD 4.X Lab](https://cgruver.github.io/okd4-upi-lab-setup) <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub lab orchestration repository designed to construct an OKD 4.x environment via User Provisioned Infrastructure (UPI). Using automated Bash scripts and Ansible playbooks, it speeds up the configuration of helper services (DNS, HAProxy, Web server) and manages cluster deployment.
   - **(2020)** [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://www.redhat.com/en/blog/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive blog series instructing network engineers and developers on setting up a bare-metal OKD 4.4 cluster inside a personal home lab. It covers essential infrastructure prep, including configuring DHCP, DNS forwarding, PXE booting, HAProxy for load balancing, and deploying the bootstrap control VM.
-### Lifecycle Management (2)
+### Lifecycle Management (1)
 
 #### Application Migration
 
@@ -678,7 +680,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
 
   - **(2025)** [Homepage](https://crc.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The landing portal for Red Hat OpenShift Local (formerly CodeReady Containers / CRC). OpenShift Local packages a minimal, single-node OpenShift cluster into a single virtual machine optimized for local development. Live grounding confirms it is the primary local emulation tool, replacing minishift, and is designed for developers building cloud-native applications directly on macOS, Windows, or Linux.
   - **(2019)** [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers**](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical launch announcement introducing Red Hat CodeReady Containers (now OpenShift Local) for OpenShift 4.2. It marks the transition to Operator-driven OpenShift clusters running on local developer laptops. The single-node environment utilizes host-native hypervisors (Hyper-V, Libvirt, Hyperkit) to containerize all cluster control-plane workloads into a resource-constrained footprint.
-#### Operators (1)
+#### Operators
 
   - **(2020)** [Install Red Hat OpenShift Operators on your laptop using Red Hat CodeReady Containers and Red Hat Marketplace](https://developers.redhat.com/blog/2020/09/09/install-red-hat-openshift-operators-on-your-laptop-using-red-hat-codeready-containers-and-red-hat-marketplace)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This tutorial covers deploying OpenShift Operators inside CodeReady Containers (OpenShift Local). Note: Red Hat Marketplace integration steps are now legacy due to the marketplace's sunset. However, the core technique of utilizing local Operator Lifecycle Manager (OLM) configurations to install enterprise-grade catalog operators on a local developer laptop remains highly relevant.
 #### Remote Deployments
@@ -787,7 +789,7 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Developer Sandbox, Rook a
   - **(2022)** [cloud.redhat.com: Scale your application containers on Red Hat OpenShift Service on AWS (ROSA) clusters using Amazon EFS storage](https://www.redhat.com/en/blog/scale-your-application-containers-on-red-hat-openshift-service-on-aws-rosa-clusters-using-amazon-efs-storage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Teaches architects how to provision and leverage Amazon Elastic File System (EFS) to achieve multi-AZ ReadWriteMany (RWX) storage for scalable application backends.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Openshift](./openshift.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+💡 **Explore Related:** [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Openshift](./openshift.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

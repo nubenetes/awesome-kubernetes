@@ -29,16 +29,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | It is the foundational core component for dynamically managing node capacity and infrastructure elasticity across all major cloud providers. |
-    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🔴 critical | It serves as the definitive Go SDK and architectural engine powering almost all Kubernetes controllers, operators, and platform tools. |
-    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | It remains the industry-standard developer framework for scaffolding and building custom Kubernetes APIs and controllers. |
-    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🔴 critical | It is the ubiquitous, template-free configuration customization engine natively integrated into kubectl and standard GitOps workflows. |
-    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🟡 high | It provides Kubernetes-native queueing and quota management critical for orchestrating modern AI/ML and distributed batch computing workloads. |
-    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | It addresses complex enterprise hybrid and multi-cloud operations by providing seamless, production-grade multi-cluster workload federation. |
-    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | It establishes the standard cloud-native architecture for high-performance, serverless machine learning inference and model serving at scale. |
-    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | It is the standard Kubernetes-SIG utility for automating dynamic DNS record lifecycle management across cloud providers. |
-    | 2026-11-05 | [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler) | 🟡 high | It delivers critical automated resource rightsizing to maximize cluster bin-packing efficiency and optimize cloud compute spend. |
-    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🔵 medium | It is the most widely adopted terminal-based management dashboard for real-time cluster inspection, debugging, and incident response. |
+    | 2026-11-05 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 🔴 critical | It is the de facto standard framework used across the industry for scaffolding and building custom Kubernetes controllers and operators. |
+    | 2026-11-05 | [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) | 🔴 critical | It remains the core infrastructure component driving automated, production-grade node elasticity across cloud Kubernetes environments. |
+    | 2026-11-05 | [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) | 🔴 critical | It serves as the definitive Go client library and architectural backbone powering the entire Kubernetes control plane ecosystem. |
+    | 2026-11-05 | [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) | 🔴 critical | It has become the premier CNCF batch scheduling engine optimizing high-demand GPU resource queues for AI and machine learning workloads. |
+    | 2026-11-01 | [kustomize](https://github.com/kubernetes-sigs/kustomize) | 🟡 high | It provides the ubiquitous, template-free configuration management standard natively integrated into kubectl for multi-environment deployments. |
+    | 2026-11-05 | [Karmada](https://github.com/karmada-io/karmada) | 🟡 high | It addresses the massive enterprise shift toward multi-cluster and hybrid-cloud orchestration by offering transparent, native workload federation. |
+    | 2026-11-04 | [KFServing 🌟](https://github.com/kserve/kserve) | 🟡 high | It standardizes enterprise machine learning model inference and serverless scaling directly on top of native Kubernetes primitives. |
+    | 2026-11-05 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | 🟡 high | It is a ubiquitous production component that dynamically automates DNS record propagation for Ingress and Service resources across DNS providers. |
+    | 2026-11-03 | [github.com/kubernetes-sigs/aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | 🟡 high | It is an essential cloud integration controller managing traffic ingress and enterprise networking for production Kubernetes workloads on AWS. |
+    | 2026-10-31 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | It is the universally adopted terminal UI that accelerates operational productivity, observability, and real-time troubleshooting for Kubernetes operators. |
 
 === "Last 12 Months"
 
@@ -77,16 +77,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-10-31 | [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) | 🔴 critical | containerd is the industry-standard container runtime embedded directly into Kubernetes clusters. |
-    | 2026-06-14 | [buildkit](https://docs.docker.com/build) | 🔴 critical | BuildKit is Docker's next-generation container building engine enabling concurrent execution and advanced caching. |
-    | 2026-10-30 | [**GitHub build-push-action**](https://github.com/docker/build-push-action) | 🟡 high | The standard GitHub Action for building and pushing multi-platform container images with Buildx integration. |
-    | 2026-06-01 | [podman](https://podman.io) | 🟡 high | Podman provides a secure, daemonless container engine supporting rootless OCI container management. |
-    | 2026-10-31 | [crun](https://github.com/containers/crun) | 🟡 high | crun offers an ultra-fast, low-memory OCI runtime written completely in C as a high-performance alternative to runc. |
-    | 2026-06-13 | [runc](https://github.com/opencontainers/runc) | 🟡 high | runc serves as the canonical low-level container runtime engine conforming strictly to the OCI specification. |
-    | 2026-06-01 | [buildah](https://buildah.io) | 🟡 high | Buildah enables fine-grained layer management and OCI image construction without a background container daemon. |
-    | 2026-06-01 | [knative.dev](https://knative.dev) | 🟡 high | Knative delivers the premier Kubernetes-native platform for serverless workloads with auto-scaling and eventing. |
-    | 2026-06-01 | [Dapr](https://dapr.io) | 🔵 medium | Dapr provides a modular sidecar runtime delivering developer APIs for distributed application patterns. |
-    | 2026-07-30 | [buildg: Interactive debugger for Dockerfile 🌟](https://github.com/ktock/buildg) | 🔵 medium | Buildg introduces an interactive debugger built on top of BuildKit to step through Dockerfile build instructions. |
+    | 2026-10-31 | [containerd - An open and reliable container runtime](https://github.com/containerd/containerd) | 🔴 critical | It is the foundational, CNCF-graduated container runtime underpinning most production Kubernetes clusters globally. |
+    | 2026-06-13 | [runc](https://github.com/opencontainers/runc) | 🔴 critical | It serves as the canonical OCI low-level runtime specification implementation powering Linux container execution across ecosystem engines. |
+    | 2026-06-14 | [buildkit](https://docs.docker.com/build) | 🔴 critical | It represents the modern standard for container image building, providing concurrent multi-stage execution and advanced caching capabilities. |
+    | 2026-06-01 | [podman](https://podman.io) | 🟡 high | It delivers a daemonless, rootless container management framework widely adopted for secure enterprise operations. |
+    | 2026-10-31 | [crun](https://github.com/containers/crun) | 🟡 high | It introduces a fast, memory-efficient C-based OCI runtime alternative to runc with native support for advanced Linux features. |
+    | 2026-06-01 | [knative.dev](https://knative.dev) | 🟡 high | It is the de facto standard Kubernetes-native platform for request-driven, scale-to-zero serverless workload execution. |
+    | 2026-06-01 | [Dapr](https://dapr.io) | 🟡 high | It simplifies cloud-native microservice runtime architecture by providing standardized APIs through a modular sidecar design. |
+    | 2026-10-30 | [**GitHub build-push-action**](https://github.com/docker/build-push-action) | 🟡 high | It acts as the ubiquitous CI/CD pipeline integration for building and pushing multi-platform OCI images using Docker Buildx. |
+    | 2026-06-01 | [buildah](https://buildah.io) | 🔵 medium | It enables fine-grained layer creation and daemonless image builds critical for secure cloud-native build pipelines. |
+    | 2026-11-02 | [dive 🌟](https://github.com/wagoodman/dive) | 🔵 medium | It provides essential visibility into container layer structures to help engineers audit and minimize final image sizes. |
 
 === "Last 12 Months"
 
@@ -125,16 +125,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) | 🔴 critical | It defines the next-generation Kubernetes routing standard, unifying ingress and service mesh traffic with expressive, role-oriented APIs. |
-    | 2026-11-01 | [github.com: Istio](https://github.com/istio/istio) | 🔴 critical | It represents the industry-benchmark CNCF service mesh providing zero-trust security, traffic management, and ambient mesh capabilities at enterprise scale. |
-    | 2026-06-01 | [Linkerd](https://linkerd.io) | 🔴 critical | As a CNCF-graduated service mesh with a specialized Rust proxy, it delivers ultra-low-latency mTLS and traffic shaping with minimal resource overhead. |
-    | 2026-05-17 | [github.com/containernetworking 🌟](https://github.com/containernetworking) | 🔴 critical | It hosts the core CNI specification and runtime plugins that serve as the foundational connectivity standard for all container orchestration platforms. |
-    | 2026-10-31 | [Envoy Gateway](https://github.com/envoyproxy/gateway) | 🟡 high | It unifies edge routing by providing an official, community-driven implementation of the Kubernetes Gateway API powered by Envoy. |
-    | 2026-11-04 | [NodeLocal DNSCache](https://github.com/kubernetes/enhancements) | 🟡 high | It is an essential Kubernetes architectural component that mitigates cluster-wide DNS bottlenecks and conntrack table exhaustion at the node level. |
-    | 2026-06-02 | [Consul 2.0 improves flexibility, control, and scalability](https://www.hashicorp.com/blog/consul-20-improves-flexibility-control-and-scalability) | 🟡 high | This major release marks a significant architectural advancement for enterprise multi-cloud service discovery and mesh networking. |
-    | 2026-11-05 | [github.com: kiali](https://github.com/kiali/kiali) | 🟡 high | It provides critical topological observability, configuration validation, and traffic health monitoring indispensable for running Istio in production. |
-    | 2026-10-30 | [Flannel](https://github.com/flannel-io/flannel) | 🟡 high | It remains one of the most widely adopted and reliable lightweight CNI overlays for foundational Kubernetes pod-to-pod networking. |
-    | 2026-06-01 | [Meshery.io:](https://meshery.io) | 🔵 medium | It serves as the standard CNCF multi-mesh management plane for benchmarking performance and verifying lifecycle conformance across diverse mesh implementations. |
+    | 2026-11-01 | [github.com: Istio](https://github.com/istio/istio) | 🔴 critical | Istio is the leading cloud-native service mesh standard, driving major industry adoption with its sidecarless Ambient architecture. |
+    | 2026-11-05 | [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) | 🔴 critical | The Kubernetes Gateway API represents a major paradigm shift in cloud-native networking by establishing the next-generation standard that supersedes legacy Ingress. |
+    | 2026-06-01 | [Linkerd](https://linkerd.io) | 🟡 high | Linkerd provides a production-ready, CNCF-graduated service mesh powered by a lightweight Rust data plane for high performance and minimal resource overhead. |
+    | 2026-10-31 | [Envoy Gateway](https://github.com/envoyproxy/gateway) | 🟡 high | Envoy Gateway simplifies edge proxy operations by standardizing Envoy control planes directly around the Kubernetes Gateway API. |
+    | 2026-11-02 | [Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)](https://www.youtube.com/playlist?list=PLWGYAgXdQh44) | 🟡 high | This comprehensive series covers modern enterprise service mesh architectures, focusing on sidecarless ztunnel mTLS and Gateway API integration on OpenShift. |
+    | 2026-11-04 | [NodeLocal DNSCache](https://github.com/kubernetes/enhancements) | 🟡 high | NodeLocal DNSCache drastically improves cluster DNS performance and reliability by running local caching agents on every node to eliminate single-point lookup bottlenecks. |
+    | 2026-06-02 | [Consul 2.0 improves flexibility, control, and scalability](https://www.hashicorp.com/blog/consul-20-improves-flexibility-control-and-scalability) | 🟡 high | Consul 2.0 enhances enterprise multi-cloud networking by adding multi-port service mesh support and improved control plane density. |
+    | 2026-10-16 | [K8GB - Kubernetes Global Balancer](https://github.com/AbsaOSS/k8gb) | 🔵 medium | K8GB solves cross-region traffic routing by delivering a cloud-native Global Server Load Balancing controller natively built on CoreDNS. |
+    | 2026-06-02 | [Powering multi-cluster workloads with seamless cross-cluster networking for Azure Kubernetes Fleet Manager](https://azure.microsoft.com/en-us/blog/powering-multi-cluster-workloads-with-seamless-cross-cluster-networking-for-azure-kubernetes-fleet-manager) | 🔵 medium | Azure Kubernetes Fleet Manager advances multi-cluster networking by enabling low-latency, transparent east-west communication across distributed Kubernetes clusters. |
+    | 2026-06-01 | [editor.cilium.io 🌟](https://editor.networkpolicy.io) | 🔵 medium | The Cilium Network Policy Editor streamlines zero-trust security administration by allowing interactive visualization and real-time validation of Kubernetes network policies. |
 
 === "Last 12 Months"
 
@@ -173,16 +173,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-08-20 | [Awesome microservices](https://github.com/mfornos/awesome-microservices) | 🔴 critical | Serves as the definitive directory for microservices design patterns, distributed consensus engines, API gateways, and distributed event systems. |
-    | 2026-10-23 | [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native) | 🔴 critical | Provides an authoritative structural taxonomy of CNCF cloud-native architecture components spanning service meshes, storage, and runtime fabrics. |
-    | 2026-06-01 | [awesome-architecture.com: 🎨 Awesome Software Architecture 🌟](https://awesome-architecture.com) | 🟡 high | Consolidates architectural blueprints, domain-driven design strategies, and patterns essential for structuring high-concurrency microservices. |
-    | 2026-11-02 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | 🟡 high | Enables engineering teams to codify and version-control complex multi-cloud and microservice architecture topologies directly in Python. |
-    | 2026-06-18 | [developer.com: Overcoming the Common Microservices Anti-Patterns](https://dzone.com/articles/microservices-anti-patterns) | 🟡 high | Addresses critical failure modes in distributed systems engineering by detailing how to identify and avoid distributed monolith anti-patterns. |
-    | 2026-06-14 | [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform) | 🟡 high | Delivers production-tested IaC blueprints for architecting secure, enterprise-grade multi-tenant Kubernetes platform foundations. |
-    | 2026-05-25 | [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa) | 🟡 high | Enforces decoupled, policy-as-code architectural boundaries across microservices, ingress gateways, and orchestrators using Open Policy Agent. |
-    | 2026-05-30 | [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) | 🔵 medium | Offers a scalable architectural pattern for centralized resource indexing and discovery across complex multi-cluster microservice estates. |
-    | 2026-10-18 | [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture) | 🔵 medium | Delivers verified enterprise landing zone architectures and reference designs for orchestrating robust distributed systems in public cloud environments. |
-    | 2026-10-26 | [Awesome Compose 🌟](https://github.com/docker/awesome-compose) | 🔵 medium | Standardizes declarative multi-container topologies and service orchestration patterns for local microservices development and testing. |
+    | 2026-08-20 | [Awesome microservices](https://github.com/mfornos/awesome-microservices) | 🔴 critical | It serves as the definitive catalog for microservices design patterns, consensus engines, API gateways, and distributed tracing solutions. |
+    | 2026-10-23 | [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native) | 🟡 high | Provides an extensive architectural reference mapping the CNCF landscape, including service meshes, dynamic storage, and cloud-native components. |
+    | 2026-06-01 | [awesome-architecture.com: 🎨 Awesome Software Architecture 🌟](https://awesome-architecture.com) | 🟡 high | Aggregates core architectural patterns and design templates specifically tailored for building high-concurrency distributed microservices. |
+    | 2026-06-01 | [developer.hashicorp.com 🌟](https://developer.hashicorp.com) | 🟡 high | Acts as the consolidated authority for building blocks of modern infrastructure architecture, including Terraform, Consul, Vault, and Nomad. |
+    | 2026-05-30 | [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) | 🟡 high | Delivers an innovative search engine that unifies multi-cluster Kubernetes resource discovery across large-scale distributed architectures. |
+    | 2026-05-25 | [anderseknert/awesome-opa 🌟](https://github.com/open-policy-agent/awesome-opa) | 🟡 high | Provides critical policy-as-code patterns using Open Policy Agent to enforce governance across microservices environments. |
+    | 2026-09-30 | [How they SRE](https://github.com/upgundecha/howtheysre) | 🟡 high | Offers real-world operational insights into high-concurrency database setups, cluster failover strategies, and telemetry architectures from top tech companies. |
+    | 2026-06-14 | [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform) | 🟡 high | Provides enterprise-tested Infrastructure-as-Code templates for provisioning scalable, secure Kubernetes topologies across cloud providers. |
+    | 2026-11-02 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | 🔵 medium | Enables engineering teams to define, maintain, and visualize cloud infrastructure topologies directly using Python code. |
+    | 2026-10-18 | [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) | 🔵 medium | Demonstrates production-ready architectural patterns for implementing serverless Python microservices with distributed tracing and schema validation. |
 
 === "Last 12 Months"
 
@@ -221,16 +221,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-10-30 | [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) | 🔴 critical | Velero is the de facto cloud-native standard for Kubernetes disaster recovery, cluster migration, and persistent volume data protection. |
-    | 2026-06-01 | [Apache Kafka](https://kafka.apache.org) | 🔴 critical | Apache Kafka remains the foundational distributed event streaming platform powering mission-critical, high-throughput enterprise architectures worldwide. |
-    | 2026-06-01 | [Longhorn](https://longhorn.io) | 🔴 critical | As a graduated CNCF project, Longhorn delivers resilient, cloud-native distributed block storage tailored specifically for Kubernetes. |
-    | 2026-06-01 | [strimzi.io](https://strimzi.io) | 🔴 critical | Strimzi is the premier CNCF operator project that automates the deployment, configuration, and lifecycle management of Kafka clusters on Kubernetes. |
-    | 2026-06-01 | [min.io](https://www.min.io) | 🔴 critical | MinIO defines the standard for high-performance, Kubernetes-native, S3-compatible object storage across hybrid and private cloud environments. |
-    | 2026-10-21 | [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) | 🟡 high | Crunchy Data's Postgres Operator sets the enterprise benchmark for declarative, production-grade PostgreSQL lifecycle management and high availability on Kubernetes. |
-    | 2026-06-01 | [**Debezium**:](https://debezium.io) | 🟡 high | Debezium is the industry-standard log-based change data capture (CDC) platform enabling real-time streaming ETL and event-driven data pipelines. |
-    | 2026-06-01 | [Apache Flink](https://flink.apache.org) | 🟡 high | Apache Flink is the preeminent distributed framework for low-latency, stateful stream processing with robust exactly-once delivery guarantees. |
-    | 2026-06-01 | [OpenEBS](https://openebs.io) | 🟡 high | OpenEBS is a leading CNCF Container Attached Storage engine that delivers flexible local and distributed persistent storage for stateful workloads. |
-    | 2026-06-01 | [Redpanda 🌟](https://www.redpanda.com) | 🟡 high | Redpanda delivers a major architectural leap forward in messaging by providing a zero-JVM, thread-per-core, Kafka-compatible streaming engine. |
+    | 2026-06-01 | [strimzi.io](https://strimzi.io) | 🔴 critical | Strimzi is the premier CNCF project for declaratively deploying and managing enterprise Apache Kafka clusters natively on Kubernetes. |
+    | 2026-06-01 | [Longhorn](https://longhorn.io) | 🔴 critical | Longhorn provides a CNCF-graduated, lightweight distributed block storage engine built specifically for Kubernetes persistent volumes. |
+    | 2026-06-01 | [min.io](https://www.min.io) | 🔴 critical | MinIO is the industry-standard high-performance, S3-compatible object storage platform optimized for native Kubernetes private cloud deployments. |
+    | 2026-06-01 | [Redpanda 🌟](https://www.redpanda.com) | 🟡 high | Redpanda delivers a thread-per-core C++ streaming platform compatible with Kafka APIs, bypassing JVM overhead for modern cloud infrastructure. |
+    | 2026-06-01 | [**Debezium**:](https://debezium.io) | 🟡 high | Debezium serves as the standard open-source platform for log-based Change Data Capture to power event-driven microservices. |
+    | 2026-06-01 | [OpenEBS](https://openebs.io) | 🟡 high | OpenEBS enables Container Attached Storage capabilities that turn local node and cloud disks into dynamic persistent storage for stateful workloads. |
+    | 2026-10-30 | [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) | 🔴 critical | Velero is the de facto open-source standard for backing up, restoring, and migrating Kubernetes cluster resources and persistent volume data. |
+    | 2026-10-21 | [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) | 🟡 high | Crunchy Postgres Operator automates production-grade high availability, failover, backup, and scaling of PostgreSQL databases on Kubernetes. |
+    | 2026-06-01 | [Apache Flink](https://flink.apache.org) | 🟡 high | Apache Flink is the enterprise benchmark for real-time stateful stream processing over modern distributed event logs. |
+    | 2026-06-01 | [airflow.apache.org: KubernetesPodOperator 🌟🌟🌟](https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/operators.html) | 🟡 high | Airflow's KubernetesPodOperator provides runtime isolation by dynamically executing workflow tasks inside single-use Kubernetes Pods. |
 
 === "Last 12 Months"
 
@@ -269,16 +269,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | Red Hat OpenShift AI establishes the benchmark enterprise stack for orchestrating KServe, vLLM, and Ray workloads natively on Kubernetes. |
-    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Standardizes high-throughput PagedAttention LLM inference on Kubernetes, serving as the foundational deployment pattern for cloud-native AI workloads. |
-    | 2026-11-07 | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | 🔴 critical | Provides an essential architectural decision matrix evaluating hyperscaler AI control planes against Kubernetes-native AI operational platforms. |
-    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🟡 high | Unifies Semantic Kernel and AutoGen into an official multi-language enterprise runtime for orchestrating multi-agent systems. |
-    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Acts as Microsoft's flagship enterprise control plane for governing multi-provider model catalogs and autonomous agent lifecycles at scale. |
-    | 2026-11-05 | [Google Cloud Vertex AI Platform](https://cloud.google.com/vertex-ai) | 🟡 high | Delivers a fully managed enterprise foundation integrating Ray, foundational model garden services, and agent evaluation tools on Google Cloud. |
-    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Bridges local agentic prototyping with enterprise production deployments targeting secure Google Kubernetes Engine environments. |
-    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Pioneers serverless edge infrastructure for globally distributed, stateful AI agents using Durable Objects and persistent SQLite state. |
-    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Sets the industry standard for CLI-driven autonomous agentic software development and codebase lifecycle automation. |
-    | 2026-06-07 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers) | 🟡 high | Standardizes interoperable tool connectivity and context exchange for AI agents via production-grade Model Context Protocol implementations. |
+    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai) | 🔴 critical | Unifies foundational cloud native AI primitives like KServe, vLLM, and KubeRay into a production-grade enterprise hybrid cloud platform on Kubernetes. |
+    | 2026-11-02 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🔴 critical | Establishes the open-source industry standard for high-throughput, memory-efficient LLM inference serving natively on Kubernetes using PagedAttention. |
+    | 2026-11-05 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 🟡 high | Unifies Semantic Kernel and AutoGen into a single enterprise-grade foundation for multi-agent software architecture. |
+    | 2026-11-05 | [Cloudflare Agents Platform](https://developers.cloudflare.com/agents) | 🟡 high | Delivers a globally distributed, serverless edge runtime for stateful AI agents using Workers, Durable Objects, and persistent per-agent SQLite state. |
+    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Provides Google's unified development platform and SDK to build, evaluate, and seamlessly scale stateful AI agents onto GKE infrastructure. |
+    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Sets the benchmark for autonomous CLI-driven software engineering by letting AI agents directly navigate codebases, run tests, and manage git workflows. |
+    | 2026-06-07 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers) | 🟡 high | Establishes the official standard for Model Context Protocol (MCP) servers to connect AI agents securely with enterprise infrastructure and tools. |
+    | 2026-06-02 | [Announcing Claude Managed Agents on Cloudflare](https://blog.cloudflare.com/claude-managed-agents) | 🟡 high | Creates a secure, sandboxed execution plane for hosting autonomous managed AI agents directly on edge cloud infrastructure. |
+    | 2026-11-07 | [Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)](https://www.youtube.com/playlist?list=PLBZl7QsgYjrw) | 🟡 high | Provides an essential production engineering comparison matrix between managed cloud AI control planes and Kubernetes-native AI platforms. |
+    | 2026-11-05 | [Microsoft Azure AI Foundry (Microsoft Foundry)](https://learn.microsoft.com/en-us/azure/ai-foundry) | 🟡 high | Consolidates model cataloging, grounding, multi-agent creation, and AI safety evaluation into a unified enterprise cloud control plane. |
 
 === "Last 12 Months"
 
@@ -310,16 +310,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Ray](https://docs.ray.io/en/latest) | 🔴 critical | Ray is the de facto industry standard for distributed computing, serving as the foundational execution engine for large-scale AI training and inference on Kubernetes. |
-    | 2026-11-05 | [Databricks Mosaic AI](https://www.databricks.com/product/artificial-intelligence) | 🔴 critical | Mosaic AI establishes an end-to-end enterprise framework for evaluating, governing, and deploying production RAG and agentic workflows directly on lakehouse architecture. |
-    | 2026-06-13 | [github.com/Netflix/metaflow 🌟](https://github.com/Netflix/metaflow) | 🟡 high | Metaflow standardizes developer-friendly production pipelines by abstracting distributed cloud compute and infrastructure orchestration for data science teams. |
-    | 2026-06-02 | [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) | 🟡 high | Meta's SilverTorch introduces an architectural paradigm shift that replaces multi-stage retrieval pipelines with a unified, GPU-accelerated model. |
-    | 2026-05-19 | [github.com/meta-llama/llama-recipes](https://github.com/meta-llama/llama-cookbook) | 🟡 high | Serves as Meta's definitive implementation guide and best-practice baseline for parameter-efficient fine-tuning, quantization, and LLM operationalization. |
-    | 2026-06-08 | [rubrix](https://github.com/argilla-io/argilla) | 🟡 high | Argilla delivers critical data-centric MLOps infrastructure for human-in-the-loop feedback, RLHF, and continuous LLM alignment pipelines. |
-    | 2026-06-13 | [github.com/aimhubio/aim](https://github.com/aimhubio/aim) | 🔵 medium | Aim provides a modern, high-performance, open-source alternative for tracking, searching, and visualizing massive amounts of ML experiment metadata. |
-    | 2026-06-18 | [mikeroyal/Kubernetes-Guide: Machine Learning 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md) | 🔵 medium | An exhaustive reference mapping operational blueprints, drivers, and scheduler configurations required to successfully run machine learning workloads on Kubernetes. |
-    | 2026-10-02 | [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) | 🔵 medium | Envd streamlines cloud-native AI engineering by compiling high-level Python specifications into reproducible, CUDA-optimized OCI containers. |
-    | 2026-05-25 | [github.com/XuehaiPan/nvitop 🌟](https://github.com/XuehaiPan/nvitop) | 🔵 medium | A vital operational utility that modernizes terminal-based GPU monitoring and process tracking across bare-metal and containerized ML nodes. |
+    | 2026-06-01 | [Ray](https://docs.ray.io/en/latest) | 🔴 critical | Ray is the industry-standard distributed compute execution engine for scaling enterprise AI workloads and native Kubernetes orchestration. |
+    | 2026-11-05 | [Databricks Mosaic AI](https://www.databricks.com/product/artificial-intelligence) | 🔴 critical | Databricks Mosaic AI delivers a unified enterprise platform for building, evaluating, and governing AI agents directly alongside Lakehouse data. |
+    | 2026-06-13 | [github.com/Netflix/metaflow 🌟](https://github.com/Netflix/metaflow) | 🟡 high | Metaflow provides Netflix's battle-tested framework for seamlessly bridging local Python development with production cloud and Kubernetes pipelines. |
+    | 2026-06-02 | [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) | 🟡 high | SilverTorch introduces a novel paradigm shift by consolidating vector retrieval, filtering, and scoring into a unified GPU-optimized PyTorch model. |
+    | 2026-06-08 | [rubrix](https://github.com/argilla-io/argilla) | 🟡 high | Argilla is a leading open-source data curation platform essential for continuous human-in-the-loop feedback and LLM fine-tuning workflows. |
+    | 2026-05-19 | [github.com/meta-llama/llama-recipes](https://github.com/meta-llama/llama-cookbook) | 🟡 high | Meta's Llama recipes establish standardized operational blueprints for parameter-efficient fine-tuning, quantization, and enterprise model deployment. |
+    | 2026-06-18 | [mikeroyal/Kubernetes-Guide: Machine Learning 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md) | 🟡 high | This comprehensive reference manual maps the architecture and deployment patterns for running complex machine learning stacks natively on Kubernetes. |
+    | 2026-06-13 | [github.com/aimhubio/aim](https://github.com/aimhubio/aim) | 🔵 medium | Aim provides an open-source, highly scalable experiment tracking framework to visualize and query enterprise ML training metrics. |
+    | 2026-10-02 | [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) | 🔵 medium | Envd leverages declarative Python definitions to build isolated container environments, solving local-to-cloud reproducibility for CUDA and ML dependencies. |
+    | 2026-06-25 | [redhat.com: Bring Your Own Knowledge — Automation Intelligent Assistant (RAG)](https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant) | 🔵 medium | This guide outlines enterprise-grade architectural patterns for building and deploying production-ready Retrieval-Augmented Generation pipelines. |
 
 === "Last 12 Months"
 
@@ -358,16 +358,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [quarkus.io](https://quarkus.io) | 🔴 critical | Quarkus fundamentally transforms Java for cloud-native environments with GraalVM integration, offering ultra-fast startup times and minimal memory footprints in Kubernetes. |
-    | 2026-06-01 | [gRPC](https://grpc.io) | 🔴 critical | gRPC serves as the foundational, high-performance polyglot RPC framework underlying modern microservices and service mesh architectures. |
-    | 2026-11-05 | [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) | 🟡 high | mirrord drastically accelerates the cloud-native inner dev loop by letting engineers test local processes directly against remote Kubernetes traffic without image rebuilds. |
-    | 2026-06-14 | [Ruff](https://github.com/astral-sh/ruff) | 🟡 high | Ruff has disrupted the Python developer tooling landscape by drastically reducing CI build times as a high-performance, Rust-based linter and formatter. |
-    | 2026-10-23 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Pydantic is the universal standard for data validation and schema enforcement powering modern cloud-native Python APIs and microservices. |
-    | 2026-10-27 | [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) | 🟡 high | Spring Cloud Kubernetes provides seamless integration allowing enterprise Java applications to consume native Kubernetes ConfigMaps, Secrets, and discovery mechanisms. |
-    | 2026-06-14 | [testcontainers-spring-boot 🌟](https://github.com/PlaytikaOSS/testcontainers-spring-boot) | 🟡 high | Testcontainers for Spring Boot automates the lifecycle of real Docker dependencies during test suites, ensuring production-grade integration testing for microservices. |
-    | 2026-10-28 | [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) | 🟡 high | Spring Boot automatically configures Kubernetes liveness and readiness probe endpoints, streamlining reliable container orchestration. |
-    | 2026-06-01 | [Spring Cloud](https://spring.io/projects/spring-cloud) | 🟡 high | Spring Cloud remains the dominant enterprise Java suite for orchestrating distributed systems patterns such as configuration management and circuit breaking. |
-    | 2026-06-01 | [AsyncAPI](https://www.asyncapi.com) | 🟡 high | AsyncAPI establishes the open industry standard for modeling, validating, and code-generating event-driven architectures across cloud-native environments. |
+    | 2026-06-01 | [quarkus.io](https://quarkus.io) | 🔴 critical | Quarkus revolutionizes Java for cloud-native deployments with GraalVM native compilation, ultra-fast startup times, and minimal memory footprints in Kubernetes. |
+    | 2026-11-05 | [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) | 🔴 critical | Mirrord transforms cloud-native local development by mirroring remote Kubernetes traffic and context directly into local IDE processes without redeployments. |
+    | 2026-06-14 | [Ruff](https://github.com/astral-sh/ruff) | 🔴 critical | Ruff represents a massive paradigm shift in the Python ecosystem by delivering orders-of-magnitude faster linting and formatting in CI/CD pipelines. |
+    | 2026-10-27 | [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) | 🟡 high | Spring Cloud Kubernetes provides the critical architectural bridge mapping Kubernetes ConfigMaps, Secrets, and discovery transparently into enterprise Spring applications. |
+    | 2026-10-23 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Pydantic V2 is the foundational data validation and parsing engine powering modern high-performance Python microservices and APIs. |
+    | 2026-10-28 | [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) | 🟡 high | Spring Boot's automated Kubernetes probe detection seamlessly aligns enterprise application health lifecycles with Kubernetes orchestrator management. |
+    | 2026-06-14 | [testcontainers-spring-boot 🌟](https://github.com/PlaytikaOSS/testcontainers-spring-boot) | 🟡 high | Testcontainers for Spring Boot standardizes cloud-native integration testing by automating real Dockerized backing dependencies during automated build workflows. |
+    | 2026-06-01 | [gRPC](https://grpc.io) | 🟡 high | gRPC is the universal CNCF communication framework enabling low-latency, bidirectional polyglot RPCs across Python, Java, and microservice meshes. |
+    | 2026-06-01 | [AsyncAPI](https://www.asyncapi.com) | 🔵 medium | AsyncAPI establishes the definitive open standard for defining, generating, and documenting event-driven microservices across cloud-native architectures. |
+    | 2026-06-01 | [OpenAPI Generator 🌟](https://openapi-generator.tech) | 🔵 medium | OpenAPI Generator is an indispensable enterprise tool for automating client SDK and server stub generation across polyglot Java and Python services. |
 
 === "Last 12 Months"
 
@@ -406,16 +406,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [redhat.com: World domination with cgroups part 8: down and dirty with cgroup v2](https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2) | 🔴 critical | Deep architectural analysis of cgroup v2 provides foundational knowledge for modern container resource management and performance isolation in cloud native environments. |
-    | 2026-06-13 | [bpftrace](https://github.com/bpftrace/bpftrace) | 🔴 critical | bpftrace is the standard high-level tracing language for the Linux eBPF subsystem, crucial for dynamic kernel observation and cloud-native observability. |
-    | 2026-06-12 | [github.com/actions/actions-runner-controller 🌟](https://github.com/actions/actions-runner-controller) | 🟡 high | Actions Runner Controller bridges Kubernetes and GitHub Actions by dynamically scaling self-hosted runner pods via HPA. |
-    | 2026-09-07 | [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | 🟡 high | Comprehensive enterprise-grade hardening guidelines are vital for securing production Linux infrastructure against sophisticated threats. |
-    | 2026-10-21 | [github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox' 🌟](https://github.com/cyberus-technology/virtualbox-kvm) | 🔵 medium | Delegating VirtualBox execution directly to the native Linux KVM backend optimizes virtualization performance on Linux hosts. |
-    | 2026-06-18 | [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) | 🟡 high | Defines secure enterprise patterns, least privilege, and runner isolation for continuous delivery pipelines using GitHub Actions. |
-    | 2026-06-01 | [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux) | 🔵 medium | Provides crucial diagnostic techniques for tracking real-time socket states and networking configurations using modern ss utilities. |
-    | 2026-06-01 | [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) | 🔵 medium | A dense reference manual covering essential system administration, networking, and performance monitoring tasks for on-call engineers. |
-    | 2026-06-01 | [pre-commit](https://pre-commit.com) | 🔵 medium | Multi-language pre-commit hook manager standardizes code quality and prevents credential leaks before changes enter source control. |
-    | 2026-10-13 | [wcurl](https://github.com/curl/wcurl) | 🔵 medium | Streamlines raw file downloads and reduces script friction in automation pipelines using a lightweight curl wrapper. |
+    | 2026-06-01 | [redhat.com: World domination with cgroups part 8: down and dirty with cgroup v2](https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2) | 🔴 critical | Understanding cgroup v2 and Pressure Stall Information (PSI) is foundational for configuring container runtimes, node resource allocation, and Kubernetes QoS. |
+    | 2026-06-13 | [bpftrace](https://github.com/bpftrace/bpftrace) | 🔴 critical | bpftrace is the standard diagnostic utility leveraging eBPF for dynamic kernel tracing, performance bottleneck analysis, and low-level Linux troubleshooting. |
+    | 2026-06-01 | [LWN.net](https://lwn.net) | 🟡 high | LWN.net remains the industry's premier technical authority for deep architectural insights into Linux kernel subsystems, virtualization, and systems plumbing. |
+    | 2026-06-12 | [github.com/actions/actions-runner-controller 🌟](https://github.com/actions/actions-runner-controller) | 🟡 high | Actions Runner Controller bridges Linux compute infrastructure with Kubernetes to scale ephemeral CI/CD runners automatically via cloud-native primitives. |
+    | 2026-09-07 | [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | 🟡 high | Provides an exhaustive, production-tested blueprint for hardening enterprise Linux hosts against SSH, network, and privilege escalation vulnerabilities. |
+    | 2026-06-01 | [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux) | 🔵 medium | Mastering modern socket inspection utilities like ss over deprecated netstat is essential for diagnosing container networking, ingress binds, and TCP states. |
+    | 2026-06-18 | [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) | 🔵 medium | Serves as an authoritative, high-density reference for command-line mastery, process inspection, and standard POSIX toolchain manipulation. |
+    | 2026-10-21 | [github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox' 🌟](https://github.com/cyberus-technology/virtualbox-kvm) | 🔵 medium | Enables hypervisors to utilize the native Linux KVM subsystem directly, minimizing overhead and aligning virtualization workloads with modern kernel capabilities. |
+    | 2026-06-01 | [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) | 🔵 medium | A practical operational guide delivering quick-lookup solutions for sysadmins and on-call SREs troubleshooting live Linux node failures. |
+    | 2026-10-23 | [zx](https://github.com/google/zx) | 🔵 medium | Modernizes system administration and automation by wrapping Linux child processes and shell pipelines with robust JavaScript/TypeScript error handling. |
 
 === "Last 12 Months"
 
@@ -454,16 +454,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org) | 🔴 critical | As a CNCF graduated project, OPA remains the de facto open-source standard for unified, declarative policy enforcement across cloud-native architectures. |
-    | 2026-11-01 | [hashicorp/vault](https://github.com/hashicorp/vault) | 🔴 critical | Vault is the cornerstone enterprise solution for secrets orchestration, dynamic credential brokering, and zero trust identity in cloud environments. |
-    | 2026-10-26 | [Cosign: Container Signing](https://github.com/sigstore/cosign) | 🔴 critical | Cosign has established itself as the ubiquitous industry standard for cryptographic container image signing and software supply chain verification. |
-    | 2026-06-14 | [Tetragon (Cilium)](https://github.com/cilium/tetragon) | 🟡 high | Tetragon leads the shift toward eBPF-driven runtime security, enabling real-time kernel-level threat detection and autonomous enforcement. |
-    | 2026-06-18 | [Project Calico 🌟](https://www.tigera.io/project-calico) | 🟡 high | Calico is an essential networking and security standard for enforcing granular network policies and microsegmentation in production Kubernetes clusters. |
-    | 2026-05-17 | [checkov.io](https://www.checkov.io) | 🟡 high | Checkov is a widely adopted static analysis tool that operationalizes security by catching Infrastructure-as-Code misconfigurations early in CI/CD pipelines. |
-    | 2026-11-05 | [kubescape](https://github.com/kubescape/kubescape) | 🟡 high | Kubescape provides continuous Kubernetes posture management and risk assessment against hardening frameworks as an active CNCF sandbox tool. |
-    | 2026-10-25 | [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler) | 🟡 high | Prowler is an industry-standard open-source CSPM tool performing automated security assessments and CIS benchmark auditing across multi-cloud estates. |
-    | 2026-06-01 | [keycloak.org](https://www.keycloak.org) | 🟡 high | Keycloak serves as the premier open-source IAM platform providing standardized OpenID Connect and SAML identity brokering for cloud applications. |
-    | 2026-11-05 | [kubernetes-sigs/security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | 🟡 high | The Security Profiles Operator streamlines the management and enforcement of native Linux security profiles like Seccomp and AppArmor across Kubernetes fleets. |
+    | 2026-10-26 | [Cosign: Container Signing](https://github.com/sigstore/cosign) | 🔴 critical | Cosign has established itself as the de facto open-source standard for cryptographically signing and verifying container images and supply chain artifacts. |
+    | 2026-06-14 | [Tetragon (Cilium)](https://github.com/cilium/tetragon) | 🔴 critical | Tetragon leverages eBPF to deliver real-time, low-overhead runtime security observability and automated kernel-level enforcement for Kubernetes workloads. |
+    | 2026-11-01 | [hashicorp/vault](https://github.com/hashicorp/vault) | 🔴 critical | HashiCorp Vault remains the core enterprise standard for zero-trust secrets management and dynamic credential brokering across multi-cloud environments. |
+    | 2026-11-05 | [kubescape](https://github.com/kubescape/kubescape) | 🟡 high | Kubescape provides continuous, multi-framework Kubernetes compliance scanning and vulnerability risk analysis integrated directly into CI/CD pipelines. |
+    | 2026-11-05 | [kubernetes-sigs/security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | 🟡 high | This official Kubernetes SIG project automates the distribution and enforcement of Seccomp, AppArmor, and SELinux profiles to harden container execution. |
+    | 2026-10-25 | [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler) | 🟡 high | Prowler is an essential open-source Cloud Security Posture Management tool for continuously auditing multi-cloud infrastructures against regulatory standards. |
+    | 2026-06-10 | [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) | 🟡 high | Cloud Custodian allows platform engineers to define lightweight, declarative YAML policies to automate cloud compliance, security guardrails, and cost management. |
+    | 2026-06-01 | [deepfence/ThreatMapper 🌟](https://github.com/deepfence/ThreatMapper) | 🟡 high | ThreatMapper delivers open-source CNAPP capabilities by correlating container runtime telemetry with vulnerability scans to map real-world attack paths. |
+    | 2026-06-18 | [Project Calico 🌟](https://www.tigera.io/project-calico) | 🟡 high | Project Calico delivers industry-standard eBPF and network policy enforcement essential for microsegmentation and zero-trust container networking. |
+    | 2026-10-29 | [hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store' CSI Driver](https://github.com/hashicorp/vault-csi-provider) | 🟡 high | The Vault CSI Provider securely projects centralized Vault secrets directly into Kubernetes pod memory without persisting sensitive data to etcd. |
 
 === "Last 12 Months"
 
@@ -502,16 +502,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-02 | [OpenTofu Official GitHub Repository](https://github.com/opentofu/opentofu) | 🔴 critical | As a CNCF-governed open-source fork of Terraform featuring native state encryption, OpenTofu represents a pivotal paradigm shift for enterprise IaC autonomy. |
-    | 2026-11-02 | [HashiCorp Terraform Language: Terraform Stacks Overview](https://developer.hashicorp.com/terraform/language/stacks) | 🔴 critical | Terraform Stacks fundamentally redefines multi-component and multi-environment infrastructure orchestration by introducing declarative deferred deployment workflows. |
-    | 2026-11-02 | [HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments](https://developer.hashicorp.com/terraform/language/resources/ephemeral) | 🔴 critical | Ephemeral resources and write-only attributes eliminate secret leakage in state files by guaranteeing short-lived credentials are never persisted. |
-    | 2026-11-02 | [HashiCorp Terraform Language: Native Tests and Provider Mocking](https://developer.hashicorp.com/terraform/language/tests) | 🟡 high | The native Terraform testing framework with provider mocking allows teams to validate complex modules unit-by-unit without incurring cloud provisioning costs. |
-    | 2026-10-08 | [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) | 🟡 high | This community-standard module serves as the production benchmark for managing enterprise Amazon EKS cluster lifecycles via Infrastructure as Code. |
-    | 2026-11-02 | [runatlantis/atlantis: Terraform Pull Request Automation](https://github.com/runatlantis/atlantis) | 🟡 high | Atlantis remains the de facto open-source GitOps automation engine for pull-request-driven Terraform and OpenTofu operational workflows. |
-    | 2026-11-02 | [Azure/terraform-provider-azapi: Official Azure Resource Manager REST API Provider](https://github.com/Azure/terraform-provider-azapi) | 🟡 high | AzAPI bridges ARM REST API capabilities directly into Terraform, enabling zero-day support for preview cloud services and real-time resource updates. |
-    | 2026-10-21 | [Infracost 🌟](https://github.com/infracost/infracost) | 🟡 high | Infracost shifts cloud cost estimation left by embedding dynamic pricing assertions directly into code review and pull request workflows. |
-    | 2026-11-02 | [aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform](https://github.com/aquasecurity/trivy) | 🟡 high | Consolidating security scanning by replacing tfsec, Trivy delivers unified static code analysis for misconfigurations and secrets across Terraform HCL. |
-    | 2026-11-02 | [Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) | 🟡 high | This comprehensive guide delivers Nubenetes-aligned reference architectures for modular enterprise landing zones moving away from legacy monolithic constructs. |
+    | 2026-11-02 | [OpenTofu Official GitHub Repository](https://github.com/opentofu/opentofu) | 🔴 critical | OpenTofu provides a community-governed, open-source IaC engine under the Linux Foundation featuring state encryption and early variable evaluation. |
+    | 2026-11-02 | [HashiCorp Terraform Language: Terraform Stacks Overview](https://developer.hashicorp.com/terraform/language/stacks) | 🔴 critical | Terraform Stacks introduces a major paradigm shift in HCL for orchestrating multi-component, multi-region, and multi-environment infrastructure declaratively. |
+    | 2026-11-02 | [HashiCorp Terraform Language: Ephemeral Resources and Write-Only Arguments](https://developer.hashicorp.com/terraform/language/resources/ephemeral) | 🟡 high | Ephemeral resources and write-only arguments prevent sensitive short-lived credentials from persisting in cleartext state files. |
+    | 2026-11-02 | [aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform](https://github.com/aquasecurity/trivy) | 🟡 high | Trivy serves as the unified industry standard scanner superseding tfsec for detecting HCL misconfigurations, policy violations, and exposed secrets. |
+    | 2026-10-08 | [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) | 🟡 high | The official community AWS EKS module remains the de facto cloud-native standard for provisioning and managing production Kubernetes clusters via IaC. |
+    | 2026-11-02 | [HashiCorp Terraform Language: Native Tests and Provider Mocking](https://developer.hashicorp.com/terraform/language/tests) | 🟡 high | Native HCL testing and provider mocking enable robust unit and integration testing of infrastructure modules without incurring cloud provider costs. |
+    | 2026-11-02 | [runatlantis/atlantis: Terraform Pull Request Automation](https://github.com/runatlantis/atlantis) | 🟡 high | Atlantis is the de facto GitOps pull-request automation engine for collaborative plan and apply workflows in enterprise teams. |
+    | 2026-11-02 | [Azure/terraform-provider-azapi: Official Azure Resource Manager REST API Provider](https://github.com/Azure/terraform-provider-azapi) | 🟡 high | The AzAPI provider bridges the gap for zero-day Azure preview resource management directly through ARM REST API calls. |
+    | 2026-11-02 | [Retiring the CAF Monolith: Azure Verified Modules (AVM) and ALZ Library 2026](https://www.youtube.com/watch?v=BNEGxzQgDB8) | 🟡 high | Marks a major architectural shift away from monolithic CAF modules toward composable Azure Verified Modules (AVM) for enterprise landing zones. |
+    | 2026-11-02 | [diggerhq/digger: Open-Source IaC CI/CD Orchestrator for GitHub Actions](https://github.com/diggerhq/digger) | 🟡 high | Digger enables secure, in-runner GitOps CI/CD orchestration for Terraform and OpenTofu directly within existing pipeline compute. |
 
 === "Last 12 Months"
 
@@ -550,16 +550,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD represents the industry-standard CNCF graduated GitOps engine for automated continuous delivery on Kubernetes clusters. |
-    | 2026-11-01 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 provides a foundational modular GitOps toolkit that powers high-scale declarative infrastructure reconciliation. |
-    | 2026-11-01 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger introduces a major paradigm shift by enabling developers to write containerized CI/CD pipelines in standard programming languages using BuildKit. |
-    | 2026-10-26 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton Pipelines offers standard Kubernetes-native Custom Resource Definitions to build scalable, cloud-agnostic execution pipelines. |
-    | 2026-10-28 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | Tofu-Controller extends GitOps principles directly to Infrastructure as Code by natively reconciling OpenTofu and Terraform resources in Kubernetes. |
-    | 2026-11-02 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | The Jenkins Kubernetes Plugin bridges legacy pipeline orchestrations into modern cloud-native architectures by dynamic pod auto-scaling. |
-    | 2026-06-01 | [kubeflow](https://www.kubeflow.org) | 🟡 high | Kubeflow defines the industry standard for cloud-native MLOps, orchestrating complex machine learning pipeline workflows on Kubernetes. |
-    | 2026-11-05 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | Prow provides a specialized Kubernetes-native microservice CI platform essential for managing massive cloud-native open-source codebases. |
-    | 2026-06-14 | [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) | 🔵 medium | Visualizing ApplicationSets within the Argo CD UI resource tree significantly simplifies management of multi-tenant enterprise topologies. |
-    | 2026-06-01 | [HashiCorp Vault 🌟](https://plugins.jenkins.io/hashicorp-vault-plugin) | 🔵 medium | Integrates HashiCorp Vault directly into CI pipelines to enforce enterprise-grade zero-trust secret management without local credential persistence. |
+    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD is the dominant CNCF graduated continuous delivery engine and industry standard for GitOps deployment automation on Kubernetes. |
+    | 2026-11-01 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 delivers a modular, CNCF-graduated GitOps toolkit designed for robust continuous reconciliation across complex multi-cluster topologies. |
+    | 2026-11-01 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger represents a major paradigm shift in modern CI/CD by executing engine pipelines written in general-purpose languages powered by BuildKit. |
+    | 2026-10-26 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton Pipelines provides the foundational CNCF framework for building serverless, Kubernetes-native CI/CD systems using Custom Resource Definitions. |
+    | 2026-11-05 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | Prow is the proven Kubernetes-native CI/CD microservices engine responsible for large-scale governance and automated testing across cloud-native ecosystems. |
+    | 2026-10-28 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | Tofu-controller extends GitOps principles directly to Infrastructure-as-Code by enabling declarative Kubernetes reconciliation for OpenTofu and Terraform. |
+    | 2026-06-01 | [kubeflow](https://www.kubeflow.org) | 🟡 high | Kubeflow serves as the definitive cloud-native platform for orchestrating reproducible MLOps pipelines and machine learning workflows on Kubernetes. |
+    | 2026-11-03 | [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) | 🟡 high | The official Jenkins Kubernetes Operator standardizes enterprise lifecycle management, automated backups, and controller deployments on Kubernetes. |
+    | 2026-11-02 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | The Jenkins Kubernetes plugin enables dynamic runner scaling by auto-provisioning isolated, on-demand execution pods within clusters. |
+    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🔵 medium | Glasskube brings a novel, developer-friendly approach to package management by automating application dependency resolution and lifecycle updates on Kubernetes. |
 
 === "Last 12 Months"
 
@@ -598,16 +598,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-12 | [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) | 🔴 critical | Acts as the vendor-agnostic industry standard pipeline for ingesting, transforming, and routing traces, metrics, and logs across distributed environments. |
-    | 2026-10-25 | [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus) | 🔴 critical | Serves as the foundational, de facto standard telemetry engine and time-series database powering cloud-native observability. |
-    | 2026-05-17 | [github.com/prometheus-operator](https://github.com/prometheus-operator) | 🟡 high | Automates the lifecycle, declarative configuration, and operational scaling of Prometheus monitoring stacks natively within Kubernetes. |
-    | 2026-11-05 | [kube-state-metrics 🌟](https://github.com/kubernetes/kube-state-metrics) | 🟡 high | Provides indispensable visibility into Kubernetes cluster health by converting control plane object states directly into actionable Prometheus metrics. |
-    | 2026-11-01 | [Grafana Tempo](https://github.com/grafana/tempo) | 🟡 high | Delivers a cost-effective, massively scalable distributed tracing backend designed to operate entirely on top of commodity cloud object storage. |
-    | 2026-06-13 | [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 🟡 high | Simplifies cloud-native observability by automating OpenTelemetry Collector management and multi-language auto-instrumentation injection in Kubernetes. |
-    | 2026-11-01 | [github.com/grafana/mimir](https://github.com/grafana/mimir) | 🟡 high | Enables enterprise-scale multi-tenancy and horizontal scalability for long-term Prometheus metric storage across massive container fleets. |
-    | 2026-06-12 | [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh) | 🟡 high | Empowers SRE teams to validate cloud-native application resilience against complex failure scenarios using declarative Kubernetes-native chaos engineering. |
-    | 2026-11-01 | [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) | 🟡 high | Leverages eBPF to deliver real-time, non-invasive L7 protocol packet inspection and traffic debugging directly across Kubernetes pods. |
-    | 2026-10-18 | [Sloth 🌟](https://github.com/slok/sloth) | 🔵 medium | Streamlines SRE reliability practices by compiling declarative SLO specifications into production-grade, multi-window PromQL alert definitions. |
+    | 2026-06-12 | [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) | 🔴 critical | Serves as the foundational, vendor-agnostic data pipeline engine for gathering and routing cloud-native telemetry across enterprise platforms. |
+    | 2026-10-25 | [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus) | 🔴 critical | Represents the benchmark cloud-native monitoring backend and de facto TSDB standard for Kubernetes cluster observability. |
+    | 2026-10-21 | [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) | 🟡 high | Delivers the industry-standard reference architecture and operator stack for complete end-to-end Kubernetes monitoring. |
+    | 2026-11-05 | [kube-state-metrics 🌟](https://github.com/kubernetes/kube-state-metrics) | 🟡 high | Provides essential cluster state metrics generation that every cloud-native monitoring stack relies on to assess deployment health. |
+    | 2026-11-01 | [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) | 🟡 high | Leverages eBPF technology to bring real-time, deep kernel-level L7 network traffic inspection to microservices without sidecar overhead. |
+    | 2026-11-02 | [Nubenetes Kubernetes and Multi-Cloud Observability with OpenTelemetry eBPF (OBI) (Playlist)](https://www.youtube.com/playlist?list=PLRTV86SuuRbk) | 🟡 high | Offers highly relevant production blueprints for scaling OpenTelemetry eBPF telemetry pipelines across multi-cloud Kubernetes environments. |
+    | 2026-06-12 | [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh) | 🟡 high | Enables cloud-native SRE teams to automate injection of complex fault scenarios into Kubernetes for building robust system resilience. |
+    | 2026-11-01 | [Grafana Tempo](https://github.com/grafana/tempo) | 🟡 high | Provides a high-scale, cost-efficient distributed tracing backend natively optimized for cloud object storage. |
+    | 2026-06-13 | [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 🟡 high | Automates the management of telemetry collectors and auto-instrumentation for microservice workloads running in Kubernetes. |
+    | 2026-11-01 | [github.com/grafana/mimir](https://github.com/grafana/mimir) | 🟡 high | Offers horizontally scalable, multi-tenant long-term metric storage capable of processing billions of Prometheus active time series. |
 
 === "Last 12 Months"
 
@@ -642,16 +642,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-13 | [github.com/backstage/backstage](https://github.com/backstage/backstage) | 🔴 critical | Backstage is the CNCF-incubated de facto standard for building Internal Developer Portals to reduce cognitive load across engineering organizations. |
-    | 2026-10-30 | [Devtron](https://github.com/devtron-labs/devtron) | 🟡 high | Devtron provides a production-grade open-source AppOps platform unifying GitOps, CI/CD, and Kubernetes operational workflows. |
-    | 2026-10-30 | [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) | 🟡 high | Enables agentic AI systems to directly orchestrate enterprise CI/CD pipelines and work management via the Model Context Protocol. |
-    | 2026-06-14 | [IaC Infrastructure as Code](https://nubenetes.com/iac) | 🟡 high | Serves as a core architectural framework for immutable infrastructure and declarative cloud lifecycle management. |
-    | 2026-06-14 | [blog.postman.com: What Is PlatformOps?](https://blog.postman.com/what-is-platformops) | 🟡 high | Clarifies the operational reality of platform engineering by framing developer tools and infrastructure APIs as managed internal products. |
-    | 2026-06-02 | [Introducing Cursor in Jira - Inside Atlassian](https://www.atlassian.com/blog/company-news/cursor-in-jira) | 🟡 high | Signals a major paradigm shift toward integrating autonomous AI coding agents directly into collaborative enterprise issue trackers. |
-    | 2026-05-29 | [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) | 🔵 medium | Solves a critical day-to-day CI/CD pain point by providing interactive terminal debugging inside ephemeral GitHub Actions runners. |
-    | 2026-06-18 | [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development) | 🔵 medium | Offers a vital cultural critique of corporate incentives that drive architectural over-engineering over operational resilience. |
-    | 2026-06-14 | [NoOps](https://nubenetes.com/noops) | 🔵 medium | Explores the long-term organizational objective of automating away routine infrastructure operations via self-healing platforms. |
-    | 2026-06-14 | [DevOps Tools](https://nubenetes.com/devops-tools) | 🔵 medium | Provides a comprehensive architectural taxonomy of modern CI/CD, deployment automation, and telemetry tooling. |
+    | 2026-06-13 | [github.com/backstage/backstage](https://github.com/backstage/backstage) | 🔴 critical | Backstage is the industry-standard CNCF framework for building internal developer portals that reduce developer cognitive load and centralize platform engineering workflows. |
+    | 2026-10-30 | [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) | 🟡 high | Integrates the Model Context Protocol (MCP) with Azure DevOps, allowing autonomous AI agents to interact directly with enterprise repository and orchestration pipelines. |
+    | 2026-10-30 | [Devtron](https://github.com/devtron-labs/devtron) | 🟡 high | Provides a comprehensive, open-source AppOps platform tailored for Kubernetes to streamline CI/CD pipelines, GitOps, and real-time observability. |
+    | 2026-06-14 | [IaC Infrastructure as Code](https://nubenetes.com/iac) | 🔴 critical | Establishes modern architectural guidelines and lifecycle management paradigms for treating cloud and cluster infrastructure state strictly as code. |
+    | 2026-10-30 | [github.com/KusionStack/kusion](https://github.com/KusionStack/kusion) | 🟡 high | Introduces an intent-driven declarative engine using KCL schemas to simplify complex multi-cloud application delivery for platform engineering teams. |
+    | 2026-06-14 | [NoOps](https://nubenetes.com/noops) | 🟡 high | Delivers a strategic conceptual framework for shifting operational responsibility to automated, self-healing cloud native platforms and serverless paradigms. |
+    | 2026-06-14 | [DevOps Tools](https://nubenetes.com/devops-tools) | 🟡 high | Curates essential cloud-native release tools spanning continuous integration, container scheduling, artifact storage, and real-time telemetry. |
+    | 2026-06-02 | [Introducing Cursor in Jira - Inside Atlassian](https://www.atlassian.com/blog/company-news/cursor-in-jira) | 🟡 high | Bridges enterprise task tracking and AI-driven development by delegating Jira work items directly to Cursor AI agents. |
+    | 2026-05-29 | [action-tmate: Debug GitHub Actions via SSH](https://github.com/mxschmitt/action-tmate) | 🔵 medium | Drastically reduces CI/CD debugging time by enabling secure, real-time interactive SSH sessions directly inside active GitHub Actions runners. |
+    | 2026-06-14 | [blog.postman.com: What Is PlatformOps?](https://blog.postman.com/what-is-platformops) | 🟡 high | Defines the strategic transition from legacy DevOps to PlatformOps, treating infrastructure and developer tooling as scalable internal products. |
 
 === "Last 12 Months"
 
@@ -682,16 +682,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Backstage Developer Portal:](https://backstage.io) | 🔴 critical | Backstage is the CNCF standard framework for building internal developer portals, driving modern platform engineering and DevEx across enterprises. |
-    | 2026-10-22 | [Azure/Draft 🌟](https://github.com/Azure/draft) | 🟡 high | Azure Draft drastically reduces onboarding friction for Kubernetes by automating containerization and manifest generation directly from source code. |
-    | 2026-06-12 | [apisix](https://github.com/apache/apisix) | 🟡 high | Apache APISIX provides a high-performance, cloud-native dynamic API gateway that platform teams rely on for microservice traffic orchestration. |
-    | 2026-06-01 | [Kong API Manager](https://konghq.com/products/kong-gateway) | 🟡 high | Kong Gateway is the ubiquitous enterprise standard for cloud-native API management, ingress control, and microservice traffic governance. |
-    | 2026-06-01 | [docs.traefik.io](https://doc.traefik.io/traefik) | 🟡 high | Traefik is a cornerstone cloud-native edge router and ingress controller natively integrated with container platforms and Kubernetes. |
-    | 2026-06-01 | [KrakenD: The fastest API gateway comes with true linear scalability 🌟](https://www.krakend.io) | 🟡 high | KrakenD offers ultra-high performance stateless API gateway aggregation that enables platform teams to scale microservices linearly without database overhead. |
-    | 2026-06-01 | [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) | 🟡 high | Spring Cloud Gateway serves as the foundational non-blocking API routing layer across widespread enterprise Java microservice platforms. |
-    | 2026-06-01 | [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) | 🔵 medium | Material for MkDocs is the industry-standard docs-as-code framework powering modern developer documentation and internal platform portals. |
-    | 2026-06-01 | [Lura 🌟](https://luraproject.org) | 🔵 medium | Hosted by the Linux Foundation, the Lura engine powers scalable, multi-tenant API gateway implementations for enterprise platforms. |
-    | 2026-06-01 | [Tyk API Manager](https://tyk.io) | 🔵 medium | Tyk delivers a lightweight, cloud-native Go-based API gateway and control plane designed for resilient multi-cluster Kubernetes deployments. |
+    | 2026-06-01 | [Backstage Developer Portal:](https://backstage.io) | 🔴 critical | Serves as the premier CNCF framework for building Internal Developer Portals, centralizing service catalogs, documentation, and infrastructure tooling to drive modern platform engineering. |
+    | 2026-10-22 | [Azure/Draft 🌟](https://github.com/Azure/draft) | 🟡 high | Significantly enhances developer experience by automatically generating Kubernetes manifests and containerization assets directly from source code repositories. |
+    | 2026-06-01 | [Kong API Manager](https://konghq.com/products/kong-gateway) | 🟡 high | Delivers an industry-standard, high-performance cloud-native API gateway essential for microservice connectivity, routing, and developer governance. |
+    | 2026-06-12 | [apisix](https://github.com/apache/apisix) | 🟡 high | Provides a high-performance CNCF cloud-native API gateway featuring dynamic routing, security policy enforcement, and cloud telemetry integration. |
+    | 2026-06-01 | [docs.traefik.io](https://doc.traefik.io/traefik) | 🟡 high | Acts as a foundational cloud-native ingress controller and gateway that simplifies dynamic Kubernetes traffic routing and edge configuration for platform teams. |
+    | 2026-06-01 | [Google Apigee API Manager](https://cloud.google.com/apigee) | 🟡 high | Enables enterprise platform teams to securely govern, secure, and analyze API traffic at scale across multi-cloud environments. |
+    | 2026-06-01 | [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) | 🔵 medium | Drives enterprise adoption of the 'Docs-as-Code' paradigm by providing the de-facto standard UI framework for internal engineering portals. |
+    | 2026-06-01 | [Tyk API Manager](https://tyk.io) | 🔵 medium | Offers an open-source, Go-based cloud-native API gateway featuring ultra-lightweight execution and robust multi-datacenter clustering. |
+    | 2026-06-01 | [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway) | 🔵 medium | Enables non-blocking reactive API routing tailored for Java and Spring microservice architectures in enterprise cloud-native environments. |
+    | 2026-06-01 | [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) | 🔵 medium | Delivers a Kubernetes-native, operator-driven API management framework optimized for microservices running on OpenShift platforms. |
 
 === "Last 12 Months"
 
@@ -722,16 +722,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [FinOps Foundation: FinOps.org](https://www.finops.org) | 🔴 critical | Serves as the foundational Linux Foundation organization establishing the canonical FinOps framework and open standards like FOCUS. |
-    | 2026-06-18 | [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend) | 🟡 high | Provides crucial CNCF community guidance addressing the persistent challenge of container over-provisioning and Kubernetes cost allocation. |
-    | 2026-05-17 | [Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight) | 🟡 high | Details the industry-standard Cloud Intelligence Dashboards (CUDOS) for deep enterprise multi-account cost visualization. |
-    | 2026-05-18 | [Announcing General Availability of AWS Cost Anomaly Detection](https://aws.amazon.com/blogs/aws-cloud-financial-management/announcing-general-availability-of-aws-cost-anomaly-detection) | 🟡 high | Marks a major production capability that leverages machine learning to automatically halt runaway cloud spending anomalies. |
-    | 2026-05-17 | [cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation' (EKS)](https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation) | 🟡 high | Focuses on intelligent Kubernetes workload allocation and automated rightsizing to drastically reduce EKS compute bills. |
-    | 2026-05-18 | [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) | 🟡 high | Delivers actionable cloud-native architecture strategies combining modern autoscalers like Karpenter with spot instances to optimize clusters. |
-    | 2026-06-02 | [Uber's COO Says It's Getting Harder to Justify the Money Spent on AI](https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5) | 🟡 high | Highlights the industry-wide paradigm shift demanding stricter FinOps accountability and ROI verification for generative AI inference costs. |
-    | 2026-05-17 | [medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter](https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67) | 🔵 medium | Compares leading cloud-native node provisioning architectures to help teams select the optimal automated cost-reduction engine. |
-    | 2026-05-17 | [thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans](https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans) | 🔵 medium | Warns engineering leaders about architectural lock-in and financial inflexibility risks associated with long-term cloud commitment plans. |
-    | 2026-06-18 | [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl) | 🔵 medium | Provides an open-source tool bridging platform engineering and finance by translating raw kubectl manifests into cost estimates. |
+    | 2026-06-01 | [FinOps Foundation: FinOps.org](https://www.finops.org) | 🔴 critical | Serves as the canonical Linux Foundation open standard (FOCUS) and framework defining modern enterprise cloud financial management. |
+    | 2026-11-02 | [Nubenetes Azure Hybrid IaaS FinOps Framework (Playlist)](https://www.youtube.com/playlist?list=PLaNxiRbEBYJ8) | 🟡 high | Delivers mathematical break-even decision models and automation patterns tailored for hybrid Azure enterprise environments. |
+    | 2026-06-02 | [Uber's COO Says It's Getting Harder to Justify the Money Spent on AI](https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5) | 🟡 high | Captures a major industry paradigm shift toward evaluating unit economics and ROI for enterprise AI token consumption. |
+    | 2026-05-18 | [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) | 🟡 high | Provides actionable cloud-native architecture patterns using Karpenter auto-scaling and spot instances to minimize EKS expenditures. |
+    | 2026-10-22 | [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) | 🟡 high | Enables policy-as-code enforcement for cloud cost governance by continuously auditing idle and misconfigured AWS resources. |
+    | 2026-06-18 | [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend) | 🟡 high | Addresses the critical operational gap in Kubernetes cluster cost visibility directly within the CNCF ecosystem. |
+    | 2026-06-08 | [github.com/mivano/azure-cost-cli](https://github.com/mivano/azure-cost-cli) | 🔵 medium | Streamlines Azure chargeback modeling and untagged resource discovery through command-line tag querying. |
+    | 2026-06-18 | [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl) | 🔵 medium | Translates Kubernetes resource requests, limits, and node sizes into practical cost worksheets for cluster operators. |
+    | 2026-05-18 | [Announcing General Availability of AWS Cost Anomaly Detection](https://aws.amazon.com/blogs/aws-cloud-financial-management/announcing-general-availability-of-aws-cost-anomaly-detection) | 🔵 medium | Establishes automated machine-learning-based proactive spend anomaly detection at the cloud provider level. |
+    | 2026-06-18 | [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost) | 🔵 medium | Demonstrates how to merge Kubernetes cost allocation metrics directly into enterprise observability pipelines. |
 
 === "Last 12 Months"
 
@@ -770,16 +770,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | It serves as the definitive training and certification authority governing foundational cloud-native credentials including CKA, CKAD, and CKS. |
-    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | It provides the canonical kubectl command reference, which is indispensable for day-to-day cluster administration and authorized during official CNCF certification exams. |
-    | 2026-06-25 | [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) | 🟡 high | AWS's official digital learning portal delivers structured training pathways and exam readiness resources across major cloud architecture domains. |
-    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Offers vendor-backed, modular educational tracks that teach core-to-advanced Kubernetes cluster management, multi-tenancy, and security practices. |
-    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | A premier enterprise exam simulation platform delivering hands-on sandboxes tailored specifically for passing CKA, CKAD, and CKS certifications. |
-    | 2026-10-27 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Translates theoretical DevOps certifications into practice through hands-on, multi-tier deployment projects across Terraform, Ansible, and Kubernetes. |
-    | 2026-10-26 | [stefanprodan/podinfo](https://github.com/stefanprodan/podinfo) | 🟡 high | Acts as the standard reference microservice application across the cloud-native ecosystem to train engineers on Kubernetes probes, GitOps, and observability. |
-    | 2026-06-01 | [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html) | 🟡 high | Serves as the definitive operational and secure coding reference needed for cloud-native application defense and DevSecOps training. |
-    | 2026-06-01 | [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands) | 🔵 medium | HashiCorp's official CLI command reference is fundamental for Infrastructure as Code mastery and Terraform Associate certification prep. |
-    | 2026-07-08 | [flux2-kustomize-helm-example 🌟](https://github.com/fluxcd/flux2-kustomize-helm-example) | 🔵 medium | Provides the canonical educational blueprint for structuring production GitOps workflows using Flux v2, Kustomize, and Helm. |
+    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | As the official vendor of the CKA, CKAD, and CKS benchmarks, this serves as the definitive global standard for CNCF cloud-native training and certification. |
+    | 2026-06-25 | [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) | 🟡 high | Provides official AWS learning paths, hands-on cloud labs, and exam readiness assessments that set the standard for enterprise cloud skill development. |
+    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Offers targeted exam simulations and practice sandboxes specifically designed for practical CKA, CKAD, and multi-cloud certification preparation. |
+    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Delivers structured, production-focused training modules on Kubernetes multi-tenancy, control planes, and scaling sponsored by VMware Tanzu. |
+    | 2026-10-27 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Provides hands-on, end-to-end DevOps project blueprints covering Terraform and Kubernetes pipelines essential for practical enterprise onboarding. |
+    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🟡 high | Serves as the vital official CLI command reference permitted during live CNCF practical certification examinations. |
+    | 2026-07-08 | [flux2-kustomize-helm-example 🌟](https://github.com/fluxcd/flux2-kustomize-helm-example) | 🟡 high | Establishes the canonical CNCF reference blueprint for mastering Flux v2, Helm, and GitOps delivery workflows in Kubernetes. |
+    | 2026-06-01 | [edx.org](https://www.edx.org) | 🔵 medium | Hosts the Linux Foundation's official cloud-native course catalog, bridging deep system administration theory with command-line practice. |
+    | 2026-10-26 | [stefanprodan/podinfo](https://github.com/stefanprodan/podinfo) | 🔵 medium | Functions as the industry-standard microservice reference application for learning Kubernetes telemetry, probes, and progressive delivery. |
+    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🔵 medium | Offers an active peer-to-peer study community dedicated to real-time troubleshooting, technical debugging, and Kubernetes exam preparation. |
 
 === "Last 12 Months"
 
@@ -818,16 +818,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-02 | [OpenAI Models and Codex on Amazon Bedrock are Now Generally Available](https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=n/a&linkId=953986722) | 🔴 critical | Marks a pivotal industry shift by providing enterprise-governed, native access to OpenAI frontier models directly on AWS infrastructure. |
-    | 2026-11-05 | [AI on EKS (AWS Labs)](https://github.com/awslabs/ai-on-eks) | 🔴 critical | Provides official production-grade Terraform and Argo CD blueprints for scaling generative AI and distributed ML workloads on Amazon EKS. |
-    | 2026-11-05 | [Amazon SageMaker AI (HyperPod and Managed MLOps)](https://aws.amazon.com/sagemaker/ai) | 🟡 high | Delivers native Amazon EKS orchestration alongside SageMaker HyperPod to automate resilient distributed training at enterprise scale. |
-    | 2026-11-05 | [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore) | 🟡 high | Introduces microVM-isolated serverless infrastructure for deploying and governing autonomous enterprise AI agents without cluster overhead. |
-    | 2026-11-05 | [Amazon Bedrock](https://aws.amazon.com/bedrock) | 🟡 high | Anchors AWS's serverless foundation model ecosystem with turnkey managed RAG, model safety guardrails, and multi-agent coordination. |
-    | 2026-06-02 | [Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications](https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications) | 🟡 high | Redesigns OpenSearch Serverless with complete compute-storage decoupling optimized for low-latency agentic vector workloads. |
-    | 2026-06-02 | [AWS Transform](https://aws.amazon.com/transform/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trkCampaign=e8bfe3c0-b9b8-494a-837a-8581eb91e029&sc_content=AWS%20Transform%20Carousel&trk=e8bfe3c0-b9b8-494a-837a-8581eb91e029&linkId=943065458) | 🟡 high | Accelerates the modernization and replatforming of legacy enterprise applications into cloud-native services using agentic automation. |
-    | 2026-11-05 | [Amazon Bedrock Samples](https://github.com/aws-samples/amazon-bedrock-samples) | 🔵 medium | Supplies standardized reference architectures and implementation patterns for deploying production-grade GenAI systems on AWS. |
-    | 2026-06-09 | [awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper](https://github.com/awslabs/amazon-ecr-credential-helper) | 🔵 medium | Eliminates token refresh scripting by providing native, IAM-driven Docker credential lifecycle management for Amazon ECR container registries. |
-    | 2026-06-13 | [awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS](https://github.com/awslabs/aws-cloudsaga) | 🔵 medium | Empowers DevSecOps teams to validate intrusion detection and response systems by simulating real-world security events in AWS environments. |
+    | 2026-06-02 | [Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock](https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock) | 🔴 critical | Marks a major shift in enterprise GenAI adoption by bringing OpenAI's frontier models directly into Amazon Bedrock's security and governance boundary. |
+    | 2026-11-05 | [AI on EKS (AWS Labs)](https://github.com/awslabs/ai-on-eks) | 🔴 critical | Provides production-tested Infrastructure-as-Code blueprints using Terraform and Argo CD to scale complex GenAI workloads on Kubernetes. |
+    | 2026-11-05 | [Amazon SageMaker AI (HyperPod and Managed MLOps)](https://aws.amazon.com/sagemaker/ai) | 🟡 high | Integrates SageMaker HyperPod directly with native Amazon EKS orchestration to automate fault-tolerant infrastructure for large-scale model training. |
+    | 2026-11-05 | [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore) | 🟡 high | Delivers a dedicated platform for executing and governing autonomous AI agents in enterprise production using serverless MicroVM isolation. |
+    | 2026-06-02 | [Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications](https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications) | 🟡 high | Re-architects OpenSearch Serverless by completely decoupling compute from storage to support highly dynamic agentic AI workloads. |
+    | 2026-11-05 | [Amazon Bedrock](https://aws.amazon.com/bedrock) | 🟡 high | Serves as the primary managed serverless environment for deploying foundation models, enterprise RAG pipelines, and multi-agent systems. |
+    | 2026-06-02 | [AWS Transform](https://aws.amazon.com/transform/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trkCampaign=e8bfe3c0-b9b8-494a-837a-8581eb91e029&sc_content=AWS%20Transform%20Carousel&trk=e8bfe3c0-b9b8-494a-837a-8581eb91e029&linkId=943065458) | 🟡 high | Accelerates cloud-native transformation by leveraging agentic AI to automate the modernization of legacy enterprise application architectures. |
+    | 2026-06-09 | [awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper](https://github.com/awslabs/amazon-ecr-credential-helper) | 🔵 medium | Simplifies cloud-native container security by providing dynamic IAM-based credential handling for Amazon ECR without cron-based login scripts. |
+    | 2026-06-13 | [awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS](https://github.com/awslabs/aws-cloudsaga) | 🔵 medium | Empowers cloud security engineering teams to continuously test and validate detection logic through automated threat simulations in AWS. |
+    | 2026-06-01 | [AWS Backup Service](https://aws.amazon.com/backup) | 🔵 medium | Delivers centralized, automated data protection and compliance management across core enterprise cloud-native AWS services. |
 
 === "Last 12 Months"
 
@@ -866,16 +866,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [KAITO (Kubernetes AI Toolchain Operator)](https://github.com/kaito-project/kaito) | 🔴 critical | KAITO is a CNCF Sandbox operator bridging Kubernetes and GenAI by automating the deployment and right-sizing of open-weight LLMs on containerized infrastructure. |
-    | 2026-11-05 | [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) | 🟡 high | Azure Linux serves as Microsoft's container-optimized, security-hardened host OS specifically engineered for minimal footprint within AKS environments. |
-    | 2026-11-05 | [Azure AI Foundry Agent Service](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview) | 🟡 high | Provides a fully managed enterprise runtime enabling teams to build, deploy, and scale stateful multi-agent workflows with managed memory and identity. |
-    | 2026-11-01 | [Bicep](https://github.com/Azure/bicep) | 🟡 high | Serves as the modern, enterprise-standard declarative Infrastructure as Code DSL for provisioning and validating Azure resources. |
-    | 2026-11-05 | [Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)](https://github.com/Azure-Samples/azure-search-openai-demo) | 🟡 high | Acts as the canonical, production-ready enterprise reference architecture for deploying hybrid RAG solutions on Azure AI infrastructure. |
-    | 2026-11-05 | [github.com/microsoft/finops-toolkit](https://github.com/microsoft/finops-toolkit) | 🟡 high | Delivers Microsoft's official toolset to implement FinOps governance, automate cost allocation, and manage cloud financial operations at enterprise scale. |
-    | 2026-11-05 | [Azure AI Foundry Architecture and Documentation](https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry) | 🔵 medium | Establishes the foundational enterprise governance, hub-and-project architecture, and identity management for autonomous AI agent workloads. |
-    | 2026-06-01 | [azurearcjumpstart.io](https://jumpstart.azure.com) | 🔵 medium | Accelerates hybrid cloud adoption by providing automated, hands-on deployment blueprints for Azure Arc-enabled Kubernetes and infrastructure. |
-    | 2026-08-27 | [github.com/Azure/apiops 🌟](https://github.com/Azure/apiops) | 🔵 medium | Applies cloud-native GitOps principles and CI/CD pipelines to Azure API Management configuration and deployment lifecycles. |
-    | 2026-11-01 | [floci-az](https://github.com/floci-io/floci-az) | 🔵 medium | Enhances the local developer inner loop by providing a unified local emulator for core Azure container, event, and database services. |
+    | 2026-11-05 | [KAITO (Kubernetes AI Toolchain Operator)](https://github.com/kaito-project/kaito) | 🔴 critical | This CNCF Sandbox operator automates open-weight AI model deployment and fine-tuning natively on Kubernetes clusters. |
+    | 2026-11-05 | [Azure AI Foundry Agent Service](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview) | 🔴 critical | It introduces a fully managed enterprise runtime for building, scaling, and persisting stateful multi-agent workflows. |
+    | 2026-11-05 | [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) | 🟡 high | It provides Microsoft's purpose-built, lightweight Linux distribution optimized for maximum security and minimal footprint inside AKS. |
+    | 2026-06-01 | [azurearcjumpstart.io](https://jumpstart.azure.com) | 🟡 high | It serves as the definitive hands-on framework for validating and deploying hybrid Kubernetes and multi-cloud infrastructure via Azure Arc. |
+    | 2026-11-05 | [Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)](https://github.com/Azure-Samples/azure-search-openai-demo) | 🟡 high | It is the flagship production reference architecture for implementing enterprise Retrieval-Augmented Generation and agentic search. |
+    | 2026-11-05 | [github.com/microsoft/finops-toolkit](https://github.com/microsoft/finops-toolkit) | 🟡 high | It standardizes enterprise cloud financial management by providing automated tools for cost analysis, governance, and resource optimization. |
+    | 2026-08-27 | [github.com/Azure/apiops 🌟](https://github.com/Azure/apiops) | 🟡 high | It brings cloud-native GitOps principles to API management by automating configuration extraction, versioning, and deployment. |
+    | 2026-11-01 | [Bicep](https://github.com/Azure/bicep) | 🔵 medium | It remains the primary declarative domain-specific language for modular and validated Azure infrastructure provisioning. |
+    | 2026-11-01 | [floci-az](https://github.com/floci-io/floci-az) | 🔵 medium | It accelerates cloud-native development by unifying Azure serverless, storage, and container emulators into a single local port. |
+    | 2026-06-02 | [Azure Update 15th May 2026](https://www.youtube.com/watch?v=sig3n7XyaaA&list=PLOU2XLYxmsIKL_eEgkKJWDRhYUEvS9eYz&index=2&pp=iAQB) | 🔵 medium | It highlights key serverless container enhancements, including Azure Container Apps Express for simplified deployment patterns. |
 
 === "Last 12 Months"
 
@@ -911,16 +911,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-01 | [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) | 🔴 critical | Enables true GitOps by allowing platform teams to manage Google Cloud infrastructure natively as declarative Kubernetes Custom Resource Definitions. |
-    | 2026-10-30 | [Google Cloud Buildpacks](https://github.com/GoogleCloudPlatform/buildpacks) | 🟡 high | Operationalizes CNCF Cloud Native Buildpacks on GCP, allowing developers to generate production-ready, secure OCI container images without maintaining custom Dockerfiles. |
-    | 2026-05-17 | [github.com/oracle](https://github.com/oracle) | 🟡 high | Provides the essential open-source Cloud Controller Manager and CSI storage plugins required to operate production Kubernetes clusters on Oracle Cloud Infrastructure. |
-    | 2026-06-01 | [cloud.google.com: Consume services faster, privately and securely - Private Service Connect now in GA](https://cloud.google.com/blog/products/networking/private-service-connect-is-now-generally-available) | 🟡 high | Private Service Connect in GA transforms enterprise multi-tenant networking by replacing complex VPC peering with secure, private endpoint connections over Google's backbone. |
-    | 2026-06-01 | [cloud.google.com: Choose the best way to use and authenticate service accounts on Google Cloud](https://cloud.google.com/blog/products/identity-security/how-to-authenticate-service-accounts-to-help-keep-applications-secure) | 🟡 high | Establishes modern security patterns for GKE Workload Identity and token federation, mitigating credential leaks caused by long-lived service account keys. |
-    | 2026-06-01 | [cloud.google.com: Microservices architecture on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud) | 🟡 high | Delivers an authoritative reference architecture for orchestrating production microservices across GKE, Cloud Run, and Anthos Service Mesh on GCP. |
-    | 2026-11-05 | [Google Cloud Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) | 🟡 high | Serves as Google Cloud's core enterprise platform for building and orchestrating grounded multi-agent systems and foundation models at scale. |
-    | 2026-11-05 | [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) | 🟡 high | Introduces Google's open-source, code-first framework with native Model Context Protocol (MCP) support for developing deterministic and LLM-driven agents. |
-    | 2026-06-14 | [scaleway.com: Kubernetes Kapsule](https://www.scaleway.com/en/en/kubernetes-kapsule) | 🔵 medium | Represents a prominent European alternative cloud provider's managed Kubernetes offering, covering control-plane resilience and persistent volume workflows. |
-    | 2026-06-14 | [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://docs.cloud.google.com/architecture) | 🔵 medium | Details a battle-tested hybrid DevSecOps blueprint integrating enterprise artifact management with on-premises GKE and Google Distributed Cloud. |
+    | 2026-11-01 | [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) | 🔴 critical | It enables teams to manage Google Cloud infrastructure natively through Kubernetes CRDs and standard GitOps workflows. |
+    | 2026-06-01 | [cloud.google.com: Choose the best way to use and authenticate service accounts on Google Cloud](https://cloud.google.com/blog/products/identity-security/how-to-authenticate-service-accounts-to-help-keep-applications-secure) | 🔴 critical | It provides critical security guidelines for eliminating long-lived service account keys in favor of GKE Workload Identity. |
+    | 2026-11-05 | [Google Cloud Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) | 🟡 high | It introduces Google Cloud's unified platform for building and grounding enterprise multi-agent AI systems. |
+    | 2026-10-30 | [Google Cloud Buildpacks](https://github.com/GoogleCloudPlatform/buildpacks) | 🟡 high | It implements the CNCF Cloud Native Buildpacks standard to automatically transform source code into secure OCI container images without Dockerfiles. |
+    | 2026-06-14 | [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://docs.cloud.google.com/architecture) | 🟡 high | It provides a battle-tested enterprise reference architecture for securing hybrid DevSecOps container pipelines on GKE. |
+    | 2026-06-01 | [cloud.google.com: Consume services faster, privately and securely - Private Service Connect now in GA](https://cloud.google.com/blog/products/networking/private-service-connect-is-now-generally-available) | 🟡 high | The GA release of Private Service Connect enables private, secure inter-VPC and SaaS networking without exposing public endpoints. |
+    | 2026-06-18 | [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler) | 🟡 high | It demonstrates a real-world enterprise pattern for building custom Kubernetes controllers to dynamically autoscale Cloud Spanner infrastructure. |
+    | 2026-06-14 | [Red Hat's approach to Edge Computing 🌟](https://www.redhat.com/en/solutions/edge-computing-approach) | 🟡 high | It outlines modern edge architecture using lightweight single-node OpenShift and MicroShift for low-latency, disconnected workloads. |
+    | 2026-11-05 | [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) | 🔵 medium | It offers an open-source framework with native Model Context Protocol support for engineering LLM multi-agent systems. |
+    | 2026-06-01 | [cloud.google.com: Microservices architecture on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud) | 🔵 medium | It serves as an architectural blueprint for designing resilient microservice topologies using GKE, Cloud Run, and service meshes. |
 
 === "Last 12 Months"
 
@@ -959,16 +959,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/products/ai/openshift-ai) | 🔴 critical | Serves as Red Hat's flagship enterprise MLOps platform, orchestrating end-to-end AI lifecycles directly on OpenShift. |
-    | 2026-06-12 | [github.com/openshift/hypershift: HyperShift](https://github.com/openshift/hypershift) | 🔴 critical | Revolutionizes OpenShift architecture by hosting decoupled, containerized control planes to dramatically reduce infrastructure costs and spin-up times. |
-    | 2026-06-18 | [OpenShift 4 documentation 🌟](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22) | 🔴 critical | Provides the definitive enterprise reference for deploying, securing, and managing OpenShift 4 container platform architectures. |
-    | 2026-11-05 | [llm-d (Kubernetes-Native Distributed LLM Inference)](https://github.com/llm-d/llm-d) | 🟡 high | Represents a cutting-edge, Red Hat co-engineered framework standardizing distributed LLM inference on Kubernetes Gateway APIs. |
-    | 2026-06-14 | [github.com/openshift/installer openshift installer 🌟](https://github.com/openshift/installer) | 🟡 high | Drives automated, declarative platform installation (IPI/UPI) across multi-cloud and bare-metal environments. |
-    | 2026-06-01 | [Amazon Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws) | 🟡 high | Delivers a turnkey, jointly supported turnkey managed OpenShift experience on AWS for enterprise cloud-native modernization. |
-    | 2026-11-05 | [InstructLab](https://github.com/instructlab/instructlab) | 🟡 high | Pioneers an open-source synthetic data generation and model alignment methodology natively integrated into the OpenShift AI ecosystem. |
-    | 2026-11-05 | [OpenDataHub Operator](https://github.com/opendatahub-io/opendatahub-operator) | 🟡 high | Acts as the upstream core operator powering OpenShift AI, managing KubeRay, Kubeflow, and model-serving runtimes. |
-    | 2026-06-11 | [Red Hat OLM](https://github.com/operator-framework/operator-lifecycle-manager) | 🟡 high | Provides the essential cluster component responsible for automated dependency management, upgrades, and RBAC enforcement for Kubernetes operators. |
-    | 2026-06-09 | [Machine API](https://github.com/openshift/machine-api-operator/tree/main) | 🟡 high | Implements automated, declarative node provisioning and autoscaling within OpenShift clusters via upstream Cluster API concepts. |
+    | 2026-11-05 | [Red Hat OpenShift AI (RHOAI)](https://www.redhat.com/en/products/ai/openshift-ai) | 🔴 critical | Serves as Red Hat's flagship enterprise MLOps platform, unifying modern AI/ML inference and pipeline tooling on OpenShift. |
+    | 2026-11-05 | [llm-d (Kubernetes-Native Distributed LLM Inference)](https://github.com/llm-d/llm-d) | 🔴 critical | Red Hat co-engineered K8s-native distributed LLM inference framework that establishes a new paradigm for running enterprise AI workloads. |
+    | 2026-06-12 | [github.com/openshift/hypershift: HyperShift](https://github.com/openshift/hypershift) | 🔴 critical | Fundamentally transforms OpenShift architecture by hosting decoupled control planes as standard, scalable containerized workloads. |
+    | 2026-06-01 | [Amazon Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws) | 🔴 critical | Drives massive enterprise cloud adoption as a jointly managed, turnkey OpenShift platform natively integrated into AWS. |
+    | 2026-11-05 | [InstructLab](https://github.com/instructlab/instructlab) | 🟡 high | Delivers an open-source model alignment and synthetic data generation framework co-created by Red Hat to democratize LLM tuning. |
+    | 2026-11-05 | [OpenDataHub Operator](https://github.com/opendatahub-io/opendatahub-operator) | 🟡 high | Functions as the foundational upstream open-source project powering Red Hat OpenShift AI across multi-cloud environments. |
+    | 2026-06-14 | [github.com/openshift/installer openshift installer 🌟](https://github.com/openshift/installer) | 🟡 high | Acts as the essential engine executing automated, declarative cluster provisioning across major hypervisors and cloud providers. |
+    | 2026-06-11 | [Red Hat OLM](https://github.com/operator-framework/operator-lifecycle-manager) | 🟡 high | Establishes the core Kubernetes framework for managing day-2 operator lifecycles, CRDs, and automated cluster extensions. |
+    | 2026-06-12 | [github.com/openshift/origin 🌟](https://github.com/openshift/origin) | 🟡 high | Serves as the core upstream open-source project (OKD) where all foundational OpenShift features and Kubernetes enhancements originate. |
+    | 2026-10-19 | [github.com/redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | 🔵 medium | Provides production-ready GitOps blueprint configurations and Argo CD patterns maintained specifically for enterprise OpenShift clusters. |
 
 === "Last 12 Months"
 
@@ -1007,16 +1007,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [ClusterAPI](https://cluster-api.sigs.k8s.io) | 🔴 critical | Cluster API sets the industry standard for declarative, API-driven infrastructure lifecycle management across private cloud and bare-metal Kubernetes clusters. |
-    | 2026-06-14 | [Openshift Container Platform](https://nubenetes.com/openshift) | 🔴 critical | OpenShift is a premier enterprise hybrid platform integrating container orchestration, cloud-native virtualization, and built-in operational security. |
-    | 2026-05-17 | [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html) | 🔴 critical | Project Pacific natively embeds Kubernetes into VMware vSphere, creating a unified architectural bridge between traditional VM virtualization and cloud-native workloads. |
-    | 2026-11-05 | [**Kubespray**](https://github.com/kubernetes-sigs/kubespray) | 🟡 high | Kubespray remains the battle-tested standard Ansible framework for deploying HA, production-grade Kubernetes clusters on private bare-metal infrastructure. |
-    | 2026-06-14 | [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher) | 🟡 high | Rancher provides essential centralized operational management and governance across heterogeneous multi-cluster private cloud deployments. |
-    | 2026-11-02 | [defenseunicorns/zarf](https://github.com/zarf-dev/zarf) | 🟡 high | Zarf delivers critical capability for packaging and deploying cloud-native applications in strictly air-gapped and zero-trust private cloud environments. |
-    | 2026-06-01 | [Nomad](https://developer.hashicorp.com/nomad) | 🟡 high | Nomad offers a low-overhead, declarative alternative to Kubernetes for orchestrating both containerized and non-containerized legacy workloads on private infrastructure. |
-    | 2026-10-29 | [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) | 🟡 high | Kubeadm is the official upstream bootstrapping engine that powers standard conformant Kubernetes cluster creation across private cloud nodes. |
-    | 2026-11-05 | [K0s - Zero Friction Kubernetes](https://github.com/k0sproject/k0s) | 🟡 high | k0s drastically reduces operational friction in private cloud setups by packaging control plane components into a single zero-dependency binary. |
-    | 2026-06-01 | [**Microk8s**](https://canonical.com/microk8s) | 🟡 high | MicroK8s provides a zero-ops, highly available lightweight Kubernetes distribution ideal for resource-constrained private cloud and edge computing deployments. |
+    | 2026-06-01 | [ClusterAPI](https://cluster-api.sigs.k8s.io) | 🔴 critical | Cluster API enables declarative, Kubernetes-native management of cluster lifecycles across bare-metal and private cloud infrastructure. |
+    | 2026-06-14 | [Openshift Container Platform](https://nubenetes.com/openshift) | 🔴 critical | OpenShift is the leading enterprise hybrid cloud platform integrating Kubernetes, KubeVirt, and advanced operational tooling for private clouds. |
+    | 2026-06-14 | [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher) | 🟡 high | Rancher provides centralized management and governance for multi-cluster Kubernetes deployments across heterogeneous private and public cloud environments. |
+    | 2026-11-05 | [**Kubespray**](https://github.com/kubernetes-sigs/kubespray) | 🟡 high | Kubespray remains the industry-standard Ansible framework for deploying highly available, production-grade Kubernetes clusters on private infrastructure. |
+    | 2026-11-02 | [defenseunicorns/zarf](https://github.com/zarf-dev/zarf) | 🟡 high | Zarf standardizes and simplifies the packaging and deployment of Kubernetes applications into strictly air-gapped private environments. |
+    | 2026-10-29 | [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) | 🟡 high | Kubeadm is the standard upstream bootstrapping engine providing essential building blocks for establishing conformant private cloud clusters. |
+    | 2026-06-01 | [Nomad](https://developer.hashicorp.com/nomad) | 🟡 high | Nomad provides an enterprise-ready, low-overhead alternative to Kubernetes for scheduling both containerized and non-containerized workloads on private hosts. |
+    | 2026-11-05 | [K0s - Zero Friction Kubernetes](https://github.com/k0sproject/k0s) | 🔵 medium | k0s reduces operational complexity by packaging a complete Kubernetes control plane into a single binary optimized for edge and private infrastructure. |
+    | 2026-06-01 | [Taubyte](https://taubyte.com) | 🔵 medium | Taubyte introduces a WebAssembly-native edge cloud platform that eliminates traditional virtualization overhead for distributed serverless workloads. |
+    | 2026-06-01 | [Portainer 🌟](https://www.portainer.io) | 🔵 medium | Portainer simplifies day-2 administration and operational management for private Docker and Kubernetes environments through a centralized interface. |
 
 === "Last 12 Months"
 

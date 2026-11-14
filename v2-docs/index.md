@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20058 total resources analyzed.
-    - **V2 Elite Selection**: 15951 candidates identified (79.52% density ratio).
-    - **AI Enrichment Coverage**: 15951 / 15951 (100.0%)
+    - **V1 Base Inventory**: 20070 total resources analyzed.
+    - **V2 Elite Selection**: 15963 candidates identified (79.54% density ratio).
+    - **AI Enrichment Coverage**: 15963 / 15963 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -106,15 +106,15 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 13, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 14, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLPVDu1Q58BQM">Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide</a></div>
-  <div class="trending-card__meta">2026-11-12 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Delivers an essential blueprint for building self-hosted bare-metal GPU cloud infrastructure using NVIDIA Kubernetes Engine.</div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/watch?v=e15CNmR8oY0">AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone</a></div>
+  <div class="trending-card__meta">2026-11-13 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Introduces a paradigm shift in local cloud simulation with an AI-generated, multi-service Rust emulation engine.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -444,7 +444,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1038 resources">Go<span class="v2-heat-n">1038</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1034 resources">Go<span class="v2-heat-n">1034</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -484,7 +484,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="334 resources">Markdown<span class="v2-heat-n">334</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="337 resources">Markdown<span class="v2-heat-n">337</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="247 resources">MCP<span class="v2-heat-n">247</span></a>

@@ -1,5 +1,5 @@
 ---
-description: "Top Message Queue resources for 2026, AI-ranked: Redpanda, Apache Flink and more — curated Cloud Native tools, guides and references."
+description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **Debezium** and more — curated Cloud Native tools, guides and references."
 ---
 # Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub
 
@@ -790,7 +790,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Redpanda, Apache 
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Yaml](./yaml.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

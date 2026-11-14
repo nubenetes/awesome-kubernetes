@@ -64,7 +64,7 @@ description: "Curated, AI-ranked AWS Training resources for the 2026 Cloud Nativ
   - [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/ai-trends/free-online-resources-to-get-started-on-cloud-computing) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing covering Introduction in AWS (analyticsindiamag.com).
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

@@ -179,7 +179,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12?gi=bf216eb2967e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learningdaily.dev: Software architecture diagramming and patterns covering Introduction in Cloud Arch Diagrams (learningdaily.dev).
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

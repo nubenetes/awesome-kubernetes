@@ -1,5 +1,5 @@
 ---
-description: "Top Caching resources for 2026, AI-ranked: Varnish Cache, HAProxy and more — curated Cloud Native tools, guides and references."
+description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache and more — curated Cloud Native tools, guides and references."
 ---
 # Caching Solutions
 
@@ -139,7 +139,7 @@ description: "Top Caching resources for 2026, AI-ranked: Varnish Cache, HAProxy 
   - [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Red Hat Enterprise Linux Blog. Tag: Varnish covering Varnish in Caching (redhat.com).
 
 ---
-💡 **Explore Related:** [Istio](./istio.md) | [Servicemesh](./servicemesh.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Web Servers](./web-servers.md) | [Networking](./networking.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 
