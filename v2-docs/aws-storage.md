@@ -112,7 +112,7 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
   - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483?gi=235aba4fa637) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — When you have a front-end application and need to upload files to an S3 bucket securely and keep your bucket private, you can use API Gateway to post your files to S3. If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3.we will not use Lambda.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [AWS Security](./aws-security.md)
+💡 **Explore Related:** [Azure](./azure.md) | [AWS](./aws.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

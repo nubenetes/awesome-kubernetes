@@ -721524,13 +721524,9 @@ https://www.youtube.com/shorts/sWWfqvnXsCE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kafka, Pulsar, RabbitMQ, NATS
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721548,6 +721544,11 @@ https://www.youtube.com/shorts/sWWfqvnXsCE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kafka, Pulsar, RabbitMQ, NATS
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/DTnPk1CgSO8:
   title: How Kafka Partitions Fail on Kubernetes (URP & MinISR)
@@ -721570,13 +721571,9 @@ https://www.youtube.com/shorts/DTnPk1CgSO8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kafka on Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721594,6 +721591,11 @@ https://www.youtube.com/shorts/DTnPk1CgSO8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kafka on Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/qK-LHFBmadE:
   title: How Kafka Consumers Survive Data Center Disasters (MM2) [Short]
@@ -721617,13 +721619,9 @@ https://www.youtube.com/shorts/qK-LHFBmadE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721641,6 +721639,11 @@ https://www.youtube.com/shorts/qK-LHFBmadE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Rb0NCefXOk0:
   title: How Kafka Schema Registry Prevents Pipeline Crashes
@@ -721664,13 +721667,9 @@ https://www.youtube.com/shorts/Rb0NCefXOk0:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721688,6 +721687,11 @@ https://www.youtube.com/shorts/Rb0NCefXOk0:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/tzKK4hHuQms:
   title: How Kafka Decouples Compute & Storage (Tiered to Diskless)
@@ -721708,13 +721712,9 @@ https://www.youtube.com/shorts/tzKK4hHuQms:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721732,6 +721732,11 @@ https://www.youtube.com/shorts/tzKK4hHuQms:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Off52robJwE:
   title: How Kafka 4.0 Fixes Rebalance Pauses & Adds Share Groups [Short]
@@ -721753,13 +721758,9 @@ https://www.youtube.com/shorts/Off52robJwE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721777,6 +721778,11 @@ https://www.youtube.com/shorts/Off52robJwE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/BZvGKb855cs:
   title: How Kafka 4.0 Isolates KRaft Controllers from Brokers with Strimzi [Short]
@@ -721799,13 +721805,9 @@ https://www.youtube.com/shorts/BZvGKb855cs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721823,6 +721825,11 @@ https://www.youtube.com/shorts/BZvGKb855cs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=YP5R5RkED_Y:
   title: 'Event Broker Battles: Kafka vs Redpanda vs Pulsar vs RabbitMQ vs NATS'
@@ -721865,13 +721872,9 @@ https://www.youtube.com/watch?v=YP5R5RkED_Y:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kafka & Distributed Event Brokers
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721889,6 +721892,11 @@ https://www.youtube.com/watch?v=YP5R5RkED_Y:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kafka & Distributed Event Brokers
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=uwMZIxgAEZI:
   title: 'Kafka SRE Ops Manual: JMX P1 Alerts, KIP-1291/714 & Strimzi Mitigation'
@@ -721928,13 +721936,9 @@ https://www.youtube.com/watch?v=uwMZIxgAEZI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka / Kubernetes
-  category: Observability and Monitoring
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -721952,6 +721956,11 @@ https://www.youtube.com/watch?v=uwMZIxgAEZI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka / Kubernetes
+  category: Observability and Monitoring
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=Y4ctPuDIXhY:
   title: 'Kafka Disaster Recovery: Multi-Region DR, MirrorMaker 2 & Failback Runbooks'
@@ -721992,13 +722001,9 @@ https://www.youtube.com/watch?v=Y4ctPuDIXhY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -722016,6 +722021,11 @@ https://www.youtube.com/watch?v=Y4ctPuDIXhY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=UsaRlPU_Hg8:
   title: 'Kafka Schema Registries: Wire Format, Compatibility & CDC Data Contracts'
@@ -722055,13 +722065,9 @@ https://www.youtube.com/watch?v=UsaRlPU_Hg8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -722079,6 +722085,11 @@ https://www.youtube.com/watch?v=UsaRlPU_Hg8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=gOcDUB-jiLI:
   title: 'Kafka Storage Evolution: Tiered Storage (KIP-405) to Diskless (KIP-1150)'
@@ -722119,13 +722130,9 @@ https://www.youtube.com/watch?v=gOcDUB-jiLI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -722143,6 +722150,11 @@ https://www.youtube.com/watch?v=gOcDUB-jiLI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=JDLt0Vt83Ec:
   title: 'Kafka 4.x Next-Gen Messaging: KIP-848 Rebalance & KIP-932 Share Groups'
@@ -722183,13 +722195,9 @@ https://www.youtube.com/watch?v=JDLt0Vt83Ec:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -722207,6 +722215,11 @@ https://www.youtube.com/watch?v=JDLt0Vt83Ec:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=hacr-JaxbZk:
   title: 'Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2
@@ -722247,13 +722260,9 @@ https://www.youtube.com/watch?v=hacr-JaxbZk:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Apache Kafka
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794666502
   needs_ai_refresh: false
@@ -722271,4 +722280,9 @@ https://www.youtube.com/watch?v=hacr-JaxbZk:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel

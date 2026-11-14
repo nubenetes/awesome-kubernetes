@@ -47,8 +47,8 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: AWS Forums, Kube Even
   - [Go Collective](https://stackoverflow.com/collectives/go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [GitLab Collective](https://stackoverflow.com/collectives/gitlab) [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud) etc **(2026)** [Developer policy update: Transparency, state policy, and what’s ahead](https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead) 🌟 - Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source.
 ## Subreddits
 
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/redhat covering Subreddits in Newsfeeds (reddit.com).
   - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/openshift covering Subreddits in Newsfeeds (reddit.com).
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/redhat covering Subreddits in Newsfeeds (reddit.com).
   - [reddit.com/r/gradle](https://www.reddit.com/r/gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/gradle covering Subreddits in Newsfeeds (reddit.com).
   - [reddit.com/r/QualityAssurance](https://www.reddit.com/r/QualityAssurance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/QualityAssurance covering Subreddits in Newsfeeds (reddit.com).
   - [reddit.com/r/jmeter](https://www.reddit.com/r/jmeter)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/jmeter covering Subreddits in Newsfeeds (reddit.com).
@@ -67,7 +67,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: AWS Forums, Kube Even
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/bashonubuntuonwindows covering Subreddits in Newsfeeds (reddit.com).
 
 ---
-💡 **Explore Related:** [Freelancing](./freelancing.md) | [Elearning](./elearning.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Finops](./finops.md) | [Appointment Scheduling](./appointment-scheduling.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

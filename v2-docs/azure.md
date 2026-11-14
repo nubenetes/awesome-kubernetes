@@ -1,5 +1,5 @@
 ---
-description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Gallery and more — curated Cloud Native tools, guides and references."
+description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework, PowerShell and more — curated Cloud Native tools, guides and references."
 ---
 # Microsoft Azure
 
@@ -455,8 +455,8 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - **(2025)** [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive comparison of Azure Service Endpoints versus Private Link. The author details critical architectural trade-offs: while Service Endpoints are simple to configure and leverage public IPs, Private Link allocates private endpoints within your virtual network, enhancing the security posture of microservice deployments by blocking data exfiltration channels, albeit with increased cost and complexity.
 #### Security (1)
 
-  - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
   - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
+  - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
 #### Subnet Peering
 
   - **(2025)** [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural paradigm of Subnet Peering in Azure, bypassing the traditional resource-heavy requirements of full Virtual Network (VNet) peering. This feature allows network engineers to establish direct, localized communication paths between designated subnets, optimizing security boundaries and address space usage.
@@ -1701,7 +1701,7 @@ description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Ga
   - [DevOps Azure Pipelines: YAML Schema](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DevOps Azure Pipelines: YAML Schema covering YAML Schema in DevOps Azure Pipelines in Azure (learn.microsoft.com).
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [AWS Security](./aws-security.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

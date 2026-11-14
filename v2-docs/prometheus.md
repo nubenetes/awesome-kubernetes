@@ -1,5 +1,5 @@
 ---
-description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collector, Pushgateway and more — curated Cloud Native tools, guides and references."
+description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTelemetry Collector and more — curated Cloud Native tools, guides and references."
 ---
 # Prometheus
 
@@ -39,8 +39,8 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2026)** [**prometheus.io**](https://prometheus.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official homepage for Prometheus, the graduated CNCF monitoring system. Prometheus utilizes a pull model over HTTP, a multi-dimensional data model with time-series metrics identified by key-value pairs, dynamic target discovery (Kubernetes API integration), and the specialized query language PromQL.
 ##### Database Monitoring
 
-  - **(2020)** [sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟](https://www.sysdig.com/blog/postgresql-monitoring) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth article evaluating the top 10 PostgreSQL performance metrics to monitor with Prometheus via postgres_exporter. Highlights queries, cache hit ratios, active connections, vacuum frequency, lock contentions, and replication lag optimization.
   - **(2020)** [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical integration guide on monitoring ClickHouse database clusters with Prometheus and Grafana. It details how to enable ClickHouse's native Prometheus metrics exporter in config.xml, configures Prometheus to scrape ClickHouse metrics, and reviews visualization dashboards.
+  - **(2020)** [sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟](https://www.sysdig.com/blog/postgresql-monitoring) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth article evaluating the top 10 PostgreSQL performance metrics to monitor with Prometheus via postgres_exporter. Highlights queries, cache hit ratios, active connections, vacuum frequency, lock contentions, and replication lag optimization.
 ##### Deployment
 
   - **(2020)** [howtoforge.com: How to Install Prometheus System Monitoring Tool on Ubuntu 20.04](https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A standard system administration guide explaining the manual compilation, security provisioning, and installation of the Prometheus system monitoring engine on Ubuntu 20.04 LTS servers. Focuses on directory provisioning, systemd automation, and basic target verification.
@@ -405,7 +405,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

@@ -1859,84 +1859,21 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/shorts/cn_lMyaAWk4",
-        "title": "The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features",
-        "date": "2026-11-11",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Establishes the next enterprise Kubernetes benchmark on version 1.36 and CRI-O with seamless in-place cluster upgrades.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLPVDu1Q58BQM",
-        "title": "Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide",
-        "date": "2026-11-12",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides an architectural blueprint for running production-grade bare-metal GPU clusters natively on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=e15CNmR8oY0",
-        "title": "AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone",
-        "date": "2026-11-13",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Introduces a paradigm shift in local cloud simulation with an AI-generated, multi-service Rust emulation engine.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/Xk6zkGfV34s",
-        "title": "How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]",
-        "date": "2026-11-11",
-        "stars": 5,
-        "impact": "high",
-        "why": "Integrates agentic AI directly into Kubernetes operations to automate root-cause analysis and cluster remediation.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/SO6i_-fUero",
-        "title": "How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]",
+        "url": "https://www.youtube.com/watch?v=Tvz-CxJr9nM",
+        "title": "Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema",
         "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Implements hardware-rooted zero-trust security using TPM attestation and SPIFFE/SPIRE for bare-metal AI infrastructure.",
+        "why": "Provides direct strategic analysis on operationalizing medical AI orchestration platforms across Spain's clinical and hospital ecosystems.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=wJeUCakwZO0",
-        "title": "Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs",
+        "url": "https://www.youtube.com/watch?v=ykrlQKFAhgI",
+        "title": "La Corrección Clínica en IA Médica: Estrategia e Imagen en España",
         "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Enables cost-effective Infrastructure-as-Code pipeline testing by validating Terraform state against local emulators without cloud credentials.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=yRBGAES2Jb8",
-        "title": "Azure Naming Tool v5: Cloud Adoption Framework Naming Governance",
-        "date": "2026-11-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Operationalizes Cloud Adoption Framework compliance across enterprise landing zones through automated API-driven governance.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/N3u6VpDj6Bw",
-        "title": "How Change Block Tracking (CBT) Speeds Up OpenShift Virtualization 5 Backups [Short]",
-        "date": "2026-11-11",
-        "stars": 5,
-        "impact": "high",
-        "why": "Brings hypervisor-grade Changed Block Tracking to OpenShift Virtualization to enable high-efficiency differential VM backups.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=DVWkJ-5Z_zY",
-        "title": "NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security Guide",
-        "date": "2026-11-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers an enterprise security and benchmarking framework to validate AI agent code execution inside isolated sandboxes.",
+        "why": "Analyzes the 2026 clinical AI market correction and integration architectures into hospital PACS/RIS workflows within Spain.",
         "category": "Spain"
       },
       {
@@ -1944,8 +1881,71 @@
         "title": "Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)",
         "date": "2026-11-13",
         "stars": 5,
+        "impact": "high",
+        "why": "Delivers a localized Spanish-language strategic series tracking the 34.2% annual growth of clinical AI and imaging platforms in Spain.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/6QFZI9L1nUw",
+        "title": "How AI Extracts Quantitative Imaging Biomarkers (Quibim)",
+        "date": "2026-11-13",
+        "stars": 5,
         "impact": "medium",
-        "why": "Analyzes the Spanish healthcare cloud ecosystem's transition toward integrated multi-algorithm clinical orchestration platforms.",
+        "why": "Explores radiomics biomarkers from Spanish healthtech leader Quibim, demonstrating production clinical AI data extraction.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=hacr-JaxbZk",
+        "title": "Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Covers production operations for Apache Kafka 4.0's pure KRaft architecture and CNCF Strimzi operator NodePools on Kubernetes.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=JDLt0Vt83Ec",
+        "title": "Kafka 4.x Next-Gen Messaging: KIP-848 Rebalance & KIP-932 Share Groups",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Details Kafka 4.x's paradigm shift to broker-side rebalance (KIP-848) and native share groups (KIP-932) for modern cloud-native consumers.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=uwMZIxgAEZI",
+        "title": "Kafka SRE Ops Manual: JMX P1 Alerts, KIP-1291/714 & Strimzi Mitigation",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Establishes critical P1 JMX alerting thresholds and automated mitigation runbooks for running enterprise Kafka with Strimzi on Kubernetes.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/SO6i_-fUero",
+        "title": "How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Addresses production bare-metal GPU Kubernetes security by combining TPM hardware attestation, SPIFFE/SPIRE identities, and encrypted transport.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLZOsodxc3GIM",
+        "title": "Nubenetes AWS Emulator: Local AWS APIs, Terraform & CI/CD Guide",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Comprehensive reference guide for testing IaC and cloud workloads locally using Amazon's open-source Rust-based AWS Emulator.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jkxueb9fcRE",
+        "title": "Azure Naming Tool in Production: Tenant Validation, Terraform & Bicep",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Details enterprise landing zone governance by automating Cloud Adoption Framework naming standards via Terraform, Bicep, and REST APIs.",
         "category": "Spain"
       }
     ]
@@ -3333,48 +3333,12 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/playlist?list=PLPVDu1Q58BQM",
-        "title": "Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide",
-        "date": "2026-11-12",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Establishes a production engineering guide for operating self-hosted bare-metal GPU infrastructure using NVIDIA Kubernetes Engine.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/cn_lMyaAWk4",
-        "title": "The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features",
-        "date": "2026-11-11",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Outlines major architectural advancements in OpenShift 5 built on Kubernetes 1.36 and CRI-O 1.36 with non-disruptive in-place upgrades.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=e15CNmR8oY0",
-        "title": "AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone",
-        "date": "2026-11-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Details Amazon's open-source Rust-based AWS Emulator, transforming local cloud infrastructure testing and CI/CD pipelines.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=DVWkJ-5Z_zY",
-        "title": "NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security Guide",
-        "date": "2026-11-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides an enterprise validation and security framework for testing and sandboxing AI agent skills before production deployment.",
-        "category": "Spain"
-      },
-      {
         "url": "https://www.youtube.com/playlist?list=PLPshE-mkC590",
         "title": "Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)",
         "date": "2026-11-13",
         "stars": 5,
-        "impact": "high",
-        "why": "Delivers a Spanish-language strategic analysis of the growing medical imaging AI ecosystem and orchestration gateways in Spain.",
+        "impact": "critical",
+        "why": "High regional relevance analyzing Spain's 34.2% annual growth in clinical AI orchestration and PACS/RIS integration strategies.",
         "category": "Spain"
       },
       {
@@ -3383,16 +3347,34 @@
         "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Examines the transition of medical AI from isolated models to integrated, interoperable PACS clinical orchestration platforms in Spain.",
+        "why": "Critical strategic breakdown of Spain's medical AI evolution from isolated models to enterprise PACS/RIS workflow orchestration platforms.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=yRBGAES2Jb8",
-        "title": "Azure Naming Tool v5: Cloud Adoption Framework Naming Governance",
+        "url": "https://www.youtube.com/watch?v=ykrlQKFAhgI",
+        "title": "La Corrección Clínica en IA Médica: Estrategia e Imagen en España",
+        "date": "2026-11-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Deep dive into operationalizing medical AI platforms within Spanish hospital networks while addressing algorithm drift and clinical integration.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=hacr-JaxbZk",
+        "title": "Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops",
         "date": "2026-11-14",
         "stars": 5,
-        "impact": "medium",
-        "why": "Provides a comprehensive deep dive into enforcing Cloud Adoption Framework naming standards across enterprise Azure Landing Zones.",
+        "impact": "critical",
+        "why": "Major paradigm shift for cloud-native event streaming, detailing Kafka 4.0's post-ZooKeeper KRaft consensus and CNCF Strimzi NodePools on Kubernetes.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=JDLt0Vt83Ec",
+        "title": "Kafka 4.x Next-Gen Messaging: KIP-848 Rebalance & KIP-932 Share Groups",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Massive architectural update for event-driven systems that eliminates stop-the-world consumer rebalances via KIP-848 in Kafka 4.0.",
         "category": "Spain"
       },
       {
@@ -3401,25 +3383,43 @@
         "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Demonstrates zero-trust security for bare-metal GPU clusters using TPM node attestation, SPIFFE/SPIRE, and mTLS.",
+        "why": "Crucial zero-trust architecture for enterprise GPU infrastructure combining SPIFFE/SPIRE identity with TPM hardware attestation on bare-metal Kubernetes.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/shorts/Xk6zkGfV34s",
-        "title": "How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]",
-        "date": "2026-11-11",
+        "url": "https://www.youtube.com/watch?v=uwMZIxgAEZI",
+        "title": "Kafka SRE Ops Manual: JMX P1 Alerts, KIP-1291/714 & Strimzi Mitigation",
+        "date": "2026-11-14",
         "stars": 5,
         "impact": "high",
-        "why": "Introduces agentic AI diagnostics to Kubernetes cluster operations to automate incident response and lower MTTR.",
+        "why": "High-impact SRE operational runbook for managing production Kafka quorums and day-2 alerting thresholds on Kubernetes using Strimzi.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=wJeUCakwZO0",
-        "title": "Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs",
+        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
+        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Comprehensive architectural reference for modern cloud-native event streaming with KRaft consensus and CNCF Strimzi operators.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=DVWkJ-5Z_zY",
+        "title": "NVIDIA SkillEvaluator: Three-Tier AI Agent Skills Evaluation & Security Guide",
         "date": "2026-11-13",
         "stars": 5,
         "impact": "medium",
-        "why": "Offers practical architectural patterns for validating Terraform code in CI/CD using local AWS emulation without live cloud credentials.",
+        "why": "Novel enterprise framework for deterministic AI agent validation, static security gates, and sandboxed skill execution.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jkxueb9fcRE",
+        "title": "Azure Naming Tool in Production: Tenant Validation, Terraform & Bicep",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Production-ready IaC governance guide for automating landing zone policy compliance across Terraform and Bicep pipelines.",
         "category": "Spain"
       }
     ],
@@ -6198,30 +6198,57 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/shorts/cn_lMyaAWk4",
-        "title": "The Biggest Updates in Red Hat OpenShift 5: Top Architectural Features",
-        "date": "2026-11-11",
+        "url": "https://www.youtube.com/watch?v=hacr-JaxbZk",
+        "title": "Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops",
+        "date": "2026-11-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Red Hat OpenShift 5 introduces non-disruptive in-place upgrades and Kubernetes 1.36 integration for enterprise cloud-native workloads.",
+        "why": "Demonstrates pure post-ZooKeeper KRaft consensus and Strimzi NodePool controller management for running Kafka natively on Kubernetes.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLPVDu1Q58BQM",
-        "title": "Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide",
-        "date": "2026-11-12",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides an essential architectural foundation for running self-hosted, bare-metal GPU clusters using NVIDIA Kubernetes Engine.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=e15CNmR8oY0",
-        "title": "AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone",
+        "url": "https://www.youtube.com/shorts/SO6i_-fUero",
+        "title": "How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]",
         "date": "2026-11-13",
         "stars": 5,
         "impact": "critical",
-        "why": "Explores Amazon's AI-built open-source AWS Emulator for executing high-fidelity local cloud API testing and CI/CD validation.",
+        "why": "Establishes a hardware-rooted zero-trust security model for bare-metal GPU clusters using SPIFFE/SPIRE and TPM attestation inside NVIDIA Kubernetes Engine.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=JDLt0Vt83Ec",
+        "title": "Kafka 4.x Next-Gen Messaging: KIP-848 Rebalance & KIP-932 Share Groups",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Analyzes fundamental Kafka 4.0 protocol shifts that eliminate stop-the-world client rebalances via broker-side coordination.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=uwMZIxgAEZI",
+        "title": "Kafka SRE Ops Manual: JMX P1 Alerts, KIP-1291/714 & Strimzi Mitigation",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides an actionable operational manual for SREs managing production Kafka clusters and Strimzi operators on Kubernetes.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gOcDUB-jiLI",
+        "title": "Kafka Storage Evolution: Tiered Storage (KIP-405) to Diskless (KIP-1150)",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Details the architectural transition of event streaming storage from local NVMe drives to cloud-native tiered and diskless paradigms.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=YP5R5RkED_Y",
+        "title": "Event Broker Battles: Kafka vs Redpanda vs Pulsar vs RabbitMQ vs NATS",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an empirical SRE decision framework comparing distributed messaging platforms for cloud-native event-driven architectures.",
         "category": "Spain"
       },
       {
@@ -6230,7 +6257,16 @@
         "date": "2026-11-13",
         "stars": 5,
         "impact": "high",
-        "why": "Establishes a three-tier static security and evaluation pipeline to validate AI agent skills prior to production deployment.",
+        "why": "Introduces an enterprise security and validation pipeline to inspect, sanitize, and gate modular AI agent skills before deployment.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
+        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Offers a comprehensive architectural reference covering Kafka 4.x KRaft consensus, Strimzi CRDs, and diskless storage patterns.",
         "category": "Spain"
       },
       {
@@ -6238,53 +6274,17 @@
         "title": "Evolución de la IA Médica en España: Análisis Estratégico del Ecosistema",
         "date": "2026-11-13",
         "stars": 5,
-        "impact": "high",
-        "why": "Delivers a strategic roadmap for integrating clinical AI platforms into cloud-native healthcare workflows across Spain.",
+        "impact": "medium",
+        "why": "Evaluates strategic AI platform orchestration trends and clinical workflow integration specifically tailored to the Spanish healthcare ecosystem.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=yRBGAES2Jb8",
-        "title": "Azure Naming Tool v5: Cloud Adoption Framework Naming Governance",
+        "url": "https://www.youtube.com/watch?v=jkxueb9fcRE",
+        "title": "Azure Naming Tool in Production: Tenant Validation, Terraform & Bicep",
         "date": "2026-11-14",
         "stars": 5,
-        "impact": "high",
-        "why": "Automates Cloud Adoption Framework naming governance across enterprise cloud landing zones using REST APIs and IaC.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/Xk6zkGfV34s",
-        "title": "How OpenShift Lightspeed Troubleshoots Clusters: Agentic AI & Remediation [Short]",
-        "date": "2026-11-11",
-        "stars": 5,
-        "impact": "high",
-        "why": "Leverages agentic AI within OpenShift Lightspeed to automate Kubernetes cluster diagnostics and shorten MTTR.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/SO6i_-fUero",
-        "title": "How NVKE Secures Bare-Metal GPU Clusters: TPM, SPIFFE/SPIRE & etcd Encryption [Short]",
-        "date": "2026-11-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Implements hardware-rooted zero-trust security using SPIFFE/SPIRE and TPM attestation for bare-metal GPU Kubernetes clusters.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=wJeUCakwZO0",
-        "title": "Surviving AWS Emulator: Terraform, CI/CD, Fidelity Gaps & Trade-Offs",
-        "date": "2026-11-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Offers practical guidance for validating Terraform plans and CI/CD pipelines locally without live cloud credentials.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLPshE-mkC590",
-        "title": "Nubenetes IA en Imagen Médica: Ecosistema Clínico y Estrategia (Español)",
-        "date": "2026-11-13",
-        "stars": 5,
         "impact": "medium",
-        "why": "Analyzes the operational transition and market adoption of medical AI orchestration platforms within Spain.",
+        "why": "Shows how to enforce programmatic Cloud Adoption Framework naming standards inside enterprise Azure Landing Zones via IaC pipelines.",
         "category": "Spain"
       }
     ],
@@ -6804,9 +6804,9 @@
         "method": "fallback_small"
       },
       "Spain": {
-        "last_analyzed": "2026-11-14T13:49:49.929602+01:00",
-        "entry_hash": "33d63c731a072091",
-        "entry_count": 173,
+        "last_analyzed": "2026-11-14T15:33:26.135028+01:00",
+        "entry_hash": "be25c1480af68b9a",
+        "entry_count": 188,
         "method": "gemini"
       }
     },
@@ -6902,9 +6902,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-14T13:53:41.102538+01:00",
-        "entry_hash": "fce65ac1fd1b178e",
-        "entry_count": 182,
+        "last_analyzed": "2026-11-14T15:33:59.395314+01:00",
+        "entry_hash": "18b55e717b105909",
+        "entry_count": 197,
         "method": "gemini"
       },
       "Europe": {
@@ -7096,9 +7096,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-14T13:55:45.434513+01:00",
-        "entry_hash": "3ea3588fa3e666b9",
-        "entry_count": 209,
+        "last_analyzed": "2026-11-14T15:34:12.365583+01:00",
+        "entry_hash": "d9791dc8c7057a07",
+        "entry_count": 224,
         "method": "gemini"
       },
       "Europe": {
@@ -7126,6 +7126,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-14T13:59:49.474067+01:00"
+    "last_updated": "2026-11-14T15:34:13.367580+01:00"
   }
 }

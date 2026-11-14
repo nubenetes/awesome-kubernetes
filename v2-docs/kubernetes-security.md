@@ -639,7 +639,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kubescape, 
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [Terraform](./terraform.md) | [IaC](./iac.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [IaC](./iac.md) | [Securityascode](./securityascode.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

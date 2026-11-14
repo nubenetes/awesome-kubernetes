@@ -55,7 +55,7 @@ description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native a
   - **(2023)** [martinfowler.com](https://martinfowler.com/articles/evodb.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal essay on evolutionary database architectures. Highlights methods for treating database schemas as declarative code, versioning migrations, and automating data migrations safely inside unified application delivery pipelines.
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [Terraform](./terraform.md) | [IaC](./iac.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [IaC](./iac.md) | [Securityascode](./securityascode.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

@@ -213,7 +213,7 @@ description: "Top AWS Miscellaneous resources for 2026, AI-ranked: Amazon EC2 Me
   - **(2021)** [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces a Gitpod configuration template for bootstrapping LocalStack development environments instantly in the browser. Live Grounding highlights this as an efficient template for cloud-native training, though production teams in 2026 typically leverage official Dev Container or LocalStack-supported cloud environments.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

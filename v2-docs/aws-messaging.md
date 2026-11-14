@@ -39,7 +39,7 @@ description: "Top AWS Messaging resources for 2026, AI-ranked: Amazon SQS FAQs, 
   - [Limits in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-quotas.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Limits in Amazon SQS covering AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service in AWS (docs.aws.amazon.com).
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

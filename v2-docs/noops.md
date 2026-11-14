@@ -32,7 +32,7 @@ description: "Top Noops resources for 2026, AI-ranked: 7 arguments against NoOps
   - [Dzone: What Is NoOps?](https://dzone.com/articles/what-is-noops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Dzone: What Is NoOps? in the Noops ecosystem (dzone.com).
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

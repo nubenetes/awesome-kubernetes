@@ -289,7 +289,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - [rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE](https://www.suse.com/c/rancher_blog/stateful-kubernetes-workloads-on-vsphere-with-rke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE covering Rancher RKE on vSphere in Rancher (suse.com).
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

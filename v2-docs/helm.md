@@ -1,5 +1,5 @@
 ---
-description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and more — curated Cloud Native tools, guides and references."
+description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and more — curated Cloud Native tools, guides and references."
 ---
 # Helm Kubernetes Tool
 
@@ -341,7 +341,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plugins, Available kubectl plugins and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes resources for 2026, AI-ranked: Helm, Crossplane and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes
 
@@ -263,11 +263,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
 #### Control Loops
 
   - **(2026)** [learnsteps.com: How Kubernetes works on reconciler pattern](https://www.learnsteps.com/how-kubernetes-works-on-a-reconciler-pattern) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A breakdown detailing the core control loop underlying Kubernetes' architecture: the state reconciliation pattern. Explains how controllers constantly poll state using an active feedback loop, identifying deviations between target specifications and current infrastructure status, and scheduling atomic changes to reconcile them.
-### Kubernetes Enhancements
-
-#### Resources
-
-  - **(2021)** [==KEP-2837: Especificaciones de Recursos a Nivel de Pod==](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md) <span class='md-tag md-tag--info'>⭐ 3982</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-63123df8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 2 L 30 3 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-63123df8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical Kubernetes Enhancement Proposal (KEP) addressing resource specification directly at the Pod level rather than duplicating definitions across individual container configurations. This proposed structural shift promises to optimize vertical pod autoscaling, simplify scheduler math, and streamline declarative application configurations.
 ### Microservices (1)
 
 #### Platform Engineering
@@ -938,6 +933,13 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
 #### Tutorials
 
   - **(2020)** [dev.to: Creating a Custom Resource Definition In Kubernetes | Michael Levan](https://dev.to/thenjdevopsguy/creating-a-custom-resource-definition-in-kubernetes-2k7o)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through detailing how to construct and deploy Custom Resource Definitions. Explores API versioning schema fields, spec declarations, and the foundational design of corresponding controller reconciliation loops.
+## Extensibility (2)
+
+### Operators
+
+#### Lifecycle Management
+
+  - **(2024)** [==Red Hat OLM==](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dd898253" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 11 L 30 9 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-dd898253)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Part of the Operator Framework, OLM manages the installation, updates, and role-based access control of Operators running inside a cluster. It acts as an orchestrator for custom resource definitions (CRDs) and controller versions, ensuring dependencies are resolved safely. This tool is standard infrastructure across Red Hat OpenShift and enterprise Kubernetes configurations to scale operations reliably.
 ## Fundamentals (5)
 
 ### Advocacy
@@ -1260,6 +1262,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
 
   - [==blog.devgenius.io: Choosing an Optimal Kubernetes Worker Node Size for Your Startup 🌟==](https://blog.devgenius.io/choosing-an-optimal-kubernetes-worker-node-size-e0eacab408c4?gi=f8e6b1442df7) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for blog.devgenius.io: Choosing an Optimal Kubernetes Worker Node Size for Your Startup 🌟 covering Introduction in Kubernetes (blog.devgenius.io).
   - [techtarget.com: How many Kubernetes nodes should be in a cluster? 🌟🌟🌟](https://www.techtarget.com/it-infrastructure/answer/How-many-Kubernetes-nodes-should-be-in-a-cluster) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for techtarget.com: How many Kubernetes nodes should be in a cluster? 🌟🌟🌟 covering Introduction in Kubernetes (techtarget.com).
+  - [itnext.io: Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572?gi=887de64bcad5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Essential Tools: 2021 covering Introduction in Kubernetes Tools (itnext.io).
   - [itnext.io: Kubernetes is Hard! 🌟](https://itnext.io/kubernetes-is-hard-190f1d0c6d36?gi=f4720a5ad9a6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes is Hard! 🌟 covering Introduction in Kubernetes (itnext.io).
   - [blogs.mulesoft.com - K8s: 8 questions about Kubernetes](https://blogs.mulesoft.com/dev-guides/k8s-kubernetes) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blogs.mulesoft.com - K8s: 8 questions about Kubernetes covering Introduction in Kubernetes (blogs.mulesoft.com).
   - [divya-mohan0209.medium.com: Getting started with K8s in 2022](https://faun.pub/getting-started-with-k8s-in-2022-1dfeb4bdc112?gi=ab0eb1944674) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for divya-mohan0209.medium.com: Getting started with K8s in 2022 covering Introduction in Kubernetes (faun.pub).
@@ -1377,7 +1380,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
   - [itnext.io: Breaking down and fixing etcd cluster](https://blog.aenix.io/breaking-down-and-fixing-etcd-cluster-d81e35b9260d?gi=f71848a3e271) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Breaking down and fixing etcd cluster covering Kubernetes Open Source Container Orchestation in Kubernetes (blog.aenix.io).
   - [itnext.io: Kubernetes: what are Endpoints](https://itnext.io/kubernetes-what-are-endpoints-3cc9e769b614?gi=7bf584a1540b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes: what are Endpoints covering Kubernetes Open Source Container Orchestation in Kubernetes (itnext.io).
   - [shayn-71079.medium.com: Scaling Kubernetes Clusters](https://talks.cloudify.co/scaling-kubernetes-clusters-8a061321de93?gi=66d550140f85) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for shayn-71079.medium.com: Scaling Kubernetes Clusters covering Kubernetes Open Source Container Orchestation in Kubernetes (talks.cloudify.co).
-  - [itnext.io: Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572?gi=887de64bcad5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Essential Tools: 2021 covering Introduction in Kubernetes Tools (itnext.io).
   - [asishmm.medium.com: Discussion on Horizontal Pod Autoscaler with a demo on local k8s cluster](https://devopsforyou.com/discussion-on-horizontal-pod-autoscaler-with-a-demo-on-local-k8s-cluster-81694c09f818?gi=78b819e6cfa9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for asishmm.medium.com: Discussion on Horizontal Pod Autoscaler with a demo on local k8s cluster covering Kubernetes Open Source Container Orchestation in Kubernetes (devopsforyou.com).
   - [itnext.io: How to deploy a cross-cloud Kubernetes cluster with built-in disaster recovery 🌟](https://itnext.io/how-to-deploy-a-cross-cloud-kubernetes-cluster-with-built-in-disaster-recovery-bbce27fcc9d7?gi=3b9a85e5d402) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How to deploy a cross-cloud Kubernetes cluster with built-in disaster recovery 🌟 covering Kubernetes Open Source Container Orchestation in Kubernetes (itnext.io).
   - [blog.runx.dev: 3 Things I Hate About Kubernetes](https://blog.runx.dev/3-things-i-hate-about-kubernetes-49f1656baeaa?gi=aaecc374af92) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.runx.dev: 3 Things I Hate About Kubernetes covering Kubernetes Open Source Container Orchestation in Kubernetes (blog.runx.dev).
@@ -1697,7 +1699,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
 #### Architecture Overview
 
   - **(2023)** [linkedin.com: DAY 01: Kubernetes : Understanding Architecture, Components, Installation and Configuration](https://www.linkedin.com/pulse/day-01-kubernetes-understanding-architecture-anup-ghattikar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory training log explaining initial cluster bootstrapping, control plane configurations, and node joining sequences. It details common installation paths and highlights basic networking/etcd configurations needed to establish a stable cluster control plane.
-### Lifecycle Management
+### Lifecycle Management (1)
 
 #### Day 2 Operations
 
@@ -2573,7 +2575,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
   - **(2021)** [**loft.sh: Kubernetes StatefulSet - Examples & Best Practices**](https://www.vcluster.com/blog/kubernetes-statefulset-examples-and-best-practices) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the design space of StatefulSets, concentrating on Volume Claim Templates, headless services, and storage scaling hazards. Highlights best practices for migrating production database clusters into cloud-native topologies.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

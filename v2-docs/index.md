@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20070 total resources analyzed.
-    - **V2 Elite Selection**: 15963 candidates identified (79.54% density ratio).
-    - **AI Enrichment Coverage**: 15963 / 15963 (100.0%)
+    - **V1 Base Inventory**: 20085 total resources analyzed.
+    - **V2 Elite Selection**: 15978 candidates identified (79.55% density ratio).
+    - **AI Enrichment Coverage**: 15978 / 15978 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -109,13 +109,6 @@
 <div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 14, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/watch?v=e15CNmR8oY0">AWS Emulator: Inside Amazon's AI-Built Local AWS Cloud Clone</a></div>
-  <div class="trending-card__meta">2026-11-13 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Introduces a paradigm shift in local cloud simulation with an AI-generated, multi-service Rust emulation engine.</div>
-</div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Networking & Service Mesh</div>
@@ -172,7 +165,7 @@
   <div class="trending-card__meta">2026-11-05 · 6.2k★</div>
   <div class="trending-card__why">Kube-state-metrics is an indispensable cluster service that translates Kubernetes API objects into core operational metrics across all enterprise environments.</div>
 </div>
-<div class="trending-card trending-card--extra">
+<div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">MLOps & Data Science</div>
   <div class="trending-card__title"><a href="https://www.databricks.com/product/artificial-intelligence">Databricks Mosaic AI</a></div>
@@ -220,6 +213,13 @@
   <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
   <div class="trending-card__meta">2026-10-30 · 10.4k★</div>
   <div class="trending-card__why">Velero is the de facto industry standard for Kubernetes cluster disaster recovery, state backup, and persistent volume migration.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://github.com/devtron-labs/devtron">Devtron</a></div>
+  <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
+  <div class="trending-card__why">Unifies Kubernetes AppOps, GitOps, and observability into a single interface, significantly streamlining enterprise cloud native delivery workflows.</div>
 </div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -272,13 +272,6 @@
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">DevOps & Culture</div>
-  <div class="trending-card__title"><a href="https://github.com/devtron-labs/devtron">Devtron</a></div>
-  <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
-  <div class="trending-card__why">Unifies Kubernetes AppOps, GitOps, and observability into a single interface, significantly streamlining enterprise cloud native delivery workflows.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Architecture & Microservices</div>
   <div class="trending-card__title"><a href="https://github.com/etcd-io/etcd">Etcd</a></div>
   <div class="trending-card__meta">2026-10-28 · 52.4k★</div>
@@ -311,6 +304,13 @@
   <div class="trending-card__title"><a href="https://github.com/kubescape/kubescape">kubescape</a></div>
   <div class="trending-card__meta">2026-11-05 · 11.8k★</div>
   <div class="trending-card__why">Kubescape provides continuous compliance posture management and risk auditing directly integrated into Kubernetes and CI/CD pipelines.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://github.com/llm-d/llm-d">llm-d (Kubernetes-Native Distributed LLM Inference)</a></div>
+  <div class="trending-card__meta">2026-11-05 · 5.2k★</div>
+  <div class="trending-card__why">Provides a collaborative, Kubernetes-native inference framework co-engineered by Red Hat to optimize distributed LLM serving using the Gateway API.</div>
 </div>
 </div>
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -444,7 +444,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1034 resources">Go<span class="v2-heat-n">1034</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1038 resources">Go<span class="v2-heat-n">1038</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -484,7 +484,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="337 resources">Markdown<span class="v2-heat-n">337</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="334 resources">Markdown<span class="v2-heat-n">334</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="247 resources">MCP<span class="v2-heat-n">247</span></a>

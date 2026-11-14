@@ -335,7 +335,7 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2022)** [**techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code**](https://techcrunch.com/2022/07/27/protestware-code-sabotage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the complex security phenomenon of 'protestware,' where open-source maintainers intentionally introduce destructive changes or regional exploits into widely used packages for political or social reasons. Details the architectural impact on enterprise software supply chains and highlights the urgent necessity for robust dependency pinning, software bills of materials, and strict package mirroring.
 
 ---
-💡 **Explore Related:** [Scaffolding](./scaffolding.md) | [QA](./qa.md) | [DevOps](./devops.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 
