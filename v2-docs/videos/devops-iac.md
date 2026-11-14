@@ -826,6 +826,21 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+??? note "🎬 How Terraform Automates Azure Naming [Short]"
+    !!! info "Architectural Summary"
+        This architectural pattern replaces brittle local HCL string interpolation with API-driven governance by using Terraform's data "http" provider to query the Azure Naming Tool v2 API. By submitting resource metadata via POST requests and receiving Cloud Adoption Framework (CAF)-compliant names directly into azurerm resource blocks, teams centralize naming standards across modular infrastructure pipelines. This decoupled approach eliminates syntax drift, enforces enterprise naming policies at plan time, and streamlines governance across multi-tenant environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Eym7PPULwCQ" data-video-url="https://www.youtube.com/embed/Eym7PPULwCQ" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Eym7PPULwCQ/hqdefault.jpg" alt="How Terraform Automates Azure Naming [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Azure Naming Tool Terraform Bicep
 
 ??? note "🎬 Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep"
@@ -835,6 +850,108 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLC-ZWbf-4aBg" title="Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Bicep
+
+??? note "🎬 How Bicep Deploys the Azure Naming Tool [Short]"
+    !!! info "Architectural Summary"
+        This architectural overview demonstrates deploying the Microsoft Cloud Adoption Framework (CAF) compliant Azure Naming Tool using a subscription-scoped Bicep template (`solution.bicep`). It provisions an Azure App Service plan, target Resource Group, and Azure Files storage mounted via System-Assigned Managed Identity for secure, passwordless persistent configuration storage. Establishing standardized, API-driven naming conventions through native IaC is foundational for automated platform engineering and multi-environment governance workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="23IcESr73UI" data-video-url="https://www.youtube.com/embed/23IcESr73UI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/23IcESr73UI/hqdefault.jpg" alt="How Bicep Deploys the Azure Naming Tool [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## IaC
+
+??? note "🎬 How Azure Naming Tool Automates IaC Compliance [Short]"
+    !!! info "Architectural Summary"
+        Integrating the Azure Naming Tool into CI/CD workflows via its REST API allows platforms like GitHub Actions and Azure DevOps to programmatically request and validate Cloud Adoption Framework (CAF) compliant resource names. Automating collision checks and standardizing naming conventions within Terraform or Bicep pipelines eliminates configuration drift and manual governance overhead across enterprise cloud deployments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="81NwX6YGoJg" data-video-url="https://www.youtube.com/embed/81NwX6YGoJg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/81NwX6YGoJg/hqdefault.jpg" alt="How Azure Naming Tool Automates IaC Compliance [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Governance Infrastructure as Code
+
+??? note "🎬 How the Azure Naming Tool Automates Governance [Short]"
+    !!! info "Architectural Summary"
+        The Azure Naming Tool v5 transitions cloud governance from brittle spreadsheets to programmable API-driven standards aligned with Microsoft's Cloud Adoption Framework (CAF). By exposing versioned REST endpoints, correlation tracking, and programmatic JSON configuration import/export, it enables enterprise platform teams to embed automated, deterministic resource naming directly into CI/CD pipelines and Infrastructure as Code workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="uBH7GzQplok" data-video-url="https://www.youtube.com/embed/uBH7GzQplok" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/uBH7GzQplok/hqdefault.jpg" alt="How the Azure Naming Tool Automates Governance [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Naming Tool
+
+??? note "🎬 How to Enforce Azure Naming Compliance"
+    !!! info "Architectural Summary"
+        This architectural brief demonstrates how to automate and enforce Microsoft Cloud Adoption Framework (CAF) naming conventions prior to resource provisioning using the Azure Naming Tool. It outlines strategies for locking down naming policies with admin authentication, running automated collision and syntax validation, and integrating API-keyed compliance gates with audit trails directly into CI/CD delivery pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="YMzMpjE_li4" data-video-url="https://www.youtube.com/embed/YMzMpjE_li4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/YMzMpjE_li4/hqdefault.jpg" alt="How to Enforce Azure Naming Compliance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Terraform Bicep Azure Resource Manager
+
+??? note "🎬 Azure Naming Tool in Production: Tenant Validation, Terraform & Bicep"
+    !!! info "Architectural Summary"
+        This architectural walkthrough details operationalizing Azure Naming Tool v5 within enterprise Azure Landing Zones and CI/CD pipelines. It demonstrates how to integrate automated naming conventions and real-time Azure Resource Graph tenant validation into Terraform and Bicep workflows via REST API v2 endpoints, preventing deployment drift and naming collisions. The implementation covers containerized and App Service hosting patterns secured by Managed Identity with customizable duplicate resolution strategies.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="jkxueb9fcRE" data-video-url="https://www.youtube.com/embed/jkxueb9fcRE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/jkxueb9fcRE/hqdefault.jpg" alt="Azure Naming Tool in Production: Tenant Validation, Terraform & Bicep" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure CAF and IaC
+
+??? note "🎬 Azure Naming Tool v5: Cloud Adoption Framework Naming Governance"
+    !!! info "Architectural Summary"
+        A comprehensive deep dive into Microsoft's open-source Azure Naming Tool v5, demonstrating how platform teams enforce Cloud Adoption Framework (CAF) naming standards across enterprise landing zones. The walkthrough details the updated architecture—including .NET and SQLite backends, role-separated administrative access, and API v2.0 endpoints—enabling seamless automation with Terraform and Bicep pipelines. In modern cloud-native architectures, programmatic naming governance eliminates drift across distributed multi-tenant environments before infrastructure deployment occurs.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="yRBGAES2Jb8" data-video-url="https://www.youtube.com/embed/yRBGAES2Jb8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/yRBGAES2Jb8/hqdefault.jpg" alt="Azure Naming Tool v5: Cloud Adoption Framework Naming Governance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 

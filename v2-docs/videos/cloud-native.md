@@ -825,6 +825,74 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Azure Naming Tool
+
+??? note "🎬 How Azure Naming Tool Stores Data [Short]"
+    !!! info "Architectural Summary"
+        Azure Naming Tool v5 introduces an abstracted dual storage layer via the IStorageProvider interface, retaining portable JSON files while introducing an Entity Framework Core SQLite backend for 10-100x faster queries and ACID transactions. This architectural shift enables high-performance resource generation and live Azure Tenant Validation, essential for enterprise-scale governance within Cloud Adoption Framework (CAF) implementations. In modern cloud-native environments, this ensures programmatic, consistent resource naming and tagging enforcement across automated Bicep and Terraform IaC pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="keltNNs66Zk" data-video-url="https://www.youtube.com/embed/keltNNs66Zk" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/keltNNs66Zk/hqdefault.jpg" alt="How Azure Naming Tool Stores Data [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Naming Tool Azure Resource Graph
+
+??? note "🎬 How the Azure Naming Tool Validates Resources"
+    !!! info "Architectural Summary"
+        Azure Naming Tool v5 enforces Cloud Adoption Framework (CAF) standards by verifying syntax, length, and character constraints before querying live tenant state via Azure Resource Graph. Backed by Managed Identity and SQLite, the tool proactively detects resource name collisions across subscriptions and handles conflicts using configurable policies such as AutoIncrement, SuffixRandom, NotifyOnly, or Fail. This mechanism provides essential pre-flight governance and determinism for enterprise Infrastructure as Code (IaC) pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="jzIrxX-73nc" data-video-url="https://www.youtube.com/embed/jzIrxX-73nc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/jzIrxX-73nc/hqdefault.jpg" alt="How the Azure Naming Tool Validates Resources" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure CAF Governance
+
+??? note "🎬 How the Azure Naming Tool Enforces Cloud Standards [Short]"
+    !!! info "Architectural Summary"
+        The Azure Naming Tool operationalizes Microsoft Cloud Adoption Framework (CAF) naming conventions into automated, repeatable governance guardrails across enterprise environments. By configuring standardized resource types, environments, locations, and custom delimiters into a unified generator, platform engineering teams prevent governance drift and ensure schema consistency across IaC templates. In modern cloud-native architectures, this central enforcement layer enables programmatic policy compliance and seamless integration into automated provisioning pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="gTggR2USsEs" data-video-url="https://www.youtube.com/embed/gTggR2USsEs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/gTggR2USsEs/hqdefault.jpg" alt="How the Azure Naming Tool Enforces Cloud Standards [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Architecture and Cloud Governance
+
+??? note "🎬 Azure Naming Tool Architecture Teardown: .NET 10, Blazor & Dual Storage"
+    !!! info "Architectural Summary"
+        This architectural teardown of Azure Naming Tool v5 explores the implementation of .NET 10, Blazor Server SignalR circuits, and a dual storage abstraction layer comparing legacy JSON persistence against EF Core 10 SQLite for ACID compliance and 10–100x query performance gains. It analyzes key platform tradeoffs, including SQLite file-locking pitfalls on Azure Container Apps with Azure Files network mounts versus dedicated local storage. For modern cloud platforms, this provides an actionable blueprint for architecting performant, API-versioned enterprise governance tools integrated into automated IaC and resource provisioning pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="SQ7e-AyqsSA" data-video-url="https://www.youtube.com/embed/SQ7e-AyqsSA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/SQ7e-AyqsSA/hqdefault.jpg" alt="Azure Naming Tool Architecture Teardown: .NET 10, Blazor & Dual Storage" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Azure Verified Modules AVM
 
 ??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot"

@@ -720878,3 +720878,559 @@ https://www.youtube.com/playlist?list=PLC-ZWbf-4aBg:
   technology: Azure Naming Tool + Terraform + Bicep
   category: DevOps and Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/keltNNs66Zk:
+  title: How Azure Naming Tool Stores Data [Short]
+  description: "Inside v5's dual storage layer (IStorageProvider): JSON files remain
+    default for simple portability, while Entity Framework Core 10 SQLite (azurenamingtool.db)
+    delivers 10-100x faster queries, ACID transactions, and unlocks Azure Tenant Validation.
+    #Shorts\n\n\U0001F4DA Official Repository & Technical References:\n• Azure Naming
+    Tool GitHub: https://github.com/Azure/AzureNamingTool\n• Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n•
+    Microsoft CAF Naming Best Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Azure Naming Tool v5 introduces an abstracted dual storage layer via
+    the IStorageProvider interface, retaining portable JSON files while introducing
+    an Entity Framework Core SQLite backend for 10-100x faster queries and ACID transactions.
+    This architectural shift enables high-performance resource generation and live
+    Azure Tenant Validation, essential for enterprise-scale governance within Cloud
+    Adoption Framework (CAF) implementations. In modern cloud-native environments,
+    this ensures programmatic, consistent resource naming and tagging enforcement
+    across automated Bicep and Terraform IaC pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Naming Tool
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/23IcESr73UI:
+  title: How Bicep Deploys the Azure Naming Tool [Short]
+  description: "Deploy Azure Naming Tool cleanly onto Azure App Service using its
+    built-in Bicep template (solution.bicep at subscription scope): provisions the
+    Resource Group, Azure Storage file share via Managed Identity, and Web App plan.
+    #Shorts\n\n\U0001F4DA Official Repository & Technical References:\n• Azure Naming
+    Tool GitHub: https://github.com/Azure/AzureNamingTool\n• Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n•
+    Microsoft CAF Naming Best Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural overview demonstrates deploying the Microsoft Cloud
+    Adoption Framework (CAF) compliant Azure Naming Tool using a subscription-scoped
+    Bicep template (`solution.bicep`). It provisions an Azure App Service plan, target
+    Resource Group, and Azure Files storage mounted via System-Assigned Managed Identity
+    for secure, passwordless persistent configuration storage. Establishing standardized,
+    API-driven naming conventions through native IaC is foundational for automated
+    platform engineering and multi-environment governance workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Bicep
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/Eym7PPULwCQ:
+  title: How Terraform Automates Azure Naming [Short]
+  description: "Skip brittle local string concatenation in HCL: use Terraform's data
+    \"http\" block to POST resource metadata and an APIKey header to Azure Naming
+    Tool v2, then consume validated resource names straight inside azurerm resources.
+    #Shorts\n\n\U0001F4DA Official Repository & Technical References:\n• Azure Naming
+    Tool GitHub: https://github.com/Azure/AzureNamingTool\n• Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n•
+    Microsoft CAF Naming Best Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural pattern replaces brittle local HCL string interpolation
+    with API-driven governance by using Terraform's data "http" provider to query
+    the Azure Naming Tool v2 API. By submitting resource metadata via POST requests
+    and receiving Cloud Adoption Framework (CAF)-compliant names directly into azurerm
+    resource blocks, teams centralize naming standards across modular infrastructure
+    pipelines. This decoupled approach eliminates syntax drift, enforces enterprise
+    naming policies at plan time, and streamlines governance across multi-tenant environments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC + Terraform
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/81NwX6YGoJg:
+  title: How Azure Naming Tool Automates IaC Compliance [Short]
+  description: "Wire naming governance directly into your CI/CD pipelines: have GitHub
+    Actions or Azure DevOps call /api/v2.0/ResourceNamingRequests/RequestName so every
+    workload ships with CAF-compliant, collision-checked names automatically. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n•
+    Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Microsoft
+    CAF Naming Best Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Integrating the Azure Naming Tool into CI/CD workflows via its REST
+    API allows platforms like GitHub Actions and Azure DevOps to programmatically
+    request and validate Cloud Adoption Framework (CAF) compliant resource names.
+    Automating collision checks and standardizing naming conventions within Terraform
+    or Bicep pipelines eliminates configuration drift and manual governance overhead
+    across enterprise cloud deployments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: IaC
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/uBH7GzQplok:
+  title: How the Azure Naming Tool Automates Governance [Short]
+  description: "Replace manual spreadsheets with API-driven governance: Azure Naming
+    Tool v5 exposes versioned v1/v2 REST endpoints, Swagger UI (/swagger/index.html),
+    bulk name generation, correlation IDs, and JSON component import/export. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n•
+    Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Microsoft
+    CAF Naming Best Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: The Azure Naming Tool v5 transitions cloud governance from brittle spreadsheets
+    to programmable API-driven standards aligned with Microsoft's Cloud Adoption Framework
+    (CAF). By exposing versioned REST endpoints, correlation tracking, and programmatic
+    JSON configuration import/export, it enables enterprise platform teams to embed
+    automated, deterministic resource naming directly into CI/CD pipelines and Infrastructure
+    as Code workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Governance + Infrastructure as Code
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/YMzMpjE_li4:
+  title: How to Enforce Azure Naming Compliance
+  description: "Stop non-compliant resource names before deployment: lock configuration
+    changes behind Admin authentication, enforce resource-specific rules and tenant
+    collision checks, and gate pipelines through API keys and audit logs. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n•
+    Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Microsoft
+    CAF Naming Best Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural brief demonstrates how to automate and enforce Microsoft
+    Cloud Adoption Framework (CAF) naming conventions prior to resource provisioning
+    using the Azure Naming Tool. It outlines strategies for locking down naming policies
+    with admin authentication, running automated collision and syntax validation,
+    and integrating API-keyed compliance gates with audit trails directly into CI/CD
+    delivery pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Naming Tool
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/jzIrxX-73nc:
+  title: How the Azure Naming Tool Validates Resources
+  description: "Before generating a name, Azure Naming Tool v5 checks length and character
+    constraints—and with SQLite + Managed Identity enabled, validates against your
+    live Azure tenant via Resource Graph using NotifyOnly, AutoIncrement, Fail, or
+    SuffixRandom. #Shorts\n\n\U0001F4DA Official Repository & Technical References:\n•
+    Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n• Documentation
+    Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Microsoft CAF Naming Best
+    Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Azure Naming Tool v5 enforces Cloud Adoption Framework (CAF) standards
+    by verifying syntax, length, and character constraints before querying live tenant
+    state via Azure Resource Graph. Backed by Managed Identity and SQLite, the tool
+    proactively detects resource name collisions across subscriptions and handles
+    conflicts using configurable policies such as AutoIncrement, SuffixRandom, NotifyOnly,
+    or Fail. This mechanism provides essential pre-flight governance and determinism
+    for enterprise Infrastructure as Code (IaC) pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Naming Tool / Azure Resource Graph
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/gTggR2USsEs:
+  title: How the Azure Naming Tool Enforces Cloud Standards [Short]
+  description: "Turn Microsoft Cloud Adoption Framework (CAF) naming conventions into
+    guardrails anyone can follow: compose resource types, locations, environments,
+    orgs, delimiters, and drag-and-drop custom components in one central tool. #Shorts\n\n\U0001F4DA
+    Official Repository & Technical References:\n• Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n•
+    Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Microsoft
+    CAF Naming Best Practices: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    More Azure, Terraform & Bicep Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: The Azure Naming Tool operationalizes Microsoft Cloud Adoption Framework
+    (CAF) naming conventions into automated, repeatable governance guardrails across
+    enterprise environments. By configuring standardized resource types, environments,
+    locations, and custom delimiters into a unified generator, platform engineering
+    teams prevent governance drift and ensure schema consistency across IaC templates.
+    In modern cloud-native architectures, this central enforcement layer enables programmatic
+    policy compliance and seamless integration into automated provisioning pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure CAF / Governance
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=jkxueb9fcRE:
+  title: 'Azure Naming Tool in Production: Tenant Validation, Terraform & Bicep'
+  description: "Operationalizing Azure Naming Tool v5 across production CI/CD pipelines
+    and Azure Landing Zones—connecting real-time tenant validation with Terraform,
+    Bicep, and Azure DevOps automation.\n\n\U0001F3AF Production Patterns Covered:\n•
+    Azure Tenant Name Validation: Using SQLite + Managed Identity (or Service Principal)
+    with Azure.ResourceManager.ResourceGraph to check existing tenant names in real
+    time using NotifyOnly, AutoIncrement (-001/-002), Fail, or SuffixRandom strategies.\n•
+    IaC & CI/CD Integration: Querying POST /api/v2.0/ResourceNamingRequests/RequestName
+    directly from Terraform data \"http\" blocks and Azure DevOps PowerShell tasks
+    with APIKey headers and validationMetadata checks.\n• Multi-Platform Hosting (ADR-002):
+    Deploying via Bicep (src/Deployments/AppService-WebApp/solution.bicep) to Azure
+    App Service with Managed Identity, running Docker containers (ports 8080/8081),
+    or self-hosting standalone Kestrel binaries.\n\n\U0001F4DA Official Repository,
+    Architecture & API References:\n• Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n•
+    Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Release Notes
+    v5.0.0 (.NET 10 & SQLite): https://github.com/Azure/AzureNamingTool/blob/main/docs/v5.0.0/RELEASE_NOTES_v5.0.0.md\n•
+    API v2.0 & Terraform Guide: https://github.com/Azure/AzureNamingTool/blob/main/docs/v5.0.0/wiki/API_V2.md\n•
+    Bicep App Service Deployment: https://github.com/Azure/AzureNamingTool/tree/main/src/Deployments/AppService-WebApp\n•
+    Microsoft CAF Naming & Tagging: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    Explore More Azure, IaC & Cloud Native Tracks:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n•
+    Nubenetes Portal: https://nubenetes.com/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural walkthrough details operationalizing Azure Naming
+    Tool v5 within enterprise Azure Landing Zones and CI/CD pipelines. It demonstrates
+    how to integrate automated naming conventions and real-time Azure Resource Graph
+    tenant validation into Terraform and Bicep workflows via REST API v2 endpoints,
+    preventing deployment drift and naming collisions. The implementation covers containerized
+    and App Service hosting patterns secured by Managed Identity with customizable
+    duplicate resolution strategies.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Terraform + Bicep + Azure Resource Manager
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=SQ7e-AyqsSA:
+  title: 'Azure Naming Tool Architecture Teardown: .NET 10, Blazor & Dual Storage'
+  description: "Architectural teardown of Azure Naming Tool v5 (ADR-001 through ADR-003):
+    how the application pairs Blazor Server, ASP.NET Core Web API, and a dual storage
+    provider layer on .NET 10.0.\n\n\U0001F3AF Architectural Layers Covered:\n• Application
+    & UI Stack (ADR-001): Blazor Server with SignalR circuits, Razor Components, StateContainer
+    singleton, Blazored.Modal/Toast, and Asp.Versioning REST controllers (v1 compatibility
+    + opt-in v2 ApiResponse envelope and bulk operations).\n• Dual Storage Abstraction
+    (ADR-003): Comparing legacy FileSystem JSON persistence (settings/*.json via FileSystemStorageProvider)
+    against Entity Framework Core 10 SQLite (settings/azurenamingtool.db via SQLiteStorageProvider)
+    delivering 10-100x faster queries and ACID transactions.\n• Migration & Caveats:
+    Built-in one-click JSON-to-SQLite migration with automatic backups and rollback—plus
+    why Azure Container Apps with File Share mounts must stick to FileSystem storage
+    rather than SQLite.\n\n\U0001F4DA Official Repository, Architecture & API References:\n•
+    Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n• Documentation
+    Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Release Notes v5.0.0 (.NET
+    10 & SQLite): https://github.com/Azure/AzureNamingTool/blob/main/docs/v5.0.0/RELEASE_NOTES_v5.0.0.md\n•
+    API v2.0 & Terraform Guide: https://github.com/Azure/AzureNamingTool/blob/main/docs/v5.0.0/wiki/API_V2.md\n•
+    Bicep App Service Deployment: https://github.com/Azure/AzureNamingTool/tree/main/src/Deployments/AppService-WebApp\n•
+    Microsoft CAF Naming & Tagging: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    Explore More Azure, IaC & Cloud Native Tracks:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n•
+    Nubenetes Portal: https://nubenetes.com/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural teardown of Azure Naming Tool v5 explores the implementation
+    of .NET 10, Blazor Server SignalR circuits, and a dual storage abstraction layer
+    comparing legacy JSON persistence against EF Core 10 SQLite for ACID compliance
+    and 10–100x query performance gains. It analyzes key platform tradeoffs, including
+    SQLite file-locking pitfalls on Azure Container Apps with Azure Files network
+    mounts versus dedicated local storage. For modern cloud platforms, this provides
+    an actionable blueprint for architecting performant, API-versioned enterprise
+    governance tools integrated into automated IaC and resource provisioning pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Architecture & Cloud Governance
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=yRBGAES2Jb8:
+  title: 'Azure Naming Tool v5: Cloud Adoption Framework Naming Governance'
+  description: "Complete governance walkthrough of Microsoft's open-source Azure Naming
+    Tool v5 (github.com/Azure/AzureNamingTool), built on Cloud Adoption Framework
+    (CAF) naming and tagging best practices.\n\n\U0001F3AF Governance & Capabilities
+    Covered:\n• Standardized Naming Components: Configuring Resource Types, Locations,
+    Environments, Orgs, Unit/Depts, Project/App/Services, Functions, Delimiters, and
+    Custom Components.\n• Modern v5 Dashboard & UX: Drag-and-drop component ordering,
+    enabled resource statistics cards, custom Markdown home instructions, and Swagger
+    UI (/swagger/index.html).\n• Security & Access Control: Separating read-only name
+    generation from Admin configuration locks, API keys, and audit logs.\n• Enterprise
+    Consistency: Eliminating ad-hoc naming drift across multi-team Azure Landing Zones
+    before resources ever hit deployment.\n\n\U0001F4DA Official Repository, Architecture
+    & API References:\n• Azure Naming Tool GitHub: https://github.com/Azure/AzureNamingTool\n•
+    Documentation Wiki: https://github.com/mspnp/AzureNamingTool/wiki\n• Release Notes
+    v5.0.0 (.NET 10 & SQLite): https://github.com/Azure/AzureNamingTool/blob/main/docs/v5.0.0/RELEASE_NOTES_v5.0.0.md\n•
+    API v2.0 & Terraform Guide: https://github.com/Azure/AzureNamingTool/blob/main/docs/v5.0.0/wiki/API_V2.md\n•
+    Bicep App Service Deployment: https://github.com/Azure/AzureNamingTool/tree/main/src/Deployments/AppService-WebApp\n•
+    Microsoft CAF Naming & Tagging: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging\n\n\U0001F310
+    Explore More Azure, IaC & Cloud Native Tracks:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/\n•
+    Nubenetes Portal: https://nubenetes.com/"
+  year: '2026'
+  stars: 5
+  ai_summary: A comprehensive deep dive into Microsoft's open-source Azure Naming
+    Tool v5, demonstrating how platform teams enforce Cloud Adoption Framework (CAF)
+    naming standards across enterprise landing zones. The walkthrough details the
+    updated architecture—including .NET and SQLite backends, role-separated administrative
+    access, and API v2.0 endpoints—enabling seamless automation with Terraform and
+    Bicep pipelines. In modern cloud-native architectures, programmatic naming governance
+    eliminates drift across distributed multi-tenant environments before infrastructure
+    deployment occurs.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure CAF & IaC
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794660281
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T13:44:41.799426+01:00'
+  last_ai_eval: '2026-11-14T13:44:41.799426+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
