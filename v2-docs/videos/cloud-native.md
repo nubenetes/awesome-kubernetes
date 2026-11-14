@@ -893,6 +893,18 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Apache Kafka 4 x and Event Streaming
+
+??? note "🎬 Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide"
+    !!! info "Architectural Summary"
+        Comprehensive 14-video Apache Kafka 4.x architectural series (7 deep dives and 7 Shorts). Covers post-ZooKeeper KRaft @metadata consensus, Strimzi CNCF operator CRDs and KafkaNodePool controller/broker isolation, NVMe vs AWS gp3 storage and Strimzi Drain Cleaner, KIP-848 incremental broker-side rebalancing, KIP-932 Share Groups (Queues for Kafka) with KIP-1222 lease RENEW locks and KIP-1191 DLQs, Tiered Storage (KIP-405, KIP-1023, KIP-1241 delayed S3 offload) through Diskless Kafka (KIP-1150, KIP-1163, AutoMQ, WarpStream, Redpanda Cloud Topics, Aiven Inkless), 5-byte Schema Registry wire contracts across Confluent/Karapace/Apicurio/AxonOps (Go + MCP), MirrorMaker 2 offset translation and loop prevention vs Cluster Linking DR, JMX P1 alerting (KIP-1291 kernel I/O, KIP-714 client telemetry, 80% PVC threshold), and SRE broker benchmarks (Kafka vs Redpanda vs Apache Pulsar vs RabbitMQ vs NATS JetStream).
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLLNGug_lQ4z8" title="Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Azure Verified Modules AVM
 
 ??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot"

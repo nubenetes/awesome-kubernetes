@@ -721445,3 +721445,60 @@ https://www.youtube.com/watch?v=yRBGAES2Jb8:
   technology: Azure CAF & IaC
   category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLLNGug_lQ4z8:
+  title: 'Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry
+    & SRE Guide'
+  description: 14-part architectural series (7 deep dives + 7 Shorts) covering Apache
+    Kafka 4.0-4.4 internals, Strimzi Kubernetes operations, KIP-848/KIP-932 queueing,
+    Tiered to Diskless storage, Schema Registry contracts, MirrorMaker 2 DR, and SRE
+    broker benchmarks.
+  year: '2026'
+  stars: 5
+  ai_summary: Comprehensive 14-video Apache Kafka 4.x architectural series (7 deep
+    dives and 7 Shorts). Covers post-ZooKeeper KRaft @metadata consensus, Strimzi
+    CNCF operator CRDs and KafkaNodePool controller/broker isolation, NVMe vs AWS
+    gp3 storage and Strimzi Drain Cleaner, KIP-848 incremental broker-side rebalancing,
+    KIP-932 Share Groups (Queues for Kafka) with KIP-1222 lease RENEW locks and KIP-1191
+    DLQs, Tiered Storage (KIP-405, KIP-1023, KIP-1241 delayed S3 offload) through
+    Diskless Kafka (KIP-1150, KIP-1163, AutoMQ, WarpStream, Redpanda Cloud Topics,
+    Aiven Inkless), 5-byte Schema Registry wire contracts across Confluent/Karapace/Apicurio/AxonOps
+    (Go + MCP), MirrorMaker 2 offset translation and loop prevention vs Cluster Linking
+    DR, JMX P1 alerting (KIP-1291 kernel I/O, KIP-714 client telemetry, 80% PVC threshold),
+    and SRE broker benchmarks (Kafka vs Redpanda vs Apache Pulsar vs RabbitMQ vs NATS
+    JetStream).
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794666400
+  needs_ai_refresh: false
+  discovered_at: '2026-11-14T15:26:00.000000+01:00'
+  last_ai_eval: '2026-11-14T15:26:00.000000+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native Core
+  - Event Streaming and Messaging
+  - Apache Kafka 4.x
+  tags:
+  - '[KAFKA]'
+  - '[STRIMZI]'
+  - '[KUBERNETES]'
+  - '[SRE]'
+  - '[STREAMING]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - cloud-native.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Apache Kafka 4.x & Event Streaming
+  category: Cloud Native Event Streaming & Messaging
+  source_provenance: Official @nubenetes YouTube Channel

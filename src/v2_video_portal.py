@@ -6,6 +6,7 @@ INVENTORY_PATH = "data/inventory.yaml"
 VIDEOS_DIR = "v2-docs/videos"
 
 PLAYLIST_DATES = {
+    "PLLNGug_lQ4z8": "Nov 2026",
     "PLC-ZWbf-4aBg": "Nov 2026",
     "PLZOsodxc3GIM": "Nov 2026",
     "PLGtiisOtFk3s": "Nov 2026",
@@ -338,7 +339,7 @@ def generate_v2_videos():
         "",
         "## Official Nubenetes NotebookLM Video Playlists",
         "",
-        '!!! info "44 Curated Architectural Tracks · Verified through November 2026"',
+        '!!! info "45 Curated Architectural Tracks · Verified through November 2026"',
         '    Explore our modular, AI-synthesized architectural masterclasses and deep dives on the official [**@nubenetes YouTube Channel**](https://www.youtube.com/@nubenetes/playlists). Organized across six core domains, each track is continuously updated to reflect 2026 enterprise standards.',
         "",
         "### 🤖 Enterprise AI, Agents and Control Planes",
@@ -356,6 +357,7 @@ def generate_v2_videos():
         "",
         "| Dimension | Curated Playlist | Updated | Focus Area |",
         "| :--- | :--- | :---: | :--- |",
+        "| **Apache Kafka 4.x & Event Streaming** | [Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide](https://www.youtube.com/playlist?list=PLLNGug_lQ4z8) | `Nov 2026` | 14-part engineering track (7 architectural deep dives + 7 Shorts) covering Apache Kafka 4.0–4.4 internals: post-ZooKeeper KRaft `@metadata` consensus & Strimzi `KafkaNodePool` isolation, KIP-848 incremental consumer rebalancing & KIP-932 Share Groups (KIP-1222 lease renewal, KIP-1191 DLQs), Tiered Storage (KIP-405, KIP-1023, KIP-1241 delayed upload) to Diskless Kafka (KIP-1150, KIP-1163, AutoMQ, WarpStream, Redpanda Cloud Topics, Aiven Inkless), 5-byte Schema Registry wire contracts (Confluent, Karapace, Apicurio, AxonOps Go + MCP), MirrorMaker 2 multi-region DR & offset translation vs Cluster Linking, JMX P1 alerting (KIP-1291, KIP-714, Strimzi Drain Cleaner), and SRE broker benchmarks (Kafka vs Redpanda vs Pulsar vs RabbitMQ vs NATS JetStream). |",
         "| **NVIDIA Kubernetes Engine (NVKE)** | [Nubenetes NVIDIA Kubernetes Engine (NVKE): Bare-Metal GPU Cloud Guide](https://www.youtube.com/playlist?list=PLPVDu1Q58BQM) | `Nov 2026` | Architectural deep dives and production engineering guide on NVIDIA Kubernetes Engine (NVKE) for self-hosted bare-metal GPU clouds: nvkectl kind-to-management-to-tenant cluster factory on Kubernetes 1.36.3 & Ubuntu 26.04/24.04 LTS, 13-module Go 1.27.4 workspace, PostgreSQL workflow_outbox + Temporal, CAPI v1.13.6 + CAPNICo v0.1.0, nvke-agent gRPC port 15005, TPM + SPIFFE/SPIRE 1.14.1, OVN-Kubernetes 2.4.2, and NVKR/AICR/CRE/NVSentinel DSX OS. |",
         "| **Azure Container Strategy** | [Nubenetes Azure Container Strategy: ACI, Container Apps and AKS Architecture](https://www.youtube.com/playlist?list=PLUlxI33bzjWQ) | `Nov 2026` | Architectural decision guide and engineering deep dive on Azure Container Strategy: Azure Container Instances (ACI), Azure Container Apps (ACA), and Azure Kubernetes Service (AKS Standard and AKS Automatic). Covers the 5 decision dimensions (Control, Operations, Scale, Networking, Portability), KEDA queue scaling, Karpenter NAP, Envoy ingress, subnet delegation, persistent volumes, and FinOps idle-compute economics. |",
         "| **Enterprise Kubernetes Platforms** | [Nubenetes Enterprise Kubernetes Platforms: AKS, OpenShift, Tanzu and Rancher](https://www.youtube.com/playlist?list=PLAs2nHm8nh2A) | `Nov 2026` | Strategic evaluation and multi-distribution matrix for enterprise Kubernetes platforms across cloud, hybrid on-premises, edge, and private data centers: AKS Standard/Automatic, AKS Local (Azure Arc / Azure Stack HCI), Red Hat OpenShift (ARO), VMware Tanzu (VKS), and SUSE Rancher (RKE2 fleet management). |",
@@ -418,6 +420,7 @@ def generate_v2_videos():
 
     # Dynamically append any newly discovered @nubenetes playlists from inventory
     known_playlist_ids = {
+        "PLLNGug_lQ4z8",
         "PLC-ZWbf-4aBg",
         "PLZOsodxc3GIM",
         "PLGtiisOtFk3s",
