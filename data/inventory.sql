@@ -23161,4 +23161,199 @@ INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=yRBGAES2Jb8','Az
 • Nubenetes Video Catalog: https://nubenetes.com/videos/
 • Nubenetes Portal: https://nubenetes.com/','2026',5,'A comprehensive deep dive into Microsoft''s open-source Azure Naming Tool v5, demonstrating how platform teams enforce Cloud Adoption Framework (CAF) naming standards across enterprise landing zones. The walkthrough details the updated architecture—including .NET and SQLite backends, role-separated administrative access, and API v2.0 endpoints—enabling seamless automation with Terraform and Bicep pipelines. In modern cloud-native architectures, programmatic naming governance eliminates drift across distributed multi-tenant environments before infrastructure deployment occurs.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794660281,0,'2026-11-14T13:44:41.799426+01:00','2026-11-14T13:44:41.799426+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Azure CAF & IaC", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
 INSERT INTO "resources" VALUES('https://www.youtube.com/playlist?list=PLLNGug_lQ4z8','Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide','14-part architectural series (7 deep dives + 7 Shorts) covering Apache Kafka 4.0-4.4 internals, Strimzi Kubernetes operations, KIP-848/KIP-932 queueing, Tiered to Diskless storage, Schema Registry contracts, MirrorMaker 2 DR, and SRE broker benchmarks.','2026',5,'Comprehensive 14-video Apache Kafka 4.x architectural series (7 deep dives and 7 Shorts). Covers post-ZooKeeper KRaft @metadata consensus, Strimzi CNCF operator CRDs and KafkaNodePool controller/broker isolation, NVMe vs AWS gp3 storage and Strimzi Drain Cleaner, KIP-848 incremental broker-side rebalancing, KIP-932 Share Groups (Queues for Kafka) with KIP-1222 lease RENEW locks and KIP-1191 DLQs, Tiered Storage (KIP-405, KIP-1023, KIP-1241 delayed S3 offload) through Diskless Kafka (KIP-1150, KIP-1163, AutoMQ, WarpStream, Redpanda Cloud Topics, Aiven Inkless), 5-byte Schema Registry wire contracts across Confluent/Karapace/Apicurio/AxonOps (Go + MCP), MirrorMaker 2 offset translation and loop prevention vs Cluster Linking DR, JMX P1 alerting (KIP-1291 kernel I/O, KIP-714 client telemetry, 80% PVC threshold), and SRE broker benchmarks (Kafka vs Redpanda vs Apache Pulsar vs RabbitMQ vs NATS JetStream).','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666400,0,'2026-11-14T15:26:00.000000+01:00','2026-11-14T15:26:00.000000+01:00','Nubenetes','spain','["Cloud Native Core", "Event Streaming and Messaging", "Apache Kafka 4.x"]','["[KAFKA]", "[STRIMZI]", "[KUBERNETES]", "[SRE]", "[STREAMING]", "[GUIDE]"]','["docs/index.md"]','["cloud-native.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka 4.x & Event Streaming", "category": "Cloud Native Event Streaming & Messaging", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/sWWfqvnXsCE','Choosing Your Messaging Broker: Kafka vs Pulsar vs RabbitMQ vs NATS [Short]','Quick architectural decision matrix matching modern distributed brokers to workloads: Apache Kafka & Redpanda (durable logs), Apache Pulsar (separated storage & multi-topic scale), RabbitMQ (AMQP task routing), and NATS JetStream (sub-ms edge).
+
+📚 Official Kafka & Kubernetes References:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Strimzi Operator for Kubernetes: https://strimzi.io/
+
+🌐 More Apache Kafka, Kubernetes & SRE Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'Provides a workload-driven architectural decision framework matching distributed messaging platforms to cloud-native requirements: Apache Kafka and Redpanda for high-throughput immutable event streaming, Apache Pulsar for decoupled tiered storage and vast multi-tenant topic counts, RabbitMQ for complex AMQP task routing, and NATS JetStream for lightweight, sub-millisecond edge and microservices communication. This taxonomy enables architects to optimize throughput, latency, and operational storage costs across heterogeneous event-driven topologies.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kafka, Pulsar, RabbitMQ, NATS", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/DTnPk1CgSO8','How Kafka Partitions Fail on Kubernetes (URP & MinISR)','Tracing the JMX failure cascade during uncoordinated Kubernetes node drains—UnderReplicatedPartitions to UnderMinIsrPartitions write failures to OfflinePartitionsCount—and how Strimzi Drain Cleaner prevents pod eviction outages.
+
+📚 Official Kafka & Kubernetes References:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Strimzi Operator for Kubernetes: https://strimzi.io/
+
+🌐 More Apache Kafka, Kubernetes & SRE Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'This architectural breakdown traces the JMX metric failure cascade (UnderReplicatedPartitions to UnderMinIsrPartitions and OfflinePartitionsCount) caused by uncoordinated Kubernetes node drains terminating Kafka broker pods faster than replication can recover. It highlights how integrating the Strimzi Drain Cleaner with eviction admission webhooks ensures deterministic broker rolling restarts, safeguarding partition quorum and preventing data-plane write outages in high-throughput cloud-native environments.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kafka on Kubernetes", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/qK-LHFBmadE','How Kafka Consumers Survive Data Center Disasters (MM2) [Short]','Why standby Kafka clusters have different internal offsets—and how MirrorMaker 2 continuous offset translation checkpoints let consumers fail over across regions without reprocessing or double-charging.
+
+📚 Official Kafka & Kubernetes References:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Strimzi Operator for Kubernetes: https://strimzi.io/
+
+🌐 More Apache Kafka, Kubernetes & SRE Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'This architectural breakdown addresses multi-region disaster recovery for Apache Kafka, highlighting why standby clusters inherently diverge in log offsets during cross-cluster replication. It details how MirrorMaker 2 (MM2) emits continuous offset translation checkpoints to map consumer positions accurately across regions, enabling seamless consumer failover without message duplication or skipping. For modern cloud-native architectures, mastering automated offset translation is vital for maintaining fault-tolerant, active-passive streaming topologies across distinct cloud regions.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/Rb0NCefXOk0','How Kafka Schema Registry Prevents Pipeline Crashes','How Kafka Schema Registry pairs a compact 4-byte schema ID with strict backward/forward/full compatibility gates to reject breaking column deletions before poison-pill records crash downstream consumers.
+
+📚 Official Kafka & Kubernetes References:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Strimzi Operator for Kubernetes: https://strimzi.io/
+
+🌐 More Apache Kafka, Kubernetes & SRE Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'Kafka Schema Registry enforces strict schema governance across event-driven architectures by pairing a compact 4-byte schema ID with configurable backward, forward, or full compatibility checks. This mechanism intercepts breaking contract modifications—such as uncoordinated field deletions or schema mutations—at publish time before poison-pill records can crash downstream consumers. In cloud-native microservices and real-time streaming architectures, it provides a resilient data contract layer that ensures safe, decoupled continuous delivery without pipeline degradation.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/tzKK4hHuQms','How Kafka Decouples Compute & Storage (Tiered to Diskless)','From Tiered Storage offloading cold segments to S3, to Diskless Kafka turning brokers into stateless proxies that write directly to object storage—eliminating cross-AZ inter-broker replication egress fees.
+
+📚 Official Kafka & Kubernetes References:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Strimzi Operator for Kubernetes: https://strimzi.io/
+
+🌐 More Apache Kafka, Kubernetes & SRE Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'This architectural breakdown traces the evolution of Apache Kafka from traditional local-disk brokers to Tiered Storage and emerging diskless architectures. By decoupling compute from storage and writing directly to cloud object storage, brokers become stateless compute proxies, enabling rapid elastic scaling on Kubernetes and dramatically cutting multi-AZ data replication egress costs.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/Off52robJwE','How Kafka 4.0 Fixes Rebalance Pauses & Adds Share Groups [Short]','How Apache Kafka 4.0 eliminates stop-the-world consumer rebalances via KIP-848 broker-side incremental assignments and unlocks point-to-point queueing concurrency on a single partition using KIP-932 Share Groups and per-record acknowledgements.
+
+📚 Official Kafka & Kubernetes References:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Strimzi Operator for Kubernetes: https://strimzi.io/
+
+🌐 More Apache Kafka, Kubernetes & SRE Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'Apache Kafka 4.0 modernizes cloud-native event streaming architectures by shifting consumer group reconciliation to the broker via KIP-848, eliminating legacy stop-the-world rebalance pauses. In addition, KIP-932 introduces Share Groups with per-record acknowledgements, enabling point-to-point message queuing concurrency across multiple consumers on a single partition without compromising scalability.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/shorts/BZvGKb855cs','How Kafka 4.0 Isolates KRaft Controllers from Brokers with Strimzi [Short]','Why colocating Kafka 4.0 KRaft controllers with high-churn data brokers triggers memory starvation and false split-brain alarms—and how Strimzi KafkaNodePool isolates quorum controllers from broker storage pools.
+
+📚 Official Kafka & Kubernetes References:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Strimzi Operator for Kubernetes: https://strimzi.io/
+
+🌐 More Apache Kafka, Kubernetes & SRE Videos:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/','2026',5,'Colocating Apache Kafka KRaft metadata controllers with data-intensive brokers frequently induces JVM memory starvation, GC pauses, and false split-brain election alarms under heavy storage churn. By leveraging Strimzi''s KafkaNodePool custom resource in Kubernetes, architects can cleanly decouple quorum controllers onto dedicated, lightweight compute instances separate from high-throughput broker storage pools. This architectural isolation guarantees quorum stability and deterministic Raft consensus performance essential for mission-critical event streaming architectures.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=YP5R5RkED_Y','Event Broker Battles: Kafka vs Redpanda vs Pulsar vs RabbitMQ vs NATS','Objective SRE comparison of modern event streaming and messaging brokers across runtime internals, processing models, multi-topic benchmarks, backlog resilience, and architectural selection.
+
+🎯 Engineering Comparison Covered:
+• Runtimes Under the Hood: Apache Kafka JVM/GC tuning vs Redpanda''s C++ Seastar thread-per-core single binary with zero stop-the-world GC pauses and Kafka API compatibility.
+• Routing vs Append-Only Logs: RabbitMQ smart-broker AMQP exchanges vs Kafka''s sequential append-only log + OS page cache vs NATS subject routing (microsecond in-memory Core NATS + durable NATS JetStream).
+• Throughput, Latency & Multi-Topic Scaling: Kafka and Pulsar over 1M msg/s and NATS JetStream up to 2M msg/s vs RabbitMQ (~100k msg/s); Pulsar holding 1M msg/s (50 topics) and 200k msg/s at 20,000 topics vs 100+-topic inflection points and ~500-topic limits on tested RabbitMQ/JetStream workloads.
+• Backlog Drain Resilience: Why RabbitMQ consumer catch-up reads cause IOPS stealing (over 50% producer drop, 3x latency spike) while Pulsar''s compute/storage split serves 200k catch-up reads/sec smoothly.
+• SRE Decision Matrix: NATS (ultra-low-latency IoT/edge), RabbitMQ (complex task routing), Kafka (CDC/analytics ecosystem), Redpanda (zero-JVM Kafka compatibility), and Pulsar (multi-tenant geo-replicated scale).
+
+📚 Official References & Ecosystem Documentation:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Apache Kafka KIPs Index: https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
+• Strimzi CNCF Operator for Kubernetes: https://strimzi.io/
+• Apicurio Registry: https://www.apicur.io/registry/
+• AxonOps Schema Registry (Go, Apache 2.0 + MCP): https://github.com/axonops/axonops-schema-registry
+• Karapace Schema Registry: https://github.com/Aiven-Open/karapace
+
+🌐 Explore More Cloud Native, Kubernetes & SRE Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This architectural breakdown delivers an empirical SRE comparison between modern distributed messaging systems, contrasting JVM-based runtimes like Apache Kafka against C++ Seastar thread-per-core architectures like Redpanda, smart-broker routing in RabbitMQ, and tiered storage in Apache Pulsar. It benchmarks critical production failure modes including multi-topic degradation, backlog drain contention, and consumer catch-up IOPS starvation. Cloud architects gain a concrete decision framework for deploying streaming infrastructure based on throughput resilience, latency envelopes, and workload isolation requirements.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Kafka & Distributed Event Brokers", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=uwMZIxgAEZI','Kafka SRE Ops Manual: JMX P1 Alerts, KIP-1291/714 & Strimzi Mitigation','Production SRE operations manual for running stateful Apache Kafka clusters on Kubernetes: actionable P1 JMX alerts, kernel/client telemetry, disk safety thresholds, and Strimzi incident mitigation.
+
+🎯 SRE Operations & Mitigations Covered:
+• Critical JMX Alerting Baselines: UnderReplicatedPartitions warning (5m), UnderMinIsrPartitions P1 write failures with acks=all, OfflinePartitionsCount, ActiveControllerCount == 1 for KRaft quorum integrity, RequestHandlerAvgIdlePercent below 30%, and JVM GC spikes over 1000ms.
+• Observability X-Ray (KIP-1291 + KIP-714): Exporting host Linux kernel I/O contention via JMX (KIP-1291) and client telemetry push (KIP-714) through the Prometheus JMX Exporter (port 9404) into Grafana dashboards.
+• Kubernetes 80% PVC Threshold: Alerting before 100% disk exhaustion locks broker writes and halts log retention cleanup, backed by dynamic PVC expansion.
+• Mitigating Strimzi Operator Disasters: Deploying Strimzi Drain Cleaner alongside PodDisruptionBudgets to avoid multi-broker min.insync.replicas wipeouts during kubectl drain, diagnosing stuck rolling restarts safely, and throttling Cruise Control concurrent.partition.movements during peak load.
+
+📚 Official References & Ecosystem Documentation:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Apache Kafka KIPs Index: https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
+• Strimzi CNCF Operator for Kubernetes: https://strimzi.io/
+• Apicurio Registry: https://www.apicur.io/registry/
+• AxonOps Schema Registry (Go, Apache 2.0 + MCP): https://github.com/axonops/axonops-schema-registry
+• Karapace Schema Registry: https://github.com/Aiven-Open/karapace
+
+🌐 Explore More Cloud Native, Kubernetes & SRE Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This operational guide details production SRE practices for running Apache Kafka clusters on Kubernetes with the Strimzi operator, establishing critical P1 JMX alerting thresholds across KRaft quorums, min.insync.replicas, GC pauses, and PVC storage limits. It outlines modern telemetry pipelines leveraging KIP-1291 for host I/O contention metrics and KIP-714 for client observability, paired with Strimzi Drain Cleaner and Cruise Control safeguards to prevent rolling restart failures and multi-broker outages.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka / Kubernetes", "category": "Observability and Monitoring", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=Y4ctPuDIXhY','Kafka Disaster Recovery: Multi-Region DR, MirrorMaker 2 & Failback Runbooks','Enterprise blueprint for multi-region Apache Kafka disaster recovery, balancing RPO, RTO, replication topologies, offset translation, and tested failback execution.
+
+🎯 Resilience Patterns Covered:
+• Tiered RPO & RTO Math: Synchronous cross-region writes (latency tax for Tier-0 RPO=0 ledgers) vs asynchronous replication (Tier-2 clickstreams) to optimize infrastructure spend.
+• Active-Passive vs Active-Active Topologies: Standby asynchronous clusters vs dual-region active compute and traffic routing.
+• MirrorMaker 2 vs Cluster Linking: Open-source Kafka Connect MM2 portability (prefixed topics + translated offsets) vs native broker Cluster Linking preserving byte-for-byte offsets.
+• State Management & Loop Prevention: MirrorCheckpointConnector checkpoints topic offset maps, MirrorHeartbeatConnector RPO SLA tracking, and source-cluster topic aliases (e.g., us-east.orders) with regex consumer subscriptions to prevent bidirectional replication loops.
+• 3 AM Failover & Failback Runbooks: Strict NTP clock synchronization, verifying zero Under-Replicated Partitions (0 URPs), idempotent downstream consumers for async replay duplicates, and reversing replication for failback.
+
+📚 Official References & Ecosystem Documentation:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Apache Kafka KIPs Index: https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
+• Strimzi CNCF Operator for Kubernetes: https://strimzi.io/
+• Apicurio Registry: https://www.apicur.io/registry/
+• AxonOps Schema Registry (Go, Apache 2.0 + MCP): https://github.com/axonops/axonops-schema-registry
+• Karapace Schema Registry: https://github.com/Aiven-Open/karapace
+
+🌐 Explore More Cloud Native, Kubernetes & SRE Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This architectural guide details multi-region disaster recovery for enterprise Apache Kafka deployments, evaluating synchronous stretch clusters versus asynchronous replication topologies based on tiered RPO and RTO profiles. It examines the operational mechanics of MirrorMaker 2 connectors, offset translation, and loop prevention versus native broker Cluster Linking. Furthermore, it outlines concrete failover and failback runbooks, highlighting partition health verification, idempotent consumer design, and bidirectional sync reversal essential for cloud-native event-driven resilience.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=UsaRlPU_Hg8','Kafka Schema Registries: Wire Format, Compatibility & CDC Data Contracts','How Schema Registries turn informal agreements between database admins and microservices into mathematically enforced data contracts at the Kafka boundary.
+
+🎯 Data Contract Mechanics Covered:
+• The Poison Pill Problem: How unannounced column drops or type swaps trigger deserialization crashes and block Kafka topic partitions.
+• 5-Byte Wire Format: Centralizing schema storage so producers check the registry once, receive a 4-byte ID, and prepend only a 5-byte header (1 magic byte + 4-byte schema ID) to binary payloads.
+• Compatibility Regimes & Upgrade Sequencing: BACKWARD (consumers upgrade first), FORWARD (producers upgrade first), FULL (independent upgrades for optional fields), *_TRANSITIVE across all historical versions, and NONE.
+• Debezium CDC Schema Evolution: Handling added optional columns, dropped columns, type narrowing, and rejecting breaking type swaps (e.g., double to enum).
+• Registry Implementation Showdown: Kafka-backed registries (Confluent Schema Registry, Python Karapace) vs DB-backed engines (Apicurio Registry for Avro/OpenAPI/GraphQL/AsyncAPI, and open-source Apache 2.0 Go binary AxonOps Schema Registry with Postgres/MySQL/Cassandra, RBAC, audit logs & native MCP server).
+
+📚 Official References & Ecosystem Documentation:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Apache Kafka KIPs Index: https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
+• Strimzi CNCF Operator for Kubernetes: https://strimzi.io/
+• Apicurio Registry: https://www.apicur.io/registry/
+• AxonOps Schema Registry (Go, Apache 2.0 + MCP): https://github.com/axonops/axonops-schema-registry
+• Karapace Schema Registry: https://github.com/Aiven-Open/karapace
+
+🌐 Explore More Cloud Native, Kubernetes & SRE Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This architectural breakdown examines how schema registries mathematically enforce data contracts across distributed Kafka pipelines to prevent downstream poison pill crashes. It covers the mechanics of the 5-byte binary wire format, compatibility evolution rules across Debezium CDC streams, and modern registry implementations—including engines exposing native Model Context Protocol (MCP) servers to allow autonomous AI agents to inspect, validate, and govern enterprise data schemas dynamically.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka + AI Agents", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=gOcDUB-jiLI','Kafka Storage Evolution: Tiered Storage (KIP-405) to Diskless (KIP-1150)','Tracing Apache Kafka''s storage evolution from tightly coupled local NVMe disks to Tiered Storage (KIP-405), Kafka 4.3/4.4 pipeline optimizations, and emerging Diskless Kafka topologies.
+
+🎯 Storage Evolution & Economics Covered:
+• Local Storage Bottleneck: Overprovisioning compute and expensive NVMe/SAN PVCs just to retain historical event logs.
+• KIP-405 Tiered Storage: Sub-10ms P99 active writes on hot local disks paired with asynchronous RemoteStorageManager offloading to AWS S3, GCS, or Azure Blob.
+• Kafka 4.3 & 4.4 Optimizations: KIP-1023 follower and catch-up reads directly from remote object storage, plus KIP-1241 delayed upload tuning (remote.copy.lag.bytes / remote.copy.lag.ms) to slash S3 PUT API costs during local log compaction.
+• The Cross-AZ Egress Tax: Why synchronous inter-broker replication ($0.02/GB typical cloud egress) dominates active-write TCO even with Tiered Storage.
+• Diskless Kafka (KIP-1150 & KIP-1163): How AutoMQ (S3-centric WAL), WarpStream (BYOC stateless agents trading up to ~500ms P99 write latency for zero cross-AZ fees), Redpanda Cloud Topics, and Aiven Inkless turn brokers into stateless execution proxies.
+
+📚 Official References & Ecosystem Documentation:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Apache Kafka KIPs Index: https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
+• Strimzi CNCF Operator for Kubernetes: https://strimzi.io/
+• Apicurio Registry: https://www.apicur.io/registry/
+• AxonOps Schema Registry (Go, Apache 2.0 + MCP): https://github.com/axonops/axonops-schema-registry
+• Karapace Schema Registry: https://github.com/Aiven-Open/karapace
+
+🌐 Explore More Cloud Native, Kubernetes & SRE Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This architectural breakdown traces Apache Kafka''s storage evolution from tightly coupled local NVMe storage to KIP-405 Tiered Storage and emerging diskless paradigms like KIP-1150, AutoMQ, and WarpStream. It demonstrates how decoupling compute from persistent storage slashes cross-AZ replication egress costs and log-compaction S3 API expenses while transforming brokers into stateless event proxies. For 2026 cloud-native platforms, these patterns provide a resilient blueprint for operating high-throughput, horizontally elastic streaming infrastructure at a fraction of traditional enterprise TCO.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=JDLt0Vt83Ec','Kafka 4.x Next-Gen Messaging: KIP-848 Rebalance & KIP-932 Share Groups','Architectural breakdown of Apache Kafka 4.0+ consumer and queueing breakthroughs: eliminating stop-the-world rebalances with KIP-848 and decoupling concurrency from partitions with KIP-932 Share Groups.
+
+🎯 Protocols & KIPs Covered:
+• Classic Kafka Bottlenecks: Why client-side JoinGroup/SyncGroup synchronization halts entire consumer groups during scale-out and caps parallelism at partition count.
+• KIP-848 Next-Gen Rebalance Protocol: Moving group coordination to a broker-side incremental coordinator via ConsumerGroupHeartbeat RPC deltas so unaffected partitions keep flowing continuously.
+• KIP-932 Share Groups (Queues for Kafka): Point-to-point queue semantics directly over durable Kafka topics—allowing 20, 50, or 100 workers to pull from a single partition concurrently.
+• Per-Record Delivery Locks & DLQ: Tracking acquired/in-flight state with ACCEPT, REJECT, and RELEASE acknowledgements, KIP-1222 lock timeout RENEW leases for long tasks, and KIP-1191 broker-managed Dead-Letter Queues (Kafka 4.4).
+• Operational Trade-Off: Strict partition-level ordering in classic consumer groups vs elastic queue throughput in Share Groups.
+
+📚 Official References & Ecosystem Documentation:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Apache Kafka KIPs Index: https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
+• Strimzi CNCF Operator for Kubernetes: https://strimzi.io/
+• Apicurio Registry: https://www.apicur.io/registry/
+• AxonOps Schema Registry (Go, Apache 2.0 + MCP): https://github.com/axonops/axonops-schema-registry
+• Karapace Schema Registry: https://github.com/Aiven-Open/karapace
+
+🌐 Explore More Cloud Native, Kubernetes & SRE Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This architectural deep dive analyzes Apache Kafka 4.0''s transformative protocols, detailing how KIP-848 eradicates stop-the-world client rebalances by offloading group coordination incrementally to the broker via ConsumerGroupHeartbeat RPCs. It also examines KIP-932 Share Groups, which decouple consumer concurrency from partition counts to provide native point-to-point queue semantics, record-level locks, and broker-managed dead-letter queues. For 2026 cloud-native architectures, these capabilities eliminate the need to run parallel message brokers like RabbitMQ alongside Kafka, vastly simplifying scalable, event-driven microservices.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
+INSERT INTO "resources" VALUES('https://www.youtube.com/watch?v=hacr-JaxbZk','Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops','Complete architectural tour of Apache Kafka 4.0 in a post-ZooKeeper world: embedded KRaft consensus, Kubernetes-native orchestration with Strimzi, isolated node pools, storage trade-offs, and Day-2 upgrades.
+
+🎯 Architectural Areas Covered:
+• KRaft Consensus & Metadata Log: Embedding consensus into brokers via the Raft-replicated @metadata log, hot-standby quorum followers, and dynamic controller membership via CLI without static restarts.
+• Strimzi Kubernetes Operator: Declarative GitOps lifecycle with Strimzi CRDs including KafkaUser mTLS secret automation and KafkaRebalance.
+• Isolating KafkaNodePool Resources: Separating high-churn data-plane brokers from low-resource KRaft controller quorums to prevent JVM GC CPU starvation and false split-brain elections, plus multi-zone rack awareness.
+• Storage Subsystem Trade-Offs: Bare-metal NVMe Local Persistent Volumes automated with Strimzi Drain Cleaner vs cloud block storage (AWS EBS gp3) IOPS/throughput sizing.
+• Day-2 Operations & Upgrades: Two-step binary vs metadata version finalization, zero-downtime blue-green ZooKeeper-to-KRaft migration with MirrorMaker 2, and alerting on QuorumController leader state, high watermark, and ActiveControllerCount.
+
+📚 Official References & Ecosystem Documentation:
+• Apache Kafka Documentation: https://kafka.apache.org/documentation/
+• Apache Kafka KIPs Index: https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
+• Strimzi CNCF Operator for Kubernetes: https://strimzi.io/
+• Apicurio Registry: https://www.apicur.io/registry/
+• AxonOps Schema Registry (Go, Apache 2.0 + MCP): https://github.com/axonops/axonops-schema-registry
+• Karapace Schema Registry: https://github.com/Aiven-Open/karapace
+
+🌐 Explore More Cloud Native, Kubernetes & SRE Tracks:
+• Nubenetes Video Catalog: https://nubenetes.com/videos/
+• Nubenetes Portal: https://nubenetes.com/','2026',5,'This architectural breakdown examines the production operationalization of Apache Kafka 4.0 in a purely post-ZooKeeper cloud-native ecosystem. It highlights running KRaft consensus on Kubernetes via the Strimzi operator, enforcing resource isolation between data brokers and controller quorums using KafkaNodePools to eliminate GC-induced split-brain elections. Additionally, it evaluates storage trade-offs between local NVMe persistent volumes and cloud block storage alongside zero-downtime Day-2 upgrade and migration strategies.','English','Video','Intermediate',0,'online','automatic',NULL,100.0,1794666502,0,'2026-11-14T15:28:22.903274+01:00','2026-11-14T15:28:22.903274+01:00','Nubenetes','spain','["Cloud Native", "Video Masterclasses"]','["[GUIDE]"]','["docs/index.md"]','["index.md"]','{}','{"is_featured_video": true, "is_enriched": true, "video_order": 25, "technology": "Apache Kafka", "category": "Architecture and Cloud Strategy", "source_provenance": "Official @nubenetes YouTube Channel"}');
 COMMIT;

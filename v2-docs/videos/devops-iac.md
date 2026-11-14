@@ -955,6 +955,23 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Apache Kafka Kubernetes
+
+??? note "🎬 Kafka SRE Ops Manual: JMX P1 Alerts, KIP-1291/714 & Strimzi Mitigation"
+    !!! info "Architectural Summary"
+        This operational guide details production SRE practices for running Apache Kafka clusters on Kubernetes with the Strimzi operator, establishing critical P1 JMX alerting thresholds across KRaft quorums, min.insync.replicas, GC pauses, and PVC storage limits. It outlines modern telemetry pipelines leveraging KIP-1291 for host I/O contention metrics and KIP-714 for client observability, paired with Strimzi Drain Cleaner and Cruise Control safeguards to prevent rolling restart failures and multi-broker outages.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="uwMZIxgAEZI" data-video-url="https://www.youtube.com/embed/uwMZIxgAEZI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/uwMZIxgAEZI/hqdefault.jpg" alt="Kafka SRE Ops Manual: JMX P1 Alerts, KIP-1291/714 & Strimzi Mitigation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"
