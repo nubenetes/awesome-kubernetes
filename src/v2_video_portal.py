@@ -6,6 +6,7 @@ INVENTORY_PATH = "data/inventory.yaml"
 VIDEOS_DIR = "v2-docs/videos"
 
 PLAYLIST_DATES = {
+    "PLC-ZWbf-4aBg": "Nov 2026",
     "PLZOsodxc3GIM": "Nov 2026",
     "PLGtiisOtFk3s": "Nov 2026",
     "PLPVDu1Q58BQM": "Nov 2026",
@@ -337,7 +338,7 @@ def generate_v2_videos():
         "",
         "## Official Nubenetes NotebookLM Video Playlists",
         "",
-        '!!! info "43 Curated Architectural Tracks · Verified through November 2026"',
+        '!!! info "44 Curated Architectural Tracks · Verified through November 2026"',
         '    Explore our modular, AI-synthesized architectural masterclasses and deep dives on the official [**@nubenetes YouTube Channel**](https://www.youtube.com/@nubenetes/playlists). Organized across six core domains, each track is continuously updated to reflect 2026 enterprise standards.',
         "",
         "### 🤖 Enterprise AI, Agents and Control Planes",
@@ -384,6 +385,7 @@ def generate_v2_videos():
         "",
         "| Dimension | Curated Playlist | Updated | Focus Area |",
         "| :--- | :--- | :---: | :--- |",
+        "| **Azure Naming Tool & CAF Governance** | [Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep](https://www.youtube.com/playlist?list=PLC-ZWbf-4aBg) | `Nov 2026` | Complete governance walkthrough, .NET 10 architectural teardown, and IaC automation guide for Microsoft's open-source `Azure/AzureNamingTool` v5: Cloud Adoption Framework (CAF) component rules, Blazor Server + SignalR UI, versioned REST APIs (v1/v2 `ApiResponse` envelope, Swagger UI), dual storage (`FileSystem` JSON vs Entity Framework Core 10 SQLite `azurenamingtool.db`), real-time Azure Tenant Name Validation (`Azure.ResourceManager.ResourceGraph`, `NotifyOnly`/`AutoIncrement`/`Fail`/`SuffixRandom`), Terraform `data \"http\"` and Azure DevOps integration, and Bicep App Service deployment (`solution.bicep`). |",
         "| **AWS Emulator, Terraform & CI/CD** | [Nubenetes AWS Emulator: Local AWS APIs, Terraform & CI/CD Guide](https://www.youtube.com/playlist?list=PLZOsodxc3GIM) | `Nov 2026` | End-to-end engineering walkthrough and survival guide for Amazon's open-source `aws/aws-emulator` (CC0-1.0, 436 Smithy/Rust service crates backed by `InMemoryEngine`): standalone execution (`127.0.0.1:9297` + `/__admin/health`), SDK/CLI routing (`AWS_ENDPOINT_URL` & `ca.pem`), Terraform & Atmos validation workflows (`501 Not Implemented` gaps vs LocalStack), ephemeral CI/CD sandboxing, `aws-emulator-embedded` in-process Rust tests, AI agent skill setup (`aws agent-toolkit add-skill`), release fidelity tracking (`v1.0.345`), 100+ GB build management, and telemetry opt-out. |",
         "| **IaC and Terraform** | [Nubenetes Azure Verified Modules (AVM) Terraform Labs](https://www.youtube.com/playlist?list=PLNKD2Ya-t0zM) | `Oct 2026` | Hands-on Terraform AVM implementation labs: VS Code/Azure CLI toolchain, Log Analytics sinks, Key Vault secrets, Storage CMK encryption, Private Endpoints, Azure Bastion zero-public-IP access, and Managed Identity RBAC. |",
         "| **Cloud Architecture** | [Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) | `Oct 2026` | Enterprise CAF reference architecture: retiring the legacy CAF monolith in favor of AVM and ALZ Library (2026.10.0), Management Groups, Hub-Spoke vs. Virtual WAN, Private Endpoints, and zero-secret OIDC CI/CD. |",
@@ -416,6 +418,7 @@ def generate_v2_videos():
 
     # Dynamically append any newly discovered @nubenetes playlists from inventory
     known_playlist_ids = {
+        "PLC-ZWbf-4aBg",
         "PLZOsodxc3GIM",
         "PLGtiisOtFk3s",
         "PLPVDu1Q58BQM",

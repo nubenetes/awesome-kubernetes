@@ -826,6 +826,18 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Azure Naming Tool Terraform Bicep
+
+??? note "🎬 Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep"
+    !!! info "Architectural Summary"
+        Complete governance walkthrough, .NET 10 architectural teardown, and Infrastructure-as-Code automation guide for Microsoft's open-source Azure Naming Tool v5 (github.com/Azure/AzureNamingTool). Covers Cloud Adoption Framework (CAF) component configuration, Blazor Server + SignalR UI, ASP.NET Core v1 and opt-in v2 REST APIs (ApiResponse envelope, bulk generation, Swagger UI), IStorageProvider dual storage architecture (FileSystem JSON vs. Entity Framework Core 10 SQLite azurenamingtool.db with 10-100x faster queries and Azure Container Apps File Share caveat), real-time Azure Tenant Name Validation via Azure.ResourceManager.ResourceGraph (NotifyOnly, AutoIncrement, Fail, SuffixRandom), Terraform data http and Azure DevOps CI/CD integration, and multi-platform hosting including subscription-scoped Bicep App Service deployment (solution.bicep).
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLC-ZWbf-4aBg" title="Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"
