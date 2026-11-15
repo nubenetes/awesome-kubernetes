@@ -46719,10 +46719,10 @@ https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have
   resource_type: Technical Blog
   complexity: Advanced
   is_microservice: true
-  status: online
+  status: offline
   addition_method: manual
   content_hash: null
-  health_score: null
+  health_score: 0.0
   last_checked: null
   needs_ai_refresh: false
   discovered_at: '2018-06-01T00:00:00+02:00'
@@ -46743,6 +46743,7 @@ https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have
   - servicemesh.md
   youtube_mosaic: {}
   category: api
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices:
   title: 'blog.christianposta.com: Istio as an Example of When Not to Do Microservices'
   description: ''
@@ -55747,10 +55748,10 @@ https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eigh
   resource_type: article
   complexity: Advanced
   is_microservice: false
-  status: online
+  status: offline
   addition_method: automatic
   content_hash: 28c268b2a7fb414b1df263e1c25ee76c168ce86e45e1abd982b5c9b43f9c6098
-  health_score: null
+  health_score: 0.0
   last_checked: 1780352414
   needs_ai_refresh: false
   discovered_at: '2026-06-02T00:20:14.115813+02:00'
@@ -55774,6 +55775,7 @@ https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eigh
   social_preview_url: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/two_chips_for_the_agentic_era_hero.width-1300.png
   source_provenance: X.com (GoogleCloud)
   suggested_new_category: ai-infrastructure
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5:
   title: 'Gemini 3.5: frontier intelligence with action'
   description: At Google I/O we released Gemini 3.5, our latest series of models combining
@@ -190973,10 +190975,10 @@ https://github.com/TabularisDB/tabularis/blob/main/README.es.md:
   resource_type: Repository
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: offline
   addition_method: manual
   content_hash: 2fd2ed828f549425a756e5baa4d9e141e580901bb931bd5b128ea5f64b95ef7d
-  health_score: 100.0
+  health_score: 0.0
   last_checked: 1779030021
   needs_ai_refresh: true
   discovered_at: '2026-06-11T09:30:32Z'
@@ -191008,6 +191010,7 @@ https://github.com/TabularisDB/tabularis/blob/main/README.es.md:
   gh_community_health: active
   gh_activity_checked: '2026-10-25T10:22:11.590964+01:00'
   category: ai
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://github.com/TerraHubCorp/terraform-google-automation-demo:
   title: Terraform Automation Demo using Google Cloud Provider
   description: ''
@@ -199540,10 +199543,10 @@ https://github.com/azure/mission-critical-online:
   resource_type: Repository
   complexity: Advanced
   is_microservice: true
-  status: online
+  status: offline
   addition_method: manual
   content_hash: abd53ddd93a178e6126ca682e7336d02bbc0908b6b83723503709b118ed243dc
-  health_score: 100.0
+  health_score: 0.0
   last_checked: 1779033501
   needs_ai_refresh: true
   discovered_at: '2025-01-14T14:51:10Z'
@@ -199569,6 +199572,7 @@ https://github.com/azure/mission-critical-online:
   gh_community_health: healthy
   gh_activity_checked: '2026-10-25T10:33:10.594937+01:00'
   category: azure
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://github.com/backstage/backstage:
   title: github.com/backstage/backstage
   description: ''
@@ -243723,10 +243727,10 @@ https://github.com/odigos-io/odigos:
   resource_type: Observability Controller
   complexity: Advanced
   is_microservice: true
-  status: online
+  status: offline
   addition_method: manual
   content_hash: 7fa766b851bcb6255a859c5e9685e73633a81b9d4415156688c6ddba321a8c85
-  health_score: 100.0
+  health_score: 0.0
   last_checked: 1779029270
   needs_ai_refresh: true
   discovered_at: '2026-06-14T10:09:14Z'
@@ -243754,6 +243758,7 @@ https://github.com/odigos-io/odigos:
   gh_community_health: active
   gh_activity_checked: '2026-10-25T19:43:00.691177+01:00'
   category: kubernetes-tools
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://github.com/odoo/odoo/wiki/Mergebot:
   title: Odoo Mergebot
   description: ''
@@ -253732,10 +253737,10 @@ https://github.com/redhat-actions/spring-petclinic:
   resource_type: Repo
   complexity: Intermediate
   is_microservice: true
-  status: online
+  status: offline
   addition_method: manual
   content_hash: b1804abf247eaa9a3595c4aaed6a55204e772e874774c58e799c02b6d5a6bbc2
-  health_score: 100.0
+  health_score: 0.0
   last_checked: 1779034116
   needs_ai_refresh: true
   discovered_at: '2022-09-27T21:10:26Z'
@@ -253762,6 +253767,7 @@ https://github.com/redhat-actions/spring-petclinic:
   gh_activity_checked: '2026-10-25T22:51:57.643776+01:00'
   category: demos
   momentum_score: 0.0
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://github.com/redhat-certification/chart-verifier:
   title: "redhat-certification: chart-verifier: Rules based tool to certify Helm charts'
     \U0001F31F"
@@ -493700,10 +493706,10 @@ https://www.buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12:
   resource_type: documentation
   complexity: Advanced
   is_microservice: true
-  status: online
+  status: offline
   addition_method: manual
   content_hash: null
-  health_score: null
+  health_score: 0.0
   last_checked: null
   needs_ai_refresh: false
   discovered_at: '2022-06-01T00:00:00+02:00'
@@ -493722,6 +493728,7 @@ https://www.buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12:
   - servicemesh.md
   youtube_mosaic: {}
   category: servicemesh
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://www.businessinsider.com/amazon-reason-for-layoffs-former-senior-tech-leader-2023-5:
   title: 'businessinsider.com: I''m an ex-Amazon senior leader. Here''s why layoffs
     keep happening and why ambitious managers are fueling them'
@@ -528729,10 +528736,10 @@ https://www.google.com/share.google?q=rRH2WBGGgW1LON3N1:
   resource_type: Press Release
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: offline
   addition_method: automatic
   content_hash: 99f3ee61efd4606d4a23dec4ae2d56424b08a4fdc483e8a22ab3e5d8802b1a51
-  health_score: null
+  health_score: 0.0
   last_checked: 1780352849
   needs_ai_refresh: false
   discovered_at: '2026-06-02T00:27:29.031833+02:00'
@@ -528757,6 +528764,7 @@ https://www.google.com/share.google?q=rRH2WBGGgW1LON3N1:
   social_preview_url: ''
   source_provenance: X.com (GoogleCloud)
   suggested_new_category: enterprise-ai
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://www.granted.dev:
   title: granted.dev
   description: ''
@@ -529778,10 +529786,10 @@ https://www.hackerxone.com/2021/07/10/how-manage-single-multiple-kubernetes-clus
   resource_type: Technical Article
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: offline
   addition_method: manual
   content_hash: 9091aa6705239eac8ba51a40b52c41b34cd9effe6238ed171c873f5dd0f00034
-  health_score: 100.0
+  health_score: 0.0
   last_checked: 1779032522
   needs_ai_refresh: true
   discovered_at: '2026-05-17T17:42:02.730026+02:00'
@@ -529800,6 +529808,7 @@ https://www.hackerxone.com/2021/07/10/how-manage-single-multiple-kubernetes-clus
   - kubectl-commands.md
   youtube_mosaic: {}
   category: kubectl-commands
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://www.hackerxone.com/2021/08/20/13-steps-guide-to-create-kubernetes-cluster-on-amazon-web-serviceaws:
   title: 'hackerxone.com: 13 Steps Guide to Create Kubernetes Cluster on AWS'
   description: ''
@@ -609219,10 +609228,10 @@ https://www.suse.com/c/rancher_blog/announcing-harvester-open-source-hyperconver
   resource_type: Announcement
   complexity: Advanced
   is_microservice: false
-  status: online
+  status: offline
   addition_method: manual
   content_hash: b3cb1da94f00c225b79ced56157d00da388cf96205de4769c9eda9a3e7ca0821
-  health_score: 100.0
+  health_score: 0.0
   last_checked: 1781736154
   needs_ai_refresh: true
   discovered_at: '2026-06-18T00:42:34.198083+02:00'
@@ -609242,6 +609251,7 @@ https://www.suse.com/c/rancher_blog/announcing-harvester-open-source-hyperconver
   - rancher.md
   youtube_mosaic: {}
   category: rancher
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://www.suse.com/c/rancher_blog/announcing-hosted-rancher-with-rancher-2-4:
   title: "Announcing **Hosted Rancher** with Rancher 2.4 \U0001F31F"
   description: null
@@ -609430,10 +609440,10 @@ https://www.suse.com/c/rancher_blog/disaster-recovery-preparedness-for-your-kube
   resource_type: Article
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: offline
   addition_method: manual
   content_hash: null
-  health_score: null
+  health_score: 0.0
   last_checked: null
   needs_ai_refresh: false
   discovered_at: '2022-06-01T00:00:00+02:00'
@@ -609452,6 +609462,7 @@ https://www.suse.com/c/rancher_blog/disaster-recovery-preparedness-for-your-kube
   - kubernetes-backup-migrations.md
   youtube_mosaic: {}
   category: kubernetes-backup-migrations
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher:
   title: 'rancher.com: Driving Kubernetes Adoption in Finance with Rancher'
   description: ''
@@ -662034,10 +662045,10 @@ https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions
   resource_type: Blog
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: offline
   addition_method: manual
   content_hash: N/A
-  health_score: 100.0
+  health_score: 0.0
   last_checked: 1781788171
   needs_ai_refresh: false
   discovered_at: '2026-06-18T15:09:31.021372+02:00'
@@ -662056,6 +662067,7 @@ https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions
   - git.md
   youtube_mosaic: {}
   category: git
+  last_offline: '2026-11-15T12:03:05.372280+01:00'
 https://www.youtube.com/@Firebase:
   title: Firebase
   description: Official YouTube channel for Firebase, Google's app development platform
