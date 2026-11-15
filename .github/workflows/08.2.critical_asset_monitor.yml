@@ -13,13 +13,13 @@ jobs:
   monitor-critical:
     runs-on: ubuntu-latest
     concurrency:
-      group: critical-asset-monitor-develop
+      group: critical-asset-monitor-master
       cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v7
@@ -59,7 +59,7 @@ jobs:
 
           TITLE="🚨 Critical Asset Health Audit: $(date -u +'%d %b %Y')"
           gh pr create \
-            --base develop \
+            --base master \
             --head "$BRANCH" \
             --title "$TITLE" \
             --body-file critical_audit_report.md

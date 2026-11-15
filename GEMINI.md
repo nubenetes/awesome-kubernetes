@@ -39,7 +39,7 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **Extraction**: Every new link MUST attempt to extract a publication year (URL, metadata, or AI inference).
     - **Formatting**: New links MUST follow the format `  - **(YYYY)** [Title](URL) 🌟 - Description`. If year is 'N/A', the prefix is omitted.
     - **Elite Descriptions**: AI-generated descriptions MUST be professional, neutral, and focus on the technical value for a 2026 Cloud Architect.
-18. **Automated Branch Hygiene**: To keep the repository clean and efficient, an automated cleanup MUST run every 15 days (1st and 15th) to delete remote branches already merged into `develop`. The branches `master`, `develop`, and `gh-pages` are strictly protected and MUST NEVER be deleted.
+18. **Automated Branch Hygiene**: To keep the repository clean and efficient, an automated cleanup MUST run every 15 days (1st and 15th) to delete remote short-lived branches already merged into `master` (or stale >30 days). The branches `master` and `gh-pages` are strictly protected and MUST NEVER be deleted.
 19. **V1/V2 Asset Integrity & Rendering**: 
     - **Source of Truth**: V1 (`docs/`) is the absolute source of truth for assets. V2 portal (`v2-docs/`) MUST NOT duplicate folders; it uses symlinks or relative paths.
     - **Rendering Fix (HTML in MD)**: All `<center>` tags MUST be defined as `<center markdown="1">` and followed by a mandatory blank line before and after the content. This ensures MkDocs processes the Markdown within the HTML block.
@@ -169,7 +169,7 @@ This file contains the accumulated instructions and long-term vision for the aut
 
 47. **On-Demand Metadata Enrichment (V2)**: The V2 generation engine MUST support a manual `ENRICH_METADATA` flag. When active, the bot MUST fetch real-time GitHub stars and license data for all repositories missing this metadata in the inventory. This ensures that [DE FACTO STANDARD] and [ENTERPRISE-STABLE] tags are assigned based on current industry momentum rather than stale or missing cache data.
 
-48. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `develop` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
+48. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `master` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
 
 49. **Resilient Quota Management (Circuit Breakers)**: AI workflows MUST implement circuit breaker logic (Exit Code 42) to gracefully pause processing and disable the workflow when API quotas (e.g., 429 Too Many Requests) are exhausted, preventing infinite loop failures.
 
@@ -247,23 +247,22 @@ To ensure robust rendering across GitHub, VSCode, and MkDocs, follow these stand
 
 To maintain the integrity of the archive and ensure the AI agents operate correctly:
 
-1.  **Branch Hierarchy**:
-    *   `master`: Read-only for contributors/bots. Restricted to repository owner only.
-    *   `develop`: The only valid target for direct AI commits and Pull Requests.
-2.  **Strict Pull Request Policy (No Manual Merges)**:
-    *   AI agents MUST always target `develop` for their work.
-    *   AI agents MUST NEVER perform manual CLI merges (e.g., `git merge develop`) into `master` or `main`.
-    *   To promote changes to `master`, AI agents MUST open a formal Pull Request from `develop` to `master` (e.g., using `gh pr create`) and **STOP**, waiting for the repository owner to review and merge via the GitHub UI. This ensures CI/CD workflows run correctly.
-3.  **Owner-Only Merges & Tagging**:
-    *   Only the repository owner has the authority to merge `develop` into `master` after verifying the visual health dashboard and metrics.
-    *   Creation of version tags (`git tag`) MUST only occur AFTER the PR has been successfully merged into `master` by the owner.
+1.  **Trunk Hierarchy**:
+    *   `master`: Single canonical trunk for production, CI schedules, inventory, V1/V2 sources, and automated enrichment pipelines.
+    *   `feat/*`, `fix/*`, `bot/*`: Short-lived working branches created from `master` and merged back via Pull Request.
+2.  **Pull Request & Direct Bot Synchronization**:
+    *   Human contributors and AI feature work MUST target `master` via short-lived branches and formal Pull Requests (`gh pr create --base master`).
+    *   AI agents MUST NEVER bypass PR review for code/structural changes via ad-hoc force pushes to `master` or `main`.
+    *   Automated `[skip ci]` state pipelines (`03.1`–`05.1`, `09`) serialize updates on `master` via concurrency groups and trigger [`06.deploy_final.yml`](.github/workflows/06.deploy_final.yml) through `workflow_run` deduplication.
+3.  **Tagging & Releases**:
+    *   Version tags (`git tag -a vX.Y.Z`) and GitHub Releases (`gh release create`) are cut directly from `master` after PR merge and validation.
 
 ## 📝 README Synchronization & Maintenance Protocols
 
 The `README.md` is the primary entry point for Nubenetes and must accurately reflect the state of both the **V1 (Exhaustive)** and **V2 (Elite)** editions. AI agents and contributors MUST follow these protocols:
 
-### 1. Mandatory Updates on `develop` Branch
-Before any Pull Request is merged from `develop` to `master`, the `README.md` must be audited and updated to reflect the latest changes. This is critical for maintaining the "Source of Truth" status.
+### 1. Mandatory Updates Before Release on `master`
+Whenever structural, algorithmic, or inventory changes land on `master`, `README.md` must be kept audited and synchronized (automatically by `04.1`/`05.1` or manually via `src/readme_updater.py`) to maintain "Source of Truth" status.
 
 ### 2. Metric Recalculation (Database-First)
 Whenever a significant curation cycle (automatic or manual) is completed, the README MUST be updated using the **Unified Metadata Database** (`inventory.yaml`) as the sole source of truth:
@@ -373,29 +372,30 @@ The bot must rotate between profiles to avoid detection:
         - **V2 Relocation (/v2/)**: Moved the Elite Portal to a dedicated subdirectory.
         - **Smart Root Redirect**: Implemented an automatic meta-refresh in the root `index.html` to guide human visitors to the V2 experience without breaking search engine indices.
         - **V1 Fallback (/v1/)**: Duplicated the archive to `/v1/` for explicit navigation.
+*   **November 2026**: **Trunk-Based Architecture Migration (`master`), Gen-4 AI Selector & Critical Asset Monitor**:
+    - **Trunk Consolidation**: Eliminated the long-lived `develop` branch and promotion PR overhead; `master` is now the single canonical trunk for code, workflows, `schedule` crons, V1/V2 sources, and automated pipelines.
+    - **Deduplicated Trunk Deploy (`06.1`)**: Scoped push deploys to site-affecting paths and added `workflow_run` precheck deduplication against `04.1. V2 Publisher` and `09. Weekly Intelligence Digest` so `[skip ci]` bot publishes deploy cleanly without deploy storms.
+    - **Metadata-Driven Gemini Model Selector (`src/gemini_utils.py`)**: Replaced strict keyword allowlists with lexicographic version-first tuple ranking and description fallback, adopting `gemini-4-hydrogen`, `gemini-4-carbon`, `gemini-4-argon`, and unseen future naming schemes.
+    - **Async Critical Asset Monitor (`src/critical_asset_monitor.py`)**: Replaced the inline sequential monitor with concurrent per-host-throttled probing and `inventory_manager` SQL+YAML synchronization.
 - **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
 - **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".
 - **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.
 
-## Git Workflow: Gitflow (Mandatory)
+## Git Workflow: Trunk-Based Development (Mandatory)
 
-This repository uses **Gitflow**. All agents and automated processes MUST follow this branching model:
+This repository uses **Trunk-Based Development**. All agents and automated processes MUST follow this branching model:
 
-- **`master`**: Production branch. Only receives merges from `release/*` branches. Every merge to master gets a **semantic version tag** (`vX.Y.Z`) and a **GitHub Release** with detailed release notes.
-- **`develop`**: Integration branch. All feature branches merge here via PR. Back-merged from master after each release.
-- **`feat/*`**: Feature branches. Created from `develop`, merged back to `develop` via PR.
-- **`release/vX.Y.Z`**: Release branches. Created from `develop`, merged to `master` with `--no-ff`, then back-merged to `develop`.
-- **`gh-pages`**: Deployment. NEVER modified directly.
-- **Protected branches**: `master`, `develop`, `gh-pages` — NEVER deleted.
+- **`master`**: Canonical trunk and production branch. Receives all short-lived PR merges and serialized `[skip ci]` bot state commits (`03.1`–`05.1`, `09`). Releases are tagged (`vX.Y.Z`) and published directly from `master`.
+- **`feat/*`**, **`fix/*`**, **`bot/*`**: Short-lived branches created from `master` and merged back to `master` via PR.
+- **`gh-pages`**: Deployment artifact branch (if present). NEVER modified directly.
+- **Protected branches**: `master`, `gh-pages` — NEVER deleted.
 
 ### Release Sequence
-1. Feature branch → PR to `develop` → merge
-2. Create `release/vX.Y.Z` from `develop`
-3. Merge release to `master` (`--no-ff`)
-4. Create annotated tag: `git tag -a vX.Y.Z -m "..."`
-5. Push master + tag
-6. Back-merge master to develop (`--no-ff`)
-7. Create GitHub Release with `gh release create`
+1. Short-lived branch (`feat/*`, `fix/*`, `bot/*`) → PR to `master` → merge (`--delete-branch`)
+2. Pull latest `master` locally
+3. Create annotated tag: `git tag -a vX.Y.Z -m "..."`
+4. Push tag to `origin`
+5. Create GitHub Release with `gh release create`
 
 ### Versioning: `v{major}.{minor}.{patch}`
 - **Major**: breaking changes or architectural shifts

@@ -3,13 +3,13 @@ name: 03.3. V2 Video Hub Builder
 on:
   push:
     branches:
-      - develop
+      - master
     paths:
       - 'src/v2_video_portal.py'
       - 'src/enrich_videos.py'
   workflow_run:
     workflows: ["03.2. V2 AI Curator"]
-    branches: [develop]
+    branches: [master]
     types:
       - completed
   schedule:
@@ -76,13 +76,13 @@ jobs:
     runs-on: ubuntu-latest
     if: needs.precheck.outputs.should_run == 'true'
     concurrency:
-      group: v2-videos-develop
+      group: v2-videos-master
       cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v7
@@ -135,9 +135,9 @@ jobs:
             echo "No automated changes to commit."
           else
             git commit -m "docs: update Video Hub with high-fidelity metadata [skip ci]"
-            # Retry rebase+push to survive concurrent bot pushes to develop.
+            # Retry rebase+push to survive concurrent bot pushes to master.
             for i in {1..5}; do
-              if git pull origin develop --rebase -X theirs && git push origin develop; then
+              if git pull origin master --rebase -X theirs && git push origin master; then
                 echo "Successfully rebased and pushed Video Hub updates."
                 exit 0
               fi

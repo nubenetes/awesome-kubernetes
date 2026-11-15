@@ -28,7 +28,7 @@ jobs:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v7

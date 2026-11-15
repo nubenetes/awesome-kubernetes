@@ -28,7 +28,7 @@ jobs:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v7
@@ -61,7 +61,7 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           branch: bot/v2-health-sync
-          base: develop
+          base: master
           title: "V2 Data: Health Inventory Sync"
           commit-message: "chore: update inventory health status [skip ci]"
           labels: "v2-data, health-sync"

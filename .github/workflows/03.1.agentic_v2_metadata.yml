@@ -21,13 +21,13 @@ jobs:
   run-metadata:
     runs-on: ubuntu-latest
     concurrency:
-      group: v2-metadata-develop
+      group: v2-metadata-master
       cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v7
@@ -65,9 +65,9 @@ jobs:
             echo "No changes in inventory to commit."
           else
             git commit -m "chore: update inventory stars and licenses [skip ci]"
-            # Retry rebase+push to survive concurrent bot pushes to develop.
+            # Retry rebase+push to survive concurrent bot pushes to master.
             for i in {1..5}; do
-              if git pull origin develop --rebase -X theirs && git push origin develop; then
+              if git pull origin master --rebase -X theirs && git push origin master; then
                 echo "Successfully rebased and pushed inventory metadata."
                 exit 0
               fi

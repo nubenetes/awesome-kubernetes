@@ -3,7 +3,7 @@ name: 05.1. README Automated Sync
 on:
   push:
     branches:
-      - develop
+      - master
     paths-ignore:
       - 'README.md'
       - 'data/inventory.yaml'
@@ -26,12 +26,13 @@ jobs:
         !contains(github.event.head_commit.message, 'bot/knowledge-update')
       )
     concurrency:
-      group: readme-sync-develop
+      group: readme-sync-master
       cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
+          ref: master
           fetch-depth: 0 # Full history for commit stats
 
       - name: Python 3.11 Environment Provisioning
@@ -70,8 +71,8 @@ jobs:
           # push; we simply retry from the new tip. No conflict resolution required.
           for i in {1..5}; do
             echo "README sync attempt $i/5..."
-            git fetch origin develop
-            git reset --hard origin/develop
+            git fetch origin master
+            git reset --hard origin/master
             python src/readme_updater.py
             python src/safety_readme.py
             git add README.md
@@ -80,12 +81,12 @@ jobs:
               exit 0
             fi
             git commit -m "docs: automated README metric synchronization [skip ci]"
-            if git push origin develop; then
+            if git push origin master; then
               echo "Push succeeded on attempt $i."
               exit 0
             fi
             echo "Attempt $i rejected — remote advanced, retrying from fresh tip..."
             sleep $((i * 3))
           done
-          echo "::error::README sync failed after 5 attempts (persistent write contention on develop)."
+          echo "::error::README sync failed after 5 attempts (persistent write contention on master)."
           exit 1

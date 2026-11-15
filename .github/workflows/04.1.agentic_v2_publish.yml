@@ -3,11 +3,12 @@ name: 04.1. V2 Publisher
 on:
   push:
     branches:
-      - develop
+      - master
     paths:
       - 'docs/**'
   workflow_run:
     workflows: ["03.3. V2 Video Hub Builder"]
+    branches: [master]
     types:
       - completed
   workflow_dispatch:
@@ -84,13 +85,13 @@ jobs:
     runs-on: ubuntu-latest
     if: needs.precheck.outputs.should_run == 'true'
     concurrency:
-      group: v2-publish-develop
+      group: v2-publish-master
       cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
           fetch-depth: 0
 
       - name: Python 3.11 Environment Provisioning
@@ -161,11 +162,6 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: |
           python -u -m src.v2_optimizer --render-only
-          if [ -f v2_safety_report.md ]; then
-            cat v2_safety_report.md >> pr_description.md
-          else
-            echo "No safety report generated." > pr_description.md
-          fi
 
       - name: Consolidate README Metrics
         env:
@@ -186,15 +182,15 @@ jobs:
             exit 0
           fi
           git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
-          if git push origin develop; then
+          if git push origin master; then
             echo "Push succeeded on initial attempt."
             exit 0
           fi
           OUR=$(git rev-parse HEAD)
           for i in {1..5}; do
             echo "Publish retry $i/5 after remote advance..."
-            git fetch origin develop
-            git reset --hard origin/develop
+            git fetch origin master
+            git reset --hard origin/master
             git checkout "$OUR" -- data/news_digest.json || true
             python -u src/v2_video_portal.py
             python src/reorganize_mosaic.py
@@ -208,34 +204,15 @@ jobs:
               exit 0
             fi
             git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
-            if git push origin develop; then
+            if git push origin master; then
               echo "Push succeeded on attempt $i."
               exit 0
             fi
             echo "Attempt $i rejected — remote advanced, retrying from fresh tip..."
             sleep $((i * 3))
           done
-          echo "::error::V2 publish push failed after 5 attempts (persistent write contention on develop)."
+          echo "::error::V2 publish push failed after 5 attempts (persistent write contention on master)."
           exit 1
-
-      - name: Create or Update Promotion PR to Master
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git pull origin develop --rebase
-          # Check if a PR already exists
-          PR_EXISTS=$(gh pr list --head develop --base master --json number --jq '.[0].number')
-          
-          if [ -z "$PR_EXISTS" ]; then
-            echo "Creating new PR from develop to master..."
-            gh pr create \
-              --base master \
-              --head develop \
-              --title "🚀 Release: Agentic V2 Portal Update" \
-              --body "Automated promotion from develop to master. This PR includes updated V2 Elite portal content, AI-enriched metadata, and synchronized README metrics. Please review and merge to deploy to production."
-          else
-            echo "PR #$PR_EXISTS already exists. No action needed (it will auto-update with the push)."
-          fi
 
       - name: Upload Architecture and Decision Logs
         if: always()

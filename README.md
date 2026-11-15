@@ -224,7 +224,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **20107+** |
 | **Specialized MD Pages** | **163** |
-| **Total Commits** | **7415+** |
+| **Total Commits** | **7417+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -262,7 +262,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 3856 | 15,925 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 3858 | 15,933 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -278,8 +278,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 16000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15925]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3856]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 15933]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3858]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -291,7 +291,7 @@ xychart-beta
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
 | 2026-06 | 853 | 3,522 | Active Curation |
 | 2026-07 | 382 | 1,577 | Active Curation |
-| 2026-11 | 188 | 776 | Active Curation |
+| 2026-11 | 190 | 784 | Active Curation |
 | 2026-10 | 170 | 702 | Active Curation |
 | 2026-09 | 77 | 318 | Active Curation |
 | 2026-08 | 60 | 247 | Active Curation |
@@ -343,7 +343,7 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 
 | Layer | Technology | Purpose |
 | :--- | :--- | :--- |
-| **Orchestration** | GitHub Actions | Scheduled and Event-driven execution (via `develop` branch). |
+| **Orchestration** | GitHub Actions | Scheduled and Event-driven execution (via `master` trunk branch). |
 | **Intelligence** | Google Gemini (Multi-model) | Resource evaluation, scoring, and classification. |
 | **Optimization** | Adaptive AI Tiering | Dynamic model selection (Pro/Flash) and Global rate limiting. |
 | **CI/CD Hardening** | Concurrency & [skip ci] | Prevention of race conditions and recursive trigger loops. |
@@ -407,7 +407,7 @@ graph TD
 </details>
 
 **Key Architectural Hardening:**
-- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups. Workflows that write metadata/metrics (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) share a static, unified concurrency group `develop-git-write-lock` to serialize git write operations on `develop` across all branches and event triggers.
+- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups. Workflows that write metadata/metrics (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) use dedicated concurrency groups to serialize git write operations on the `master` trunk across all event triggers.
 - **Self-Healing Git Rebase & Push Recovery:** Incorporates a rebase and push retry loop that automatically resolves conflicts in generated files (like `README.md`) by checking out remote HEAD, re-running generators, and validating both the rebase and push commands before exiting successfully, ensuring total CI/CD pipeline stability.
 - **Trigger Loop Prevention:** Uses the `[skip ci]` protocol to break infinite recursive loops during automated PR merges.
 - **Setup Acceleration:** Playwright caching reduces the environment initialization time from 5 minutes to under 60 seconds.
@@ -539,7 +539,7 @@ The V2 portal includes an **AI-powered Intelligence Digest** system that surface
 - **Per-page "Last update" dates**: The `git-revision-date-localized` plugin surfaces a real last-modified date on every page (freshness signal for SEO and readers); the deploy checkout uses `fetch-depth: 0` for full history.
 - **JSON-LD structured data**: schema.org `WebSite` (with a sitelinks `SearchAction`) + publishing `Organization` markup injected via `docs/overrides/main.html` for richer search results.
 - **Branded 404 page** and **privacy-friendly video embeds** (`youtube-nocookie.com` + lazy-loading + responsive `aspect-ratio` wrapper).
-- **Deterministic generated artifacts**: the RSS feed's `lastBuildDate` derives from item content dates (not wall-clock), and the PR Guardian no longer auto-formats the generated `v2-docs/` tree — both eliminating spurious `develop ↔ master` churn.
+- **Deterministic generated artifacts**: the RSS feed's `lastBuildDate` derives from item content dates (not wall-clock), and the PR Guardian no longer auto-formats the generated `v2-docs/` tree — both eliminating spurious trunk commit churn.
 
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
@@ -723,7 +723,7 @@ graph TD
     end
 
     subgraph S4["4 · Publish and Deploy"]
-        V1 --> REL["develop → master<br/>tag + GitHub Release"]
+        V1 --> REL["master (trunk)<br/>tag + GitHub Release"]
         V2 --> REL
         REL --> PAGES["Native GH Pages<br/>nubenetes.com"]
     end
@@ -873,7 +873,7 @@ Nubenetes utilizes a **Performance-First / Cost-Optimized** hybrid model.
 | **Economy** | 100% Gemini Flash | 2.2k | 37.6M | **€2.60** | **$2.82** |
 
 #### 2. Standard Pipeline Execution (Incremental)
-Cost per automated workflow run on the `develop` branch.
+Cost per automated workflow run on the `master` trunk branch.
 
 | Execution Type | Frequency | New Links | Model Tier | Cost per Run (EUR) |
 | :--- | :--- | :---: | :--- | :---: |
@@ -1004,7 +1004,7 @@ The following matrix defines our strategic model tiering across all workflows:
 | **Debate Synthesis** | Curation / V2 Builder | **Gemini Pro** | Tier 2 | High-fidelity final consensus and summary synthesis. | **Medium** |
 
 ### 8.2. Core Agent Definitions
-The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
+The heart of the new Nubenetes is a suite of AI Agents that operate on our `master` trunk branch:
 
 1.  **AgenticCurator ([`src/agentic_curator.py`](src/agentic_curator.py))**:
     - **Discovery:** Scans multiple high-trust X.com accounts and RSS feeds.
@@ -1109,11 +1109,11 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | | | | `force_enrich` | ==FALSE== | Bypasses video AI cache for deep re-analysis. |
 | **04** | **Elite Portal** | [**04.1. V2 Publisher**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_publish.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | | | [**04.2. Emergency V2 PR Generator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_pr_only.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
-| **05** | **Metrics** | [**05.1. README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) | N/A | ==AUTO== | Updates metrics and TOC upon `develop` push. |
+| **05** | **Metrics** | [**05.1. README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) | N/A | ==AUTO== | Updates metrics and TOC upon `master` trunk push. |
 | **06** | **Deployment** | [**06.1. Final Portal Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/06.deploy_final.yml) | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
 | **07** | **Quality Gate**| [**07.1. PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml) | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
 | | | [**07.2. Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml) | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
-| **08** | **Maintenance**| [**08.1. Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) | N/A | ==CRON== | Deletes remote branches merged into `develop`. |
+| **08** | **Maintenance**| [**08.1. Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) | N/A | ==CRON== | Deletes remote branches merged into `master`. |
 | | | [**08.2. Critical Asset Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml) | N/A | ==CRON== | Tracks integrity of special assets and banners. |
 
 #### 9.1.1. Optional Cache Restoration Policy
@@ -1157,9 +1157,9 @@ Designed as a "Safety Off-ramp" to recover partially processed data from the Git
 ### 9.2. Recommended Execution Pipeline
 To maintain the archive's integrity, the following logical sequence is followed:
 1.  **Phase 1: Knowledge Discovery or Maintenance (#1, #3, or #4):** Raw technical data is fetched/filtered (Curation) or the existing archive is audited for health (Cleaning).
-2.  **Phase 2: Elite Synthesis (#2):** Once curation or cleaning changes are merged into `develop`, the V2 Builder triggers automatically to synchronize the premium portal with the latest data and health status.
-3.  **Phase 3: Metric Alignment (#5):** The push to `develop` triggers the README Sync.
-4.  **Phase 4: Global Deployment (#8):** Review and merge into `master` to update production.
+2.  **Phase 2: Elite Synthesis (#2):** Once curation or cleaning changes land on `master`, the V2 Builder triggers automatically to synchronize the premium portal with the latest data and health status.
+3.  **Phase 3: Metric Alignment (#5):** Pushes to `master` trigger README metric sync (or consolidated updates via `04.1`).
+4.  **Phase 4: Global Deployment (#6):** `06.1. Final Portal Deploy` builds and publishes Pages automatically on site pushes and deduplicated `workflow_run` completions from `04.1` / `09`.
 
 ### 9.3. Workflow Trigger and Synchronization Logic
 The following flowchart illustrates how autonomous discovery and maintenance tasks orchestrate the update of the V2 Elite portal. Nubenetes uses a **Surgical Trigger Strategy** to ensure the V2 Builder only executes when relevant data or logic changes occur.
@@ -1173,8 +1173,8 @@ graph TD
         C["Scheduled / Manual Audit"] --> D["[3] Intelligent Cleaner"]
     end
 
-    B -->|"Merged into develop<br/>(Path Filter: docs/, inventory.yaml)"| E{"V2 Surgical Trigger"}
-    D -->|"Merged into develop<br/>(Path Filter: inventory.yaml)"| E
+    B -->|"Merged into master<br/>(Path Filter: docs/, inventory.yaml)"| E{"V2 Surgical Trigger"}
+    D -->|"Merged into master<br/>(Path Filter: inventory.yaml)"| E
     F["Manual / Logic Update<br/>(src/v2_optimizer.py)"] --> E
 
     subgraph "Persistence Layer (2026)"
@@ -1190,13 +1190,9 @@ graph TD
         G_AUTO --> H["[5] README Sync"]
     end
 
-    subgraph "Resilience Persistence"
-        H --> H_SAVE["Save Database Cache<br/>(IF ALWAYS)"]
-    end
-
     subgraph "Phase 4: Production Deployment"
-        H_SAVE --> I["Manual Review<br/>(develop → master)"]
-        I --> J["[8] Production Deploy"]
+        G_AUTO --> I["Workflow Run Precheck<br/>(master trunk)"]
+        I --> J["[6] Production Deploy"]
         J --> K["nubenetes.com"]
     end
 ```
@@ -1215,15 +1211,14 @@ sequenceDiagram
     participant W1 as [1] Agentic Curation
     participant W2 as [2] V2 Elite Builder
     participant W3 as [5] README Sync
-    participant R as Repo (develop)
-    participant M as master branch
-    participant P as [8] Prod Deploy
+    participant R as Trunk (master)
+    participant P as [6] Prod Deploy
 
     W1->>X: Extract Raw Data
     X-->>W1: Raw JSON/MD
     W1->>GA: Initial Evaluation (Analyst)
     GA->>W1: Preliminary Scored Assets
-    W1->>R: Update docs/*.md (V1)
+    W1->>R: PR Merged to master (V1)
     
     Note over R: V2 Builder Triggered...
     W2->>GA: Broad Classification (Analyst)
@@ -1236,9 +1231,7 @@ sequenceDiagram
     W2->>R: Update v2-docs/ (Elite)
     R->>W3: Trigger README Sync
     W3->>R: Update Metrics and TOC
-    Note over R, M: Owner Review and Merge
-    R->>M: Sync develop to master
-    M->>P: Trigger Production Build
+    R->>P: Trigger Production Build (push / workflow_run)
     P-->>P: Deploy V1 and V2 to nubenetes.com
 ```
 
@@ -1249,11 +1242,11 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-    A["AI Discovery"] --> B["V1 Update (develop)"]
+    A["AI Discovery"] --> B["V1 Update (master)"]
     B --> D["V2 Vision Engine"]
     B --> Z["README Sync"]
-    D --> E["V2 Update (develop)"]
-    M["Sync to 'master'"] --> C["Pip Cache and<br/>CI/CD Build"]
+    D --> E["V2 Update (master)"]
+    E --> C["Pip Cache and<br/>CI/CD Build"]
     C --> F["Upload Pages Artifact"]
     F --> G["Native Deploy:<br/>V1 (Root/SEO) · V2 (/v2/)<br/>· V1 Fallback (/v1/)"]
     G --> H["Inject Root<br/>Redirect to /v2/"]
@@ -1263,7 +1256,7 @@ graph LR
 </details>
 
 ### 9.6. Automated Mandate Auditing
-Every Pull Request targeting the `develop` branch is subjected to a **blocking pre-submit Gate** and a **self-healing auto-formatting pipeline** to enforce project mandates:
+Every Pull Request targeting the `master` trunk branch is subjected to a **blocking pre-submit Gate** and a **self-healing auto-formatting pipeline** to enforce project mandates:
 - **Blocking PR Guardian AI Gate**: The [PR Guardian AI](.github/workflows/07.1.pr_guardian.yml) check runs on `pull_request` events, evaluating the git diff against [`GEMINI.md`](GEMINI.md) mandates using Gemini Flash. If the PR violates critical constraints (e.g., non-permissive license transitions, missing high-density descriptions, or invalid URL structure), it posts a detailed audit report as an issue comment, exits with status `1`, and blocks the PR from merging.
 - **Self-Healing Auto-Corrective Commits**: The [PR Guardian](src/pr_guardian.py) automatically applies auto-formatting directly to modified markdown files on the PR branch, addressing minor styling and normalization issues:
     *   *URL Normalization*: Strips social tracking parameters (e.g., `utm_source`) and enforces a zero-trailing-slash policy on new links via [normalize_url](src/gemini_utils.py#L241).
@@ -1285,21 +1278,20 @@ When processing massive datasets (e.g., full AI re-evaluations of 18k+ links), w
 1.  **Incremental Persistence**: The engine saves progress to the GitHub Actions Cache periodically (every 20 batches). Even if the job is cancelled or times out, the `Persist Incremental Inventory to Cache` step runs `always()`.
 2.  **Recovery Procedure**: If a workflow fails due to "exceeded the maximum execution time", follow these steps to resume:
     *   **Trigger**: Go to the Actions tab and select the failed workflow (e.g., `03.2. V2 AI Curator`).
-    *   **Run Workflow**: Select the `develop` branch.
+    *   **Run Workflow**: Select the `master` trunk branch.
     *   **restore_cache**: Set to `true` (Downloads the last saved state).
     *   **force_reevaluate**: Set to `false` (Ensures the AI only processes links that are still pending/missing metadata).
-3.  **Finalization and Promotion**: Once the AI recovery run completes successfully (which will be much faster as it only processes pending items):
-    *   **Manual Publisher Trigger**: If the automated chain does not trigger, manually run the `04.1. V2 Publisher` workflow.
-    *   **Automated PR**: The Publisher will automatically create or update the Pull Request from `develop` to `master`.
-    *   **Human Review**: The final step remains a manual review and merge of the PR by the repository owner to deploy to production.
+3.  **Finalization and Deployment**: Once the AI recovery run completes successfully (which will be much faster as it only processes pending items):
+    *   **Manual Publisher Trigger**: If the automated chain does not trigger, manually run the `04.1. V2 Publisher` workflow on `master`.
+    *   **Automatic Deployment**: Upon completion of `04.1. V2 Publisher`, `06.1. Final Portal Deploy` triggers automatically via `workflow_run` (with commit-SHA deduplication) to deploy the updated site to production.
 4.  **Efficiency**: This strategy ensures zero token waste and zero loss of processing time, allowing the system to reach 100% coverage across multiple successive runs if necessary.
 
 ---
 
 ## 10. Branching Strategy and Lifecycle
-- **`develop` Branch (Bleeding Edge):** Primary branch for all activities. **ALL Pull Requests MUST target this branch.**
-- **`master` Branch (Production):** Stable branch powerling [nubenetes.com](https://nubenetes.com). Direct PRs are prohibited.
-- **Branch Lifecycle Automation:** Automated cleanup of merged branches every 15 days (1st/15th). Protected: `master`, `develop`, `gh-pages`.
+- **`master` Branch (Canonical Trunk & Production):** Single source of truth for code, workflows, `schedule` crons, V1/V2 sources, and [nubenetes.com](https://nubenetes.com) Pages deployment.
+- **Short-lived Branches (`feat/*`, `fix/*`, `bot/*`):** Created from `master` for code, manual additions, and PR-based bot updates, then merged back to `master` via Pull Request.
+- **Branch Lifecycle Automation:** Automated cleanup (`08.1`) of merged and stale short-lived branches runs every 15 days (1st/15th). Protected: `master`, `gh-pages`.
 
 ---
 
@@ -1308,7 +1300,7 @@ When processing massive datasets (e.g., full AI re-evaluations of 18k+ links), w
 Nubenetes thrives on a **Hybrid Human-AI Collaboration** model. Community contributions are the lifeblood of the V1 archive.
 
 ### How to Contribute
-1.  **Target Branch**: Always create your Pull Requests against the `develop` branch.
+1.  **Target Branch**: Always create your Pull Requests against the `master` trunk branch.
 2.  **Source of Truth (V1)**: Only add or edit files in the `docs/` directory. **Do not manually edit [`v2-docs/`](v2-docs/)**.
 3.  **Manual Link Format**: Use the standard format: `  - [Title](URL) - Your descriptive summary.`
 4.  **Automatic Adoption**: Once merged, the **Agentic Curator** and **V2 Builder** will validate health, extract metadata, assign a recursive hierarchy, and generate an English summary.

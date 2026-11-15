@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.10.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.10.0) - 2026-11-15
+
+### Changed
+- **Trunk-Based Development Migration (`master` Single Canonical Trunk)**: Consolidated the two-branch `develop` → `master` GitFlow setup into a single canonical `master` trunk across all GitHub Actions workflows, automation modules, and project documentation (`CLAUDE.md`, `GEMINI.md`, `README.md`). Eliminates workflow YAML/code skew on GitHub `schedule:` crons, promotion PR ceremony, and `develop ↔ master` artifact drift.
+- **Workflow & Automation Retargeting**:
+  - Updated `01.1`, `02.1`, `02.2`, `03.1`, `03.2`, `03.3`, `04.1`, `04.2`, `05.1`, `07.2`, `08.1`, `08.2`, and `09` to check out, push, lint, clean up, and target `master`, and aligned `07.1.pr_guardian.yml` comments with single-trunk terminology.
+  - Hardened `03.2.agentic_v2_ai.yml` (`workflow_run.branches: [master]`), `08.1.cleanup_merged_branches.yml` (explicit `permissions`, anchored branch exclusion regex, and `git merge-base --is-ancestor` verification), and `09.weekly_digest.yml` (`git rebase --abort` cleanup on retry).
+  - Removed obsolete `develop → master` promotion PR steps from `04.1. V2 Publisher` and `09. Weekly Intelligence Digest`.
+  - Updated `RepositoryController` (`src/gitops_manager.py`) to set `default_branch_name = "master"`, and cleaned up obsolete `develop ↔ master` notes in `src/pr_guardian.py` and `src/rss_generator.py`.
+- **Deploy Storm Prevention & Deduplicated Pages Deployment (`06.1. Final Portal Deploy`)**:
+  - Scoped `on.push` (`master`) to site-affecting paths (`docs/**`, `v2-docs/**`, `mkdocs.yml`, `v2-mkdocs.yml`, `requirements.txt`, `06.deploy_final.yml`).
+  - Added `on.workflow_run` triggers for `04.1. V2 Publisher` and `09. Weekly Intelligence Digest` on `master`, gated by a `precheck` job that skips skipped upstream `publish-v2` jobs and verifies whether `master` HEAD (`head_sha`) is already deployed or queued, ensuring `[skip ci]` bot publishes deploy once without redundant builds.
+
+### Added
+- **Metadata-Driven, Version-First Gemini Model Selector (`src/gemini_utils.py`, `tests/test_gemini_model_selector.py`)**: Replaced closed-world keyword allowlists and flat additive scoring with API metadata classification (`classify_model_metadata`) and lexicographic tuple ranking (`select_models_for_task`). Automatically adopts `gemini-4-hydrogen` (`FAST`), `gemini-4-carbon`/`gemini-4-argon` (`FRONTIER`), API-described tiers, and unseen future naming schemes (`GEMINI_FAST_MODEL`/`GEMINI_PRO_MODEL` overrides supported), with non-sticky fallback recovery if API discovery fails transiently.
+- **Async Critical Asset Monitor (`src/critical_asset_monitor.py`, `08.2.critical_asset_monitor.yml`)**: Replaced the slow inline sequential check with an async per-host-throttled auditor backed by `inventory_manager` (`load_inventory`/`save_inventory`), preserving `review_required` items while recovering `offline`/`dead` entries and keeping `data/inventory.sql` and `data/inventory.yaml` synchronized cleanly.
+- **Pipeline Deduplication & Video Hub Hardening**: Eliminated overlapping duplicate executions across `03.2` → `03.3` → `04.1` via upstream commit/job `precheck` deduplication, and expanded Video Hub playlists (`Enterprise AI, Agents & Agentic SRE`, `DevOps, IaC, and SRE`, `NVIDIA Kubernetes Engine (NVKE)`, and `NVIDIA NVKR`).
+
 ## [[2.9.67]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.67) - 2026-10-25
 
 ### Added

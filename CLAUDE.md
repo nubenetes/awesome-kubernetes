@@ -1,37 +1,32 @@
 # CLAUDE.md — Nubenetes Project Instructions for Claude Code
 
-## Git Workflow: Gitflow
+## Git Workflow: Trunk-Based Development
 
-This repository uses **Gitflow**. All agents MUST follow this branching model:
+This repository uses **Trunk-Based Development**. All agents MUST follow this branching model:
 
 ### Branches
-- **`master`** — Production. Only receives merges from release branches. Every merge to master gets a **tag** and a **GitHub Release**.
-- **`develop`** — Integration branch. All feature branches merge here first.
-- **`feat/*`** — Feature branches. Created from `develop`, merged back to `develop` via PR.
-- **`release/vX.Y.Z`** — Release branches. Created from `develop` when ready to release, merged to both `master` AND back to `develop`.
-- **`gh-pages`** — Deployment. Never touch directly.
+- **`master`** — Canonical trunk (single source of truth for code, docs, inventory, CI schedules, and GitHub Pages deployment). Every release gets a **tag** and a **GitHub Release** directly from `master`.
+- **`feat/*`**, **`fix/*`**, **`bot/*`** — Short-lived feature/automation branches created from `master` and merged back to `master` via Pull Request.
+- **`gh-pages`** — Deployment artifact branch (if present). Never touch directly.
 
 ### Release Process (mandatory for all releases)
-1. Create feature branch from `develop`: `git checkout -b feat/description develop`
-2. Implement changes, commit, push feature branch
-3. Create PR: `gh pr create --base develop --head feat/description`
-4. Merge PR to develop: `gh pr merge N --merge`
-5. Create release branch: `git checkout -b release/vX.Y.Z develop`
-6. Merge release to master: `git checkout master && git merge release/vX.Y.Z --no-ff`
-7. Tag: `git tag -a vX.Y.Z -m "description"`
-8. Push master + tag: `git push origin master && git push origin vX.Y.Z`
-9. Back-merge master to develop: `git checkout develop && git merge master --no-ff && git push origin develop`
-10. Create GitHub Release: `gh release create vX.Y.Z --title "..." --notes "..."`
+1. Create short-lived branch from `master`: `git checkout -b feat/description master`
+2. Implement changes, test locally, commit, and push branch
+3. Create PR: `gh pr create --base master --head feat/description`
+4. Merge PR to `master`: `gh pr merge N --merge --delete-branch`
+5. Tag directly on `master`: `git checkout master && git pull origin master && git tag -a vX.Y.Z -m "description"`
+6. Push tag: `git push origin vX.Y.Z`
+7. Create GitHub Release: `gh release create vX.Y.Z --title "..." --notes "..."`
 
 ### Versioning
-- Current: `v2.9.2`
+- Current: `v2.10.0`
 - Format: `v{major}.{minor}.{patch}`
-- Major: breaking changes or architectural shifts
-- Minor: new features (like the digest engine, new modules)
+- Major: breaking changes or major platform overhauls
+- Minor: new features or architectural shifts (like Trunk migration, digest engine, Gen-4 AI selector)
 - Patch: bug fixes, config tweaks
 
 ### Protected Branches
-`master`, `develop`, and `gh-pages` are NEVER deleted. Branch cleanup runs bi-monthly for merged feature branches.
+`master` and `gh-pages` are NEVER deleted. Branch cleanup runs bi-monthly (`08.1`) for merged and stale short-lived branches.
 
 ## Repository Structure
 
