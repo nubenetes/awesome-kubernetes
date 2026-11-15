@@ -29,7 +29,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-4" href="#bash-content" title="110 resources">Bash<span class="v2-heat-n">110</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#bash-python-content" title="1 resources">Bash/Python<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#bash-yaml-content" title="1 resources">Bash/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="#bicep-content" title="18 resources">Bicep<span class="v2-heat-n">18</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#bicep-content" title="17 resources">Bicep<span class="v2-heat-n">17</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#c-content" title="29 resources">C<span class="v2-heat-n">29</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#c-sharp-content" title="27 resources">C#<span class="v2-heat-n">27</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#c-plus-plus-go-python-content" title="1 resources">C++ / Go / Python<span class="v2-heat-n">1</span></a>
@@ -46,7 +46,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-6" href="#community-tool" title="8386 resources">Community-Tool<span class="v2-heat-n">8386</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#de-facto-standard" title="1292 resources">De Facto Standard<span class="v2-heat-n">1292</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#de-facto-standard" title="1289 resources">De Facto Standard<span class="v2-heat-n">1289</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#dev-dx" title="1 resources">Dev-Dx<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#developer-experience" title="1 resources">Developer-Experience<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
@@ -54,10 +54,10 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-3" href="#dockerfile-content" title="20 resources">Dockerfile<span class="v2-heat-n">20</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#dockerfile-shell-content" title="1 resources">Dockerfile/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#documentation" title="2 resources">Documentation<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-3" href="#ebpf" title="71 resources">EBPF<span class="v2-heat-n">71</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#ebpf" title="70 resources">EBPF<span class="v2-heat-n">70</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="#emerging" title="503 resources">Emerging<span class="v2-heat-n">503</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#enterprise-stable" title="1157 resources">Enterprise-Stable<span class="v2-heat-n">1157</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#emerging" title="502 resources">Emerging<span class="v2-heat-n">502</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#enterprise-stable" title="1152 resources">Enterprise-Stable<span class="v2-heat-n">1152</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
@@ -68,7 +68,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-2" href="#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#go-content" title="1038 resources">Go<span class="v2-heat-n">1038</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#go-content" title="1037 resources">Go<span class="v2-heat-n">1037</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -103,15 +103,15 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-2" href="#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#kubernetes" title="2 resources">Kubernetes<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#legacy" title="638 resources">Legacy<span class="v2-heat-n">638</span></a>
-<a class="v2-heat-tag v2-heat-4" href="#llm" title="99 resources">LLM<span class="v2-heat-n">99</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#legacy" title="637 resources">Legacy<span class="v2-heat-n">637</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#llm" title="98 resources">LLM<span class="v2-heat-n">98</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="#markdown-content" title="334 resources">Markdown<span class="v2-heat-n">334</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#markdown-content" title="333 resources">Markdown<span class="v2-heat-n">333</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="#mcp" title="247 resources">MCP<span class="v2-heat-n">247</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#mcp" title="246 resources">MCP<span class="v2-heat-n">246</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#merge-queue" title="1 resources">Merge-Queue<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#mlops" title="63 resources">MLOPS<span class="v2-heat-n">63</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#multi-content" title="2 resources">Multi<span class="v2-heat-n">2</span></a>
@@ -159,7 +159,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-1" href="#shell-dockerfile-content" title="2 resources">Shell/Dockerfile<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#shell-yaml-content" title="1 resources">Shell/Yaml<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#smarty-content" title="2 resources">Smarty<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-4" href="#spanish-content" title="214 resources">Spanish<span class="v2-heat-n">214</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#spanish-content" title="213 resources">Spanish<span class="v2-heat-n">213</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#sql-content" title="42 resources">Sql<span class="v2-heat-n">42</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#sql-typescript-content" title="1 resources">Sql/Typescript<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#sql-yaml-content" title="1 resources">Sql/Yaml<span class="v2-heat-n">1</span></a>
@@ -197,31 +197,31 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 
 ### Maturity and Quality
 
-1. [De Facto Standard](#de-facto-standard) (1292 resources)
-1. [Enterprise-Stable](#enterprise-stable) (1157 resources)
-1. [Emerging](#emerging) (503 resources)
+1. [De Facto Standard](#de-facto-standard) (1289 resources)
+1. [Enterprise-Stable](#enterprise-stable) (1152 resources)
+1. [Emerging](#emerging) (502 resources)
 1. [Guide](#guide) (1077 resources)
 1. [Case Study](#case-study) (110 resources)
 1. [Community-Tool](#community-tool) (8386 resources)
-1. [Legacy](#legacy) (638 resources)
-1. [Spanish Content](#spanish-content) (214 resources)
+1. [Legacy](#legacy) (637 resources)
+1. [Spanish Content](#spanish-content) (213 resources)
 
 ### Technical Domains
 
-[MCP](#mcp) (247) · [LLM](#llm) (99) · [EBPF](#ebpf) (71) · [MLOPS](#mlops) (63) · [GPU](#gpu) (61) · [CLOUD-AI](#cloud-ai) (43) · [IAC](#iac) (41) · [Terraform](#terraform) (40) · [Azure](#azure) (22) · [AI](#ai) (20) · [Security](#security) (5) · [Cicd](#cicd) (4) · [Ci-Cd](#ci-cd) (3) · [GITOPS](#gitops) (3) · [Automation](#automation) (2) · [Aws](#aws) (2) · [Documentation](#documentation) (2) · [Git](#git) (2) · [Kubernetes](#kubernetes) (2) · [Networking](#networking) (2) · [SRE](#sre) (2) · [Aiops](#aiops) (1) · [Aks](#aks) (1) · [Api-First](#api-first) (1) · [Architecture](#architecture) (1) · [Dev-Dx](#dev-dx) (1) · [Developer-Experience](#developer-experience) (1) · [Gcp](#gcp) (1) · [Github-Actions](#github-actions) (1) · [Iam](#iam) (1) · [Machine-Learning](#machine-learning) (1) · [Merge-Queue](#merge-queue) (1) · [Observability](#observability) (1) · [Platform-Engineering](#platform-engineering) (1) · [Release-Engineering](#release-engineering) (1) · [Serverless](#serverless) (1)
+[MCP](#mcp) (246) · [LLM](#llm) (98) · [EBPF](#ebpf) (70) · [MLOPS](#mlops) (63) · [GPU](#gpu) (61) · [CLOUD-AI](#cloud-ai) (43) · [IAC](#iac) (41) · [Terraform](#terraform) (40) · [Azure](#azure) (22) · [AI](#ai) (20) · [Security](#security) (5) · [Cicd](#cicd) (4) · [Ci-Cd](#ci-cd) (3) · [GITOPS](#gitops) (3) · [Automation](#automation) (2) · [Aws](#aws) (2) · [Documentation](#documentation) (2) · [Git](#git) (2) · [Kubernetes](#kubernetes) (2) · [Networking](#networking) (2) · [SRE](#sre) (2) · [Aiops](#aiops) (1) · [Aks](#aks) (1) · [Api-First](#api-first) (1) · [Architecture](#architecture) (1) · [Dev-Dx](#dev-dx) (1) · [Developer-Experience](#developer-experience) (1) · [Gcp](#gcp) (1) · [Github-Actions](#github-actions) (1) · [Iam](#iam) (1) · [Machine-Learning](#machine-learning) (1) · [Merge-Queue](#merge-queue) (1) · [Observability](#observability) (1) · [Platform-Engineering](#platform-engineering) (1) · [Release-Engineering](#release-engineering) (1) · [Serverless](#serverless) (1)
 
 ### Language and Format
 
 Resources indexed by their primary source language or document format.
 
-[Go](#go-content) (1038) · [Java](#java-content) (446) · [Yaml](#yaml-content) (409) · [Python](#python-content) (380) · [Markdown](#markdown-content) (334) · [Hcl](#hcl-content) (221) · [Typescript](#typescript-content) (190) · [Shell](#shell-content) (181) · [Javascript](#javascript-content) (133) · [Bash](#bash-content) (110) · [Powershell](#powershell-content) (66) · [Groovy](#groovy-content) (59) · [Agnostic](#agnostic-content) (58) · [Sql](#sql-content) (42) · [Rust](#rust-content) (38) · [Html](#html-content) (36) · [C](#c-content) (29) · [C#](#c-sharp-content) (27) · [C++](#c-plus-plus-content) (22) · [Json](#json-content) (22) · [Dockerfile](#dockerfile-content) (20) · [Ruby](#ruby-content) (20) · [Bicep](#bicep-content) (18) · [Conceptual](#conceptual-content) (13) · [Pdf](#pdf-content) (10) · [Rego](#rego-content) (8) · [Terraform](#terraform-content) (8) · [Jsonnet](#jsonnet-content) (5) · [Kql](#kql-content) (5) · [Xml](#xml-content) (5) · [Haskell](#haskell-content) (4) · [Hcl/Yaml](#hcl-yaml-content) (4) · [Kotlin](#kotlin-content) (4) · [Php](#php-content) (4) · [Scala](#scala-content) (4) · [Yml](#yml-content) (4) · [Ansible](#ansible-content) (3) · [Awk](#awk-content) (3) · [French](#french-content) (3) · [Go/Yaml](#go-yaml-content-2) (3) · [Node.Js](#node-js-content) (3) · [Powershell/Cli](#powershell-cli-content) (3) · [Promql](#promql-content) (3) · [Python/Yaml](#python-yaml-content) (3) · [Go / Javascript](#go-javascript-content) (2) · [Go / Yaml](#go-yaml-content) (2) · [Java / Yaml](#java-yaml-content) (2) · [Javascript/Typescript](#javascript-typescript-content) (2) · [Lua](#lua-content) (2) · [Multi](#multi-content) (2) · [Nix](#nix-content) (2) · [Perl](#perl-content) (2) · [Python/Shell](#python-shell-content) (2) · [Shell/Dockerfile](#shell-dockerfile-content) (2) · [Smarty](#smarty-content) (2) · [Yaml/Bash](#yaml-bash-content) (2) · [Yaml/Go](#yaml-go-content-2) (2) · [Yaml/Hcl](#yaml-hcl-content) (2) · [Yaml/Helm](#yaml-helm-content) (2) · [Any](#any-content) (1) · [Apacheconf](#apacheconf-content) (1) · [Asciidoc](#asciidoc-content) (1) · [Ballerina](#ballerina-content) (1) · [Bash/Python](#bash-python-content) (1) · [Bash/Yaml](#bash-yaml-content) (1) · [C++ / Go / Python](#c-plus-plus-go-python-content) (1) · [C++ / Go](#c-plus-plus-go-content) (1) · [C/Bash](#c-bash-content) (1) · [C/C++](#c-c-plus-plus-content) (1) · [Chinese](#chinese-content) (1) · [Clojure](#clojure-content) (1) · [Dart](#dart-content) (1) · [Docker](#docker-content) (1) · [Docker/Shell](#docker-shell-content) (1) · [Dockerfile/Shell](#dockerfile-shell-content) (1) · [Elixir](#elixir-content) (1) · [Erlang](#erlang-content) (1) · [Flux](#flux-content) (1) · [German](#german-content) (1) · [Go/Bash](#go-bash-content) (1) · [Go/Markdown](#go-markdown-content) (1) · [Go/Rego](#go-rego-content) (1) · [Go/Typescript](#go-typescript-content) (1) · [Groovy/Hcl](#groovy-hcl-content) (1) · [Groovy/Yaml](#groovy-yaml-content) (1) · [Hcl/Packer](#hcl-packer-content) (1) · [Helm](#helm-content) (1) · [Image/Pdf](#image-pdf-content) (1) · [Ini](#ini-content) (1) · [Ini/Yaml](#ini-yaml-content) (1) · [Java / English](#java-english-content) (1) · [Java / Go / Node.Js](#java-go-node-js-content) (1) · [Java/C++](#java-c-plus-plus-content) (1) · [Javascript/Shell](#javascript-shell-content) (1) · [Makefile](#makefile-content) (1) · [Markdown/Images](#markdown-images-content) (1) · [Markdown/Shell](#markdown-shell-content) (1) · [Nginx Conf](#nginx-conf-content) (1) · [Norwegian](#norwegian-content) (1) · [Objective-C](#objective-c-content) (1) · [Ocaml](#ocaml-content) (1) · [Powershell / Sql](#powershell-sql-content) (1) · [Powershell/Bash](#powershell-bash-content) (1) · [Proprietary](#proprietary-content) (1) · [Protobuf](#protobuf-content) (1) · [Python / C++](#python-c-plus-plus-content) (1) · [Python / Go](#python-go-content) (1) · [Python/Ansible](#python-ansible-content) (1) · [Python/Go](#python-go-content-2) (1) · [Python/Terraform](#python-terraform-content) (1) · [R](#r-content) (1) · [Regex](#regex-content) (1) · [Robot](#robot-content) (1) · [Sed](#sed-content) (1) · [Sentinel](#sentinel-content) (1) · [Shell/Ansible](#shell-ansible-content) (1) · [Shell/Yaml](#shell-yaml-content) (1) · [Sql/Typescript](#sql-typescript-content) (1) · [Sql/Yaml](#sql-yaml-content) (1) · [Typescript / Go](#typescript-go-content) (1) · [Typescript / Rust](#typescript-rust-content) (1) · [Typescript/Elixir](#typescript-elixir-content) (1) · [Typescript/Rego](#typescript-rego-content) (1) · [Vim Script](#vim-script-content) (1) · [Viml](#viml-content) (1) · [Webassembly](#webassembly-content) (1) · [Yaml / C#](#yaml-c-sharp-content) (1) · [Yaml / Go](#yaml-go-content) (1) · [Yaml / Rego](#yaml-rego-content) (1) · [Yaml / Shell](#yaml-shell-content) (1) · [Yaml/Jinja2](#yaml-jinja2-content) (1) · [Yaml/Markdown](#yaml-markdown-content) (1) · [Yaml/Python](#yaml-python-content) (1) · [Yaml/Shell](#yaml-shell-content-2) (1) · [Yaml/Terraform](#yaml-terraform-content) (1) · [Yaml/Vagrantfile](#yaml-vagrantfile-content) (1)
+[Go](#go-content) (1037) · [Java](#java-content) (446) · [Yaml](#yaml-content) (409) · [Python](#python-content) (380) · [Markdown](#markdown-content) (333) · [Hcl](#hcl-content) (221) · [Typescript](#typescript-content) (190) · [Shell](#shell-content) (181) · [Javascript](#javascript-content) (133) · [Bash](#bash-content) (110) · [Powershell](#powershell-content) (66) · [Groovy](#groovy-content) (59) · [Agnostic](#agnostic-content) (58) · [Sql](#sql-content) (42) · [Rust](#rust-content) (38) · [Html](#html-content) (36) · [C](#c-content) (29) · [C#](#c-sharp-content) (27) · [C++](#c-plus-plus-content) (22) · [Json](#json-content) (22) · [Dockerfile](#dockerfile-content) (20) · [Ruby](#ruby-content) (20) · [Bicep](#bicep-content) (17) · [Conceptual](#conceptual-content) (13) · [Pdf](#pdf-content) (10) · [Rego](#rego-content) (8) · [Terraform](#terraform-content) (8) · [Jsonnet](#jsonnet-content) (5) · [Kql](#kql-content) (5) · [Xml](#xml-content) (5) · [Haskell](#haskell-content) (4) · [Hcl/Yaml](#hcl-yaml-content) (4) · [Kotlin](#kotlin-content) (4) · [Php](#php-content) (4) · [Scala](#scala-content) (4) · [Yml](#yml-content) (4) · [Ansible](#ansible-content) (3) · [Awk](#awk-content) (3) · [French](#french-content) (3) · [Go/Yaml](#go-yaml-content-2) (3) · [Node.Js](#node-js-content) (3) · [Powershell/Cli](#powershell-cli-content) (3) · [Promql](#promql-content) (3) · [Python/Yaml](#python-yaml-content) (3) · [Go / Javascript](#go-javascript-content) (2) · [Go / Yaml](#go-yaml-content) (2) · [Java / Yaml](#java-yaml-content) (2) · [Javascript/Typescript](#javascript-typescript-content) (2) · [Lua](#lua-content) (2) · [Multi](#multi-content) (2) · [Nix](#nix-content) (2) · [Perl](#perl-content) (2) · [Python/Shell](#python-shell-content) (2) · [Shell/Dockerfile](#shell-dockerfile-content) (2) · [Smarty](#smarty-content) (2) · [Yaml/Bash](#yaml-bash-content) (2) · [Yaml/Go](#yaml-go-content-2) (2) · [Yaml/Hcl](#yaml-hcl-content) (2) · [Yaml/Helm](#yaml-helm-content) (2) · [Any](#any-content) (1) · [Apacheconf](#apacheconf-content) (1) · [Asciidoc](#asciidoc-content) (1) · [Ballerina](#ballerina-content) (1) · [Bash/Python](#bash-python-content) (1) · [Bash/Yaml](#bash-yaml-content) (1) · [C++ / Go / Python](#c-plus-plus-go-python-content) (1) · [C++ / Go](#c-plus-plus-go-content) (1) · [C/Bash](#c-bash-content) (1) · [C/C++](#c-c-plus-plus-content) (1) · [Chinese](#chinese-content) (1) · [Clojure](#clojure-content) (1) · [Dart](#dart-content) (1) · [Docker](#docker-content) (1) · [Docker/Shell](#docker-shell-content) (1) · [Dockerfile/Shell](#dockerfile-shell-content) (1) · [Elixir](#elixir-content) (1) · [Erlang](#erlang-content) (1) · [Flux](#flux-content) (1) · [German](#german-content) (1) · [Go/Bash](#go-bash-content) (1) · [Go/Markdown](#go-markdown-content) (1) · [Go/Rego](#go-rego-content) (1) · [Go/Typescript](#go-typescript-content) (1) · [Groovy/Hcl](#groovy-hcl-content) (1) · [Groovy/Yaml](#groovy-yaml-content) (1) · [Hcl/Packer](#hcl-packer-content) (1) · [Helm](#helm-content) (1) · [Image/Pdf](#image-pdf-content) (1) · [Ini](#ini-content) (1) · [Ini/Yaml](#ini-yaml-content) (1) · [Java / English](#java-english-content) (1) · [Java / Go / Node.Js](#java-go-node-js-content) (1) · [Java/C++](#java-c-plus-plus-content) (1) · [Javascript/Shell](#javascript-shell-content) (1) · [Makefile](#makefile-content) (1) · [Markdown/Images](#markdown-images-content) (1) · [Markdown/Shell](#markdown-shell-content) (1) · [Nginx Conf](#nginx-conf-content) (1) · [Norwegian](#norwegian-content) (1) · [Objective-C](#objective-c-content) (1) · [Ocaml](#ocaml-content) (1) · [Powershell / Sql](#powershell-sql-content) (1) · [Powershell/Bash](#powershell-bash-content) (1) · [Proprietary](#proprietary-content) (1) · [Protobuf](#protobuf-content) (1) · [Python / C++](#python-c-plus-plus-content) (1) · [Python / Go](#python-go-content) (1) · [Python/Ansible](#python-ansible-content) (1) · [Python/Go](#python-go-content-2) (1) · [Python/Terraform](#python-terraform-content) (1) · [R](#r-content) (1) · [Regex](#regex-content) (1) · [Robot](#robot-content) (1) · [Sed](#sed-content) (1) · [Sentinel](#sentinel-content) (1) · [Shell/Ansible](#shell-ansible-content) (1) · [Shell/Yaml](#shell-yaml-content) (1) · [Sql/Typescript](#sql-typescript-content) (1) · [Sql/Yaml](#sql-yaml-content) (1) · [Typescript / Go](#typescript-go-content) (1) · [Typescript / Rust](#typescript-rust-content) (1) · [Typescript/Elixir](#typescript-elixir-content) (1) · [Typescript/Rego](#typescript-rego-content) (1) · [Vim Script](#vim-script-content) (1) · [Viml](#viml-content) (1) · [Webassembly](#webassembly-content) (1) · [Yaml / C#](#yaml-c-sharp-content) (1) · [Yaml / Go](#yaml-go-content) (1) · [Yaml / Rego](#yaml-rego-content) (1) · [Yaml / Shell](#yaml-shell-content) (1) · [Yaml/Jinja2](#yaml-jinja2-content) (1) · [Yaml/Markdown](#yaml-markdown-content) (1) · [Yaml/Python](#yaml-python-content) (1) · [Yaml/Shell](#yaml-shell-content-2) (1) · [Yaml/Terraform](#yaml-terraform-content) (1) · [Yaml/Vagrantfile](#yaml-vagrantfile-content) (1)
 
 <div class="v2-tag-section" markdown="1">
 
 ## De Facto Standard {#de-facto-standard}
 
 <details markdown="1">
-<summary>Click to view top 100 of 1292 resources under De Facto Standard</summary>
+<summary>Click to view top 100 of 1289 resources under De Facto Standard</summary>
 
   - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./golang.md)*
   - **(2026)** [==Awesome Java 🌟==](https://github.com/akullpp/awesome-java) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
@@ -324,7 +324,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [==OpenFaaS==](https://www.openfaas.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./serverless.md)*
   - **(2026)** [==knative.dev==](https://knative.dev) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./serverless.md)*
 
-*... and 1192 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 1189 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -334,7 +334,7 @@ Resources indexed by their primary source language or document format.
 ## Enterprise-Stable {#enterprise-stable}
 
 <details markdown="1">
-<summary>Click to view top 100 of 1157 resources under Enterprise-Stable</summary>
+<summary>Click to view top 100 of 1152 resources under Enterprise-Stable</summary>
 
   - **(2026)** [==Microsoft Agent Framework==](https://github.com/microsoft/agent-framework) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2026)** [==Google Agent Development Kit (ADK)==](https://github.com/google/adk-python) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
@@ -393,7 +393,6 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [**github.com/NielsRogge/Transformers-Tutorials**](https://github.com/NielsRogge/Transformers-Tutorials) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./ai.md)*
   - **(2026)** [**Awesome microservices**](https://github.com/mfornos/awesome-microservices) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
   - **(2025)** [**volatiletech/sqlboiler**](https://github.com/aarondl/sqlboiler) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./golang.md)*
-  - **(2026)** [**odigos**](https://github.com/odigos-io/odigos) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [**github.com/techiescamp/kubernetes-learning-path 🌟🌟**](https://github.com/techiescamp/kubernetes-learning-path) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./kubernetes-tutorials.md)*
   - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [**kubevirt**](https://github.com/kubevirt/kubevirt) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
@@ -436,8 +435,9 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**Dracula Pro Theme 🌟**](https://draculatheme.com/pro) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./visual-studio.md)*
   - **(2026)** [**Jira and Bitbucket (Official)**](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./visual-studio.md)*
   - **(2026)** [**Azure DevOps 🌟**](https://marketplace.visualstudio.com/azuredevops) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./visual-studio.md)*
+  - **(2026)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./cheatsheets.md)*
 
-*... and 1057 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 1052 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -447,7 +447,7 @@ Resources indexed by their primary source language or document format.
 ## Emerging {#emerging}
 
 <details markdown="1">
-<summary>Click to view top 100 of 503 resources under Emerging</summary>
+<summary>Click to view top 100 of 502 resources under Emerging</summary>
 
   - **(2026)** [==OpenTofu Official GitHub Repository==](https://github.com/opentofu/opentofu) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — *Go to [Section](./iac.md)*
   - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./devsecops.md)*
@@ -485,7 +485,6 @@ Resources indexed by their primary source language or document format.
   - **(2025)** [**NetMaker**](https://github.com/gravitl/netmaker) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [**Awesome microservices**](https://github.com/mfornos/awesome-microservices) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
   - **(2025)** [**volatiletech/sqlboiler**](https://github.com/aarondl/sqlboiler) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./golang.md)*
-  - **(2026)** [**odigos**](https://github.com/odigos-io/odigos) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [**github.com/techiescamp/kubernetes-learning-path 🌟🌟**](https://github.com/techiescamp/kubernetes-learning-path) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./kubernetes-tutorials.md)*
   - **(2026)** [**kubevirt**](https://github.com/kubevirt/kubevirt) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [**github.com/aws-ia/terraform-aws-eks-blueprints (examples) 🌟🌟🌟**](https://github.com/aws-ia/terraform-aws-eks-blueprints) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> — *Go to [Section](./terraform.md)*
@@ -549,8 +548,9 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**Boston Children's Hospital uses AI to unlock new diagnoses**](https://openai.com/index/boston-childrens-hospital) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2026)** [**Strengthening Societal Resilience with Rosalind Biodefense**](https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense) 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2026)** [**Our Views on AI Policy and Political Advocacy**](https://openai.com/index/our-views-on-ai-policy-and-political-advocacy) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./ai-agents-mcp.md)*
+  - **(2026)** [**Election information and safeguards in 2026**](https://openai.com/index/election-safeguards-2026) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./ai-agents-mcp.md)*
 
-*... and 403 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 402 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -899,7 +899,7 @@ Resources indexed by their primary source language or document format.
 ## Legacy {#legacy}
 
 <details markdown="1">
-<summary>Click to view top 100 of 638 resources under Legacy</summary>
+<summary>Click to view top 100 of 637 resources under Legacy</summary>
 
   - **(2026)** [==Awesome Java 🌟==](https://github.com/akullpp/awesome-java) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
   - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./mkdocs.md)*
@@ -910,8 +910,8 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [==Nubenetes Azure Landing Zones 2026: Enterprise CAF and Architecture Blueprint (Playlist)==](https://www.youtube.com/playlist?list=PLCgDGrDt3kNU) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — *Go to [Section](./iac.md)*
   - **(2026)** [==buildkit==](https://docs.docker.com/build) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./docker.md)*
   - **(2026)** [==Retiring the CAF Monolith: Azure Verified Modules (AVM) and ALZ Library 2026==](https://www.youtube.com/watch?v=BNEGxzQgDB8) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — *Go to [Section](./terraform.md)*
-  - **(2023)** [==redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟==](https://www.redhat.com/en/blog/apis-soap-rest-graphql-grpc) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./api.md)*
   - **(2023)** [==terraform.io: Creation-Time Provisioners 🌟==](https://developer.hashicorp.com/terraform/language/provisioners) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> — *Go to [Section](./terraform.md)*
+  - **(2023)** [==redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟==](https://www.redhat.com/en/blog/apis-soap-rest-graphql-grpc) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./api.md)*
   - **(2026)** [==github.com/containrrr/watchtower==](https://github.com/containrrr/watchtower) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./docker.md)*
   - [==mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated==](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=64ddf3e4fb8c) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./kubernetes.md)*
   - **(2021)** [==NGINX Ingress Controller - v1.0.0==](https://github.com/kubernetes/ingress-nginx/releases/tag/controller-v1.0.0) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-networking.md)*
@@ -1002,7 +1002,7 @@ Resources indexed by their primary source language or document format.
   - **(2021)** [==Jenkins pipeline shared library for the project Elastic APM 🌟==](https://github.com/elastic/apm-pipeline-library) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> — *Go to [Section](./monitoring.md)*
   - **(2025)** [==github.com/kubernetes-client/python-base==](https://github.com/kubernetes-client/python-base) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./kubernetes-client-libraries.md)*
 
-*... and 538 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 537 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -1012,7 +1012,7 @@ Resources indexed by their primary source language or document format.
 ## Spanish Content {#spanish-content}
 
 <details markdown="1">
-<summary>Click to view top 100 of 214 resources under Spanish Content</summary>
+<summary>Click to view top 100 of 213 resources under Spanish Content</summary>
 
   - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./golang.md)*
   - **(2026)** [==IaC Infrastructure as Code==](https://nubenetes.com/iac) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./devops.md)*
@@ -1026,7 +1026,6 @@ Resources indexed by their primary source language or document format.
   - **(2024)** [==genbeta.com: Hace 20 años, este correo de Jeff Bezos en Amazon cambió para siempre la forma en que programamos apps==](https://www.genbeta.com/desarrollo/hace-22-anos-este-correo-jeff-bezos-amazon-cambio-para-siempre-forma-que-programamos-apps) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./api.md)*
   - **(2023)** [==mariocortes.net: La crisis de seniority==](https://www.mariocortes.net/la-crisis-de-seniority) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[ES CONTENT]</span> — *Go to [Section](./project-management-methodology.md)*
   - **(2022)** [==estrategiadeproducto.com: La espiral de mierda==](https://www.estrategiadeproducto.com/p/evitar-caer-espiral-de-mierda) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[ES CONTENT]</span> — *Go to [Section](./project-management-methodology.md)*
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./databases.md)*
   - **(2026)** [**DevOps Tools**](https://nubenetes.com/devops-tools) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./devops.md)*
   - **(2026)** [**NoOps**](https://nubenetes.com/noops) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./devops.md)*
   - **(2026)** [**Keptn**](https://nubenetes.com/keptn) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./jenkins-alternatives.md)*
@@ -1114,8 +1113,9 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [returngis.net: Monitorizar aplicación Java con Spring Boot con Azure Application Insights](https://www.returngis.net/2023/04/monitorizar-aplicacion-java-con-spring-boot-con-azure-application-insights) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./azure.md)*
   - **(2023)** [returngis.net: Invitar a usuarios externos a un tenant de Azure AD a través de Microsoft Graph y Azure CLI](https://www.returngis.net/2023/04/invitar-a-usuarios-externos-a-un-tenant-de-azure-ad-a-traves-de-microsoft-graph-y-azure-cli) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./azure.md)*
   - **(2023)** [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./azure.md)*
+  - **(2023)** [New IAMCTL tool compares multiple IAM roles and policies](https://aws.amazon.com/es/blogs/security/new-iamctl-tool-compares-multiple-iam-roles-and-policies) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[ENGLISH/SPANISH CONTENT]</span> — *Go to [Section](./aws-security.md)*
 
-*... and 114 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 113 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -1562,10 +1562,9 @@ Resources indexed by their primary source language or document format.
 ## Bicep Content {#bicep-content}
 
 <details markdown="1">
-<summary>Click to view 18 resources under Bicep Content</summary>
+<summary>Click to view 17 resources under Bicep Content</summary>
 
   - **(2026)** [==Bicep==](https://github.com/Azure/bicep) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> — *Go to [Section](./azure.md)*
-  - **(2026)** [==github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical' Online Reference Implementation==](https://github.com/azure/mission-critical-online) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> — *Go to [Section](./azure.md)*
   - **(2024)** [==mattfeltonma/azure-networking-patterns==](https://github.com/mattfeltonma/azure-networking-patterns) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> — *Go to [Section](./azure.md)*
   - **(2024)** [github.com/Azure-Samples/azure-ai-studio-secure-bicep](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> — *Go to [Section](./azure.md)*
   - **(2022)** [github.com/nnellans/bicep-guide](https://github.com/nnellans/bicep-guide) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> — *Go to [Section](./azure.md)*
@@ -2019,7 +2018,7 @@ Resources indexed by their primary source language or document format.
 ## EBPF {#ebpf}
 
 <details markdown="1">
-<summary>Click to view 71 resources under EBPF</summary>
+<summary>Click to view 70 resources under EBPF</summary>
 
   - **(2025)** [==layer5.io: The Service Mesh Landscape 🌟🌟==](https://layer5.io/service-mesh-landscape) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — *Go to [Section](./servicemesh.md)*
   - **(2026)** [==**Kubespray**==](https://github.com/kubernetes-sigs/kubespray) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[PYTHON/ANSIBLE CONTENT]</span> — *Go to [Section](./kubernetes-on-premise.md)*
@@ -2036,7 +2035,6 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [==Azure/terraform-azurerm-avm-res-containerservice-managedcluster: AVM Resource Module for AKS==](https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — *Go to [Section](./terraform.md)*
   - **(2022)** [==kube-ebpf-exporter 🌟==](https://github.com/ahas-sigs/kube-ebpf-exporter) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [**kubeshark/kubeshark**](https://github.com/kubeshark/kubeshark) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
-  - **(2026)** [**odigos**](https://github.com/odigos-io/odigos) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2024)** [**techcommunity.microsoft.com: Advanced Network Observability for your Azure Kubernetes Service clusters through Azure Monitor**](https://techcommunity.microsoft.com/blog/azureobservabilityblog/advanced-network-observability-for-your-azure-kubernetes-service-clusters-throug/4176736) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[KQL CONTENT]</span> — *Go to [Section](./azure.md)*
   - **(2025)** [**inspektor-gadget/inspektor-gadget**](https://github.com/inspektor-gadget/inspektor-gadget) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2022)** [**thenewstack.io: 5 Cloud Native Trends to Watch out for in 2022**](https://thenewstack.io/5-cloud-native-trends-to-watch-out-for-in-2022) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./introduction.md)*
@@ -2252,7 +2250,7 @@ Resources indexed by their primary source language or document format.
 ## Go Content {#go-content}
 
 <details markdown="1">
-<summary>Click to view top 100 of 1038 resources under Go Content</summary>
+<summary>Click to view top 100 of 1037 resources under Go Content</summary>
 
   - **(2026)** [==Awesome Go 🌟==](https://github.com/avelino/awesome-go) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./golang.md)*
   - **(2026)** [==github.com: Istio==](https://github.com/istio/istio) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./istio.md)*
@@ -2355,7 +2353,7 @@ Resources indexed by their primary source language or document format.
   - **(2018)** [==stakater/Reloader 🌟==](https://github.com/stakater/Reloader) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [==open-policy-agent/conftest==](https://github.com/open-policy-agent/conftest) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes.md)*
 
-*... and 938 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 937 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -2994,8 +2992,8 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [==Apache Flink==](https://flink.apache.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./message-queue.md)*
   - **(2026)** [==Apache Kafka==](https://kafka.apache.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./message-queue.md)*
   - **(2026)** [==**Debezium**:==](https://debezium.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./message-queue.md)*
-  - **(2026)** [==OpenAPI Generator 🌟==](https://openapi-generator.tech) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./api.md)*
   - **(2026)** [==Spring Cloud Gateway==](https://spring.io/projects/spring-cloud-gateway) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./developerportals.md)*
+  - **(2026)** [==OpenAPI Generator 🌟==](https://openapi-generator.tech) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./api.md)*
   - **(2026)** [==JUnit==](https://junit.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./qa.md)*
   - **(2026)** [==jmeter.apache.org==](https://jmeter.apache.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./performance-testing-with-jenkins-and-jmeter.md)*
   - **(2026)** [==Sonarqube.org==](https://www.sonarsource.com/products/sonarqube) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./sonarqube.md)*
@@ -3050,8 +3048,8 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**Red Hat AMQ**](https://www.redhat.com/en/technologies/jboss-middleware/amq) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./message-queue.md)*
   - **(2026)** [**Apache Pulsar**](https://pulsar.apache.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./message-queue.md)*
   - **(2026)** [**ksqlDB**](https://www.confluent.io/product/ksqldb) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./message-queue.md)*
-  - **(2026)** [**microcks.io**](https://microcks.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./kubernetes-based-devel.md)*
   - **(2026)** [**GitHub Branch Source Plugin:**](https://plugins.jenkins.io/github-branch-source) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./git.md)*
+  - **(2026)** [**microcks.io**](https://microcks.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./kubernetes-based-devel.md)*
   - **(2026)** [**TestNG**](https://testng.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./qa.md)*
   - **(2026)** [**HBase.apache.org**](https://hbase.apache.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./nosql.md)*
   - **(2026)** [**Hive.apache.org**](https://hive.apache.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./nosql.md)*
@@ -3330,7 +3328,7 @@ Resources indexed by their primary source language or document format.
 ## LLM {#llm}
 
 <details markdown="1">
-<summary>Click to view 99 resources under LLM</summary>
+<summary>Click to view 98 resources under LLM</summary>
 
   - **(2026)** [==Google Agent Development Kit (ADK)==](https://github.com/google/adk-python) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2025)** [==vLLM on Kubernetes==](https://github.com/vllm-project/vllm) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./ai-agents-mcp.md)*
@@ -3355,7 +3353,6 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [==lucidrains/PaLM-rlhf-pytorch==](https://github.com/lucidrains/PaLM-rlhf-pytorch) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./git.md)*
   - **(2019)** [==KFServing 🌟==](https://github.com/kserve/kserve) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2023)** [==rubrix==](https://github.com/argilla-io/argilla) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./mlops.md)*
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./databases.md)*
   - **(2026)** [==Amazon Bedrock Samples==](https://github.com/aws-samples/amazon-bedrock-samples) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2026)** [==KAITO (Kubernetes AI Toolchain Operator)==](https://github.com/kaito-project/kaito) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2026)** [==AI on EKS (AWS Labs)==](https://github.com/awslabs/ai-on-eks) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
@@ -3418,15 +3415,15 @@ Resources indexed by their primary source language or document format.
   - **(2024)** [techcommunity.microsoft.com: The AI Study Guide: Azure’s top free resources for learning generative AI in 2024](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/the-ai-study-guide-azure%E2%80%99s-top-free-resources-for-learning-generative-ai-in-2024/4036890) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./azure.md)*
   - **(2024)** [anthropic.com: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./terraform.md)*
-  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> — *Go to [Section](./developerportals.md)*
   - **(2024)** [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./iac.md)*
+  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> — *Go to [Section](./developerportals.md)*
   - **(2023)** [kubetools.io: KoPylot: An AI-Powered Kubernetes Assistant for DevOps & Developers](https://kubetools.io/kopylot-an-ai-powered-kubernetes-assistant-for-devops-developers) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2023)** [devops.com: Where Does Observability Stand Today, and Where is it Going Next?](https://devops.com/where-does-observability-stand-today-and-where-is-it-going-next) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./monitoring.md)*
+  - **(2023)** [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./iac.md)*
   - **(2023)** [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./chatgpt.md)*
   - **(2023)** [valohai.com/blog/llmops/](https://valohai.com/blog/llmops) <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — *Go to [Section](./ai.md)*
   - **(2023)** [aman.ai/primers/ai/LLM: Primers - Overview of Large Language Models](https://aman.ai/primers/ai/LLM) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./ai.md)*
   - **(2023)** [forbesargentina.com: Por qué Nvidia, Google y Microsoft apuestan miles de millones en modelos LLM de IA Generativa para biotecnología](https://www.forbesargentina.com/innovacion/por-nvidia-google-microsoft-apuestan-miles-millones-modelos-llm-ia-generativa-biotecnologia-n49278) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./ai.md)*
-  - **(2023)** [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./iac.md)*
   - **(2023)** [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./git.md)*
   - **(2020)** [A development roadmap for Open Data Hub](https://developers.redhat.com/blog/2020/06/22/a-development-roadmap-for-open-data-hub) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — *Go to [Section](./message-queue.md)*
   - **(2008)** [Dough Hellmann - Python, OpenStack and Open Source](https://doughellmann.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./python.md)*
@@ -3481,7 +3478,7 @@ Resources indexed by their primary source language or document format.
 ## Markdown Content {#markdown-content}
 
 <details markdown="1">
-<summary>Click to view top 100 of 334 resources under Markdown Content</summary>
+<summary>Click to view top 100 of 333 resources under Markdown Content</summary>
 
   - **(2026)** [==Markdown Cheat Sheet 4==](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./mkdocs.md)*
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./monitoring.md)*
@@ -3555,7 +3552,6 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [**docs.databricks.com: Use scheduler pools for multiple streaming workloads**](https://docs.databricks.com/aws/en/structured-streaming/production) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./kubernetes-bigdata.md)*
   - **(2022)** [**infracloud.io: Protecting Kubernetes applications data using Kanister**](https://www.infracloud.io/blogs/protecting-kubernetes-applications-with-kanister) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./kubernetes-backup-migrations.md)*
   - **(2022)** [**dev.to: Kubernetes Backup & Restore made easy! 🌟**](https://dev.to/techworld_with_nana/kubernetes-backup-restore-made-easy-2nlg) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./kubernetes-backup-migrations.md)*
-  - **(2022)** [**rancher.com: Disaster Recovery Preparedness for Your Kubernetes Clusters 🌟**](https://www.suse.com/c/rancher_blog/disaster-recovery-preparedness-for-your-kubernetes-clusters) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./kubernetes-backup-migrations.md)*
   - **(2022)** [**kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟**](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./kubernetes-backup-migrations.md)*
   - **(2022)** [**solo.io: The 3 best ways to use Flux and Flagger for GitOps with your Envoy Proxy API gateways**](https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./flux.md)*
   - **(2022)** [**fluxcd.io: How to GitOps Your Terraform**](https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./flux.md)*
@@ -3583,8 +3579,9 @@ Resources indexed by their primary source language or document format.
   - **(2024)** [**github: K8s in 30 mins 🌟**](https://github.com/rosehgal/k8s-In-30Mins) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2024)** [**github: sematext - Docker Swarm Cheatsheet**](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2026)** [How they SRE](https://github.com/upgundecha/howtheysre) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
+  - **(2026)** [github.com/moabukar/tech-vault](https://github.com/moabukar/tech-vault) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./interview-questions.md)*
 
-*... and 234 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 233 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -3620,7 +3617,7 @@ Resources indexed by their primary source language or document format.
 ## MCP {#mcp}
 
 <details markdown="1">
-<summary>Click to view top 100 of 247 resources under MCP</summary>
+<summary>Click to view top 100 of 246 resources under MCP</summary>
 
   - **(2026)** [==Microsoft Agent Framework==](https://github.com/microsoft/agent-framework) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2026)** [==AI Agents for Beginners (Microsoft)==](https://github.com/microsoft/ai-agents-for-beginners) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
@@ -3637,7 +3634,6 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [==Cloudflare Agents Platform==](https://developers.cloudflare.com/agents) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--primary'>[SERVERLESS]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2026)** [==Strands Agents SDK==](https://github.com/strands-agents/harness-sdk) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./enterprise-ai-platforms.md)*
   - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./azure.md)*
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./databases.md)*
   - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./ai.md)*
   - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./iac.md)*
   - **(2023)** [**youtube - freecodecamp.org: Learn Terraform with Azure by Building a Dev Environment – Full Course for Beginners**](https://www.youtube.com/watch?si=zB9HD1MCp3SbLQwL&v=V53AHWun17s&feature=youtu.be) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> — *Go to [Section](./terraform.md)*
@@ -3722,8 +3718,9 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [Expanding Daybreak as the Cyber Defense Window Narrows](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2026)** [Responding to the next frontier of critical cyber capabilities](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2026)** [Third-party cyber evaluations involving OpenAI models](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./ai-agents-mcp.md)*
+  - **(2026)** [Disrupting a Criminal Scam Operation](https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — *Go to [Section](./ai-agents-mcp.md)*
 
-*... and 147 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 146 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -4978,10 +4975,10 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [==GitHub Pull Requests and Issues 🌟==](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./visual-studio.md)*
   - **(2026)** [==marketplace.visualstudio.com: GitHub Repositories 🌟==](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./visual-studio.md)*
   - **(2026)** [==excalidraw.com==](https://excalidraw.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./cloud-arch-diagrams.md)*
-  - **(2026)** [==mockoon 🌟==](https://mockoon.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./api.md)*
   - **(2026)** [==Backstage Developer Portal:==](https://backstage.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./developerportals.md)*
   - **(2026)** [==cal.com==](https://cal.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./appointment-scheduling.md)*
   - **(2026)** [==Lens Kubernetes IDE 🌟==](https://lenshq.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./kubernetes-based-devel.md)*
+  - **(2026)** [==mockoon 🌟==](https://mockoon.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./api.md)*
   - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2023)** [==GitHub Copilot 🌟==](https://github.com/copilot) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./git.md)*
   - **(2023)** [==automationqahub.com: How to build a Playwright Page Object Model==](https://automationqahub.com/how-to-build-playwright-page-object-model) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./test-automation-frameworks.md)*

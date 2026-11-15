@@ -529,11 +529,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2023)** [thenewstack.io: How to Ensure Your Serverless Database Stays Serverless](https://thenewstack.io/how-to-ensure-your-serverless-database-stays-serverless) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on preserving serverless paradigms at the database tier. Explores connection pooling, cold-start latency mitigation, dynamic compute scaling, and the integration of proxy layers to maintain seamless serverless workload support.
 ## Software Engineering
 
-### Database Management
-
-#### Model Context Protocol
-
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6df57ab1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 2 L 30 12 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-6df57ab1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
 ### Testing
 
 #### Mocking

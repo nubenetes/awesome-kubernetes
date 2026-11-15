@@ -9,13 +9,6 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 !!! info "Architectural Context"
     Detailed reference for Service Mesh in the context of Networking & Service Mesh.
 
-## Architecture
-
-### System Design
-
-#### Microservices Patterns
-
-  - **(2018)** [**blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?**](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A seminal article detailing the functional boundary differences between API Gateways and Service Meshes. Christian Posta demonstrates how gateways excel at managing south-north public consumer interfaces (security, transformations, rate limiting), while service meshes optimize complex east-west backend telemetry.
 ## Cloud Infrastructure
 
 ### Traffic Management
@@ -218,7 +211,7 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 #### Security (2)
 
   - **(2021)** [**thenewstack.io: Zero-Trust Security with Service Mesh**](https://thenewstack.io/zero-trust-security-with-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This article explores how a service mesh constructs a zero-trust network topology within Kubernetes. By utilizing cryptographic service identity certificates, active namespace isolation, and strict SPIFFE/SPIRE integrations, it implements seamless mutual TLS authentication (mTLS) across the cluster.
-#### System Design (1)
+#### System Design
 
   - **(2020)** [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive breakdown of architectural scenarios where introducing a service mesh becomes mathematically and operationally viable. It contrasts simple setups with distributed, high-security, and multi-cloud enterprise topologies requiring advanced traffic management.
 ## Introduction

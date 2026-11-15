@@ -1697,11 +1697,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### Visualization (2)
 
   - **(2026)** [kateyes.co.uk](https://www.kateyes.co.uk) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kateyes serves as a community diagnostic portal providing lightweight cluster visualization and monitoring utilities. It assists platform teams in mapping real-time cluster workloads without deploying heavy, resource-intensive metrics databases. It remains an accessible option for local environment tracking and simplified administrative monitoring.
-### eBPF Diagnostics (1)
-
-#### Distributed Tracing
-
-  - **(2026)** [**odigos**](https://github.com/odigos-io/odigos) <span class='md-tag md-tag--info'>⭐ 3657</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e8d99986" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 13 L 30 13 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-e8d99986)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Odigos is a powerful distributed tracing auto-instrumentation engine that leverages eBPF technology to instrument microservice architectures without code changes. It automatically discovers active services, hooks into internal runtimes, and streams OpenTelemetry traces directly to collectors. It has emerged as a preferred solution for platform teams seeking zero-to-hero observability coverage.
 ## Observability and Diagnostics
 
 ### Cluster Management Platforms
@@ -1947,7 +1942,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
   - **(2018)** [Kubernetes DaemonSet that enables a direct shell on each Node using SSH to localhost](https://gist.github.com/xandout/8d24558c75c53f3cb8bf0a97ec25fcfc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Presents a functional DaemonSet template allowing administrators direct node shell access over SSH to localhost. Helpful for troubleshooting bare-metal or legacy infrastructure layers without traditional jump hosts.
 ### Observability (2)
 
-#### Distributed Tracing (1)
+#### Distributed Tracing
 
   - **(2022)** [Kspan - Turning Kubernetes Events into spans 🌟](https://github.com/weaveworks-experiments/kspan) <span class='md-tag md-tag--info'>⭐ 805</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-07e5b106" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 13 L 30 11 L 40 2 L 50 7" fill="none" stroke="url(#spark-grad-07e5b106)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An experimental tool designed to consume Kubernetes events and convert them into OpenTelemetry-compliant spans. By treating lifecycle events as spans, it enables operators to visualize cluster events inside APM tracing backends like Jaeger or Zipkin. With Weaveworks' exit from active development, the project remains an archived but highly influential conceptual reference in 2026.
 #### History Visualization
@@ -2639,11 +2634,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### Terminal Emulators
 
   - **(2026)** [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern, Rust-based terminal emulator incorporating AI agent assistance directly into the command-line interface. Reimagines input fields like text editors, supports real-time workspace collaboration, and native context-sharing for accelerated platform ops troubleshooting.
-### Database Management
-
-#### Model Context Protocol
-
-  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6df57ab1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 2 L 30 12 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-6df57ab1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
 ## Specialized Workloads
 
 ### Scientific Computing
