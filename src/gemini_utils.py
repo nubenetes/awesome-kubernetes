@@ -13,21 +13,114 @@ from src.logger import log_event
 
 # Global state for rate limiting and discovery
 CURRENT_KEY_INDEX = 0
-DISCOVERED_MODELS = []
+DISCOVERED_MODELS: List[str] = []
+DISCOVERED_MODEL_METADATA: Dict[str, Dict[str, Any]] = {}
 GLOBAL_COOLDOWN_UNTIL = 0
 THROTTLED_MODELS = {} # {model_name: timestamp}
 GLOBAL_AI_SEMAPHORE = asyncio.Semaphore(15) # Increased to 15 for high-tier processing
 
-PRO_FRONTIER_KEYWORDS = ("pro", "argon", "carbon", "ultra")
-FLASH_KEYWORDS = ("flash", "lite")
+PRO_FRONTIER_TOKENS = ("pro", "argon", "carbon", "ultra")
+FAST_TOKENS = ("flash", "hydrogen", "turbo", "workhorse", "fast")
+LITE_TOKENS = ("lite", "nano", "micro", "tiny")
+
+_FRONTIER_SUBRANK = {"ultra": 4, "carbon": 3, "argon": 2, "pro": 1}
+_EXCLUDED_MODEL_SUBSTRINGS = (
+    "tts", "image", "transcribe", "robotics", "computer-use",
+    "banana", "customtools", "embedding", "aqa", "imagen",
+    "veo", "learnlm", "lyria", "deep-research", "native-audio",
+)
+_DEFAULT_FALLBACK_METADATA = [
+    {"name": "gemini-4-carbon", "displayName": "Gemini 4 Carbon", "description": "Gemini 4 Carbon", "inputTokenLimit": 1048576, "outputTokenLimit": 32768},
+    {"name": "gemini-4-argon", "displayName": "Gemini 4 Argon", "description": "Gemini 4 Argon", "inputTokenLimit": 1048576, "outputTokenLimit": 32768},
+    {"name": "gemini-4-hydrogen", "displayName": "Gemini 4 Hydrogen", "description": "Gemini 4 Hydrogen", "inputTokenLimit": 1048576, "outputTokenLimit": 65536},
+    {"name": "gemini-3.8-flash", "displayName": "Gemini 3.8 Flash", "description": "Gemini 3.8 Flash", "inputTokenLimit": 1048576, "outputTokenLimit": 65536},
+    {"name": "gemini-3.1-pro-preview", "displayName": "Gemini 3.1 Pro Preview", "description": "Gemini 3.1 Pro Preview", "inputTokenLimit": 1048576, "outputTokenLimit": 65536},
+    {"name": "gemini-flash-latest", "displayName": "Gemini Flash Latest", "description": "Latest release of Gemini Flash", "inputTokenLimit": 1048576, "outputTokenLimit": 65536},
+    {"name": "gemini-pro-latest", "displayName": "Gemini Pro Latest", "description": "Latest release of Gemini Pro", "inputTokenLimit": 1048576, "outputTokenLimit": 65536},
+]
+
+
+def _tokenize_model_text(text: str) -> set:
+    return set(t for t in re.split(r"[^a-z0-9]+", (text or "").lower()) if t)
+
+
+def classify_model_metadata(raw_model: Dict[str, Any]) -> Dict[str, Any]:
+    """Parse Gemini API model JSON into normalized version, stability, and tier metadata."""
+    name = (raw_model.get("name") or "").replace("models/", "")
+    name_lower = name.lower()
+    display_name = raw_model.get("displayName") or ""
+    description = raw_model.get("description") or ""
+    name_tokens = _tokenize_model_text(name_lower)
+    desc_tokens = _tokenize_model_text(f"{display_name} {description}")
+
+    # Parse version from model ID (API `version` field is unreliable across Gen-4 models).
+    major, minor = 0, 0
+    is_omni = "omni" in name_tokens
+    ver_match = re.search(r"gemini-(\d+)(?:\.(\d+))?", name_lower)
+    if ver_match:
+        major = int(ver_match.group(1))
+        minor = int(ver_match.group(2)) if ver_match.group(2) is not None else 0
+
+    is_evergreen = (major == 0 and not is_omni and "latest" in name_tokens)
+
+    if name_tokens & {"exp", "experimental"}:
+        stability = 0
+    elif name_tokens & {"preview", "beta", "alpha"}:
+        stability = 1
+    elif "latest" in name_tokens:
+        stability = 2
+    else:
+        stability = 3
+
+    # Tier inference: explicit name tokens -> API description cues -> unknown (kept eligible).
+    frontier_subrank = 0
+    if name_tokens & set(PRO_FRONTIER_TOKENS):
+        tier = "frontier"
+        frontier_subrank = max((_FRONTIER_SUBRANK.get(t, 1) for t in name_tokens if t in _FRONTIER_SUBRANK), default=1)
+    elif name_tokens & set(LITE_TOKENS):
+        tier = "lite"
+    elif name_tokens & set(FAST_TOKENS):
+        tier = "fast"
+    elif (desc_tokens & {"flagship", "frontier"}) or ("complex reasoning" in description.lower()) or ("most capable" in description.lower()):
+        tier = "frontier"
+        frontier_subrank = 1
+    elif (desc_tokens & {"smallest", "lightweight", "minimal"}) or ("cost-efficient" in description.lower()):
+        tier = "lite"
+    elif desc_tokens & {"fast", "workhorse", "everyday", "rapid", "efficient", "balanced"}:
+        tier = "fast"
+    else:
+        tier = "unknown"
+
+    return {
+        "name": name,
+        "major": major,
+        "minor": minor,
+        "is_omni": is_omni,
+        "is_evergreen": is_evergreen,
+        "stability": stability,
+        "tier": tier,
+        "frontier_subrank": frontier_subrank,
+        "input_limit": int(raw_model.get("inputTokenLimit") or 0),
+        "output_limit": int(raw_model.get("outputTokenLimit") or 0),
+        "description": description,
+    }
+
 
 def is_pro_frontier_model(model_name: str) -> bool:
-    name = model_name.lower()
-    return any(k in name for k in PRO_FRONTIER_KEYWORDS)
+    """Return True if a model belongs to the Pro/Frontier reasoning tier."""
+    meta = DISCOVERED_MODEL_METADATA.get(model_name)
+    if meta:
+        return meta["tier"] == "frontier"
+    return bool(_tokenize_model_text(model_name) & set(PRO_FRONTIER_TOKENS))
+
 
 def is_flash_model(model_name: str) -> bool:
-    name = model_name.lower()
-    return any(k in name for k in FLASH_KEYWORDS)
+    """Return True if a model belongs to the Fast/Flash/Lite efficiency tier."""
+    meta = DISCOVERED_MODEL_METADATA.get(model_name)
+    if meta:
+        return meta["tier"] in ("fast", "lite")
+    tokens = _tokenize_model_text(model_name)
+    return bool(tokens & (set(FAST_TOKENS) | set(LITE_TOKENS)))
 
 class GeminiSessionTracker:
     def __init__(self):
@@ -113,71 +206,128 @@ class GeminiSessionTracker:
 
 SESSION_TRACKER = GeminiSessionTracker()
 
-async def discover_optimal_models():
-    global DISCOVERED_MODELS
-    if DISCOVERED_MODELS: return DISCOVERED_MODELS
-    
-    log_event("[*] Starting AI Model Auto-Discovery...", section_break=True)
-    all_supported = []
-    excluded_substrings = (
-        "tts", "image", "transcribe", "robotics", "computer-use",
-        "banana", "customtools", "embedding", "aqa", "imagen", "veo", "learnlm", "lyria", "deep-research"
+def _frontier_sort_key(meta: Dict[str, Any]) -> tuple:
+    """Lexicographic ranking for reasoning/grounding tasks (Pro/Frontier + newer unknown generations)."""
+    return (
+        1 if not meta["is_omni"] else 0,
+        1 if not meta["is_evergreen"] else 0,
+        meta["major"],
+        1 if meta["tier"] == "frontier" else 0,
+        meta["minor"],
+        meta["frontier_subrank"],
+        meta["stability"],
+        meta["input_limit"],
+        meta["output_limit"],
     )
-    
+
+
+def _fast_sort_key(meta: Dict[str, Any]) -> tuple:
+    """Lexicographic ranking for high-throughput tasks (Fast/Hydrogen + newer unknown generations)."""
+    tier_rank = {"fast": 2, "unknown": 1, "lite": 0}.get(meta["tier"], -1)
+    return (
+        1 if not meta["is_omni"] else 0,
+        1 if not meta["is_evergreen"] else 0,
+        meta["major"],
+        tier_rank,
+        meta["minor"],
+        meta["stability"],
+        meta["output_limit"],
+        meta["input_limit"],
+    )
+
+
+def select_models_for_task(
+    models_pool: List[str],
+    metadata_map: Optional[Dict[str, Dict[str, Any]]] = None,
+    prefer_flash: bool = False,
+    use_grounding: bool = False,
+) -> List[str]:
+    """Select and order candidate models using version-first tuple ranking and tier inference."""
+    meta_by_name = metadata_map or {}
+    candidates = [meta_by_name.get(m) or classify_model_metadata({"name": m}) for m in models_pool]
+
+    wants_frontier = use_grounding or not prefer_flash
+    if wants_frontier:
+        override = os.getenv("GEMINI_PRO_MODEL", "").strip()
+        frontier_known = [c for c in candidates if c["tier"] == "frontier" and not c["is_evergreen"]]
+        max_frontier_major = max((c["major"] for c in frontier_known), default=0)
+        selected = [
+            c for c in candidates
+            if c["tier"] == "frontier"
+            or (c["tier"] == "unknown" and not c["is_omni"] and c["major"] >= max_frontier_major)
+        ]
+        if not selected:
+            selected = candidates
+        ordered = [c["name"] for c in sorted(selected, key=_frontier_sort_key, reverse=True)]
+        default_fallbacks = ["gemini-4-carbon", "gemini-4-argon", "gemini-3.1-pro-preview", "gemini-pro-latest"]
+    else:
+        override = os.getenv("GEMINI_FAST_MODEL", "").strip()
+        selected = [c for c in candidates if c["tier"] in ("fast", "lite", "unknown")]
+        if not selected:
+            selected = candidates
+        ordered = [c["name"] for c in sorted(selected, key=_fast_sort_key, reverse=True)]
+        default_fallbacks = ["gemini-4-hydrogen", "gemini-3.8-flash", "gemini-flash-latest"]
+
+    result = ordered or default_fallbacks
+    if override:
+        result = [override] + [m for m in result if m != override]
+    return result
+
+
+async def discover_optimal_models():
+    global DISCOVERED_MODELS, DISCOVERED_MODEL_METADATA
+    if DISCOVERED_MODELS:
+        return DISCOVERED_MODELS
+
+    log_event("[*] Starting AI Model Auto-Discovery...", section_break=True)
+    discovered_meta: Dict[str, Dict[str, Any]] = {}
+
     for key in GEMINI_API_KEYS:
         try:
             async with httpx.AsyncClient() as client:
-                url = f"https://generativelanguage.googleapis.com/v1beta/models?key={key}"
+                url = f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/models?key={key}"
                 resp = await client.get(url, timeout=10)
                 if resp.status_code == 200:
-                    models_data = resp.json().get("models", [])
-                    for m in models_data:
+                    for m in resp.json().get("models", []):
                         name = m.get("name", "").replace("models/", "")
                         name_lower = name.lower()
                         if not name_lower.startswith("gemini-"):
                             continue
-                        if any(ex in name_lower for ex in excluded_substrings):
+                        if any(ex in name_lower for ex in _EXCLUDED_MODEL_SUBSTRINGS):
                             continue
-                        if "generateContent" in m.get("supportedGenerationMethods", []):
-                            if name not in all_supported: all_supported.append(name)
+                        if "generateContent" not in m.get("supportedGenerationMethods", []):
+                            continue
+                        if int(m.get("inputTokenLimit") or 32768) < 32768:
+                            continue
+                        if name not in discovered_meta:
+                            discovered_meta[name] = classify_model_metadata(m)
                 elif resp.status_code == 429:
-                    log_event(f"  [!] Discovery Key is rate-limited (429). Skipping.")
+                    log_event("  [!] Discovery Key is rate-limited (429). Skipping.")
         except Exception as e:
             log_event(f"[WARN] model discovery for key: {str(e)[:100]}")
 
-    if not all_supported:
+    if not discovered_meta:
         log_event("  [!] Discovery failed. Falling back to safe defaults.")
-        DISCOVERED_MODELS = [
-            "gemini-2.5-flash",
-            "gemini-2.5-flash-lite",
-            "gemini-3.6-flash",
-            "gemini-3.7-flash",
-            "gemini-3.8-flash",
-            "gemini-3.1-pro-preview",
-        ]
-        return DISCOVERED_MODELS
+        for raw in _DEFAULT_FALLBACK_METADATA:
+            meta = classify_model_metadata(raw)
+            discovered_meta[meta["name"]] = meta
 
-    def score_model(name: str) -> float:
-        score = 0.0
-        # Robust version parser matching both decimals (3.8, 1.5) and integers (4)
-        version_match = re.search(r'gemini-(\d+(?:\.\d+)?)', name)
-        if version_match:
-            try:
-                version = float(version_match.group(1))
-                score += version * 50
-            except Exception as e:
-                log_event(f"[WARN] parse model version for {name}: {str(e)[:100]}")
-        # Tier identification and weighting
-        if "-ultra" in name or "ultra" in name: score += 100
-        elif any(k in name for k in ["argon", "carbon"]): score += 80  # Gen-4 frontier flagships
-        elif "-pro" in name or "pro" in name: score += 50
-        elif "-flash" in name or "flash" in name: score += 25
-        elif "-lite" in name or "lite" in name: score += 10
-        if "-latest" in name: score += 5
-        if "experimental" in name or "exp" in name: score -= 15
-        return score
-
-    DISCOVERED_MODELS = sorted(all_supported, key=score_model, reverse=True)
+    DISCOVERED_MODEL_METADATA = discovered_meta
+    ranked = sorted(
+        discovered_meta.values(),
+        key=lambda c: (
+            1 if not c["is_omni"] else 0,
+            1 if not c["is_evergreen"] else 0,
+            c["major"],
+            c["minor"],
+            1 if c["tier"] == "frontier" else 0,
+            c["frontier_subrank"],
+            c["stability"],
+            c["output_limit"],
+        ),
+        reverse=True,
+    )
+    DISCOVERED_MODELS = [c["name"] for c in ranked]
     log_event(f"  [+] Discovered {len(DISCOVERED_MODELS)} suitable models.")
     log_event(f"  [+] Top Tier AI: {', '.join(DISCOVERED_MODELS[:3])}")
     return DISCOVERED_MODELS
@@ -545,21 +695,13 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
     consecutive_429s = 0
     base_wait_time = 2.0
     
-    # 1. Smart Filtering and Re-ordering
-    if use_grounding:
-        # For grounding/auditing, mandate Pro/Frontier models with superior reasoning & search verification
-        models = [m for m in models_pool if is_pro_frontier_model(m)]
-        if not models:
-            models = ["gemini-3.1-pro-preview", "gemini-1.5-pro", "gemini-1.5-pro-latest"]
-    elif prefer_flash:
-        # Strict filter: Only allow flash/lite models for high-throughput and cost efficiency
-        models = [m for m in models_pool if is_flash_model(m)]
-        if not models:
-            models = ["gemini-3.8-flash", "gemini-1.5-flash", "gemini-1.5-flash-latest"]
-    else:
-        # Non-flash tasks (e.g. Debate Synthesis, architectural audits) default to Pro/Frontier reasoning models
-        pro_frontier = [m for m in models_pool if is_pro_frontier_model(m)]
-        models = pro_frontier if pro_frontier else models_pool
+    # 1. Smart Filtering and Re-ordering (version-first, future-scheme resilient)
+    models = select_models_for_task(
+        models_pool,
+        DISCOVERED_MODEL_METADATA,
+        prefer_flash=prefer_flash,
+        use_grounding=use_grounding,
+    )
 
     total_keys = len(GEMINI_API_KEYS)
     
