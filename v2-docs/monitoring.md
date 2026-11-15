@@ -11,9 +11,9 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 
 ## Application Performance Management APM
 
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 Best Performance Testing Tools and APM Solutions covering Application Performance Management APM in Monitoring (dzone.com).
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: APM Tools Comparison covering Application Performance Management APM in Monitoring (dzone.com).
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know covering Application Performance Management APM in Monitoring (dzone.com).
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 Best Performance Testing Tools and APM Solutions covering Application Performance Management APM in Monitoring (dzone.com).
 ## Architecture
 
 ### Microservices
@@ -688,7 +688,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
   - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to read a Thread Dump covering Thread Dumps. Debugging Java Applications in Monitoring (dzone.com).
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Jenkins Alternatives resources for 2026, AI-ranked: kubeflow, Prow and more — curated Cloud Native tools, guides and references."
+description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Screwdriver API and more — curated Cloud Native tools, guides and references."
 ---
 # Jenkins Alternatives for Continuous Integration and Continuous Deployment
 
@@ -304,7 +304,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: kubeflow, 
   - **(2026)** [==onedev==](https://github.com/theonedev/onedev) <span class='md-tag md-tag--info'>⭐ 15327</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-12cd9f45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 8 L 30 11 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-12cd9f45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An all-in-one, highly scalable self-hosted Git service and CI/CD platform. Features visual pipeline construction, interactive code navigation, and issue-tracking, optimized to run as a single-node setup or distributed across Kubernetes environments.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins](./jenkins.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

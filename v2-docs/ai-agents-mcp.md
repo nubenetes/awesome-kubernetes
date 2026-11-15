@@ -1,5 +1,5 @@
 ---
-description: "Top AI Agents MCP resources for 2026, AI-ranked: Strands Agents SDK, Microsoft Agent Framework and more — curated Cloud Native tools, guides and references."
+description: "Top AI Agents MCP resources for 2026, AI-ranked: Microsoft Agent Framework, Strands Agents SDK and more — curated Cloud Native tools, guides and references."
 ---
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
@@ -692,7 +692,7 @@ Core technical aims:
 *   **Technical Significance**: Redefines open-source collaboration, demonstrating a paradigm where human and AI agents securely build and maintain a massive public codebase.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md)
+💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [MLOps](./mlops.md) | [AI](./ai.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

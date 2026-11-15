@@ -178,7 +178,7 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9?gi=9d9ff792e945) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000 covering Kubernetes Cost Optimization in Finops (engineering.razorpay.com).
 
 ---
-💡 **Explore Related:** [Freelancing](./freelancing.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 
