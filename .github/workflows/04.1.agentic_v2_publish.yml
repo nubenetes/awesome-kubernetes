@@ -19,18 +19,70 @@ on:
         default: false
 
 permissions:
+  actions: read
   contents: write
   pull-requests: write
 
 jobs:
-  publish-v2:
+  precheck:
     runs-on: ubuntu-latest
     if: |
-      github.event_name == 'workflow_dispatch' || 
-      (github.event_name == 'push' && 
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' &&
        !contains(github.event.head_commit.message, '[skip ci]') &&
        !contains(github.event.head_commit.message, 'bot/v2-elite-sync')) ||
       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    outputs:
+      should_run: ${{ steps.decide.outputs.should_run }}
+    steps:
+      - name: Deduplicate upstream and overlapping triggers
+        id: decide
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
+            # Skip if the triggering 03.3 run skipped its build-video-hub job.
+            JOB_CONCL=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/jobs" \
+              --jq '[.jobs[] | select(.name == "build-video-hub")] | .[0].conclusion // ""' 2>/dev/null || echo "")
+            if [[ "$JOB_CONCL" == "skipped" ]]; then
+              echo "Skipping: upstream 03.3 build-video-hub job was skipped as a duplicate."
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "should_run=true" >> "$GITHUB_OUTPUT"
+            fi
+            exit 0
+          fi
+
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            # If the push also touches inventory/video scripts, 03.2/03.3 will run
+            # and trigger 04.1 via workflow_run after enrichment finishes.
+            MATCH="false"
+            if [[ -n "$BEFORE" && "$BEFORE" != "0000000000000000000000000000000000000000" ]]; then
+              MATCH=$(gh api "repos/${{ github.repository }}/compare/${BEFORE}...${SHA}" \
+                --jq '[.files[]?.filename] | any(. == "data/inventory.yaml" or . == "src/v2_video_portal.py" or . == "src/enrich_videos.py")' \
+                2>/dev/null || echo "")
+            fi
+            if [[ -z "$MATCH" ]]; then
+              MATCH=$(jq -r '[.commits[]? | (.added[]?, .modified[]?, .removed[]?)] | any(. == "data/inventory.yaml" or . == "src/v2_video_portal.py" or . == "src/enrich_videos.py")' \
+                "$GITHUB_EVENT_PATH" 2>/dev/null || echo "false")
+            fi
+            if [[ "$MATCH" == "true" ]]; then
+              echo "Skipping duplicate push trigger: upstream 03.2/03.3 pipeline will trigger 04.1."
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "should_run=true" >> "$GITHUB_OUTPUT"
+            fi
+            exit 0
+          fi
+
+          echo "should_run=true" >> "$GITHUB_OUTPUT"
+
+  publish-v2:
+    needs: precheck
+    runs-on: ubuntu-latest
+    if: needs.precheck.outputs.should_run == 'true'
     concurrency:
       group: v2-publish-develop
       cancel-in-progress: false
