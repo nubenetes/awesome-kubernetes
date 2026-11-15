@@ -245,11 +245,6 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
 #### Saas Platforms
 
   - **(2026)** [Rapid API:](https://rapidapi.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A leading enterprise Hub and Gateway solution for API discovery, testing, and monetization. Provides uniform control planes to aggregate heterogeneous upstream microservice APIs, enforce consolidated security policies, and manage global tenant billing workflows.
-### System Design
-
-#### Microservices Patterns
-
-  - **(2018)** [**blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?**](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A seminal article detailing the functional boundary differences between API Gateways and Service Meshes. Christian Posta demonstrates how gateways excel at managing south-north public consumer interfaces (security, transformations, rate limiting), while service meshes optimize complex east-west backend telemetry.
 ## Cloud Providers
 
 ### AWS

@@ -139,11 +139,6 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### RKE2
 
   - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
-### Hyperconverged Infrastructure
-
-#### Bare Metal (1)
-
-  - **(2021)** [**rancher.com: Announcing Harvester: Open Source Hyperconverged Infrastructure (HCI) Software**](https://www.suse.com/c/rancher_blog/announcing-harvester-open-source-hyperconverged-infrastructure-hci-software) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Official announcement of Harvester, an open-source hyperconverged infrastructure (HCI) solution designed on top of Kubernetes, KubeVirt, and Longhorn. Bridges the gap between traditional virtual machine workloads and modern cloud-native containerized platforms, enabling unified operations. Valuable for organizations seeking alternatives to legacy proprietary hypervisors.
 ## K3D
 
   - [itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min](https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376?gi=ae1dcfe55fb2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min covering K3D in Rancher (itnext.io).
@@ -173,7 +168,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### Training
 
   - **(2020)** [Rancher Labs launches free training course to meet surging demand for Kubernetes skills](https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — News coverage highlighting Rancher Labs' release of free structural training academies designed to meet surging market demands for cloud-native orchestration and DevSecOps tooling expertise.
-### Hyperconverged Infrastructure (1)
+### Hyperconverged Infrastructure
 
 #### Harvester
 
@@ -263,7 +258,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - **(2022)** [blog.getambassador.io: Best Tools for Kubernetes Local Development: A Comprehensive Guide](https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review assessing local Kubernetes developer pipelines including Minikube, Kind, and K3s. Highlights developer speed, local resources consumption, and production parity.
 ## Platform Engineering
 
-### Hyperconverged Infrastructure (2)
+### Hyperconverged Infrastructure (1)
 
 #### Harvester HCI
 
