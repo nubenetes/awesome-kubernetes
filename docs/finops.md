@@ -54,6 +54,7 @@
 - https://compute-cost.com 🌟
 - This tool finds the lowest price of compute resources from different services (currently just in AWS). To balance simplicity and utility, only the most common features are available as filters.
 - "As an AWS user, I often want to know the cheapest options for compute resources given some project-specific criteria. So, I made a tool to show me that data in a way that is useful to me. Maybe it will be useful to you" @ericwastl
+- [GPU Price Index: observed GPU cloud prices across providers](https://gpu-cloud-prices.pages.dev) - Free, independent price finder for GPU instances on AWS, Azure, OVHcloud, Scaleway, Verda (DataCrunch) and other GPU clouds: about 3,900 on-demand and Spot offers for 138 GPU models in 143 regions, normalized to USD per GPU-hour. Every price links to its source page and shows when it was observed. Data refreshes about every 15 minutes and is published as JSON exports, an RSS feed and a daily CC-BY-4.0 dataset on Hugging Face. Useful for picking a provider and region before sizing a GPU node pool for training or inference.
 
 ## AWS Cost Optimizations
   - [Cloudburn: An Open-Source Policy Engine for AWS Spending](https://github.com/towardsthecloud/cloudburn) - *(Related to aws topic)*
