@@ -723392,6 +723392,9 @@ https://github.com/nubenetes/finops-agentic-ai-architectures:
   technology: Azure
   category: Cloud and Infrastructure
   source_provenance: Official @nubenetes GitHub Repository
+  gh_stars: 0
+  gh_pushed: '2026-11-15T15:30:47Z'
+  gh_license: Apache-2.0
 https://www.youtube.com/playlist?list=PLLvKIaVqVF78:
   title: '⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS
     & Serverless'
