@@ -1632,6 +1632,25 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## AI Agents and Multi-Repo Workflows
+
+??? note "🎬 The Home Repo: The effortless multi-repo agent setup"
+    !!! info "Architectural Summary"
+        Architectural walkthrough by Matt Pocock (AI Hero) presenting the "Home Repo" pattern for orchestrating AI coding agents across multiple decoupled Git repositories without forcing a disruptive monorepo migration. Rather than fragmenting agent context inside isolated repos, engineering teams maintain a dedicated orchestration repository housing cross-repo steering files, reusable Agent Skills, shared personal wikis, and automation tooling.
+        - **Multi-Repo Context Cohesion**: Bridges context boundaries across microservice, infrastructure-as-code, and frontend repositories so autonomous agents understand end-to-end dependencies.
+        - **Platform Engineering Applicability**: Directly adaptable to Kubernetes and GitOps estates where Helm charts, Terraform/OpenTofu modules, and application source trees live in separate repositories.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="hWe-j78vNpc" data-video-url="https://www.youtube.com/embed/hWe-j78vNpc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/hWe-j78vNpc/hqdefault.jpg" alt="The Home Repo: The effortless multi-repo agent setup" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Agentic DevOps
 
 ??? note "🎬 Agentic DevOps Live"

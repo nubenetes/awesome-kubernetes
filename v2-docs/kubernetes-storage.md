@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolSync and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEBS and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Storage. Cloud Native Storage
 
@@ -16,6 +16,18 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
 #### Distributed Block Storage
 
   - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d010a68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 3 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2d010a68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
+## Cloud Native
+
+### Kubernetes
+
+#### Storage
+
+##### Volume Management
+
+###### Finops
+
+  - **(2026)** [**Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)**](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[COST-OPTIMIZATION]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FINOPS]</span> <span class='md-tag md-tag--primary'>[PVC]</span> <span class='md-tag md-tag--primary'>[STORAGE]</span> — Introduces the beta graduation of PersistentVolumeClaimUnusedSinceTime in Kubernetes v1.37, enabling automated lifecycle management for orphaned storage assets. By tracking the exact timestamp a PVC was last actively mounted, FinOps teams can safely garbage-collect idle cloud volumes. This capability significantly curtails cloud storage waste and optimizes dynamic volume provisioning.
+  - **(2026)** [**Kubernetes v1.37: Storage Version Migration Enabled by Default**](https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[ETCD]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[LIFECYCLE-MANAGEMENT]</span> <span class='md-tag md-tag--primary'>[STORAGE]</span> — Curator Insight highlights that the GA graduation of Storage Version Migration (SVM) in Kubernetes v1.37 fundamentally standardizes Day-2 etcd lifecycle management by natively handling API schema evolution. Grounded operational evidence indicates that SVM automates the background translation of stored API objects to their latest internal versions, eliminating the SRE toil of manual manifest extraction during major cluster upgrades. While enabling this default behavior incurs minor background API server load during active state migrations, the architectural trade-off yields zero-downtime control plane upgrades and robust storage consistency. This embedded mechanism is critical for sustaining automated, agentic release cycles across high-density cloud-native environments.
 ## Cloud Native Storage Architecture
 
 ### Storage Architecture and Engines
@@ -91,6 +103,13 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
   - [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88?gi=9fd72ede5a10) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Temporary Storage for Kubernetes Pods covering Introduction in Kubernetes Storage (itnext.io).
   - [cncf.io: Container Attached Storage is Cloud Native Storage (CAS)](https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Container Attached Storage is Cloud Native Storage (CAS) covering Introduction in Kubernetes Storage (cncf.io).
   - [cncf.io: Kubernetes storage is complex, but it’s getting better](https://www.cncf.io/blog/2023/03/28/kubernetes-storage-is-complex-but-its-getting-better)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Kubernetes storage is complex, but it’s getting better covering Introduction in Kubernetes Storage (cncf.io).
+## Kubernetes Architecture
+
+### Storage (1)
+
+#### CSI Integrations
+
+  - **(2026)** [**Spotlight on SIG Storage**](https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CSI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[SIG-STORAGE]</span> <span class='md-tag md-tag--primary'>[STATEFUL]</span> <span class='md-tag md-tag--primary'>[STORAGE]</span> — This official Kubernetes SIG Storage update outlines the 2026 roadmap for stateful workload orchestration, emphasizing advanced Container Storage Interface (CSI) capabilities and robust Day-2 data protection protocols. **Curator Insight**: As stateful AI platforms demand higher IOPS and fault tolerance, the SIG's focus on seamless storage integration directly supports high-availability vector databases and continuous LLM checkpointing. **Live Grounding**: Native Kubernetes storage primitives continue to evolve towards standardized, scalable data management, ensuring that cluster administrators can consistently bridge bare-metal performance with cloud-native resilience.
 ## Kubernetes Storage Implementation
 
 ### Persistent Volumes and Provisioners
@@ -134,7 +153,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
 ## Rook
 
   - [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e?gi=7dd9bf1069e5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Using Rook On A K3s Cluster covering Rook in Kubernetes Storage (itnext.io).
-## Storage
+## Storage (2)
 
 ### Distributed Storage
 
@@ -246,7 +265,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Kadalu, VolS
   - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Noops](./noops.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

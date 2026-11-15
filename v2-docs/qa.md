@@ -75,6 +75,13 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Checklist for API Verification 🌟 covering Introduction in QA (dzone.com).
   - [dzone: We Are Testing Software Incorrectly and It's Costly](https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: We Are Testing Software Incorrectly and It's Costly covering Introduction in QA (dzone.com).
   - [dzone: Testing the Untestable and Other Anti-Patterns](https://dzone.com/articles/testing-the-untestable-and-other-anti-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Testing the Untestable and Other Anti-Patterns covering Introduction in QA (dzone.com).
+## Quality Assurance
+
+### Automated Testing
+
+#### AI Code Review
+
+  - **(2026)** [**Greptile takes bug detection beyond code review with GPT-6 Astra**](https://openai.com/index/greptile-code-review-codex-astra) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AGENTIC-QA]</span> <span class='md-tag md-tag--primary'>[AUTOMATED-TESTING]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPT-6]</span> — Greptile is advancing beyond traditional static analysis by employing GPT-6 Astra's computer-use capabilities to autonomously test user workflows and detect runtime bugs. Combined with Daybreak for security audits and Codex for context-aware code remediation, the platform allows enterprises to validate pull requests with unprecedented depth. This multi-model architecture highlights the evolution of QA towards fully autonomous, AI-driven software testing pipelines.
 ## Security
 
 ### CICD
@@ -106,7 +113,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 #### Python Testing Workflows
 
   - **(2021)** [dev.to: Test-Driven-Development with Django: Unit Testing & Integration testing with Docker, Flask & Github Actions](https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation guide showcasing Test-Driven Development (TDD) principles in Python. Employs Django, Flask, containerized Docker backends, and GitHub Actions to deploy validated code packages.
-### Quality Assurance
+### Quality Assurance (1)
 
 #### SQA Frameworks
 
@@ -175,7 +182,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - [dzone: Component Tests for Spring Cloud Microservices](https://dzone.com/articles/component-tests-for-spring-cloud-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Component Tests for Spring Cloud Microservices covering Tools in QA (dzone.com).
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

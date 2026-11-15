@@ -133,6 +133,10 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2020)** [automationreinvented.blogspot.com: Top 11 Kubernetes interview question and answers for SDET Devops QA SET-01?](https://automationreinvented.blogspot.com/2020/09/top-11-kubernetes-interview-question.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tactical breakdown of core Kubernetes constructs targeted at system verification and automated QA architectures. Analyzes scheduling, ReplicaSet control loops, and environment variable injections.
   - **(2020)** [automationreinvented.blogspot.com: Top Interview Question on Kubernetes for SDET/Devops Set-03? ReplicaSet in K8S](https://automationreinvented.blogspot.com/2020/11/top-interview-question-on-kubernetes.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focused architectural analysis of the Kubernetes ReplicaSet controller. Evaluates the difference between Deployments and ReplicaSets, selector configuration, and partition recovery methods during failover phases.
   - **(2019)** [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Foundational interview review illustrating early Kubernetes core components. Outlines architectural roles for etcd, the API server, kube-scheduler, kube-controller-manager, and pod lifecycle semantics.
+## DevOps Interview Questions
+
+  - **(2026)** [prepare.sh: 100+ DevOps Interview Questions with Answers](https://prepare.sh/interview-questions/devops) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DEVOPS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curated bank of 100+ practical DevOps, Linux, CI/CD, and Kubernetes interview questions paired with architectural explanations and hands-on lab environments.
+- **Practical Assessment**: Moves beyond static theory flashcards by enabling engineers to validate troubleshooting and automation skills inside interactive scenarios.
 ## Management
 
 ### Agile
@@ -181,7 +185,7 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2021)** [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Broad UI automation preparation set evaluating Selenium WebDriver API combined with TestNG assertions. Covers dynamic wait mechanisms, Page Object Pattern configurations, and multi-thread test runs.
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Workfromhome](./workfromhome.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

@@ -19,6 +19,18 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 #### Sidecar Pattern
 
   - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how native sidecar containers (introduced in K8s 1.28) redefine load-testing execution. By decoupling helper utilities from core application workloads, sidecars simplify performance benchmarking and operational telemetry.
+## Cloud Native
+
+### Kubernetes
+
+#### Autoscaling (1)
+
+  - **(2026)** [**Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler**](https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOSCALING]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FINOPS]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[SERVERLESS]</span> — Unveils Beta API support for scaling workloads to zero replicas directly using the HorizontalPodAutoscaler in Kubernetes v1.37. This native serverless capability reduces idle compute costs and simplifies integration with event-driven architectures (like KEDA). It presents a substantial architectural upgrade for FinOps-focused platform teams.
+#### Scheduling
+
+  - **(2026)** [**Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)**](https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOSCALING]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[RESOURCE-MANAGEMENT]</span> <span class='md-tag md-tag--primary'>[SCHEDULING]</span> — The Kubernetes v1.37 release introduces an Alpha feature enabling scheduler preemption for in-place Pod resizing, fundamentally altering legacy static resource allocation paradigms. By allowing kube-scheduler to preempt lower-priority workloads, the control plane can now satisfy increased CPU or memory requests for critical pods without triggering disruptive container restarts.
+* **Curator Insight**: This capability is particularly transformative for stateful operators and 2026-era AI/ML inference workloads, where pod termination incurs severe latency penalties due to prolonged model-weight loading into GPU memory.
+* **Architectural Trade-offs**: While providing seamless vertical autoscaling integration, cluster administrators must rigorously define `PriorityClass` hierarchies and resource quotas to prevent cascading eviction storms when system-wide node utilization peaks.
 ## Cluster Autoscaler Kubernetes Tool
 
   - [==chrisedrego.medium.com: Kubernetes AutoScaling Series: Cluster AutoScaler 🌟==](https://chrisedwardrego.medium.com/kubernetes-autoscaling-series-cluster-autoscaler-5d60c10c3dc1) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for chrisedrego.medium.com: Kubernetes AutoScaling Series: Cluster AutoScaler 🌟 covering Cluster Autoscaler Kubernetes Tool in Kubernetes Autoscaling (chrisedwardrego.medium.com).
@@ -38,7 +50,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - [itnext.io: Kubernetes: vertical Pods scaling with Vertical Pod Autoscaler](https://itnext.io/kubernetes-vertical-pods-scaling-with-vertical-pod-autoscaler-e2e5a3b8e1a9?gi=d2f70a247b32) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes: vertical Pods scaling with Vertical Pod Autoscaler covering HPA and VPA in Kubernetes Autoscaling (itnext.io).
 ## Infrastructure and Platform
 
-### Autoscaling (1)
+### Autoscaling (2)
 
 #### Cluster Autoscaling
 
@@ -179,7 +191,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Scale to Zero With Kubernetes with KEDA and/or Knative covering Kubernetes Scale to Zero in Kubernetes Autoscaling (dzone.com).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

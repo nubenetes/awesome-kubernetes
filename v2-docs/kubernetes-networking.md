@@ -26,6 +26,13 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
 #### Subnet Peering
 
   - **(2025)** [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural paradigm of Subnet Peering in Azure, bypassing the traditional resource-heavy requirements of full Virtual Network (VNet) peering. This feature allows network engineers to establish direct, localized communication paths between designated subnets, optimizing security boundaries and address space usage.
+## Cloud Native
+
+### Kubernetes
+
+#### Networking And Gateway API
+
+  - **(2026)** [**Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard**](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GATEWAY-API]</span> <span class='md-tag md-tag--primary'>[INGRESS]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[NETWORKING]</span> — Highlights the release of Gateway API v1.6.0, marking the graduation of TCPRoute and UDPRoute to standard status. This shift fundamentally expands standard ingress routing capabilities to Layer 4 traffic, superseding legacy LoadBalancer limitations. Essential for network architects implementing advanced multi-protocol service meshes.
 ## Container Orchestration
 
 ### Kubernetes Networking (1)
@@ -178,7 +185,7 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
 ## K8gb
 
   - [blog.abaganon.com: Why you probably won’t use K8gb.io](https://blog.abaganon.com/going-global-with-kubernetes-490cf51e2bf8?gi=6e8b91addc94) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.abaganon.com: Why you probably won’t use K8gb.io covering k8gb in Kubernetes Networking (blog.abaganon.com).
-## Kubernetes
+## Kubernetes (1)
 
 ### Networking (1)
 
@@ -410,7 +417,7 @@ description: "Top Kubernetes Networking resources for 2026, AI-ranked: Flannel, 
   - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Istio](./istio.md) | [Servicemesh](./servicemesh.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Istio](./istio.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

@@ -417,6 +417,8 @@ class V2VisionEngine:
                 matches = re.finditer(r'^\s*-\s*(?:\*\*\(\d{4}\)\*\*\s+)?\[([^\]]+)\]\(([^\)]+)\)(.*?(?:\n\s{2,}.*)*)', content, re.MULTILINE)
                 for m in matches:
                     title, url, full_desc = m.groups()
+                    if url.strip().startswith("#"):
+                        continue
                     if not url.startswith(("http", "mailto", "#")):
                         url = f"https://nubenetes.com/{url.replace('.md', '/')}"
                     # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
@@ -565,6 +567,15 @@ class V2VisionEngine:
             save_inventory(self.inventory)
             log_event(f"    [💾] Inventory Persisted: {gh_fetch_count} metadata entries updated.")
 
+        file_to_dim = {f + ".md": dim for dim, files in self.dimensions.items() for f in files}
+
+        def _register_project(pid: str, entry_item: Dict) -> None:
+            """Keep the highest-rated entry per canonical project ID while preserving special status."""
+            if pid not in project_registry or (entry_item.get("stars") or 0) > (project_registry[pid].get("stars") or 0):
+                if pid in project_registry and project_registry[pid].get("is_special"):
+                    entry_item["is_special"] = True
+                project_registry[pid] = entry_item
+
         for l in links:
             item = l.copy()
             v1_title = nuclear_strip(l.get("title", ""))
@@ -583,6 +594,13 @@ class V2VisionEngine:
 
             if not force_eval and norm_url in self.inventory:
                 cached = self.inventory[norm_url]
+                v1_loc = f"docs/{orig_file}"
+                v1_locs = cached.get("v1_locations")
+                if not isinstance(v1_locs, list):
+                    v1_locs = []
+                if v1_loc not in v1_locs:
+                    v1_locs.append(v1_loc)
+                    cached["v1_locations"] = v1_locs
                 item.update(cached)
                 cached_title = nuclear_strip(str(cached.get("title") or ""))
                 if not cached_title and v1_title:
@@ -602,10 +620,34 @@ class V2VisionEngine:
                     except Exception:
                         pass
                 if ((cached.get("hierarchy") and cached.get("ai_summary") and not eval_stale) or self.render_only) and not force_eval:
-                    if project_id not in project_registry or (item.get("stars") or 0) > (project_registry[project_id].get("stars") or 0):
-                        if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
-                        project_registry[project_id] = item
+                    _register_project(project_id, item)
                     continue
+            elif self.render_only and not force_eval:
+                # Auto-ingest newly merged V1 links so render-only V2 publishes never drop contributor PRs
+                clean_desc = re.sub(r'^[\s\-–—:🌟]+', '', l.get("description", "")).strip()
+                star_count = max(3, min(5, l.get("description", "").count("🌟") + 2)) if "🌟" in l.get("description", "") else 3
+                dim = file_to_dim.get(orig_file, "Architectural Foundations")
+                page_title = orig_file.replace(".md", "").replace("-", " ").title()
+                fallback_entry = {
+                    "title": v1_title or item.get("title", "Resource"),
+                    "description": l.get("description", ""),
+                    "ai_summary": clean_desc if len(clean_desc) >= 20 else f"{v1_title}: Curated technical resource in {page_title}.",
+                    "year": "2026",
+                    "stars": star_count,
+                    "status": "online",
+                    "language": "English",
+                    "resource_type": "Tool" if "github.com" in norm_url else "Reference",
+                    "complexity": "Intermediate",
+                    "hierarchy": [dim, page_title, l.get("v1_section") or "General Reference"],
+                    "v1_locations": [f"docs/{orig_file}"],
+                    "v2_locations": [orig_file],
+                    "addition_method": "manual",
+                    "discovered_at": datetime.now(MADRID_TZ).isoformat(),
+                }
+                self.inventory[norm_url] = fallback_entry
+                item.update(fallback_entry)
+                _register_project(project_id, item)
+                continue
             if not nuclear_strip(str(item.get("title") or "")) and v1_title:
                 item["title"] = v1_title
             to_evaluate.append(item)

@@ -63,6 +63,11 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Cluster API
 
   - **(2021)** [thenewstack.io: Provision Bare-Metal Kubernetes with the Cluster API](https://thenewstack.io/provision-bare-metal-kubernetes-with-the-cluster-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into utilizing Cluster API for declarative provisioning on physical hardware. The guide details how Cluster API Provider BYOH (Bring Your Own Host) and Metal3 bridge the gap between bare-metal lifecycle management and cloud-like declarative workflows, orchestrating native bare-metal nodes through Kubernetes CRDs.
+### Cloud Market
+
+#### Openstack
+
+  - **(2019)** [thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up](https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-discounts-dry-up) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece detailing the sharp decline in OpenStack market share as public cloud hyperscalers expanded. Live Grounding confirms that OpenStack remains stable only in telecom NFV and niche on-premises private clouds, while generic enterprise deployments have shifted to Kubernetes and hybrid-cloud runtimes.
 ### Cluster Management
 
 #### Cluster API (1)
@@ -291,7 +296,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2019)** [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

@@ -169,6 +169,13 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Ingress Control (1)
 
   - **(2021)** [mirantis.com: Introduction to Istio Ingress: The easy way to manage incoming Kubernetes app traffic](https://www.mirantis.com/blog/introduction-to-istio-ingress-the-easy-way-to-manage-incoming-kubernetes-app-traffic)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural model of the Istio Ingress Gateway as the entry point for north-south traffic management. Reviews routing mechanics, TLS termination configurations, and integration with Service Mesh VirtualServices. A foundational guide for optimizing network boundaries and consolidating edge authorization policies.
+## Infrastructure As Code (1)
+
+### Terraform
+
+#### Security And Compliance
+
+  - **(2026)** [==aquasecurity/trivy: Unified Security and Misconfiguration Scanner for Terraform==](https://github.com/aquasecurity/trivy) <span class='md-tag md-tag--info'>⭐ 38914</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7fdb3d2f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 10 L 30 6 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-7fdb3d2f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — Industry-standard open-source scanner (superseding tfsec) that detects security misconfigurations, policy violations, and exposed secrets across Terraform HCL, plan files, and modules.
 ## Introduction
 
   - [==infosecwriteups.com: How I Discovered Thousands of Open Databases on AWS==](https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32?gi=e33fed68a2fb) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for infosecwriteups.com: How I Discovered Thousands of Open Databases on AWS covering Introduction in Devsecops (infosecwriteups.com).
@@ -265,6 +272,11 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Cloud Security Assistants
 
   - **(2026)** [**Microsoft Security Copilot**](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An enterprise AI-powered security analysis assistant integrating massive telemetry data with advanced language models. It accelerates incident response, simplifies threat hunting, and automates multi-cloud security posture analysis across IT environments.
+### AI Governance
+
+#### Cyber Defense
+
+  - **(2026)** [**Democratic governance of frontier AI, part II: Empowering cyber defenders**](https://openai.com/index/empowering-cyber-defenders) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-GOVERNANCE]</span> <span class='md-tag md-tag--primary'>[CYBERSECURITY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[DEFENSE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[POLICY]</span> — Addressing the dual-use nature of frontier AI in cybersecurity, OpenAI published a strategic blueprint focused on empowering cyber defenders. The framework outlines actionable pillars, including democratizing access to defensive AI tools, coordinating resilience across government and industry, and strengthening security around powerful frontier models. Recognizing that adversaries leverage AI to scale attacks, the initiative advocates for proactive public-private partnerships to distribute agentic defense capabilities globally.
 ### API Security
 
 #### Microservices Architecture
@@ -285,6 +297,11 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 
   - **(2023)** [auth0.com: A Passwordless Future! Passkeys for Java Developers](https://auth0.com/blog/webauthn-and-passkeys-for-java-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer-focused guide to building passwordless authentication flows in Java web applications using WebAuthn APIs. Covers credential registration mechanics, client signature verification, and security practices for modern passkeys.
   - **(2022)** [goteleport.com: Why DevSecOps is Going Passwordless](https://goteleport.com/blog/devsecops-passwordless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the transition from static SSH keys and database credentials to short-lived, identity-driven access methods. Outlines using WebAuthn standards, public-key cryptography, and modern IAM federation to eliminate credential storage risks.
+### Agentic Cybersecurity
+
+#### Threat Operations
+
+  - **(2026)** [**Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron**](https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AGENTIC-AI]</span> <span class='md-tag md-tag--primary'>[CYBERSECURITY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NEMOTRON]</span> <span class='md-tag md-tag--primary'>[THREAT-HUNTING]</span> — **Curator Insight**: The integration of agentic AI into cybersecurity operations enables systems to pursue complex defensive objectives over extended temporal horizons. **Live Grounding**: NVIDIA and CrowdStrike have co-developed an adaptive cybersecurity system leveraging open Nemotron models and Falcon telemetry. This architecture implements a validation-first approach via specialized agent harnesses, empowering security teams to automate threat hunting, incident response, and continuous posture management against sophisticated adversarial attacks.
 ### Application Security
 
 #### Pentesting
@@ -297,6 +314,9 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Spring Boot Integrations
 
   - **(2021)** [piotrminkowski.com: Vault on Kubernetes with Spring Cloud](https://piotrminkowski.com/2021/12/30/vault-on-kubernetes-with-spring-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An application integration tutorial showing how to bind Spring Cloud Config and Spring Cloud Vault inside Kubernetes. Demonstrates how microservices resolve credentials at startup, manage key rotation, and construct a secure configuration hierarchy directly mapped to application properties.
+#### Vulnerability Management
+
+  - **(2026)** [**Patch the Planet: global response coordination as agents uncover critical vulnerabilities**](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-SECURITY]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--primary'>[DEFENSE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[VULNERABILITY-RESEARCH]</span> — The 'Patch the Planet' initiative demonstrates the defensive capabilities of frontier AI models like GPT-5.6 Sol in large-scale cybersecurity. By discovering critical zero-day vulnerabilities in ubiquitous software such as PHP, OpenAI facilitated a coordinated global response alongside maintainers and partners like Cloudflare and Wiz. This proactive approach established a 'Defender's Window,' enabling organizations to develop and deploy patches and protections ahead of public disclosure. To further scale this effort, OpenAI pledged $1 billion in subsidized Daybreak access for frontline defenders.
 #### WAF and API Security
 
   - **(2026)** [github.com/openappsec/openappsec](https://github.com/openappsec/openappsec) <span class='md-tag md-tag--info'>⭐ 1635</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7dd51107" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 9 L 30 8 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-7dd51107)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An open-source, machine-learning-driven security controller designed to protect microservice APIs and modern web applications. Utilizing contextual data analysis rather than static signatures, it intercepts zero-day exploits and SQL injections dynamically at the ingress level.
@@ -536,7 +556,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Container Forensics
 
   - **(2022)** [sysdig.com: Triaging a Malicious Docker Container](https://www.sysdig.com/blog/triaging-malicious-docker-container) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — A forensic walkthrough of debugging a compromised Docker container in real-time. Demonstrates profiling system calls with open-source Falco and Sysdig tools, isolating workloads, and tracing exploit command sequences.
-### Infrastructure As Code (1)
+### Infrastructure As Code (2)
 
 #### Terraform Secrets
 
@@ -600,6 +620,9 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### CNI Data Plane
 
   - **(2021)** [thenewstack.io: Project Calico: Kubernetes Security as SaaS](https://thenewstack.io/project-calico-kubernetes-security-as-saas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> — Analyzes Project Calico's enterprise security platforms, focusing on network segmentation through high-performance eBPF data planes. Details SaaS-driven configurations for securing multi-cluster dynamic networking topologies. Explains policy design that automatically bridges hybrid structures with local endpoints.
+#### Edge Protection
+
+  - **(2026)** [**Cloudflare links vulnerability discovery to defense with OpenAI**](https://openai.com/index/cloudflare-cyber) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-SECURITY]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--primary'>[DAYBREAK]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[VULNERABILITY-MANAGEMENT]</span> <span class='md-tag md-tag--primary'>[WAF]</span> — Cloudflare has integrated OpenAI's Daybreak models into its Vulnerability Discovery and Remediation pipeline to enhance edge network security. The service combines real-time threat telemetry with AI-driven code analysis, allowing models to investigate vulnerabilities, validate evidence, and propose structural fixes. Beyond suggesting patches, the system generates custom Web Application Firewall (WAF) rules to instantly reduce exposure while human developers review the proposed code changes. This creates an automated, end-to-end security workflow from discovery to edge mitigation.
 #### Web Application Firewall
 
   - **(2021)** [thenewstack.io: WAF: Securing Applications at the Edge](https://thenewstack.io/waf-securing-applications-at-the-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Web Application Firewall (WAF) deployments at the edge of cloud-native systems. It details how WAFs inspect layer-7 traffic and block malicious payloads before they can exploit application vulnerabilities. This edge defense layer is highly effective for protecting exposed APIs and microservices.
@@ -753,7 +776,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
   - **(2021)** [cisecurity.org: Where Does Zero Trust Begin and Why is it Important?](https://www.cisecurity.org/insights/blog/where-does-zero-trust-begin-and-why-is-it-important)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs the conceptual boundaries of Zero Trust from the Center for Internet Security (CIS) perspective. Focuses on identity establishing mechanisms, robust cryptographic postures, and strict validation of devices before granting workload-level access. Crucial for designing compliance profiles and security baselines for cloud environments.
 ### Static Analysis (2)
 
-#### Infrastructure As Code (2)
+#### Infrastructure As Code (3)
 
   - **(2022)** [thenewstack.io: Security Insights into Infrastructure-as-Code](https://thenewstack.io/security-insights-into-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines vulnerability mapping and mitigation strategies in Infrastructure-as-Code files, emphasizing Terraform, CloudFormation, and Ansible templates. Discusses the dangers of utilizing loose public access defaults and unsecured parameters. Focuses on the imperative of automated pipeline compliance scanning.
 ### Supply Chain
@@ -810,6 +833,9 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Kubernetes Exposures
 
   - **(2022)** [bleepingcomputer.com: Over 900,000 Kubernetes instances found exposed online](https://www.bleepingcomputer.com/news/security/over-900-000-kubernetes-instances-found-exposed-online)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reports on the global exposure of over 900,000 misconfigured Kubernetes control planes on the public internet. Discusses how default API access patterns, broad network settings, and incorrect ingress rules expose environments to automated scans and privilege escalations.
+#### Vulnerability Research
+
+  - **(2026)** [**How Check Point accelerates vulnerability research with Daybreak**](https://openai.com/index/check-point-daybreak) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-DEFENSE]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--primary'>[CYBERSECURITY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[THREAT-INTELLIGENCE]</span> — Check Point has integrated the OpenAI Daybreak Defense Network to dramatically accelerate its vulnerability research and threat mitigation processes. By leveraging frontier cybersecurity models, security teams can rapidly analyze complex attack paths, identify code misconfigurations, and deploy autonomous network defenses in minutes. This integration underscores the transformative impact of LLM-driven threat intelligence on enterprise security operations.
 ### Vulnerabilities
 
 #### Argo Workflows Misconfigurations
@@ -859,7 +885,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Threat Intelligence (1)
 
   - **(2022)** [thehackernews.com: Microsoft Warns of Continued Attacks Exploiting Apache Log4j Vulnerabilities](https://thehackernews.com/2022/01/microsoft-warns-of-continued-attacks.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Microsoft security advisory detailing persistent exploit attempts that targeted unpatched Log4j vulnerabilities in enterprise environments. It analyzes the attack vectors used by malicious actors and emphasizes the importance of patch compliance. This brief highlights the risks of unmanaged shadow IT installations.
-### Vulnerability Management
+### Vulnerability Management (1)
 
 #### Base Images
 
@@ -902,12 +928,17 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Identity and Access Management (2)
 
   - **(2020)** [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://www.paloaltonetworks.com/blog/2020/10/cloud-iam-misconfiguration-risks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the critical risks of overly permissive and misconfigured cloud IAM policies across multi-cloud topologies. Details security mechanisms to audit privilege escalation, enforce the principle of least privilege, and perform automated continuous IAM posture validation. Live grounding highlights these practices as foundational pillars within Palo Alto's Prisma Cloud CNAPP stack.
+### Confidential Computing
+
+#### AI Workload Security
+
+  - **(2026)** [**Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing**](https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CONFIDENTIAL-COMPUTING]</span> <span class='md-tag md-tag--primary'>[DATA-PRIVACY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[TENSORRT]</span> — NVIDIA Confidential Computing secures sensitive LLM inference workloads by applying memory encryption at the silicon level without severe performance degradation. Curator insight explains that TensorRT LLM integrates CC-aware memory selection and asynchronous host-to-device transfers to bypass encrypted payload bottlenecks during the decoding phase. Live grounding confirms that when deployed on Blackwell hardware, this architecture maintains high throughput with latency overheads strictly contained between 1.2% and 4.3%, ensuring enterprise data privacy under strict regulatory compliance.
 ### Container Security (1)
 
 #### Runtime Observability
 
   - **(2022)** [dynatrace.com: Container security: What it is, why it’s tricky, and how to do it right](https://www.dynatrace.com/knowledge-base/container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the unique security paradigms of ephemeral cloud containers, emphasizing kernel namespace segregation and runtime vulnerability identification. Demonstrates how modern observability platforms injection agents to dynamically monitor behavior and block suspicious system calls. Perfect for architects defining proactive threat prevention strategies.
-### Infrastructure As Code (3)
+### Infrastructure As Code (4)
 
 #### IaC Security
 
@@ -987,7 +1018,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Linux Security
 
   - **(2021)** [redhat.com: Balancing Linux security with usability](https://www.redhat.com/en/blog/linux-security-usability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative Red Hat guide to balancing Linux container host security with platform usability. Focuses on orchestrating kernel-level mechanisms like SELinux, namespaces, and AppArmor profiles to insulate containers from host system takeovers.
-### Vulnerability Management (1)
+### Vulnerability Management (2)
 
 #### Open Source Security (1)
 
@@ -997,6 +1028,32 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
 #### Testing Environments
 
   - **(2022)** [permission.site](https://permission.site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive security validation platform that allows engineers to test how various browser APIs, iframe permissions, and Content Security Policies (CSP) behave, enabling precise verification of client-side web application security postures.
+## Security  AI Infrastructure  Containment Architecture
+
+### Devsecops  Red-teaming  Automated Exploitation
+
+  - **(2026)** [**Securing our frontier model training environment**](https://openai.com/index/securing-our-frontier-model-training-environment) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-SECURITY]</span> <span class='md-tag md-tag--primary'>[CYBERSECURITY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[RED-TEAMING]</span> — Curator Insight: Securing the training environments of frontier AI models requires defense-in-depth strategies. Live Grounding evidence details OpenAI's approach to strengthening containment for internal evaluations, employing their most advanced models to actively red-team infrastructure boundaries. This represents a critical shift toward AI-assisted cybersecurity and high-compute containment engineering.
+## Security  Security Operations Center  Ai-driven SOC
+
+### Security  Managed Services  MDR
+
+#### Artificial Intelligence  Security Applications  Automated Defense
+
+  - **(2026)** [**Sophos cuts threat investigation time by 96% with OpenAI Daybreak**](https://openai.com/index/sophos) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-DRIVEN-DEFENSE]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MDR]</span> <span class='md-tag md-tag--primary'>[THREAT-HUNTING]</span> — Operating the world's largest agentic Security Operations Center (SOC), Sophos integrates the OpenAI Daybreak cybersecurity platform across its Managed Detection and Response (MDR) services to slash threat investigation times by 96%. This architecture embeds frontier AI capabilities directly into defensive workflows, enabling machine-speed vulnerability discovery and remediation at scale. *Curator Insight:* By bridging the gap between frontier intelligence and practical incident response, Sophos exemplifies how MSSPs can provide advanced, automated threat intelligence to organizations that lack the resources for in-house model deployment.
+## Security  Threat Intelligence  Automated Malware Analysis
+
+### Artificial Intelligence  Security Applications  Cyber Defense Models
+
+#### Security  Devsecops  Incident Response
+
+  - **(2026)** [**SentinelOne cuts malware analysis from weeks to hours with OpenAI Daybreak**](https://openai.com/index/sentinelone) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-DRIVEN-DEFENSE]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MALWARE-ANALYSIS]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> — SentinelOne leverages the OpenAI Daybreak cybersecurity platform to accelerate the reverse engineering of sophisticated malware, reducing analysis time from weeks to hours. By orchestrating models like GPT-6.1 Sol and GPT-5.6 Cyber, the architecture allows defenders to map the broader malware landscape and correlate threat telemetry at scale. *Curator Insight:* This deployment highlights the strategic value of specialized AI reasoning in cybersecurity, effectively turning threat signals into actionable intelligence while keeping human accountability at the center of architectural decisions.
+## Security  Vulnerability Management  Automated Triage
+
+### Security  Devsecops  Threat Hunting
+
+#### Artificial Intelligence  Specialized Models  Security Inference
+
+  - **(2026)** [**How Block is building AI-powered security with OpenAI technology**](https://openai.com/index/block-ai-powered-security) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-DRIVEN-DEFENSE]</span> <span class='md-tag md-tag--primary'>[AUTOMATION]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[VULNERABILITY-MANAGEMENT]</span> — Block utilizes the OpenAI Daybreak platform as the foundation of its Defense Factory, enabling AI-driven vulnerability discovery, detection, and autonomous hunting. The architecture routes tasks to specialized models, drastically reducing the time required to patch vulnerabilities from human intent to action. *Curator Insight:* By integrating AI directly into their security harness, Block effectively counters the traditional attacker advantage, demonstrating a highly optimized workflow that performs thousands of autonomous analyst-hours per quarter.
 ## Security-guard
 
   - **(2026)** [Google’s Fairwind Program: Cyber defense tools for trusted partners](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Google’s Fairwind Program: Cyber defense tools for trusted partners covering Security-Guard in Devsecops (blog.google).
@@ -1009,7 +1066,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, argon2-cffi an
   - [cncf.io: Seven zero trust rules for Kubernetes](https://www.cncf.io/blog/2022/11/04/seven-zero-trust-rules-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Seven zero trust rules for Kubernetes covering Zero Trust Security in Devsecops (cncf.io).
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

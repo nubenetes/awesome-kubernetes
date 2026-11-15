@@ -11,9 +11,9 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 
 ## Application Performance Management APM
 
+  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 Best Performance Testing Tools and APM Solutions covering Application Performance Management APM in Monitoring (dzone.com).
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: APM Tools Comparison covering Application Performance Management APM in Monitoring (dzone.com).
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know covering Application Performance Management APM in Monitoring (dzone.com).
-  - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 Best Performance Testing Tools and APM Solutions covering Application Performance Management APM in Monitoring (dzone.com).
 ## Architecture
 
 ### Microservices
@@ -293,6 +293,11 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 
   - [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/blog/sgctl-elasticsearch) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL covering ElasticSearch in Monitoring (search-guard.com).
   - [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Running Elasticsearch on Kubernetes covering ElasticSearch in Monitoring (dzone.com).
+## Enterprise Alerting Engines
+
+  - **(2026)** [**Nightingale: Self-hosted alerting engine for existing metrics, logs, and databases**](https://github.com/ccfos/nightingale) <span class='md-tag md-tag--info'>⭐ 13488</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cb30c4c7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 2 L 20 11 L 30 8 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-cb30c4c7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[ALERTING]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PROMETHEUS]</span> — Apache-2.0 distributed self-hosted alerting engine engineered to evaluate PromQL, log, and SQL rules directly against existing telemetry backends including Prometheus, VictoriaMetrics, Elasticsearch, Loki, and ClickHouse.
+- **Unified Alert Routing**: Supports muting, team subscriptions, label rewriting, and conditional notification pipelines to Slack, PagerDuty, Discord, Telegram, email, and webhooks.
+- **Production Trade-offs**: Replaces fragmented per-datasource Alertmanager deployments with a centralized multi-tenant alerting plane while keeping long-term metric storage untouched.
 ## Infrastructure (1)
 
 ### Compute
@@ -405,8 +410,8 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 #### Java Diagnostics
 
   - **(2021)** [VisualVM: JVisualVM to an Openshift pod](https://fedidat.com/250-jvisualvm-openshift-pod)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step tutorial on forwarding JMX connections to JVisualVM clients over Kubernetes port-forwarding. Facilitates real-time thread inspection, heap monitoring, and manual GC triggers.
-  - **(2020)** [blog.arkey.fr: Using JDK FlightRecorder and JDK Mission Control](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the usage of JDK Flight Recorder (JFR) and JDK Mission Control (JMC) for low-overhead, production-grade JVM diagnostic profiling. Explains trace capture of memory, CPU, and I/O cycles.
   - **(2020)** [Debugging Java Applications On OpenShift and Kubernetes](https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates techniques for profiling and debugging remote Java applications running on Kubernetes pods. Walks through port-forwarding JDWP connections and using CLI profiling utilities.
+  - **(2020)** [blog.arkey.fr: Using JDK FlightRecorder and JDK Mission Control](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the usage of JDK Flight Recorder (JFR) and JDK Mission Control (JMC) for low-overhead, production-grade JVM diagnostic profiling. Explains trace capture of memory, CPU, and I/O cycles.
   - **(2020)** [Remote Debugging of Java Applications on OpenShift](https://www.redhat.com/en/blog/remote-debugging-java-applications-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses specifically on configuring JDWP parameters in enterprise Java container builds to allow secure, remote interactive debugging from IDEs directly to pods in OpenShift.
   - **(2020)** [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical solution article detailing how to trigger, extract, and analyze memory heap dumps from JVMs running inside Linux containers, leveraging standard OpenJDK CLI tools.
 #### Java JMX
@@ -539,7 +544,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 
 #### Metrics Collection
 
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 ### Platform Monitoring
 
 #### Dynatrace Agent Deployment
@@ -663,6 +668,11 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
 #### Methodology (1)
 
   - **(2018)** [devops.com: The Fallacy of Continuous Integration, Delivery and Testing](https://devops.com/the-fallacy-of-continuous-integration-delivery-and-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores common anti-patterns in DevOps pipelines where fast builds mask poor test coverage and integration siloes. Offers recommendations on balancing CI/CD speed with architectural quality gates and production-like validation.
+## Synthetic Monitoring And Uptime Checks
+
+  - **(2026)** [fclairamb/solidping](https://github.com/fclairamb/solidping) <span class='md-tag md-tag--info'>⭐ 35</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5cf077a0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 8 L 30 7 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-5cf077a0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> — Open-source synthetic monitoring and uptime engine written in Go featuring 40+ native check types including Kubernetes workload probes, gRPC, HTTP, DNS, TLS, and TCP endpoints.
+- **Hybrid Deployment Model**: Supports distributed private monitoring agents alongside public status pages and an official Helm chart for turnkey in-cluster operation.
+- **Operational Positioning**: Unified lightweight self-hosted alternative to pairing Blackbox Exporter with separate status page services.
 ## Systems Design
 
 ### Observability (11)
@@ -688,7 +698,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gr
   - [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to read a Thread Dump covering Thread Dumps. Debugging Java Applications in Monitoring (dzone.com).
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

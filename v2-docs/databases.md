@@ -537,6 +537,13 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ## Stateful And Stateless Applications
 
   - [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://transporeon-visibility-hub.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for sixfold.medium.com: Reducing database queries to a minimum with DataLoaders covering Stateful and Stateless Applications in Databases (transporeon-visibility-hub.medium.com).
+## Storage
+
+### Databases (1)
+
+#### Newsql
+
+  - [muratbuffalo.blogspot.com: What’s Really New with NewSQL?](https://muratbuffalo.blogspot.com/2021/11/whats-really-new-with-newsql.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive conceptual deep-dive comparing NewSQL architectures with traditional relational and NoSQL engines. Explores transactional guarantees, distributed consensus (Raft/Paxos), and cloud-native database scaling.
 ## Storage and Data
 
 ### Data On Kubernetes (2)
@@ -578,7 +585,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - [libredb/libredb-studio](https://github.com/libredb/libredb-studio) <span class='md-tag md-tag--info'>⭐ 1312</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-541c7265" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 3 L 20 7 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-541c7265)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for libredb/libredb-studio covering Tools in Databases (github.com).
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md) | [NoSQL](./nosql.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

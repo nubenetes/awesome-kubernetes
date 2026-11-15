@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube, Lens Kubernetes IDE and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kubernetes IDE, Minikube and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Based Development. Kubernetes Distributions for local environments. Kubernetes Development Tools and Dashboards
 
@@ -50,6 +50,9 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - [cncf.io: Tools to develop apps on Kubernetes 🌟](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Tools to develop apps on Kubernetes 🌟 covering Kubernetes Based Development. Kubernetes Development Tools in Kubernetes Based Devel (cncf.io).
 ## Kubernetes Clients And Dashboards
 
+  - **(2026)** [Lumovi](https://github.com/Lumovi/Lumovi) <span class='md-tag md-tag--info'>⭐ 39</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0525caac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 13 L 30 4 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-0525caac)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Free and open-source (AGPL-3.0) Kubernetes dashboard engineered for both local desktop workflows and multi-user in-cluster team operations.
+- **Security & Auditability**: Surfaces failing workloads first, enforces each user's native Kubernetes RBAC, previews exact `kubectl` commands before execution, and records mutations in a hash-chained audit log.
+- **Agentic Integration**: Ships a built-in Model Context Protocol (MCP) server letting AI agents inspect cluster state and propose guarded changes requiring explicit approval by default.
   - [levelup.gitconnected.com: Step by Step Slow Guide: Kubernetes Dashboard on Raspberry Pi Cluster (Part 2)](https://levelup.gitconnected.com/step-by-step-slow-guide-kubernetes-dashboard-on-raspberry-pi-cluster-part-2-acdc8f9b5b99?gi=bb2a6f07e505) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Step by Step Slow Guide: Kubernetes Dashboard on Raspberry Pi Cluster (Part 2) covering Kubernetes Clients and Dashboards in Kubernetes Based Devel (levelup.gitconnected.com).
   - [kccncna20.sched.com: A Walk Through the Kubernetes UI Landscape](https://kccncna20.sched.com/event/ekAd/a-walk-through-the-kubernetes-ui-landscape-joaquim-rocha-kinvolk-henning-jacobs-zalando-se)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for kccncna20.sched.com: A Walk Through the Kubernetes UI Landscape covering Kubernetes Clients and Dashboards in Kubernetes Based Devel (kccncna20.sched.com).
   - [williamlam.com: Useful Interactive Terminal and Graphical UI Tools for Kubernetes](https://williamlam.com/2020/04/useful-interactive-terminal-and-graphical-ui-tools-for-kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for williamlam.com: Useful Interactive Terminal and Graphical UI Tools for Kubernetes covering Kubernetes Clients and Dashboards in Kubernetes Based Devel (williamlam.com).
@@ -253,7 +256,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

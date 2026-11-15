@@ -227,7 +227,7 @@ description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and m
   - [TriggerMesh](https://alexiskiryuin.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for TriggerMesh covering TriggerMesh serverless event router in Serverless (alexiskiryuin.com).
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

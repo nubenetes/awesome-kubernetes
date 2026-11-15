@@ -69,6 +69,7 @@
 - [devsecops.co.in: DevOps Interview Questions and Answers](https://devsecops.co.in/2021/05/20/devops-interview-questions)
 - [learnsteps.com: DevOps Interview Questions: What do you know about proc filesystem in Linux.](https://www.learnsteps.com/devops-interview-questions-what-do-you-know-about-proc-filesystem-in-linux)
 - [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets)
+- [prepare.sh: 100+ DevOps Interview Questions with Answers](https://prepare.sh/interview-questions/devops) - Real DevOps interview questions with full answers, solvable hands-on on real environments. Free to start.
 
 ## Selenium Interview Questions
 

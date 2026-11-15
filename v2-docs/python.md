@@ -369,6 +369,23 @@ Live Grounding: Evaluates the bytecode specialization mechanisms, tier-based opt
 
   - **(2022)** [redhat.com: Writing and unit testing a Python application to query the RPM database](https://www.redhat.com/en/blog/query-rpm-database-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Demonstrates querying and validating installed Red Hat Package Manager (RPM) states using Python's native ecosystem.
 Live Grounding: Explores system-level database hooks, mock execution paradigms, and writing unit tests to safely parse packages without system sub-processing.
+## Programming
+
+### Python (3)
+
+#### GPU Memory Management
+
+  - **(2026)** [**How to Read Data Into GPU Memory in Python with NVIDIA GPUDirect Storage**](https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[DATA-ENGINEERING]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPUDIRECT-STORAGE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[MEMORY-MANAGEMENT]</span> <span class='md-tag md-tag--primary'>[PYTHON]</span> — This tutorial provides a practical implementation guide for utilizing NVIDIA GPUDirect Storage (GDS) directly within Python applications to accelerate data ingestion for AI workloads. By creating a direct, efficient data path between local or cloud storage and GPU memory, GDS bypasses the CPU bounce buffer, dramatically increasing I/O bandwidth and reducing latency. The guide details the necessary APIs and configuration steps required to optimize storage access for massive datasets in modern deep learning pipelines.
+## Programming Languages
+
+### Python (4)
+
+#### GPU Computing
+
+  - **(2026)** [**CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access**](https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CUDA]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU-ACCELERATION]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[HPC]</span> <span class='md-tag md-tag--primary'>[PYTHON]</span> — CUDA Python 1.0 establishes Python as a first-class, officially supported programming interface for the entire NVIDIA GPU ecosystem. It provides a layered architecture consisting of ergonomic Python APIs (`cuda.core`) alongside exhaustive 1:1 C API bindings (`cuda.bindings`). With features like semantic versioning guarantees, green contexts for SM partitioning, and a unified foundation for libraries like CuPy and PyTorch, it dramatically lowers the barrier for developing accelerated HPC and AI applications.
+#### Static Typing
+
+  - **(2026)** [**Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape**](https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-ASSISTED]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[ENGINEERING-BLOG]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PYTHON]</span> <span class='md-tag md-tag--primary'>[STATIC-TYPING]</span> — Meta's 2026 Python Typing Survey provides a quantitative and architectural baseline for evaluating the integration of AI-assisted generation tools with traditional deterministic static type checkers like Pyre and Mypy. While not directly tied to Kubernetes infrastructure, these insights are foundational for platform engineering teams scaling resilient, strictly-typed Python microservices and standardizing developer velocity platforms. The data underscores a paradigm shift where AI copilots act as high-speed code generators, while strict typing serves as the mandatory safety net for automated cloud deployments.
 ## Python Blogs And Forums
 
   - [The docker-py repository: an API client for docker written in Python](https://docker-py.readthedocs.io/en/stable) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for The docker-py repository: an API client for docker written in Python covering Python Blogs and Forums in Python (docker-py.readthedocs.io).
@@ -421,6 +438,11 @@ Live Grounding: Explores system-level database hooks, mock execution paradigms, 
 ## Python Testing
 
   - [reddit: Real examples of unit testing](https://www.reddit.com/r/learnpython/comments/3zl0p6/real_examples_of_unit_testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit: Real examples of unit testing covering Python testing in Python (reddit.com).
+## Pytorch
+
+### Profiling and Optimization
+
+  - **(2026)** [**Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP**](https://huggingface.co/blog/torch-mlp-fusion) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[PROFILING]</span> <span class='md-tag md-tag--primary'>[PYTHON]</span> <span class='md-tag md-tag--primary'>[PYTORCH]</span> — **Curator Insight:** The second installment in the 'Profiling in PyTorch' series delivers a hands-on methodology for identifying and resolving compute bottlenecks. **Live Grounding:** By transitioning from naive matmul-add operations to `nn.Linear` and ultimately to a fused Triton kernel, the guide demonstrates how to compress layer execution into highly optimized Multi-Layer Perceptrons (MLPs). It is an essential read for machine learning engineers focusing on hardware-level throughput optimization.
 ## Software Development
 
 ### Python Core
@@ -668,7 +690,7 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
 #### Object-oriented Programming (2)
 
   - **(2023)** [freecodecamp.org: How to Build an Online Banking System – Python Object-Oriented Programming Tutorial](https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Hands-on tutorial building a simulated online banking API to explore OOP design patterns. Walks through practical use cases of structural encapsulation, class-based inheritance, and custom exception handling within a financial business domain.
-### Python (3)
+### Python (5)
 
 #### CLI Generation
 
@@ -857,7 +879,7 @@ Live Grounding: Assesses PyScript's interface layer, detailing direct DOM manipu
   - **(2015)** [TDD with Django, from scratch: a beginner's intro to testing and web development](https://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Historical tutorial introducing Test-Driven Development (TDD) concepts in Django. Evaluates assertion workflows, testing isolated model components, and unit test integrations within early Python CI environments.
 
 ---
-💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
 
-🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

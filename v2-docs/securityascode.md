@@ -132,6 +132,9 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Cryptographic Signatures
 
   - **(2022)** [blog.sigstore.dev: How to verify container images with Kyverno using KMS,' Cosign, and Workload Identity](https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced technical exploration of enterprise container security architectures. Provides steps to construct a validation loop that verifies image signatures dynamically using Kyverno, integrated directly with KMS key stores, Sigstore Cosign, and OIDC-based Workload Identity.
+## Implementations
+
+  - **(2026)** [From all-or-nothing to task-based OAuth consent](https://blog.cloudflare.com/task-based-oauth-consent) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for From all-or-nothing to task-based OAuth consent covering Implementations in Securityascode (blog.cloudflare.com).
 ## Introduction
 
   - [searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm](https://www.techtarget.com/it-infrastructure/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm covering Introduction in Securityascode (techtarget.com).
@@ -166,16 +169,33 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - **(2026)** [**Azure Policy**](https://nubenetes.com/azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
 ## Security (1)
 
+### Data Governance
+
+#### Access Control
+
+  - **(2026)** [**PrivacyLib: Privacy Controls at the Data Access Boundary**](https://engineering.fb.com/2026/10/27/security/privacylib) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[ACCESS-CONTROL]</span> <span class='md-tag md-tag--primary'>[DATA-GOVERNANCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PRIVACY]</span> — PrivacyLib is Meta's foundational framework for enforcing privacy controls directly at the data access boundary. This architecture ensures that data governance and privacy policies are decoupled from application logic, embedding compliance constraints into the core data retrieval layer. By centralizing these controls, the system prevents unauthorized data exposure and simplifies the auditing process across thousands of interconnected microservices.
 ### Devsecops
 
 #### Vulnerability Scanning
 
   - **(2022)** [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides users in configuring GitHub's integrated developer security capabilities to find vulnerabilities, scan code dependencies, and detect exposed tokens. Highlights configuring automated pipelines to safeguard repository secrets prior to creating deployment packages. Speeds up software supply-chain validation workflows.
+### IAM
+
+#### Protocols
+
+  - **(2022)** [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industrial-grade review of the OAuth 2.0 protocol specifications, flows, and grant types. Provides system architects with core design criteria to safely establish authorization states between microservice deployments. Underlines secure handling of access, refresh, and id tokens.
+  - **(2022)** [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architecture overview of OpenID Connect (OIDC) acting as the authentication layer on top of OAuth 2.0. Analyzes ID token syntax, discovery endpoints, and flows for multi-tenant systems. Essential background knowledge for implementing cloud-native federated identities.
 ### Identity and Access
 
 #### Entra ID
 
   - **(2024)** [Configure Microsoft Entra for Increased Security](https://learn.microsoft.com/en-us/entra/fundamentals/configure-security) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official guidelines detailing the technical configuration of Microsoft Entra ID to establish strong cloud tenant boundaries. It highlights multi-factor authentication, conditional access pathways, and identity protection rules. Essential reading for platform engineers aligning cloud-native infrastructure with corporate compliance frameworks.
+#### Oauth2
+
+  - **(2022)** [rapidapi.com:What is OAuth2.0?](https://rapidapi.com/guides/oath2-0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive foundational guide breaking down the OAuth 2.0 authorization framework. It delineates core concepts including authentication flows, grant types, token lifecycles, and security delegation mechanics.
+#### Spring Security
+
+  - **(2022)** [freecodecamp.org: How to Implement an OAuth2 Resource Server with Spring Security](https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation tutorial detailing the deployment of an OAuth2-compliant resource server using Spring Security. It guides through configuring middleware to parse and authenticate incoming JWT requests.
 ### Kubernetes Security (2)
 
 #### Policy As Code
@@ -195,7 +215,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Docker Hardened Images for Every Developer covering Docker Security in Docker (docker.com).
 
 ---
-💡 **Explore Related:** [Devsecops](./devsecops.md) | [IaC](./iac.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

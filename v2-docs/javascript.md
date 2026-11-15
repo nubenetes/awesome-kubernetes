@@ -44,6 +44,20 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### Dependency Auditing
 
   - **(2020)** [npkill.js.org](https://npkill.js.org) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Light and fast CLI utility to find and eliminate heavy `node_modules` folders, optimizing local disk space and build pipeline footprints during modern development.
+## Development
+
+### Compilers
+
+#### Typescript and Rust
+
+  - **(2026)** [**Introducing tsrs: a Port of TypeScript to Rust**](https://blog.cloudflare.com/typescript-rust-port) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[COMPILER]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[RUST]</span> <span class='md-tag md-tag--primary'>[TYPESCRIPT]</span> <span class='md-tag md-tag--primary'>[WASM]</span> — Cloudflare, in collaboration with VoidZero and Owner.com, introduced 'tsrs', a high-performance Rust port of the TypeScript compiler incubated within the Oxc JavaScript toolchain. Early benchmarks demonstrate that tsrs is up to 8x faster and consumes 70% less memory than TypeScript 7.0 by leveraging Rust's memory management model, which is particularly advantageous for WebAssembly compilation. Unlike a fork, this initiative meticulously preserves the original language design and type-checking logic governed by the TypeScript team. This port significantly advances the feasibility of running complete, performant development environments directly in the browser.
+## Frontend
+
+### Web Apis
+
+#### Cross-origin Storage
+
+  - **(2026)** [**Experimenting with the proposed Cross-Origin Storage API in Transformers.js**](https://huggingface.co/blog/cross-origin-storage) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[BROWSER-STORAGE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[WEB-ML]</span> — The proposed Cross-Origin Storage (COS) API fundamentally optimizes WebML execution by allowing libraries like Transformers.js to cache massive AI model weights across domain boundaries using cryptographic hashes. This architectural shift prevents redundant downloads of identical multi-gigabyte models across different web applications, significantly improving load times and preserving bandwidth. By enforcing strict visibility controls and integrity checks, the API ensures privacy while enabling a robust, shared infrastructure for client-side machine learning.
 ## Frontend Development
 
 ### Browser Storage
@@ -75,6 +89,9 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### Regular Expressions
 
   - **(2021)** [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Regular expression guide and implementation for validating user credentials on the client-side. Emphasizes security considerations like ReDoS (Regular Expression Denial of Service) and input sanitization before processing database commits.
+## General Reference
+
+  - [Getting Started with the DOM](https://edidiongasikpo.com/getting-started-with-the-dom) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Getting Started with the DOM in the Javascript ecosystem (edidiongasikpo.com).
 ## Introduction
 
   - [dev.to: Getting Started with JavaScript Modules](https://dev.to/heyitsalok/getting-started-with-javascript-modules-2mkg) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dev.to: Getting Started with JavaScript Modules covering Introduction in Javascript (dev.to).
@@ -109,9 +126,26 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### Source Repository
 
   - **(2009)** [==github.com/nodejs/node==](https://github.com/nodejs/node) <span class='md-tag md-tag--info'>⭐ 117761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a2c9c461" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 7 L 30 4 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-a2c9c461)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Core development branch of the Node.js runtime. Details foundational V8 updates, event loop mechanics (libuv integration), core module performance tweaks, and security updates essential for server-side architectures.
+## Software Engineering
+
+### Frontend Development (1)
+
+#### React Ecosystem
+
+  - **(2023)** [freecodecamp.org: How to Get Started With React – A Beginner's Guide](https://www.freecodecamp.org/news/get-started-with-react-for-beginners) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory foundational guide to React.js. Covers essential SPA concepts including state management, props, components, and virtual DOM, serving as an onboarding tool for full-stack developers.
+  - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
+## Web Development
+
+### DOM
+
+#### Javascript
+
+  - **(2026)** [digitalocean.com: Understanding the DOM — Document Object Model eBook](https://www.digitalocean.com/community/books/understanding-the-dom-document-object-model-ebook) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive pedagogical resource exploring the Document Object Model (DOM) as a programming interface. It introduces how modern browsers parse HTML into tree-like object models and details programmatic mutation approaches using native JavaScript APIs.
+  - **(2026)** [freecodecamp.org: JavaScript DOM Tutorial – How to Build a Calculator App' in JS](https://www.freecodecamp.org/news/javascript-dom-build-a-calculator-app) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical, task-oriented tutorial on DOM manipulation designed for front-end engineers. It walks through building an interactive UI component from scratch, emphasizing dynamic node creation, event handling, and performant state updates in native JavaScript.
+  - **(2026)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM' Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide breaking down DOM traversal and event propagation mechanics (bubbling and capturing). Essential for intermediate UI engineering, it covers the structural boundaries of web browsers and highlights optimization patterns for interface updates.
 
 ---
-💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
+💡 **Explore Related:** [Web3](./web3.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

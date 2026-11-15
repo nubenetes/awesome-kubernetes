@@ -1,5 +1,5 @@
 ---
-description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skills for Real Engineers and more — curated Cloud Native tools, guides and references."
+description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claude Code Best Practice and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 
@@ -190,6 +190,13 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### AI and Infrastructure
 
   - **(2024)** [**aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS**](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — This case study highlights BMW Group's deployment of a generative AI assistant on AWS designed to automate and optimize cloud infrastructure operations. By synthesizing telemetry data and AWS resource metrics, the assistant accelerates infrastructure diagnostics, reduces operational overhead, and drives cost-efficient resource provisioning. It demonstrates how LLMs can be integrated into enterprise cloud operations (AIOps) to simplify complex architectural decision-making.
+## Cloud Providers
+
+### AWS
+
+#### Containers and Orchestration
+
+  - **(2026)** [**Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services**](https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CONTAINERS]</span> <span class='md-tag md-tag--primary'>[ECS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[INGRESS]</span> <span class='md-tag md-tag--primary'>[NETWORKING]</span> — Curator Insight: Simplifying ingress routing for containerized workloads drastically reduces architectural complexity and operational overhead. Live Grounding: Amazon ECS Gateway introduces a fully-managed, native ingress solution specifically tailored for ECS services, deprecating the need to manually provision and configure Application Load Balancers (ALBs) or complex API Gateways for simple container traffic routing. This represents a major leap in ECS developer experience and network automation.
 ## Computer Vision
 
 ### Deep Learning Research
@@ -300,6 +307,11 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### Hardware Acceleration
 
   - **(2025)** [Cerebras AI](https://www.cerebras.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — Dedicated AI computer systems utilizing Wafer-Scale Engine (WSE) technology. Delivers unprecedented compute density and memory bandwidth to train large-scale neural networks without the distributed communication overhead of traditional GPU clusters.
+### Containers
+
+#### Workload Isolation
+
+  - **(2026)** [**Single-Tenant Titus: VM-Level Isolation on a Multi-Tenant Container Platform**](https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AWS-EC2]</span> <span class='md-tag md-tag--primary'>[CONTAINERS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[ISOLATION]</span> — To guarantee predictable performance for critical streaming workloads, Netflix introduced single-tenant VM-level isolation on its multi-tenant Titus container platform. Moving past the limitations of shared-kernel isolation, this implementation utilizes dedicated EC2 instances per task to ensure absolute boundary separation. The architecture successfully balances the resource efficiency of multi-tenant systems with the strict security and performance guarantees of single-tenant environments.
 ## Infrastructure As Code (3)
 
 ### AI Integrations
@@ -381,7 +393,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
   - **(2026)** [Amazon ECS introduces new high-resolution metrics for faster service auto scaling](https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon ECS introduces new high-resolution metrics for faster service auto scaling covering Videos in AI (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

@@ -238,6 +238,11 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
 #### Best Practices (2)
 
   - **(2023)** [**thenewstack.io: 5 Ways to Succeed with an API Gateway**](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines five essential patterns for deploying API Gateways in microservices architectures. The guide highlights key functions like rate-limiting, SSL termination, authentication offloading, and dynamic routing to ensure secure and performant service endpoints. It contrasts standalone gateway appliances with service mesh ingress configurations, advising on how to avoid single-point-of-failure bottlenecks.
+## Application Integration  AI Agents  Tool Routing
+
+### API Gateway  Fast-track Evaluation  Decisions API
+
+  - **(2026)** [**Decisions API is now generally available with new updates**](https://openai.com/index/decisions-api) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[DECISIONS-API]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[JSON]</span> <span class='md-tag md-tag--primary'>[LLM-ROUTING]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: Latency in agentic decision-making is a primary bottleneck for real-time applications. Live Grounding evidence confirms the GA release of OpenAI's Decisions API, which delivers typed answers up to 10x faster than standard generation by evaluating text, images, and JSON directly. This represents a foundational shift toward deterministic, high-speed LLM routing and semantic classification at scale.
 ## Architecture
 
 ### API Management (1)
@@ -262,6 +267,18 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
 ## Comparisons
 
   - [levelup.gitconnected.com: Truth About { SOAP vs REST vs GRPC vs GraphQL } Checklist](https://levelup.gitconnected.com/truth-about-soap-vs-rest-vs-grpc-vs-graphql-checklist-f50bcb475adf?gi=eda66760fb03) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Truth About { SOAP vs REST vs GRPC vs GraphQL } Checklist covering Comparisons in API (levelup.gitconnected.com).
+## Engineering
+
+### Architecture (1)
+
+#### API Optimization
+
+  - **(2026)** [**From 2,500 requests to 24: Rebuilding star history without the stargazers**](https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-DESIGN]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--primary'>[DATABASE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PERFORMANCE-OPTIMIZATION]</span> — By transitioning from querying individual identities to aggregating trends, GitHub successfully rebuilt its repository star history API to eliminate unbounded database queries. This architectural optimization resolved persistent pagination bugs and mitigated severe rate-limit constraints, reducing the required API calls for massive repositories from thousands to just a few dozen. It serves as a prime example of how decoupling data dependencies can dramatically improve API scalability and system resilience.
+### Platform
+
+#### Blast Radius Analysis
+
+  - **(2026)** [**Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes**](https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API-DESIGN]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PLATFORM-ENGINEERING]</span> <span class='md-tag md-tag--primary'>[STATIC-ANALYSIS]</span> — Quasar introduces a proactive approach to platform engineering by measuring the blast radius of library modifications prior to release. Built upon the SCIP (Semantic Code Information Protocol), the tool connects proposed API changes with observed code references across disparate consumer repositories. This capability empowers producers to assess consumer impact and resolve breaking changes before they degrade production environments.
 ## Enterprise Architecture
 
 ### Case Studies
@@ -384,7 +401,7 @@ description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — 
   - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 
 ---
-💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
 
-🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

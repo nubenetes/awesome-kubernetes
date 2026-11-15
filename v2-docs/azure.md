@@ -1,5 +1,5 @@
 ---
-description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework, PowerShell and more — curated Cloud Native tools, guides and references."
+description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Gallery and more — curated Cloud Native tools, guides and references."
 ---
 # Microsoft Azure
 
@@ -462,8 +462,8 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
   - **(2025)** [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive comparison of Azure Service Endpoints versus Private Link. The author details critical architectural trade-offs: while Service Endpoints are simple to configure and leverage public IPs, Private Link allocates private endpoints within your virtual network, enhancing the security posture of microservice deployments by blocking data exfiltration channels, albeit with increased cost and complexity.
 #### Security (1)
 
-  - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
   - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
+  - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
 #### Subnet Peering
 
   - **(2025)** [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural paradigm of Subnet Peering in Azure, bypassing the traditional resource-heavy requirements of full Virtual Network (VNet) peering. This feature allows network engineers to establish direct, localized communication paths between designated subnets, optimizing security boundaries and address space usage.
@@ -770,6 +770,13 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
 ##### Infrastructure Automation
 
   - **(2021)** [dotnet-helpers.com: Azure KeyVault Set and Retrieve Secrets using Powershell 🌟](https://dotnet-helpers.com/powershell/azure-keyvault-set-and-retrieve-secrets) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates standard CRUD API routines for setting, changing, and pulling protected application settings from active Azure KeyVault services using current Microsoft Az commands.
+## Cloud Platforms
+
+### Azure (3)
+
+#### Machine Learning Services
+
+  - **(2026)** [**Hugging Face Models on Foundry Managed Compute**](https://huggingface.co/blog/microsoft/foundry-managed-compute) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--primary'>[DEPLOYMENT]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FOUNDRY]</span> — Curator Insight: Strengthens the Microsoft ecosystem model integration for strict regulatory environments. Live Grounding: Launches a curated catalog of open-weight models that can be securely deployed onto Microsoft Foundry Managed Compute in a single click, natively satisfying enterprise governance requirements.
 ## Cloud Providers
 
 ### Microsoft AKS
@@ -1063,7 +1070,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
 
 ### Biomedical Research
 
-#### Cloud Platforms
+#### Cloud Platforms (1)
 
   - **(2023)** [microsoft.com: Biomedical Research Platform Terra Now Available on Microsoft Azure](https://www.microsoft.com/en-us/research/blog/biomedical-research-platform-terra-now-available-on-microsoft-azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic overview of the integration of Broad Institute's Terra biomedical data platform with Microsoft Azure infrastructure. Focuses on secure clinical trial administration, cloud genomic pipeline computing, and cross-organization datasets analysis.
 ### Medical Imaging
@@ -1286,6 +1293,9 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
 #### Azure Verified Modules (2)
 
   - **(2025)** [Announcing General Availability of Terraform Azure Verified Modules for Platform Landing Zone (ALZ)](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-general-availability-of-terraform-azure-verified-modules-for-platform/4366027) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the general availability of Terraform-based Azure Verified Modules (AVM) for constructing platform landing zones. These modules offer verified, highly robust IaC templates that align with Microsoft's official structural guidelines. This release significantly reduces the development overhead required to build enterprise platform hubs.
+#### Azure Verified Modules AVM
+
+  - **(2026)** [==Azure Verified Modules (AVM) Official Portal and Specification==](https://azure.github.io/Azure-Verified-Modules) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — Microsofts unified initiative consolidating official, Microsoft-maintained Bicep and Terraform modules built to Well-Architected Framework (WAF) and Cloud Adoption Framework (CAF) standards. Provides standardized module interfaces for RBAC, Private Endpoints, Diagnostic Settings, Customer-Managed Keys, and Managed Identities across enterprise Azure deployments.
 #### Entra ID Integration
 
   - **(2024)** [Terraform: Get User Principal Name (UPN) of User Running Deployment without Entra ID Read Permissions](https://build5nines.com/terraform-get-user-principal-name-upn-of-user-running-deployment-without-entra-id-read-permissions) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A focused technical workaround detailing how to dynamically capture the current executing User Principal Name (UPN) inside Terraform scripts without relying on wide Microsoft Entra ID read access.
@@ -1586,7 +1596,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
 
 #### Cloud Integrations
 
-##### Azure (3)
+##### Azure (4)
 
   - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 ### Threat Hunting
@@ -1705,7 +1715,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
   - [DevOps Azure Pipelines: YAML Schema](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DevOps Azure Pipelines: YAML Schema covering YAML Schema in DevOps Azure Pipelines in Azure (learn.microsoft.com).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [AWS Networking](./aws-networking.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

@@ -59,6 +59,13 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 ### State Of DevOps. Googles DevOps Research And Assessment DORA
 
   - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
+## Infrastructure
+
+### Storage
+
+#### GPU Direct
+
+  - **(2026)** [**How to Check and Configure NVIDIA GPUDirect Storage for Your Platform**](https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-INFRASTRUCTURE]</span> <span class='md-tag md-tag--primary'>[DIAGNOSTICS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[STORAGE]</span> — The gds-diag utility provides critical Day-2 diagnostic capabilities for validating NVIDIA GPUDirect Storage (GDS) deployments, ensuring Direct Memory Access (DMA) between NVMe storage and GPU memory successfully bypasses CPU bottlenecks. From an architectural perspective, cloud-native SREs utilize this open-source tool alongside the NVIDIA GPU Operator to audit hardware topologies, MOFED drivers, and PCIe bandwidth limits across high-density Kubernetes AI clusters. As 2026 AI platforms increasingly rely on massive dataset ingestion for LLM inference and training, proactively configuring and validating GDS establishes the foundational storage optimization layer necessary to prevent distributed GPU starvation.
 ## Infrastructure  Bare Metal  UEFI Firmware And PXE Boot Optimization
 
   - **(2026)** [**How we reduced core unit boot time from hours to minutes**](https://blog.cloudflare.com/optimizing-core-unit-boot-time) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This technical post explores how Cloudflare diagnosed and optimized a critical UEFI-stage boot bottleneck affecting their Gen12 bare-metal fleet of nearly 2,000 servers. Engineers traced the multi-hour reboot delays to an unoptimized linear search through empty network boot interfaces triggered after routine firmware updates. The resolution involved explicit PXE network boot sequence declarations, custom UEFI configuration validation steps using a stateful `uefi-same-hex` boolean flag, and iPXE automation that brought reboots down from hours to minutes.
@@ -103,6 +110,11 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 #### Strategic Alignment
 
   - **(2022)** [thenewstack.io: SRE vs. DevOps? Successful Platform Engineering Needs Both](https://thenewstack.io/sre-vs-devops-successful-platform-engineering-needs-both)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues that successful modern Platform Engineering requires marrying DevOps velocity patterns with SRE reliability practices inside the developer platform tooling layer.
+### SRE
+
+#### Availability Reports
+
+  - **(2026)** [**GitHub availability report: September 2026**](https://github.blog/news-insights/company-news/github-availability-report-september-2026) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[INCIDENT-MANAGEMENT]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — This September 2026 availability report provides a transparent post-mortem of GitHub's platform incidents, heavily focusing on their ongoing architectural migration to Azure infrastructure. From an SRE perspective, the report serves as a critical case study in managing distributed state transitions and mitigating cascading failures in hyper-scale developer ecosystems. While not a deployable cloud-native tool, this document offers invaluable architectural telemetry on Day-2 operations, disaster recovery protocols, and enterprise incident management strategies essential for cloud architects designing resilient CI/CD pipelines.
 ### SRE Vs DevOps
 
 #### Conceptual Frameworks
@@ -165,7 +177,7 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 ### Cloud Native Paradigms
 
   - **(2019)** [devops.com: SRE vs. DevOps vs. Cloud Native: The Server Cage Match](https://devops.com/sre-devops-cloud-native-server-cage-match)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-energy analysis contrasting SRE, DevOps, and Cloud Native architectures. Explores how container orchestration, microservices, and micro-deployments mandate both cultural DevOps adjustments and programmatic SRE automation to survive at scale.
-### SRE
+### SRE (1)
 
 #### Best Practices (1)
 
@@ -211,7 +223,7 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 314857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 2 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Scaffolding](./scaffolding.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Developerportals](./developerportals.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

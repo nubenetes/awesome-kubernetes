@@ -107,12 +107,19 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
 #### Storage Management
 
   - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
+## Cloud Providers
+
+### AWS (1)
+
+#### Storage (1)
+
+  - **(2026)** [**Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel**](https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FRONTEND]</span> <span class='md-tag md-tag--primary'>[OBJECT-STORAGE]</span> <span class='md-tag md-tag--primary'>[S3]</span> <span class='md-tag md-tag--primary'>[VERCEL]</span> — Curator Insight: Frictionless integration between frontend platforms and robust backend storage systems accelerates full-stack delivery. Live Grounding: AWS has officially integrated Amazon S3 into the Vercel Marketplace and v0, allowing frontend developers to seamlessly provision and connect S3 buckets without leaving the Vercel ecosystem. This partnership significantly streamlines media asset management and object storage for modern Next.js applications.
 ## Introduction
 
   - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483?gi=235aba4fa637) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — When you have a front-end application and need to upload files to an S3 bucket securely and keep your bucket private, you can use API Gateway to post your files to S3. If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3.we will not use Lambda.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [AWS](./aws.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Networking](./aws-networking.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for the AI age and more — curated Cloud Native tools, guides and references."
+description: "Top Finops resources for 2026, AI-ranked: CAST AI, Highlights from Git 2.55 and more — curated Cloud Native tools, guides and references."
 ---
 # Cloud FinOps. Collaborative, Real-Time Cloud Financial Management (CFM)
 
@@ -16,6 +16,22 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
   - **(2026)** [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to manage AI investments in the agentic era covering Articles in Finops (openai.com).
   - **(2026)** [How to connect AI usage to business value](https://openai.com/index/how-to-connect-ai-usage-to-business-value) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to connect AI usage to business value covering Articles in Finops (openai.com).
   - **(2026)** [Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.](https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need. covering Articles in Finops (github.blog).
+## Artificial Intelligence
+
+### AI Infrastructure
+
+#### GPU Orchestration
+
+##### Finops
+
+  - **(2026)** [**GPU Management: Why Idle GPUs Are the New Grounded Aircraft**](https://huggingface.co/blog/Dharma-AI/gpu-management) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-INFRASTRUCTURE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FINOPS]</span> <span class='md-tag md-tag--primary'>[GPU-MANAGEMENT]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[ORCHESTRATION]</span> — Curator Insight emphasizes the economic imperative of maximizing GPU utilization, comparing idle AI infrastructure to grounded aircraft. Live Grounding confirms this is a response to skyrocketing inference costs, driving a shift from over-provisioning toward strict workload orchestration. This paradigm shift underscores the necessity of pairing highly specialized models with advanced scheduling algorithms to extract maximum priority-weighted output from fixed compute resources.
+## Cloud Financial Management
+
+### GPU Capacity Planning
+
+#### TCO Optimization
+
+  - **(2026)** [**How to Size GPUs for AI Inference and TCO Without Overspending**](https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-INFERENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FINOPS]</span> <span class='md-tag md-tag--primary'>[GPU-PROVISIONING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[TCO-OPTIMIZATION]</span> — **Curator Insight**: Over-provisioning GPU resources for AI inference is a pervasive anti-pattern that drastically inflates enterprise Total Cost of Ownership (TCO). **Live Grounding**: This comprehensive guide provides empirical methodologies for sizing GPU infrastructure, emphasizing techniques like memory-enforced GPU sharing in Kubernetes and multi-tenant workload placement. By accurately mapping model requirements to hardware capabilities and utilizing advanced scheduling abstractions, organizations can confidently scale AI deployments without unnecessary capital expenditure.
 ## Cloud Infrastructure
 
 ### Azure Networking
@@ -31,9 +47,26 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
 #### Case Studies
 
   - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
+## Compute Cost Calculators
+
+### Cloud GPU Pricing
+
+  - **(2026)** [**GPU Price Index: observed GPU cloud prices across providers**](https://gpu-cloud-prices.pages.dev) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FINOPS]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — Independent real-time cloud GPU pricing benchmark normalizing roughly 3,900 on-demand and Spot offers across 138 GPU SKUs and 143 global regions into USD per GPU-hour across hyperscalers (AWS, Azure) and specialized GPU clouds (OVHcloud, Scaleway, Verda/DataCrunch). Every listed rate links directly to its observed provider source page with freshness timestamps, refreshing approximately every 15 minutes.
+- **Architectural Role**: Pre-provisioning FinOps selection tool for AI platform teams sizing Kubernetes GPU node pools, Karpenter NodePools, or multi-cloud training bursts.
+- **Open Data Feeds**: Exposes machine-readable JSON exports, an RSS feed, and a daily CC-BY-4.0 dataset on Hugging Face for automated CI/CD cost guardrails.
+## Engineering
+
+### Infrastructure
+
+#### Git Scaling
+
+  - **(2026)** [**Building Git infrastructure for agent-scale development**](https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AGENTS]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[INFRASTRUCTURE]</span> — To accommodate the unprecedented write load generated by autonomous AI agents, GitHub is executing a foundational overhaul of its core Git infrastructure. By decoupling storage layers and rethinking durable reference state, the new architecture provides repositories with increased write headroom while seamlessly operating on a live platform. This evolution is critical for preventing push latency bottlenecks in tight-loop agentic workflows, ensuring robust scaling for the next generation of automated development.
+## English Videos
+
+  - **(2026)** [Highlights from Git 2.55](https://github.blog/open-source/git/highlights-from-git-2-55) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Highlights from Git 2.55 covering English Videos in Finops (github.blog).
 ## Financial Operations
 
-### Finops
+### Finops (1)
 
 #### Best Practices
 
@@ -168,6 +201,20 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
 #### Finops Vs Cost Management
 
   - **(2023)** [**hystax.com: The difference between cloud cost management and FinOps**](https://hystax.com/the-difference-between-cloud-cost-management-and-finops) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Delineates the operational boundaries between cloud cost management (siloed, reactive cost-cutting steps) and the FinOps lifecycle (collaborative, business-value mapping). The analysis shows that while cost management tools act as execution platforms, FinOps creates a cultural, cross-functional engineering framework.
+## Fintech
+
+### Cryptocurrency
+
+#### Stablecoins
+
+  - **(2026)** [Tether (USDt)](https://tether.to) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for the Tether (USDt) stablecoin, mapping out collateral verifications, multi-blockchain compatibility layers, and institutional fiat liquidity standards. Important for distributed ledger payments and micro-payment applications.
+## Infrastructure Internals
+
+### Git
+
+#### Scalability
+
+  - **(2026)** [**The Bridge to Agent-Scale Git Infrastructure**](https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--primary'>[DISTRIBUTED-SYSTEMS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GIT]</span> <span class='md-tag md-tag--primary'>[QUORUM]</span> — GitHub's transition to an agent-scale Git infrastructure involves migrating a vast majority of its repositories to Azure to support unprecedented automated workloads. By implementing per-reference quorums and distributed consensus mechanisms, the architecture ensures absolute data consistency and extreme availability even under massive concurrent access from CI/CD pipelines and AI agents. This engineering deep-dive illustrates the complex backend evolution required to sustain the world's largest collaborative software platform.
 ## Introduction
 
   - [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417?gi=a308c8ddacb6) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: FinOps – introduction, origins and next steps covering Introduction in Finops (faun.pub).
@@ -178,7 +225,7 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9?gi=9d9ff792e945) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000 covering Kubernetes Cost Optimization in Finops (engineering.razorpay.com).
 
 ---
-💡 **Explore Related:** [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md) | [Appointment Scheduling](./appointment-scheduling.md)
+💡 **Explore Related:** [HR](./hr.md) | [Workfromhome](./workfromhome.md) | [Elearning](./elearning.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

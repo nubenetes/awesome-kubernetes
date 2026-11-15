@@ -32,6 +32,17 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Migration Strategies
 
   - **(2026)** [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review addressing drift reconciliation when converting untracked click-ops clouds into declarative state files. Reviews native state import commands and toolkits that automate resource generation.
+## Cloud Native
+
+### Kubernetes
+
+#### Operations
+
+##### Troubleshooting
+
+###### Batch Workloads
+
+  - **(2026)** [**Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp**](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[BATCH]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[KUEUE]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[TROUBLESHOOTING]</span> — Provides a deep-dive tutorial on debugging pending Kubernetes Jobs using Kueue admission controllers and the Headlamp UI. It demonstrates how to trace complex queueing mechanics, quota allocation, and resource contention in multi-tenant environments. Live community metrics show this integration significantly reduces MTTR for ML and batch processing workloads.
 ## Cloud-native Platforms
 
 ### Operating Systems
@@ -80,7 +91,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - [levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟](https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba?gi=721bbf72365d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟 covering Introduction in Kubernetes Troubleshooting (levelup.gitconnected.com).
   - [veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating”](https://veducate.co.uk/kubernetes-pvc-terminating)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for veducate.co.uk: How to fix in Kubernetes – Deleting a PVC stuck in status' “Terminating” covering Introduction in Kubernetes Troubleshooting (veducate.co.uk).
   - [dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges](https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges covering Introduction in Kubernetes Troubleshooting (dzone.com).
-## Kubernetes
+## Kubernetes (1)
 
 ### Core Mechanics
 
@@ -135,7 +146,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Container Images
 
   - **(2020)** [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&ab_channel=Kubevious)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Using the 'latest' container image tag in production is a critical antipattern that breaks deployment reproducibility and introduces security risks. This guide uses Kubevious to outline three automated detection techniques to intercept and block these non-deterministic tags in deployment pipelines. It emphasizes implementing admission controllers to enforce strict version tagging.
-### Troubleshooting
+### Troubleshooting (1)
 
 #### Architectural Slides
 
@@ -211,6 +222,11 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 ## OOM Kills
 
   - [itnext.io: Kubernetes Silent Pod Killer](https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9?gi=b61ce468ed02) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Silent Pod Killer covering OOM Kills in Kubernetes Troubleshooting (itnext.io).
+## OOM Kills And CPU Throttling Analysis
+
+  - **(2026)** [**github.com/inevolin: Kubernetes CPU limits: the mistake, the why, and proof**](https://github.com/inevolin/k8s-cpu-limits-analyzed) <span class='md-tag md-tag--info'>⭐ 127</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3b85250f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 4 L 30 3 L 40 10 L 50 9" fill="none" stroke="url(#spark-grad-3b85250f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> — Reproducible MIT-licensed Kubernetes benchmark demonstrating how CFS bandwidth quota throttling triggered by container CPU limits degrades tail latency and can cascade into memory buffering and OOM kills.
+- **Kernel Mechanics**: Contrasts guaranteed CPU requests under normal scheduler contention against hard cgroup quota ceilings that stall multi-threaded runtimes mid-request.
+- **Production Guidance**: Empirical reference for sizing JVM, Go, and microservice Pods without self-inflicted CFS throttling outages.
 ## Observability (1)
 
 ### Debugging
@@ -276,7 +292,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8?gi=046cd4419fd0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status covering Pod in Terminating or Unknown Status in Kubernetes Troubleshooting (blog.devgenius.io).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

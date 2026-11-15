@@ -26,9 +26,24 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Loki and Komodor Integration
 
   - **(2022)** [anaisurl.com: Full Tutorial: Monitoring and Troubleshooting stack with Prometheus, Grafana, Loki and Komodor 🌟](https://anaisurl.com/full-tutorial-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides readers through deploying a cohesive, modern cloud-native observability stack. Integrates Prometheus metric collections with Grafana dashboarding, Loki-based log aggregation, and Komodor's specialized Kubernetes troubleshooting platform to build rapid root-cause workflows.
-## Cloud Native Platforms
+## Cloud Native
 
 ### Kubernetes
+
+#### Autoscaling
+
+  - **(2026)** [**Building a Custom Metrics Exporter for Kubernetes**](https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AUTOSCALING]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[METRICS]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — A comprehensive guide on designing and deploying a custom metrics exporter for Kubernetes. By bridging the gap between application-specific signals (e.g., queue length) and the Horizontal Pod Autoscaler (HPA), it enables business-aware elasticity. Highly recommended for SREs designing dynamic scaling topologies.
+#### Observability And Metrics
+
+  - **(2026)** [**Kubernetes v1.37: Metrics API graduates to stable**](https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[API]</span> <span class='md-tag md-tag--primary'>[AUTOSCALING]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[METRICS]</span> — Details the graduation of the `metrics.k8s.io` API to stable (v1) in Kubernetes v1.37. This solidifies the foundational API for HPA and resource consumption tracking, ensuring enterprise-grade backward compatibility. A critical milestone for operators relying on standardized telemetry for automated scaling logic.
+### Observability
+
+#### Metrics
+
+  - **(2026)** [**Kubernetes v1.37: Native Histograms Graduates to Beta**](https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[MCP]</span> <span class='md-tag md-tag--primary'>[METRICS]</span> <span class='md-tag md-tag--primary'>[MONITORING]</span> <span class='md-tag md-tag--primary'>[OBSERVABILITY]</span> <span class='md-tag md-tag--primary'>[PERFORMANCE]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — The graduation of Native Histograms (KEP-5808) to Beta in Kubernetes v1.37 marks a structural shift in cloud-native observability, natively addressing the cardinality crisis of classic Prometheus metrics. While initial curator insights highlight the default enablement of this feature, live MCP grounding confirms it introduces dynamic exponential bucketing that drives a ~10x reduction in time-series storage footprint. Architecturally, this dual-exposition mechanism allows 2026 platform teams to dramatically increase the resolution of critical control plane latencies—essential for high-frequency AI and GPU scheduler profiling—without breaking backward compatibility with existing PromQL alerts.
+## Cloud Native Platforms
+
+### Kubernetes (1)
 
 #### Helm Deployments
 
@@ -53,9 +68,9 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
   - **(2021)** [sysdig.com: How to monitor Kubernetes control plane](https://www.sysdig.com/blog/monitor-kubernetes-control-plane) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical guide detailing how to expose, scrap, and interpret diagnostic metrics from core Kubernetes control plane components, including etcd, kube-apiserver, kube-controller-manager, and kube-scheduler. Provides target Grafana layouts and alerting thresholds critical for cluster-wide health.
 ## Container Orchestration
 
-### Kubernetes (1)
+### Kubernetes (2)
 
-#### Observability
+#### Observability (1)
 
 ##### Best Practices
 
@@ -112,7 +127,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
   - [awstip.com: Monitoring Your EKS Cluster with the Power of Prometheus and Grafana through Helm](https://awstip.com/monitoring-your-eks-cluster-with-the-power-of-prometheus-and-grafana-through-helm-%EF%B8%8F-1e8dc1ad5620?gi=d247862505d1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Monitoring Your EKS Cluster with the Power of Prometheus and Grafana through Helm covering Introduction in Kubernetes Monitoring (awstip.com).
   - [itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service Discovery, and its roles](https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1?gi=878d85f8dc31) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service Discovery, and its roles covering Introduction in Kubernetes Monitoring (itnext.io).
   - [cncf.io: Avoiding Kubernetes cluster outages with synthetic monitoring](https://www.cncf.io/blog/2021/08/10/avoiding-kubernetes-cluster-outages-with-synthetic-monitoring)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Avoiding Kubernetes cluster outages with synthetic monitoring covering Introduction in Kubernetes Monitoring (cncf.io).
-## Kubernetes (2)
+## Kubernetes (3)
 
 ### Resource Management
 
@@ -194,7 +209,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 ## Monitoring Certificates Expiration
 
   - [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d?gi=8428eba9173b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter covering Monitoring Certificates Expiration in Kubernetes Monitoring (itnext.io).
-## Observability (1)
+## Observability (2)
 
 ### Logging
 
@@ -210,7 +225,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
 #### Utilities
 
   - **(2022)** [kubelog.de](https://kubelog.de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A simplified, community-driven logging helper tool and playground for streaming container logs and tracing events inside localized Kubernetes development sandboxes.
-### Metrics
+### Metrics (1)
 
 #### SLO Management
 
@@ -278,7 +293,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
   - **(2022)** [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review of ten leading commercial and open-source Kubernetes monitoring suites. Evaluates architecture models, scaling properties, out-of-the-box features, and implementation overheads across modern toolchains like Prometheus, Datadog, Dynatrace, and Better Stack.
 ## Site Reliability Engineering
 
-### Observability (2)
+### Observability (3)
 
 #### Monitoring Theory
 
@@ -287,7 +302,7 @@ description: "Top Kubernetes Monitoring resources for 2026, AI-ranked: kube-prom
   - **(2016)** [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed-systems) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational text establishing distributed systems monitoring fundamentals. Introduces the 'four golden signals' (latency, traffic, errors, and saturation) and addresses the core engineering trade-offs between white-box and black-box monitoring. Curator Insight: Seminal SRE literature defining core telemetry metrics. Live Grounding: Remains the architectural blueprint for modern production-grade telemetry frameworks globally.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

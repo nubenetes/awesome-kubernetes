@@ -134,6 +134,13 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### Security Automation
 
   - **(2024)** [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instructional resource on deploying ACME Bot inside Azure. Automates key lifecycles of Let's Encrypt certificates directly into secure Key Vaults.
+## Cloud Providers
+
+### AWS (2)
+
+#### Security and Compliance
+
+  - **(2026)** [**AWS Continuum for code vulnerabilities is now generally available**](https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CI-CD]</span> <span class='md-tag md-tag--primary'>[DEVSECOPS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[SECURITY-SCANNING]</span> <span class='md-tag md-tag--primary'>[VULNERABILITY-MANAGEMENT]</span> — Curator Insight: Integrating vulnerability scanning directly into the developer workflow is critical for DevSecOps maturity. Live Grounding: AWS Continuum transitions to General Availability, providing automated, continuous code vulnerability analysis natively within the AWS ecosystem. This service reduces mean time to remediation (MTTR) by shifting security left without requiring third-party tooling integration.
 ## Devsecops (1)
 
 ### Policy As Code
@@ -162,7 +169,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### AWS IAM (1)
 
   - **(2022)** [ermetic.com: Diving Deeply into IAM Policy Evaluation – Highlights from AWS re:Inforce IAM433](https://www.tenable.com/blog/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-iam433) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth analysis of AWS Identity and Access Management policy logic based on re:Inforce insights. Decodes complex interaction flows between implicit and explicit denies, SCP policies, permissions boundaries, and resource-based rules.
-## Security and Compliance
+## Security and Compliance (1)
 
 ### Linux Hardening
 
@@ -224,7 +231,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational technical guide to the architecture and operational model of AWS Secrets Manager. The article discusses integration mechanics with AWS RDS, IAM authorization policies, automated rotation via pre-configured Lambda templates, and encryption envelope methods using KMS.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [AWS](./aws.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

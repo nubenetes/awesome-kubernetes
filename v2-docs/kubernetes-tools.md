@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Tools resources for 2026, AI-ranked: Descheduler for Kubernetes, cdk8s and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Plugins, Tools, Extensions and Projects
 
@@ -311,6 +311,10 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### CICD (3)
 
   - **(2026)** [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the BuildKit CLI integration for 'kubectl'. It empowers developers to build container images directly within active Kubernetes execution scopes, leveraging distributed cache backends and eliminating local docker daemon dependencies.
+#### Cluster Management UI
+
+  - **(2026)** [**Kubernetes Dashboard to Headlamp: A Step-by-Step Guide**](https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[DAY-2-OPS]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> <span class='md-tag md-tag--primary'>[RBAC]</span> <span class='md-tag md-tag--primary'>[TOOLING]</span> <span class='md-tag md-tag--primary'>[UI]</span> — **Curator Insight:** The archiving of the legacy Kubernetes Dashboard necessitates a strategic pivot towards modern, extensible UIs for Day-2 cluster operations. Headlamp emerges as the definitive open-source successor, offering a robust plugin architecture and seamless multi-cluster routing.
+**Live Grounding:** 2026 web evidence confirms Headlamp's maturity as a scalable operational hub, introducing native support for AI/ML workload plugins (e.g., Kubeflow, Volcano) and an integrated AI Assistant. By enforcing strict Kubernetes RBAC and supporting local kubeconfig execution, Headlamp resolves the security trade-offs of its predecessor while establishing a secure foundation for agentic cluster observability.
 ## Cloud Native Infrastructure
 
 ### Service Mesh
@@ -371,6 +375,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### Curation (2)
 
   - **(2022)** [developers.redhat.com: 8 open source Kubernetes security tools](https://developers.redhat.com/articles/2022/06/20/8-open-source-kubernetes-security-tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates eight open-source security utilities critical for securing containerized environments. Highlights runtime threat detectors, IaC scanners, policy compliance checkers, and secrets managers, discussing deployment strategies for secure platform engineering.
+## Cluster Crash Detection And Root-cause Tracing
+
+  - **(2026)** [**kwatch**](https://kwatch.dev) <span class='md-tag md-tag--info'>⭐ 1026</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8ca801c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 11 L 30 12 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-c8ca801c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> — In-cluster Go Kubernetes failure monitor and root-cause tracer (MIT open-source core at github.com/abahmed/kwatch) that continuously watches cluster events and pod states to pinpoint what broke, why it failed, who triggered the change, and what to do next.
+- **Alert Routing**: Ships concise consolidated incident notifications directly to Slack, Microsoft Teams, Discord, PagerDuty, Opsgenie, and webhooks without alert fatigue.
+- **Cluster Footprint**: Deploys cleanly as a lightweight in-cluster Deployment requiring minimal read-only RBAC permissions, complementing Prometheus Alertmanager stacks.
 ## Cluster Lifecycle
 
 ### Upgrades and Compliance
@@ -486,6 +495,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### Dynamic Balancing
 
   - **(2026)** [==Descheduler for Kubernetes 🌟==](https://github.com/kubernetes-sigs/descheduler) <span class='md-tag md-tag--info'>⭐ 5564</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-05b97c78" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 11 L 30 10 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-05b97c78)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly critical Kubernetes SIG project that addresses scheduling drift by continuously examining running pods against modified constraints, evicting pods that violate affinities, taints, topology spreads, or resource capacities.
+## Cluster Management And Desktop Clients
+
+  - **(2026)** [kubeNimbus: A Native Kubernetes Desktop Client](https://github.com/Shman4ik/kubeNimbus) <span class='md-tag md-tag--info'>⭐ 9</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-77cf23d4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 13 L 30 3 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-77cf23d4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> — Native, MIT-licensed cross-platform desktop client for inspecting and managing Kubernetes clusters built with a focus on low memory overhead and responsive UI latency.
+- **Cloud-Native Compatibility**: Connects directly through existing local `kubeconfig` contexts without requiring in-cluster agents or server-side CRDs.
+- **Operational Positioning**: Lightweight desktop alternative to heavier Electron-based Kubernetes IDEs such as Lens when rapid pod inspection, logs, and resource navigation are the primary priority.
 ## Configuration
 
 ### CDK and Dsls
@@ -636,8 +650,8 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 
 #### Kubernetes Management
 
-  - **(2025)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-centric, lightweight PaaS layer running directly on top of Kubernetes. Canine simplifies native container deployments and configurations, reducing cognitive load and shortening inner-loop development iterations.
   - **(2025)** [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, tool-agnostic application management platform for Kubernetes. Unifies discrete CI/CD workflows, GitOps, observability tooling, and cluster resource debugging into a single visual interface, drastically lowering cognitive load.
+  - **(2025)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-centric, lightweight PaaS layer running directly on top of Kubernetes. Canine simplifies native container deployments and configurations, reducing cognitive load and shortening inner-loop development iterations.
 ## DevOps
 
 ### Infrastructure As Code (1)
@@ -1254,6 +1268,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### Migration
 
   - **(2026)** [pulumi/kube2pulumi](https://github.com/pulumi/kube2pulumi) <span class='md-tag md-tag--info'>⭐ 107</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-05f6851b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 6 L 30 10 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-05f6851b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Open-source command-line tool designed to convert static Kubernetes YAML templates or dynamically generated Helm outputs directly into isomorphic, compilable Pulumi configurations.
+### Terraform (1)
+
+#### Security And Compliance
+
+  - **(2026)** [==bridgecrewio/checkov: Policy-as-Code Static Analysis for Terraform==](https://github.com/bridgecrewio/checkov) <span class='md-tag md-tag--info'>⭐ 9127</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e890e64a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 5 L 20 5 L 30 10 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e890e64a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — Graph-based static code analysis tool for Infrastructure as Code with over 1,000 built-in CIS, NIST, and cloud security policies for Terraform, Terraform Plan JSON, Bicep, and Kubernetes.
 ## Infrastructure Optimization
 
 ### Cost Management
@@ -1335,6 +1354,17 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### Garden Documentation
 
   - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
+## Kubernetes Tooling (1)
+
+### Visual Consoles
+
+#### Headlamp Ecosystem
+
+  - **(2026)** [**From Kubernetes Dashboard to Headlamp: Understanding the Transition**](https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[HEADLAMP]</span> <span class='md-tag md-tag--primary'>[KUBERNETES-DASHBOARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[MIGRATION]</span> <span class='md-tag md-tag--primary'>[UI]</span> — Following the official archiving of the legacy Kubernetes Dashboard, this guide outlines the strategic migration to Headlamp as the premier, extensible web UI. Web grounding confirms the community shift, driven by Headlamp's robust plugin architecture, multi-cluster support, and seamless RBAC compatibility for both desktop and in-cluster deployments. Platform engineers must prioritize this transition to maintain secure, modern visual observability and operational parity within their clusters.
+#### Headlamp Plugins
+
+  - **(2026)** [**Introducing the Cluster API plugin for Headlamp**](https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CAPI]</span> <span class='md-tag md-tag--primary'>[CLUSTER-MANAGEMENT]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[HEADLAMP]</span> <span class='md-tag md-tag--primary'>[UI]</span> — This release introduces the official Cluster API (CAPI) plugin for Headlamp, transforming how platform teams visualize and manage declarative cluster lifecycles. Grounded community feedback highlights that managing CAPI previously required complex kubectl hierarchies, whereas this plugin delivers intuitive visual clarity and faster debugging inside a unified console. Architecturally, it abstracts multi-cluster complexity, allowing operators to monitor node pools and control planes with seamless UI integration.
+  - **(2026)** [**Inspect Volcano workloads faster with Headlamp**](https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[BATCH-SCHEDULER]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[HEADLAMP]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> <span class='md-tag md-tag--primary'>[VOLCANO]</span> — Volcano is a premier cloud-native batch scheduler tailored for AI/ML and HPC workloads, and its new Headlamp plugin provides essential visual context for batch operations. Live grounding confirms the plugin enables operators to directly inspect pending pods, scaling events, and queue status without resorting to fragmented command-line interactions. From a curator's viewpoint, visualizing these advanced scheduling decisions is crucial for tuning autoscaling behaviors in hardware-accelerated clusters.
 ## Kubernetes-tools
 
   - [Grafana OnCall OSS](https://grafana.com/products/cloud/irm) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Grafana OnCall OSS covering kubernetes-tools in Kubernetes Tools (grafana.com).
@@ -1513,11 +1543,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
   - **(2021)** [uw-labs.github.io: Kubernetes Semaphore: A modular and nonintrusive framework' for cross cluster communication](https://uw-labs.github.io/blog/kubernetes,/multicluster/2021/07/21/kube-semaphore-intro.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modular, non-intrusive framework facilitating cross-cluster orchestration and synchronized tasks. It addresses inter-cluster resource coordination without requiring deep, heavy service meshes or persistent site-to-site VPN tunnels.
 ## Networking and Security
 
-### Access Control (1)
-
-#### Identity Gateways
-
-  - **(2026)** [==Teleport 🌟==](https://github.com/gravitational/teleport) <span class='md-tag md-tag--info'>⭐ 21056</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-488a2fb0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 9 L 20 10 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-488a2fb0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-protocol infrastructure access gateway. Teleport consolidates SSH, database, web app, and Kubernetes API session access into an audited, identity-backed portal with detailed record-keeping, biometric integration, and enterprise access reviews.
 ### Admission Control (3)
 
 #### DNS Configuration
@@ -1767,9 +1792,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
 #### Diagnostics (1)
 
   - **(2021)** [ReallyLiri/kubescout: Kube-Scout](https://github.com/ReallyLiri/kubescout) <span class='md-tag md-tag--info'>⭐ 126</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b24fd0ba" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 3 L 30 2 L 40 11 L 50 6" fill="none" stroke="url(#spark-grad-b24fd0ba)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An event diagnostic utility that scans logs and cluster events to track down crashed pods and network failures. It features custom search syntax rules, allowing developers to filter alert noise.
-#### Error Alerting
-
-  - **(2021)** [abahmed/kwatch](https://github.com/abahmed/kwatch) <span class='md-tag md-tag--info'>⭐ 1010</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6dc54e89" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 7 L 30 11 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-6dc54e89)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-time error monitor and alert router that monitors Kubernetes logs and pod events. When crash loops occur, it streams exact logs and statuses to systems like Slack, Teams, or custom webhooks.
 ## Operations
 
 ### Automation (2)
@@ -2311,7 +2333,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
   - **(2024)** [Azure/placement-policy-scheduler-plugins](https://github.com/Azure/placement-policy-scheduler-plugins) <span class='md-tag md-tag--info'>⭐ 55</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d7ccb3ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 13 L 30 2 L 40 4 L 50 8" fill="none" stroke="url(#spark-grad-d7ccb3ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This repository contains custom scheduling plugins for the Kubernetes default scheduler, built by Azure. They implement advanced scheduling topologies like strict fault-domain placement, proximity-based scheduling, and specialized multi-tenant constraints, providing deep scheduling control for hyperscale enterprise architectures.
 ## Security (1)
 
-### Access Control (2)
+### Access Control (1)
 
 #### RBAC Audit
 
@@ -2769,7 +2791,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: k8scr, nerdctl
   - **(2020)** [github.com/alexellis/run-job](https://github.com/alexellis/run-job) <span class='md-tag md-tag--info'>⭐ 211</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fdd899b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 7 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-fdd899b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented utility written in Go to quickly trigger Kubernetes Jobs, track execution statuses, and stream execution logs directly to stdout. Simplifies local workflow testing and diagnostic debugging.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

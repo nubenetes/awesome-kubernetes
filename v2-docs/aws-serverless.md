@@ -29,6 +29,13 @@ description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limit
 #### AWS SAM Pipelines
 
   - **(2021)** [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces AWS SAM Pipelines, a feature within the Serverless Application Model CLI that auto-generates multi-stage CI/CD pipelines. It supports integration with Jenkins, GitLab, GitHub Actions, and Bitbucket, standardizing infrastructure-as-code deployment procedures across corporate accounts.
+## Cloud Native
+
+### Serverless Inference
+
+#### Managed Workloads
+
+  - **(2026)** [**Run a vLLM Server on HF Jobs in One Command**](https://huggingface.co/blog/vllm-jobs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[INFERENCE]</span> <span class='md-tag md-tag--primary'>[LLM-OPS]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[SERVERLESS]</span> — Hugging Face Jobs provides a streamlined method for deploying private, OpenAI-compatible vLLM endpoints with a single command on managed infrastructure. This pay-per-second serverless execution model eliminates the need for Kubernetes provisioning, making it highly optimal for batch generation, rapid evaluations, and CI/CD testing pipelines. The solution bridges the gap between local development and production-grade Inference Endpoints by offering transient, flexible compute resources.
 ## Cloud Platforms
 
 ### Serverless Architecture
@@ -45,6 +52,13 @@ description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limit
 #### Resources
 
   - **(2025)** [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS's official developer video channel focusing on serverless systems design. Shares step-by-step engineering tutorials on EventBridge, Step Functions, and API Gateway optimization.
+## Cloud Providers
+
+### AWS
+
+#### Serverless Compute
+
+  - **(2026)** [**Announcing AWS Lambda Web Functions**](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[EDGE-COMPUTING]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LAMBDA]</span> <span class='md-tag md-tag--primary'>[SERVERLESS]</span> <span class='md-tag md-tag--primary'>[WEB-FUNCTIONS]</span> — Curator Insight: The evolution of serverless computing requires minimizing cold starts and optimizing edge delivery for latency-sensitive web apps. Live Grounding: AWS introduces Lambda Web Functions, a specialized compute variant optimized for rapid, consistent HTTP request processing without the overhead of standard Lambda payloads. This marks a critical architectural shift for building high-performance, edge-adjacent web architectures directly on AWS infrastructure.
 ## Container Orchestration
 
 ### AWS ECS and Fargate
@@ -90,6 +104,13 @@ description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limit
   - [faun.pub: Serverless With Spring Boot & AWS Lambda](https://faun.pub/serverless-with-spring-boot-aws-lambda-bc76c1de2b12?gi=11421b274b13) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Serverless With Spring Boot & AWS Lambda covering Introduction in AWS Serverless (faun.pub).
   - [terrateam.io: AWS Lambda Function with Terraform](https://stategraph.com/blog/aws-lambda-function-with-terraform?from=terrateam) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for terrateam.io: AWS Lambda Function with Terraform covering Introduction in AWS Serverless (stategraph.com).
   - [blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step Guide](https://blog.devops.dev/deploying-awesome-app-on-aws-serverless-services-step-by-step-guide-54bc89e4d236?gi=de5362b73d03) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step Guide covering Introduction in AWS Serverless (blog.devops.dev).
+## Kubernetes Tooling
+
+### Visual Consoles
+
+#### Headlamp Plugins
+
+  - **(2026)** [**See your serverless: introducing the Headlamp plugin for Knative**](https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[HEADLAMP]</span> <span class='md-tag md-tag--primary'>[KNATIVE]</span> <span class='md-tag md-tag--primary'>[SERVERLESS]</span> <span class='md-tag md-tag--primary'>[UI]</span> — The Knative plugin for Headlamp bridges the gap between serverless workload deployments and Kubernetes-native observability. Web grounding demonstrates that the integration allows engineers to visualize scale-to-zero metrics, traffic routing, and event-driven resources within a single cohesive dashboard. This visual capability significantly lowers the operational barrier to adopting serverless architectures on Kubernetes, streamlining debugging for ephemeral workloads.
 ## Modernization
 
 ### Monolith Migration
@@ -181,7 +202,7 @@ description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limit
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [AWS](./aws.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 
