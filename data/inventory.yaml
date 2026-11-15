@@ -722645,13 +722645,9 @@ https://www.youtube.com/shorts/BZq7h1Xnomg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps / Supply Chain Security
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -722669,6 +722665,11 @@ https://www.youtube.com/shorts/BZq7h1Xnomg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps / Supply Chain Security
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Lxc_rzsuhm8:
   title: How NVKR Secures Software Supply Chains (Syft SBOM & Sigstore) [Short]
@@ -722690,13 +722691,9 @@ https://www.youtube.com/shorts/Lxc_rzsuhm8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Supply Chain Security (Sigstore & Syft)
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -722714,6 +722711,11 @@ https://www.youtube.com/shorts/Lxc_rzsuhm8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Supply Chain Security (Sigstore & Syft)
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/Ob40Zpmhtkc:
   title: How NVKR's Build Pipeline Secures Node Images (QCOW2 & KVM) [Short]
@@ -722737,13 +722739,9 @@ https://www.youtube.com/shorts/Ob40Zpmhtkc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -722761,6 +722759,11 @@ https://www.youtube.com/shorts/Ob40Zpmhtkc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/j5AsTMy5e3w:
   title: How NVKR Builds NVIDIA Infrastructure (NVKE & AICR) [Short]
@@ -722781,13 +722784,9 @@ https://www.youtube.com/shorts/j5AsTMy5e3w:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: MLOps + Kubernetes
-  category: Infrastructure as Code
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -722805,6 +722804,11 @@ https://www.youtube.com/shorts/j5AsTMy5e3w:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + Kubernetes
+  category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/fO9NgQ2wwJA:
   title: How NVKR Verifies Software Releases (Cosign & Policies) [Short]
@@ -722828,13 +722832,9 @@ https://www.youtube.com/shorts/fO9NgQ2wwJA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Cosign / Sigstore / Supply Chain Security
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -722852,6 +722852,11 @@ https://www.youtube.com/shorts/fO9NgQ2wwJA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cosign / Sigstore / Supply Chain Security
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=DVzzQofoHLc:
   title: 'Demystifying NVKR: Declarative Builds, SBOMs & Verified NVIDIA Releases'
@@ -722893,13 +722898,9 @@ https://www.youtube.com/watch?v=DVzzQofoHLc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + DevSecOps
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -722917,6 +722918,11 @@ https://www.youtube.com/watch?v=DVzzQofoHLc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + DevSecOps
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/5uwev9LOrLg:
   title: How Zero-Trust Architecture Secures AI Agents [Short]
@@ -722939,13 +722945,9 @@ https://www.youtube.com/shorts/5uwev9LOrLg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: SRE + AI Agents
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -722963,6 +722965,11 @@ https://www.youtube.com/shorts/5uwev9LOrLg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/JTfFp2lSX18:
   title: How Ghostjacking Hijacks AI Agents [Short]
@@ -722983,13 +722990,9 @@ https://www.youtube.com/shorts/JTfFp2lSX18:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: SRE + AI Agents
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723007,6 +723010,11 @@ https://www.youtube.com/shorts/JTfFp2lSX18:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/kCNIkzkU7o8:
   title: How Poisoned Logs Hijack AI SRE Agents [Short]
@@ -723027,13 +723035,9 @@ https://www.youtube.com/shorts/kCNIkzkU7o8:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: SRE + AI Agents
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723051,6 +723055,11 @@ https://www.youtube.com/shorts/kCNIkzkU7o8:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/vnkpRyowc5o:
   title: Why AI Agents Fail at Cloud Operations
@@ -723072,13 +723081,9 @@ https://www.youtube.com/shorts/vnkpRyowc5o:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: SRE + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723096,6 +723101,11 @@ https://www.youtube.com/shorts/vnkpRyowc5o:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/i21cn3cukuI:
   title: How AI Safely Troubleshoots Kubernetes Clusters
@@ -723116,13 +723126,9 @@ https://www.youtube.com/shorts/i21cn3cukuI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723140,6 +723146,11 @@ https://www.youtube.com/shorts/i21cn3cukuI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/bLKDTC7jGZs:
   title: How MCP Transports Connect AI to Infrastructure [Short]
@@ -723159,13 +723170,9 @@ https://www.youtube.com/shorts/bLKDTC7jGZs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723183,6 +723190,11 @@ https://www.youtube.com/shorts/bLKDTC7jGZs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/KXiYCrOPHNU:
   title: How MCP Eliminates AI-to-API Glue Code [Short]
@@ -723202,13 +723214,9 @@ https://www.youtube.com/shorts/KXiYCrOPHNU:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: DevOps + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723226,6 +723234,11 @@ https://www.youtube.com/shorts/KXiYCrOPHNU:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/JQhHBY2uglw:
   title: How AI SRE Agents Learn From Outages [Short]
@@ -723246,13 +723259,9 @@ https://www.youtube.com/shorts/JQhHBY2uglw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: SRE + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723270,6 +723279,11 @@ https://www.youtube.com/shorts/JQhHBY2uglw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/TdarSrQwDmE:
   title: How Agentic AI Self-Heals Cloud Pipelines [Short]
@@ -723291,13 +723305,9 @@ https://www.youtube.com/shorts/TdarSrQwDmE:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: SRE + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1794737811
   needs_ai_refresh: false
@@ -723315,4 +723325,9 @@ https://www.youtube.com/shorts/TdarSrQwDmE:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
