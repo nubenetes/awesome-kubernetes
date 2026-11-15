@@ -17,6 +17,198 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Agentic AI FinOps and Azure Architectures
+
+??? note "🎬 ⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless"
+    !!! info "Architectural Summary"
+        This 12-part multimedia curriculum paired with the open-source TCO study (https://github.com/nubenetes/finops-agentic-ai-architectures) compares Pure Serverless Functions (A), Microsoft Foundry Agent Service (B), AKS Automatic (C), Container Apps + Service Bus Premium + APIM (D), and Per-Seat SaaS (S) across P1 Essential, P2 Standard, and P3 Regulated security profiles and 16 EU/US Azure regions. Across 5 long-form deep dives and 7 concise Technical Shorts, it demonstrates the 4-zone deterministic guardrail architecture, the Low-Volume Pilot Paradox (97.1%–99.3% fixed infrastructure cost at 1k queries/month), why agent count (3+ agents) triggers the A-to-B Foundry crossover, and why AKS Automatic only beats Foundry above 191k cloud-only / 2.0M full-TCO / 275k amortized-team queries per month. It concludes with token optimization levers (model routing + semantic caching cutting AI spend by 45–65%), DEV/PRE/PRO Private Link parity with Azure Verified Modules, and the 9 common cost anti-patterns.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLLvKIaVqVF78" title="⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+??? note "🎬 Agentic AI on Azure TCO: Serverless, Foundry, AKS & Container Apps FinOps Guide (9:44)"
+    !!! info "Architectural Summary"
+        This 9:44 architectural deep dive introduces the end-to-end FinOps decision model for enterprise agentic-AI platforms on Microsoft Azure across P1 Essential, P2 Standard, and P3 Regulated security profiles. It details the 4-zone, 9-step deterministic guardrail reference pattern—separating non-AI controls (ingress masking, usr_7K2 pseudonym vault, prompt-injection admission, deterministic verifier, certainty threshold, single-use permit hash, and Merkle WORM audit sealing) from the cognitive plane—and compares Options A (Functions Flex Consumption), B (Microsoft Foundry Agent Service), C (AKS Automatic), D (Container Apps + Service Bus Premium + APIM), and S (Per-Seat SaaS). It concludes by demonstrating the Low-Volume Pilot Paradox in P3 Spain Central at 1,000 queries/month, where fixed infrastructure dominates 97.1%–99.3% of the monthly cloud bill (€986 on A, €1,107 on B, €1,525 on C, and €3,956 on D).
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="wbG4ZO3BF_U" data-video-url="https://www.youtube.com/embed/wbG4ZO3BF_U" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/wbG4ZO3BF_U/hqdefault.jpg" alt="Agentic AI on Azure TCO: Serverless, Foundry, AKS & Container Apps FinOps Guide (9:44)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Azure Agentic AI Architectures Compared: Functions, Foundry, AKS & ACA Crossover (7:23)"
+    !!! info "Architectural Summary"
+        This 7:23 comparative session dissects the compute, orchestration, and integration planes across Azure Functions Flex Consumption (A), Microsoft Foundry Agent Service + Functions (B), AKS Automatic + Gateway API + Kafka (C), and Container Apps + Service Bus Premium + APIM Standard v2 (D). It quantifies fixed-cost multipliers and unit-efficiency thresholds (Q* = F / v) across P1 Essential, P2 Standard, and P3 Regulated profiles in Spain Central (€140/€520/€957 on A, €165/€580/€1,078 on B, €620/€1,050/€1,498 on C, and €430/€2,150/€3,928 on D). Mathematically, it isolates the B-versus-C crossover points: 191k queries/month on raw cloud bill, 2.0M queries/month on full TCO including operations FTEs and amortized build, and 275k queries/month when an existing Kubernetes platform team is already amortized.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="0SH6H5phFP4" data-video-url="https://www.youtube.com/embed/0SH6H5phFP4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/0SH6H5phFP4/hqdefault.jpg" alt="Azure Agentic AI Architectures Compared: Functions, Foundry, AKS & ACA Crossover (7:23)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 FinOps for Agentic AI: Cost Equations, Model Routing, Caching & PTU Break-Even (7:10)"
+    !!! info "Architectural Summary"
+        This 7:10 quantitative breakdown examines the parametric monthly TCO equation across 1,000 to 5,000,000 queries/month combining fixed infra, variable AI + platform costs, capacity step tiers E(Q), operations FTEs, and 36-month build amortization. It contrasts FAQ/Light RAG (€0.004/query), Verified RAG (€0.026/query), and Multi-Step Agentic workflows (€0.120/query), proving why AI tokens drive 60–96% of total cloud spend above 250k queries/month and why model routing (-45%) plus semantic caching (-65% combined AI savings) cuts a 1M verified-RAG bill on B P3 from €31,628 to €14,728/month. Finally, it calculates the ~550k queries/month break-even for self-hosting a small model on two HA GPU nodes (€2,200/month) and explains why Provisioned Throughput Units (PTUs) require >60–70% sustained utilization to beat pay-per-token.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="10-s91vgbQs" data-video-url="https://www.youtube.com/embed/10-s91vgbQs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/10-s91vgbQs/hqdefault.jpg" alt="FinOps for Agentic AI: Cost Equations, Model Routing, Caching & PTU Break-Even (7:10)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 SaaS vs Build on Azure: Agentic AI Break-Even, Multi-Agent TCO & ROI Model (9:05)"
+    !!! info "Architectural Summary"
+        This 9:05 strategic analysis evaluates build-vs-buy decisions from XS Start-ups (<50 users) to XL Global Corporations (>20,000 users, 1.5M queries/month across 3 regions) against a €28/$32 per-seat SaaS benchmark, establishing Platform B user break-evens at ~88 users (P1), ~153 users (P2), and ~251 users (P3). It demonstrates why agent count—rather than query volume—governs the choice between Serverless (A) and Microsoft Foundry (B): A wins with 1–2 simple agents, while from 3+ agents (at 10k/month in P2) B's shared evaluations, guardrails, and runtime deliver lower TCO (€4,930 vs €5,292, widening to €6,765 vs €10,632 at 12 agents). Under conservative hard-savings assumptions (€1.63 / $1.88 realized value per incoming query), the value roadmap achieves 3.1x value/TCO (7.9-month payback) at 3 use cases and 16.0x (1.1-month payback) company-wide.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="cKmt7jhtCAo" data-video-url="https://www.youtube.com/embed/cKmt7jhtCAo" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/cKmt7jhtCAo/hqdefault.jpg" alt="SaaS vs Build on Azure: Agentic AI Break-Even, Multi-Agent TCO & ROI Model (9:05)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)"
+    !!! info "Architectural Summary"
+        This 7:40 operational blueprint details full private-network parity across DEV, PRE, and PRO deployed via Azure Verified Modules (AVM) in P3 Spain Central—delivering complete Front Door Premium + WAF, Private Endpoints, PostgreSQL pseudonym vault, AI Search Basic, Key Vault Premium HSM, and Blob WORM for €1,106.80/month on Option B vs €3,955.99 on Option D. It benchmarks all 16 EU and US regions indexed to Spain Central (1.00), highlighting Sweden Central (0.94, €1,042 B pilot) and North Europe (0.95, €1,053) as lowest-cost EU options, East US 2 (0.87, -13%) in the US, and Switzerland North (1.18, €1,302). It concludes by mapping FinOps Framework Inform-Optimize-Operate KPIs (FOCUS billing, per-agent token attribution, basic/archive trace retention) and auditing the 9 common cost anti-patterns.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="i5UzI-FrFfU" data-video-url="https://www.youtube.com/embed/i5UzI-FrFfU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/i5UzI-FrFfU/hqdefault.jpg" alt="Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Choosing the Most Cost-Effective Azure AI Architecture for Your Enterprise [Short] (1:28)"
+    !!! info "Architectural Summary"
+        This 1:28 Technical Short distills the six-step decision tree for choosing between Per-Seat SaaS (S), Pure Serverless Azure Functions (A), Microsoft Foundry + Functions (B), AKS Automatic (C), and Container Apps + Service Bus Premium + APIM (D). It highlights the decisive branching criteria: generic productivity vs custom processes, self-hosted GPU or multi-cloud mandates, monthly volume relative to AKS thresholds (275k / 2.0M), shared corporate APIM/Service Bus availability, and expected agent count (3+ use cases). Teams gain an instant architecture checklist grounded in parametric TCO rather than hype.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Dsv6AclJKik" data-video-url="https://www.youtube.com/embed/Dsv6AclJKik" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Dsv6AclJKik/hqdefault.jpg" alt="Choosing the Most Cost-Effective Azure AI Architecture for Your Enterprise [Short] (1:28)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How to Stop Overpaying for Azure AI Agents (Pilot Paradox) [Short] (1:28)"
+    !!! info "Architectural Summary"
+        This 1:28 Technical Short explains the Low-Volume Pilot Paradox: at 1,000 queries/month under P3 Regulated controls in Spain Central, fixed platform infrastructure represents 97.1%–99.3% of the monthly bill. Comparing unit pilot costs (€3.96/query on dedicated APIM + Service Bus Premium vs €0.99/query on Serverless A and €1.11/query on Microsoft Foundry B), it warns against over-provisioning dedicated integration gateways, full HA non-production tiers, or premature capacity reservations. Minimize fixed pilot tax and amortize one shared foundation across multiple use cases.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="vAat9zOBBzI" data-video-url="https://www.youtube.com/embed/vAat9zOBBzI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/vAat9zOBBzI/hqdefault.jpg" alt="How to Stop Overpaying for Azure AI Agents (Pilot Paradox) [Short] (1:28)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Why Enterprise AI Architecture Scales by Agents, Not Volume [Short] (1:25)"
+    !!! info "Architectural Summary"
+        This 1:25 Technical Short demonstrates why Option A (Pure Serverless) stays cheaper than Option B (Microsoft Foundry) across all query volumes for a single agent, yet loses once an organization scales past two use cases. At 10,000 queries/month in P2 Standard, deploying 3+ agents flips TCO in Foundry's favor (€4,930 vs €5,292/month) by reusing shared runtime, continuous evaluations, guardrails, and private networking at near-zero marginal fixed cost. Building deterministic barriers in Functions also keeps migration cost from A to B minimal.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="8Lq9pNc7J7g" data-video-url="https://www.youtube.com/embed/8Lq9pNc7J7g" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/8Lq9pNc7J7g/hqdefault.jpg" alt="Why Enterprise AI Architecture Scales by Agents, Not Volume [Short] (1:25)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Break-Even Analysis Dictates Your Enterprise AI Strategy [Short] (1:18)"
+    !!! info "Architectural Summary"
+        This 1:18 Technical Short breaks down the three mathematical thresholds governing enterprise agentic-AI economics: the unit-efficiency threshold Q* = F / v, architecture crossover volumes, and ROI break-even. Using €1.63 / $1.88 conservative realized value per incoming query, it pinpoints full-TCO payback volumes and per-seat SaaS break-even points for Platform B at ~88 users (P1), ~153 users (P2), and ~251 users (P3). Measuring realized hard savings against full TCO avoids the 5–10x ROI overstatement caused by tracking cloud bills alone.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Enu5sqiYstc" data-video-url="https://www.youtube.com/embed/Enu5sqiYstc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Enu5sqiYstc/hqdefault.jpg" alt="How Break-Even Analysis Dictates Your Enterprise AI Strategy [Short] (1:18)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 FinOps for AI: The Kubernetes (AKS) Tipping Point on Azure [Short] (1:14)"
+    !!! info "Architectural Summary"
+        This 1:14 Technical Short pinpoints the exact mathematical tipping points where AKS Automatic (Option C) becomes more cost-effective than Microsoft Foundry (Option B) under P3 Regulated controls. While raw cloud spend crosses at 191k queries/month, accounting for the 0.60 FTE Kubernetes operations burden pushes the full TCO crossover to 2.0M queries/month—or 275k queries/month when an existing Kubernetes platform team is already amortized. It also flags ~550k queries/month as the break-even for self-hosting a small model on two HA GPU nodes (€2,200/month).
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="g7LOltuhtx0" data-video-url="https://www.youtube.com/embed/g7LOltuhtx0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/g7LOltuhtx0/hqdefault.jpg" alt="FinOps for AI: The Kubernetes (AKS) Tipping Point on Azure [Short] (1:14)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Model Routing & Semantic Caching Slash Agentic AI Costs [Short] (1:26)"
+    !!! info "Architectural Summary"
+        This 1:26 Technical Short explains why architectural switching saves little once monthly AI volume exceeds 250k queries, where model tokens and verification account for 60–96% of total cloud spend. By combining small-model-first routing (>60–70% of routine queries, -45% spend) with semantic caching (-65% combined AI savings), teams drop a 1M verified-RAG bill on Option B P3 from €31,628 to €14,728/month—and an agentic bill from €125,628 to €47,628/month. Budgeting per interaction profile (light RAG vs verified RAG vs multi-step agentic) prevents bill shock.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="iCGUTVuWwgY" data-video-url="https://www.youtube.com/embed/iCGUTVuWwgY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/iCGUTVuWwgY/hqdefault.jpg" alt="How Model Routing & Semantic Caching Slash Agentic AI Costs [Short] (1:26)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Decoupled Agentic AI Architecture Absorbs Traffic Spikes [Short] (1:11)"
+    !!! info "Architectural Summary"
+        This 1:11 Technical Short illustrates how the 4-zone deterministic pattern shields cognitive agents and downstream model TPM limits under bursty enterprise traffic. Front Door Premium + WAF terminates public channels over Private Link into Flex Consumption Functions (Zone 1 ingress masking, pseudonym vault, and admission checks), exchanging signed queue messages with the delegated agent runtime (Zone 2) before deterministic verification and Merkle WORM sealing (Zones 3–4). Decoupling smooths spikes without over-provisioning always-on agent pods.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="k8yBySfHSfE" data-video-url="https://www.youtube.com/embed/k8yBySfHSfE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/k8yBySfHSfE/hqdefault.jpg" alt="How Decoupled Agentic AI Architecture Absorbs Traffic Spikes [Short] (1:11)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Red Hat OpenShift
 
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019"
