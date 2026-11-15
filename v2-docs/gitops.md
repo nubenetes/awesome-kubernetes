@@ -463,7 +463,7 @@ description: "Top Gitops resources for 2026, AI-ranked: Helm, openshift-applier 
   - **(2020)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ technical review detailing the core benefits of using WKSctl to manage host infrastructure via GitOps, analyzing how automated controllers handle node upgrades and configurations without manual ssh actions.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [CI/CD](./cicd.md) | [Jenkins](./jenkins.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

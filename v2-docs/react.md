@@ -26,7 +26,7 @@ description: "Curated, AI-ranked React resources for the 2026 Cloud Native archi
   - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

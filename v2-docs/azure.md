@@ -1,5 +1,5 @@
 ---
-description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework, PowerShell and more — curated Cloud Native tools, guides and references."
+description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Gallery and more — curated Cloud Native tools, guides and references."
 ---
 # Microsoft Azure
 
@@ -237,6 +237,13 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
 #### Azure DevOps (2)
 
   - **(2025)** [Automate Terraform Testing with Azure DevOps Pipelines](https://skundunotes.com/2025/01/22/automate-terraform-testing-with-azure-devops-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical blueprint demonstrating the integration of automated security verification and configuration syntax checks inside Azure DevOps release steps for HashiCorp Terraform.
+## Cloud And Infrastructure
+
+### Azure
+
+#### Azure AI Foundry (1)
+
+  - **(2026)** [==FinOps for Agentic-AI Architectures on Azure==](https://github.com/nubenetes/finops-agentic-ai-architectures) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI]</span> <span class='md-tag md-tag--primary'>[AZURE]</span> <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[FINOPS]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> — Curator Insight: End-to-end FinOps benchmark and stdlib-only Python TCO calculator comparing Azure Functions Flex Consumption (A), Microsoft Foundry Agent Service (B), AKS Automatic (C), Container Apps + Service Bus Premium + APIM (D), and Per-Seat SaaS (S) across P1-P3 profiles and 16 EU/US regions. Live Grounding: Covers the 4-zone, 9-step deterministic guardrail pattern (pseudonym vault usr_7K2, deterministic verifier, single-use permit hash, Merkle WORM audit sealing), multi-agent and 191k/2.0M/275k AKS tipping points, DEV/PRE/PRO Private Link parity with AVM, and a 12-video @nubenetes curriculum (playlist PLLvKIaVqVF78).
 ## Cloud Application Platforms
 
 ### Azure App Service
@@ -268,7 +275,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
   - **(2023)** [infoq.com: Microsoft Refreshes its Well-Architected Framework](https://www.infoq.com/news/2023/11/azure-well-architected-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry review highlighting Microsoft's updates to the Well-Architected Framework (WAF) to better support modern cloud-native systems. Key improvements emphasize granular workload guides, prescriptive technical patterns, and streamlined cost optimization techniques. The refresh ensures the framework evolves alongside rapid shifts in containerization and modern distributed patterns.
 ### Governance
 
-#### Azure
+#### Azure (1)
 
 ##### Cloud Adoption Framework
 
@@ -455,8 +462,8 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
   - **(2025)** [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive comparison of Azure Service Endpoints versus Private Link. The author details critical architectural trade-offs: while Service Endpoints are simple to configure and leverage public IPs, Private Link allocates private endpoints within your virtual network, enhancing the security posture of microservice deployments by blocking data exfiltration channels, albeit with increased cost and complexity.
 #### Security (1)
 
-  - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
   - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
+  - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
 #### Subnet Peering
 
   - **(2025)** [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the architectural paradigm of Subnet Peering in Azure, bypassing the traditional resource-heavy requirements of full Virtual Network (VNet) peering. This feature allows network engineers to establish direct, localized communication paths between designated subnets, optimizing security boundaries and address space usage.
@@ -626,7 +633,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
   - **(2025)** [**Application Gateway for Containers: Istio Integration**](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) <span class='md-tag md-tag--warning'>[GO / YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced architectural post demonstrating how Azure Application Gateway for Containers (AGC) integrates with Istio Service Mesh via Kubernetes Gateway API. It details how edge traffic routing seamlessly hands off to internal mesh proxy sidecars while preserving end-to-end mTLS and header-based routing. This integration is critical for high-security microservices topologies demanding zero-trust communication.
 ## Cloud Native Platforms
 
-### Azure (1)
+### Azure (2)
 
 #### Dedicated Documentation
 
@@ -1579,7 +1586,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
 
 #### Cloud Integrations
 
-##### Azure (2)
+##### Azure (3)
 
   - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 ### Threat Hunting
@@ -1698,7 +1705,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
   - [DevOps Azure Pipelines: YAML Schema](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DevOps Azure Pipelines: YAML Schema covering YAML Schema in DevOps Azure Pipelines in Azure (learn.microsoft.com).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Googlecloudplatform](./GoogleCloudPlatform.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

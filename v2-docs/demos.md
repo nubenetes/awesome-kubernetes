@@ -1,5 +1,5 @@
 ---
-description: "Top Demos resources for 2026, AI-ranked: SdkMan, Developer Sandbox and more — curated Cloud Native tools, guides and references."
+description: "Top Demos resources for 2026, AI-ranked: Developer Sandbox, SdkMan and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 
@@ -1150,9 +1150,9 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681?gi=b2bcbc960290) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Kubernetes CKAD Example Exam Questions Practical Challenge Series covering Kubernetes CKAD Example Exam Questions Practical Challenge Series in Demos (codeburst.io).
 ## Kubernetes Demos
 
+  - [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1?gi=7f135b166a22) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap covering Kubernetes Demos in Demos (itnext.io).
   - [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370?gi=e76e2936f1af) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes covering Kubernetes Demos in Demos (codeburst.io).
   - [itnext.io: K8s raise StatefulSet volume size with low impact](https://itnext.io/k8s-raise-statefulset-volume-size-with-low-impact-33fe1e2576f6?gi=a1a077bdcad0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: K8s raise StatefulSet volume size with low impact covering Kubernetes Demos in Demos (itnext.io).
-  - [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1?gi=7f135b166a22) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap covering Kubernetes Demos in Demos (itnext.io).
   - [itnext.io: Breaking down and fixing Kubernetes](https://blog.aenix.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3?gi=cfb25669736b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Breaking down and fixing Kubernetes covering Kubernetes Demos in Demos (blog.aenix.io).
   - [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4?gi=f139a2e869b0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes covering Kubernetes Demos in Demos (levelup.gitconnected.com).
   - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s' Initializer 🌟](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s' Initializer 🌟 covering Kubernetes Demos in Demos (dzone.com).
@@ -1539,7 +1539,7 @@ Live Grounding: Built by a non-technical editor, the interactive application sho
   - [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2?gi=ff503c09829a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for aws.plainenglish.io: Creating a custom EC2 module using Terraform covering Terraform in Demos (aws.plainenglish.io).
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

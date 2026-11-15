@@ -40,7 +40,7 @@ description: "Top CI/CD Kubernetes Plugins resources for 2026, AI-ranked: Jenkin
   - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?gi=b7df13ef57ad&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Technical documentation and implementation reference for How Netflix Simplified Batch Compute with Kueue covering Kubernetes Job Scheduling in CI/CD Kubernetes Plugins (netflixtechblog.com).
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [CI/CD](./cicd.md) | [Jenkins](./jenkins.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

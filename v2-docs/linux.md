@@ -617,7 +617,7 @@ description: "Top Linux resources for 2026, AI-ranked: termshark, The Linux Foun
   - **(2022)** [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/en/blog/customize-vm-cloud-images-guestfish) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains how to integrate `guestfish` pipelines into cloud image provisioning scripts. Details the automated modification of network configurations, credential injection, and software installations within raw VM images.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

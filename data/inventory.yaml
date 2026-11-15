@@ -723380,9 +723380,11 @@ https://github.com/nubenetes/finops-agentic-ai-architectures:
   tags:
   - '[AI]'
   - '[AZURE]'
+  - '[CLOUD-AI]'
+  - '[DE FACTO STANDARD]'
   - '[FINOPS]'
-  - '[KUBERNETES]'
   - '[GUIDE]'
+  - '[KUBERNETES]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -723393,8 +723395,14 @@ https://github.com/nubenetes/finops-agentic-ai-architectures:
   category: Cloud and Infrastructure
   source_provenance: Official @nubenetes GitHub Repository
   gh_stars: 0
-  gh_pushed: '2026-11-15T15:30:47Z'
+  gh_pushed: '2026-11-15'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 0.0
+  momentum_score: 98.0
+  gh_activity_checked: '2026-11-15T16:36:20.564821+01:00'
 https://www.youtube.com/playlist?list=PLLvKIaVqVF78:
   title: '⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS
     & Serverless'

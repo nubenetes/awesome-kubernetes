@@ -572,7 +572,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote' Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for docker.com: How to Develop Inside a Container Using Visual Studio Code Remote' Containers 🌟 covering VSCode in Visual Studio (docker.com).
 
 ---
-💡 **Explore Related:** [Golang](./golang.md) | [Devel Sites](./devel-sites.md) | [Javascript](./javascript.md)
+💡 **Explore Related:** [API](./api.md) | [Python](./python.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

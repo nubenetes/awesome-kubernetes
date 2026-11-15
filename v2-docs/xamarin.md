@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Xamarin resources for the 2026 Cloud Native arc
   - **(2024)** [dotnet.microsoft.com: What is Xamarin?](https://dotnet.microsoft.com/en-us/apps/xamarin) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource detailing Xamarin's architecture, demonstrating how C# code gets compiled to native binaries using Mono or .NET execution runtimes. It highlights the historically unified codebase approach for mobile UI design. This documentation is primarily of historical interest as the ecosystem transitions entirely to modern .NET MAUI runtimes.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
+💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
+🔗 **See Also:** [Freelancing](./freelancing.md) | [Crunchydata](./crunchydata.md)
 

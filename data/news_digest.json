@@ -467,7 +467,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "CNCF Sandbox operator that bridges Kubernetes with GenAI by automating open-weight LLM/SLM inference, fine-tuning, and GPU orchestration.",
+        "why": "This CNCF Sandbox operator originally built by Azure automates right-sized GPU provisioning and open-weight LLM/SLM inference and fine-tuning directly on Kubernetes.",
         "category": "Azure"
       },
       {
@@ -476,7 +476,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "The purpose-built, secure, container-optimized host OS underpinning AKS and Microsoft's cloud native container infrastructure.",
+        "why": "Azure Linux serves as the foundational, minimal-footprint container-optimized OS engineered to maximize security and operational efficiency across AKS clusters.",
         "category": "Azure"
       },
       {
@@ -484,8 +484,26 @@
         "title": "Azure AI Foundry Agent Service",
         "date": "2026-11-05",
         "stars": 5,
+        "impact": "critical",
+        "why": "It introduces a fully managed enterprise runtime for stateful, persistent multi-agent workflows, shifting how teams build and scale production AI systems on Azure.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/nubenetes/finops-agentic-ai-architectures",
+        "title": "FinOps for Agentic-AI Architectures on Azure",
+        "date": "2026-11-15",
+        "stars": 5,
         "impact": "high",
-        "why": "Provides a fully managed runtime for building, deploying, and governing stateful enterprise multi-agent workflows at cloud scale.",
+        "why": "It delivers an actionable FinOps benchmark and TCO calculator comparing cloud-native runtimes like AKS Automatic, Container Apps, and Functions Flex Consumption for agentic AI workloads.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/microsoft/finops-toolkit",
+        "title": "github.com/microsoft/finops-toolkit",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Microsoft's official FinOps toolkit standardizes amortization datasets, compute reservation optimization, and cost governance reporting for enterprise cloud operations.",
         "category": "Azure"
       },
       {
@@ -494,7 +512,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "The standard declarative DSL for Azure infrastructure as code, critical for modular and validated platform engineering pipelines.",
+        "why": "Bicep remains the premier declarative IaC language for Azure, offering modular design and native validation to streamline production infrastructure provisioning.",
         "category": "Azure"
       },
       {
@@ -503,34 +521,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Microsoft's flagship production reference architecture standardizing enterprise RAG and vector search implementations on Azure.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/Azure/apiops",
-        "title": "github.com/Azure/apiops 🌟",
-        "date": "2026-08-27",
-        "stars": 5,
-        "impact": "high",
-        "why": "Enables GitOps automation and continuous delivery workflows for Azure API Management infrastructure and configuration.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/microsoft/azure_arc",
-        "title": "architecture diagrams and slides",
-        "date": "2026-09-22",
-        "stars": 4,
-        "impact": "high",
-        "why": "Authoritative architectural blueprints detailing how Azure Arc extends cloud native governance and Azure services to hybrid Kubernetes.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/microsoft/finops-toolkit",
-        "title": "github.com/microsoft/finops-toolkit",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "medium",
-        "why": "The official framework operationalizing cloud financial management, reservation modeling, and cost governance across enterprise Azure tenancies.",
+        "why": "It provides the flagship production reference architecture for combining hybrid vector search and agentic RAG workflows on Azure AI Foundry.",
         "category": "Azure"
       },
       {
@@ -538,8 +529,8 @@
         "title": "floci-az",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "medium",
-        "why": "A local multi-service Azure emulator that streamlines cloud native microservice testing and accelerates developer inner loops.",
+        "impact": "high",
+        "why": "This open-source single-port local emulator accelerates cloud-native developer inner loops by running AKS, Functions, Cosmos DB, and core Azure services locally.",
         "category": "Azure"
       },
       {
@@ -548,7 +539,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "medium",
-        "why": "Essential architectural baseline for enterprise AI governance, secure agent identities, and hybrid data retrieval on Azure.",
+        "why": "It establishes the official enterprise governance blueprint for Azure AI Foundry, detailing hub-and-project isolation, Microsoft Entra Agent ID, and Foundry IQ.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/microsoft/azure_arc",
+        "title": "architecture diagrams and slides",
+        "date": "2026-09-22",
+        "stars": 4,
+        "impact": "medium",
+        "why": "These official architectural blueprints clarify how Azure Arc control planes and resource providers extend cloud-native governance across hybrid and multi-cloud environments.",
         "category": "Azure"
       }
     ],
@@ -1859,21 +1859,30 @@
     ],
     "Spain": [
       {
+        "url": "https://www.youtube.com/playlist?list=PLLvKIaVqVF78",
+        "title": "⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "critical",
+        "why": "This flagship curriculum and open-source TCO study gives Spanish enterprises—including P3 Regulated Spain Central deployments—a rigorous FinOps model to compare AKS, serverless, and Foundry agentic AI architectures.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
+        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "critical",
+        "why": "It delivers an end-to-end declarative build, offline CycloneDX SBOM, and Sigstore-verified release blueprint for securing GPU-accelerated NVIDIA Kubernetes infrastructure.",
+        "category": "Spain"
+      },
+      {
         "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
         "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes a concrete architectural framework for transitioning enterprise platform teams from reactive on-call duty to autonomous AI SRE operations using progressive trust ladders.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
-        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Addresses the critical security frontier of Model Context Protocol (MCP) agents in Kubernetes, defining RBAC guardrails against prompt injection and ghostjacking attacks.",
+        "why": "This 14-part series defines a practical maturity path from reactive on-call triage to progressive, self-healing AI SRE operations grounded in Google SRE principles.",
         "category": "Spain"
       },
       {
@@ -1882,16 +1891,16 @@
         "date": "2026-11-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides an exhaustive production architectural guide to running post-ZooKeeper Apache Kafka 4.x with Strimzi and tiered storage natively on Kubernetes.",
+        "why": "It covers the major architectural shift to post-ZooKeeper Apache Kafka 4.x with KRaft consensus, tiered storage, and production deployment via the CNCF Strimzi operator.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
-        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
+        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
+        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes zero-trust software supply chains and offline SBOM generation for complex NVIDIA AI infrastructure runtimes on Kubernetes.",
+        "why": "It addresses emerging agentic attack vectors like Ghostjacking while establishing scoped Kubernetes RBAC and defense-in-depth patterns for Model Context Protocol SRE agents.",
         "category": "Spain"
       },
       {
@@ -1900,7 +1909,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Guides enterprise platform teams through migrating legacy Ingress and sidecars to the Kubernetes Gateway API standard and Traefik Ingress Mesh.",
+        "why": "It provides a production migration path from legacy Ingress and OpenShift Routes to the standardized Kubernetes Gateway API and Traefik Ingress Mesh.",
         "category": "Spain"
       },
       {
@@ -1909,16 +1918,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies ArgoCD, Backstage IDPs, and golden path delivery blueprints into an automated GitOps CI/CD framework for hybrid cloud deployments.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc",
-        "title": "Nubenetes Terraform & Azure DevOps Automation",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers bilingual infrastructure-as-code automation and validation patterns for enterprise Azure landing zones using Terraform and Azure DevOps.",
+        "why": "It unifies enterprise GitOps delivery using ArgoCD, Backstage Internal Developer Portals, Golden Paths on GKE and OpenShift, and automated k6 performance validation.",
         "category": "Spain"
       },
       {
@@ -1927,25 +1927,25 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Solves complex OpenShift telemetry collection challenges by configuring Grafana Alloy and the Grafana Operator within strict Security Context Constraints.",
+        "why": "It solves real-world enterprise OpenShift observability challenges around Grafana Alloy, Security Context Constraints, and Thanos RBAC enforcement.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=hacr-JaxbZk",
-        "title": "Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops",
-        "date": "2026-11-14",
+        "url": "https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc",
+        "title": "Nubenetes Terraform & Azure DevOps Automation",
+        "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Explores Day-2 operations and Strimzi NodePool controller isolation for KRaft metadata quorums without ZooKeeper dependencies.",
+        "why": "This bilingual English and Spanish series accelerates enterprise cloud adoption in Spain with modular Azure Terraform blueprints and automated CI/CD validation.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLGtiisOtFk3s",
-        "title": "Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide",
-        "date": "2026-11-13",
+        "url": "https://www.youtube.com/playlist?list=PLC-ZWbf-4aBg",
+        "title": "Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep",
+        "date": "2026-11-14",
         "stars": 5,
         "impact": "medium",
-        "why": "Introduces rigorous benchmarking and security validation patterns for AI coding and infrastructure agents operating in production environments.",
+        "why": "It modernizes Cloud Adoption Framework governance by integrating Microsoft's .NET 10 Azure Naming Tool v5 directly into Terraform and Bicep provisioning pipelines.",
         "category": "Spain"
       }
     ]
@@ -2965,21 +2965,30 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
-        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
-        "date": "2026-11-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Provides a comprehensive architectural reference for operating Apache Kafka 4.x in production, navigating the critical removal of ZooKeeper via KRaft and Strimzi on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
-        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
+        "url": "https://www.youtube.com/playlist?list=PLLvKIaVqVF78",
+        "title": "⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes a practical, trust-oriented framework for deploying autonomous AI SRE agents and closed-loop self-healing in enterprise operations.",
+        "why": "Provides an open-source, comprehensive FinOps and TCO architectural framework comparing serverless, AKS, and Foundry agentic AI deployments with regional enterprise compliance.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=i5UzI-FrFfU",
+        "title": "Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an operational infrastructure blueprint enforcing DEV/PRE/PRO private networking parity using Azure Verified Modules specifically in the Spain Central region.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc",
+        "title": "Nubenetes Terraform & Azure DevOps Automation",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Offers bilingual Spanish and English enterprise IaC blueprints and automated Azure DevOps pipelines tailored for regional and multinational platform engineering teams.",
         "category": "Spain"
       },
       {
@@ -2987,8 +2996,17 @@
         "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
         "date": "2026-11-15",
         "stars": 5,
+        "impact": "critical",
+        "why": "Establishes a zero-trust software supply chain and verifiable release factory for NVIDIA Kubernetes infrastructure using SBOMs and Cosign policies.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
+        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
+        "date": "2026-11-15",
+        "stars": 5,
         "impact": "high",
-        "why": "Delivers end-to-end patterns for securing AI infrastructure software supply chains with declarative builds, offline SBOMs, and cryptographic signing.",
+        "why": "Presents a structured, progressive autonomy framework for AI-driven SRE and closed-loop self-healing operations across cloud-native environments.",
         "category": "Spain"
       },
       {
@@ -2997,16 +3015,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Explores emerging Model Context Protocol (MCP) standards for infrastructure automation while tackling vital threat vectors like Ghostjacking and prompt injection.",
+        "why": "Standardizes Model Context Protocol integration for Kubernetes while mitigating critical emerging AI attack surfaces like prompt injection and Ghostjacking.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
-        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
-        "date": "2026-11-15",
+        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
+        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
+        "date": "2026-11-14",
         "stars": 5,
         "impact": "high",
-        "why": "Accelerates the enterprise transition from legacy Kubernetes Ingress to the modern Gateway API standard paired with Traefik mesh routing.",
+        "why": "Details the production-grade shift to Apache Kafka 4.x KRaft consensus and tiered storage operated declaratively via Kubernetes Strimzi CRDs.",
         "category": "Spain"
       },
       {
@@ -3015,16 +3033,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Defines modern internal developer platform golden paths by combining Jenkins, ArgoCD GitOps workflows, and Backstage integration.",
+        "why": "Implements enterprise Golden Path CI/CD delivery combining ArgoCD, Jenkins, and Backstage developer portals for GKE and OpenShift clusters.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/watch?v=hacr-JaxbZk",
-        "title": "Apache Kafka 4.0 Architecture: KRaft Consensus, Strimzi NodePools & Day-2 Ops",
-        "date": "2026-11-14",
+        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
+        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
+        "date": "2026-11-15",
         "stars": 5,
-        "impact": "high",
-        "why": "Details production-tested Kubernetes operational patterns for Kafka 4.0 metadata quorums and node pool management using Strimzi.",
+        "impact": "medium",
+        "why": "Demonstrates the enterprise migration from legacy ingress controllers to the modern Kubernetes Gateway API standard and Traefik Ingress Mesh.",
         "category": "Spain"
       },
       {
@@ -3032,26 +3050,8 @@
         "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
         "date": "2026-11-15",
         "stars": 5,
-        "impact": "high",
-        "why": "Offers production blueprints for unifying enterprise OpenShift telemetry using Grafana Alloy collectors and Thanos multi-tenant RBAC.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLGtiisOtFk3s",
-        "title": "Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide",
-        "date": "2026-11-13",
-        "stars": 5,
         "impact": "medium",
-        "why": "Introduces rigorous benchmarking and security evaluation methodologies for autonomous coding and operations agents.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc",
-        "title": "Nubenetes Terraform & Azure DevOps Automation",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Supplies bilingual, production-grade Terraform and Azure DevOps landing zone automation blueprints tailored for enterprise cloud engineering teams.",
+        "why": "Addresses complex production OpenShift telemetry architectures using the Grafana Operator and Grafana Alloy with strict Security Context Constraints.",
         "category": "Spain"
       }
     ],
@@ -3614,16 +3614,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "KAITO automates open-weight LLM deployment and GPU orchestration natively on Kubernetes as a CNCF Sandbox operator.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/microsoft/azurelinux",
-        "title": "github.com/microsoft/CBL-Mariner",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Azure Linux serves as Microsoft's purpose-built, secure, container-optimized host operating system across production AKS environments.",
+        "why": "As a CNCF Sandbox operator, KAITO radically simplifies managing and auto-provisioning GPU-backed open-weight model inference on Kubernetes.",
         "category": "Azure"
       },
       {
@@ -3631,8 +3622,17 @@
         "title": "Azure AI Foundry Agent Service",
         "date": "2026-11-05",
         "stars": 5,
+        "impact": "critical",
+        "why": "Establishes a turnkey, enterprise-grade cloud-native runtime for stateful agent orchestration and multi-agent systems on Azure.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/microsoft/azurelinux",
+        "title": "github.com/microsoft/CBL-Mariner",
+        "date": "2026-11-05",
+        "stars": 5,
         "impact": "high",
-        "why": "Delivers a fully managed enterprise cloud runtime for hosting stateful, distributed multi-agent AI workloads on Azure.",
+        "why": "Serves as the secure, purpose-built, minimal container host operating system underpinning mission-critical AKS infrastructure.",
         "category": "Azure"
       },
       {
@@ -3641,25 +3641,7 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Serves as Microsoft's primary domain-specific language for declarative Infrastructure-as-Code across modern platform engineering teams.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://jumpstart.azure.com",
-        "title": "azurearcjumpstart.io",
-        "date": "2026-06-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "Provides hands-on reference architectures and automation for managing hybrid and multicloud Kubernetes infrastructure via Azure Arc.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/microsoft/finops-toolkit",
-        "title": "github.com/microsoft/finops-toolkit",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Standardizes enterprise cost governance and compute reservation optimization across large-scale Azure cloud tenants.",
+        "why": "Represents the primary declarative Infrastructure-as-Code domain-specific language for modern Azure cloud resource orchestration.",
         "category": "Azure"
       },
       {
@@ -3668,7 +3650,25 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Functions as the gold-standard reference architecture for building production-ready enterprise RAG and agentic search on Azure.",
+        "why": "Functions as the gold-standard reference implementation for building production-grade enterprise RAG systems across Azure services.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/nubenetes/finops-agentic-ai-architectures",
+        "title": "FinOps for Agentic-AI Architectures on Azure",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Delivers an essential FinOps and TCO benchmark evaluating container runtimes like AKS Automatic and Container Apps for agentic AI workloads.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://jumpstart.azure.com",
+        "title": "azurearcjumpstart.io",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides automated sandbox environments that streamline hybrid cloud and edge Kubernetes onboarding via Azure Arc.",
         "category": "Azure"
       },
       {
@@ -3677,7 +3677,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "medium",
-        "why": "Establishes foundational architectural standards for hub-and-project enterprise governance, Entra identity, and enterprise AI lifecycle management.",
+        "why": "Provides the foundational architectural framework and security governance patterns required for deploying enterprise AI platforms.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/microsoft/finops-toolkit",
+        "title": "github.com/microsoft/finops-toolkit",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Standardizes cost management architectures and financial governance pipelines natively within enterprise Azure tenants.",
         "category": "Azure"
       },
       {
@@ -3686,16 +3695,7 @@
         "date": "2026-08-27",
         "stars": 5,
         "impact": "medium",
-        "why": "Brings GitOps automation principles to Azure API Management configuration, publication, and environment promotion.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/floci-io/floci-az",
-        "title": "floci-az",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Provides a comprehensive open-source local emulator for Azure services, significantly accelerating local cloud-native integration testing.",
+        "why": "Applies declarative GitOps automation practices to API configuration, lifecycle control, and deployment across Azure API Management.",
         "category": "Azure"
       }
     ],
@@ -4529,7 +4529,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "As a CNCF Sandbox project, KAITO bridges Kubernetes and generative AI by automating right-sized GPU provisioning and lifecycle management for open-weight models on AKS.",
+        "why": "KAITO is a CNCF Sandbox operator initiated by Microsoft that fundamentally streamlines open-weight LLM deployment and GPU orchestration natively on Kubernetes.",
         "category": "Azure"
       },
       {
@@ -4538,7 +4538,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Azure Linux serves as the lean, security-hardened container host OS purpose-built to optimize AKS node performance and reduce attack surface.",
+        "why": "Azure Linux provides the secure, container-optimized host OS distribution underpinning modern AKS nodes and cloud-native Azure infrastructure.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+        "title": "Azure AI Foundry Agent Service",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Azure AI Foundry Agent Service delivers a fully managed enterprise runtime for hosting, scaling, and persisting stateful multi-agent systems.",
         "category": "Azure"
       },
       {
@@ -4547,34 +4556,16 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Bicep is Microsoft's primary domain-specific language for declarative Infrastructure as Code, standardizing scalable cloud resource provisioning.",
+        "why": "Bicep serves as Azure's premier declarative Infrastructure-as-Code DSL, establishing modern modular provisioning patterns across enterprise environments.",
         "category": "Azure"
       },
       {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
-        "title": "Azure AI Foundry Agent Service",
-        "date": "2026-11-05",
+        "url": "https://github.com/nubenetes/finops-agentic-ai-architectures",
+        "title": "FinOps for Agentic-AI Architectures on Azure",
+        "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "The Agent Service provides a fully managed enterprise runtime enabling teams to build, deploy, and scale stateful multi-agent systems natively in Azure.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/Azure-Samples/azure-search-openai-demo",
-        "title": "Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "This serves as Microsoft's definitive reference architecture for deploying production-ready enterprise RAG with hybrid vector search and managed security.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://ai.azure.com",
-        "title": "Microsoft Azure AI Foundry Portal",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Foundry is Microsoft's unified control plane consolidating foundation models, agent runtimes, and enterprise governance into a central platform.",
+        "why": "This FinOps benchmark addresses the vital architectural challenge of cost modeling across Azure serverless, container, and agent runtimes.",
         "category": "Azure"
       },
       {
@@ -4583,7 +4574,16 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Azure Arc Jumpstart delivers production-tested automation scenarios for extending cloud-native governance and Kubernetes orchestration into hybrid environments.",
+        "why": "Azure Arc Jumpstart provides production-ready, hands-on automation patterns for managing hybrid Kubernetes clusters and multi-cloud environments.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/Azure-Samples/azure-search-openai-demo",
+        "title": "Azure Search OpenAI Demo (Enterprise RAG on Azure AI Foundry)",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "This is Microsoft's de-facto reference architecture for building and scaling grounded enterprise RAG applications on Azure.",
         "category": "Azure"
       },
       {
@@ -4592,7 +4592,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "The FinOps Toolkit standardizes cloud financial operations and cost governance architectures across large-scale Azure enterprise deployments.",
+        "why": "The official FinOps Toolkit standardizes cloud financial management, amortized cost analytics, and resource optimization across enterprise Azure tenants.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry",
+        "title": "Azure AI Foundry Architecture and Documentation",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Provides the definitive enterprise blueprint for governing multi-agent architectures, Entra Agent IDs, and model deployments on Azure AI Foundry.",
         "category": "Azure"
       },
       {
@@ -4601,16 +4610,7 @@
         "date": "2026-08-27",
         "stars": 5,
         "impact": "medium",
-        "why": "APIOps brings declarative GitOps continuous integration and deployment patterns to Azure API Management infrastructure.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/floci-io/floci-az",
-        "title": "floci-az",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Floci-AZ significantly improves developer experience by emulating core Azure services and AKS locally on a single unified port.",
+        "why": "APIOps establishes GitOps-driven deployment and lifecycle automation workflows specifically designed for Azure API Management.",
         "category": "Azure"
       }
     ],
@@ -6180,12 +6180,12 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
-        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
-        "date": "2026-11-14",
+        "url": "https://www.youtube.com/playlist?list=PLLvKIaVqVF78",
+        "title": "⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless",
+        "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides an exhaustive production architectural blueprint for running Apache Kafka 4.x purely on KRaft consensus with Strimzi and tiered storage on Kubernetes.",
+        "why": "Establishes a quantitative FinOps TCO decision framework across Serverless, Foundry, and AKS for enterprise agentic AI architectures in regulated cloud regions.",
         "category": "Spain"
       },
       {
@@ -6194,7 +6194,25 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes foundational operational patterns for AI-driven site reliability engineering and safe autonomous self-healing in cloud-native production environments.",
+        "why": "Pioneers the transition from reactive triage to autonomous AI SRE operations using Google SRE agentic principles and self-healing reliability loops.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
+        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Guides the high-priority enterprise migration from legacy Kubernetes Ingress to Gateway API and Traefik Ingress Mesh on OpenShift.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
+        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
+        "date": "2026-11-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "Covers production Kafka 4.x architectures running ZooKeeper-less KRaft consensus via CNCF Strimzi operators on Kubernetes.",
         "category": "Spain"
       },
       {
@@ -6202,8 +6220,8 @@
         "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
         "date": "2026-11-15",
         "stars": 5,
-        "impact": "critical",
-        "why": "Delivers a verifiable zero-trust build, packaging, and SBOM supply chain framework for enterprise NVIDIA AI infrastructure and Kubernetes runtimes.",
+        "impact": "high",
+        "why": "Operationalizes verified declarative builds and zero-trust Syft/Sigstore SBOM supply chains for NVIDIA Kubernetes AI infrastructure.",
         "category": "Spain"
       },
       {
@@ -6212,16 +6230,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes Model Context Protocol agent connectivity to Kubernetes while establishing vital security guardrails against prompt injection and ghostjacking attacks.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
-        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Guides platform teams through the critical migration from legacy Ingress controllers to modern Kubernetes Gateway API and Traefik service meshes.",
+        "why": "Standardizes Model Context Protocol (MCP) integrations with Kubernetes RBAC guardrails to eliminate brittle custom AI tooling glue.",
         "category": "Spain"
       },
       {
@@ -6230,7 +6239,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Unifies enterprise GitOps delivery by combining ArgoCD, Jenkins, and Backstage developer portals into standardized multi-cloud Golden Paths.",
+        "why": "Delivers enterprise Golden Path blueprints combining ArgoCD, Backstage Internal Developer Portals, and automated GitOps verification.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=i5UzI-FrFfU",
+        "title": "Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Details production-grade private network parity and Azure Verified Modules deployed specifically within the Spain Central cloud region.",
         "category": "Spain"
       },
       {
@@ -6238,8 +6256,8 @@
         "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
         "date": "2026-11-15",
         "stars": 5,
-        "impact": "high",
-        "why": "Operationalizes modern Grafana Alloy and Prometheus/Thanos telemetry pipelines under strict OpenShift Security Context Constraints.",
+        "impact": "medium",
+        "why": "Solves complex OpenShift telemetry and Thanos RBAC constraints using the Grafana Operator and next-generation Grafana Alloy collectors.",
         "category": "Spain"
       },
       {
@@ -6247,26 +6265,8 @@
         "title": "Nubenetes Terraform & Azure DevOps Automation",
         "date": "2026-11-15",
         "stars": 5,
-        "impact": "high",
-        "why": "Provides bilingual, enterprise-grade Infrastructure as Code blueprints and CI/CD pipelines tailored for regional and global Azure landing zones.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLGtiisOtFk3s",
-        "title": "Nubenetes NVIDIA SkillEvaluator: AI Agent Skills Evaluation & Security Guide",
-        "date": "2026-11-13",
-        "stars": 5,
-        "impact": "high",
-        "why": "Introduces rigorous benchmarking and security validation standards for deploying AI coding agents in cloud infrastructure workflows.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLC-ZWbf-4aBg",
-        "title": "Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep",
-        "date": "2026-11-14",
-        "stars": 5,
         "impact": "medium",
-        "why": "Automates Cloud Adoption Framework governance by programmatically integrating resource naming standards into enterprise Terraform and Bicep pipelines.",
+        "why": "Provides bilingual Cloud Adoption Framework Terraform modules and Azure DevOps delivery pipelines tailored for Spanish enterprise platform teams.",
         "category": "Spain"
       }
     ],
@@ -6672,9 +6672,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-05T20:48:01.659294+01:00",
-        "entry_hash": "0cbe3b61b1c3bbe5",
-        "entry_count": 26,
+        "last_analyzed": "2026-11-15T16:39:13.454046+01:00",
+        "entry_hash": "27af541e4ffebf51",
+        "entry_count": 27,
         "method": "gemini"
       },
       "Infrastructure as Code": {
@@ -6786,9 +6786,9 @@
         "method": "fallback_small"
       },
       "Spain": {
-        "last_analyzed": "2026-11-15T11:21:56.479457+01:00",
-        "entry_hash": "21076389b15327d2",
-        "entry_count": 210,
+        "last_analyzed": "2026-11-15T16:39:28.380024+01:00",
+        "entry_hash": "f0bdc51a4f744843",
+        "entry_count": 223,
         "method": "gemini"
       }
     },
@@ -6860,9 +6860,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-15T11:24:50.740033+01:00",
-        "entry_hash": "427b14587d3802d7",
-        "entry_count": 219,
+        "last_analyzed": "2026-11-15T16:40:02.638697+01:00",
+        "entry_hash": "af10ca66d152b9a6",
+        "entry_count": 232,
         "method": "gemini"
       },
       "Europe": {
@@ -6902,9 +6902,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-15T11:26:45.926401+01:00",
-        "entry_hash": "4641d0ea1ed10a4f",
-        "entry_count": 96,
+        "last_analyzed": "2026-11-15T16:40:14.530280+01:00",
+        "entry_hash": "e052e66950fb45d7",
+        "entry_count": 97,
         "method": "gemini"
       },
       "Networking & Service Mesh": {
@@ -6970,9 +6970,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-13T20:55:00.074127+01:00",
-        "entry_hash": "a32fe3bc539417eb",
-        "entry_count": 329,
+        "last_analyzed": "2026-11-15T16:40:26.723495+01:00",
+        "entry_hash": "f022c4b87c48432e",
+        "entry_count": 330,
         "method": "gemini"
       },
       "CI/CD & GitOps": {
@@ -7078,9 +7078,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-15T11:27:46.316310+01:00",
-        "entry_hash": "2421d67f87949cad",
-        "entry_count": 246,
+        "last_analyzed": "2026-11-15T16:40:41.613414+01:00",
+        "entry_hash": "6fc6e3edc0f9ca1e",
+        "entry_count": 259,
         "method": "gemini"
       },
       "Europe": {
@@ -7108,6 +7108,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-15T12:10:16.877392+01:00"
+    "last_updated": "2026-11-15T16:40:42.615381+01:00"
   }
 }

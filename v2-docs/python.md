@@ -857,7 +857,7 @@ Live Grounding: Assesses PyScript's interface layer, detailing direct DOM manipu
   - **(2015)** [TDD with Django, from scratch: a beginner's intro to testing and web development](https://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Historical tutorial introducing Test-Driven Development (TDD) concepts in Django. Evaluates assertion workflows, testing isolated model components, and unit test integrations within early Python CI environments.
 
 ---
-💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
+💡 **Explore Related:** [API](./api.md) | [Visual Studio](./visual-studio.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

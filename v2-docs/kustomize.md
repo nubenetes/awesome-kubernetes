@@ -77,7 +77,7 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
   - [faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions](https://faun.pub/how-to-build-a-gitops-workflow-with-argocd-kustomize-and-github-actions-f919e7443295?gi=f4af71b4dff7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions covering Introduction in Kustomize (faun.pub).
 
 ---
-💡 **Explore Related:** [Devsecops](./devsecops.md) | [IaC](./iac.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [Terraform](./terraform.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
 

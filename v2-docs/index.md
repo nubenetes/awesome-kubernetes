@@ -95,10 +95,10 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20107 total resources analyzed.
-    - **V2 Elite Selection**: 16000 candidates identified (79.57% density ratio).
-    - **AI Enrichment Coverage**: 16000 / 16000 (100.0%)
-    - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
+    - **V1 Base Inventory**: 20121 total resources analyzed.
+    - **V2 Elite Selection**: 16014 candidates identified (79.59% density ratio).
+    - **AI Enrichment Coverage**: 16014 / 16014 (100.0%)
+    - **GitHub Metadata Coverage**: 1838 / 1838 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
 
@@ -112,9 +112,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
-  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLckcDbnSNdbE">Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing</a></div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLLvKIaVqVF78">Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless</a></div>
   <div class="trending-card__meta">2026-11-15 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Establishes a concrete architectural framework for transitioning enterprise platform teams from reactive on-call duty to autonomous AI SRE operations using progressive trust ladders.</div>
+  <div class="trending-card__why">This flagship curriculum and open-source TCO study gives Spanish enterprises—including P3 Regulated Spain Central deployments—a rigorous FinOps model to compare AKS, serverless, and Foundry agentic AI architectures.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -142,7 +142,7 @@
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/kaito-project/kaito">KAITO (Kubernetes AI Toolchain Operator)</a></div>
   <div class="trending-card__meta">2026-11-05 · 1k★</div>
-  <div class="trending-card__why">CNCF Sandbox operator that bridges Kubernetes with GenAI by automating open-weight LLM/SLM inference, fine-tuning, and GPU orchestration.</div>
+  <div class="trending-card__why">This CNCF Sandbox operator originally built by Azure automates right-sized GPU provisioning and open-weight LLM/SLM inference and fine-tuning directly on Kubernetes.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -275,7 +275,7 @@
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
   <div class="trending-card__meta">2026-11-05 · 5.4k★</div>
-  <div class="trending-card__why">The purpose-built, secure, container-optimized host OS underpinning AKS and Microsoft's cloud native container infrastructure.</div>
+  <div class="trending-card__why">Azure Linux serves as the foundational, minimal-footprint container-optimized OS engineered to maximize security and operational efficiency across AKS clusters.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -388,7 +388,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 
 <div class="v2-tag-heatmap">
 <a class="v2-heat-tag v2-heat-3" href="/tags/#agnostic-content" title="58 resources">Agnostic<span class="v2-heat-n">58</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#ai" title="20 resources">AI<span class="v2-heat-n">20</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#ai" title="21 resources">AI<span class="v2-heat-n">21</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#aiops" title="1 resources">Aiops<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#aks" title="1 resources">Aks<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ansible-content" title="3 resources">Ansible<span class="v2-heat-n">3</span></a>
@@ -400,7 +400,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#automation" title="2 resources">Automation<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#awk-content" title="3 resources">Awk<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#aws" title="2 resources">Aws<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#azure" title="22 resources">Azure<span class="v2-heat-n">22</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#azure" title="23 resources">Azure<span class="v2-heat-n">23</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ballerina-content" title="1 resources">Ballerina<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#bash-content" title="110 resources">Bash<span class="v2-heat-n">110</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#bash-python-content" title="1 resources">Bash/Python<span class="v2-heat-n">1</span></a>
@@ -418,11 +418,11 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ci-cd" title="3 resources">Ci-Cd<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#cicd" title="4 resources">Cicd<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#cloud-ai" title="43 resources">CLOUD-AI<span class="v2-heat-n">43</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#cloud-ai" title="44 resources">CLOUD-AI<span class="v2-heat-n">44</span></a>
 <a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="8386 resources">Community-Tool<span class="v2-heat-n">8386</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1289 resources">De Facto Standard<span class="v2-heat-n">1289</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1290 resources">De Facto Standard<span class="v2-heat-n">1290</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dev-dx" title="1 resources">Dev-Dx<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#developer-experience" title="1 resources">Developer-Experience<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
@@ -435,6 +435,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-4" href="/tags/#emerging" title="502 resources">Emerging<span class="v2-heat-n">502</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1152 resources">Enterprise-Stable<span class="v2-heat-n">1152</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#finops" title="1 resources">Finops<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gcp" title="1 resources">Gcp<span class="v2-heat-n">1</span></a>
@@ -444,7 +445,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1037 resources">Go<span class="v2-heat-n">1037</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1033 resources">Go<span class="v2-heat-n">1033</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -454,7 +455,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="59 resources">Groovy<span class="v2-heat-n">59</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-hcl-content" title="1 resources">Groovy/Hcl<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-yaml-content" title="1 resources">Groovy/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="1077 resources">Guide<span class="v2-heat-n">1077</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="1078 resources">Guide<span class="v2-heat-n">1078</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#haskell-content" title="4 resources">Haskell<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#hcl-content" title="221 resources">Hcl<span class="v2-heat-n">221</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hcl-packer-content" title="1 resources">Hcl/Packer<span class="v2-heat-n">1</span></a>
@@ -478,13 +479,13 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#jsonnet-content" title="5 resources">Jsonnet<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#kubernetes" title="2 resources">Kubernetes<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#kubernetes" title="3 resources">Kubernetes<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="637 resources">Legacy<span class="v2-heat-n">637</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="98 resources">LLM<span class="v2-heat-n">98</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#machine-learning" title="1 resources">Machine-Learning<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="333 resources">Markdown<span class="v2-heat-n">333</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="336 resources">Markdown<span class="v2-heat-n">336</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="246 resources">MCP<span class="v2-heat-n">246</span></a>
