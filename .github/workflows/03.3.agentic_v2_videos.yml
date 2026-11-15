@@ -32,11 +32,49 @@ permissions:
   pull-requests: write
 
 jobs:
-  build-video-hub:
+  precheck:
     runs-on: ubuntu-latest
     if: |
-      github.event_name != 'workflow_run' || 
+      github.event_name != 'workflow_run' ||
       github.event.workflow_run.conclusion == 'success'
+    outputs:
+      should_run: ${{ steps.decide.outputs.should_run }}
+    steps:
+      - name: Deduplicate overlapping push trigger
+        id: decide
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: |
+          if [[ "${{ github.event_name }}" != "push" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # When a push also touches data/inventory.yaml, 03.2. V2 AI Curator runs
+          # on the same push and chains to 03.3 via workflow_run upon completion.
+          MATCH="false"
+          if [[ -n "$BEFORE" && "$BEFORE" != "0000000000000000000000000000000000000000" ]]; then
+            MATCH=$(gh api "repos/${{ github.repository }}/compare/${BEFORE}...${SHA}" \
+              --jq '[.files[]?.filename] | any(. == "data/inventory.yaml")' 2>/dev/null || echo "")
+          fi
+          if [[ -z "$MATCH" ]]; then
+            MATCH=$(jq -r '[.commits[]? | (.added[]?, .modified[]?, .removed[]?)] | any(. == "data/inventory.yaml")' \
+              "$GITHUB_EVENT_PATH" 2>/dev/null || echo "false")
+          fi
+
+          if [[ "$MATCH" == "true" ]]; then
+            echo "Skipping duplicate push trigger: data/inventory.yaml changed, so 03.2 will chain into 03.3."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  build-video-hub:
+    needs: precheck
+    runs-on: ubuntu-latest
+    if: needs.precheck.outputs.should_run == 'true'
     concurrency:
       group: v2-videos-develop
       cancel-in-progress: false
