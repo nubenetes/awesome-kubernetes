@@ -1020,6 +1020,91 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## DevOps Supply Chain Security
+
+??? note "🎬 How NVKR Builds Verifiable Infrastructure (Definition to Release) [Short]"
+    !!! info "Architectural Summary"
+        This architectural breakdown walks through NVKR's end-to-end Definition → Run → Release workflow for constructing verifiable cloud-native infrastructure. It details how pinned Go toolchains and component catalogs compile into inspectable execution plan graphs anchored by immutable, digest-pinned OCI release artifacts. This pattern establishes cryptographically verifiable supply-chain integrity and reproducible environment state across modern cloud and AI infrastructure deployments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="BZq7h1Xnomg" data-video-url="https://www.youtube.com/embed/BZq7h1Xnomg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BZq7h1Xnomg/hqdefault.jpg" alt="How NVKR Builds Verifiable Infrastructure (Definition to Release) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Supply Chain Security Sigstore and Syft
+
+??? note "🎬 How NVKR Secures Software Supply Chains (Syft SBOM & Sigstore) [Short]"
+    !!! info "Architectural Summary"
+        NVKR implements zero-trust software supply chain security by pairing catalog-pinned Syft offline scanning across Go binaries, OCI images, Helm locks, and Debian packages with deterministic CycloneDX 1.5 SBOM attestations. Leveraging Sigstore inside signed OCI release roots, this architecture guarantees provenance and cryptographic verifiability for cloud-native and AI infrastructure running in air-gapped and enterprise Kubernetes environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Lxc_rzsuhm8" data-video-url="https://www.youtube.com/embed/Lxc_rzsuhm8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Lxc_rzsuhm8/hqdefault.jpg" alt="How NVKR Secures Software Supply Chains (Syft SBOM & Sigstore) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Kubernetes
+
+??? note "🎬 How NVKR's Build Pipeline Secures Node Images (QCOW2 & KVM) [Short]"
+    !!! info "Architectural Summary"
+        NVKR enforces strict software supply chain integrity by locking both root and transitive dependencies—such as CNI plugins, SPIRE agents, kubeadm binaries, and patched OS ISOs—into digest-checked, read-only staging environments for Packer KVM QCOW2 builds. This hermetic image fabrication pattern eliminates dependency drift and prevents supply chain poisoning across node provisioning pipelines. In a 2026 cloud-native context, this deterministic baseline is critical for establishing immutable, zero-trust infrastructure within sovereign AI factories and high-security Kubernetes environments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Ob40Zpmhtkc" data-video-url="https://www.youtube.com/embed/Ob40Zpmhtkc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Ob40Zpmhtkc/hqdefault.jpg" alt="How NVKR's Build Pipeline Secures Node Images (QCOW2 & KVM) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Cosign Sigstore Supply Chain Security
+
+??? note "🎬 How NVKR Verifies Software Releases (Cosign & Policies) [Short]"
+    !!! info "Architectural Summary"
+        This video details why immutable image digests alone only validate byte integrity rather than cryptographic trust, presenting NVKR's release verification architecture built on Cosign and Sigstore policies. It demonstrates how `bin/nvkr release verify` enforces strict signer identity, OIDC issuer validation, pinned Cosign tooling digests, and distinct verification scopes (`--scope authenticity` vs. `--scope artifact-publication`). For modern cloud-native pipelines, this framework establishes a hardened, policy-driven software supply chain standard that prevents supply-chain tampering and unauthorized artifact deployment.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="fO9NgQ2wwJA" data-video-url="https://www.youtube.com/embed/fO9NgQ2wwJA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/fO9NgQ2wwJA/hqdefault.jpg" alt="How NVKR Verifies Software Releases (Cosign & Policies) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Kubernetes DevSecOps
+
+??? note "🎬 Demystifying NVKR: Declarative Builds, SBOMs & Verified NVIDIA Releases"
+    !!! info "Architectural Summary"
+        NVIDIA Kubernetes Recipes (NVKR) provides a declarative, reproducible release factory for constructing NVIDIA Kubernetes Engine (NVKE) and AI Cluster Runtime (AICR) artifacts via inspectable dependency DAGs. It enforces strict software supply chain security across heterogeneous GPU node architectures (GB200, GB300, VR200) through digest-verified artifact staging, offline CycloneDX 1.5 SBOM generation, and Sigstore attestation pipelines. In a 2026 cloud-native landscape, this framework establishes a reference model for verifiable, zero-trust infrastructure delivery across mission-critical enterprise AI clusters.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="DVzzQofoHLc" data-video-url="https://www.youtube.com/embed/DVzzQofoHLc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/DVzzQofoHLc/hqdefault.jpg" alt="Demystifying NVKR: Declarative Builds, SBOMs & Verified NVIDIA Releases" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"

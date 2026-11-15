@@ -686,6 +686,36 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 How AI Safely Troubleshoots Kubernetes Clusters"
+    !!! info "Architectural Summary"
+        This architectural overview demonstrates how to safely operationalize autonomous AI agents in Kubernetes production environments using the Model Context Protocol (MCP). By coupling read-only diagnostic MCP tools with strict least-privilege RBAC boundaries and mandatory human-in-the-loop (HITL) approvals for state-mutating remediation, platform teams prevent hallucinated cluster state corruption while enabling accelerated incident response.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="i21cn3cukuI" data-video-url="https://www.youtube.com/embed/i21cn3cukuI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/i21cn3cukuI/hqdefault.jpg" alt="How AI Safely Troubleshoots Kubernetes Clusters" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How MCP Transports Connect AI to Infrastructure [Short]"
+    !!! info "Architectural Summary"
+        This architectural short evaluates Model Context Protocol (MCP) transport mechanisms—contrasting local stdio with remote HTTP/SSE streaming—for integrating AI agents into Cloud Native environments. It demonstrates how to select the right transport layer to cleanly, securely, and scalably interface autonomous agents with Kubernetes clusters and operational tooling in 2026 enterprise architectures.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="bLKDTC7jGZs" data-video-url="https://www.youtube.com/embed/bLKDTC7jGZs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/bLKDTC7jGZs/hqdefault.jpg" alt="How MCP Transports Connect AI to Infrastructure [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Kubernetes MLOps with AI
 
 ??? note "🎬 How the Enterprise AI Decision Matrix Works | Cloud AI vs Kubernetes"
@@ -713,6 +743,21 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="YbQP5WRSn_o" data-video-url="https://www.youtube.com/embed/YbQP5WRSn_o" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/YbQP5WRSn_o/hqdefault.jpg" alt="Enterprise AI Platforms: Resilient Distributed Training & GPU Orchestration" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How NVKR Builds NVIDIA Infrastructure (NVKE & AICR) [Short]"
+    !!! info "Architectural Summary"
+        NVIDIA Kubernetes Recipes (NVKR) operationalizes declarative infrastructure delivery by translating pinned component catalogs, environment configurations, and core definitions into validated release artifacts. This automation pipeline produces reproducible CLIs, Helm charts, AICR bundles, and optimized GPU node images required for reliable NVKE AI factory deployments at scale.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="j5AsTMy5e3w" data-video-url="https://www.youtube.com/embed/j5AsTMy5e3w" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/j5AsTMy5e3w/hqdefault.jpg" alt="How NVKR Builds NVIDIA Infrastructure (NVKE & AICR) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
@@ -1026,6 +1071,21 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 How MCP Eliminates AI-to-API Glue Code [Short]"
+    !!! info "Architectural Summary"
+        This architectural brief highlights how the Model Context Protocol (MCP) replaces brittle, point-to-point custom API glue code with a standardized, bidirectional interface for AI agents. By decoupling agentic reasoning from cloud and DevOps platform interfaces, MCP enables resilient tool execution, dynamic context retrieval, and streamlined integration across cloud-native SRE workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="KXiYCrOPHNU" data-video-url="https://www.youtube.com/embed/KXiYCrOPHNU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/KXiYCrOPHNU/hqdefault.jpg" alt="How MCP Eliminates AI-to-API Glue Code [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ??? note "🎬 Model Context Protocol (MCP) and AI Agents in DevOps"
     !!! info "Architectural Summary"
         This architectural playlist details how Model Context Protocol (MCP) standardizes context and tool-calling interfaces for AI agents within modern cloud-native systems. It explores the practical integration of autonomous agents into DevOps, SRE, and API automation pipelines, replacing complex, manual scripts with intent-driven workflows. By utilizing secure and scalable MCP servers, platform teams can safely delegate infrastructure, database, and testing orchestration to context-aware AI systems.
@@ -1261,6 +1321,108 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## SRE AI Agents
+
+??? note "🎬 How Zero-Trust Architecture Secures AI Agents [Short]"
+    !!! info "Architectural Summary"
+        This architectural breakdown addresses the security posture required for autonomous AI SRE agents by implementing zero-trust principles across agentic workflows. It details practical guardrails including non-ambient, short-lived identities, sandboxed tool execution via protocols like MCP, untrusted log filtering to prevent prompt injection, and mandatory human-in-the-loop approvals for destructive operations. In a 2026 cloud-native environment, these controls prevent autonomous agent privilege escalation and data exfiltration while maintaining automated operational reliability.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="5uwev9LOrLg" data-video-url="https://www.youtube.com/embed/5uwev9LOrLg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/5uwev9LOrLg/hqdefault.jpg" alt="How Zero-Trust Architecture Secures AI Agents [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Ghostjacking Hijacks AI Agents [Short]"
+    !!! info "Architectural Summary"
+        This architectural short highlights Ghostjacking, an emerging attack vector where adversaries weaponize trusted observability telemetry and logs to inject malicious prompts into autonomous AI agents. It underscores the critical necessity of zero-trust input sanitization, least-privilege tool scopes via Model Context Protocol (MCP), and mandatory Human-in-the-Loop (HITL) gates to safeguard agentic SRE workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="JTfFp2lSX18" data-video-url="https://www.youtube.com/embed/JTfFp2lSX18" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/JTfFp2lSX18/hqdefault.jpg" alt="How Ghostjacking Hijacks AI Agents [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Poisoned Logs Hijack AI SRE Agents [Short]"
+    !!! info "Architectural Summary"
+        Explores indirect prompt injection vulnerabilities where malicious payloads injected into application, system, and WAF telemetry trick autonomous AI SRE agents into executing rogue remediation commands. Demonstrates why 2026 enterprise cloud-native environments must implement strict input sanitization, deterministic guardrails, and least-privilege Model Context Protocol (MCP) execution boundaries for autonomous incident response.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="kCNIkzkU7o8" data-video-url="https://www.youtube.com/embed/kCNIkzkU7o8" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/kCNIkzkU7o8/hqdefault.jpg" alt="How Poisoned Logs Hijack AI SRE Agents [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Why AI Agents Fail at Cloud Operations"
+    !!! info "Architectural Summary"
+        This architectural breakdown examines the primary failure modes of autonomous AI agents in cloud operations, focusing on telemetry noise overload, semantic context gaps, and unbounded tool execution. It underscores the critical need for deterministic guardrails, structured interfaces via the Model Context Protocol (MCP), and SRE-aligned verification loops to build resilient autonomous remediations. For modern 2026 cloud-native platforms, establishing strict operational boundaries prevents hallucinated infrastructure mutations and ensures safe agentic governance.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="vnkpRyowc5o" data-video-url="https://www.youtube.com/embed/vnkpRyowc5o" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/vnkpRyowc5o/hqdefault.jpg" alt="Why AI Agents Fail at Cloud Operations" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How AI SRE Agents Learn From Outages [Short]"
+    !!! info "Architectural Summary"
+        This architectural short details how modern AI SRE frameworks convert historical incident postmortems and distributed traces into continuous evaluation feedback loops. By bridging telemetry and post-incident analysis with agent protocols like MCP, platforms enable autonomous operational agents to contextualize past outages and prevent recurrent failure patterns across distributed cloud-native systems.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="JQhHBY2uglw" data-video-url="https://www.youtube.com/embed/JQhHBY2uglw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/JQhHBY2uglw/hqdefault.jpg" alt="How AI SRE Agents Learn From Outages [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 How Agentic AI Self-Heals Cloud Pipelines [Short]"
+    !!! info "Architectural Summary"
+        Agentic AI workflows enable autonomous, closed-loop self-healing across cloud pipelines by dynamically formulating and validating root-cause hypotheses against live telemetry data. By integrating Model Context Protocol (MCP) standards with enterprise policy guardrails, these intelligent agents execute targeted remediations while continuously monitoring automated rollback checks. This architecture shifts modern Site Reliability Engineering from manual incident response to deterministic, self-correcting cloud-native operations.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="TdarSrQwDmE" data-video-url="https://www.youtube.com/embed/TdarSrQwDmE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/TdarSrQwDmE/hqdefault.jpg" alt="How Agentic AI Self-Heals Cloud Pipelines [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 The Shift Podcast by Microsoft Azure—Agentic Edition"
+    !!! info "Architectural Summary"
+        This technical podcast series details the evolution of cloud-native infrastructure required to support autonomous, context-aware AI agents in enterprise environments. It explores critical engineering paradigms such as multi-agent orchestration, context engineering over traditional RAG, unified data fabrics for governed access, and Postgres-centric vector storage. Additionally, it addresses the SRE and operations dimension by analyzing how agentic AI is reforming IT operations, cloud management, and security governance through defined agentic borders.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLLasX02E8BPBCP7KdYsjKKFFQUmNEUmE9" title="The Shift Podcast by Microsoft Azure—Agentic Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## LLM Architecture and Post-Training
 
 ??? note "🎬 Stanford CS229: Building Large Language Models (LLMs)"
@@ -1304,18 +1466,6 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
-
-    </center>
-
-## SRE AI Agents
-
-??? note "🎬 The Shift Podcast by Microsoft Azure—Agentic Edition"
-    !!! info "Architectural Summary"
-        This technical podcast series details the evolution of cloud-native infrastructure required to support autonomous, context-aware AI agents in enterprise environments. It explores critical engineering paradigms such as multi-agent orchestration, context engineering over traditional RAG, unified data fabrics for governed access, and Postgres-centric vector storage. Additionally, it addresses the SRE and operations dimension by analyzing how agentic AI is reforming IT operations, cloud management, and security governance through defined agentic borders.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLLasX02E8BPBCP7KdYsjKKFFQUmNEUmE9" title="The Shift Podcast by Microsoft Azure—Agentic Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

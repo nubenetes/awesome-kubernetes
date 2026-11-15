@@ -722625,3 +722625,694 @@ https://www.youtube.com/playlist?list=PLPVp_aWNumcM:
   technology: GitOps CI/CD (Jenkins & ArgoCD)
   category: Infrastructure as Code
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/BZq7h1Xnomg:
+  title: How NVKR Builds Verifiable Infrastructure (Definition to Release) [Short]
+  description: "Tracing NVKR's Definition → Run → Release workflow: compiling pinned
+    Go 1.27.4 and component catalogs into inspectable Plan graphs backed by digest-pinned
+    OCI release references.\n\n\U0001F4DA Official NVKR References:\n• NVKR GitHub
+    Repository: https://github.com/dsx-ai-factory/nvkr\n• Release Verification Guide:
+    https://github.com/dsx-ai-factory/nvkr/blob/main/docs/release-quickstart.md\n\n\U0001F310
+    More NVIDIA, Kubernetes & Supply Chain Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown walks through NVKR's end-to-end Definition
+    → Run → Release workflow for constructing verifiable cloud-native infrastructure.
+    It details how pinned Go toolchains and component catalogs compile into inspectable
+    execution plan graphs anchored by immutable, digest-pinned OCI release artifacts.
+    This pattern establishes cryptographically verifiable supply-chain integrity and
+    reproducible environment state across modern cloud and AI infrastructure deployments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps / Supply Chain Security
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/Lxc_rzsuhm8:
+  title: How NVKR Secures Software Supply Chains (Syft SBOM & Sigstore) [Short]
+  description: "How NVKR pairs catalog-pinned Syft offline scanning across Go binaries,
+    OCI images, Helm Chart.lock files, and Debian packages with deterministic CycloneDX
+    1.5 attestations inside signed OCI release roots.\n\n\U0001F4DA Official NVKR
+    References:\n• NVKR GitHub Repository: https://github.com/dsx-ai-factory/nvkr\n•
+    Release Verification Guide: https://github.com/dsx-ai-factory/nvkr/blob/main/docs/release-quickstart.md\n\n\U0001F310
+    More NVIDIA, Kubernetes & Supply Chain Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: NVKR implements zero-trust software supply chain security by pairing
+    catalog-pinned Syft offline scanning across Go binaries, OCI images, Helm locks,
+    and Debian packages with deterministic CycloneDX 1.5 SBOM attestations. Leveraging
+    Sigstore inside signed OCI release roots, this architecture guarantees provenance
+    and cryptographic verifiability for cloud-native and AI infrastructure running
+    in air-gapped and enterprise Kubernetes environments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Supply Chain Security (Sigstore & Syft)
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/Ob40Zpmhtkc:
+  title: How NVKR's Build Pipeline Secures Node Images (QCOW2 & KVM) [Short]
+  description: "How NVKR enforces explicit root and transitive dependency selection
+    (nvke-node-image, CNI, SPIRE agent, kubeadm distro, patched ISO) and stages digest-checked
+    read-only inputs for Packer KVM QCOW2 builds.\n\n\U0001F4DA Official NVKR References:\n•
+    NVKR GitHub Repository: https://github.com/dsx-ai-factory/nvkr\n• Release Verification
+    Guide: https://github.com/dsx-ai-factory/nvkr/blob/main/docs/release-quickstart.md\n\n\U0001F310
+    More NVIDIA, Kubernetes & Supply Chain Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: NVKR enforces strict software supply chain integrity by locking both
+    root and transitive dependencies—such as CNI plugins, SPIRE agents, kubeadm binaries,
+    and patched OS ISOs—into digest-checked, read-only staging environments for Packer
+    KVM QCOW2 builds. This hermetic image fabrication pattern eliminates dependency
+    drift and prevents supply chain poisoning across node provisioning pipelines.
+    In a 2026 cloud-native context, this deterministic baseline is critical for establishing
+    immutable, zero-trust infrastructure within sovereign AI factories and high-security
+    Kubernetes environments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/j5AsTMy5e3w:
+  title: How NVKR Builds NVIDIA Infrastructure (NVKE & AICR) [Short]
+  description: "Inside NVIDIA Kubernetes Recipes (NVKR): turning declarative Definitions,
+    pinned component catalogs, and Environment configs into verified CLIs, Helm charts,
+    AICR bundles, and node images for NVKE clusters.\n\n\U0001F4DA Official NVKR References:\n•
+    NVKR GitHub Repository: https://github.com/dsx-ai-factory/nvkr\n• Release Verification
+    Guide: https://github.com/dsx-ai-factory/nvkr/blob/main/docs/release-quickstart.md\n\n\U0001F310
+    More NVIDIA, Kubernetes & Supply Chain Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: NVIDIA Kubernetes Recipes (NVKR) operationalizes declarative infrastructure
+    delivery by translating pinned component catalogs, environment configurations,
+    and core definitions into validated release artifacts. This automation pipeline
+    produces reproducible CLIs, Helm charts, AICR bundles, and optimized GPU node
+    images required for reliable NVKE AI factory deployments at scale.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MLOps + Kubernetes
+  category: Infrastructure as Code
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/fO9NgQ2wwJA:
+  title: How NVKR Verifies Software Releases (Cosign & Policies) [Short]
+  description: "Why pulling a digest only checks bytes, not trust—and how bin/nvkr
+    release verify enforces explicit signer identity, OIDC issuer, pinned Cosign digest,
+    and --scope authenticity vs --scope artifact-publication checks.\n\n\U0001F4DA
+    Official NVKR References:\n• NVKR GitHub Repository: https://github.com/dsx-ai-factory/nvkr\n•
+    Release Verification Guide: https://github.com/dsx-ai-factory/nvkr/blob/main/docs/release-quickstart.md\n\n\U0001F310
+    More NVIDIA, Kubernetes & Supply Chain Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This video details why immutable image digests alone only validate byte
+    integrity rather than cryptographic trust, presenting NVKR's release verification
+    architecture built on Cosign and Sigstore policies. It demonstrates how `bin/nvkr
+    release verify` enforces strict signer identity, OIDC issuer validation, pinned
+    Cosign tooling digests, and distinct verification scopes (`--scope authenticity`
+    vs. `--scope artifact-publication`). For modern cloud-native pipelines, this framework
+    establishes a hardened, policy-driven software supply chain standard that prevents
+    supply-chain tampering and unauthorized artifact deployment.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Cosign / Sigstore / Supply Chain Security
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=DVzzQofoHLc:
+  title: 'Demystifying NVKR: Declarative Builds, SBOMs & Verified NVIDIA Releases'
+  description: "Complete architectural walkthrough of NVIDIA Kubernetes Recipes (NVKR,
+    github.com/dsx-ai-factory/nvkr), the open-source Go 1.27.4 reproducible build,
+    packaging, SBOM, and attested release factory powering NVIDIA Kubernetes Engine
+    (NVKE) and AI Cluster Runtime (AICR).\n\n\U0001F3AF Lifecycle & Supply Chain Mechanics
+    Covered:\n• Definition to Run to Release: Selecting deliverables (nvkectl CLI,
+    OCI container images, Helm charts, AICR deployment bundles, and AMD64/ARM64 QCOW2
+    node images) from pinned catalogs and compiling inspectable dependency DAGs (bin/nvkr
+    run plan & run graph).\n• Local & Hosted Execution: Running local Docker/KVM builds
+    via scripts/nvkr-quickstart.sh or generating GitHub Actions signing and publication
+    workflows.\n• Node Images & Material Contracts: Staging read-only digest-verified
+    artifacts (/nvkr/inputs/materials/) for Packer disk creation across NVKE v0.23.0
+    targets (including GB200, GB300, and VR200 configurations).\n• Offline CycloneDX
+    1.5 SBOMs & Sigstore Attestation: Generating deterministic inventories with catalog-pinned
+    Syft and binding artifacts inside digest-pinned OCI release roots (publication-root
+    v4).\n• Consumer Verification & Profiles: Running bin/nvkr release browse, export,
+    pull, and verify (--lane pipeline-attested with authenticity or artifact-publication
+    scopes), plus nvkr-compatible-v1 and helm-standard-v1 registry profiles.\n\n\U0001F4DA
+    Official Repository & Documentation:\n• NVKR GitHub Repository: https://github.com/dsx-ai-factory/nvkr\n•
+    NVKE GitHub Repository: https://github.com/dsx-ai-factory/nvke\n• Release Verification
+    Quickstart: https://github.com/dsx-ai-factory/nvkr/blob/main/docs/release-quickstart.md\n•
+    Dependency SBOM Guide: https://github.com/dsx-ai-factory/nvkr/blob/main/docs/dependency-sboms.md\n•
+    Node Image Build Guide: https://github.com/dsx-ai-factory/nvkr/blob/main/docs/node-images.md\n\n\U0001F310
+    Explore More NVIDIA, Kubernetes & DevSecOps Tracks:\n• Nubenetes Video Catalog:
+    https://nubenetes.com/videos/\n• Nubenetes Portal: https://nubenetes.com/"
+  year: '2026'
+  stars: 5
+  ai_summary: NVIDIA Kubernetes Recipes (NVKR) provides a declarative, reproducible
+    release factory for constructing NVIDIA Kubernetes Engine (NVKE) and AI Cluster
+    Runtime (AICR) artifacts via inspectable dependency DAGs. It enforces strict software
+    supply chain security across heterogeneous GPU node architectures (GB200, GB300,
+    VR200) through digest-verified artifact staging, offline CycloneDX 1.5 SBOM generation,
+    and Sigstore attestation pipelines. In a 2026 cloud-native landscape, this framework
+    establishes a reference model for verifiable, zero-trust infrastructure delivery
+    across mission-critical enterprise AI clusters.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + DevSecOps
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/5uwev9LOrLg:
+  title: How Zero-Trust Architecture Secures AI Agents [Short]
+  description: "Applying Zero-Trust architecture to AI SRE agents: non-ambient identities,
+    sandboxed tool execution, untrusted-log filtering, and explicit human approvals.\n\n\U0001F4DA
+    Official References:\n• Google SRE & Reliability Engineering: https://sre.google/\n•
+    Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310 More
+    AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown addresses the security posture required
+    for autonomous AI SRE agents by implementing zero-trust principles across agentic
+    workflows. It details practical guardrails including non-ambient, short-lived
+    identities, sandboxed tool execution via protocols like MCP, untrusted log filtering
+    to prevent prompt injection, and mandatory human-in-the-loop approvals for destructive
+    operations. In a 2026 cloud-native environment, these controls prevent autonomous
+    agent privilege escalation and data exfiltration while maintaining automated operational
+    reliability.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/JTfFp2lSX18:
+  title: How Ghostjacking Hijacks AI Agents [Short]
+  description: "A rapid look at Ghostjacking: weaponizing trusted observability platforms
+    to hijack over-privileged AI agents—and why data sanitization and HITL stop it.\n\n\U0001F4DA
+    Official References:\n• Google SRE & Reliability Engineering: https://sre.google/\n•
+    Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310 More
+    AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural short highlights Ghostjacking, an emerging attack
+    vector where adversaries weaponize trusted observability telemetry and logs to
+    inject malicious prompts into autonomous AI agents. It underscores the critical
+    necessity of zero-trust input sanitization, least-privilege tool scopes via Model
+    Context Protocol (MCP), and mandatory Human-in-the-Loop (HITL) gates to safeguard
+    agentic SRE workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/kCNIkzkU7o8:
+  title: How Poisoned Logs Hijack AI SRE Agents [Short]
+  description: "How untrusted attacker payloads written into system and WAF logs trick
+    AI SRE agents into mistaking malicious text for valid remediation commands.\n\n\U0001F4DA
+    Official References:\n• Google SRE & Reliability Engineering: https://sre.google/\n•
+    Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310 More
+    AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Explores indirect prompt injection vulnerabilities where malicious payloads
+    injected into application, system, and WAF telemetry trick autonomous AI SRE agents
+    into executing rogue remediation commands. Demonstrates why 2026 enterprise cloud-native
+    environments must implement strict input sanitization, deterministic guardrails,
+    and least-privilege Model Context Protocol (MCP) execution boundaries for autonomous
+    incident response.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/vnkpRyowc5o:
+  title: Why AI Agents Fail at Cloud Operations
+  description: "The real failure modes behind brittle AI ops agents—noisy telemetry
+    overload, semantic blind spots, and unbounded tool calls without deterministic
+    guardrails.\n\n\U0001F4DA Official References:\n• Google SRE & Reliability Engineering:
+    https://sre.google/\n• Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310
+    More AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural breakdown examines the primary failure modes of autonomous
+    AI agents in cloud operations, focusing on telemetry noise overload, semantic
+    context gaps, and unbounded tool execution. It underscores the critical need for
+    deterministic guardrails, structured interfaces via the Model Context Protocol
+    (MCP), and SRE-aligned verification loops to build resilient autonomous remediations.
+    For modern 2026 cloud-native platforms, establishing strict operational boundaries
+    prevents hallucinated infrastructure mutations and ensures safe agentic governance.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/i21cn3cukuI:
+  title: How AI Safely Troubleshoots Kubernetes Clusters
+  description: "How read-only diagnostic MCP tools, least-privilege Kubernetes RBAC,
+    and human-in-the-loop write approvals let AI troubleshoot clusters safely.\n\n\U0001F4DA
+    Official References:\n• Google SRE & Reliability Engineering: https://sre.google/\n•
+    Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310 More
+    AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural overview demonstrates how to safely operationalize
+    autonomous AI agents in Kubernetes production environments using the Model Context
+    Protocol (MCP). By coupling read-only diagnostic MCP tools with strict least-privilege
+    RBAC boundaries and mandatory human-in-the-loop (HITL) approvals for state-mutating
+    remediation, platform teams prevent hallucinated cluster state corruption while
+    enabling accelerated incident response.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/bLKDTC7jGZs:
+  title: How MCP Transports Connect AI to Infrastructure [Short]
+  description: "Understanding MCP transport mechanisms—local stdio vs remote HTTP
+    transports—for bridging AI agents cleanly and securely to Kubernetes clusters
+    and tooling.\n\n\U0001F4DA Official References:\n• Google SRE & Reliability Engineering:
+    https://sre.google/\n• Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310
+    More AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural short evaluates Model Context Protocol (MCP) transport
+    mechanisms—contrasting local stdio with remote HTTP/SSE streaming—for integrating
+    AI agents into Cloud Native environments. It demonstrates how to select the right
+    transport layer to cleanly, securely, and scalably interface autonomous agents
+    with Kubernetes clusters and operational tooling in 2026 enterprise architectures.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/KXiYCrOPHNU:
+  title: How MCP Eliminates AI-to-API Glue Code [Short]
+  description: "How the Model Context Protocol (MCP) replaces brittle custom API integrations
+    with a universal protocol for connecting AI agents to DevOps and cloud platforms.\n\n\U0001F4DA
+    Official References:\n• Google SRE & Reliability Engineering: https://sre.google/\n•
+    Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310 More
+    AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural brief highlights how the Model Context Protocol (MCP)
+    replaces brittle, point-to-point custom API glue code with a standardized, bidirectional
+    interface for AI agents. By decoupling agentic reasoning from cloud and DevOps
+    platform interfaces, MCP enables resilient tool execution, dynamic context retrieval,
+    and streamlined integration across cloud-native SRE workflows.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: DevOps + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/JQhHBY2uglw:
+  title: How AI SRE Agents Learn From Outages [Short]
+  description: "How AI SRE architectures turn historical postmortems and incident
+    traces into continuous evaluation feedback so agents avoid repeating past operational
+    mistakes.\n\n\U0001F4DA Official References:\n• Google SRE & Reliability Engineering:
+    https://sre.google/\n• Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310
+    More AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural short details how modern AI SRE frameworks convert
+    historical incident postmortems and distributed traces into continuous evaluation
+    feedback loops. By bridging telemetry and post-incident analysis with agent protocols
+    like MCP, platforms enable autonomous operational agents to contextualize past
+    outages and prevent recurrent failure patterns across distributed cloud-native
+    systems.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/TdarSrQwDmE:
+  title: How Agentic AI Self-Heals Cloud Pipelines [Short]
+  description: "How agentic AI workflows execute closed-loop remediation across cloud
+    pipelines using verified hypotheses, policy guardrails, and automated rollback
+    checks.\n\n\U0001F4DA Official References:\n• Google SRE & Reliability Engineering:
+    https://sre.google/\n• Model Context Protocol (MCP): https://modelcontextprotocol.io/\n\n\U0001F310
+    More AI SRE, MCP & Cloud Native Videos:\n• Nubenetes Video Catalog: https://nubenetes.com/videos/"
+  year: '2026'
+  stars: 5
+  ai_summary: Agentic AI workflows enable autonomous, closed-loop self-healing across
+    cloud pipelines by dynamically formulating and validating root-cause hypotheses
+    against live telemetry data. By integrating Model Context Protocol (MCP) standards
+    with enterprise policy guardrails, these intelligent agents execute targeted remediations
+    while continuously monitoring automated rollback checks. This architecture shifts
+    modern Site Reliability Engineering from manual incident response to deterministic,
+    self-correcting cloud-native operations.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: SRE + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1794737811
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:16:51.651500+01:00'
+  last_ai_eval: '2026-11-15T11:16:51.651500+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
