@@ -1,9 +1,12 @@
+import asyncio
 import os
 import unittest
 from unittest.mock import patch
 
+import src.gemini_utils as gemini_utils
 from src.gemini_utils import (
     classify_model_metadata,
+    discover_optimal_models,
     is_flash_model,
     is_pro_frontier_model,
     select_models_for_task,
@@ -115,6 +118,74 @@ class TestGeminiModelSelector(unittest.TestCase):
         self.assertTrue(is_pro_frontier_model("gemini-4-carbon"))
         self.assertTrue(is_pro_frontier_model("gemini-4-argon"))
         self.assertFalse(is_pro_frontier_model("gemini-3-flash-preview"))
+
+    def test_speed_tokens_outrank_frontier_tokens_in_compound_names(self):
+        pool, meta = _build_catalog([
+            {"name": "models/gemini-4-ultra"},
+            {"name": "models/gemini-4-ultra-fast"},
+            {"name": "models/gemini-4-ultra-lite"},
+        ])
+        self.assertEqual(meta["gemini-4-ultra"]["tier"], "frontier")
+        self.assertEqual(meta["gemini-4-ultra-fast"]["tier"], "fast")
+        self.assertEqual(meta["gemini-4-ultra-lite"]["tier"], "lite")
+        self.assertEqual(select_models_for_task(pool, meta, prefer_flash=True)[0], "gemini-4-ultra-fast")
+
+    def test_unversioned_aliases_and_grounding_override(self):
+        pool, meta = _build_catalog([
+            {"name": "models/gemini-pro"},
+            {"name": "models/gemini-pro-latest"},
+            {"name": "models/gemini-4-carbon"},
+            {"name": "models/gemini-4-hydrogen"},
+        ])
+        self.assertTrue(meta["gemini-pro"]["is_evergreen"])
+        self.assertTrue(meta["gemini-pro-latest"]["is_evergreen"])
+        # use_grounding=True must force frontier path even when prefer_flash=True
+        grounding = select_models_for_task(pool, meta, prefer_flash=True, use_grounding=True)
+        self.assertEqual(grounding[0], "gemini-4-carbon")
+        self.assertNotIn("gemini-4-hydrogen", grounding)
+
+    def test_discovery_fallback_is_not_sticky(self):
+        class _FakeResp:
+            def __init__(self, code, payload):
+                self.status_code = code
+                self._payload = payload
+
+            def json(self):
+                return self._payload
+
+        responses = [
+            _FakeResp(500, {}),
+            _FakeResp(200, {
+                "models": [
+                    {
+                        "name": "models/gemini-5-photon",
+                        "supportedGenerationMethods": ["generateContent"],
+                        "inputTokenLimit": 1048576,
+                        "outputTokenLimit": 65536,
+                    }
+                ]
+            }),
+        ]
+
+        class _FakeClient:
+            async def __aenter__(self):
+                return self
+
+            async def __aexit__(self, *args):
+                return False
+
+            async def get(self, *args, **kwargs):
+                return responses.pop(0)
+
+        with patch.object(gemini_utils, "DISCOVERED_MODELS", []), \
+             patch.object(gemini_utils, "DISCOVERED_MODEL_METADATA", {}), \
+             patch.object(gemini_utils, "_DISCOVERY_USED_FALLBACK", False), \
+             patch.object(gemini_utils, "GEMINI_API_KEYS", ["k1"]), \
+             patch("src.gemini_utils.httpx.AsyncClient", return_value=_FakeClient()):
+            first = asyncio.run(discover_optimal_models())
+            self.assertIn("gemini-4-hydrogen", first)
+            second = asyncio.run(discover_optimal_models())
+            self.assertEqual(second, ["gemini-5-photon"])
 
 
 if __name__ == "__main__":

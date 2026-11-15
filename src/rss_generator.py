@@ -62,11 +62,8 @@ def generate_rss() -> None:
     items = items[:ITEMS_PER_FEED]
 
     # Deterministic build date = the freshest item's content date, so the feed
-    # is a pure function of its items. (This used wall-clock now() — rewritten on
-    # every republish — then _meta.last_updated, but that analysis timestamp is
-    # itself bumped on each publish even when the ranked content is unchanged, so
-    # the feed still drifted between develop and master. The item dates only move
-    # when the content actually changes.) Falls back to _meta.last_updated, then
+    # is a pure function of its items and never churns on unchanged republishes
+    # to master. Falls back to _meta.last_updated, then
     # a fixed constant, only when no item carries a parseable date.
     item_dates = []
     for _it in items:

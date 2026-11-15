@@ -10,8 +10,8 @@ class RepositoryController:
     def __init__(self, access_token: str, repository_identifier: str):
         self.github_client = Github(access_token)
         self.repository = self.github_client.get_repo(repository_identifier)
-        # Force 'develop' as the primary target for all PRs and base for feature branches
-        self.default_branch_name = "develop"
+        # Target canonical trunk ('master') for all PRs and base for short-lived bot branches
+        self.default_branch_name = "master"
 
     def _create_feature_branch(self, branch_name: str) -> None:
         base_branch = self.repository.get_branch(self.default_branch_name)

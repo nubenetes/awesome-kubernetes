@@ -146,14 +146,14 @@ async def run_audit(
     for url, prev_status in targets:
         code = status_map.get(url)
         if code in DEAD_CODES:
-            if prev_status == "offline":
+            if prev_status in ("offline", "review_required"):
                 already_offline.append(url)
             else:
                 newly_offline.append((url, code))
                 inv[url]["status"] = "offline"
                 inv[url]["last_offline"] = now_iso
                 inv[url]["health_score"] = 0.0
-        elif code is not None and 200 <= code < 400 and prev_status == "offline":
+        elif code is not None and 200 <= code < 400 and prev_status in ("offline", "dead"):
             recovered.append((url, code))
             inv[url]["status"] = "online"
             inv[url]["health_score"] = 100.0

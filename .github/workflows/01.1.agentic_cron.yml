@@ -82,12 +82,12 @@ concurrency:
 jobs:
   agentic-curation-process:
     runs-on: ubuntu-latest
-    # This job can now be triggered from any branch but will always checkout 'develop'
+    # This job can now be triggered from any branch but will always checkout 'master' (trunk)
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v7

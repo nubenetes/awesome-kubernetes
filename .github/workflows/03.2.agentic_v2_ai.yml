@@ -3,11 +3,12 @@ name: 03.2. V2 AI Curator
 on:
   push:
     branches:
-      - develop
+      - master
     paths:
       - 'data/inventory.yaml'
   workflow_run:
     workflows: ["03.1. V2 Metadata Engine"]
+    branches: [master]
     types:
       - completed
   workflow_dispatch:
@@ -33,13 +34,13 @@ jobs:
       github.event_name != 'workflow_run' || 
       github.event.workflow_run.conclusion == 'success'
     concurrency:
-      group: v2-ai-develop
+      group: v2-ai-master
       cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
 
       - name: Python 3.11 Environment Provisioning
         uses: actions/setup-python@v7
@@ -79,9 +80,9 @@ jobs:
             echo "No changes in AI analysis to commit."
           else
             git commit -m "chore: update inventory AI analysis [skip ci]"
-            # Retry rebase+push to survive concurrent bot pushes to develop.
+            # Retry rebase+push to survive concurrent bot pushes to master.
             for i in {1..5}; do
-              if git pull origin develop --rebase -X theirs && git push origin develop; then
+              if git pull origin master --rebase -X theirs && git push origin master; then
                 echo "Successfully rebased and pushed inventory AI analysis."
                 exit 0
               fi

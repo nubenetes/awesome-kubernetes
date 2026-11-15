@@ -15,6 +15,7 @@ from src.logger import log_event
 CURRENT_KEY_INDEX = 0
 DISCOVERED_MODELS: List[str] = []
 DISCOVERED_MODEL_METADATA: Dict[str, Dict[str, Any]] = {}
+_DISCOVERY_USED_FALLBACK = False
 GLOBAL_COOLDOWN_UNTIL = 0
 THROTTLED_MODELS = {} # {model_name: timestamp}
 GLOBAL_AI_SEMAPHORE = asyncio.Semaphore(15) # Increased to 15 for high-tier processing
@@ -61,7 +62,7 @@ def classify_model_metadata(raw_model: Dict[str, Any]) -> Dict[str, Any]:
         major = int(ver_match.group(1))
         minor = int(ver_match.group(2)) if ver_match.group(2) is not None else 0
 
-    is_evergreen = (major == 0 and not is_omni and "latest" in name_tokens)
+    is_evergreen = (major == 0 and not is_omni)
 
     if name_tokens & {"exp", "experimental"}:
         stability = 0
@@ -72,15 +73,15 @@ def classify_model_metadata(raw_model: Dict[str, Any]) -> Dict[str, Any]:
     else:
         stability = 3
 
-    # Tier inference: explicit name tokens -> API description cues -> unknown (kept eligible).
+    # Tier inference: check speed/lightweight qualifiers before frontier tokens so e.g. "ultra-fast" stays fast.
     frontier_subrank = 0
-    if name_tokens & set(PRO_FRONTIER_TOKENS):
-        tier = "frontier"
-        frontier_subrank = max((_FRONTIER_SUBRANK.get(t, 1) for t in name_tokens if t in _FRONTIER_SUBRANK), default=1)
-    elif name_tokens & set(LITE_TOKENS):
+    if name_tokens & set(LITE_TOKENS):
         tier = "lite"
     elif name_tokens & set(FAST_TOKENS):
         tier = "fast"
+    elif name_tokens & set(PRO_FRONTIER_TOKENS):
+        tier = "frontier"
+        frontier_subrank = max((_FRONTIER_SUBRANK.get(t, 1) for t in name_tokens if t in _FRONTIER_SUBRANK), default=1)
     elif (desc_tokens & {"flagship", "frontier"}) or ("complex reasoning" in description.lower()) or ("most capable" in description.lower()):
         tier = "frontier"
         frontier_subrank = 1
@@ -275,12 +276,13 @@ def select_models_for_task(
 
 
 async def discover_optimal_models():
-    global DISCOVERED_MODELS, DISCOVERED_MODEL_METADATA
-    if DISCOVERED_MODELS:
+    global DISCOVERED_MODELS, DISCOVERED_MODEL_METADATA, _DISCOVERY_USED_FALLBACK
+    if DISCOVERED_MODELS and not _DISCOVERY_USED_FALLBACK:
         return DISCOVERED_MODELS
 
     log_event("[*] Starting AI Model Auto-Discovery...", section_break=True)
     discovered_meta: Dict[str, Dict[str, Any]] = {}
+    _DISCOVERY_USED_FALLBACK = False
 
     for key in GEMINI_API_KEYS:
         try:
@@ -308,6 +310,7 @@ async def discover_optimal_models():
 
     if not discovered_meta:
         log_event("  [!] Discovery failed. Falling back to safe defaults.")
+        _DISCOVERY_USED_FALLBACK = True
         for raw in _DEFAULT_FALLBACK_METADATA:
             meta = classify_model_metadata(raw)
             discovered_meta[meta["name"]] = meta

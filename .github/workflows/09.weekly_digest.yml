@@ -14,13 +14,13 @@ jobs:
   weekly-digest:
     runs-on: ubuntu-latest
     concurrency:
-      group: weekly-digest-develop
+      group: weekly-digest-master
       cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: master
           fetch-depth: 0
 
       - name: Python 3.11 Environment Provisioning
@@ -73,10 +73,11 @@ jobs:
             git clean -fd
             pushed=0
             for i in {1..5}; do
-              if git pull origin develop --rebase && git push origin develop; then
+              if git pull origin master --rebase && git push origin master; then
                 pushed=1
                 break
               fi
+              git rebase --abort 2>/dev/null || true
               echo "Push attempt $i failed, retrying in 10s..."
               sleep 10
             done
@@ -84,26 +85,4 @@ jobs:
               echo "Failed to push weekly digest after 5 attempts."
               exit 1
             fi
-          fi
-
-      - name: Create or Update Promotion PR to Master
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git pull origin develop --rebase
-          PR_EXISTS=$(gh pr list --head develop --base master --json number --jq '.[0].number')
-
-          if [ -z "$PR_EXISTS" ]; then
-            if [ -n "$(git log origin/master..origin/develop --oneline)" ]; then
-              echo "Creating new PR from develop to master..."
-              gh pr create \
-                --base master \
-                --head develop \
-                --title "🚀 Release: Weekly Intelligence Digest & V2 Portal Update" \
-                --body "Automated promotion from develop to master. Includes the latest weekly intelligence digest (`data/news_digest.json`, `v2-docs/tech-digest.md`, `v2-docs/industry-digest.md`) and V2 portal updates."
-            else
-              echo "develop is already in sync with master. No PR needed."
-            fi
-          else
-            echo "PR #$PR_EXISTS already exists. It is automatically updated with the push to develop."
           fi

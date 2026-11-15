@@ -9,11 +9,14 @@ on:
 jobs:
   cleanup:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
-          ref: develop # Operamos sobre develop para usar la lógica de limpieza más reciente
+          ref: master # Operate from canonical trunk
           fetch-depth: 0
 
       - name: Delete merged and stale branches
@@ -31,13 +34,13 @@ jobs:
           
           echo "Auditing remote branches..."
           # Get all remote branches (excluding protected ones)
-          branches=$(git branch -r | grep -vE 'origin/(master|develop|gh-pages|HEAD)' | sed 's/.*origin\///')
+          branches=$(git branch -r | sed 's/^[[:space:]]*//' | grep -vE 'origin/(master|main|gh-pages|HEAD)$' | sed 's/^origin\///')
           
           for branch in $branches; do
             echo "[*] Checking branch: $branch"
             
-            # 1. Check if it's merged into develop (Git check)
-            if git branch -r --merged origin/develop | grep -q "origin/$branch"; then
+            # 1. Check if it's merged into master (Git check)
+            if git merge-base --is-ancestor "origin/$branch" origin/master; then
               echo "  [+] Branch is merged in git. Deleting..."
               git push origin --delete "$branch"
               continue
