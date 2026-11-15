@@ -12,6 +12,9 @@ permissions:
 jobs:
   monitor-critical:
     runs-on: ubuntu-latest
+    concurrency:
+      group: critical-asset-monitor-develop
+      cancel-in-progress: false
     steps:
       - name: Repository Synchronization
         uses: actions/checkout@v7
@@ -27,55 +30,36 @@ jobs:
       - name: Dependencies Installation
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity beautifulsoup4
-          
+          pip install --no-cache-dir httpx pytz python-dotenv pyyaml
+
       - name: Critical Health Audit Execution
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONPATH: ${{ github.workspace }}
-          PYTHONUNBUFFERED: 1
+          PYTHONUNBUFFERED: "1"
         run: |
-          python -c "
-          import asyncio, httpx, yaml, os
-          from datetime import datetime
-          from src.gitops_manager import RepositoryController
+          python -u -m src.critical_asset_monitor --report-file critical_audit_report.md
+          cat critical_audit_report.md >> "$GITHUB_STEP_SUMMARY"
 
-          async def check():
-              with open('data/inventory.yaml', 'r', encoding='utf-8') as f:
-                  inv = yaml.safe_load(f) or {}
-              
-              critical_links = [u for u, d in inv.items() if any(t in ['[DE FACTO STANDARD]', '[ENTERPRISE-STABLE]'] for t in d.get('tags', []))]
-              print(f'[*] Auditing {len(critical_links)} critical assets...')
-              
-              dead = []
-              async with httpx.AsyncClient(timeout=10.0, follow_redirects=True) as client:
-                  for url in critical_links:
-                      try:
-                          resp = await client.get(url)
-                          if resp.status_code == 404:
-                              dead.append(url)
-                              print(f'  [!] CRITICAL DOWN: {url}')
-                      except: pass
-              
-              if dead:
-                  # Flag in inventory
-                  for url in dead:
-                      inv[url]['status'] = 'offline'
-                      inv[url]['last_offline'] = datetime.now().isoformat()
-                  
-                  with open('data/inventory.yaml', 'w', encoding='utf-8') as f:
-                      yaml.dump(inv, f, sort_keys=False, allow_unicode=True)
-                  
-                  with open('data/inventory.yaml', 'r', encoding='utf-8') as f:
-                      updated_inv = f.read()
-                  
-                  # Create PR/Issue
-                  git = RepositoryController(os.environ['GH_TOKEN'], 'nubenetes/awesome-kubernetes')
-                  body = '### 🚨 Critical Assets Offline\n\n' + '\n'.join([f'- {u}' for u in dead])
-                  git.apply_multi_file_changes({'data/inventory.yaml': updated_inv}, {'removals': len(dead)}, safety_report=body)
-                  print('[OK] Inventory updated and PR created.')
-              else:
-                  print('[OK] All critical assets are online.')
+      - name: Open PR on Inventory Status Changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data/inventory.sql data/inventory.yaml; then
+            echo "[OK] No inventory changes to propose."
+            exit 0
+          fi
 
-          asyncio.run(check())
-          "
+          BRANCH="bot/critical-asset-audit-${GITHUB_RUN_ID}"
+          git config --global user.name "Nubenetes Bot"
+          git config --global user.email "bot@nubenetes.com"
+          git checkout -b "$BRANCH"
+          git add data/inventory.sql data/inventory.yaml
+          git commit -m "chore(audit): sync critical asset online/offline status"
+          git push origin "$BRANCH"
+
+          TITLE="🚨 Critical Asset Health Audit: $(date -u +'%d %b %Y')"
+          gh pr create \
+            --base develop \
+            --head "$BRANCH" \
+            --title "$TITLE" \
+            --body-file critical_audit_report.md
