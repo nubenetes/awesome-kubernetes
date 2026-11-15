@@ -183,7 +183,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
   - [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Running Cucumber with Maven covering Maven Tests in Maven Gradle (dzone.com).
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
 

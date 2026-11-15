@@ -202,7 +202,7 @@ description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limit
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

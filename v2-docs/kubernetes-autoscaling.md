@@ -191,7 +191,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Scale to Zero With Kubernetes with KEDA and/or Knative covering Kubernetes Scale to Zero in Kubernetes Autoscaling (dzone.com).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

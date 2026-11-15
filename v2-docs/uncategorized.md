@@ -95,7 +95,7 @@ description: "Curated, AI-ranked Uncategorized resources for the 2026 Cloud Nati
   - **(2026)** [**tokenizers v1: encode, decode and scaling, measured**](https://huggingface.co/blog/tokenizers-v1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PERFORMANCE-OPTIMIZATION]</span> <span class='md-tag md-tag--primary'>[RUST]</span> <span class='md-tag md-tag--primary'>[TOKENIZATION]</span> — Hugging Face has released tokenizers v1, migrating to native thread processing and independent instances for dramatic throughput improvements. The architectural shift away from regex to bitstreams drastically accelerates the encode and decode paths, demonstrating up to 30x faster encoding on consumer hardware. This release fortifies the foundational layer of transformer-based data pipelines for industrial-scale deployment.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

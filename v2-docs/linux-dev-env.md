@@ -66,7 +66,7 @@ description: "Top Linux Dev Env resources for 2026, AI-ranked: ASDF, Windows Ter
   - **(2026)** [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-on-windows-with-wsl2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide optimizing local Windows workflows with WSL2. Provides performance instructions on using WSL2 backends alongside Docker Desktop, configuring VS Code remote-containers, and mitigating cross-file system read/write overhead.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
 

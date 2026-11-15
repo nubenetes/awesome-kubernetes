@@ -32,7 +32,7 @@ description: "Curated, AI-ranked Lowcode Nocode resources for the 2026 Cloud Nat
   - **(2021)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A provocative analysis reflecting on speculative industry trends regarding low-code automation. It highlights how aggressive market expansion projections suggest rapid enterprise adoption, while detailing the ongoing debate about scalability limits.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
+💡 **Explore Related:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md) | [Devel Sites](./devel-sites.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md)
 

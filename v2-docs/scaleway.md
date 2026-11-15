@@ -25,7 +25,7 @@ description: "Curated, AI-ranked Scaleway resources for the 2026 Cloud Native ar
   - [scaleway.com](https://www.scaleway.com/en/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for scaleway.com in the Digitalocean ecosystem (scaleway.com).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

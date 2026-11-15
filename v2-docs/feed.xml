@@ -13,7 +13,15 @@
       <guid isPermaLink="true">https://github.com/kubernetes-sigs/kueue</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Kueue has become the de facto cloud-native batch scheduling and queueing engine powering large-scale AI and ML workloads on Kubernetes.</description>
+      <description>[CRITICAL] Kueue establishes the Kubernetes-native standard for multi-tenant batch scheduling and AI/ML job queueing to maximize GPU and cluster utilization.</description>
+    </item>
+    <item>
+      <title>Karmada</title>
+      <link>https://github.com/karmada-io/karmada</link>
+      <guid isPermaLink="true">https://github.com/karmada-io/karmada</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] Karmada provides CNCF-backed multi-cluster workload federation and scheduling, enabling resilient hybrid and multi-cloud Kubernetes architectures.</description>
     </item>
     <item>
       <title>kubernetes-sigs/kubebuilder</title>
@@ -21,7 +29,7 @@
       <guid isPermaLink="true">https://github.com/kubernetes-sigs/kubebuilder</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Kubebuilder serves as the industry-standard developer framework for scaffolding production-grade Kubernetes Custom Resource Definitions and controllers.</description>
+      <description>[CRITICAL] Kubebuilder serves as the primary framework for scaffolding custom Kubernetes APIs and operators, accelerating platform engineering extensibility.</description>
     </item>
     <item>
       <title>github.com/kubernetes: **Kubernetes Cluster Autoscaler**</title>
@@ -29,7 +37,15 @@
       <guid isPermaLink="true">https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Cluster Autoscaler remains the foundational core component driving dynamic cloud node elasticity across production Kubernetes environments.</description>
+      <description>[CRITICAL] Cluster Autoscaler remains a foundational production component that dynamically right-sizes cloud node pools in response to pod scheduling demands.</description>
+    </item>
+    <item>
+      <title>kubernetes/client-go: Go client for Kubernetes 🌟</title>
+      <link>https://github.com/kubernetes/client-go</link>
+      <guid isPermaLink="true">https://github.com/kubernetes/client-go</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] client-go is the canonical Go SDK powering Kubernetes controllers and operators with production-grade informers, work queues, and API machinery.</description>
     </item>
     <item>
       <title>Red Hat OpenShift AI (RHOAI)</title>
@@ -37,15 +53,7 @@
       <guid isPermaLink="true">https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Delivers a fully supported, Kubernetes-native enterprise platform integrating vLLM, KServe, and Kueue for hybrid AI operations.</description>
-    </item>
-    <item>
-      <title>kube-state-metrics 🌟</title>
-      <link>https://github.com/kubernetes/kube-state-metrics</link>
-      <guid isPermaLink="true">https://github.com/kubernetes/kube-state-metrics</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Kube-state-metrics is an indispensable cluster service that translates Kubernetes API objects into core operational metrics across all enterprise environments.</description>
+      <description>[CRITICAL] Unifies KServe, vLLM, Kubeflow Pipelines, KubeRay, and Kueue natively on Kubernetes to provide a production-ready enterprise hybrid-cloud AI platform.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
@@ -53,7 +61,7 @@
       <guid isPermaLink="true">https://github.com/kubernetes-sigs/gateway-api</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] The Gateway API is the modern, role-oriented standard replacing Kubernetes Ingress for expressive L4-L7 traffic routing.</description>
+      <description>[CRITICAL] Kubernetes Gateway API is the foundational standard replacing legacy Ingress with expressive, role-oriented routing across cloud-native platforms.</description>
     </item>
     <item>
       <title>Databricks Mosaic AI</title>
@@ -61,7 +69,7 @@
       <guid isPermaLink="true">https://www.databricks.com/product/artificial-intelligence</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>MLOps &amp; Data Science</category>
-      <description>[CRITICAL] Databricks Mosaic AI represents an industry-standard shift toward unifying Lakehouse data infrastructure with enterprise AI agent evaluation, fine-tuning, and production governance.</description>
+      <description>[CRITICAL] Delivers a unified enterprise platform for building, governing, and evaluating production AI agents, RAG pipelines, and fine-tuned models alongside Lakehouse data.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -69,7 +77,7 @@
       <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Serves as the foundational standard for high-performance, memory-efficient LLM inference and serving on production Kubernetes clusters.</description>
+      <description>[CRITICAL] Standardizes high-throughput, memory-efficient LLM inference on Kubernetes clusters using PagedAttention for cloud-native AI serving.</description>
     </item>
     <item>
       <title>OpenTofu Official GitHub Repository</title>
@@ -88,12 +96,28 @@
       <description>[CRITICAL] Terraform Stacks introduces a paradigm shift in multi-environment, multi-tier IaC orchestration and automated cross-stack lifecycle management.</description>
     </item>
     <item>
-      <title>kustomize</title>
-      <link>https://github.com/kubernetes-sigs/kustomize</link>
-      <guid isPermaLink="true">https://github.com/kubernetes-sigs/kustomize</guid>
+      <title>Nubenetes Istio Ambient Mesh and Gateway API on OpenShift (Playlist)</title>
+      <link>https://www.youtube.com/playlist?list=PLWGYAgXdQh44</link>
+      <guid isPermaLink="true">https://www.youtube.com/playlist?list=PLWGYAgXdQh44</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Networking &amp; Service Mesh</category>
+      <description>[CRITICAL] This Nubenetes masterclass provides practical architectural guidance on Red Hat OpenShift Service Mesh 3.0, Gateway API, and sidecarless Istio Ambient Mesh with Rust ztunnel.</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles</title>
+      <link>https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles</link>
+      <guid isPermaLink="true">https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles</guid>
       <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Kustomize is a ubiquitous declarative manifest customization engine essential to modern GitOps and configuration management workflows.</description>
+      <category>Security &amp; Compliance</category>
+      <description>[CRITICAL] Kubernetes v1.37 introduces native Pod Certificates and Cluster Trust Bundles, fundamentally decentralizing mTLS and PKI trust distribution within the control plane.</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta</title>
+      <link>https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta</link>
+      <guid isPermaLink="true">https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Security &amp; Compliance</category>
+      <description>[CRITICAL] Graduating KubeletInUserNamespace (Rootless mode) to Beta in Kubernetes v1.37 dramatically shrinks the node compromise blast radius by running the kubelet outside root privileges.</description>
     </item>
     <item>
       <title>hashicorp/vault</title>
@@ -101,7 +125,7 @@
       <guid isPermaLink="true">https://github.com/hashicorp/vault</guid>
       <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] HashiCorp Vault remains the foundational enterprise engine for dynamic secrets, identity brokering, and zero-trust cloud infrastructure.</description>
+      <description>[CRITICAL] HashiCorp Vault remains the enterprise backbone for Zero Trust architectures, providing dynamic credential brokering and secrets management across multi-cloud and Kubernetes workloads.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -109,63 +133,39 @@
       <guid isPermaLink="true">https://github.com/fluxcd/flux2</guid>
       <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
       <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Flux v2 is a graduated CNCF standard providing the decoupled GitOps Toolkit architecture for enterprise Kubernetes deployments.</description>
+      <description>[CRITICAL] Flux v2 is a foundational CNCF GitOps toolkit enabling decoupled, parallel Kubernetes configuration reconciliation at enterprise scale.</description>
     </item>
     <item>
-      <title>github.com: Istio</title>
-      <link>https://github.com/istio/istio</link>
-      <guid isPermaLink="true">https://github.com/istio/istio</guid>
+      <title>dagger/dagger: Dagger is a portable devkit for CICD</title>
+      <link>https://github.com/dagger/dagger</link>
+      <guid isPermaLink="true">https://github.com/dagger/dagger</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>CI/CD &amp; GitOps</category>
+      <description>[CRITICAL] Dagger transforms CI/CD pipelines from brittle YAML into portable, BuildKit-powered code written in general-purpose languages.</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.37: Native Histograms Graduates to Beta</title>
+      <link>https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta</link>
+      <guid isPermaLink="true">https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Observability, SRE &amp; Testing</category>
+      <description>[CRITICAL] Graduating Native Histograms (KEP-5808) to Beta in Kubernetes v1.37 fundamentally solves Prometheus metric cardinality explosions while enabling accurate tail-latency observability across clusters.</description>
+    </item>
+    <item>
+      <title>Kubernetes v1.37: Metrics API graduates to stable</title>
+      <link>https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga</link>
+      <guid isPermaLink="true">https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
+      <category>Observability, SRE &amp; Testing</category>
+      <description>[CRITICAL] Promoting the Kubernetes Metrics API to GA (v1) in v1.37 establishes long-term enterprise stability and backward compatibility for Horizontal Pod Autoscaling and core resource telemetry.</description>
+    </item>
+    <item>
+      <title>Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard</title>
+      <link>https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release</link>
+      <guid isPermaLink="true">https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release</guid>
       <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] Istio is the leading cloud native service mesh standard driving zero-trust security and the sidecarless ambient mesh architecture.</description>
-    </item>
-    <item>
-      <title>containerd - An open and reliable container runtime</title>
-      <link>https://github.com/containerd/containerd</link>
-      <guid isPermaLink="true">https://github.com/containerd/containerd</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Containers &amp; Runtime</category>
-      <description>[CRITICAL] As the industry-standard CNCF runtime embedded in Kubernetes, containerd forms the core foundation of modern container execution.</description>
-    </item>
-    <item>
-      <title>github.com/vmware-tanzu/velero</title>
-      <link>https://github.com/velero-io/velero</link>
-      <guid isPermaLink="true">https://github.com/velero-io/velero</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] Velero is the de facto industry standard for Kubernetes cluster disaster recovery, state backup, and persistent volume migration.</description>
-    </item>
-    <item>
-      <title>Cosign: Container Signing</title>
-      <link>https://github.com/sigstore/cosign</link>
-      <guid isPermaLink="true">https://github.com/sigstore/cosign</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Cosign is the CNCF Sigstore standard for cryptographically signing and verifying container images and SBOMs across enterprise supply chains.</description>
-    </item>
-    <item>
-      <title>github.com/prometheus/prometheus</title>
-      <link>https://github.com/prometheus/prometheus</link>
-      <guid isPermaLink="true">https://github.com/prometheus/prometheus</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Prometheus remains the foundational CNCF graduated metric engine and the ubiquitous industry standard for cloud-native telemetry.</description>
-    </item>
-    <item>
-      <title>kube-prometheus</title>
-      <link>https://github.com/prometheus-operator/kube-prometheus</link>
-      <guid isPermaLink="true">https://github.com/prometheus-operator/kube-prometheus</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Kube-prometheus delivers the canonical, production-ready reference monitoring architecture for Kubernetes control planes and workloads.</description>
-    </item>
-    <item>
-      <title>github.com/CrunchyData/postgres-operator</title>
-      <link>https://github.com/CrunchyData/postgres-operator</link>
-      <guid isPermaLink="true">https://github.com/CrunchyData/postgres-operator</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
-      <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] The Crunchy Data operator provides enterprise-grade automation for running highly available, production-ready PostgreSQL on Kubernetes.</description>
+      <description>[CRITICAL] Graduating TCPRoute and UDPRoute to Standard in Gateway API v1.6 fundamentally expands Kubernetes-native traffic management beyond HTTP to production Layer 4 workloads.</description>
     </item>
   </channel>
 </rss>

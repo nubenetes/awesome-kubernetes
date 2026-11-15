@@ -220,7 +220,7 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - **(2026)** [Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable](https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable covering Subsea Cables in AWS Networking (engineering.fb.com).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

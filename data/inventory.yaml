@@ -673183,7 +673183,7 @@ https://openai.com/index/scaling-storage-one-billion-users-part-one:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: null
   content_hash: null
   health_score: null
@@ -673207,6 +673207,7 @@ https://openai.com/index/scaling-storage-one-billion-users-part-one:
   - aws.md
   youtube_mosaic: {}
   category: aws
+  duplicate_of: https://openai.com/index/scaling-storage-one-billion-users-part-two
 https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta:
   title: 'ZGateway: Learnings from Putting a Proxy in Front of ZippyDB'
   description: null
@@ -743277,9 +743278,16 @@ https://github.com/kubernetes/kubernetes:
   social_preview_url: https://opengraph.githubassets.com/d77d0e52309ea1095a1efc4ed59fa80c18eb519727e71fa93d268cae7a004aea/kubernetes/kubernetes
   category: cicd-kubernetes-plugins
   suggested_new_category: kubernetes
-  gh_stars: 128810
-  gh_pushed: '2026-10-31T11:25:37Z'
+  gh_stars: 129107
+  gh_pushed: '2026-11-15'
   gh_license: Apache-2.0
+  cncf_status: graduated
+  gh_open_issues_30d: 3285
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 852.38
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/opensandbox-group/OpenSandbox:
   title: OpenSandbox
   description: Secure, Fast, and Extensible Sandbox runtime for AI agents.
@@ -743332,9 +743340,15 @@ https://github.com/opensandbox-group/OpenSandbox:
   social_preview_url: https://repository-images.githubusercontent.com/1118085970/4e9a8d1f-1394-4210-8c11-d77301b62b39
   category: ai-agents-mcp
   suggested_new_category: ai-agents-mcp
-  gh_stars: 16357
-  gh_pushed: '2026-11-01T09:56:46Z'
+  gh_stars: 17328
+  gh_pushed: '2026-11-15'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 213
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1561.08
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/langfuse/langfuse:
   title: Langfuse
   description: 'Open source agent evals & observability: Trace, evaluate, and improve
@@ -743386,9 +743400,15 @@ https://github.com/langfuse/langfuse:
   social_preview_url: https://repository-images.githubusercontent.com/642497346/37008ff8-bc1e-45da-a24a-1cbe381a0c4e
   category: ai-agents-mcp
   suggested_new_category: llm-observability
-  gh_stars: 36826
-  gh_pushed: '2026-11-01T09:45:28Z'
+  gh_stars: 37452
+  gh_pushed: '2026-11-15'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 1196
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 879.84
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/PrefectHQ/fastmcp:
   title: FastMCP
   description: The fast, Pythonic way to build MCP servers and clients.
@@ -743438,9 +743458,15 @@ https://github.com/PrefectHQ/fastmcp:
   social_preview_url: https://opengraph.githubassets.com/ecdc63b1570999673c6659add0d9449972c1691dec09aebfaef5a97c850109a4/PrefectHQ/fastmcp
   category: ai-agents-mcp
   suggested_new_category: ai-agents-mcp
-  gh_stars: 28259
-  gh_pushed: '2026-11-01T12:39:47Z'
+  gh_stars: 28527
+  gh_pushed: '2026-11-15'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 237
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1196.94
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/DeusData/codebase-memory-mcp:
   title: Codebase Memory MCP
   description: Local code intelligence for developers and AI agents. Connect code,
@@ -743493,9 +743519,15 @@ https://github.com/DeusData/codebase-memory-mcp:
   social_preview_url: https://repository-images.githubusercontent.com/1166102148/c6b6a073-5cad-4f9a-81c4-16018827c144
   category: ai-agents-mcp
   suggested_new_category: ai-agents-mcp
-  gh_stars: 47936
-  gh_pushed: '2026-11-01T11:33:43Z'
+  gh_stars: 48684
+  gh_pushed: '2026-11-14'
   gh_license: MIT
+  gh_open_issues_30d: 558
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 5532.27
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/mukul975/Anthropic-Cybersecurity-Skills:
   title: Anthropic Cybersecurity Skills
   description: 817 structured cybersecurity skills for AI agents mapped to MITRE ATT&CK,
@@ -743551,9 +743583,15 @@ https://github.com/mukul975/Anthropic-Cybersecurity-Skills:
   social_preview_url: https://repository-images.githubusercontent.com/1166506614/38d9aad0-5e51-43d0-8567-21443768d1be
   category: ai-agents-mcp
   suggested_new_category: ai-security-skills
-  gh_stars: 35378
-  gh_pushed: '2026-08-31T04:32:44Z'
+  gh_stars: 36196
+  gh_pushed: '2026-08-31'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 69
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 4128.82
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://gpu-cloud-prices.pages.dev:
   title: 'GPU Price Index: observed GPU cloud prices across providers'
   description: 'Free, independent price finder for GPU instances on AWS, Azure, OVHcloud,
@@ -743653,9 +743691,15 @@ https://github.com/optimiware/kodama:
   - ai-agents-mcp.md
   youtube_mosaic: {}
   gh_stars: 1
-  gh_pushed: '2026-11-15T00:47:39Z'
+  gh_pushed: '2026-11-15'
   gh_license: Apache-2.0
   category: ai-agents-mcp
+  gh_open_issues_30d: 2
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 1.0
+  momentum_score: 12.2
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/ccfos/nightingale:
   title: 'Nightingale: Self-hosted alerting engine for existing metrics, logs, and
     databases'
@@ -743702,9 +743746,15 @@ https://github.com/ccfos/nightingale:
   - monitoring.md
   youtube_mosaic: {}
   gh_stars: 13488
-  gh_pushed: '2026-11-14T07:36:35Z'
+  gh_pushed: '2026-11-14'
   gh_license: Apache-2.0
   category: monitoring
+  gh_open_issues_30d: 244
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 165.29
+  momentum_score: 90.7
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/vpshostreview/vhr-vps-benchmark:
   title: github.com/vpshostreview/vhr-vps-benchmark
   description: null
@@ -743747,9 +743797,15 @@ https://github.com/vpshostreview/vhr-vps-benchmark:
   - linux.md
   youtube_mosaic: {}
   gh_stars: 3
-  gh_pushed: '2026-10-16T18:40:34Z'
+  gh_pushed: '2026-10-16'
   gh_license: MIT
   category: linux
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 1.11
+  momentum_score: 18.5
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/Shman4ik/kubeNimbus:
   title: 'kubeNimbus: A Native Kubernetes Desktop Client'
   description: null
@@ -743793,9 +743849,15 @@ https://github.com/Shman4ik/kubeNimbus:
   - kubernetes-tools.md
   youtube_mosaic: {}
   gh_stars: 9
-  gh_pushed: '2026-11-15T08:40:03Z'
+  gh_pushed: '2026-11-15'
   gh_license: MIT
   category: kubernetes-tools
+  gh_open_issues_30d: 50
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 2.27
+  momentum_score: 27.1
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/k8s-servant/k8s-skills:
   title: 'k8s-skills: Read-only Kubernetes troubleshooting skills for AI agents'
   description: null
@@ -743846,9 +743908,15 @@ https://github.com/k8s-servant/k8s-skills:
   - ai-agents-mcp.md
   youtube_mosaic: {}
   gh_stars: 38
-  gh_pushed: '2026-11-14T21:06:02Z'
+  gh_pushed: '2026-11-14'
   gh_license: Apache-2.0
   category: ai-agents-mcp
+  gh_open_issues_30d: 5
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 38.0
+  momentum_score: 50.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://github.com/inevolin/k8s-cpu-limits-analyzed:
   title: 'github.com/inevolin: Kubernetes CPU limits: the mistake, the why, and proof'
   description: null
@@ -743893,9 +743961,15 @@ https://github.com/inevolin/k8s-cpu-limits-analyzed:
   - kubernetes-troubleshooting.md
   youtube_mosaic: {}
   gh_stars: 127
-  gh_pushed: '2026-08-19T13:45:26Z'
+  gh_pushed: '2026-08-19'
   gh_license: MIT
   category: kubernetes-troubleshooting
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 40.97
+  momentum_score: 57.0
+  gh_activity_checked: '2026-11-15T23:18:30.330361+01:00'
 https://www.youtube.com/watch?v=hWe-j78vNpc:
   title: 'The Home Repo: The effortless multi-repo agent setup'
   description: Architectural walkthrough by Matt Pocock demonstrating the Home Repo

@@ -179,7 +179,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12?gi=bf216eb2967e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learningdaily.dev: Software architecture diagramming and patterns covering Introduction in Cloud Arch Diagrams (learningdaily.dev).
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 

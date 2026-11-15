@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kubernetes IDE, Minikube and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube, Lens Kubernetes IDE and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Based Development. Kubernetes Distributions for local environments. Kubernetes Development Tools and Dashboards
 
@@ -256,7 +256,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kub
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
 

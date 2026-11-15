@@ -132,7 +132,7 @@ description: "Top AWS Tools Scripts resources for 2026, AI-ranked: Metabadger, e
   - **(2024)** [AWS Samples (Boilerplates)](https://nubenetes.com/demos/#aws-samples-boilerplates) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A consolidated hub of official and community AWS deployment samples. Houses structured patterns and CloudFormation/Terraform codebases to fast-track prototype development in compliance with AWS architecture standards.
 
 ---
-💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [Cheatsheets](./cheatsheets.md) | [Introduction](./introduction.md)
 
-🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [Golang](./golang.md) | [Visual Studio](./visual-studio.md)
 
