@@ -972,6 +972,54 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## Software Supply Chain and SBOM Security NVKR
+
+??? note "🎬 Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide"
+    !!! info "Architectural Summary"
+        Architectural deep dive and Shorts series covering NVIDIA Kubernetes Recipes (github.com/dsx-ai-factory/nvkr), the Go 1.27.4 declarative build, packaging, offline SBOM, and verified release factory for NVIDIA Kubernetes Engine (NVKE) and AI Cluster Runtime (AICR). Covers Definition to Run to Release workflows, DAG Plan inspection (bin/nvkr run plan & run graph), KVM QCOW2 node images, catalog-pinned Syft CycloneDX 1.5 SBOMs, Sigstore Cosign attestations, and bin/nvkr release verify policy checks.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLc06IRjYpC80" title="Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Grafana Alloy and OpenTelemetry
+
+??? note "🎬 Nubenetes Grafana & Alloy Observability on OpenShift"
+    !!! info "Architectural Summary"
+        Enterprise observability series covering Grafana Operator and Grafana Alloy telemetry collectors on Red Hat OpenShift: configuring Security Context Constraints (SCCs), resolving Thanos 403/RBAC permission issues, and building OpenTelemetry and eBPF socket-tracing pipelines.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLKhyB4rhIIjw" title="Nubenetes Grafana & Alloy Observability on OpenShift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Terraform and Azure DevOps
+
+??? note "🎬 Nubenetes Terraform & Azure DevOps Automation"
+    !!! info "Architectural Summary"
+        Bilingual (English and Spanish) Infrastructure as Code series covering Vision 2026 core Azure Terraform blueprints, modular IaC architectures, automated validation workflows, and enterprise CI/CD delivery pipelines with Azure DevOps.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLVaF5eQPP4Uc" title="Nubenetes Terraform & Azure DevOps Automation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## GitOps CI CD Jenkins and ArgoCD
+
+??? note "🎬 Nubenetes GitOps CI/CD (Jenkins & ArgoCD)"
+    !!! info "Architectural Summary"
+        Comprehensive GitOps CI/CD track combining Jenkins, ArgoCD, Backstage Internal Developer Portals, GKE and OpenShift Golden Path blueprints, observability integration, and automated parameterized k6 performance testing across the Day 0 to decommissioning lifecycle.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLPVp_aWNumcM" title="Nubenetes GitOps CI/CD (Jenkins & ArgoCD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"

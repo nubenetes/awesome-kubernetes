@@ -722286,3 +722286,342 @@ https://www.youtube.com/watch?v=hacr-JaxbZk:
   technology: Apache Kafka
   category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLc06IRjYpC80:
+  title: 'Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release
+    Guide'
+  description: 6-part architectural series on NVIDIA Kubernetes Recipes (dsx-ai-factory/nvkr),
+    covering Go 1.27.4 Definition -> Run -> Release workflows, Packer KVM QCOW2 node
+    images, Syft CycloneDX 1.5 offline SBOMs, and Sigstore Cosign release verification.
+  year: '2026'
+  stars: 5
+  ai_summary: Architectural deep dive and Shorts series covering NVIDIA Kubernetes
+    Recipes (github.com/dsx-ai-factory/nvkr), the Go 1.27.4 declarative build, packaging,
+    offline SBOM, and verified release factory for NVIDIA Kubernetes Engine (NVKE)
+    and AI Cluster Runtime (AICR). Covers Definition to Run to Release workflows,
+    DAG Plan inspection (bin/nvkr run plan & run graph), KVM QCOW2 node images, catalog-pinned
+    Syft CycloneDX 1.5 SBOMs, Sigstore Cosign attestations, and bin/nvkr release verify
+    policy checks.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794737724
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:15:24.071353+01:00'
+  last_ai_eval: '2026-11-15T11:15:24.071353+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - DevOps, IaC, and SRE
+  - Software Supply Chain Security
+  - NVIDIA Kubernetes Recipes (NVKR)
+  tags:
+  - '[NVIDIA]'
+  - '[NVKR]'
+  - '[SBOM]'
+  - '[COSIGN]'
+  - '[KUBERNETES]'
+  - '[SECURITY]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - devops-iac.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Software Supply Chain & SBOM Security (NVKR)
+  category: Security and Compliance
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLckcDbnSNdbE:
+  title: 'Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern &
+    Self-Healing'
+  description: 14-part engineering track covering AI Site Reliability Engineering
+    (AI SRE), autonomous cloud operations, Google SRE agentic principles, the 4-level
+    SRE Trust Ladder, Magentic multi-agent orchestration, and closed-loop self-healing
+    pipelines.
+  year: '2026'
+  stars: 5
+  ai_summary: '14-part architectural series on AI Site Reliability Engineering (AI
+    SRE) and Autonomous Operations: transitioning from reactive on-call triage to
+    progressive AI autonomy using Google SRE agentic principles, the 4-level SRE Trust
+    Ladder, Magentic multi-agent orchestration with Task/Progress Ledgers, human-in-the-loop
+    (HITL) execution guardrails, and closed-loop self-healing remediation pipelines.'
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794737724
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:15:24.071353+01:00'
+  last_ai_eval: '2026-11-15T11:15:24.071353+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - AI Agents and MCP
+  - Agentic Operations & AI SRE
+  - Trust Ladder & Magentic Orchestration
+  tags:
+  - '[AI-SRE]'
+  - '[AGENTS]'
+  - '[AUTONOMOUS-OPS]'
+  - '[KUBERNETES]'
+  - '[SRE]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: AI SRE & Agentic Operations
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLa99gsQrC--U:
+  title: 'Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense
+    in Depth'
+  description: 13-part series on Model Context Protocol (MCP) infrastructure agents,
+    Kubernetes troubleshooting, production AI SRE failure modes, and Zero-Trust defense
+    against Ghostjacking and poisoned telemetry.
+  year: '2026'
+  stars: 5
+  ai_summary: '13-part deep-dive and Shorts series covering Model Context Protocol
+    (MCP) SRE agents for Kubernetes infrastructure: replacing N-by-M API glue with
+    stdio/HTTP transports, scoped Kubernetes RBAC guardrails, Myth vs Reality of AI
+    SRE failures, Over-Privileged Trojan Horse risks, Ghostjacking indirect prompt
+    injection via observability logs and alerts, and layered Zero-Trust Defense in
+    Depth.'
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794737724
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:15:24.071353+01:00'
+  last_ai_eval: '2026-11-15T11:15:24.071353+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - AI Agents and MCP
+  - MCP Agent Security
+  - Defense in Depth & Ghostjacking
+  tags:
+  - '[MCP]'
+  - '[AI-SRE]'
+  - '[SECURITY]'
+  - '[KUBERNETES]'
+  - '[ZERO-TRUST]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - ai-agents.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: MCP SRE Agents & Security
+  category: AI and Future Operations
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLKhyB4rhIIjw:
+  title: Nubenetes Grafana & Alloy Observability on OpenShift
+  description: 26-part track covering enterprise observability, Grafana Operator,
+    Grafana Alloy OpenTelemetry/eBPF pipelines, OpenShift SCC configuration, and Thanos
+    RBAC troubleshooting.
+  year: '2026'
+  stars: 5
+  ai_summary: 'Enterprise observability series covering Grafana Operator and Grafana
+    Alloy telemetry collectors on Red Hat OpenShift: configuring Security Context
+    Constraints (SCCs), resolving Thanos 403/RBAC permission issues, and building
+    OpenTelemetry and eBPF socket-tracing pipelines.'
+  language: English / Spanish
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794737724
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:15:24.071353+01:00'
+  last_ai_eval: '2026-11-15T11:15:24.071353+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - DevOps, IaC, and SRE
+  - Observability and Monitoring
+  - Grafana & Alloy on OpenShift
+  tags:
+  - '[GRAFANA]'
+  - '[ALLOY]'
+  - '[OPENTELEMETRY]'
+  - '[OPENSHIFT]'
+  - '[OBSERVABILITY]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - devops-iac.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Grafana, Alloy & OpenTelemetry
+  category: Observability and Monitoring
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLMgCx_Yg_x48:
+  title: Nubenetes Gateway API & Traefik Ingress Mesh
+  description: 41-part track covering cloud-native ingress routing, east-west and
+    split-horizon FQDN management on AWS, Kubernetes Gateway API, Traefik L7 interception,
+    and Keycloak SSO on OpenShift.
+  year: '2026'
+  stars: 5
+  ai_summary: 'Comprehensive track covering Kubernetes Gateway API and Traefik Ingress
+    Mesh on Red Hat OpenShift: migrating from legacy Ingress/Routes and sidecars,
+    split-horizon DNS and unified east-west FQDN management on AWS, L7 traffic interception,
+    and Keycloak SSO integration.'
+  language: English / Spanish
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794737724
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:15:24.071353+01:00'
+  last_ai_eval: '2026-11-15T11:15:24.071353+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native Core
+  - Networking and Ingress
+  - Gateway API & Traefik Mesh
+  tags:
+  - '[GATEWAY-API]'
+  - '[TRAEFIK]'
+  - '[OPENSHIFT]'
+  - '[NETWORKING]'
+  - '[INGRESS]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - cloud-native.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Gateway API & Traefik Ingress
+  category: Networking and Service Mesh
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc:
+  title: Nubenetes Terraform & Azure DevOps Automation
+  description: 40-part series covering Infrastructure as Code (IaC), Vision 2026 modular
+    Azure Terraform blueprints (English & Spanish), and automated enterprise CI/CD
+    pipelines with Azure DevOps.
+  year: '2026'
+  stars: 5
+  ai_summary: Bilingual (English and Spanish) Infrastructure as Code series covering
+    Vision 2026 core Azure Terraform blueprints, modular IaC architectures, automated
+    validation workflows, and enterprise CI/CD delivery pipelines with Azure DevOps.
+  language: English / Spanish
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794737724
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:15:24.071353+01:00'
+  last_ai_eval: '2026-11-15T11:15:24.071353+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - DevOps, IaC, and SRE
+  - Infrastructure as Code
+  - Terraform & Azure DevOps
+  tags:
+  - '[TERRAFORM]'
+  - '[AZURE-DEVOPS]'
+  - '[AZURE]'
+  - '[IAC]'
+  - '[AUTOMATION]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - devops-iac.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Terraform & Azure DevOps
+  category: DevOps and Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLPVp_aWNumcM:
+  title: Nubenetes GitOps CI/CD (Jenkins & ArgoCD)
+  description: 62-part series covering end-to-end declarative GitOps pipelines combining
+    Jenkins, ArgoCD, Backstage Internal Developer Portals, Golden Path blueprints
+    on GKE/OpenShift, and parameterized k6 load-testing validation.
+  year: '2026'
+  stars: 5
+  ai_summary: Comprehensive GitOps CI/CD track combining Jenkins, ArgoCD, Backstage
+    Internal Developer Portals, GKE and OpenShift Golden Path blueprints, observability
+    integration, and automated parameterized k6 performance testing across the Day
+    0 to decommissioning lifecycle.
+  language: English / Spanish
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: automatic
+  content_hash: null
+  health_score: 100.0
+  last_checked: 1794737724
+  needs_ai_refresh: false
+  discovered_at: '2026-11-15T11:15:24.071353+01:00'
+  last_ai_eval: '2026-11-15T11:15:24.071353+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - DevOps, IaC, and SRE
+  - GitOps & CI/CD
+  - Jenkins, ArgoCD & Backstage
+  tags:
+  - '[GITOPS]'
+  - '[JENKINS]'
+  - '[ARGOCD]'
+  - '[BACKSTAGE]'
+  - '[CICD]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - devops-iac.md
+  youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: GitOps CI/CD (Jenkins & ArgoCD)
+  category: Infrastructure as Code
+  source_provenance: Official @nubenetes YouTube Channel

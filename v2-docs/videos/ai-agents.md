@@ -1237,6 +1237,30 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## AI SRE and Agentic Operations
+
+??? note "🎬 Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing"
+    !!! info "Architectural Summary"
+        14-part architectural series on AI Site Reliability Engineering (AI SRE) and Autonomous Operations: transitioning from reactive on-call triage to progressive AI autonomy using Google SRE agentic principles, the 4-level SRE Trust Ladder, Magentic multi-agent orchestration with Task/Progress Ledgers, human-in-the-loop (HITL) execution guardrails, and closed-loop self-healing remediation pipelines.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLckcDbnSNdbE" title="Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## MCP SRE Agents and Security
+
+??? note "🎬 Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth"
+    !!! info "Architectural Summary"
+        13-part deep-dive and Shorts series covering Model Context Protocol (MCP) SRE agents for Kubernetes infrastructure: replacing N-by-M API glue with stdio/HTTP transports, scoped Kubernetes RBAC guardrails, Myth vs Reality of AI SRE failures, Over-Privileged Trojan Horse risks, Ghostjacking indirect prompt injection via observability logs and alerts, and layered Zero-Trust Defense in Depth.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLa99gsQrC--U" title="Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## LLM Architecture and Post-Training
 
 ??? note "🎬 Stanford CS229: Building Large Language Models (LLMs)"
