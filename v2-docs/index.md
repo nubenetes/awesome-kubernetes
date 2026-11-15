@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20085 total resources analyzed.
-    - **V2 Elite Selection**: 15978 candidates identified (79.55% density ratio).
-    - **AI Enrichment Coverage**: 15978 / 15978 (100.0%)
+    - **V1 Base Inventory**: 20107 total resources analyzed.
+    - **V2 Elite Selection**: 16000 candidates identified (79.57% density ratio).
+    - **AI Enrichment Coverage**: 16000 / 16000 (100.0%)
     - **GitHub Metadata Coverage**: 1837 / 1837 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -106,9 +106,16 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 14, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 15, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Spain</div>
+  <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLckcDbnSNdbE">Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing</a></div>
+  <div class="trending-card__meta">2026-11-15 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Establishes a concrete architectural framework for transitioning enterprise platform teams from reactive on-call duty to autonomous AI SRE operations using progressive trust ladders.</div>
+</div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Networking & Service Mesh</div>
@@ -165,12 +172,19 @@
   <div class="trending-card__meta">2026-11-05 · 6.2k★</div>
   <div class="trending-card__why">Kube-state-metrics is an indispensable cluster service that translates Kubernetes API objects into core operational metrics across all enterprise environments.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">MLOps & Data Science</div>
   <div class="trending-card__title"><a href="https://www.databricks.com/product/artificial-intelligence">Databricks Mosaic AI</a></div>
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">Databricks Mosaic AI represents an industry-standard shift toward unifying Lakehouse data infrastructure with enterprise AI agent evaluation, fine-tuning, and production governance.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Virtualization & Private Cloud</div>
+  <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kubespray">Kubespray</a></div>
+  <div class="trending-card__meta">2026-11-05 · 18.8k★</div>
+  <div class="trending-card__why">It remains the de facto open-source standard for deploying production-grade, highly customizable Kubernetes clusters across bare-metal and private cloud infrastructure.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -206,20 +220,6 @@
   <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
   <div class="trending-card__meta">2026-10-31 · 21.4k★</div>
   <div class="trending-card__why">As the industry-standard CNCF runtime embedded in Kubernetes, containerd forms the core foundation of modern container execution.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Data, Messaging & Storage</div>
-  <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
-  <div class="trending-card__meta">2026-10-30 · 10.4k★</div>
-  <div class="trending-card__why">Velero is the de facto industry standard for Kubernetes cluster disaster recovery, state backup, and persistent volume migration.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">DevOps & Culture</div>
-  <div class="trending-card__title"><a href="https://github.com/devtron-labs/devtron">Devtron</a></div>
-  <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
-  <div class="trending-card__why">Unifies Kubernetes AppOps, GitOps, and observability into a single interface, significantly streamlining enterprise cloud native delivery workflows.</div>
 </div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -265,10 +265,24 @@
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Data, Messaging & Storage</div>
+  <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
+  <div class="trending-card__meta">2026-10-30 · 10.4k★</div>
+  <div class="trending-card__why">Velero is the de facto industry standard for Kubernetes cluster disaster recovery, state backup, and persistent volume migration.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
   <div class="trending-card__meta">2026-11-05 · 5.4k★</div>
   <div class="trending-card__why">The purpose-built, secure, container-optimized host OS underpinning AKS and Microsoft's cloud native container infrastructure.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://github.com/devtron-labs/devtron">Devtron</a></div>
+  <div class="trending-card__meta">2026-10-30 · 5.6k★</div>
+  <div class="trending-card__why">Unifies Kubernetes AppOps, GitOps, and observability into a single interface, significantly streamlining enterprise cloud native delivery workflows.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -282,7 +296,7 @@
   <div class="trending-card__category">Virtualization & Private Cloud</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes/kubeadm">Kubernetes Cluster with Kubeadm</a></div>
   <div class="trending-card__meta">2026-10-29 · 4k★</div>
-  <div class="trending-card__why">Serves as the foundational, CNCF-standard bootstrapping engine powering modern bare-metal and private cloud Kubernetes deployments.</div>
+  <div class="trending-card__why">It serves as the foundational, SIG-maintained bootstrapping standard powering most on-premise and private cloud Kubernetes installations.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
@@ -292,25 +306,11 @@
   <div class="trending-card__why">Provides an open-source, code-first multi-agent development framework with native support for the Model Context Protocol (MCP).</div>
 </div>
 <div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Data, Messaging & Storage</div>
-  <div class="trending-card__title"><a href="https://github.com/CrunchyData/postgres-operator">postgres-operator</a></div>
-  <div class="trending-card__meta">2026-10-21 · 4.5k★</div>
-  <div class="trending-card__why">The Crunchy Data operator provides enterprise-grade automation for running highly available, production-ready PostgreSQL on Kubernetes.</div>
-</div>
-<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
   <div class="trending-card__category">Security & Compliance</div>
   <div class="trending-card__title"><a href="https://github.com/kubescape/kubescape">kubescape</a></div>
   <div class="trending-card__meta">2026-11-05 · 11.8k★</div>
   <div class="trending-card__why">Kubescape provides continuous compliance posture management and risk auditing directly integrated into Kubernetes and CI/CD pipelines.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--high">🟡 HIGH</div>
-  <div class="trending-card__category">OpenShift / Red Hat</div>
-  <div class="trending-card__title"><a href="https://github.com/llm-d/llm-d">llm-d (Kubernetes-Native Distributed LLM Inference)</a></div>
-  <div class="trending-card__meta">2026-11-05 · 5.2k★</div>
-  <div class="trending-card__why">Provides a collaborative, Kubernetes-native inference framework co-engineered by Red Hat to optimize distributed LLM serving using the Gateway API.</div>
 </div>
 </div>
 <label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>

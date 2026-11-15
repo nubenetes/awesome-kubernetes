@@ -1093,6 +1093,18 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Gateway API and Traefik Ingress
+
+??? note "🎬 Nubenetes Gateway API & Traefik Ingress Mesh"
+    !!! info "Architectural Summary"
+        Comprehensive track covering Kubernetes Gateway API and Traefik Ingress Mesh on Red Hat OpenShift: migrating from legacy Ingress/Routes and sidecars, split-horizon DNS and unified east-west FQDN management on AWS, L7 traffic interception, and Keycloak SSO integration.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLMgCx_Yg_x48" title="Nubenetes Gateway API & Traefik Ingress Mesh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Azure Verified Modules AVM
 
 ??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot"
