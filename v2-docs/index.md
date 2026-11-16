@@ -106,7 +106,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 15, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 16, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -142,7 +142,7 @@
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/kaito-project/kaito">KAITO (Kubernetes AI Toolchain Operator)</a></div>
   <div class="trending-card__meta">2026-11-05 · 1k★</div>
-  <div class="trending-card__why">As a CNCF Sandbox operator originated by Azure, KAITO directly bridges Kubernetes and AI by automating right-sized GPU provisioning, inference, and fine-tuning for open-weight models on AKS.</div>
+  <div class="trending-card__why">KAITO is a CNCF Sandbox operator that automates GPU node provisioning and open-weight LLM/SLM inference directly on Kubernetes.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -289,7 +289,7 @@
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
   <div class="trending-card__meta">2026-11-05 · 5.4k★</div>
-  <div class="trending-card__why">Azure Linux serves as the foundational, security-hardened container OS for AKS, dramatically reducing attack surface and footprint for production Kubernetes workloads.</div>
+  <div class="trending-card__why">Azure Linux serves as the hardened, lightweight container-optimized host OS underpinning secure and minimal-footprint AKS deployments.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
