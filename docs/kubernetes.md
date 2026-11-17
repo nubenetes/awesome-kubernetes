@@ -1217,6 +1217,7 @@
 - [stormforge.io: Automated Kubernetes resource management for platform engineering teams to continuously rightsize workloads with HPA compatibility](https://stormforge.io) Stop Setting Kubernetes Requests and Limits. Let machine learning and automation do it for you.
 - [==medium.com/@mathieuces: How to calculate CPU for containers in k8s dynamically ?== 🌟](https://medium.com/@mathieuces/how-to-calculate-cpu-for-containers-in-k8s-dynamically-47a89e3886eb) **Learn how to dynamically calculate CPU for containers in Kubernetes using a strategy that optimizes resource allocation by considering average CPU usage and a safety coefficient**
 - [kondense 🌟](https://github.com/unagex/kondense) Kondense is an automated resource sizing tool. It runs as a sidecar in kubernetes pods.
+- [memorylimit.dev: Kubernetes memory requests and limits calculator](https://memorylimit.dev/kubernetes/) Computes a container's memory request and limit from observed usage (Prometheus or Grafana output, kubectl top), with the sizing model, margins and assumptions documented. Open source; runs entirely in the browser.
 
 ### Kubernetes Scheduler. Kube Scheduler
 
