@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20493 total resources analyzed.
-    - **V2 Elite Selection**: 16367 candidates identified (79.87% density ratio).
-    - **AI Enrichment Coverage**: 16367 / 16367 (100.0%)
+    - **V1 Base Inventory**: 20494 total resources analyzed.
+    - **V2 Elite Selection**: 16368 candidates identified (79.87% density ratio).
+    - **AI Enrichment Coverage**: 16368 / 16368 (100.0%)
     - **GitHub Metadata Coverage**: 1849 / 1849 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -106,7 +106,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 16, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 17, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -191,7 +191,7 @@
   <div class="trending-card__category">Infrastructure as Code</div>
   <div class="trending-card__title"><a href="https://github.com/opentofu/opentofu">OpenTofu Official GitHub Repository</a></div>
   <div class="trending-card__meta">2026-11-02 · 30.7k★</div>
-  <div class="trending-card__why">OpenTofu represents the premier Linux Foundation-governed open-source fork of Terraform, introducing essential innovations like state encryption and community-driven governance.</div>
+  <div class="trending-card__why">Governed by the Linux Foundation, OpenTofu represents a pivotal industry shift toward open-source IaC with major innovations like native state encryption.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -615,7 +615,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="803 resources">Emerging<span class="v2-heat-n">803</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="804 resources">Emerging<span class="v2-heat-n">804</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>

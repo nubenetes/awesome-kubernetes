@@ -25,7 +25,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">Architectural Foundations</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-6" href="/kubernetes/" title="Kubernetes — 663 resources"><span class="topic-heatcell__name">Kubernetes</span><span class="topic-heatcell__n">663</span></a>
+<a class="topic-heatcell th-6" href="/kubernetes/" title="Kubernetes — 664 resources"><span class="topic-heatcell__name">Kubernetes</span><span class="topic-heatcell__n">664</span></a>
 <a class="topic-heatcell th-6" href="/kubernetes-tools/" title="Kubernetes Tools — 644 resources"><span class="topic-heatcell__name">Kubernetes Tools</span><span class="topic-heatcell__n">644</span></a>
 <a class="topic-heatcell th-6" href="/git/" title="Git — 363 resources"><span class="topic-heatcell__name">Git</span><span class="topic-heatcell__n">363</span></a>
 <a class="topic-heatcell th-6" href="/demos/" title="Demos — 354 resources"><span class="topic-heatcell__name">Demos</span><span class="topic-heatcell__n">354</span></a>
@@ -278,7 +278,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Introduction](./introduction.md)** <span class="topic-count">229</span>
 - **[Kubernetes Tools](./kubernetes-tools.md)** <span class="topic-count">644</span>
 - **[Kubernetes Tutorials](./kubernetes-tutorials.md)** <span class="topic-count">47</span>
-- **[Kubernetes](./kubernetes.md)** <span class="topic-count">663</span>
+- **[Kubernetes](./kubernetes.md)** <span class="topic-count">664</span>
 - **[Linux](./linux.md)** <span class="topic-count">202</span>
 - **[Matrix Table](./matrix-table.md)** <span class="topic-count">4</span>
 - **[Mkdocs](./mkdocs.md)** <span class="topic-count">24</span>

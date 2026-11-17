@@ -744028,3 +744028,28 @@ https://www.youtube.com/watch?v=hWe-j78vNpc:
   video_order: 29
   category: AI and Future Operations
   technology: AI Agents and Multi-Repo Workflows
+https://memorylimit.dev/kubernetes:
+  title: 'memorylimit.dev: Kubernetes memory requests and limits calculator'
+  description: ''
+  ai_summary: 'memorylimit.dev: Kubernetes memory requests and limits calculator:
+    Curated technical resource in Kubernetes.'
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Architectural Foundations
+  - Kubernetes
+  - Kubernetes Quality of Service QOS. Kubernetes Resource and Capacity Management.
+    Capacity Planning. Resource Quotas per namespace LimitRanges per namespace Limits
+    and Requests per POD
+  v1_locations:
+  - docs/kubernetes.md
+  v2_locations:
+  - kubernetes.md
+  addition_method: manual
+  discovered_at: '2026-11-17T20:07:35.715168+01:00'
+  tags:
+  - '[EMERGING]'

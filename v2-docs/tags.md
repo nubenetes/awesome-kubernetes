@@ -239,7 +239,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-1" href="#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#emerging" title="803 resources">Emerging<span class="v2-heat-n">803</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#emerging" title="804 resources">Emerging<span class="v2-heat-n">804</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>
@@ -748,7 +748,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 
 1. [De Facto Standard](#de-facto-standard) (1348 resources)
 1. [Enterprise-Stable](#enterprise-stable) (1502 resources)
-1. [Emerging](#emerging) (803 resources)
+1. [Emerging](#emerging) (804 resources)
 1. [Guide](#guide) (1134 resources)
 1. [Case Study](#case-study) (175 resources)
 1. [Community-Tool](#community-tool) (8391 resources)
@@ -996,7 +996,7 @@ Resources indexed by their primary source language or document format.
 ## Emerging {#emerging}
 
 <details markdown="1">
-<summary>Click to view top 100 of 803 resources under Emerging</summary>
+<summary>Click to view top 100 of 804 resources under Emerging</summary>
 
   - **(2026)** [==OpenTofu Official GitHub Repository==](https://github.com/opentofu/opentofu) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — *Go to [Section](./iac.md)*
   - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./devsecops.md)*
@@ -1099,7 +1099,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**Announcing etcd 3.7.0-beta.0 | Kubernetes**](https://kubernetes.io/blog/2026/05/20/etcd-370-beta) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./aws.md)*
   - **(2026)** [**TimeSeries Tiered Storage Journey: Kafka/Flink streams to Native Cassandra cold reads**](https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CASSANDRA]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[FLINK]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[KAFKA]</span> <span class='md-tag md-tag--primary'>[STREAMING]</span> <span class='md-tag md-tag--primary'>[TIME-SERIES]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./aws.md)*
 
-*... and 703 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 704 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -13643,9 +13643,9 @@ Resources indexed by their primary source language or document format.
   - **(2021)** [**blog.sighup.io: How to run Keycloak in HA on Kubernetes**](https://blog.sighup.io/keycloak-ha-on-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./devsecops.md)*
   - **(2021)** [**flink.apache.org: How to natively deploy Flink on Kubernetes with High-Availability (HA)**](https://flink.apache.org/2021/02/10/native-k8s-with-ha.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./message-queue.md)*
   - **(2021)** [**galaxy.ansible.com/nginxinc/nginx_core**](https://galaxy.ansible.com/nginxinc/nginx_core) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./ansible.md)*
-  - **(2026)** [**Ansible Role: Docker 🌟**](https://github.com/geerlingguy/ansible-role-docker) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./ansible.md)*
   - **(2020)** [**thorsten-hans.com: Encrypt your Kubernetes Secrets with Mozilla SOPS**](https://www.thorsten-hans.com/encrypt-your-kubernetes-secrets-with-mozilla-sops) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./devsecops.md)*
   - **(2020)** [**blog.getambassador.io: Step-by-Step Centralized Authentication for Kubernetes with Keycloak and the Ambassador Edge Stack**](https://blog.getambassador.io/centralized-authentication-with-keycloak-and-ambassador-edge-stack-d509ffbc7b6f) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./devsecops.md)*
+  - **(2026)** [**Ansible Role: Docker 🌟**](https://github.com/geerlingguy/ansible-role-docker) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./ansible.md)*
   - **(2024)** [**click-to-deploy/sonarqube**](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./sonarqube.md)*
   - **(2023)** [**fluxcd/flux2-multi-tenancy**](https://github.com/fluxcd/flux2-multi-tenancy) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./flux.md)*
   - **(2021)** [**github.com/oravirt/ansible-oracle**](https://github.com/oravirt/ansible-oracle) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./ansible.md)*
