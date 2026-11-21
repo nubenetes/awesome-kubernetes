@@ -56,6 +56,7 @@
   - [Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) - *(Related to finops topic)*
   - [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) 🌟 - This tutorial guides users on deploying the Deepseek R1 series of open-source Large Language Models (LLMs) on DigitalOcean's GPU Droplets. It leverages Ollama for easy model execution, focusing on the reasoning capabilities of these new LLMs and their potential to match proprietary alternatives.
   - [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai) - *(Related to cicd topic)*
+  - [CIOQuest LLM Cost Calculator](https://cioquest.com/llm-cost-calculator) - Free web calculator that estimates monthly LLM API cost, including cached input and retry overhead; inputs stay in the browser.
 
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops) LLMOps: MLOps for Large Language Models
