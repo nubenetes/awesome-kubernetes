@@ -1105,6 +1105,57 @@ Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore cur
 
     </center>
 
+## WebAuthn Passkeys
+
+??? note "🎬 How WebAuthn Passkeys Kill Passwords [Short]"
+    !!! info "Architectural Summary"
+        This overview highlights transitioning away from brittle password-based authentication toward phishing-resistant WebAuthn Passkeys built on modern browser authentication APIs. In a 2026 Cloud Native architecture, adopting cryptographic, passwordless credentials establishes a stronger Zero Trust identity perimeter across distributed web frontends and Identity Providers (IdPs). It eliminates credential-stuffing and phishing attack vectors while reducing authentication friction and secret-management overhead.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="EdvpdCUaxqc" data-video-url="https://www.youtube.com/embed/EdvpdCUaxqc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/EdvpdCUaxqc/hqdefault.jpg" alt="How WebAuthn Passkeys Kill Passwords [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Red Hat OpenShift
+
+??? note "🎬 How ARO HCP Isolates and Secures Workloads [Short]"
+    !!! info "Architectural Summary"
+        This video explores how Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP) decouples the Kubernetes control plane from tenant worker nodes to establish stronger security boundaries. For 2026 Cloud Native architectures, this hosted control plane model minimizes the blast radius, prevents tenant workloads from accessing sensitive control plane components, and streamlines multi-cluster governance and compliance at scale.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="y-AilodlV0U" data-video-url="https://www.youtube.com/embed/y-AilodlV0U" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/y-AilodlV0U/hqdefault.jpg" alt="How ARO HCP Isolates and Secures Workloads [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Red Hat OpenShift ARO Kubernetes
+
+??? note "🎬 ARO Hosted Control Planes: Security, Governance & Compliance"
+    !!! info "Architectural Summary"
+        This technical deep dive examines the security and governance architecture of Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP), focusing on decoupling the control plane from worker nodes to strengthen tenant isolation. It details how enterprise platform teams can enforce strict network boundaries, integrate Azure RBAC for unified identity management, and streamline regulatory compliance across multi-tenant OpenShift clusters. For 2026 Cloud Native architectures, this hosted model reduces operational blast radius and management overhead while maintaining enterprise-grade security postures at scale.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="YMkrUNCirwM" data-video-url="https://www.youtube.com/embed/YMkrUNCirwM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/YMkrUNCirwM/hqdefault.jpg" alt="ARO Hosted Control Planes: Security, Governance & Compliance" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## NetBox
 
 ??? note "🎬 NetBox Zero To Hero"

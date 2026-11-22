@@ -231,6 +231,23 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     </center>
 
+## CSS Web Platform
+
+??? note "🎬 How CSS Anchor Positioning Replaces JavaScript [Short]"
+    !!! info "Architectural Summary"
+        Demonstrates how native CSS Anchor Positioning enables tooltips, popovers, and floating UI elements without relying on heavy JavaScript positioning libraries. In a 2026 cloud-native web context, shifting dynamic layout logic to native browser primitives reduces client-side JavaScript payloads for cloud dashboards and internal developer portals, lowering CDN egress and improving edge-rendered runtime performance.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Nha_7ErdGTI" data-video-url="https://www.youtube.com/embed/Nha_7ErdGTI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Nha_7ErdGTI/hqdefault.jpg" alt="How CSS Anchor Positioning Replaces JavaScript [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Spring Framework
 
 ??? note "🎬 How a Group of Developers Took Back Control from Enterprise Java | Spring: The Documentary"

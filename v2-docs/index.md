@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20619 total resources analyzed.
-    - **V2 Elite Selection**: 16515 candidates identified (80.1% density ratio).
-    - **AI Enrichment Coverage**: 16515 / 16515 (100.0%)
+    - **V1 Base Inventory**: 20634 total resources analyzed.
+    - **V2 Elite Selection**: 16530 candidates identified (80.11% density ratio).
+    - **AI Enrichment Coverage**: 16530 / 16530 (100.0%)
     - **GitHub Metadata Coverage**: 1849 / 1885 (98.09%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -114,7 +114,7 @@
   <div class="trending-card__category">Spain</div>
   <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLLvKIaVqVF78">Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless</a></div>
   <div class="trending-card__meta">2026-11-15 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">This flagship curriculum and open-source TCO study gives Spanish enterprises—including P3 Regulated Spain Central deployments—a rigorous FinOps model to compare AKS, serverless, and Foundry agentic AI architectures.</div>
+  <div class="trending-card__why">This flagship 12-part curriculum and open-source TCO study establishes a quantitative FinOps framework for comparing Serverless, Microsoft Foundry, AKS, and Container Apps for enterprise agentic AI.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
