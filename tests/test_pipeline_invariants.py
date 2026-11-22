@@ -157,6 +157,16 @@ class TestPipelineInvariants(unittest.TestCase):
             self.assertIn("type: curation-hub", v2_body[:600])
             self.assertIn(EU_SOVEREIGN_BLUEPRINTS[fname].splitlines()[0], v2_body)
 
+        with open(os.path.join(REPO_ROOT, "v2-docs/eu-sovereign-cloud.md"), "r", encoding="utf-8") as f:
+            eu_overview_txt = f.read()
+        self.assertIn('<div class="eu-hub-grid"', eu_overview_txt)
+        for card_slug in eu_slugs[1:]:
+            self.assertIn(f'href="/{card_slug}/"', eu_overview_txt)
+        self.assertLess(
+            eu_overview_txt.index("### European Country and Regional Pre-Sales Hubs"),
+            eu_overview_txt.index("### The 4 Levels of Cloud Sovereignty"),
+        )
+
     def test_announce_banner_preserves_permanent_flagships(self):
         with open(os.path.join(REPO_ROOT, "docs/overrides/main.html"), "r", encoding="utf-8") as f:
             html_txt = f.read()
