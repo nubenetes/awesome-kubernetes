@@ -23,12 +23,155 @@ description: "Top EU Sovereign Cloud Overview & TCO resources for 2026, AI-ranke
 
 ## Executive Architecture: European Sovereign Cloud vs US Hyperscalers (2026)
 
-1. [The 4 Levels of Cloud Sovereignty](#the-4-levels-of-cloud-sovereignty)
-2. [EU Regulatory and Compliance Justification Matrix](#eu-regulatory-and-compliance-justification-matrix)
-3. [Pre-Sales Architecture Decision Flow](#pre-sales-architecture-decision-flow)
-4. [European Country and Regional Pre-Sales Hubs](#european-country-and-regional-pre-sales-hubs)
+1. [European Country and Regional Pre-Sales Hubs](#european-country-and-regional-pre-sales-hubs)
+2. [The 4 Levels of Cloud Sovereignty](#the-4-levels-of-cloud-sovereignty)
+3. [EU Regulatory and Compliance Justification Matrix](#eu-regulatory-and-compliance-justification-matrix)
+4. [Pre-Sales Architecture Decision Flow](#pre-sales-architecture-decision-flow)
 5. [EUR Cost and TCO Benchmarks vs Hyperscalers](#eur-cost-and-tco-benchmarks-vs-hyperscalers)
 6. [When Does Each Cloud Tier Win (Pre-Sales Playbook)](#when-does-each-cloud-tier-win-pre-sales-playbook)
+
+### European Country and Regional Pre-Sales Hubs
+
+Nubenetes V2 provides dedicated field guides for every major European cloud jurisdiction, interconnection hub, and technical cross-cutting architecture:
+
+<div class="eu-hub-grid" aria-label="European Country and Regional Sovereign Cloud Guides">
+  <a class="eu-hub-link" href="/eu-cloud-spain/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇪🇸</span>
+        <span class="eu-hub-title">Spain</span>
+        <span class="eu-hub-badge">ENS Alto</span>
+      </header>
+      <p>Arsys · Gigas · Alhambra IT · Telefonica Tech · Stackscale · ESpanix</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-germany/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇩🇪</span>
+        <span class="eu-hub-title">Germany</span>
+        <span class="eu-hub-badge">BSI C5 · KRITIS</span>
+      </header>
+      <p>STACKIT · IONOS · Hetzner · Open Telekom · PlusServer · DE-CIX</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-france/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇫🇷</span>
+        <span class="eu-hub-title">France</span>
+        <span class="eu-hub-badge">SecNumCloud 3.2</span>
+      </header>
+      <p>OVHcloud · Scaleway · 3DS OUTSCALE · Cloud Temple · Clever Cloud · Marseille</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-italy/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇮🇹</span>
+        <span class="eu-hub-title">Italy</span>
+        <span class="eu-hub-badge">ACN QC3 / AI3</span>
+      </header>
+      <p>Aruba Cloud · Seeweb · WIIT · ReeVo · PSN · MIX Milan</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-benelux/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇳🇱</span>
+        <span class="eu-hub-title">Netherlands &amp; Benelux</span>
+        <span class="eu-hub-badge">AMS-IX · DORA</span>
+      </header>
+      <p>Nebius AI · Leaseweb · Cyso · Leafcloud · LuxConnect · Proximus NXT</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-switzerland-dach/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇨🇭</span>
+        <span class="eu-hub-title">Switzerland &amp; Austria</span>
+        <span class="eu-hub-badge">FINMA · FADP</span>
+      </header>
+      <p>Exoscale · cloudscale.ch · VSHN APPUiO · Infomaniak · Anexia</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-nordics/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇸🇪</span>
+        <span class="eu-hub-title">Nordics</span>
+        <span class="eu-hub-badge">3-AZ · Green AI</span>
+      </header>
+      <p>Elastx · Cleura · UpCloud · Safespring · atNorth · Green Mountain</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-uk/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🇬🇧</span>
+        <span class="eu-hub-title">United Kingdom</span>
+        <span class="eu-hub-badge">NCSC · G-Cloud</span>
+      </header>
+      <p>Civo Sovereign · Pulsant · Brightbox · Redcentric · Nscale · LINX</p>
+      <footer><span class="eu-hub-cta">Explore guide →</span></footer>
+    </article>
+  </a>
+</div>
+
+<div class="eu-hub-grid eu-hub-grid--pillars" aria-label="Cross-Cutting European Cloud Engineering Guides">
+  <a class="eu-hub-link" href="/eu-cloud-iac-maturity/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🏗️</span>
+        <span class="eu-hub-title">IaC Automation &amp; Maturity</span>
+        <span class="eu-hub-badge">OpenTofu · CAPI</span>
+      </header>
+      <p>Coverage scorecard vs hyperscalers (100% baseline) and OpenStack/vCD/Proxmox portability</p>
+      <footer><span class="eu-hub-cta">Open scorecard →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-workloads-stack/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">⚙️</span>
+        <span class="eu-hub-title">Hypervisors, K8s &amp; Sovereign AI</span>
+        <span class="eu-hub-badge">Post-Broadcom</span>
+      </header>
+      <p>Proxmox VE · OpenStack · OpenShift 5 · European NVIDIA H200/B200 AI factories</p>
+      <footer><span class="eu-hub-cta">Open stack guide →</span></footer>
+    </article>
+  </a>
+  <a class="eu-hub-link" href="/eu-cloud-resilience-sla/">
+    <article class="eu-hub-card">
+      <header>
+        <span class="eu-hub-flag" aria-hidden="true">🛡️</span>
+        <span class="eu-hub-title">RPO, RTO, SLAs &amp; DRP</span>
+        <span class="eu-hub-badge">DORA Exit</span>
+      </header>
+      <p>3-AZ reality check, Veeam/Zerto/PBS/CNPG/Velero and 3-2-1-1-0 ransomware vaults</p>
+      <footer><span class="eu-hub-cta">Open resilience guide →</span></footer>
+    </article>
+  </a>
+</div>
+
+| Country / Architecture Hub | Regulatory Regime & Anchor IXP | Top Sovereign Providers & Private DC Ecosystem | Pre-Sales Deep-Dive |
+| :--- | :--- | :--- | :--- |
+| **Germany** | **BSI C5 Type 2**, KRITIS, TISAX · **DE-CIX Frankfurt** | **STACKIT, IONOS, Hetzner, Open Telekom Cloud, PlusServer, SysEleven/secunet, noris, gridscale, Cloud&Heat, Delos**, maincubes / JUPITER | [Germany Sovereign Cloud](/eu-cloud-germany/) |
+| **France** | **ANSSI SecNumCloud 3.2**, HDS · **France-IX & Marseille Subsea** | **OVHcloud, Scaleway, 3DS OUTSCALE, Cloud Temple, Clever Cloud, Ikoula, Bleu, S3NS**, Mistral AI, DATA4 Paris-Saclay, Jean Zay | [France Sovereign Cloud](/eu-cloud-france/) |
+| **Spain** | **ENS Alto (RD 311/2022)** · **ESpanix / DE-CIX Madrid** | **Arsys, Gigas, Alhambra IT, Telefonica Tech, Stackscale, Acens, cdmon**, Merlin-Edged, Digital Realty/Equinix/Nabiax, MareNostrum 5 | [Spain Sovereign Cloud](/eu-cloud-spain/) |
+| **Italy** | **ACN QC3 / AI3**, PSN · **MIX Milan** | **Aruba Cloud, Seeweb, WIIT, ReeVo, TIM Enterprise/Noovle, PSN**, Equinix Milan, CINECA Leonardo | [Italy Sovereign Cloud](/eu-cloud-italy/) |
+| **Netherlands & Benelux** | Dutch **BIO / NEN 7510**, EU DORA · **AMS-IX** | **Nebius AI, Leaseweb, Cyso Cloud, Leafcloud, TransIP, Proximus NXT, LuxConnect, Gcore**, NorthC, Equinix/Digital Realty AMS | [Netherlands & Benelux](/eu-cloud-benelux/) |
+| **Switzerland & Austria (Alpine)** | **FINMA**, Swiss FADP (**revDSG**), Zero CLOUD Act · **SwissIX / VIX** | **Exoscale, Infomaniak, cloudscale.ch, Swisscom, VSHN/APPUiO, Anexia**, Green Datacenter, CSCS Alps | [Switzerland & Austria](/eu-cloud-switzerland-dach/) |
+| **Nordics (SE / FI / NO / IS)** | **eSam / Schrems II**, 100% Hydro/Geothermal · **Netnod** | **UpCloud, Elastx 3-AZ, Cleura SCS, GleSYS, Safespring, evroc, Green Mountain, atNorth, Verne, Bulk**, LUMI | [Nordics Green Cloud](/eu-cloud-nordics/) |
+| **United Kingdom** | **NCSC 14 Principles**, G-Cloud, UK GDPR, FCA · **LINX London** | **Civo UK Sovereign, Pulsant, Brightbox, Redcentric, Nscale**, Telehouse Docklands, Equinix Slough/LD | [United Kingdom Sovereign Cloud](/eu-cloud-uk/) |
+| **Cross-Cutting Engineering** | Multi-Provider IaC, Post-Broadcom Virtualization, DORA RPO/RTO | OpenTofu (`openstack`/`vcd`/`bpg/proxmox`), CAPI, Crossplane, Proxmox/OpenStack/OpenShift 5, Veeam/Zerto/PBS/CNPG/Velero | [IaC Maturity](/eu-cloud-iac-maturity/) · [Stacks & AI](/eu-cloud-workloads-stack/) · [RPO/RTO & DRP](/eu-cloud-resilience-sla/) |
 
 ### The 4 Levels of Cloud Sovereignty
 
@@ -77,22 +220,6 @@ flowchart LR
     H -->|"NVIDIA GPU"| J["EU AI Factories<br/>Nebius · Scaleway · OVH<br/>Seeweb · Merlin-Edged"]
     H -->|"VMware Exit"| K["Hypervisor Migration<br/>Proxmox VE · OpenStack<br/>CloudStack · OpenShift 5"]
 ```
-
-### European Country and Regional Pre-Sales Hubs
-
-Nubenetes V2 provides dedicated field guides for every major European cloud jurisdiction, interconnection hub, and technical cross-cutting architecture:
-
-| Country / Architecture Hub | Regulatory Regime & Anchor IXP | Top Sovereign Providers & Private DC Ecosystem | Pre-Sales Deep-Dive |
-| :--- | :--- | :--- | :--- |
-| **Germany** | **BSI C5 Type 2**, KRITIS, TISAX · **DE-CIX Frankfurt** | **STACKIT, IONOS, Hetzner, Open Telekom Cloud, PlusServer, SysEleven/secunet, noris, gridscale, Cloud&Heat, Delos**, maincubes / JUPITER | [Germany Sovereign Cloud](/eu-cloud-germany/) |
-| **France** | **ANSSI SecNumCloud 3.2**, HDS · **France-IX & Marseille Subsea** | **OVHcloud, Scaleway, 3DS OUTSCALE, Cloud Temple, Clever Cloud, Ikoula, Bleu, S3NS**, Mistral AI, DATA4 Paris-Saclay, Jean Zay | [France Sovereign Cloud](/eu-cloud-france/) |
-| **Spain** | **ENS Alto (RD 311/2022)** · **ESpanix / DE-CIX Madrid** | **Arsys, Gigas, Alhambra IT, Telefonica Tech, Stackscale, Acens, cdmon**, Merlin-Edged, Digital Realty/Equinix/Nabiax, MareNostrum 5 | [Spain Sovereign Cloud](/eu-cloud-spain/) |
-| **Italy** | **ACN QC3 / AI3**, PSN · **MIX Milan** | **Aruba Cloud, Seeweb, WIIT, ReeVo, TIM Enterprise/Noovle, PSN**, Equinix Milan, CINECA Leonardo | [Italy Sovereign Cloud](/eu-cloud-italy/) |
-| **Netherlands & Benelux** | Dutch **BIO / NEN 7510**, EU DORA · **AMS-IX** | **Nebius AI, Leaseweb, Cyso Cloud, Leafcloud, TransIP, Proximus NXT, LuxConnect, Gcore**, NorthC, Equinix/Digital Realty AMS | [Netherlands & Benelux](/eu-cloud-benelux/) |
-| **Switzerland & Austria (Alpine)** | **FINMA**, Swiss FADP (**revDSG**), Zero CLOUD Act · **SwissIX / VIX** | **Exoscale, Infomaniak, cloudscale.ch, Swisscom, VSHN/APPUiO, Anexia**, Green Datacenter, CSCS Alps | [Switzerland & Austria](/eu-cloud-switzerland-dach/) |
-| **Nordics (SE / FI / NO / IS)** | **eSam / Schrems II**, 100% Hydro/Geothermal · **Netnod** | **UpCloud, Elastx 3-AZ, Cleura SCS, GleSYS, Safespring, evroc, Green Mountain, atNorth, Verne, Bulk**, LUMI | [Nordics Green Cloud](/eu-cloud-nordics/) |
-| **United Kingdom** | **NCSC 14 Principles**, G-Cloud, UK GDPR, FCA · **LINX London** | **Civo UK Sovereign, Pulsant, Brightbox, Redcentric, Nscale**, Telehouse Docklands, Equinix Slough/LD | [United Kingdom Sovereign Cloud](/eu-cloud-uk/) |
-| **Cross-Cutting Engineering** | Multi-Provider IaC, Post-Broadcom Virtualization, DORA RPO/RTO | OpenTofu (`openstack`/`vcd`/`bpg/proxmox`), CAPI, Crossplane, Proxmox/OpenStack/OpenShift 5, Veeam/Zerto/PBS/CNPG/Velero | [IaC Maturity](/eu-cloud-iac-maturity/) · [Stacks & AI](/eu-cloud-workloads-stack/) · [RPO/RTO & DRP](/eu-cloud-resilience-sla/) |
 
 ### EUR Cost and TCO Benchmarks vs Hyperscalers
 
