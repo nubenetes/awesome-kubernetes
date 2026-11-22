@@ -135,6 +135,40 @@ class TestPipelineInvariants(unittest.TestCase):
             self.assertIn("type: curation-hub", v2_body[:600])
             self.assertIn(EU_SOVEREIGN_BLUEPRINTS[fname].splitlines()[0], v2_body)
 
+    def test_announce_banner_preserves_permanent_flagships(self):
+        with open(os.path.join(REPO_ROOT, "docs/overrides/main.html"), "r", encoding="utf-8") as f:
+            html_txt = f.read()
+        m = re.search(r"\{%\s*block announce\s*%\}(.*?)\{%\s*endblock\s*%\}", html_txt, re.DOTALL)
+        self.assertIsNotNone(m, "announce block must exist in docs/overrides/main.html")
+        banner = m.group(1)
+        for href in (
+            "/eu-sovereign-cloud/",
+            "/eu-cloud-spain/",
+            "/ocp5/",
+            "/ai-rag-okf/",
+            "/tech-digest/",
+            "/videos/",
+        ):
+            self.assertIn(href, banner, f"Permanent link {href} missing from announce banner")
+
+    def test_v2_mermaid_blocks_have_bounded_line_lengths(self):
+        for rel in ("v2-docs/eu-sovereign-cloud.md", "v2-docs/introduction.md"):
+            with open(os.path.join(REPO_ROOT, rel), "r", encoding="utf-8") as f:
+                txt = f.read()
+            blocks = re.findall(r"```mermaid\n(.*?)\n```", txt, re.DOTALL)
+            self.assertGreaterEqual(len(blocks), 1, f"Expected Mermaid diagram in {rel}")
+            for block in blocks:
+                body = re.sub(r"%%\{.*?\}%%", "", block, flags=re.DOTALL)
+                for label in re.findall(r'(?:\"([^\"]+)\"|[\[{]\(?([^\]}\n]+)\)?)', body):
+                    raw = label[0] or label[1]
+                    for part in re.split(r"<br\s*/?>", raw):
+                        clean = part.strip().strip('"')
+                        self.assertLessEqual(
+                            len(clean),
+                            32,
+                            f"Mermaid line too long ({len(clean)} chars) in {rel}: {clean!r}",
+                        )
+
     def test_boilerplate_and_historical_heuristics(self):
         from src.fast_enrich import is_boilerplate_summary
         from src.v2_optimizer import V2VisionEngine

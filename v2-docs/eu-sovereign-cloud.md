@@ -58,17 +58,21 @@ description: "Top EU Sovereign Cloud Overview & TCO resources for 2026, AI-ranke
 ### Pre-Sales Architecture Decision Flow
 
 ```mermaid
-flowchart TD
-    A["Workload Assessment"] --> B{"Requires L4 Legal Sovereignty?<br/>(ENS Alto / SecNumCloud / Zero CLOUD Act)"}
-    B -- Yes --> C{"Primary Country / Market?"}
-    C -- Spain --> D["Spain Tier: Arsys / Gigas / Alhambra IT / Telefonica Tech / Stackscale + MAD Colocation"]
-    C -- "France / Germany / IT / UK" --> E["EU Tier-1: Outscale / OVHcloud / Scaleway / STACKIT / IONOS / Aruba / Civo / Cleura"]
-    B -- No --> F{"Need Proprietary Cloud PaaS?<br/>(Bedrock / Foundry / BigQuery / Global PoPs)"}
-    F -- Yes --> G["Keep Hyperscaler L1/L2 + Add EU Sovereign Exit/Backup Vault (DORA)"]
-    F -- No --> H{"High Egress, Steady 24x7 Compute or GPU AI?"}
-    H -- "High Egress / General 24x7 K8s" --> I["EU Elastic Cloud / Bare Metal: Hetzner / OVHcloud / Scaleway / UpCloud (40-75% Savings)"]
-    H -- "NVIDIA H100/H200/B200 Training/Inference" --> J["EU AI Factory: Nebius / Scaleway / OVHcloud / Seeweb / Merlin-Edged Liquid Colocation"]
-    H -- "Broadcom VMware License Renewal Shock" --> K["Migrate to Proxmox VE + Ceph, OpenStack SCS, CloudStack, or OpenShift Virtualization 5"]
+%%{init: {'themeVariables': {'fontSize': '14px'}, 'flowchart': {'htmlLabels': false, 'nodeSpacing': 36, 'rankSpacing': 64, 'padding': 16}}}%%
+flowchart LR
+    A(["Workload<br/>Assessment"]) --> B{{"L4 Legal<br/>Sovereignty?"}}
+
+    B -->|"Yes"| C{{"Target<br/>Market?"}}
+    C -->|"Spain"| D["Spain Sovereign Tier<br/>Arsys · Gigas · Alhambra<br/>Telefonica · Stackscale"]
+    C -->|"EU / UK"| E["EU Tier-1 Sovereign<br/>Outscale · OVH · Scaleway<br/>STACKIT · IONOS · Aruba"]
+
+    B -->|"No"| F{{"Proprietary<br/>Cloud PaaS?"}}
+    F -->|"Yes"| G["Hyperscaler L1 / L2<br/>+ EU Sovereign DR Vault<br/>(DORA Exit Plan)"]
+    F -->|"No"| H{{"Primary<br/>Driver?"}}
+
+    H -->|"High Egress"| I["EU Cloud / Bare Metal<br/>Hetzner · OVH · Scaleway<br/>UpCloud (40-75% Less)"]
+    H -->|"NVIDIA GPU"| J["EU AI Factories<br/>Nebius · Scaleway · OVH<br/>Seeweb · Merlin-Edged"]
+    H -->|"VMware Exit"| K["Hypervisor Migration<br/>Proxmox VE · OpenStack<br/>CloudStack · OpenShift 5"]
 ```
 
 ### EUR Cost and TCO Benchmarks vs Hyperscalers
