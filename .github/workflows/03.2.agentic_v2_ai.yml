@@ -1,11 +1,11 @@
 name: 03.2. V2 AI Curator
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'data/inventory.yaml'
+  # Decoupled from `push: master` so routine deploys / pre-rendered PRs never
+  # burn Gemini API tokens. Runs automatically after 03.1 Metadata Engine, on
+  # a weekly Sunday sweep (ahead of Monday's 09. Weekly Digest), or on demand.
+  schedule:
+    - cron: '0 4 * * 0'  # Weekly Sunday 04:00 UTC
   workflow_run:
     workflows: ["03.1. V2 Metadata Engine"]
     branches: [master]
