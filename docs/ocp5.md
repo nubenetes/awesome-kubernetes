@@ -83,7 +83,7 @@ Curated architectural reference and resource hub for **Red Hat OpenShift Contain
 ## OKD 5 Community Distribution
 
 - **(2026)** [GitHub: okd-project/okd-scos (OKD 5 on CentOS Stream CoreOS)](https://github.com/okd-project/okd-scos) 🌟 - Upstream CentOS Stream CoreOS (SCOS) build and release repository powering OKD 5, aligning community OpenShift releases with Kubernetes 1.36, RHEL 10 lineage, and OLM v1.
-- **(2026)** [OKD Official Blog](https://okd.io/blog/) 🌟 - Official OKD working group announcements covering OKD 5 milestones, Stream CoreOS transitions, community operator updates, and architectural deep dives.
+- **(2026)** [OKD Official Blog](https://okd.io/blog) 🌟 - Official OKD working group announcements covering OKD 5 milestones, Stream CoreOS transitions, community operator updates, and architectural deep dives.
 - **(2026)** [GitHub: okd-project/okd (OKD 5)](https://github.com/okd-project/okd) 🌟 - Official upstream community distribution of Kubernetes powering Red Hat OpenShift 5, tracking Kubernetes 1.36, CentOS Stream CoreOS (SCOS) / Fedora CoreOS foundations, and OLM v1 releases.
 
 ---
