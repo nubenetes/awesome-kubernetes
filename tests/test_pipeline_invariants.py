@@ -200,6 +200,18 @@ class TestPipelineInvariants(unittest.TestCase):
                             32,
                             f"Mermaid line too long ({len(clean)} chars) in {rel}: {clean!r}",
                         )
+            if rel == "v2-docs/eu-sovereign-cloud.md":
+                for hub_label in (
+                    "Germany Sovereign",
+                    "France Sovereign",
+                    "Netherlands & Benelux",
+                    "Switzerland & Austria",
+                    "Spain Sovereign",
+                    "Italy Sovereign",
+                    "Nordics 3-AZ & Green",
+                    "United Kingdom",
+                ):
+                    self.assertIn(hub_label, blocks[0])
 
     def test_boilerplate_and_historical_heuristics(self):
         from src.fast_enrich import is_boilerplate_summary
