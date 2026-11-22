@@ -279,6 +279,15 @@ nav:
     - "IaC Automation & Maturity vs Hyperscalers": eu-cloud-iac-maturity.md
     - "Hypervisors, IaaS, K8s & Sovereign AI": eu-cloud-workloads-stack.md
     - "RPO, RTO, SLAs, DRP & Replication": eu-cloud-resilience-sla.md
+  - "Neoclouds & GPU AI Clouds":
+    - "Neoclouds Overview, Sovereign Overlap & TCO": neoclouds.md
+    - "European Neoclouds & Country AI Factories": neoclouds-europe.md
+    - "North America Neoclouds (US & Canada)": neoclouds-north-america.md
+    - "Asia-Pacific Neoclouds & AI Clouds": neoclouds-apac.md
+    - "Middle East & GCC Sovereign AI Factories": neoclouds-mena.md
+    - "Latin America & Africa AI Cloud Hubs": neoclouds-latam-africa.md
+    - "GPU Fabrics, InfiniBand, Slurm vs K8s & Storage": neoclouds-architecture-stack.md
+    - "Neocloud IaC Maturity, GPU FinOps & SLAs": neoclouds-iac-finops-sla.md
   - "Networking & Service Mesh":
     - "Caching": caching.md
     - "Cloudflare": cloudflare.md

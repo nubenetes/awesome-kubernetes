@@ -19,7 +19,7 @@ description: "Top AWS resources for 2026, AI-ranked: AI on EKS (AWS Labs), Amazo
     Detailed reference for Public Cloud Provider. Amazon Web Services in the context of Cloud Providers (Hyperscalers).
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Serverless](aws-serverless.md) · [Storage](aws-storage.md) · [Networking](aws-networking.md) · [Security](aws-security.md) · [IaC](aws-iac.md) · [Backup](aws-backup.md) · [New Features](aws-newfeatures.md) · [EU Sovereign Cloud Alternatives](eu-sovereign-cloud.md)
+    [Serverless](aws-serverless.md) · [Storage](aws-storage.md) · [Networking](aws-networking.md) · [Security](aws-security.md) · [IaC](aws-iac.md) · [Backup](aws-backup.md) · [New Features](aws-newfeatures.md) · [EU Sovereign Cloud Alternatives](eu-sovereign-cloud.md) · [Neoclouds & GPU AI Clouds](neoclouds.md)
 
 ## AI Agents And MCP
 

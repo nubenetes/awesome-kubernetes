@@ -231,6 +231,9 @@ flowchart LR
 | **High-Bandwidth SaaS, Streaming, CDN Origin, or AI Dataset Hub** | **OVHcloud, Scaleway, Hetzner, Leaseweb, Stackscale, or UpCloud** | Zero or massively included egress eliminates 50–80% of monthly cloud bills across Europe. | Verify inter-region vs internet egress fine print (some providers meter inter-DC private trunking differently). |
 | **Pure GitOps / Kubernetes Platform Team (Terraform + Argo + Talos)** | **Scaleway, OVHcloud, STACKIT, IONOS, Exoscale, Cleura, Elastx, Civo, or Hetzner** | Mature OpenTofu/CAPI/Crossplane providers (75–85% parity) + Managed K8s or bare metal with Talos Linux. | Confirm OIDC workload identity and BGP LoadBalancer automation before committing to zero-touch pipelines. |
 | **Enterprise With Heavy Serverless / Event-Driven / BigQuery Dependency** | **Keep AWS / Azure / GCP** (+ S3 sovereign EU backup vault) | Managed PaaS depth (Lambda, DynamoDB, BigQuery, Foundry/Bedrock) saves 3–6 FTE platform engineers. | Never underestimate the refactoring cost of proprietary managed DBs/queues during a rushed "lift-and-exit" pitch. |
+
+!!! tip "Looking for GPU-First AI Neoclouds and Global Sovereign AI Factories?"
+    Explore Nubenetes V2's dedicated **[Neoclouds &amp; GPU AI Clouds](/neoclouds/)** pillar and **[European Neoclouds &amp; Country AI Factories](/neoclouds-europe/)** field guide for global InfiniBand H200/GB200 NVL72 comparisons, **Neocloud vs Sovereign Cloud (`CLOUD Act`)** overlap analysis, and pan-continental AI infrastructure across Europe, North America, APAC, MENA, LatAm, and Africa.
 """,
     "eu-cloud-spain.md": """## Pre-Sales Field Guide: Spain Sovereign Cloud and Private Data Centers
 
@@ -740,6 +743,8 @@ Do **not** blindly put every workload on virtualized cloud instances. Pitch **De
 | **Seeweb (Italy)** | Dedicated **H100 / L40S / A100** pods & K8s nodes | **Italy/EU L4** (GDPR + EU AI Act ready) | K8s GPU nodes, bare-metal inference, custom RAG stacks | Southern European / Italian enterprises requiring bespoke dedicated GPU servers in EU |
 | **Merlin-Edged & Spain Colocation** | Liquid-cooled **100 kW+ racks** ready for **NVIDIA GB200 NVL72** | **100% Spanish Private Facility (`ENS Alto` capable)** | **Red Hat OpenShift AI (RHOAI) + `llm-d` + Mistral/EuroLLM/OKF** | Sovereign Spanish banking, defense, telco AI factories requiring physical air-gap / direct rack custody |
 | **MareNostrum 5 (BSC Barcelona)** | Thousands of **NVIDIA Hopper H100** GPUs | **European / Spanish EuroHPC Public AI Factory** | Slurm, PyTorch, **Salamandra / ALIA** multilingual European models | R&D consortia, European SMEs (AI Factory grants), Iberian/European sovereign foundation model training |
+
+*Deep-dive companion guide: [European Neoclouds &amp; Country AI Factories](/neoclouds-europe/) · [GPU Fabrics, InfiniBand, Slurm vs K8s &amp; AI Storage](/neoclouds-architecture-stack/).*
 """,
     "eu-cloud-resilience-sla.md": """## Pre-Sales Engineering Guide: RPO, RTO, SLAs, Multi-DC DRP and Replication
 

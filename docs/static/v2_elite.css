@@ -1615,6 +1615,8 @@ input[type="text"] {
 #nb-pop-ocp      { position-anchor: --nb-a-ocp; }
 [popovertarget="nb-pop-eu-sovereign"] { anchor-name: --nb-a-eu-sovereign; }
 #nb-pop-eu-sovereign { position-anchor: --nb-a-eu-sovereign; }
+[popovertarget="nb-pop-neoclouds"] { anchor-name: --nb-a-neoclouds; }
+#nb-pop-neoclouds { position-anchor: --nb-a-neoclouds; }
 .nb-quicknav__menu {
   inset: auto; /* reset the UA-centered popover defaults */
   margin: 0;
