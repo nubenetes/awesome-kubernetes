@@ -184,7 +184,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
   - **(2020)** [piotrminkowski.com: Spring Boot on Kubernetes with Buildpacks and Skaffold 🌟](https://piotrminkowski.com/2020/12/18/spring-boot-on-kubernetes-with-buildpacks-and-skaffold) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-velocity development workflow blueprint leveraging Cloud Native Buildpacks and Skaffold to accelerate Java Spring Boot coding loops on Kubernetes. Minimizes manual Dockerfile maintenance and streamlines instantaneous hot-reloading code modifications into active development clusters.
 #### Project Bootstrapping
 
-  - **(2026)** [Spring Initializr 🌟](https://start.spring.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier initialization dashboard for the Spring ecosystem. Incorporates direct dependency bindings to native Kubernetes microservices components, generating pre-configured templates with container-ready, cloud-native properties.
+  - **(2026)** [Spring Initializr 🌟](https://start.spring.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — The premier initialization dashboard for the Spring ecosystem. Incorporates direct dependency bindings to native Kubernetes microservices components, generating pre-configured templates with container-ready, cloud-native properties.
 ### Microservices Showcase (1)
 
 #### Spring Boot
@@ -1017,7 +1017,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 #### Enterprise Dev
 
-  - **(2021)** [youtube: GitOps Guide to the Galaxy (Ep 12): Flux On OpenShift](https://www.youtube.com/watch?v=W_rcYPZkhFg&ab_channel=RedHat) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video guide examining GitOps operations using Flux v2 inside Red Hat OpenShift. Discusses enterprise concerns such as overcoming strict Security Context Constraints (SCC) and integrating with corporate OAuth configurations.
+  - **(2021)** [youtube: GitOps Guide to the Galaxy (Ep 12): Flux On OpenShift](https://www.youtube.com/watch?v=W_rcYPZkhFg&ab_channel=RedHat) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Video guide examining GitOps operations using Flux v2 inside Red Hat OpenShift. Discusses enterprise concerns such as overcoming strict Security Context Constraints (SCC) and integrating with corporate OAuth configurations.
 ## Gitops and Declarative Git (1)
 
 ### Developer Platforms (2)
@@ -1094,7 +1094,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 #### High Availability (1)
 
-  - **(2021)** [github.com/developer-guy: Set up HA k3s cluster on DigitalOcean using Terraform' + Ansible](https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3s-on-digitalocean) <span class='md-tag md-tag--info'>⭐ 48</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7cb81ead" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 12 L 30 3 L 40 2 L 50 12" fill="none" stroke="url(#spark-grad-7cb81ead)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An infrastructure-as-code repository detailing the programmatic deployment of a highly available, light K3s cluster topology on DigitalOcean. Harnesses Terraform for provisioning underlying hypervisors and networking, combined with Ansible for control-plane configuration and secure node-pooling.
+  - **(2021)** [github.com/developer-guy: Set up HA k3s cluster on DigitalOcean using Terraform' + Ansible](https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3s-on-digitalocean) <span class='md-tag md-tag--info'>⭐ 48</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7cb81ead" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 12 L 30 3 L 40 2 L 50 12" fill="none" stroke="url(#spark-grad-7cb81ead)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — An infrastructure-as-code repository detailing the programmatic deployment of a highly available, light K3s cluster topology on DigitalOcean. Harnesses Terraform for provisioning underlying hypervisors and networking, combined with Ansible for control-plane configuration and secure node-pooling.
 ### Stateful Applications
 
 #### Mail Services
@@ -1123,7 +1123,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 #### OKD Community Platform
 
-  - **(2020)** [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles core workshop resources on OKD 4 deployment, testing, and lifecycle patterns. Explores underlying Fedora CoreOS operating mechanics and bootstrap procedures for community-led OpenShift clusters.
+  - **(2020)** [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Compiles core workshop resources on OKD 4 deployment, testing, and lifecycle patterns. Explores underlying Fedora CoreOS operating mechanics and bootstrap procedures for community-led OpenShift clusters.
 #### Red Hat ACM
 
   - **(2020)** [Advanced Cluster Management Demos](https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated playlist of technical capabilities inside Red Hat Advanced Cluster Management (ACM), focusing on policy enforcement, lifecycle orchestration, and multi-cluster visualization.
@@ -1244,7 +1244,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 #### Installation
 
-  - **(2020)** [youtube: CodeReady Containers - Easy OpenShift Container Platform 4.5 Installation](https://www.youtube.com/watch?v=CJMdSQVFVik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video walk-through highlighting automated local configuration of OpenShift Platform 4.5 using CodeReady Containers. It simplifies hypervisor set up and cluster bootstrapping, serving as a historical baseline for modern Red Hat OpenShift Local techniques.
+  - **(2020)** [youtube: CodeReady Containers - Easy OpenShift Container Platform 4.5 Installation](https://www.youtube.com/watch?v=CJMdSQVFVik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — A video walk-through highlighting automated local configuration of OpenShift Platform 4.5 using CodeReady Containers. It simplifies hypervisor set up and cluster bootstrapping, serving as a historical baseline for modern Red Hat OpenShift Local techniques.
 #### Process Automation (1)
 
   - **(2020)** [CodeReady Containers - Red Hat Decision Manager Install Demo](https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An automated installation demo for launching Red Hat Decision Manager on CodeReady Containers (CRC). While valuable for understanding legacy deployment footprints, modern architectures replace CRC with Red Hat OpenShift Local and migrate Decision Manager patterns onto newer cloud-native rule engines.
@@ -1388,7 +1388,7 @@ Live Grounding: The 9 distinct demos present low-latency, real-world execution o
 
 #### Openshift (2)
 
-  - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
+  - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
 ### Gitops and Deployment
 
 #### Flux Ecosystem
@@ -1628,5 +1628,5 @@ Live Grounding: Built by a non-technical editor, the interactive application sho
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [DevSecOps](./devsecops.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

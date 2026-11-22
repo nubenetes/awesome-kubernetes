@@ -49,7 +49,7 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
 
 #### Multi-region Architectures
 
-  - **(2021)** [Building an active-active, latency-based application across multiple Regions 🌟](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines patterns for constructing active-active, latency-routed storage setups across multiple geographical AWS Regions. Focuses on orchestrating distributed systems with zero-RTO ambitions, detailing replication policies, DNS-level routing strategies, and conflict-free data synchronization. Key trade-offs in consistency and replication lag are analyzed to build resilient enterprise services.
+  - **(2021)** [Building an active-active, latency-based application across multiple Regions 🌟](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Outlines patterns for constructing active-active, latency-routed storage setups across multiple geographical AWS Regions. Focuses on orchestrating distributed systems with zero-RTO ambitions, detailing replication policies, DNS-level routing strategies, and conflict-free data synchronization. Key trade-offs in consistency and replication lag are analyzed to build resilient enterprise services.
 ### Storage
 
 #### AWS EFS
@@ -90,7 +90,7 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
   - **(2026)** [S3 FAQ](https://aws.amazon.com/s3/faqs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative FAQ database for Amazon Simple Storage Service (S3). Details critical technical specs, replication topologies, consistency models, and performance ceilings. Essential architectural standard for designing large cloud-native storage systems.
 #### Private Connectivity
 
-  - **(2022)** [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A security-focused guide detailing how to mount and connect AWS S3 File Gateways securely using AWS PrivateLink endpoints. Eliminates exposure to the public internet by keeping all backup transactions fully routed within local corporate VPC networks.
+  - **(2022)** [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A security-focused guide detailing how to mount and connect AWS S3 File Gateways securely using AWS PrivateLink endpoints. Eliminates exposure to the public internet by keeping all backup transactions fully routed within local corporate VPC networks.
 #### S3 Architecture
 
   - **(2022)** [cloudkatha.com: Is S3 Region Specific or Global? What do you think?](https://cloudkatha.com/is-s3-region-specific-or-global-what-do-you-think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural exploration of S3's unique global namespace structure contrasted with its region-restricted data placement paradigms. Essential reading for platform architects designing multi-region, low-latency backup structures or dynamic global CDNs.
@@ -130,5 +130,5 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
 ---
 💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Uncategorized](./uncategorized.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

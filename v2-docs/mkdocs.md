@@ -38,7 +38,7 @@ description: "Top MkDocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
 
 #### Pandoc Conversions
 
-  - **(2022)** [build5nines.com: GitHub Actions: Run Pandoc to convert Markdown to Word Document](https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-document) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical CI/CD automation guide explaining how to integrate Pandoc within GitHub Actions workflows to programmatically convert Markdown documentation into Microsoft Word format. Solves friction points in corporate pipelines where business stakeholders require standard office documents built directly from Git repositories.
+  - **(2022)** [build5nines.com: GitHub Actions: Run Pandoc to convert Markdown to Word Document](https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-document) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical CI/CD automation guide explaining how to integrate Pandoc within GitHub Actions workflows to programmatically convert Markdown documentation into Microsoft Word format. Solves friction points in corporate pipelines where business stakeholders require standard office documents built directly from Git repositories.
 #### Static Hosting
 
   - **(2022)** [thomasthornton.cloud: Deploying MkDocs to GitHub Pages with GitHub Actions](https://thomasthornton.cloud/deploying-mkdocs-to-github-pages-with-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A pipeline tutorial detailing GitHub Actions workflows configured to auto-compile MkDocs sources and deploy the generated static pages to GitHub Pages. It highlights secure token usage, automated branch creation, and caching mechanisms to optimize documentation build speeds.
@@ -98,7 +98,7 @@ description: "Top MkDocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
 #### WYSIWYG Integrations
 
   - **(2022)** [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical exploration of Google's Markdown shortcut updates. Details productivity benefits for technical writers who need to seamlessly transition text-based formats between IDE files and collaborative company workspaces.
-  - **(2022)** [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report covering the expansion of native Markdown auto-formatting support in Google Docs. Signals the increasing migration of engineering documentation workflows into mainstream, corporate office applications, bridging the gap between developers and business analysts.
+  - **(2022)** [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — An industry report covering the expansion of native Markdown auto-formatting support in Google Docs. Signals the increasing migration of engineering documentation workflows into mainstream, corporate office applications, bridging the gap between developers and business analysts.
 #### Web Editors
 
   - **(2020)** [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep developer retrospective explaining how the Forem engineering team built their optimized web markdown toolbar. Explores UI/UX constraints, raw JS selection insertion techniques, and accessibility-compliant inputs. Highly valuable for front-end platform architects building internal developer tools.
@@ -128,5 +128,5 @@ description: "Top MkDocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

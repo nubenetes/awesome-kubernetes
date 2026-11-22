@@ -49,6 +49,13 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
       <div class="hero-badge-subtitle">Foundry · Bedrock · Vertex</div>
     </div>
   </a>
+  <a href="/eu-sovereign-cloud/" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--indigo">
+      <div class="hero-badge-icon">🇪🇺</div>
+      <div class="hero-badge-title">EU Sovereign Cloud</div>
+      <div class="hero-badge-subtitle">Spain · EU · IaC &amp; TCO</div>
+    </div>
+  </a>
   <a href="/ai-agents-mcp/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--purple">
       <img src="/images/ai_agents_logo.png" alt="AI & MCP Agents"/>
@@ -103,12 +110,12 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
     2. **Baseline-Mapped Layer**: Verified links mapped into the taxonomy and progressively upgraded during scheduled weekly AI sweeps.
 
     **Verified Inventory & Trust Metrics:**
-    - **V1 Base Archive**: 20,637 total resources indexed since 2018.
-    - **V2 Elite Selection**: 16,534 curated references (80.1% density ratio).
-    - **Verified Online Links**: 12,465 / 16,534 (75.4%)
-    - **Fresh Ecosystem Signal (2025–2026)**: 3,646 recently published or actively maintained resources.
-    - **Deep AI Architectural Summaries**: 11,321 / 16,534 (68.5%) *(+5,213 baseline-mapped entries queued for progressive refresh)*
-    - **GitHub Metadata & SPDX Licenses**: 1,886 / 1,886 (100.0%) repositories tracked (1,445 with verified open-source licenses)
+    - **V1 Base Archive**: 20,728 total resources indexed since 2018.
+    - **V2 Elite Selection**: 16,625 curated references (80.2% density ratio).
+    - **Verified Online Links**: 12,556 / 16,625 (75.5%)
+    - **Fresh Ecosystem Signal (2025–2026)**: 3,737 recently published or actively maintained resources.
+    - **Deep AI Architectural Summaries**: 11,412 / 16,625 (68.6%) *(+5,213 baseline-mapped entries queued for progressive refresh)*
+    - **GitHub Metadata & SPDX Licenses**: 1,886 / 1,910 (98.7%) repositories tracked (1,445 with verified open-source licenses)
     - **CNCF Landscape Projects Tracked**: 64 projects (Graduated, Incubating, Sandbox)
     - **OKF v0.3 & AI Endpoints**: [`/llms.txt`](/llms.txt) · [`/llms-full.txt`](/llms-full.txt) · [`/api/index.json`](/api/index.json)
 
@@ -624,6 +631,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#domain-specific-ai" title="1 resources">Domain-Specific-Ai<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dpu" title="2 resources">Dpu<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#dra" title="3 resources">Dra<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#drp-resilience" title="249 resources">DRP-RESILIENCE<span class="v2-heat-n">249</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dsx-maxlps" title="1 resources">Dsx-Maxlps<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dynamodb" title="1 resources">Dynamodb<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#e-commerce" title="1 resources">E-Commerce<span class="v2-heat-n">1</span></a>
@@ -638,7 +646,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="943 resources">Emerging<span class="v2-heat-n">943</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="1034 resources">Emerging<span class="v2-heat-n">1034</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>
@@ -702,7 +710,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gpt-6" title="7 resources">Gpt-6<span class="v2-heat-n">7</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gpt-live" title="1 resources">Gpt-Live<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gpt-rosalind" title="1 resources">Gpt-Rosalind<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#gpu" title="201 resources">GPU<span class="v2-heat-n">201</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#gpu" title="210 resources">GPU<span class="v2-heat-n">210</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gpu-acceleration" title="4 resources">Gpu-Acceleration<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gpu-io" title="1 resources">Gpu-Io<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gpu-management" title="1 resources">Gpu-Management<span class="v2-heat-n">1</span></a>
@@ -737,6 +745,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hybrid-models" title="1 resources">Hybrid-Models<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hybrid-search" title="1 resources">Hybrid-Search<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hyper-scale" title="1 resources">Hyper-Scale<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#hypervisor" title="80 resources">HYPERVISOR<span class="v2-heat-n">80</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#iac" title="43 resources">IAC<span class="v2-heat-n">43</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#iam" title="1 resources">Iam<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#identity-management" title="1 resources">Identity-Management<span class="v2-heat-n">1</span></a>
@@ -797,7 +806,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lateral-movement" title="1 resources">Lateral-Movement<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#leaderboard" title="1 resources">Leaderboard<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lean" title="1 resources">Lean<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="656 resources">Legacy<span class="v2-heat-n">656</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="657 resources">Legacy<span class="v2-heat-n">657</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#legal" title="2 resources">Legal<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#legal-tech" title="2 resources">Legal-Tech<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lfm" title="1 resources">Lfm<span class="v2-heat-n">1</span></a>
@@ -806,7 +815,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#linux" title="2 resources">Linux<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#live-streaming" title="1 resources">Live-Streaming<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llama-cpp" title="1 resources">Llama-Cpp<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="203 resources">LLM<span class="v2-heat-n">203</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="204 resources">LLM<span class="v2-heat-n">204</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-agents" title="2 resources">Llm-Agents<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-benchmarks" title="1 resources">Llm-Benchmarks<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-compression" title="1 resources">Llm-Compression<span class="v2-heat-n">1</span></a>
@@ -1046,6 +1055,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#software-engineering" title="1 resources">Software-Engineering<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#software-lifecycle" title="1 resources">Software-Lifecycle<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#sovereign-ai" title="2 resources">Sovereign-Ai<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#sovereign-eu" title="109 resources">SOVEREIGN-EU<span class="v2-heat-n">109</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#spanish-content" title="213 resources">Spanish<span class="v2-heat-n">213</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#specialization" title="1 resources">Specialization<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#speculative-decoding" title="2 resources">Speculative-Decoding<span class="v2-heat-n">2</span></a>

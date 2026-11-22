@@ -31,7 +31,7 @@ description: "Curated, AI-ranked Matrix Table resources for the 2026 Cloud Nativ
 
 #### State Of DevOps. Googles DevOps Research And Assessment DORA
 
-  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
+  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
 ## Platform Architecture
 
 ### Cloud Providers
@@ -39,10 +39,10 @@ description: "Curated, AI-ranked Matrix Table resources for the 2026 Cloud Nativ
 #### Managed Kubernetes Comparison
 
   - **(2021)** [Learnk8s: Comparison of Kubernetes Managed Services 🌟](https://docs.google.com/spreadsheets/d/1RPpyDOLFmcgxMCpABDzrsBYWpPYCIBuvAoUQLwOGoQw/edit)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — A highly granular, community-maintained matrix tracking managed Kubernetes services across both major and minor cloud vendors. It details network capabilities, autoscaler integration, upgrades, security profiles, and persistent volume support. It represents an essential industry benchmark used by platform architects designing global cluster patterns.
-  - **(2020)** [atodorov.me: Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares managed Kubernetes offerings from secondary cloud providers: DigitalOcean, Scaleway, OVHCloud, and Linode. It analyzes storage driver speeds, control plane SLA pricing, and API version support. This evaluation helps teams design multi-cloud setups and avoid the cost overhead associated with tier-1 hyperscalers.
+  - **(2020)** [atodorov.me: Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Compares managed Kubernetes offerings from secondary cloud providers: DigitalOcean, Scaleway, OVHCloud, and Linode. It analyzes storage driver speeds, control plane SLA pricing, and API version support. This evaluation helps teams design multi-cloud setups and avoid the cost overhead associated with tier-1 hyperscalers.
 
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
+🔗 **See Also:** [Azure](./azure.md) | [DevOps](./devops.md)
 

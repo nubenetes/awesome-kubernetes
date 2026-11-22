@@ -77,7 +77,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB and Kubernetes, M
   - **(2023)** [**adamtheautomator.com: How To Perform a MongoDB Kubernetes Installation 🌟**](https://adamtheautomator.com/mongodb-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Step-by-step tutorial for deploying MongoDB to Kubernetes clusters. Addresses StatefulSet configuration, persistent volume claim (PVC) templates, and replica-set discovery mechanisms.
 #### Local Containerization
 
-  - **(2016)** [Avoiding pitfalls running Mongo 3.2 in Docker on OSX](https://iainhunter.wordpress.com/2016/01/12/avoiding-pitfalls-running-mongo-3-2-in-docker-on-osx) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes historical performance bottlenecks and host volume-mounting complications when virtualizing MongoDB 3.2 on macOS Docker setups. Remains as a reference for handling localized hypervisor file lockups.
+  - **(2016)** [Avoiding pitfalls running Mongo 3.2 in Docker on OSX](https://iainhunter.wordpress.com/2016/01/12/avoiding-pitfalls-running-mongo-3-2-in-docker-on-osx) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Analyzes historical performance bottlenecks and host volume-mounting complications when virtualizing MongoDB 3.2 on macOS Docker setups. Remains as a reference for handling localized hypervisor file lockups.
 ### NoSQL Databases
 
 #### Decision Frameworks
@@ -137,5 +137,5 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB and Kubernetes, M
 ---
 💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchy Data](./crunchydata.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [Demos](./demos.md) | [DevOps](./devops.md)
 

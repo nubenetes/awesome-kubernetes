@@ -24,7 +24,7 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
 
 #### Commercial Tools
 
-  - **(2025)** [Calendly](https://calendly.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — SaaS scheduling tool providing automated invite links, corporate calendar integration, and round-robin scheduling algorithms to streamline business workflow coordination.
+  - **(2025)** [Calendly](https://calendly.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — SaaS scheduling tool providing automated invite links, corporate calendar integration, and round-robin scheduling algorithms to streamline business workflow coordination.
   - **(2024)** [Acuity Scheduling](https://acuityscheduling.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — SaaS scheduling platform owned by Squarespace, designed for services industries. Features robust intake-form handling, integrated payment processing, and automated reminder sequences.
   - **(2024)** [Doodle](https://doodle.com/en) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Collaborative scheduling engine specializing in group polling to establish consensus times. Cuts down back-and-forth emails when coordinating meetings across varying external directories.
   - **(2024)** [youcanbook.me](https://youcanbook.me) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commercial booking platform with advanced team scheduling integrations. Offers CSS layout customization, direct CRM linking, and webhook support for automated post-booking workflows.
@@ -47,5 +47,5 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
 ---
 💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

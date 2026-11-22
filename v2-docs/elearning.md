@@ -96,7 +96,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Vmware Tanzu Ecosystem
 
-  - **(2026)** [**kube.academy**](https://kube.academy) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly polished training engine sponsored by VMware Tanzu. Walks engineers through complex modular tracks detailing multi-tenancy, cluster scaling, control-plane metrics, and security controls within corporate environments.
+  - **(2026)** [**kube.academy**](https://kube.academy) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly polished training engine sponsored by VMware Tanzu. Walks engineers through complex modular tracks detailing multi-tenancy, cluster scaling, control-plane metrics, and security controls within corporate environments.
 ## Platform Engineering
 
 ### Legacy Sandboxes
@@ -141,7 +141,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Continuous Education
 
-  - **(2026)** [Lynda.com Linkedin Learning](https://www.linkedin.com/learning/?trk=lynda_redirect_learning) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An industry-standard corporate video platform delivering wide-ranging content on Docker containerization, Jenkins pipelines, and basic Kubernetes architecture. While highly polished, the courses tend to prioritize foundational theoretical paradigms over complex, bare-metal operations.
+  - **(2026)** [Lynda.com Linkedin Learning](https://www.linkedin.com/learning/?trk=lynda_redirect_learning) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An industry-standard corporate video platform delivering wide-ranging content on Docker containerization, Jenkins pipelines, and basic Kubernetes architecture. While highly polished, the courses tend to prioritize foundational theoretical paradigms over complex, bare-metal operations.
 ### Opinion and Strategy
 
 #### Career Development
@@ -176,7 +176,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
 #### Interactive Coding
 
-  - **(2026)** [codecademy.com](https://www.codecademy.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Browser-native sandbox tool building rapid programming muscle memory across Go, Python, and shell scripts. It incorporates localized command-line simulation to introduce the core foundations of container management and terminal automation.
+  - **(2026)** [codecademy.com](https://www.codecademy.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Browser-native sandbox tool building rapid programming muscle memory across Go, Python, and shell scripts. It incorporates localized command-line simulation to introduce the core foundations of container management and terminal automation.
 ### Software Architecture
 
 #### DDD and Testing

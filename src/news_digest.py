@@ -123,6 +123,11 @@ class NewsDigestEngine:
             "digitalocean", "scaleway", "edge-computing",
             "public-cloud-solutions",
         ],
+        "European Sovereign Cloud": [
+            "eu-sovereign-cloud", "eu-cloud-spain", "eu-cloud-france-germany",
+            "eu-cloud-italy-uk-nordics", "eu-cloud-iac-maturity",
+            "eu-cloud-workloads-stack", "eu-cloud-resilience-sla",
+        ],
         "OpenShift / Red Hat": [
             "openshift", "ocp5", "ocp4", "ocp3", "openshift-pipelines", "rancher",
         ],

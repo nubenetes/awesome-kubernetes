@@ -46,7 +46,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - **(2026)** [devopswithkubernetes.com](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-source academic DevOps curriculum developed by the University of Helsinki. Explores real-world container scheduling, persistent storage setups, pipeline engineering, and live microservice application deployment strategies inside standard clusters.
 #### Cloud Provider Academies
 
-  - **(2026)** [civo.com/academy 🌟🌟🌟](https://www.civo.com/academy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A cloud-native educational platform developed by cloud provider Civo. Focuses on lightweight Kubernetes orchestration (K3s), GitOps paradigms, and simplified cluster management structures designed to reduce initial development learning curves.
+  - **(2026)** [civo.com/academy 🌟🌟🌟](https://www.civo.com/academy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — A cloud-native educational platform developed by cloud provider Civo. Focuses on lightweight Kubernetes orchestration (K3s), GitOps paradigms, and simplified cluster management structures designed to reduce initial development learning curves.
 #### Course Directories
 
   - **(2019)** [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented directory compiling recommended free training courses for Kubernetes. Emphasizes basic core architecture, resource scheduling, container deployment strategies, and general configuration management.
@@ -199,7 +199,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - **(2022)** [blog.getambassador.io: How to Learn Kubernetes: Prerequisites, Paths, and Resources 🌟](https://blog.getambassador.io/how-to-learn-kubernetes-prerequisites-paths-and-resources-9e044daee185) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An actionable guide highlighting the operating system, networking, and programming fundamentals required to master Kubernetes. Prevents cognitive overload by enforcing structured roadmap prerequisites.
 #### Presentation Slides
 
-  - **(2024)** [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco/edit) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical slideset outlining the core mechanisms of Kubernetes scheduling, control plane architecture, and microservice discovery. Ideal for corporate instructional presentations and architectural roundtables.
+  - **(2024)** [Intoduction to Kubernetes (slides, beginners and advanced)](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco/edit) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A detailed technical slideset outlining the core mechanisms of Kubernetes scheduling, control plane architecture, and microservice discovery. Ideal for corporate instructional presentations and architectural roundtables.
 #### Quick Start
 
   - **(2023)** [dev.to: Kubernetes Crash Course for Absolute Beginners](https://dev.to/techworld_with_nana/kubernetes-crash-course-for-absolute-beginners-35pc) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A quick-reading article detailing node boundaries, API requests, and standard cluster networking. Provides immediate mental models of container orchestration for engineering leads seeking a fast overview.
@@ -213,7 +213,7 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
   - **(2024)** [**youtube playlist: DevNation Lessons: Kubernetes Fundamentals**](https://www.youtube.com/playlist?list=PLf3vm0UK6HKpOqIY2fcu_M0sCSpluyXMW) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Red Hat's developer lessons focused on real-world system patterns, detailing secure service integration, configurations separation, and cluster administration patterns within heavy enterprise networks.
 ##### Fundamentals (3)
 
-  - **(2024)** [youtube playlist: Thetips4you - Kubernetes Tutorial for Beginners](https://www.youtube.com/playlist?app=desktop&list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory video collection teaching standard configuration, secret integration, dynamic cloud volumes, and fundamental deployment syntax. Recommended for engineers transitioning from traditional VM hypervisors.
+  - **(2024)** [youtube playlist: Thetips4you - Kubernetes Tutorial for Beginners](https://www.youtube.com/playlist?app=desktop&list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — An introductory video collection teaching standard configuration, secret integration, dynamic cloud volumes, and fundamental deployment syntax. Recommended for engineers transitioning from traditional VM hypervisors.
 ##### Networking and Core
 
   - **(2024)** [youtube: Kubernetes Pods and ReplicaSets explained](https://www.youtube.com/playlist?list=PLy0Gle4XyvbGhGpX0CXAuiEsfL-MD-rND) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A modular video breakdown specifically tracking the networking, scaling, and state reconciliation interactions between Pods and ReplicaSets. Demystifies self-healing mechanics and custom target state specifications.
@@ -262,5 +262,5 @@ description: "Top Kubernetes Tutorials resources for 2026, AI-ranked: Build Your
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Rancher](./rancher.md)
 

@@ -67,6 +67,11 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
         f"topic:kyverno+OR+topic:falco+OR+topic:sigstore+pushed:>{pushed_cutoff}+stars:>50",
         f"topic:finops+OR+topic:karpenter+OR+topic:opencost+pushed:>{pushed_cutoff}+stars:>30",
         f"topic:platform-engineering+pushed:>{pushed_cutoff}+stars:>100",
+        f"topic:sovereign-cloud+OR+topic:gaia-x+pushed:>{pushed_cutoff}+stars:>5",
+        f"topic:proxmox+terraform+OR+topic:proxmox+kubernetes+pushed:>{pushed_cutoff}+stars:>20",
+        f"topic:hetzner+kubernetes+OR+topic:scaleway+OR+topic:ovhcloud+pushed:>{pushed_cutoff}+stars:>20",
+        f"topic:openstack+kubernetes+OR+topic:cloudstack+OR+topic:harvester+pushed:>{pushed_cutoff}+stars:>20",
+        f"topic:cloudnativepg+OR+topic:velero+OR+topic:disaster-recovery+kubernetes+pushed:>{pushed_cutoff}+stars:>20",
     ]
     all_repos = []
     seen_urls = set()
@@ -146,7 +151,7 @@ async def discover_trending_assets() -> list[dict]:
 
     prompt = (
         "Analyze these active Cloud-Native, AI, and Infrastructure as Code (IaC) repositories (sorted by monthly star velocity) and select the 8 highest-impact tools for a 2026 Senior Kubernetes, Cloud & AI Platform Architect.\n"
-        "Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI / OpenDataHub, IBM watsonx, Databricks Mosaic AI), AI Knowledge & Retrieval architectures (RAG, Open Knowledge Format / OKF, LLM Wikis, GraphRAG, LightRAG, vectorless reasoning RAG / PageIndex, Cache-Augmented Generation / CAG, persistent agent memory like Mem0/Graphiti/Letta/Cognee, vector databases — categorize these under 'ai-rag-okf'), Red Hat OpenShift 5 / OCP 5 ecosystem (OpenShift Lightspeed, MCP servers, Hosted Control Planes / HyperShift, OLM v1, OpenShift Virtualization 5 / KubeVirt, OKD 5, MicroShift 5 — categorize these under 'ocp5'), Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/llm-d inference serving, KubeRay, KAITO), MCP servers for Kubernetes/SRE, Modern IaC & Terraform (Azure Verified Modules / AVM, OpenTofu, Terraform CI/CD pipelines, Landing Zones, official cloud samples), eBPF observability, and GitOps operators.\n"
+        "Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI / OpenDataHub, IBM watsonx, Databricks Mosaic AI), AI Knowledge & Retrieval architectures (RAG, Open Knowledge Format / OKF, LLM Wikis, GraphRAG, LightRAG, vectorless reasoning RAG / PageIndex, Cache-Augmented Generation / CAG, persistent agent memory like Mem0/Graphiti/Letta/Cognee, vector databases — categorize these under 'ai-rag-okf'), Red Hat OpenShift 5 / OCP 5 ecosystem (OpenShift Lightspeed, MCP servers, Hosted Control Planes / HyperShift, OLM v1, OpenShift Virtualization 5 / KubeVirt, OKD 5, MicroShift 5 — categorize these under 'ocp5'), European Sovereign Cloud & Private Data Center alternatives to US hyperscalers (OVHcloud, Scaleway, Outscale, Hetzner, IONOS, STACKIT, Exoscale, UpCloud, Aruba, Seeweb, Civo, Cleura, Elastx, Nebius; Spanish ENS Alto clouds Arsys, Gigas, Alhambra IT, Telefonica Tech, Stackscale; Terraform/OpenTofu/Crossplane/CAPI providers -> 'eu-cloud-iac-maturity'; Proxmox/OpenStack/CloudStack/Harvester/EU GPU AI -> 'eu-cloud-workloads-stack'; RPO/RTO/DRaaS/Zerto/Veeam/PBS/CNPG/Velero -> 'eu-cloud-resilience-sla'; country-specific -> 'eu-cloud-spain', 'eu-cloud-france-germany', 'eu-cloud-italy-uk-nordics', or 'eu-sovereign-cloud'), Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/llm-d inference serving, KubeRay, KAITO), MCP servers for Kubernetes/SRE, Modern IaC & Terraform (Azure Verified Modules / AVM, OpenTofu, Terraform CI/CD pipelines, Landing Zones, official cloud samples), eBPF observability, and GitOps operators.\n"
         f"Valid Categories: {', '.join(NUBENETES_CATEGORIES)}\n"
         f"Repos: {json.dumps(repos[:50])}\n\n"
         "Respond ONLY with a valid JSON list: [{\"title\": \"...\", \"url\": \"...\", \"description\": \"...\", \"category\": \"...\"}]"
@@ -173,6 +178,20 @@ async def discover_trending_assets() -> list[dict]:
             category = "ai-rag-okf"
         elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("ocp5", "openshift-5", "openshift 5", "hypershift", "lightspeed", "microshift", "okd", "operator-controller", "openshift", "kubevirt")):
             category = "ocp5"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("arsys", "gigas", "alhambra", "stackscale", "telefonica", "ens-alto")):
+            category = "eu-cloud-spain"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("terraform-provider-ovh", "terraform-provider-scaleway", "terraform-provider-ionos", "terraform-provider-stackit", "terraform-provider-hcloud", "terraform-provider-exoscale", "terraform-provider-upcloud", "terraform-provider-proxmox", "terraform-provider-openstack", "terraform-provider-vcd", "cluster-api-provider-hetzner", "cluster-api-provider-proxmox", "crossplane-provider-ionos", "crossplane-provider-scaleway")):
+            category = "eu-cloud-iac-maturity"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("cloudnativepg", "velero", "proxmox-backup", "zerto", "veeam", "disaster-recovery")):
+            category = "eu-cloud-resilience-sla"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("proxmox", "cloudstack", "harvester", "sovereigncloudstack", "gardener", "talos")):
+            category = "eu-cloud-workloads-stack"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("ovhcloud", "scaleway", "outscale", "hetzner", "ionos", "stackit")):
+            category = "eu-cloud-france-germany"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("exoscale", "upcloud", "arubacloud", "seeweb", "cleura", "elastx", "nebius", "civo")):
+            category = "eu-cloud-italy-uk-nordics"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("sovereign-cloud", "gaia-x", "secnumcloud", "eurostack")):
+            category = "eu-sovereign-cloud"
         elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("mcp", "context-protocol", "mcp-server", "adk", "agent-framework", "strands-agents")):
             category = "ai-agents-mcp"
         elif "awesome" in name_lower:

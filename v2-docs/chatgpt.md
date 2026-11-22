@@ -102,7 +102,7 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
 
 #### Enterprise AI
 
-  - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
+  - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
 ## Gpt-live
 
   - **(2026)** [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing GPT-Live covering GPT-Live in ChatGPT (openai.com).
@@ -115,7 +115,7 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
   - [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated handbook of prompt engineering patterns tailored for HR leaders. Accelerates documentation, drafting performance benchmarks, and designing internal team-alignment frameworks.
 #### Workplace Automation
 
-  - **(2023)** [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reportaje de carácter práctico que expone la incorporación intensiva de agentes de IA conversacional dentro del flujo de trabajo corporativo diario, ilustrando la aceleración de tareas de síntesis y redacción técnica. [SPANISH CONTENT]
+  - **(2023)** [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Reportaje de carácter práctico que expone la incorporación intensiva de agentes de IA conversacional dentro del flujo de trabajo corporativo diario, ilustrando la aceleración de tareas de síntesis y redacción técnica. [SPANISH CONTENT]
 ## IaC Terraform And AI
 
   - [Discussion: Where is AI Still Completely Useless?](https://www.reddit.com/r/Terraform/comments/1l7my1x/where_is_ai_still_completely_useless_for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Discussion: Where is AI Still Completely Useless? covering IaC Terraform and AI in AI (reddit.com).
@@ -163,10 +163,10 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
 ## Tools
 
   - **(2026)** [Introducing the Admin Plugin for ChatGPT Work and Codex](https://openai.com/index/introducing-admin-plugin) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing the Admin Plugin for ChatGPT Work and Codex covering Tools in ChatGPT (openai.com).
-  - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65?gi=79a3a79d2753) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free! covering Tools in ChatGPT (itnext.io).
+  - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65?gi=79a3a79d2753) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Technical documentation and implementation reference for itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free! covering Tools in ChatGPT (itnext.io).
 
 ---
 💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 
-🔗 **See Also:** [API](./api.md) | [AWS New Features](./aws-newfeatures.md)
+🔗 **See Also:** [AWS New Features](./aws-newfeatures.md) | [AWS Serverless](./aws-serverless.md)
 

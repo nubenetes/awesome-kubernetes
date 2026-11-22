@@ -10,13 +10,13 @@
     "v1_archive": "https://nubenetes.com/v1/"
   },
   "stats": {
-    "v1_total_inventory": 20637,
-    "v2_total_resources": 16534,
-    "v2_verified_online": 12465,
-    "v2_fresh_2025_2026": 3646,
-    "v2_deep_ai_summaries": 11321,
+    "v1_total_inventory": 20728,
+    "v2_total_resources": 16625,
+    "v2_verified_online": 12556,
+    "v2_fresh_2025_2026": 3737,
+    "v2_deep_ai_summaries": 11412,
     "v2_cncf_projects": 64,
-    "v2_categories": 139
+    "v2_categories": 146
   },
   "dimensions": [
     "AI",
@@ -24,6 +24,7 @@
     "Platform & Site Reliability",
     "Hardened Infrastructure",
     "Cloud Providers (Hyperscalers)",
+    "European Sovereign Cloud & Private DCs",
     "Networking & Service Mesh",
     "The Container Stack",
     "Data & Advanced Analytics",
@@ -148,6 +149,7 @@
         "[LLM]",
         "[GRAPHRAG]",
         "[OKF]",
+        "[DRP-RESILIENCE]",
         "[MCP]"
       ],
       "top_resources": [
@@ -244,8 +246,8 @@
         "[ENTERPRISE-STABLE]",
         "[EMERGING]",
         "[GUIDE]",
-        "[GPU]",
-        "[MCP]"
+        "[DRP-RESILIENCE]",
+        "[GPU]"
       ],
       "top_resources": [
         {
@@ -299,7 +301,8 @@
           "gh_license": "MIT",
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Microsoft's 12-week, 26-lesson classical machine learning curriculum focused heavily on hands-on project-based execution using Scikit-learn. It purposely isolates foundational ML patterns—such as regression,..."
         },
@@ -333,13 +336,13 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]",
         "[LLM]",
         "[ENTERPRISE-STABLE]",
         "[GUIDE]",
         "[CASE STUDY]",
         "[DE FACTO STANDARD]",
-        "[EMERGING]",
-        "[GPU]"
+        "[EMERGING]"
       ],
       "top_resources": [
         {
@@ -569,6 +572,7 @@
           "tags": [
             "[CLOUD-AI]",
             "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]",
             "[ENTERPRISE-STABLE]",
             "[GPU]",
             "[LLM]",
@@ -731,8 +735,8 @@
         "[DE FACTO STANDARD]",
         "[EMERGING]",
         "[LEGACY]",
-        "[CASE STUDY]",
-        "[EBPF]"
+        "[DRP-RESILIENCE]",
+        "[CASE STUDY]"
       ],
       "top_resources": [
         {
@@ -820,6 +824,7 @@
         "[DE FACTO STANDARD]",
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
+        "[DRP-RESILIENCE]",
         "[GUIDE]",
         "[MCP]"
       ],
@@ -905,6 +910,7 @@
       "top_tags": [
         "[COMMUNITY-TOOL]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[EMERGING]",
         "[GUIDE]",
         "[LEGACY]"
@@ -958,7 +964,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Automated governance framework detailing Azure Subscription Vending models. Outlines how to programmatically create subscription structures incorporating secure routing, virtual network configurations, policies, and..."
         },
@@ -993,10 +1000,10 @@
         "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
         "[CASE STUDY]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]",
         "[EMERGING]",
-        "[GPU]",
-        "[EBPF]"
+        "[GPU]"
       ],
       "top_resources": [
         {
@@ -1021,7 +1028,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Details the architectural rationale behind Mercedes-Benz's deployment of over 900 highly-segregated Kubernetes clusters globally. To balance multi-tenancy risk, blast radius mitigation, and compliance across..."
         },
@@ -1085,8 +1093,8 @@
         "[LEGACY]",
         "[ENTERPRISE-STABLE]",
         "[EMERGING]",
-        "[AKS]",
-        "[CASE STUDY]"
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -1175,8 +1183,8 @@
         "[ENTERPRISE-STABLE]",
         "[GUIDE]",
         "[LEGACY]",
-        "[LLM]",
-        "[MCP]"
+        "[DRP-RESILIENCE]",
+        "[LLM]"
       ],
       "top_resources": [
         {
@@ -1350,7 +1358,7 @@
         "[LEGACY]",
         "[CASE STUDY]",
         "[EMERGING]",
-        "[LLM]"
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -1435,7 +1443,8 @@
         "[COMMUNITY-TOOL]",
         "[DE FACTO STANDARD]",
         "[GUIDE]",
-        "[LEGACY]"
+        "[LEGACY]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -1609,9 +1618,9 @@
         "[DE FACTO STANDARD]",
         "[LEGACY]",
         "[GUIDE]",
-        "[CASE STUDY]",
-        "[EBPF]",
-        "[EMERGING]"
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]",
+        "[CASE STUDY]"
       ],
       "top_resources": [
         {
@@ -1701,8 +1710,8 @@
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
         "[GUIDE]",
-        "[EBPF]",
-        "[GPU]"
+        "[DRP-RESILIENCE]",
+        "[EBPF]"
       ],
       "top_resources": [
         {
@@ -1789,8 +1798,9 @@
         "[DE FACTO STANDARD]",
         "[ENTERPRISE-STABLE]",
         "[EMERGING]",
+        "[DRP-RESILIENCE]",
         "[EBPF]",
-        "[LEGACY]"
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -1881,9 +1891,9 @@
         "[GUIDE]",
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
+        "[DRP-RESILIENCE]",
         "[EMERGING]",
-        "[CASE STUDY]",
-        "[GPU]"
+        "[CASE STUDY]"
       ],
       "top_resources": [
         {
@@ -1971,8 +1981,8 @@
         "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
         "[LEGACY]",
-        "[EBPF]",
-        "[LINUX]"
+        "[DRP-RESILIENCE]",
+        "[SOVEREIGN-EU]"
       ],
       "top_resources": [
         {
@@ -2055,6 +2065,7 @@
       "freshness": "historical",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[SOVEREIGN-EU]",
         "[DE FACTO STANDARD]",
         "[MCP]"
       ],
@@ -2081,7 +2092,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[SOVEREIGN-EU]"
           ],
           "summary": "Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps..."
         },
@@ -2108,7 +2120,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[SOVEREIGN-EU]"
           ],
           "summary": "Compares managed Kubernetes offerings from secondary cloud providers: DigitalOcean, Scaleway, OVHCloud, and Linode. It analyzes storage driver speeds, control plane SLA pricing, and API version support. This..."
         }
@@ -2129,6 +2142,7 @@
         "[COMMUNITY-TOOL]",
         "[GUIDE]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]"
       ],
       "top_resources": [
@@ -2307,8 +2321,8 @@
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
         "[GUIDE]",
-        "[EBPF]",
-        "[MLOPS]"
+        "[DRP-RESILIENCE]",
+        "[EBPF]"
       ],
       "top_resources": [
         {
@@ -2481,6 +2495,7 @@
       "top_tags": [
         "[COMMUNITY-TOOL]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[EMERGING]"
       ],
       "top_resources": [
@@ -2568,10 +2583,10 @@
         "[EMERGING]",
         "[GUIDE]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[ENTERPRISE-STABLE]",
         "[CASE STUDY]",
-        "[LEGACY]",
-        "[LLM]"
+        "[LEGACY]"
       ],
       "top_resources": [
         {
@@ -2656,12 +2671,12 @@
       "top_tags": [
         "[COMMUNITY-TOOL]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[ENTERPRISE-STABLE]",
         "[EMERGING]",
         "[GUIDE]",
         "[LEGACY]",
-        "[CASE STUDY]",
-        "[LLM]"
+        "[SOVEREIGN-EU]"
       ],
       "top_resources": [
         {
@@ -2835,6 +2850,8 @@
         "[ENTERPRISE-STABLE]",
         "[GUIDE]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
+        "[SOVEREIGN-EU]",
         "[LEGACY]"
       ],
       "top_resources": [
@@ -2921,6 +2938,7 @@
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]"
       ],
       "top_resources": [
@@ -2974,7 +2992,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Enterprise corporate wiki and collaborative document editor platform. Helps development teams compile, search, and maintain technical wikis, sprint retrospectives, and Architecture Decision Records (ADRs)."
         },
@@ -3284,7 +3303,8 @@
         "[COMMUNITY-TOOL]",
         "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
-        "[LEGACY]"
+        "[LEGACY]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -3371,7 +3391,8 @@
       "top_tags": [
         "[ENTERPRISE-STABLE]",
         "[COMMUNITY-TOOL]",
-        "[DE FACTO STANDARD]"
+        "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -3422,6 +3443,7 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
+            "[DRP-RESILIENCE]",
             "[ENTERPRISE-STABLE]"
           ],
           "summary": "Focuses on incorporating high-frequency test automation steps into standard continuous delivery environments. Details patterns for dynamic mock environments and rollback automation based on test feedback loops."
@@ -3459,6 +3481,7 @@
         "[GUIDE]",
         "[DE FACTO STANDARD]",
         "[EMERGING]",
+        "[DRP-RESILIENCE]",
         "[CLOUD-AI]"
       ],
       "top_resources": [
@@ -4169,9 +4192,9 @@
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
+        "[DRP-RESILIENCE]",
         "[ACCESS-CONTROL]",
-        "[AI-ASSISTED]",
-        "[CASE STUDY]"
+        "[AI-ASSISTED]"
       ],
       "top_resources": [
         {
@@ -4196,7 +4219,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "General-purpose policy engine designed to unify and enforce fine-grained authorization across microservices, Kubernetes, CI/CD, and API gateways. Uses the declarative query language Rego to decouple policy decisions..."
         },
@@ -4478,6 +4502,8 @@
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]",
         "[LLM]"
       ],
       "top_resources": [
@@ -4766,10 +4792,10 @@
         "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
         "[EMERGING]",
+        "[DRP-RESILIENCE]",
         "[CLOUD-AI]",
         "[LLM]",
-        "[AMAZON-BEDROCK]",
-        "[GPU]"
+        "[AMAZON-BEDROCK]"
       ],
       "top_resources": [
         {
@@ -4858,7 +4884,7 @@
         "[CI-CD]",
         "[DEVSECOPS]",
         "[GUIDE]",
-        "[LEGACY]"
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -4948,7 +4974,7 @@
         "[SERVERLESS]",
         "[CASE STUDY]",
         "[DE FACTO STANDARD]",
-        "[EDGE-COMPUTING]"
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -5048,12 +5074,12 @@
       "top_tags": [
         "[COMMUNITY-TOOL]",
         "[GUIDE]",
+        "[DRP-RESILIENCE]",
         "[DE FACTO STANDARD]",
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
         "[FRONTEND]",
-        "[OBJECT-STORAGE]",
-        "[S3]"
+        "[OBJECT-STORAGE]"
       ],
       "top_resources": [
         {
@@ -5147,7 +5173,7 @@
         "[LEGACY]",
         "[GUIDE]",
         "[CLOUD-AI]",
-        "[LLM]"
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -5246,8 +5272,8 @@
         "[GUIDE]",
         "[LEGACY]",
         "[EMERGING]",
-        "[CLOUD-AI]",
-        "[MCP]"
+        "[DRP-RESILIENCE]",
+        "[CLOUD-AI]"
       ],
       "top_resources": [
         {
@@ -5347,6 +5373,7 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[SOVEREIGN-EU]",
         "[GPU]",
         "[GUIDE]",
         "[LLM]"
@@ -5551,6 +5578,8 @@
         "[COMMUNITY-TOOL]",
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]",
         "[LEGACY]"
       ],
       "top_resources": [
@@ -5619,7 +5648,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "A Spanish-language news analysis explaining IBM's historical split that spun off Kyndryl to focus IBM squarely on Hybrid Cloud and AI. Live Grounding verifies this corporate reorganization succeeded in clarifying..."
         }
@@ -5812,7 +5842,9 @@
         "[COMMUNITY-TOOL]",
         "[GUIDE]",
         "[CASE STUDY]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]",
+        "[SOVEREIGN-EU]",
         "[EMERGING]"
       ],
       "top_resources": [
@@ -5884,6 +5916,644 @@
             "[GUIDE]"
           ],
           "summary": "An analytical breakdown evaluating the native security architectures of AWS, Azure, and Google Cloud. It details default encryption mechanisms, fine-grained access management (IAM), and compliance frameworks. Live..."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-france-germany",
+      "title": "France & Germany Cloud Champions",
+      "long_title": "France and Germany Sovereign Cloud Champions",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-france-germany/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-france-germany/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-france-germany.md",
+      "resource_count": 19,
+      "fresh_2025_2026_count": 19,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[HYPERVISOR]",
+        "[DRP-RESILIENCE]",
+        "[GPU]",
+        "[LLM]"
+      ],
+      "top_resources": [
+        {
+          "title": "3DS OUTSCALE (Dassault Systemes)",
+          "url": "https://en.outscale.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "First French IaaS provider with full-scope ANSSI SecNumCloud 3.2 qualification across three French regions, offering AWS-like Cockpit/API semantics for ultra-regulated defense, healthcare, and public-sector workloads."
+        },
+        {
+          "title": "AWS European Sovereign Cloud (Brandenburg Baseline)",
+          "url": "https://aws.amazon.com/compliance/europe-digital-sovereignty",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Standalone German sovereign cloud region built by AWS to isolate operational control planes inside the EU while retaining full AWS API compatibility — evaluated against German-owned providers under CLOUD Act..."
+        },
+        {
+          "title": "Bleu Trusted Cloud (Capgemini and Orange)",
+          "url": "https://www.bleucloud.fr/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Independent French company operating sovereign Azure-stack and Microsoft 365 environments within France to address SecNumCloud 3.2 criteria for public administrations."
+        },
+        {
+          "title": "Clever Cloud Sovereign PaaS",
+          "url": "https://www.clever.cloud",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "French European-owned Platform-as-a-Service (Nantes) automating zero-ops application runtimes, managed PostgreSQL/Redis add-ons, SecNumCloud-aligned deployments, and multi-cloud/on-prem Materia clusters."
+        },
+        {
+          "title": "Cloud Temple Sovereign IaaS",
+          "url": "https://www.cloud-temple.com/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "French SecNumCloud-certified trusted IaaS specializing in critical enterprise workloads, sovereign OpenShift/Kubernetes hosting, and ultra-regulated healthcare/banking environments."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-iac-maturity",
+      "title": "IaC Automation & Maturity vs Hyperscalers",
+      "long_title": "IaC Automation and Portability on European Sovereign Clouds",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-iac-maturity/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-iac-maturity/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-iac-maturity.md",
+      "resource_count": 22,
+      "fresh_2025_2026_count": 22,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[HYPERVISOR]",
+        "[GPU]"
+      ],
+      "top_resources": [
+        {
+          "title": "3DS OUTSCALE Official Terraform Provider",
+          "url": "https://github.com/outscale/terraform-provider-outscale",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Official IaC provider for SecNumCloud-qualified 3DS OUTSCALE infrastructure covering OKS Kubernetes, Nets/VPCs, security groups, and volumes."
+        },
+        {
+          "title": "Civo Official Terraform Provider",
+          "url": "https://github.com/civo/terraform-provider-civo",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Lightweight IaC provider for Civo K3s/Talos Managed Kubernetes clusters, firewalls, networks, and UK Sovereign workloads."
+        },
+        {
+          "title": "Cluster API Provider CloudStack (CAPC)",
+          "url": "https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]"
+          ],
+          "summary": "Official Kubernetes SIGs provider turning Apache CloudStack private DCs into declarative GitOps Kubernetes fleets."
+        },
+        {
+          "title": "Cluster API Provider Hetzner (CAPH by Syself)",
+          "url": "https://github.com/syself/cluster-api-provider-hetzner",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "CNCF Cluster API provider managing full self-healing Kubernetes lifecycle across Hetzner Cloud VMs and Dedicated bare-metal Robot servers."
+        },
+        {
+          "title": "Cluster API Provider OpenStack (CAPO)",
+          "url": "https://github.com/kubernetes-sigs/cluster-api-provider-openstack",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Official Kubernetes SIGs CAPI provider delivering standardized multi-cluster lifecycle across European OpenStack sovereign clouds."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-italy-uk-nordics",
+      "title": "Italy, UK, Nordics & Benelux",
+      "long_title": "Italy, UK, Nordics, Switzerland and Benelux Cloud Providers",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-italy-uk-nordics/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-italy-uk-nordics/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-italy-uk-nordics.md",
+      "resource_count": 12,
+      "fresh_2025_2026_count": 12,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[GPU]",
+        "[HYPERVISOR]"
+      ],
+      "top_resources": [
+        {
+          "title": "Aruba Cloud (Global Cloud Data Centers)",
+          "url": "https://www.arubacloud.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Italy's flagship cloud and trust-services provider operating Tier IV hyper-efficient campuses near Milan (Ponte San Pietro) and Rome with Italian ACN QC3 and AI3 sovereign qualifications for public administration and..."
+        },
+        {
+          "title": "Civo UK Sovereign Cloud and Managed Kubernetes",
+          "url": "https://www.civo.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Fast-provisioning UK-headquartered Kubernetes and RelaxAI cloud offering dedicated UK Sovereign environments, predictable transparent pricing with generous included egress, and NVIDIA GPU workloads."
+        },
+        {
+          "title": "Cleura: Compliant European OpenStack Cloud",
+          "url": "https://cleura.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Swedish pioneer in open-source Sovereign Cloud Stack (OpenStack + Gardener Kubernetes) offering 3-AZ Swedish regions, Frankfurt/Karlskrona zones, DORA/NIS2 readiness, and strict European legal jurisdiction."
+        },
+        {
+          "title": "Elastx: Swedish 3-AZ Sovereign OpenStack Cloud",
+          "url": "https://elastx.se/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Swedish enterprise cloud running genuine 3-Availability-Zone OpenStack IaaS and Managed Kubernetes across three physically separated Stockholm data centers powered by 100% renewable hydro energy."
+        },
+        {
+          "title": "Exoscale: Swiss and European Sovereign Cloud",
+          "url": "https://www.exoscale.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Swiss/Austrian sovereign IaaS and SKS Managed Kubernetes provider (A1 Group) operating GDPR-shielded zones across Zurich, Geneva, Frankfurt, Munich, Vienna, and Sofia with strict Swiss privacy governance and zero US..."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-resilience-sla",
+      "title": "RPO, RTO, SLAs, DRP & Replication",
+      "long_title": "RPO, RTO, SLAs, DRP and Replication for European Clouds",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-resilience-sla/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-resilience-sla/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-resilience-sla.md",
+      "resource_count": 6,
+      "fresh_2025_2026_count": 6,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]",
+        "[SOVEREIGN-EU]"
+      ],
+      "top_resources": [
+        {
+          "title": "CloudNativePG PostgreSQL Operator",
+          "url": "https://cloudnative-pg.io",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DRP-RESILIENCE]",
+            "[EMERGING]"
+          ],
+          "summary": "CNCF PostgreSQL operator enabling synchronous quorum HA across European availability zones, continuous WAL archiving (Barman Cloud), and sub-minute cross-region replica cluster recovery in S3 sovereign buckets."
+        },
+        {
+          "title": "Proxmox Backup Server (PBS)",
+          "url": "https://www.proxmox.com/en/products/proxmox-backup-server/overview",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]"
+          ],
+          "summary": "Enterprise deduplicating backup server with client-side encryption, Zstandard compression, and offsite pull/sync replication for zero-license sovereign Proxmox VE estates."
+        },
+        {
+          "title": "Rook Ceph Cloud-Native Storage Operator",
+          "url": "https://github.com/rook/rook",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Production CNCF storage operator orchestrating Ceph block, file, and S3 object clusters with RBD asynchronous mirroring across European private data centers."
+        },
+        {
+          "title": "Veeam Data Platform and CDP Replication",
+          "url": "https://www.veeam.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DRP-RESILIENCE]",
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "De facto enterprise standard across Spanish and European Sovereign Cloud MSPs for near-zero RPO Continuous Data Protection (CDP), immutable Hardened Linux Repositories, and S3 Object Lock cross-cloud DR."
+        },
+        {
+          "title": "Velero Kubernetes Backup and DR",
+          "url": "https://velero.io",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DRP-RESILIENCE]",
+            "[EMERGING]"
+          ],
+          "summary": "Standard Kubernetes cluster state and persistent volume snapshot tool supporting multi-cloud migration and scheduled cross-region DR into European S3-compatible object stores."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-spain",
+      "title": "Spain Sovereign Cloud & Private DCs",
+      "long_title": "Spain Sovereign Cloud and Private Data Centers",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-spain/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-spain/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-spain.md",
+      "resource_count": 19,
+      "fresh_2025_2026_count": 19,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[DRP-RESILIENCE]",
+        "[GPU]",
+        "[HYPERVISOR]"
+      ],
+      "top_resources": [
+        {
+          "title": "Acens (Telefonica Group) Cloud Hosting",
+          "url": "https://www.acens.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DRP-RESILIENCE]",
+            "[EMERGING]"
+          ],
+          "summary": "Spanish business cloud and dedicated server provider offering VMware-backed virtual data centers, corporate backup, and local data residency in Madrid."
+        },
+        {
+          "title": "Alhambra IT Sovereign Cloud and Security",
+          "url": "https://alhambrait.com/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Spanish managed cloud and cybersecurity specialist operating private and sovereign IaaS platforms with ENS Alto certification, zero hyperscaler egress surprises, tailored SLA contracts, and active-active Madrid DCs."
+        },
+        {
+          "title": "Arsys Enterprise Cloud and Private Cloud",
+          "url": "https://www.arsys.es/cloud",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Spanish cloud pioneer (IONOS Group) operating ISO 27001 and full-portfolio ENS Alto data centers in Logrono and Madrid with VMware Cloud Director, Enterprise Cloud IaaS, and predictable EUR billing."
+        },
+        {
+          "title": "Arsys Managed Kubernetes",
+          "url": "https://www.arsys.es/cloud/kubernetes",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Managed Kubernetes service hosted in Spain under ENS Alto and European GDPR jurisdiction with native load balancers, block storage, and IONOS Cloud API / Terraform integration."
+        },
+        {
+          "title": "Barcelona Supercomputing Center: MareNostrum 5",
+          "url": "https://www.bsc.es/marenostrum/marenostrum-5",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA)."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-workloads-stack",
+      "title": "Hypervisors, IaaS, K8s & Sovereign AI",
+      "long_title": "Hypervisors, IaaS, Kubernetes and Sovereign AI Stacks in Europe",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-workloads-stack/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-workloads-stack/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-workloads-stack.md",
+      "resource_count": 14,
+      "fresh_2025_2026_count": 14,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[HYPERVISOR]",
+        "[SOVEREIGN-EU]",
+        "[GPU]",
+        "[LEGACY]",
+        "[LLM]"
+      ],
+      "top_resources": [
+        {
+          "title": "Apache CloudStack",
+          "url": "https://cloudstack.apache.org",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]"
+          ],
+          "summary": "Lightweight, turn-key multi-hypervisor (KVM, XCP-ng, VMware) IaaS orchestrator widely adopted by European MSPs seeking simpler day-2 operations than full OpenStack deployments."
+        },
+        {
+          "title": "Arsys Managed Kubernetes",
+          "url": "https://www.arsys.es/cloud/kubernetes",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Managed Kubernetes service hosted in Spain under ENS Alto and European GDPR jurisdiction with native load balancers, block storage, and IONOS Cloud API / Terraform integration."
+        },
+        {
+          "title": "Barcelona Supercomputing Center: MareNostrum 5",
+          "url": "https://www.bsc.es/marenostrum/marenostrum-5",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA)."
+        },
+        {
+          "title": "Mistral AI Sovereign Frontier Models",
+          "url": "https://mistral.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[LLM]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Paris-based European AI champion delivering open-weight (Mistral/Mixtral/Codestral) and enterprise models optimized for self-hosted Kubernetes vLLM and European sovereign cloud AI endpoints."
+        },
+        {
+          "title": "Nebius Sovereign AI Cloud (Amsterdam HQ)",
+          "url": "https://nebius.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "European-headquartered AI hyperscaler operating massive InfiniBand-interconnected NVIDIA H100, H200, and Blackwell B200 superclusters in Finland and France with Kubernetes (MK8s), Slurm, and Sovereign S3 storage."
+        }
+      ]
+    },
+    {
+      "slug": "eu-sovereign-cloud",
+      "title": "EU Sovereign Cloud Overview & TCO",
+      "long_title": "European Sovereign Cloud and Private Data Centers",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-sovereign-cloud/",
+      "v1_url": "https://nubenetes.com/v1/eu-sovereign-cloud/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-sovereign-cloud.md",
+      "resource_count": 12,
+      "fresh_2025_2026_count": 12,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[COMMUNITY-TOOL]",
+        "[HYPERVISOR]"
+      ],
+      "top_resources": [
+        {
+          "title": "AWS European Sovereign Cloud (Brandenburg Baseline)",
+          "url": "https://aws.amazon.com/compliance/europe-digital-sovereignty",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Standalone German sovereign cloud region built by AWS to isolate operational control planes inside the EU while retaining full AWS API compatibility — evaluated against German-owned providers under CLOUD Act..."
+        },
+        {
+          "title": "Bleu Trusted Cloud (Capgemini and Orange)",
+          "url": "https://www.bleucloud.fr/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Independent French company operating sovereign Azure-stack and Microsoft 365 environments within France to address SecNumCloud 3.2 criteria for public administrations."
+        },
+        {
+          "title": "CCN-CERT Esquema Nacional de Seguridad (ENS)",
+          "url": "https://ens.ccn.cni.es/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Authoritative Spanish cybersecurity standard (Basico, Medio, Alto) required for government agencies, healthcare, banking suppliers, and regulated digital services in Spain."
+        },
+        {
+          "title": "CISPE: Cloud Infrastructure Services Providers in Europe",
+          "url": "https://cispe.cloud",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Trade association of European cloud infrastructure providers driving fair software licensing principles, GDPR Data Protection Code of Conduct compliance, and anti-lock-in cloud portability standards."
+        },
+        {
+          "title": "European Alternatives",
+          "url": "https://european-alternatives.eu",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Curated directory cataloging EU-owned, GDPR-compliant alternatives to non-European cloud hosting, SaaS, object storage, and managed Kubernetes platforms."
         }
       ]
     },
@@ -6208,8 +6878,8 @@
         "[GUIDE]",
         "[EBPF]",
         "[CASE STUDY]",
-        "[LEGACY]",
-        "[EMERGING]"
+        "[DRP-RESILIENCE]",
+        "[LEGACY]"
       ],
       "top_resources": [
         {
@@ -6556,6 +7226,8 @@
         "[DE FACTO STANDARD]",
         "[LEGACY]",
         "[GUIDE]",
+        "[HYPERVISOR]",
+        "[SOVEREIGN-EU]",
         "[ENTERPRISE-STABLE]"
       ],
       "top_resources": [
@@ -6643,8 +7315,9 @@
         "[GUIDE]",
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
-        "[EMERGING]",
-        "[LLM]"
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]",
+        "[EMERGING]"
       ],
       "top_resources": [
         {
@@ -6730,8 +7403,10 @@
         "[DE FACTO STANDARD]",
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
+        "[DRP-RESILIENCE]",
         "[EMERGING]",
-        "[GUIDE]"
+        "[GUIDE]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -6795,7 +7470,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "A specialized Jenkins plugin designed to coordinate container deployment pipelines, allowing seamless application delivery onto Kubernetes clusters. It handles cluster authentication, manifest interpolation, and..."
         }
@@ -6818,7 +7494,8 @@
         "[LEGACY]",
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
-        "[LLM]"
+        "[LLM]",
+        "[SOVEREIGN-EU]"
       ],
       "top_resources": [
         {
@@ -7001,9 +7678,11 @@
         "[ENTERPRISE-STABLE]",
         "[COMMUNITY-TOOL]",
         "[EMERGING]",
+        "[DRP-RESILIENCE]",
         "[DE FACTO STANDARD]",
         "[LEGACY]",
-        "[GUIDE]"
+        "[GUIDE]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -7015,7 +7694,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Kasten K10 by Veeam is the preeminent data protection and disaster recovery platform built natively for Kubernetes. Simplifies metadata protection, block-level persistent backup, and migration via direct cloud..."
         },
@@ -7029,6 +7709,7 @@
           "cncf_status": "sandbox",
           "tags": [
             "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]",
             "[EMERGING]"
           ],
           "summary": "Velero is the standard open-source utility for safely backing up and restoring entire Kubernetes cluster structures and persistent volumes. Deeply integrates with both raw cloud APIs and file-level utilities like..."
@@ -7447,12 +8128,12 @@
       "top_tags": [
         "[COMMUNITY-TOOL]",
         "[DE FACTO STANDARD]",
+        "[HYPERVISOR]",
         "[LEGACY]",
         "[EMERGING]",
         "[GPU]",
-        "[EBPF]",
-        "[AI-FACTORY]",
-        "[DATACENTER]"
+        "[SOVEREIGN-EU]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -7543,7 +8224,7 @@
         "[GPU]",
         "[GUIDE]",
         "[ENTERPRISE-STABLE]",
-        "[ARCHITECTURE]"
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -7728,11 +8409,11 @@
         "[COMMUNITY-TOOL]",
         "[DE FACTO STANDARD]",
         "[GUIDE]",
+        "[DRP-RESILIENCE]",
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
         "[STORAGE]",
-        "[LEGACY]",
-        "[CSI]"
+        "[LEGACY]"
       ],
       "top_resources": [
         {
@@ -7904,7 +8585,8 @@
       "fresh_2025_2026_count": 0,
       "freshness": "historical",
       "top_tags": [
-        "[COMMUNITY-TOOL]"
+        "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -7916,7 +8598,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "An executive CIO assessment detailing the transition of corporate IT operations into automated, zero-touch infrastructures. Covers the integration of AI-driven alert systems, programmatic security gates, and GitOps..."
         },
@@ -8080,9 +8763,9 @@
         "[DE FACTO STANDARD]",
         "[LEGACY]",
         "[GUIDE]",
-        "[EMERGING]",
-        "[CASE STUDY]",
-        "[CLOUD-AI]"
+        "[HYPERVISOR]",
+        "[SOVEREIGN-EU]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -8167,9 +8850,11 @@
         "[EMERGING]",
         "[MCP]",
         "[DE FACTO STANDARD]",
+        "[HYPERVISOR]",
         "[LEGACY]",
         "[CLOUD-AI]",
-        "[ENTERPRISE-STABLE]"
+        "[ENTERPRISE-STABLE]",
+        "[SOVEREIGN-EU]"
       ],
       "top_resources": [
         {
@@ -8197,6 +8882,7 @@
             "[DE FACTO STANDARD]",
             "[EMERGING]",
             "[ENTERPRISE-STABLE]",
+            "[HYPERVISOR]",
             "[LEGACY]"
           ],
           "summary": "KubeVirt is a graduated CNCF project that allows virtual machines to run natively alongside standard container workloads on Kubernetes. By utilizing KVM virtualization inside Pods, it helps enterprises transition..."
@@ -8211,6 +8897,7 @@
           "cncf_status": null,
           "tags": [
             "[EMERGING]",
+            "[HYPERVISOR]",
             "[MCP]"
           ],
           "summary": "High-velocity Model Context Protocol (MCP) server for Kubernetes and Red Hat OpenShift, allowing AI agents and coding assistants to securely inspect pods, logs, KubeVirt VMs, and cluster APIs."
@@ -8353,8 +9040,9 @@
         "[EMERGING]",
         "[DE FACTO STANDARD]",
         "[EBPF]",
-        "[LEGACY]",
-        "[GUIDE]"
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]",
+        "[LEGACY]"
       ],
       "top_resources": [
         {
@@ -8405,7 +9093,8 @@
           "gh_license": "Apache-2.0",
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[HYPERVISOR]"
           ],
           "summary": "Curator Insight showcases Harvester as a modern open-source HCI built on KubeVirt and Longhorn. Live grounding in 2026 confirms Harvester has fully matured into an enterprise-stable alternative to VMware ESXi,..."
         },
@@ -8443,8 +9132,8 @@
         "[GUIDE]",
         "[CASE STUDY]",
         "[EMERGING]",
-        "[LEGACY]",
-        "[LLM]"
+        "[DRP-RESILIENCE]",
+        "[LEGACY]"
       ],
       "top_resources": [
         {
@@ -8527,6 +9216,7 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]",
         "[DE FACTO STANDARD]",
         "[EMERGING]",
@@ -8555,7 +9245,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Corporate entry point for Crunchy Data, a driving force behind enterprise-hardened, fully open-source PostgreSQL. Represents a suite of production support, compliance validation patterns, and cloud-native integration..."
         },
@@ -8618,8 +9309,8 @@
         "[CASE STUDY]",
         "[EMERGING]",
         "[LEGACY]",
-        "[ENTERPRISE-STABLE]",
-        "[GPU]"
+        "[DRP-RESILIENCE]",
+        "[ENTERPRISE-STABLE]"
       ],
       "top_resources": [
         {
@@ -8708,7 +9399,7 @@
         "[EMERGING]",
         "[LEGACY]",
         "[CASE STUDY]",
-        "[MLOPS]"
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -8795,6 +9486,7 @@
         "[EMERGING]",
         "[DE FACTO STANDARD]",
         "[GPU]",
+        "[HYPERVISOR]",
         "[LEGACY]"
       ],
       "top_resources": [
@@ -9116,7 +9808,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "A specialized Jenkins plugin designed to coordinate container deployment pipelines, allowing seamless application delivery onto Kubernetes clusters. It handles cluster authentication, manifest interpolation, and..."
         },
@@ -9154,7 +9847,7 @@
         "[ENTERPRISE-STABLE]",
         "[EMERGING]",
         "[MCP]",
-        "[LLM]"
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -9241,7 +9934,8 @@
         "[DE FACTO STANDARD]",
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
-        "[GUIDE]"
+        "[GUIDE]",
+        "[SOVEREIGN-EU]"
       ],
       "top_resources": [
         {
@@ -9330,7 +10024,8 @@
         "[EMERGING]",
         "[ENTERPRISE-STABLE]",
         "[GUIDE]",
-        "[EBPF]"
+        "[EBPF]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -9422,8 +10117,8 @@
         "[LEGACY]",
         "[EMERGING]",
         "[CASE STUDY]",
-        "[ENTERPRISE-STABLE]",
-        "[MLOPS]"
+        "[DRP-RESILIENCE]",
+        "[ENTERPRISE-STABLE]"
       ],
       "top_resources": [
         {
@@ -9449,7 +10144,8 @@
           "gh_license": "Apache-2.0",
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "The main Git repository for Dagger, the revolutionary CI/CD engine built on BuildKit. Enables writing robust pipelines in general-purpose languages like Go, Python, or TypeScript, completely replacing verbose,..."
         },
@@ -9512,7 +10208,8 @@
         "[ENTERPRISE-STABLE]",
         "[EMERGING]",
         "[GUIDE]",
-        "[MLOPS]"
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -9684,6 +10381,7 @@
         "[LEGACY]",
         "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[EMERGING]"
       ],
       "top_resources": [
@@ -10446,6 +11144,7 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]"
       ],
       "top_resources": [
@@ -10471,7 +11170,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "A highly performant, modular web server designed by Red Hat. Written in Java, it features non-blocking, asynchronous capabilities, functioning as a powerful, lightweight container engine for high-density microservices."
         }
@@ -10495,6 +11195,7 @@
         "[DE FACTO STANDARD]",
         "[LEGACY]",
         "[EMERGING]",
+        "[DRP-RESILIENCE]",
         "[CASE STUDY]"
       ],
       "top_resources": [
@@ -10546,7 +11247,8 @@
           "gh_license": "Apache-2.0",
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Curator Insight introduces go-micro as a distributed systems development framework providing key abstractions for microservices. Live Grounding notes its journey through corporate and open-source licensing changes,..."
         },
@@ -10758,7 +11460,9 @@
         "[GUIDE]",
         "[DE FACTO STANDARD]",
         "[LEGACY]",
-        "[EMERGING]"
+        "[DRP-RESILIENCE]",
+        "[EMERGING]",
+        "[HYPERVISOR]"
       ],
       "top_resources": [
         {
@@ -10942,6 +11646,7 @@
         "[DE FACTO STANDARD]",
         "[EMERGING]",
         "[GPU]",
+        "[HYPERVISOR]",
         "[LEGACY]"
       ],
       "top_resources": [
@@ -11291,9 +11996,9 @@
         "[DE FACTO STANDARD]",
         "[ENTERPRISE-STABLE]",
         "[LEGACY]",
+        "[DRP-RESILIENCE]",
         "[LLM]",
-        "[EMERGING]",
-        "[PYTHON]"
+        "[EMERGING]"
       ],
       "top_resources": [
         {
@@ -11464,7 +12169,8 @@
         "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
         "[GUIDE]",
-        "[LEGACY]"
+        "[LEGACY]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -11603,7 +12309,8 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
-        "[DE FACTO STANDARD]"
+        "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -11641,7 +12348,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "SaaS scheduling tool providing automated invite links, corporate calendar integration, and round-robin scheduling algorithms to streamline business workflow coordination."
         },
@@ -11690,9 +12398,9 @@
         "[ENTERPRISE-STABLE]",
         "[GUIDE]",
         "[DE FACTO STANDARD]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]",
-        "[CASE STUDY]",
-        "[LLM]"
+        "[CASE STUDY]"
       ],
       "top_resources": [
         {
@@ -11782,8 +12490,8 @@
         "[EMERGING]",
         "[GPU]",
         "[FINOPS]",
-        "[GIT]",
-        "[AGENTS]"
+        "[DRP-RESILIENCE]",
+        "[GIT]"
       ],
       "top_resources": [
         {
@@ -11866,7 +12574,9 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
-        "[GUIDE]"
+        "[DRP-RESILIENCE]",
+        "[GUIDE]",
+        "[SOVEREIGN-EU]"
       ],
       "top_resources": [
         {
@@ -11917,7 +12627,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "A high-end freelance network (formerly Certace, now part of the wider a-connect ecosystem) matching specialized business analysts and project managers with corporate clients. Live grounding shows a rigorous vetting..."
         },
@@ -11931,6 +12642,7 @@
           "cncf_status": null,
           "tags": [
             "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]",
             "[GUIDE]"
           ],
           "summary": "A tactical resource breaking down contractor taxation, social security requirements, and corporate setups in Spain. Useful for foreign engineers seeking to establish legal compliance while maximizing net income. Live..."
@@ -11949,7 +12661,8 @@
       "fresh_2025_2026_count": 3,
       "freshness": "active",
       "top_tags": [
-        "[COMMUNITY-TOOL]"
+        "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -11961,7 +12674,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "GitLab's public corporate handbook is an open-source operations manual. It serves as an architectural blueprint for remote-first team organization, development culture, and structured transparency frameworks."
         },
@@ -11974,7 +12688,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "An analytical study investigating modern employee retention trends in high-tech environments, specifically exploring the architectural shifts in human resources and corporate cultural structures."
         },
@@ -12010,6 +12725,7 @@
         "[DE FACTO STANDARD]",
         "[EMERGING]",
         "[DEVOPS]",
+        "[DRP-RESILIENCE]",
         "[GUIDE]",
         "[LEGACY]"
       ],
@@ -12195,6 +12911,7 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]",
         "[LEGACY]",
         "[CASE STUDY]",
         "[DE FACTO STANDARD]"
@@ -12209,7 +12926,8 @@
           "gh_license": "CC0-1.0",
           "cncf_status": null,
           "tags": [
-            "[DE FACTO STANDARD]"
+            "[DE FACTO STANDARD]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Curator Insight: An open-source global job search manual providing metadata on visa processes and relocation budgets. Live Grounding: Continues to be a vital community asset for tech professionals traversing global..."
         },
@@ -12280,6 +12998,7 @@
       "freshness": "historical",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]",
         "[CASE STUDY]"
       ],
       "top_resources": [
@@ -12318,7 +13037,8 @@
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[COMMUNITY-TOOL]"
+            "[COMMUNITY-TOOL]",
+            "[DRP-RESILIENCE]"
           ],
           "summary": "Curator Insight explores remote burnout stemming from the erosion of personal-professional boundaries. Live Grounding confirms that setting strict digital disconnection protocols, async standups, and structured..."
         },
@@ -12364,6 +13084,7 @@
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
+        "[DRP-RESILIENCE]",
         "[CASE STUDY]",
         "[GUIDE]",
         "[LEGACY]"

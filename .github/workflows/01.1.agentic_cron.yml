@@ -38,6 +38,10 @@ on:
         description: 'Include Cloud Providers (AWS/Azure/GCP)'
         type: boolean
         default: true
+      include_eu_sovereign:
+        description: 'Include European Sovereign Cloud & Private DCs'
+        type: boolean
+        default: true
       include_ai:
         description: 'Include AI & Agentic Systems'
         type: boolean
@@ -165,6 +169,7 @@ jobs:
           INCLUDE_SEC_OBS: ${{ github.event.inputs.include_sec_obs || 'true' }}
           INCLUDE_OPENSHIFT: ${{ github.event.inputs.include_openshift || 'true' }}
           INCLUDE_CLOUD: ${{ github.event.inputs.include_cloud || 'true' }}
+          INCLUDE_EU_SOVEREIGN: ${{ github.event.inputs.include_eu_sovereign || 'true' }}
           INCLUDE_AI: ${{ github.event.inputs.include_ai || 'true' }}
           INCLUDE_RAG_OKF: ${{ github.event.inputs.include_rag_okf || 'true' }}
           INCLUDE_DEV: ${{ github.event.inputs.include_dev || 'true' }}

@@ -63,7 +63,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: AWS Kube
 
 #### Business Case
 
-  - **(2026)** [acloudguru.com: Multicloud Fluency: 6 reasons you should learn multiple clouds](https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A Pluralsight / A Cloud Guru publication detailing the technical and economic benefits of pursuing multi-cloud literacy. It highlights cloud portability, lock-in avoidance, and feature-specific workload optimization. Live grounding indicates its utility in corporate reskilling initiatives.
+  - **(2026)** [acloudguru.com: Multicloud Fluency: 6 reasons you should learn multiple clouds](https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platforms)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A Pluralsight / A Cloud Guru publication detailing the technical and economic benefits of pursuing multi-cloud literacy. It highlights cloud portability, lock-in avoidance, and feature-specific workload optimization. Live grounding indicates its utility in corporate reskilling initiatives.
 ### Multimedia
 
 #### Provider Comparisons
@@ -82,7 +82,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: AWS Kube
 
 #### Multi-cloud Assessment
 
-  - **(2026)** [digitalisationworld.com: Multicloud: Two truths and a lie](https://digitalisationworld.com/blogs/57435/multicloud-two-truths-and-a-lie)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration of the strategic myths versus realities of adopting a multi-cloud architecture. It warns against unnecessary engineering overhead and complex network topology while admitting its value in high-availability designs. Live grounding supports its status as a valuable corporate reality check.
+  - **(2026)** [digitalisationworld.com: Multicloud: Two truths and a lie](https://digitalisationworld.com/blogs/57435/multicloud-two-truths-and-a-lie)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — An analytical exploration of the strategic myths versus realities of adopting a multi-cloud architecture. It warns against unnecessary engineering overhead and complex network topology while admitting its value in high-availability designs. Live grounding supports its status as a valuable corporate reality check.
 ### Blockchain As A Service
 
 #### Distributed Ledgers
@@ -147,10 +147,10 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: AWS Kube
 
 #### Gaia-x Core
 
-  - **(2026)** [Gaia-X.eu](https://gaia-x.eu) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official portal for Gaia-X, a European initiative seeking to establish unified requirements for an open, secure, and federated data architecture. Curated as a data sovereignty system; live grounding reflects its transition from theoretical architectural documents to real-world deployment of Gaia-X Compliance Engines.
+  - **(2026)** [Gaia-X.eu](https://gaia-x.eu) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Official portal for Gaia-X, a European initiative seeking to establish unified requirements for an open, secure, and federated data architecture. Curated as a data sovereignty system; live grounding reflects its transition from theoretical architectural documents to real-world deployment of Gaia-X Compliance Engines.
 #### Gaia-x Dossier
 
-  - **(2026)** [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — German Federal Ministry dossier presenting Gaia-X's vision for data sovereignty, interoperability, and reducing hyperscaler lock-in across the EU. Live grounding demonstrates its influence on emerging EU legislation (Data Act) and federated cloud-computing structures in highly regulated sectors.
+  - **(2026)** [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — German Federal Ministry dossier presenting Gaia-X's vision for data sovereignty, interoperability, and reducing hyperscaler lock-in across the EU. Live grounding demonstrates its influence on emerging EU legislation (Data Act) and federated cloud-computing structures in highly regulated sectors.
 ## Infrastructure Resilience
 
 ### Outage Post-mortem
@@ -201,5 +201,5 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: AWS Kube
 ---
 💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Demos](./demos.md)
 

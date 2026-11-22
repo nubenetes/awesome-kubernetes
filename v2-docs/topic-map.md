@@ -125,6 +125,18 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 </div>
 </div>
 <div class="topic-heatmap__row">
+<div class="topic-heatmap__dim">European Sovereign Cloud & Private DCs</div>
+<div class="topic-heatmap__cells">
+<a class="topic-heatcell th-3" href="/eu-cloud-iac-maturity/" title="IaC Automation & Maturity vs Hyperscalers — 22 resources"><span class="topic-heatcell__name">IaC Automation & Maturity vs Hyperscalers</span><span class="topic-heatcell__n">22</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-france-germany/" title="France & Germany Cloud Champions — 19 resources"><span class="topic-heatcell__name">France & Germany Cloud Champions</span><span class="topic-heatcell__n">19</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-spain/" title="Spain Sovereign Cloud & Private DCs — 19 resources"><span class="topic-heatcell__name">Spain Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">19</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-workloads-stack/" title="Hypervisors, IaaS, K8s & Sovereign AI — 14 resources"><span class="topic-heatcell__name">Hypervisors, IaaS, K8s & Sovereign AI</span><span class="topic-heatcell__n">14</span></a>
+<a class="topic-heatcell th-3" href="/eu-sovereign-cloud/" title="EU Sovereign Cloud Overview & TCO — 12 resources"><span class="topic-heatcell__name">EU Sovereign Cloud Overview & TCO</span><span class="topic-heatcell__n">12</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-italy-uk-nordics/" title="Italy, UK, Nordics & Benelux — 12 resources"><span class="topic-heatcell__name">Italy, UK, Nordics & Benelux</span><span class="topic-heatcell__n">12</span></a>
+<a class="topic-heatcell th-2" href="/eu-cloud-resilience-sla/" title="RPO, RTO, SLAs, DRP & Replication — 6 resources"><span class="topic-heatcell__name">RPO, RTO, SLAs, DRP & Replication</span><span class="topic-heatcell__n">6</span></a>
+</div>
+</div>
+<div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">Networking & Service Mesh</div>
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-5" href="/kubernetes-networking/" title="Kubernetes Networking — 140 resources"><span class="topic-heatcell__name">Kubernetes Networking</span><span class="topic-heatcell__n">140</span></a>
@@ -354,6 +366,20 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Managed Kubernetes (Public Cloud)](./managed-kubernetes-in-public-cloud.md)** <span class="topic-count">252</span>
 - **[Oracle Cloud (OCI)](./oraclecloud.md)** <span class="topic-count">6</span>
 - **[Public Cloud Solutions](./public-cloud-solutions.md)** <span class="topic-count">37</span>
+
+</section>
+
+<section class="topic-map-dim" markdown="1">
+
+## European Sovereign Cloud & Private DCs
+
+- **[France & Germany Cloud Champions](./eu-cloud-france-germany.md)** <span class="topic-count">19</span>
+- **[IaC Automation & Maturity vs Hyperscalers](./eu-cloud-iac-maturity.md)** <span class="topic-count">22</span>
+- **[Italy, UK, Nordics & Benelux](./eu-cloud-italy-uk-nordics.md)** <span class="topic-count">12</span>
+- **[RPO, RTO, SLAs, DRP & Replication](./eu-cloud-resilience-sla.md)** <span class="topic-count">6</span>
+- **[Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md)** <span class="topic-count">19</span>
+- **[Hypervisors, IaaS, K8s & Sovereign AI](./eu-cloud-workloads-stack.md)** <span class="topic-count">14</span>
+- **[EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md)** <span class="topic-count">12</span>
 
 </section>
 

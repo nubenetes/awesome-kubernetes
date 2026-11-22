@@ -31,16 +31,16 @@ description: "Top Freelancing resources for 2026, AI-ranked: adeva, arc - former
 
 #### Career Paths
 
-  - **(2021)** [youtube: Freelance vs Empleo como Programador | midulive](https://www.youtube.com/watch?v=81VnO4puNkg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-impact video discussion by midudev comparing life as an independent freelance developer versus stable corporate employment. It evaluates financial structures, work-life boundaries, operational freedoms, and risk profile trade-offs.
+  - **(2021)** [youtube: Freelance vs Empleo como Programador | midulive](https://www.youtube.com/watch?v=81VnO4puNkg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A high-impact video discussion by midudev comparing life as an independent freelance developer versus stable corporate employment. It evaluates financial structures, work-life boundaries, operational freedoms, and risk profile trade-offs.
 #### Cooperatives
 
   - **(2024)** [Acento: Cooperativa de freelance](https://acentocoop.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A cooperative platform in Spain designed to let freelance professionals pool resources, bill clients legally, and manage tax requirements without having to maintain a costly self-employed registration status.
 #### Europe Market
 
-  - **(2021)** [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A socio-economic exploration of the rising popularity of IT freelancing in France. It highlights the shifting landscape from traditional consulting firms to independent contracting, discussing the growth of dedicated legal structures, digital matching marketplaces, and regional developer density.
+  - **(2021)** [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — A socio-economic exploration of the rising popularity of IT freelancing in France. It highlights the shifting landscape from traditional consulting firms to independent contracting, discussing the growth of dedicated legal structures, digital matching marketplaces, and regional developer density.
 #### Financial Calculators
 
-  - **(2024)** [calculadora.malt.es](https://calculadora.malt.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A calculator tool built by Malt Spain that helps freelancers estimate their daily rate (Tasa Diaria Media - TDM) based on localized experience, tech stack, and location. Ideal for software developers transitioning to contracting to properly assess market value and negotiate sustainable client contracts.
+  - **(2024)** [calculadora.malt.es](https://calculadora.malt.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — A calculator tool built by Malt Spain that helps freelancers estimate their daily rate (Tasa Diaria Media - TDM) based on localized experience, tech stack, and location. Ideal for software developers transitioning to contracting to properly assess market value and negotiate sustainable client contracts.
 #### Financial Strategy
 
   - **(2024)** [declarando.es](https://declarando.es)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated tax-management and automated accounting platform engineered for Spanish freelancers. It leverages algorithmic optimizations to automate VAT and personal income tax returns, maximizing deductible business expenses dynamically.
@@ -83,13 +83,13 @@ description: "Top Freelancing resources for 2026, AI-ranked: adeva, arc - former
 
 #### Spanish Contracting
 
-  - **(2026)** [umbrellaselector.com/Spain](https://umbrellaselector.com/Spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A specialized lookup and compliance advisory engine for umbrella companies operating within the Spanish labor law framework. It helps expatriates and local contractors legally bypass high corporate registration costs. Live grounding highlights the tool as a baseline for navigating complex Spanish payroll environments.
+  - **(2026)** [umbrellaselector.com/Spain](https://umbrellaselector.com/Spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A specialized lookup and compliance advisory engine for umbrella companies operating within the Spanish labor law framework. It helps expatriates and local contractors legally bypass high corporate registration costs. Live grounding highlights the tool as a baseline for navigating complex Spanish payroll environments.
 #### Spanish Freelancing
 
   - **(2026)** [freelance.es](https://freelance.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated digital portal and community framework supporting freelance professionals in Spain. It offers administrative guides, legal protection updates, and billing services. Live grounding identifies it as a highly reliable resource for navigating complex 'autónomo' tax structures and compliance checks.
 #### Spanish Taxation
 
-  - **(2026)** [contractortaxation.com/contracting-in-spain](https://contractortaxation.com/contracting-in-spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A tactical resource breaking down contractor taxation, social security requirements, and corporate setups in Spain. Useful for foreign engineers seeking to establish legal compliance while maximizing net income. Live grounding confirms the accuracy of its tax-rate tables and structural options under Spanish law.
+  - **(2026)** [contractortaxation.com/contracting-in-spain](https://contractortaxation.com/contracting-in-spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A tactical resource breaking down contractor taxation, social security requirements, and corporate setups in Spain. Useful for foreign engineers seeking to establish legal compliance while maximizing net income. Live grounding confirms the accuracy of its tax-rate tables and structural options under Spanish law.
 #### UK Contracting
 
   - **(2026)** [paystream.co.uk: What is an umbrella company?](https://www.paystream.co.uk/helphub/umbrella/getting-started/what-is-an-umbrella-company)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An essential guide clarifying the regulatory framework of UK Umbrella Companies under IR35 tax legislation. It explains employer payroll obligations, PAYE calculations, and tax-efficient strategies. Live grounding confirms its vital role as an educational reference for engineers operating in the UK contract market.
@@ -109,7 +109,7 @@ description: "Top Freelancing resources for 2026, AI-ranked: adeva, arc - former
   - **(2026)** [lorem](https://www.storetasker.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized marketplace (operating as Storetasker) that links freelance Shopify developers and e-commerce technical professionals with brands. It streamlines micro-contracting, escrow payments, and technical feedback. Live grounding indicates highly optimized workflows specifically tailored for e-commerce tech stacks.
 #### Freelance Consulting
 
-  - **(2026)** [certace](https://a-connect.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-end freelance network (formerly Certace, now part of the wider a-connect ecosystem) matching specialized business analysts and project managers with corporate clients. Live grounding shows a rigorous vetting structure that bridges traditional management consulting with agile project execution.
+  - **(2026)** [certace](https://a-connect.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A high-end freelance network (formerly Certace, now part of the wider a-connect ecosystem) matching specialized business analysts and project managers with corporate clients. Live grounding shows a rigorous vetting structure that bridges traditional management consulting with agile project execution.
 #### Global Sourcing
 
   - **(2026)** [crossover](https://www.crossover.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-grade talent matching platform designed for long-term, high-compensation remote roles. It implements standardized testing and rigorous qualification procedures. Live grounding validates its position as a high-density, metrics-driven remote staffing solution for scale-ups and global tech conglomerates.
@@ -132,5 +132,5 @@ description: "Top Freelancing resources for 2026, AI-ranked: adeva, arc - former
 ---
 💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [AWS New Features](./aws-newfeatures.md)
 

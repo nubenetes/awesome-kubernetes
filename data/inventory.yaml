@@ -461,6 +461,7 @@ https://a-connect.com:
   - Freelance Consulting
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/freelancing.md
   v2_locations:
@@ -7566,6 +7567,7 @@ https://akomljen.com/kubernetes-backup-and-restore-with-velero:
   - Data Protection
   - Kubernetes Backup Operators
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
@@ -10318,6 +10320,7 @@ https://andrewlock.net/installing-docker-desktop-for-windows:
   - WSL2
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -11070,6 +11073,7 @@ https://api-market.santalucia.es:
   - Insurtech
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   v1_locations:
   - docs/developerportals.md
@@ -13621,6 +13625,7 @@ https://artoftesting.com/sql-queries-for-interview:
   - Database & SQL
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/interview-questions.md
   v2_locations:
@@ -13971,6 +13976,7 @@ https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digi
   - Managed Kubernetes Comparison
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/matrix-table.md
   v2_locations:
@@ -17709,6 +17715,7 @@ https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-elastic-file-system-re
   - Storage
   - EFS
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/aws-newfeatures.md
@@ -17968,6 +17975,7 @@ https://aws.amazon.com/about-aws/whats-new/2022/06/aws-well-architected-tool-org
   - Compliance
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws-newfeatures.md
   v2_locations:
@@ -19503,6 +19511,7 @@ https://aws.amazon.com/architecture/icons:
   - AWS
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/cloud-arch-diagrams.md
   v2_locations:
@@ -20175,6 +20184,7 @@ https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-ser
   - AWS Architectures
   - Single Region
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   - '[LLM]'
   v1_locations:
@@ -21280,6 +21290,7 @@ https://aws.amazon.com/blogs/aws/amazon-workmail-now-generally-available:
   - AWS
   - Business Applications
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/aws-newfeatures.md
@@ -21496,6 +21507,7 @@ https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-ava
   - Cloud Adoption Framework
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws.md
   v2_locations:
@@ -23129,6 +23141,7 @@ https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-service
   - Step Functions
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws-newfeatures.md
   v2_locations:
@@ -23600,6 +23613,7 @@ https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experienc
   - AWS SAM Pipelines
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws-serverless.md
   v2_locations:
@@ -23922,6 +23936,7 @@ https://aws.amazon.com/blogs/containers/addressing-ipv4-address-exhaustion-in-am
   - IP Management
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/managed-kubernetes-in-public-cloud.md
@@ -24672,6 +24687,7 @@ https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes:
   - CDK8s
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -26631,6 +26647,7 @@ https://aws.amazon.com/blogs/mt/amazon-managed-service-for-grafana-amg-preview-u
   - Grafana
   - Managed Visualization
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/aws-newfeatures.md
@@ -28628,6 +28645,7 @@ https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-app
   - Multi-Region Architectures
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws-storage.md
   v2_locations:
@@ -30170,6 +30188,7 @@ https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces
   - AWS Storage
   - Veeam Integration
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/aws-backup.md
@@ -30347,6 +30366,7 @@ https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-usin
   - Private Connectivity
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/aws-storage.md
@@ -30383,6 +30403,7 @@ https://aws.amazon.com/es/blogs/aws-spanish/aws-network-firewall-nuevo-servicio-
   - Networking
   - Network Security
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/aws-newfeatures.md
@@ -33077,6 +33098,7 @@ https://aws.amazon.com/security:
   - Security and Compliance
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/aws-security.md
   v2_locations:
@@ -35489,6 +35511,7 @@ https://awstrainingwithjagan.com/infrastructure-as-code-tool-comparison:
   - Tool Comparison
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/iac.md
   v2_locations:
@@ -35768,6 +35791,7 @@ https://azure.github.io/AKS-Construction:
   - Template Generator
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/managed-kubernetes-in-public-cloud.md
   v2_locations:
@@ -44653,6 +44677,7 @@ https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default:
   - JDK Distribution
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/java_frameworks.md
   v2_locations:
@@ -44943,6 +44968,7 @@ https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster:
   - Ingress
   - Tunnels
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/kubernetes-networking.md
@@ -45050,6 +45076,7 @@ https://blog.alexellis.io/what-if-your-pods-need-to-trust-self-signed-certificat
   - Certificate Management
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-security.md
   v2_locations:
@@ -47626,6 +47653,7 @@ https://blog.cloudflare.com/our-unified-data-platform:
   hierarchy:
   - Data Engineering > Data Lakehouse > Unified SQL Query Interfaces
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[LLM]'
@@ -56343,6 +56371,7 @@ https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-annou
   - Google I/O 2026
   - Announcements
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
@@ -57991,6 +58020,7 @@ https://blog.jessfraz.com/post/hard-multi-tenancy-in-kubernetes:
   - Hard Isolation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -61406,6 +61436,7 @@ https://blog.ogenki.io/post/terraform-controller:
   - Kubernetes Integration
   - GitOps & Provisioning
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/terraform.md
@@ -69277,6 +69308,7 @@ https://blogs.sap.com/2021/12/13/a-practical-guide-to-devops-for-sap-erp:
   - SAP ERP
   - DevOps Implementation
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/devops.md
@@ -70956,6 +70988,7 @@ https://build5nines.com/azure-functions-cost-considerations-and-optimization:
   - .NET CI
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -70992,6 +71025,7 @@ https://build5nines.com/azure-resource-tags-important-organization-strategies-an
   - Cost Controls
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -71414,6 +71448,7 @@ https://build5nines.com/github-actions-get-current-branch-name-for-git-repo:
   - Branch Protection
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/git.md
   v2_locations:
@@ -71451,6 +71486,7 @@ https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-do
   - Pandoc Conversions
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/mkdocs.md
@@ -72860,6 +72896,7 @@ https://buildkite.com/resources/blog/manage-your-ci-cd-resources-as-code-with-te
   - Build Automation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -73138,6 +73175,7 @@ https://buttondown.com/nelhage/archive/two-reasons-kubernetes-is-so-complex:
   - Theory
   - Complexity Analysis
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/kubernetes.md
@@ -73411,6 +73449,7 @@ https://calculadora.malt.es:
   - Financial Calculators
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/freelancing.md
   v2_locations:
@@ -73481,6 +73520,7 @@ https://calendly.com:
   - Commercial Tools
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/appointment-scheduling.md
   v2_locations:
@@ -75260,6 +75300,7 @@ https://ceph.io/en:
   - Ceph
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-storage.md
   - docs/ocp4.md
@@ -76490,6 +76531,7 @@ https://chrisarcand.com/purposeful-commits:
   - Git Best Practices
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/cicd.md
   - docs/devops.md
@@ -79466,6 +79508,7 @@ https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerat
   tags:
   - '[CASE STUDY]'
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -81398,6 +81441,7 @@ https://cloud.google.com/devops:
   - DevOps Frameworks
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/GoogleCloudPlatform.md
   - docs/devops.md
@@ -86253,6 +86297,7 @@ https://cloudnativenow.com/kubeconcnc/kubernetes-true-superpower-is-its-control-
   - Declarative APIs
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -86570,6 +86615,7 @@ https://cloudnativenow.com/topics/cloudnativeplatforms/red-hat-integrates-kubevi
   - Virtualization
   - KubeVirt Integration
   tags:
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/ocp4.md
@@ -91183,6 +91229,7 @@ https://community.f5.com/kb/technicalarticles/what-is-kubernetes/281010:
   - Architecture Comparison
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -93921,6 +93968,7 @@ https://contractortaxation.com/contracting-in-spain:
   - Spanish Taxation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/freelancing.md
@@ -94162,6 +94210,7 @@ https://copr.fedorainfracloud.org/coprs:
   - Fedora/RedHat
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/linux.md
   v2_locations:
@@ -94755,6 +94804,7 @@ https://cronicaglobal.elespanol.com/vida/20240604/roberto-ardon-incepto-ia-puede
   - AI Diagnostics
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/customer.md
   v2_locations:
@@ -98978,6 +99028,7 @@ https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-deskt
   - Alternatives
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/docker.md
@@ -99049,6 +99100,7 @@ https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deploymen
   tags:
   - '[COMMUNITY-TOOL]'
   - '[GUIDE]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -100157,6 +100209,7 @@ https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62:
   - Architecture & Guides
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws.md
   v2_locations:
@@ -101606,6 +101659,7 @@ https://dev.to/chinmay13/aws-networking-with-terraform-vpc-transit-gateway-betwe
   - Networking & Core
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/terraform.md
@@ -101676,6 +101730,7 @@ https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b:
   - FinOps Practices
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -103463,6 +103518,7 @@ https://dev.to/fkurz/detecting-kubernetes-api-deprecations-with-pluto-3g2m:
   - API Deprecations
   - Static Analysis
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-tools.md
@@ -108448,6 +108504,7 @@ https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45:
   - Core Concepts
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -109170,6 +109227,7 @@ https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k:
   - Serverless
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -109837,6 +109895,7 @@ https://dev.to/techworld_with_nana/kubernetes-backup-restore-made-easy-2nlg:
   - Data Protection
   - Beginner Guides
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
@@ -110493,6 +110552,7 @@ https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e:
   - Authentication & Authorization
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-security.md
   v2_locations:
@@ -112550,6 +112610,7 @@ https://devblogs.microsoft.com/java/deploy-spring-boot-applications-by-leveragin
   - Design Patterns
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -112758,6 +112819,7 @@ https://devblogs.microsoft.com/python:
   - Enterprise Integration
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/python.md
   v2_locations:
@@ -113441,6 +113503,7 @@ https://devdosvid.blog/2022/01/16/some-techniques-to-enhance-your-terraform-prof
   - Developer Productivity
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -115943,6 +116006,7 @@ https://developer.okta.com/blog/2022/01/06/native-java-helidon:
   - API Security
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/java_frameworks.md
@@ -118327,6 +118391,7 @@ https://developers.redhat.com/articles/2021/11/04/generating-pseudorandom-number
   - Randomness
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/python.md
   v2_locations:
@@ -119067,6 +119132,7 @@ https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-au
   - Local Development
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/ansible.md
   v2_locations:
@@ -120129,6 +120195,7 @@ https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop
   - OpenShift Local
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -123696,6 +123763,7 @@ https://developers.redhat.com/blog/2021/02/12/developing-your-own-custom-devfile
   - OpenShift Odo CLI
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/openshift-pipelines.md
   v2_locations:
@@ -126211,6 +126279,7 @@ https://developers.redhat.com/products/openjdk/download:
   - JDK Distribution
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/java_frameworks.md
   v2_locations:
@@ -127291,6 +127360,7 @@ https://devops.com/6-signs-youre-doing-devops-correctly:
   - Operational Excellence
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -129610,6 +129680,7 @@ https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cu
   - Team Culture
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -133766,6 +133837,7 @@ https://digitalisationworld.com/blogs/57435/multicloud-two-truths-and-a-lie:
   tags:
   - '[CASE STUDY]'
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/public-cloud-solutions.md
   v2_locations:
@@ -140894,6 +140966,7 @@ https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5S
   - Presentation Slides
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-tutorials.md
   v2_locations:
@@ -144711,6 +144784,7 @@ https://docs.openstack.org/tempest/latest:
   - OpenStack Testing
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/test-automation-frameworks.md
   v2_locations:
@@ -147650,6 +147724,7 @@ https://doughellmann.com:
   - Technical Leadership
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   - '[LLM]'
   v1_locations:
   - docs/python.md
@@ -148414,6 +148489,7 @@ https://dustymabe.com/2020/09/28/openshift-okd-on-fedora-coreos-on-digitalocean-
   - Cloud Provisioning
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -150072,6 +150148,7 @@ https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong:
   - Kong API Manager
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/developerportals.md
   v2_locations:
@@ -155231,6 +155308,7 @@ https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight:
   - Rapid API Marketplace. Free Public and Open REST APIs
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/developerportals.md
   v2_locations:
@@ -155265,6 +155343,7 @@ https://dzone.com/articles/rate-limiting-for-microservices:
   - Spring Cloud Gateway
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/developerportals.md
   v2_locations:
@@ -163399,6 +163478,7 @@ https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model
   hierarchy:
   - Machine Learning > AI Infrastructure > High-Throughput Recommendation Retrieval
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[GPU]'
@@ -163512,6 +163592,7 @@ https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters:
   - Scale Stories
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   v2_locations:
@@ -164694,6 +164775,7 @@ https://enterprisersproject.com/article/2021/10/devops-future-operating-model-it
   - Future Trends
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -170508,6 +170590,7 @@ https://fedoralovespython.org:
   - OS Distribution
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/python.md
   v2_locations:
@@ -170543,6 +170626,7 @@ https://fedoramagazine.org/bash-shell-scripting-for-beginners-part-1:
   - Introduction
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/linux.md
   v2_locations:
@@ -170579,6 +170663,7 @@ https://fedoramagazine.org/manage-containers-with-podman-compose:
   - Podman Compose
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/container-managers.md
   v2_locations:
@@ -170615,6 +170700,7 @@ https://fedoramagazine.org/powershell-on-linux-a-primer-on-object-shells:
   - Cross-Platform Shells
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -170651,6 +170737,7 @@ https://fedoramagazine.org/use-docker-compose-with-podman-to-orchestrate-contain
   - Docker Compose Compatibility
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/container-managers.md
   v2_locations:
@@ -170686,6 +170773,7 @@ https://fedoramagazine.org/using-ansible-to-configure-podman-containers:
   - Containers
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/ansible.md
   v2_locations:
@@ -170720,6 +170808,7 @@ https://fedoramagazine.org/varnish-site-faster-stable:
   - Varnish
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/caching.md
   v2_locations:
@@ -172703,10 +172792,13 @@ https://gaia-x.eu:
   - Gaia-X Core
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/public-cloud-solutions.md
+  - docs/eu-sovereign-cloud.md
   v2_locations:
   - public-cloud-solutions.md
+  - eu-sovereign-cloud.md
   youtube_mosaic: {}
   category: public-cloud-solutions
 https://galaxy.ansible.com:
@@ -174616,6 +174708,7 @@ https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4:
   - Jenkinsfile Troubleshooting
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/jenkins.md
   v2_locations:
@@ -175222,6 +175315,7 @@ https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6:
   - Jenkins
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/cheatsheets.md
   v2_locations:
@@ -178647,6 +178741,7 @@ https://github.blog/developer-skills/github/using-reusable-workflows-github-acti
   - Reusable Infrastructure
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/git.md
   v2_locations:
@@ -185713,6 +185808,7 @@ https://github.com/GoogleContainerTools/container-structure-test:
   - Testing Frameworks
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
@@ -185759,6 +185855,7 @@ https://github.com/GoogleContainerTools/jib:
   - Image Building
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -185805,6 +185902,7 @@ https://github.com/GoogleContainerTools/kaniko:
   - Image Building
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/docker.md
@@ -189484,6 +189582,7 @@ https://github.com/PhilippeChepy/exoscale-kubernetes-crio:
   - Exoscale
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   v2_locations:
@@ -194455,6 +194554,7 @@ https://github.com/andrewstetsenko/tech-jobs-with-relocation:
   - Resource Guides
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -198590,6 +198690,7 @@ https://github.com/aws/eks-anywhere:
   - On-Premises EKS
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/managed-kubernetes-in-public-cloud.md
   v2_locations:
@@ -205058,6 +205159,7 @@ https://github.com/commjoen/wrongsecrets:
   - Education & Training
   - Vulnerable Labs
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
@@ -207282,6 +207384,7 @@ https://github.com/dagger/dagger:
   - Local Execution
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/jenkins-alternatives.md
   v2_locations:
@@ -207862,6 +207965,7 @@ https://github.com/datakickstart:
   - Data Ops Best Practices
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -208374,6 +208478,7 @@ https://github.com/deckhouse/deckhouse:
   - NoOps Platforms
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -209201,6 +209306,7 @@ https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3
   - High Availability
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/demos.md
   v2_locations:
@@ -209728,6 +209834,7 @@ https://github.com/didier-durand/microk8s-kata-containers:
   - Sandboxing
   tags:
   - '[DE FACTO STANDARD]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   v2_locations:
@@ -210087,6 +210194,7 @@ https://github.com/dirien/pulumi-civo-flux-bucket:
   - Flux Integration
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/flux.md
   v2_locations:
@@ -210314,6 +210422,7 @@ https://github.com/doitintl/clustercloner:
   - State Replication
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-tools.md
@@ -211621,6 +211730,7 @@ https://github.com/electrocucaracha/krd:
   - Advanced Infrastructure
   tags:
   - '[DE FACTO STANDARD]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   - docs/kubernetes-tools.md
@@ -212849,6 +212959,7 @@ https://github.com/fidelity/kconnect:
   - Identity Providers
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -217649,6 +217760,7 @@ https://github.com/gyli/DictMySQL:
   - Database Adapters
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/python.md
   v2_locations:
@@ -217870,6 +217982,7 @@ https://github.com/harvester/harvester:
   - Harvester HCI
   tags:
   - '[DE FACTO STANDARD]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/rancher.md
   v2_locations:
@@ -218271,6 +218384,7 @@ https://github.com/hasura/gitkube:
   - Continuous Deployment
   - Git-based Builds
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/kubernetes-tools.md
@@ -221735,6 +221849,7 @@ https://github.com/jcchavezs/porto:
   - Code Linters
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/golang.md
   v2_locations:
@@ -229007,6 +229122,7 @@ https://github.com/ksctl/ksctl:
   tags:
   - '[COMMUNITY-TOOL]'
   - '[LEGACY]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -230657,6 +230773,7 @@ https://github.com/kubernetes-csi/csi-driver-smb:
   - SMB Integration
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-storage.md
@@ -230746,6 +230863,7 @@ https://github.com/kubernetes-retired/frakti:
   - Hypervisor-based Runtimes
   tags:
   - '[DE FACTO STANDARD]'
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/container-managers.md
@@ -234097,6 +234215,7 @@ https://github.com/kubevirt/kubevirt:
   - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-tools.md
@@ -234144,6 +234263,7 @@ https://github.com/kubevirt/monitoring:
   - Virtualization Monitoring
   tags:
   - '[DE FACTO STANDARD]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/grafana.md
   v2_locations:
@@ -238494,6 +238614,7 @@ https://github.com/micro/go-micro:
   - Go Frameworks
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/golang.md
   v2_locations:
@@ -238698,6 +238819,7 @@ https://github.com/microsoft/ML-For-Beginners:
   - Structured Curriculums
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ai.md
   v2_locations:
@@ -240001,6 +240123,7 @@ https://github.com/mikeroyal/Kubernetes-Guide:
   tags:
   - '[DE FACTO STANDARD]'
   - '[GUIDE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/other-awesome-lists.md
   v2_locations:
@@ -244260,6 +244383,7 @@ https://github.com/okd-project/okd/blob/master/README.md:
   - Community Kubernetes
   tags:
   - '[DE FACTO STANDARD]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -245030,6 +245154,7 @@ https://github.com/open-policy-agent/awesome-opa:
   - OPA
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/other-awesome-lists.md
   v2_locations:
@@ -246023,6 +246148,7 @@ https://github.com/openshift/community/blob/master/ROADMAP.md:
   - Community Kubernetes
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -248762,6 +248888,7 @@ https://github.com/patrickdappollonio/tabloid:
   - Data Formatting
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -251453,6 +251580,7 @@ https://github.com/pulumi/pulumi:
   - Pulumi
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/iac.md
   - docs/kubernetes-tools.md
@@ -251812,6 +251940,7 @@ https://github.com/pyxll/pyxll-jupyter:
   - Excel Integration
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/python.md
   v2_locations:
@@ -252552,6 +252681,7 @@ https://github.com/ran-isenberg/aws-lambda-handler-cookbook:
   - AWS Lambda Design
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/other-awesome-lists.md
   v2_locations:
@@ -252851,6 +252981,7 @@ https://github.com/rancher/k3os:
   - Operating Systems
   - Archived Projects
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   - '[LEGACY]'
   v1_locations:
@@ -259605,6 +259736,7 @@ https://github.com/shurshun/domain-harvester:
   - Scanning
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-operators-controllers.md
   v2_locations:
@@ -260668,6 +260800,7 @@ https://github.com/smartxworks/virtink:
   - Hypervisor
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -260755,6 +260888,7 @@ https://github.com/sngular/kloadgen:
   - Testing & Emulation
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/message-queue.md
   v2_locations:
@@ -265541,6 +265675,7 @@ https://github.com/tibordp/terraform-hcloud-dualstack-k8s:
   - Bare Metal & Cloud Hosting
   tags:
   - '[DE FACTO STANDARD]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -267702,6 +267837,7 @@ https://github.com/velero-io/velero:
   - Kubernetes Backup Operators
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
@@ -268061,6 +268197,7 @@ https://github.com/vincentserpoul/kubench:
   - Benchmarking
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/qa.md
@@ -268245,6 +268382,7 @@ https://github.com/vitobotta/velero-notifications:
   - Observability
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-operators-controllers.md
@@ -270728,6 +270866,7 @@ https://github.com/xUnholy/k8s-gitops:
   - Edge Deployments
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -272455,6 +272594,7 @@ https://gitlab.com/k3s_hetzner/k3s_hetzner:
   - Hetzner Cloud
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/rancher.md
   v2_locations:
@@ -277507,6 +277647,7 @@ https://hackernoon.com/the-ultimate-beginners-guide-to-kubernetes-and-container-
   - History
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -277854,6 +277995,7 @@ https://handbook.gitlab.com/handbook:
   - Company Handbooks
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/hr.md
   v2_locations:
@@ -282045,6 +282187,7 @@ https://home.robusta.dev/blog/k8s-node-benchmark:
   - Benchmarks
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -283821,6 +283964,7 @@ https://humanitec.com/blog/escape-vmware-lock-in-with-a-modular-internal-develop
   - VMware Alternatives
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -284351,6 +284495,7 @@ https://iainhunter.wordpress.com/2016/01/12/avoiding-pitfalls-running-mongo-3-2-
   - Local Containerization
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/nosql.md
   v2_locations:
@@ -284691,6 +284836,7 @@ https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-w
   - Purpose Alignment
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -286382,6 +286528,7 @@ https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.h
   - Azure Optimization
   - Governance
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/finops.md
@@ -300056,6 +300203,7 @@ https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.h
   - Spring Data JPA
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/java_frameworks.md
   v2_locations:
@@ -301287,6 +301435,7 @@ https://jenkins-job-builder.readthedocs.io/en/latest:
   - Job Generation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/jenkins.md
   v2_locations:
@@ -307114,6 +307263,7 @@ https://kalilinuxtutorials.com/ldsview:
   - Directory Services
   - LDAP Analysis
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[LEGACY]'
@@ -308825,6 +308975,7 @@ https://kiro.dev:
   - Developer Experience
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[LLM]'
   v1_locations:
   - docs/ai-agents-mcp.md
@@ -309105,6 +309256,7 @@ https://kluctl.io:
   - Declarative Deployments
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -309950,6 +310102,7 @@ https://konghq.com/blog/news/kong-and-red-hat-collaboration:
   - Case Studies
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/developerportals.md
   v2_locations:
@@ -310708,6 +310861,7 @@ https://kube.academy:
   - Kubernetes
   - VMware Tanzu Ecosystem
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
@@ -311236,6 +311390,7 @@ https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-sourc
   - Migration Toolkits
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
@@ -312255,6 +312410,7 @@ https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-deskt
   tags:
   - '[COMMUNITY-TOOL]'
   - '[GUIDE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/linux-dev-env.md
   v2_locations:
@@ -316313,6 +316469,7 @@ https://kubevirt.io:
   - KubeVirt Core
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -317848,6 +318005,7 @@ https://landing.gravitee.io/gravitee-edge-stack-unified-api-visibility-and-gover
   - Annotations & Labels
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -320130,6 +320288,7 @@ https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-
   - Azure Architecture
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   - docs/cloud-asset-inventory.md
@@ -322076,6 +322235,7 @@ https://learn.microsoft.com/en-us/devops/develop/git/what-is-git:
   - Version Control
   - Monorepo Strategy
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/git.md
@@ -322358,6 +322518,7 @@ https://learn.microsoft.com/en-us/entra/fundamentals/configure-security:
   - Entra ID
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/devsecops.md
   - docs/kubernetes-security.md
@@ -322611,6 +322772,7 @@ https://learn.microsoft.com/en-us/java/openjdk/overview:
   - Identity Administration
   - Resource Hierarchy
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/azure.md
@@ -326143,6 +326305,7 @@ https://learnkube.com/templating-yaml-with-code:
   - Programmatic Generation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -329443,6 +329606,7 @@ https://linux.slashdot.org/story/21/11/27/0328223/aws-embraces-fedora-linux-for-
   - Operating Systems
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/aws-newfeatures.md
   v2_locations:
@@ -329647,6 +329811,7 @@ https://linuxhandbook.com/cheatsheets/yum:
   - Operating Systems
   - Package Management
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/cheatsheets.md
@@ -330098,6 +330263,7 @@ https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat:
   - Personal Perspective
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -332481,6 +332647,7 @@ https://luke.geek.nz/azure/azure-naming-tool-api-bicep-resources:
   - Enterprise Naming
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -338008,6 +338175,7 @@ https://martinheinz.dev/blog/85:
   - Data Management
   - Checkpointing API
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
@@ -338419,6 +338587,7 @@ https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation:
   - Validation & Testing
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[LLM]'
   v1_locations:
   - docs/ai.md
@@ -338459,6 +338628,7 @@ https://masterpoint.io/blog/terraform-use-cases:
   - Best Practices
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -338839,6 +339009,7 @@ https://mattias.engineer/blog/2024/azure-federated-credentials-github:
   - Access Control
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   - docs/git.md
@@ -339195,6 +339366,7 @@ https://mattrickard.com/docker-desktop-alternatives:
   - Alternatives
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -339333,6 +339505,7 @@ https://maven.apache.org/guides/MavenQuickReferenceCard.pdf:
   - Build Automation
   - Maven
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/cheatsheets.md
@@ -390051,6 +390224,7 @@ https://okd.io:
   - Enterprise Distributions
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   - docs/ocp4.md
@@ -390092,6 +390266,7 @@ https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-d
   - Corporate Governance
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -391015,6 +391190,7 @@ https://openai.com/index/advancing-content-provenance:
   - Content Provenance
   - Cryptographic Watermarking
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
@@ -391816,6 +391992,7 @@ https://openai.com/index/model-disproves-discrete-geometry-conjecture:
   - Reasoning Models
   - Mathematical Discoveries
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
@@ -392024,6 +392201,7 @@ https://openai.com/index/our-views-on-ai-policy-and-political-advocacy:
   - AI Governance
   - Corporate Policy
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
@@ -394965,6 +395143,7 @@ https://opensource.com/article/20/7/git-repos-best-practices:
   - Governance
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/git.md
   v2_locations:
@@ -395032,6 +395211,7 @@ https://opensource.com/article/20/7/linux-shellhub:
   - SSH Tunnels
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/linux.md
   v2_locations:
@@ -395241,6 +395421,7 @@ https://opensource.com/article/20/9/ansible:
   - Ansible Use Cases
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ansible.md
   v2_locations:
@@ -396436,6 +396617,7 @@ https://opensource.com/article/21/3/devops-documentation:
   - Docs-as-Code
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -397102,6 +397284,7 @@ https://opensource.com/article/21/6/migrate-vms-kubernetes-forklift:
   tags:
   - '[COMMUNITY-TOOL]'
   - '[GUIDE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -397348,6 +397531,7 @@ https://opensource.com/article/21/7/parse-xml-linux:
   - Text Processing
   - XML Parsing
   tags:
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   - '[LEGACY]'
   v1_locations:
@@ -401097,6 +401281,7 @@ https://palark.com/blog/comparing-kubernetes-operators-for-postgresql:
   - PostgreSQL Operators
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/databases.md
   v2_locations:
@@ -402838,8 +403023,10 @@ https://pcr.cloud-mercato.com:
   - '[COMMUNITY-TOOL]'
   v1_locations:
   - docs/public-cloud-solutions.md
+  - docs/eu-sovereign-cloud.md
   v2_locations:
   - public-cloud-solutions.md
+  - eu-sovereign-cloud.md
   youtube_mosaic: {}
   category: public-cloud-solutions
 https://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet:
@@ -407668,6 +407855,7 @@ https://plugins.jenkins.io/kubernetes-cd:
   - Deployment Tools
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/cicd-kubernetes-plugins.md
   - docs/jenkins.md
@@ -409096,6 +409284,7 @@ https://pod.chaoslever.com/hashicorp-under-ibms-wing:
   - Acquisitions
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -414102,6 +414291,7 @@ https://quarkus.io/blog/march-of-ides:
   - Developer Experience
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/java_frameworks.md
   v2_locations:
@@ -416097,6 +416287,7 @@ https://rcarrata.com:
   - OpenShift
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/demos.md
   - docs/kubernetes.md
@@ -416750,6 +416941,7 @@ https://realpython.com/courses/functional-programming-python:
   - Functional Programming
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/python.md
@@ -416786,6 +416978,7 @@ https://realpython.com/courses/how-to-write-pythonic-loops:
   - Language Fundamentals
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/python.md
@@ -419474,6 +419667,7 @@ https://replit.com:
   - Online Sandboxes
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/visual-studio.md
   v2_locations:
@@ -428054,6 +428248,7 @@ https://slack.com:
   - Productivity Tools
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/workfromhome.md
   v2_locations:
@@ -431619,6 +431814,7 @@ https://srcco.de/posts/many-kubernetes-clusters.html:
   - Scale Strategies
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -433823,6 +434019,7 @@ https://start.spring.io:
   - Project Bootstrapping
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/demos.md
   v2_locations:
@@ -434367,6 +434564,7 @@ https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-an
   - Lifecycle Management
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -435406,6 +435604,7 @@ https://superuser.openinfra.org/articles/run-your-kubernetes-cluster-on-openstac
   - OpenStack Integration
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -440475,6 +440674,7 @@ https://techbeatly.com/terraform-cheat-sheet:
   - Terraform
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/cheatsheets.md
   v2_locations:
@@ -447927,6 +448127,7 @@ https://technology.doximity.com/articles/buildpacks-vs-dockerfiles:
   - Image Engineering
   - Build Tools
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/docker.md
@@ -450299,6 +450500,7 @@ https://theithollow.com/2020/05/18/kubernetes-liveness-and-readiness-probes:
   - Probes
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/kubernetes.md
@@ -452111,6 +452313,7 @@ https://thenewstack.io/application-deployment-is-faster-with-gitops:
   - Developer Velocity
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/gitops.md
   v2_locations:
@@ -452253,6 +452456,7 @@ https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering:
   - Trends
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/visual-studio.md
   v2_locations:
@@ -452607,6 +452811,7 @@ https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-d
   - OpenStack
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/private-cloud-solutions.md
   - docs/kubernetes-on-premise.md
@@ -452855,6 +453060,7 @@ https://thenewstack.io/breaking-serverless-on-purpose-with-chaos-engineering:
   - Serverless Systems
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/chaos-engineering.md
   v2_locations:
@@ -455347,6 +455553,7 @@ https://thenewstack.io/does-kubernetes-really-perform-better-on-bare-metal-vs-vm
   - Bare Metal vs VM
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -455452,6 +455659,7 @@ https://thenewstack.io/embracing-database-deployments-in-ci-cd-practices-with-gi
   - GitOps
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/cicd.md
   v2_locations:
@@ -458481,6 +458689,7 @@ https://thenewstack.io/ingress-controllers-the-more-the-merrier:
   - Ingress Controllers
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-networking.md
   v2_locations:
@@ -459925,6 +460134,7 @@ https://thenewstack.io/kubernetes-on-bare-metal-vs-vms-its-not-just-performance:
   - Comparison
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   v2_locations:
@@ -462791,6 +463001,7 @@ https://thenewstack.io/part-1-the-evolution-of-data-pipeline-architecture:
   - Data Pipelines
   - History
   tags:
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   - '[LEGACY]'
   v1_locations:
@@ -466636,6 +466847,7 @@ https://thenewstack.io/triggermesh-open-sourcing-event-driven-applications:
   - Event-Driven
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/serverless.md
   v2_locations:
@@ -467239,6 +467451,7 @@ https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data
   - Retrieval-Augmented Generation
   - Enterprise AI
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   - '[RAG]'
   v1_locations:
@@ -469453,6 +469666,7 @@ https://thinksys.com/azure/azure-devops-pipeline-complete-guide:
   - CI-CD Pipelines
   - Azure Pipelines Architecture
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/azure.md
@@ -474945,6 +475159,7 @@ https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python:
   - Data Structures
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/python.md
@@ -478151,6 +478366,7 @@ https://ubuntu.com/kubernetes/charmed-k8s:
   - Automated Operations
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/gitops.md
   - docs/kubernetes-on-premise.md
@@ -478321,6 +478537,7 @@ https://umbrellaselector.com/Spain:
   - Spanish Contracting
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/freelancing.md
@@ -478591,6 +478808,7 @@ https://undertow.io:
   - Web Servers
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/embedded-servlet-containers.md
   v2_locations:
@@ -484794,6 +485012,7 @@ https://www.abc.es/economia/ingenieros-devops-pieza-clave-engranaje-digital-empr
   - Enterprise Impact
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -484863,6 +485082,7 @@ https://www.aboutamazon.es/noticias/aws/la-region-aws-europa-espana-apoya-la-tra
   - Spain
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws-spain.md
   - docs/aws.md
@@ -485933,6 +486153,7 @@ https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-clo
   - Image Building
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -490272,6 +490493,7 @@ https://www.atlassian.com/software/confluence:
   - Knowledge Base
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/project-management-tools.md
   v2_locations:
@@ -491908,6 +492130,7 @@ https://www.bbc.com/mundo/vert-cap-37270163:
   - Team Dynamics
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -491980,6 +492203,7 @@ https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend:
   - Risk Management
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -493903,6 +494127,7 @@ https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html:
   - Gaia-X Dossier
   tags:
   - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/public-cloud-solutions.md
   v2_locations:
@@ -493939,6 +494164,7 @@ https://www.bunnyshell.com/blog/disaster-recovery-devops:
   - DevOps
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -494339,6 +494565,7 @@ https://www.businessinsider.es/desarrollo-profesional/fin-lealtad-laboral-emplea
   - Retention
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -494763,6 +494990,7 @@ https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-produc
   tags:
   - '[CASE STUDY]'
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/chatgpt.md
   v2_locations:
@@ -494938,6 +495166,7 @@ https://www.c-sharpcorner.com/article/comparing-aws-sql-server-with-azure-sql-da
   - Cloud Comparison
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -496074,6 +496303,7 @@ https://www.cio.com/article/220351/what-is-noops-the-quest-for-fully-automated-i
   - NoOps Philosophy
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/noops.md
   v2_locations:
@@ -496388,6 +496618,7 @@ https://www.civo.com/academy:
   - Cloud Provider Academies
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/kubernetes-tutorials.md
   v2_locations:
@@ -496422,6 +496653,7 @@ https://www.civo.com/blog/k8s-vs-k3s:
   - Comparisons
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/rancher.md
   v2_locations:
@@ -496488,6 +496720,7 @@ https://www.civo.com/learn/get-up-and-running-with-kubeflow-on-civo-kubernetes:
   tags:
   - '[COMMUNITY-TOOL]'
   - '[MLOPS]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -502693,6 +502926,7 @@ https://www.codecademy.com:
   - Interactive Coding
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   v1_locations:
   - docs/elearning.md
@@ -503614,6 +503848,7 @@ https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-cont
   - Security Policy
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/devops.md
   - docs/devsecops.md
@@ -503862,6 +504097,7 @@ https://www.confluent.io:
   - Confluent
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/message-queue.md
   v2_locations:
@@ -504237,6 +504473,7 @@ https://www.confluent.io/blog/latest-partner-ecosystem:
   - Azure
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/message-queue.md
   v2_locations:
@@ -504979,6 +505216,7 @@ https://www.copado.com/resources/blog/applying-a-zero-trust-infrastructure-in-ku
   - Fundamentals
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -505512,6 +505750,7 @@ https://www.crunchydata.com:
   - Enterprise Solutions
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/crunchydata.md
   v2_locations:
@@ -506367,6 +506606,7 @@ https://www.crunchydata.com/blog/migrating-from-oracle-to-postgresql-questions-a
   - Data Architecture
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/crunchydata.md
   v2_locations:
@@ -506510,6 +506750,7 @@ https://www.crunchydata.com/blog/pgbackrest-point-in-time-recovery-using-crunchy
   - Backup & Recovery
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/crunchydata.md
   v2_locations:
@@ -507084,6 +507325,7 @@ https://www.crunchydata.com/blog/your-guide-to-connection-management-in-postgres
   - Connection Pooling
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/crunchydata.md
   v2_locations:
@@ -509073,6 +509315,7 @@ https://www.cynet.com/incident-response/incident-response-plan:
   - Governance
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -510840,6 +511083,7 @@ https://www.devclass.com/ci-cd/2021/03/23/git-a-march-on-gitlab-1310-ramps-up-se
   tags:
   - '[COMMUNITY-TOOL]'
   - '[GUIDE]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/git.md
   v2_locations:
@@ -514939,6 +515183,7 @@ https://www.dynatrace.com/news/blog/devops-metrics-for-success:
   - DORA Keys
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/devops.md
   v2_locations:
@@ -517224,6 +517469,7 @@ https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-
   - Startups
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/hr.md
   v2_locations:
@@ -517819,6 +518065,7 @@ https://www.elespanol.com/reportajes/20211211/tipos-trabajar-sin-desfallecer-con
   - Upward Management
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -518574,6 +518821,7 @@ https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina:
   - Societal Shift
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/remote-tech-jobs.md
   v2_locations:
@@ -518716,6 +518964,7 @@ https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-e
   - Conflict Resolution
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -518852,6 +519101,7 @@ https://www.expansion.com/expansion-empleo/desarrollo-de-carrera/2022/01/28/61f4
   - Nepotism
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -519076,6 +519326,7 @@ https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716:
   - BMW Group
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/customer.md
   v2_locations:
@@ -520279,6 +520530,7 @@ https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-clo
   - Strategies
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -520979,6 +521231,7 @@ https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers
   - Docker
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/docker.md
   - docs/introduction.md
@@ -525943,6 +526196,7 @@ https://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.h
   - Minimum Viable Product
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -527040,6 +527294,7 @@ https://www.genbeta.com/a-fondo/cinco-repositorios-github-buenos-que-imprescindi
   - Mental Well-being
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/remote-tech-jobs.md
   v2_locations:
@@ -527180,6 +527435,7 @@ https://www.genbeta.com/a-fondo/ocho-canales-youtube-para-aprender-python-cero-n
   - Educational Resources
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/python.md
   v2_locations:
@@ -527216,6 +527472,7 @@ https://www.genbeta.com/a-fondo/ocho-canales-youtube-para-aprender-python-cero-n
   - Organizational Scaling
   - Big Tech Practices
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/project-management-methodology.md
@@ -527398,6 +527655,7 @@ https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-
   - Hiring Standards
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/recruitment.md
   v2_locations:
@@ -527510,6 +527768,7 @@ https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-
   - Security
   - Developer Wellness
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/recruitment.md
@@ -527761,6 +528020,7 @@ https://www.genbeta.com/desarrollo/software-coches-mercedes-contiene-codigo-abie
   - Open Source Software
   - Compliance & Logistics
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/customer.md
@@ -536055,6 +536315,7 @@ https://www.hostinger.com/in/tutorials/what-is-docker:
   - Introduction
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -538872,6 +539133,7 @@ https://www.infoq.com/articles/better-metrics-team-performance:
   - DORA Metrics
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -539896,6 +540158,7 @@ https://www.infoq.com/articles/securing-docker:
   - Kernel Isolation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -541253,6 +541516,7 @@ https://www.infoq.com/news/2021/12/amazon-repost-questions-answers:
   - AWS re:Post
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws.md
   v2_locations:
@@ -541716,6 +541980,7 @@ https://www.infoq.com/news/2022/02/aws-efs-replication:
   - Storage
   - EFS
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/aws-newfeatures.md
@@ -543478,6 +543743,7 @@ https://www.infoworld.com/article/2269272/how-docker-broke-in-half.html:
   - Industry Trends
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -544106,6 +544372,7 @@ https://www.infoworld.com/article/2335723/why-mercedes-benz-runs-on-900-kubernet
   - Kubernetes at Scale
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/customer.md
   v2_locations:
@@ -547887,6 +548154,7 @@ https://www.inovex.de/de/blog/containers-docker-containerd-nabla-kata-firecracke
   - Architectural Comparison
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/container-managers.md
   v2_locations:
@@ -554455,6 +554723,7 @@ https://www.kubermatic.com/blog/bringing-your-vms-to-kubernetes-with-kubevirt:
   tags:
   - '[COMMUNITY-TOOL]'
   - '[GUIDE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -557197,6 +557466,7 @@ https://www.lavanguardia.com/economia/20201014/484036217179/transformacion-digit
   - Cultural Dynamics
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -558742,6 +559012,7 @@ https://www.linkedin.com/learning/?trk=lynda_redirect_learning:
   - Continuous Education
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   v1_locations:
   - docs/elearning.md
@@ -558883,6 +559154,7 @@ https://www.linkedin.com/pulse/ansible-what-marcel-koert:
   - Concepts
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ansible.md
   v2_locations:
@@ -559218,6 +559490,7 @@ https://www.linkedin.com/pulse/caf-vs-waf-which-framework-use-your-cloud-migrati
   - CAF vs WAF
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/azure.md
   v2_locations:
@@ -559751,6 +560024,7 @@ https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-deb
   - Europe Market
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/freelancing.md
   v2_locations:
@@ -560685,6 +560959,7 @@ https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1
   - PV/PVC Fundamentals
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-storage.md
   v2_locations:
@@ -560991,6 +561266,7 @@ https://www.linux-tutorial.info:
   - Linux
   - SysAdmin Tutorials
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/linux.md
@@ -563614,6 +563890,7 @@ https://www.makeuseof.com/best-red-hat-based-linux-distros:
   - Linux Distributions
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/linux.md
   v2_locations:
@@ -565375,6 +565652,7 @@ https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software:
   - Productivity Tools
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/workfromhome.md
   v2_locations:
@@ -569331,6 +569609,7 @@ https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-t
   - Continuous Testing
   - TestOps Strategy
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/testops.md
@@ -569804,6 +570083,7 @@ https://www.openpolicyagent.org:
   - Policy-as-Code
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/securityascode.md
   v2_locations:
@@ -577800,6 +578080,7 @@ https://www.pluralsight.com/resources/blog/cloud/azure-devops-vs-github-comparin
   - CI/CD Platforms
   - Enterprise DevOps
   tags:
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   - '[LEGACY]'
   v1_locations:
@@ -578651,6 +578932,7 @@ https://www.pluralsight.com/resources/blog/cloud/why-learn-multiple-cloud-platfo
   - Business Case
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   - '[GUIDE]'
   v1_locations:
   - docs/public-cloud-solutions.md
@@ -585108,6 +585390,7 @@ https://www.redhat.com/en/blog/advanced-network-customizations-for-openshift-ins
   - Installation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/openshift.md
   v2_locations:
@@ -588529,6 +588812,7 @@ https://www.redhat.com/en/blog/getting-started-with-kubevirt:
   - Virtualization
   - KubeVirt Introduction
   tags:
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/ocp4.md
@@ -589098,6 +589382,7 @@ https://www.redhat.com/en/blog/how-to-modernize-virtualized-workloads:
   - Modernization Strategy
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/introduction.md
@@ -589557,6 +589842,7 @@ https://www.redhat.com/en/blog/installing-ocp-in-a-mainframe-z-series:
   - Bare Metal Installation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/ibm_cloud.md
   v2_locations:
@@ -589592,6 +589878,7 @@ https://www.redhat.com/en/blog/installing-okd-3-10-on-a-single-host:
   - OKD Core Legacy
   tags:
   - '[LEGACY]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/openshift.md
   v2_locations:
@@ -591064,6 +591351,7 @@ https://www.redhat.com/en/blog/migrating-your-applications-to-openshift-4:
   - Application Migration
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -592381,6 +592669,7 @@ https://www.redhat.com/en/blog/openshift-virtualization-on-amazon-web-services:
   - Virtualization
   - OpenShift Virtualization
   tags:
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/ocp4.md
@@ -592988,6 +593277,7 @@ https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-video
   - OKD Community Platform
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/demos.md
   v2_locations:
@@ -595106,6 +595396,7 @@ https://www.redhat.com/en/blog/velero-backup-and-restore-of-an-application-using
   - Data Protection
   - Kubernetes Backup Operators
   tags:
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
@@ -600744,6 +601035,7 @@ https://www.redpanda.com/blog/bsl-source-available-license:
   - Licensing
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/message-queue.md
   v2_locations:
@@ -603067,6 +603359,7 @@ https://www.scaleway.com/en/blog/how-to-deploy-and-distribute-the-workload-on-a-
   - Federation
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -603102,6 +603395,7 @@ https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectur
   - Multi-Tenancy
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/introduction.md
   - docs/scaleway.md
@@ -603175,6 +603469,7 @@ https://www.scaleway.com/en/en:
   - General Reference
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/scaleway.md
   - docs/digitalocean.md
@@ -604349,6 +604644,7 @@ https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-dock
   - Licensing & Licensing Shift
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/docker.md
   v2_locations:
@@ -604969,6 +605265,7 @@ https://www.simform.com/blog/devops-for-enterprise:
   - Enterprise Strategy
   - Adoption Frameworks
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/devops.md
@@ -610727,6 +611024,7 @@ https://www.swarmia.com/build:
   - Platform Engineering
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -613129,6 +613427,7 @@ https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine
   - Business Alignment
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ai.md
   v2_locations:
@@ -615422,6 +615721,7 @@ https://www.tecmint.com/install-java-on-centos-rhel-fedora:
   - Installation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/java_frameworks.md
   v2_locations:
@@ -618454,6 +618754,7 @@ https://www.theatlantic.com/ideas/archive/2021/07/work-from-home-benefits/619597
   - Societal Shift
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/remote-tech-jobs.md
   v2_locations:
@@ -619968,6 +620269,7 @@ https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsph
   - Broadcom Era
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -620003,6 +620305,7 @@ https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatt
   - WYSIWYG Integrations
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/mkdocs.md
   v2_locations:
@@ -624239,6 +624542,7 @@ https://www.vamsitalkstech.com/architecture/a-deepdive-into-kubernetes-multitena
   - Core Architecture
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -624785,6 +625089,7 @@ https://www.vcluster.com/blog/kubernetes-and-ldap-enterprise-authentication-for-
   - Identity & Access
   - Enterprise Authentication
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-security.md
@@ -625415,6 +625720,7 @@ https://www.veeam.com/products/cloud/kubernetes-data-protection.html:
   - Proprietary Platforms
   tags:
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
   v2_locations:
@@ -625762,6 +626068,7 @@ https://www.virtualizationhowto.com/2024/02/vmware-by-broadcom-lesson-dont-base-
   - Enterprise Strategy
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -625938,6 +626245,7 @@ https://www.vmware.com/products/cloud-infrastructure/vsphere:
   - VMware Tanzu
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   v2_locations:
@@ -626280,6 +626588,7 @@ https://www.warp.dev:
   - Terminal Emulators
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ai.md
   - docs/developerportals.md
@@ -628891,6 +629200,7 @@ https://www.xataka.com/pro/ibm-se-parte-dos-109-anos-despues-nube-da-dinero-que-
   - Corporate Strategy
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ibm_cloud.md
   v2_locations:
@@ -629223,6 +629533,7 @@ https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre
   - Industry Impact
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ai.md
   v2_locations:
@@ -636018,6 +636329,7 @@ https://www.youtube.com/playlist?app=desktop&list=PLVx1qovxj-akr_3XqQQgpqRyQw4GY
   tags:
   - '[COMMUNITY-TOOL]'
   - '[GUIDE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes-tutorials.md
   v2_locations:
@@ -636651,6 +636963,7 @@ https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p:
   - Ansible
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/ansible.md
   - docs/devops.md
@@ -638515,6 +638828,7 @@ https://www.youtube.com/user/AWSwebinars:
   - Learning & News
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/aws.md
   v2_locations:
@@ -639977,6 +640291,7 @@ https://www.youtube.com/watch?v=2LNxGVS81mE:
   - Archived Projects
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/rancher.md
   v2_locations:
@@ -640772,6 +641087,7 @@ https://www.youtube.com/watch?v=81VnO4puNkg:
   - Career Paths
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/freelancing.md
   v2_locations:
@@ -641524,6 +641840,7 @@ https://www.youtube.com/watch?v=CJMdSQVFVik:
   - Installation
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/demos.md
   v2_locations:
@@ -643870,6 +644187,7 @@ https://www.youtube.com/watch?v=VicH6KojwCI:
   - Ingress & Traffic
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-networking.md
   v2_locations:
@@ -643941,6 +644259,7 @@ https://www.youtube.com/watch?v=W_rcYPZkhFg&ab_channel=RedHat:
   - Enterprise Dev
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/demos.md
   v2_locations:
@@ -644419,6 +644738,7 @@ https://www.youtube.com/watch?v=_nl-45ulj1s:
   - Community Kubernetes
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/ocp4.md
   v2_locations:
@@ -644769,6 +645089,7 @@ https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be:
   - VM Import/Export
   - On-Premises
   tags:
+  - '[HYPERVISOR]'
   - '[LEGACY]'
   v1_locations:
   - docs/aws-backup.md
@@ -647780,6 +648101,7 @@ https://www.zdnet.com/article/as-cloud-costs-spiral-upward-enterprises-turn-to-a
   - Market Landscapes
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/finops.md
   v2_locations:
@@ -647848,6 +648170,7 @@ https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-conta
   - Kubernetes
   - Culture
   tags:
+  - '[DRP-RESILIENCE]'
   - '[LEGACY]'
   v1_locations:
   - docs/devops.md
@@ -648440,6 +648763,7 @@ https://www.zdnet.com/article/suse-harvester-deploying-virtual-machines-with-kub
   - Harvester
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/rancher.md
   v2_locations:
@@ -648547,6 +648871,7 @@ https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-t
   - VMware Tanzu
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-on-premise.md
   v2_locations:
@@ -654015,6 +654340,7 @@ https://www.informationweek.com/software-services/can-enterprises-benefit-from-a
   - Database DevOps
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/databases.md
   v2_locations:
@@ -654051,6 +654377,7 @@ https://www.ibm.com/think/cloud:
   - Etcd Storage Tuning
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/java_frameworks.md
   - docs/kubectl-commands.md
@@ -657014,6 +657341,7 @@ https://labs.iximiuz.com/tutorials/kubernetes-vs-virtual-machines:
   tags:
   - '[DE FACTO STANDARD]'
   - '[GUIDE]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
@@ -657601,6 +657929,7 @@ https://www.dynatrace.com/knowledge-base/microservices:
   - Microservices
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/introduction.md
   v2_locations:
@@ -658659,6 +658988,7 @@ https://www.vogue.es/lideres:
   - Leadership
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/project-management-methodology.md
   v2_locations:
@@ -677280,6 +677610,7 @@ https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de
   - Tools
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/chatgpt.md
   v2_locations:
@@ -681269,6 +681600,7 @@ https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-
   - State of DevOps. Googles DevOps Research and Assessment DORA
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/devops.md
   - docs/docker.md
@@ -690152,6 +690484,7 @@ https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resource
   - Backup with Velero
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[DRP-RESILIENCE]'
   v1_locations:
   - docs/kubernetes-backup-migrations.md
   v2_locations:
@@ -707182,6 +707515,7 @@ https://blog.devgenius.io/kubernetes-on-proxmox-with-terraform-6880921af6e4?gi=2
   - Terraform
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[HYPERVISOR]'
   v1_locations:
   - docs/terraform.md
   v2_locations:
@@ -713233,6 +713567,7 @@ https://github.com/awslabs/ai-on-eks:
   tags:
   - '[CLOUD-AI]'
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   - '[GPU]'
   - '[IAC]'
@@ -713289,6 +713624,7 @@ https://aws.amazon.com/sagemaker/ai:
   tags:
   - '[CLOUD-AI]'
   - '[DE FACTO STANDARD]'
+  - '[DRP-RESILIENCE]'
   - '[ENTERPRISE-STABLE]'
   - '[GPU]'
   - '[LLM]'
@@ -714052,6 +714388,7 @@ https://www.redhat.com/en/products/ai/openshift-ai:
   - '[GPU]'
   - '[LLM]'
   - '[MLOPS]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/openshift.md
   - docs/enterprise-ai-platforms.md
@@ -714224,6 +714561,7 @@ https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed:
   - '[GPU]'
   - '[LLM]'
   - '[MLOPS]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/enterprise-ai-platforms.md
   - docs/openshift.md
@@ -725803,6 +726141,7 @@ https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta:
   - '[BACKUP]'
   - '[CSI]'
   - '[DISASTER-RECOVERY]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[STORAGE]'
@@ -727578,6 +727917,7 @@ https://openai.com/index/att-legal:
   tags:
   - '[AI-ADOPTION]'
   - '[CASE STUDY]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[KNOWLEDGE-GRAPH]'
@@ -727880,6 +728220,7 @@ https://openai.com/index/ropes-gray-ai-diligence:
   - Legal Tech
   tags:
   - '[CASE STUDY]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[GPT-6]'
@@ -727930,6 +728271,7 @@ https://openai.com/index/credit-saison:
   - Financial Services
   tags:
   - '[CASE STUDY]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-AI]'
   - '[ENTERPRISE-STABLE]'
@@ -731232,6 +731574,7 @@ https://huggingface.co/blog/asyncgrpo-lora-hfjobs:
   - Asynchronous Optimization
   tags:
   - '[DISTRIBUTED-TRAINING]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[LORA]'
@@ -731839,6 +732182,7 @@ https://huggingface.co/blog/grpo-with-trl-ifstruct:
   - Reinforcement Learning
   tags:
   - '[AGENTIC-READINESS]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[FINE-TUNING]'
@@ -733299,6 +733643,7 @@ https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable:
   - '[AI-ARCHITECTURE]'
   - '[CASE STUDY]'
   - '[DOMAIN-SPECIFIC-AI]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[GPU]'
@@ -737020,6 +737365,7 @@ https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-
   - '[AI-AGENTS]'
   - '[DOCA]'
   - '[DPU]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[GPU]'
@@ -738978,6 +739324,7 @@ https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigati
   - Embodied AI
   tags:
   - '[AGENTIC-AI]'
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
   - '[GPU]'
@@ -743814,6 +744161,7 @@ https://gpu-cloud-prices.pages.dev:
   - '[ENTERPRISE-STABLE]'
   - '[FINOPS]'
   - '[GPU]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/finops.md
   v2_locations:
@@ -745940,6 +746288,7 @@ https://www.high-mobility.com/car-api:
   - Developerportals
   - Auto API
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   v1_locations:
   - docs/developerportals.md
@@ -747364,6 +747713,7 @@ https://www.redhat.com/en/blog/announcing-red-hat-openshift-5:
   - OpenShift Container Platform 5 Overview
   tags:
   - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
@@ -747743,6 +748093,7 @@ https://github.com/containers/kubernetes-mcp-server:
   - Intelligent and Agentic Operations with OpenShift Lightspeed and MCP
   tags:
   - '[EMERGING]'
+  - '[HYPERVISOR]'
   - '[MCP]'
   v1_locations:
   - docs/ocp5.md
@@ -748757,6 +749108,7 @@ https://github.com/hhhuang/CAG:
   - AI RAG OKF
   - Vectorless Reasoning RAG and Cache-Augmented Generation CAG
   tags:
+  - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[LLM]'
   - '[RAG]'
@@ -749715,3 +750067,3277 @@ https://www.youtube.com/playlist?list=PLTWdjaOFYLCg:
   technology: Azure AI Gateway + MCP + AI Agents
   category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
+https://www.ovhcloud.com/en-ie:
+  title: OVHcloud Public Cloud and Bare Metal
+  description: "\U0001F31F - Europe's largest homegrown cloud provider (Roubaix, France)
+    offering 3-AZ Paris region, SecNumCloud-qualified Bare Metal/Hosted Private Cloud,
+    zero egress fees on Public Cloud/Metal, and sovereign S3/KMS."
+  year: '2026'
+  stars: 3
+  ai_summary: Europe's largest homegrown cloud provider (Roubaix, France) offering
+    3-AZ Paris region, SecNumCloud-qualified Bare Metal/Hosted Private Cloud, zero
+    egress fees on Public Cloud/Metal, and sovereign S3/KMS.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925502+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://www.ovhcloud.com/en-ie/public-cloud/kubernetes:
+  title: OVHcloud Managed Kubernetes Service (MKS)
+  description: "\U0001F31F - CNCF-certified Managed Kubernetes with free multi-master
+    control plane, Cinder/Octavia OpenStack integration, NVIDIA H100/L40S worker pools,
+    and multi-AZ support in Paris."
+  year: '2026'
+  stars: 3
+  ai_summary: CNCF-certified Managed Kubernetes with free multi-master control plane,
+    Cinder/Octavia OpenStack integration, NVIDIA H100/L40S worker pools, and multi-AZ
+    support in Paris.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925563+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://help.ovhcloud.com/csm/en-home:
+  title: OVHcloud Help and Technical Documentation
+  description: "\U0001F31F - Technical knowledge base covering vRack L2 private networking,
+    OVH KMS/IAM, MKS lifecycle, and S3 Object Lock IMMUTABLE backups."
+  year: '2026'
+  stars: 3
+  ai_summary: Technical knowledge base covering vRack L2 private networking, OVH KMS/IAM,
+    MKS lifecycle, and S3 Object Lock IMMUTABLE backups.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925610+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://github.com/scaleway:
+  title: Scaleway Cloud Platform (Iliad Group)
+  description: "\U0001F31F - French developer-first sovereign cloud offering 3-AZ
+    Paris/Amsterdam/Warsaw regions, Kubernetes Kapsule and multi-cloud Kosmos, Managed
+    Databases, and one of Europe's largest public catalogs of NVIDIA H100/B200/L4
+    GPUs and Serverless AI Endpoints."
+  year: '2026'
+  stars: 3
+  ai_summary: French developer-first sovereign cloud offering 3-AZ Paris/Amsterdam/Warsaw
+    regions, Kubernetes Kapsule and multi-cloud Kosmos, Managed Databases, and one
+    of Europe's largest public catalogs of NVIDIA H100/B200/L4 GPUs and Serverless
+    AI Endpoints.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925646+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://www.scaleway.com/en/blog/rss.xml:
+  title: Scaleway Engineering Blog
+  description: "\U0001F31F - Official engineering feed covering Scaleway's sovereign
+    cloud architecture, European AI Factories, Kubernetes Kapsule upgrades, and EU
+    Data Act compliance."
+  year: '2026'
+  stars: 3
+  ai_summary: Official engineering feed covering Scaleway's sovereign cloud architecture,
+    European AI Factories, Kubernetes Kapsule upgrades, and EU Data Act compliance.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925679+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://en.outscale.com:
+  title: 3DS OUTSCALE (Dassault Systemes)
+  description: "\U0001F31F - First French IaaS provider with full-scope ANSSI SecNumCloud
+    3.2 qualification across three French regions, offering AWS-like Cockpit/API semantics
+    for ultra-regulated defense, healthcare, and public-sector workloads."
+  year: '2026'
+  stars: 3
+  ai_summary: First French IaaS provider with full-scope ANSSI SecNumCloud 3.2 qualification
+    across three French regions, offering AWS-like Cockpit/API semantics for ultra-regulated
+    defense, healthcare, and public-sector workloads.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925710+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://www.clever.cloud:
+  title: Clever Cloud Sovereign PaaS
+  description: "\U0001F31F - French European-owned Platform-as-a-Service (Nantes)
+    automating zero-ops application runtimes, managed PostgreSQL/Redis add-ons, SecNumCloud-aligned
+    deployments, and multi-cloud/on-prem Materia clusters."
+  year: '2026'
+  stars: 3
+  ai_summary: French European-owned Platform-as-a-Service (Nantes) automating zero-ops
+    application runtimes, managed PostgreSQL/Redis add-ons, SecNumCloud-aligned deployments,
+    and multi-cloud/on-prem Materia clusters.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925741+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://www.cloud-temple.com/en:
+  title: Cloud Temple Sovereign IaaS
+  description: "\U0001F31F - French SecNumCloud-certified trusted IaaS specializing
+    in critical enterprise workloads, sovereign OpenShift/Kubernetes hosting, and
+    ultra-regulated healthcare/banking environments."
+  year: '2026'
+  stars: 3
+  ai_summary: French SecNumCloud-certified trusted IaaS specializing in critical enterprise
+    workloads, sovereign OpenShift/Kubernetes hosting, and ultra-regulated healthcare/banking
+    environments.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925776+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://www.bleucloud.fr/en:
+  title: Bleu Trusted Cloud (Capgemini and Orange)
+  description: "\U0001F31F - Independent French company operating sovereign Azure-stack
+    and Microsoft 365 environments within France to address SecNumCloud 3.2 criteria
+    for public administrations."
+  year: '2026'
+  stars: 3
+  ai_summary: Independent French company operating sovereign Azure-stack and Microsoft
+    365 environments within France to address SecNumCloud 3.2 criteria for public
+    administrations.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925807+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://www.s3ns.io/en:
+  title: S3NS Trusted Cloud (Thales and Google)
+  description: "\U0001F31F - French trusted-cloud joint venture coupling Thales sovereign
+    operational control and encryption custody with Google Cloud infrastructure."
+  year: '2026'
+  stars: 3
+  ai_summary: French trusted-cloud joint venture coupling Thales sovereign operational
+    control and encryption custody with Google Cloud infrastructure.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925861+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://mistral.ai:
+  title: Mistral AI Sovereign Frontier Models
+  description: "\U0001F31F - Paris-based European AI champion delivering open-weight
+    (Mistral/Mixtral/Codestral) and enterprise models optimized for self-hosted Kubernetes
+    vLLM and European sovereign cloud AI endpoints."
+  year: '2026'
+  stars: 3
+  ai_summary: Paris-based European AI champion delivering open-weight (Mistral/Mixtral/Codestral)
+    and enterprise models optimized for self-hosted Kubernetes vLLM and European sovereign
+    cloud AI endpoints.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925893+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - French Sovereign Cloud Providers SecNumCloud and AI Factories
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://cloud.ionos.com:
+  title: IONOS Cloud Compute Engine
+  description: "\U0001F31F - German enterprise cloud champion (United Internet, parent
+    of Arsys Spain) featuring BSI C5 Type 2, ISO 27001, visual Data Center Designer
+    (DCD), Managed Kubernetes, and sovereign European control planes across Frankfurt,
+    Berlin, and Logrono."
+  year: '2026'
+  stars: 3
+  ai_summary: German enterprise cloud champion (United Internet, parent of Arsys Spain)
+    featuring BSI C5 Type 2, ISO 27001, visual Data Center Designer (DCD), Managed
+    Kubernetes, and sovereign European control planes across Frankfurt, Berlin, and
+    Logrono.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925939+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://docs.ionos.com/cloud:
+  title: IONOS Cloud Documentation
+  description: "\U0001F31F - Official developer and API reference covering IONOS CloudAPIv6,
+    Managed Kubernetes, S3 Object Storage with Object Lock, Crossplane, and Terraform
+    modules."
+  year: '2026'
+  stars: 3
+  ai_summary: Official developer and API reference covering IONOS CloudAPIv6, Managed
+    Kubernetes, S3 Object Storage with Object Lock, Crossplane, and Terraform modules.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.925970+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://stackit.com/en:
+  title: STACKIT Sovereign Cloud (Schwarz Digits)
+  description: "\U0001F31F - German digital sovereignty cloud built by the Schwarz
+    Group (Lidl/Kaufland), offering BSI C5 Type 2 attestation, true multi-DC German
+    regions, SAP Gardener-based STACKIT Kubernetes Engine (SKE), and EU framework
+    wins."
+  year: '2026'
+  stars: 3
+  ai_summary: German digital sovereignty cloud built by the Schwarz Group (Lidl/Kaufland),
+    offering BSI C5 Type 2 attestation, true multi-DC German regions, SAP Gardener-based
+    STACKIT Kubernetes Engine (SKE), and EU framework wins.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.926001+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://docs.stackit.cloud:
+  title: STACKIT Official Documentation
+  description: "\U0001F31F - Technical documentation for STACKIT Kubernetes Engine
+    (SKE), OpenStack compute, Object Storage, Managed PostgreSQL/MariaDB/Redis, and
+    OpenTofu automation."
+  year: '2026'
+  stars: 3
+  ai_summary: Technical documentation for STACKIT Kubernetes Engine (SKE), OpenStack
+    compute, Object Storage, Managed PostgreSQL/MariaDB/Redis, and OpenTofu automation.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.926030+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://www.open-telekom-cloud.com/en:
+  title: Open Telekom Cloud (T-Systems)
+  description: "\U0001F31F - German OpenStack-based sovereign public cloud operated
+    by T-Systems in Magdeburg and Biere with BSI C5 compliance, strict German data
+    residency, and CCE Managed Kubernetes."
+  year: '2026'
+  stars: 3
+  ai_summary: German OpenStack-based sovereign public cloud operated by T-Systems
+    in Magdeburg and Biere with BSI C5 compliance, strict German data residency, and
+    CCE Managed Kubernetes.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927065+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://www.syseleven.de/en/metakube:
+  title: SysEleven MetaKube Managed Kubernetes
+  description: "\U0001F31F - Berlin-based OpenStack and CNCF Kubernetes provider offering
+    Kubermatic/MetaKube managed clusters across multi-AZ German data centers for German
+    financial and SaaS workloads."
+  year: '2026'
+  stars: 3
+  ai_summary: Berlin-based OpenStack and CNCF Kubernetes provider offering Kubermatic/MetaKube
+    managed clusters across multi-AZ German data centers for German financial and
+    SaaS workloads.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927131+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://www.plusserver.com/en:
+  title: PlusServer Sovereign Cloud Solutions
+  description: "\U0001F31F - German Sovereign Cloud Stack (SCS) contributor delivering
+    ISO 27001 / BSI C5 private clouds, VMware Cloud Director exits, and managed Kubernetes
+    in German DCs."
+  year: '2026'
+  stars: 3
+  ai_summary: German Sovereign Cloud Stack (SCS) contributor delivering ISO 27001
+    / BSI C5 private clouds, VMware Cloud Director exits, and managed Kubernetes in
+    German DCs.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927163+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  youtube_mosaic: {}
+https://aws.amazon.com/compliance/europe-digital-sovereignty:
+  title: AWS European Sovereign Cloud (Brandenburg Baseline)
+  description: "\U0001F31F - Standalone German sovereign cloud region built by AWS
+    to isolate operational control planes inside the EU while retaining full AWS API
+    compatibility — evaluated against German-owned providers under CLOUD Act considerations."
+  year: '2026'
+  stars: 3
+  ai_summary: Standalone German sovereign cloud region built by AWS to isolate operational
+    control planes inside the EU while retaining full AWS API compatibility — evaluated
+    against German-owned providers under CLOUD Act considerations.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927198+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France & Germany Cloud Champions
+  - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france-germany.md
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-cloud-france-germany.md
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://github.com/ovh/terraform-provider-ovh:
+  title: OVHcloud Official Terraform Provider
+  description: "\U0001F31F - Official OpenTofu/Terraform provider automating OVHcloud
+    Public Cloud, Managed Kubernetes (MKS), vRack networking, KMS, IAM, Object Storage,
+    and dedicated servers."
+  year: '2026'
+  stars: 3
+  ai_summary: Official OpenTofu/Terraform provider automating OVHcloud Public Cloud,
+    Managed Kubernetes (MKS), vRack networking, KMS, IAM, Object Storage, and dedicated
+    servers.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927237+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/scaleway/terraform-provider-scaleway:
+  title: Scaleway Official Terraform Provider
+  description: "\U0001F31F - High-coverage IaC provider automating Scaleway Instances,
+    Kapsule/Kosmos Kubernetes, Managed PostgreSQL/Redis, IAM/RBAC, Serverless Containers/Functions,
+    and AI Endpoints."
+  year: '2026'
+  stars: 3
+  ai_summary: High-coverage IaC provider automating Scaleway Instances, Kapsule/Kosmos
+    Kubernetes, Managed PostgreSQL/Redis, IAM/RBAC, Serverless Containers/Functions,
+    and AI Endpoints.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927273+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/ionos-cloud/terraform-provider-ionoscloud:
+  title: IONOS Cloud Official Terraform Provider
+  description: "\U0001F31F - Comprehensive provider for IONOS Virtual Data Centers
+    (VDC), Managed Kubernetes, MariaDB/Postgres DBaaS, Network Load Balancers, and
+    S3 Object Storage."
+  year: '2026'
+  stars: 3
+  ai_summary: Comprehensive provider for IONOS Virtual Data Centers (VDC), Managed
+    Kubernetes, MariaDB/Postgres DBaaS, Network Load Balancers, and S3 Object Storage.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927310+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/stackitcloud/terraform-provider-stackit:
+  title: STACKIT Official Terraform Provider
+  description: "\U0001F31F - Official Schwarz Digits IaC provider managing STACKIT
+    Kubernetes Engine (SKE), OpenStack VMs, Load Balancers, Observability, and DBaaS
+    resources."
+  year: '2026'
+  stars: 3
+  ai_summary: Official Schwarz Digits IaC provider managing STACKIT Kubernetes Engine
+    (SKE), OpenStack VMs, Load Balancers, Observability, and DBaaS resources.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927344+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/hetznercloud/terraform-provider-hcloud:
+  title: Hetzner Cloud Official Terraform Provider
+  description: "\U0001F31F - Fast, ultra-reliable OpenTofu/Terraform provider for
+    Hetzner Cloud servers, private networks, firewalls, volumes, load balancers, and
+    autoscaling node pools."
+  year: '2026'
+  stars: 3
+  ai_summary: Fast, ultra-reliable OpenTofu/Terraform provider for Hetzner Cloud servers,
+    private networks, firewalls, volumes, load balancers, and autoscaling node pools.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927378+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/outscale/terraform-provider-outscale:
+  title: 3DS OUTSCALE Official Terraform Provider
+  description: "\U0001F31F - Official IaC provider for SecNumCloud-qualified 3DS OUTSCALE
+    infrastructure covering OKS Kubernetes, Nets/VPCs, security groups, and volumes."
+  year: '2026'
+  stars: 3
+  ai_summary: Official IaC provider for SecNumCloud-qualified 3DS OUTSCALE infrastructure
+    covering OKS Kubernetes, Nets/VPCs, security groups, and volumes.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927411+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/exoscale/terraform-provider-exoscale:
+  title: Exoscale Official Terraform Provider
+  description: "\U0001F31F - Official provider for Swiss/EU Exoscale Compute, SKS
+    Managed Kubernetes, DBAAS, SOS Object Storage, and IAM API keys."
+  year: '2026'
+  stars: 3
+  ai_summary: Official provider for Swiss/EU Exoscale Compute, SKS Managed Kubernetes,
+    DBAAS, SOS Object Storage, and IAM API keys.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927441+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/UpCloudLtd/terraform-provider-upcloud:
+  title: UpCloud Official Terraform Provider
+  description: "\U0001F31F - Official provider supporting UpCloud Managed Kubernetes,
+    MaxIOPS storage, Managed Databases, SDN private networks, and Madrid (`es-mad1`)
+    deployments."
+  year: '2026'
+  stars: 3
+  ai_summary: Official provider supporting UpCloud Managed Kubernetes, MaxIOPS storage,
+    Managed Databases, SDN private networks, and Madrid (`es-mad1`) deployments.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927474+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/civo/terraform-provider-civo:
+  title: Civo Official Terraform Provider
+  description: "\U0001F31F - Lightweight IaC provider for Civo K3s/Talos Managed Kubernetes
+    clusters, firewalls, networks, and UK Sovereign workloads."
+  year: '2026'
+  stars: 3
+  ai_summary: Lightweight IaC provider for Civo K3s/Talos Managed Kubernetes clusters,
+    firewalls, networks, and UK Sovereign workloads.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927506+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud:
+  title: Open Telekom Cloud Terraform Provider
+  description: "\U0001F31F - Mature enterprise IaC provider covering Open Telekom
+    Cloud VPCs, CCE Kubernetes, RDS, KMS, and German sovereign compliance policies."
+  year: '2026'
+  stars: 3
+  ai_summary: Mature enterprise IaC provider covering Open Telekom Cloud VPCs, CCE
+    Kubernetes, RDS, KMS, and German sovereign compliance policies.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927541+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/nebius/terraform-provider-nebius:
+  title: Nebius Official Terraform Provider
+  description: "\U0001F31F - Official OpenTofu/Terraform provider for Nebius AI GPU
+    clusters, MK8s Kubernetes, Filesystem/S3 storage, and InfiniBand GPU fabrics."
+  year: '2026'
+  stars: 3
+  ai_summary: Official OpenTofu/Terraform provider for Nebius AI GPU clusters, MK8s
+    Kubernetes, Filesystem/S3 storage, and InfiniBand GPU fabrics.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927586+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/terraform-provider-openstack/terraform-provider-openstack:
+  title: OpenStack Standard Terraform Provider
+  description: "\U0001F31F - Universal open-source IaC provider enabling write-once
+    infrastructure modules across European OpenStack sovereign clouds (Cleura, Elastx,
+    Stackscale, City Cloud, OVH/STACKIT OpenStack layers)."
+  year: '2026'
+  stars: 3
+  ai_summary: Universal open-source IaC provider enabling write-once infrastructure
+    modules across European OpenStack sovereign clouds (Cleura, Elastx, Stackscale,
+    City Cloud, OVH/STACKIT OpenStack layers).
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927623+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Portable Hypervisor and Private Cloud IaC Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/vmware/terraform-provider-vcd:
+  title: VMware Cloud Director (VCD) Terraform Provider
+  description: "\U0001F31F - Standardized IaC provider widely compatible with Spanish
+    and European VCSP clouds (Arsys, Gigas, Alhambra IT, Telefonica Tech VDC, Acens)
+    running vCD NSX-T Edge Gateways and OrgVDCs."
+  year: '2026'
+  stars: 3
+  ai_summary: Standardized IaC provider widely compatible with Spanish and European
+    VCSP clouds (Arsys, Gigas, Alhambra IT, Telefonica Tech VDC, Acens) running vCD
+    NSX-T Edge Gateways and OrgVDCs.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927658+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Portable Hypervisor and Private Cloud IaC Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/bpg/terraform-provider-proxmox:
+  title: Proxmox VE Terraform Provider (bpg/proxmox)
+  description: "\U0001F31F - Actively maintained declarative provider enabling hyperscaler-grade
+    VM, LXC, SDN, cloud-init, and Ceph/ZFS automation inside private Proxmox data
+    centers."
+  year: '2026'
+  stars: 3
+  ai_summary: Actively maintained declarative provider enabling hyperscaler-grade
+    VM, LXC, SDN, cloud-init, and Ceph/ZFS automation inside private Proxmox data
+    centers.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927691+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Portable Hypervisor and Private Cloud IaC Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner:
+  title: 'Kube-Hetzner: Production Talos/K3s Terraform Module'
+  description: "\U0001F31F - Battle-tested OpenTofu/Terraform module deploying HA
+    auto-upgrading Kubernetes clusters with MicroOS/k3s on Hetzner Cloud at a fraction
+    of hyperscaler EKS/AKS cost."
+  year: '2026'
+  stars: 3
+  ai_summary: Battle-tested OpenTofu/Terraform module deploying HA auto-upgrading
+    Kubernetes clusters with MicroOS/k3s on Hetzner Cloud at a fraction of hyperscaler
+    EKS/AKS cost.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927726+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Portable Hypervisor and Private Cloud IaC Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/ionos-cloud/crossplane-provider-ionoscloud:
+  title: IONOS Cloud Official Crossplane Provider
+  description: "\U0001F31F - Native Kubernetes control plane allowing GitOps teams
+    to reconcile IONOS Virtual Data Centers and Managed K8s continuously via Argo
+    CD and Crossplane XRDs."
+  year: '2026'
+  stars: 3
+  ai_summary: Native Kubernetes control plane allowing GitOps teams to reconcile IONOS
+    Virtual Data Centers and Managed K8s continuously via Argo CD and Crossplane XRDs.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927759+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Crossplane and Cluster API CAPI Multi-Cloud Control Planes
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/scaleway/crossplane-provider-scaleway:
+  title: Scaleway Official Crossplane Provider
+  description: "\U0001F31F - Official Upjet-based Crossplane provider exposing Scaleway
+    compute, Kubernetes, and database primitives as Kubernetes CRDs."
+  year: '2026'
+  stars: 3
+  ai_summary: Official Upjet-based Crossplane provider exposing Scaleway compute,
+    Kubernetes, and database primitives as Kubernetes CRDs.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927792+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Crossplane and Cluster API CAPI Multi-Cloud Control Planes
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/syself/cluster-api-provider-hetzner:
+  title: Cluster API Provider Hetzner (CAPH by Syself)
+  description: "\U0001F31F - CNCF Cluster API provider managing full self-healing
+    Kubernetes lifecycle across Hetzner Cloud VMs and Dedicated bare-metal Robot servers."
+  year: '2026'
+  stars: 3
+  ai_summary: CNCF Cluster API provider managing full self-healing Kubernetes lifecycle
+    across Hetzner Cloud VMs and Dedicated bare-metal Robot servers.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927845+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Crossplane and Cluster API CAPI Multi-Cloud Control Planes
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/ionos-cloud/cluster-api-provider-proxmox:
+  title: Cluster API Provider Proxmox (CAPMOX by IONOS)
+  description: "\U0001F31F - Enterprise Cluster API provider built by IONOS Cloud
+    for declarative multi-cluster Kubernetes orchestration directly on Proxmox VE
+    clusters."
+  year: '2026'
+  stars: 3
+  ai_summary: Enterprise Cluster API provider built by IONOS Cloud for declarative
+    multi-cluster Kubernetes orchestration directly on Proxmox VE clusters.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927882+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Crossplane and Cluster API CAPI Multi-Cloud Control Planes
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/kubernetes-sigs/cluster-api-provider-openstack:
+  title: Cluster API Provider OpenStack (CAPO)
+  description: "\U0001F31F - Official Kubernetes SIGs CAPI provider delivering standardized
+    multi-cluster lifecycle across European OpenStack sovereign clouds."
+  year: '2026'
+  stars: 3
+  ai_summary: Official Kubernetes SIGs CAPI provider delivering standardized multi-cluster
+    lifecycle across European OpenStack sovereign clouds.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927917+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Crossplane and Cluster API CAPI Multi-Cloud Control Planes
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack:
+  title: Cluster API Provider CloudStack (CAPC)
+  description: "\U0001F31F - Official Kubernetes SIGs provider turning Apache CloudStack
+    private DCs into declarative GitOps Kubernetes fleets."
+  year: '2026'
+  stars: 3
+  ai_summary: Official Kubernetes SIGs provider turning Apache CloudStack private
+    DCs into declarative GitOps Kubernetes fleets.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927952+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Crossplane and Cluster API CAPI Multi-Cloud Control Planes
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://github.com/vmware/cluster-api-provider-cloud-director:
+  title: Cluster API Provider VMware Cloud Director (CAPVCD)
+  description: "\U0001F31F - Declarative Cluster API lifecycle driver for Spanish
+    and European sovereign MSPs running VMware Cloud Director."
+  year: '2026'
+  stars: 3
+  ai_summary: Declarative Cluster API lifecycle driver for Spanish and European sovereign
+    MSPs running VMware Cloud Director.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.927986+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Crossplane and Cluster API CAPI Multi-Cloud Control Planes
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
+https://www.arubacloud.com:
+  title: Aruba Cloud (Global Cloud Data Centers)
+  description: "\U0001F31F - Italy's flagship cloud and trust-services provider operating
+    Tier IV hyper-efficient campuses near Milan (Ponte San Pietro) and Rome with Italian
+    ACN QC3 and AI3 sovereign qualifications for public administration and regulated
+    enterprises."
+  year: '2026'
+  stars: 3
+  ai_summary: Italy's flagship cloud and trust-services provider operating Tier IV
+    hyper-efficient campuses near Milan (Ponte San Pietro) and Rome with Italian ACN
+    QC3 and AI3 sovereign qualifications for public administration and regulated enterprises.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928022+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Italy Sovereign Cloud and ACN Qualified Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://www.seeweb.it/en:
+  title: Seeweb Cloud and GPU AI Infrastructure
+  description: "\U0001F31F - Independent Italian cloud and data center pioneer specializing
+    in NVIDIA H100/L40S/A100 GPU clusters, Kubernetes, sovereign AI inference, and
+    zero hyperscaler egress traps."
+  year: '2026'
+  stars: 3
+  ai_summary: Independent Italian cloud and data center pioneer specializing in NVIDIA
+    H100/L40S/A100 GPU clusters, Kubernetes, sovereign AI inference, and zero hyperscaler
+    egress traps.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928056+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Italy Sovereign Cloud and ACN Qualified Providers
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://www.polostrategiconazionale.it:
+  title: Polo Strategico Nazionale (PSN Italy)
+  description: "\U0001F31F - Italy's national sovereign cloud infrastructure dedicated
+    to migrating central and local public administration, healthcare, and strategic
+    critical data under ACN security mandates."
+  year: '2026'
+  stars: 3
+  ai_summary: Italy's national sovereign cloud infrastructure dedicated to migrating
+    central and local public administration, healthcare, and strategic critical data
+    under ACN security mandates.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928089+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Italy Sovereign Cloud and ACN Qualified Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://www.civo.com:
+  title: Civo UK Sovereign Cloud and Managed Kubernetes
+  description: "\U0001F31F - Fast-provisioning UK-headquartered Kubernetes and RelaxAI
+    cloud offering dedicated UK Sovereign environments, predictable transparent pricing
+    with generous included egress, and NVIDIA GPU workloads."
+  year: '2026'
+  stars: 3
+  ai_summary: Fast-provisioning UK-headquartered Kubernetes and RelaxAI cloud offering
+    dedicated UK Sovereign environments, predictable transparent pricing with generous
+    included egress, and NVIDIA GPU workloads.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928121+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - United Kingdom Sovereign Cloud and Colocation
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://www.pulsant.com:
+  title: Pulsant UK Edge and Private Cloud
+  description: "\U0001F31F - Regional UK data center network (12+ facilities across
+    England and Scotland) combining sovereign private cloud, disaster recovery, and
+    low-latency national interconnection."
+  year: '2026'
+  stars: 3
+  ai_summary: Regional UK data center network (12+ facilities across England and Scotland)
+    combining sovereign private cloud, disaster recovery, and low-latency national
+    interconnection.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928154+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - United Kingdom Sovereign Cloud and Colocation
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://www.exoscale.com:
+  title: 'Exoscale: Swiss and European Sovereign Cloud'
+  description: "\U0001F31F - Swiss/Austrian sovereign IaaS and SKS Managed Kubernetes
+    provider (A1 Group) operating GDPR-shielded zones across Zurich, Geneva, Frankfurt,
+    Munich, Vienna, and Sofia with strict Swiss privacy governance and zero US ownership."
+  year: '2026'
+  stars: 3
+  ai_summary: Swiss/Austrian sovereign IaaS and SKS Managed Kubernetes provider (A1
+    Group) operating GDPR-shielded zones across Zurich, Geneva, Frankfurt, Munich,
+    Vienna, and Sofia with strict Swiss privacy governance and zero US ownership.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928191+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Nordics Switzerland and Benelux Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://upcloud.com/docs:
+  title: UpCloud Sovereign European Cloud
+  description: "\U0001F31F - Finnish-owned cloud infrastructure provider operating
+    high-IOPS MaxIOPS NVMe VMs, Managed Kubernetes, Managed Databases, and an active
+    Madrid (`es-mad1`) region alongside Frankfurt, Amsterdam, Helsinki, and Warsaw."
+  year: '2026'
+  stars: 3
+  ai_summary: Finnish-owned cloud infrastructure provider operating high-IOPS MaxIOPS
+    NVMe VMs, Managed Kubernetes, Managed Databases, and an active Madrid (`es-mad1`)
+    region alongside Frankfurt, Amsterdam, Helsinki, and Warsaw.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928224+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Nordics Switzerland and Benelux Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://elastx.se/en:
+  title: 'Elastx: Swedish 3-AZ Sovereign OpenStack Cloud'
+  description: "\U0001F31F - Swedish enterprise cloud running genuine 3-Availability-Zone
+    OpenStack IaaS and Managed Kubernetes across three physically separated Stockholm
+    data centers powered by 100% renewable hydro energy."
+  year: '2026'
+  stars: 3
+  ai_summary: Swedish enterprise cloud running genuine 3-Availability-Zone OpenStack
+    IaaS and Managed Kubernetes across three physically separated Stockholm data centers
+    powered by 100% renewable hydro energy.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928255+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Nordics Switzerland and Benelux Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://cleura.com:
+  title: 'Cleura: Compliant European OpenStack Cloud'
+  description: "\U0001F31F - Swedish pioneer in open-source Sovereign Cloud Stack
+    (OpenStack + Gardener Kubernetes) offering 3-AZ Swedish regions, Frankfurt/Karlskrona
+    zones, DORA/NIS2 readiness, and strict European legal jurisdiction."
+  year: '2026'
+  stars: 3
+  ai_summary: Swedish pioneer in open-source Sovereign Cloud Stack (OpenStack + Gardener
+    Kubernetes) offering 3-AZ Swedish regions, Frankfurt/Karlskrona zones, DORA/NIS2
+    readiness, and strict European legal jurisdiction.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928286+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Nordics Switzerland and Benelux Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://www.infomaniak.com/en/hosting/public-cloud:
+  title: Infomaniak Public Cloud (Switzerland)
+  description: "\U0001F31F - Swiss independent OpenStack public cloud emphasizing
+    ecological hydro-powered data centers, zero US CLOUD Act exposure, and transparent
+    Pay-as-You-Go billing."
+  year: '2026'
+  stars: 3
+  ai_summary: Swiss independent OpenStack public cloud emphasizing ecological hydro-powered
+    data centers, zero US CLOUD Act exposure, and transparent Pay-as-You-Go billing.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928316+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Nordics Switzerland and Benelux Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://nebius.com:
+  title: Nebius Sovereign AI Cloud (Amsterdam HQ)
+  description: "\U0001F31F - European-headquartered AI hyperscaler operating massive
+    InfiniBand-interconnected NVIDIA H100, H200, and Blackwell B200 superclusters
+    in Finland and France with Kubernetes (MK8s), Slurm, and Sovereign S3 storage."
+  year: '2026'
+  stars: 3
+  ai_summary: European-headquartered AI hyperscaler operating massive InfiniBand-interconnected
+    NVIDIA H100, H200, and Blackwell B200 superclusters in Finland and France with
+    Kubernetes (MK8s), Slurm, and Sovereign S3 storage.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928348+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Nordics Switzerland and Benelux Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://gcore.com:
+  title: Gcore Cloud and Edge AI (Luxembourg HQ)
+  description: "\U0001F31F - European edge network and AI cloud headquartered in Luxembourg
+    delivering low-latency global PoPs, Managed Kubernetes, bare metal, and European
+    GPU inference nodes."
+  year: '2026'
+  stars: 3
+  ai_summary: European edge network and AI cloud headquartered in Luxembourg delivering
+    low-latency global PoPs, Managed Kubernetes, bare metal, and European GPU inference
+    nodes.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928379+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy, UK, Nordics & Benelux
+  - Nordics Switzerland and Benelux Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  v1_locations:
+  - docs/eu-cloud-italy-uk-nordics.md
+  v2_locations:
+  - eu-cloud-italy-uk-nordics.md
+  youtube_mosaic: {}
+https://www.veeam.com:
+  title: Veeam Data Platform and CDP Replication
+  description: "\U0001F31F - De facto enterprise standard across Spanish and European
+    Sovereign Cloud MSPs for near-zero RPO Continuous Data Protection (CDP), immutable
+    Hardened Linux Repositories, and S3 Object Lock cross-cloud DR."
+  year: '2026'
+  stars: 3
+  ai_summary: De facto enterprise standard across Spanish and European Sovereign Cloud
+    MSPs for near-zero RPO Continuous Data Protection (CDP), immutable Hardened Linux
+    Repositories, and S3 Object Lock cross-cloud DR.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928410+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - RPO, RTO, SLAs, DRP & Replication
+  - Virtual Machine Backup CDP and Multi-DC DRaaS
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-resilience-sla.md
+  v2_locations:
+  - eu-cloud-resilience-sla.md
+  youtube_mosaic: {}
+https://www.zerto.com:
+  title: Zerto Continuous Data Protection and DRaaS
+  description: "\U0001F31F - Journal-based continuous VM replication achieving 5–15
+    second RPO and minutes-level orchestrated RTO failover across VMware Cloud Director,
+    private data centers, and sovereign MSPs."
+  year: '2026'
+  stars: 3
+  ai_summary: Journal-based continuous VM replication achieving 5–15 second RPO and
+    minutes-level orchestrated RTO failover across VMware Cloud Director, private
+    data centers, and sovereign MSPs.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928445+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - RPO, RTO, SLAs, DRP & Replication
+  - Virtual Machine Backup CDP and Multi-DC DRaaS
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-resilience-sla.md
+  v2_locations:
+  - eu-cloud-resilience-sla.md
+  youtube_mosaic: {}
+https://www.proxmox.com/en/products/proxmox-backup-server/overview:
+  title: Proxmox Backup Server (PBS)
+  description: "\U0001F31F - Enterprise deduplicating backup server with client-side
+    encryption, Zstandard compression, and offsite pull/sync replication for zero-license
+    sovereign Proxmox VE estates."
+  year: '2026'
+  stars: 3
+  ai_summary: Enterprise deduplicating backup server with client-side encryption,
+    Zstandard compression, and offsite pull/sync replication for zero-license sovereign
+    Proxmox VE estates.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928477+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - RPO, RTO, SLAs, DRP & Replication
+  - Virtual Machine Backup CDP and Multi-DC DRaaS
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-resilience-sla.md
+  v2_locations:
+  - eu-cloud-resilience-sla.md
+  youtube_mosaic: {}
+https://cloudnative-pg.io:
+  title: CloudNativePG PostgreSQL Operator
+  description: "\U0001F31F - CNCF PostgreSQL operator enabling synchronous quorum
+    HA across European availability zones, continuous WAL archiving (Barman Cloud),
+    and sub-minute cross-region replica cluster recovery in S3 sovereign buckets."
+  year: '2026'
+  stars: 3
+  ai_summary: CNCF PostgreSQL operator enabling synchronous quorum HA across European
+    availability zones, continuous WAL archiving (Barman Cloud), and sub-minute cross-region
+    replica cluster recovery in S3 sovereign buckets.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928513+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - RPO, RTO, SLAs, DRP & Replication
+  - Cloud-Native Kubernetes Disaster Recovery and Storage Replication
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-resilience-sla.md
+  v2_locations:
+  - eu-cloud-resilience-sla.md
+  youtube_mosaic: {}
+https://velero.io:
+  title: Velero Kubernetes Backup and DR
+  description: "\U0001F31F - Standard Kubernetes cluster state and persistent volume
+    snapshot tool supporting multi-cloud migration and scheduled cross-region DR into
+    European S3-compatible object stores."
+  year: '2026'
+  stars: 3
+  ai_summary: Standard Kubernetes cluster state and persistent volume snapshot tool
+    supporting multi-cloud migration and scheduled cross-region DR into European S3-compatible
+    object stores.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928547+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - RPO, RTO, SLAs, DRP & Replication
+  - Cloud-Native Kubernetes Disaster Recovery and Storage Replication
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-resilience-sla.md
+  v2_locations:
+  - eu-cloud-resilience-sla.md
+  youtube_mosaic: {}
+https://github.com/rook/rook:
+  title: Rook Ceph Cloud-Native Storage Operator
+  description: "\U0001F31F - Production CNCF storage operator orchestrating Ceph block,
+    file, and S3 object clusters with RBD asynchronous mirroring across European private
+    data centers."
+  year: '2026'
+  stars: 3
+  ai_summary: Production CNCF storage operator orchestrating Ceph block, file, and
+    S3 object clusters with RBD asynchronous mirroring across European private data
+    centers.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928620+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - RPO, RTO, SLAs, DRP & Replication
+  - Cloud-Native Kubernetes Disaster Recovery and Storage Replication
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-resilience-sla.md
+  v2_locations:
+  - eu-cloud-resilience-sla.md
+  youtube_mosaic: {}
+https://www.arsys.es/cloud:
+  title: Arsys Enterprise Cloud and Private Cloud
+  description: "\U0001F31F - Spanish cloud pioneer (IONOS Group) operating ISO 27001
+    and full-portfolio ENS Alto data centers in Logrono and Madrid with VMware Cloud
+    Director, Enterprise Cloud IaaS, and predictable EUR billing."
+  year: '2026'
+  stars: 3
+  ai_summary: Spanish cloud pioneer (IONOS Group) operating ISO 27001 and full-portfolio
+    ENS Alto data centers in Logrono and Madrid with VMware Cloud Director, Enterprise
+    Cloud IaaS, and predictable EUR billing.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928657+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.arsys.es/cloud/kubernetes:
+  title: Arsys Managed Kubernetes
+  description: "\U0001F31F - Managed Kubernetes service hosted in Spain under ENS
+    Alto and European GDPR jurisdiction with native load balancers, block storage,
+    and IONOS Cloud API / Terraform integration."
+  year: '2026'
+  stars: 3
+  ai_summary: Managed Kubernetes service hosted in Spain under ENS Alto and European
+    GDPR jurisdiction with native load balancers, block storage, and IONOS Cloud API
+    / Terraform integration.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928689+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-spain.md
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://gigas.com/en:
+  title: Gigas Sovereign Cloud and Converged Services
+  description: "\U0001F31F - Spanish sovereign cloud and cybersecurity provider serving
+    mid-market enterprises and public administrations with ENS Alto, ISO 27001, VMware/OpenStack-based
+    IaaS, DRaaS, and 24x7 Spanish-language L3 engineering support."
+  year: '2026'
+  stars: 3
+  ai_summary: Spanish sovereign cloud and cybersecurity provider serving mid-market
+    enterprises and public administrations with ENS Alto, ISO 27001, VMware/OpenStack-based
+    IaaS, DRaaS, and 24x7 Spanish-language L3 engineering support.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928721+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://alhambrait.com/en:
+  title: Alhambra IT Sovereign Cloud and Security
+  description: "\U0001F31F - Spanish managed cloud and cybersecurity specialist operating
+    private and sovereign IaaS platforms with ENS Alto certification, zero hyperscaler
+    egress surprises, tailored SLA contracts, and active-active Madrid DCs."
+  year: '2026'
+  stars: 3
+  ai_summary: Spanish managed cloud and cybersecurity specialist operating private
+    and sovereign IaaS platforms with ENS Alto certification, zero hyperscaler egress
+    surprises, tailored SLA contracts, and active-active Madrid DCs.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928754+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://telefonicatech.com/en:
+  title: Telefonica Tech Cloud and Sovereign Solutions
+  description: "\U0001F31F - Spain's flagship enterprise ICT cloud integrator offering
+    Telefonica Tech Virtual Data Center (VDC), ENS Alto public-administration clouds,
+    and its Spanish sovereign cloud partnership with Google Cloud Data Boundary and
+    Telefónica-custodied encryption keys."
+  year: '2026'
+  stars: 3
+  ai_summary: Spain's flagship enterprise ICT cloud integrator offering Telefonica
+    Tech Virtual Data Center (VDC), ENS Alto public-administration clouds, and its
+    Spanish sovereign cloud partnership with Google Cloud Data Boundary and Telefónica-custodied
+    encryption keys.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928789+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.stackscale.com:
+  title: Stackscale (Grupo Aire) Private Cloud and Bare Metal
+  description: "\U0001F31F - Spanish OpenStack and KVM-based private cloud specialist
+    (Grupo Aire) delivering high-density bare metal, NetApp enterprise storage, zero
+    data-transfer fees, and Madrid/Amsterdam geo-redundant deployments."
+  year: '2026'
+  stars: 3
+  ai_summary: Spanish OpenStack and KVM-based private cloud specialist (Grupo Aire)
+    delivering high-density bare metal, NetApp enterprise storage, zero data-transfer
+    fees, and Madrid/Amsterdam geo-redundant deployments.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928841+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.acens.com:
+  title: Acens (Telefonica Group) Cloud Hosting
+  description: "\U0001F31F - Spanish business cloud and dedicated server provider
+    offering VMware-backed virtual data centers, corporate backup, and local data
+    residency in Madrid."
+  year: '2026'
+  stars: 3
+  ai_summary: Spanish business cloud and dedicated server provider offering VMware-backed
+    virtual data centers, corporate backup, and local data residency in Madrid.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928880+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.cdmon.com/en:
+  title: cdmon Sovereign Spanish Infrastructure
+  description: "\U0001F31F - Independent 100% Spanish-owned cloud server, VPS, and
+    managed platform provider headquartered in Catalonia with local Spanish customer
+    data residency."
+  year: '2026'
+  stars: 3
+  ai_summary: Independent 100% Spanish-owned cloud server, VPS, and managed platform
+    provider headquartered in Catalonia with local Spanish customer data residency.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928914+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.dinahosting.com:
+  title: Dinahosting Spanish Cloud and Dedicated Servers
+  description: "\U0001F31F - Independent Spanish hosting and cloud infrastructure
+    provider headquartered in Galicia offering local bare metal, VPS, and 24x7 native
+    support in Spanish and Galician."
+  year: '2026'
+  stars: 3
+  ai_summary: Independent Spanish hosting and cloud infrastructure provider headquartered
+    in Galicia offering local bare metal, VPS, and 24x7 native support in Spanish
+    and Galician.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928952+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://raiolanetworks.com:
+  title: Raiola Networks Managed Cloud
+  description: "\U0001F31F - Spanish cloud VPS and managed server provider focused
+    on predictable EUR pricing and Spain/EU data residency for SMB and agency workloads."
+  year: '2026'
+  stars: 3
+  ai_summary: Spanish cloud VPS and managed server provider focused on predictable
+    EUR pricing and Spain/EU data residency for SMB and agency workloads.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.928984+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish Sovereign Cloud and Managed IaaS Providers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.digitalrealty.com/data-centers/emea/madrid:
+  title: Digital Realty (Interxion) Madrid Data Center Campus
+  description: "\U0001F31F - Carrier-neutral Tier III+/IV Madrid interconnection campus
+    (MAD1–MAD4) housing major cloud on-ramps, ESpanix/DE-CIX peering nodes, and private
+    enterprise colocation cages."
+  year: '2026'
+  stars: 3
+  ai_summary: Carrier-neutral Tier III+/IV Madrid interconnection campus (MAD1–MAD4)
+    housing major cloud on-ramps, ESpanix/DE-CIX peering nodes, and private enterprise
+    colocation cages.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929018+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and AI-Ready Data Centers in Spain
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.equinix.com/data-centers/europe-colocation/spain-colocation:
+  title: Equinix Spain Colocation (Madrid and Barcelona)
+  description: "\U0001F31F - Neutral colocation IBX facilities (MD1/MD2/MD6 in Madrid,
+    BA1/BA2 in Barcelona) providing Equinix Fabric direct L2/BGP interconnects to
+    Spanish MSPs and hyperscaler on-ramps."
+  year: '2026'
+  stars: 3
+  ai_summary: Neutral colocation IBX facilities (MD1/MD2/MD6 in Madrid, BA1/BA2 in
+    Barcelona) providing Equinix Fabric direct L2/BGP interconnects to Spanish MSPs
+    and hyperscaler on-ramps.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929069+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and AI-Ready Data Centers in Spain
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://nabiax.com:
+  title: Nabiax Enterprise Data Centers Spain
+  description: "\U0001F31F - Spanish hyperscale and enterprise colocation operator
+    running high-resilience facilities in Alcala de Henares (Madrid) with multi-MW
+    power availability for sovereign private clouds and AI racks."
+  year: '2026'
+  stars: 3
+  ai_summary: Spanish hyperscale and enterprise colocation operator running high-resilience
+    facilities in Alcala de Henares (Madrid) with multi-MW power availability for
+    sovereign private clouds and AI racks.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929122+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and AI-Ready Data Centers in Spain
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.data4group.com/en:
+  title: DATA4 Madrid Campus
+  description: "\U0001F31F - European data center operator (Alcobendas and San Agustin
+    de Guadalix, Madrid) delivering high-density Tier III+ sovereign wholesale and
+    retail colocation with 100% renewable PPA options."
+  year: '2026'
+  stars: 3
+  ai_summary: European data center operator (Alcobendas and San Agustin de Guadalix,
+    Madrid) delivering high-density Tier III+ sovereign wholesale and retail colocation
+    with 100% renewable PPA options.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929172+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and AI-Ready Data Centers in Spain
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.merlinproperties.com/en/data-centers:
+  title: Merlin-Edged AI and Sovereign Data Centers
+  description: "\U0001F31F - Ultra-high-density liquid-cooled AI data centers across
+    Madrid-Getafe, Barcelona, and Bilbao-Arasur built to host 100kW+ NVIDIA GB200/Blackwell
+    racks under zero-water-waste closed-loop cooling."
+  year: '2026'
+  stars: 3
+  ai_summary: Ultra-high-density liquid-cooled AI data centers across Madrid-Getafe,
+    Barcelona, and Bilbao-Arasur built to host 100kW+ NVIDIA GB200/Blackwell racks
+    under zero-water-waste closed-loop cooling.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929226+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and AI-Ready Data Centers in Spain
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://spaindc.com:
+  title: 'SpainDC: Spanish Data Center Association'
+  description: "\U0001F31F - Industry association tracking Spain's data center capacity
+    growth, renewable energy integration, and Southern European submarine cable interconnection
+    ecosystem."
+  year: '2026'
+  stars: 3
+  ai_summary: Industry association tracking Spain's data center capacity growth, renewable
+    energy integration, and Southern European submarine cable interconnection ecosystem.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929281+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and AI-Ready Data Centers in Spain
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://www.espanix.net/en:
+  title: 'ESpanix: Neutral Internet Exchange in Spain'
+  description: "\U0001F31F - Spain's primary neutral IXP in Madrid enabling sub-2ms
+    interconnection among Spanish sovereign clouds, telcos, and enterprise private
+    data center racks."
+  year: '2026'
+  stars: 3
+  ai_summary: Spain's primary neutral IXP in Madrid enabling sub-2ms interconnection
+    among Spanish sovereign clouds, telcos, and enterprise private data center racks.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929334+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and AI-Ready Data Centers in Spain
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  v2_locations:
+  - eu-cloud-spain.md
+  youtube_mosaic: {}
+https://ens.ccn.cni.es/en:
+  title: CCN-CERT Esquema Nacional de Seguridad (ENS)
+  description: "\U0001F31F - Authoritative Spanish cybersecurity standard (Basico,
+    Medio, Alto) required for government agencies, healthcare, banking suppliers,
+    and regulated digital services in Spain."
+  year: '2026'
+  stars: 3
+  ai_summary: Authoritative Spanish cybersecurity standard (Basico, Medio, Alto) required
+    for government agencies, healthcare, banking suppliers, and regulated digital
+    services in Spain.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929371+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish National Compliance and Supercomputing
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-cloud-spain.md
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://www.bsc.es/marenostrum/marenostrum-5:
+  title: 'Barcelona Supercomputing Center: MareNostrum 5'
+  description: "\U0001F31F - European EuroHPC pre-exascale supercomputer hosted in
+    Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI
+    Factory and sovereign foundation model ecosystem (Salamandra / ALIA)."
+  year: '2026'
+  stars: 3
+  ai_summary: European EuroHPC pre-exascale supercomputer hosted in Barcelona powered
+    by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign
+    foundation model ecosystem (Salamandra / ALIA).
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929410+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Spain Sovereign Cloud & Private DCs
+  - Spanish National Compliance and Supercomputing
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  v1_locations:
+  - docs/eu-cloud-spain.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-spain.md
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://www.proxmox.com/en/products/proxmox-virtual-environment/overview:
+  title: Proxmox Virtual Environment (Proxmox VE)
+  description: "\U0001F31F - Open-source European KVM and LXC enterprise virtualization
+    platform (Vienna, Austria) featuring Ceph HCI storage, Software-Defined Networking,
+    live migration, and zero per-core Broadcom lock-in."
+  year: '2026'
+  stars: 3
+  ai_summary: Open-source European KVM and LXC enterprise virtualization platform
+    (Vienna, Austria) featuring Ceph HCI storage, Software-Defined Networking, live
+    migration, and zero per-core Broadcom lock-in.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929448+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Hypervisors, IaaS, K8s & Sovereign AI
+  - Traditional Hypervisors and Post-VMware Modernization
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://www.openstack.org:
+  title: OpenStack Open Source Cloud Infrastructure
+  description: "\U0001F31F - Battle-tested open-source IaaS control plane powering
+    Europe's Sovereign Cloud Stack (SCS), OVHcloud, STACKIT, Open Telekom Cloud, Elastx,
+    Cleura, and Stackscale."
+  year: '2026'
+  stars: 3
+  ai_summary: Battle-tested open-source IaaS control plane powering Europe's Sovereign
+    Cloud Stack (SCS), OVHcloud, STACKIT, Open Telekom Cloud, Elastx, Cleura, and
+    Stackscale.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929479+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Hypervisors, IaaS, K8s & Sovereign AI
+  - Traditional Hypervisors and Post-VMware Modernization
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://cloudstack.apache.org:
+  title: Apache CloudStack
+  description: "\U0001F31F - Lightweight, turn-key multi-hypervisor (KVM, XCP-ng,
+    VMware) IaaS orchestrator widely adopted by European MSPs seeking simpler day-2
+    operations than full OpenStack deployments."
+  year: '2026'
+  stars: 3
+  ai_summary: Lightweight, turn-key multi-hypervisor (KVM, XCP-ng, VMware) IaaS orchestrator
+    widely adopted by European MSPs seeking simpler day-2 operations than full OpenStack
+    deployments.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929510+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Hypervisors, IaaS, K8s & Sovereign AI
+  - Traditional Hypervisors and Post-VMware Modernization
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://harvesterhci.io:
+  title: SUSE Harvester Hyperconverged Infrastructure
+  description: "\U0001F31F - Kubernetes-native open-source HCI built on KubeVirt and
+    Longhorn, running legacy VMs and modern containers side-by-side in Rancher-managed
+    private data centers."
+  year: '2026'
+  stars: 3
+  ai_summary: Kubernetes-native open-source HCI built on KubeVirt and Longhorn, running
+    legacy VMs and modern containers side-by-side in Rancher-managed private data
+    centers.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929543+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Hypervisors, IaaS, K8s & Sovereign AI
+  - Traditional Hypervisors and Post-VMware Modernization
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[LEGACY]'
+  v1_locations:
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://www.nutanix.com/products/ahv:
+  title: Nutanix AHV Enterprise Hypervisor
+  description: "\U0001F31F - Turnkey enterprise KVM-based hyperconverged platform
+    providing Prism Central automation and VMware ESXi migration tooling for risk-averse
+    enterprise private data centers."
+  year: '2026'
+  stars: 3
+  ai_summary: Turnkey enterprise KVM-based hyperconverged platform providing Prism
+    Central automation and VMware ESXi migration tooling for risk-averse enterprise
+    private data centers.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929593+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Hypervisors, IaaS, K8s & Sovereign AI
+  - Traditional Hypervisors and Post-VMware Modernization
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  v1_locations:
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://www.talos.dev:
+  title: Talos Linux by Sidero Labs
+  description: "\U0001F31F - Immutable, API-driven Kubernetes OS eliminating SSH and
+    mutable Linux packages — the gold standard for running secure, declarative Kubernetes
+    on Hetzner bare metal, OVH/Scaleway metal, Proxmox, or colocation."
+  year: '2026'
+  stars: 3
+  ai_summary: Immutable, API-driven Kubernetes OS eliminating SSH and mutable Linux
+    packages — the gold standard for running secure, declarative Kubernetes on Hetzner
+    bare metal, OVH/Scaleway metal, Proxmox, or colocation.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929637+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Hypervisors, IaaS, K8s & Sovereign AI
+  - Managed and Declarative Kubernetes on European Infrastructure
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://gardener.cloud:
+  title: SAP Gardener Multi-Cloud Kubernetes Fleet Engine
+  description: "\U0001F31F - European-originated open-source Kubernetes-as-a-Service
+    control plane powering STACKIT SKE, SysEleven MetaKube, and Cleura multi-AZ managed
+    clusters."
+  year: '2026'
+  stars: 3
+  ai_summary: European-originated open-source Kubernetes-as-a-Service control plane
+    powering STACKIT SKE, SysEleven MetaKube, and Cleura multi-AZ managed clusters.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929669+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Hypervisors, IaaS, K8s & Sovereign AI
+  - Managed and Declarative Kubernetes on European Infrastructure
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-workloads-stack.md
+  youtube_mosaic: {}
+https://scs.community:
+  title: Sovereign Cloud Stack (SCS)
+  description: "\U0001F31F - Open-source European reference stack (OpenStack, Kubernetes,
+    Ceph, IaC standards) backed by OSBA and adopted by German and European sovereign
+    providers such as PlusServer, STACKIT partners, and Cleura to prevent vendor lock-in."
+  year: '2026'
+  stars: 3
+  ai_summary: Open-source European reference stack (OpenStack, Kubernetes, Ceph, IaC
+    standards) backed by OSBA and adopted by German and European sovereign providers
+    such as PlusServer, STACKIT partners, and Cleura to prevent vendor lock-in.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.929967+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - Pan-European Sovereign Cloud Initiatives and Standards
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://cispe.cloud:
+  title: 'CISPE: Cloud Infrastructure Services Providers in Europe'
+  description: "\U0001F31F - Trade association of European cloud infrastructure providers
+    driving fair software licensing principles, GDPR Data Protection Code of Conduct
+    compliance, and anti-lock-in cloud portability standards."
+  year: '2026'
+  stars: 3
+  ai_summary: Trade association of European cloud infrastructure providers driving
+    fair software licensing principles, GDPR Data Protection Code of Conduct compliance,
+    and anti-lock-in cloud portability standards.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.930009+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - Pan-European Sovereign Cloud Initiatives and Standards
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://eurostack.eu:
+  title: 'EuroStack: European Digital Sovereignty Blueprint'
+  description: "\U0001F31F - Cross-industry European sovereignty initiative mapping
+    strategic dependencies across chips, sovereign cloud IaaS/PaaS, AI models, and
+    open-source software alternatives."
+  year: '2026'
+  stars: 3
+  ai_summary: Cross-industry European sovereignty initiative mapping strategic dependencies
+    across chips, sovereign cloud IaaS/PaaS, AI models, and open-source software alternatives.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.930045+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - Pan-European Sovereign Cloud Initiatives and Standards
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://european-alternatives.eu:
+  title: European Alternatives
+  description: "\U0001F31F - Curated directory cataloging EU-owned, GDPR-compliant
+    alternatives to non-European cloud hosting, SaaS, object storage, and managed
+    Kubernetes platforms."
+  year: '2026'
+  stars: 3
+  ai_summary: Curated directory cataloging EU-owned, GDPR-compliant alternatives to
+    non-European cloud hosting, SaaS, object storage, and managed Kubernetes platforms.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.930080+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - Pan-European Sovereign Cloud Initiatives and Standards
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://eur-lex.europa.eu/eli/reg/2023/2854/oj:
+  title: 'Regulation (EU) 2023/2854: The EU Data Act'
+  description: "\U0001F31F - Binding European regulation mandating cloud interoperability,
+    open switching APIs, capped switching charges during transition, and complete
+    elimination of cloud switching/migration egress fees by January 12, 2027 (Article
+    29)."
+  year: '2026'
+  stars: 3
+  ai_summary: Binding European regulation mandating cloud interoperability, open switching
+    APIs, capped switching charges during transition, and complete elimination of
+    cloud switching/migration egress fees by January 12, 2027 (Article 29).
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.930148+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://eur-lex.europa.eu/eli/reg/2022/2554/oj:
+  title: 'Regulation (EU) 2022/2554: Digital Operational Resilience Act (DORA)'
+  description: "\U0001F31F - EU financial sector regulation enforcing strict ICT third-party
+    risk management, concentration-risk assessments, mandatory tested exit strategies
+    (Articles 28–30), and incident reporting for cloud providers."
+  year: '2026'
+  stars: 3
+  ai_summary: EU financial sector regulation enforcing strict ICT third-party risk
+    management, concentration-risk assessments, mandatory tested exit strategies (Articles
+    28–30), and incident reporting for cloud providers.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T15:58:03.930187+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}

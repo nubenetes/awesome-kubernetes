@@ -123,7 +123,7 @@ graph TD
 
 #### Multi-tenancy
 
-  - **(2023)** [blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares multi-instance setups (dedicated systems per tenant) against multi-tenant models (shared compute/database with strict software isolation). Examines resource scaling, security boundaries, and noisy neighbor challenges.
+  - **(2023)** [blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/blog/saas-multi-tenant-vs-multi-instance-architectures)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Compares multi-instance setups (dedicated systems per tenant) against multi-tenant models (shared compute/database with strict software isolation). Examines resource scaling, security boundaries, and noisy neighbor challenges.
 ### Technical Debt
 
 #### Microservices (1)
@@ -152,7 +152,7 @@ graph TD
 
 #### Cultural Dynamics
 
-  - **(2020)** [lavanguardia.com: Por qué la transformación digital es mentira 🌟](https://www.lavanguardia.com/economia/20201014/484036217179/transformacion-digital-empresas-foncillas-pf-video-seo-lv.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un análisis crítico sobre las falacias que rodean el concepto de 'transformación digital' en el mundo corporativo. El autor argumenta que la tecnología por sí sola no arregla procesos rotos, señalando que el verdadero cambio radica en la reestructuración cultural y la optimización organizativa.
+  - **(2020)** [lavanguardia.com: Por qué la transformación digital es mentira 🌟](https://www.lavanguardia.com/economia/20201014/484036217179/transformacion-digital-empresas-foncillas-pf-video-seo-lv.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Un análisis crítico sobre las falacias que rodean el concepto de 'transformación digital' en el mundo corporativo. El autor argumenta que la tecnología por sí sola no arregla procesos rotos, señalando que el verdadero cambio radica en la reestructuración cultural y la optimización organizativa.
 ### Organizational Structure
 
 #### DevOps Culture
@@ -228,7 +228,7 @@ graph TD
   - **(2021)** [blog.pragmaticengineer.com: Migrations Done Well: Typical Migration Approaches](https://blog.pragmaticengineer.com/typical-migration-approaches) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Written by Gergely Orosz, this deep-dive highlights technical planning and execution strategies for complex system migrations. Discusses mitigating dual-write issues, rollback preparations, and incremental phased cutovers to manage operational risk.
 #### Strategies
 
-  - **(2021)** [forbes.com: 3 Approaches To A Better Cloud Migration](https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes high-level corporate strategies for executing cloud migrations. It contrasts rehosting (lift-and-shift), platform optimization (replatforming), and cloud-native rebuilding (refactoring) along security, speed, and cost parameters.
+  - **(2021)** [forbes.com: 3 Approaches To A Better Cloud Migration](https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Synthesizes high-level corporate strategies for executing cloud migrations. It contrasts rehosting (lift-and-shift), platform optimization (replatforming), and cloud-native rebuilding (refactoring) along security, speed, and cost parameters.
 ### Multi-cloud Strategy
 
 #### Data Management (1)
@@ -751,7 +751,7 @@ graph TD
 
 #### Fundamentals (4)
 
-  - **(2024)** [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduce los principios de la computación cuántica de manera accesible mediante la analogía de una moneda girando para ilustrar la superposición. Destaca el impacto potencial de los cúbits frente a la computación clásica.
+  - **(2024)** [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Introduce los principios de la computación cuántica de manera accesible mediante la analogía de una moneda girando para ilustrar la superposición. Destaca el impacto potencial de los cúbits frente a la computación clásica.
 ## Event Driven Architecture EDA
 
   - [levelup.gitconnected.com: Error Handling in Event-Driven Systems](https://levelup.gitconnected.com/error-handling-in-event-driven-systems-1f0a7ef2cfb7?gi=d5cecb99d6a0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Error Handling in Event-Driven Systems covering Event Driven Architecture EDA in Introduction (levelup.gitconnected.com).
@@ -787,7 +787,7 @@ graph TD
 
 #### Docker
 
-  - **(2021)** [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares physical hypervisors, virtual machines, and container engines (Docker). Details namespace isolation and cgroups that allow containerized applications to run securely on shared Linux kernels.
+  - **(2021)** [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Compares physical hypervisors, virtual machines, and container engines (Docker). Details namespace isolation and cgroups that allow containerized applications to run securely on shared Linux kernels.
 ### Legacy
 
 #### Mainframe
@@ -797,7 +797,7 @@ graph TD
 
 #### Broadcom Era
 
-  - **(2024)** [thestack.technology: VMware is killing off 56 products amid "tectonic" infrastructure shift](https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsphere-hypervisor-and-nsx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Broadcom's aggressive consolidation of VMware's product portfolio. Analyzes the impact on enterprise infrastructure strategies, driving many organizations to accelerate their migrations to bare metal, KVM, or public cloud.
+  - **(2024)** [thestack.technology: VMware is killing off 56 products amid "tectonic" infrastructure shift](https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsphere-hypervisor-and-nsx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Details Broadcom's aggressive consolidation of VMware's product portfolio. Analyzes the impact on enterprise infrastructure strategies, driving many organizations to accelerate their migrations to bare metal, KVM, or public cloud.
 ## Infrastructure and Hardware
 
 ### Data Center Investments
@@ -811,7 +811,7 @@ graph TD
 
 #### Enterprise Strategy
 
-  - **(2024)** [virtualizationhowto.com: VMware by Broadcom Lesson: Don’t base your career on a product](https://www.virtualizationhowto.com/2024/02/vmware-by-broadcom-lesson-dont-base-your-career-on-a-product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reflects on the rapid changes post-Broadcom acquisition of VMware, serving as a cautionary tale for technical practitioners. Advises diversifying skills beyond proprietary ecosystems into open-source tooling like Kubernetes and Proxmox.
+  - **(2024)** [virtualizationhowto.com: VMware by Broadcom Lesson: Don’t base your career on a product](https://www.virtualizationhowto.com/2024/02/vmware-by-broadcom-lesson-dont-base-your-career-on-a-product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Reflects on the rapid changes post-Broadcom acquisition of VMware, serving as a cautionary tale for technical practitioners. Advises diversifying skills beyond proprietary ecosystems into open-source tooling like Kubernetes and Proxmox.
 ### Development
 
 #### Best Practices (1)
@@ -1030,7 +1030,7 @@ graph TD
   - **(2023)** [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Highlights the key differences between legacy cold-standby disaster recovery models and modern, cloud-native active-active paradigms. Highlights regional replication, automatic failover orchestration, and chaotic failure injection.
 #### DevOps (1)
 
-  - **(2023)** [bunnyshell.com: DR in DevOps: How to Guarantee an Effective Disaster Recovery Plan with DevOps](https://www.bunnyshell.com/blog/disaster-recovery-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores integrating DR validation directly within DevOps lifecycles. Details setting up automated environment cloning, infrastructure-as-code state synchronization, and defining recovery point objectives (RPO) and recovery time objectives (RTO).
+  - **(2023)** [bunnyshell.com: DR in DevOps: How to Guarantee an Effective Disaster Recovery Plan with DevOps](https://www.bunnyshell.com/blog/disaster-recovery-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Explores integrating DR validation directly within DevOps lifecycles. Details setting up automated environment cloning, infrastructure-as-code state synchronization, and defining recovery point objectives (RPO) and recovery time objectives (RTO).
 ## Orchestration (2)
 
 ### Kubernetes (2)
@@ -1056,7 +1056,7 @@ graph TD
 
 #### State Of DevOps. Googles DevOps Research And Assessment DORA
 
-  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
+  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
 ## Platform Engineering (3)
 
 ### Internal Developer Platforms
@@ -1217,7 +1217,7 @@ graph TD
 
 #### Microservices (7)
 
-  - **(2024)** [dynatrace.com: What are microservices? All you need to know](https://www.dynatrace.com/knowledge-base/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level architectural overview exploring the decoupling of corporate monoliths into agile microservices. Discusses structural changes, challenges in service discovery, and the crucial role of tracing telemetry for maintaining state consistency.
+  - **(2024)** [dynatrace.com: What are microservices? All you need to know](https://www.dynatrace.com/knowledge-base/microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A high-level architectural overview exploring the decoupling of corporate monoliths into agile microservices. Discusses structural changes, challenges in service discovery, and the crucial role of tracing telemetry for maintaining state consistency.
 ### Education (1)
 
 #### Systems Programming
@@ -1279,5 +1279,5 @@ graph TD
 ---
 💡 **Explore Related:** [FAQ](./faq.md) | [Kubernetes](./kubernetes.md) | [Linux](./linux.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [Rancher](./rancher.md)
 

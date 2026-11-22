@@ -56,7 +56,7 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 
 ??? archive "Historical and Legacy References (2 pre-2022 or legacy items)"
 
-    - **(2021)** [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical system administration guide demonstrating how to set up, secure, and monitor Varnish Cache on enterprise Linux configurations to handle surge traffic and ensure static file acceleration.
+    - **(2021)** [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — A practical system administration guide demonstrating how to set up, secure, and monitor Varnish Cache on enterprise Linux configurations to handle surge traffic and ensure static file acceleration.
     - **(2020)** [The Varnish Book](https://info.varnish-software.com/the-varnish-book) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive technical documentation book for Varnish configurations. It provides advanced tutorials on VCL architecture, Edge Side Includes (ESI) structures, security rules, and performance analysis.
 
 ## Edge and Serverless
@@ -161,5 +161,5 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Service Mesh](./servicemesh.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AWS Serverless](./aws-serverless.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Ansible](./ansible.md)
 

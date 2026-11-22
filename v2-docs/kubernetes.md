@@ -19,7 +19,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
     Detailed reference for Kubernetes in the context of Architectural Foundations.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [Tools](kubernetes-tools.md) · [Networking](kubernetes-networking.md) · [Security](kubernetes-security.md) · [Monitoring](kubernetes-monitoring.md) · [Storage](kubernetes-storage.md) · [Autoscaling](kubernetes-autoscaling.md) · [Operators](kubernetes-operators-controllers.md) · [AI Agents & MCP](ai-agents-mcp.md) · [AI & GPU Workloads](mlops.md) · [Alternatives](kubernetes-alternatives.md) · [Big Data](kubernetes-bigdata.md) · [Tutorials](kubernetes-tutorials.md) · [Backup & Migrations](kubernetes-backup-migrations.md) · [Client Libraries](kubernetes-client-libraries.md) · [Local Dev](kubernetes-based-devel.md) · [On-Premise](kubernetes-on-premise.md)
+    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [EU Sovereign Cloud Alternatives](eu-sovereign-cloud.md) · [Tools](kubernetes-tools.md) · [Networking](kubernetes-networking.md) · [Security](kubernetes-security.md) · [Monitoring](kubernetes-monitoring.md) · [Storage](kubernetes-storage.md) · [Autoscaling](kubernetes-autoscaling.md) · [Operators](kubernetes-operators-controllers.md) · [AI Agents & MCP](ai-agents-mcp.md) · [AI & GPU Workloads](mlops.md) · [Alternatives](kubernetes-alternatives.md) · [Big Data](kubernetes-bigdata.md) · [Tutorials](kubernetes-tutorials.md) · [Backup & Migrations](kubernetes-backup-migrations.md) · [Client Libraries](kubernetes-client-libraries.md) · [Local Dev](kubernetes-based-devel.md) · [On-Premise](kubernetes-on-premise.md)
 
 ## AI and Agents
 
@@ -97,7 +97,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Annotations and Labels
 
-  - **(2022)** [getambassador.io: Kubernetes Annotations and Labels: What’s the Difference?](https://landing.gravitee.io/gravitee-edge-stack-unified-api-visibility-and-governance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the distinct purposes of labels (used for selecting, querying, and grouping resources) versus annotations (non-identifying metadata used by external tools and operators). Crucial for policy enforcement and API discovery.
+  - **(2022)** [getambassador.io: Kubernetes Annotations and Labels: What’s the Difference?](https://landing.gravitee.io/gravitee-edge-stack-unified-api-visibility-and-governance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Clarifies the distinct purposes of labels (used for selecting, querying, and grouping resources) versus annotations (non-identifying metadata used by external tools and operators). Crucial for policy enforcement and API discovery.
   - **(2021)** [kubernetes.io: Annotating Kubernetes Services for Humans](https://kubernetes.io/blog/2021/04/20/annotating-k8s-for-humans) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the usage of annotations to embed human-readable metadata, licensing info, and contact details into Kubernetes resources. Highlights operational benefits for large-scale enterprise inventory management.
 ## Application Delivery
 
@@ -188,7 +188,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2022)** [opensource.com: A guide to Kubernetes architecture](https://opensource.com/article/22/2/kubernetes-architecture) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level architectural walkthrough introducing components of master and worker topologies. Clearly distinguishes logical cluster planes and details container execution layers.
 #### Declarative Apis
 
-  - **(2021)** [containerjournal.com: Kubernetes’ True Superpower is its Control Plane](https://cloudnativenow.com/kubeconcnc/kubernetes-true-superpower-is-its-control-plane)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural perspective evaluating why the real capability of Kubernetes is its extensible control plane. Explores how CRDs, custom controller reconciliation loops, and dynamic validation webhooks allow engineering teams to model external IT infrastructure declaratively.
+  - **(2021)** [containerjournal.com: Kubernetes’ True Superpower is its Control Plane](https://cloudnativenow.com/kubeconcnc/kubernetes-true-superpower-is-its-control-plane)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — An architectural perspective evaluating why the real capability of Kubernetes is its extensible control plane. Explores how CRDs, custom controller reconciliation loops, and dynamic validation webhooks allow engineering teams to model external IT infrastructure declaratively.
 #### Developer Experience
 
   - **(2023)** [okteto.com: What is Kubernetes Architecture?](https://www.okteto.com/blog/kubernetes-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the modular architecture of Kubernetes with a specific focus on cloud-native application development workflows. Discusses how control plane components and worker node runtimes influence developer environments, advocating for container-centric development workflows directly inside remote namespaces.
@@ -266,7 +266,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Bare Metal Vs VM
 
-  - **(2023)** [thenewstack.io: Does Kubernetes Really Perform Better on Bare Metal vs. VMs? 🌟](https://thenewstack.io/does-kubernetes-really-perform-better-on-bare-metal-vs-vms) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates performance metrics, latency bottlenecks, and hypervisor overhead costs. Compares control plane efficiency on bare-metal architectures versus standard virtualization structures.
+  - **(2023)** [thenewstack.io: Does Kubernetes Really Perform Better on Bare Metal vs. VMs? 🌟](https://thenewstack.io/does-kubernetes-really-perform-better-on-bare-metal-vs-vms) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Investigates performance metrics, latency bottlenecks, and hypervisor overhead costs. Compares control plane efficiency on bare-metal architectures versus standard virtualization structures.
 ### Internal Mechanics
 
 #### Control Loops
@@ -286,7 +286,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Federation
 
-  - **(2022)** [**blog.scaleway.com: How to deploy and distribute the workload on a multi-cloud Kubernetes environment 🌟**](https://www.scaleway.com/en/blog/how-to-deploy-and-distribute-the-workload-on-a-multi-cloud-kubernetes-environment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides multi-cloud workload deployment patterns. Explores cluster federation, multi-cluster ingress routing, and disaster recovery profiles using standardized cloud-provider APIs.
+  - **(2022)** [**blog.scaleway.com: How to deploy and distribute the workload on a multi-cloud Kubernetes environment 🌟**](https://www.scaleway.com/en/blog/how-to-deploy-and-distribute-the-workload-on-a-multi-cloud-kubernetes-environment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Provides multi-cloud workload deployment patterns. Explores cluster federation, multi-cluster ingress routing, and disaster recovery profiles using standardized cloud-provider APIs.
 ### Nested Clusters
 
 #### Bare Metal
@@ -332,7 +332,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Complexity Analysis
 
-  - **(2021)** [**buttondown.email: Two reasons Kubernetes is so complex**](https://buttondown.com/nelhage/archive/two-reasons-kubernetes-is-so-complex) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An insightful essay attributing Kubernetes' inherent complexity to two core causes: its general-purpose platform-of-platforms architecture, and its commitment to solving the distributed consensus state problem globally.
+  - **(2021)** [**buttondown.email: Two reasons Kubernetes is so complex**](https://buttondown.com/nelhage/archive/two-reasons-kubernetes-is-so-complex) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An insightful essay attributing Kubernetes' inherent complexity to two core causes: its general-purpose platform-of-platforms architecture, and its commitment to solving the distributed consensus state problem globally.
 ### Visual Reference
 
 #### Control Plane (3)
@@ -416,7 +416,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Scale Strategies
 
-  - **(2020)** [srcco.de: Zalando - Many Kubernetes Clusters instead of 1 huge cluster](https://srcco.de/posts/many-kubernetes-clusters.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Zalando's landmark architectural analysis of their decision to deploy hundreds of single-tenant, purpose-built clusters instead of one giant shared cluster. This text addresses multi-tenancy, blast radius containment, and automated control-plane orchestration.
+  - **(2020)** [srcco.de: Zalando - Many Kubernetes Clusters instead of 1 huge cluster](https://srcco.de/posts/many-kubernetes-clusters.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Zalando's landmark architectural analysis of their decision to deploy hundreds of single-tenant, purpose-built clusters instead of one giant shared cluster. This text addresses multi-tenancy, blast radius containment, and automated control-plane orchestration.
 ## Cloud Architecture
 
 ### Noops and Serverless
@@ -647,7 +647,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Cdk8s
 
   - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4823</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2899cf8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 12 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-2899cf8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info'>[CNCF SANDBOX]</span> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
-  - **(2026)** [AWS: Introducing CDK for Kubernetes](https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS technical launch post announcing CDK for Kubernetes (cdk8s). It outlines the core architectural principles, detailing how software developers can use general-purpose programming interfaces to output strongly-typed, verifiable raw YAML files for any Kubernetes cluster.
+  - **(2026)** [AWS: Introducing CDK for Kubernetes](https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — AWS technical launch post announcing CDK for Kubernetes (cdk8s). It outlines the core architectural principles, detailing how software developers can use general-purpose programming interfaces to output strongly-typed, verifiable raw YAML files for any Kubernetes cluster.
   - **(2026)** [cdk8s.io](https://cdk8s.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official homepage for Cloud Development Kit for Kubernetes (cdk8s), an open-source framework for defining Kubernetes applications using familiar programming languages. It compiles object-oriented code into standards-compliant YAML manifests, bringing programming patterns like classes, loops, and conditions to configuration management.
 #### Jsonnet
 
@@ -689,7 +689,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Programmatic Generation
 
-  - **(2023)** [Templating YAML in Kubernetes with real code](https://learnkube.com/templating-yaml-with-code) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advocates for programmatic Kubernetes resource generation in real-world programming languages (Go, Python, Java) over raw text-interpolated tools like Helm. Details static typing validation advantages, testing, and GitOps orchestration scale benefits.
+  - **(2023)** [Templating YAML in Kubernetes with real code](https://learnkube.com/templating-yaml-with-code) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Advocates for programmatic Kubernetes resource generation in real-world programming languages (Go, Python, Java) over raw text-interpolated tools like Helm. Details static typing validation advantages, testing, and GitOps orchestration scale benefits.
 ## Container Orchestration (4)
 
 ### Azure Kubernetes Service
@@ -740,7 +740,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Kubernetes Concept
 
-  - **(2025)** [==iximiuz.com: How Kubernetes Reinvented Virtual Machines (in a good sense) 🌟🌟==](https://labs.iximiuz.com/tutorials/kubernetes-vs-virtual-machines) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Insightful analysis explaining how Kubernetes replicates hypervisor features through API-driven isolation, network namespaces, and cgroups. Demonstrates how K8s serves as the cloud operating system, abstraction layer, and software-defined datacenter.
+  - **(2025)** [==iximiuz.com: How Kubernetes Reinvented Virtual Machines (in a good sense) 🌟🌟==](https://labs.iximiuz.com/tutorials/kubernetes-vs-virtual-machines) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Insightful analysis explaining how Kubernetes replicates hypervisor features through API-driven isolation, network namespaces, and cgroups. Demonstrates how K8s serves as the cloud operating system, abstraction layer, and software-defined datacenter.
 ## Core Architecture
 
 ### Controller Manager
@@ -793,7 +793,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Probes
 
-  - **(2020)** [Kubernetes Liveness and Readiness Probes](https://theithollow.com/2020/05/18/kubernetes-liveness-and-readiness-probes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A thorough guide covering the purpose of Liveness and Readiness probes. Details execution modes (HTTP, TCP, Exec) to orchestrate self-healing pods.
+  - **(2020)** [Kubernetes Liveness and Readiness Probes](https://theithollow.com/2020/05/18/kubernetes-liveness-and-readiness-probes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A thorough guide covering the purpose of Liveness and Readiness probes. Details execution modes (HTTP, TCP, Exec) to orchestrate self-healing pods.
 ### Workload Resources
 
 #### Controller Comparison
@@ -1016,7 +1016,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [dev.to: How to start with Kubernetes for begginer](https://dev.to/dhirajpatra/how-to-start-with-kubernetes-for-begginer-309e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A simplified learning roadmap for beginners. Details foundational prerequisites like Docker containerization concepts, basic Linux terminal operations, and introductory networking mechanics.
 #### History
 
-  - **(2019)** [hackernoon.com: The Ultimate Beginners Guide To Kubernetes and Container Orchestration](https://hackernoon.com/the-ultimate-beginners-guide-to-kubernetes-and-container-orchestration-5d83354y) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Traces the evolution of software hosting environments from physical bare-metal servers, through hypervisor-based virtualization, to lightweight OCI containers orchestrated dynamically by Kubernetes.
+  - **(2019)** [hackernoon.com: The Ultimate Beginners Guide To Kubernetes and Container Orchestration](https://hackernoon.com/the-ultimate-beginners-guide-to-kubernetes-and-container-orchestration-5d83354y) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Traces the evolution of software hosting environments from physical bare-metal servers, through hypervisor-based virtualization, to lightweight OCI containers orchestrated dynamically by Kubernetes.
 #### Orchestration Basics (1)
 
   - **(2020)** [opensource.com: A beginner's guide to Kubernetes container orchestration](https://opensource.com/article/20/6/container-orchestration) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational overview of container orchestration and its necessity in modern distributed systems. Examines how Kubernetes automates scheduling, self-healing, scaling, and load balancing across cluster nodes.
@@ -1212,7 +1212,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Openstack Integration
 
-  - **(2021)** [superuser.openstack.org: Run Your Kubernetes Cluster on OpenStack in Production](https://superuser.openinfra.org/articles/run-your-kubernetes-cluster-on-openstack-in-production) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical playbook outlining how to marry OpenStack's bare-metal/VM resources with Kubernetes automation. Outlines storage mapping through Cinder, network integration via Octavia/Neutron, and high-performance production topologies.
+  - **(2021)** [superuser.openstack.org: Run Your Kubernetes Cluster on OpenStack in Production](https://superuser.openinfra.org/articles/run-your-kubernetes-cluster-on-openstack-in-production) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — A technical playbook outlining how to marry OpenStack's bare-metal/VM resources with Kubernetes automation. Outlines storage mapping through Cinder, network integration via Octavia/Neutron, and high-performance production topologies.
 ### Registry
 
 #### Security (1)
@@ -1260,7 +1260,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2022)** [How to track costs in multi-tenant Amazon EKS clusters using Kubecost](https://aws.amazon.com/blogs/containers/how-to-track-costs-in-multi-tenant-amazon-eks-clusters-using-kubecost) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step implementation guide detailing how to run Kubecost within AWS EKS environments. Explains namespace-level attribution, handling shared load balancers, and calculating storage and compute resources accurately against live AWS billing registers.
 #### Finops Practices
 
-  - **(2021)** [dev.to: Kubernetes Cost Management and Analysis Guide 🌟](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive tutorial focusing on structural cost-tracking and capacity planning. Explains how to establish cross-team namespace boundaries and dynamically aggregate infrastructure metrics to build readable corporate finance reports.
+  - **(2021)** [dev.to: Kubernetes Cost Management and Analysis Guide 🌟](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A deep dive tutorial focusing on structural cost-tracking and capacity planning. Explains how to establish cross-team namespace boundaries and dynamically aggregate infrastructure metrics to build readable corporate finance reports.
   - **(2021)** [containerjournal.com: Assessing the True Cost of Kubernetes](https://cloudnativenow.com/features/assessing-the-true-cost-of-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide addressing the total cost of ownership (TCO) of maintaining enterprise-scale Kubernetes installations. Explores hidden cost vectors, including data transfer fees, multi-zone control plane redundancies, and internal operational overhead.
   - **(2021)** [hackernoon.com: Reducing Kubernetes Costs](https://hackernoon.com/reducing-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores pragmatic optimization techniques to trim compute waste. Focuses on standard auto-scaling mechanisms (HPA, VPA, Karpenter) and leveraging pre-emptible instances for elastic background processing.
   - **(2021)** [thenewstack.io: 5 Essential Tips to Manage Kubernetes Costs](https://thenewstack.io/5-essential-tips-to-manage-kubernetes-costs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a strategic blueprint for limiting resource waste within cloud-native infrastructures. It focuses on setting realistic resource request and limit boundaries, utilizing horizontal and vertical autoscaling mechanisms, and eliminating orphaned volume structures.
@@ -1474,7 +1474,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### MLOps Infrastructure
 
-  - **(2021)** [civo.com: Get up and running with Kubeflow on Civo Kubernetes](https://www.civo.com/learn/get-up-and-running-with-kubeflow-on-civo-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — A detailed installation and operations guide showing how to deploy Kubeflow pipelines onto lightweight managed Civo K3s clusters. Covers setting up deep learning environments, model pipelines, and monitoring routines.
+  - **(2021)** [civo.com: Get up and running with Kubeflow on Civo Kubernetes](https://www.civo.com/learn/get-up-and-running-with-kubeflow-on-civo-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — A detailed installation and operations guide showing how to deploy Kubeflow pipelines onto lightweight managed Civo K3s clusters. Covers setting up deep learning environments, model pipelines, and monitoring routines.
 ## Multi-cluster (2)
 
 ### Federation (1)
@@ -1953,7 +1953,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Openshift
 
-  - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
+  - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
 ### Infrastructure Automation
 
 #### Network Operations
@@ -1979,10 +1979,10 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
   - **(2021)** [thinksys.com: Understanding Multi-Tenancy in Kubernetes 🌟](https://thinksys.com/devops/kubernetes-multi-tenancy) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes basic multi-tenant configurations in shared clusters. Explains how namespace structures, custom RBAC permissions, and compute limits balance physical consolidation with logical separation.
   - **(2022)** [infracloud.io: Introduction to Multi-Tenancy in Kubernetes](https://www.infracloud.io/blogs/multi-tenancy-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical platform-level guide detailing core structural steps for running multi-tenant topologies safely. Outlines container security context definitions and egress NetworkPolicies.
-  - **(2021)** [vamsitalkstech.com: Introduction to Kubernetes Multi-tenancy..(1/2)](https://www.vamsitalkstech.com/architecture/a-deepdive-into-kubernetes-multitenancy-1-2) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of a multi-tenancy deep dive introducing isolation concepts. Examines the baseline challenges of tenant workloads on shared control planes and hypervisor-driven isolation schemes.
+  - **(2021)** [vamsitalkstech.com: Introduction to Kubernetes Multi-tenancy..(1/2)](https://www.vamsitalkstech.com/architecture/a-deepdive-into-kubernetes-multitenancy-1-2) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Part one of a multi-tenancy deep dive introducing isolation concepts. Examines the baseline challenges of tenant workloads on shared control planes and hypervisor-driven isolation schemes.
 #### Hard Isolation
 
-  - **(2018)** [blog.jessfraz.com: Hard Multi-Tenancy in Kubernetes (2018)](https://blog.jessfraz.com/post/hard-multi-tenancy-in-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal blog post on hard multi-tenancy. Explores hypervisor-level container runtimes (such as gVisor and Kata Containers) to isolate tenants sharing a host OS kernel.
+  - **(2018)** [blog.jessfraz.com: Hard Multi-Tenancy in Kubernetes (2018)](https://blog.jessfraz.com/post/hard-multi-tenancy-in-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — A seminal blog post on hard multi-tenancy. Explores hypervisor-level container runtimes (such as gVisor and Kata Containers) to isolate tenants sharing a host OS kernel.
 #### Hierarchical Namespaces
 
   - **(2023)** [==Hierarchical namespaces==](https://github.com/kubernetes-retired/multi-tenancy/tree/master/incubator/hnc) <span class='md-tag md-tag--info'>⭐ 939</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eb789a4c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 13 L 20 4 L 30 11 L 40 8 L 50 2" fill="none" stroke="url(#spark-grad-eb789a4c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The repository source for the Hierarchical Namespace Controller (HNC). While archived on GitHub, it remains highly informative for establishing cascading sub-namespace parameters and resource hierarchies.
@@ -2047,7 +2047,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Benchmarks
 
-  - **(2023)** [home.robusta.dev: When is a CPU not a CPU? Benchmark of Kubernetes Providers and Node Efficiency 🌟🌟](https://home.robusta.dev/blog/k8s-node-benchmark) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents empirical benchmarks of CPU efficiency across major cloud Kubernetes providers (EKS, GKE, AKS).
+  - **(2023)** [home.robusta.dev: When is a CPU not a CPU? Benchmark of Kubernetes Providers and Node Efficiency 🌟🌟](https://home.robusta.dev/blog/k8s-node-benchmark) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Presents empirical benchmarks of CPU efficiency across major cloud Kubernetes providers (EKS, GKE, AKS).
 - Proves that equivalent virtual CPUs do not yield identical performance due to cloud hypervisor overhead.
 - Crucial read for high-throughput microservices performance planning.
 #### CPU Limits and Throttling
@@ -2213,7 +2213,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Identity Providers
 
-  - **(2026)** [==kconnect - The Kubernetes Connection Manager CLI==](https://github.com/fidelity/kconnect) <span class='md-tag md-tag--info'>⭐ 249</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b3857338" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 13 L 30 7 L 40 5 L 50 7" fill="none" stroke="url(#spark-grad-b3857338)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-ready connection manager used to secure and automate context discovery in cloud environments. It integrates CLI authentication directly with corporate directory providers (such as SAML, OIDC, AWS IAM, Azure AD), making it simple to manage multi-tenant access safely.
+  - **(2026)** [==kconnect - The Kubernetes Connection Manager CLI==](https://github.com/fidelity/kconnect) <span class='md-tag md-tag--info'>⭐ 249</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b3857338" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 13 L 30 7 L 40 5 L 50 7" fill="none" stroke="url(#spark-grad-b3857338)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — An enterprise-ready connection manager used to secure and automate context discovery in cloud environments. It integrates CLI authentication directly with corporate directory providers (such as SAML, OIDC, AWS IAM, Azure AD), making it simple to manage multi-tenant access safely.
 ### Authentication Protocols
 
 #### CICD (6)
@@ -2344,7 +2344,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 #### Governance (4)
 
-  - **(2022)** [cynet.com: Incident Report Plan (IRP)](https://www.cynet.com/incident-response/incident-response-plan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level corporate blueprint detailing the organizational and technical frameworks required to execute incident response when cloud assets or orchestrators are compromised. It highlights structured phases such as identification, containment, eradication, and post-incident forensic analysis. This framework underpins compliance and disaster readiness for mission-critical cloud-native enterprises.
+  - **(2022)** [cynet.com: Incident Report Plan (IRP)](https://www.cynet.com/incident-response/incident-response-plan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A high-level corporate blueprint detailing the organizational and technical frameworks required to execute incident response when cloud assets or orchestrators are compromised. It highlights structured phases such as identification, containment, eradication, and post-incident forensic analysis. This framework underpins compliance and disaster readiness for mission-critical cloud-native enterprises.
 #### Runbooks
 
   - **(2021)** [kubermatic.com: A Framework for Kubernetes Incident Response](https://www.kubermatic.com/blog/a-framework-for-kubernetes-incident-response) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A domain-specific incident response framework engineered specifically for Kubernetes environments, detailing remediation strategies for cluster-level compromises. It bridges security compliance and site reliability engineering (SRE) practices, explaining how to handle rogue containers, privilege escalations, and API server breaches. It offers hands-on guidance for isolating pods, preserving forensic evidence, and auditing Kube-apiserver logs.
@@ -2600,5 +2600,5 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Linux](./linux.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [Azure](./azure.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

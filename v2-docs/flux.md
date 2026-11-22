@@ -55,7 +55,7 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
 
 #### Flux Integration
 
-  - **(2022)** [dirien/pulumi-civo-flux-bucket](https://github.com/dirien/pulumi-civo-flux-bucket) <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a practical blueprint for bootstrapping a Civo Kubernetes cluster utilizing Pulumi for resource provision and establishing Flux GitOps configuration using Object Storage (S3-compatible buckets) as the source of truth. Live Grounding reveals that utilizing object storage instead of git repositories offers lower latency and bypassing Git API rate limits, serving as a highly specialized but viable alternative in modern multi-cloud pipelines.
+  - **(2022)** [dirien/pulumi-civo-flux-bucket](https://github.com/dirien/pulumi-civo-flux-bucket) <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Provides a practical blueprint for bootstrapping a Civo Kubernetes cluster utilizing Pulumi for resource provision and establishing Flux GitOps configuration using Object Storage (S3-compatible buckets) as the source of truth. Live Grounding reveals that utilizing object storage instead of git repositories offers lower latency and bypassing Git API rate limits, serving as a highly specialized but viable alternative in modern multi-cloud pipelines.
 ### Terraform
 
 #### Gitops (2)
@@ -105,5 +105,5 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
 ---
 💡 **Explore Related:** [CI/CD](./cicd.md) | [GitOps](./gitops.md) | [Argo](./argo.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [AWS New Features](./aws-newfeatures.md)
 

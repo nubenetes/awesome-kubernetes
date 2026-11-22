@@ -37,7 +37,7 @@ description: "Top CI/CD resources for 2026, AI-ranked: Azure DevOps MCP Server, 
 
 #### Developer Experience
 
-  - **(2025)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Kiro is a testing and engineering framework designed to bring traditional software discipline—such as regression testing, linting, and sandbox executing—to LLM agents and multi-agent workflows. It establishes strict validation steps to ensure agent behaviors remain deterministic, secure, and aligned with standard corporate software engineering guidelines.
+  - **(2025)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Kiro is a testing and engineering framework designed to bring traditional software discipline—such as regression testing, linting, and sandbox executing—to LLM agents and multi-agent workflows. It establishes strict validation steps to ensure agent behaviors remain deterministic, secure, and aligned with standard corporate software engineering guidelines.
 ## Architecture
 
 ### Patterns
@@ -324,7 +324,7 @@ description: "Top CI/CD resources for 2026, AI-ranked: Azure DevOps MCP Server, 
 
 #### Gitops (1)
 
-  - **(2023)** [thenewstack.io: Embracing Database Deployments in CI/CD Practices with Git](https://thenewstack.io/embracing-database-deployments-in-ci-cd-practices-with-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how to incorporate database changes into GitOps pipelines. Focuses on integrating declarative schema tools like Liquibase and Flyway to execute database rollouts and rollbacks safely.
+  - **(2023)** [thenewstack.io: Embracing Database Deployments in CI/CD Practices with Git](https://thenewstack.io/embracing-database-deployments-in-ci-cd-practices-with-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Explores how to incorporate database changes into GitOps pipelines. Focuses on integrating declarative schema tools like Liquibase and Flyway to execute database rollouts and rollbacks safely.
 ### Event-driven Automation
 
 #### Stackstorm
@@ -448,7 +448,7 @@ description: "Top CI/CD resources for 2026, AI-ranked: Azure DevOps MCP Server, 
 
 #### Git Best Practices
 
-  - **(2018)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical essay discussing optimal commit message hygiene and atomic commits. Argues that purposeful, structured histories are critical for tracking down regression roots and ensuring easy codebase traversability.
+  - **(2018)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A technical essay discussing optimal commit message hygiene and atomic commits. Argues that purposeful, structured histories are critical for tracking down regression roots and ensuring easy codebase traversability.
 #### Trunk-based Development
 
   - **(2022)** [thinkinglabs.io: Feature Branching considered evil 🌟](https://thinkinglabs.io/talks/feature-branching-considered-evil.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical critique of long-lived feature branching practices, advocating strongly for trunk-based development. Explains how delayed merges impede true continuous integration and degrade delivery velocities.

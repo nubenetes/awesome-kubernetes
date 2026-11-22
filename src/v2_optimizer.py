@@ -27,6 +27,7 @@ from src.inventory_manager import update_inventory_entry
 from src.awesome_page import build_awesome_lists_header
 from src.enrichment import compute_momentum_score
 from src.fast_enrich import get_readable_category, is_boilerplate_summary
+from src.eu_sovereign_blueprints import EU_SOVEREIGN_BLUEPRINTS
 
 
 def nuclear_strip(text: str) -> str:
@@ -131,6 +132,7 @@ class V2VisionEngine:
             "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
             "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "devsecops", "kustomize", "liquibase"],
             "Cloud Providers (Hyperscalers)": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "edge-computing", "aws-security", "aws-networking", "aws-storage", "aws-iac", "aws-serverless", "aws-backup", "aws-newfeatures"],
+            "European Sovereign Cloud & Private DCs": ["eu-sovereign-cloud", "eu-cloud-spain", "eu-cloud-france-germany", "eu-cloud-italy-uk-nordics", "eu-cloud-iac-maturity", "eu-cloud-workloads-stack", "eu-cloud-resilience-sla"],
             "Networking & Service Mesh": ["networking", "kubernetes-networking", "servicemesh", "istio", "caching", "web-servers", "cloudflare"],
             "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp5", "ocp4", "ocp3", "noops"],
             "Data & Advanced Analytics": ["databases", "nosql", "message-queue", "crunchydata", "yaml", "bigdata"],
@@ -184,6 +186,7 @@ class V2VisionEngine:
                 ("aws", "AWS"),
                 ("GoogleCloudPlatform", "Google Cloud"),
                 ("openshift", "Red Hat OpenShift"),
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Alternatives"),
             ],
             "aws": [
                 ("aws-serverless", "Serverless"),
@@ -193,12 +196,14 @@ class V2VisionEngine:
                 ("aws-iac", "IaC"),
                 ("aws-backup", "Backup"),
                 ("aws-newfeatures", "New Features"),
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Alternatives"),
             ],
             # Kubernetes is well-classified (rich parent + substantial distinct
             # children), so nothing is merged here — the hub is purely an index
             # so the flagship landing surfaces its deep-dive topic pages.
             "kubernetes": [
                 ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Alternatives"),
                 ("kubernetes-tools", "Tools"),
                 ("kubernetes-networking", "Networking"),
                 ("kubernetes-security", "Security"),
@@ -259,6 +264,65 @@ class V2VisionEngine:
                 ("openshift-pipelines", "OpenShift Pipelines"),
                 ("enterprise-ai-platforms", "OpenShift AI (RHOAI)"),
                 ("ai-agents-mcp", "AI Agents & MCP"),
+            ],
+            "eu-sovereign-cloud": [
+                ("eu-cloud-spain", "Spain Sovereign Cloud & Private DCs"),
+                ("eu-cloud-france-germany", "France & Germany Cloud Champions"),
+                ("eu-cloud-italy-uk-nordics", "Italy, UK, Nordics & Benelux"),
+                ("eu-cloud-iac-maturity", "IaC Automation & Maturity vs Hyperscalers"),
+                ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & Sovereign AI"),
+                ("eu-cloud-resilience-sla", "RPO, RTO, SLAs, DRP & Replication"),
+                ("public-cloud-solutions", "Public Cloud Comparisons"),
+            ],
+            "eu-cloud-spain": [
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+                ("eu-cloud-france-germany", "France & Germany Cloud Champions"),
+                ("eu-cloud-italy-uk-nordics", "Italy, UK, Nordics & Benelux"),
+                ("eu-cloud-iac-maturity", "IaC Automation & Maturity"),
+                ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & AI"),
+                ("eu-cloud-resilience-sla", "RPO, RTO, SLAs & DRP"),
+                ("aws-spain", "AWS Spain"),
+            ],
+            "eu-cloud-france-germany": [
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+                ("eu-cloud-spain", "Spain Sovereign Cloud & Private DCs"),
+                ("eu-cloud-italy-uk-nordics", "Italy, UK, Nordics & Benelux"),
+                ("eu-cloud-iac-maturity", "IaC Automation & Maturity"),
+                ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & AI"),
+                ("eu-cloud-resilience-sla", "RPO, RTO, SLAs & DRP"),
+            ],
+            "eu-cloud-italy-uk-nordics": [
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+                ("eu-cloud-spain", "Spain Sovereign Cloud & Private DCs"),
+                ("eu-cloud-france-germany", "France & Germany Cloud Champions"),
+                ("eu-cloud-iac-maturity", "IaC Automation & Maturity"),
+                ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & AI"),
+                ("eu-cloud-resilience-sla", "RPO, RTO, SLAs & DRP"),
+            ],
+            "eu-cloud-iac-maturity": [
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+                ("eu-cloud-spain", "Spain Sovereign Cloud & Private DCs"),
+                ("eu-cloud-france-germany", "France & Germany Cloud Champions"),
+                ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & AI"),
+                ("terraform", "Terraform & OpenTofu"),
+                ("crossplane", "Crossplane"),
+            ],
+            "eu-cloud-workloads-stack": [
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+                ("eu-cloud-spain", "Spain Sovereign Cloud & Private DCs"),
+                ("eu-cloud-france-germany", "France & Germany Cloud Champions"),
+                ("eu-cloud-iac-maturity", "IaC Automation & Maturity"),
+                ("eu-cloud-resilience-sla", "RPO, RTO, SLAs & DRP"),
+                ("kubernetes-on-premise", "Kubernetes On-Premise"),
+                ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+            ],
+            "eu-cloud-resilience-sla": [
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+                ("eu-cloud-spain", "Spain Sovereign Cloud & Private DCs"),
+                ("eu-cloud-france-germany", "France & Germany Cloud Champions"),
+                ("eu-cloud-iac-maturity", "IaC Automation & Maturity"),
+                ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & AI"),
+                ("kubernetes-backup-migrations", "Kubernetes Backup & Migrations"),
             ],
         }
         
@@ -990,6 +1054,19 @@ class V2VisionEngine:
             tags.add("[CLOUD-AI]")
         if any(k in combined_text for k in ("ebpf", "cilium", "tetragon", "falco")):
             tags.add("[EBPF]")
+        if any(k in combined_text for k in (
+            "sovereign cloud", "sovereign-cloud", "secnumcloud", "ens alto", "bsi c5",
+            "dora", "eu data act", "gaia-x", "sovereigncloudstack", "ovhcloud",
+            "scaleway", "hetzner", "stackit", "ionos", "arsys", "gigas", "alhambrait",
+            "stackscale", "telefonicatech", "exoscale", "upcloud", "arubacloud",
+            "seeweb", "cleura", "elastx", "nebius", "outscale", "civo", "eu-cloud-",
+            "eu-sovereign-cloud",
+        )):
+            tags.add("[SOVEREIGN-EU]")
+        if any(k in combined_text for k in ("proxmox", "hypervisor", "cloudstack", "harvester", "nutanix", "kubevirt", "openstack")):
+            tags.add("[HYPERVISOR]")
+        if any(k in combined_text for k in ("rpo", "rto", "draas", "zerto", "veeam", "cloudnativepg", "velero", "object lock")):
+            tags.add("[DRP-RESILIENCE]")
 
         # 4. Fallback: Only use [COMMUNITY-TOOL] if no other maturity tag is present
         maturity_tags = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[LEGACY]"}
@@ -1360,7 +1437,8 @@ class V2VisionEngine:
             "Security & Compliance", "Infrastructure as Code", "CI/CD & GitOps",
             "Observability, SRE & Testing", "DevOps & Culture", "Platform Engineering & DevEx",
             "FinOps & Cloud Cost", "Certification & Training",
-            "AWS", "Azure", "GCP, OCI & Others", "OpenShift / Red Hat", "Virtualization & Private Cloud"
+            "AWS", "Azure", "GCP, OCI & Others", "European Sovereign Cloud",
+            "OpenShift / Red Hat", "Virtualization & Private Cloud"
         ]
         geo_cats = ["Americas", "Europe", "Spain", "Asia-Pacific"]
         period_labels = {"3_months": "Last 3 Months", "6_months": "Last 6 Months", "12_months": "Last 12 Months"}
@@ -1775,6 +1853,13 @@ class V2VisionEngine:
             "      <div class=\"hero-badge-icon\">☁️</div>\n"
             "      <div class=\"hero-badge-title\">Enterprise AI</div>\n"
             "      <div class=\"hero-badge-subtitle\">Foundry · Bedrock · Vertex</div>\n"
+            "    </div>\n"
+            "  </a>\n"
+            "  <a href=\"/eu-sovereign-cloud/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
+            "    <div class=\"hero-badge-card hero-badge-card--indigo\">\n"
+            "      <div class=\"hero-badge-icon\">🇪🇺</div>\n"
+            "      <div class=\"hero-badge-title\">EU Sovereign Cloud</div>\n"
+            "      <div class=\"hero-badge-subtitle\">Spain · EU · IaC &amp; TCO</div>\n"
             "    </div>\n"
             "  </a>\n"
             "  <a href=\"/ai-agents-mcp/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
@@ -2515,6 +2600,11 @@ class V2VisionEngine:
                 _body = f"## Executive Summary and Strategic Blueprint\n{enterprise_blueprint}\n\n" + _body
                 assert "The 2026 Architectural Shift: Public Cloud AI Platforms vs DIY Kubernetes" in _body, "Safety assertion failed: Enterprise AI Platforms blueprint injection was skipped!"
 
+            if f_name in EU_SOVEREIGN_BLUEPRINTS:
+                _eu_bp = EU_SOVEREIGN_BLUEPRINTS[f_name].lstrip()
+                _body = f"{_eu_bp}\n\n" + _body
+                assert _eu_bp.splitlines()[0] in _body, f"Safety assertion failed: EU Sovereign blueprint injection skipped for {f_name}!"
+
 
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid
             # of its categories (auto-derived from the rendered H2 sections).
@@ -2638,7 +2728,11 @@ class V2VisionEngine:
         # collisions where C / C# / C++ all slugged to "c-content" (broken links).
         def _tag_display(tag):
             d = tag.replace("[", "").replace("]", "").replace("&", "and").title()
-            if d.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS", "GPU", "LLM", "K8S", "CLOUD-AI"]:
+            if d.upper() in [
+                "EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB",
+                "MLOPS", "GPU", "LLM", "K8S", "CLOUD-AI", "SOVEREIGN-EU",
+                "HYPERVISOR", "DRP-RESILIENCE",
+            ]:
                 d = d.upper()
             return d
 
