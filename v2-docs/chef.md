@@ -21,7 +21,7 @@ description: "Curated, AI-ranked Chef resources for the 2026 Cloud Native archit
   - **(2024)** [learn.chef.io](https://www.chef.io/training/tutorials) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official learning platform for Chef. Features deep-dive, code-driven tutorials explaining how to programmatically manage enterprise nodes and infrastructure configurations across hybrid cloud environments.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

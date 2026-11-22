@@ -82,15 +82,15 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
 
 #### Haproxy Administration
 
-  - **(2020)** [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive hands-on tutorial detailing the implementation of high-availability load balancing using HAProxy. It guides administrators through configuring active-passive failover and traffic scheduling algorithms, serving as an operational reference for classical infrastructure paradigms.
   - **(2020)** [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A targeted administrative blueprint for deploying HAProxy as a frontend load balancer to manage multiple backend Nginx web server nodes. While CentOS 8 has transitioned to stream variants, the underlying architecture pattern for proxy pass and upstream failover remains structurally sound and highly applicable.
+  - **(2020)** [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive hands-on tutorial detailing the implementation of high-availability load balancing using HAProxy. It guides administrators through configuring active-passive failover and traffic scheduling algorithms, serving as an operational reference for classical infrastructure paradigms.
 #### Nginx Playground
 
   - **(2021)** [jvns.ca: New tool: an nginx playground](https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground)  <span class='md-tag md-tag--warning'>[EMERGING]</span> — An interactive configuration testing platform designed to simplify complex Nginx rulesets. While the curator positions this as an experimental learning aid, live evaluation shows it has become an indispensable debugging tool for platform engineers needing to validate route maps, regex rewrites, and upstream headers safely outside production environments.
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

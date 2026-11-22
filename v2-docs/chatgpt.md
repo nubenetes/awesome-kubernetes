@@ -45,13 +45,13 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
   - **(2026)** [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Testing ads in ChatGPT covering ChatGPT Ads in ChatGPT (openai.com).
 ## Chatgpt Enterprise
 
-  - **(2026)** [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for New usage analytics and updated spend controls for enterprises covering ChatGPT Enterprise in ChatGPT (openai.com).
-  - **(2026)** [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ChatGPT is now a partner for your most ambitious work covering ChatGPT Enterprise in ChatGPT (openai.com).
   - **(2026)** [Australian Payments Plus moves faster with ChatGPT and Codex](https://openai.com/index/australian-payments-plus) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Australian Payments Plus moves faster with ChatGPT and Codex covering ChatGPT Enterprise in ChatGPT (openai.com).
+  - **(2026)** [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ChatGPT is now a partner for your most ambitious work covering ChatGPT Enterprise in ChatGPT (openai.com).
+  - **(2026)** [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for New usage analytics and updated spend controls for enterprises covering ChatGPT Enterprise in ChatGPT (openai.com).
 ## Chatgpt In Healthcare
 
-  - **(2026)** [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Improving health intelligence in ChatGPT covering ChatGPT in Healthcare in ChatGPT (openai.com).
   - **(2026)** [Healthcare organizations can now connect EHR and additional industry data to ChatGPT](https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Healthcare organizations can now connect EHR and additional industry data to ChatGPT covering ChatGPT in Healthcare in ChatGPT (openai.com).
+  - **(2026)** [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Improving health intelligence in ChatGPT covering ChatGPT in Healthcare in ChatGPT (openai.com).
 ## Chatgpt In Sales
 
   - **(2026)** [Sales workflows with ChatGPT Work](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Sales workflows with ChatGPT Work covering ChatGPT in Sales in ChatGPT (openai.com).
@@ -157,7 +157,7 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
   - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65?gi=79a3a79d2753) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free! covering Tools in ChatGPT (itnext.io).
 
 ---
-💡 **Explore Related:** [AI RAG OKF](./ai-rag-okf.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [API](./api.md) | [AWS Newfeatures](./aws-newfeatures.md)
 

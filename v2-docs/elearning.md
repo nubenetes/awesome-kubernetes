@@ -1,5 +1,5 @@
 ---
-description: "Top Elearning resources for 2026, AI-ranked: codely.tv, Whizlabs and more — curated Cloud Native tools, guides and references."
+description: "Top Elearning resources for 2026, AI-ranked: codely.tv, kube.academy and more — curated Cloud Native tools, guides and references."
 ---
 # E-learning
 
@@ -63,8 +63,8 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
   - **(2024)** [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's structured technical course on ML foundations. Covers gradient descent, model loss, deep neural networks, and scalable tensor processing, serving as an entry point for engineers integrating ML systems into modern APIs.
 ## List
 
-  - [Udacity.com](https://www.udacity.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Udacity.com covering List in Elearning (udacity.com).
   - [GCF LearnFree.org](https://www.learnfree.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GCF LearnFree.org covering List in Elearning (learnfree.org).
+  - [Udacity.com](https://www.udacity.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Udacity.com covering List in Elearning (udacity.com).
   - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com covering List in Elearning (guru99.com).
   - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for harvard.edu: CS50: Introduction to Computer Science (free) covering List in Elearning (pll.harvard.edu).
 ## Operating Systems and Infrastructure
@@ -173,7 +173,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
   - **(2026)** [==codely.tv==](https://codely.com/en) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production architectures.
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [Newsfeeds](./newsfeeds.md) | [Interview Questions](./interview-questions.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Finops](./finops.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
 

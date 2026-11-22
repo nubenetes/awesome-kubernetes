@@ -141,8 +141,8 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2022)** [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of nineteen core GitHub repositories offering essential templates, API collections, and documentation guidelines to bootstrap professional developers.
 #### Resources
 
-  - **(2022)** [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines top interactive websites and platforms for software developers to hone programming logic, learn syntax, and prepare for architectural coding interviews.
   - **(2022)** [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines fifteen specialized software developer tools, covering shell customization utilities, automated search engines, linting systems, and IDE extensions engineered to maximize coding velocity.
+  - **(2022)** [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines top interactive websites and platforms for software developers to hone programming logic, learn syntax, and prepare for architectural coding interviews.
   - **(2021)** [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights ten essential GitHub repositories containing computer science guidelines, system architecture patterns, and algorithmic exercises critical for platform and backend software engineering.
 ### Education
 
@@ -183,7 +183,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Postman](./postman.md) | [Maven Gradle](./maven-gradle.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
 

@@ -61,8 +61,8 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, AKS Labs -
   - **(2022)** [istio.io: Introducing Ambient Mesh](https://istio.io/latest/blog/2022/introducing-ambient-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Istio Ambient Mesh, an innovative sidecar-less service mesh architecture. Splits proxy responsibilities into a node-level shared zero-trust secure overlay (ztunnel) and optional Layer 7 waypoint proxies to reduce resource utilization.
 #### Fundamentals
 
-  - **(2021)** [thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟](https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep discussion outlining why standard Kubernetes routing resources fall short of handling sophisticated application-level routing. Demonstrates how Istio implements intelligent weight-based splitting, distributed tracing, and zero-trust policies out of the box.
   - **(2021)** [thenewstack.io: What Is Istio and Why Does Kubernetes Need it? 🌟](https://thenewstack.io/what-is-istio-and-why-does-kubernetes-need-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory overview focusing on how Istio decouples communication concerns from business logic. Explains the operational benefits of shifting circuit breaking, telemetry collection, and dynamic routing into Envoy proxies.
+  - **(2021)** [thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟](https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep discussion outlining why standard Kubernetes routing resources fall short of handling sophisticated application-level routing. Demonstrates how Istio implements intelligent weight-based splitting, distributed tracing, and zero-trust policies out of the box.
   - **(2021)** [youtube: Istio & Service Mesh - simply explained in 15 mins 🌟](https://www.youtube.com/watch?v=16fgzklcF7Y&ab_channel=TechWorldwithNana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured visual video tutorial explaining Istio's control plane (Istiod) and sidecar proxy data plane architecture. Delivers a high-level explanation of routing, security policies, and distributed telemetry collection within fifteen minutes.
 #### Grpc
 
@@ -99,8 +99,8 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, AKS Labs -
   - **(2020)** [learncloudnative.com: Attach multiple VirtualServices to Istio Gateway](https://learncloudnative.com/blog/2020-11-23-multiple-vs-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical configuration guide for mapping multiple VirtualService configurations to a single Istio Ingress Gateway. Outlines how host-matching strategies prevent routing conflicts, allowing multiple development teams to deploy independent routes securely.
 #### Tutorials
 
-  - **(2022)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive implementation roadmap designed to guide engineering teams through the planning, deployment, and optimization stages of building an enterprise-grade Istio platform from the ground up.
   - **(2022)** [freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices 🌟](https://www.freecodecamp.org/news/learn-istio-manage-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured, end-to-end tutorial designed to teach engineers how to deploy, monitor, and secure microservices using Istio. Covers key topics including canary releases, distributed tracing integration, and mutual TLS configuration.
+  - **(2022)** [Implementing Istio From Start To Finish](https://www.cloudnativedeepdive.com/implementing-istio-from-start-to-finish)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive implementation roadmap designed to guide engineering teams through the planning, deployment, and optimization stages of building an enterprise-grade Istio platform from the ground up.
 ## Container Orchestration
 
 ### AKS Labs
@@ -233,5 +233,5 @@ description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, AKS Labs -
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

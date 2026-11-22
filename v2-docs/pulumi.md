@@ -11,8 +11,8 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 
 ## General Reference
 
-  - [pulumi.com: Running Containers on ECS Fargate](https://www.pulumi.com/dev/examples/aws-ts-hello-fargate) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for pulumi.com: Running Containers on ECS Fargate in the Pulumi ecosystem (pulumi.com).
   - [pulumi.com: Convert Your Terraform to Pulumi](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-terraform) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for pulumi.com: Convert Your Terraform to Pulumi in the Pulumi ecosystem (pulumi.com).
+  - [pulumi.com: Running Containers on ECS Fargate](https://www.pulumi.com/dev/examples/aws-ts-hello-fargate) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for pulumi.com: Running Containers on ECS Fargate in the Pulumi ecosystem (pulumi.com).
 ## Infrastructure As Code
 
 ### API Integration
@@ -74,7 +74,7 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
   - **(2021)** [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed insight into the launch of the Pulumi Registry, a public marketplace supporting modular package sharing and reusability of multi-cloud components across diverse language boundaries.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Crossplane](./crossplane.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

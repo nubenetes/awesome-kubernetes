@@ -123,8 +123,8 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
 
 #### Landing Zones
 
-  - **(2026)** [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central knowledge base for Azure Landing Zones (ALZ) design principles and implementations. This portal provides guidance on identity management, network topology, subscription organization, and proactive governance policies. It acts as the key blueprint for deploying scalable multi-subscription cloud platform architectures.
   - **(2026)** [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural principles of Azure Landing Zones under the Microsoft CAF. It emphasizes separation of concerns across management, connectivity, and identity planes, while using custom policy assignments for automated control. This guidance helps platform teams establish a robust foundation for onboarding application workloads.
+  - **(2026)** [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central knowledge base for Azure Landing Zones (ALZ) design principles and implementations. This portal provides guidance on identity management, network topology, subscription organization, and proactive governance policies. It acts as the key blueprint for deploying scalable multi-subscription cloud platform architectures.
 ## Cloud Infrastructure
 
 ### Azure Networking
@@ -180,7 +180,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12?gi=bf216eb2967e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learningdaily.dev: Software architecture diagramming and patterns covering Introduction in Cloud Arch Diagrams (learningdaily.dev).
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
 

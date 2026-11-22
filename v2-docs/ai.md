@@ -1,5 +1,5 @@
 ---
-description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claude Code Best Practice and more — curated Cloud Native tools, guides and references."
+description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 
@@ -106,9 +106,9 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
   - **(2023)** [==github.com/mlabonne/llm-course==](https://github.com/mlabonne/llm-course) <span class='md-tag md-tag--info'>⭐ 80120</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dc69b86c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 3 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-dc69b86c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Maxime Labonne's stellar curriculum for mastering Large Language Model engineering. Curator Insight and Live Grounding confirm its value, providing code-driven notebooks covering quantization (bitsandbytes, AWQ, GGUF), LoRA fine-tuning, direct preference optimization (DPO), and advanced retrieval-augmented generation (RAG) paradigms.
 #### Transformer Architecture
 
-  - **(2023)** [aman.ai: Transformers](https://aman.ai/primers/ai/transformers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elegant architectural blueprint dissecting the mathematical design of the Attention is All You Need transformer model. It provides clear examinations of multi-head attention blocks, residual connections, feed-forward sublayers, and positional embeddings. Reading this is necessary for developers seeking to optimize model inference latency.
   - **(2023)** [aman.ai: Primers • Bidirectional Encoder Representations from Transformers (BERT)](https://aman.ai/primers/ai/bert) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dissects BERT (Bidirectional Encoder Representations from Transformers), detailing its bidirectional training paradigm via Masked Language Modeling (MLM). By processing left and right contexts simultaneously, BERT excels at semantic search, sentence classification, and named entity recognition. This guide is ideal for engineers deploying advanced information extraction models.
   - **(2023)** [aman.ai: Primers • Generative Pre-trained Transformer (GPT)](https://aman.ai/primers/ai/gpt) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical overview of the Generative Pre-trained Transformer (GPT) lineage, explaining decoder-only autoregressive pre-training. It highlights how next-token prediction and casual masking techniques scale predictably over billions of parameters. This documentation helps platform engineers understand parameter scaling trends and memory requirements.
+  - **(2023)** [aman.ai: Transformers](https://aman.ai/primers/ai/transformers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elegant architectural blueprint dissecting the mathematical design of the Attention is All You Need transformer model. It provides clear examinations of multi-head attention blocks, residual connections, feed-forward sublayers, and positional embeddings. Reading this is necessary for developers seeking to optimize model inference latency.
 ### Llmops and MLOps
 
 #### Curated Ecosystems
@@ -181,8 +181,8 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
 
 #### Kubernetes Troubleshooting (1)
 
-  - **(2023)** [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — An innovative, community-driven tool that integrates LLMs directly with Kubernetes diagnostic commands. By parsing cluster states, configuration anomalies, and system logs, k8sgpt provides clear explanations and automated remediation commands. It is a premier tool in the shift towards AI-powered autonomous operations (AIOps).
   - **(2023)** [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on the Kubectl OpenAI plugin, showing how natural language commands can be compiled directly into active Kubernetes cluster API calls. It simplifies YAML definition generation and debugging workflows, lowering barrier-to-entry. A great case study in operations-focused developer tooling.
+  - **(2023)** [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — An innovative, community-driven tool that integrates LLMs directly with Kubernetes diagnostic commands. By parsing cluster states, configuration anomalies, and system logs, k8sgpt provides clear explanations and automated remediation commands. It is a premier tool in the shift towards AI-powered autonomous operations (AIOps).
 ### Infrastructure As Code (1)
 
 #### Ai-assisted IaC
@@ -329,8 +329,8 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
   - [guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟](https://www.guru99.com/ai-tutorial.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟 covering Introduction in AI (guru99.com).
 ## Kubernetes
 
-  - **(2026)** [Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks](https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks covering Kubernetes in AI (aws.amazon.com).
   - **(2026)** [AWS Elastic Beanstalk introduces Cluster Mode](https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Elastic Beanstalk introduces Cluster Mode covering Kubernetes in AI (aws.amazon.com).
+  - **(2026)** [Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks](https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks covering Kubernetes in AI (aws.amazon.com).
 ## Kubernetes and Platform Engineering
 
 ### Platform Engineering Trends
@@ -398,7 +398,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
   - **(2026)** [Amazon ECS introduces new high-resolution metrics for faster service auto scaling](https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon ECS introduces new high-resolution metrics for faster service auto scaling covering Videos in AI (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [AI RAG OKF](./ai-rag-okf.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [Azure](./azure.md)
 

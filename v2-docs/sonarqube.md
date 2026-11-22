@@ -11,10 +11,10 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
 
 ## Analyzing Code With Sonarqube
 
-  - [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: How to quickly get started with Sonar covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
-  - [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Sonarqube scanning in 15 minutes covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
-  - [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Quick start with sonarqube for static code analysis covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
   - [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
+  - [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: How to quickly get started with Sonar covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
+  - [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Quick start with sonarqube for static code analysis covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
+  - [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Sonarqube scanning in 15 minutes covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
 ## Continuous Integration
 
 ### Code Quality
@@ -29,8 +29,8 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
   - **(2022)** [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough showing how to stand up SonarQube in a localized Minikube setting. Explains storage class mappings, persistent volume bindings, and port-forwarding constraints.
 #### Static Analysis Platforms
 
-  - **(2026)** [==Sonarqube.org==](https://www.sonarsource.com/products/sonarqube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Industry-standard platform for automated static code analysis, structural design checks, and bug detection. Integrates directly into modern CI pipelines to enforce automated quality gates and track technical debt.
   - **(2026)** [==SonarQube Scanner Overview==](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/overview) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official architectural overview of SonarQube scanning tooling. Details execution mechanics with Gradle, MSBuild, Maven, Jenkins, Azure DevOps, and generic bash runner scripts.
+  - **(2026)** [==Sonarqube.org==](https://www.sonarsource.com/products/sonarqube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Industry-standard platform for automated static code analysis, structural design checks, and bug detection. Integrates directly into modern CI pipelines to enforce automated quality gates and track technical debt.
 #### Vulnerability Assessment
 
   - **(2022)** [**thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube**](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Teaches developers how to interpret SonarQube dashboards to discover common security vulnerabilities and code smells. Demonstrates optimization rules and quality profiles adjustment methods.
@@ -45,7 +45,7 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
   - **(2026)** [Ant - SonarScanner for Ant](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/scanner-environment/general-requirements) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Ant - SonarScanner for Ant: Curated technical resource in Sonarqube.
 
 ---
-💡 **Explore Related:** [Argo](./argo.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Argo](./argo.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
 

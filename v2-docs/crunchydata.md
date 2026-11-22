@@ -171,8 +171,8 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
   - **(2020)** [info.crunchydata.com: Guard Against Transaction Loss with PostgreSQL Synchronous Replication](https://www.crunchydata.com/blog/synchronous-replication-in-the-postgresql-operator-for-kubernetes-guarding-against-transactions-loss) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the technical trade-offs between asynchronous and synchronous replication profiles within PostgreSQL Kubernetes topologies. Analyzes WAL-level security limits, failover delays, and trade-offs regarding transaction write throughput.
 #### Database Administration (1)
 
-  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
   - **(2020)** [info.crunchydata.com: Deploy pgAdmin4 with PostgreSQL on Kubernetes](https://www.crunchydata.com/blog/deploy-pgadmin4-with-postgresql-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides the deployment of pgAdmin4 web client panels alongside database clusters inside Kubernetes. Reviews network ingress definitions, volume mounts, and credential injection mechanics.
+  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
 #### Developer Tutorials
 
   - **(2026)** [learn.crunchydata.com 🌟](https://www.crunchydata.com/developers/tutorials) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive educational portal offering structured developer exercises focused on core database engineering. Includes tasks on indexing optimizations, raw performance telemetry, and complex JSON data orchestration strategies in PostgreSQL.
@@ -219,7 +219,7 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
   - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ref3 covering Security Context Constraints in Openshift (dzone.com).
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Yaml](./yaml.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

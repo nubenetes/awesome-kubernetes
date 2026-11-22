@@ -23,11 +23,11 @@ description: "Curated, AI-ranked Dom resources for the 2026 Cloud Native archite
 #### Javascript (1)
 
   - **(2026)** [digitalocean.com: Understanding the DOM — Document Object Model eBook](https://www.digitalocean.com/community/books/understanding-the-dom-document-object-model-ebook) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive pedagogical resource exploring the Document Object Model (DOM) as a programming interface. It introduces how modern browsers parse HTML into tree-like object models and details programmatic mutation approaches using native JavaScript APIs.
-  - **(2026)** [freecodecamp.org: JavaScript DOM Tutorial – How to Build a Calculator App' in JS](https://www.freecodecamp.org/news/javascript-dom-build-a-calculator-app) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical, task-oriented tutorial on DOM manipulation designed for front-end engineers. It walks through building an interactive UI component from scratch, emphasizing dynamic node creation, event handling, and performant state updates in native JavaScript.
   - **(2026)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM' Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide breaking down DOM traversal and event propagation mechanics (bubbling and capturing). Essential for intermediate UI engineering, it covers the structural boundaries of web browsers and highlights optimization patterns for interface updates.
+  - **(2026)** [freecodecamp.org: JavaScript DOM Tutorial – How to Build a Calculator App' in JS](https://www.freecodecamp.org/news/javascript-dom-build-a-calculator-app) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical, task-oriented tutorial on DOM manipulation designed for front-end engineers. It walks through building an interactive UI component from scratch, emphasizing dynamic node creation, event handling, and performant state updates in native JavaScript.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

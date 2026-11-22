@@ -41,7 +41,7 @@ description: "Curated, AI-ranked Oraclecloud resources for the 2026 Cloud Native
   - **(2023)** [Oracle Container Engine for Kubernetes (OKE)](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official product documentation for Oracle Container Engine for Kubernetes (OKE). It highlights the architectural integration of managed master nodes, native storage arrays, virtual cloud networks, and IAM profiles, delivering an enterprise-ready environment for demanding production workloads.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
 

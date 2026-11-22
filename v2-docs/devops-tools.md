@@ -1,5 +1,5 @@
 ---
-description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, Claude Code Templates and more — curated Cloud Native tools, guides and references."
+description: "Top DevOps Tools resources for 2026, AI-ranked: ASDF, Awesome Sysadmin and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Tools aka Toolchain
 
@@ -82,10 +82,10 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, 
 
 #### Tooling Landscape
 
-  - **(2021)** [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A broad consumer-to-enterprise level evaluation of high-availability DevOps tools, assessing overall usability, native API integration vectors, and performance metrics. Provides structural insights into cost-to-benefit ratios for enterprise platforms.
   - **(2021)** [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive breakdown of top DevOps systems spanning monitoring, CI/CD, IaC, and security workflows in 2021. Highlights the shift toward DevSecOps patterns and native cloud integration across hybrid-cloud environments.
-  - **(2020)** [raygun.com: The 10 best DevOps tools for 2020](https://raygun.com/blog/best-devops-tools) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — A curated technical review of prominent DevOps tooling spanning application monitoring, CI/CD, and infrastructure-as-code (IaC). It contrasts traditional application performance monitoring (APM) approaches with modern observability patterns emerging in distributed cloud topologies.
+  - **(2021)** [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A broad consumer-to-enterprise level evaluation of high-availability DevOps tools, assessing overall usability, native API integration vectors, and performance metrics. Provides structural insights into cost-to-benefit ratios for enterprise platforms.
   - **(2020)** [hackr.io: Top 10 DevOps Tools To Look For in 2020](https://hackr.io/blog/top-devops-tools) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed comparative overview of early-2020s DevOps software suites, with focused coverage on Docker, Kubernetes, Ansible, and Jenkins. Analyzes entry barriers, architectural integration capabilities, and operational deployment overhead across diverse infrastructure styles.
+  - **(2020)** [raygun.com: The 10 best DevOps tools for 2020](https://raygun.com/blog/best-devops-tools) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — A curated technical review of prominent DevOps tooling spanning application monitoring, CI/CD, and infrastructure-as-code (IaC). It contrasts traditional application performance monitoring (APM) approaches with modern observability patterns emerging in distributed cloud topologies.
 ### Learning and Training Resources
 
 #### Video Guides
@@ -187,7 +187,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, 
   - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced patterns for orchestrating automated codebase modifications across distributed multi-repository environments using AI workspaces. Evaluates dependency resolution, unified context indexing, and coordinate git-commit strategies during systemic API breaking updates.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
 

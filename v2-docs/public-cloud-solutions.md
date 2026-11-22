@@ -1,5 +1,5 @@
 ---
-description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntocloud.guide, OpenShift in Azure and more — curated Cloud Native tools, guides and references."
+description: "Top Public Cloud Solutions resources for 2026, AI-ranked: AWS Kubernetes pricing, Azure Kubernetes pricing and more — curated Cloud Native tools, guides and."
 ---
 # Public Cloud Solutions
 
@@ -190,7 +190,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: learntoc
   - [Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟](https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟 covering Public Cloud Services Comparison in Public Cloud Solutions (dzone.com).
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

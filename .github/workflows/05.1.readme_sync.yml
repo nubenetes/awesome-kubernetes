@@ -10,6 +10,11 @@ on:
       - 'data/inventory.sql'
       - 'docs/**'
       - 'v2-docs/**'
+      - '.github/**'
+      - 'tests/**'
+      - 'CLAUDE.md'
+      - 'GEMINI.md'
+      - 'CHANGELOG.md'
   workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
 
 permissions:

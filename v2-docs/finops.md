@@ -11,11 +11,11 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
 
 ## Articles
 
-  - **(2026)** [What building an AI-native finance function taught me](https://openai.com/index/building-an-ai-native-finance-function) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for What building an AI-native finance function taught me covering Articles in Finops (openai.com).
   - **(2026)** [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for A scorecard for the AI age covering Articles in Finops (openai.com).
-  - **(2026)** [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to manage AI investments in the agentic era covering Articles in Finops (openai.com).
-  - **(2026)** [How to connect AI usage to business value](https://openai.com/index/how-to-connect-ai-usage-to-business-value) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to connect AI usage to business value covering Articles in Finops (openai.com).
   - **(2026)** [Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.](https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need. covering Articles in Finops (github.blog).
+  - **(2026)** [How to connect AI usage to business value](https://openai.com/index/how-to-connect-ai-usage-to-business-value) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to connect AI usage to business value covering Articles in Finops (openai.com).
+  - **(2026)** [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to manage AI investments in the agentic era covering Articles in Finops (openai.com).
+  - **(2026)** [What building an AI-native finance function taught me](https://openai.com/index/building-an-ai-native-finance-function) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for What building an AI-native finance function taught me covering Articles in Finops (openai.com).
 ## Artificial Intelligence
 
 ### AI Infrastructure
@@ -105,8 +105,8 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
 
 #### Data Transfer
 
-  - **(2023)** [==bitsand.cloud: Slashing Data Transfer Costs in AWS by 99%==](https://www.bitsand.cloud/posts/slashing-data-transfer-costs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Presents a technical architectural review showing how to reduce AWS data transfer fees by up to 99%. Recommends utilizing regional VPC endpoints, configuring node-local affinity within Kubernetes, and eliminating unnecessary cross-Availability Zone traffic to limit egress bills.
   - **(2023)** [==aws.amazon.com/blogs/architecture: Overview of Data Transfer Costs for Common Architectures==](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical AWS guide on standard network data transfer costs. Outlines the pricing models for NAT Gateways, transit gateways, VPC peering, and CloudFront egress, providing architectural blueprints for cost-efficient hybrid-cloud network topologies.
+  - **(2023)** [==bitsand.cloud: Slashing Data Transfer Costs in AWS by 99%==](https://www.bitsand.cloud/posts/slashing-data-transfer-costs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Presents a technical architectural review showing how to reduce AWS data transfer fees by up to 99%. Recommends utilizing regional VPC endpoints, configuring node-local affinity within Kubernetes, and eliminating unnecessary cross-Availability Zone traffic to limit egress bills.
 #### EKS Cost Reduction
 
   - **(2023)** [==dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters==](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides ten advanced tips to reduce Amazon EKS costs by up to 90%. Focuses on deploying the Karpenter autoscaler, using AWS Graviton instances, rightsizing pod resources, and setting up automated dev-environment shutdown policies.
@@ -225,7 +225,7 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9?gi=9d9ff792e945) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000 covering Kubernetes Cost Optimization in Finops (engineering.razorpay.com).
 
 ---
-💡 **Explore Related:** [Newsfeeds](./newsfeeds.md) | [Interview Questions](./interview-questions.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Freelancing](./freelancing.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 
