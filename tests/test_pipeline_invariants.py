@@ -175,13 +175,13 @@ class TestPipelineInvariants(unittest.TestCase):
         banner = m.group(1)
         for href in (
             "/eu-sovereign-cloud/",
-            "/eu-cloud-spain/",
             "/ocp5/",
             "/ai-rag-okf/",
             "/tech-digest/",
             "/videos/",
         ):
             self.assertIn(href, banner, f"Permanent link {href} missing from announce banner")
+        self.assertNotIn("/eu-cloud-spain/", banner)
 
     def test_v2_mermaid_blocks_have_bounded_line_lengths(self):
         for rel in ("v2-docs/eu-sovereign-cloud.md", "v2-docs/introduction.md"):
