@@ -1,5 +1,5 @@
 ---
-description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework, PowerShell and more — curated Cloud Native tools, guides and references."
+description: "Top Azure resources for 2026, AI-ranked: PowerShell, PowerShell Gallery and more — curated Cloud Native tools, guides and references."
 ---
 # Microsoft Azure
 
@@ -1715,7 +1715,7 @@ description: "Top Azure resources for 2026, AI-ranked: Microsoft Agent Framework
   - [DevOps Azure Pipelines: YAML Schema](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline?view=azure-pipelines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DevOps Azure Pipelines: YAML Schema covering YAML Schema in DevOps Azure Pipelines in Azure (learn.microsoft.com).
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [AWS Networking](./aws-networking.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [AWS Networking](./aws-networking.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

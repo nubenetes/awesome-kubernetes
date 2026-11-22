@@ -54,6 +54,9 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [**hms.harvard.edu: Does AI Help or Hurt Human Radiologists’ Performance? It Depends on the Doctor**](https://hms.harvard.edu/news/does-ai-help-or-hurt-human-radiologists-performance-depends-doctor) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the human-AI interface within radiology, detailing how AI assistance does not universally improve diagnostics but depends on the doctor's specific expertise and the system's operational design. This research underscores that AI tools should not be deployed as absolute diagnostic arbiters but as contextual assistants, highlighting the need for UI/UX integration that exposes model confidence and reasoning paths.
   - **(2024)** [cronicaglobal.elespanol.com: Roberto Ardon (Incepto): "A la IA no se le pueden pedir imposibles"](https://cronicaglobal.elespanol.com/vida/20240604/roberto-ardon-incepto-ia-pueden-pedir-imposibles/860164103_0.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Roberto Ardon, co-founder of Incepto Medical, framing the realistic capabilities and limitations of clinical AI deployment in European hospitals. Ardon discusses how AI should be engineered as a targeted productivity tool (e.g., reducing routine screening fatigue) rather than a replacement for human clinicians. It offers deep insights into market deployment, medical device certification, and data security hurdles.
   - **(2023)** [imperialbiosciencereview.wordpress.com: Redefining diagnostics: the integration of machine learning in medical imaging](https://imperialbiosciencereview.wordpress.com/2023/05/26/redefining-diagnostics-the-integration-of-machine-learning-in-medical-imaging-2) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive review of the algorithmic and pipeline mechanics behind machine learning integration in clinical imaging diagnostics. It covers key bottlenecks including image normalization, bounding-box annotations, model interpretability, and the challenge of adversarial attacks in clinical datasets. It serves as a great structural introduction to medical imaging ML architectures.
+## Deutsche Telekom
+
+  - **(2026)** [How Deutsche Telekom is rewiring telecommunications with AI](https://openai.com/index/deutsche-telekom) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Deutsche Telekom leverages OpenAI models for real-time voice translation, customer service transformation, and network operations.
 ## Domain Apis
 
 ### Automotive
@@ -139,7 +142,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [**thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects**](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines four strategic motivations for Mercedes-Benz to sponsor open-source software. By funding critical up-stream components, the enterprise reduces technical debt, improves system security, attracts elite software engineering talent, and actively influences standard roadmaps. It provides a blueprint for enterprise open-source program offices (OSPOs) seeking to justify upstream contributions.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

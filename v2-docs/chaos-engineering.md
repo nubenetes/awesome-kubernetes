@@ -89,7 +89,7 @@ description: "Top Chaos Engineering resources for 2026, AI-ranked: chaosblade, C
   - **(2021)** [thenewstack.io: Develop a Daily Reporting System for Chaos Mesh to Improve System Resilience](https://thenewstack.io/develop-a-daily-reporting-system-for-chaos-mesh-to-improve-system-resilience)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the development of a daily scheduled reporting workflow for Chaos Mesh. Explains how to parse and visualize test experiment outcomes, providing automated resilience scores and history charts for technical stakeholders.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Testops](./testops.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Scaffolding](./scaffolding.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

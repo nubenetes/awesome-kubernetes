@@ -44,7 +44,7 @@ INVENTORY_DIR = "data/inventory"
 INVENTORY_PATH = "data/inventory.yaml"
 
 NUBENETES_CATEGORIES = [
-    'ChromeDevTools', 'GoogleCloudPlatform', 'about', 'ai-agents-mcp', 'ai', 'angular', 
+    'ChromeDevTools', 'GoogleCloudPlatform', 'about', 'ai-agents-mcp', 'ai-rag-okf', 'ai', 'angular', 
     'ansible', 'api', 'appointment-scheduling', 'argo', 'aws-architecture', 'aws-backup', 
     'aws-containers', 'aws-data', 'aws-databases', 'aws-devops', 'aws-iac', 'aws-messaging', 
     'aws-miscellaneous', 'aws-monitoring', 'aws-networking', 'aws-newfeatures', 'aws-pricing', 
@@ -67,7 +67,7 @@ NUBENETES_CATEGORIES = [
     'kubernetes-tutorials', 'kubernetes', 'kustomize', 'linux-dev-env', 'linux', 
     'liquibase', 'lowcode-nocode', 'managed-kubernetes-in-public-cloud', 'matrix-table', 
     'maven-gradle', 'message-queue', 'mkdocs', 'mlops', 'monitoring', 'networking', 
-    'newsfeeds', 'newsql', 'noops', 'nosql', 'oauth', 'ocp3', 'ocp4', 'openshift-pipelines', 
+    'newsfeeds', 'newsql', 'noops', 'nosql', 'oauth', 'ocp3', 'ocp4', 'ocp5', 'openshift-pipelines', 
     'openshift', 'oraclecloud', 'other-awesome-lists', 'performance-testing-with-jenkins-and-jmeter', 
     'postman', 'private-cloud-solutions', 'project-management-methodology', 
     'project-management-tools', 'prometheus', 'public-cloud-solutions', 'pulumi', 'python', 

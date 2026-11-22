@@ -14,6 +14,41 @@ sources:
       - "https://kubernetes.io/feed.xml"
       - "https://www.cncf.io/blog/feed/"
 
+  - topic: "Red Hat OpenShift & OCP 5"
+    accounts:
+      - "openshift"        # Official Red Hat OpenShift (OCP 5, Lightspeed, Virtualization, HCP)
+      - "RedHat"           # Red Hat Enterprise Linux 10, OpenShift 5 & OpenShift AI
+      - "RHDevelopers"     # Red Hat Developer (OCP 5 developer articles, Lightspeed, RHDH)
+      - "okd_io"           # OKD 5 upstream community Kubernetes distribution
+      - "kubevirt"         # KubeVirt (OpenShift Virtualization 5 upstream)
+    feeds:
+      - "https://www.redhat.com/en/rss/blog/channel/red-hat-openshift"            # Red Hat OpenShift Official Blog Channel (OCP 5)
+      - "https://www.redhat.com/en/rss/blog/channel/hybrid-cloud-infrastructure"  # Red Hat Hybrid Cloud & OpenShift Infrastructure Blog
+      - "https://www.redhat.com/en/rss/press-releases"                            # Red Hat Official Press Releases
+      - "https://kubevirt.io/feed.xml"                                            # KubeVirt Official Blog (OpenShift Virtualization 5 upstream)
+      - "https://github.com/okd-project/okd/releases.atom"                        # OKD 5 Upstream Releases
+      - "https://github.com/openshift/hypershift/releases.atom"                   # HyperShift (Hosted Control Planes) Releases
+      - "https://github.com/openshift/microshift/releases.atom"                   # MicroShift 5 Edge Releases
+      - "https://github.com/openshift/rosa/releases.atom"                         # ROSA (OpenShift on AWS / HCP) CLI Releases
+      - "https://github.com/operator-framework/operator-controller/releases.atom" # OLM v1 Operator Controller Releases
+      - "https://github.com/containers/kubernetes-mcp-server/releases.atom"       # Kubernetes & OpenShift MCP Server Releases
+      - "https://github.com/Kuadrant/kuadrant-operator/releases.atom"             # Red Hat Connectivity Link (Kuadrant) MCP/Gateway Releases
+      - "https://github.com/kubevirt/kubevirt/releases.atom"                      # KubeVirt Releases
+      - "https://github.com/perses/perses/releases.atom"                          # Perses Native OCP 5 Dashboards Releases
+    github_repos_watch:
+      - "okd-project/okd"                         # OKD 5 Upstream Distribution
+      - "openshift/hypershift"                    # Hosted Control Planes (HCP) for OCP 5
+      - "openshift/microshift"                    # MicroShift 5 Edge OpenShift
+      - "openshift/rosa"                          # Red Hat OpenShift Service on AWS CLI
+      - "openshift/oadp-operator"                 # OpenShift API for Data Protection (OADP)
+      - "openshift-pipelines/operator"            # OpenShift Pipelines (Tekton) Operator
+      - "operator-framework/operator-controller"  # Operator Lifecycle Manager v1 (OLM v1)
+      - "containers/kubernetes-mcp-server"        # Kubernetes & OpenShift MCP Server
+      - "Kuadrant/kuadrant-operator"              # Red Hat Connectivity Link / MCP Gateway
+      - "kubevirt/kubevirt"                       # KubeVirt (OpenShift Virtualization 5)
+      - "perses/perses"                           # Perses Native OCP 5 Observability Dashboards
+      - "redhat-developer/rhdh"                   # Red Hat Developer Hub (Backstage for OCP 5)
+
   - topic: "Cloud Providers (AWS/Azure/GCP)"
     accounts:
       - "awscloud"
@@ -82,6 +117,51 @@ sources:
       - "ray-project/kuberay"           # Distributed AI Compute on Kubernetes
       - "kubernetes-sigs/kueue"         # Kubernetes-Native Job Queueing for AI/ML
       - "kaito-project/kaito"           # Kubernetes AI Toolchain Operator
+
+  - topic: "AI Knowledge, RAG & OKF"
+    accounts:
+      - "llama_index"      # LlamaIndex Agentic RAG & Knowledge Workflows
+      - "qdrant_engine"    # Qdrant Vector & Hybrid Search Engine
+      - "weaviate_io"      # Weaviate Hybrid Vector & AI Database
+      - "mem0ai"           # Mem0 Universal AI Agent Memory Layer
+      - "Letta_AI"         # Letta (formerly MemGPT) Stateful Agent OS
+      - "zep_ai"           # Zep & Graphiti Bi-Temporal Knowledge Graphs
+      - "deepset_ai"       # Haystack Production RAG Pipelines
+      - "neo4j"            # Neo4j GraphRAG & Enterprise Knowledge Graphs
+    feeds:
+      - "https://cloudblog.withgoogle.com/rss/"                                         # Google Cloud Data & AI Blog (OKF v0.x announcements)
+      - "https://github.com/open-knowledge-format/open-knowledge-format/commits/main.atom" # Open Knowledge Format (OKF) Official Spec Updates
+      - "https://qdrant.tech/blog/index.xml"                                            # Qdrant Vector & Hybrid Search Engineering Blog
+      - "https://weaviate.io/blog/rss.xml"                                              # Weaviate AI Retrieval & Agent Engineering Blog
+      - "https://neo4j.com/blog/feed/"                                                  # Neo4j GraphRAG & Knowledge Graph Blog
+      - "https://github.com/VectifyAI/PageIndex/releases.atom"                          # PageIndex Vectorless Reasoning RAG Releases
+      - "https://github.com/microsoft/graphrag/releases.atom"                           # Microsoft GraphRAG Releases
+      - "https://github.com/HKUDS/LightRAG/releases.atom"                               # LightRAG Releases
+      - "https://github.com/infiniflow/ragflow/releases.atom"                           # RAGFlow Deep Document RAG Releases
+      - "https://github.com/run-llama/llama_index/releases.atom"                        # LlamaIndex Releases
+      - "https://github.com/deepset-ai/haystack/releases.atom"                          # Haystack Releases
+      - "https://github.com/mem0ai/mem0/releases.atom"                                  # Mem0 Agent Memory Releases
+      - "https://github.com/getzep/graphiti/releases.atom"                              # Zep Graphiti Temporal KG Releases
+      - "https://github.com/letta-ai/letta/releases.atom"                               # Letta (MemGPT) Releases
+      - "https://github.com/qdrant/qdrant/releases.atom"                                # Qdrant Releases
+      - "https://github.com/weaviate/weaviate/releases.atom"                            # Weaviate Releases
+      - "https://github.com/pgvector/pgvector/releases.atom"                            # pgvector Releases
+      - "https://github.com/explodinggradients/ragas/releases.atom"                     # Ragas RAG Evaluation Releases
+    github_repos_watch:
+      - "VectifyAI/PageIndex"             # Vectorless Reasoning-Based RAG
+      - "microsoft/graphrag"              # Microsoft GraphRAG
+      - "HKUDS/LightRAG"                  # Fast Dual-Level GraphRAG
+      - "infiniflow/ragflow"              # Deep Document Understanding RAG Engine
+      - "run-llama/llama_index"           # Agentic RAG & Data Orchestration
+      - "deepset-ai/haystack"             # Modular Hybrid Search & RAG Pipelines
+      - "mem0ai/mem0"                     # Universal AI Agent Memory Layer
+      - "getzep/graphiti"                 # Bi-Temporal Knowledge Graph Memory
+      - "letta-ai/letta"                  # Stateful Agent OS (MemGPT)
+      - "topoteretes/cognee"              # Graph-Vector Hybrid Agent Memory Engine
+      - "qdrant/qdrant"                   # Rust Vector & Hybrid Search Engine
+      - "weaviate/weaviate"               # Hybrid Vector & BM25 AI Database
+      - "pgvector/pgvector"               # PostgreSQL Vector Similarity Extension
+      - "explodinggradients/ragas"        # RAG & Retrieval Evaluation Framework
 
   - topic: "Developer Productivity & AI Agents"
     accounts:

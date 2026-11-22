@@ -190,6 +190,7 @@ nav:
   - "AI":
     - "Enterprise AI Platforms": enterprise-ai-platforms.md
     - "AI Agents MCP": ai-agents-mcp.md
+    - "AI RAG OKF": ai-rag-okf.md
     - "AI": ai.md
     - "ChatGPT": chatgpt.md
     - "MLOps": mlops.md
@@ -289,8 +290,9 @@ nav:
     - "Kubernetes Storage": kubernetes-storage.md
     - "Kubernetes Troubleshooting": kubernetes-troubleshooting.md
     - "Noops": noops.md
-    - "OCP 3": ocp3.md
+    - "OCP 5": ocp5.md
     - "OCP 4": ocp4.md
+    - "OCP 3": ocp3.md
     - "Openshift": openshift.md
     - "Rancher": rancher.md
     - "Serverless": serverless.md

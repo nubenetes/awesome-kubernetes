@@ -11,6 +11,8 @@ description: "Curated, AI-ranked Lowcode Nocode resources for the 2026 Cloud Nat
 
 ## General Reference
 
+  - **(2026)** [n8n](https://github.com/n8n-io/n8n) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An extensible, fair-code workflow automation platform combining visual node-based composition with advanced custom coding and native AI agent capabilities.
+  - **(2026)** [Build mini-apps with Gemini in Google Sheets](https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.
   - [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 10 Low-Code Articles in the Lowcode Nocode ecosystem (dzone.com).
 ## Platform Engineering
 
@@ -32,7 +34,7 @@ description: "Curated, AI-ranked Lowcode Nocode resources for the 2026 Cloud Nat
   - **(2021)** [techradar.com: Low-code could replace "traditional" coding within months](https://www.techradar.com/news/low-code-could-replace-traditional-coding-within-months) 🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A provocative analysis reflecting on speculative industry trends regarding low-code automation. It highlights how aggressive market expansion projections suggest rapid enterprise adoption, while detailing the ongoing debate about scalability limits.
 
 ---
-💡 **Explore Related:** [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Postman](./postman.md) | [Maven Gradle](./maven-gradle.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Web3](./web3.md) | [Dotnet](./dotnet.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

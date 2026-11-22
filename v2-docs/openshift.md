@@ -1,5 +1,5 @@
 ---
-description: "Top Openshift resources for 2026, AI-ranked: IBM watsonx, Developer Sandbox and more — curated Cloud Native tools, guides and references."
+description: "Top Openshift resources for 2026, AI-ranked: Developer Sandbox, Amazon Red Hat OpenShift and more — curated Cloud Native tools, guides and references."
 ---
 # OpenShift Container Platform
 
@@ -8,6 +8,9 @@ description: "Top Openshift resources for 2026, AI-ranked: IBM watsonx, Develope
 
 !!! info "Architectural Context"
     Detailed reference for OpenShift Container Platform in the context of The Container Stack.
+
+!!! abstract "Deep-Dive Topic Pages"
+    [OCP 5 (Latest)](./ocp5/) · [OCP 4](./ocp4/) · [OCP 3 (Legacy)](./ocp3/) · [OpenShift Pipelines](./openshift-pipelines/) · [OpenShift AI (RHOAI)](./enterprise-ai-platforms/)
 
 ## AI
 
@@ -145,8 +148,8 @@ description: "Top Openshift resources for 2026, AI-ranked: IBM watsonx, Develope
   - [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Deploying OpenShift 4.4 to VMware vSphere 7 🌟 covering OpenShift 4 deployment on VMWare vSphere in Openshift (redhat.com).
 ## Openshift Egress
 
-  - [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to Enable Static Egress IP in OCP covering OpenShift Egress in Openshift (redhat.com).
   - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: OpenShift Egress Options covering OpenShift Egress in Openshift (dzone.com).
+  - [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to Enable Static Egress IP in OCP covering OpenShift Egress in Openshift (redhat.com).
 ## Openshift Network Model And Network Policy
 
   - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/networkpolicies-and-microsegmentation) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for NetworkPolicies and Microsegmentation covering OpenShift Network Model and Network Policy in Openshift (redhat.com).
@@ -224,9 +227,6 @@ description: "Top Openshift resources for 2026, AI-ranked: IBM watsonx, Develope
 #### Hybrid Cloud
 
   - **(2026)** [**OpenShift blog 🌟**](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official blog sharing product updates, strategies, and engineering insights on hybrid cloud infrastructures. It details native integrations, security baselines, and virtualization upgrades. Essential reading for platform architects designing multi-cluster, multi-cloud enterprise footprints in 2026.
-#### Installer
-
-  - **(2026)** [==github.com/openshift/installer openshift installer 🌟==](https://github.com/openshift/installer) <span class='md-tag md-tag--info'>⭐ 1550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23f8b934" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 12 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-23f8b934)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository hosting the OpenShift Installer engine (IPI/UPI), which handles automated platform provisioning on major hypervisors and public clouds. Generates ignition files, configures bootstraps, and controls the automated installation of the core operators. Essential codebase for platform deployment.
 #### Legacy Sandboxes
 
   - **(2022)** [OpenShift Online](https://www.redhat.com/en/technologies/cloud-computing/openshift) 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historically the first multi-tenant public cloud developer platform provided by Red Hat. In modern architectures, this service is fully deprecated and replaced by the modern Developer Sandbox and managed public cloud instances. Retained strictly for historical context.
@@ -303,7 +303,7 @@ description: "Top Openshift resources for 2026, AI-ranked: IBM watsonx, Develope
   - **(2022)** [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review advocating for Rocket.Chat as a privacy-focused, scalable, open-source communication application. Provides design concepts for self-hosting chat infrastructure inside sandboxed container platforms.
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

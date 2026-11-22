@@ -125,13 +125,13 @@ class V2VisionEngine:
         
         # 100% Comprehensive 2026 Taxonomy
         self.dimensions = {
-            "AI": ["enterprise-ai-platforms", "ai-agents-mcp", "ai", "chatgpt", "mlops"],
+            "AI": ["enterprise-ai-platforms", "ai-agents-mcp", "ai-rag-okf", "ai", "chatgpt", "mlops"],
             "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
             "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
             "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "devsecops", "kustomize", "liquibase"],
             "Cloud Providers (Hyperscalers)": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "edge-computing", "aws-security", "aws-networking", "aws-storage", "aws-iac", "aws-serverless", "aws-backup", "aws-newfeatures"],
             "Networking & Service Mesh": ["networking", "kubernetes-networking", "servicemesh", "istio", "caching", "web-servers", "cloudflare"],
-            "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp3", "ocp4", "noops"],
+            "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp5", "ocp4", "ocp3", "noops"],
             "Data & Advanced Analytics": ["databases", "nosql", "message-queue", "crunchydata", "yaml", "bigdata"],
             "Engineering Pipeline": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives", "openshift-pipelines", "sonarqube", "registries", "keptn", "cicd-kubernetes-plugins"],
             "Developer Ecosystem": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "java_app_servers", "java-and-java-performance-optimization", "dotnet", "angular", "web3", "api", "swagger-code-generator-for-rest-apis", "postman", "lowcode-nocode", "devel-sites", "linux-dev-env", "ChromeDevTools", "maven-gradle", "embedded-servlet-containers"],
@@ -177,6 +177,7 @@ class V2VisionEngine:
         self.subpage_hubs = {
             "enterprise-ai-platforms": [
                 ("ai-agents-mcp", "AI Agents & MCP"),
+                ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("mlops", "MLOps & GPU Scheduling"),
                 ("azure", "Microsoft Azure"),
                 ("aws", "AWS"),
@@ -217,12 +218,14 @@ class V2VisionEngine:
             "ai": [
                 ("enterprise-ai-platforms", "Enterprise AI Platforms"),
                 ("ai-agents-mcp", "AI Agents & MCP"),
+                ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("mlops", "MLOps & GPU Scheduling"),
                 ("chatgpt", "LLMs & Assistants"),
                 ("kubernetes-operators-controllers", "K8s Operators"),
             ],
             "mlops": [
                 ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+                ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("ai", "Core AI & LLMs"),
                 ("ai-agents-mcp", "AI Agents & MCP"),
                 ("kubernetes-autoscaling", "K8s Autoscaling"),
@@ -230,9 +233,31 @@ class V2VisionEngine:
             ],
             "ai-agents-mcp": [
                 ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+                ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("ai", "Core AI & LLMs"),
                 ("mlops", "MLOps & GPU Scheduling"),
                 ("chatgpt", "LLMs & Assistants"),
+            ],
+            "ai-rag-okf": [
+                ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+                ("ai-agents-mcp", "AI Agents & MCP"),
+                ("ai", "Core AI & LLMs"),
+                ("mlops", "MLOps & GPU Scheduling"),
+                ("databases", "Databases"),
+            ],
+            "openshift": [
+                ("ocp5", "OCP 5 (Latest)"),
+                ("ocp4", "OCP 4"),
+                ("ocp3", "OCP 3 (Legacy)"),
+                ("openshift-pipelines", "OpenShift Pipelines"),
+                ("enterprise-ai-platforms", "OpenShift AI (RHOAI)"),
+            ],
+            "ocp5": [
+                ("openshift", "OpenShift Overview"),
+                ("ocp4", "OCP 4"),
+                ("openshift-pipelines", "OpenShift Pipelines"),
+                ("enterprise-ai-platforms", "OpenShift AI (RHOAI)"),
+                ("ai-agents-mcp", "AI Agents & MCP"),
             ],
         }
         
@@ -414,7 +439,7 @@ class V2VisionEngine:
                     h_text = clean_toc_text(hm.group(2).strip())
                     if h_text and h_text.lower() not in ("table of contents", "contents"):
                         headings.append((hm.start(), h_text))
-                matches = re.finditer(r'^\s*-\s*(?:\*\*\(\d{4}\)\*\*\s+)?\[([^\]]+)\]\(([^\)]+)\)(.*?(?:\n\s{2,}.*)*)', content, re.MULTILINE)
+                matches = re.finditer(r'^\s*-\s*(?:\*\*\(\d{4}\)\*\*\s+)?\[([^\]]+)\]\(([^\)]+)\)([^\n]*(?:\n\s{2,}(?!\s*[-*]\s).*)*)', content, re.MULTILINE)
                 for m in matches:
                     title, url, full_desc = m.groups()
                     if url.strip().startswith("#"):
@@ -628,6 +653,8 @@ class V2VisionEngine:
                 star_count = max(3, min(5, l.get("description", "").count("🌟") + 2)) if "🌟" in l.get("description", "") else 3
                 dim = file_to_dim.get(orig_file, "Architectural Foundations")
                 page_title = orig_file.replace(".md", "").replace("-", " ").title()
+                for _k, _v in {"Ocp3": "OCP 3", "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Ai": "AI", "Mcp": "MCP", "Rag": "RAG", "Okf": "OKF", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", "Api": "API", "Sre": "SRE", "Cicd": "CI/CD"}.items():
+                    page_title = page_title.replace(_k, _v)
                 fallback_entry = {
                     "title": v1_title or item.get("title", "Resource"),
                     "description": l.get("description", ""),
@@ -933,6 +960,12 @@ class V2VisionEngine:
         # 3b. Fine-grained Cloud-Native AI & K8s stack tags
         if any(k in combined_text for k in ("mcp", "model context protocol", "model-context-protocol")):
             tags.add("[MCP]")
+        if any(k in combined_text for k in ("open knowledge format", "open-knowledge-format", "okf.md", " okf ")):
+            tags.add("[OKF]")
+        if any(k in combined_text for k in ("graphrag", "lightrag", "graphiti", "knowledge graph")):
+            tags.add("[GRAPHRAG]")
+        if any(k in combined_text for k in ("ragflow", "contextual retrieval", "cache-augmented", "pageindex", "ragas", "llama_index", "llamaindex", "qdrant", "weaviate", "pgvector", "retrieval-augmented")):
+            tags.add("[RAG]")
         if any(k in combined_text for k in ("gpu", "nvidia", "cuda", "dra ", "mig ", "fractional gpu")):
             tags.add("[GPU]")
         if any(k in combined_text for k in ("vllm", "llm-d", "tgi", "llm", "inference gateway", "kserve", "triton")):
@@ -997,9 +1030,9 @@ class V2VisionEngine:
                     short_title = orig_file.replace(".md", "").replace("-", " ").title()
                     # Custom mapping for known acronyms (Mandate 32)
                     acronyms = {
-                        "Ai": "AI", "Mcp": "MCP", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
+                        "Ai": "AI", "Mcp": "MCP", "Rag": "RAG", "Okf": "OKF", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
                         "Api": "API", "Sre": "SRE", "Cicd": "CI/CD", "Ocp3": "OCP 3", 
-                        "Ocp4": "OCP 4", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
+                        "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
                         "Chatgpt": "ChatGPT", "Mlops": "MLOps", "Devops": "DevOps",
                         "Hr": "HR", "Qa": "QA"
                     }
@@ -2233,6 +2266,56 @@ class V2VisionEngine:
                 else:
                     _body = f"## Enterprise AI Platforms and Managed Agentic Runtimes\n{enterprise_ai_banner}\n\n" + _body
                 assert "Dedicated Architectural Hub: Enterprise AI Platforms" in _body, "Safety assertion failed: Enterprise AI banner was skipped in V2 ai-agents-mcp.md!"
+
+            if f_name == "ai-rag-okf.md":
+                rag_okf_blueprint = """
+## Architectural Comparison Matrix: RAG vs OKF vs GraphRAG vs Vectorless vs CAG vs Agent Memory
+
+!!! info "The 2026 Layered Knowledge Stack"
+    Production AI systems in 2026 no longer treat **Vector RAG** as a one-size-fits-all default. Instead, architects combine **Open Knowledge Format (OKF)** for high-trust canonical rules in Git, **Cache-Augmented Generation (CAG)** for bounded static context, **Vectorless Reasoning RAG (PageIndex)** for dense structured documents, **Contextual Hybrid RAG** for massive unstructured archives, **GraphRAG / LightRAG** for multi-hop synthesis, and **Persistent Agent Memory** (**Mem0**, **Graphiti**, **Letta**, **Cognee**) for evolving session state.
+
+| Paradigm | Core Mechanism | Storage Backend | Best-Fit Workloads | Primary Trade-Off |
+| :--- | :--- | :--- | :--- | :--- |
+| **Open Knowledge Format (OKF)** | Deterministic navigation of Markdown + YAML frontmatter (`type`, provenance, trust, freshness) + relative links | Git repositories / plain files | High-trust canonical knowledge: schemas, KPI definitions, runbooks, architecture rules | Requires human or AI-assisted wiki curation; not suited for millions of raw unstructured logs |
+| **Traditional / Hybrid Vector RAG** | Chunking + Dense Embeddings + BM25 Hybrid Search + Reranking (Contextual Retrieval) | Vector DBs (`Qdrant`, `Weaviate`, `Milvus`, `pgvector`) | Massive, fast-moving, unstructured corpora (support tickets, docs, knowledge bases) | Susceptible to semantic drift, chunk boundary loss, and continuous re-indexing overhead |
+| **GraphRAG and LightRAG** | LLM entity/relation extraction + graph community summaries + dual-level traversal | Graph DB (`Neo4j`) or hybrid graph-vector stores | Multi-hop relational queries and global thematic synthesis across large corpora | Higher upfront indexing compute and LLM extraction cost (mitigated by LightRAG) |
+| **Vectorless Tree RAG (PageIndex)** | Hierarchical Table-of-Contents tree built over documents + iterative LLM reasoning search | Tree JSON / document store (no vector DB) | Dense structured documents (10-K filings, legal contracts, technical specs) | Higher per-query reasoning latency than sub-50ms ANN vector lookups |
+| **Cache-Augmented Generation (CAG)** | Preload full bounded corpus into LLM long-context window and reuse KV / Prompt Cache | Model KV Cache / Prompt Cache | Bounded, stable reference corpora fitting within context limits (<200K–1M tokens) | Bounded by model context window and cache TTL/storage cost |
+| **Persistent Agent Memory** | Fact extraction, bi-temporal validity windows, and agent self-edited memory blocks | Temporal graph / hybrid store (`Mem0`, `Graphiti`, `Letta`) | Long-running personalized assistants and stateful multi-session enterprise agents | Needs explicit conflict resolution, privacy governance, and retention policies |
+
+### The 2026 Hybrid Knowledge Stack Decision Framework
+
+!!! success "Choosing the Right Layer for Each Knowledge Workload"
+    1. **Layer 1 — Canonical Brain (OKF in Git):** Store authoritative schemas, business rules, compliance policies, and SRE runbooks as **OKF bundles** versioned in Git with explicit YAML `trust`, `provenance`, and `freshness` signals.
+    2. **Layer 2 — Bounded Static Context (CAG / Prompt Caching):** When a reference manual or codebase subset fits within the prompt cache, preload it directly with **CAG** for zero retrieval error.
+    3. **Layer 3 — Long-Tail Unstructured Search (Contextual Hybrid RAG / PageIndex):** Use **Contextual Retrieval** (dense + BM25 + reranker) for high-volume archives, or **PageIndex** for exact hierarchical precision over dense PDFs.
+    4. **Layer 4 — Multi-Hop and Temporal State (GraphRAG + Agent Memory):** Layer **LightRAG / GraphRAG** for relational synthesis and **Graphiti / Mem0 / Letta** for time-aware agent memory across sessions.
+    5. **Layer 5 — Live Operational Truth (MCP Tool Retrieval):** Never embed volatile operational state; fetch live ground truth on demand via **Model Context Protocol (MCP)** servers.
+
+"""
+                _body = rag_okf_blueprint + _body
+
+            if f_name == "ocp5.md":
+                ocp5_blueprint = """
+## Generational Shift: OCP 4 vs OCP 5 (2026)
+
+!!! info "Red Hat OpenShift Container Platform 5 (OCP 5)"
+    Announced and generally available in November 2026, **Red Hat OpenShift 5** converges containers, virtual machines, and enterprise AI workloads on **Kubernetes 1.36**, **CRI-O 1.36**, and **RHCOS 10 (RHEL 10.2)** while offering direct in-place upgrades from **OpenShift 4.22**.
+
+| Architectural Dimension | OpenShift 4 (OCP 4.x) | OpenShift 5 (OCP 5.0+) |
+| :--- | :--- | :--- |
+| **Kubernetes and Runtime** | Kubernetes 1.13–1.35 / CRI-O 1.x | **Kubernetes 1.36** and **CRI-O 1.36** |
+| **Node Operating System** | RHCOS 8 / RHCOS 9 | **RHCOS 10 (RHEL 10.2 base)** with RHCOS 9/10 cluster coexistence |
+| **Cluster Operations** | Conversational assistant (OLS Q&A) | **Agentic OpenShift Lightspeed** (supervised triage, remediation, native MCP server and gateway) |
+| **Security Baseline** | FIPS 140-2/3, TLS 1.3, SCCs | **Post-Quantum Cryptography (PQC)** control plane, SBOM transparency, sovereign multi-tenancy |
+| **Operator Management** | OLM v0 (Subscriptions, InstallPlans) | **Operator Lifecycle Manager v1 (OLM v1)** with `ClusterExtension` APIs and standard K8s RBAC |
+| **Support Lifecycle** | 18 months standard (EUS up to 3 years) | **24 months standard** (12 full + 12 maintenance) and up to **5 years Extended Lifecycle Support (ELC)** |
+| **Virtualization** | OpenShift Virtualization 4 (KubeVirt) | **OpenShift Virtualization 5** (Autopilot Day-1 baseline, VM templates, Hyper-V direct migration) |
+| **Cloud Control Planes** | Standalone masters and optional HCP | **Hosted Control Planes (HyperShift)** as the default standard for ROSA and ARO |
+| **Observability UI** | Static Console Dashboards | Native **Perses** dashboards with natural-language generation via Lightspeed |
+
+"""
+                _body = ocp5_blueprint + _body
 
             if f_name == "enterprise-ai-platforms.md":
                 enterprise_blueprint = """

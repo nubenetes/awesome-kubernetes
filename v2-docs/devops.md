@@ -591,6 +591,13 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 ### Podcasts
 
   - **(2024)** [bikeshed.fm: The Bike Shed](https://bikeshed.thoughtbot.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused podcast analyzing code health, automated testing frameworks, and dependency updates. Offers practical strategies on handling deployment scaling issues and code design patterns.
+## Devsecops and Ides
+
+### Google Cloud Code
+
+#### Developer Experience (1)
+
+  - **(2024)** [==github.com/GoogleCloudPlatform/cloud-code-samples 🌟==](https://github.com/GoogleCloudPlatform/cloud-code-samples) <span class='md-tag md-tag--info'>⭐ 439</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c0cf791a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 2 L 30 12 L 40 4 L 50 10" fill="none" stroke="url(#spark-grad-c0cf791a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curated templates and setup workflows targeting GCP's Cloud Code extension. Helps developers structure containerized services locally before auto-deploying to Google Kubernetes Engine (GKE).
 ## Education
 
 ### Syllabus
@@ -847,7 +854,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 #### Spanish Resources
 
   - **(2024)** [muycomputerpro.com: Ingeniería de plataformas de DevOps: la nueva generación de DevOps](https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview in Spanish analyzing the emergence of Platform Engineering as the evolutionary successor to DevOps. Outlines how standardizing infrastructure provisioning and software delivery environments reduces friction and enhances operational efficiency within enterprise teams.
-### Developer Experience (1)
+### Developer Experience (2)
 
 #### Git Workflows
 
@@ -1015,7 +1022,7 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
   - **(2020)** [github.blog: How to make DevOps your competitive advantage](https://github.blog/enterprise-software/devops/how-to-make-devops-your-competitive-advantage) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights strategic advantages realized by organizations building automated code assembly and validation workflows. Demonstrates how inner-source code bases accelerate release schedules.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md) | [Testops](./testops.md)
+💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md) | [Scaffolding](./scaffolding.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

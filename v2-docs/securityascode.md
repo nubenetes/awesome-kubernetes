@@ -9,6 +9,13 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 !!! info "Architectural Context"
     Detailed reference for Security Policy as Code in the context of Hardened Infrastructure.
 
+## Azure Policy
+
+  - **(2026)** [How We're Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees](https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An early technical overview of Scam Alert, an on-device machine learning model alerting users about potential scam messages while protecting E2EE.
+  - **(2026)** [Using AI to chart a course for our post-quantum migration](https://blog.cloudflare.com/ai-driven-cryptography-discovery) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare introduces CryptoLabe, an internal AI-powered tool designed to discover cryptography usage across its codebase.
+  - **(2026)** [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare announces its intent to become a public CA to provide free, automated, post-quantum resilient certificates at global scale.
+  - **(2026)** [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare details its upcoming support for Merkle Tree Certificates (MTCs) to solve the scale and performance challenges of post-quantum cryptography.
+  - **(2026)** [We tested our own WAF with frontier AI models. Here's what we found](https://blog.cloudflare.com/adaptive-ai-waf-testing) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare engineered an adaptive AI-driven WAF testing loop that mutates attack vectors to uncover hidden evasion techniques.
 ## Cloud Infrastructure
 
 ### Azure Networking
@@ -169,6 +176,16 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - **(2026)** [**Azure Policy**](https://nubenetes.com/azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
 ## Security (1)
 
+### CICD
+
+#### Automated Testing
+
+  - **(2026)** [**Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale**](https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-ASSISTED]</span> <span class='md-tag md-tag--primary'>[DEVSECOPS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[TESTING]</span> — Meta introduces JiTTesting, an advanced bug-catching system operating at full scale with a "human-on-the-loop" approach to identify and resolve vulnerabilities before they reach production. By integrating dynamic analysis and intelligent orchestration into the continuous integration pipeline, the system allows security engineers to supervise AI-driven triage and remediation. This architecture significantly reduces the time-to-mitigation for complex logic flaws while maintaining developer velocity in hyperscale environments.
+### Cryptography
+
+#### Certificate Authority Vulnerabilities
+
+  - **(2026)** [**4 real? Tracking exploitation and patching of eMudhra's weak keys**](https://blog.cloudflare.com/emudhra-patching) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--primary'>[CRYPTOGRAPHY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[INCIDENT-RESPONSE]</span> <span class='md-tag md-tag--primary'>[SECURITY]</span> <span class='md-tag md-tag--primary'>[TLS]</span> <span class='md-tag md-tag--primary'>[VULNERABILITY]</span> — Cloudflare provides a critical post-mortem on the active exploitation of a cryptographic vulnerability in eMudhra's certificate issuance system, which generated RSA private keys with merely four bits of entropy. The engineering analysis details how Cloudflare rapidly patched its Pingora proxy infrastructure and utilized telemetry to identify automated threat actors scanning for weak TLS handshakes. This incident underscores the absolute necessity of independent entropy validation and robust certificate transparency monitoring in modern enterprise security architectures.
 ### Data Governance
 
 #### Access Control
@@ -215,7 +232,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Docker Hardened Images for Every Developer covering Docker Security in Docker (docker.com).
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

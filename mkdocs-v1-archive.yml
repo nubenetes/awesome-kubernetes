@@ -133,6 +133,7 @@ nav:
     - OpenShift docs: openshift.md
     - OCP 3: ocp3.md
     - OCP 4: ocp4.md
+    - OCP 5: ocp5.md
   - Rancher:
     - Rancher - Enterprise management for Kubernetes: rancher.md
   - CI/CD:
@@ -257,6 +258,7 @@ nav:
   - AI:
     - AI: ai.md
     - Model Context Protocol (MCP) & AI Agents: ai-agents-mcp.md
+    - AI Knowledge & Retrieval (RAG, OKF, GraphRAG): ai-rag-okf.md
     - MLOps: mlops.md
     - ChatGPT: chatgpt.md
   - Project Mgmt:

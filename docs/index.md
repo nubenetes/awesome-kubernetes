@@ -184,6 +184,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [OpenShift](openshift.md)
 - [OCP 3](ocp3.md)
 - [OCP 4](ocp4.md)
+- [==OCP 5== 🌟](ocp5.md)
 ## SUSE Rancher
 - [Rancher - Enterprise management for Kubernetes](rancher.md)
 ## Software Delivery Pipeline
@@ -316,6 +317,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## AI
 - [==Enterprise AI Platforms (Azure AI Foundry, Bedrock, Vertex AI, OpenShift AI)== 🌟](enterprise-ai-platforms.md)
 - [Model Context Protocol (MCP) & AI Agents 🌟](ai-agents-mcp.md)
+- [==AI Knowledge and Retrieval: RAG, OKF, GraphRAG and Agent Memory== 🌟](ai-rag-okf.md)
 - [AI](ai.md)
 - [MLOps](mlops.md)
 - [ChatGPT](chatgpt.md)

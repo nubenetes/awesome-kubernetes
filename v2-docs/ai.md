@@ -1,5 +1,5 @@
 ---
-description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claude Code Best Practice and more — curated Cloud Native tools, guides and references."
+description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, CAST AI and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 
@@ -10,7 +10,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
     Detailed reference for Artificial Intelligence in the context of AI.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Enterprise AI Platforms](./enterprise-ai-platforms/) · [AI Agents & MCP](./ai-agents-mcp/) · [MLOps & GPU Scheduling](./mlops/) · [LLMs & Assistants](./chatgpt/) · [K8s Operators](./kubernetes-operators-controllers/)
+    [Enterprise AI Platforms](./enterprise-ai-platforms/) · [AI Agents & MCP](./ai-agents-mcp/) · [RAG, OKF & Knowledge](./ai-rag-okf/) · [MLOps & GPU Scheduling](./mlops/) · [LLMs & Assistants](./chatgpt/) · [K8s Operators](./kubernetes-operators-controllers/)
 
 ## AI
 
@@ -103,7 +103,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
   - **(2023)** [aman.ai/primers/ai/LLM: Primers - Overview of Large Language Models](https://aman.ai/primers/ai/LLM) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — A structured primer exploring the foundational architectures, training phases, and evaluation cycles of Large Language Models (LLMs). It maps out causal language modeling, masking methodologies, and reinforcement learning from human feedback (RLHF). This overview equips engineers with deep insights into how massive neural networks interpret context.
 #### Structured Curriculums
 
-  - **(2023)** [==github.com/mlabonne/llm-course==](https://github.com/mlabonne/llm-course) <span class='md-tag md-tag--info'>⭐ 80120</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dc69b86c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 3 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-dc69b86c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Maxime Labonne's stellar curriculum for mastering Large Language Model engineering. Curator Insight and Live Grounding confirm its value, providing code-driven notebooks covering quantization (bitsandbytes, AWQ, GGUF), LoRA fine-tuning, direct preference optimization (DPO), and advanced retrieval-augmented generation (RAG) paradigms.
+  - **(2023)** [==github.com/mlabonne/llm-course==](https://github.com/mlabonne/llm-course) <span class='md-tag md-tag--info'>⭐ 80120</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dc69b86c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 3 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-dc69b86c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Maxime Labonne's stellar curriculum for mastering Large Language Model engineering. Curator Insight and Live Grounding confirm its value, providing code-driven notebooks covering quantization (bitsandbytes, AWQ, GGUF), LoRA fine-tuning, direct preference optimization (DPO), and advanced retrieval-augmented generation (RAG) paradigms.
 #### Transformer Architecture
 
   - **(2023)** [aman.ai: Transformers](https://aman.ai/primers/ai/transformers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elegant architectural blueprint dissecting the mathematical design of the Attention is All You Need transformer model. It provides clear examinations of multi-head attention blocks, residual connections, feed-forward sublayers, and positional embeddings. Reading this is necessary for developers seeking to optimize model inference latency.
@@ -398,7 +398,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Claud
   - **(2026)** [Amazon ECS introduces new high-resolution metrics for faster service auto scaling](https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon ECS introduces new high-resolution metrics for faster service auto scaling covering Videos in AI (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [MLOps](./mlops.md) | [AI Agents MCP](./ai-agents-mcp.md)
+💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

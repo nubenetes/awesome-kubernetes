@@ -11,6 +11,8 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 
 ## Alternatives
 
+  - **(2026)** [harness.io: AutoStopping Rules For Kubernetes Clusters](https://www.harness.io/blog/cloud-autostopping-complements-kubernetes-cluster-autoscaling-cost-savings) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
+  - **(2026)** [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://www.harness.io/blog/how-to-migrate-off-jenkins-the-road-to-modern-ci-cd) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm: Curated technical resource in Jenkins Alternatives.
   - [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GitLab CI covering Alternatives in Jenkins Alternatives (dzone.com).
 ## Argocd
 
@@ -122,6 +124,9 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 #### CICD (5)
 
   - **(2023)** [github.com: RedHat Actions 🌟](https://github.com/redhat-actions) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main organizational hub housing Red Hat's official actions for OpenShift deployment. These components standardize cluster authentication, CLI installation, and container orchestration tasks directly in pipeline code. Acts as the primary bridge for enterprise Kubernetes pipeline operations.
+#### Red Hat Integration
+
+  - **(2020)** [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces the strategic engineering collaboration between Red Hat and GitHub to bring native OpenShift deployment controls to GitHub Actions. Bridges enterprise Kubernetes platforms and developer workflows by standardizing on Red Hat's native actions suite.
 #### Self-hosted Runners (1)
 
   - **(2024)** [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runners) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Holds Red Hat's containerized self-hosted GitHub Actions runner configurations optimized for execution on OpenShift clusters. Offers secure scaling patterns that allow pipelines to process resource-intensive compilation and container builds natively within the cluster fabric.
@@ -304,7 +309,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
   - **(2026)** [==onedev==](https://github.com/theonedev/onedev) <span class='md-tag md-tag--info'>⭐ 15327</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-12cd9f45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 8 L 30 11 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-12cd9f45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An all-in-one, highly scalable self-hosted Git service and CI/CD platform. Features visual pipeline construction, interactive code navigation, and issue-tracking, optimized to run as a single-node setup or distributed across Kubernetes environments.
 
 ---
-💡 **Explore Related:** [Argo](./argo.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Keptn](./keptn.md) | [Jenkins](./jenkins.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

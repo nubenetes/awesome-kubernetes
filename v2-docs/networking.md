@@ -155,5 +155,5 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
 ---
 💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

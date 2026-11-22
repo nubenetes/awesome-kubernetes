@@ -22,6 +22,11 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEB
 
 #### Storage
 
+##### CSI
+
+###### Changed Block Tracking
+
+  - **(2026)** [**Kubernetes Changed Block Tracking API - Beta Differences**](https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[BACKUP]</span> <span class='md-tag md-tag--primary'>[CSI]</span> <span class='md-tag md-tag--primary'>[DISASTER-RECOVERY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[STORAGE]</span> — Details the architectural refinements of the Changed Block Tracking (CBT) API for CSI drivers as it reaches beta status. The API empowers backup vendors to perform highly efficient, incremental volume snapshots by querying exactly which storage blocks have mutated since the last checkpoint. Grounded evaluation highlights this as a game-changer for reducing RTO/RPO windows and minimizing cluster network saturation during massive stateful backups.
 ##### Volume Management
 
 ###### Finops
@@ -265,7 +270,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEB
   - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Noops](./noops.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

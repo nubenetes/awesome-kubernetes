@@ -55,7 +55,7 @@ class NewsDigestEngine:
             "yaml", "kubernetes-storage", "kubernetes-backup-migrations",
         ],
         "AI & Agents": [
-            "enterprise-ai-platforms", "ai", "ai-agents-mcp", "chatgpt",
+            "enterprise-ai-platforms", "ai-agents-mcp", "ai-rag-okf", "ai", "chatgpt",
         ],
         "MLOps & Data Science": [
             "mlops",
@@ -124,7 +124,7 @@ class NewsDigestEngine:
             "public-cloud-solutions",
         ],
         "OpenShift / Red Hat": [
-            "openshift", "ocp3", "ocp4", "openshift-pipelines", "rancher",
+            "openshift", "ocp5", "ocp4", "ocp3", "openshift-pipelines", "rancher",
         ],
         "Virtualization & Private Cloud": [
             "kubernetes-on-premise", "kubernetes-alternatives",

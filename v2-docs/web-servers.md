@@ -1,5 +1,5 @@
 ---
-description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and more — curated Cloud Native tools, guides and references."
+description: "Top Web Servers resources for 2026, AI-ranked: Traefik, HAProxy and more — curated Cloud Native tools, guides and references."
 ---
 # Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 
@@ -92,5 +92,5 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

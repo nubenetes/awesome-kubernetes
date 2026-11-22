@@ -1,5 +1,5 @@
 ---
-description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for the AI age and more — curated Cloud Native tools, guides and references."
+description: "Top Finops resources for 2026, AI-ranked: CAST AI, Highlights from Git 2.55 and more — curated Cloud Native tools, guides and references."
 ---
 # Cloud FinOps. Collaborative, Real-Time Cloud Financial Management (CFM)
 
@@ -225,7 +225,7 @@ description: "Top Finops resources for 2026, AI-ranked: CAST AI, A scorecard for
   - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9?gi=9d9ff792e945) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000 covering Kubernetes Cost Optimization in Finops (engineering.razorpay.com).
 
 ---
-💡 **Explore Related:** [Newsfeeds](./newsfeeds.md) | [Interview Questions](./interview-questions.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [HR](./hr.md) | [Workfromhome](./workfromhome.md) | [Elearning](./elearning.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

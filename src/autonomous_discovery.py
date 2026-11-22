@@ -31,6 +31,10 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
         f"topic:mcp-server+pushed:>{pushed_cutoff}+stars:>20",
         f"topic:model-context-protocol+pushed:>{pushed_cutoff}+stars:>20",
         f"topic:ai-agents+pushed:>{pushed_cutoff}+stars:>50",
+        f"topic:rag+pushed:>{pushed_cutoff}+stars:>100",
+        f"topic:graphrag+OR+topic:knowledge-graph+llm+pushed:>{pushed_cutoff}+stars:>50",
+        f"open-knowledge-format+OR+llm-wiki+pushed:>{pushed_cutoff}+stars:>10",
+        f"topic:agent-memory+OR+topic:vector-database+pushed:>{pushed_cutoff}+stars:>50",
         f"topic:k8s-operator+pushed:>{pushed_cutoff}+stars:>50",
         f"topic:vllm+pushed:>{pushed_cutoff}+stars:>30",
         f"topic:mlops+kubernetes+pushed:>{pushed_cutoff}+stars:>30",
@@ -38,6 +42,10 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
         f"topic:amazon-bedrock+pushed:>{pushed_cutoff}+stars:>20",
         f"topic:vertex-ai+pushed:>{pushed_cutoff}+stars:>20",
         f"topic:openshift-ai+OR+topic:opendatahub+pushed:>{pushed_cutoff}+stars:>10",
+        f"topic:openshift+pushed:>{pushed_cutoff}+stars:>30",
+        f"org:openshift+pushed:>{pushed_cutoff}+stars:>50",
+        f"org:okd-project+OR+org:operator-framework+pushed:>{pushed_cutoff}+stars:>30",
+        f"topic:kubevirt+OR+topic:hypershift+pushed:>{pushed_cutoff}+stars:>30",
         f"org:kaito-project+OR+org:llm-d+pushed:>{pushed_cutoff}",
         f"topic:ebpf+kubernetes+pushed:>{pushed_cutoff}+stars:>50",
         f"awesome+kubernetes+pushed:>{pushed_cutoff}+stars:>200",
@@ -134,7 +142,7 @@ async def discover_trending_assets() -> list[dict]:
 
     prompt = (
         "Analyze these active Cloud-Native, AI, and Infrastructure as Code (IaC) repositories (sorted by monthly star velocity) and select the 8 highest-impact tools for a 2026 Senior Kubernetes, Cloud & AI Platform Architect.\n"
-        "Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI / OpenDataHub, IBM watsonx, Databricks Mosaic AI), Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/llm-d inference serving, KubeRay, KAITO), MCP servers for Kubernetes/SRE, Modern IaC & Terraform (Azure Verified Modules / AVM, OpenTofu, Terraform CI/CD pipelines, Landing Zones, official cloud samples), eBPF observability, and GitOps operators.\n"
+        "Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI / OpenDataHub, IBM watsonx, Databricks Mosaic AI), AI Knowledge & Retrieval architectures (RAG, Open Knowledge Format / OKF, LLM Wikis, GraphRAG, LightRAG, vectorless reasoning RAG / PageIndex, Cache-Augmented Generation / CAG, persistent agent memory like Mem0/Graphiti/Letta/Cognee, vector databases — categorize these under 'ai-rag-okf'), Red Hat OpenShift 5 / OCP 5 ecosystem (OpenShift Lightspeed, MCP servers, Hosted Control Planes / HyperShift, OLM v1, OpenShift Virtualization 5 / KubeVirt, OKD 5, MicroShift 5 — categorize these under 'ocp5'), Cloud-Native AI infrastructure (GPU scheduling, DRA, vLLM/llm-d inference serving, KubeRay, KAITO), MCP servers for Kubernetes/SRE, Modern IaC & Terraform (Azure Verified Modules / AVM, OpenTofu, Terraform CI/CD pipelines, Landing Zones, official cloud samples), eBPF observability, and GitOps operators.\n"
         f"Valid Categories: {', '.join(NUBENETES_CATEGORIES)}\n"
         f"Repos: {json.dumps(repos[:50])}\n\n"
         "Respond ONLY with a valid JSON list: [{\"title\": \"...\", \"url\": \"...\", \"description\": \"...\", \"category\": \"...\"}]"
@@ -157,6 +165,10 @@ async def discover_trending_assets() -> list[dict]:
 
         if any(k in desc_lower or k in name_lower or k in topics_set for k in ("azure-ai-foundry", "bedrock", "vertex-ai", "openshift-ai", "opendatahub", "llm-d", "kaito")):
             category = "enterprise-ai-platforms"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("open-knowledge-format", "okf", "graphrag", "lightrag", "ragflow", "pageindex", "ragas", "mem0", "graphiti", "letta", "cognee", "qdrant", "weaviate", "milvus", "pgvector", "chroma", "llama_index", "llamaindex", "haystack", "agent-memory", "vector-database", "cache-augmented", "contextual-retrieval")) or "rag" in topics_set:
+            category = "ai-rag-okf"
+        elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("ocp5", "openshift-5", "openshift 5", "hypershift", "lightspeed", "microshift", "okd", "operator-controller", "openshift", "kubevirt")):
+            category = "ocp5"
         elif any(k in desc_lower or k in name_lower or k in topics_set for k in ("mcp", "context-protocol", "mcp-server", "adk", "agent-framework", "strands-agents")):
             category = "ai-agents-mcp"
         elif "awesome" in name_lower:

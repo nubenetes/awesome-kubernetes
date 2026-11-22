@@ -468,6 +468,9 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
 #### Terraform Integration
 
   - **(2024)** [==InfraCost + Terraform PRs: Making Cost Awareness Effortless==](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Demonstrates how to integrate Infracost into GitHub Pull Requests to inspect infrastructure cost differences before deployment. Evaluates how shift-left practices can prevent unexpected spend increases by highlighting charges directly in developer workflows.
+## General Reference
+
+  - [cloudbuild.co.uk: Part 8: Terraform with Azure - Deploy terraform.tfvars' file](https://cloudbuild.co.uk/part-8-terraform-with-azure-deploy-a-terraform-tfvars-file)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cloudbuild.co.uk: Part 8: Terraform with Azure - Deploy terraform.tfvars' file in the Terraform ecosystem (cloudbuild.co.uk).
 ## Hashicorp Cloud Terraform Cloud
 
   - [levelup.gitconnected.com: Continuous Integration and Continuous Deployment with Terraform Cloud](https://levelup.gitconnected.com/continuous-integration-continuous-deployment-with-terraform-cloud-ad384f29d7a0?gi=f72400898afd) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Continuous Integration and Continuous Deployment with Terraform Cloud covering HashiCorp Cloud Terraform Cloud in Terraform (levelup.gitconnected.com).
@@ -1225,7 +1228,7 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
   - [awstip.com: Deploying Azure Infrastructure with Terraform](https://awstip.com/deploying-azure-infrastructure-with-terraform-e34046c65d0f?gi=91abf4aaad19) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Deploying Azure Infrastructure with Terraform covering Terraform with Azure in Terraform (awstip.com).
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md) | [Securityascode](./securityascode.md)
+💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 
