@@ -1,5 +1,9 @@
 name: 04.1. V2 Publisher
 
+# Strictly 0-AI-token deterministic publisher.
+# - Renders V2 portal pages (--render-only) from docs/ + data/inventory.yaml.
+# - AI enrichment lives exclusively in 03.2. V2 AI Curator (scheduled/manual).
+# - AI News Digest lives exclusively in 09. Weekly Intelligence Digest.
 on:
   push:
     branches:
@@ -7,7 +11,9 @@ on:
     paths:
       - 'docs/**'
   workflow_run:
-    workflows: ["03.3. V2 Video Hub Builder"]
+    workflows:
+      - "03.2. V2 AI Curator"
+      - "03.3. V2 Video Hub Builder"
     branches: [master]
     types:
       - completed
@@ -15,6 +21,11 @@ on:
     inputs:
       restore_cache:
         description: 'Restore inventory from cache (Warning: May overwrite recent manual changes)'
+        required: false
+        type: boolean
+        default: false
+      run_enrichment:
+        description: 'Run GitHub/CNCF metadata enrichment (default: false — handled by 03.1)'
         required: false
         type: boolean
         default: false
@@ -36,7 +47,7 @@ jobs:
     outputs:
       should_run: ${{ steps.decide.outputs.should_run }}
     steps:
-      - name: Deduplicate upstream and overlapping triggers
+      - name: Deduplicate upstream and pre-rendered triggers
         id: decide
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,11 +55,11 @@ jobs:
           SHA: ${{ github.sha }}
         run: |
           if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
-            # Skip if the triggering 03.3 run skipped its build-video-hub job.
+            # Skip if the triggering job was skipped as a duplicate.
             JOB_CONCL=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/jobs" \
-              --jq '[.jobs[] | select(.name == "build-video-hub")] | .[0].conclusion // ""' 2>/dev/null || echo "")
+              --jq '[.jobs[] | select(.name == "build-video-hub" or .name == "run-ai")] | .[0].conclusion // ""' 2>/dev/null || echo "")
             if [[ "$JOB_CONCL" == "skipped" ]]; then
-              echo "Skipping: upstream 03.3 build-video-hub job was skipped as a duplicate."
+              echo "Skipping: upstream job was skipped."
               echo "should_run=false" >> "$GITHUB_OUTPUT"
             else
               echo "should_run=true" >> "$GITHUB_OUTPUT"
@@ -57,24 +68,37 @@ jobs:
           fi
 
           if [[ "${{ github.event_name }}" == "push" ]]; then
-            # If the push also touches inventory/video scripts, 03.2/03.3 will run
-            # and trigger 04.1 via workflow_run after enrichment finishes.
-            MATCH="false"
+            FILES_JSON=""
             if [[ -n "$BEFORE" && "$BEFORE" != "0000000000000000000000000000000000000000" ]]; then
-              MATCH=$(gh api "repos/${{ github.repository }}/compare/${BEFORE}...${SHA}" \
-                --jq '[.files[]?.filename] | any(. == "data/inventory.yaml" or . == "src/v2_video_portal.py" or . == "src/enrich_videos.py")' \
-                2>/dev/null || echo "")
+              FILES_JSON=$(gh api "repos/${{ github.repository }}/compare/${BEFORE}...${SHA}" \
+                --jq '[.files[]?.filename]' 2>/dev/null || echo "")
             fi
-            if [[ -z "$MATCH" ]]; then
-              MATCH=$(jq -r '[.commits[]? | (.added[]?, .modified[]?, .removed[]?)] | any(. == "data/inventory.yaml" or . == "src/v2_video_portal.py" or . == "src/enrich_videos.py")' \
-                "$GITHUB_EVENT_PATH" 2>/dev/null || echo "false")
+            if [[ -z "$FILES_JSON" ]]; then
+              FILES_JSON=$(jq -c '[.commits[]? | (.added[]?, .modified[]?, .removed[]?)]' \
+                "$GITHUB_EVENT_PATH" 2>/dev/null || echo "[]")
             fi
-            if [[ "$MATCH" == "true" ]]; then
-              echo "Skipping duplicate push trigger: upstream 03.2/03.3 pipeline will trigger 04.1."
+
+            # 1. If video scripts changed, 03.3 will run and chain into 04.1.
+            VIDEO_MATCH=$(echo "$FILES_JSON" | jq 'any(. == "src/v2_video_portal.py" or . == "src/enrich_videos.py")')
+            if [[ "$VIDEO_MATCH" == "true" ]]; then
+              echo "Skipping duplicate push trigger: upstream 03.3 video pipeline will trigger 04.1."
               echo "should_run=false" >> "$GITHUB_OUTPUT"
-            else
-              echo "should_run=true" >> "$GITHUB_OUTPUT"
+              exit 0
             fi
+
+            # 2. If the push already includes pre-rendered v2-docs/** changes (e.g., maintainer
+            #    or agent PR that ran v2_optimizer --render-only locally), skip 04.1 so 06.1
+            #    deploys directly in a single pass with 0 redundant bot commits.
+            V2_PRE_RENDERED=$(echo "$FILES_JSON" | jq 'any(startswith("v2-docs/"))')
+            if [[ "$V2_PRE_RENDERED" == "true" ]]; then
+              echo "Skipping: commit already includes pre-rendered v2-docs/ updates (06.1 will deploy directly)."
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            # 3. Otherwise (e.g., contributor PR editing only docs/*.md), run 04.1 render-only.
+            echo "docs/ updated without v2-docs/ — running 0-token V2 render-only publish."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -131,24 +155,13 @@ jobs:
         run: |
           python -u -c "import asyncio; from src.dedup import run_dedup; asyncio.run(run_dedup(dry_run=False))" || echo "Dedup scan skipped"
 
-      - name: Run Enrichment Pipeline
+      - name: Run Enrichment Pipeline (Opt-In Manual Only)
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_enrichment == 'true' }}
         env:
           PYTHONPATH: ${{ github.workspace }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -u -m src.enrichment || echo "Enrichment pipeline skipped (no token or error)"
-
-      - name: Generate News Digest (Incremental)
-        env:
-          PYTHONPATH: ${{ github.workspace }}
-          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
-          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
-        run: |
-          # The engine loads news_digest.json from the repo, checks per-cell
-          # hashes, and only calls Gemini for categories with new entries or
-          # results older than MAX_STALENESS_DAYS (30).  Typical re-runs with
-          # no inventory changes cost 0 Gemini API calls.
-          python -u -m src.news_digest || echo "News digest generation skipped (no API key or error)"
 
       - name: Generate RSS Feed
         env:

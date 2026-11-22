@@ -7,11 +7,6 @@ on:
     paths:
       - 'src/v2_video_portal.py'
       - 'src/enrich_videos.py'
-  workflow_run:
-    workflows: ["03.2. V2 AI Curator"]
-    branches: [master]
-    types:
-      - completed
   schedule:
     - cron: '0 6 1 * *'  # Runs on the 1st of every month at 06:00 UTC (every ~30 days)
   workflow_dispatch:
@@ -26,6 +21,11 @@ on:
         required: false
         type: boolean
         default: false
+      skip_ai_enrichment:
+        description: 'Render video pages only (0 Gemini/YouTube API calls)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,47 +34,54 @@ permissions:
 jobs:
   precheck:
     runs-on: ubuntu-latest
-    if: |
-      github.event_name != 'workflow_run' ||
-      github.event.workflow_run.conclusion == 'success'
     outputs:
-      should_run: ${{ steps.decide.outputs.should_run }}
+      run_enrichment: ${{ steps.decide.outputs.run_enrichment }}
     steps:
-      - name: Deduplicate overlapping push trigger
+      - name: Decide whether AI video enrichment is needed
         id: decide
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BEFORE: ${{ github.event.before }}
           SHA: ${{ github.sha }}
         run: |
-          if [[ "${{ github.event_name }}" != "push" ]]; then
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            if [[ "${{ github.event.inputs.skip_ai_enrichment }}" == "true" ]]; then
+              echo "Skipping AI video enrichment (skip_ai_enrichment=true)."
+              echo "run_enrichment=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "run_enrichment=true" >> "$GITHUB_OUTPUT"
+            fi
             exit 0
           fi
 
-          # When a push also touches data/inventory.yaml, 03.2. V2 AI Curator runs
-          # on the same push and chains to 03.3 via workflow_run upon completion.
-          MATCH="false"
-          if [[ -n "$BEFORE" && "$BEFORE" != "0000000000000000000000000000000000000000" ]]; then
-            MATCH=$(gh api "repos/${{ github.repository }}/compare/${BEFORE}...${SHA}" \
-              --jq '[.files[]?.filename] | any(. == "data/inventory.yaml")' 2>/dev/null || echo "")
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            echo "run_enrichment=true" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
-          if [[ -z "$MATCH" ]]; then
-            MATCH=$(jq -r '[.commits[]? | (.added[]?, .modified[]?, .removed[]?)] | any(. == "data/inventory.yaml")' \
+
+          # On push: only invoke Gemini/YouTube enrichment if src/enrich_videos.py changed.
+          # Layout/playlist updates in src/v2_video_portal.py render deterministically with 0 AI tokens.
+          TOUCHED_ENRICH="false"
+          if [[ -n "$BEFORE" && "$BEFORE" != "0000000000000000000000000000000000000000" ]]; then
+            TOUCHED_ENRICH=$(gh api "repos/${{ github.repository }}/compare/${BEFORE}...${SHA}" \
+              --jq '[.files[]?.filename] | any(. == "src/enrich_videos.py")' 2>/dev/null || echo "")
+          fi
+          if [[ -z "$TOUCHED_ENRICH" ]]; then
+            TOUCHED_ENRICH=$(jq -r '[.commits[]? | (.added[]?, .modified[]?, .removed[]?)] | any(. == "src/enrich_videos.py")' \
               "$GITHUB_EVENT_PATH" 2>/dev/null || echo "false")
           fi
 
-          if [[ "$MATCH" == "true" ]]; then
-            echo "Skipping duplicate push trigger: data/inventory.yaml changed, so 03.2 will chain into 03.3."
-            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          if [[ "$TOUCHED_ENRICH" == "true" ]]; then
+            echo "src/enrich_videos.py changed — running AI video enrichment."
+            echo "run_enrichment=true" >> "$GITHUB_OUTPUT"
           else
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Only src/v2_video_portal.py changed — skipping AI enrichment (0 tokens)."
+            echo "run_enrichment=false" >> "$GITHUB_OUTPUT"
           fi
 
   build-video-hub:
     needs: precheck
     runs-on: ubuntu-latest
-    if: needs.precheck.outputs.should_run == 'true'
     concurrency:
       group: v2-videos-master
       cancel-in-progress: false
@@ -105,6 +112,7 @@ jobs:
           pip install pyyaml httpx tenacity pytz python-dotenv yt-dlp youtube-transcript-api feedparser
 
       - name: Execute Video Hub Enrichment
+        if: needs.precheck.outputs.run_enrichment == 'true'
         env:
           PYTHONPATH: ${{ github.workspace }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
