@@ -2080,70 +2080,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "This flagship curriculum and open-source TCO study gives Spanish enterprises—including P3 Regulated Spain Central deployments—a rigorous FinOps model to compare AKS, serverless, and Foundry agentic AI architectures.",
+        "why": "This flagship 12-part curriculum and open-source TCO study establishes a quantitative FinOps framework for comparing Serverless, Microsoft Foundry, AKS, and Container Apps for enterprise agentic AI.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
-        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
+        "url": "https://www.youtube.com/watch?v=i5UzI-FrFfU",
+        "title": "Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "It delivers an end-to-end declarative build, offline CycloneDX SBOM, and Sigstore-verified release blueprint for securing GPU-accelerated NVIDIA Kubernetes infrastructure.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
-        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "critical",
-        "why": "This 14-part series defines a practical maturity path from reactive on-call triage to progressive, self-healing AI SRE operations grounded in Google SRE principles.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
-        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
-        "date": "2026-11-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "It covers the major architectural shift to post-ZooKeeper Apache Kafka 4.x with KRaft consensus, tiered storage, and production deployment via the CNCF Strimzi operator.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
-        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "It addresses emerging agentic attack vectors like Ghostjacking while establishing scoped Kubernetes RBAC and defense-in-depth patterns for Model Context Protocol SRE agents.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
-        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "It provides a production migration path from legacy Ingress and OpenShift Routes to the standardized Kubernetes Gateway API and Traefik Ingress Mesh.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLPVp_aWNumcM",
-        "title": "Nubenetes GitOps CI/CD (Jenkins & ArgoCD)",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "It unifies enterprise GitOps delivery using ArgoCD, Backstage Internal Developer Portals, Golden Paths on GKE and OpenShift, and automated k6 performance validation.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLKhyB4rhIIjw",
-        "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "It solves real-world enterprise OpenShift observability challenges around Grafana Alloy, Security Context Constraints, and Thanos RBAC enforcement.",
+        "why": "This operational blueprint details full private-network DEV/PRE/PRO parity with Azure Verified Modules and WAF deployed specifically in P3 Spain Central and EU/US regions.",
         "category": "Spain"
       },
       {
@@ -2152,16 +2098,70 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "This bilingual English and Spanish series accelerates enterprise cloud adoption in Spain with modular Azure Terraform blueprints and automated CI/CD validation.",
+        "why": "This bilingual English and Spanish Infrastructure-as-Code series delivers modular Azure Terraform blueprints and automated enterprise CI/CD workflows directly serving Spain-based teams.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLC-ZWbf-4aBg",
-        "title": "Nubenetes Azure Naming Tool v5: CAF Governance, Terraform & Bicep",
-        "date": "2026-11-14",
+        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
+        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
+        "date": "2026-11-15",
         "stars": 5,
-        "impact": "medium",
-        "why": "It modernizes Cloud Adoption Framework governance by integrating Microsoft's .NET 10 Azure Naming Tool v5 directly into Terraform and Bicep provisioning pipelines.",
+        "impact": "critical",
+        "why": "This architectural series introduces NVIDIA Kubernetes Recipes (NVKR) as a declarative, Go-based build and offline SBOM release factory for verifiable AI cluster infrastructure.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
+        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "critical",
+        "why": "This 13-part series shows how to operationalize Model Context Protocol (MCP) SRE agents in Kubernetes with scoped RBAC guardrails and defense-in-depth against Ghostjacking attacks.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
+        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "This 14-part curriculum defines progressive AI autonomy and self-healing operations using Google SRE agentic principles and trust ladders.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
+        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "This comprehensive track guides enterprise teams on migrating Red Hat OpenShift workloads from legacy Ingress and Routes to CNCF Gateway API and Traefik Ingress Mesh.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLKhyB4rhIIjw",
+        "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "This enterprise observability series solves real-world OpenShift production challenges around Grafana Operator, Grafana Alloy, Security Context Constraints, and Thanos RBAC permissions.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLPVp_aWNumcM",
+        "title": "Nubenetes GitOps CI/CD (Jenkins & ArgoCD)",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "This GitOps CI/CD track unifies Jenkins, ArgoCD, Backstage Internal Developer Portals, and k6 testing into production Golden Path blueprints for OpenShift and GKE.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=pJ2njiTF5xA",
+        "title": "Azure Red Hat OpenShift (ARO) vs AKS & Container Apps: Enterprise Kubernetes Strategy",
+        "date": "2026-11-22",
+        "stars": 5,
+        "impact": "high",
+        "why": "This strategic architectural comparison equips enterprise platform engineers to evaluate Azure Red Hat OpenShift with Hosted Control Planes against AKS and Azure Container Apps.",
         "category": "Spain"
       }
     ],
@@ -3233,7 +3233,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides an open-source, comprehensive FinOps and TCO architectural framework comparing serverless, AKS, and Foundry agentic AI deployments with regional enterprise compliance.",
+        "why": "This 12-part curriculum and open-source TCO study provides an essential FinOps framework for enterprises choosing between AKS, serverless, and Foundry for production agentic AI workloads.",
         "category": "Spain"
       },
       {
@@ -3241,17 +3241,8 @@
         "title": "Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)",
         "date": "2026-11-15",
         "stars": 5,
-        "impact": "high",
-        "why": "Delivers an operational infrastructure blueprint enforcing DEV/PRE/PRO private networking parity using Azure Verified Modules specifically in the Spain Central region.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc",
-        "title": "Nubenetes Terraform & Azure DevOps Automation",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Offers bilingual Spanish and English enterprise IaC blueprints and automated Azure DevOps pipelines tailored for regional and multinational platform engineering teams.",
+        "impact": "critical",
+        "why": "It delivers a production-ready operational blueprint for deploying regulated, private-network agentic AI infrastructure specifically in the Azure Spain Central region using Azure Verified Modules.",
         "category": "Spain"
       },
       {
@@ -3260,7 +3251,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes a zero-trust software supply chain and verifiable release factory for NVIDIA Kubernetes infrastructure using SBOMs and Cosign policies.",
+        "why": "This series introduces verifiable, SBOM-backed AI infrastructure delivery via NVIDIA Kubernetes Recipes, directly addressing GPU cluster supply chain security and reproducible releases.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
+        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "critical",
+        "why": "This 13-part track establishes critical defense-in-depth patterns and RBAC guardrails for Model Context Protocol (MCP) SRE agents operating on Kubernetes while mitigating emerging Ghostjacking attacks.",
         "category": "Spain"
       },
       {
@@ -3269,25 +3269,34 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Presents a structured, progressive autonomy framework for AI-driven SRE and closed-loop self-healing operations across cloud-native environments.",
+        "why": "It charts a practical 14-part roadmap for transitioning cloud operations teams from reactive on-call triage to autonomous, self-healing AI Site Reliability Engineering.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
-        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
+        "url": "https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc",
+        "title": "Nubenetes Terraform & Azure DevOps Automation",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Standardizes Model Context Protocol integration for Kubernetes while mitigating critical emerging AI attack surfaces like prompt injection and Ghostjacking.",
+        "why": "This bilingual English and Spanish Infrastructure as Code series equips local engineering teams in Spain with modular Azure Terraform blueprints and automated enterprise CI/CD workflows.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
-        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
-        "date": "2026-11-14",
+        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
+        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
+        "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Details the production-grade shift to Apache Kafka 4.x KRaft consensus and tiered storage operated declaratively via Kubernetes Strimzi CRDs.",
+        "why": "It guides platform teams through migrating away from legacy OpenShift Routes and Ingress toward the modern Kubernetes Gateway API and Traefik Ingress Mesh.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLKhyB4rhIIjw",
+        "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "This enterprise observability track solves real-world OpenShift production challenges around Grafana Alloy telemetry collection, Security Context Constraints, and Thanos RBAC permissions.",
         "category": "Spain"
       },
       {
@@ -3296,25 +3305,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Implements enterprise Golden Path CI/CD delivery combining ArgoCD, Jenkins, and Backstage developer portals for GKE and OpenShift clusters.",
+        "why": "It combines Jenkins, ArgoCD, and Backstage Internal Developer Portals into standardized Golden Path blueprints for enterprise GitOps delivery on GKE and OpenShift.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
-        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
-        "date": "2026-11-15",
+        "url": "https://www.youtube.com/watch?v=pJ2njiTF5xA",
+        "title": "Azure Red Hat OpenShift (ARO) vs AKS & Container Apps: Enterprise Kubernetes Strategy",
+        "date": "2026-11-22",
         "stars": 5,
         "impact": "medium",
-        "why": "Demonstrates the enterprise migration from legacy ingress controllers to the modern Kubernetes Gateway API standard and Traefik Ingress Mesh.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLKhyB4rhIIjw",
-        "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Addresses complex production OpenShift telemetry architectures using the Grafana Operator and Grafana Alloy with strict Security Context Constraints.",
+        "why": "This strategic architectural comparison helps enterprise platform engineers weigh Azure Red Hat OpenShift with Hosted Control Planes against AKS and Azure Container Apps.",
         "category": "Spain"
       }
     ],
@@ -6511,61 +6511,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes a quantitative FinOps TCO decision framework across Serverless, Foundry, and AKS for enterprise agentic AI architectures in regulated cloud regions.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
-        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Pioneers the transition from reactive triage to autonomous AI SRE operations using Google SRE agentic principles and self-healing reliability loops.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
-        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Guides the high-priority enterprise migration from legacy Kubernetes Ingress to Gateway API and Traefik Ingress Mesh on OpenShift.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLLNGug_lQ4z8",
-        "title": "Nubenetes Apache Kafka 4.x: KRaft, Tiered/Diskless Storage, Schema Registry & SRE Guide",
-        "date": "2026-11-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "Covers production Kafka 4.x architectures running ZooKeeper-less KRaft consensus via CNCF Strimzi operators on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
-        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Operationalizes verified declarative builds and zero-trust Syft/Sigstore SBOM supply chains for NVIDIA Kubernetes AI infrastructure.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
-        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Standardizes Model Context Protocol (MCP) integrations with Kubernetes RBAC guardrails to eliminate brittle custom AI tooling glue.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLPVp_aWNumcM",
-        "title": "Nubenetes GitOps CI/CD (Jenkins & ArgoCD)",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers enterprise Golden Path blueprints combining ArgoCD, Backstage Internal Developer Portals, and automated GitOps verification.",
+        "why": "This 12-part curriculum and open-source TCO repository establishes a quantitative FinOps framework for comparing Serverless, Microsoft Foundry, AKS, and Container Apps in enterprise agentic-AI deployments.",
         "category": "Spain"
       },
       {
@@ -6573,8 +6519,53 @@
         "title": "Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)",
         "date": "2026-11-15",
         "stars": 5,
+        "impact": "critical",
+        "why": "It delivers a production-ready operational blueprint for deploying regulated P3 agentic-AI architectures with Azure Verified Modules in Spain Central across DEV, PRE, and PRO environments.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
+        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "critical",
+        "why": "This series details a declarative, reproducible release factory for NVIDIA Kubernetes infrastructure featuring offline Syft SBOMs and verified supply chain security.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
+        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "critical",
+        "why": "It addresses emerging operational security risks like Ghostjacking while standardizing Kubernetes AI agent integration via Model Context Protocol transports and scoped RBAC guardrails.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
+        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
+        "date": "2026-11-15",
+        "stars": 5,
         "impact": "high",
-        "why": "Details production-grade private network parity and Azure Verified Modules deployed specifically within the Spain Central cloud region.",
+        "why": "This 14-part series defines a practical progression model from reactive on-call triage to autonomous, self-healing AI Site Reliability Engineering operations.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=pJ2njiTF5xA",
+        "title": "Azure Red Hat OpenShift (ARO) vs AKS & Container Apps: Enterprise Kubernetes Strategy",
+        "date": "2026-11-22",
+        "stars": 5,
+        "impact": "high",
+        "why": "It provides enterprise platform teams with strategic decision criteria across Azure Kubernetes Service, Azure Container Apps, and the newly GA Azure Red Hat OpenShift Hosted Control Planes.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLMgCx_Yg_x48",
+        "title": "Nubenetes Gateway API & Traefik Ingress Mesh",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "It guides teams through migrating from legacy Ingress and Routes to the Kubernetes Gateway API and Traefik Ingress Mesh in enterprise OpenShift environments.",
         "category": "Spain"
       },
       {
@@ -6582,8 +6573,8 @@
         "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
         "date": "2026-11-15",
         "stars": 5,
-        "impact": "medium",
-        "why": "Solves complex OpenShift telemetry and Thanos RBAC constraints using the Grafana Operator and next-generation Grafana Alloy collectors.",
+        "impact": "high",
+        "why": "This series tackles production Kubernetes observability challenges on OpenShift, including Grafana Operator, Alloy telemetry collection, Security Context Constraints, and Thanos RBAC.",
         "category": "Spain"
       },
       {
@@ -6591,8 +6582,17 @@
         "title": "Nubenetes Terraform & Azure DevOps Automation",
         "date": "2026-11-15",
         "stars": 5,
+        "impact": "high",
+        "why": "Offered bilingually in English and Spanish, this Infrastructure as Code track equips regional teams with modular Azure Terraform blueprints and automated CI/CD validation workflows.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLPVp_aWNumcM",
+        "title": "Nubenetes GitOps CI/CD (Jenkins & ArgoCD)",
+        "date": "2026-11-15",
+        "stars": 5,
         "impact": "medium",
-        "why": "Provides bilingual Cloud Adoption Framework Terraform modules and Azure DevOps delivery pipelines tailored for Spanish enterprise platform teams.",
+        "why": "It unifies GitOps delivery across GKE and OpenShift using ArgoCD, Jenkins, Backstage Internal Developer Portals, and automated k6 performance testing.",
         "category": "Spain"
       }
     ],
@@ -7112,9 +7112,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-15T16:39:28.380024+01:00",
-        "entry_hash": "f0bdc51a4f744843",
-        "entry_count": 223,
+        "last_analyzed": "2026-11-22T11:52:26.204409+01:00",
+        "entry_hash": "6935790c33b4a5e8",
+        "entry_count": 238,
         "method": "gemini"
       },
       "Asia-Pacific": {
@@ -7192,9 +7192,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-15T16:40:02.638697+01:00",
-        "entry_hash": "af10ca66d152b9a6",
-        "entry_count": 232,
+        "last_analyzed": "2026-11-22T11:52:42.885682+01:00",
+        "entry_hash": "c03bf6e38a447c31",
+        "entry_count": 247,
         "method": "gemini"
       },
       "Europe": {
@@ -7410,9 +7410,9 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-15T16:40:41.613414+01:00",
-        "entry_hash": "6fc6e3edc0f9ca1e",
-        "entry_count": 259,
+        "last_analyzed": "2026-11-22T11:52:56.825851+01:00",
+        "entry_hash": "9383eb353fae1b76",
+        "entry_count": 274,
         "method": "gemini"
       },
       "Europe": {
@@ -7440,6 +7440,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-22T11:40:30.275546+01:00"
+    "last_updated": "2026-11-22T11:52:57.828579+01:00"
   }
 }

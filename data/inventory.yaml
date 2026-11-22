@@ -744112,13 +744112,9 @@ https://www.youtube.com/shorts/Nha_7ErdGTI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: CSS / Web Platform
-  category: Fundamentals and Documentaries
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744136,6 +744132,11 @@ https://www.youtube.com/shorts/Nha_7ErdGTI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: CSS / Web Platform
+  category: Fundamentals and Documentaries
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/EdvpdCUaxqc:
   title: How WebAuthn Passkeys Kill Passwords [Short]
@@ -744157,13 +744158,9 @@ https://www.youtube.com/shorts/EdvpdCUaxqc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: WebAuthn / Passkeys
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744181,6 +744178,11 @@ https://www.youtube.com/shorts/EdvpdCUaxqc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: WebAuthn / Passkeys
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/3pwzlfejHNw:
   title: How Browsers Run Local AI (Built-in AI & WebGPU) [Short]
@@ -744203,13 +744205,9 @@ https://www.youtube.com/shorts/3pwzlfejHNw:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Built-in AI & WebGPU
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744227,6 +744225,11 @@ https://www.youtube.com/shorts/3pwzlfejHNw:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Built-in AI & WebGPU
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/KTCzZvJ5U04:
   title: How scheduler.yield() Fixes Main-Thread Blocking & INP [Short]
@@ -744247,13 +744250,9 @@ https://www.youtube.com/shorts/KTCzZvJ5U04:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Web Performance (scheduler.yield)
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744271,6 +744270,11 @@ https://www.youtube.com/shorts/KTCzZvJ5U04:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Web Performance (scheduler.yield)
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/H2kXnDoDWCs:
   title: How Modern Web Guidance Fixes AI Code [Short]
@@ -744292,13 +744296,9 @@ https://www.youtube.com/shorts/H2kXnDoDWCs:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Web Standards + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744316,6 +744316,11 @@ https://www.youtube.com/shorts/H2kXnDoDWCs:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Web Standards + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/BsJ73d8GXlc:
   title: How MCP Connects AI to OpenShift [Short]
@@ -744337,13 +744342,9 @@ https://www.youtube.com/shorts/BsJ73d8GXlc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744361,6 +744362,11 @@ https://www.youtube.com/shorts/BsJ73d8GXlc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/p_LnIoUPDiI:
   title: How Isovalent Secures Kubernetes Traffic on Azure & OpenShift [Short]
@@ -744384,13 +744390,9 @@ https://www.youtube.com/shorts/p_LnIoUPDiI:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes / Cilium (eBPF)
-  category: Networking and Service Mesh
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744408,6 +744410,11 @@ https://www.youtube.com/shorts/p_LnIoUPDiI:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes / Cilium (eBPF)
+  category: Networking and Service Mesh
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/oc8u0axlLUU:
   title: Why Choose Azure Container Apps vs ARO & AKS [Short]
@@ -744429,13 +744436,9 @@ https://www.youtube.com/shorts/oc8u0axlLUU:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Container Apps, Kubernetes, Azure Red Hat OpenShift
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744453,6 +744456,11 @@ https://www.youtube.com/shorts/oc8u0axlLUU:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Container Apps, Kubernetes, Azure Red Hat OpenShift
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/hhxW4azWSRY:
   title: The Real Differences Between ARO and AKS [Short]
@@ -744473,13 +744481,9 @@ https://www.youtube.com/shorts/hhxW4azWSRY:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744497,6 +744501,11 @@ https://www.youtube.com/shorts/hhxW4azWSRY:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/y-AilodlV0U:
   title: How ARO HCP Isolates and Secures Workloads [Short]
@@ -744518,13 +744527,9 @@ https://www.youtube.com/shorts/y-AilodlV0U:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Red Hat OpenShift
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744542,6 +744547,11 @@ https://www.youtube.com/shorts/y-AilodlV0U:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/88YYYSQ4pLo:
   title: How Hosted Control Planes Slash ARO Costs [Short]
@@ -744563,13 +744573,9 @@ https://www.youtube.com/shorts/88YYYSQ4pLo:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Red Hat OpenShift
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744587,6 +744593,11 @@ https://www.youtube.com/shorts/88YYYSQ4pLo:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/shorts/ctuygjjVHkM:
   title: Why Hosted Control Planes Change OpenShift on Azure [Short]
@@ -744609,13 +744620,9 @@ https://www.youtube.com/shorts/ctuygjjVHkM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Red Hat OpenShift / Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744633,6 +744640,11 @@ https://www.youtube.com/shorts/ctuygjjVHkM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift / Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=pJ2njiTF5xA:
   title: 'Azure Red Hat OpenShift (ARO) vs AKS & Container Apps: Enterprise Kubernetes
@@ -744657,13 +744669,9 @@ https://www.youtube.com/watch?v=pJ2njiTF5xA:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744681,6 +744689,11 @@ https://www.youtube.com/watch?v=pJ2njiTF5xA:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=YMkrUNCirwM:
   title: 'ARO Hosted Control Planes: Security, Governance & Compliance'
@@ -744704,13 +744717,9 @@ https://www.youtube.com/watch?v=YMkrUNCirwM:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Red Hat OpenShift (ARO) / Kubernetes
-  category: Security and Compliance
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744728,6 +744737,11 @@ https://www.youtube.com/watch?v=YMkrUNCirwM:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift (ARO) / Kubernetes
+  category: Security and Compliance
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/watch?v=PlwC6Iwo-BU:
   title: 'ARO Hosted Control Planes: Deployment, Scaling & Operations'
@@ -744749,13 +744763,9 @@ https://www.youtube.com/watch?v=PlwC6Iwo-BU:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure Red Hat OpenShift (ARO) / Kubernetes
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795344434
   needs_ai_refresh: false
@@ -744773,4 +744783,9 @@ https://www.youtube.com/watch?v=PlwC6Iwo-BU:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift (ARO) / Kubernetes
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
