@@ -1,5 +1,14 @@
 ---
-description: "Top Elearning resources for 2026, AI-ranked: codely.tv, kube.academy and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "E-learning"
+dimension: "Career & Industry"
+resource_count: 32
+fresh_2025_2026_count: 19
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/elearning.md"
+description: "Top E-Learning resources for 2026, AI-ranked: codely.tv, kube.academy and more — curated Cloud Native tools, guides and references."
 ---
 # E-learning
 
@@ -14,9 +23,6 @@ description: "Top Elearning resources for 2026, AI-ranked: codely.tv, kube.acade
   - **(2026)** [**Students prototype learning tools with AI at University of Waterloo**](https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: This academic collaboration highlights how early-stage engineers can leverage standardized, cloud-hosted API models to tackle accessibility and learning barriers.
 
 Live Grounding: Students at the Waterloo Futures Lab developed physical and software prototypes, including interactive sign language interpreters, illustrating how public LLM accessibility accelerates social impact engineering.
-## AI Courses
-
-  - **(2026)** [Introducing OpenAI Academy Courses](https://openai.com/index/academy-courses-applying-ai-at-work) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing OpenAI Academy Courses covering AI Courses in Elearning (openai.com).
 ## CICD
 
 ### Git Integration
@@ -54,6 +60,17 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 #### Training Courses
 
   - **(2023)** [Techworld with Nana: Learn DevOps topics easily](https://www.techworld-with-nana.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier technical curriculum focused on infrastructure automation, container mechanics, and deployment pipelines. Successfully bridges the gap between raw system administration and cloud native deployment methodologies.
+## Elearning
+
+### AI Courses
+
+  - **(2026)** [Introducing OpenAI Academy Courses](https://openai.com/index/academy-courses-applying-ai-at-work) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing OpenAI Academy Courses covering AI Courses in Elearning (openai.com).
+### List
+
+  - [GCF LearnFree.org](https://www.learnfree.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GCF LearnFree.org covering List in Elearning (learnfree.org).
+  - [Udacity.com](https://www.udacity.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Udacity.com covering List in Elearning (udacity.com).
+  - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com covering List in Elearning (guru99.com).
+  - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for harvard.edu: CS50: Introduction to Computer Science (free) covering List in Elearning (pll.harvard.edu).
 ## Emerging Technology
 
 ### Machine Learning
@@ -61,12 +78,6 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 #### Course
 
   - **(2024)** [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's structured technical course on ML foundations. Covers gradient descent, model loss, deep neural networks, and scalable tensor processing, serving as an entry point for engineers integrating ML systems into modern APIs.
-## List
-
-  - [GCF LearnFree.org](https://www.learnfree.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for GCF LearnFree.org covering List in Elearning (learnfree.org).
-  - [Udacity.com](https://www.udacity.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Udacity.com covering List in Elearning (udacity.com).
-  - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com covering List in Elearning (guru99.com).
-  - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for harvard.edu: CS50: Introduction to Computer Science (free) covering List in Elearning (pll.harvard.edu).
 ## Operating Systems and Infrastructure
 
 ### Linux
@@ -173,7 +184,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
   - **(2026)** [==codely.tv==](https://codely.com/en) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production architectures.
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "About Nubenetes"
+dimension: "Architectural Foundations"
+resource_count: 16
+fresh_2025_2026_count: 12
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/about.md"
 description: "Top About resources for 2026, AI-ranked: Argo CD, AWX and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
@@ -228,7 +237,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

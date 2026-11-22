@@ -1,5 +1,14 @@
 ---
-description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "TestOps and Continuous Testing"
+dimension: "Platform & Site Reliability"
+resource_count: 22
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/testops.md"
+description: "Top TestOps resources for 2026, AI-ranked: Diffblue, copyist and more — curated Cloud Native tools, guides and references."
 ---
 # TestOps and Continuous Testing
 
@@ -9,9 +18,6 @@ description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and m
 !!! info "Architectural Context"
     Detailed reference for TestOps and Continuous Testing in the context of Platform & Site Reliability.
 
-## Continuous Testing In DevOps
-
-  - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits,' Tools](https://www.guru99.com/continuous-testing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com: What is Continuous Testing in DevOps? Definition, Benefits,' Tools covering Continuous Testing in DevOps in Testops (guru99.com).
 ## DevOps and Quality Assurance
 
 ### Continuous Testing
@@ -21,7 +27,7 @@ description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and m
   - **(2022)** [**Diffblue**](https://www.diffblue.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Looks at Diffblue's AI-driven approach to automated test generation. Utilizes automated analysis algorithms to maintain Java unit test blocks and reduce manual developer test-writing burdens.
 #### Database Mocking
 
-  - **(2020)** [**copyist**](https://github.com/cockroachdb/copyist) <span class='md-tag md-tag--info'>⭐ 853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-466eb478" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 12 L 30 10 L 40 13 L 50 7" fill="none" stroke="url(#spark-grad-466eb478)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details copyist, a Go library developed by CockroachDB to automate SQL mock generations. Records and plays back transactions to let developers perform database testing without spinning up full DBMS clusters.
+  - **(2020)** [**copyist**](https://github.com/cockroachdb/copyist) <span class='md-tag md-tag--info'>⭐ 853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-466eb478" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 12 L 30 10 L 40 13 L 50 7" fill="none" stroke="url(#spark-grad-466eb478)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details copyist, a Go library developed by CockroachDB to automate SQL mock generations. Records and plays back transactions to let developers perform database testing without spinning up full DBMS clusters.
 #### Microservices Testing
 
   - **(2021)** [**Cicada: A tool for testing microservices**](https://cicadatesting.github.io/cicada-2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces Cicada, a continuous test suite optimized for microservice applications. Streamlines complex assertions across concurrent API and event stream networks in Kubernetes-native topologies.
@@ -64,7 +70,7 @@ description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and m
 
 #### API Mocking
 
-  - **(2020)** [==Smocker (server mock) is a simple and efficient HTTP mock server==](https://github.com/smocker-dev/smocker) <span class='md-tag md-tag--info'>⭐ 1288</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e0846160" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 2 L 30 9 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-e0846160)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Smocker is an execution-efficient, REST API-driven HTTP mocking utility designed for microservice local integration testing. It allows defining dynamic request matches and custom mocking scenarios via direct YAML configurations.
+  - **(2020)** [==Smocker (server mock) is a simple and efficient HTTP mock server==](https://github.com/smocker-dev/smocker) <span class='md-tag md-tag--info'>⭐ 1288</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e0846160" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 2 L 30 9 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-e0846160)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Smocker is an execution-efficient, REST API-driven HTTP mocking utility designed for microservice local integration testing. It allows defining dynamic request matches and custom mocking scenarios via direct YAML configurations.
 ## Kubernetes Platform
 
 ### Kubernetes Security and Compliance
@@ -79,7 +85,12 @@ description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and m
 #### Application Security
 
   - **(2021)** [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.blackduck.com/blog/integrating-automated-ast-tools.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article describes how to integrate automated Application Security Testing (AST) scanners (SAST, DAST, SCA) inside CI/CD pipelines. It explains how to establish automated quality gates to prevent vulnerable code from progressing to integration and production staging layers.
-## Test Driven Development TDD
+## Testops
+
+### Continuous Testing In DevOps
+
+  - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits,' Tools](https://www.guru99.com/continuous-testing.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com: What is Continuous Testing in DevOps? Definition, Benefits,' Tools covering Continuous Testing in DevOps in Testops (guru99.com).
+### Test Driven Development TDD
 
   - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com: What is Test Driven Development (TDD)? Tutorial with Example covering Test Driven Development TDD in Testops (guru99.com).
 ## The Container Stack
@@ -91,7 +102,7 @@ description: "Top Testops resources for 2026, AI-ranked: Diffblue, copyist and m
   - [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791?gi=902871e1fce5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions covering Kubernetes Load Testing and High Load Tuning in Kubernetes Autoscaling (itnext.io).
 
 ---
-💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

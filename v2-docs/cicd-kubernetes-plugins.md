@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "CI/CD Kubernetes Plugins"
+dimension: "Engineering Pipeline"
+resource_count: 25
+fresh_2025_2026_count: 19
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/cicd-kubernetes-plugins.md"
 description: "Top CI/CD Kubernetes Plugins resources for 2026, AI-ranked: GitLab Kubernetes Agent, Jenkins Kubernetes Plugin and more — curated Cloud Native tools, guides and."
 ---
 # CI/CD Kubernetes Plugins
@@ -46,7 +55,7 @@ description: "Top CI/CD Kubernetes Plugins resources for 2026, AI-ranked: GitLab
 
 #### Kubernetes
 
-  - **(2014)** [==Kubernetes==](https://github.com/kubernetes/kubernetes) <span class='md-tag md-tag--info'>⭐ 129107</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dbad75a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 4 L 20 7 L 30 4 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-3dbad75a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-NATIVE]</span> <span class='md-tag md-tag--primary'>[CONTAINER-ORCHESTRATION]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MICROSERVICES]</span> — Kubernetes is the foundational open-source platform for managing containerized workloads and services across distributed clusters. Curator Insight: As the de facto standard for cloud-native orchestration, it provides resilient scaling, declarative configuration, and extensive extensibility via custom resources. Live Grounding confirms it continues to anchor enterprise infrastructure globally, supporting vast ecosystems of operators and plugins.
+  - **(2014)** [==Kubernetes==](https://github.com/kubernetes/kubernetes) <span class='md-tag md-tag--info'>⭐ 129107</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dbad75a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 4 L 20 7 L 30 4 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-3dbad75a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--success'>[CNCF GRADUATED]</span> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-NATIVE]</span> <span class='md-tag md-tag--primary'>[CONTAINER-ORCHESTRATION]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[MICROSERVICES]</span> — Kubernetes is the foundational open-source platform for managing containerized workloads and services across distributed clusters. Curator Insight: As the de facto standard for cloud-native orchestration, it provides resilient scaling, declarative configuration, and extensive extensibility via custom resources. Live Grounding confirms it continues to anchor enterprise infrastructure globally, supporting vast ecosystems of operators and plugins.
 ### Kubernetes (1)
 
 #### Architecture
@@ -143,7 +152,7 @@ description: "Top CI/CD Kubernetes Plugins resources for 2026, AI-ranked: GitLab
   - **(2026)** [How Netflix Simplified Batch Compute with Kueue](https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?gi=b7df13ef57ad&source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Technical documentation and implementation reference for How Netflix Simplified Batch Compute with Kueue covering Kubernetes Job Scheduling in CI/CD Kubernetes Plugins (netflixtechblog.com).
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Argo](./argo.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [GitOps](./gitops.md) | [Argo](./argo.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 

@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS Monitoring and Logging"
+dimension: "Architectural Foundations"
+resource_count: 20
+fresh_2025_2026_count: 7
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-monitoring.md"
 description: "Top AWS Monitoring resources for 2026, AI-ranked: github: ElectricEye, Sentry and more — curated Cloud Native tools, guides and references."
 ---
 # AWS Monitoring and Logging
@@ -83,7 +92,7 @@ description: "Top AWS Monitoring resources for 2026, AI-ranked: github: Electric
 
 #### Automated Auditing
 
-  - **(2024)** [==github: ElectricEye==](https://github.com/jonrau1/ElectricEye/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 1049</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c1796b3e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 4 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-c1796b3e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated cloud security assessment framework designed to continually monitor AWS environments for configuration drift, vulnerabilities, and deviations from industry standards. Outputs findings directly to AWS Security Hub.
+  - **(2024)** [==github: ElectricEye==](https://github.com/jonrau1/ElectricEye/blob/master/README.md) <span class='md-tag md-tag--info'>⭐ 1049</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c1796b3e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 4 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-c1796b3e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated cloud security assessment framework designed to continually monitor AWS environments for configuration drift, vulnerabilities, and deviations from industry standards. Outputs findings directly to AWS Security Hub.
 ## Service Discovery
 
 ### AWS Cloud Map
@@ -93,7 +102,7 @@ description: "Top AWS Monitoring resources for 2026, AI-ranked: github: Electric
   - **(2022)** [Custom Health Check: HealthCheckCustomConfig](https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide for Cloud Map API's custom health checks. Explains dynamic service discovery patterns for serverless workloads where traditional load balancer health checks are inapplicable.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Human Resources"
+dimension: "Career & Industry"
+resource_count: 3
+fresh_2025_2026_count: 3
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/hr.md"
 description: "Curated, AI-ranked HR resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Career & Industry)."
 ---
 # Human Resources
@@ -28,7 +37,7 @@ description: "Curated, AI-ranked HR resources for the 2026 Cloud Native architec
   - **(2026)** [elconfidencial.com: Olvida RRHH, ahora es el Departamento de Diversión: la infantilización del país de las 6.000 'startups'](https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study investigating modern employee retention trends in high-tech environments, specifically exploring the architectural shifts in human resources and corporate cultural structures.
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [Finops](./finops.md) | [Freelancing](./freelancing.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [FinOps](./finops.md) | [Freelancing](./freelancing.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

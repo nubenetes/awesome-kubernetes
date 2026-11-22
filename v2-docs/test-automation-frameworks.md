@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more"
+dimension: "Platform & Site Reliability"
+resource_count: 47
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/test-automation-frameworks.md"
 description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robot Framework, Tempest Testing Project and more — curated Cloud Native tools, guides and references."
 ---
 # Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more
@@ -172,7 +181,7 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
   - **(2022)** [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An engineering guide demonstrating how to leverage Selenium for scraping complex, dynamic JavaScript-rendered single-page applications where simple HTTP libraries fail. It outlines managing browser sessions, interacting with dynamic elements, bypassing basic detection systems, and extracting raw DOM data systematically.
 
 ---
-💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

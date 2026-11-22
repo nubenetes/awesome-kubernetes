@@ -1,5 +1,14 @@
 ---
-description: "Curated, AI-ranked Oraclecloud resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+type: curation-hub
+okf_version: "0.3"
+name: "Oracle Cloud Infrastructure (OCI)"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 6
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/oraclecloud.md"
+description: "Curated, AI-ranked Oracle Cloud (OCI) resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
 ---
 # Oracle Cloud Infrastructure (OCI)
 
@@ -9,9 +18,6 @@ description: "Curated, AI-ranked Oraclecloud resources for the 2026 Cloud Native
 !!! info "Architectural Context"
     Detailed reference for Oracle Cloud Infrastructure (OCI) in the context of Cloud Providers (Hyperscalers).
 
-## Artificial Intelligence
-
-  - **(2026)** [Access OpenAI Models and Codex Through Your Oracle Cloud Commitment](https://openai.com/index/openai-on-oracle-cloud) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Access OpenAI Models and Codex Through Your Oracle Cloud Commitment covering Artificial Intelligence in Oraclecloud (openai.com).
 ## Cloud Integrations
 
 ### Oracle Cloud
@@ -39,9 +45,14 @@ description: "Curated, AI-ranked Oraclecloud resources for the 2026 Cloud Native
 #### OKE
 
   - **(2023)** [Oracle Container Engine for Kubernetes (OKE)](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official product documentation for Oracle Container Engine for Kubernetes (OKE). It highlights the architectural integration of managed master nodes, native storage arrays, virtual cloud networks, and IAM profiles, delivering an enterprise-ready environment for demanding production workloads.
+## Oraclecloud
+
+### Artificial Intelligence
+
+  - **(2026)** [Access OpenAI Models and Codex Through Your Oracle Cloud Commitment](https://openai.com/index/openai-on-oracle-cloud) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Access OpenAI Models and Codex Through Your Oracle Cloud Commitment covering Artificial Intelligence in Oraclecloud (openai.com).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

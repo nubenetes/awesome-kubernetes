@@ -1,5 +1,14 @@
 ---
-description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenShift, ARO and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "OpenShift Container Platform"
+dimension: "The Container Stack"
+resource_count: 75
+fresh_2025_2026_count: 33
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/openshift.md"
+description: "Top OpenShift resources for 2026, AI-ranked: Amazon Red Hat OpenShift, ARO and more — curated Cloud Native tools, guides and references."
 ---
 # OpenShift Container Platform
 
@@ -10,7 +19,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
     Detailed reference for OpenShift Container Platform in the context of The Container Stack.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [OCP 5 (Latest)](./ocp5/) · [OCP 4](./ocp4/) · [OCP 3 (Legacy)](./ocp3/) · [OpenShift Pipelines](./openshift-pipelines/) · [OpenShift AI (RHOAI)](./enterprise-ai-platforms/)
+    [OCP 5 (Latest)](ocp5.md) · [OCP 4](ocp4.md) · [OCP 3 (Legacy)](ocp3.md) · [OpenShift Pipelines](openshift-pipelines.md) · [OpenShift AI (RHOAI)](enterprise-ai-platforms.md)
 
 ## AI
 
@@ -29,8 +38,8 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
 #### Red Hat Openshift AI (1)
 
   - **(2026)** [==Red Hat OpenShift AI (RHOAI)==](https://www.redhat.com/en/products/ai/openshift-ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Enterprise Kubernetes-native AI and MLOps platform built on Red Hat OpenShift. Live Grounding: Unifies vLLM, llm-d, KServe, Kubeflow Pipelines, KubeRay, Kueue, and InstructLab into an operator-managed turnkey stack for hybrid cloud, sovereign cloud, and air-gapped on-premises GPU deployments.
-  - **(2026)** [==llm-d (Kubernetes-Native Distributed LLM Inference)==](https://github.com/llm-d/llm-d) <span class='md-tag md-tag--info'>⭐ 5151</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-98a8d706" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 9 L 30 6 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-98a8d706)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: Co-engineered by Red Hat, Google, IBM, and NVIDIA, llm-d is a Kubernetes-native distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension. Live Grounding: Delivers disaggregated prefill/decode serving, KV-cache-aware intelligent routing, and elastic multi-host GPU scaling on OpenShift AI and standard Kubernetes clusters.
-  - **(2026)** [**OpenDataHub Operator**](https://github.com/opendatahub-io/opendatahub-operator) <span class='md-tag md-tag--info'>⭐ 110</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9880371f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 8 L 30 5 L 40 4 L 50 8" fill="none" stroke="url(#spark-grad-9880371f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Upstream open-source Kubernetes operator that powers Red Hat OpenShift AI (RHOAI). Live Grounding: Orchestrates the full lifecycle of enterprise AI/ML components on OpenShift and Kubernetes, including KServe model serving, vLLM inference runtimes, Data Science Pipelines, KubeRay distributed computing, Kueue quota scheduling, and TrustyAI observability.
+  - **(2026)** [==llm-d (Kubernetes-Native Distributed LLM Inference)==](https://github.com/llm-d/llm-d) <span class='md-tag md-tag--info'>⭐ 5151</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-98a8d706" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 9 L 30 6 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-98a8d706)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info'>[CNCF SANDBOX]</span> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: Co-engineered by Red Hat, Google, IBM, and NVIDIA, llm-d is a Kubernetes-native distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension. Live Grounding: Delivers disaggregated prefill/decode serving, KV-cache-aware intelligent routing, and elastic multi-host GPU scaling on OpenShift AI and standard Kubernetes clusters.
+  - **(2026)** [**OpenDataHub Operator**](https://github.com/opendatahub-io/opendatahub-operator) <span class='md-tag md-tag--info'>⭐ 110</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9880371f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 8 L 30 5 L 40 4 L 50 8" fill="none" stroke="url(#spark-grad-9880371f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Upstream open-source Kubernetes operator that powers Red Hat OpenShift AI (RHOAI). Live Grounding: Orchestrates the full lifecycle of enterprise AI/ML components on OpenShift and Kubernetes, including KServe model serving, vLLM inference runtimes, Data Science Pipelines, KubeRay distributed computing, Kueue quota scheduling, and TrustyAI observability.
 ## CICD
 
 ### Gitlab
@@ -65,7 +74,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
 
 #### Red Hat Openshift AI (2)
 
-  - **(2026)** [**InstructLab**](https://github.com/instructlab/instructlab) <span class='md-tag md-tag--info'>⭐ 1420</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8cae7f87" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 4 L 30 4 L 40 8 L 50 3" fill="none" stroke="url(#spark-grad-8cae7f87)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Open-source model alignment and synthetic data generation framework co-created by Red Hat and IBM Research and integrated natively into Red Hat OpenShift AI. Live Grounding: Enables enterprise teams to incrementally add domain knowledge and skills to open-source Granite and Llama foundation models using taxonomy-driven synthetic data generation.
+  - **(2026)** [**InstructLab**](https://github.com/instructlab/instructlab) <span class='md-tag md-tag--info'>⭐ 1420</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8cae7f87" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 4 L 30 4 L 40 8 L 50 3" fill="none" stroke="url(#spark-grad-8cae7f87)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Curator Insight: Open-source model alignment and synthetic data generation framework co-created by Red Hat and IBM Research and integrated natively into Red Hat OpenShift AI. Live Grounding: Enables enterprise teams to incrementally add domain knowledge and skills to open-source Granite and Llama foundation models using taxonomy-driven synthetic data generation.
 ## Data and AI
 
 ### Batch Scheduling
@@ -79,7 +88,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
 
 #### Mariadb
 
-  - **(2026)** [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) <span class='md-tag md-tag--info'>⭐ 34</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1673fd96" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 10 L 20 10 L 30 4 L 40 8 L 50 9" fill="none" stroke="url(#spark-grad-1673fd96)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official SCLOrg MariaDB container image optimized specifically for Kubernetes platforms. Includes integrated security scripts, support for arbitrary non-root UID execution, and custom database initialization configurations.
+  - **(2026)** [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) <span class='md-tag md-tag--info'>⭐ 34</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1673fd96" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 10 L 20 10 L 30 4 L 40 8 L 50 9" fill="none" stroke="url(#spark-grad-1673fd96)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official SCLOrg MariaDB container image optimized specifically for Kubernetes platforms. Includes integrated security scripts, support for arbitrary non-root UID execution, and custom database initialization configurations.
 ## Infrastructure
 
 ### Artifact Repositories
@@ -130,7 +139,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
 
 #### Awesome Lists
 
-  - **(2020)** [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8aae42ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 12 L 30 13 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-8aae42ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging administration guides, tools, operators, and integration scripts specialized for Red Hat OpenShift 3.x cluster topologies.
+  - **(2020)** [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8aae42ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 12 L 30 13 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-8aae42ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ CC-BY-4.0</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging administration guides, tools, operators, and integration scripts specialized for Red Hat OpenShift 3.x cluster topologies.
 ### Security
 
 #### Architecture
@@ -138,27 +147,35 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
   - **(2018)** [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This seminal architectural analysis details patterns for deploying OpenShift across physical and logical enterprise network security zones. Contrasts legacy perimeter firewall zoning models with flat cloud-native Software-Defined Networks (SDNs), providing proven coexistence topologies.
 #### Network Policies
 
-  - **(2020)** [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy) <span class='md-tag md-tag--info'>⭐ 236</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2e739b2c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 3 L 30 6 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-2e739b2c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developed by the Red Hat Community of Practice, this repository provides highly standardized, reusable NetworkPolicy templates. While early implementations relied on basic IP blocks, live engineering practices in 2026 demand these profiles for enforcing zero-trust namespaces.
-## Network Security Zones
+  - **(2020)** [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy) <span class='md-tag md-tag--info'>⭐ 236</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2e739b2c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 3 L 30 6 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-2e739b2c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developed by the Red Hat Community of Practice, this repository provides highly standardized, reusable NetworkPolicy templates. While early implementations relied on basic IP blocks, live engineering practices in 2026 demand these profiles for enforcing zero-trust namespaces.
+## Openshift (2)
+
+### Network Security Zones
 
   - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟 covering Network Security Zones in Openshift (stackoverflow.com).
-## Openshift 4 Deployment On Vmware Vsphere
+### Openshift 4 Deployment On Vmware Vsphere
 
   - [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.redhat.com/en/blog/deploying-openshift-4.4-to-vmware-vsphere-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Deploying OpenShift 4.4 to VMware vSphere 7 🌟 covering OpenShift 4 deployment on VMWare vSphere in Openshift (redhat.com).
   - [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit covering OpenShift 4 deployment on VMWare vSphere in Openshift (reddit.com).
-## Openshift Egress
+### Openshift Egress
 
   - [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: OpenShift Egress Options covering OpenShift Egress in Openshift (dzone.com).
   - [How to Enable Static Egress IP in OCP](https://www.redhat.com/en/blog/how-to-enable-static-egress-ip-in-ocp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to Enable Static Egress IP in OCP covering OpenShift Egress in Openshift (redhat.com).
-## Openshift Network Model And Network Policy
+### Openshift Network Model And Network Policy
 
   - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/networkpolicies-and-microsegmentation) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for NetworkPolicies and Microsegmentation covering OpenShift Network Model and Network Policy in Openshift (redhat.com).
-## Openshift On Public Cloud
+### Openshift On Public Cloud
 
   - [OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for OpenShift Dedicated covering OpenShift on Public Cloud in Openshift (redhat.com).
-## Openshift Route And Openshift Ingress
+### Openshift Route And Openshift Ingress
 
   - [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.redhat.com/en/blog/kubernetes-ingress-vs-openshift-route)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for openshift.com: Kubernetes Ingress vs OpenShift Route covering OpenShift Route and OpenShift Ingress in Openshift (redhat.com).
+### Security (1)
+
+  - [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599?gi=140333d6ee28) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ### How is OpenShift Container Platform Secured?
+### Security Context Constraints
+
+  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ref3 covering Security Context Constraints in Openshift (dzone.com).
 ## Orchestration and Packaging
 
 ### Networking (1)
@@ -213,7 +230,7 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
   - **(2024)** [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally a portal dedicated to discovering, buying, and provisioning certified operators and third-party software on OpenShift. While the standalone portal has transitioned, the actual operational flow has been assimilated directly into the internal OpenShift OperatorHub interface.
 ### Enterprise Kubernetes
 
-#### Openshift (2)
+#### Openshift (3)
 
   - **(2025)** [rcarrata.com](https://rcarrata.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Roberto Carratalá's technical blog features deep architectural explorations of OpenShift and enterprise Kubernetes setups. It is packed with real-world scenarios covering OAuth integrations, ingress routing configurations, and security hardeners.
 ### Kubernetes Distributions (1)
@@ -283,12 +300,6 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
 #### Public Sector
 
   - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
-## Security (1)
-
-  - [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599?gi=140333d6ee28) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ### How is OpenShift Container Platform Secured?
-## Security Context Constraints
-
-  - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ref3 covering Security Context Constraints in Openshift (dzone.com).
 ## Software Engineering
 
 ### Base Images
@@ -305,5 +316,5 @@ description: "Top Openshift resources for 2026, AI-ranked: Amazon Red Hat OpenSh
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

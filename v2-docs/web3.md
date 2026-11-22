@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Web 3"
+dimension: "Developer Ecosystem"
+resource_count: 3
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/web3.md"
 description: "Curated, AI-ranked Web3 resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
 ---
 # Web 3
@@ -26,7 +35,7 @@ description: "Curated, AI-ranked Web3 resources for the 2026 Cloud Native archit
   - **(2021)** [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Ethereum co-founder and Polkadot creator Gavin Wood on the engineering philosophy behind Web3. Wood details the transition from trusting centralized authorities to relying on cryptographic truth, smart contracts, and decentralized state machines to enforce transparency.
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

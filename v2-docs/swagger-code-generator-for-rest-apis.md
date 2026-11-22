@@ -1,5 +1,14 @@
 ---
-description: "Curated, AI-ranked Swagger Code Generator For Rest APIs resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+type: curation-hub
+okf_version: "0.3"
+name: "Swagger code generator for REST APIs"
+dimension: "Developer Ecosystem"
+resource_count: 5
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/swagger-code-generator-for-rest-apis.md"
+description: "Curated, AI-ranked Swagger / OpenAPI Codegen resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
 ---
 # Swagger code generator for REST APIs
 
@@ -37,10 +46,10 @@ description: "Curated, AI-ranked Swagger Code Generator For Rest APIs resources 
 
 #### Swagger Codegen
 
-  - **(2015)** [**Swagger Codegen**](https://github.com/swagger-api/swagger-codegen) <span class='md-tag md-tag--info'>⭐ 17793</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eda1e66e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 8 L 30 13 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-eda1e66e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
+  - **(2015)** [**Swagger Codegen**](https://github.com/swagger-api/swagger-codegen) <span class='md-tag md-tag--info'>⭐ 17793</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eda1e66e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 8 L 30 13 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-eda1e66e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

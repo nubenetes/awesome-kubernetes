@@ -1,5 +1,14 @@
 ---
-description: "Top Noops resources for 2026, AI-ranked: 7 arguments against NoOps, Dzone: What Is NoOps? and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "NoOps aka Serverless"
+dimension: "The Container Stack"
+resource_count: 7
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/noops.md"
+description: "Top NoOps resources for 2026, AI-ranked: 7 arguments against NoOps, Dzone: What Is NoOps? and more — curated Cloud Native tools, guides and references."
 ---
 # NoOps aka Serverless
 
@@ -27,12 +36,14 @@ description: "Top Noops resources for 2026, AI-ranked: 7 arguments against NoOps
 #### Noops Execution
 
   - **(2021)** [Serverless Computing: Moving from DevOps to NoOps](https://devops.com/serverless-computing-moving-from-devops-to-noops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how serverless architectures drive NoOps execution. Emphasizes shifting operations responsibilities (e.g., node provisioning, patching, scaling) to public cloud platforms, allowing developers to focus strictly on code components.
-## General Reference
+## Noops
+
+### General Reference
 
   - [Dzone: What Is NoOps?](https://dzone.com/articles/what-is-noops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Dzone: What Is NoOps? in the Noops ecosystem (dzone.com).
 
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

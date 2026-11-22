@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS DevOps. AWS CodePipeline"
+dimension: "Architectural Foundations"
+resource_count: 18
+fresh_2025_2026_count: 7
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-devops.md"
 description: "Top AWS DevOps resources for 2026, AI-ranked: Amazon DevOps Guru, AWS DevOps Blog and more — curated Cloud Native tools, guides and references."
 ---
 # AWS DevOps. AWS CodePipeline
@@ -79,7 +88,7 @@ description: "Top AWS DevOps resources for 2026, AI-ranked: Amazon DevOps Guru, 
   - **(2021)** [thenewstack.io: Making Kubernetes Serverless and Global with AWS Fargate on EKS and Admiralty](https://thenewstack.io/making-kubernetes-serverless-and-global-with-aws-fargate-on-eks-and-admiralty) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigative analysis showcasing how Admiralty can coordinate with AWS Fargate serverless containers in an EKS environment to deploy globally distributed applications with low operational overhead.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
 🔗 **See Also:** [AWS](./aws.md) | [MLOps](./mlops.md)
 

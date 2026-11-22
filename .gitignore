@@ -352,6 +352,7 @@ MigrationBackup/
 src/__pycache__/
 *.json
 !data/news_digest.json
+!v2-docs/api/index.json
 .env
 nubenetes_agent_env/
 .venv/

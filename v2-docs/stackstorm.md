@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "StackStorm"
+dimension: "Architectural Foundations"
+resource_count: 2
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/stackstorm.md"
 description: "Curated, AI-ranked Stackstorm resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # StackStorm
@@ -19,7 +28,7 @@ description: "Curated, AI-ranked Stackstorm resources for the 2026 Cloud Native 
   - **(2025)** [StackStorm.com](https://stackstorm.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated workflow, remediation, and orchestration engine. Utilizes event-driven triggers, custom rules, and structured packs to deliver self-healing capabilities across cloud, network, and system infrastructures.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

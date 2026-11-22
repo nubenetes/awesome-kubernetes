@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS Serverless"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 47
+fresh_2025_2026_count: 5
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-serverless.md"
 description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limits, AWS Step Functions and more — curated Cloud Native tools, guides and references."
 ---
 # AWS Serverless
@@ -136,7 +145,7 @@ description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limit
 
 #### Infrastructure Translation
 
-  - **(2023)** [==github.com/awslabs/specctl==](https://github.com/awslabs/specctl) <span class='md-tag md-tag--info'>⭐ 258</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-652425c6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 10 L 30 7 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-652425c6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized security tool developed by AWS Labs to parse, extract, and map standard Kubernetes manifest objects or ECS task definitions directly into AWS infrastructure controls. Analyzes security and network isolation requirements.
+  - **(2023)** [==github.com/awslabs/specctl==](https://github.com/awslabs/specctl) <span class='md-tag md-tag--info'>⭐ 258</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-652425c6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 10 L 30 7 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-652425c6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized security tool developed by AWS Labs to parse, extract, and map standard Kubernetes manifest objects or ECS task definitions directly into AWS infrastructure controls. Analyzes security and network isolation requirements.
 ### Secret Management
 
 #### Go Runtime
@@ -202,7 +211,7 @@ description: "Top AWS Serverless resources for 2026, AI-ranked: AWS Lambda Limit
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Kubernetes Tools](./kubernetes-tools.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Kubernetes Tools](./kubernetes-tools.md)
 

@@ -26,6 +26,7 @@ from src.logger import log_event
 from src.inventory_manager import update_inventory_entry
 from src.awesome_page import build_awesome_lists_header
 from src.enrichment import compute_momentum_score
+from src.fast_enrich import get_readable_category, is_boilerplate_summary
 
 
 def nuclear_strip(text: str) -> str:
@@ -602,6 +603,9 @@ class V2VisionEngine:
                     entry_item["is_special"] = True
                 project_registry[pid] = entry_item
 
+        boilerplate_refresh_budget = int(os.getenv("BOILERPLATE_REFRESH_LIMIT", "150"))
+        boilerplate_queued = 0
+
         for l in links:
             item = l.copy()
             v1_title = nuclear_strip(l.get("title", ""))
@@ -641,11 +645,22 @@ class V2VisionEngine:
                 eval_stale = False
                 if last_eval and isinstance(last_eval, str) and len(last_eval) >= 10:
                     try:
-                        eval_age = (datetime.now(MADRID_TZ) - datetime.fromisoformat(last_eval)).days
+                        eval_dt = datetime.fromisoformat(last_eval.replace("Z", "+00:00"))
+                        if eval_dt.tzinfo is None:
+                            eval_dt = eval_dt.replace(tzinfo=MADRID_TZ)
+                        eval_age = (datetime.now(MADRID_TZ) - eval_dt).days
                         eval_stale = eval_age > 180
-                    except Exception:
-                        pass
-                if ((cached.get("hierarchy") and cached.get("ai_summary") and not eval_stale) or self.render_only) and not force_eval:
+                    except Exception as e:
+                        log_event(f"[WARN] parse last_ai_eval for {norm_url}: {str(e)[:100]}")
+                needs_boilerplate_upgrade = (
+                    not self.render_only
+                    and is_boilerplate_summary(cached.get("ai_summary"))
+                    and boilerplate_queued < boilerplate_refresh_budget
+                    and (cached.get("stars") or 0) >= 3
+                )
+                if needs_boilerplate_upgrade:
+                    boilerplate_queued += 1
+                elif ((cached.get("hierarchy") and cached.get("ai_summary") and not eval_stale) or self.render_only) and not force_eval:
                     _register_project(project_id, item)
                     continue
             elif self.render_only and not force_eval:
@@ -653,9 +668,7 @@ class V2VisionEngine:
                 clean_desc = re.sub(r'^[\s\-–—:🌟]+', '', l.get("description", "")).strip()
                 star_count = max(3, min(5, l.get("description", "").count("🌟") + 2)) if "🌟" in l.get("description", "") else 3
                 dim = file_to_dim.get(orig_file, "Architectural Foundations")
-                page_title = orig_file.replace(".md", "").replace("-", " ").title()
-                for _k, _v in {"Ocp3": "OCP 3", "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Ai": "AI", "Mcp": "MCP", "Rag": "RAG", "Okf": "OKF", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", "Api": "API", "Sre": "SRE", "Cicd": "CI/CD"}.items():
-                    page_title = page_title.replace(_k, _v)
+                page_title = get_readable_category(orig_file)
                 fallback_entry = {
                     "title": v1_title or item.get("title", "Resource"),
                     "description": l.get("description", ""),
@@ -1028,17 +1041,7 @@ class V2VisionEngine:
                     continue
                 
                 if orig_file not in v2_structure:
-                    short_title = orig_file.replace(".md", "").replace("-", " ").title()
-                    # Custom mapping for known acronyms (Mandate 32)
-                    acronyms = {
-                        "Ai": "AI", "Mcp": "MCP", "Rag": "RAG", "Okf": "OKF", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
-                        "Api": "API", "Sre": "SRE", "Cicd": "CI/CD", "Ocp3": "OCP 3", 
-                        "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
-                        "Chatgpt": "ChatGPT", "Mlops": "MLOps", "Devops": "DevOps",
-                        "Hr": "HR", "Qa": "QA"
-                    }
-                    for k, v in acronyms.items():
-                        short_title = short_title.replace(k, v)
+                    short_title = get_readable_category(orig_file)
                     
                     long_title = short_title
                     v1_path = os.path.join("docs", orig_file)
@@ -1174,6 +1177,27 @@ class V2VisionEngine:
         )
         return svg
 
+    @staticmethod
+    def _is_historical_item(item: Dict) -> bool:
+        """Identify legacy or pre-2022 historical resources suitable for collapsible archival."""
+        tags = set(item.get("tags") or [])
+        if "[LEGACY]" in tags:
+            return True
+        cncf_status = str(item.get("cncf_status") or "").lower()
+        if cncf_status in ("graduated", "incubating"):
+            return False
+        gh_pushed = str(item.get("gh_pushed") or "").strip()
+        if len(gh_pushed) >= 4 and gh_pushed[:4].isdigit():
+            pushed_year = int(gh_pushed[:4])
+            if pushed_year >= 2024:
+                return False
+            if pushed_year <= 2021:
+                return True
+        year_str = str(item.get("year") or "").strip()
+        if year_str.isdigit() and int(year_str) <= 2021:
+            return True
+        return False
+
     async def _render_single_link(self, l: Dict, is_intro: bool) -> str:
         md = ""
         is_gold = is_intro and (l.get("stars") or 0) >= 4
@@ -1194,6 +1218,25 @@ class V2VisionEngine:
             sparkline = ""
             if l.get('gh_stars'):
                 sparkline = " " + self.generate_sparkline_svg(l['url'], l.get('gh_stars', 0))
+
+            # Inline Trust Badges: CNCF Maturity & Verified OSS License
+            cncf_status = str(l.get("cncf_status") or "").strip().lower()
+            existing_tags_upper = {str(t).upper() for t in (l.get("tags") or [])}
+            cncf_tag = ""
+            if cncf_status in ("graduated", "incubating", "sandbox"):
+                cncf_label = f"[CNCF {cncf_status.upper()}]"
+                if cncf_label not in existing_tags_upper:
+                    cncf_color = {"graduated": "success", "incubating": "primary", "sandbox": "info"}[cncf_status]
+                    cncf_tag = f" <span class='md-tag md-tag--{cncf_color}'>{cncf_label}</span>"
+
+            lic_raw = str(l.get("gh_license") or "").strip()
+            lic_tag = ""
+            if lic_raw and lic_raw.upper() not in ("N/A", "NONE", "NOASSERTION", "NULL", "UNKNOWN", "OTHER"):
+                lic_upper = lic_raw.upper()
+                if any(tok in lic_upper for tok in ("BSL", "BUSL", "SSPL", "ELV2", "AGPL")):
+                    lic_tag = f" <span class='md-tag md-tag--critical' title='Restrictive or strong-copyleft license'>⚖️ {lic_raw}</span>"
+                else:
+                    lic_tag = f" <span class='md-tag md-tag--info' title='Open-source license'>⚖️ {lic_raw}</span>"
             
             icon = " 🎥" if l.get("is_video") else ""
             lang = str(l.get("language") or "English").strip()
@@ -1230,7 +1273,7 @@ class V2VisionEngine:
             elif raw_stars >= 4:
                 link_content = f"**{link_content}**"
             
-            md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{sparkline}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}"
+            md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{sparkline}{cncf_tag}{lic_tag}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}"
 
             # Layer 2: High-Density Technical Summary (Always Visible Inline)
             summary = l.get('ai_summary', l.get('description', '')) or ''
@@ -1632,31 +1675,47 @@ class V2VisionEngine:
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         pulse_md = self._build_trending_now_md()
         
-        # Calculate coverage for the index
-        total_v1 = len(self.inventory)
+        # Calculate honest trust & coverage metrics for the index
+        total_v1 = len([u for u, m in self.inventory.items() if not u.startswith("INTRO:") and isinstance(m, dict)])
         v2_links_all = [dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("v2_locations")]
         total_v2 = len(v2_links_all)
-        v2_efficiency = round((total_v2 / total_v1) * 100, 2) if total_v1 > 0 else 0
-        enriched = len([l for l in v2_links_all if l.get('hierarchy') or l.get('ai_summary')])
-        coverage_pct = round((enriched / total_v2) * 100, 2) if total_v2 > 0 else 0
-        
-        # GitHub Metadata Coverage for index
+        v2_efficiency = round((total_v2 / total_v1) * 100, 1) if total_v1 > 0 else 0
+        verified_online = len([l for l in v2_links_all if l.get("status") == "online"])
+        verified_pct = round((verified_online / total_v2) * 100, 1) if total_v2 > 0 else 0
+        fresh_recent = len([
+            l for l in v2_links_all
+            if str(l.get("year") or "").strip() in ("2025", "2026")
+            or str(l.get("gh_pushed") or "").strip()[:4] in ("2025", "2026")
+        ])
+        deep_ai = len([l for l in v2_links_all if not is_boilerplate_summary(l.get("ai_summary"))])
+        deep_pct = round((deep_ai / total_v2) * 100, 1) if total_v2 > 0 else 0
+        baseline_mapped = max(total_v2 - deep_ai, 0)
+        cncf_tracked = len([l for l in v2_links_all if str(l.get("cncf_status") or "").lower() in ("graduated", "incubating", "sandbox")])
+
+        # GitHub Metadata & License Coverage for index
         gh_links = [l for l in v2_links_all if "github.com" in str(l.get('url', ''))]
         total_gh = len(gh_links)
         gh_meta = len([l for l in gh_links if l.get('gh_stars') is not None])
-        gh_coverage = round((gh_meta / total_gh) * 100, 2) if total_gh > 0 else 0
+        gh_coverage = round((gh_meta / total_gh) * 100, 1) if total_gh > 0 else 0
+        gh_licensed = len([
+            l for l in gh_links
+            if str(l.get("gh_license") or "").strip().upper() not in ("", "N/A", "NONE", "NOASSERTION", "NULL", "UNKNOWN")
+        ])
 
         coverage_info = (
-            "\n??? info \"Knowledge Architecture and AI Coverage Status\"\n"
-            "    The Nubenetes Elite Portal operates on a dual-layer knowledge architecture:\n"
-            "    1. **Elite Layer (AI-Enriched)**: Resources individually analyzed by our Agentic AI with high-density summaries and hierarchical indexing.\n"
-            "    2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.\n\n"
-            "    **Current Inventory Coverage:**\n"
-            f"    - **V1 Base Inventory**: {total_v1} total resources analyzed.\n"
-            f"    - **V2 Elite Selection**: {total_v2} candidates identified ({v2_efficiency}% density ratio).\n"
-            f"    - **AI Enrichment Coverage**: {enriched} / {total_v2} ({coverage_pct}%)\n"
-            f"    - **GitHub Metadata Coverage**: {gh_meta} / {total_gh} ({gh_coverage}%) - *Critical for Maturity Tagging*\n"
-            "    - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.\n"
+            "\n??? info \"Knowledge Architecture, Trust Signals and AI Coverage Status\"\n"
+            "    The Nubenetes Elite Portal operates on a transparent, verifiable dual-layer architecture:\n"
+            "    1. **Deep AI-Synthesized Layer**: Resources with bespoke architectural summaries, trade-offs, and hierarchical indexing.\n"
+            "    2. **Baseline-Mapped Layer**: Verified links mapped into the taxonomy and progressively upgraded during scheduled weekly AI sweeps.\n\n"
+            "    **Verified Inventory & Trust Metrics:**\n"
+            f"    - **V1 Base Archive**: {total_v1:,} total resources indexed since 2018.\n"
+            f"    - **V2 Elite Selection**: {total_v2:,} curated references ({v2_efficiency}% density ratio).\n"
+            f"    - **Verified Online Links**: {verified_online:,} / {total_v2:,} ({verified_pct}%)\n"
+            f"    - **Fresh Ecosystem Signal (2025–2026)**: {fresh_recent:,} recently published or actively maintained resources.\n"
+            f"    - **Deep AI Architectural Summaries**: {deep_ai:,} / {total_v2:,} ({deep_pct}%) *(+{baseline_mapped:,} baseline-mapped entries queued for progressive refresh)*\n"
+            f"    - **GitHub Metadata & SPDX Licenses**: {gh_meta:,} / {total_gh:,} ({gh_coverage}%) repositories tracked ({gh_licensed:,} with verified open-source licenses)\n"
+            f"    - **CNCF Landscape Projects Tracked**: {cncf_tracked} projects (Graduated, Incubating, Sandbox)\n"
+            "    - **OKF v0.3 & AI Endpoints**: [`/llms.txt`](/llms.txt) · [`/llms-full.txt`](/llms-full.txt) · [`/api/index.json`](/api/index.json)\n"
         )
 
         # Label Heatmap for the index: identical tag aggregation to the Tags page
@@ -1672,6 +1731,14 @@ class V2VisionEngine:
         )
 
         index_md = (
+            "---\n"
+            "type: portal-index\n"
+            "okf_version: \"0.3\"\n"
+            "name: \"Nubenetes V2 Elite Portal — Awesome Kubernetes & Cloud Native AI\"\n"
+            "trust: verified\n"
+            "freshness: active\n"
+            "description: \"AI-curated, high-density Cloud Native & Kubernetes portal: Enterprise AI, MCP, RAG & OKF, OpenShift 5, eBPF, GitOps, and verified CNCF architectures.\"\n"
+            "---\n"
             "# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
             "!!! tip \"Nubenetes V2 Elite Portal: AI-Curated & High-Density\"\n"
             "    You are browsing the AI-Curated V2 Elite Edition of Nubenetes. Looking for the complete historical archive? Explore the [**V1 Historical Archive**](/v1/).\n\n"
@@ -1745,7 +1812,7 @@ class V2VisionEngine:
             "      <div class=\"hero-badge-subtitle\">Introduction Guide</div>\n"
             "    </div>\n"
             "  </a>\n"
-            "  <a href=\"./other-awesome-lists/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
+            "  <a href=\"/other-awesome-lists/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--gold\">\n"
             "      <img src=\"/images/awesome-lists-cover.svg\" alt=\"Awesome Lists\"/>\n"
             "      <div class=\"hero-badge-title\">Awesome Lists</div>\n"
@@ -1767,9 +1834,11 @@ class V2VisionEngine:
             # to the matching section on the Technical Tags page (cross-page).
             f"{index_heatmap}"
             "---\n\n"
-            "**Reference:** [🗺️ Full Topic Map](./topic-map/) · "
-            "[📐 Methodology &amp; Maturity Taxonomy](./methodology/) · "
-            "[🎥 Agentic Video Hub](./videos/index.md)\n"
+            "**Reference:** [🗺️ Full Topic Map](topic-map.md) · "
+            "[📐 Methodology &amp; Maturity Taxonomy](methodology.md) · "
+            "[🎥 Agentic Video Hub](videos/index.md) · "
+            "[🤖 llms-full.txt](/llms-full.txt) · "
+            "[📦 JSON Catalog](/api/index.json)\n"
         )
 
         # Group by dimension (shared by the Topic Map directory page below).
@@ -1905,7 +1974,44 @@ class V2VisionEngine:
         
         with open(os.path.join(V2_DIR, "methodology.md"), "w") as f: f.write(methodology_md)
 
-        async def render_node(node, depth, base_slug, used_headers, is_intro=False):
+        special_file_set = {sa["file"] for sa in self.special_assets_rules.get("special_assets", [])}
+        archive_exempt_pages = special_file_set | {"introduction.md", "about.md", "ocp3.md"}
+
+        async def _render_link_group(links_list: List[Dict], is_intro: bool, allow_archive: bool) -> str:
+            if not allow_archive:
+                out = ""
+                for l in links_list:
+                    out += await self._render_single_link(l, is_intro)
+                return out
+            active_links = []
+            historical_links = []
+            for l in links_list:
+                if self._is_historical_item(l):
+                    historical_links.append(l)
+                else:
+                    active_links.append(l)
+            # Only collapse historical references when there is a meaningful mix of active and legacy items
+            if len(active_links) < 2 or len(historical_links) < 2:
+                out = ""
+                for l in links_list:
+                    out += await self._render_single_link(l, is_intro)
+                return out
+            out = ""
+            for l in active_links:
+                out += await self._render_single_link(l, is_intro)
+            out += f"\n??? archive \"Historical and Legacy References ({len(historical_links)} pre-2022 or legacy items)\"\n\n"
+            for l in historical_links:
+                rendered = await self._render_single_link(l, False)
+                rendered_lines = rendered.rstrip("\n").split("\n")
+                for idx_line, r_line in enumerate(rendered_lines):
+                    if idx_line == 0:
+                        out += "    " + r_line.lstrip() + "\n"
+                    else:
+                        out += "      " + r_line.lstrip() + "\n"
+            out += "\n"
+            return out
+
+        async def render_node(node, depth, base_slug, used_headers, is_intro=False, allow_archive=True):
             md = ""
             # Mandate: Process links at this level FIRST if they have NO further hierarchy
             # This handles links that are candidates but haven't been deeply classified yet (orphans)
@@ -1913,8 +2019,7 @@ class V2VisionEngine:
                 orphan_links = node["__links__"]
                 if orphan_links:
                     md += "## Standard Reference\n\n"
-                    for l in orphan_links:
-                        md += await self._render_single_link(l, is_intro)
+                    md += await _render_link_group(orphan_links, is_intro, allow_archive)
                     md += "\n"
 
             for name, subnode in sorted(node.items()):
@@ -1937,11 +2042,10 @@ class V2VisionEngine:
                 if depth == 1 and "__links__" in subnode: 
                     md += await self._generate_comparison_table(subnode["__links__"])
                 
-                md += await render_node(subnode, depth + 1, slug, used_headers, is_intro)
+                md += await render_node(subnode, depth + 1, slug, used_headers, is_intro, allow_archive)
             
             if "__links__" in node and depth >= 0:
-                for l in node["__links__"]:
-                    md += await self._render_single_link(l, is_intro)
+                md += await _render_link_group(node["__links__"], is_intro, allow_archive)
             return md
 
         for f_name, info in data.items():
@@ -2000,8 +2104,27 @@ class V2VisionEngine:
             _seo_desc = _seo_desc.replace("\\", " ").replace('"', "'").replace("\n", " ").strip()
             if len(_seo_desc) > 165:
                 _seo_desc = _seo_desc[:162].rsplit(" ", 1)[0].rstrip(" ,;:—-") + "."
+            _total_page_count = len(_page_links)
+            _fresh_page_count = sum(
+                1 for _l in _page_links
+                if str(_l.get("year") or "").strip() in ("2025", "2026")
+                or str(_l.get("gh_pushed") or "").strip()[:4] in ("2025", "2026")
+            )
+            _freshness_state = "active" if _fresh_page_count > 0 else "historical"
+            _okf_title = re.sub(r'[\U0001F000-\U0001FAFF☀-➿⭐⭕️]', '', str(info.get("long_title") or info.get("title") or "")).strip()
+            _okf_title = (_okf_title or str(info.get("title") or "")).replace("\\", " ").replace('"', "'").strip()
+            _okf_dim = str(info.get("dim") or "Architectural Foundations").replace("\\", " ").replace('"', "'").strip()
             md = (
                 f"---\n"
+                f"type: curation-hub\n"
+                f"okf_version: \"0.3\"\n"
+                f"name: \"{_okf_title}\"\n"
+                f"dimension: \"{_okf_dim}\"\n"
+                f"resource_count: {_total_page_count}\n"
+                f"fresh_2025_2026_count: {_fresh_page_count}\n"
+                f"trust: verified\n"
+                f"freshness: {_freshness_state}\n"
+                f"provenance: \"https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/{f_name}\"\n"
                 f"description: \"{_seo_desc}\"\n"
                 f"---\n"
                 f"# {info['long_title']}\n\n"
@@ -2020,7 +2143,7 @@ class V2VisionEngine:
                     if (f"{c}.md" in data) or os.path.exists(os.path.join(V2_DIR, f"{c}.md"))
                 ]
                 if _children:
-                    _child_links = " · ".join(f"[{lbl}](./{c}/)" for (c, lbl) in _children)
+                    _child_links = " · ".join(f"[{lbl}]({c}.md)" for (c, lbl) in _children)
                     md += (
                         f"!!! abstract \"Deep-Dive Topic Pages\"\n"
                         f"    {_child_links}\n\n"
@@ -2122,7 +2245,14 @@ class V2VisionEngine:
                 )
 
 
-            _body = await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
+            _body = await render_node(
+                info["content"],
+                -1,
+                f_name.replace(".md", ""),
+                used_headers,
+                is_intro=(f_name == "introduction.md" or f_name == "about.md"),
+                allow_archive=(f_name not in archive_exempt_pages),
+            )
             
             if f_name == "jenkins.md":
                 dsl_injection = """
@@ -2681,17 +2811,19 @@ class V2VisionEngine:
             with open(target_path, "w") as f: f.write(md)
 
     def _generate_llms_txt(self, v2_structure: Dict[str, Dict]):
-        """Generate v2-docs/llms.txt following the llms.txt specification for AI agents."""
+        """Generate v2-docs/llms.txt, v2-docs/llms-full.txt, and v2-docs/api/index.json (OKF v0.3)."""
         lines = [
             "# Nubenetes V2 Elite Portal — Awesome Kubernetes & Cloud Native AI",
             "",
-            "> Enterprise-grade, AI-curated reference portal for Kubernetes, Cloud Native infrastructure, Agentic AI/MCP systems, MLOps/GPU scheduling, eBPF networking, GitOps, and Platform Engineering (https://nubenetes.com/).",
+            "> Enterprise-grade, AI-curated reference portal for Kubernetes, Cloud Native infrastructure, Agentic AI/MCP systems, RAG & OKF knowledge stacks, OpenShift 5, MLOps/GPU scheduling, eBPF networking, GitOps, and Platform Engineering (https://nubenetes.com/).",
             "",
-            "## Core Portal Hubs",
+            "## Core Portal Hubs & Machine-Readable Endpoints",
             "",
             "- [The 2026 Vision (Home)](https://nubenetes.com/): High-density entry point with Trending Now, Label Heatmap, and ecosystem overview.",
+            "- [Full Curated Corpus (llms-full.txt)](https://nubenetes.com/llms-full.txt): Single-file extended markdown digest of the top 300 flagship Cloud Native & AI resources with GitHub stars, licenses, CNCF maturity, and summaries.",
+            "- [Static JSON Catalog (/api/index.json)](https://nubenetes.com/api/index.json): Machine-readable OKF v0.3 JSON index of all categories, verified trust metrics, freshness counts, and top resources.",
             "- [Full Topic Map](https://nubenetes.com/topic-map/): Complete directory of all curated Cloud Native and AI categories.",
-            "- [Technical Tags Index](https://nubenetes.com/tags/): Resources indexed by maturity ([DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING]) and technical stack ([MCP], [GPU], [LLM], [EBPF], [GITOPS]).",
+            "- [Technical Tags Index](https://nubenetes.com/tags/): Resources indexed by maturity ([DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING]) and technical stack ([MCP], [RAG], [OKF], [GPU], [LLM], [EBPF], [GITOPS]).",
             "- [Tech & Cloud Intelligence Digest](https://nubenetes.com/tech-digest/): Rolling 3/6/12-month top picks across 22 technical domains.",
             "- [Methodology & Maturity Taxonomy](https://nubenetes.com/methodology/): Explanation of the 5-tier maturity taxonomy and composite momentum scoring.",
             "- [V1 Exhaustive Historical Archive](https://nubenetes.com/v1/): Full 19,000+ link historical archive since 2018.",
@@ -2717,30 +2849,44 @@ class V2VisionEngine:
                 lines.append(f"- [{title}](https://nubenetes.com/{slug}/)")
             lines.append("")
 
-        # Collect top Platinum (5-star) & AI/K8s De Facto Standard references
-        top_refs: Dict[str, Dict] = {}
-
-        def _collect_top(node):
+        def _collect_all_links(node, acc):
             for l in node.get("__links__", []):
-                if (l.get("stars") or 0) >= 5 or "[DE FACTO STANDARD]" in l.get("tags", []):
-                    nu = normalize_url(l["url"])
-                    if nu not in top_refs:
-                        top_refs[nu] = l
+                acc.append(l)
             for k, v in node.items():
                 if k != "__links__" and isinstance(v, dict):
-                    _collect_top(v)
+                    _collect_all_links(v, acc)
+            return acc
 
-        for info in v2_structure.values():
-            _collect_top(info["content"])
-
-        sorted_top = sorted(
-            top_refs.values(),
-            key=lambda x: (
+        def _rank_key(x: Dict):
+            yr = int(x["year"]) if str(x.get("year", "")).isdigit() else 0
+            return (
                 -(x.get("stars") or 0),
                 -float(x.get("momentum_score") or compute_momentum_score(x)),
+                -(int(x["gh_stars"]) if str(x.get("gh_stars", "")).isdigit() else 0),
+                -yr,
                 str(x.get("title") or "").lower(),
-            ),
-        )[:60]
+                str(x.get("url") or "").lower(),
+            )
+
+        # Collect top flagship references deterministically across all pages
+        top_refs: Dict[str, Tuple[str, Dict]] = {}
+        elite_pool: Dict[str, Tuple[str, Dict]] = {}
+        for f_name in sorted(v2_structure.keys()):
+            info = v2_structure[f_name]
+            dim_name = info["dim"]
+            for l in _collect_all_links(info["content"], []):
+                nu = normalize_url(l["url"])
+                tags = l.get("tags", [])
+                stars = l.get("stars") or 0
+                cncf = str(l.get("cncf_status") or "").lower()
+                if stars >= 5 or "[DE FACTO STANDARD]" in tags:
+                    if nu not in top_refs or _rank_key(l) < _rank_key(top_refs[nu][1]):
+                        top_refs[nu] = (dim_name, l)
+                if stars >= 4 or "[DE FACTO STANDARD]" in tags or "[ENTERPRISE-STABLE]" in tags or cncf in ("graduated", "incubating"):
+                    if nu not in elite_pool or _rank_key(l) < _rank_key(elite_pool[nu][1]):
+                        elite_pool[nu] = (dim_name, l)
+
+        sorted_top = [pair[1] for pair in sorted(top_refs.values(), key=lambda p: _rank_key(p[1]))][:60]
 
         if sorted_top:
             lines.append("## Flagship De Facto Standards & High-Momentum References")
@@ -2754,16 +2900,167 @@ class V2VisionEngine:
                 lines.append(f"- [{title}]({url}): {summary}")
             lines.append("")
 
-        content = "\n".join(lines)
-        target_path = os.path.join(V2_DIR, "llms.txt")
-        existing = ""
-        if os.path.exists(target_path):
-            with open(target_path, "r", encoding="utf-8") as f:
-                existing = f.read()
-        if content != existing:
-            with open(target_path, "w", encoding="utf-8") as f:
-                f.write(content)
-            log_event(f"[LLMs.txt] Generated {target_path} ({len(sorted_top)} flagship references)")
+        def _smart_write(path: str, payload: str, label: str):
+            existing = ""
+            if os.path.exists(path):
+                with open(path, "r", encoding="utf-8") as f:
+                    existing = f.read()
+            if payload != existing:
+                os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(payload)
+                log_event(label)
+
+        _smart_write(
+            os.path.join(V2_DIR, "llms.txt"),
+            "\n".join(lines),
+            f"[LLMs.txt] Generated {os.path.join(V2_DIR, 'llms.txt')} ({len(sorted_top)} flagship references)",
+        )
+
+        # --- Extended single-file corpus: v2-docs/llms-full.txt (Top 300 flagship resources) ---
+        top_300 = sorted(elite_pool.values(), key=lambda p: _rank_key(p[1]))[:300]
+        by_dim_300: Dict[str, List[Dict]] = {}
+        for dim_name, item in top_300:
+            by_dim_300.setdefault(dim_name, []).append(item)
+
+        full_lines = [
+            "# Nubenetes V2 Elite Portal — Full Flagship Corpus (OKF v0.3 / llms-full.txt)",
+            "",
+            "> High-density, single-file technical reference containing the top 300 verified Cloud Native, Kubernetes, Enterprise AI, MCP, RAG & OKF, OpenShift 5, eBPF, Security, and Platform Engineering resources from https://nubenetes.com/.",
+            "> For machine-readable structured metadata across every category, fetch https://nubenetes.com/api/index.json.",
+            "",
+        ]
+        for dim in self.dimensions.keys():
+            dim_items = by_dim_300.get(dim, [])
+            if not dim_items:
+                continue
+            full_lines.append(f"## {dim} ({len(dim_items)} flagship resources)")
+            full_lines.append("")
+            for l in dim_items:
+                title = nuclear_strip(str(l.get("title") or "Resource"))
+                url = str(l.get("url") or "").strip()
+                meta_parts = []
+                if l.get("year") and str(l["year"]).isdigit():
+                    meta_parts.append(f"Year: {l['year']}")
+                if l.get("stars"):
+                    meta_parts.append(f"Impact: {l['stars']}/5")
+                if l.get("gh_stars"):
+                    meta_parts.append(f"GitHub Stars: {l['gh_stars']}")
+                lic = str(l.get("gh_license") or "").strip()
+                if lic and lic.upper() not in ("N/A", "NONE", "NOASSERTION", "NULL", "UNKNOWN"):
+                    meta_parts.append(f"License: {lic}")
+                cncf = str(l.get("cncf_status") or "").strip().lower()
+                if cncf in ("graduated", "incubating", "sandbox"):
+                    meta_parts.append(f"CNCF: {cncf}")
+                tags_list = [t for t in (l.get("tags") or []) if isinstance(t, str)]
+                if tags_list:
+                    meta_parts.append("Tags: " + " ".join(tags_list))
+                summary = str(l.get("ai_summary") or l.get("description") or "").replace("\n", " ").strip()
+                if len(summary) > 320:
+                    summary = summary[:317].rsplit(" ", 1)[0] + "..."
+                meta_str = " | ".join(meta_parts)
+                full_lines.append(f"- [{title}]({url}) ({meta_str}) — {summary}")
+            full_lines.append("")
+
+        _smart_write(
+            os.path.join(V2_DIR, "llms-full.txt"),
+            "\n".join(full_lines),
+            f"[LLMs-full.txt] Generated {os.path.join(V2_DIR, 'llms-full.txt')} ({len(top_300)} flagship resources)",
+        )
+
+        # --- Static OKF v0.3 JSON Catalog: v2-docs/api/index.json ---
+        v2_inv = [m for u, m in self.inventory.items() if not u.startswith("INTRO:") and isinstance(m, dict) and m.get("v2_locations")]
+        total_v1 = len([u for u, m in self.inventory.items() if not u.startswith("INTRO:") and isinstance(m, dict)])
+        verified_online = sum(1 for m in v2_inv if m.get("status") == "online")
+        fresh_total = sum(
+            1 for m in v2_inv
+            if str(m.get("year") or "").strip() in ("2025", "2026")
+            or str(m.get("gh_pushed") or "").strip()[:4] in ("2025", "2026")
+        )
+        deep_ai_total = sum(1 for m in v2_inv if not is_boilerplate_summary(m.get("ai_summary")))
+        cncf_total = sum(1 for m in v2_inv if str(m.get("cncf_status") or "").lower() in ("graduated", "incubating", "sandbox"))
+
+        categories_json = []
+        for dim in self.dimensions.keys():
+            for f_name in sorted(dim_groups.get(dim, [])):
+                info = v2_structure[f_name]
+                slug = f_name[:-3] if f_name.endswith(".md") else f_name
+                cat_links = _collect_all_links(info["content"], [])
+                cat_links.sort(key=_rank_key)
+                cat_fresh = sum(
+                    1 for l in cat_links
+                    if str(l.get("year") or "").strip() in ("2025", "2026")
+                    or str(l.get("gh_pushed") or "").strip()[:4] in ("2025", "2026")
+                )
+                tag_counts: Dict[str, int] = {}
+                for l in cat_links:
+                    for t in l.get("tags") or []:
+                        if isinstance(t, str):
+                            tag_counts[t] = tag_counts.get(t, 0) + 1
+                top_tags = [t for t, _ in sorted(tag_counts.items(), key=lambda kv: (-kv[1], kv[0]))[:8]]
+                top_resources = []
+                for l in cat_links[:5]:
+                    lic = str(l.get("gh_license") or "").strip()
+                    if lic.upper() in ("", "N/A", "NONE", "NOASSERTION", "NULL", "UNKNOWN"):
+                        lic = None
+                    summary = str(l.get("ai_summary") or l.get("description") or "").replace("\n", " ").strip()
+                    if len(summary) > 220:
+                        summary = summary[:217].rsplit(" ", 1)[0] + "..."
+                    top_resources.append({
+                        "title": nuclear_strip(str(l.get("title") or "Resource")),
+                        "url": str(l.get("url") or "").strip(),
+                        "year": str(l.get("year") or "") or None,
+                        "stars": int(l.get("stars") or 0),
+                        "gh_stars": int(l["gh_stars"]) if str(l.get("gh_stars", "")).isdigit() else None,
+                        "gh_license": lic,
+                        "cncf_status": str(l.get("cncf_status") or "").lower() or None,
+                        "tags": list(l.get("tags") or []),
+                        "summary": summary,
+                    })
+                categories_json.append({
+                    "slug": slug,
+                    "title": info["title"],
+                    "long_title": info["long_title"],
+                    "dimension": dim,
+                    "url": f"https://nubenetes.com/{slug}/",
+                    "v1_url": f"https://nubenetes.com/v1/{slug}/",
+                    "provenance": f"https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/{f_name}",
+                    "resource_count": len(cat_links),
+                    "fresh_2025_2026_count": cat_fresh,
+                    "freshness": "active" if cat_fresh > 0 else "historical",
+                    "top_tags": top_tags,
+                    "top_resources": top_resources,
+                })
+
+        api_payload = {
+            "okf_version": "0.3",
+            "portal": "Nubenetes V2 Elite Portal",
+            "site_url": "https://nubenetes.com/",
+            "trust": "verified",
+            "endpoints": {
+                "llms_txt": "https://nubenetes.com/llms.txt",
+                "llms_full_txt": "https://nubenetes.com/llms-full.txt",
+                "api_index": "https://nubenetes.com/api/index.json",
+                "v1_archive": "https://nubenetes.com/v1/",
+            },
+            "stats": {
+                "v1_total_inventory": total_v1,
+                "v2_total_resources": len(v2_inv),
+                "v2_verified_online": verified_online,
+                "v2_fresh_2025_2026": fresh_total,
+                "v2_deep_ai_summaries": deep_ai_total,
+                "v2_cncf_projects": cncf_total,
+                "v2_categories": len(categories_json),
+            },
+            "dimensions": list(self.dimensions.keys()),
+            "categories": categories_json,
+        }
+        api_json_str = json.dumps(api_payload, indent=2, ensure_ascii=False) + "\n"
+        _smart_write(
+            os.path.join(V2_DIR, "api", "index.json"),
+            api_json_str,
+            f"[API Catalog] Generated {os.path.join(V2_DIR, 'api', 'index.json')} ({len(categories_json)} categories)",
+        )
 
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]) -> bool:
         try:

@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Customer Success Stories. Cloud Native Projects"
+dimension: "Architectural Foundations"
+resource_count: 35
+fresh_2025_2026_count: 7
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/customer.md"
 description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW InnovationLab and more — curated Cloud Native tools, guides and references."
 ---
 # Customer Success Stories. Cloud Native Projects
@@ -142,7 +151,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [**thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects**](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines four strategic motivations for Mercedes-Benz to sponsor open-source software. By funding critical up-stream components, the enterprise reduces technical debt, improves system security, attracts elite software engineering talent, and actively influences standard roadmaps. It provides a blueprint for enterprise open-source program offices (OSPOs) seeking to justify upstream contributions.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

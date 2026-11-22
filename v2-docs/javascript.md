@@ -1,5 +1,14 @@
 ---
-description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript Objects, dev.to: Username Validator and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "JavaScript"
+dimension: "Developer Ecosystem"
+resource_count: 30
+fresh_2025_2026_count: 9
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/javascript.md"
+description: "Top JavaScript resources for 2026, AI-ranked: dev.to: JavaScript Objects, dev.to: Username Validator and more — curated Cloud Native tools, guides and references."
 ---
 # JavaScript
 
@@ -75,7 +84,7 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 
 #### Software Architecture
 
-  - **(2020)** [==react js: mithi/react-philosophies==](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3734</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1bfb9598" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 6 L 30 8 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-1bfb9598)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly structured philosophy repository outlining architectural principles for designing maintainable React codebases. Emphasizes declarative code patterns, state encapsulation, hook extraction, and unit testing strategies.
+  - **(2020)** [==react js: mithi/react-philosophies==](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3734</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1bfb9598" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 6 L 30 8 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-1bfb9598)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ CC-BY-SA-4.0</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly structured philosophy repository outlining architectural principles for designing maintainable React codebases. Emphasizes declarative code patterns, state encapsulation, hook extraction, and unit testing strategies.
 #### State Management
 
   - **(2019)** [useHooks - React Hooks Library](https://usehooks.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-ready React hook recipes facilitating decoupled side effects, event listener bindings, dynamic state persistence, and responsive UI behaviors without custom boilerplate code.
@@ -89,13 +98,15 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### Regular Expressions
 
   - **(2021)** [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Regular expression guide and implementation for validating user credentials on the client-side. Emphasizes security considerations like ReDoS (Regular Expression Denial of Service) and input sanitization before processing database commits.
-## General Reference
+## Javascript
+
+### General Reference
 
   - [Getting Started with the DOM](https://edidiongasikpo.com/getting-started-with-the-dom) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Getting Started with the DOM in the Javascript ecosystem (edidiongasikpo.com).
-## Introduction
+### Introduction
 
   - [dev.to: Getting Started with JavaScript Modules](https://dev.to/heyitsalok/getting-started-with-javascript-modules-2mkg) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dev.to: Getting Started with JavaScript Modules covering Introduction in Javascript (dev.to).
-## Javascript Tooling
+### Javascript Tooling
 
   - **(2026)** [Next.js applications, powered by Vite: introducing Vinext 1.0](https://blog.cloudflare.com/vinext-nextjs-on-vite) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Next.js applications, powered by Vite: introducing Vinext 1.0 covering JavaScript Tooling in Javascript (blog.cloudflare.com).
   - **(2026)** [VoidZero is joining Cloudflare](https://blog.cloudflare.com/voidzero-joins-cloudflare) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for VoidZero is joining Cloudflare covering JavaScript Tooling in Javascript (blog.cloudflare.com).
@@ -138,7 +149,7 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 
 ### DOM
 
-#### Javascript
+#### Javascript (1)
 
   - **(2026)** [digitalocean.com: Understanding the DOM — Document Object Model eBook](https://www.digitalocean.com/community/books/understanding-the-dom-document-object-model-ebook) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive pedagogical resource exploring the Document Object Model (DOM) as a programming interface. It introduces how modern browsers parse HTML into tree-like object models and details programmatic mutation approaches using native JavaScript APIs.
   - **(2026)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM' Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide breaking down DOM traversal and event propagation mechanics (bubbling and capturing). Essential for intermediate UI engineering, it covers the structural boundaries of web browsers and highlights optimization patterns for interface updates.
@@ -147,5 +158,5 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 ---
 💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Golang](./golang.md) | [Python](./python.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Caching](./caching.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Caching](./caching.md)
 

@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Kubernetes Distributions and Installers Matrix Table"
+dimension: "Architectural Foundations"
+resource_count: 4
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/matrix-table.md"
 description: "Curated, AI-ranked Matrix Table resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # Kubernetes Distributions and Installers Matrix Table
@@ -33,7 +42,7 @@ description: "Curated, AI-ranked Matrix Table resources for the 2026 Cloud Nativ
   - **(2020)** [atodorov.me: Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares managed Kubernetes offerings from secondary cloud providers: DigitalOcean, Scaleway, OVHCloud, and Linode. It analyzes storage driver speeds, control plane SLA pricing, and API version support. This evaluation helps teams design multi-cloud setups and avoid the cost overhead associated with tier-1 hyperscalers.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

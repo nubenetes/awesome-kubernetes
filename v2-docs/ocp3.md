@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "OCP 3"
+dimension: "The Container Stack"
+resource_count: 30
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ocp3.md"
 description: "Top OCP 3 resources for 2026, AI-ranked: Gradle Cheat Sheets, **KubeFed Operator** and more — curated Cloud Native tools, guides and references."
 ---
 # OCP 3
@@ -87,7 +96,7 @@ description: "Top OCP 3 resources for 2026, AI-ranked: Gradle Cheat Sheets, **Ku
 
 #### Ansible
 
-  - **(2023)** [GitHub redhat-cop: Ansible Role 🌟](https://github.com/redhat-cop/infra-ansible) <span class='md-tag md-tag--info'>⭐ 219</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e0754050" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 13 L 30 10 L 40 10 L 50 12" fill="none" stroke="url(#spark-grad-e0754050)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A structured repository of Ansible automation roles customized for provisioning, maintaining, and configuring OpenShift resources. Simplifies operations such as authentication, user management, and day-2 configurations.
+  - **(2023)** [GitHub redhat-cop: Ansible Role 🌟](https://github.com/redhat-cop/infra-ansible) <span class='md-tag md-tag--info'>⭐ 219</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e0754050" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 13 L 30 10 L 40 10 L 50 12" fill="none" stroke="url(#spark-grad-e0754050)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A structured repository of Ansible automation roles customized for provisioning, maintaining, and configuring OpenShift resources. Simplifies operations such as authentication, user management, and day-2 configurations.
 #### Community Tools
 
   - **(2026)** [Red Hat Communities of Practice](https://github.com/redhat-cop) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The master platform profile of Red Hat's Communities of Practice. Contains scripts, custom operator codes, and automated scaffolding for cluster setups, management, and resource governing processes.
@@ -153,5 +162,5 @@ description: "Top OCP 3 resources for 2026, AI-ranked: Gradle Cheat Sheets, **Ku
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

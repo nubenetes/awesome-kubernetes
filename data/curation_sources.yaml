@@ -13,6 +13,63 @@ sources:
       - "https://www.youtube.com/feeds/videos.xml?channel_id=UCnrc0CFnNJSG2Kt4Ohdr3UA" # Official @nubenetes YouTube Channel (NotebookLM Deep-Dives)
       - "https://kubernetes.io/feed.xml"
       - "https://www.cncf.io/blog/feed/"
+      - "https://github.com/kubernetes/kubernetes/releases.atom"     # Official Kubernetes Releases
+      - "https://github.com/helm/helm/releases.atom"                 # Helm Releases
+      - "https://github.com/cert-manager/cert-manager/releases.atom" # cert-manager Releases
+      - "https://github.com/backstage/backstage/releases.atom"       # Backstage Internal Developer Portal Releases
+    github_repos_watch:
+      - "kubernetes/kubernetes"
+      - "helm/helm"
+      - "cert-manager/cert-manager"
+      - "backstage/backstage"
+
+  - topic: "Networking, eBPF & Service Mesh"
+    accounts:
+      - "ciliumproject"    # Cilium & Tetragon eBPF Networking/Security
+      - "IstioMesh"        # Istio Ambient Mesh & Service Mesh
+    feeds:
+      - "https://cilium.io/blog/rss.xml"                              # Cilium & Tetragon Official Blog
+      - "https://istio.io/latest/blog/feed.xml"                       # Istio Official Blog
+      - "https://github.com/cilium/cilium/releases.atom"              # Cilium eBPF CNI Releases
+      - "https://github.com/kubernetes-sigs/gateway-api/releases.atom" # Kubernetes Gateway API Releases
+      - "https://github.com/istio/istio/releases.atom"                # Istio Releases
+      - "https://github.com/envoyproxy/gateway/releases.atom"         # Envoy Gateway Releases
+    github_repos_watch:
+      - "cilium/cilium"
+      - "kubernetes-sigs/gateway-api"
+      - "istio/istio"
+      - "envoyproxy/gateway"
+
+  - topic: "Observability, Security & FinOps"
+    accounts:
+      - "PrometheusIO"     # Prometheus Monitoring Official
+      - "chainguard_dev"   # Chainguard Supply-Chain Security & Minimal Images
+      - "falco_org"        # Falco Cloud-Native Runtime Security
+      - "FinOpsFdn"        # FinOps Foundation Cloud Cost Management
+    feeds:
+      - "https://opentelemetry.io/blog/index.xml"                                      # OpenTelemetry Official Blog
+      - "https://prometheus.io/blog/feed.xml"                                          # Prometheus Official Blog
+      - "https://www.chainguard.dev/unchained/rss.xml"                                 # Chainguard Engineering & Supply-Chain Security Blog
+      - "https://www.finops.org/feed/"                                                 # FinOps Foundation Blog
+      - "https://github.com/open-telemetry/opentelemetry-collector/releases.atom"      # OpenTelemetry Collector Releases
+      - "https://github.com/prometheus/prometheus/releases.atom"                       # Prometheus Releases
+      - "https://github.com/VictoriaMetrics/VictoriaMetrics/releases.atom"             # VictoriaMetrics Releases
+      - "https://github.com/kyverno/kyverno/releases.atom"                             # Kyverno Policy Engine Releases
+      - "https://github.com/falcosecurity/falco/releases.atom"                         # Falco Runtime Security Releases
+      - "https://github.com/sigstore/cosign/releases.atom"                             # Sigstore Cosign Artifact Signing Releases
+      - "https://github.com/opencost/opencost/releases.atom"                           # OpenCost K8s FinOps Releases
+      - "https://github.com/kubernetes-sigs/karpenter/releases.atom"                   # Karpenter K8s Node Autoscaling Releases
+      - "https://github.com/kedacore/keda/releases.atom"                               # KEDA Event-Driven Autoscaling Releases
+    github_repos_watch:
+      - "open-telemetry/opentelemetry-collector"
+      - "prometheus/prometheus"
+      - "VictoriaMetrics/VictoriaMetrics"
+      - "kyverno/kyverno"
+      - "falcosecurity/falco"
+      - "sigstore/cosign"
+      - "opencost/opencost"
+      - "kubernetes-sigs/karpenter"
+      - "kedacore/keda"
 
   - topic: "Red Hat OpenShift & OCP 5"
     accounts:
@@ -217,6 +274,9 @@ sources:
       - "https://github.com/gruntwork-io/terragrunt/releases.atom"
       - "https://github.com/terramate-io/terramate/releases.atom"
       - "https://github.com/terraform-linters/tflint/releases.atom"
+      - "https://github.com/argoproj/argo-cd/releases.atom"
+      - "https://github.com/fluxcd/flux2/releases.atom"
+      - "https://github.com/crossplane/crossplane/releases.atom"
       - "https://netflixtechblog.com/feed"
       - "https://blog.cloudflare.com/rss/"
       - "https://engineering.fb.com/feed/"
@@ -239,3 +299,6 @@ sources:
       - "infracost/infracost"
       - "terraform-linters/tflint"
       - "aquasecurity/trivy"
+      - "argoproj/argo-cd"
+      - "fluxcd/flux2"
+      - "crossplane/crossplane"

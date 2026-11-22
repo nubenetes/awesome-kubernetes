@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "NoSQL Databases and NewSQL"
+dimension: "Data & Advanced Analytics"
+resource_count: 34
+fresh_2025_2026_count: 10
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/nosql.md"
 description: "Top NoSQL resources for 2026, AI-ranked: MongoDB and Kubernetes, MongoDB security tutorial and more — curated Cloud Native tools, guides and references."
 ---
 # NoSQL Databases and NewSQL
@@ -126,7 +135,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB and Kubernetes, M
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Message Queue](./message-queue.md) | [Crunchy Data](./crunchydata.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

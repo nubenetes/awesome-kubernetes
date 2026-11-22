@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS RDS Databases"
+dimension: "Architectural Foundations"
+resource_count: 36
+fresh_2025_2026_count: 7
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-databases.md"
 description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # AWS RDS Databases
@@ -103,7 +112,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - [Creating an AWS Schema Conversion Tool Project](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Creating an AWS Schema Conversion Tool Project covering AWS Schema Conversion Tool in AWS (docs.aws.amazon.com).
 #### Graph Databases
 
-  - **(2026)** [Supabase](https://github.com/supabase/supabase) <span class='md-tag md-tag--info'>⭐ 114445</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-846afa38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 9 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-846afa38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for Supabase covering Graph Databases in AWS (github.com).
+  - **(2026)** [Supabase](https://github.com/supabase/supabase) <span class='md-tag md-tag--info'>⭐ 114445</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-846afa38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 9 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-846afa38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> 🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for Supabase covering Graph Databases in AWS (github.com).
   - **(2026)** [How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API](https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API covering Graph Databases in AWS (netflixtechblog.com).
   - **(2026)** [ZGateway: Learnings from Putting a Proxy in Front of ZippyDB](https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ZGateway: Learnings from Putting a Proxy in Front of ZippyDB covering Graph Databases in AWS (engineering.fb.com).
 #### Introduction
@@ -119,7 +128,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - **(2020)** [**revenuecat.com: Replicating a postgresql cluster to redshift**](https://www.revenuecat.com/blog/engineering/replicating-a-postgresql-cluster-to-redshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents RevenueCat's engineering experience replicating high-throughput transactional Postgres databases into AWS Redshift. Live Grounding evaluates the trade-offs of AWS DMS, custom streaming code, and data synchronization patterns. Offers real-world insights on scale, column-mapping issues, and operational bottlenecks.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

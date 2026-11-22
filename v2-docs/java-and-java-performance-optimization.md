@@ -1,5 +1,14 @@
 ---
-description: "Top Java And Java Performance Optimization resources for 2026, AI-ranked: Byteman, Running Jenkins on Java 11 and more — curated Cloud Native tools, guides and."
+type: curation-hub
+okf_version: "0.3"
+name: "Java and Memory Management"
+dimension: "Developer Ecosystem"
+resource_count: 54
+fresh_2025_2026_count: 6
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/java-and-java-performance-optimization.md"
+description: "Top Java Performance & JVM Tuning resources for 2026, AI-ranked: Byteman, Running Jenkins on Java 11 and more — curated Cloud Native tools, guides and references."
 ---
 # Java and Memory Management
 
@@ -27,14 +36,6 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
 
   - **(2021)** [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Direct blueprint for configuring JVM heap metrics under Docker environments. Details the risks of omitting explicit container-aware memory allocation rules, preventing silent OOMKilled evictions by the host kernel.
   - **(2020)** [blog.openshift.com: Scaling Java Containers 🌟](https://www.redhat.com/en/blog/scaling-java-containers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide explaining how Linux cgroups interact with the JVM's ergonomics. Highlights historical heap-limit misalignment bugs and offers solutions using container-aware flags like UseContainerSupport and MaxRAMPercentage.
-## Garbage Collection And Heap Offloading
-
-  - [How Garbage Collection differs in the three big JVMs](https://www.dynatrace.com/resources/ebooks/javabook/how-garbage-collection-works) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Garbage Collection differs in the three big JVMs covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (dynatrace.com).
-  - [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](https://www.ehcache.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc. covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (ehcache.org).
-  - **(2014)** [Free eGuide: JVM Troubleshooting Guide](https://freepromagazine.blogspot.com/2014/07/free-eguide-jvm-troubleshooting-guide.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Free eGuide: JVM Troubleshooting Guide covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (freepromagazine.blogspot.com).
-  - **(2014)** [On heap vs off heap memory usage](https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for On heap vs off heap memory usage covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (javacodegeeks.com).
-  - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone: Memory Leaks and Java Code covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (dzone.com).
-  - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone: Understanding the Java Memory Model and Garbage Collection 🌟 covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (dzone.com).
 ## Infrastructure
 
 ### Container Orchestration
@@ -74,19 +75,40 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
 
   - **(2023)** [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep presentation deck outlining hands-on strategies for profiling complex enterprise Java deployments. Explores diagnosing thread contention, locking bottlenecks, heap leaks, and high JIT compilation latency.
   - **(2020)** [developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟](https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores backporting JDK Flight Recorder to OpenJDK 8u, enabling low-overhead hardware and software event monitoring in production environments. Demonstrates negligible performance drag (<1%) compared to legacy profilers.
-## Java On Kubernetes. Java Memory Arguments For Containers
+## Java And Java Performance Optimization
+
+### Garbage Collection And Heap Offloading
+
+  - [How Garbage Collection differs in the three big JVMs](https://www.dynatrace.com/resources/ebooks/javabook/how-garbage-collection-works) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Garbage Collection differs in the three big JVMs covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (dynatrace.com).
+  - [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](https://www.ehcache.org) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc. covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (ehcache.org).
+  - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone: Memory Leaks and Java Code covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (dzone.com).
+  - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone: Understanding the Java Memory Model and Garbage Collection 🌟 covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (dzone.com).
+
+??? archive "Historical and Legacy References (2 pre-2022 or legacy items)"
+
+    - **(2014)** [Free eGuide: JVM Troubleshooting Guide](https://freepromagazine.blogspot.com/2014/07/free-eguide-jvm-troubleshooting-guide.html) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Free eGuide: JVM Troubleshooting Guide covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (freepromagazine.blogspot.com).
+    - **(2014)** [On heap vs off heap memory usage](https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for On heap vs off heap memory usage covering Garbage Collection and Heap Offloading in Java And Java Performance Optimization (javacodegeeks.com).
+
+### Java On Kubernetes. Java Memory Arguments For Containers
 
   - [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff?gi=07ee3c600473) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Learn how to debug CPU utilization issues in a Java app using asynchronous programming techniques like CompletableFuture Discover how to identify and resolve CPU bottlenecks using JVM arguments and container resource allocation Another workaround for this issue was to set the “-XX: ActiveProcessorCount” JVM argument to the number of cores that are allocated to the java container. We found this recommendation in a comment on the openjdk issue tracker. The application team validated this and the central Load Tests were run with this workaround. Post the load tests, the application team upgraded the java version to 17 where these issues were already resolved.
   - [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6?gi=4c2824304439) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟 covering Java on Kubernetes. Java Memory Arguments for Containers in Java And Java Performance Optimization (danoncoding.com).
   - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58?gi=c77909b80243) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟 covering Java on Kubernetes. Java Memory Arguments for Containers in Java And Java Performance Optimization (tech.olx.com).
   - [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Best Practices: Java Memory Arguments for Containers 🌟 covering Java on Kubernetes. Java Memory Arguments for Containers in Java And Java Performance Optimization (dzone.com).
-## Java Performance Optimization
+### Java Performance Optimization
 
   - [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Flight Recorder: Examining Java and Kotlin Apps covering Java Performance Optimization in Java And Java Performance Optimization (dzone.com).
   - [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟 covering Java Performance Optimization in Java And Java Performance Optimization (dzone.com).
   - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone: How to Troubleshoot Sudden CPU Spikes covering Java Performance Optimization in Java And Java Performance Optimization (dzone.com).
   - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone: Performance Improvement in Java Applications: ORM/JPA 🌟 covering Java Performance Optimization in Java And Java Performance Optimization (dzone.com).
   - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone: The JVM Architecture Explained 🌟 covering Java Performance Optimization in Java And Java Performance Optimization (dzone.com).
+### Modern Java Tooling
+
+  - **(2026)** [Leave the Class Path in the Rearview Mirror](https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Leave the Class Path in the Rearview Mirror covering Modern Java Tooling in Java And Java Performance Optimization (netflixtechblog.com).
+### Tuning Java Containers
+
+  - [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d?gi=56dfdcca2ad5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How to cold start fast a java service on k8s (EKS) covering Tuning Java Containers in Java And Java Performance Optimization (itnext.io).
+  - [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Java Inside Docker: What You Must Know to Not FAIL covering Tuning Java Containers in Java And Java Performance Optimization (dzone.com).
 ## Java Platform
 
 ### Runtime and JVM
@@ -94,9 +116,6 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
 #### Garbage Collection (1)
 
   - **(2021)** [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical evaluation tracking the performance evolution and design changes of garbage collectors from JDK 8 to JDK 17. The analysis highlights significant throughput gains, memory footprint reductions, and sub-millisecond pause-time optimizations achieved in modern G1 and ZGC algorithms, making Java 17 highly optimized for containerized microservice execution environments.
-## Modern Java Tooling
-
-  - **(2026)** [Leave the Class Path in the Rearview Mirror](https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Leave the Class Path in the Rearview Mirror covering Modern Java Tooling in Java And Java Performance Optimization (netflixtechblog.com).
 ## Observability (1)
 
 ### Application Monitoring
@@ -171,13 +190,9 @@ description: "Top Java And Java Performance Optimization resources for 2026, AI-
 #### Performance Optimization (1)
 
   - **(2020)** [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of JVM checkpoint/restore methodologies focusing on Coordinated Restore at Checkpoint (CRaC) and external CRIU mechanisms. This approach enables instantaneous microservice startup by taking cold snapshots of memory, dramatically lowering latency penalties in serverless deployments.
-## Tuning Java Containers
-
-  - [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d?gi=56dfdcca2ad5) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: How to cold start fast a java service on k8s (EKS) covering Tuning Java Containers in Java And Java Performance Optimization (itnext.io).
-  - [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Java Inside Docker: What You Must Know to Not FAIL covering Tuning Java Containers in Java And Java Performance Optimization (dzone.com).
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

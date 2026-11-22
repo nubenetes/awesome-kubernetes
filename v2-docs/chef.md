@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Chef"
+dimension: "Architectural Foundations"
+resource_count: 2
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/chef.md"
 description: "Curated, AI-ranked Chef resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # Chef
@@ -21,7 +30,7 @@ description: "Curated, AI-ranked Chef resources for the 2026 Cloud Native archit
   - **(2024)** [learn.chef.io](https://www.chef.io/training/tutorials) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official learning platform for Chef. Features deep-dive, code-driven tutorials explaining how to programmatically manage enterprise nodes and infrastructure configurations across hybrid cloud environments.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

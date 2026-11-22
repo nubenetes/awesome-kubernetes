@@ -1,5 +1,14 @@
 ---
-description: "Top Workfromhome resources for 2026, AI-ranked: Google docs & Sheets, Google meet and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Work From Home"
+dimension: "Career & Industry"
+resource_count: 22
+fresh_2025_2026_count: 15
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/workfromhome.md"
+description: "Top Work From Home resources for 2026, AI-ranked: Google docs & Sheets, Google meet and more — curated Cloud Native tools, guides and references."
 ---
 # Work From Home
 
@@ -75,7 +84,7 @@ description: "Top Workfromhome resources for 2026, AI-ranked: Google docs & Shee
   - **(2021)** [portafolio.co: Claves para liderar equipos de teletrabajo y no fracasar en el intento](https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Focuses on strategies for leading virtual teams, highlighting methods to establish trust, measure output over physical presence, and implement clear collaboration frameworks. Highlights Spanish-speaking organizational perspectives on easing transition friction for legacy teams.
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

@@ -1,5 +1,14 @@
 ---
-description: "Top Linux Dev Env resources for 2026, AI-ranked: ASDF, Windows Terminal 1.0 and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "WSL: Linux Dev Environment on Windows"
+dimension: "Developer Ecosystem"
+resource_count: 18
+fresh_2025_2026_count: 5
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/linux-dev-env.md"
+description: "Top Linux Dev Environment resources for 2026, AI-ranked: ASDF, Windows Terminal 1.0 and more — curated Cloud Native tools, guides and references."
 ---
 # WSL: Linux Dev Environment on Windows
 
@@ -9,16 +18,13 @@ description: "Top Linux Dev Env resources for 2026, AI-ranked: ASDF, Windows Ter
 !!! info "Architectural Context"
     Detailed reference for WSL: Linux Dev Environment on Windows in the context of Developer Ecosystem.
 
-## Alternatives To WSL On Windows
-
-  - **(2026)** [Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler](https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An in-depth look at how Meta modernized its ad-serving infrastructure by integrating an open-source, extensible Linux kernel scheduler.
 ## Developer Experience
 
 ### Package Management
 
 #### Windows Tooling
 
-  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26564</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f02f28d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 3 L 30 11 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-3f02f28d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
+  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26564</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f02f28d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 3 L 30 11 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-3f02f28d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
 ## Development Environment
 
 ### Windows Subsystem For Linux
@@ -48,7 +54,12 @@ description: "Top Linux Dev Env resources for 2026, AI-ranked: ASDF, Windows Ter
   - **(2021)** [bleepingcomputer.com: Windows 11 can now install WSL from the Microsoft' Store 🌟](https://www.bleepingcomputer.com/news/microsoft/windows-11-can-now-install-wsl-from-the-microsoft-store)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical review details Microsoft's strategic shift to deliver WSL as an application through the Microsoft Store on Windows 11. Decoupling WSL from core OS updates allows rapid feature and driver iterations without requiring full system reboots. It guarantees that development teams can access the latest filesystem speed improvements and driver updates immediately.
   - **(2020)** [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This release overview highlights improvements to the `wsl --install` process in Windows Insider Build 20246, enabling customized distribution selection during initialization. These upgrades allow teams to script automated workspace setup processes without manual user interaction. This automated workflow is essential for building reproducible local development environments via code.
   - **(2020)** [Microsoft Makes it Easier to Install WSL on Windows 10 🌟](https://www.omgubuntu.co.uk/2020/06/microsoft-wsl-install-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Microsoft's streamlined WSL installation process, highlighting the creation of the unified `wsl --install` command. This enhancement automates feature enablement and default distribution retrieval, lowering the onboarding barrier for DevOps engineers. This simplification is highly beneficial for enterprise-wide developer environment standardization.
-## General Reference
+## Linux Dev Env
+
+### Alternatives To WSL On Windows
+
+  - **(2026)** [Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler](https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An in-depth look at how Meta modernized its ad-serving infrastructure by integrating an open-source, extensible Linux kernel scheduler.
+### General Reference
 
   - [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f?gi=02b235b13c45) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker in the Linux Dev Env ecosystem (itnext.io).
   - [Docker Desktop & WSL 2 – Backport Update](https://www.docker.com/blog/docker-desktop-wsl-2-backport-update)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Docker Desktop & WSL 2 – Backport Update in the Linux Dev Env ecosystem (docker.com).
@@ -69,7 +80,7 @@ description: "Top Linux Dev Env resources for 2026, AI-ranked: ASDF, Windows Ter
   - **(2026)** [docs.microsoft.com: WSL - Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering documentation detailing Windows Subsystem for Linux (WSL). Enables native ELF64 execution on Windows, forming a vital platform for building local Kubernetes, Docker, and bash-heavy development pipelines directly inside Windows environments.
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

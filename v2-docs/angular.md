@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Angular framework"
+dimension: "Developer Ecosystem"
+resource_count: 4
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/angular.md"
 description: "Curated, AI-ranked Angular resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
 ---
 # Angular framework
@@ -31,7 +40,7 @@ description: "Curated, AI-ranked Angular resources for the 2026 Cloud Native arc
   - [javascript.plainenglish.io: Angular is Costing Companies Billions](https://javascript.plainenglish.io/enough-why-its-time-to-rip-out-angular-7d831802c8a2?gi=ea1f366517c9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for javascript.plainenglish.io: Angular is Costing Companies Billions in the Angular ecosystem (javascript.plainenglish.io).
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

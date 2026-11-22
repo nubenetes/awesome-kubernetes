@@ -1,5 +1,14 @@
 ---
-description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, Download WAS Liberty and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "IBM"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 15
+fresh_2025_2026_count: 4
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ibm_cloud.md"
+description: "Top IBM Cloud resources for 2026, AI-ranked: IBM Cloud, Download WAS Liberty and more — curated Cloud Native tools, guides and references."
 ---
 # IBM
 
@@ -54,10 +63,15 @@ description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
 
 #### IBM Cloud Pak SDK
 
-  - **(2020)** [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) <span class='md-tag md-tag--info'>⭐ 2</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e71233c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 3 L 30 3 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-8e71233c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An integration SDK for registering and packaging third-party application services within the IBM Cloud Pak for Multicloud Management (CP4MCM) ecosystem. Live Grounding Note: CP4MCM and this SDK are largely archived or superseded by newer Red Hat Advanced Cluster Management (RHACM) methodologies, making this mostly historical for legacy integrations.
-## IBM Cloud Pak For Multicloud Management CP4MCM
+  - **(2020)** [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) <span class='md-tag md-tag--info'>⭐ 2</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e71233c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 3 L 30 3 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-8e71233c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An integration SDK for registering and packaging third-party application services within the IBM Cloud Pak for Multicloud Management (CP4MCM) ecosystem. Live Grounding Note: CP4MCM and this SDK are largely archived or superseded by newer Red Hat Advanced Cluster Management (RHACM) methodologies, making this mostly historical for legacy integrations.
+## Ibm_cloud
+
+### IBM Cloud Pak For Multicloud Management CP4MCM
 
   - [IBM Cloud Pak for Multicloud Management](https://www.ibm.com/solutions/cloud/cloud-pak-for-management) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for IBM Cloud Pak for Multicloud Management covering IBM Cloud Pak for Multicloud Management CP4MCM in Ibm_Cloud (ibm.com).
+### Websphere Liberty With Support Of Java Microservices And Cloud Native Apps
+
+  - [Download WAS Liberty](https://openliberty.io/downloads) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Download WAS Liberty covering WebSphere Liberty with support of Java Microservices and Cloud Native Apps in Ibm_Cloud (openliberty.io).
 ## Infrastructure
 
 ### Cloud Market
@@ -79,12 +93,9 @@ description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
 ##### Containers
 
   - **(2019)** [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how IBM brought containerization architectures (like z/OS Container Extensions) to its zSystems mainframes. Live Grounding confirms this as a key modernization vector, enabling developers to build and test mainframe workloads using Git-driven Docker/Kubernetes workflows.
-## Websphere Liberty With Support Of Java Microservices And Cloud Native Apps
-
-  - [Download WAS Liberty](https://openliberty.io/downloads) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Download WAS Liberty covering WebSphere Liberty with support of Java Microservices and Cloud Native Apps in Ibm_Cloud (openliberty.io).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Forums and Communities"
+dimension: "Career & Industry"
+resource_count: 31
+fresh_2025_2026_count: 4
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/newsfeeds.md"
 description: "Top Newsfeeds resources for 2026, AI-ranked: September 2026 AI Updates, AWS Forums and more — curated Cloud Native tools, guides and references."
 ---
 # Forums and Communities
@@ -91,7 +100,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: September 2026 AI Upd
   - [reddit.com/r/Traefik](https://www.reddit.com/r/Traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/Traefik covering Subreddits in Newsfeeds (reddit.com).
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Cloudflare](./cloudflare.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Cloudflare](./cloudflare.md)
 

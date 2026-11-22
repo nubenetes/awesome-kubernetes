@@ -1,3 +1,11 @@
+---
+type: portal-index
+okf_version: "0.3"
+name: "Nubenetes V2 Elite Portal — Awesome Kubernetes & Cloud Native AI"
+trust: verified
+freshness: active
+description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterprise AI, MCP, RAG & OKF, OpenShift 5, eBPF, GitOps, and verified CNCF architectures."
+---
 # Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 !!! tip "Nubenetes V2 Elite Portal: AI-Curated & High-Density"
@@ -76,7 +84,7 @@
       <div class="hero-badge-subtitle">Introduction Guide</div>
     </div>
   </a>
-  <a href="./other-awesome-lists/" style="text-decoration: none; color: inherit; display: block;">
+  <a href="/other-awesome-lists/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--gold">
       <img src="/images/awesome-lists-cover.svg" alt="Awesome Lists"/>
       <div class="hero-badge-title">Awesome Lists</div>
@@ -89,17 +97,20 @@
     The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).
 
 
-??? info "Knowledge Architecture and AI Coverage Status"
-    The Nubenetes Elite Portal operates on a dual-layer knowledge architecture:
-    1. **Elite Layer (AI-Enriched)**: Resources individually analyzed by our Agentic AI with high-density summaries and hierarchical indexing.
-    2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
+??? info "Knowledge Architecture, Trust Signals and AI Coverage Status"
+    The Nubenetes Elite Portal operates on a transparent, verifiable dual-layer architecture:
+    1. **Deep AI-Synthesized Layer**: Resources with bespoke architectural summaries, trade-offs, and hierarchical indexing.
+    2. **Baseline-Mapped Layer**: Verified links mapped into the taxonomy and progressively upgraded during scheduled weekly AI sweeps.
 
-    **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20637 total resources analyzed.
-    - **V2 Elite Selection**: 16534 candidates identified (80.12% density ratio).
-    - **AI Enrichment Coverage**: 16534 / 16534 (100.0%)
-    - **GitHub Metadata Coverage**: 1886 / 1886 (100.0%) - *Critical for Maturity Tagging*
-    - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
+    **Verified Inventory & Trust Metrics:**
+    - **V1 Base Archive**: 20,637 total resources indexed since 2018.
+    - **V2 Elite Selection**: 16,534 curated references (80.1% density ratio).
+    - **Verified Online Links**: 12,465 / 16,534 (75.4%)
+    - **Fresh Ecosystem Signal (2025–2026)**: 3,646 recently published or actively maintained resources.
+    - **Deep AI Architectural Summaries**: 11,321 / 16,534 (68.5%) *(+5,213 baseline-mapped entries queued for progressive refresh)*
+    - **GitHub Metadata & SPDX Licenses**: 1,886 / 1,886 (100.0%) repositories tracked (1,445 with verified open-source licenses)
+    - **CNCF Landscape Projects Tracked**: 64 projects (Graduated, Incubating, Sandbox)
+    - **OKF v0.3 & AI Endpoints**: [`/llms.txt`](/llms.txt) · [`/llms-full.txt`](/llms-full.txt) · [`/api/index.json`](/api/index.json)
 
 
 ## Trending Now
@@ -1148,4 +1159,4 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 
 ---
 
-**Reference:** [🗺️ Full Topic Map](./topic-map/) · [📐 Methodology &amp; Maturity Taxonomy](./methodology/) · [🎥 Agentic Video Hub](./videos/index.md)
+**Reference:** [🗺️ Full Topic Map](topic-map.md) · [📐 Methodology &amp; Maturity Taxonomy](methodology.md) · [🎥 Agentic Video Hub](videos/index.md) · [🤖 llms-full.txt](/llms-full.txt) · [📦 JSON Catalog](/api/index.json)

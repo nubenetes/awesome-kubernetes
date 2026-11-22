@@ -89,8 +89,7 @@ plugins:
         background_color: "#263238"
         font_family: "Inter"
         logo: docs/images/favicon-ultra.png
-  - tags:
-      tags_file: tags.md
+  - tags
   - minify:
       minify_html: true
   - rss:
@@ -189,19 +188,19 @@ nav:
     - "Industry & Geo Digest": industry-digest.md
   - "AI":
     - "Enterprise AI Platforms": enterprise-ai-platforms.md
-    - "AI Agents MCP": ai-agents-mcp.md
-    - "AI RAG OKF": ai-rag-okf.md
+    - "AI Agents & MCP": ai-agents-mcp.md
+    - "AI RAG & OKF": ai-rag-okf.md
     - "AI": ai.md
     - "ChatGPT": chatgpt.md
     - "MLOps": mlops.md
   - "Architectural Foundations":
     - "Cheatsheets": cheatsheets.md
-    - "Cloud Arch Diagrams": cloud-arch-diagrams.md
+    - "Cloud Architecture Diagrams": cloud-arch-diagrams.md
     - "Cloud Asset Inventory": cloud-asset-inventory.md
     - "Customer": customer.md
     - "Demos": demos.md
     - "DevOps Tools": devops-tools.md
-    - "Faq": faq.md
+    - "FAQ": faq.md
     - "Git": git.md
     - "Grafana": grafana.md
     - "Helm": helm.md
@@ -211,34 +210,34 @@ nav:
     - "Kubernetes": kubernetes.md
     - "Linux": linux.md
     - "Matrix Table": matrix-table.md
-    - "Mkdocs": mkdocs.md
+    - "MkDocs": mkdocs.md
     - "Monitoring": monitoring.md
     - "Prometheus": prometheus.md
   - "Platform & Site Reliability":
     - "Chaos Engineering": chaos-engineering.md
-    - "Developerportals": developerportals.md
+    - "Developer Portals": developerportals.md
     - "DevOps": devops.md
-    - "Performance Testing With Jenkins And Jmeter": performance-testing-with-jenkins-and-jmeter.md
+    - "Performance Testing (Jenkins & JMeter)": performance-testing-with-jenkins-and-jmeter.md
     - "Project Management Methodology": project-management-methodology.md
     - "Project Management Tools": project-management-tools.md
     - "QA": qa.md
     - "Scaffolding": scaffolding.md
     - "SRE": sre.md
     - "Test Automation Frameworks": test-automation-frameworks.md
-    - "Testops": testops.md
+    - "TestOps": testops.md
   - "Hardened Infrastructure":
     - "Ansible": ansible.md
     - "Crossplane": crossplane.md
-    - "Devsecops": devsecops.md
+    - "DevSecOps": devsecops.md
     - "IaC": iac.md
     - "Kubernetes Security": kubernetes-security.md
     - "Kustomize": kustomize.md
     - "Liquibase": liquibase.md
     - "Pulumi": pulumi.md
-    - "Securityascode": securityascode.md
+    - "Security as Code": securityascode.md
     - "Terraform": terraform.md
   - "Cloud Providers (Hyperscalers)":
-    - "Googlecloudplatform": GoogleCloudPlatform.md
+    - "Google Cloud Platform (GCP)": GoogleCloudPlatform.md
     - "AWS Architecture": aws-architecture.md
     - "AWS Backup": aws-backup.md
     - "AWS Containers": aws-containers.md
@@ -250,20 +249,20 @@ nav:
     - "AWS Miscellaneous": aws-miscellaneous.md
     - "AWS Monitoring": aws-monitoring.md
     - "AWS Networking": aws-networking.md
-    - "AWS Newfeatures": aws-newfeatures.md
+    - "AWS New Features": aws-newfeatures.md
     - "AWS Pricing": aws-pricing.md
     - "AWS Security": aws-security.md
     - "AWS Serverless": aws-serverless.md
     - "AWS Storage": aws-storage.md
-    - "AWS Tools Scripts": aws-tools-scripts.md
+    - "AWS Tools & Scripts": aws-tools-scripts.md
     - "AWS Training": aws-training.md
     - "AWS": aws.md
     - "Azure": azure.md
-    - "Digitalocean": digitalocean.md
+    - "DigitalOcean": digitalocean.md
     - "Edge Computing": edge-computing.md
-    - "Ibm_Cloud": ibm_cloud.md
-    - "Managed Kubernetes In Public Cloud": managed-kubernetes-in-public-cloud.md
-    - "Oraclecloud": oraclecloud.md
+    - "IBM Cloud": ibm_cloud.md
+    - "Managed Kubernetes (Public Cloud)": managed-kubernetes-in-public-cloud.md
+    - "Oracle Cloud (OCI)": oraclecloud.md
     - "Public Cloud Solutions": public-cloud-solutions.md
   - "Networking & Service Mesh":
     - "Caching": caching.md
@@ -271,78 +270,78 @@ nav:
     - "Istio": istio.md
     - "Kubernetes Networking": kubernetes-networking.md
     - "Networking": networking.md
-    - "Servicemesh": servicemesh.md
+    - "Service Mesh": servicemesh.md
     - "Web Servers": web-servers.md
   - "The Container Stack":
     - "Container Managers": container-managers.md
     - "Docker": docker.md
-    - "Kubectl Commands": kubectl-commands.md
+    - "kubectl Commands": kubectl-commands.md
     - "Kubernetes Alternatives": kubernetes-alternatives.md
     - "Kubernetes Autoscaling": kubernetes-autoscaling.md
-    - "Kubernetes Backup Migrations": kubernetes-backup-migrations.md
-    - "Kubernetes Based Devel": kubernetes-based-devel.md
-    - "Kubernetes Bigdata": kubernetes-bigdata.md
+    - "Kubernetes Backup & Migrations": kubernetes-backup-migrations.md
+    - "Kubernetes Local Dev": kubernetes-based-devel.md
+    - "Kubernetes Big Data": kubernetes-bigdata.md
     - "Kubernetes Client Libraries": kubernetes-client-libraries.md
     - "Kubernetes Monitoring": kubernetes-monitoring.md
     - "Kubernetes On Premise": kubernetes-on-premise.md
-    - "Kubernetes Operators Controllers": kubernetes-operators-controllers.md
+    - "Kubernetes Operators & Controllers": kubernetes-operators-controllers.md
     - "Kubernetes Releases": kubernetes-releases.md
     - "Kubernetes Storage": kubernetes-storage.md
     - "Kubernetes Troubleshooting": kubernetes-troubleshooting.md
-    - "Noops": noops.md
+    - "NoOps": noops.md
     - "OCP 5": ocp5.md
     - "OCP 4": ocp4.md
     - "OCP 3": ocp3.md
-    - "Openshift": openshift.md
+    - "OpenShift": openshift.md
     - "Rancher": rancher.md
     - "Serverless": serverless.md
   - "Data & Advanced Analytics":
-    - "Crunchydata": crunchydata.md
+    - "Crunchy Data": crunchydata.md
     - "Databases": databases.md
     - "Message Queue": message-queue.md
     - "NoSQL": nosql.md
-    - "Yaml": yaml.md
+    - "YAML": yaml.md
   - "Engineering Pipeline":
     - "Argo": argo.md
     - "CI/CD Kubernetes Plugins": cicd-kubernetes-plugins.md
     - "CI/CD": cicd.md
     - "Flux": flux.md
-    - "Gitops": gitops.md
+    - "GitOps": gitops.md
     - "Jenkins Alternatives": jenkins-alternatives.md
     - "Jenkins": jenkins.md
     - "Keptn": keptn.md
-    - "Openshift Pipelines": openshift-pipelines.md
+    - "OpenShift Pipelines": openshift-pipelines.md
     - "Registries": registries.md
-    - "Sonarqube": sonarqube.md
+    - "SonarQube": sonarqube.md
     - "Tekton": tekton.md
   - "Developer Ecosystem":
-    - "Chromedevtools": ChromeDevTools.md
+    - "Chrome DevTools": ChromeDevTools.md
     - "Angular": angular.md
     - "API": api.md
-    - "Devel Sites": devel-sites.md
-    - "Dotnet": dotnet.md
+    - "Developer Sites": devel-sites.md
+    - ".NET": dotnet.md
     - "Embedded Servlet Containers": embedded-servlet-containers.md
     - "Golang": golang.md
-    - "Java And Java Performance Optimization": java-and-java-performance-optimization.md
-    - "Java_App_Servers": java_app_servers.md
-    - "Java_Frameworks": java_frameworks.md
-    - "Javascript": javascript.md
-    - "Linux Dev Env": linux-dev-env.md
-    - "Lowcode Nocode": lowcode-nocode.md
-    - "Maven Gradle": maven-gradle.md
+    - "Java Performance & JVM Tuning": java-and-java-performance-optimization.md
+    - "Java App Servers": java_app_servers.md
+    - "Java Frameworks": java_frameworks.md
+    - "JavaScript": javascript.md
+    - "Linux Dev Environment": linux-dev-env.md
+    - "Low-Code & No-Code": lowcode-nocode.md
+    - "Maven & Gradle": maven-gradle.md
     - "Postman": postman.md
     - "Python": python.md
-    - "Swagger Code Generator For Rest APIs": swagger-code-generator-for-rest-apis.md
+    - "Swagger / OpenAPI Codegen": swagger-code-generator-for-rest-apis.md
     - "Visual Studio": visual-studio.md
     - "Web3": web3.md
   - "Career & Industry":
     - "Appointment Scheduling": appointment-scheduling.md
-    - "Elearning": elearning.md
-    - "Finops": finops.md
+    - "E-Learning": elearning.md
+    - "FinOps": finops.md
     - "Freelancing": freelancing.md
     - "HR": hr.md
     - "Interview Questions": interview-questions.md
     - "Newsfeeds": newsfeeds.md
     - "Recruitment": recruitment.md
     - "Remote Tech Jobs": remote-tech-jobs.md
-    - "Workfromhome": workfromhome.md
+    - "Work From Home": workfromhome.md

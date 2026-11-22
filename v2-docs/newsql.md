@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "NewSQL"
+dimension: "Architectural Foundations"
+resource_count: 1
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/newsql.md"
 description: "Curated, AI-ranked Newsql resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # NewSQL
@@ -18,7 +27,7 @@ description: "Curated, AI-ranked Newsql resources for the 2026 Cloud Native arch
   - [muratbuffalo.blogspot.com: What’s Really New with NewSQL?](https://muratbuffalo.blogspot.com/2021/11/whats-really-new-with-newsql.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive conceptual deep-dive comparing NewSQL architectures with traditional relational and NoSQL engines. Explores transactional guarantees, distributed consensus (Raft/Paxos), and cloud-native database scaling.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

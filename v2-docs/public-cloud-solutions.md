@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Public Cloud Solutions"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 37
+fresh_2025_2026_count: 33
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/public-cloud-solutions.md"
 description: "Top Public Cloud Solutions resources for 2026, AI-ranked: AWS Kubernetes pricing, Azure Kubernetes pricing and more — curated Cloud Native tools, guides and."
 ---
 # Public Cloud Solutions
@@ -190,7 +199,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: AWS Kube
   - [Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟](https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: DevOps Services Pricing: AWS vs Azure vs Google Cloud 🌟🌟 covering Public Cloud Services Comparison in Public Cloud Solutions (dzone.com).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

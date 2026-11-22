@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes"
+dimension: "Architectural Foundations"
+resource_count: 229
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/introduction.md"
 description: "Top Introduction resources for 2026, AI-ranked: Build Your Own X, vFunction and more — curated Cloud Native tools, guides and references."
 ---
 # Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
@@ -1268,7 +1277,7 @@ graph TD
   - [faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services](https://faun.pub/what-is-difference-of-event-driven-architecture-message-driven-architecture-and-microservices-f5623e51f868?gi=ad91ab56fdd9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services covering Understanding the Differences Between Event-Driven Message-Driven and Microservices Architectures in Introduction (faun.pub).
 
 ---
-💡 **Explore Related:** [Faq](./faq.md) | [Kubernetes](./kubernetes.md) | [Linux](./linux.md)
+💡 **Explore Related:** [FAQ](./faq.md) | [Kubernetes](./kubernetes.md) | [Linux](./linux.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

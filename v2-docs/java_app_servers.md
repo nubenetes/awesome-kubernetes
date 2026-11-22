@@ -1,5 +1,14 @@
 ---
-description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, WildFly and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes"
+dimension: "Developer Ecosystem"
+resource_count: 11
+fresh_2025_2026_count: 6
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/java_app_servers.md"
+description: "Top Java App Servers resources for 2026, AI-ranked: Payara Micro, WildFly and more — curated Cloud Native tools, guides and references."
 ---
 # Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes
 
@@ -53,16 +62,18 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 #### Kumuluzee
 
   - **(2026)** [KumuluzEE](https://ee.kumuluz.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An award-winning, lightweight microservice framework that enables standard Java EE APIs to run as independent, containerized applications. It focuses on modular, plug-and-play architecture, bypassing heavy runtime components to achieve fast startup times and minimal cloud resource utilization.
-## Payara
+## Java_app_servers
+
+### Payara
 
   - [Payara](https://www.azul.com/products/payara-server/?utm_campaign=payara.fish_migration_july_2026&utm_source=payara.fish&utm_medium=referral) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Payara covering Payara in Java_App_Servers (azul.com).
   - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen covering Payara in Java_App_Servers (dzone.com).
-## Wildfly (1)
+### Wildfly (1)
 
   - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Jakarta EE & Wildfly Running on Kubernetes covering WildFly in Java_App_Servers (dzone.com).
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

@@ -22,6 +22,14 @@ on:
         description: 'Include Kubernetes & Cloud Native'
         type: boolean
         default: true
+      include_networking:
+        description: 'Include Networking, eBPF & Service Mesh'
+        type: boolean
+        default: true
+      include_sec_obs:
+        description: 'Include Observability, Security & FinOps'
+        type: boolean
+        default: true
       include_openshift:
         description: 'Include Red Hat OpenShift & OCP 5'
         type: boolean
@@ -153,6 +161,8 @@ jobs:
           CURATION_DAYS_BACK: ${{ github.event.inputs.days_back || '' }}
           EXCLUDE_ACCOUNTS: ${{ github.event.inputs.exclude_accounts || '' }}
           INCLUDE_K8S: ${{ github.event.inputs.include_k8s || 'true' }}
+          INCLUDE_NETWORKING: ${{ github.event.inputs.include_networking || 'true' }}
+          INCLUDE_SEC_OBS: ${{ github.event.inputs.include_sec_obs || 'true' }}
           INCLUDE_OPENSHIFT: ${{ github.event.inputs.include_openshift || 'true' }}
           INCLUDE_CLOUD: ${{ github.event.inputs.include_cloud || 'true' }}
           INCLUDE_AI: ${{ github.event.inputs.include_ai || 'true' }}
