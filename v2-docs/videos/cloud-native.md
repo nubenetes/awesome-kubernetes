@@ -1237,6 +1237,18 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Modern Web Built-in AI WebAuthn
+
+??? note "🎬 ⭐ Nubenetes Modern Web Guidance (GoogleChrome): INP, Built-in AI, Passkeys & CSS"
+    !!! info "Architectural Summary"
+        This technical series distills Google Chrome's modern web guidance for architecting resilient, cloud-native frontends, focusing on remediating AI-generated code anti-patterns and optimizing Interaction to Next Paint (INP) via scheduler.yield(). In a 2026 cloud-native context, adopting Browser Built-in AI offloads inference workloads from centralized cloud infrastructure to the client edge, while WebAuthn Passkeys enforce phishing-resistant, passwordless authentication across distributed applications. Combined with native capabilities like CSS Anchor Positioning, these patterns reduce bundle complexity and backend compute overhead while elevating frontend reliability and user experience.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLGAd0E0sFnHo" title="⭐ Nubenetes Modern Web Guidance (GoogleChrome): INP, Built-in AI, Passkeys & CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## Azure Verified Modules AVM
 
 ??? note "🎬 Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot"

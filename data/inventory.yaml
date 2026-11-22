@@ -749315,3 +749315,138 @@ https://github.com/explodinggradients/ragas:
   gh_stars: 0
   gh_pushed: null
   gh_license: N/A
+https://www.youtube.com/playlist?list=PLGAd0E0sFnHo:
+  title: '⭐ Nubenetes Modern Web Guidance (GoogleChrome): INP, Built-in AI, Passkeys
+    & CSS'
+  description: 'Focused technical series based on GoogleChrome/modern-web-guidance:
+    fixing AI-generated web code, scheduler.yield() for INP, Browser Built-in AI,
+    WebAuthn Passkeys, and CSS Anchor Positioning.'
+  year: '2026'
+  stars: 5
+  ai_summary: This technical series distills Google Chrome's modern web guidance for
+    architecting resilient, cloud-native frontends, focusing on remediating AI-generated
+    code anti-patterns and optimizing Interaction to Next Paint (INP) via scheduler.yield().
+    In a 2026 cloud-native context, adopting Browser Built-in AI offloads inference
+    workloads from centralized cloud infrastructure to the client edge, while WebAuthn
+    Passkeys enforce phishing-resistant, passwordless authentication across distributed
+    applications. Combined with native capabilities like CSS Anchor Positioning, these
+    patterns reduce bundle complexity and backend compute overhead while elevating
+    frontend reliability and user experience.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Modern Web + Built-in AI + WebAuthn
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795353672
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T14:21:12.472725+01:00'
+  last_ai_eval: '2026-11-22T14:21:12.472725+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLU_tovQ-veEc:
+  title: ⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)
+  description: 'Complete 12-part series on Azure Red Hat OpenShift (ARO) with Hosted
+    Control Planes (HCP) GA: architecture, cost optimization, security & governance,
+    ARO vs AKS vs Container Apps, Isovalent eBPF networking, and MCP AI integration.'
+  year: '2026'
+  stars: 5
+  ai_summary: This 12-part technical series provides an architectural deep dive into
+    Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP) in General Availability,
+    detailing how decoupling the control plane from worker nodes optimizes cluster
+    density, operational overhead, and cloud costs. It evaluates strategic Azure compute
+    trade-offs across ARO, AKS, and Azure Container Apps alongside enterprise security,
+    governance, and Isovalent eBPF-based networking. Additionally, the series bridges
+    modern platform engineering with Model Context Protocol (MCP) AI integration,
+    demonstrating how AI agents can interact with and streamline OpenShift cluster
+    operations in a 2026 cloud-native landscape.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + Azure Red Hat OpenShift + AI Agents
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795353672
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T14:21:12.472725+01:00'
+  last_ai_eval: '2026-11-22T14:21:12.472725+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/playlist?list=PLTWdjaOFYLCg:
+  title: '⭐ Nubenetes Azure AI Gateway: Foundry, Federated MCP, FinOps & Security'
+  description: 'Complete 12-part engineering series on Azure AI Gateway (https://ai.gateway.azure.com/)
+    and Microsoft Foundry: centralized AI control plane, stable model aliases, dynamic
+    routing & failover, Federated MCP tool governance, FinOps token budgets, OpenTelemetry
+    end-to-end tracing, and Prompt Shields security.'
+  year: '2026'
+  stars: 5
+  ai_summary: This 12-part engineering series details the architecture of Azure AI
+    Gateway and Microsoft Foundry as a centralized AI control plane for enterprise
+    cloud-native workloads. It demonstrates how platform teams decouple agentic applications
+    from underlying models using stable model aliases, dynamic routing with failover,
+    and Federated Model Context Protocol (MCP) tool governance. For 2026 production
+    AI operations, it further establishes guardrails through FinOps token budgets,
+    end-to-end OpenTelemetry tracing, and Prompt Shields security.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Gateway + MCP + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795353672
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T14:21:12.472725+01:00'
+  last_ai_eval: '2026-11-22T14:21:12.472725+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel

@@ -1664,6 +1664,30 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## Kubernetes Azure Red Hat OpenShift AI Agents
+
+??? note "🎬 ⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)"
+    !!! info "Architectural Summary"
+        This 12-part technical series provides an architectural deep dive into Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP) in General Availability, detailing how decoupling the control plane from worker nodes optimizes cluster density, operational overhead, and cloud costs. It evaluates strategic Azure compute trade-offs across ARO, AKS, and Azure Container Apps alongside enterprise security, governance, and Isovalent eBPF-based networking. Additionally, the series bridges modern platform engineering with Model Context Protocol (MCP) AI integration, demonstrating how AI agents can interact with and streamline OpenShift cluster operations in a 2026 cloud-native landscape.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLU_tovQ-veEc" title="⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Azure AI Gateway MCP AI Agents
+
+??? note "🎬 ⭐ Nubenetes Azure AI Gateway: Foundry, Federated MCP, FinOps & Security"
+    !!! info "Architectural Summary"
+        This 12-part engineering series details the architecture of Azure AI Gateway and Microsoft Foundry as a centralized AI control plane for enterprise cloud-native workloads. It demonstrates how platform teams decouple agentic applications from underlying models using stable model aliases, dynamic routing with failover, and Federated Model Context Protocol (MCP) tool governance. For 2026 production AI operations, it further establishes guardrails through FinOps token budgets, end-to-end OpenTelemetry tracing, and Prompt Shields security.
+
+    <center markdown="1">
+
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLTWdjaOFYLCg" title="⭐ Nubenetes Azure AI Gateway: Foundry, Federated MCP, FinOps & Security" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
 ## LLM Architecture and Post-Training
 
 ??? note "🎬 Stanford CS229: Building Large Language Models (LLMs)"
