@@ -127,7 +127,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">European Sovereign Cloud & Private DCs</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-3" href="/eu-cloud-iac-maturity/" title="IaC Automation & Maturity vs Hyperscalers — 22 resources"><span class="topic-heatcell__name">IaC Automation & Maturity vs Hyperscalers</span><span class="topic-heatcell__n">22</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-iac-maturity/" title="IaC Automation & Maturity vs Hyperscalers — 21 resources"><span class="topic-heatcell__name">IaC Automation & Maturity vs Hyperscalers</span><span class="topic-heatcell__n">21</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-germany/" title="Germany Sovereign Cloud & Private DCs — 20 resources"><span class="topic-heatcell__name">Germany Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">20</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-france/" title="France Sovereign Cloud & Private DCs — 19 resources"><span class="topic-heatcell__name">France Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">19</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-spain/" title="Spain Sovereign Cloud & Private DCs — 19 resources"><span class="topic-heatcell__name">Spain Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">19</span></a>
@@ -381,7 +381,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Netherlands & Benelux Cloud & DCs](./eu-cloud-benelux.md)** <span class="topic-count">13</span>
 - **[France Sovereign Cloud & Private DCs](./eu-cloud-france.md)** <span class="topic-count">19</span>
 - **[Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)** <span class="topic-count">20</span>
-- **[IaC Automation & Maturity vs Hyperscalers](./eu-cloud-iac-maturity.md)** <span class="topic-count">22</span>
+- **[IaC Automation & Maturity vs Hyperscalers](./eu-cloud-iac-maturity.md)** <span class="topic-count">21</span>
 - **[Italy Sovereign Cloud & Private DCs](./eu-cloud-italy.md)** <span class="topic-count">12</span>
 - **[Nordics Green Cloud & AI Factories](./eu-cloud-nordics.md)** <span class="topic-count">12</span>
 - **[RPO, RTO, SLAs, DRP & Replication](./eu-cloud-resilience-sla.md)** <span class="topic-count">6</span>

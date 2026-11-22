@@ -751488,7 +751488,7 @@ https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack:
   resource_type: Tool
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -751510,6 +751510,7 @@ https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack:
   v2_locations:
   - eu-cloud-iac-maturity.md
   youtube_mosaic: {}
+  duplicate_of: https://github.com/kubernetes-sigs/cluster-api-provider-openstack
 https://github.com/vmware/cluster-api-provider-cloud-director:
   title: Cluster API Provider VMware Cloud Director (CAPVCD)
   description: "\U0001F31F - Declarative Cluster API lifecycle driver for Spanish

@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "IaC Automation and Portability on European Sovereign Clouds"
 dimension: "European Sovereign Cloud & Private DCs"
-resource_count: 22
-fresh_2025_2026_count: 22
+resource_count: 21
+fresh_2025_2026_count: 21
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-iac-maturity.md"
@@ -100,7 +100,6 @@ terraform {
 
 ## Crossplane And Cluster API CAPI Multi-cloud Control Planes
 
-  - **(2026)** [Cluster API Provider CloudStack (CAPC)](https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Official Kubernetes SIGs provider turning Apache CloudStack private DCs into declarative GitOps Kubernetes fleets.
   - **(2026)** [Cluster API Provider Hetzner (CAPH by Syself)](https://github.com/syself/cluster-api-provider-hetzner) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — CNCF Cluster API provider managing full self-healing Kubernetes lifecycle across Hetzner Cloud VMs and Dedicated bare-metal Robot servers.
   - **(2026)** [Cluster API Provider OpenStack (CAPO)](https://github.com/kubernetes-sigs/cluster-api-provider-openstack) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Official Kubernetes SIGs CAPI provider delivering standardized multi-cluster lifecycle across European OpenStack sovereign clouds.
   - **(2026)** [Cluster API Provider Proxmox (CAPMOX by IONOS)](https://github.com/ionos-cloud/cluster-api-provider-proxmox) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Enterprise Cluster API provider built by IONOS Cloud for declarative multi-cluster Kubernetes orchestration directly on Proxmox VE clusters.

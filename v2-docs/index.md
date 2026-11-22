@@ -112,7 +112,7 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
     **Verified Inventory & Trust Metrics:**
     - **V1 Base Archive**: 20,796 total resources indexed since 2018.
     - **V2 Elite Selection**: 16,693 curated references (80.3% density ratio).
-    - **Verified Online Links**: 12,624 / 16,693 (75.6%)
+    - **Verified Online Links**: 12,623 / 16,693 (75.6%)
     - **Fresh Ecosystem Signal (2025–2026)**: 3,805 recently published or actively maintained resources.
     - **Deep AI Architectural Summaries**: 11,480 / 16,693 (68.8%) *(+5,213 baseline-mapped entries queued for progressive refresh)*
     - **GitHub Metadata & SPDX Licenses**: 1,886 / 1,911 (98.7%) repositories tracked (1,445 with verified open-source licenses)
@@ -646,7 +646,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="1102 resources">Emerging<span class="v2-heat-n">1102</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="1101 resources">Emerging<span class="v2-heat-n">1101</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>
@@ -745,7 +745,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hybrid-models" title="1 resources">Hybrid-Models<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hybrid-search" title="1 resources">Hybrid-Search<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#hyper-scale" title="1 resources">Hyper-Scale<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#hypervisor" title="88 resources">HYPERVISOR<span class="v2-heat-n">88</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#hypervisor" title="87 resources">HYPERVISOR<span class="v2-heat-n">87</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#iac" title="43 resources">IAC<span class="v2-heat-n">43</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#iam" title="1 resources">Iam<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#identity-management" title="1 resources">Identity-Management<span class="v2-heat-n">1</span></a>
