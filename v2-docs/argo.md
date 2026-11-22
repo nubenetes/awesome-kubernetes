@@ -230,7 +230,7 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
   - **(2022)** [securityaffairs.co: Argo CD flaw could allow stealing sensitive data from Kubernetes Apps](https://securityaffairs.com/127708/hacking/kubernetes-argo-cd-flaw.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the threat landscape exposed by vulnerability CVE-2022-24348 in multi-tenant environments. Emphasizes why prompt patching of GitOps controllers is critical when handling multi-tenant repositories on shared control planes.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Jenkins](./jenkins.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

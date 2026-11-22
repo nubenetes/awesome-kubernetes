@@ -103,7 +103,7 @@ description: "Top Mkdocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
   - **(2026)** [markdownguide.org](https://www.markdownguide.org) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive platform-neutral guide to standard and extended Markdown syntax. Curator Insight praises its simplicity. Live Grounding proves its continued necessity as the absolute standard for project readme documentation.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [CI/CD](./cicd.md) | [Kubernetes On Premise](./kubernetes-on-premise.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -183,7 +183,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
   - [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Running Cucumber with Maven covering Maven Tests in Maven Gradle (dzone.com).
 
 ---
-💡 **Explore Related:** [API](./api.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Postman](./postman.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

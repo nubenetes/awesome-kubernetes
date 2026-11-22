@@ -256,7 +256,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Lens Kub
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [OCP 4](./ocp4.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -42,7 +42,7 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
   - [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Why SonarQube covering Introduction in Sonarqube (dzone.com).
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Jenkins](./jenkins.md)
+💡 **Explore Related:** [Argo](./argo.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

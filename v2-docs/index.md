@@ -128,7 +128,7 @@
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai">Red Hat OpenShift AI (RHOAI)</a></div>
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Unifies KServe, vLLM, Kubeflow Pipelines, KubeRay, and Kueue natively on Kubernetes to provide a production-ready enterprise hybrid-cloud AI platform.</div>
+  <div class="trending-card__why">Unifies KServe, vLLM, Kubeflow, and KubeRay into a production-ready, Kubernetes-native enterprise AI and MLOps platform.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -231,9 +231,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AI & Agents</div>
-  <div class="trending-card__title"><a href="https://github.com/vllm-project/vllm">vLLM on Kubernetes</a></div>
-  <div class="trending-card__meta">2026-11-02 · 96.2k★</div>
-  <div class="trending-card__why">Standardizes high-throughput, memory-efficient LLM inference on Kubernetes clusters using PagedAttention for cloud-native AI serving.</div>
+  <div class="trending-card__title"><a href="https://github.com/microsoft/agent-framework">Microsoft Agent Framework</a></div>
+  <div class="trending-card__meta">2026-11-05 · 14.5k★</div>
+  <div class="trending-card__why">Consolidates Semantic Kernel and AutoGen into a single enterprise-grade, multi-language SDK and runtime for multi-agent systems.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -667,7 +667,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1036 resources">Go<span class="v2-heat-n">1036</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1039 resources">Go<span class="v2-heat-n">1039</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -801,7 +801,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#malware-analysis" title="1 resources">Malware-Analysis<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#mamba" title="1 resources">Mamba<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#manufacturing" title="1 resources">Manufacturing<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="336 resources">Markdown<span class="v2-heat-n">336</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="334 resources">Markdown<span class="v2-heat-n">334</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#mathematical-reasoning" title="1 resources">Mathematical-Reasoning<span class="v2-heat-n">1</span></a>

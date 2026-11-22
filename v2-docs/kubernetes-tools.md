@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kaniko and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Tools resources for 2026, AI-ranked: fubectl, nerdctl and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Plugins, Tools, Extensions and Projects
 
@@ -1543,6 +1543,11 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kanik
   - **(2021)** [uw-labs.github.io: Kubernetes Semaphore: A modular and nonintrusive framework' for cross cluster communication](https://uw-labs.github.io/blog/kubernetes,/multicluster/2021/07/21/kube-semaphore-intro.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modular, non-intrusive framework facilitating cross-cluster orchestration and synchronized tasks. It addresses inter-cluster resource coordination without requiring deep, heavy service meshes or persistent site-to-site VPN tunnels.
 ## Networking and Security
 
+### Access Control (1)
+
+#### Identity Gateways
+
+  - **(2026)** [==Teleport 🌟==](https://github.com/gravitational/teleport) <span class='md-tag md-tag--info'>⭐ 21056</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-488a2fb0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 9 L 20 10 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-488a2fb0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-protocol infrastructure access gateway. Teleport consolidates SSH, database, web app, and Kubernetes API session access into an audited, identity-backed portal with detailed record-keeping, biometric integration, and enterprise access reviews.
 ### Admission Control (3)
 
 #### DNS Configuration
@@ -2333,7 +2338,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kanik
   - **(2024)** [Azure/placement-policy-scheduler-plugins](https://github.com/Azure/placement-policy-scheduler-plugins) <span class='md-tag md-tag--info'>⭐ 55</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d7ccb3ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 13 L 30 2 L 40 4 L 50 8" fill="none" stroke="url(#spark-grad-d7ccb3ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This repository contains custom scheduling plugins for the Kubernetes default scheduler, built by Azure. They implement advanced scheduling topologies like strict fault-domain placement, proximity-based scheduling, and specialized multi-tenant constraints, providing deep scheduling control for hyperscale enterprise architectures.
 ## Security (1)
 
-### Access Control (1)
+### Access Control (2)
 
 #### RBAC Audit
 
@@ -2791,7 +2796,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: nerdctl, kanik
   - **(2020)** [github.com/alexellis/run-job](https://github.com/alexellis/run-job) <span class='md-tag md-tag--info'>⭐ 211</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fdd899b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 7 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-fdd899b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented utility written in Go to quickly trigger Kubernetes Jobs, track execution statuses, and stream execution logs directly to stdout. Simplifies local workflow testing and diagnostic debugging.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [CI/CD](./cicd.md) | [Kubernetes On Premise](./kubernetes-on-premise.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

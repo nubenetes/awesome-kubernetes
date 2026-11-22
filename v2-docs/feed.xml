@@ -45,7 +45,15 @@
       <guid isPermaLink="true">https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Unifies KServe, vLLM, Kubeflow Pipelines, KubeRay, and Kueue natively on Kubernetes to provide a production-ready enterprise hybrid-cloud AI platform.</description>
+      <description>[CRITICAL] Unifies KServe, vLLM, Kubeflow, and KubeRay into a production-ready, Kubernetes-native enterprise AI and MLOps platform.</description>
+    </item>
+    <item>
+      <title>Microsoft Agent Framework</title>
+      <link>https://github.com/microsoft/agent-framework</link>
+      <guid isPermaLink="true">https://github.com/microsoft/agent-framework</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+      <category>AI &amp; Agents</category>
+      <description>[CRITICAL] Consolidates Semantic Kernel and AutoGen into a single enterprise-grade, multi-language SDK and runtime for multi-agent systems.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
@@ -69,7 +77,7 @@
       <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Standardizes high-throughput, memory-efficient LLM inference on Kubernetes clusters using PagedAttention for cloud-native AI serving.</description>
+      <description>[CRITICAL] Standardizes high-throughput, memory-efficient LLM inference serving across Kubernetes clusters using PagedAttention.</description>
     </item>
     <item>
       <title>OpenTofu Official GitHub Repository</title>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
       <description>[CRITICAL] Graduating TCPRoute and UDPRoute to Standard in Gateway API v1.6 fundamentally expands Kubernetes-native traffic management beyond HTTP to production Layer 4 workloads.</description>
-    </item>
-    <item>
-      <title>github.com: Istio</title>
-      <link>https://github.com/istio/istio</link>
-      <guid isPermaLink="true">https://github.com/istio/istio</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 -0000</pubDate>
-      <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] Istio remains the flagship CNCF service mesh unifying Envoy sidecar and sidecarless ambient modes for zero-trust mTLS, observability, and traffic control.</description>
     </item>
   </channel>
 </rss>

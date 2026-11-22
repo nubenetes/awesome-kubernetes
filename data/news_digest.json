@@ -191,7 +191,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Unifies KServe, vLLM, Kubeflow Pipelines, KubeRay, and Kueue natively on Kubernetes to provide a production-ready enterprise hybrid-cloud AI platform.",
+        "why": "Unifies KServe, vLLM, Kubeflow, and KubeRay into a production-ready, Kubernetes-native enterprise AI and MLOps platform.",
         "category": "AI & Agents"
       },
       {
@@ -200,7 +200,16 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Standardizes high-throughput, memory-efficient LLM inference on Kubernetes clusters using PagedAttention for cloud-native AI serving.",
+        "why": "Standardizes high-throughput, memory-efficient LLM inference serving across Kubernetes clusters using PagedAttention.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/microsoft/agent-framework",
+        "title": "Microsoft Agent Framework",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Consolidates Semantic Kernel and AutoGen into a single enterprise-grade, multi-language SDK and runtime for multi-agent systems.",
         "category": "AI & Agents"
       },
       {
@@ -209,16 +218,7 @@
         "date": "2026-11-07",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers a direct architectural comparison between managed cloud AI control planes and self-managed Kubernetes platforms for production AI engineering.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/microsoft/agent-framework",
-        "title": "Microsoft Agent Framework",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Consolidates Semantic Kernel and AutoGen into a single open-source multi-language runtime, establishing an enterprise foundation for multi-agent systems.",
+        "why": "Provides cloud-native architects with a direct production engineering comparison between managed cloud AI control planes and self-hosted Kubernetes platforms.",
         "category": "AI & Agents"
       },
       {
@@ -227,34 +227,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Provides an open-source, model-driven agent framework from AWS with native Model Context Protocol support for low-boilerplate production agents.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/langfuse/langfuse",
-        "title": "Langfuse",
-        "date": "2026-11-15",
-        "stars": 4,
-        "impact": "high",
-        "why": "Brings essential end-to-end observability, telemetry, and evaluation capabilities required to operate reliable LLM and agentic workloads in production.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/PrefectHQ/fastmcp",
-        "title": "FastMCP",
-        "date": "2026-11-15",
-        "stars": 4,
-        "impact": "high",
-        "why": "Accelerates adoption of the Model Context Protocol by abstracting JSON-RPC and transport complexity into a foundational Python server framework.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/k8s-servant/k8s-skills",
-        "title": "k8s-skills: Read-only Kubernetes troubleshooting skills for AI agents",
-        "date": "2026-11-15",
-        "stars": 4,
-        "impact": "high",
-        "why": "Directly bridges AI coding and SRE agents with cloud-native operations through read-only Kubernetes troubleshooting skills across CoreDNS, storage, and RBAC.",
+        "why": "Introduces AWS's open-source, model-driven agent framework with native Model Context Protocol (MCP) support for low-boilerplate production agents.",
         "category": "AI & Agents"
       },
       {
@@ -263,7 +236,34 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Introduces a novel serverless edge architecture for globally distributed, stateful AI agents backed by Cloudflare Workers and Durable Objects.",
+        "why": "Pioneers a globally distributed, serverless edge architecture for stateful AI agents using Cloudflare Workers, Durable Objects, and per-agent SQLite.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/PrefectHQ/fastmcp",
+        "title": "FastMCP",
+        "date": "2026-11-15",
+        "stars": 4,
+        "impact": "high",
+        "why": "Accelerates enterprise adoption of the Model Context Protocol by abstracting JSON-RPC and transport complexity into a foundational Python server framework.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/k8s-servant/k8s-skills",
+        "title": "k8s-skills: Read-only Kubernetes troubleshooting skills for AI agents",
+        "date": "2026-11-15",
+        "stars": 4,
+        "impact": "high",
+        "why": "Equips AI coding and SRE agents with read-only diagnostic skills to safely troubleshoot Kubernetes workloads, networking, RBAC, and CoreDNS.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/langfuse/langfuse",
+        "title": "Langfuse",
+        "date": "2026-11-15",
+        "stars": 4,
+        "impact": "high",
+        "why": "Delivers essential open-source observability, telemetry, and evaluation capabilities required to operate LLM applications and AI agents reliably in production.",
         "category": "AI & Agents"
       },
       {
@@ -271,8 +271,8 @@
         "title": "Open source maintainership in the age of AI",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "medium",
-        "why": "Offers authoritative guidance from the official Kubernetes blog on how AI-generated code impacts open-source governance and cloud-native maintainership.",
+        "impact": "high",
+        "why": "Highlights critical governance and sustainability challenges facing Kubernetes and cloud-native open-source maintainers amid surging AI-generated contributions.",
         "category": "AI & Agents"
       }
     ],
@@ -2497,7 +2497,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Unifies core cloud-native AI components—KServe, vLLM, llm-d, Kubeflow Pipelines, KubeRay, and Kueue—into an enterprise-ready hybrid cloud platform natively on Kubernetes.",
+        "why": "Provides an enterprise-grade, Kubernetes-native AI platform unifying KServe, vLLM, and Ray directly within OpenShift.",
         "category": "AI & Agents"
       },
       {
@@ -2506,16 +2506,16 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides standardized deployment schemas and PagedAttention-based serving patterns that make high-throughput, memory-efficient LLM inference repeatable on Kubernetes clusters.",
+        "why": "Defines the standard architectural blueprint for serving large language models efficiently on Kubernetes using PagedAttention.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "title": "GitHub MCP Server",
-        "date": "2026-06-07",
+        "url": "https://www.youtube.com/playlist?list=PLBZl7QsgYjrw",
+        "title": "Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)",
+        "date": "2026-11-07",
         "stars": 5,
-        "impact": "critical",
-        "why": "Establishes production-grade Model Context Protocol (MCP) server references and JSON-RPC 2.0 standards that reshape how AI agents securely integrate with external tools and infrastructure.",
+        "impact": "high",
+        "why": "Offers essential architectural comparisons between managed hyperscaler AI control planes and self-hosted Kubernetes platforms.",
         "category": "AI & Agents"
       },
       {
@@ -2524,16 +2524,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Consolidates Semantic Kernel and AutoGen into a unified open-source enterprise SDK and runtime across Python and .NET for building production multi-agent systems.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/strands-agents/harness-sdk",
-        "title": "Strands Agents SDK",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers AWS's open-source, model-driven agent SDK with native MCP tool support, reducing boilerplate for teams deploying production AI agents.",
+        "why": "Unifies Microsoft Semantic Kernel and AutoGen into a single enterprise-ready runtime for multi-agent workflows.",
         "category": "AI & Agents"
       },
       {
@@ -2542,34 +2533,25 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Redefines software engineering workflows by embedding an autonomous CLI coding agent directly into terminal, test, and git pipelines.",
+        "why": "Represents the frontier of CLI-driven autonomous engineering agents capable of navigating and modifying large codebases.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://developers.cloudflare.com/agents",
-        "title": "Cloudflare Agents Platform",
-        "date": "2026-11-05",
-        "stars": 5,
+        "url": "https://github.com/k8s-servant/k8s-skills",
+        "title": "k8s-skills: Read-only Kubernetes troubleshooting skills for AI agents",
+        "date": "2026-11-15",
+        "stars": 4,
         "impact": "high",
-        "why": "Introduces a serverless edge agent architecture on Workers and Durable Objects with per-agent persistent SQLite state for globally distributed workloads.",
+        "why": "Directly empowers SRE and coding agents with structured, read-only diagnostic skills for Kubernetes cluster troubleshooting.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry",
-        "title": "Microsoft Azure AI Foundry (Microsoft Foundry)",
-        "date": "2026-11-05",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "title": "GitHub MCP Server",
+        "date": "2026-06-07",
         "stars": 5,
         "impact": "high",
-        "why": "Offers an integrated enterprise control plane and multi-provider model catalog for governing, evaluating, and operationalizing production AI agents at scale.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://cloud.google.com/vertex-ai",
-        "title": "Google Cloud Vertex AI Platform",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Brings together 200+ foundation models, Agent Builder, Ray orchestration, and automated evaluation guardrails into a production-ready cloud AI platform.",
+        "why": "Establishes canonical, production-grade Model Context Protocol (MCP) server implementations for AI agent tool integration.",
         "category": "AI & Agents"
       },
       {
@@ -2578,7 +2560,25 @@
         "date": "2026-11-15",
         "stars": 4,
         "impact": "high",
-        "why": "Provides essential open-source observability, tracing, prompt management, and evaluation tooling required to reliably operate LLM and agent workloads in production.",
+        "why": "Delivers production-grade open-source telemetry, evaluation, and observability essential for monitoring enterprise AI agent systems.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://developers.cloudflare.com/agents",
+        "title": "Cloudflare Agents Platform",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Pioneers serverless edge architectures for globally distributed, stateful AI agents using Durable Objects.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/opensandbox-group/OpenSandbox",
+        "title": "OpenSandbox",
+        "date": "2026-11-15",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Addresses the critical infrastructure requirement of secure, isolated sandbox environments for untrusted agent code execution.",
         "category": "AI & Agents"
       }
     ],
@@ -5223,7 +5223,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides a comprehensive enterprise platform orchestrating KubeRay, vLLM, and Kueue natively on Kubernetes for hybrid cloud AI.",
+        "why": "It provides the reference enterprise-supported hybrid cloud AI platform natively orchestrated on Kubernetes with KServe, vLLM, and KubeRay.",
         "category": "AI & Agents"
       },
       {
@@ -5232,7 +5232,7 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "critical",
-        "why": "Sets the industry standard for high-throughput, memory-efficient LLM serving infrastructure deployed directly onto Kubernetes clusters.",
+        "why": "It standardizes high-throughput, memory-efficient LLM serving and distributed inference patterns directly on Kubernetes clusters.",
         "category": "AI & Agents"
       },
       {
@@ -5240,44 +5240,8 @@
         "title": "Microsoft Agent Framework",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "critical",
-        "why": "Unifies Semantic Kernel and AutoGen into a consolidated enterprise open-source SDK for building resilient multi-agent systems.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry",
-        "title": "Microsoft Azure AI Foundry (Microsoft Foundry)",
-        "date": "2026-11-05",
-        "stars": 5,
         "impact": "high",
-        "why": "Serves as an enterprise-grade control plane and agent factory integrating curated model catalogs with production deployment governance.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLBZl7QsgYjrw",
-        "title": "Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)",
-        "date": "2026-11-07",
-        "stars": 5,
-        "impact": "high",
-        "why": "Delivers an essential architectural reference comparing hyperscaler AI control planes directly against Kubernetes-native AI stacks.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
-        "title": "docs.anthropic.com: Claude Code CLI",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Pioneers production-grade CLI-driven autonomous agentic software engineering directly within developers' active environments.",
-        "category": "AI & Agents"
-      },
-      {
-        "url": "https://github.com/langfuse/langfuse",
-        "title": "Langfuse",
-        "date": "2026-11-15",
-        "stars": 4,
-        "impact": "high",
-        "why": "Establishes a critical open-source telemetry, tracing, and evaluation stack designed specifically for production AI agent systems.",
+        "why": "It unifies Microsoft's AutoGen and Semantic Kernel into a single open-source enterprise SDK for production multi-agent systems.",
         "category": "AI & Agents"
       },
       {
@@ -5286,7 +5250,34 @@
         "date": "2026-11-15",
         "stars": 4,
         "impact": "high",
-        "why": "Bridges autonomous agents directly to cloud-native operations through a standardized read-only Kubernetes troubleshooting skill set.",
+        "why": "It bridges agentic workflows directly to cloud native operations by equipping AI agents with read-only Kubernetes diagnostic capabilities.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://github.com/langfuse/langfuse",
+        "title": "Langfuse",
+        "date": "2026-11-15",
+        "stars": 4,
+        "impact": "high",
+        "why": "It represents the foundational open-source observability, tracing, and evaluation backbone necessary for production-grade AI agents.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://antigravity.google",
+        "title": "antigravity.google: Google Antigravity Agentic Platform",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "It streamlines the deployment pathway for stateful AI agents transitioning from local prototypes to production Google Kubernetes Engine environments.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLBZl7QsgYjrw",
+        "title": "Nubenetes Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes (Playlist)",
+        "date": "2026-11-07",
+        "stars": 5,
+        "impact": "high",
+        "why": "It offers an essential architectural comparison matrix evaluating managed hyperscaler control planes against self-hosted Kubernetes AI platforms.",
         "category": "AI & Agents"
       },
       {
@@ -5295,16 +5286,25 @@
         "date": "2026-11-15",
         "stars": 4,
         "impact": "high",
-        "why": "Accelerates enterprise tool interoperability by abstracting Model Context Protocol (MCP) server creation and transport negotiation.",
+        "why": "It accelerates Model Context Protocol (MCP) adoption by dramatically simplifying the creation and transport negotiation of agent tool servers.",
         "category": "AI & Agents"
       },
       {
-        "url": "https://developers.cloudflare.com/agents",
-        "title": "Cloudflare Agents Platform",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry",
+        "title": "Microsoft Azure AI Foundry (Microsoft Foundry)",
         "date": "2026-11-05",
         "stars": 5,
-        "impact": "medium",
-        "why": "Introduces a novel serverless edge paradigm leveraging distributed durable objects for persistent, stateful AI agents.",
+        "impact": "high",
+        "why": "It serves as a dominant enterprise-grade control plane unifying model catalogs, security guardrails, and autonomous agent factories.",
+        "category": "AI & Agents"
+      },
+      {
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+        "title": "docs.anthropic.com: Claude Code CLI",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "It redefines developer operations by introducing an autonomous CLI agent capable of full-codebase navigation, testing, and git operations.",
         "category": "AI & Agents"
       }
     ],
@@ -6980,9 +6980,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-15T23:22:09.577430+01:00",
-        "entry_hash": "68af1e3907d7f0d6",
-        "entry_count": 238,
+        "last_analyzed": "2026-11-22T11:30:02.551561+01:00",
+        "entry_hash": "81be065944e413e3",
+        "entry_count": 239,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -7144,9 +7144,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-15T23:26:00.227812+01:00",
-        "entry_hash": "742cbb0473e41e20",
-        "entry_count": 394,
+        "last_analyzed": "2026-11-22T11:31:00.872556+01:00",
+        "entry_hash": "9f42f96c0398b3d4",
+        "entry_count": 395,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7326,9 +7326,9 @@
         "method": "gemini"
       },
       "AI & Agents": {
-        "last_analyzed": "2026-11-15T23:32:03.971130+01:00",
-        "entry_hash": "337b8a0ec94cd78e",
-        "entry_count": 672,
+        "last_analyzed": "2026-11-22T11:31:19.607716+01:00",
+        "entry_hash": "d2bcd12947e36212",
+        "entry_count": 673,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -7440,6 +7440,6 @@
         "method": "gemini"
       }
     },
-    "last_updated": "2026-11-22T11:01:21.352912+01:00"
+    "last_updated": "2026-11-22T11:31:20.617538+01:00"
   }
 }

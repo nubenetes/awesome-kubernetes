@@ -191,7 +191,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Scale to Zero With Kubernetes with KEDA and/or Knative covering Kubernetes Scale to Zero in Kubernetes Autoscaling (dzone.com).
 
 ---
-💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [OCP 4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

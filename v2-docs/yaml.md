@@ -183,7 +183,7 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
   - [jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsonformatter.org/yaml-validator covering YAML Validators in Yaml (jsonformatter.org).
 
 ---
-💡 **Explore Related:** [Crunchydata](./crunchydata.md) | [Databases](./databases.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

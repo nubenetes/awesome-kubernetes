@@ -1,5 +1,5 @@
 ---
-description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templates, Awesome Sysadmin and more — curated Cloud Native tools, guides and references."
+description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, Claude Code Templates and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Tools aka Toolchain
 
@@ -187,7 +187,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
   - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced patterns for orchestrating automated codebase modifications across distributed multi-repository environments using AI workspaces. Evaluates dependency resolution, unified context indexing, and coordinate git-commit strategies during systemic API breaking updates.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [CI/CD](./cicd.md) | [Kubernetes On Premise](./kubernetes-on-premise.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

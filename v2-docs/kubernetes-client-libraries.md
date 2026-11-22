@@ -141,7 +141,7 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
   - [blog.devgenius.io: Automate Kubernetes With Python 🌟](https://blog.devgenius.io/automate-kubernetes-with-python-2150c290afe7?gi=2b6f729de111) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Automate Kubernetes With Python 🌟 covering Python Client for Kubernetes in Kubernetes Client Libraries (blog.devgenius.io).
 
 ---
-💡 **Explore Related:** [Kubernetes On Premise](./kubernetes-on-premise.md) | [OCP 4](./ocp4.md) | [Kubernetes Based Devel](./kubernetes-based-devel.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

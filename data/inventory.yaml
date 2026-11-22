@@ -744065,23 +744065,32 @@ https://memorylimit.dev/kubernetes:
 https://cioquest.com/llm-cost-calculator:
   title: CIOQuest LLM Cost Calculator
   description: ''
-  ai_summary: 'CIOQuest LLM Cost Calculator: Curated technical resource in Ai.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'CIOQuest LLM Cost Calculator: Curated technical resource in Ai.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:01:23.333019+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - AI
   - Ai
   - LLMOps
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
   v1_locations:
   - docs/ai.md
   v2_locations:
   - ai.md
-  addition_method: manual
-  discovered_at: '2026-11-22T11:01:23.333019+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[LLM]'
+  youtube_mosaic: {}

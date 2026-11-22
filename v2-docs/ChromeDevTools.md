@@ -27,7 +27,7 @@ description: "Curated, AI-ranked Chromedevtools resources for the 2026 Cloud Nat
   - [jsontoolbox.com](https://www.jsontoolbox.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsontoolbox.com covering Other Tools in Chromedevtools (jsontoolbox.com).
 
 ---
-💡 **Explore Related:** [API](./api.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Postman](./postman.md) | [Maven Gradle](./maven-gradle.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

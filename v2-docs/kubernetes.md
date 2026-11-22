@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plugins, Available kubectl plugins and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes resources for 2026, AI-ranked: Draino, Awesome Kubectl plugins and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes
 
@@ -938,6 +938,13 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
 #### Tutorials
 
   - **(2020)** [dev.to: Creating a Custom Resource Definition In Kubernetes | Michael Levan](https://dev.to/thenjdevopsguy/creating-a-custom-resource-definition-in-kubernetes-2k7o)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through detailing how to construct and deploy Custom Resource Definitions. Explores API versioning schema fields, spec declarations, and the foundational design of corresponding controller reconciliation loops.
+## Extensibility (2)
+
+### Operators
+
+#### Lifecycle Management
+
+  - **(2024)** [==Red Hat OLM==](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dd898253" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 11 L 30 9 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-dd898253)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Part of the Operator Framework, OLM manages the installation, updates, and role-based access control of Operators running inside a cluster. It acts as an orchestrator for custom resource definitions (CRDs) and controller versions, ensuring dependencies are resolved safely. This tool is standard infrastructure across Red Hat OpenShift and enterprise Kubernetes configurations to scale operations reliably.
 ## Fundamentals (5)
 
 ### Advocacy
@@ -1698,7 +1705,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
 #### Architecture Overview
 
   - **(2023)** [linkedin.com: DAY 01: Kubernetes : Understanding Architecture, Components, Installation and Configuration](https://www.linkedin.com/pulse/day-01-kubernetes-understanding-architecture-anup-ghattikar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory training log explaining initial cluster bootstrapping, control plane configurations, and node joining sequences. It details common installation paths and highlights basic networking/etcd configurations needed to establish a stable cluster control plane.
-### Lifecycle Management
+### Lifecycle Management (1)
 
 #### Day 2 Operations
 
@@ -2574,7 +2581,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Awesome Kubectl plug
   - **(2021)** [**loft.sh: Kubernetes StatefulSet - Examples & Best Practices**](https://www.vcluster.com/blog/kubernetes-statefulset-examples-and-best-practices) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the design space of StatefulSets, concentrating on Volume Claim Templates, headless services, and storage scaling hazards. Highlights best practices for migrating production database clusters into cloud-native topologies.
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [CI/CD](./cicd.md) | [Kubernetes On Premise](./kubernetes-on-premise.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

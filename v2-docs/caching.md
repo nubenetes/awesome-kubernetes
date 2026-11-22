@@ -139,7 +139,7 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
   - [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Red Hat Enterprise Linux Blog. Tag: Varnish covering Varnish in Caching (redhat.com).
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Web Servers](./web-servers.md) | [Networking](./networking.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AWX and more — curated Cloud Native tools, guides and references."
+description: "Top Ansible resources for 2026, AI-ranked: AWX, Gradle Cheat Sheets and more — curated Cloud Native tools, guides and references."
 ---
 # Configuration Management. Ansible
 
@@ -568,7 +568,7 @@ description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AW
   - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -31,7 +31,7 @@ description: "Curated, AI-ranked Angular resources for the 2026 Cloud Native arc
   - [javascript.plainenglish.io: Angular is Costing Companies Billions](https://javascript.plainenglish.io/enough-why-its-time-to-rip-out-angular-7d831802c8a2?gi=ea1f366517c9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for javascript.plainenglish.io: Angular is Costing Companies Billions in the Angular ecosystem (javascript.plainenglish.io).
 
 ---
-💡 **Explore Related:** [API](./api.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Postman](./postman.md) | [Maven Gradle](./maven-gradle.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -183,7 +183,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [API](./api.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Postman](./postman.md) | [Maven Gradle](./maven-gradle.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

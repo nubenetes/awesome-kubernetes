@@ -102,7 +102,7 @@ description: "Top Postman resources for 2026, AI-ranked: Postman, Newman and mor
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.
 
 ---
-💡 **Explore Related:** [API](./api.md) | [Visual Studio](./visual-studio.md) | [Python](./python.md)
+💡 **Explore Related:** [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Maven Gradle](./maven-gradle.md) | [Visual Studio](./visual-studio.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

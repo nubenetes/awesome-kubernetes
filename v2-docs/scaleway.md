@@ -25,7 +25,7 @@ description: "Curated, AI-ranked Scaleway resources for the 2026 Cloud Native ar
   - [scaleway.com](https://www.scaleway.com/en/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for scaleway.com in the Digitalocean ecosystem (scaleway.com).
 
 ---
-💡 **Explore Related:** [Stackstorm](./stackstorm.md) | [Private Cloud Solutions](./private-cloud-solutions.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
 
-🔗 **See Also:** [CI/CD](./cicd.md) | [Kubernetes On Premise](./kubernetes-on-premise.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -64,7 +64,7 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, NGI
   - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [AWS Security](./aws-security.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 
