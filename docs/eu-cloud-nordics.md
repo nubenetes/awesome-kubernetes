@@ -18,10 +18,10 @@ Curated regional guide for **Sweden, Finland, Norway, and Iceland** Sovereign Cl
 ## Hydro and Geothermal AI Data Centers and EuroHPC Supercomputing
 
 - **(2026)** [Green Mountain Hydro-Powered Data Centers (Norway and UK)](https://greenmountain.no) 🌟 - World-renowned Norwegian ultra-low-PUE colocation operator running fjord-cooled and 100% hydro-powered AI and sovereign enterprise data centers (Stavanger, Rjukan, Oslo).
-- **(2026)** [atNorth Nordic High-Density AI Data Centers](https://www.atnorth.com/) 🌟 - Pan-Nordic high-density colocation and liquid-cooled GPU infrastructure operator spanning Iceland, Sweden, Finland, and Denmark with sub-1.15 PUE and geothermal/hydro electricity.
-- **(2026)** [Verne Sustainable AI Data Centers (Iceland, Finland and UK)](https://www.verne.co/) 🌟 - High-density HPC and AI colocation specialist running 100% geothermal and hydro campuses across Keflavik (Iceland) and Finland tailored for multi-megawatt LLM training clusters.
+- **(2026)** [atNorth Nordic High-Density AI Data Centers](https://www.atnorth.com) 🌟 - Pan-Nordic high-density colocation and liquid-cooled GPU infrastructure operator spanning Iceland, Sweden, Finland, and Denmark with sub-1.15 PUE and geothermal/hydro electricity.
+- **(2026)** [Verne Sustainable AI Data Centers (Iceland, Finland and UK)](https://www.verne.co) 🌟 - High-density HPC and AI colocation specialist running 100% geothermal and hydro campuses across Keflavik (Iceland) and Finland tailored for multi-megawatt LLM training clusters.
 - **(2026)** [Bulk Infrastructure Nordic Green Data Centers](https://bulkinfrastructure.com) 🌟 - Norwegian hyperscale data center and dark-fiber subsea carrier operating Norway's massive renewable-powered NO1 campus and ultra-low-latency transatlantic/Nordic connectivity.
-- **(2026)** [LUMI Pre-Exascale Supercomputer (CSC Kajaani Finland)](https://lumi-supercomputer.eu/) 🌟 - One of Europe's cleanest pre-exascale EuroHPC supercomputers in Kajaani powered 100% by hydroelectricity with waste heat exported directly to the local municipal district heating grid.
+- **(2026)** [LUMI Pre-Exascale Supercomputer (CSC Kajaani Finland)](https://lumi-supercomputer.eu) 🌟 - One of Europe's cleanest pre-exascale EuroHPC supercomputers in Kajaani powered 100% by hydroelectricity with waste heat exported directly to the local municipal district heating grid.
 
 ## Nordic Interconnection and Sovereign Governance
 
