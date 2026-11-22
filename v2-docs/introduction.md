@@ -27,12 +27,13 @@ description: "Top Introduction resources for 2026, AI-ranked: Build Your Own X, 
 
 
 ```mermaid
+%%{init: {'themeVariables': {'fontSize': '14px'}, 'flowchart': {'htmlLabels': false, 'padding': 14}}}%%
 graph TD
-    A[Foundations] --> B[AI & Intelligence]
-    A --> C[Hardened Infra]
-    B --> D[Agentic Curation]
-    C --> E[Enterprise Stability]
-    D --> F[Nubenetes Portal]
+    A["Foundations"] --> B["AI & Intelligence"]
+    A --> C["Hardened Infra"]
+    B --> D["Agentic Curation"]
+    C --> E["Enterprise Stability"]
+    D --> F["Nubenetes Portal"]
     E --> F
 ```
 

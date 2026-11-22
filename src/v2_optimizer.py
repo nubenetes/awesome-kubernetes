@@ -2241,7 +2241,7 @@ class V2VisionEngine:
             # See v2-mkdocs.yml (toc.integrate removed) and static/v2_filter.js (?v=2.9.12).
 
             if f_name == "introduction.md":
-                md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n\n"
+                md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n\n```mermaid\n%%{init: {'themeVariables': {'fontSize': '14px'}, 'flowchart': {'htmlLabels': false, 'padding': 14}}}%%\ngraph TD\n    A[\"Foundations\"] --> B[\"AI & Intelligence\"]\n    A --> C[\"Hardened Infra\"]\n    B --> D[\"Agentic Curation\"]\n    C --> E[\"Enterprise Stability\"]\n    D --> F[\"Nubenetes Portal\"]\n    E --> F\n```\n\n\n"
 
             if f_name == "about.md":
                 md += (
