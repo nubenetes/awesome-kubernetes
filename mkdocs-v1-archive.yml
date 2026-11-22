@@ -258,6 +258,7 @@ nav:
   - AI:
     - AI: ai.md
     - Model Context Protocol (MCP) & AI Agents: ai-agents-mcp.md
+    - AI Knowledge & Retrieval (RAG, OKF, GraphRAG): ai-rag-okf.md
     - MLOps: mlops.md
     - ChatGPT: chatgpt.md
   - Project Mgmt:

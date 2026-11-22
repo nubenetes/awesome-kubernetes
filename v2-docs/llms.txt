@@ -15,6 +15,7 @@
 
 ### AI
 - [AI Agents MCP](https://nubenetes.com/ai-agents-mcp/)
+- [AI RAG OKF](https://nubenetes.com/ai-rag-okf/)
 - [AI](https://nubenetes.com/ai/)
 - [ChatGPT](https://nubenetes.com/chatgpt/)
 - [Enterprise AI Platforms](https://nubenetes.com/enterprise-ai-platforms/)

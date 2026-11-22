@@ -34,6 +34,10 @@ on:
         description: 'Include AI & Agentic Systems'
         type: boolean
         default: true
+      include_rag_okf:
+        description: 'Include AI Knowledge, RAG & OKF'
+        type: boolean
+        default: true
       include_dev:
         description: 'Include Developer Productivity & AI Agents'
         type: boolean
@@ -152,6 +156,7 @@ jobs:
           INCLUDE_OPENSHIFT: ${{ github.event.inputs.include_openshift || 'true' }}
           INCLUDE_CLOUD: ${{ github.event.inputs.include_cloud || 'true' }}
           INCLUDE_AI: ${{ github.event.inputs.include_ai || 'true' }}
+          INCLUDE_RAG_OKF: ${{ github.event.inputs.include_rag_okf || 'true' }}
           INCLUDE_DEV: ${{ github.event.inputs.include_dev || 'true' }}
           INCLUDE_DATA: ${{ github.event.inputs.include_data || 'true' }}
           INCLUDE_IAC: ${{ github.event.inputs.include_iac || 'true' }}

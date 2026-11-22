@@ -20,6 +20,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-4" href="/ai/" title="AI — 84 resources"><span class="topic-heatcell__name">AI</span><span class="topic-heatcell__n">84</span></a>
 <a class="topic-heatcell th-4" href="/chatgpt/" title="ChatGPT — 34 resources"><span class="topic-heatcell__name">ChatGPT</span><span class="topic-heatcell__n">34</span></a>
 <a class="topic-heatcell th-4" href="/enterprise-ai-platforms/" title="Enterprise AI Platforms — 31 resources"><span class="topic-heatcell__name">Enterprise AI Platforms</span><span class="topic-heatcell__n">31</span></a>
+<a class="topic-heatcell th-4" href="/ai-rag-okf/" title="AI RAG OKF — 26 resources"><span class="topic-heatcell__name">AI RAG OKF</span><span class="topic-heatcell__n">26</span></a>
 </div>
 </div>
 <div class="topic-heatmap__row">
@@ -239,6 +240,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 ## AI
 
 - **[AI Agents MCP](./ai-agents-mcp.md)** <span class="topic-count">481</span>
+- **[AI RAG OKF](./ai-rag-okf.md)** <span class="topic-count">26</span>
 - **[AI](./ai.md)** <span class="topic-count">84</span>
 - **[ChatGPT](./chatgpt.md)** <span class="topic-count">34</span>
 - **[Enterprise AI Platforms](./enterprise-ai-platforms.md)** <span class="topic-count">31</span>

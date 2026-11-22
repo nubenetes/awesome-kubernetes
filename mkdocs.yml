@@ -281,6 +281,7 @@ nav:
   - AI:
     - Enterprise AI Platforms: enterprise-ai-platforms.md
     - Model Context Protocol (MCP) & AI Agents: ai-agents-mcp.md
+    - AI Knowledge & Retrieval (RAG, OKF, GraphRAG): ai-rag-okf.md
     - AI: ai.md
     - MLOps: mlops.md
     - ChatGPT: chatgpt.md

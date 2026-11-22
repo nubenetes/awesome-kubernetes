@@ -317,6 +317,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## AI
 - [==Enterprise AI Platforms (Azure AI Foundry, Bedrock, Vertex AI, OpenShift AI)== 🌟](enterprise-ai-platforms.md)
 - [Model Context Protocol (MCP) & AI Agents 🌟](ai-agents-mcp.md)
+- [==AI Knowledge and Retrieval: RAG, OKF, GraphRAG and Agent Memory== 🌟](ai-rag-okf.md)
 - [AI](ai.md)
 - [MLOps](mlops.md)
 - [ChatGPT](chatgpt.md)

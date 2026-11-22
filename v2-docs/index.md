@@ -95,10 +95,10 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20593 total resources analyzed.
-    - **V2 Elite Selection**: 16489 candidates identified (80.07% density ratio).
-    - **AI Enrichment Coverage**: 16489 / 16489 (100.0%)
-    - **GitHub Metadata Coverage**: 1849 / 1865 (99.14%) - *Critical for Maturity Tagging*
+    - **V1 Base Inventory**: 20619 total resources analyzed.
+    - **V2 Elite Selection**: 16515 candidates identified (80.1% density ratio).
+    - **AI Enrichment Coverage**: 16515 / 16515 (100.0%)
+    - **GitHub Metadata Coverage**: 1849 / 1885 (98.09%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
 
@@ -625,7 +625,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="921 resources">Emerging<span class="v2-heat-n">921</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="947 resources">Emerging<span class="v2-heat-n">947</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>
@@ -702,6 +702,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gpu-sharing" title="1 resources">Gpu-Sharing<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gpudirect-storage" title="1 resources">Gpudirect-Storage<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#gradio" title="2 resources">Gradio<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#graphrag" title="7 resources">Graphrag<span class="v2-heat-n">7</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="59 resources">Groovy<span class="v2-heat-n">59</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-hcl-content" title="1 resources">Groovy/Hcl<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-yaml-content" title="1 resources">Groovy/Yaml<span class="v2-heat-n">1</span></a>
@@ -792,7 +793,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#linux" title="2 resources">Linux<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#live-streaming" title="1 resources">Live-Streaming<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llama-cpp" title="1 resources">Llama-Cpp<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="197 resources">LLM<span class="v2-heat-n">197</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="203 resources">LLM<span class="v2-heat-n">203</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-agents" title="2 resources">Llm-Agents<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-benchmarks" title="1 resources">Llm-Benchmarks<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-compression" title="1 resources">Llm-Compression<span class="v2-heat-n">1</span></a>
@@ -820,7 +821,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#mathematical-reasoning" title="1 resources">Mathematical-Reasoning<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="280 resources">MCP<span class="v2-heat-n">280</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#mcp" title="281 resources">MCP<span class="v2-heat-n">281</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#mcp-ready" title="1 resources">Mcp-Ready<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#mdr" title="1 resources">Mdr<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#medical-imaging" title="1 resources">Medical-Imaging<span class="v2-heat-n">1</span></a>
@@ -886,6 +887,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ocaml-content" title="1 resources">Ocaml<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ocp" title="1 resources">Ocp<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#ocr" title="3 resources">Ocr<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#okf" title="5 resources">Okf<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ollama" title="1 resources">Ollama<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#omnimodal" title="1 resources">Omnimodal<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#omniverse" title="1 resources">Omniverse<span class="v2-heat-n">1</span></a>
@@ -959,7 +961,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#quantization" title="3 resources">Quantization<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#quorum" title="1 resources">Quorum<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#r-content" title="1 resources">R<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#rag" title="4 resources">Rag<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#rag" title="18 resources">Rag<span class="v2-heat-n">18</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ray" title="1 resources">Ray<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#rbac" title="1 resources">Rbac<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#rdma" title="1 resources">Rdma<span class="v2-heat-n">1</span></a>

@@ -240830,6 +240830,7 @@ https://github.com/mlabonne/llm-course:
   tags:
   - '[DE FACTO STANDARD]'
   - '[LLM]'
+  - '[RAG]'
   v1_locations:
   - docs/ai.md
   v2_locations:
@@ -467220,6 +467221,7 @@ https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data
   - Enterprise AI
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[RAG]'
   v1_locations:
   - docs/chatgpt.md
   v2_locations:
@@ -662838,6 +662840,7 @@ https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-a
   - '[ENTERPRISE-STABLE]'
   - '[GUIDE]'
   - '[LLM]'
+  - '[RAG]'
   v1_locations:
   - docs/mlops.md
   v2_locations:
@@ -741849,6 +741852,7 @@ https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marke
   - '[AI-AGENTS]'
   - '[EMERGING]'
   - '[ENTERPRISE-STABLE]'
+  - '[GRAPHRAG]'
   - '[KNOWLEDGE-GRAPH]'
   - '[OBSERVABILITY]'
   v1_locations:
@@ -743652,6 +743656,7 @@ https://github.com/DeusData/codebase-memory-mcp:
   - '[AI-AGENTS]'
   - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
+  - '[GRAPHRAG]'
   - '[KNOWLEDGE-GRAPH]'
   - '[MCP]'
   - '[SQLITE]'
@@ -744247,1073 +744252,1469 @@ https://cioquest.com/llm-cost-calculator:
 https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/scanner-environment/general-requirements:
   title: Ant - SonarScanner for Ant
   description: ''
-  ai_summary: 'Ant - SonarScanner for Ant: Curated technical resource in Sonarqube.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'Ant - SonarScanner for Ant: Curated technical resource in Sonarqube.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.823102+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Engineering Pipeline
   - Sonarqube
   - SonarQube Scanners
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/sonarqube.md
   v2_locations:
   - sonarqube.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.823102+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler:
   title: Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler
   description: "\U0001F31F - An in-depth look at how Meta modernized its ad-serving
     infrastructure by integrating an open-source, extensible Linux kernel scheduler."
-  ai_summary: An in-depth look at how Meta modernized its ad-serving infrastructure
-    by integrating an open-source, extensible Linux kernel scheduler.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: An in-depth look at how Meta modernized its ad-serving infrastructure
+    by integrating an open-source, extensible Linux kernel scheduler.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.824077+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Developer Ecosystem
   - Linux Dev Env
   - Alternatives to WSL on Windows
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/linux-dev-env.md
   v2_locations:
   - linux-dev-env.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.824077+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/n8n-io/n8n:
   title: n8n
   description: "\U0001F31F - An extensible, fair-code workflow automation platform
     combining visual node-based composition with advanced custom coding and native
     AI agent capabilities."
-  ai_summary: An extensible, fair-code workflow automation platform combining visual
-    node-based composition with advanced custom coding and native AI agent capabilities.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: An extensible, fair-code workflow automation platform combining visual
+    node-based composition with advanced custom coding and native AI agent capabilities.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.824294+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Developer Ecosystem
   - Lowcode Nocode
   - General Reference
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/lowcode-nocode.md
   v2_locations:
   - lowcode-nocode.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.824294+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets:
   title: Build mini-apps with Gemini in Google Sheets
   description: "\U0001F31F - Sheets canvas turns data into interactive dashboards,
     custom study trackers, seating charts, and more, all with a simple prompt."
-  ai_summary: Sheets canvas turns data into interactive dashboards, custom study trackers,
-    seating charts, and more, all with a simple prompt.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Sheets canvas turns data into interactive dashboards, custom study trackers,
+    seating charts, and more, all with a simple prompt.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.824333+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Developer Ecosystem
   - Lowcode Nocode
   - General Reference
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/lowcode-nocode.md
   v2_locations:
   - lowcode-nocode.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.824333+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator:
   title: 'ansible.com: What''s new in Ansible Automation Platform 2: automation content
     navigator'
   description: ''
-  ai_summary: 'ansible.com: What''s new in Ansible Automation Platform 2: automation
-    content navigator: Curated technical resource in Ansible.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'ansible.com: What''s new in Ansible Automation Platform 2: automation
+    content navigator: Curated technical resource in Ansible.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.831056+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Ansible
   - Red Hat Ansible Automation Platform
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ansible.md
   v2_locations:
   - ansible.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.831056+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026
 : title: 'AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery
     (ARD), and more'
   description: "\U0001F31F - This AWS Weekly Roundup highlights the acquisition of
     DuckLabs and the launch of Agentic Resource Discovery (ARD) for autonomous infrastructure
     management."
-  ai_summary: This AWS Weekly Roundup highlights the acquisition of DuckLabs and the
-    launch of Agentic Resource Discovery (ARD) for autonomous infrastructure management.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: This AWS Weekly Roundup highlights the acquisition of DuckLabs and the
+    launch of Agentic Resource Discovery (ARD) for autonomous infrastructure management.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.838627+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS Architecture Blog Official Blog AWS Labs AWS Quick Start
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.838627+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2:
   title: Happy 20th Birthday, Amazon EC2
   description: "\U0001F31F - AWS celebrates the 20th anniversary of Amazon Elastic
     Compute Cloud (EC2), reflecting on its architectural evolution over two decades."
-  ai_summary: AWS celebrates the 20th anniversary of Amazon Elastic Compute Cloud
-    (EC2), reflecting on its architectural evolution over two decades.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: AWS celebrates the 20th anniversary of Amazon Elastic Compute Cloud
+    (EC2), reflecting on its architectural evolution over two decades.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.838672+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS Architecture Blog Official Blog AWS Labs AWS Quick Start
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.838672+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026
 : title: 'AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in
     Las Vegas, and more'
   description: "\U0001F31F - The late August AWS update introduces a new Local Zone
     in Las Vegas and outlines the expansion of Student Rewards via the AWS Builder
     Center."
-  ai_summary: The late August AWS update introduces a new Local Zone in Las Vegas
-    and outlines the expansion of Student Rewards via the AWS Builder Center.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: The late August AWS update introduces a new Local Zone in Las Vegas
+    and outlines the expansion of Student Rewards via the AWS Builder Center.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.838707+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS Architecture Blog Official Blog AWS Labs AWS Quick Start
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.838707+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026
 : title: 'AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock'
   description: "\U0001F31F - The AWS Weekly Roundup highlights the integration of
     next-generation LLMs into Amazon Bedrock."
-  ai_summary: The AWS Weekly Roundup highlights the integration of next-generation
-    LLMs into Amazon Bedrock.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: The AWS Weekly Roundup highlights the integration of next-generation
+    LLMs into Amazon Bedrock.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.838740+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS Architecture Blog Official Blog AWS Labs AWS Quick Start
-  v1_locations:
-  - docs/aws.md
-  v2_locations:
-  - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.838740+01:00'
   tags:
   - '[CLOUD-AI]'
   - '[EMERGING]'
   - '[LLM]'
+  v1_locations:
+  - docs/aws.md
+  v2_locations:
+  - aws.md
+  youtube_mosaic: {}
 https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available:
   title: New low-cost burstable Amazon EC2 T8i instances are generally available
   description: "\U0001F31F - AWS announces the general availability of the new low-cost,
     burstable Amazon EC2 T8i instances."
-  ai_summary: AWS announces the general availability of the new low-cost, burstable
-    Amazon EC2 T8i instances.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: AWS announces the general availability of the new low-cost, burstable
+    Amazon EC2 T8i instances.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.838774+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS Architecture Blog Official Blog AWS Labs AWS Quick Start
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.838774+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience:
   title: AWS reimagines the getting started experience
   description: "\U0001F31F - AWS unveils a reimagined getting started experience to
     streamline cloud onboarding."
-  ai_summary: AWS unveils a reimagined getting started experience to streamline cloud
-    onboarding.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: AWS unveils a reimagined getting started experience to streamline cloud
+    onboarding.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.838806+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS Architecture Blog Official Blog AWS Labs AWS Quick Start
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.838806+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support:
   title: AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3
     support
   description: "\U0001F31F - AWS Glue 6.0 launches with a significant 30% cost reduction
     and native, deep integration with Apache Iceberg v3 for data lakes."
-  ai_summary: AWS Glue 6.0 launches with a significant 30% cost reduction and native,
-    deep integration with Apache Iceberg v3 for data lakes.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: AWS Glue 6.0 launches with a significant 30% cost reduction and native,
+    deep integration with Apache Iceberg v3 for data lakes.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.840065+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS Data Pipeline aka Big Data Pipelines or Data Streams
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.840065+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview
 : title: AWS DevOps Agent adds release management capabilities to assess code changes
     before production (preview)
   description: "\U0001F31F - Introducing automated release-readiness reviews and autonomous
     staging testing for risk assessment within CI/CD pipelines."
-  ai_summary: Introducing automated release-readiness reviews and autonomous staging
-    testing for risk assessment within CI/CD pipelines.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Introducing automated release-readiness reviews and autonomous staging
+    testing for risk assessment within CI/CD pipelines.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.841365+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - Continuous Deployment with AWS
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.841365+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug:
   title: 'Core Dump Epidemiology: Fixing an 18-Year-Old Bug'
   description: "\U0001F31F - OpenAI engineers utilize large-scale stack-trace signatures
     to isolate a silent hardware error and an 18-year-old GNU libunwind race condition."
-  ai_summary: OpenAI engineers utilize large-scale stack-trace signatures to isolate
-    a silent hardware error and an 18-year-old GNU libunwind race condition.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: OpenAI engineers utilize large-scale stack-trace signatures to isolate
+    a silent hardware error and an 18-year-old GNU libunwind race condition.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.841537+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - Admiralty
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.841537+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://openai.com/index/openai-broadcom-jalapeno-inference-chip:
   title: OpenAI and Broadcom Unveil LLM-Optimized Inference Chip
   description: "\U0001F31F - OpenAI and Broadcom debut Jalapeño, a custom Intelligence
     Processor ASIC built specifically for LLM inference workloads."
-  ai_summary: OpenAI and Broadcom debut Jalapeño, a custom Intelligence Processor
-    ASIC built specifically for LLM inference workloads.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: OpenAI and Broadcom debut Jalapeño, a custom Intelligence Processor
+    ASIC built specifically for LLM inference workloads.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.841577+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - Admiralty
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.841577+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[LLM]'
+  youtube_mosaic: {}
 https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale:
   title: 'Amazon SQS turns 20: Two decades of reliable messaging at scale'
   description: "\U0001F31F - A retrospective on Amazon SQS as it celebrates 20 years
     of providing highly reliable distributed messaging."
-  ai_summary: A retrospective on Amazon SQS as it celebrates 20 years of providing
-    highly reliable distributed messaging.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: A retrospective on Amazon SQS as it celebrates 20 years of providing
+    highly reliable distributed messaging.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.841843+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - SNS vs SQS
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.841843+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications
 : title: Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale
     event-driven applications
   description: "\U0001F31F - AWS launches enhanced custom event buses for Amazon EventBridge,
     explicitly designed for enterprise-scale event-driven architectures."
-  ai_summary: AWS launches enhanced custom event buses for Amazon EventBridge, explicitly
-    designed for enterprise-scale event-driven architectures.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: AWS launches enhanced custom event buses for Amazon EventBridge, explicitly
+    designed for enterprise-scale event-driven architectures.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.841934+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS
   - AWS EventBridge
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws.md
   v2_locations:
   - aws.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.841934+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://docs.aws.amazon.com/ebs/latest/userguide/ebs-encryption.html:
   title: Amazon EBS Encryption
   description: ''
-  ai_summary: 'Amazon EBS Encryption: Curated technical resource in AWS Newfeatures.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'Amazon EBS Encryption: Curated technical resource in AWS Newfeatures.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.846113+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS Newfeatures
   - General Reference
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws-newfeatures.md
   v2_locations:
   - aws-newfeatures.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.846113+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available:
   title: Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are
     now available
   description: "\U0001F31F - AWS announces the general availability of C9g and C9gd
     compute-optimized EC2 instances powered by Graviton5, offering 25% better performance
     and fast DDR5 8800MT/s memory."
+  year: '2026'
+  stars: 3
   ai_summary: AWS announces the general availability of C9g and C9gd compute-optimized
     EC2 instances powered by Graviton5, offering 25% better performance and fast DDR5
     8800MT/s memory.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.849398+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS Newfeatures
   - General Reference
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws-newfeatures.md
   v2_locations:
   - aws-newfeatures.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.849398+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026
 : title: 'AWS Weekly Roundup: Agentic CX designer for Amazon Connect Customer, EC2
     AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)'
   description: "\U0001F31F - A summary of recent AWS announcements, featuring the
     no-code Agentic CX Designer for Amazon Connect, AMI watermarking, and community-focused
     open governance updates."
+  year: '2026'
+  stars: 3
   ai_summary: A summary of recent AWS announcements, featuring the no-code Agentic
     CX Designer for Amazon Connect, AMI watermarking, and community-focused open governance
     updates.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.849477+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS Newfeatures
   - General Reference
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws-newfeatures.md
   v2_locations:
   - aws-newfeatures.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.849477+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026
 : title: 'AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock,
     price reductions, and more (June 22, 2026)'
   description: "\U0001F31F - A comprehensive digest of the New York Summit launches,
     highlighting Amazon Bedrock AgentCore, Grok 4.3 availability, Vietnam edge expansions,
     and important S3 price adjustments."
+  year: '2026'
+  stars: 3
   ai_summary: A comprehensive digest of the New York Summit launches, highlighting
     Amazon Bedrock AgentCore, Grok 4.3 availability, Vietnam edge expansions, and
     important S3 price adjustments.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.849518+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS Newfeatures
   - General Reference
+  tags:
+  - '[CLOUD-AI]'
+  - '[EMERGING]'
   v1_locations:
   - docs/aws-newfeatures.md
   v2_locations:
   - aws-newfeatures.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.849518+01:00'
-  tags:
-  - '[CLOUD-AI]'
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access
 : title: AWS WAF adds AI traffic monetization capability to help content owners charge
     AI bots for content access
   description: "\U0001F31F - AWS WAF launches an edge-based capability within Bot
     Control allowing publishers to charge AI agents for web and API content access."
-  ai_summary: AWS WAF launches an edge-based capability within Bot Control allowing
-    publishers to charge AI agents for web and API content access.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: AWS WAF launches an edge-based capability within Bot Control allowing
+    publishers to charge AI agents for web and API content access.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.852414+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - AWS Security
   - AWS WAF Web Application Firewall
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/aws-security.md
   v2_locations:
   - aws-security.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.852414+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://openai.com/index/how-chatgpt-adoption-has-expanded:
   title: How ChatGPT adoption has expanded
   description: "\U0001F31F - Data insights on the global widening and deepening of
     ChatGPT adoption across multiple demographics and regions."
-  ai_summary: Data insights on the global widening and deepening of ChatGPT adoption
-    across multiple demographics and regions.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Data insights on the global widening and deepening of ChatGPT adoption
+    across multiple demographics and regions.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.870765+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - AI
   - Chatgpt
   - Introduction
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/chatgpt.md
   v2_locations:
   - chatgpt.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.870765+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28:
   title: manifests.io/kubernetes/1.28
   description: ''
-  ai_summary: 'manifests.io/kubernetes/1.28: Curated technical resource in Cheatsheets.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'manifests.io/kubernetes/1.28: Curated technical resource in Cheatsheets.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.872340+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Cheatsheets
   - Kubernetes Knowledge Hubs and Glossary
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/cheatsheets.md
   v2_locations:
   - cheatsheets.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.872340+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://lucid.co/enterprise/cloud-accelerator:
   title: 'Lucidscale: Import your architecture'
   description: Lucidscale is the cloud visualization solution that helps organizations
     see and understand their cloud environment.
-  ai_summary: Lucidscale is the cloud visualization solution that helps organizations
-    see and understand their cloud environment.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Lucidscale is the cloud visualization solution that helps organizations
+    see and understand their cloud environment.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.883420+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Cloud Arch Diagrams
   - AWS
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/cloud-arch-diagrams.md
   v2_locations:
   - cloud-arch-diagrams.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.883420+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.cloudflare.com/dmarc-management-ga:
   title: Cloudflare DMARC Management is now generally available
   description: "\U0001F31F - Cloudflare's DMARC Management reaches General Availability,
     providing deeper email reporting and automated SPF auditing free to all customers."
-  ai_summary: Cloudflare's DMARC Management reaches General Availability, providing
-    deeper email reporting and automated SPF auditing free to all customers.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Cloudflare's DMARC Management reaches General Availability, providing
+    deeper email reporting and automated SPF auditing free to all customers.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.883958+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Networking & Service Mesh
   - Cloudflare
   - Email Services
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/cloudflare.md
   v2_locations:
   - cloudflare.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.883958+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://openai.com/index/deutsche-telekom:
   title: How Deutsche Telekom is rewiring telecommunications with AI
   description: "\U0001F31F - Deutsche Telekom leverages OpenAI models for real-time
     voice translation, customer service transformation, and network operations."
-  ai_summary: Deutsche Telekom leverages OpenAI models for real-time voice translation,
-    customer service transformation, and network operations.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Deutsche Telekom leverages OpenAI models for real-time voice translation,
+    customer service transformation, and network operations.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.885852+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Customer
   - Deutsche Telekom
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/customer.md
   v2_locations:
   - customer.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.885852+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee?gi=4592f956211c:
   title: 'itnext.io: Guide: Installing an OKD 4.5 Cluster'
   description: ''
-  ai_summary: 'itnext.io: Guide: Installing an OKD 4.5 Cluster: Curated technical
-    resource in Demos.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'itnext.io: Guide: Installing an OKD 4.5 Cluster: Curated technical
+    resource in Demos.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.894753+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Demos
   - OKD
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/demos.md
   v2_locations:
   - demos.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.894753+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.high-mobility.com/car-api:
   title: REST Auto API Tutorial
   description: ''
-  ai_summary: 'REST Auto API Tutorial: Curated technical resource in Developerportals.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'REST Auto API Tutorial: Curated technical resource in Developerportals.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.902567+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Platform & Site Reliability
   - Developerportals
   - Auto API
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/developerportals.md
   v2_locations:
   - developerportals.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.902567+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies:
   title: How GitHub maintains compliance for open source dependencies
   description: "\U0001F31F - An inside look at how GitHub's OSPO deploys the GitHub
     License Compliance product to manage dependency risks at scale."
-  ai_summary: An inside look at how GitHub's OSPO deploys the GitHub License Compliance
-    product to manage dependency risks at scale.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: An inside look at how GitHub's OSPO deploys the GitHub License Compliance
+    product to manage dependency risks at scale.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.914362+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Devsecops
   - GitHub security
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
   - devsecops.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.914362+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records
 : title: Inside the Advisory Database and what happens when vulnerability volume breaks
     records
   description: "\U0001F31F - A look at the factors driving the massive increase in
     global vulnerability disclosures and how GitHub's security curation processes
     adapt."
-  ai_summary: A look at the factors driving the massive increase in global vulnerability
-    disclosures and how GitHub's security curation processes adapt.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: A look at the factors driving the massive increase in global vulnerability
+    disclosures and how GitHub's security curation processes adapt.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.914451+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Devsecops
   - GitHub security
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
   - devsecops.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.914451+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage:
   title: 'GitHub Copilot app for Beginners: Automate Dependabot pull request triage'
   description: "\U0001F31F - Managing library updates can be tedious at times. Learn
     how the GitHub Copilot app can handle this type of repetitive task."
-  ai_summary: Managing library updates can be tedious at times. Learn how the GitHub
-    Copilot app can handle this type of repetitive task.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Managing library updates can be tedious at times. Learn how the GitHub
+    Copilot app can handle this type of repetitive task.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.914511+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Devsecops
   - GitHub security
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
   - devsecops.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.914511+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast:
   title: 'Tame Dependabot: Group your updates, slow the cadence, keep security fast'
   description: "\U0001F31F - Here's how grouping updates, slowing the cadence, and
     keeping security fixes fast cut the noise on a Microsoft open source project."
-  ai_summary: Here's how grouping updates, slowing the cadence, and keeping security
-    fixes fast cut the noise on a Microsoft open source project.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Here's how grouping updates, slowing the cadence, and keeping security
+    fixes fast cut the noise on a Microsoft open source project.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.914567+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Devsecops
   - GitHub security
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
   - devsecops.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.914567+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent:
   title: AI-powered fuzzing with the GitHub Security Lab Taskflow Agent
   description: "\U0001F31F - In this blog post, I explain how to use the new fuzzing
     taskflow based on the GitHub Security Lab Taskflow Agent AI framework."
-  ai_summary: In this blog post, I explain how to use the new fuzzing taskflow based
-    on the GitHub Security Lab Taskflow Agent AI framework.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: In this blog post, I explain how to use the new fuzzing taskflow based
+    on the GitHub Security Lab Taskflow Agent AI framework.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.914665+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Devsecops
   - GitHub security
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
   - devsecops.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.914665+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.cloudflare.com/realtime-threat-intel-waf-rules:
   title: Turning Cloudflare's threat indicators into real-time WAF rules
   description: "\U0001F31F - Cloudflare announces the integration of Cloudforce One
     threat indicators natively within WAF rules, enabling high-performance, real-time
     threat blocking."
-  ai_summary: Cloudflare announces the integration of Cloudforce One threat indicators
-    natively within WAF rules, enabling high-performance, real-time threat blocking.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Cloudflare announces the integration of Cloudforce One threat indicators
+    natively within WAF rules, enabling high-performance, real-time threat blocking.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.920564+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Devsecops
   - WAF Web Application Firewall
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
   - devsecops.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.920564+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.cloudflare.com/threat-signals:
   title: 'Introducing Threat Signals: agentic skills for open-source threat intelligence'
   description: "\U0001F31F - Cloudflare is introducing Threat Signals, utilizing AI
     agents to automatically ingest, parse, and map open-source threat intelligence
     to WAF rules."
-  ai_summary: Cloudflare is introducing Threat Signals, utilizing AI agents to automatically
-    ingest, parse, and map open-source threat intelligence to WAF rules.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Cloudflare is introducing Threat Signals, utilizing AI agents to automatically
+    ingest, parse, and map open-source threat intelligence to WAF rules.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.920639+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Devsecops
   - WAF Web Application Firewall
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/devsecops.md
   v2_locations:
   - devsecops.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.920639+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.harness.io/blog/cloud-autostopping-complements-kubernetes-cluster-autoscaling-cost-savings:
   title: 'harness.io: AutoStopping Rules For Kubernetes Clusters'
   description: Harness Intelligent Cloud AutoStopping Rules help manage your resources
     automatically to make sure that they run only when used, never when idle.
-  ai_summary: Harness Intelligent Cloud AutoStopping Rules help manage your resources
-    automatically to make sure that they run only when used, never when idle.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Harness Intelligent Cloud AutoStopping Rules help manage your resources
+    automatically to make sure that they run only when used, never when idle.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.969141+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Engineering Pipeline
   - Jenkins Alternatives
   - Alternatives
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/jenkins-alternatives.md
   v2_locations:
   - jenkins-alternatives.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.969141+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.harness.io/blog/how-to-migrate-off-jenkins-the-road-to-modern-ci-cd:
   title: 'harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm'
   description: ''
-  ai_summary: 'harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm: Curated
-    technical resource in Jenkins Alternatives.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm: Curated
+    technical resource in Jenkins Alternatives.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.969189+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Engineering Pipeline
   - Jenkins Alternatives
   - Alternatives
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/jenkins-alternatives.md
   v2_locations:
   - jenkins-alternatives.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.969189+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07?gi=f693c558a03a:
   title: "itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables \U0001F31F"
   description: ''
-  ai_summary: "itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables \U0001F31F:
-    Curated technical resource in Jenkins."
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: "itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables \U0001F31F:
+    Curated technical resource in Jenkins."
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.972421+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Engineering Pipeline
   - Jenkins
   - Jenkins
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/jenkins.md
   v2_locations:
   - jenkins.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.972421+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad?gi=8139b93da62c:
   title: "itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline \U0001F31F"
   description: ''
-  ai_summary: "itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline \U0001F31F:
-    Curated technical resource in Jenkins."
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: "itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline \U0001F31F:
+    Curated technical resource in Jenkins."
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.972473+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Engineering Pipeline
   - Jenkins
   - Jenkins
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/jenkins.md
   v2_locations:
   - jenkins.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.972473+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=248d3a073994:
   title: "itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines \U0001F31F"
   description: ''
-  ai_summary: "itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines \U0001F31F:
-    Curated technical resource in Jenkins."
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: "itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines \U0001F31F:
+    Curated technical resource in Jenkins."
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.972506+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Engineering Pipeline
   - Jenkins
   - Jenkins
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/jenkins.md
   v2_locations:
   - jenkins.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.972506+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=b4ee16971e4e:
   title: 'itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines'
   description: ''
-  ai_summary: 'itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines: Curated
-    technical resource in Jenkins.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines: Curated
+    technical resource in Jenkins.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.973494+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Engineering Pipeline
   - Jenkins
   - Jenkins on Kubernetes
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/jenkins.md
   v2_locations:
   - jenkins.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.973494+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your-local-dockerfiles-48833fcd90c9?gi=13651e082a04:
   title: 'itnext.io: How to experiment locally on Kubernetes with minikube and your
     local Dockerfiles'
   description: ''
-  ai_summary: 'itnext.io: How to experiment locally on Kubernetes with minikube and
-    your local Dockerfiles: Curated technical resource in Kubernetes Based Devel.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'itnext.io: How to experiment locally on Kubernetes with minikube and
+    your local Dockerfiles: Curated technical resource in Kubernetes Based Devel.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.995912+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Based Devel
   - Non-production Kubernetes Local Installers. Kubernetes distributions for local
     environments. Desktop K8s
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-based-devel.md
   v2_locations:
   - kubernetes-based-devel.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.995912+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd?gi=c61c20c9e49f:
   title: 'faun.pub: Accessing a remote minikube from a local computer'
   description: Minikube is a lightweight Kubernetes implementation that creates a
     VM on your local machine. how to connect to a remote computer with minikube installed.
-  ai_summary: Minikube is a lightweight Kubernetes implementation that creates a VM
-    on your local machine. how to connect to a remote computer with minikube installed.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Minikube is a lightweight Kubernetes implementation that creates a VM
+    on your local machine. how to connect to a remote computer with minikube installed.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.995964+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Based Devel
   - Non-production Kubernetes Local Installers. Kubernetes distributions for local
     environments. Desktop K8s
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-based-devel.md
   v2_locations:
   - kubernetes-based-devel.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.995964+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://web.archive.org/web/20251114091620/https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-part-2:
   title: 'rookout.com: Developer Tools for Kubernetes in 2021 – Skaffold, Tilt, and
     Garden (Part 2)'
@@ -745325,6 +745726,8 @@ https://web.archive.org/web/20251114091620/https://www.rookout.com/blog/develope
     go into an in-depth comparison of Skaffold, Tilt, and Garden. **I will not be
     covering Microsoft Draft, as the Github repository appears to be archived and
     has had no new versions in 2020.**
+  year: '2026'
+  stars: 3
   ai_summary: In that previous blog post, I also mentioned another tool – Skaffold.
     While Skaffold has limited ability to define Kubernetes applications and build
     and deploy them in CI/CD pipelines, it’s core functionality is creating a development
@@ -745333,1318 +745736,1854 @@ https://web.archive.org/web/20251114091620/https://www.rookout.com/blog/develope
     go into an in-depth comparison of Skaffold, Tilt, and Garden. **I will not be
     covering Microsoft Draft, as the Github repository appears to be archived and
     has had no new versions in 2020.**
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.996638+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Based Devel
   - Kubernetes Based Development. Kubernetes Development Tools
+  tags:
+  - '[EMERGING]'
+  - '[LEGACY]'
   v1_locations:
   - docs/kubernetes-based-devel.md
   v2_locations:
   - kubernetes-based-devel.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.996638+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[LEGACY]'
+  youtube_mosaic: {}
 https://web.archive.org/web/20251014014009/https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-part-3:
   title: 'rookout.com: Developer Tools for Kubernetes in 2021: Lens, VSCode, IntelliJ,
     & Gitpod (Part 3)'
   description: ''
-  ai_summary: 'rookout.com: Developer Tools for Kubernetes in 2021: Lens, VSCode,
-    IntelliJ, & Gitpod (Part 3): Curated technical resource in Kubernetes Based Devel.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'rookout.com: Developer Tools for Kubernetes in 2021: Lens, VSCode,
+    IntelliJ, & Gitpod (Part 3): Curated technical resource in Kubernetes Based Devel.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.996677+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Based Devel
   - Kubernetes Based Development. Kubernetes Development Tools
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-based-devel.md
   v2_locations:
   - kubernetes-based-devel.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.996677+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://web.archive.org/web/20251114081646/https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-part-4:
   title: 'rookout.com: Developer Tools for Kubernetes in 2021: Docker, Kaniko, Buildpack
     & Jib (Part 4)'
   description: ''
-  ai_summary: 'rookout.com: Developer Tools for Kubernetes in 2021: Docker, Kaniko,
-    Buildpack & Jib (Part 4): Curated technical resource in Kubernetes Based Devel.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'rookout.com: Developer Tools for Kubernetes in 2021: Docker, Kaniko,
+    Buildpack & Jib (Part 4): Curated technical resource in Kubernetes Based Devel.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.996710+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Based Devel
   - Kubernetes Based Development. Kubernetes Development Tools
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-based-devel.md
   v2_locations:
   - kubernetes-based-devel.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.996710+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://web.archive.org/web/20251114094132/https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-development-machines-part-5
 : title: 'rookout.com: Developer Tools for Kubernetes in 2021: Development Machines
     (Part 5)'
   description: ''
-  ai_summary: 'rookout.com: Developer Tools for Kubernetes in 2021: Development Machines
-    (Part 5): Curated technical resource in Kubernetes Based Devel.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'rookout.com: Developer Tools for Kubernetes in 2021: Development Machines
+    (Part 5): Curated technical resource in Kubernetes Based Devel.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.996742+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Based Devel
   - Kubernetes Based Development. Kubernetes Development Tools
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-based-devel.md
   v2_locations:
   - kubernetes-based-devel.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.996742+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://engineering.cloudflight.io/en/running-the-openshift-console-in-plain-kubernetes:
   title: "engineering.cloudflight.io: Running the OpenShift console in plain Kubernetes
     \U0001F31F"
   description: ''
-  ai_summary: "engineering.cloudflight.io: Running the OpenShift console in plain
-    Kubernetes \U0001F31F: Curated technical resource in Kubernetes Based Devel."
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: "engineering.cloudflight.io: Running the OpenShift console in plain
+    Kubernetes \U0001F31F: Curated technical resource in Kubernetes Based Devel."
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:40.997531+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Based Devel
   - Kubernetes Clients and Dashboards
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-based-devel.md
   v2_locations:
   - kubernetes-based-devel.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:40.997531+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a?gi=2aae862166f7:
   title: 'itnext.io: Simplify Advanced Workflows in Kubernetes with Jobs Manager Operator'
   description: A problem and idea led to the latest invention, which saved me hours
     of confusion and frustration and finally untangled the web of dependencies.
-  ai_summary: A problem and idea led to the latest invention, which saved me hours
-    of confusion and frustration and finally untangled the web of dependencies.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: A problem and idea led to the latest invention, which saved me hours
+    of confusion and frustration and finally untangled the web of dependencies.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.008020+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Operators Controllers
   - Introduction
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-operators-controllers.md
   v2_locations:
   - kubernetes-operators-controllers.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.008020+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched:
   title: 'Your guide to GitHub Universe 2026 is here: The schedule just launched!'
   description: "\U0001F31F - The official session catalog and schedule release for
     GitHub Universe 2026."
-  ai_summary: The official session catalog and schedule release for GitHub Universe
-    2026.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: The official session catalog and schedule release for GitHub Universe
+    2026.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.068638+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Career & Industry
   - Newsfeeds
   - Newsfeeds
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/newsfeeds.md
   v2_locations:
   - newsfeeds.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.068638+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead:
   title: 'Developer policy update: Transparency, state policy, and what’s ahead'
   description: "\U0001F31F - Explore GitHub’s latest transparency data and learn more
     about policy updates affecting developers and open source."
-  ai_summary: Explore GitHub’s latest transparency data and learn more about policy
-    updates affecting developers and open source.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Explore GitHub’s latest transparency data and learn more about policy
+    updates affecting developers and open source.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.068797+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Career & Industry
   - Newsfeeds
   - Stack Overflow Collectives
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/newsfeeds.md
   v2_locations:
   - newsfeeds.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.068797+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://studio3t.com/knowledge-base/desktop-ide/connect-to-mongodb-atlas:
   title: Connecting to your MongoDB at MongoLab
   description: ''
-  ai_summary: 'Connecting to your MongoDB at MongoLab: Curated technical resource
-    in Nosql.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'Connecting to your MongoDB at MongoLab: Curated technical resource
+    in Nosql.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.069353+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Data & Advanced Analytics
   - Nosql
   - MongoDB Tools and MongoDB as a Service
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/nosql.md
   v2_locations:
   - nosql.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.069353+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://pkg.go.dev:
   title: "golangrepo.com \U0001F31F"
   description: __Find The Best Go Repositories For Your Project. A curated list of
     awesome Go frameworks, libraries and software.__
-  ai_summary: __Find The Best Go Repositories For Your Project. A curated list of
-    awesome Go frameworks, libraries and software.__
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: __Find The Best Go Repositories For Your Project. A curated list of
+    awesome Go frameworks, libraries and software.__
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.085360+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Other Awesome Lists
   - Development
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/other-awesome-lists.md
   v2_locations:
   - other-awesome-lists.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.085360+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://artemis.apache.org/components/artemis/documentation/latest/metrics.html:
   title: Apache ActiveMQ Artemis Metrics
   description: ''
-  ai_summary: 'Apache ActiveMQ Artemis Metrics: Curated technical resource in Prometheus.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'Apache ActiveMQ Artemis Metrics: Curated technical resource in Prometheus.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.093667+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Prometheus
   - PoC ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin Micrometer Collector
     and Prometheus. Grafana Dashboard not available
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/prometheus.md
   v2_locations:
   - prometheus.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.093667+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://talkpython.fm/episodes/show/39/getting-your-first-dev-job-as-a-python-developer-part-1:
   title: 'Transcript for Episode #39: Getting your first dev job as a Python developer
     (part 1)'
   description: ''
-  ai_summary: 'Transcript for Episode #39: Getting your first dev job as a Python
-    developer (part 1): Curated technical resource in Python.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'Transcript for Episode #39: Getting your first dev job as a Python
+    developer (part 1): Curated technical resource in Python.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.094736+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Developer Ecosystem
   - Python
   - Python Blogs and Forums
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/python.md
   v2_locations:
   - python.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.094736+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://grafana.com/blog/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana:
   title: 'grafana.com: How to build performance tests into your CI pipeline with k6,
     GitHub Actions, and Grafana'
   description: ''
-  ai_summary: 'grafana.com: How to build performance tests into your CI pipeline with
-    k6, GitHub Actions, and Grafana: Curated technical resource in Qa.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'grafana.com: How to build performance tests into your CI pipeline with
+    k6, GitHub Actions, and Grafana: Curated technical resource in Qa.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.101974+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Platform & Site Reliability
   - Qa
   - Tools
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/qa.md
   v2_locations:
   - qa.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.101974+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6-and-elasticsearch-4ff8142bc774?gi=22375a83545f:
   title: 'itnext.io: How to run distributed performance tests in Kubernetes with K6'
   description: you'll learn how to perform load testing natively on a Kubernetes cluster
     using multiple pods simulating real-world traffic to test an ElasticSearch cluster
     deployed using the ECK Operator
+  year: '2026'
+  stars: 3
   ai_summary: you'll learn how to perform load testing natively on a Kubernetes cluster
     using multiple pods simulating real-world traffic to test an ElasticSearch cluster
     deployed using the ECK Operator
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.102021+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Platform & Site Reliability
   - Qa
   - Tools
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/qa.md
   v2_locations:
   - qa.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.102021+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp:
   title: How We're Building Scam Alert on WhatsApp With End-to-End Encryption and
     Verifiability Guarantees
   description: "\U0001F31F - An early technical overview of Scam Alert, an on-device
     machine learning model alerting users about potential scam messages while protecting
     E2EE."
-  ai_summary: An early technical overview of Scam Alert, an on-device machine learning
-    model alerting users about potential scam messages while protecting E2EE.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: An early technical overview of Scam Alert, an on-device machine learning
+    model alerting users about potential scam messages while protecting E2EE.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.109316+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Securityascode
   - Azure Policy
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/securityascode.md
   v2_locations:
   - securityascode.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.109316+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.cloudflare.com/ai-driven-cryptography-discovery:
   title: Using AI to chart a course for our post-quantum migration
   description: "\U0001F31F - Cloudflare introduces CryptoLabe, an internal AI-powered
     tool designed to discover cryptography usage across its codebase."
-  ai_summary: Cloudflare introduces CryptoLabe, an internal AI-powered tool designed
-    to discover cryptography usage across its codebase.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Cloudflare introduces CryptoLabe, an internal AI-powered tool designed
+    to discover cryptography usage across its codebase.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.109384+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Securityascode
   - Azure Policy
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/securityascode.md
   v2_locations:
   - securityascode.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.109384+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.cloudflare.com/cloudflare-certificate-authority:
   title: Building a certificate authority for the whole Internet
   description: "\U0001F31F - Cloudflare announces its intent to become a public CA
     to provide free, automated, post-quantum resilient certificates at global scale."
-  ai_summary: Cloudflare announces its intent to become a public CA to provide free,
-    automated, post-quantum resilient certificates at global scale.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Cloudflare announces its intent to become a public CA to provide free,
+    automated, post-quantum resilient certificates at global scale.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.109422+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Securityascode
   - Azure Policy
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/securityascode.md
   v2_locations:
   - securityascode.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.109422+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.cloudflare.com/pq-ca-with-mtcs:
   title: Building a post-quantum certificate authority with Merkle Tree Certificates
   description: "\U0001F31F - Cloudflare details its upcoming support for Merkle Tree
     Certificates (MTCs) to solve the scale and performance challenges of post-quantum
     cryptography."
-  ai_summary: Cloudflare details its upcoming support for Merkle Tree Certificates
-    (MTCs) to solve the scale and performance challenges of post-quantum cryptography.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Cloudflare details its upcoming support for Merkle Tree Certificates
+    (MTCs) to solve the scale and performance challenges of post-quantum cryptography.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.109459+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Securityascode
   - Azure Policy
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/securityascode.md
   v2_locations:
   - securityascode.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.109459+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://blog.cloudflare.com/adaptive-ai-waf-testing:
   title: We tested our own WAF with frontier AI models. Here's what we found
   description: "\U0001F31F - Cloudflare engineered an adaptive AI-driven WAF testing
     loop that mutates attack vectors to uncover hidden evasion techniques."
-  ai_summary: Cloudflare engineered an adaptive AI-driven WAF testing loop that mutates
-    attack vectors to uncover hidden evasion techniques.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Cloudflare engineered an adaptive AI-driven WAF testing loop that mutates
+    attack vectors to uncover hidden evasion techniques.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.109495+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Securityascode
   - Azure Policy
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/securityascode.md
   v2_locations:
   - securityascode.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.109495+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182?gi=c975914f6fa7:
   title: 'faun.pub: How to deploy Jaeger on Kubernetes. A beginner’s guide to Jaeger
     (5 Part Series)'
   description: ''
-  ai_summary: 'faun.pub: How to deploy Jaeger on Kubernetes. A beginner’s guide to
-    Jaeger (5 Part Series): Curated technical resource in Monitoring.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'faun.pub: How to deploy Jaeger on Kubernetes. A beginner’s guide to
+    Jaeger (5 Part Series): Curated technical resource in Monitoring.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.145708+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Monitoring
   - Distributed Tracing. OpenTelemetry and Jaeger
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/monitoring.md
   v2_locations:
   - monitoring.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.145708+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/origin-brain/deepops:
   title: "savecost/datav \U0001F31F"
   description: A modern APM for metrics,traces and logs, also datav is a lightweight
     alternative to Grafana. It has fully native support for open-telemetry, is an
     open-source alternative to DataDog, NewRelic.
+  year: '2026'
+  stars: 3
   ai_summary: A modern APM for metrics,traces and logs, also datav is a lightweight
     alternative to Grafana. It has fully native support for open-telemetry, is an
     open-source alternative to DataDog, NewRelic.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.147205+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Monitoring
   - Application Performance Management APM
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/monitoring.md
   v2_locations:
   - monitoring.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.147205+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/kubernetes-for-dummies-life-of-a-pod-fc8158e27aa?gi=137550e369e9:
   title: 'itnext.io: Kubernetes for dummies: Life of a Pod. Part 3'
   description: ''
-  ai_summary: 'itnext.io: Kubernetes for dummies: Life of a Pod. Part 3: Curated technical
-    resource in Kubernetes.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'itnext.io: Kubernetes for dummies: Life of a Pod. Part 3: Curated technical
+    resource in Kubernetes.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.174889+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Kubernetes
   - Kubernetes Open Source Container Orchestation
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
   - kubernetes.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.174889+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://itnext.io/working-with-kubernetes-configmaps-part-2-watchers-b6dd0e583d71?gi=847a56e4469b:
   title: 'itnext.io: Working with kubernetes configmaps, part 2: Watchers'
   description: ''
-  ai_summary: 'itnext.io: Working with kubernetes configmaps, part 2: Watchers: Curated
-    technical resource in Kubernetes.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'itnext.io: Working with kubernetes configmaps, part 2: Watchers: Curated
+    technical resource in Kubernetes.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.177115+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Kubernetes
   - Kubernetes ConfigMaps
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
   - kubernetes.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.177115+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part-2-of-2-dad0c973ffca?gi=41792e1713ef:
   title: How we learned to improve Kubernetes CronJobs at Scale (Part 2 of 2)
   description: ''
-  ai_summary: 'How we learned to improve Kubernetes CronJobs at Scale (Part 2 of 2):
-    Curated technical resource in Kubernetes.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'How we learned to improve Kubernetes CronJobs at Scale (Part 2 of 2):
+    Curated technical resource in Kubernetes.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.179286+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Kubernetes
   - Kubernetes Jobs and Cron Jobs
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes.md
   v2_locations:
   - kubernetes.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.179286+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/technologies/cloud-computing/openshift-5:
   title: Red Hat OpenShift 5 Product Overview
   description: "\U0001F31F - Official Red Hat product portal for OpenShift 5 covering
     agentic operations, zero-trust post-quantum security, unified container/VM/AI
     workloads, and predictable multi-year lifecycles."
+  year: '2026'
+  stars: 3
   ai_summary: Official Red Hat product portal for OpenShift 5 covering agentic operations,
     zero-trust post-quantum security, unified container/VM/AI workloads, and predictable
     multi-year lifecycles.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189197+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - OpenShift Container Platform 5 Overview
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189197+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/blog/announcing-red-hat-openshift-5:
   title: Announcing Red Hat OpenShift 5
   description: "\U0001F31F - Official Red Hat engineering launch blog detailing the
     core architectural pillars of OCP 5.0, including Kubernetes 1.36, agentic Lightspeed
     workflows, OLM v1, RHCOS 10, and streamlined upgrades from OCP 4.22."
+  year: '2026'
+  stars: 3
   ai_summary: Official Red Hat engineering launch blog detailing the core architectural
     pillars of OCP 5.0, including Kubernetes 1.36, agentic Lightspeed workflows, OLM
     v1, RHCOS 10, and streamlined upgrades from OCP 4.22.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189269+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - OpenShift Container Platform 5 Overview
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189269+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 ? https://www.redhat.com/en/about/press-releases/red-hat-openshift-5-transforms-hybrid-cloud-operations-real-time-intelligence-and-zero-trust-security
 : title: 'Red Hat Press Release: OpenShift 5 Transforms Hybrid Cloud Operations with
     Real-Time Intelligence and Zero Trust Security'
   description: "\U0001F31F - Official launch announcement from KubeCon + CloudNativeCon
     highlighting post-quantum cryptography readiness, sovereign cloud multi-tenancy,
     and AI-assisted operational resilience."
+  year: '2026'
+  stars: 3
   ai_summary: Official launch announcement from KubeCon + CloudNativeCon highlighting
     post-quantum cryptography readiness, sovereign cloud multi-tenancy, and AI-assisted
     operational resilience.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189308+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - OpenShift Container Platform 5 Overview
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189308+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://developers.redhat.com/articles/2026/11/09/red-hat-openshift-5-for-developers:
   title: Red Hat OpenShift 5 for Developers
   description: "\U0001F31F - Technical developer overview examining what is new in
     OCP 5.0 for application engineers, including MCP tool integration, local sandboxes,
     secure software supply chains, and Red Hat Developer Hub workflows."
+  year: '2026'
+  stars: 3
   ai_summary: Technical developer overview examining what is new in OCP 5.0 for application
     engineers, including MCP tool integration, local sandboxes, secure software supply
     chains, and Red Hat Developer Hub workflows.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189345+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - OpenShift Container Platform 5 Overview
+  tags:
+  - '[EMERGING]'
+  - '[MCP]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189345+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[MCP]'
+  youtube_mosaic: {}
 https://docs.redhat.com/en/documentation/openshift_container_platform/5.0:
   title: OpenShift Container Platform 5.0 Official Documentation
   description: "\U0001F31F - Complete official Red Hat documentation library for OCP
     5.0 spanning installation, in-place upgrades from 4.22, OVN-Kubernetes networking,
     storage, security, virtualization, and AI workloads."
+  year: '2026'
+  stars: 3
   ai_summary: Complete official Red Hat documentation library for OCP 5.0 spanning
     installation, in-place upgrades from 4.22, OVN-Kubernetes networking, storage,
     security, virtualization, and AI workloads.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189380+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Official Documentation Release Notes and Lifecycle
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189380+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://docs.redhat.com/en/documentation/openshift_container_platform/5.0/html/release_notes/ocp-5-0-release-notes:
   title: OpenShift Container Platform 5.0 Release Notes
   description: "\U0001F31F - Authoritative OCP 5.0 release notes documenting Kubernetes
     1.36 and CRI-O 1.36 updates, RHCOS 10 (RHEL 10.2) baseline, OLM v1 changes, `oc-mirror`
     v2 transition, deprecations, and known issues."
+  year: '2026'
+  stars: 3
   ai_summary: Authoritative OCP 5.0 release notes documenting Kubernetes 1.36 and
     CRI-O 1.36 updates, RHCOS 10 (RHEL 10.2) baseline, OLM v1 changes, `oc-mirror`
     v2 transition, deprecations, and known issues.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189415+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Official Documentation Release Notes and Lifecycle
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189415+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/technologies/cloud-computing/openshift-5/predictable:
   title: Red Hat OpenShift 5 Predictable Lifecycles and Extended Support
   description: "\U0001F31F - Overview of OpenShift 5's 24-month standard support lifecycle,
     up to 5-year Extended Lifecycle Support (ELC) cadence (starting with OCP 5.2),
     and pre-flight upgrade planning."
+  year: '2026'
+  stars: 3
   ai_summary: Overview of OpenShift 5's 24-month standard support lifecycle, up to
     5-year Extended Lifecycle Support (ELC) cadence (starting with OCP 5.2), and pre-flight
     upgrade planning.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189447+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Official Documentation Release Notes and Lifecycle
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189447+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://access.redhat.com/support/policy/updates/openshift:
   title: Red Hat OpenShift Container Platform Life Cycle Policy
   description: "\U0001F31F - Official Red Hat support matrix detailing Full Support,
     Maintenance Support, Extended Update Support (EUS), and Extended Lifecycle Support
     (ELC) windows across OCP 4.x and OCP 5.x releases."
+  year: '2026'
+  stars: 3
   ai_summary: Official Red Hat support matrix detailing Full Support, Maintenance
     Support, Extended Update Support (EUS), and Extended Lifecycle Support (ELC) windows
     across OCP 4.x and OCP 5.x releases.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189479+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Official Documentation Release Notes and Lifecycle
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189479+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://developers.redhat.com/products/openshift/lightspeed:
   title: Red Hat OpenShift Lightspeed Developer Hub
   description: "\U0001F31F - Official hub for OpenShift Lightspeed, which evolves
     in OCP 5 into an active agentic operations platform with supervised alert triage,
     root-cause diagnostics, natural-language VM management, and Bring Your Own Knowledge
     (BYOK)."
+  year: '2026'
+  stars: 3
   ai_summary: Official hub for OpenShift Lightspeed, which evolves in OCP 5 into an
     active agentic operations platform with supervised alert triage, root-cause diagnostics,
     natural-language VM management, and Bring Your Own Knowledge (BYOK).
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189510+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Intelligent and Agentic Operations with OpenShift Lightspeed and MCP
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189510+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/openshift/lightspeed-service:
   title: 'GitHub: openshift/lightspeed-service'
   description: "\U0001F31F - Core open-source backend service powering OpenShift Lightspeed
     (OLS), integrating cluster context and RAG documentation with OpenAI, Azure OpenAI,
     IBM watsonx, RHEL AI, and Red Hat OpenShift AI."
+  year: '2026'
+  stars: 3
   ai_summary: Core open-source backend service powering OpenShift Lightspeed (OLS),
     integrating cluster context and RAG documentation with OpenAI, Azure OpenAI, IBM
     watsonx, RHEL AI, and Red Hat OpenShift AI.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189543+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Intelligent and Agentic Operations with OpenShift Lightspeed and MCP
+  tags:
+  - '[CLOUD-AI]'
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189543+01:00'
-  tags:
-  - '[CLOUD-AI]'
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/openshift/lightspeed-operator:
   title: 'GitHub: openshift/lightspeed-operator'
   description: "\U0001F31F - Kubernetes operator managing the deployment, configuration,
     and lifecycle of OpenShift Lightspeed components natively on OpenShift clusters."
-  ai_summary: Kubernetes operator managing the deployment, configuration, and lifecycle
-    of OpenShift Lightspeed components natively on OpenShift clusters.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Kubernetes operator managing the deployment, configuration, and lifecycle
+    of OpenShift Lightspeed components natively on OpenShift clusters.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189586+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Intelligent and Agentic Operations with OpenShift Lightspeed and MCP
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189586+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/openshift/lightspeed-agentic-operator:
   title: 'GitHub: openshift/lightspeed-agentic-operator'
   description: "\U0001F31F - Open-source operator enabling supervised agentic workflows,
     automated incident investigations, and human-in-the-loop remediation proposals
     in OpenShift 5."
+  year: '2026'
+  stars: 3
   ai_summary: Open-source operator enabling supervised agentic workflows, automated
     incident investigations, and human-in-the-loop remediation proposals in OpenShift
     5.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189623+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Intelligent and Agentic Operations with OpenShift Lightspeed and MCP
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189623+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/containers/kubernetes-mcp-server:
   title: 'GitHub: containers/kubernetes-mcp-server'
   description: "\U0001F31F - High-velocity Model Context Protocol (MCP) server for
     Kubernetes and Red Hat OpenShift, allowing AI agents and coding assistants to
     securely inspect pods, logs, KubeVirt VMs, and cluster APIs."
+  year: '2026'
+  stars: 3
   ai_summary: High-velocity Model Context Protocol (MCP) server for Kubernetes and
     Red Hat OpenShift, allowing AI agents and coding assistants to securely inspect
     pods, logs, KubeVirt VMs, and cluster APIs.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189657+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Intelligent and Agentic Operations with OpenShift Lightspeed and MCP
+  tags:
+  - '[EMERGING]'
+  - '[MCP]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189657+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[MCP]'
+  youtube_mosaic: {}
 https://github.com/Kuadrant/kuadrant-operator:
   title: 'GitHub: Kuadrant/kuadrant-operator (Red Hat Connectivity Link)'
   description: "\U0001F31F - Upstream Kubernetes-native connectivity, Gateway API
     policy, and MCP gateway operator powering Red Hat Connectivity Link for zero-trust
     AI agent and ingress governance on OpenShift 5."
+  year: '2026'
+  stars: 3
   ai_summary: Upstream Kubernetes-native connectivity, Gateway API policy, and MCP
     gateway operator powering Red Hat Connectivity Link for zero-trust AI agent and
     ingress governance on OpenShift 5.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189692+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Intelligent and Agentic Operations with OpenShift Lightspeed and MCP
+  tags:
+  - '[EMERGING]'
+  - '[MCP]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189692+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[MCP]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/blog/post-quantum-cryptography-red-hat-enterprise-linux-10:
   title: Post-Quantum Cryptography in Red Hat Enterprise Linux 10
   description: "\U0001F31F - Deep dive into the RHEL 10 / RHCOS 10 cryptographic foundation
     underpinning OpenShift 5's control-plane post-quantum cryptography (PQC) support
     and NIST ML-KEM/ML-DSA readiness."
+  year: '2026'
+  stars: 3
   ai_summary: Deep dive into the RHEL 10 / RHCOS 10 cryptographic foundation underpinning
     OpenShift 5's control-plane post-quantum cryptography (PQC) support and NIST ML-KEM/ML-DSA
     readiness.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189725+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Zero Trust Security Post-Quantum Cryptography and Digital Sovereignty
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189725+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/topics/security/post-quantum-cryptography:
   title: Red Hat Post-Quantum Cryptography Architecture
   description: "\U0001F31F - Architectural primer on defending long-lived hybrid cloud
     platforms against harvest-now-decrypt-later threats with quantum-resistant TLS,
     crypto-agility, and sovereign key policies."
+  year: '2026'
+  stars: 3
   ai_summary: Architectural primer on defending long-lived hybrid cloud platforms
     against harvest-now-decrypt-later threats with quantum-resistant TLS, crypto-agility,
     and sovereign key policies.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189757+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Zero Trust Security Post-Quantum Cryptography and Digital Sovereignty
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189757+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/ComplianceAsCode/compliance-operator:
   title: 'GitHub: ComplianceAsCode/compliance-operator'
   description: "\U0001F31F - Official OpenShift Compliance Operator allowing platform
     teams to define security and regulatory profiles once (CIS, PCI-DSS, NIST, FedRAMP)
     and enforce them uniformly across hybrid OCP 5 fleets."
+  year: '2026'
+  stars: 3
   ai_summary: Official OpenShift Compliance Operator allowing platform teams to define
     security and regulatory profiles once (CIS, PCI-DSS, NIST, FedRAMP) and enforce
     them uniformly across hybrid OCP 5 fleets.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189790+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Zero Trust Security Post-Quantum Cryptography and Digital Sovereignty
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189790+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/openshift/cert-manager-operator:
   title: 'GitHub: openshift/cert-manager-operator'
   description: "\U0001F31F - OpenShift cert-manager Operator for automated zero-trust
     X.509 certificate issuance, rotation, and lifecycle management across ingress,
     workloads, and control-plane endpoints."
+  year: '2026'
+  stars: 3
   ai_summary: OpenShift cert-manager Operator for automated zero-trust X.509 certificate
     issuance, rotation, and lifecycle management across ingress, workloads, and control-plane
     endpoints.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189841+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Zero Trust Security Post-Quantum Cryptography and Digital Sovereignty
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189841+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/operator-framework/operator-controller:
   title: 'GitHub: operator-framework/operator-controller (OLM v1)'
   description: "\U0001F31F - Core controller of Operator Lifecycle Manager v1 (OLM
     v1) adopted in OpenShift 5, introducing declarative `ClusterExtension` APIs, simplified
     dependency resolution, and standard Kubernetes RBAC scoping."
+  year: '2026'
+  stars: 3
   ai_summary: Core controller of Operator Lifecycle Manager v1 (OLM v1) adopted in
     OpenShift 5, introducing declarative `ClusterExtension` APIs, simplified dependency
     resolution, and standard Kubernetes RBAC scoping.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189885+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Operator Lifecycle Manager v1 and Disconnected Operations
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189885+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/openshift/oc-mirror:
   title: 'GitHub: openshift/oc-mirror'
   description: "\U0001F31F - Official OpenShift CLI plugin (`oc-mirror` v2) for mirroring
     OCP 5 release payloads, OLM operator catalogs, Helm charts, and container images
     into air-gapped and disconnected enterprise registries."
+  year: '2026'
+  stars: 3
   ai_summary: Official OpenShift CLI plugin (`oc-mirror` v2) for mirroring OCP 5 release
     payloads, OLM operator catalogs, Helm charts, and container images into air-gapped
     and disconnected enterprise registries.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189920+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Operator Lifecycle Manager v1 and Disconnected Operations
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189920+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/blog/unlocking-next-generation-workloads-whats-new-red-hat-openshift-virtualization-5:
   title: What is New in Red Hat OpenShift Virtualization 5
   description: "\U0001F31F - Official Red Hat deep dive into OpenShift Virtualization
     5, introducing Virtualization Autopilot Day-1 baselines, native VM templates,
     natural-language VM provisioning via Lightspeed, and direct migration from Microsoft
     Hyper-V."
+  year: '2026'
+  stars: 3
   ai_summary: Official Red Hat deep dive into OpenShift Virtualization 5, introducing
     Virtualization Autopilot Day-1 baselines, native VM templates, natural-language
     VM provisioning via Lightspeed, and direct migration from Microsoft Hyper-V.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.189955+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - OpenShift Virtualization 5 and Unified Workloads
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.189955+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/blog/how-red-hat-openshift-5-transforms-red-hat-openshift-service-aws-operations:
   title: How Red Hat OpenShift 5 Transforms ROSA Operations on AWS
   description: "\U0001F31F - Architectural breakdown of Red Hat OpenShift Service
     on AWS (ROSA) on OCP 5 with Hosted Control Planes (HCP) as the default cloud topology
     for faster provisioning and reduced control-plane cost."
+  year: '2026'
+  stars: 3
   ai_summary: Architectural breakdown of Red Hat OpenShift Service on AWS (ROSA) on
     OCP 5 with Hosted Control Planes (HCP) as the default cloud topology for faster
     provisioning and reduced control-plane cost.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190020+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Hosted Control Planes Managed Cloud Services and Edge
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190020+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/blog/red-hat-openshift-5-now-available-azure-red-hat-openshift:
   title: Red Hat OpenShift 5 Now Available on Azure Red Hat OpenShift (ARO)
   description: "\U0001F31F - Announcement and architectural overview of OpenShift
     5 on Microsoft Azure Red Hat OpenShift (ARO), integrating Hosted Control Planes,
     enterprise Azure networking, and unified managed lifecycle operations."
+  year: '2026'
+  stars: 3
   ai_summary: Announcement and architectural overview of OpenShift 5 on Microsoft
     Azure Red Hat OpenShift (ARO), integrating Hosted Control Planes, enterprise Azure
     networking, and unified managed lifecycle operations.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190055+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Hosted Control Planes Managed Cloud Services and Edge
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190055+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/openshift/rosa:
   title: 'GitHub: openshift/rosa'
   description: "\U0001F31F - Official CLI for provisioning, upgrading, and managing
     Red Hat OpenShift Service on AWS (ROSA) clusters with Hosted Control Planes."
-  ai_summary: Official CLI for provisioning, upgrading, and managing Red Hat OpenShift
-    Service on AWS (ROSA) clusters with Hosted Control Planes.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official CLI for provisioning, upgrading, and managing Red Hat OpenShift
+    Service on AWS (ROSA) clusters with Hosted Control Planes.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190117+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Hosted Control Planes Managed Cloud Services and Edge
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190117+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/openshift/microshift:
   title: 'GitHub: openshift/microshift'
   description: "\U0001F31F - Lightweight, single-node edge distribution derived from
     OpenShift 5 and RHEL 10 designed for resource-constrained far-edge, industrial,
     and telco deployments."
+  year: '2026'
+  stars: 3
   ai_summary: Lightweight, single-node edge distribution derived from OpenShift 5
     and RHEL 10 designed for resource-constrained far-edge, industrial, and telco
     deployments.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190150+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Hosted Control Planes Managed Cloud Services and Edge
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190150+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.redhat.com/en/blog/guide-observability-red-hat-openshift-5:
   title: Guide to Observability in Red Hat OpenShift 5
   description: "\U0001F31F - Official technical guide to OpenShift 5 observability
     covering OpenTelemetry pipelines, Cluster Observability Operator, Perses native
     dashboards, and Lightspeed-assisted alert correlation."
+  year: '2026'
+  stars: 3
   ai_summary: Official technical guide to OpenShift 5 observability covering OpenTelemetry
     pipelines, Cluster Observability Operator, Perses native dashboards, and Lightspeed-assisted
     alert correlation.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190183+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Observability and Native Perses Dashboards
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190183+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/perses/perses:
   title: 'GitHub: perses/perses'
   description: "\U0001F31F - CNCF Sandbox open-source dashboarding and visualization
     engine integrated natively into OpenShift 5 for declarative GitOps-friendly metrics
     dashboards and AI-generated incident views."
+  year: '2026'
+  stars: 3
   ai_summary: CNCF Sandbox open-source dashboarding and visualization engine integrated
     natively into OpenShift 5 for declarative GitOps-friendly metrics dashboards and
     AI-generated incident views.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190217+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - Observability and Native Perses Dashboards
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190217+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/okd-project/okd-scos:
   title: 'GitHub: okd-project/okd-scos (OKD 5 on CentOS Stream CoreOS)'
   description: "\U0001F31F - Upstream CentOS Stream CoreOS (SCOS) build and release
     repository powering OKD 5, aligning community OpenShift releases with Kubernetes
     1.36, RHEL 10 lineage, and OLM v1."
+  year: '2026'
+  stars: 3
   ai_summary: Upstream CentOS Stream CoreOS (SCOS) build and release repository powering
     OKD 5, aligning community OpenShift releases with Kubernetes 1.36, RHEL 10 lineage,
     and OLM v1.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190251+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - OCP 5
   - OKD 5 Community Distribution
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
-  addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190251+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://okd.io/blog:
   title: OKD Official Blog
   description: "\U0001F31F - Official OKD working group announcements covering OKD
     5 milestones, Stream CoreOS transitions, community operator updates, and architectural
     deep dives."
+  year: '2026'
+  stars: 3
   ai_summary: Official OKD working group announcements covering OKD 5 milestones,
     Stream CoreOS transitions, community operator updates, and architectural deep
     dives.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190284+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - The Container Stack
+  - OCP 5
+  - OKD 5 Community Distribution
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/ocp5.md
+  v2_locations:
+  - ocp5.md
+  youtube_mosaic: {}
+https://github.com/okd-project/okd:
+  title: 'GitHub: okd-project/okd (OKD 5)'
+  description: "\U0001F31F - Official upstream community distribution of Kubernetes
+    powering Red Hat OpenShift 5, tracking Kubernetes 1.36, CentOS Stream CoreOS (SCOS)
+    / Fedora CoreOS foundations, and OLM v1 releases."
+  year: '2026'
+  stars: 3
+  ai_summary: Official upstream community distribution of Kubernetes powering Red
+    Hat OpenShift 5, tracking Kubernetes 1.36, CentOS Stream CoreOS (SCOS) / Fedora
+    CoreOS foundations, and OLM v1 releases.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T13:52:41.190317+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - The Container Stack
+  - OCP 5
+  - OKD 5 Community Distribution
+  tags: []
+  v1_locations:
+  - docs/ocp5.md
+  v2_locations:
+  - ocp5.md
+  youtube_mosaic: {}
+https://okf.md:
+  title: Open Knowledge Format (OKF) Official Portal
+  description: "\U0001F31F - Official portal for the Open Knowledge Format (OKF),
+    the Apache 2.0 vendor-neutral specification turning Git-versioned Markdown files
+    with YAML frontmatter and hyperlinks into deterministic, auditable AI agent knowledge
+    bundles."
+  ai_summary: Official portal for the Open Knowledge Format (OKF), the Apache 2.0
+    vendor-neutral specification turning Git-versioned Markdown files with YAML frontmatter
+    and hyperlinks into deterministic, auditable AI agent knowledge bundles.
   year: '2026'
   stars: 3
   status: online
@@ -746652,25 +747591,24 @@ https://okd.io/blog:
   resource_type: Reference
   complexity: Intermediate
   hierarchy:
-  - The Container Stack
-  - OCP 5
-  - OKD 5 Community Distribution
+  - AI
+  - AI RAG OKF
+  - Open Knowledge Format OKF and LLM Wikis
   v1_locations:
-  - docs/ocp5.md
+  - docs/ai-rag-okf.md
   v2_locations:
-  - ocp5.md
+  - ai-rag-okf.md
   addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190284+01:00'
+  discovered_at: '2026-11-22T14:09:55.103524+01:00'
   tags:
   - '[EMERGING]'
-https://github.com/okd-project/okd:
-  title: 'GitHub: okd-project/okd (OKD 5)'
-  description: "\U0001F31F - Official upstream community distribution of Kubernetes
-    powering Red Hat OpenShift 5, tracking Kubernetes 1.36, CentOS Stream CoreOS (SCOS)
-    / Fedora CoreOS foundations, and OLM v1 releases."
-  ai_summary: Official upstream community distribution of Kubernetes powering Red
-    Hat OpenShift 5, tracking Kubernetes 1.36, CentOS Stream CoreOS (SCOS) / Fedora
-    CoreOS foundations, and OLM v1 releases.
+  - '[OKF]'
+https://github.com/open-knowledge-format/open-knowledge-format:
+  title: 'GitHub: open-knowledge-format/open-knowledge-format'
+  description: "\U0001F31F - Official vendor-neutral specification (`SPEC.md`), conformance
+    rules, reference bundles, and tooling for OKF (migrated from `GoogleCloudPlatform/open-knowledge-format`)."
+  ai_summary: Official vendor-neutral specification (`SPEC.md`), conformance rules,
+    reference bundles, and tooling for OKF (migrated from `GoogleCloudPlatform/open-knowledge-format`).
   year: '2026'
   stars: 3
   status: online
@@ -746678,12 +747616,665 @@ https://github.com/okd-project/okd:
   resource_type: Tool
   complexity: Intermediate
   hierarchy:
-  - The Container Stack
-  - OCP 5
-  - OKD 5 Community Distribution
+  - AI
+  - AI RAG OKF
+  - Open Knowledge Format OKF and LLM Wikis
   v1_locations:
-  - docs/ocp5.md
+  - docs/ai-rag-okf.md
   v2_locations:
-  - ocp5.md
+  - ai-rag-okf.md
   addition_method: manual
-  discovered_at: '2026-11-22T13:52:41.190317+01:00'
+  discovered_at: '2026-11-22T14:09:55.103623+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[OKF]'
+https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing:
+  title: 'Google Cloud: How the Open Knowledge Format Can Improve Data Sharing (OKF
+    v0.1)'
+  description: "\U0001F31F - Launch announcement from Google Cloud Data Cloud introducing
+    OKF to formalize the LLM-wiki pattern and solve enterprise context assembly without
+    proprietary vector lock-in."
+  ai_summary: Launch announcement from Google Cloud Data Cloud introducing OKF to
+    formalize the LLM-wiki pattern and solve enterprise context assembly without proprietary
+    vector lock-in.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Open Knowledge Format OKF and LLM Wikis
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103650+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+  - '[OKF]'
+https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals:
+  title: 'Google Cloud: OKF v0.2 Adds Trust Signals'
+  description: "\U0001F31F - Architectural deep dive into OKF v0.2's five opt-in frontmatter
+    trust primitives — provenance, trust, freshness, lifecycle, and attestation —
+    enabling accountable AI-authored knowledge bases at scale."
+  ai_summary: Architectural deep dive into OKF v0.2's five opt-in frontmatter trust
+    primitives — provenance, trust, freshness, lifecycle, and attestation — enabling
+    accountable AI-authored knowledge bases at scale.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Open Knowledge Format OKF and LLM Wikis
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103675+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[OKF]'
+https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3:
+  title: 'Google Cloud: Introducing OKF v0.3'
+  description: "\U0001F31F - Release breakdown of OKF v0.3 introducing refined conformance
+    rules, explicit trust tiers, self-describing bundles, and interoperability with
+    agent skills."
+  ai_summary: Release breakdown of OKF v0.3 introducing refined conformance rules,
+    explicit trust tiers, self-describing bundles, and interoperability with agent
+    skills.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Open Knowledge Format OKF and LLM Wikis
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103697+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[OKF]'
+https://github.com/AnswerDotAI/llms-txt:
+  title: 'GitHub: AnswerDotAI/llms-txt (/llms.txt Specification)'
+  description: "\U0001F31F - Minimalist Markdown standard (`/llms.txt`) for exposing
+    curated, LLM-friendly documentation indexes at web roots so coding and research
+    agents can discover authoritative context without brittle HTML scraping."
+  ai_summary: Minimalist Markdown standard (`/llms.txt`) for exposing curated, LLM-friendly
+    documentation indexes at web roots so coding and research agents can discover
+    authoritative context without brittle HTML scraping.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Open Knowledge Format OKF and LLM Wikis
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103722+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+https://github.com/VectifyAI/PageIndex:
+  title: 'GitHub: VectifyAI/PageIndex (Vectorless Reasoning-Based RAG)'
+  description: "\U0001F31F - Leading vectorless, reasoning-based RAG framework that
+    replaces chunking and vector databases with a hierarchical Table-of-Contents semantic
+    tree navigated via LLM tree search for high-accuracy financial, legal, and technical
+    analysis."
+  ai_summary: Leading vectorless, reasoning-based RAG framework that replaces chunking
+    and vector databases with a hierarchical Table-of-Contents semantic tree navigated
+    via LLM tree search for high-accuracy financial, legal, and technical analysis.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vectorless Reasoning RAG and Cache-Augmented Generation CAG
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103747+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+  - '[RAG]'
+https://github.com/hhhuang/CAG:
+  title: 'GitHub: hhhuang/CAG (Cache-Augmented Generation)'
+  description: "\U0001F31F - Reference implementation of Cache-Augmented Generation
+    (CAG), preloading bounded document corpora into LLM long-context KV caches to
+    eliminate runtime retrieval latency and ranking errors."
+  ai_summary: Reference implementation of Cache-Augmented Generation (CAG), preloading
+    bounded document corpora into LLM long-context KV caches to eliminate runtime
+    retrieval latency and ranking errors.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vectorless Reasoning RAG and Cache-Augmented Generation CAG
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103770+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+  - '[RAG]'
+https://arxiv.org/abs/2412.15605:
+  title: 'arXiv: Don''t Do RAG — When Cache-Augmented Generation is All You Need for
+    Knowledge Tasks'
+  description: "\U0001F31F - Foundational research paper benchmarking Cache-Augmented
+    Generation (CAG) against standard RAG across multi-document QA benchmarks, demonstrating
+    superior speed and accuracy for bounded knowledge bases."
+  ai_summary: Foundational research paper benchmarking Cache-Augmented Generation
+    (CAG) against standard RAG across multi-document QA benchmarks, demonstrating
+    superior speed and accuracy for bounded knowledge bases.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vectorless Reasoning RAG and Cache-Augmented Generation CAG
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103795+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'
+https://github.com/microsoft/graphrag:
+  title: 'GitHub: microsoft/graphrag'
+  description: "\U0001F31F - Microsoft's modular graph-based Retrieval-Augmented Generation
+    system combining LLM entity extraction, Leiden hierarchical community detection,
+    and global map-reduce summarization for complex multi-hop reasoning."
+  ai_summary: Microsoft's modular graph-based Retrieval-Augmented Generation system
+    combining LLM entity extraction, Leiden hierarchical community detection, and
+    global map-reduce summarization for complex multi-hop reasoning.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - GraphRAG and Hybrid Knowledge Graphs
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103817+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GRAPHRAG]'
+  - '[LLM]'
+  - '[RAG]'
+https://github.com/HKUDS/LightRAG:
+  title: 'GitHub: HKUDS/LightRAG'
+  description: "\U0001F31F - Fast, token-efficient dual-level graph-enhanced RAG framework
+    combining low-level entity retrieval with high-level thematic synthesis at a fraction
+    of traditional GraphRAG indexing and query cost."
+  ai_summary: Fast, token-efficient dual-level graph-enhanced RAG framework combining
+    low-level entity retrieval with high-level thematic synthesis at a fraction of
+    traditional GraphRAG indexing and query cost.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - GraphRAG and Hybrid Knowledge Graphs
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103858+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GRAPHRAG]'
+https://github.com/neo4j/neo4j-graphrag-python:
+  title: 'GitHub: neo4j/neo4j-graphrag-python'
+  description: "\U0001F31F - Official Neo4j Python package for building production
+    GraphRAG pipelines combining Cypher graph traversals, vector similarity indexes,
+    and automated knowledge graph construction."
+  ai_summary: Official Neo4j Python package for building production GraphRAG pipelines
+    combining Cypher graph traversals, vector similarity indexes, and automated knowledge
+    graph construction.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - GraphRAG and Hybrid Knowledge Graphs
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103891+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GRAPHRAG]'
+https://github.com/topoteretes/cognee:
+  title: 'GitHub: topoteretes/cognee'
+  description: "\U0001F31F - Open-source graph-vector hybrid memory engine using an
+    Extract-Cognify-Load (ECL) pipeline to unify codebases, documents, and databases
+    into traversable knowledge graphs for AI agents and MCP clients."
+  ai_summary: Open-source graph-vector hybrid memory engine using an Extract-Cognify-Load
+    (ECL) pipeline to unify codebases, documents, and databases into traversable knowledge
+    graphs for AI agents and MCP clients.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - GraphRAG and Hybrid Knowledge Graphs
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103913+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GRAPHRAG]'
+  - '[MCP]'
+https://www.anthropic.com/research/contextual-retrieval:
+  title: 'Anthropic Research: Introducing Contextual Retrieval'
+  description: "\U0001F31F - Seminal engineering blueprint introducing Contextual
+    Embeddings and Contextual BM25 (accelerated by Prompt Caching), reducing top-20
+    retrieval failure rates by 49% alone and 67% when paired with reranking."
+  ai_summary: Seminal engineering blueprint introducing Contextual Embeddings and
+    Contextual BM25 (accelerated by Prompt Caching), reducing top-20 retrieval failure
+    rates by 49% alone and 67% when paired with reranking.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Modern RAG Contextual Retrieval and Deep Document Parsing
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103935+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'
+https://github.com/infiniflow/ragflow:
+  title: 'GitHub: infiniflow/ragflow'
+  description: "\U0001F31F - Leading open-source enterprise RAG engine built on deep
+    document understanding (complex layout analysis, tables, charts, OCR), grounded
+    citations, and agentic retrieval workflows."
+  ai_summary: Leading open-source enterprise RAG engine built on deep document understanding
+    (complex layout analysis, tables, charts, OCR), grounded citations, and agentic
+    retrieval workflows.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Modern RAG Contextual Retrieval and Deep Document Parsing
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103957+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'
+https://github.com/run-llama/llama_index:
+  title: 'GitHub: run-llama/llama_index'
+  description: "\U0001F31F - Flagship open-source data and orchestration framework
+    for Agentic RAG, hybrid retrieval, structured extraction, and multi-step knowledge
+    workflows over enterprise data sources."
+  ai_summary: Flagship open-source data and orchestration framework for Agentic RAG,
+    hybrid retrieval, structured extraction, and multi-step knowledge workflows over
+    enterprise data sources.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Modern RAG Contextual Retrieval and Deep Document Parsing
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.103979+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'
+https://github.com/deepset-ai/haystack:
+  title: 'GitHub: deepset-ai/haystack'
+  description: "\U0001F31F - Production-hardened, modular Python framework for composing
+    hybrid retrieval pipelines (BM25 + dense vectors + rerankers), document ingestion,
+    and Kubernetes-ready search microservices."
+  ai_summary: Production-hardened, modular Python framework for composing hybrid retrieval
+    pipelines (BM25 + dense vectors + rerankers), document ingestion, and Kubernetes-ready
+    search microservices.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Modern RAG Contextual Retrieval and Deep Document Parsing
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104001+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/mem0ai/mem0:
+  title: 'GitHub: mem0ai/mem0'
+  description: "\U0001F31F - Universal memory layer for AI applications and autonomous
+    agents that automatically extracts, consolidates, and retrieves cross-session
+    user, session, and organizational facts via hybrid vector-graph storage."
+  ai_summary: Universal memory layer for AI applications and autonomous agents that
+    automatically extracts, consolidates, and retrieves cross-session user, session,
+    and organizational facts via hybrid vector-graph storage.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Persistent Agent Memory Systems
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104024+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/getzep/graphiti:
+  title: 'GitHub: getzep/graphiti'
+  description: "\U0001F31F - Bi-temporal knowledge graph engine by Zep built for dynamic
+    agent memory, tracking when facts became true and when they were superseded so
+    agents reason accurately over evolving enterprise state."
+  ai_summary: Bi-temporal knowledge graph engine by Zep built for dynamic agent memory,
+    tracking when facts became true and when they were superseded so agents reason
+    accurately over evolving enterprise state.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Persistent Agent Memory Systems
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104047+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GRAPHRAG]'
+https://github.com/letta-ai/letta:
+  title: 'GitHub: letta-ai/letta (formerly MemGPT)'
+  description: "\U0001F31F - Stateful Agent OS enabling LLMs to explicitly manage
+    their own tiered memory hierarchy (in-context core memory vs archival recall storage)
+    across long-running autonomous tasks."
+  ai_summary: Stateful Agent OS enabling LLMs to explicitly manage their own tiered
+    memory hierarchy (in-context core memory vs archival recall storage) across long-running
+    autonomous tasks.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Persistent Agent Memory Systems
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104067+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+https://github.com/qdrant/qdrant:
+  title: 'GitHub: qdrant/qdrant'
+  description: "\U0001F31F - High-performance Rust vector and hybrid search engine
+    featuring binary/scalar quantization, sparse + dense fusion, payload filtering,
+    and native Kubernetes horizontal sharding."
+  ai_summary: High-performance Rust vector and hybrid search engine featuring binary/scalar
+    quantization, sparse + dense fusion, payload filtering, and native Kubernetes
+    horizontal sharding.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vector Databases Hybrid Search and RAG Evaluation
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104090+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'
+https://github.com/weaviate/weaviate:
+  title: 'GitHub: weaviate/weaviate'
+  description: "\U0001F31F - Cloud-native AI database combining HNSW vector search,
+    BM25 keyword scoring, multi-tenancy isolation, and modular generative search pipelines
+    on Kubernetes."
+  ai_summary: Cloud-native AI database combining HNSW vector search, BM25 keyword
+    scoring, multi-tenancy isolation, and modular generative search pipelines on Kubernetes.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vector Databases Hybrid Search and RAG Evaluation
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104113+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'
+https://github.com/milvus-io/milvus:
+  title: 'GitHub: milvus-io/milvus'
+  description: "\U0001F31F - Distributed, cloud-native vector database architected
+    for billion-scale similarity search with disaggregated compute/storage and official
+    Kubernetes Operator deployment."
+  ai_summary: Distributed, cloud-native vector database architected for billion-scale
+    similarity search with disaggregated compute/storage and official Kubernetes Operator
+    deployment.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vector Databases Hybrid Search and RAG Evaluation
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104135+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/pgvector/pgvector:
+  title: 'GitHub: pgvector/pgvector'
+  description: "\U0001F31F - Open-source vector similarity search extension (HNSW
+    and IVFFlat indexes) for PostgreSQL, enabling ACID-compliant hybrid SQL + vector
+    retrieval without operating a separate vector database."
+  ai_summary: Open-source vector similarity search extension (HNSW and IVFFlat indexes)
+    for PostgreSQL, enabling ACID-compliant hybrid SQL + vector retrieval without
+    operating a separate vector database.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vector Databases Hybrid Search and RAG Evaluation
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104157+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'
+https://github.com/chroma-core/chroma:
+  title: 'GitHub: chroma-core/chroma'
+  description: "\U0001F31F - Developer-friendly, open-source AI-native search and
+    embedding database supporting local prototyping and distributed cloud-native deployments."
+  ai_summary: Developer-friendly, open-source AI-native search and embedding database
+    supporting local prototyping and distributed cloud-native deployments.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vector Databases Hybrid Search and RAG Evaluation
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104178+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/explodinggradients/ragas:
+  title: 'GitHub: explodinggradients/ragas'
+  description: "\U0001F31F - De facto open-source evaluation framework for measuring
+    RAG and agentic retrieval quality across faithfulness, answer relevancy, context
+    precision, and context recall in CI/CD pipelines."
+  ai_summary: De facto open-source evaluation framework for measuring RAG and agentic
+    retrieval quality across faithfulness, answer relevancy, context precision, and
+    context recall in CI/CD pipelines.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - AI
+  - AI RAG OKF
+  - Vector Databases Hybrid Search and RAG Evaluation
+  v1_locations:
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - ai-rag-okf.md
+  addition_method: manual
+  discovered_at: '2026-11-22T14:09:55.104199+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[RAG]'

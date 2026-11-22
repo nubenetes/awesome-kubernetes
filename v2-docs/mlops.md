@@ -10,7 +10,7 @@ description: "Top MLOps resources for 2026, AI-ranked: AI on EKS (AWS Labs), Dat
     Detailed reference for Machine Learning Ops (MLOps) and Data Science in the context of AI.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Enterprise AI Platforms](./enterprise-ai-platforms/) · [Core AI & LLMs](./ai/) · [AI Agents & MCP](./ai-agents-mcp/) · [K8s Autoscaling](./kubernetes-autoscaling/) · [K8s Operators](./kubernetes-operators-controllers/)
+    [Enterprise AI Platforms](./enterprise-ai-platforms/) · [RAG, OKF & Knowledge](./ai-rag-okf/) · [Core AI & LLMs](./ai/) · [AI Agents & MCP](./ai-agents-mcp/) · [K8s Autoscaling](./kubernetes-autoscaling/) · [K8s Operators](./kubernetes-operators-controllers/)
 
 ## AI and ML
 
@@ -82,7 +82,7 @@ description: "Top MLOps resources for 2026, AI-ranked: AI on EKS (AWS Labs), Dat
 
 #### Generative AI
 
-  - **(2024)** [**redhat.com: Bring Your Own Knowledge — Automation Intelligent Assistant (RAG)**](https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Enterprise guide to building knowledge-augmented AI assistants using Retrieval-Augmented Generation (RAG). Covers ingestion pipelines, vector store integration, and prompt engineering patterns for grounding LLM responses in private enterprise data, applicable to Kubernetes and cloud-native environments. Authoritative Red Hat resource for architects implementing private AI knowledge bases.
+  - **(2024)** [**redhat.com: Bring Your Own Knowledge — Automation Intelligent Assistant (RAG)**](https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Enterprise guide to building knowledge-augmented AI assistants using Retrieval-Augmented Generation (RAG). Covers ingestion pipelines, vector store integration, and prompt engineering patterns for grounding LLM responses in private enterprise data, applicable to Kubernetes and cloud-native environments. Authoritative Red Hat resource for architects implementing private AI knowledge bases.
 ## Artificial Intelligence
 
 ### MLOps (1)

@@ -93,7 +93,7 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
 
 #### Enterprise AI
 
-  - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
+  - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
 ## Gpt-live
 
   - **(2026)** [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Introducing GPT-Live covering GPT-Live in ChatGPT (openai.com).

@@ -9,7 +9,7 @@ from src.gemini_utils import normalize_url
 
 # Dimensions mapping from v2_optimizer.py
 DIMENSIONS = {
-    "AI": ["enterprise-ai-platforms", "ai-agents-mcp", "ai", "chatgpt", "mlops"],
+    "AI": ["enterprise-ai-platforms", "ai-agents-mcp", "ai-rag-okf", "ai", "chatgpt", "mlops"],
     "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
     "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
     "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase", "chef"],
@@ -37,7 +37,7 @@ def get_readable_category(category: str) -> str:
         return "General"
     title = category.replace("-", " ").title()
     acronyms = {
-        "Ai": "AI", "Mcp": "MCP", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
+        "Ai": "AI", "Mcp": "MCP", "Rag": "RAG", "Okf": "OKF", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
         "Api": "API", "Sre": "SRE", "Cicd": "CI/CD", "Ocp3": "OCP 3", 
         "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
         "Chatgpt": "ChatGPT", "Mlops": "MLOps", "Devops": "DevOps",
