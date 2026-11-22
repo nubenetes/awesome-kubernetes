@@ -88918,6 +88918,7 @@ https://codeberg.org/hjacobs/kube-downscaler:
   - Autoscaling
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
@@ -520921,6 +520922,7 @@ https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know:
   - '[COMMUNITY-TOOL]'
   - '[GPU]'
   - '[LLM]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/ai.md
   v2_locations:
@@ -527330,6 +527332,7 @@ https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-goog
   - Industry Dynamics
   tags:
   - '[COMMUNITY-TOOL]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/chatgpt.md
   v2_locations:
@@ -626418,6 +626421,7 @@ https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-fra
   - Framework Comparisons
   tags:
   - '[ENTERPRISE-STABLE]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/serverless.md
   v2_locations:
@@ -738056,6 +738060,7 @@ https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-thr
   - '[ENTERPRISE-STABLE]'
   - '[GPU]'
   - '[POWER-MANAGEMENT]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/mlops.md
   v2_locations:
@@ -750093,15 +750098,15 @@ https://www.ovhcloud.com/en-ie:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   youtube_mosaic: {}
 https://www.ovhcloud.com/en-ie/public-cloud/kubernetes:
   title: OVHcloud Managed Kubernetes Service (MKS)
@@ -750129,7 +750134,7 @@ https://www.ovhcloud.com/en-ie/public-cloud/kubernetes:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
@@ -750137,10 +750142,10 @@ https://www.ovhcloud.com/en-ie/public-cloud/kubernetes:
   - '[HYPERVISOR]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   - docs/eu-cloud-workloads-stack.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   - eu-cloud-workloads-stack.md
   youtube_mosaic: {}
 https://help.ovhcloud.com/csm/en-home:
@@ -750167,16 +750172,16 @@ https://help.ovhcloud.com/csm/en-home:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   youtube_mosaic: {}
 https://github.com/scaleway:
   title: Scaleway Cloud Platform (Iliad Group)
@@ -750206,16 +750211,16 @@ https://github.com/scaleway:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[GPU]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   youtube_mosaic: {}
 https://www.scaleway.com/en/blog/rss.xml:
   title: Scaleway Engineering Blog
@@ -750242,15 +750247,15 @@ https://www.scaleway.com/en/blog/rss.xml:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   youtube_mosaic: {}
 https://en.outscale.com:
   title: 3DS OUTSCALE (Dassault Systemes)
@@ -750278,15 +750283,15 @@ https://en.outscale.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   youtube_mosaic: {}
 https://www.clever.cloud:
   title: Clever Cloud Sovereign PaaS
@@ -750314,15 +750319,15 @@ https://www.clever.cloud:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   youtube_mosaic: {}
 https://www.cloud-temple.com/en:
   title: Cloud Temple Sovereign IaaS
@@ -750350,15 +750355,15 @@ https://www.cloud-temple.com/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   youtube_mosaic: {}
 https://www.bleucloud.fr/en:
   title: Bleu Trusted Cloud (Capgemini and Orange)
@@ -750386,16 +750391,16 @@ https://www.bleucloud.fr/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   - docs/eu-sovereign-cloud.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   - eu-sovereign-cloud.md
   youtube_mosaic: {}
 https://www.s3ns.io/en:
@@ -750422,15 +750427,15 @@ https://www.s3ns.io/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   - docs/eu-sovereign-cloud.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   - eu-sovereign-cloud.md
   youtube_mosaic: {}
 https://mistral.ai:
@@ -750459,17 +750464,17 @@ https://mistral.ai:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud Providers SecNumCloud and AI Factories
   tags:
   - '[EMERGING]'
   - '[LLM]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-france.md
   - docs/eu-cloud-workloads-stack.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-france.md
   - eu-cloud-workloads-stack.md
   youtube_mosaic: {}
 https://cloud.ionos.com:
@@ -750500,15 +750505,15 @@ https://cloud.ionos.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   youtube_mosaic: {}
 https://docs.ionos.com/cloud:
   title: IONOS Cloud Documentation
@@ -750535,16 +750540,16 @@ https://docs.ionos.com/cloud:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[DRP-RESILIENCE]'
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   youtube_mosaic: {}
 https://stackit.com/en:
   title: STACKIT Sovereign Cloud (Schwarz Digits)
@@ -750573,15 +750578,15 @@ https://stackit.com/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   youtube_mosaic: {}
 https://docs.stackit.cloud:
   title: STACKIT Official Documentation
@@ -750608,16 +750613,16 @@ https://docs.stackit.cloud:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[EMERGING]'
   - '[HYPERVISOR]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   youtube_mosaic: {}
 https://www.open-telekom-cloud.com/en:
   title: Open Telekom Cloud (T-Systems)
@@ -750645,16 +750650,16 @@ https://www.open-telekom-cloud.com/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[EMERGING]'
   - '[HYPERVISOR]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   youtube_mosaic: {}
 https://www.syseleven.de/en/metakube:
   title: SysEleven MetaKube Managed Kubernetes
@@ -750682,16 +750687,17 @@ https://www.syseleven.de/en/metakube:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[EMERGING]'
   - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   - docs/eu-cloud-workloads-stack.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   - eu-cloud-workloads-stack.md
   youtube_mosaic: {}
 https://www.plusserver.com/en:
@@ -750720,15 +750726,15 @@ https://www.plusserver.com/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   youtube_mosaic: {}
 https://aws.amazon.com/compliance/europe-digital-sovereignty:
   title: AWS European Sovereign Cloud (Brandenburg Baseline)
@@ -750756,16 +750762,16 @@ https://aws.amazon.com/compliance/europe-digital-sovereignty:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - France & Germany Cloud Champions
+  - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud Providers BSI C5 and High-Efficiency Bare Metal
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-france-germany.md
+  - docs/eu-cloud-germany.md
   - docs/eu-sovereign-cloud.md
   v2_locations:
-  - eu-cloud-france-germany.md
+  - eu-cloud-germany.md
   - eu-sovereign-cloud.md
   youtube_mosaic: {}
 https://github.com/ovh/terraform-provider-ovh:
@@ -751564,15 +751570,15 @@ https://www.arubacloud.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Italy Sovereign Cloud & Private DCs
   - Italy Sovereign Cloud and ACN Qualified Providers
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-italy.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-italy.md
   youtube_mosaic: {}
 https://www.seeweb.it/en:
   title: Seeweb Cloud and GPU AI Infrastructure
@@ -751600,17 +751606,17 @@ https://www.seeweb.it/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Italy Sovereign Cloud & Private DCs
   - Italy Sovereign Cloud and ACN Qualified Providers
   tags:
   - '[EMERGING]'
   - '[GPU]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-italy.md
   - docs/eu-cloud-workloads-stack.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-italy.md
   - eu-cloud-workloads-stack.md
   youtube_mosaic: {}
 https://www.polostrategiconazionale.it:
@@ -751639,15 +751645,15 @@ https://www.polostrategiconazionale.it:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Italy Sovereign Cloud & Private DCs
   - Italy Sovereign Cloud and ACN Qualified Providers
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-italy.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-italy.md
   youtube_mosaic: {}
 https://www.civo.com:
   title: Civo UK Sovereign Cloud and Managed Kubernetes
@@ -751675,16 +751681,16 @@ https://www.civo.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - United Kingdom Sovereign Cloud & DCs
   - United Kingdom Sovereign Cloud and Colocation
   tags:
   - '[EMERGING]'
   - '[GPU]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-uk.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-uk.md
   youtube_mosaic: {}
 https://www.pulsant.com:
   title: Pulsant UK Edge and Private Cloud
@@ -751712,14 +751718,14 @@ https://www.pulsant.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - United Kingdom Sovereign Cloud & DCs
   - United Kingdom Sovereign Cloud and Colocation
   tags:
   - '[EMERGING]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-uk.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-uk.md
   youtube_mosaic: {}
 https://www.exoscale.com:
   title: 'Exoscale: Swiss and European Sovereign Cloud'
@@ -751747,15 +751753,15 @@ https://www.exoscale.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Switzerland & Austria (Alpine Sovereign)
   - Nordics Switzerland and Benelux Cloud and AI Providers
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-switzerland-dach.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-switzerland-dach.md
   youtube_mosaic: {}
 https://upcloud.com/docs:
   title: UpCloud Sovereign European Cloud
@@ -751783,15 +751789,15 @@ https://upcloud.com/docs:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Nordics Green Cloud & AI Factories
   - Nordics Switzerland and Benelux Cloud and AI Providers
   tags:
   - '[EMERGING]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-nordics.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-nordics.md
   youtube_mosaic: {}
 https://elastx.se/en:
   title: 'Elastx: Swedish 3-AZ Sovereign OpenStack Cloud'
@@ -751819,16 +751825,16 @@ https://elastx.se/en:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Nordics Green Cloud & AI Factories
   - Nordics Switzerland and Benelux Cloud and AI Providers
   tags:
   - '[EMERGING]'
   - '[HYPERVISOR]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-nordics.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-nordics.md
   youtube_mosaic: {}
 https://cleura.com:
   title: 'Cleura: Compliant European OpenStack Cloud'
@@ -751856,16 +751862,16 @@ https://cleura.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Nordics Green Cloud & AI Factories
   - Nordics Switzerland and Benelux Cloud and AI Providers
   tags:
   - '[EMERGING]'
   - '[HYPERVISOR]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-nordics.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-nordics.md
   youtube_mosaic: {}
 https://www.infomaniak.com/en/hosting/public-cloud:
   title: Infomaniak Public Cloud (Switzerland)
@@ -751892,15 +751898,16 @@ https://www.infomaniak.com/en/hosting/public-cloud:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Switzerland & Austria (Alpine Sovereign)
   - Nordics Switzerland and Benelux Cloud and AI Providers
   tags:
   - '[EMERGING]'
   - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-switzerland-dach.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-switzerland-dach.md
   youtube_mosaic: {}
 https://nebius.com:
   title: Nebius Sovereign AI Cloud (Amsterdam HQ)
@@ -751928,17 +751935,17 @@ https://nebius.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Netherlands & Benelux Cloud & DCs
   - Nordics Switzerland and Benelux Cloud and AI Providers
   tags:
   - '[EMERGING]'
   - '[GPU]'
   - '[SOVEREIGN-EU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-benelux.md
   - docs/eu-cloud-workloads-stack.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-benelux.md
   - eu-cloud-workloads-stack.md
   youtube_mosaic: {}
 https://gcore.com:
@@ -751967,15 +751974,15 @@ https://gcore.com:
   geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
-  - Italy, UK, Nordics & Benelux
+  - Netherlands & Benelux Cloud & DCs
   - Nordics Switzerland and Benelux Cloud and AI Providers
   tags:
   - '[EMERGING]'
   - '[GPU]'
   v1_locations:
-  - docs/eu-cloud-italy-uk-nordics.md
+  - docs/eu-cloud-benelux.md
   v2_locations:
-  - eu-cloud-italy-uk-nordics.md
+  - eu-cloud-benelux.md
   youtube_mosaic: {}
 https://www.veeam.com:
   title: Veeam Data Platform and CDP Replication
@@ -752583,6 +752590,7 @@ https://www.digitalrealty.com/data-centers/emea/madrid:
   - Private Colocation Interconnection and AI-Ready Data Centers in Spain
   tags:
   - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-spain.md
   v2_locations:
@@ -753340,4 +753348,2437 @@ https://eur-lex.europa.eu/eli/reg/2022/2554/oj:
   - docs/eu-sovereign-cloud.md
   v2_locations:
   - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://www.leaseweb.com:
+  title: Leaseweb Bare Metal, Public Cloud and Private DCs (Amsterdam HQ)
+  description: "\U0001F31F - Global Dutch-headquartered IaaS powerhouse operating
+    high-throughput Amsterdam and Frankfurt facilities with single-tenant bare metal,
+    CloudStack/VMware private clouds, Terraform automation, and generous bandwidth
+    allowances."
+  year: '2026'
+  stars: 3
+  ai_summary: Global Dutch-headquartered IaaS powerhouse operating high-throughput
+    Amsterdam and Frankfurt facilities with single-tenant bare metal, CloudStack/VMware
+    private clouds, Terraform automation, and generous bandwidth allowances.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927708+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Netherlands Belgium and Luxembourg Sovereign Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://cyso.com:
+  title: Cyso Cloud Sovereign Dutch OpenStack and Kubernetes
+  description: "\U0001F31F - Dutch sovereign public cloud (Alkmaar) powered 100% by
+    European OpenStack and Managed Kubernetes, offering ISO 27001 / NEN 7510 / BIO
+    compliance for regulated healthcare and SaaS workloads."
+  year: '2026'
+  stars: 3
+  ai_summary: Dutch sovereign public cloud (Alkmaar) powered 100% by European OpenStack
+    and Managed Kubernetes, offering ISO 27001 / NEN 7510 / BIO compliance for regulated
+    healthcare and SaaS workloads.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927766+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Netherlands Belgium and Luxembourg Sovereign Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://leafcloud.com:
+  title: Leafcloud Sustainable European Kubernetes and GPU Cloud
+  description: "\U0001F31F - Amsterdam-based green OpenStack and Managed Kubernetes
+    cloud installing compute nodes directly inside urban district heating loops to
+    eliminate traditional data-center cooling waste."
+  year: '2026'
+  stars: 3
+  ai_summary: Amsterdam-based green OpenStack and Managed Kubernetes cloud installing
+    compute nodes directly inside urban district heating loops to eliminate traditional
+    data-center cooling waste.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927801+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Netherlands Belgium and Luxembourg Sovereign Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.transip.eu:
+  title: TransIP Euro-Compliant VPS and Cloud Storage (team.blue)
+  description: "\U0001F31F - Netherlands-based European IaaS operator (part of team.blue)
+    providing predictable EUR-billed VPS, HA-IP load balancing, private networks,
+    and Dutch data residency for developers and agencies."
+  year: '2026'
+  stars: 3
+  ai_summary: Netherlands-based European IaaS operator (part of team.blue) providing
+    predictable EUR-billed VPS, HA-IP load balancing, private networks, and Dutch
+    data residency for developers and agencies.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927847+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Netherlands Belgium and Luxembourg Sovereign Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.proximusnxt.be/en:
+  title: Proximus NXT Sovereign Cloud and Telco IT (Belgium and Luxembourg)
+  description: "\U0001F31F - Belgian enterprise sovereign ICT and cloud champion delivering
+    multi-DC private clouds, SecNumCloud/DORA-aligned banking platforms, and NATO/EU
+    institutional connectivity across Brussels and Luxembourg."
+  year: '2026'
+  stars: 3
+  ai_summary: Belgian enterprise sovereign ICT and cloud champion delivering multi-DC
+    private clouds, SecNumCloud/DORA-aligned banking platforms, and NATO/EU institutional
+    connectivity across Brussels and Luxembourg.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927881+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Netherlands Belgium and Luxembourg Sovereign Cloud and AI Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.ams-ix.net/ams:
+  title: 'AMS-IX: Amsterdam Internet Exchange'
+  description: "\U0001F31F - One of the world's largest non-profit neutral peering
+    exchanges anchored in Amsterdam, providing ultra-low-latency European and transatlantic
+    traffic distribution across sovereign clouds and carriers."
+  year: '2026'
+  stars: 3
+  ai_summary: One of the world's largest non-profit neutral peering exchanges anchored
+    in Amsterdam, providing ultra-low-latency European and transatlantic traffic distribution
+    across sovereign clouds and carriers.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927912+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - FLAP-D Colocation AMS-IX Interconnection and Luxembourg Tier IV Data Centers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.luxconnect.lu:
+  title: LuxConnect Sovereign Tier IV Data Centers (Luxembourg)
+  description: "\U0001F31F - State-backed Luxembourg Tier IV data center operator
+    (Bettembourg and Bissen) offering ultra-secure dark-fiber loops, data-embassy
+    resilience, and 100% renewable power for DORA financial institutions."
+  year: '2026'
+  stars: 3
+  ai_summary: State-backed Luxembourg Tier IV data center operator (Bettembourg and
+    Bissen) offering ultra-secure dark-fiber loops, data-embassy resilience, and 100%
+    renewable power for DORA financial institutions.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927942+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - FLAP-D Colocation AMS-IX Interconnection and Luxembourg Tier IV Data Centers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.northcdatacenters.com/en:
+  title: NorthC Regional Dutch and Benelux Data Centers
+  description: "\U0001F31F - Regional carrier-neutral data center network across Amsterdam,
+    Rotterdam, Eindhoven, Brussels, and Germany supporting regional edge recovery
+    and strict local data residency."
+  year: '2026'
+  stars: 3
+  ai_summary: Regional carrier-neutral data center network across Amsterdam, Rotterdam,
+    Eindhoven, Brussels, and Germany supporting regional edge recovery and strict
+    local data residency.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.927974+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - FLAP-D Colocation AMS-IX Interconnection and Luxembourg Tier IV Data Centers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/amsterdam-data-centers:
+  title: Equinix Amsterdam IBX Campuses (Science Park and Schiphol)
+  description: "\U0001F31F - Tier III+ colocation hub directly adjacent to AMS-IX
+    and NL-ix providing high-density interconnection for financial, cloud-native,
+    and multi-region European architectures."
+  year: '2026'
+  stars: 3
+  ai_summary: Tier III+ colocation hub directly adjacent to AMS-IX and NL-ix providing
+    high-density interconnection for financial, cloud-native, and multi-region European
+    architectures.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928007+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - FLAP-D Colocation AMS-IX Interconnection and Luxembourg Tier IV Data Centers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.digitalrealty.com/data-centers/emea/amsterdam:
+  title: Digital Realty Amsterdam Science Park Campus
+  description: "\U0001F31F - Carrier-neutral enterprise colocation cluster offering
+    direct AMS-IX peering, renewable PPAs, and sovereign private-cloud cages inside
+    Amsterdam's interconnection core."
+  year: '2026'
+  stars: 3
+  ai_summary: Carrier-neutral enterprise colocation cluster offering direct AMS-IX
+    peering, renewable PPAs, and sovereign private-cloud cages inside Amsterdam's
+    interconnection core.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928036+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - FLAP-D Colocation AMS-IX Interconnection and Luxembourg Tier IV Data Centers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.dutchdatacenters.nl/en:
+  title: Dutch Data Center Association (DDA)
+  description: "\U0001F31F - Official industry association documenting Amsterdam's
+    power-grid policy, Climate Neutral Data Centre Pact adherence, and Dutch/European
+    digital infrastructure regulations."
+  year: '2026'
+  stars: 3
+  ai_summary: Official industry association documenting Amsterdam's power-grid policy,
+    Climate Neutral Data Centre Pact adherence, and Dutch/European digital infrastructure
+    regulations.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928067+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Benelux Cloud Compliance and Digital Infrastructure
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  youtube_mosaic: {}
+https://www.ikoula.com/en:
+  title: Ikoula French Cloud and Dedicated Servers
+  description: "\U0001F31F - Independent French cloud and bare-metal provider operating
+    owned green data centers in Reims and Eppes with ISO 27001 compliance and custom
+    sovereign private cloud infrastructure."
+  year: '2026'
+  stars: 3
+  ai_summary: Independent French cloud and bare-metal provider operating owned green
+    data centers in Reims and Eppes with ISO 27001 compliance and custom sovereign
+    private cloud infrastructure.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928324+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - French Sovereign Cloud and SecNumCloud Providers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://www.data4group.com/en/european-data-centers-data4-campus:
+  title: DATA4 European Sovereign Data Center Campuses (Paris-Saclay)
+  description: "\U0001F31F - French-headquartered hyperscale and sovereign colocation
+    operator anchored by its flagship multi-campus hub in Marcoussis (Paris-Saclay)
+    supplying renewable power and liquid-ready AI capacity."
+  year: '2026'
+  stars: 3
+  ai_summary: French-headquartered hyperscale and sovereign colocation operator anchored
+    by its flagship multi-campus hub in Marcoussis (Paris-Saclay) supplying renewable
+    power and liquid-ready AI capacity.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928424+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - Private Colocation Marseille Subsea Hub and Sovereign AI in France
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://www.digitalrealty.com/data-centers/emea/marseille:
+  title: Digital Realty Marseille Subsea Hub (MRS1–MRS4)
+  description: "\U0001F31F - Europe's premier Mediterranean subsea-cable landing gateway
+    in Marseille interconnecting 15+ submarine fiber systems across Europe, Africa,
+    the Middle East, and Asia."
+  year: '2026'
+  stars: 3
+  ai_summary: Europe's premier Mediterranean subsea-cable landing gateway in Marseille
+    interconnecting 15+ submarine fiber systems across Europe, Africa, the Middle
+    East, and Asia.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928458+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - Private Colocation Marseille Subsea Hub and Sovereign AI in France
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://www.equinix.com/data-centers/europe-colocation/france-colocation/paris-data-centers:
+  title: Equinix Paris IBX Data Centers (PA1–PA10)
+  description: "\U0001F31F - High-density carrier-neutral colocation ecosystem in
+    Greater Paris (Saint-Denis, Pantin, Aubervilliers) offering direct peering and
+    hybrid connectivity to French sovereign clouds."
+  year: '2026'
+  stars: 3
+  ai_summary: High-density carrier-neutral colocation ecosystem in Greater Paris (Saint-Denis,
+    Pantin, Aubervilliers) offering direct peering and hybrid connectivity to French
+    sovereign clouds.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928491+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - Private Colocation Marseille Subsea Hub and Sovereign AI in France
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://www.franceix.net/en:
+  title: France-IX Neutral Internet Exchange
+  description: "\U0001F31F - France's primary neutral peering exchange spanning Paris
+    and Marseille, delivering low-latency domestic traffic routing across French ISPs,
+    CDNs, and sovereign cloud providers."
+  year: '2026'
+  stars: 3
+  ai_summary: France's primary neutral peering exchange spanning Paris and Marseille,
+    delivering low-latency domestic traffic routing across French ISPs, CDNs, and
+    sovereign cloud providers.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928520+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - Private Colocation Marseille Subsea Hub and Sovereign AI in France
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://www.genci.fr/en:
+  title: GENCI and Jean Zay AI Supercomputer
+  description: "\U0001F31F - French national high-performance computing agency operating
+    the Jean Zay supercomputer and France's AI Factory clusters powering open European
+    foundation models and sovereign research."
+  year: '2026'
+  stars: 3
+  ai_summary: French national high-performance computing agency operating the Jean
+    Zay supercomputer and France's AI Factory clusters powering open European foundation
+    models and sovereign research.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928549+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - Private Colocation Marseille Subsea Hub and Sovereign AI in France
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://cyber.gouv.fr/en/secnumcloud-for-cloud-service-providers:
+  title: ANSSI SecNumCloud Qualification Referential
+  description: "\U0001F31F - Official French National Cybersecurity Agency (ANSSI)
+    sovereign cloud standard (v3.2) imposing strict technical security, European operational
+    staff residency, and non-EU equity/control caps against extraterritorial laws."
+  year: '2026'
+  stars: 3
+  ai_summary: Official French National Cybersecurity Agency (ANSSI) sovereign cloud
+    standard (v3.2) imposing strict technical security, European operational staff
+    residency, and non-EU equity/control caps against extraterritorial laws.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928679+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - French National Compliance and Trust Frameworks
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://www.hexatrust.com/en:
+  title: 'Hexatrust: French and European Cybersecurity and Trusted Cloud Alliance'
+  description: "\U0001F31F - Industrial alliance unifying vetted French and European
+    sovereign cloud, Zero-Trust IAM, encryption, and cybersecurity software vendors
+    for sovereign architectures."
+  year: '2026'
+  stars: 3
+  ai_summary: Industrial alliance unifying vetted French and European sovereign cloud,
+    Zero-Trust IAM, encryption, and cybersecurity software vendors for sovereign architectures.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928711+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - French National Compliance and Trust Frameworks
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
+https://www.secunet.cloud/en:
+  title: secunet Cloud Sovereign Infrastructure
+  description: "\U0001F31F - German cybersecurity-backed sovereign cloud platform
+    (incorporating SysEleven) combining BSI-aligned security architecture, OpenStack
+    IaaS, and MetaKube Kubernetes for regulated German sectors."
+  year: '2026'
+  stars: 3
+  ai_summary: German cybersecurity-backed sovereign cloud platform (incorporating
+    SysEleven) combining BSI-aligned security architecture, OpenStack IaaS, and MetaKube
+    Kubernetes for regulated German sectors.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928882+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Sovereign Cloud and Managed Kubernetes Providers
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.noris.de/en:
+  title: noris network Sovereign Cloud and Colocation
+  description: "\U0001F31F - Nuremberg and Munich high-security German IT outsourcing,
+    ISO 27001 / BSI C5 / TISAX certified managed cloud, and Tier III+ private data
+    center operator for banking, healthcare, and Mittelstand workloads."
+  year: '2026'
+  stars: 3
+  ai_summary: Nuremberg and Munich high-security German IT outsourcing, ISO 27001
+    / BSI C5 / TISAX certified managed cloud, and Tier III+ private data center operator
+    for banking, healthcare, and Mittelstand workloads.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928936+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Sovereign Cloud and Managed Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://gridscale.io/en:
+  title: gridscale Cloud Platform (OVHcloud Group)
+  description: "\U0001F31F - German PaaS and IaaS technology platform headquartered
+    in Cologne offering hyperconverged cloud software, sovereign hybrid deployments,
+    and managed Kubernetes modules for European telcos and MSPs."
+  year: '2026'
+  stars: 3
+  ai_summary: German PaaS and IaaS technology platform headquartered in Cologne offering
+    hyperconverged cloud software, sovereign hybrid deployments, and managed Kubernetes
+    modules for European telcos and MSPs.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928967+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Sovereign Cloud and Managed Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.cloudandheat.com:
+  title: Cloud&Heat German Green Sovereign Cloud
+  description: "\U0001F31F - Dresden-based German sovereign OpenStack cloud and direct
+    hot-water liquid-cooled AI compute operator designed for ultra-low PUE heat reuse
+    and zero hyperscaler lock-in."
+  year: '2026'
+  stars: 3
+  ai_summary: Dresden-based German sovereign OpenStack cloud and direct hot-water
+    liquid-cooled AI compute operator designed for ultra-low PUE heat reuse and zero
+    hyperscaler lock-in.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.928998+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Sovereign Cloud and Managed Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.deloscloud.de:
+  title: Delos Cloud (SAP Sovereign Cloud Germany)
+  description: "\U0001F31F - Dedicated German sovereign cloud platform backed by SAP
+    specifically engineered to run public-administration, police, and defense workloads
+    under strict BSI C5 and German legal control."
+  year: '2026'
+  stars: 3
+  ai_summary: Dedicated German sovereign cloud platform backed by SAP specifically
+    engineered to run public-administration, police, and defense workloads under strict
+    BSI C5 and German legal control.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929027+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Sovereign Cloud and Managed Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.de-cix.net/en:
+  title: DE-CIX Frankfurt Internet Exchange
+  description: "\U0001F31F - The world's leading interconnection ecosystem headquartered
+    in Frankfurt, peaking above 17 Tbps and anchoring low-latency peering between
+    German sovereign clouds, international carriers, and European enterprise networks."
+  year: '2026'
+  stars: 3
+  ai_summary: The world's leading interconnection ecosystem headquartered in Frankfurt,
+    peaking above 17 Tbps and anchoring low-latency peering between German sovereign
+    clouds, international carriers, and European enterprise networks.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929079+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Germany
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.equinix.com/data-centers/europe-colocation/germany-colocation/frankfurt-data-centers:
+  title: Equinix Frankfurt IBX Campus
+  description: "\U0001F31F - Massive carrier-neutral colocation cluster in Germany's
+    financial capital providing Equinix Fabric L2/BGP on-ramps to IONOS, STACKIT,
+    German enterprises, and hyperscaler regions."
+  year: '2026'
+  stars: 3
+  ai_summary: Massive carrier-neutral colocation cluster in Germany's financial capital
+    providing Equinix Fabric L2/BGP on-ramps to IONOS, STACKIT, German enterprises,
+    and hyperscaler regions.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929109+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Germany
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.digitalrealty.com/data-centers/emea/frankfurt:
+  title: Digital Realty Frankfurt Data Center Campus
+  description: "\U0001F31F - High-density carrier-neutral Frankfurt colocation campus
+    offering direct access to DE-CIX, compliant German financial cages, and AI-ready
+    power envelopes."
+  year: '2026'
+  stars: 3
+  ai_summary: High-density carrier-neutral Frankfurt colocation campus offering direct
+    access to DE-CIX, compliant German financial cages, and AI-ready power envelopes.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929138+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Germany
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.maincubes.com/en:
+  title: maincubes European Data Centers (Frankfurt and Berlin)
+  description: "\U0001F31F - German-headquartered Tier III+ sustainable colocation
+    operator running certified German facilities (FRA01–FRA04, BER) for sovereign
+    private clouds and high-density enterprise racks."
+  year: '2026'
+  stars: 3
+  ai_summary: German-headquartered Tier III+ sustainable colocation operator running
+    certified German facilities (FRA01–FRA04, BER) for sovereign private clouds and
+    high-density enterprise racks.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929169+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Germany
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.fz-juelich.de/en/jsc/systems/supercomputers/jupiter:
+  title: 'Juelich Supercomputing Centre: JUPITER Exascale AI'
+  description: "\U0001F31F - Europe's first exascale EuroHPC supercomputer at Forschungszentrum
+    Juelich featuring nearly 24,000 NVIDIA GH200 Grace Hopper Superchips to power
+    sovereign European AI foundation model training."
+  year: '2026'
+  stars: 3
+  ai_summary: Europe's first exascale EuroHPC supercomputer at Forschungszentrum Juelich
+    featuring nearly 24,000 NVIDIA GH200 Grace Hopper Superchips to power sovereign
+    European AI foundation model training.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929200+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Germany
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+? https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/kriterienkatalog-c5_node.html
+: title: BSI C5 Criteria Catalogue (Cloud Computing Compliance Controls)
+  description: "\U0001F31F - Official German Federal Office for Information Security
+    (BSI) auditing baseline mandatory for German public health, statutory insurance,
+    and regulated enterprise cloud procurement."
+  year: '2026'
+  stars: 3
+  ai_summary: Official German Federal Office for Information Security (BSI) auditing
+    baseline mandatory for German public health, statutory insurance, and regulated
+    enterprise cloud procurement.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929233+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Compliance Standards and Sovereign Stack
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://github.com/SovereignCloudStack:
+  title: Sovereign Cloud Stack GitHub Standards
+  description: "\U0001F31F - Open-source engineering repositories and reference implementations
+    (OpenStack, Kubernetes/Gardener/CAPI, Ceph, automated compliance tests) powering
+    Germany's sovereign federated cloud providers."
+  year: '2026'
+  stars: 3
+  ai_summary: Open-source engineering repositories and reference implementations (OpenStack,
+    Kubernetes/Gardener/CAPI, Ceph, automated compliance tests) powering Germany's
+    sovereign federated cloud providers.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929265+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Compliance Standards and Sovereign Stack
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  youtube_mosaic: {}
+https://www.wiit.cloud/en:
+  title: WIIT Premium Enterprise Cloud
+  description: "\U0001F31F - Italian Stock Exchange listed managed sovereign cloud
+    champion operating Tier IV data centers in Milan and Germany with deep specialization
+    in mission-critical SAP ERP hosting, Banking/DORA compliance, and zero-RPO DR."
+  year: '2026'
+  stars: 3
+  ai_summary: Italian Stock Exchange listed managed sovereign cloud champion operating
+    Tier IV data centers in Milan and Germany with deep specialization in mission-critical
+    SAP ERP hosting, Banking/DORA compliance, and zero-RPO DR.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929900+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Italian Sovereign Cloud and ACN Qualified Providers
+  tags:
+  - '[DRP-RESILIENCE]'
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.reevo.it/en:
+  title: ReeVo Sovereign Cloud and Cybersecurity
+  description: "\U0001F31F - Italian hybrid cloud and MDR/SOC cybersecurity specialist
+    operating Tier IV Italian campuses for SME and mid-enterprise IaaS, immutable
+    sovereign backup, and NIS2/DORA adherence."
+  year: '2026'
+  stars: 3
+  ai_summary: Italian hybrid cloud and MDR/SOC cybersecurity specialist operating
+    Tier IV Italian campuses for SME and mid-enterprise IaaS, immutable sovereign
+    backup, and NIS2/DORA adherence.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929934+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Italian Sovereign Cloud and ACN Qualified Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.timenterprise.it:
+  title: TIM Enterprise and Noovle Cloud Solutions
+  description: "\U0001F31F - Italy's major enterprise telco-cloud operator and founding
+    partner of PSN running Tier IV Italian data centers, hybrid Kubernetes, and localized
+    public-administration transformation platforms."
+  year: '2026'
+  stars: 3
+  ai_summary: Italy's major enterprise telco-cloud operator and founding partner of
+    PSN running Tier IV Italian data centers, hybrid Kubernetes, and localized public-administration
+    transformation platforms.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929965+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Italian Sovereign Cloud and ACN Qualified Providers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.datacenter.it:
+  title: Aruba Global Cloud Data Center (IT3 Milan and IT4 Rome)
+  description: "\U0001F31F - Aruba's flagship carrier-neutral, geothermal and hydro-powered
+    Tier IV data center campuses in Ponte San Pietro (Bergamo/Milan) and Tecnopolo
+    Tiburtino (Rome) engineered for sovereign AI and enterprise colocation."
+  year: '2026'
+  stars: 3
+  ai_summary: Aruba's flagship carrier-neutral, geothermal and hydro-powered Tier
+    IV data center campuses in Ponte San Pietro (Bergamo/Milan) and Tecnopolo Tiburtino
+    (Rome) engineered for sovereign AI and enterprise colocation.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.929994+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Italy
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.mix-it.net/en:
+  title: MIX Milan Internet Exchange
+  description: "\U0001F31F - Italy's primary neutral peering exchange in Milan (Caldera
+    Campus) interconnecting Italian ISPs, sovereign cloud operators, and Mediterranean
+    submarine hubs with multi-terabit capacity."
+  year: '2026'
+  stars: 3
+  ai_summary: Italy's primary neutral peering exchange in Milan (Caldera Campus) interconnecting
+    Italian ISPs, sovereign cloud operators, and Mediterranean submarine hubs with
+    multi-terabit capacity.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930021+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Italy
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.equinix.com/data-centers/europe-colocation/italy-colocation/milan-data-centers:
+  title: Equinix Milan IBX Data Centers (ML2–ML5)
+  description: "\U0001F31F - Neutral Milan colocation campuses offering direct access
+    to MIX, financial trading ecosystems, and private fiber links to Genova/Palermo
+    subsea gateways."
+  year: '2026'
+  stars: 3
+  ai_summary: Neutral Milan colocation campuses offering direct access to MIX, financial
+    trading ecosystems, and private fiber links to Genova/Palermo subsea gateways.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930053+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Italy
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en:
+  title: EuroHPC Pre-Exascale Supercomputers (CINECA Leonardo and AI Factories)
+  description: "\U0001F31F - Official European High Performance Computing portal covering
+    Italy's Bologna-based Leonardo (13,800+ NVIDIA A100 GPUs) and European sovereign
+    AI Factory deployments."
+  year: '2026'
+  stars: 3
+  ai_summary: Official European High Performance Computing portal covering Italy's
+    Bologna-based Leonardo (13,800+ NVIDIA A100 GPUs) and European sovereign AI Factory
+    deployments.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930085+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Private Colocation Interconnection and EuroHPC AI in Italy
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.acn.gov.it/portale/en/home:
+  title: Agenzia per la Cybersicurezza Nazionale (ACN Italy)
+  description: "\U0001F31F - Italy's National Cybersecurity Agency governing cloud
+    service qualification levels (QC1–QC3, AI1–AI3), NIS2 national transposition,
+    and strategic public-administration cloud eligibility."
+  year: '2026'
+  stars: 3
+  ai_summary: Italy's National Cybersecurity Agency governing cloud service qualification
+    levels (QC1–QC3, AI1–AI3), NIS2 national transposition, and strategic public-administration
+    cloud eligibility.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930117+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Italian National Compliance and Cloud Qualification
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://www.consorzioitaliacloud.it:
+  title: Consorzio Italia Cloud
+  description: "\U0001F31F - Coalition of independent Italian cloud and data center
+    operators (including Seeweb and national specialists) driving open-standards cloud
+    portability and local digital sovereignty across Italy."
+  year: '2026'
+  stars: 3
+  ai_summary: Coalition of independent Italian cloud and data center operators (including
+    Seeweb and national specialists) driving open-standards cloud portability and
+    local digital sovereignty across Italy.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930147+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Italy Sovereign Cloud & Private DCs
+  - Italian National Compliance and Cloud Qualification
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-italy.md
+  v2_locations:
+  - eu-cloud-italy.md
+  youtube_mosaic: {}
+https://glesys.com:
+  title: GleSYS Green European Cloud Infrastructure
+  description: "\U0001F31F - Swedish independent sovereign cloud, bare metal, and
+    colocation provider operating owned eco-friendly facilities in Falkenberg, Stockholm,
+    and Oulu with full API/Terraform automation and zero US CLOUD Act ties."
+  year: '2026'
+  stars: 3
+  ai_summary: Swedish independent sovereign cloud, bare metal, and colocation provider
+    operating owned eco-friendly facilities in Falkenberg, Stockholm, and Oulu with
+    full API/Terraform automation and zero US CLOUD Act ties.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930244+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Nordic Sovereign Cloud and 3-AZ OpenStack Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://www.safespring.com:
+  title: Safespring Swedish and Norwegian Public-Sector Cloud
+  description: "\U0001F31F - Nordic OpenStack cloud built specifically for European
+    academia, municipalities, and public sector (**eSam / Schrems II** compliant),
+    featuring fast automated S3/Compute APIs on 100% renewable energy."
+  year: '2026'
+  stars: 3
+  ai_summary: Nordic OpenStack cloud built specifically for European academia, municipalities,
+    and public sector (**eSam / Schrems II** compliant), featuring fast automated
+    S3/Compute APIs on 100% renewable energy.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930278+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Nordic Sovereign Cloud and 3-AZ OpenStack Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://evroc.com:
+  title: 'evroc: European Sovereign Hyperscale Cloud Initiative'
+  description: "\U0001F31F - Stockholm-headquartered initiative engineering high-security,
+    sustainable European hyperscale cloud and AI data center regions exclusively under
+    EU jurisdiction."
+  year: '2026'
+  stars: 3
+  ai_summary: Stockholm-headquartered initiative engineering high-security, sustainable
+    European hyperscale cloud and AI data center regions exclusively under EU jurisdiction.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930308+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Nordic Sovereign Cloud and 3-AZ OpenStack Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://greenmountain.no:
+  title: Green Mountain Hydro-Powered Data Centers (Norway and UK)
+  description: "\U0001F31F - World-renowned Norwegian ultra-low-PUE colocation operator
+    running fjord-cooled and 100% hydro-powered AI and sovereign enterprise data centers
+    (Stavanger, Rjukan, Oslo)."
+  year: '2026'
+  stars: 3
+  ai_summary: World-renowned Norwegian ultra-low-PUE colocation operator running fjord-cooled
+    and 100% hydro-powered AI and sovereign enterprise data centers (Stavanger, Rjukan,
+    Oslo).
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930338+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Hydro and Geothermal AI Data Centers and EuroHPC Supercomputing
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://www.atnorth.com:
+  title: atNorth Nordic High-Density AI Data Centers
+  description: "\U0001F31F - Pan-Nordic high-density colocation and liquid-cooled
+    GPU infrastructure operator spanning Iceland, Sweden, Finland, and Denmark with
+    sub-1.15 PUE and geothermal/hydro electricity."
+  year: '2026'
+  stars: 3
+  ai_summary: Pan-Nordic high-density colocation and liquid-cooled GPU infrastructure
+    operator spanning Iceland, Sweden, Finland, and Denmark with sub-1.15 PUE and
+    geothermal/hydro electricity.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930368+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Hydro and Geothermal AI Data Centers and EuroHPC Supercomputing
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://www.verne.co:
+  title: Verne Sustainable AI Data Centers (Iceland, Finland and UK)
+  description: "\U0001F31F - High-density HPC and AI colocation specialist running
+    100% geothermal and hydro campuses across Keflavik (Iceland) and Finland tailored
+    for multi-megawatt LLM training clusters."
+  year: '2026'
+  stars: 3
+  ai_summary: High-density HPC and AI colocation specialist running 100% geothermal
+    and hydro campuses across Keflavik (Iceland) and Finland tailored for multi-megawatt
+    LLM training clusters.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930397+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Hydro and Geothermal AI Data Centers and EuroHPC Supercomputing
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://bulkinfrastructure.com:
+  title: Bulk Infrastructure Nordic Green Data Centers
+  description: "\U0001F31F - Norwegian hyperscale data center and dark-fiber subsea
+    carrier operating Norway's massive renewable-powered NO1 campus and ultra-low-latency
+    transatlantic/Nordic connectivity."
+  year: '2026'
+  stars: 3
+  ai_summary: Norwegian hyperscale data center and dark-fiber subsea carrier operating
+    Norway's massive renewable-powered NO1 campus and ultra-low-latency transatlantic/Nordic
+    connectivity.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930426+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Hydro and Geothermal AI Data Centers and EuroHPC Supercomputing
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://lumi-supercomputer.eu:
+  title: LUMI Pre-Exascale Supercomputer (CSC Kajaani Finland)
+  description: "\U0001F31F - One of Europe's cleanest pre-exascale EuroHPC supercomputers
+    in Kajaani powered 100% by hydroelectricity with waste heat exported directly
+    to the local municipal district heating grid."
+  year: '2026'
+  stars: 3
+  ai_summary: One of Europe's cleanest pre-exascale EuroHPC supercomputers in Kajaani
+    powered 100% by hydroelectricity with waste heat exported directly to the local
+    municipal district heating grid.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930454+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Hydro and Geothermal AI Data Centers and EuroHPC Supercomputing
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://www.netnod.se:
+  title: Netnod Neutral Nordic Internet Exchange
+  description: "\U0001F31F - Non-profit Swedish foundation operating critical Nordic
+    IXP peering across Stockholm, Copenhagen, Gothenburg, Lulea, and Helsinki plus
+    root DNS infrastructure."
+  year: '2026'
+  stars: 3
+  ai_summary: Non-profit Swedish foundation operating critical Nordic IXP peering
+    across Stockholm, Copenhagen, Gothenburg, Lulea, and Helsinki plus root DNS infrastructure.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.930483+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Nordic Interconnection and Sovereign Governance
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  youtube_mosaic: {}
+https://www.cloudscale.ch/en:
+  title: cloudscale.ch Swiss IaaS and Managed OpenStack Cloud
+  description: "\U0001F31F - 100% Swiss-owned and operated OpenStack cloud across
+    two physically separated locations in Zurich and Lupfig, offering FINMA-friendly
+    transparency, Terraform parity, and zero cross-border data export."
+  year: '2026'
+  stars: 3
+  ai_summary: 100% Swiss-owned and operated OpenStack cloud across two physically
+    separated locations in Zurich and Lupfig, offering FINMA-friendly transparency,
+    Terraform parity, and zero cross-border data export.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931124+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Switzerland and Austria Sovereign Cloud Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.swisscom.ch/en/business/enterprise.html:
+  title: Swisscom Enterprise Sovereign Cloud
+  description: "\U0001F31F - Switzerland's flagship enterprise ICT and telecommunications
+    provider delivering Swiss-jurisdiction private clouds, FINMA-compliant Managed
+    OpenShift/Kubernetes, and geo-redundant Swiss banking enclaves."
+  year: '2026'
+  stars: 3
+  ai_summary: Switzerland's flagship enterprise ICT and telecommunications provider
+    delivering Swiss-jurisdiction private clouds, FINMA-compliant Managed OpenShift/Kubernetes,
+    and geo-redundant Swiss banking enclaves.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931159+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Switzerland and Austria Sovereign Cloud Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.vshn.ch/en:
+  title: 'VSHN: Swiss Cloud Native and APPUiO Managed OpenShift'
+  description: "\U0001F31F - Zurich-based DevOps and CNCF Kubernetes/OpenShift managed
+    service specialist delivering multi-cloud APPUiO platform operations strictly
+    hosted across Swiss sovereign providers (cloudscale.ch, Exoscale)."
+  year: '2026'
+  stars: 3
+  ai_summary: Zurich-based DevOps and CNCF Kubernetes/OpenShift managed service specialist
+    delivering multi-cloud APPUiO platform operations strictly hosted across Swiss
+    sovereign providers (cloudscale.ch, Exoscale).
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931190+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Switzerland and Austria Sovereign Cloud Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.appuio.ch:
+  title: APPUiO Managed Swiss OpenShift Platform
+  description: "\U0001F31F - Enterprise Managed OpenShift Platform-as-a-Service engineered
+    in Switzerland enabling regulated Swiss enterprises to deploy containerized apps
+    with strict Swiss data residency."
+  year: '2026'
+  stars: 3
+  ai_summary: Enterprise Managed OpenShift Platform-as-a-Service engineered in Switzerland
+    enabling regulated Swiss enterprises to deploy containerized apps with strict
+    Swiss data residency.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931218+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Switzerland and Austria Sovereign Cloud Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://anexia.com/en:
+  title: Anexia World Wide Cloud (Austrian HQ)
+  description: "\U0001F31F - Austrian-headquartered enterprise cloud and Kubernetes
+    provider (Klagenfurt and Vienna) delivering ISO 27001 / EU-sovereign IaaS, ANX
+    Cloud Terraform automation, and strict DACH-CEE operational control."
+  year: '2026'
+  stars: 3
+  ai_summary: Austrian-headquartered enterprise cloud and Kubernetes provider (Klagenfurt
+    and Vienna) delivering ISO 27001 / EU-sovereign IaaS, ANX Cloud Terraform automation,
+    and strict DACH-CEE operational control.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931249+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Switzerland and Austria Sovereign Cloud Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.green.ch/en:
+  title: Green Datacenter Switzerland (Zurich and Lupfig Campuses)
+  description: "\U0001F31F - High-efficiency Swiss Tier III/IV colocation campuses
+    supporting dual-site metro synchronization, renewable hydro power, and liquid-cooled
+    high-density AI cages."
+  year: '2026'
+  stars: 3
+  ai_summary: High-efficiency Swiss Tier III/IV colocation campuses supporting dual-site
+    metro synchronization, renewable hydro power, and liquid-cooled high-density AI
+    cages.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931277+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Alpine Private Colocation Interconnection and Supercomputing
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.equinix.com/data-centers/europe-colocation/switzerland-colocation:
+  title: Equinix Switzerland IBX Data Centers (Zurich and Geneva)
+  description: "\U0001F31F - Carrier-neutral Swiss colocation facilities serving Zurich
+    private banking and Geneva international organizations with direct Fabric on-ramps."
+  year: '2026'
+  stars: 3
+  ai_summary: Carrier-neutral Swiss colocation facilities serving Zurich private banking
+    and Geneva international organizations with direct Fabric on-ramps.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931307+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Alpine Private Colocation Interconnection and Supercomputing
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.swissix.ch:
+  title: 'SwissIX: Neutral Swiss Internet Exchange'
+  description: "\U0001F31F - Switzerland's primary neutral peering exchange connecting
+    Swiss banks, sovereign clouds (`cloudscale.ch`, `Exoscale`, `Infomaniak`), and
+    European transit networks in Zurich."
+  year: '2026'
+  stars: 3
+  ai_summary: Switzerland's primary neutral peering exchange connecting Swiss banks,
+    sovereign clouds (`cloudscale.ch`, `Exoscale`, `Infomaniak`), and European transit
+    networks in Zurich.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931336+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Alpine Private Colocation Interconnection and Supercomputing
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.vix.at/en:
+  title: Vienna Internet Exchange (VIX Austria)
+  description: "\U0001F31F - Central Europe's key neutral IXP in Vienna anchoring
+    Austrian domestic cloud traffic and high-availability interconnection across DACH
+    and Central-Eastern Europe."
+  year: '2026'
+  stars: 3
+  ai_summary: Central Europe's key neutral IXP in Vienna anchoring Austrian domestic
+    cloud traffic and high-availability interconnection across DACH and Central-Eastern
+    Europe.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931366+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Alpine Private Colocation Interconnection and Supercomputing
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.cscs.ch/computers/alps:
+  title: CSCS Alps Supercomputer (Lugano Switzerland)
+  description: "\U0001F31F - Swiss National Supercomputing Centre flagship NVIDIA
+    Grace Hopper (GH200) system powering sovereign Swiss climate, biomedical, and
+    open-weight AI research (Swiss AI Initiative)."
+  year: '2026'
+  stars: 3
+  ai_summary: Swiss National Supercomputing Centre flagship NVIDIA Grace Hopper (GH200)
+    system powering sovereign Swiss climate, biomedical, and open-weight AI research
+    (Swiss AI Initiative).
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931396+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Alpine Private Colocation Interconnection and Supercomputing
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.finma.ch/en:
+  title: 'FINMA: Swiss Financial Market Supervisory Authority'
+  description: "\U0001F31F - Official Swiss financial regulator governing bank/insurer
+    cloud outsourcing (Circular 2018/3 Operational Risks and Critical Data Residency
+    audits) requiring clear Swiss legal auditability and tested exit plans."
+  year: '2026'
+  stars: 3
+  ai_summary: Official Swiss financial regulator governing bank/insurer cloud outsourcing
+    (Circular 2018/3 Operational Risks and Critical Data Residency audits) requiring
+    clear Swiss legal auditability and tested exit plans.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931426+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Swiss FINMA FADP and Neutrality Compliance
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  youtube_mosaic: {}
+https://www.brightbox.com:
+  title: Brightbox UK Enterprise Cloud
+  description: "\U0001F31F - Independent British cloud infrastructure pioneer built
+    for high-availability UK data residency, predictable multi-zone British IaaS,
+    and official Terraform provider automation."
+  year: '2026'
+  stars: 3
+  ai_summary: Independent British cloud infrastructure pioneer built for high-availability
+    UK data residency, predictable multi-zone British IaaS, and official Terraform
+    provider automation.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931500+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - United Kingdom Sovereign Cloud and Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  youtube_mosaic: {}
+https://www.redcentricplc.com:
+  title: Redcentric UK Public Sector and NHS Sovereign Cloud
+  description: "\U0001F31F - UK-listed managed cloud and HSCN health-network specialist
+    delivering G-Cloud compliant sovereign IaaS, disaster recovery, and British public-sector
+    hosting across owned UK data centers."
+  year: '2026'
+  stars: 3
+  ai_summary: UK-listed managed cloud and HSCN health-network specialist delivering
+    G-Cloud compliant sovereign IaaS, disaster recovery, and British public-sector
+    hosting across owned UK data centers.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931531+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - United Kingdom Sovereign Cloud and Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  youtube_mosaic: {}
+https://www.nscale.com:
+  title: Nscale British Sovereign AI Hyperscaler
+  description: "\U0001F31F - UK-headquartered vertically integrated AI cloud operator
+    deploying large-scale NVIDIA Blackwell/Hopper GPU clusters on renewable European/UK
+    infrastructure with sovereign AI compliance."
+  year: '2026'
+  stars: 3
+  ai_summary: UK-headquartered vertically integrated AI cloud operator deploying large-scale
+    NVIDIA Blackwell/Hopper GPU clusters on renewable European/UK infrastructure with
+    sovereign AI compliance.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931560+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - United Kingdom Sovereign Cloud and Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  youtube_mosaic: {}
+https://www.telehouse.net:
+  title: Telehouse London Docklands Campus (North, West and South)
+  description: "\U0001F31F - Europe's most densely interconnected London Docklands
+    colocation complex hosting LINX primary switches, global subsea landings, and
+    low-latency British financial infrastructure."
+  year: '2026'
+  stars: 3
+  ai_summary: Europe's most densely interconnected London Docklands colocation complex
+    hosting LINX primary switches, global subsea landings, and low-latency British
+    financial infrastructure.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931602+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - London Docklands Slough and Regional UK Colocation and AI Data Centers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  youtube_mosaic: {}
+https://www.equinix.com/data-centers/europe-colocation/united-kingdom-colocation/london-data-centers:
+  title: Equinix UK Data Centers (London Docklands, Slough and Manchester)
+  description: "\U0001F31F - Neutral British colocation network spanning the Slough
+    Trading Estate low-latency cluster, London Docklands, and Manchester regional
+    resilience nodes."
+  year: '2026'
+  stars: 3
+  ai_summary: Neutral British colocation network spanning the Slough Trading Estate
+    low-latency cluster, London Docklands, and Manchester regional resilience nodes.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931634+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - London Docklands Slough and Regional UK Colocation and AI Data Centers
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  youtube_mosaic: {}
+https://www.linx.net:
+  title: 'LINX: London Internet Exchange'
+  description: "\U0001F31F - One of the world's premier member-owned Internet exchanges
+    with dual independent London peering LANs plus Manchester and Scotland IXPs powering
+    UK sovereign cloud traffic."
+  year: '2026'
+  stars: 3
+  ai_summary: One of the world's premier member-owned Internet exchanges with dual
+    independent London peering LANs plus Manchester and Scotland IXPs powering UK
+    sovereign cloud traffic.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931664+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - London Docklands Slough and Regional UK Colocation and AI Data Centers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  youtube_mosaic: {}
+https://www.ncsc.gov.uk/collection/cloud:
+  title: UK NCSC Cloud Security Guidance (14 Cloud Principles)
+  description: "\U0001F31F - Authoritative National Cyber Security Centre framework
+    defining encryption, data-in-transit, personnel vetting, and legal jurisdiction
+    assessments for UK government and regulated enterprises."
+  year: '2026'
+  stars: 3
+  ai_summary: Authoritative National Cyber Security Centre framework defining encryption,
+    data-in-transit, personnel vetting, and legal jurisdiction assessments for UK
+    government and regulated enterprises.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931692+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - UK NCSC G-Cloud and Financial Operational Resilience
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  youtube_mosaic: {}
+https://www.gov.uk/guidance/g-cloud-buyers-guide:
+  title: UK G-Cloud Framework Buyers and Procurement Guide
+  description: "\U0001F31F - Official UK Government Digital Marketplace framework
+    enabling compliant public-sector procurement across British and European cloud
+    hosting, SaaS, and sovereign support vendors."
+  year: '2026'
+  stars: 3
+  ai_summary: Official UK Government Digital Marketplace framework enabling compliant
+    public-sector procurement across British and European cloud hosting, SaaS, and
+    sovereign support vendors.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T16:53:39.931722+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - UK NCSC G-Cloud and Financial Operational Resilience
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
   youtube_mosaic: {}

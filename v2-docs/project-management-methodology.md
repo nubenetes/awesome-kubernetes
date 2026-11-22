@@ -346,5 +346,5 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
 ---
 💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS New Features](./aws-newfeatures.md)
+🔗 **See Also:** [AI](./ai.md) | [Ansible](./ansible.md)
 

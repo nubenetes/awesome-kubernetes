@@ -79,8 +79,13 @@ class TestPipelineInvariants(unittest.TestCase):
             "openshift": "OpenShift",
             "eu-sovereign-cloud": "EU Sovereign Cloud Overview & TCO",
             "eu-cloud-spain": "Spain Sovereign Cloud & Private DCs",
-            "eu-cloud-france-germany": "France & Germany Cloud Champions",
-            "eu-cloud-italy-uk-nordics": "Italy, UK, Nordics & Benelux",
+            "eu-cloud-germany": "Germany Sovereign Cloud & Private DCs",
+            "eu-cloud-france": "France Sovereign Cloud & Private DCs",
+            "eu-cloud-italy": "Italy Sovereign Cloud & Private DCs",
+            "eu-cloud-benelux": "Netherlands & Benelux Cloud & DCs",
+            "eu-cloud-switzerland-dach": "Switzerland & Austria (Alpine Sovereign)",
+            "eu-cloud-nordics": "Nordics Green Cloud & AI Factories",
+            "eu-cloud-uk": "United Kingdom Sovereign Cloud & DCs",
             "eu-cloud-iac-maturity": "IaC Automation & Maturity vs Hyperscalers",
             "eu-cloud-workloads-stack": "Hypervisors, IaaS, K8s & Sovereign AI",
             "eu-cloud-resilience-sla": "RPO, RTO, SLAs, DRP & Replication",
@@ -97,12 +102,18 @@ class TestPipelineInvariants(unittest.TestCase):
         eu_slugs = [
             "eu-sovereign-cloud",
             "eu-cloud-spain",
-            "eu-cloud-france-germany",
-            "eu-cloud-italy-uk-nordics",
+            "eu-cloud-germany",
+            "eu-cloud-france",
+            "eu-cloud-italy",
+            "eu-cloud-benelux",
+            "eu-cloud-switzerland-dach",
+            "eu-cloud-nordics",
+            "eu-cloud-uk",
             "eu-cloud-iac-maturity",
             "eu-cloud-workloads-stack",
             "eu-cloud-resilience-sla",
         ]
+        retired_slugs = ["eu-cloud-france-germany", "eu-cloud-italy-uk-nordics"]
         dim_name = "European Sovereign Cloud & Private DCs"
         self.assertIn(dim_name, FAST_DIMS)
         self.assertIn("European Sovereign Cloud", NewsDigestEngine.DIGEST_CATEGORIES)
@@ -111,11 +122,21 @@ class TestPipelineInvariants(unittest.TestCase):
             v2_mkdocs_txt = f.read()
         with open(os.path.join(REPO_ROOT, "mkdocs.yml"), "r", encoding="utf-8") as f:
             v1_mkdocs_txt = f.read()
+        with open(os.path.join(REPO_ROOT, "docs/overrides/main.html"), "r", encoding="utf-8") as f:
+            overrides_txt = f.read()
         with open(os.path.join(REPO_ROOT, "v2-docs/api/index.json"), "r", encoding="utf-8") as f:
             api_catalog = json.load(f)
 
         self.assertIn(dim_name, api_catalog.get("dimensions", []))
         api_slugs = {c["slug"] for c in api_catalog.get("categories", [])}
+
+        for rslug in retired_slugs:
+            rfname = f"{rslug}.md"
+            self.assertNotIn(rslug, NUBENETES_CATEGORIES)
+            self.assertNotIn(rfname, EU_SOVEREIGN_BLUEPRINTS)
+            self.assertFalse(os.path.exists(os.path.join(REPO_ROOT, "docs", rfname)))
+            self.assertFalse(os.path.exists(os.path.join(REPO_ROOT, "v2-docs", rfname)))
+            self.assertRegex(v2_mkdocs_txt, rf"{re.escape(rfname)}:\s+eu-cloud-")
 
         for slug in eu_slugs:
             fname = f"{slug}.md"
@@ -126,6 +147,7 @@ class TestPipelineInvariants(unittest.TestCase):
             self.assertIn(fname, EU_SOVEREIGN_BLUEPRINTS)
             self.assertIn(fname, v2_mkdocs_txt)
             self.assertIn(fname, v1_mkdocs_txt)
+            self.assertIn(f"/{slug}/", overrides_txt)
             self.assertIn(slug, api_slugs)
             v2_path = os.path.join(REPO_ROOT, "v2-docs", fname)
             self.assertTrue(os.path.exists(v2_path), f"Missing generated V2 page {v2_path}")
@@ -230,6 +252,18 @@ class TestPipelineInvariants(unittest.TestCase):
         self.assertIn("Child description.", matches[1].group(3))
         self.assertEqual(matches[2].group(1), "Multiline Item")
         self.assertIn("continued description on indented line.", matches[2].group(3))
+
+    def test_quicknav_popovers_have_css_anchor_pairings(self):
+        with open(os.path.join(REPO_ROOT, "docs/overrides/main.html"), "r", encoding="utf-8") as f:
+            html_txt = f.read()
+        with open(os.path.join(REPO_ROOT, "docs/static/v2_elite.css"), "r", encoding="utf-8") as f:
+            css_txt = f.read()
+
+        targets = sorted(set(re.findall(r'popovertarget="(nb-pop-[^"]+)"', html_txt)))
+        self.assertGreater(len(targets), 10)
+        for pop_id in targets:
+            self.assertIn(f'[popovertarget="{pop_id}"]', css_txt, f"Missing anchor-name CSS for {pop_id}")
+            self.assertIn(f"#{pop_id}", css_txt, f"Missing position-anchor CSS for #{pop_id}")
 
 
 if __name__ == "__main__":

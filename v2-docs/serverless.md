@@ -85,7 +85,7 @@ description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and m
 #### Framework Comparisons
 
   - **(2021)** [**epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟**](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Compares open-source serverless frameworks like OpenFaaS and Knative, focusing on custom deployment controllers, API routing architectures, and native scale-to-zero capabilities.
-  - **(2021)** [**vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks**](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A condensed comparative post evaluating resource profiles, container dependencies, and lifecycle abstractions for executing serverless frameworks on Kubernetes.
+  - **(2021)** [**vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks**](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — A condensed comparative post evaluating resource profiles, container dependencies, and lifecycle abstractions for executing serverless frameworks on Kubernetes.
   - **(2021)** [**winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more**](https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical analysis of OpenFaaS, OpenWhisk, Fission, and Kubeless. Compares execution mechanics, custom resource dependencies, and cold start management profiles.
 #### Knative
 
@@ -238,5 +238,5 @@ description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and m
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Kubernetes Autoscaling](./kubernetes-autoscaling.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
+🔗 **See Also:** [AI](./ai.md) | [AWS New Features](./aws-newfeatures.md)
 

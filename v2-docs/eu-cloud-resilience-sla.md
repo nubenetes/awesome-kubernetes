@@ -19,7 +19,7 @@ description: "Curated, AI-ranked RPO, RTO, SLAs, DRP & Replication resources for
     Detailed reference for RPO, RTO, SLAs, DRP and Replication for European Clouds in the context of European Sovereign Cloud & Private DCs.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Spain Sovereign Cloud & Private DCs](eu-cloud-spain.md) · [France & Germany Cloud Champions](eu-cloud-france-germany.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [Hypervisors, IaaS, K8s & AI](eu-cloud-workloads-stack.md) · [Kubernetes Backup & Migrations](kubernetes-backup-migrations.md)
+    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Germany Sovereign Cloud & Private DCs](eu-cloud-germany.md) · [France Sovereign Cloud & Private DCs](eu-cloud-france.md) · [Spain Sovereign Cloud & Private DCs](eu-cloud-spain.md) · [Switzerland & Austria (Alpine Sovereign)](eu-cloud-switzerland-dach.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [Hypervisors, IaaS, K8s & AI](eu-cloud-workloads-stack.md) · [Kubernetes Backup & Migrations](kubernetes-backup-migrations.md)
 
 ## Pre-Sales Engineering Guide: RPO, RTO, SLAs, Multi-DC DRP and Replication
 
@@ -90,7 +90,7 @@ A common trap in cloud migrations is assuming every European provider has 3 phys
   - **(2026)** [Zerto Continuous Data Protection and DRaaS](https://www.zerto.com) 🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Journal-based continuous VM replication achieving 5–15 second RPO and minutes-level orchestrated RTO failover across VMware Cloud Director, private data centers, and sovereign MSPs.
 
 ---
-💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [France & Germany Cloud Champions](./eu-cloud-france-germany.md)
+💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)
 
 🔗 **See Also:** [Ansible](./ansible.md) | [Demos](./demos.md)
 

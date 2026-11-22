@@ -19,15 +19,16 @@ description: "Top EU Sovereign Cloud Overview & TCO resources for 2026, AI-ranke
     Detailed reference for European Sovereign Cloud and Private Data Centers in the context of European Sovereign Cloud & Private DCs.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Spain Sovereign Cloud & Private DCs](eu-cloud-spain.md) · [France & Germany Cloud Champions](eu-cloud-france-germany.md) · [Italy, UK, Nordics & Benelux](eu-cloud-italy-uk-nordics.md) · [IaC Automation & Maturity vs Hyperscalers](eu-cloud-iac-maturity.md) · [Hypervisors, IaaS, K8s & Sovereign AI](eu-cloud-workloads-stack.md) · [RPO, RTO, SLAs, DRP & Replication](eu-cloud-resilience-sla.md) · [Public Cloud Comparisons](public-cloud-solutions.md)
+    [Germany Sovereign Cloud & Private DCs](eu-cloud-germany.md) · [France Sovereign Cloud & Private DCs](eu-cloud-france.md) · [Spain Sovereign Cloud & Private DCs](eu-cloud-spain.md) · [Italy Sovereign Cloud & Private DCs](eu-cloud-italy.md) · [Netherlands & Benelux Cloud & DCs](eu-cloud-benelux.md) · [Switzerland & Austria (Alpine Sovereign)](eu-cloud-switzerland-dach.md) · [Nordics Green Cloud & AI Factories](eu-cloud-nordics.md) · [United Kingdom Sovereign Cloud & DCs](eu-cloud-uk.md) · [IaC Automation & Maturity vs Hyperscalers](eu-cloud-iac-maturity.md) · [Hypervisors, IaaS, K8s & Sovereign AI](eu-cloud-workloads-stack.md) · [RPO, RTO, SLAs, DRP & Replication](eu-cloud-resilience-sla.md) · [Public Cloud Comparisons](public-cloud-solutions.md)
 
 ## Executive Architecture: European Sovereign Cloud vs US Hyperscalers (2026)
 
 1. [The 4 Levels of Cloud Sovereignty](#the-4-levels-of-cloud-sovereignty)
 2. [EU Regulatory and Compliance Justification Matrix](#eu-regulatory-and-compliance-justification-matrix)
 3. [Pre-Sales Architecture Decision Flow](#pre-sales-architecture-decision-flow)
-4. [EUR Cost and TCO Benchmarks vs Hyperscalers](#eur-cost-and-tco-benchmarks-vs-hyperscalers)
-5. [When Does Each Cloud Tier Win (Pre-Sales Playbook)](#when-does-each-cloud-tier-win-pre-sales-playbook)
+4. [European Country and Regional Pre-Sales Hubs](#european-country-and-regional-pre-sales-hubs)
+5. [EUR Cost and TCO Benchmarks vs Hyperscalers](#eur-cost-and-tco-benchmarks-vs-hyperscalers)
+6. [When Does Each Cloud Tier Win (Pre-Sales Playbook)](#when-does-each-cloud-tier-win-pre-sales-playbook)
 
 ### The 4 Levels of Cloud Sovereignty
 
@@ -52,8 +53,10 @@ description: "Top EU Sovereign Cloud Overview & TCO resources for 2026, AI-ranke
 | **EU AI Act** | Phased 2025–2027 (High-risk AI, foundation models) | Data lineage, model card documentation, sovereign training/inference auditability, privacy-preserving RAG. | Favors **Nebius, Scaleway, OVHcloud, Seeweb, Civo UK, Telefonica/MareNostrum 5**, or private on-prem GPU clusters for sensitive corporate weights/RAG. |
 | **ENS Alto (Spain)** | Mandatory for Spanish Public Sector and supply chain | 75+ strict CCN-CERT controls (Confidentiality, Integrity, Traceability, Authenticity, Availability) audited locally. | **Arsys, Gigas, Alhambra IT, Telefonica Tech** win Spanish public tenders immediately over generic global hosting. |
 | **SecNumCloud 3.2 (France)** | ANSSI highest EU sovereign standard | Strict non-EU ownership shareholding cap (<24% aggregated non-EU) + French operational isolation. | **3DS Outscale** (full scope), **OVHcloud Bare Metal / Hosted Private Cloud**, **Cloud Temple**; Bleu and S3NS targeting 3.2 Parity. |
-| **BSI C5 Type 2 (Germany)** | German Federal Cloud baseline | Continuous annual audited security controls across compute, storage, IAM, and physical facilities. | **IONOS Cloud, STACKIT, Open Telekom Cloud, PlusServer** (plus AWS ESC). |
-| **ACN QC3 / AI3 (Italy)** | Mandatory for Italian Public Administration & critical AI | Italian National Cybersecurity Agency cloud & AI workload qualification levels. | **Aruba Cloud** (QC3 + AI3), **Polo Strategico Nazionale (PSN)**, **Seeweb**. |
+| **BSI C5 Type 2 (Germany)** | German Federal Cloud baseline | Continuous annual audited security controls across compute, storage, IAM, and physical facilities. | **IONOS Cloud, STACKIT, Open Telekom Cloud, PlusServer, noris network** (plus AWS ESC). |
+| **ACN QC3 / AI3 (Italy)** | Mandatory for Italian Public Administration & critical AI | Italian National Cybersecurity Agency cloud & AI workload qualification levels. | **Aruba Cloud** (QC3 + AI3), **Polo Strategico Nazionale (PSN)**, **Seeweb**, **WIIT**. |
+| **FINMA / revDSG (Switzerland)** | Swiss banking outsourcing & revised Federal Data Protection Act | Swiss audit rights, strict third-country transfer prohibitions, operational continuity & exit verification. | **Exoscale, cloudscale.ch, Infomaniak, Swisscom, VSHN/APPUiO** (zero US CLOUD Act exposure). |
+| **UK NCSC / FCA-PRA** | UK public sector (G-Cloud) & financial operational resilience | 14 NCSC Cloud Security Principles, UK GDPR residency, tested impact-tolerance exits. | **Civo UK Sovereign, Pulsant, Brightbox, Redcentric, Nscale**. |
 
 ### Pre-Sales Architecture Decision Flow
 
@@ -74,6 +77,22 @@ flowchart LR
     H -->|"NVIDIA GPU"| J["EU AI Factories<br/>Nebius · Scaleway · OVH<br/>Seeweb · Merlin-Edged"]
     H -->|"VMware Exit"| K["Hypervisor Migration<br/>Proxmox VE · OpenStack<br/>CloudStack · OpenShift 5"]
 ```
+
+### European Country and Regional Pre-Sales Hubs
+
+Nubenetes V2 provides dedicated field guides for every major European cloud jurisdiction, interconnection hub, and technical cross-cutting architecture:
+
+| Country / Architecture Hub | Regulatory Regime & Anchor IXP | Top Sovereign Providers & Private DC Ecosystem | Pre-Sales Deep-Dive |
+| :--- | :--- | :--- | :--- |
+| **Germany** | **BSI C5 Type 2**, KRITIS, TISAX · **DE-CIX Frankfurt** | **STACKIT, IONOS, Hetzner, Open Telekom Cloud, PlusServer, SysEleven/secunet, noris, gridscale, Cloud&Heat, Delos**, maincubes / JUPITER | [Germany Sovereign Cloud](/eu-cloud-germany/) |
+| **France** | **ANSSI SecNumCloud 3.2**, HDS · **France-IX & Marseille Subsea** | **OVHcloud, Scaleway, 3DS OUTSCALE, Cloud Temple, Clever Cloud, Ikoula, Bleu, S3NS**, Mistral AI, DATA4 Paris-Saclay, Jean Zay | [France Sovereign Cloud](/eu-cloud-france/) |
+| **Spain** | **ENS Alto (RD 311/2022)** · **ESpanix / DE-CIX Madrid** | **Arsys, Gigas, Alhambra IT, Telefonica Tech, Stackscale, Acens, cdmon**, Merlin-Edged, Digital Realty/Equinix/Nabiax, MareNostrum 5 | [Spain Sovereign Cloud](/eu-cloud-spain/) |
+| **Italy** | **ACN QC3 / AI3**, PSN · **MIX Milan** | **Aruba Cloud, Seeweb, WIIT, ReeVo, TIM Enterprise/Noovle, PSN**, Equinix Milan, CINECA Leonardo | [Italy Sovereign Cloud](/eu-cloud-italy/) |
+| **Netherlands & Benelux** | Dutch **BIO / NEN 7510**, EU DORA · **AMS-IX** | **Nebius AI, Leaseweb, Cyso Cloud, Leafcloud, TransIP, Proximus NXT, LuxConnect, Gcore**, NorthC, Equinix/Digital Realty AMS | [Netherlands & Benelux](/eu-cloud-benelux/) |
+| **Switzerland & Austria (Alpine)** | **FINMA**, Swiss FADP (**revDSG**), Zero CLOUD Act · **SwissIX / VIX** | **Exoscale, Infomaniak, cloudscale.ch, Swisscom, VSHN/APPUiO, Anexia**, Green Datacenter, CSCS Alps | [Switzerland & Austria](/eu-cloud-switzerland-dach/) |
+| **Nordics (SE / FI / NO / IS)** | **eSam / Schrems II**, 100% Hydro/Geothermal · **Netnod** | **UpCloud, Elastx 3-AZ, Cleura SCS, GleSYS, Safespring, evroc, Green Mountain, atNorth, Verne, Bulk**, LUMI | [Nordics Green Cloud](/eu-cloud-nordics/) |
+| **United Kingdom** | **NCSC 14 Principles**, G-Cloud, UK GDPR, FCA · **LINX London** | **Civo UK Sovereign, Pulsant, Brightbox, Redcentric, Nscale**, Telehouse Docklands, Equinix Slough/LD | [United Kingdom Sovereign Cloud](/eu-cloud-uk/) |
+| **Cross-Cutting Engineering** | Multi-Provider IaC, Post-Broadcom Virtualization, DORA RPO/RTO | OpenTofu (`openstack`/`vcd`/`bpg/proxmox`), CAPI, Crossplane, Proxmox/OpenStack/OpenShift 5, Veeam/Zerto/PBS/CNPG/Velero | [IaC Maturity](/eu-cloud-iac-maturity/) · [Stacks & AI](/eu-cloud-workloads-stack/) · [RPO/RTO & DRP](/eu-cloud-resilience-sla/) |
 
 ### EUR Cost and TCO Benchmarks vs Hyperscalers
 
@@ -115,12 +134,14 @@ flowchart LR
 
   - **(2026)** [Regulation (EU) 2022/2554: Digital Operational Resilience Act (DORA)](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — EU financial sector regulation enforcing strict ICT third-party risk management, concentration-risk assessments, mandatory tested exit strategies (Articles 28–30), and incident reporting for cloud providers.
   - **(2026)** [Regulation (EU) 2023/2854: The EU Data Act](https://eur-lex.europa.eu/eli/reg/2023/2854/oj) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Binding European regulation mandating cloud interoperability, open switching APIs, capped switching charges during transition, and complete elimination of cloud switching/migration egress fees by January 12, 2027 (Article 29).
-## France and Germany Cloud Champions
+## France Sovereign Cloud and Private Dcs
 
 ### French Sovereign Cloud Providers Secnumcloud And AI Factories
 
   - **(2026)** [Bleu Trusted Cloud (Capgemini and Orange)](https://www.bleucloud.fr/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Independent French company operating sovereign Azure-stack and Microsoft 365 environments within France to address SecNumCloud 3.2 criteria for public administrations.
   - **(2026)** [S3NS Trusted Cloud (Thales and Google)](https://www.s3ns.io/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — French trusted-cloud joint venture coupling Thales sovereign operational control and encryption custody with Google Cloud infrastructure.
+## Germany Sovereign Cloud and Private Dcs
+
 ### German Sovereign Cloud Providers BSI C5 And High-efficiency Bare Metal
 
   - **(2026)** [AWS European Sovereign Cloud (Brandenburg Baseline)](https://aws.amazon.com/compliance/europe-digital-sovereignty) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Standalone German sovereign cloud region built by AWS to isolate operational control planes inside the EU while retaining full AWS API compatibility — evaluated against German-owned providers under CLOUD Act considerations.
@@ -137,7 +158,7 @@ flowchart LR
   - **(2026)** [CCN-CERT Esquema Nacional de Seguridad (ENS)](https://ens.ccn.cni.es/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Authoritative Spanish cybersecurity standard (Basico, Medio, Alto) required for government agencies, healthcare, banking suppliers, and regulated digital services in Spain.
 
 ---
-💡 **Explore Related:** [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [France & Germany Cloud Champions](./eu-cloud-france-germany.md) | [Italy, UK, Nordics & Benelux](./eu-cloud-italy-uk-nordics.md)
+💡 **Explore Related:** [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md) | [France Sovereign Cloud & Private DCs](./eu-cloud-france.md)
 
 🔗 **See Also:** [Ansible](./ansible.md) | [Container Managers](./container-managers.md)
 

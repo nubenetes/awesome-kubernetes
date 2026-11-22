@@ -105,5 +105,5 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
 ---
 💡 **Explore Related:** [CI/CD](./cicd.md) | [GitOps](./gitops.md) | [Argo](./argo.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS New Features](./aws-newfeatures.md)
+🔗 **See Also:** [AI](./ai.md) | [Ansible](./ansible.md)
 

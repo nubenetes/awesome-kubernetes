@@ -6,8 +6,9 @@ EU_SOVEREIGN_BLUEPRINTS: dict[str, str] = {
 1. [The 4 Levels of Cloud Sovereignty](#the-4-levels-of-cloud-sovereignty)
 2. [EU Regulatory and Compliance Justification Matrix](#eu-regulatory-and-compliance-justification-matrix)
 3. [Pre-Sales Architecture Decision Flow](#pre-sales-architecture-decision-flow)
-4. [EUR Cost and TCO Benchmarks vs Hyperscalers](#eur-cost-and-tco-benchmarks-vs-hyperscalers)
-5. [When Does Each Cloud Tier Win (Pre-Sales Playbook)](#when-does-each-cloud-tier-win-pre-sales-playbook)
+4. [European Country and Regional Pre-Sales Hubs](#european-country-and-regional-pre-sales-hubs)
+5. [EUR Cost and TCO Benchmarks vs Hyperscalers](#eur-cost-and-tco-benchmarks-vs-hyperscalers)
+6. [When Does Each Cloud Tier Win (Pre-Sales Playbook)](#when-does-each-cloud-tier-win-pre-sales-playbook)
 
 ### The 4 Levels of Cloud Sovereignty
 
@@ -32,8 +33,10 @@ EU_SOVEREIGN_BLUEPRINTS: dict[str, str] = {
 | **EU AI Act** | Phased 2025–2027 (High-risk AI, foundation models) | Data lineage, model card documentation, sovereign training/inference auditability, privacy-preserving RAG. | Favors **Nebius, Scaleway, OVHcloud, Seeweb, Civo UK, Telefonica/MareNostrum 5**, or private on-prem GPU clusters for sensitive corporate weights/RAG. |
 | **ENS Alto (Spain)** | Mandatory for Spanish Public Sector and supply chain | 75+ strict CCN-CERT controls (Confidentiality, Integrity, Traceability, Authenticity, Availability) audited locally. | **Arsys, Gigas, Alhambra IT, Telefonica Tech** win Spanish public tenders immediately over generic global hosting. |
 | **SecNumCloud 3.2 (France)** | ANSSI highest EU sovereign standard | Strict non-EU ownership shareholding cap (<24% aggregated non-EU) + French operational isolation. | **3DS Outscale** (full scope), **OVHcloud Bare Metal / Hosted Private Cloud**, **Cloud Temple**; Bleu and S3NS targeting 3.2 Parity. |
-| **BSI C5 Type 2 (Germany)** | German Federal Cloud baseline | Continuous annual audited security controls across compute, storage, IAM, and physical facilities. | **IONOS Cloud, STACKIT, Open Telekom Cloud, PlusServer** (plus AWS ESC). |
-| **ACN QC3 / AI3 (Italy)** | Mandatory for Italian Public Administration & critical AI | Italian National Cybersecurity Agency cloud & AI workload qualification levels. | **Aruba Cloud** (QC3 + AI3), **Polo Strategico Nazionale (PSN)**, **Seeweb**. |
+| **BSI C5 Type 2 (Germany)** | German Federal Cloud baseline | Continuous annual audited security controls across compute, storage, IAM, and physical facilities. | **IONOS Cloud, STACKIT, Open Telekom Cloud, PlusServer, noris network** (plus AWS ESC). |
+| **ACN QC3 / AI3 (Italy)** | Mandatory for Italian Public Administration & critical AI | Italian National Cybersecurity Agency cloud & AI workload qualification levels. | **Aruba Cloud** (QC3 + AI3), **Polo Strategico Nazionale (PSN)**, **Seeweb**, **WIIT**. |
+| **FINMA / revDSG (Switzerland)** | Swiss banking outsourcing & revised Federal Data Protection Act | Swiss audit rights, strict third-country transfer prohibitions, operational continuity & exit verification. | **Exoscale, cloudscale.ch, Infomaniak, Swisscom, VSHN/APPUiO** (zero US CLOUD Act exposure). |
+| **UK NCSC / FCA-PRA** | UK public sector (G-Cloud) & financial operational resilience | 14 NCSC Cloud Security Principles, UK GDPR residency, tested impact-tolerance exits. | **Civo UK Sovereign, Pulsant, Brightbox, Redcentric, Nscale**. |
 
 ### Pre-Sales Architecture Decision Flow
 
@@ -54,6 +57,22 @@ flowchart LR
     H -->|"NVIDIA GPU"| J["EU AI Factories<br/>Nebius · Scaleway · OVH<br/>Seeweb · Merlin-Edged"]
     H -->|"VMware Exit"| K["Hypervisor Migration<br/>Proxmox VE · OpenStack<br/>CloudStack · OpenShift 5"]
 ```
+
+### European Country and Regional Pre-Sales Hubs
+
+Nubenetes V2 provides dedicated field guides for every major European cloud jurisdiction, interconnection hub, and technical cross-cutting architecture:
+
+| Country / Architecture Hub | Regulatory Regime & Anchor IXP | Top Sovereign Providers & Private DC Ecosystem | Pre-Sales Deep-Dive |
+| :--- | :--- | :--- | :--- |
+| **Germany** | **BSI C5 Type 2**, KRITIS, TISAX · **DE-CIX Frankfurt** | **STACKIT, IONOS, Hetzner, Open Telekom Cloud, PlusServer, SysEleven/secunet, noris, gridscale, Cloud&Heat, Delos**, maincubes / JUPITER | [Germany Sovereign Cloud](/eu-cloud-germany/) |
+| **France** | **ANSSI SecNumCloud 3.2**, HDS · **France-IX & Marseille Subsea** | **OVHcloud, Scaleway, 3DS OUTSCALE, Cloud Temple, Clever Cloud, Ikoula, Bleu, S3NS**, Mistral AI, DATA4 Paris-Saclay, Jean Zay | [France Sovereign Cloud](/eu-cloud-france/) |
+| **Spain** | **ENS Alto (RD 311/2022)** · **ESpanix / DE-CIX Madrid** | **Arsys, Gigas, Alhambra IT, Telefonica Tech, Stackscale, Acens, cdmon**, Merlin-Edged, Digital Realty/Equinix/Nabiax, MareNostrum 5 | [Spain Sovereign Cloud](/eu-cloud-spain/) |
+| **Italy** | **ACN QC3 / AI3**, PSN · **MIX Milan** | **Aruba Cloud, Seeweb, WIIT, ReeVo, TIM Enterprise/Noovle, PSN**, Equinix Milan, CINECA Leonardo | [Italy Sovereign Cloud](/eu-cloud-italy/) |
+| **Netherlands & Benelux** | Dutch **BIO / NEN 7510**, EU DORA · **AMS-IX** | **Nebius AI, Leaseweb, Cyso Cloud, Leafcloud, TransIP, Proximus NXT, LuxConnect, Gcore**, NorthC, Equinix/Digital Realty AMS | [Netherlands & Benelux](/eu-cloud-benelux/) |
+| **Switzerland & Austria (Alpine)** | **FINMA**, Swiss FADP (**revDSG**), Zero CLOUD Act · **SwissIX / VIX** | **Exoscale, Infomaniak, cloudscale.ch, Swisscom, VSHN/APPUiO, Anexia**, Green Datacenter, CSCS Alps | [Switzerland & Austria](/eu-cloud-switzerland-dach/) |
+| **Nordics (SE / FI / NO / IS)** | **eSam / Schrems II**, 100% Hydro/Geothermal · **Netnod** | **UpCloud, Elastx 3-AZ, Cleura SCS, GleSYS, Safespring, evroc, Green Mountain, atNorth, Verne, Bulk**, LUMI | [Nordics Green Cloud](/eu-cloud-nordics/) |
+| **United Kingdom** | **NCSC 14 Principles**, G-Cloud, UK GDPR, FCA · **LINX London** | **Civo UK Sovereign, Pulsant, Brightbox, Redcentric, Nscale**, Telehouse Docklands, Equinix Slough/LD | [United Kingdom Sovereign Cloud](/eu-cloud-uk/) |
+| **Cross-Cutting Engineering** | Multi-Provider IaC, Post-Broadcom Virtualization, DORA RPO/RTO | OpenTofu (`openstack`/`vcd`/`bpg/proxmox`), CAPI, Crossplane, Proxmox/OpenStack/OpenShift 5, Veeam/Zerto/PBS/CNPG/Velero | [IaC Maturity](/eu-cloud-iac-maturity/) · [Stacks & AI](/eu-cloud-workloads-stack/) · [RPO/RTO & DRP](/eu-cloud-resilience-sla/) |
 
 ### EUR Cost and TCO Benchmarks vs Hyperscalers
 
@@ -126,93 +145,333 @@ Spain has become one of Europe's top-tier digital sovereignty and interconnectio
     4. **High-Egress Spanish B2B SaaS / MarTech / Streaming:** Benchmark their current AWS/GCP Data Transfer line item. Migrating static APIs, Kubernetes workers, and object storage onto **Stackscale / OVHcloud / UpCloud (`es-mad1`) / Scaleway** commonly slashes monthly OPEX by **45–65%**.
     5. **Spanish Enterprise GenAI with Confidential IP:** Host **Mistral / Llama / EuroLLM / Salamandra** open-weight inference via `vLLM` + `llm-d` on dedicated liquid-cooled GPU nodes at **Merlin-Edged** or **Seeweb/Scaleway/Nebius**, feeding **OpenShift AI** or **OKF/RAG** pipelines without leaving EU boundaries.
 """,
-    "eu-cloud-france-germany.md": """## Pre-Sales Field Guide: France and Germany Sovereign Cloud Champions
+    "eu-cloud-germany.md": """## Pre-Sales Field Guide: Germany Sovereign Cloud and Private Data Centers
 
-1. [France Sovereign Cloud Ecosystem (SecNumCloud and AI Scale)](#france-sovereign-cloud-ecosystem-secnumcloud-and-ai-scale)
-2. [Germany Sovereign Cloud Ecosystem (BSI C5, OpenStack and Price Leadership)](#germany-sovereign-cloud-ecosystem-bsi-c5-openstack-and-price-leadership)
-3. [Pre-Sales Head-to-Head: OVHcloud vs Scaleway vs IONOS vs STACKIT vs Hetzner](#pre-sales-head-to-head-ovhcloud-vs-scaleway-vs-ionos-vs-stackit-vs-hetzner)
+1. [Why Germany Anchors Europe's Industrial Sovereign Cloud](#why-germany-anchors-europes-industrial-sovereign-cloud)
+2. [Comprehensive German Cloud and Data Center Pre-Sales Matrix](#comprehensive-german-cloud-and-data-center-pre-sales-matrix)
+3. [US Hyperscaler Regions in Frankfurt vs German BSI C5 Providers](#us-hyperscaler-regions-in-frankfurt-vs-german-bsi-c5-providers)
+4. [German Enterprise Pre-Sales Playbooks](#german-enterprise-pre-sales-playbooks)
 
-### France Sovereign Cloud Ecosystem (SecNumCloud and AI Scale)
+### Why Germany Anchors Europe's Industrial Sovereign Cloud
 
-France leads European regulatory certification depth through **ANSSI SecNumCloud 3.2**, which strictly caps aggregate non-EU ownership and forces complete legal and operational isolation:
+Germany represents continental Europe's largest enterprise cloud market, combining strict statutory auditing with open-source federation standards:
 
-| Provider | Legal Model & Ownership | Sovereignty Certifications | Multi-AZ & Regions | Kubernetes & PaaS Stack | NVIDIA AI & Egress Profile | Best Pre-Sales Positioning |
+- **BSI C5 Type 2 and KRITIS Enforcement:** The German Federal Office for Information Security (**BSI**) requires **C5 Type 2** attestations across healthcare (SGB V), regulated finance, and **KRITIS** critical infrastructure operators.
+- **DE-CIX Frankfurt Core Peering:** As the world's largest Internet Exchange (**17+ Tbps** peak throughput), **DE-CIX Frankfurt** sits directly adjacent to Tier III+/IV campuses (**Equinix, Digital Realty, maincubes**), giving hybrid private-cloud designs sub-2 ms interconnect latency.
+- **Sovereign Cloud Stack (SCS) Standardization:** Funded by the German government and backed by OSBA, **STACKIT, PlusServer, Cleura, and SysEleven/secunet** implement modular, auditable open-source **OpenStack + Kubernetes + Ceph** standards so Mittelstand and public-sector buyers never swap hyperscaler lock-in for local lock-in.
+- **Cost Floor vs Enterprise Scale:** Germany uniquely spans both extremes of TCO — from **Hetzner's** unbeatable bare-metal/VM price floor (65–75% below AWS) to industrial-scale German retail/telecom hyperscalers (**STACKIT**, **IONOS**, **Open Telekom Cloud**).
+
+### Comprehensive German Cloud and Data Center Pre-Sales Matrix
+
+| Provider / Operator | HQ and German DC Footprint | Sovereignty and Certs | Core Platforms and Hypervisors | IaC Automation and Coverage | SLA, Multi-DC DRP and Egress | Optimal Pre-Sales Fit |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **OVHcloud** | Listed French HQ (Roubaix) — L4 EU Sovereign | **SecNumCloud 3.2** (Hosted Private Cloud / Bare Metal), ISO 27001, HDS Healthcare, PCI-DSS | True **3-AZ Paris**, Gravelines, Strasbourg, Roubaix, + EU/Global DCs | **Managed K8s (MKS — free control plane)**, Managed PostgreSQL/Kafka/Redis, vRack L2 VLAN | L40S, A100, H100 GPUs; **0 EUR internet egress on Public Cloud/Metal** (vRack unlimited) | #1 default European alternative to AWS EC2/EKS when **predictable zero-egress TCO + multi-DC scale** are required |
-| **Scaleway** | Iliad Group (Paris) — L4 EU Sovereign | ISO 27001, HDS, EU Data Act pioneer, Sovereign AI focus | **3-AZ Paris**, Amsterdam, Warsaw | **Kubernetes Kapsule** (native) & **Kosmos** (multi-cloud), Serverless Containers/Jobs, Managed DBs | Massive public GPU fleet (**L4, L40S, H100 SXM, B200**) + **Generative APIs** | #1 choice for **cloud-native DevOps, Terraform-heavy startups, and elastic EU GPU inference** |
-| **3DS OUTSCALE** | Dassault Systemes (France) — L4 EU Sovereign | **Full-scope SecNumCloud 3.2** across all IaaS services & 3 regions | 3 French regions (Paris / SecNumCloud zones) | **OKS Managed Kubernetes**, AWS EC2/IAM-compatible API semantics (**OUTSCALE Cockpit**) | Regulated NVIDIA workloads + defense-grade encryption | Defense, aerospace, central French ministries, banking requiring **zero compromise SecNumCloud IaaS** |
-| **Clever Cloud** | French Independent (Nantes) — L4 EU Sovereign | SecNumCloud-aligned architecture, ISO 27001, GDPR | Paris & European sovereign DC zones (+ on-prem Materia) | Zero-ops Git-push PaaS (Heroku/Render alternative), automatic scaling, Managed PostgreSQL/Redis | Focus on CPU/Web/App PaaS + external GPU API orchestration | Developer teams wanting **turnkey Heroku/Vercel DX strictly on European sovereign metal** |
-| **Cloud Temple** | French Independent MSP — L4 EU Sovereign | **SecNumCloud 3.2 qualified IaaS**, ISO 27001, HDS | Multiple French Tier III+/IV regions | Sovereign IaaS + Dedicated Bare Metal + Managed OpenShift/K8s | Dedicated private AI clusters for healthcare & public orgs | Critical French/EU enterprise migrations needing high-touch MSP SLAs and SecNumCloud |
-| **Bleu & S3NS** | **JVs:** Bleu (Capgemini+Orange -> Azure); S3NS (Thales -> Google Cloud) | Engineered specifically to obtain **ANSSI SecNumCloud 3.2** while running US tech stack | French isolated operational zones | Azure/AKS (Bleu) and GKE/Vertex (S3NS) sovereign subsets | Azure AI / Vertex AI localized control planes inside France | Large CAC-40/public agencies deeply locked into M365/Azure or GCP BigQuery that still need French sovereign ring-fencing |
+| **STACKIT (Schwarz Digits)** | Neckarsulm; multiple German Tier III+ 3-AZ regions | **L4 EU Sovereign**, **BSI C5 Type 2**, ISO 27001/27017/27018, DORA/NIS2 | OpenStack IaaS + **SAP Gardener Managed Kubernetes (SKE)** + DBaaS (PG/MariaDB/Redis) + S3 Object Lock | **~75%** (`stackitcloud/stackit` OpenTofu/Terraform + Gardener CRDs) | Multi-DC German AZ SLA; transparent EUR egress & intra-DE replication | German Mittelstand, retail, automotive, and public sector wanting **enterprise PaaS parity under pure German ownership** |
+| **IONOS Cloud (United Internet)** | Montabaur/Berlin; Frankfurt, Berlin, Logrono (Arsys sister), Paris, London | **L4 EU Sovereign**, **BSI C5 Type 2**, ISO 27001, DORA-aligned | Custom KVM Enterprise Cloud, **Data Center Designer**, Managed K8s, DBaaS, NVIDIA H200 | **~80%** (Official Terraform + **Native Crossplane** + **CAPMOX Proxmox CAPI**) | Multi-zone Frankfurt/Berlin replication; predictable EUR bandwidth | Cross-border **Germany + Spain** groups (unified with **Arsys**) & Crossplane-driven platform teams |
+| **Hetzner** | Gunzenhausen; Falkenstein, Nuremberg, Helsinki (+ US/SG opt-in) | **L4 German Owned**, ISO 27001, green hydro energy, strict GDPR | Cloud VMs (**CX/CPX/CAX/CCX**), **Dedicated Root Servers**, Storage Boxes, Private Networks | **~75% IaaS** (`hcloud` + **Syself CAPH** + `kube-hetzner`); 0% managed PaaS | High-uptime DC SLAs; **20 TB included traffic/VM** (~EUR 1/TB overage) | Platform engineering teams running **Talos/RKE2/K3s**, CI/CD runners, high-bandwidth SaaS at maximum savings |
+| **Open Telekom Cloud (T-Systems)** | Frankfurt/Bonn; **Biere and Magdeburg** twin German DCs | **L4 EU Controlled**, **BSI C5**, **TISAX (Automotive)**, KRITIS, ISO 27001 | Enterprise OpenStack IaaS, **Cloud Container Engine (CCE)**, RDS, ModelArts, KMS | **~75%** (`opentelekomcloud` Terraform + full OpenStack REST compatibility) | Dual-city Biere–Magdeburg active/passive DR (>80 km split); enterprise telco SLA | **German automotive (TISAX)**, statutory healthcare, and KRITIS utilities migrating legacy SAP/ERP |
+| **secunet Cloud / SysEleven** | Essen / Berlin; multi-AZ German sovereign DCs | **L4 German Cybersecurity Group**, **BSI C5**, ISO 27001, **SCS aligned** | OpenStack IaaS + **MetaKube (Kubermatic) Managed Kubernetes** | **~75%** (`openstack` Terraform + MetaKube/CAPI + Ansible) | 99.95–99.99% cluster SLA; 3-AZ German synchronous etcd/quorum | SaaS, FinTech, and defense-adjacent engineering teams wanting **BSI-hardened 24x7 Managed Kubernetes** |
+| **PlusServer** | Cologne; German Tier III+ sovereign DCs | **L4 EU Sovereign**, **BSI C5**, ISO 27001, **SCS founder** | Sovereign Cloud Stack (OpenStack + K8s), **VMware VCSP Cloud Director**, Bare Metal | **~65–75%** (`openstack` / `vmware/vcd` Terraform + GitOps) | Multi-DC German geo-replication; Veeam/Zerto managed DRaaS | Mid-market German Broadcom VMware exits and regulated SaaS needing managed hybrid operations |
+| **noris network / Cloud&Heat / Delos** | Nuremberg/Munich (noris), Dresden (Cloud&Heat), German public sector (Delos) | **BSI C5**, **TISAX**, ISO 27001/22301; SAP/Microsoft German sovereign (Delos) | Private Tier III+ clouds, liquid-cooled AI compute (**Cloud&Heat**), German public sector sovereign cloud (**Delos**) | **~60–80%** (Terraform/OpenStack/Ansible; Azure APIs on Delos) | High-availability private cages + zero-water/hot-water green cooling | **Federal/State government (Delos)**, Tier-1 Munich banking/insurance (**noris**), and low-PUE green AI (**Cloud&Heat**) |
+| **Equinix / Digital Realty / maincubes + JUPITER** | Frankfurt (**FR1–FR8, FRA**), Berlin, Nuremberg | Tier III+/IV, ISO 27001/50001, **EN 50600**, **DE-CIX** direct peering | **Private Bare Metal + Proxmox VE / OpenStack SCS / OpenShift 5**; **JUPITER 24k GH200 EuroHPC** (Juelich) | **~75–90%** (`bpg/proxmox`, `CAPO`, `CAPMOX`, Ansible) | Up to **99.999% power/cooling** across dual Frankfurt metro zones | Wholesale repatriation (>300 VMs), DE-CIX financial low-latency trading, and EuroHPC foundation model AI |
 
-### Germany Sovereign Cloud Ecosystem (BSI C5, OpenStack and Price Leadership)
+### US Hyperscaler Regions in Frankfurt vs German BSI C5 Providers
 
-Germany anchors Europe's industrial enterprise cloud market via **BSI C5 Type 2**, **Sovereign Cloud Stack (SCS)** open standards, and unmatched bare-metal efficiency:
+*Evaluating Frankfurt hyperscalers (`AWS eu-central-1` / `AWS European Sovereign Cloud Brandenburg`, `Azure Germany West Central`, `GCP europe-west3 Frankfurt`) against native German L4 providers:*
 
-| Provider | Legal Model & Ownership | Compliance & Standards | Infrastructure & Kubernetes Architecture | IaC Maturity & Automation | Pricing & Commercial Model | Optimal Pre-Sales Fit |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **STACKIT** | Schwarz Digits (Lidl/Kaufland) — L4 EU Sovereign | **BSI C5 Type 2**, ISO 27001/27017/27018, EU DORA/NIS2 ready | OpenStack core + **SAP Gardener Managed Kubernetes (SKE)** across German 3-AZ regions | **~75%** (`stackitcloud/stackit` Terraform + CAPI/Gardener GitOps) | Transparent hourly public pricing; aggressively targets enterprise & public tenders | German/EU enterprises, retail, automotive, public sector demanding **serious OpenStack+Gardener PaaS parity** |
-| **IONOS Cloud** | United Internet (sister to Arsys Spain) — L4 EU | **BSI C5 Type 2**, ISO 27001, EU-only legal control | Custom KVM Enterprise Cloud, **Data Center Designer**, Managed K8s, Managed DBs, NVIDIA H200 | **~80%** (Official Terraform + **Native Crossplane** + **CAPI Proxmox** contributor) | Clear hourly/monthly EUR billing; strong network/storage pricing | European multi-country groups (especially **Germany + Spain combined via IONOS + Arsys**) wanting Crossplane/Terraform maturity |
-| **Hetzner** | German Family-Owned (Gunzenhausen) — L4 EU | ISO 27001, strict German GDPR, green hydro power | **Hetzner Cloud VMs + Dedicated Root Servers** (Falkenstein, Nuremberg, Helsinki, + US/SG opt-in) | **~75% IaaS** (`hcloud` + **CAPH CAPI** + `kube-hetzner`); 0% managed PaaS | **Market cost floor:** ~60–75% cheaper than AWS/Azure + **20 TB included traffic** | Platform-engineering teams running **Talos/RKE2/K3s self-managed K8s**, CI runners, high-volume stateless/GPU batch |
-| **Open Telekom Cloud** | T-Systems (Deutsche Telekom) — L4 EU Controlled | **BSI C5**, TISAX (Automotive), ISO 27001, KRITIS | Enterprise OpenStack public cloud (Biere/Magdeburg), **Cloud Container Engine (CCE)**, RDS, KMS | **~75%** (`opentelekomcloud` Terraform + OpenStack API compat) | Enterprise EUR contracts + Telco network integration | **German automotive (TISAX), healthcare, critical infrastructure (KRITIS)** and large SAP/VMware migrations |
-| **SysEleven & PlusServer** | German Sovereign Specialist Clouds — L4 EU | BSI C5 / ISO 27001 / **Sovereign Cloud Stack (SCS)** aligned | OpenStack + **MetaKube (Kubermatic)** 3-AZ Kubernetes & VMware exit platforms | **~70–75%** (`openstack` Terraform + MetaKube/CAPI automation) | Predictable EUR managed cluster tiers | Mid-to-large DACH SaaS and FinTech teams wanting **24x7 managed Kubernetes SLA** on open OpenStack foundations |
-| **AWS European Sovereign Cloud** | AWS EU SE entity (Brandenburg, Germany) — **L2 Operational** | EU-resident control plane, independent billing/IAM, BSI C5 target | Full AWS Region API parity (EC2, EKS, RDS, S3, Bedrock subset) | **~95–100%** (Standard AWS Terraform / Crossplane / CDK) | Hyperscaler list pricing **+ Sovereign Isolation Premium** | Regulated firms committed to proprietary AWS APIs (DynamoDB/Bedrock) who accept US parent legal ownership in exchange for EU operational isolation |
+| Evaluation Criterion | US Hyperscalers (AWS / Azure / GCP Frankfurt + AWS ESC) | German Sovereign Clouds (STACKIT / IONOS / Hetzner / Open Telekom / PlusServer) | Pre-Sales Guidance |
+| :--- | :--- | :--- | :--- |
+| **Ownership and CLOUD Act Exposure** | US parent remains bound by **US CLOUD Act / FISA 702** (AWS ESC isolates EU ops to L2) | **100% German/EU corporate ownership** — zero US corporate control chain | Mandatory win factor for German ministries, hospitals, KRITIS, and defense suppliers. |
+| **Monthly Compute and Egress Cost** | Full hyperscaler list pricing (**+15–30% Sovereign isolation premium** on AWS ESC); **~EUR 0.085/GB egress** | **Hetzner 65–75% lower**; **IONOS / STACKIT / OTC 35–55% lower** with generous/predictable EUR traffic | Benchmark egress + idle VM over-provisioning: typical SaaS saves **EUR 2,000–12,000/month** on migration. |
+| **Open Source Portability (SCS / OpenStack)** | Proprietary IAM, KMS, DynamoDB, CloudFormation lock-in | **Sovereign Cloud Stack / OpenStack / SAP Gardener** — standardized APIs | Protects against single-vendor fee hikes (matching **EU Data Act / DORA Art. 28** mandates). |
+| **SAP and Industrial Integration** | Managed SAP HANA options on Azure/AWS | Native **STACKIT / Delos / Open Telekom Cloud** German industrial & SAP ecosystem | German automotive & retail frequently prefer native sovereign hosting alongside **RISE / Gardener**. |
 
-### Pre-Sales Head-to-Head: OVHcloud vs Scaleway vs IONOS vs STACKIT vs Hetzner
+### German Enterprise Pre-Sales Playbooks
 
-| Decision Dimension | Winner | Why Pre-Sales Recommends It |
-| :--- | :--- | :--- |
-| **Lowest Monthly Cloud Bill (EUR/vCPU & Bare Metal)** | **Hetzner** (1st) / **OVHcloud** (2nd) | Hetzner destroys every hyperscaler by 3–4x on raw compute/storage; OVH wins when heavy **managed K8s + free unlimited egress** is also mandatory. |
-| **Closest Developer Experience & IaC Parity to AWS/GCP** | **Scaleway** (1st) / **STACKIT** (2nd) | Scaleway leads on clean Terraform/Crossplane APIs, Serverless Containers, Managed DBs, and fast Kapsule clusters; STACKIT leads on German enterprise PaaS + Gardener. |
-| **Highest Legal Sovereignty Certification (Defense / Gov)** | **3DS Outscale** (FR) / **Open Telekom & STACKIT** (DE) | Full ANSSI SecNumCloud 3.2 (Outscale) and KRITIS/TISAX/BSI C5 track record (OTC/STACKIT). |
-| **Unified Iberia + Central Europe Footprint** | **IONOS + Arsys** or **Stackscale + OVHcloud** | Single commercial umbrella spanning Spain (**Arsys ENS Alto**) and Germany (**IONOS BSI C5**), or standard OpenStack portability across Madrid & Paris/Frankfurt. |
+!!! success "5 High-Conversion Deals in Germany"
+    1. **Automotive Supply Chain (`TISAX`) and Mittelstand ERP:** Lead with **Open Telekom Cloud** (Biere + Magdeburg active/passive DR) or **noris network** + **PlusServer**. Highlight TISAX, BSI C5 Type 2, and clean **VMware VCSP -> OpenStack** migration paths.
+    2. **DORA Financial Institution Needing OpenTofu + Crossplane:** Pitch **IONOS Cloud** (native Crossplane + BSI C5) or **STACKIT** (SAP Gardener SKE + BSI C5) as either primary sovereign platform or tested EU Exit Target behind **DE-CIX Frankfurt** peering.
+    3. **Cost-Crushed SaaS / AI Inference Platform (High Egress):** Migrate Kubernetes stateless workers and CI/CD pipelines onto **Hetzner Cloud / Dedicated Root Servers** via **Syself CAPH / Talos Linux** (saving 65–75%), optionally pairing PostgreSQL/WORM backups on **STACKIT** or **OVHcloud**.
+    4. **Unified German + Spanish Corporate Group:** Leverage the **IONOS Cloud (DE) + Arsys (ES)** corporate umbrella so CTOs gain **BSI C5 Type 2 in Frankfurt/Berlin** alongside **ENS Alto in Madrid/Logrono** under consistent CloudAPIv6 Terraform governance.
+    5. **German Public Health / Federal Agency (`BSI C5 + KRITIS`):** Position **secunet Cloud / SysEleven**, **STACKIT**, or **Delos Cloud** (for mandatory Microsoft M365/Azure workloads) alongside verified air-gapped Veeam/S3 Object Lock vaults.
 """,
-    "eu-cloud-italy-uk-nordics.md": """## Pre-Sales Field Guide: Italy, UK, Nordics, Switzerland and Benelux
+    "eu-cloud-france.md": """## Pre-Sales Field Guide: France Sovereign Cloud and Private Data Centers
 
-1. [Italy: ACN QC3/AI3 Sovereign Ecosystem](#italy-acn-qc3ai3-sovereign-ecosystem)
-2. [United Kingdom: UK Sovereign K8s and Post-Brexit Residency](#united-kingdom-uk-sovereign-k8s-and-post-brexit-residency)
-3. [Switzerland, Nordics and Benelux Champions](#switzerland-nordics-and-benelux-champions)
-4. [Cross-Border European Multi-Region Pairing Patterns](#cross-border-european-multi-region-pairing-patterns)
+1. [Why France Leads European Legal Sovereignty (SecNumCloud 3.2)](#why-france-leads-european-legal-sovereignty-secnumcloud-32)
+2. [Comprehensive French Cloud and Data Center Pre-Sales Matrix](#comprehensive-french-cloud-and-data-center-pre-sales-matrix)
+3. [French Hyperscaler JVs (Bleu and S3NS) vs Native L4 French Clouds](#french-hyperscaler-jvs-bleu-and-s3ns-vs-native-l4-french-clouds)
+4. [French Enterprise Pre-Sales Playbooks](#french-enterprise-pre-sales-playbooks)
 
-### Italy: ACN QC3/AI3 Sovereign Ecosystem
+### Why France Leads European Legal Sovereignty (SecNumCloud 3.2)
 
-Italy enforces strict cloud and AI qualification tiers (**QC1–QC3** and **AI1–AI3**) governed by the **Agenzia per la Cybersicurezza Nazionale (ACN)** for public administrations and strategic national infrastructure:
+France has built Europe's most stringent legal and architectural sovereignty ecosystem, combining **ANSSI SecNumCloud 3.2**, massive homegrown scale (**OVHcloud**, **Scaleway**), and continental AI leadership (**Mistral AI**):
 
-| Provider | Italian Campuses | Sovereignty & Compliance | Technical Stack (IaaS / K8s / AI) | IaC & Pre-Sales Positioning |
-| :--- | :--- | :--- | :--- | :--- |
-| **Aruba Cloud** | **Ponte San Pietro (Milan IT3 — Tier IV)**, Arezzo (IT1/IT2), Rome HyperCloud (IT4) | **ACN QC3 + AI3 qualified**, ISO 27001/27017/27018/22301, Tier IV Design/Facility | Enterprise VMware Private Cloud, OpenStack/KVM Cloud Server, **Managed Kubernetes**, Bare Metal, 100% renewable hydro/solar | First call for Italian public tenders, healthcare, banking, and **cross-border Italy + Central EU (Poland/CZ/UK/FR)** multi-DC architectures |
-| **Seeweb** | Frosinone, Milan, Rome, Lugano | ISO 27001, EU AI Act focus, **Consorzio Italia Cloud** sovereign member | KVM Cloud, **Dedicated NVIDIA H100/L40S/A100 GPU clusters**, Kubernetes AI nodes, **zero hyperscaler egress surprises** | Ideal in Italy and Southern EU for **sovereign GPU inference, GenAI startups, and private AI model hosting** |
-| **Polo Strategico Nazionale (PSN)** | Qualified Tier IV Italian sites (TIM / Leonardo / CDP / Sogei) | Maximum **ACN** national classification for critical/strategic state data | Dual-plane sovereign private cloud + localized hyperscaler/OpenShift enterprise runtimes | Mandatory target for **Italian central government ministries, ASL health trusts, and critical defense entities** |
+- **ANSSI SecNumCloud 3.2 Legal Shield:** Unlike generic ISO 27001 certifications, **SecNumCloud 3.2** explicitly audits both deep technical hardening AND corporate shareholding rules (capping non-EU ownership below blocking thresholds) to immunize French data against US CLOUD Act subpoenas.
+- **HDS (Hebergement de Donnees de Sante):** French healthcare workloads require strict **HDS** accreditation alongside GDPR, widely supported by **3DS OUTSCALE, OVHcloud, Scaleway, Cloud Temple, and Clever Cloud**.
+- **Paris + Marseille Dual Gateway:** **Paris-Saclay / Saint-Denis (DATA4, Equinix PA, OVH Paris 3-AZ)** anchors Europe's largest domestic zero-egress cloud core, while **Marseille (Digital Realty MRS1–MRS4, France-IX)** ranks among the world's top subsea-cable interconnection hubs linking Europe, Africa, the Middle East, and Asia.
+- **Open-Weight AI Powerhouse:** With **Mistral AI**, **Scaleway NVIDIA B200/H100 clusters**, and **GENCI Jean Zay**, France lets enterprises build completely non-US GenAI pipelines end-to-end.
 
-### United Kingdom: UK Sovereign K8s and Post-Brexit Residency
+### Comprehensive French Cloud and Data Center Pre-Sales Matrix
 
-Following UK-GDPR divergence, UK public sector (**G-Cloud**, **NCSC Cloud Security Principles**) and financial firms (**FCA/PRA Operational Resilience**) require strict UK legal jurisdiction and transparent pricing:
+| Provider / Operator | HQ and French DC Footprint | Sovereignty and Certs | Core Platforms and Hypervisors | IaC Automation and Coverage | SLA, Multi-DC DRP and Egress | Optimal Pre-Sales Fit |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **OVHcloud** | Roubaix; **3-AZ Paris**, Gravelines, Strasbourg, Roubaix (+ DE/PL/UK) | **L4 French Listed**, **SecNumCloud 3.2** (Hosted Private Cloud / Bare Metal), ISO 27001, HDS, PCI-DSS | OpenStack Public Cloud, **Managed K8s (MKS — free control plane)**, VMware Bare Metal, Managed DBs, S3 KMS | **~80%** (`ovh/ovh` + `openstack` Terraform, Pulumi, Ansible, vRack APIs) | **0 EUR internet egress** on Public Cloud & Bare Metal; unlimited private vRack L2 | #1 European hyperscaler alternative when **massive zero-egress TCO + multi-AZ scale** matter |
+| **Scaleway (Iliad Group)** | Paris; **3-AZ Paris (PAR1–PAR3)**, Amsterdam, Warsaw | **L4 French Owned**, ISO 27001, HDS, EU Data Act pioneer, Sovereign AI | **Kubernetes Kapsule** & multi-cloud **Kosmos**, Serverless Containers/Jobs, Bare Metal, **H100/B200/L40S GPUs & AI Endpoints** | **~85%** (#1 EU DevOps DX: Terraform, **Official Crossplane**, Pulumi, Ansible) | High-availability 3-AZ Paris regions; generous free egress quotas | Cloud-native SaaS, **Platform/Terraform teams**, and **elastic European NVIDIA GPU / Mistral inference** |
+| **3DS OUTSCALE (Dassault Systemes)** | Saint-Cloud; **3 isolated French regions** | **L4 French Owned**, **Full-scope ANSSI SecNumCloud 3.2** across IaaS, HDS, ISO 27001 | Proprietary sovereign IaaS with **AWS EC2/IAM-compatible API** (**Cockpit**), **OKS Managed K8s**, DirectLink | **~75%** (`outscale/outscale` Official Terraform + AWS-like semantics + Ansible) | True multi-region French resilience (Paris/EU zones); hardened air-gap ready | **Defense, ministries, central banking, healthcare, aerospace** requiring zero-compromise SecNumCloud 3.2 |
+| **Cloud Temple** | Paris-La Defense; multiple French Tier III+/IV regions | **L4 French Independent**, **SecNumCloud 3.2 IaaS**, HDS, ISO 27001 | Sovereign Private IaaS, Dedicated Bare Metal, Managed **OpenShift / Kubernetes**, sovereign GPU rooms | **~65–75%** (`terraform` / OpenShift GitOps / Ansible enterprise playbooks) | Dual-DC active replication; 24x7 French-cleared NOC & SOC | CAC-40 regulated financial, healthcare & public agencies demanding high-touch French MSP SLAs |
+| **Clever Cloud** | Nantes; French & European sovereign DC footprints (+ Materia) | **L4 French Independent**, SecNumCloud-aligned architecture, ISO 27001 | Zero-ops Git-push PaaS (Heroku/Vercel alternative), auto-scaling runtimes, Managed PG/Redis/S3, Materia K/V | **~70%** (`clevercloud` Terraform provider + Clever CLI GitOps pipelines) | Multi-zone Paris automated failover; predictable per-second compute billing | Engineering orgs replacing US PaaS (**Heroku / Render / Vercel**) with turnkey European sovereignty |
+| **Ikoula / DATA4 / Digital Realty / Equinix** | Reims/Eppes (Ikoula), **Paris-Saclay (DATA4)**, **Marseille (Digital Realty MRS)**, **Paris (Equinix PA)** | **Tier III+/IV**, ISO 27001/50001, **France-IX** peering, 100% renewable PPAs | **Customer Private Cloud:** Bare Metal + **Proxmox VE / OpenShift 5 / OpenStack**, wholesale AI racks, EMEA subsea PoPs | **~70–90%** (`bpg/proxmox`, MAAS, CAPI, Ansible) | **99.999%** power/cooling SLA; direct Marseille EMEA submarine handoffs | Repatriated private clouds (>300 VMs), AI colocation in Paris-Saclay, & Mediterranean traffic hubs |
+| **Bleu and S3NS** | Isolated French regions (**Bleu**: Capgemini+Orange -> Azure; **S3NS**: Thales -> Google Cloud) | **L3/L4-targeted French JVs** engineered for **ANSSI SecNumCloud 3.2 qualification** | Sovereign Azure/AKS + M365 (**Bleu**); Sovereign GCP/GKE/Vertex (**S3NS**) | **~90–95%** (Azure/GCP Terraform subsets inside sovereign French control planes) | French-staffed isolated ops & Thales/French encryption key custody | Public agencies & CAC-40 firms locked into **Microsoft Azure/M365** or **GCP BigQuery/Vertex** under French governance |
 
-| Provider | UK Presence | Sovereignty & Compliance | Core Offerings | IaC & Pre-Sales Positioning |
-| :--- | :--- | :--- | :--- | :--- |
-| **Civo** | London (`LON1`) + Sovereign UK dedicated regions (plus Frankfurt/US) | **UK-headquartered**, **UK Sovereign Cloud** tier, Cyber Essentials Plus / ISO 27001 | Ultra-fast **K3s/Talos Managed Kubernetes** (90s cluster spin-up), **Civo AI (NVIDIA H100/B200)**, predictable flat-rate egress | Best fit for **UK FinTech, NHS/GovTech contractors, and Kubernetes-native AI teams** migrating off expensive AWS `eu-west-2` EKS clusters |
-| **Pulsant** | **12+ UK Edge Data Centers** (London, Manchester, Edinburgh, Reading, etc.) | ISO 27001, PCI-DSS, UK National Resilience | Sovereign Private Cloud (VMware/KVM), low-latency edge colocation, multi-region UK DRaaS | Ideal for distributed **UK regional enterprises** needing active-active North–South (England–Scotland) UK disaster recovery |
+### French Hyperscaler JVs (Bleu and S3NS) vs Native L4 French Clouds
 
-### Switzerland, Nordics and Benelux Champions
+*Decision framework when a French/EU client compares `AWS eu-west-3` / `Bleu (Azure)` / `S3NS (GCP)` against native French L4 champions (`OVHcloud`, `Scaleway`, `3DS OUTSCALE`):*
 
-Northern and Alpine European providers lead globally on **100% hydro/green PUE (<1.15)**, **true 3-AZ open-source OpenStack**, and **Europe's largest NVIDIA AI superclusters**:
+| Decision Factor | Native French L4 (`OVHcloud` / `Scaleway` / `OUTSCALE` / `Cloud Temple`) | French Sovereign JVs (`Bleu` / `S3NS`) | Standard US Regions (`AWS Paris eu-west-3` / `Azure France Central`) |
+| :--- | :--- | :--- | :--- |
+| **Legal Immunity & Ownership** | **100% French-owned & governed today**; full SecNumCloud 3.2 available now | Independent French equity structures designed to isolate ops & IP licensing | **L1 only** — US parent remains legally subject to US CLOUD Act |
+| **API and Platform Ecosystem** | OpenStack / Kubernetes / AWS-like Cockpit / Crossplane (~75–85% Terraform parity) | Microsoft Azure M365/AKS (**Bleu**) & Google Cloud/GKE (**S3NS**) parity | 100% latest AWS/Azure/GCP proprietary PaaS & AI releases |
+| **Monthly Run-Rate TCO** | **40–70% cheaper** (especially with OVH zero-egress & free K8s control plane) | Hyperscaler rates **+ Sovereign JV operational premium** | Full list hyperscaler pricing + **EUR 0.085/GB egress** |
+| **Recommended Pre-Sales Strategy** | **Default recommendation** for K8s, VMs, S3, Open-Weight AI, & EU portability | Recommend when **existing Microsoft M365/Azure or GCP estate refactor cost exceeds 24 months** | Avoid for regulated public/HDS/OIV workloads requiring French sovereignty |
 
-| Country | Provider | Data Center Zones | Key Differentiators & Certifications | Hypervisor / K8s / AI Stack | Pre-Sales Sweet Spot |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Switzerland / Austria** | **Exoscale** (A1 Group) | Zurich, Geneva, Frankfurt, Munich, Vienna, Sofia | **Strict Swiss privacy jurisdiction + Austrian EU telecom backing**; ISO 27001, HDS, Swiss FINMA-aligned | CloudStack/KVM IaaS, **SKS Managed Kubernetes**, Managed DBs (PG/Kafka/OpenSearch), **SOS S3**, ~75% Terraform parity | Swiss/DACH banking, pharma, crypto/fintech requiring **Swiss-jurisdiction data processing + EU zones** |
-| **Switzerland** | **Infomaniak** | Geneva (100% renewable hydro, heat-recovery DCs) | 100% Swiss privately owned, ISO 27001/50001, zero US subsidiary exposure | **OpenStack Public Cloud** (standard OpenStack Terraform/API parity) | Eco-conscious Swiss enterprises needing standard OpenStack IaaS & S3 without hyperscaler lock-in |
-| **Finland / EU (+ Madrid!)** | **UpCloud** | Helsinki, **Madrid (`es-mad1`)**, Frankfurt, Amsterdam, Warsaw, London | **Finnish EU ownership**, ultra-fast **MaxIOPS NVMe storage** (~100k IOPS), ISO 27001, generous traffic | Managed Kubernetes, Managed DBs, SDN Private Networking, ~75% Terraform parity | High-IOPS **databases in Madrid (`es-mad1`) + Northern EU backup** with single clean API |
-| **Sweden** | **Elastx** | **Stockholm 3-AZ** (3 independent physical DCs) | **100% Swedish-owned**, 100% hydro energy, ISO 27001/27017/27018, DORA-aligned | **OpenStack CaaS/IaaS + Elastx Kubernetes (OKD/upstream)** + Managed DBaaS across 3 true AZs | **Nordic banking, healthcare, SaaS** needing genuine 3-AZ synchronous quorum without AWS `eu-north-1` |
-| **Sweden** | **Cleura** | **3-AZ Sweden** + Karlskrona + Frankfurt | **Sovereign Cloud Stack (SCS)** pioneer, strict EU-only ownership, ISO 27001, DORA/NIS2 focus | OpenStack Public & Dedicated Cloud + **SAP Gardener Managed Kubernetes** | Enterprise DevOps needing **zero-lock-in OpenStack + Gardener parity across Sweden & Germany** |
-| **Netherlands / Finland / France** | **Nebius** | Amsterdam HQ; massive superclusters in **Mantsala (Finland)**, Paris, Iceland | **European AI Hyperscaler** with in-house server/rack engineering, green power, SOC2/ISO 27001 | **Thousands of NVIDIA H100/H200/B200 GPUs** on InfiniBand + **Managed K8s (MK8s)** + Slurm + Terraform | **Europe's #1 alternative to CoreWeave / AWS p5** for large-scale distributed LLM training, fine-tuning, and batch inference |
-| **Luxembourg** | **Gcore** | Luxembourg HQ + 180+ global Edge PoPs & European AI sites | EU corporate HQ, low-latency global CDN/Edge + sovereign EU options | Bare Metal, Managed K8s, **NVIDIA L40S/H100 AI Inference Everywhere**, WAAP/DDoS | Media, gaming, and latency-sensitive **edge AI inference** across Europe |
+### French Enterprise Pre-Sales Playbooks
 
-### Cross-Border European Multi-Region Pairing Patterns
+!!! success "5 High-Conversion Deals in France"
+    1. **Strict Ministry / OIV / Defense (`SecNumCloud 3.2 Mandatory Now`):** Lead with **3DS OUTSCALE**, **OVHcloud SecNumCloud Hosted Private Cloud**, or **Cloud Temple**. Highlight zero foreign equity exposure, HDS readiness, and French-cleared personnel.
+    2. **Modern SaaS / Terraform / Crossplane Teams Migrating from AWS EKS:** Pitch **Scaleway Kubernetes Kapsule + Official Crossplane + Managed PostgreSQL/S3**. Teams keep clean declarative GitOps while cutting egress/control-plane bloat.
+    3. **High-Bandwidth Video / SaaS / Backup Origin:** Migrate onto **OVHcloud Public Cloud (3-AZ Paris) or Bare Metal vRack**. Zero internet egress on Public Cloud/Metal instantly eliminates multi-thousand-euro AWS CloudFront/NAT transfer bills.
+    4. **European GenAI with Confidentiality (`Mistral + B200/H100`):** Run **Mistral / Codestral / Llama** inside **Scaleway GPU/AI Endpoints**, **OVHcloud AI**, or dedicated **DATA4 Paris-Saclay** GPU cages via `vLLM` + `llm-d` without touching US LLM endpoints.
+    5. **CAC-40 Hybrid M365 + Sovereign Kubernetes Split:** Retain sovereign collaboration/legacy Azure/GCP inside **Bleu / S3NS**, while running stateless high-egress microservices and DORA warm-standby vaults on **OVHcloud / Scaleway / Clever Cloud**.
+""",
+    "eu-cloud-italy.md": """## Pre-Sales Field Guide: Italy Sovereign Cloud and Private Data Centers
 
-!!! tip "DORA-Compliant EU Multi-Country Resilience (Without US Hyperscalers)"
-    - **Iberia + Central Europe (Spanish Enterprises):** Primary in **Madrid (`Stackscale` / `Arsys` / `UpCloud es-mad1`)** + Secondary/DR in **Frankfurt / Paris / Amsterdam (`IONOS` / `OVHcloud` / `Scaleway`)** — 20–28 ms RTT, zero US legal exposure.
-    - **Alpine + DACH Financial Cluster:** Primary in **Zurich/Geneva (`Exoscale`)** + Secondary in **Germany (`STACKIT` / `Cleura Frankfurt` / `Open Telekom Cloud`)** — sub-15 ms RTT with independent power grids.
-    - **Southern + Mediterranean + Nordic AI Split:** Latency-sensitive inference in **Milan/Madrid (`Seeweb` / `Merlin-Edged` / `Scaleway Paris`)** + cheap green bulk training/batch in **Finland (`Nebius` / `Hetzner HEL`)** where electricity & cooling costs are 40–60% lower.
+1. [Italy Cloud Sovereignty Strategy (ACN QC3, AI3 and PSN)](#italy-cloud-sovereignty-strategy-acn-qc3-ai3-and-psn)
+2. [Comprehensive Italian Cloud and Data Center Pre-Sales Matrix](#comprehensive-italian-cloud-and-data-center-pre-sales-matrix)
+3. [Local Hyperscaler Milan Regions vs ACN Qualified Italian Providers](#local-hyperscaler-milan-regions-vs-acn-qualified-italian-providers)
+4. [Italian Enterprise Pre-Sales Playbooks](#italian-enterprise-pre-sales-playbooks)
+
+### Italy Cloud Sovereignty Strategy (ACN QC3, AI3 and PSN)
+
+Italy enforces one of Europe's clearest regulatory classification models via the **Agenzia per la Cybersicurezza Nazionale (ACN)** and the **Polo Strategico Nazionale (PSN)**:
+
+- **ACN Cloud Qualification Matrix (`QC1` – `QC3` & `AI1` – `AI3`):** Data is explicitly graded into **Ordinary**, **Critical**, and **Strategic** tiers. Critical/Strategic Italian Public Administration and healthcare workloads demand **ACN QC3/AI3 qualified** providers with verifiable Italian operational sovereignty and encryption custody.
+- **Milan (`MIX`) and Northern/Central Resilience Split:** Milan hosts **Equinix ML2–ML5, Aruba IT3 (Bergamo Tier IV, ~50 km northeast of Milan), WIIT Tier IV, and MIX Milan**, while **Rome (Aruba IT4 Tecnopolo Tiburtino)** and **Frosinone (Seeweb)** provide seismic/grid-independent geographic DR pairs (>450 km split).
+- **Bologna EuroHPC AI Anchor:** Italy hosts **CINECA Leonardo** (13,800+ NVIDIA A100 GPUs) and European AI Factory capacity, complemented commercially by **Seeweb** and **Aruba**.
+
+### Comprehensive Italian Cloud and Data Center Pre-Sales Matrix
+
+| Provider / Operator | HQ and Italian Campus Footprint | Sovereignty and ACN Certs | Core Platforms and Stack | IaC Automation and Coverage | SLA, Multi-DC DRP and Egress | Optimal Pre-Sales Fit |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Aruba Cloud / Aruba Enterprise** | Bergamo/Arezzo; **IT3 Ponte San Pietro (Milan Tier IV)**, **IT4 Rome**, Arezzo IT1/IT2 | **L4 Italian Owned**, **ACN QC3 + AI3**, ISO 27001/27017/27018/22301, Tier IV Design/Facility | VMware Enterprise Private Cloud, OpenStack/KVM Cloud Server, **Managed Kubernetes**, Bare Metal, Sovereign AI | **~60–75%** (`vmware/vcd` + Aruba Cloud API + OpenStack Terraform / Ansible) | **99.995%** Tier IV campus SLA; active Milan–Rome geo-DR; 100% hydro/solar energy | Italian public tenders, **enterprise VMware VCSP migrations**, banks, and dual-city Milan–Rome architectures |
+| **Seeweb** | Frosinone; Milan (Caldera), Rome, Lugano | **L4 Italian Independent**, **Consorzio Italia Cloud**, ISO 27001, EU AI Act focus | KVM Cloud, **Dedicated NVIDIA H100/L40S/A100 GPU clusters**, Kubernetes AI nodes, Private Cloud | **~55–70%** (REST API / Ansible / GPU K8s automation) | Multi-DC Frosinone–Milan replication; **zero hyperscaler egress surprises** | **Italian and Southern EU GenAI/LLM startups**, Sovereign GPU inference, zero-egress K8s nodes |
+| **Polo Strategico Nazionale (PSN)** | Qualified Tier IV Italian campuses (TIM, Leonardo, CDP, Sogei consortium) | Maximum **ACN Strategic** national qualification for State & Healthcare | Isolated Sovereign Private Cloud + localized enterprise OpenShift & hyperscaler sovereign planes | **~65–85%** (Enterprise OpenShift/GitOps + Terraform via system integrators) | State-grade geo-redundant Active-Active Italian replication | **Mandatory venue for Italian central ministries, ASL regional healthcare, and strategic state entities** |
+| **WIIT** | Milan; Milan Tier IV (`WIIT Cloud`), plus German sovereign DCs | **L4 Listed Italian**, ISO 27001/22301/20000, **DORA & SAP Certified** | Ultra-secure Managed Cloud, **Mission-Critical SAP S/4HANA & ERP hosting**, Private Cloud, DRaaS | **~55–70%** (`vmware/vcd` + Ansible + SAP automation pipelines) | Contractual **Zero-RPO synchronous DR** options between Milan Tier IV sites | Italian **manufacturing, banking (DORA), luxury retail, and SAP ERP systems** requiring near-zero downtime |
+| **ReeVo** | Milan; Italian Tier IV campuses across Milan & Rome zones | **L4 Italian Sovereign**, ISO 27001/27017/27018, DORA/NIS2 focused | Hybrid IaaS, Immutable Backup-as-a-Service, Managed SOC/MDR cybersecurity | **~50–65%** (vCD / Ansible / Veeam immutable automation) | Geo-redundant Italian ransomware-proof vaulting & DRaaS | Italian **mid-market companies** bundling sovereign IaaS + 24x7 managed SOC/MDR + immutable backups |
+| **TIM Enterprise / Noovle** | Rome/Milan; Tier IV Italian DC network (PSN founding partner) | **L4 Italian Telco**, ACN qualified, strict national telco resilience | Enterprise Hybrid Cloud, Multi-Cloud orchestration, IoT/Telco Edge, sovereign Kubernetes | **~60–80%** (Terraform + OpenShift + Telco MPLS integration) | Carrier-grade national fiber backbone + multi-region Italian recovery | Large multi-branch Italian enterprises uniting SD-WAN/5G private connectivity with sovereign DCs |
+
+### Local Hyperscaler Milan Regions vs ACN Qualified Italian Providers
+
+*Evaluating `AWS eu-south-1 (Milan)`, `Azure Italy North (Milan)`, and `GCP europe-west8 (Milan)` vs Italian L4 providers:*
+
+| Criterion | US Hyperscalers in Milan (`AWS` / `Azure` / `GCP`) | Native Italian Champions (`Aruba` / `Seeweb` / `WIIT` / `PSN`) | Pre-Sales Guidance |
+| :--- | :--- | :--- | :--- |
+| **Public Administration Eligibility (ACN)** | Standard commercial regions lack strategic **L4 ownership sovereignty** (US parent) | Native **ACN QC3 / AI3** qualification & **PSN** eligibility out-of-the-box | Required differentiator on almost all Italian PA, health trust, and defense tenders. |
+| **Dedicated Sovereign SAP & Legacy Support** | Self-managed or SI-billed enterprise support (~10% of spend) | **WIIT & Aruba** deliver turnkey Italian SAP Basis / VMware engineering SLAs | Mid-to-large industrial firms save FTE headcount alongside predictable EUR OPEX. |
+| **Bandwidth & GPU Availability** | Heavy `eu-south-1` egress costs (~EUR 0.09/GB) & GPU quota friction | **Seeweb** & **Aruba** eliminate egress traps & supply dedicated **H100/L40S GPUs in Italy** | **40–55% cheaper** for 24x7 Italian LLM inference and high-traffic SaaS/e-commerce. |
+
+### Italian Enterprise Pre-Sales Playbooks
+
+!!! success "5 High-Conversion Deals in Italy"
+    1. **Italian Ministry, Municipality, or Healthcare (`ACN QC3/AI3` or `PSN`):** Position **Polo Strategico Nazionale (PSN)** for strategic state tiers or **Aruba Cloud (`ACN QC3+AI3`)** for regional administrations, universities, and regulated SaaS vendors.
+    2. **Italian Financial Sector (`DORA Exit Strategy`) & Zero-RPO SAP:** Place mission-critical SAP/ERP and banking workloads in **WIIT Milan Tier IV** or **Aruba IT3/IT4**, pairing **MIX Milan** low-latency fiber for cross-provider warm standby.
+    3. **Sovereign Italian GenAI (`Mistral / Llama / Modello Italia`):** Deploy **Seeweb NVIDIA H100/L40S Kubernetes pools** for low-latency private RAG inference in Italy without token leakage outside EU borders.
+    4. **Northern Italy VMware Broadcom Consolidation:** Repatriate costly hyperscaler or Broadcom VMs to **Aruba Enterprise VCSP** (pooled licensing stability) or bare-metal **Proxmox/OpenStack** in **Aruba IT3 / Equinix ML5**.
+    5. **Mediterranean Cross-Border Resilience (`Milan + Madrid`):** Pair **Aruba IT3 Milan / Seeweb** with **Stackscale / Arsys / DATA4 Madrid** (~25 ms RTT) for true multi-country Southern European disaster recovery free of US hyperscalers.
+""",
+    "eu-cloud-benelux.md": """## Pre-Sales Field Guide: Netherlands, Belgium and Luxembourg Cloud and Data Centers
+
+1. [Benelux Interconnection Core (AMS-IX, FLAP-D and Luxembourg DORA)](#benelux-interconnection-core-ams-ix-flap-d-and-luxembourg-dora)
+2. [Comprehensive Benelux Cloud, AI and Data Center Pre-Sales Matrix](#comprehensive-benelux-cloud-ai-and-data-center-pre-sales-matrix)
+3. [US Hyperscalers in Amsterdam and Brussels vs Benelux Specialists](#us-hyperscalers-in-amsterdam-and-brussels-vs-benelux-specialists)
+4. [Benelux Enterprise and AI Factory Pre-Sales Playbooks](#benelux-enterprise-and-ai-factory-pre-sales-playbooks)
+
+### Benelux Interconnection Core (AMS-IX, FLAP-D and Luxembourg DORA)
+
+The Benelux triangle anchors both **Europe's highest-capacity Internet peering** and **continental Europe's premier AI & DORA financial ecosystems**:
+
+- **AMS-IX (Amsterdam) FLAP-D Dominance:** Amsterdam sits alongside Frankfurt, London, and Paris as a core European backbone hub, hosting dense **Equinix (Science Park / Schiphol)**, **Digital Realty**, **NorthC**, and **Leaseweb** footprints with sub-5 ms proximity to Belgium and Western Germany.
+- **Home to Europe's Flagship AI Hyperscaler (`Nebius`):** Headquartered in **Amsterdam**, **Nebius** leads Europe in mega-scale InfiniBand-interconnected **NVIDIA H100, H200, and Blackwell B200** cloud superclusters across Finland and France — delivering true CoreWeave/AWS `p5` parity under European corporate leadership.
+- **Dutch Sector Standards (`BIO` & `NEN 7510`) + Heat Reuse:** Dutch public institutions enforce **BIO** (Baseline Informatiebeveiliging Overheid) and healthcare requires **NEN 7510**, met natively by OpenStack champions **Cyso Cloud** and **Leafcloud**.
+- **Luxembourg Tier IV Data Embassies (`LuxConnect` & `Gcore`):** Built for European banking, investment funds (**CSSF/DORA**), and sovereign state "data embassies," Luxembourg combines dual-site **LuxConnect Tier IV** resilience with dark-fiber loops into Brussels, Paris, and Frankfurt.
+
+### Comprehensive Benelux Cloud, AI and Data Center Pre-Sales Matrix
+
+| Provider / Operator | HQ and Benelux / EU Footprint | Sovereignty and Certs | Core Platforms and AI Stack | IaC Automation and Coverage | SLA, Multi-DC DRP and Egress | Optimal Pre-Sales Fit |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Nebius** | **Amsterdam HQ**; Mantsala (Finland), Paris, Iceland EU AI clusters | **European AI Hyperscaler**, SOC 2 Type II, ISO 27001, GDPR | Massive InfiniBand **NVIDIA H100/H200/B200 clusters**, **Managed K8s (MK8s)**, Slurm, Shared Filesystem, Sovereign S3 | **~70–75%** (`nebius` Official Terraform + gRPC/CLI + MK8s GPU GitOps) | Multi-MW hydro/cool European regions; predictable GPU reservation SLAs | #1 European hyperscaler alternative for **LLM training, distributed fine-tuning, and heavy multi-node AI** |
+| **Leaseweb** | **Amsterdam HQ**; Amsterdam, Haarlem, Frankfurt, London (+ Global) | **L4 Dutch Owned**, ISO 27001, PCI-DSS, SOC 1/2, NEN 7510 options | **Single-Tenant Bare Metal**, CloudStack/VMware Private Cloud, Dedicated Storage, CDN | **~65%** (`leaseweb` Terraform provider + REST API + Ansible bare-metal PXE) | Direct **AMS-IX** low-latency throughput; massive **25–100 TB/server bandwidth** bundles | AdTech, streaming, gaming, and high-throughput SaaS escaping hyperscaler network egress fees |
+| **Cyso Cloud** | **Alkmaar (NL)**; 100% Dutch data centers + EU expansion | **L4 Dutch Owned**, ISO 27001, **NEN 7510 (Healthcare)**, **BIO (Dutch Gov)**, GDPR | 100% **OpenStack IaaS + Cyso Managed Kubernetes**, S3 Object Storage, Managed DBs | **~75%** (`openstack` Terraform provider + Cyso K8s API + Ansible) | High-availability multi-rack Dutch zones; predictable EUR utility billing | Dutch **healthcare (NEN 7510), municipalities (BIO)**, and SaaS teams wanting pure OpenStack without US ties |
+| **Leafcloud** | **Amsterdam (NL)**; distributed green urban server rooms across NL | **L4 Dutch Owned**, ISO 27001, **District Heating Circular Energy**, OpenStack Foundation | **Eco OpenStack Public Cloud**, Managed Kubernetes, Sovereign **NVIDIA GPU Nodes** | **~75%** (`openstack` standard Terraform + CAPI `CAPO` compatibility) | Negative/minimal cooling overhead; transparent EUR compute/GPU rates | Green-mandated European AI startups, **ESG-driven enterprises**, and portable OpenStack workloads |
+| **Proximus NXT (Telindus)** | **Brussels & Luxembourg**; Tier III+/IV Belgian & Luxembourgish DCs | **L4 Belgian/LU Telecom**, ISO 27001, **DORA/CSSF Financial**, NATO/EU cleared staff | Enterprise Private Cloud, Sovereign Microsoft/VMware/OpenShift platforms, Telco Edge | **~55–75%** (`vmware/vcd` + OpenShift GitOps + Enterprise Ansible) | Active-Active Brussels–Luxembourg fiber rings; strict banking SLAs | **EU institutions in Brussels**, Benelux ministries, and banks operating under strict Belgian/CSSF rules |
+| **LuxConnect & Gcore** | **Bettembourg / Bissen / Contern (LU HQ)** + 180+ global Edge PoPs | **State-backed Luxembourg Tier IV** (`LuxConnect`); **LU-HQ Edge/AI** (`Gcore`) | Colocation/Data Embassies (`LuxConnect`); Bare Metal, Managed K8s & **Edge L40S/H100 AI** (`Gcore`) | **~70–85%** (`gcore` Terraform/API; full customer control in LuxConnect cages) | **99.999% Tier IV** dual-site dark-fiber metro rings across Luxembourg | **CSSF/DORA banking resilience**, European Data Embassies, and pan-European Edge AI inference |
+| **TransIP / NorthC / Equinix AMS / Digital Realty AMS** | Amsterdam Science Park, Schiphol, Rotterdam, Eindhoven, Brussels | Tier III+/IV, **AMS-IX / NL-ix** direct peering, Climate Neutral DC Pact | Developer VPS (`TransIP`); Regional Edge Colo (`NorthC`); Carrier-Neutral AI/Cloud cages (`Equinix`/`DLR`) | **~45–90%** (`bpg/proxmox`, MAAS, Ansible on bare-metal colo; REST API on VPS) | **<1 ms** peering across FLAP-D optical ring + redundant power grids | High-frequency connectivity, Amsterdam regional disaster recovery, and wholesale Proxmox/OpenShift builds |
+
+### US Hyperscalers in Amsterdam and Brussels vs Benelux Specialists
+
+*Comparing `Azure West Europe (Amsterdam)` / `GCP europe-west4 (Eemshaven)` / `GCP europe-west9/west1 (St-Ghislain Belgium)` against native Benelux platforms:*
+
+| Dimension | US Hyperscalers (`Azure West Europe` / `GCP St-Ghislain`) | Native Benelux Champions (`Nebius` / `Leaseweb` / `Cyso` / `Leafcloud` / `LuxConnect`) | Pre-Sales Guidance |
+| :--- | :--- | :--- | :--- |
+| **AI GPU Scale & Cost (`H100 / H200 / B200`)** | Scarce West Europe GPU quotas + high on-demand hourly rates + costly InfiniBand premiums | **Nebius** delivers deep EU **B200/H200/H100** InfiniBand capacity at **40–55% lower cost** | **Nebius + Amsterdam HQ** is the runaway winner for any serious European LLM training/inference RFP. |
+| **AMS-IX Egress Economics** | ~EUR 0.08–0.09/GB outbound internet transfer | **Leaseweb & TransIP** bundle **25–100 TB+** on bare metal; **Cyso/Leafcloud** offer predictable EUR rates | Heavy content/CDN origin/SaaS teams cut monthly cloud bills by **50–75%** on Amsterdam metal. |
+| **Dutch BIO / NEN 7510 / LU Financial Audits** | US parent CLOUD Act legal conflict requires complex supplementary legal memos | Native **NL/LU corporate domicile**, direct OpenStack auditability, CSSF/BIO familiarity | Smooth procurement approval for Dutch municipalities, hospitals, and Luxembourg asset managers. |
+
+### Benelux Enterprise and AI Factory Pre-Sales Playbooks
+
+!!! success "5 High-Conversion Deals in the Benelux Region"
+    1. **Distributed European AI Training & Batch (`H200 / B200`):** Lead with **Nebius** (`MK8s` + Slurm + Sovereign S3). Highlight Amsterdam corporate HQ, green Finnish power economics, InfiniBand RDMA fabric, and clean Terraform pipelines.
+    2. **High-Traffic AdTech / Gaming / Streaming in Amsterdam (`>50 TB/mo Egress`):** Anchor heavy workloads on **Leaseweb Single-Tenant Bare Metal** behind **AMS-IX**, layering Proxmox VE or Talos Linux K8s at **60%+ lower TCO** than Azure West Europe.
+    3. **Dutch Healthcare & Municipal Cloud (`BIO + NEN 7510`):** Position **Cyso Cloud** or **Leafcloud** (zero-lock-in OpenStack + Managed K8s + heat reuse), meeting Dutch compliance audits without US hyperscaler exposure.
+    4. **Luxembourg Fund / Bank Under DORA (`CSSF Exit Strategy`):** Deploy dual-site infrastructure across **LuxConnect Bettembourg & Bissen** (or **Proximus NXT + OVHcloud/STACKIT Frankfurt** cross-border standby) using OpenTofu (`openstack`/`bpg/proxmox`) + Velero/CNPG.
+    5. **Dual-Country Iberia + Amsterdam Active-Active:** Combine **Madrid (`Stackscale`)** and **Amsterdam (`Stackscale AMS` or `Leaseweb`/`Scaleway NL`)** on unified OpenStack APIs for ~25 ms EU North–South active replication.
+""",
+    "eu-cloud-switzerland-dach.md": """## Pre-Sales Field Guide: Switzerland and Austria (Alpine Sovereign Cloud)
+
+1. [Alpine Neutrality: Swiss FADP, FINMA and Zero CLOUD Act](#alpine-neutrality-swiss-fadp-finma-and-zero-cloud-act)
+2. [Comprehensive Swiss and Austrian Cloud Pre-Sales Matrix](#comprehensive-swiss-and-austrian-cloud-pre-sales-matrix)
+3. [Local AWS and Azure Zurich Regions vs Swiss L4 Sovereign Clouds](#local-aws-and-azure-zurich-regions-vs-swiss-l4-sovereign-clouds)
+4. [Alpine Financial and Pharma Pre-Sales Playbooks](#alpine-financial-and-pharma-pre-sales-playbooks)
+
+### Alpine Neutrality: Swiss FADP, FINMA and Zero CLOUD Act
+
+Switzerland (and neighboring **Austria** as DACH/CEE bridge) commands unique enterprise demand across private banking, wealth management, pharmaceuticals, and international NGOs:
+
+- **Non-EU Neutrality + Revised FADP (`revDSG`):** Switzerland is neither an EU/EEA member nor US-aligned on intelligence compulsion, making **100% Swiss-owned cloud providers** (`cloudscale.ch`, `Infomaniak`, `Swisscom`, `VSHN`) immune to extraterritorial foreign subpoenas when coupled with Swiss operational staff.
+- **FINMA Circular 2018/3 & Operational Resilience:** Swiss banks and insurers face mandatory **FINMA auditability**, verifiable Swiss/Alpine data residency, and board-level outsourcing exit capabilities directly comparable to EU **DORA**.
+- **Swiss–Austrian Cross-Border Continuity:** Combining Swiss sovereignty (**Zurich / Geneva / Lupfig**) with **Austrian EU-resident zones (`Vienna` via Exoscale / Anexia + `VIX`)** gives DACH enterprises simultaneous Swiss banking compliance and seamless EU Single Market reach under **12 ms latency**.
+- **Hydro Sustainability & Alps EuroHPC:** Swiss grids run nearly carbon-free (**hydro + nuclear**), anchoring **Green Datacenter**, **Infomaniak heat recovery**, and the **CSCS Alps NVIDIA GH200** national AI supercomputer in Lugano.
+
+### Comprehensive Swiss and Austrian Cloud Pre-Sales Matrix
+
+| Provider / Operator | HQ and Alpine/EU Footprint | Sovereignty and Certs | Core Platforms and Kubernetes Stack | IaC Automation and Coverage | SLA, Multi-DC DRP and Egress | Optimal Pre-Sales Fit |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Exoscale (A1 Group)** | **Lausanne (CH)**; **Zurich, Geneva, Vienna, Frankfurt, Munich, Sofia** | **L4 Swiss/Austrian EU Backing**, ISO 27001, HDS, FINMA-aligned, Zero US ties | CloudStack/KVM VMs, **SKS Managed Kubernetes**, Managed DBs (PG/Kafka/OpenSearch), **SOS S3**, GPUs | **~75%** (`exoscale/exoscale` Official Terraform, CAPI, Pulumi, Ansible) | Transparent CHF/EUR billing; multi-country CH–AT–DE active/passive peering | Financial, SaaS & DACH DevOps needing **both Swiss zones + Vienna/Frankfurt EU zones under one API** |
+| **cloudscale.ch** | **Zurich (CH)**; **Zurich & Lupfig** independent Tier III+ DCs | **100% Swiss privately owned & operated**, ISO 27001/27017/27018, FINMA-ready | Pure **Swiss OpenStack Public & Dedicated Cloud** (VMs, Volumes, Private Networks, S3 Objects) | **~75%** (`cloudscale-ch/cloudscale` Official Terraform + OpenStack API + Ansible) | Physically separated Zurich–Lupfig fault zones; **FINMA clean audit trail** | **Swiss banks, insurers, cantons, and healthcare** demanding 100% Swiss shareholding & zero foreign ownership |
+| **VSHN and APPUiO Cloud** | **Zurich (CH)**; runs managed PaaS atop **cloudscale.ch** & **Exoscale** | **100% Swiss Managed Service**, ISO 27001, FINMA-aligned operations | **APPUiO Managed OpenShift 4/5**, Managed Kubernetes (**AppCat** DBaaS/queues), GitOps SRE | **~85–90%** (**Native Crossplane / AppCat / ArgoCD / OpenTofu** declarative PaaS) | 24x7 Swiss-based SRE SLA across Swiss sovereign IaaS zones | Swiss enterprises wanting **Managed Red Hat OpenShift + DBaaS strictly on Swiss-owned cloud metal** |
+| **Infomaniak** | **Geneva (CH)**; multiple Geneva 100% hydro DCs (Waste-heat district export) | **100% Swiss Independent**, ISO 27001/50001/14001, zero US subsidiary | **Swiss OpenStack Public Cloud** (Compute, Cinder, Swift S3, Load Balancers), kDrive/Swiss Backup | **~70%** (**Standard `openstack` Terraform provider** + OpenStack CLI/Ansible) | Competitive PAYG Swiss Franc pricing; zero vendor lock-in | Eco-focused **Swiss SMEs, NGOs, SaaS teams** standardizing on portable OpenStack APIs |
+| **Swisscom Enterprise Cloud** | **Bern/Zurich (CH)**; Tier IV bank-grade Swiss data centers | **Swiss National Telecom**, FINMA bank outsourcing cleared, ISO 27001 | Swisscom Enterprise Cloud, **Managed OpenShift**, sovereign banking & healthcare enclaves | **~60–75%** (Enterprise OpenShift/GitOps + VMware vCD/Ansible) | Highest national SLA + private dark-fiber financial interchanges | Top-tier **Swiss cantonal banks, insurers, federal agencies, and hospitals** requiring national telecom accountability |
+| **Anexia (Austria HQ)** | **Klagenfurt / Vienna (AT)**; Vienna, Munich, Zurich, global Edge PoPs | **L4 Austrian EU Sovereign**, ISO 27001/9001, GDPR strict | Enterprise IaaS **Anexia Engine**, **Managed Kubernetes**, Bare Metal, Managed Services | **~70%** (`anexia-it/anxcloud` Official Terraform + Crossplane/Ansible) | Dual-city Austria/DACH redundancy + **VIX Vienna** CEE peering | Austrian/CEE enterprises needing **high-touch DACH SLA, clean ANX Terraform, and EU data residency** |
+| **Green Datacenter / Equinix CH / SwissIX / CSCS Alps** | **Zurich, Lupfig, Geneva, Vienna (VIX), Lugano (CSCS)** | Tier III+/IV, **FINMA colocation**, **SwissIX / VIX** peering, EuroHPC | High-density enterprise cages (`Green`/`Equinix`); **CSCS Alps (GH200)** Swiss AI supercomputer | **~75–90%** (`bpg/proxmox`, `CAPO`, OpenShift GitOps on customer hardware) | **99.999%** dual-campus power; Zurich–Geneva–Vienna <12 ms optical rings | Wholesale Swiss bank repatriation, private Proxmox/OpenShift stacks, and sovereign Swiss AI research |
+
+### Local AWS and Azure Zurich Regions vs Swiss L4 Sovereign Clouds
+
+*When Swiss CISOs evaluate `AWS Zurich (eu-central-2)` / `Azure Switzerland North` / `GCP europe-west6` vs `cloudscale.ch` / `Exoscale` / `Infomaniak` / `VSHN`:*
+
+| Decision Factor | US Hyperscalers in Zurich (`AWS` / `Azure` / `GCP`) | Native Swiss Sovereign Clouds (`cloudscale.ch` / `Exoscale` / `Infomaniak` / `VSHN`) | Pre-Sales Guidance |
+| :--- | :--- | :--- | :--- |
+| **Legal Immunity (US CLOUD Act)** | US corporate parent remains exposed to extraterritorial legal demands despite physical Swiss DCs | **Zero US parent / zero CLOUD Act jurisdictional reach** (`cloudscale.ch`, `Infomaniak`, `VSHN`) | Critical win condition for Swiss wealth management, biotech IP, law firms, and federal data. |
+| **CHF Pricing & Egress Overhead** | Swiss hyperscaler region **carries a +10–15% Swiss regional premium** on top of US list prices | Predictable CHF/EUR billing (`Exoscale`, `cloudscale.ch`, `Infomaniak`) with clean OpenStack transparency | Teams routinely trim **35–55%** off Zurich AWS/Azure run-rates for Kubernetes and DB tiers. |
+| **OpenShift / Kubernetes PaaS Parity** | EKS / AKS managed control planes + AWS/Azure proprietary DB lock-in | **VSHN APPUiO Managed OpenShift** & **Exoscale SKS** deliver complete CNCF/Red Hat parity natively in Switzerland | Keeps regulated apps **100% portable** between Swiss public clouds and on-prem Green Datacenter racks. |
+
+### Alpine Financial and Pharma Pre-Sales Playbooks
+
+!!! success "5 High-Conversion Deals in Switzerland and Austria"
+    1. **FINMA-Regulated Swiss Bank / Wealth Manager (`Zero Foreign Control`):** Combine **cloudscale.ch (Zurich + Lupfig)** or **Swisscom** IaaS with **VSHN APPUiO Managed OpenShift** and **Green Datacenter** physical custody for ironclad FINMA outsourcing auditability.
+    2. **DACH Multi-Country SaaS (`Switzerland + EU Combined`):** Standardize on **Exoscale** (`Zurich` + `Geneva` + `Vienna` + `Frankfurt`), giving engineering a single `exoscale` Terraform/SKS pipeline with clean country-level data-boundary isolation.
+    3. **Cost-Optimized OpenStack & ESG Mandate (`Geneva`):** Deploy stateless apps and S3 workloads onto **Infomaniak Public Cloud** using portable `openstack` Terraform modules, leveraging 100% Swiss hydroelectricity and district heat recovery.
+    4. **Austrian Mittelstand & CEE Gateway (`Vienna`):** Lead with **Anexia** (`anexia-it/anxcloud` Terraform) or **Exoscale Vienna** peaked at **VIX**, keeping operations strictly inside Austrian/EU legal borders.
+    5. **Confidential Swiss Pharma / Legal RAG:** Run open-weight **Mistral / Llama / Apertus** models on dedicated **Swiss private OpenShift AI** clusters in **Green Datacenter Lupfig / Equinix ZH4** — zero prompt telemetry ever leaves Switzerland.
+""",
+    "eu-cloud-nordics.md": """## Pre-Sales Field Guide: Nordics Green Cloud and AI Factories
+
+1. [Why the Nordics Lead Europe in Green Compute and AI PUE](#why-the-nordics-lead-europe-in-green-compute-and-ai-pue)
+2. [Comprehensive Nordic Cloud, 3-AZ OpenStack and AI Factory Matrix](#comprehensive-nordic-cloud-3-az-openstack-and-ai-factory-matrix)
+3. [US Hyperscaler Nordic Regions vs Nordic 3-AZ Sovereign Clouds](#us-hyperscaler-nordic-regions-vs-nordic-3-az-sovereign-clouds)
+4. [Nordic Enterprise and Green AI Pre-Sales Playbooks](#nordic-enterprise-and-green-ai-pre-sales-playbooks)
+
+### Why the Nordics Lead Europe in Green Compute and AI PUE
+
+Sweden, Finland, Norway, and Iceland combine Europe's cleanest energy grid with pioneering open-source **3-Availability-Zone OpenStack** engineering:
+
+- **100% Renewable Hydro/Geothermal Power & Sub-1.20 PUE:** Industrial Nordic power prices run **30–55% cheaper** than Central Europe (Frankfurt/Amsterdam), while ambient Arctic/fjord free-cooling drops data center **PUE to 1.08–1.20** — cutting AI GPU training total TCO by **35–50%**.
+- **Genuine 3-AZ European OpenStack (`Elastx` & `Cleura`):** Unlike single-DC European VPS vendors, Swedish pioneers **Elastx (Stockholm 3-AZ)** and **Cleura** engineered physically separated three-zone OpenStack & Kubernetes clusters capable of true **3-way quorum** (etcd, PostgreSQL Patroni/CNPG, Kafka) without AWS.
+- **Public Sector Schrems II Rigor (`eSam` Sweden):** Swedish and Norwegian public agencies strictly enforce the **eSam framework**, systematically disqualifying US-owned hyperscalers for citizen/health systems and favoring **Safespring, Cleura, Elastx, and GleSYS**.
+- **Cross-European Bridge (`UpCloud Madrid` + `Nebius Mantsala` + `LUMI`):** Nordic cloud infrastructure powers workloads across the entire continent — from **UpCloud's `es-mad1` Madrid region** (paired with Helsinki) to **Nebius's Finnish H200/B200 clusters** and **CSC's LUMI EuroHPC**.
+
+### Comprehensive Nordic Cloud, 3-AZ OpenStack and AI Factory Matrix
+
+| Provider / Operator | HQ and Nordic / EU Footprint | Sovereignty and Certs | Core Platforms and AI Stack | IaC Automation and Coverage | SLA, Multi-DC DRP and Egress | Optimal Pre-Sales Fit |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Elastx** | **Stockholm (SE)**; **3 physically separated Stockholm AZs** | **100% Swedish Owned**, 100% hydro energy, ISO 27001/27017/27018, DORA-aligned | Enterprise **3-AZ OpenStack**, **Elastx Kubernetes (OKD/upstream)**, Managed PG/Kafka/RabbitMQ, S3 | **~75–80%** (`openstack` Terraform + `CAPO` + Managed DB automation) | True **3-AZ synchronous Stockholm quorum**; transparent EUR/SEK pricing | **Nordic fintech, healthcare, e-commerce** needing genuine 3-AZ resilience off AWS `eu-north-1` |
+| **Cleura** | **Karlskrona (SE)**; **3-AZ Sweden**, Karlskrona, Frankfurt, Munich | **100% EU Owned (Iver group)**, **Sovereign Cloud Stack (SCS)** leader, ISO 27001, DORA/NIS2 | Compliant OpenStack Public & Dedicated Cloud + **SAP Gardener Managed Kubernetes** | **~75–80%** (`openstack` Terraform + Gardener Shoot API + SCS conformance) | Multi-region **Sweden + Germany** OpenStack portability; strong EU exit guarantees | Regulated European enterprises demanding **SCS-compliant OpenStack + Gardener Kubernetes** across Nordics & DACH |
+| **UpCloud** | **Helsinki (FI)**; Helsinki, **Madrid (`es-mad1`)**, Frankfurt, Amsterdam, Warsaw, London | **L4 Finnish Owned**, ISO 27001, GDPR strict, **MaxIOPS (~100k IOPS)** | High-IOPS Cloud Servers, **Managed Kubernetes (UKS)**, Managed Databases, SDN Private Networks, Object Storage | **~75%** (`UpCloudLtd/upcloud` Official Terraform + Packer + Ansible) | Sub-millisecond NVMe local quorum; cross-EU SDN replication including Madrid | Database-heavy European SaaS wanting **Madrid (`es-mad1`) + Helsinki/Frankfurt** under one Finnish API |
+| **GleSYS** | **Falkenberg (SE)**; owned DCs in Falkenberg, Stockholm, Oulu (FI) | **100% Swedish Independent**, ISO 27001/14001, 100% renewable power, heat reuse | OpenStack/VMware Cloud Infrastructure, Bare Metal, Private Racks, Colocation | **~65–70%** (REST/Terraform automation + Ansible + private cloud APIs) | Owned dual-country SE–FI infrastructure + unlimited generous regional bandwidth | Swedish/Nordic SMB & mid-market platforms needing custom **VMware-to-Linux/K8s + colocation** |
+| **Safespring** | **Stockholm / Oslo**; 100% Swedish & Norwegian academic/public DCs | **eSam / Schrems II Public Compliant**, zero non-Nordic ownership, 100% hydro | **Pure OpenStack IaaS + High-Throughput S3**, tailored for Sunet/academic & public clouds | **~75%** (Pure `openstack` Terraform + Ansible + standard Swift/S3 APIs) | Multi-site SE–NO research/public federation; strict zero commercial data mining | **Nordic universities, municipalities, hospitals, research institutes** bound by eSam/Schrems II |
+| **Green Mountain / atNorth / Verne / Bulk + LUMI** | **Norway, Iceland, Finland, Sweden, Denmark** (Stavanger, Keflavik, Kajaani LUMI, NO1) | **100% Hydro / Geothermal**, PUE **1.08–1.18**, ISO 27001/50001, heat export | Ultra-dense **Liquid-Cooled NVIDIA AI Colo** (50–150+ kW/rack), **LUMI EuroHPC**, **evroc** sovereign EU cloud | **~75–90%** (`bpg/proxmox`, Slurm, OpenShift AI, KubeRay on dedicated GPU clusters) | Gigawatt renewable grid resilience + **Netnod** peering + transatlantic dark fiber | **Large-scale LLM training, HPC batch AI, ESG-mandated enterprise AI factories** |
+
+### US Hyperscaler Nordic Regions vs Nordic 3-AZ Sovereign Clouds
+
+*Evaluating `AWS eu-north-1 (Stockholm)` / `Azure Sweden Central (Gavle)` / `GCP europe-north1 (Hamina Finland)` vs Nordic sovereign champions:*
+
+| Dimension | US Hyperscalers (`AWS Stockholm` / `Azure Sweden` / `GCP Finland`) | Native Nordic Platforms (`Elastx` / `Cleura` / `UpCloud` / `Safespring` / `atNorth`) | Pre-Sales Guidance |
+| :--- | :--- | :--- | :--- |
+| **Public Sector / `eSam` Eligibility** | Disqualified for many sensitive Swedish/Norwegian citizen & healthcare systems due to US CLOUD Act | **100% cleared** under Swedish `eSam`, **DORA**, and open **Sovereign Cloud Stack** rules | Decisive winner in public tenders and academic/research clouds. |
+| **3-AZ OpenStack Parity** | Proprietary AWS AZ constructs + high inter-AZ data transfer fees (~EUR 0.02/GB each way) | **Elastx** & **Cleura** run true **3-AZ physical Stockholm DCs** on standard OpenStack + Gardener | Delivers HA multi-AZ resilience **without AWS lock-in or inter-AZ surprise invoices**. |
+| **Large-Scale Liquid-Cooled AI Economics** | Hyperscaler GPU regions mark up energy, cooling, and egress | **atNorth, Green Mountain, Verne, Nebius Mantsala** pass Nordic hydro cost floor directly to customers | **35–50% total TCO savings** on sustained LLM pre-training, distillation, & synthetic data generation. |
+
+### Nordic Enterprise and Green AI Pre-Sales Playbooks
+
+!!! success "5 High-Conversion Deals in the Nordics"
+    1. **True 3-AZ AWS `eu-north-1` Exit (`Sweden FinTech / SaaS`):** Migrate EKS + RDS workloads onto **Elastx Stockholm 3-AZ** (`Managed K8s + PostgreSQL + OpenStack Terraform`), keeping 3-zone synchronous quorum with 100% Swedish jurisdiction.
+    2. **European Cross-Border OpenStack (`Nordics + Germany`):** Standardize on **Cleura** (Sweden 3-AZ + Frankfurt/Munich), exploiting identical **OpenStack + SAP Gardener** APIs for DORA-compliant sovereign portability.
+    3. **Spanish-to-Nordic Database + Latency Pairing (`Madrid + Helsinki`):** Run low-latency API & MaxIOPS PostgreSQL nodes in **UpCloud `es-mad1` (Madrid)** with encrypted warm replication to **Helsinki/Frankfurt** using one Terraform provider.
+    4. **AI Model Training Factory (`>1 MW or Multi-Node H200/B200`):** Host latency-insensitive training/fine-tuning in **Nebius Finland**, **atNorth Iceland/Finland**, **Green Mountain**, or **Verne**, streaming LoRA weights south to Paris/Madrid/Milan inference nodes.
+    5. **Nordic Municipality / University Research Cloud (`eSam + Schrems II`):** Deploy **Safespring** or **GleSYS** on standardized OpenStack + OpenTofu templates, meeting strict public procurement law cleanly.
+""",
+    "eu-cloud-uk.md": """## Pre-Sales Field Guide: United Kingdom Sovereign Cloud and Private Data Centers
+
+1. [Post-Brexit UK Sovereignty: NCSC, G-Cloud and FCA Resilience](#post-brexit-uk-sovereignty-ncsc-g-cloud-and-fca-resilience)
+2. [Comprehensive UK Sovereign Cloud and Data Center Matrix](#comprehensive-uk-sovereign-cloud-and-data-center-matrix)
+3. [AWS and Azure London Regions vs UK Sovereign Alternatives](#aws-and-azure-london-regions-vs-uk-sovereign-alternatives)
+4. [United Kingdom Enterprise and Public Sector Playbooks](#united-kingdom-enterprise-and-public-sector-playbooks)
+
+### Post-Brexit UK Sovereignty: NCSC, G-Cloud and FCA Resilience
+
+Although outside the EU legal bloc, the **United Kingdom** forms one of Europe's largest cloud and interconnection markets (**FLAP-D's London Docklands & Slough** corridor) with strict domestic compliance rules:
+
+- **UK GDPR + NCSC 14 Cloud Security Principles:** British government departments, **NHS Health and Social Care Network (HSCN)** contractors, and defense suppliers enforce the **National Cyber Security Centre (NCSC)** cloud principles, Cyber Essentials Plus, and **G-Cloud** framework compliance.
+- **FCA / PRA Operational Resilience (DORA Equivalent):** UK banks, clearing houses, and insurers face parallel UK Bank of England / FCA requirements for **exit plans**, impact tolerances, and multi-provider operational resilience across UK sites.
+- **London Docklands (`Telehouse` / `Equinix` / `LINX`) + Regional Spine:** **LINX** runs dual independent London peering LANs plus Manchester and Scotland IXPs, allowing active-active England–Scotland designs (**London + Manchester + Edinburgh**) for national grid fault isolation.
+- **EU + UK Dual-Residency Reality:** European multinationals serving British and EU customers cannot rely solely on a UK region for EU data-residency compliance (or vice versa in regulated UK government bids) — requiring **clean IaC portability across UK + Continental EU**.
+
+### Comprehensive UK Sovereign Cloud and Data Center Matrix
+
+| Provider / Operator | HQ and UK Campus Footprint | Sovereignty and Certs | Core Platforms and Kubernetes Stack | IaC Automation and Coverage | SLA, Multi-DC DRP and Egress | Optimal Pre-Sales Fit |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Civo** | **London / Stevenage (UK)**; **London (`LON1`)**, **UK Sovereign Dedicated**, Frankfurt, India, US | **L4 UK Headquartered**, **UK Sovereign Cloud Tier**, ISO 27001, Cyber Essentials Plus | Fast **K3s / Talos Managed Kubernetes** (90s boot), Managed DBs, S3, **Civo AI (NVIDIA H100/B200)** | **~75%** (`civo/civo` Official Terraform + Pulumi + GitOps + K8s CAPI) | Flat transparent UK billing with generous included egress & zero surprise NAT fees | UK **FinTech, GovTech contractors, and Kubernetes-first AI engineering teams** replacing costly AWS `eu-west-2` EKS |
+| **Pulsant** | **Reading (UK)**; **12+ UK Edge Data Centers** (London, Manchester, Edinburgh, Milton Keynes, Reading, etc.) | **UK Owned**, ISO 27001, PCI-DSS, UK National Critical Resilience | Sovereign Private Cloud (VMware/KVM), High-Availability Colocation, National DRaaS & Edge Interconnect | **~50–65%** (`vmware/vcd` + Ansible + Private Fabric automation) | North–South England–Scotland geo-redundant UK DR rings + **LINX** peering | Distributed **UK enterprises & financial firms** meeting FCA/PRA regional disaster recovery rules |
+| **Redcentric** | **Harrogate (UK)**; owned UK Tier III DCs + **HSCN Health Network** | **UK AIM-Listed**, **G-Cloud Framework**, ISO 27001/22301, Cyber Essentials Plus, NHS HSCN | Sovereign Managed IaaS, UK Private Cloud, Managed Immutable Backup/DR, Healthcare Platforms | **~50–65%** (Enterprise VCSP/API + Ansible managed onboarding) | Carrier-connected UK multi-DC failover + 24x7 UK-vetted support | **UK NHS Trusts, central/local councils, and G-Cloud public-sector suppliers** |
+| **Brightbox** | **Manchester (UK)**; dual geographically distinct UK zones | **100% British Owned**, ISO 27001, strict UK data residency, GDPR/UK-GDPR | High-availability UK Cloud Servers, Load Balancers, Orbit Object Storage, Private VLANs | **~70–75%** (`brightbox/brightbox` Official Terraform + Ruby/REST CLI + Ansible) | Transparent GBP pricing; independent UK zones with clean API parity | British **SaaS, e-commerce, and engineering teams** seeking simple, long-tenured UK cloud infrastructure |
+| **Nscale** | **London HQ (UK)**; UK & Northern European green renewable AI campuses | **UK-headquartered AI Hyperscaler**, sovereign UK/EU AI infrastructure compliance | Large-scale **NVIDIA H100/B200 AI Clusters**, Kubernetes + Slurm orchestration, high-speed parallel storage | **~65–75%** (Terraform/Slurm/K8s GPU automation + vLLM/KServe stacks) | Predictable reserved GPU SLAs powered by renewable Nordic/UK PPAs | UK & European enterprises running **sovereign LLM training, inference, and national AI workloads** |
+| **Telehouse London / Equinix UK / LINX** | **London Docklands (North/West/South), Slough, Manchester** | **Tier III+/IV**, ISO 27001/50001, **LINX London & Manchester** peering hubs | Colocation cages supporting **Proxmox VE / OpenShift 5 / OpenStack** + direct Equinix Fabric on-ramps | **~75–90%** (`bpg/proxmox`, `CAPO`, CAPI on customer metal) | **99.999% power/cooling**, Europe's densest transatlantic & European fiber core | Financial low-latency Slough/Docklands workloads and **wholesale AWS `eu-west-2` repatriation** |
+
+### AWS and Azure London Regions vs UK Sovereign Alternatives
+
+*Evaluating `AWS London (eu-west-2)` / `Azure UK South (London) & UK West (Cardiff)` / `GCP europe-west2 (London)` against native UK Sovereign providers:*
+
+| Criterion | US Hyperscalers (`AWS eu-west-2` / `Azure UK South`) | Native UK Providers (`Civo` / `Pulsant` / `Redcentric` / `Brightbox` / `Nscale`) | Pre-Sales Guidance |
+| :--- | :--- | :--- | :--- |
+| **Pricing Predictability & EKS Egress Costs** | High London regional pricing + expensive AWS NAT Gateway + ~GBP 0.08/GB internet egress | **Civo & Brightbox** eliminate control-plane bloat & surprise transfer fees (**45–65% cheaper**) | Kubernetes SaaS & B2B APIs leaving `eu-west-2` recover engineering ROI quickly. |
+| **NHS HSCN & G-Cloud Specialization** | Generic hyperscaler SKUs require complex partner wrappers & UK security overlays | **Redcentric** & **Civo Sovereign** are architected natively for **G-Cloud / HSCN / NCSC** compliance | Clear audit advantage for UK healthcare, justice, policing, and local authorities. |
+| **FCA/PRA Cross-Provider Operational Resilience** | Single-cloud dependency inside AWS/Azure fails exit-portability stress tests | **Civo / Pulsant / Telehouse** provide true cross-vendor **Terraform / Velero** UK exit targets | Helps Chief Risk Officers pass Bank of England / FCA third-party resilience audits. |
+
+### United Kingdom Enterprise and Public Sector Playbooks
+
+!!! success "5 High-Conversion Deals in the United Kingdom"
+    1. **UK FinTech Migrating Off Expensive AWS `eu-west-2` EKS:** Move stateless Kubernetes clusters and managed PostgreSQL to **Civo UK Sovereign (`LON1`)** using the official `civo` Terraform provider — trimming monthly infra + egress spend by **50%+**.
+    2. **FCA/PRA Financial Operational Resilience (London + Scotland Split):** Anchor core enterprise recovery across **Pulsant London & Edinburgh/Manchester** or pair **AWS `eu-west-2`** with a tested warm-standby **Proxmox/OpenShift** cluster in **Telehouse / Equinix LD**.
+    3. **NHS HealthTech & Public Sector Supplier (`G-Cloud + HSCN`):** Lead with **Redcentric UK Sovereign Cloud**, bundling HSCN connectivity, UK-vetted support, and verified immutable DRaaS.
+    4. **UK Sovereign Enterprise AI (`UK + Green Nordic Compute`):** Use **Nscale** or **Civo Sovereign AI (H100/B200)** to train/fine-tune regulated models under UK corporate governance without queueing for scarce `eu-west-2` GPUs.
+    5. **Post-Brexit Dual EU + UK Compliance Split:** Use portable **OpenTofu + Kubernetes** stacks deploying UK-citizen data to **Civo London / Brightbox** and EU-citizen data simultaneously to **Amsterdam (`Cyso`/`Scaleway NL`)** or **Dublin/Paris (`OVHcloud`)**.
 """,
     "eu-cloud-iac-maturity.md": """## Pre-Sales Analysis: IaC Automation and Coverage vs Hyperscalers (100% Baseline)
 
@@ -233,6 +492,9 @@ A critical pre-sales honesty check: **AWS, Azure, and GCP maintain ~98–100% Ia
 | **STACKIT** | **75%** | Via Upjet / `provider-terraform` | Gardener Shoot CRDs | Official Ansible / OpenTofu | OpenStack + STACKIT REST | Very clean OpenTofu for SKE (Gardener K8s), OpenStack VMs, Postgres/MariaDB, Observability. |
 | **Hetzner** | **75% IaaS / 40% Total** | Community / Upjet | **Best-in-Class (`CAPH` Syself)** | Pulumi + `hcloud` Ansible | Hetzner Cloud REST | **100% coverage of its narrow IaaS scope**, but zero managed K8s/DBaaS — you automate those with Talos/K3s/CNPG. |
 | **Exoscale** | **75%** | Upjet / `provider-terraform` | Community | Pulumi + Ansible | CloudStack-rooted REST + S3 | Clean, fast Terraform for Compute, SKS Kubernetes, DBaaS, Security Groups, SOS S3. |
+| **cloudscale.ch** | **75%** | Upjet / `provider-terraform` | OpenStack / VSHN APPUiO | OpenTofu + Ansible | Swiss OpenStack + REST | Pure Swiss-owned API covering VMs, volumes, private networks, & S3 cleanly. |
+| **Leaseweb** | **65%** | Upjet / `provider-terraform` | Bare Metal / K8s PXE | OpenTofu + Ansible | Leaseweb REST + CloudStack | Automates NL/EU dedicated bare metal, private networking, & bandwidth bags cleanly. |
+| **Anexia** | **70%** | Native Crossplane + Upjet | Anexia Kubernetes Service | Official Terraform + Ansible | AnxCloud REST | Mature Austrian/DACH Terraform & Crossplane coverage (`anexia-it/anxcloud`). |
 | **UpCloud** | **75%** | Upjet / `provider-terraform` | Community | Ansible + OpenTofu | UpCloud REST + S3 | Full lifecycle for Madrid (`es-mad1`)/EU VMs, MaxIOPS, Managed K8s, Managed DBs, SDN routers. |
 | **Open Telekom Cloud** | **75%** | Upjet / OpenStack CRDs | OpenStack `CAPO` compatible | Official Ansible + OpenTofu | OpenStack + Huawei/OTC APIs | Mature coverage for VPCs, CCE Kubernetes, RDS, KMS, EVSs; slower feature velocity than Scaleway. |
 | **Civo (UK)** | **75%** | Upjet / `provider-terraform` | K3s/Talos native | Pulumi + Ansible | Civo REST + S3 | Built specifically for Terraform + Kubernetes-first automation; tiny IaaS surface makes 75%+ easy. |

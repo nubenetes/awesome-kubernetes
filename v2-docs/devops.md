@@ -1033,5 +1033,5 @@ description: "Top DevOps resources for 2026, AI-ranked: IaC Infrastructure as Co
 ---
 💡 **Explore Related:** [SRE](./sre.md) | [Developer Portals](./developerportals.md) | [Scaffolding](./scaffolding.md)
 
-🔗 **See Also:** [AWS](./aws.md) | [Kubernetes](./kubernetes.md)
+🔗 **See Also:** [MLOps](./mlops.md) | [AWS](./aws.md)
 
