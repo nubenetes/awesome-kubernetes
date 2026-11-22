@@ -156,21 +156,21 @@ Nubenetes V2 provides dedicated field guides for every major European cloud juri
 ### The 4 Levels of Cloud Sovereignty
 
 !!! warning "Pre-Sales Distinction: European Region != European Sovereignty"
-    Deploying in **AWS Madrid (`eu-south-2`)**, **Azure `Spain Central`**, or **GCP Madrid (`europe-southwest1`)** satisfies **Level 1 (Data Residency)**, but US-headquartered hyperscalers remain legally subject to **US extraterritorial statutes (US CLOUD Act / FISA 702)**. Pre-sales architects MUST classify every workload into one of four maturity levels before recommending a provider:
+    Deploying in **AWS (`Frankfurt` / `Paris` / `Madrid`)**, **Azure (`West Europe` / `France Central` / `Spain Central`)**, or **GCP (`Frankfurt` / `Milan` / `Madrid`)** satisfies **Level 1 (Data Residency)**, but US-headquartered hyperscalers remain legally subject to **US extraterritorial statutes (US CLOUD Act / FISA 702)**. Pre-sales architects MUST classify every workload into one of four maturity levels before recommending a provider:
 
 | Level | Sovereignty Tier | Technical and Legal Guarantees | Example Providers and Architectures |
 | :---: | :--- | :--- | :--- |
-| **L1** | **Data Residency Only** | Data physically stored inside EU/Spain borders; US parent retains control plane and legal compulsion exposure. | Standard AWS (`eu-south-2`), Azure (`Spain Central`), GCP (`europe-southwest1`) |
+| **L1** | **Data Residency Only** | Data physically stored inside European borders; US parent retains control plane and legal compulsion exposure. | Standard AWS (`eu-central-1`, `eu-west-3`, `eu-south-2`), Azure (`West Europe`, `Spain Central`), GCP (`europe-west3`, `europe-west8`) |
 | **L2** | **Operational Sovereignty** | Data + control-plane staff isolated inside the EU; local audit logs; customer-approvable support access (BYOK). | **AWS European Sovereign Cloud (Brandenburg)**, Google Sovereign Controls, Telefonica + Google Data Boundary |
 | **L3** | **Cryptographic Sovereignty (HYOK)** | Hardware HSM keys held outside cloud provider perimeter (**Hold Your Own Key** / Confidential Computing); provider cannot decrypt payloads. | **S3NS** (Thales + GCP), **Bleu** (Capgemini/Orange Azure), **Arsys / IONOS KMS + HSM**, private HSM + Kubernetes |
-| **L4** | **Full Legal and Jurisdictional Sovereignty** | **100% EU-headquartered, EU-owned legal entity**, EU operations, EU physical DCs; zero non-EU parent exposure + national security clearance. | **Spain:** Arsys, Gigas, Alhambra IT, Stackscale · **FR:** Outscale (SecNumCloud 3.2), OVHcloud, Scaleway, Cloud Temple · **DE:** STACKIT, IONOS, Hetzner · **IT:** Aruba (ACN QC3), Seeweb · **CH/SE:** Exoscale, Cleura, Elastx |
+| **L4** | **Full Legal and Jurisdictional Sovereignty** | **100% European-headquartered & owned legal entity**, European operations, European physical DCs; zero non-EU parent exposure + national security clearance. | **DE:** STACKIT, IONOS, Hetzner, Open Telekom · **FR:** Outscale (SecNumCloud 3.2), OVHcloud, Scaleway, Cloud Temple · **ES:** Arsys, Gigas, Alhambra IT, Stackscale · **IT:** Aruba (ACN QC3), Seeweb, WIIT · **NL/LU:** Nebius, Cyso, Leaseweb, LuxConnect · **CH/AT:** Exoscale, cloudscale.ch, VSHN · **Nordics:** Elastx, Cleura, UpCloud · **UK:** Civo, Pulsant |
 
 ### EU Regulatory and Compliance Justification Matrix
 
 | Regulation / Standard | Deadline and Scope | Mandatory Technical Requirements | Impact on Cloud Selection (Pre-Sales Justification) |
 | :--- | :--- | :--- | :--- |
-| **GDPR + Schrems II** | Active (All EU personal data) | Lawful transfer mechanism; Supplementary Measures; sub-processor transparency. | Eliminates cross-border legal friction when using L4 EU-owned providers in Spain/FR/DE. |
-| **DORA (EU 2022/2554)** | Enforced since **Jan 17, 2025** (Banking, Insurance, Critical ICT) | Full ICT Third-Party register; **Articles 28–30 mandatory tested Exit Plans**; **Concentration Risk** avoidance; pen-testing (TLPT). | Justifies **multi-provider architecture** (e.g., primary on Hyperscaler or Spanish DC + tested warm DR/exit on EU Sovereign Cloud using OpenTofu/Velero). |
+| **GDPR + Schrems II** | Active (All EU personal data) | Lawful transfer mechanism; Supplementary Measures; sub-processor transparency. | Eliminates cross-border legal friction when using L4 EU-owned providers across DE, FR, ES, IT, NL, and Nordics. |
+| **DORA (EU 2022/2554)** | Enforced since **Jan 17, 2025** (Banking, Insurance, Critical ICT) | Full ICT Third-Party register; **Articles 28–30 mandatory tested Exit Plans**; **Concentration Risk** avoidance; pen-testing (TLPT). | Justifies **multi-provider architecture** (e.g., primary on Hyperscaler or National Tier IV DC + tested warm DR/exit on EU Sovereign Cloud using OpenTofu/Velero). |
 | **NIS2 Directive** | Enforced (Energy, Health, Telco, Digital Infra, MSPs) | Supply-chain risk governance, 24h incident reporting, verified backup segmentation, zero unpatched exposure. | Mandates immutable offsite backups and verified regional MSP certifications (**ENS Medio/Alto**, **ISO 27001**, **BSI C5**). |
 | **EU Data Act (EU 2023/2854)** | Switching cap now; **Zero switching fees on Jan 12, 2027** (Art. 29) | Open APIs for functional portability; free migration egress on cloud exit. **Note:** ongoing daily internet egress stays billable! | Use **zero-egress EU clouds** (OVHcloud, Scaleway free tiers, Hetzner 20 TB, Stackscale, Alhambra IT) when daily outbound traffic drives hyperscaler bill shock. |
 | **EU AI Act** | Phased 2025–2027 (High-risk AI, foundation models) | Data lineage, model card documentation, sovereign training/inference auditability, privacy-preserving RAG. | Favors **Nebius, Scaleway, OVHcloud, Seeweb, Civo UK, Telefonica/MareNostrum 5**, or private on-prem GPU clusters for sensitive corporate weights/RAG. |
@@ -184,20 +184,30 @@ Nubenetes V2 provides dedicated field guides for every major European cloud juri
 ### Pre-Sales Architecture Decision Flow
 
 ```mermaid
-%%{init: {'themeVariables': {'fontSize': '14px'}, 'flowchart': {'htmlLabels': false, 'nodeSpacing': 36, 'rankSpacing': 64, 'padding': 16}}}%%
+%%{init: {'themeVariables': {'fontSize': '13px'}, 'flowchart': {'htmlLabels': false, 'nodeSpacing': 20, 'rankSpacing': 68, 'padding': 12}}}%%
 flowchart LR
     A(["Workload<br/>Assessment"]) --> B{{"L4 Legal<br/>Sovereignty?"}}
 
-    B -->|"Yes"| C{{"Target<br/>Market?"}}
-    C -->|"Spain"| D["Spain Sovereign Tier<br/>Arsys · Gigas · Alhambra<br/>Telefonica · Stackscale"]
-    C -->|"EU / UK"| E["EU Tier-1 Sovereign<br/>Outscale · OVH · Scaleway<br/>STACKIT · IONOS · Aruba"]
+    B -->|"Yes"| C{{"European<br/>Region?"}}
+    C -->|"Core / Alpine"| C1{{"DE · FR ·<br/>NL · CH"}}
+    C -->|"Med / North / UK"| C2{{"ES · IT ·<br/>SE/FI · UK"}}
+
+    C1 -->|"DE · BSI C5"| D1["Germany Sovereign<br/>STACKIT · IONOS · Hetzner<br/>Open Telekom · PlusServer"]
+    C1 -->|"FR · SecNum"| D2["France Sovereign<br/>3DS OUTSCALE · OVHcloud<br/>Scaleway · Cloud Temple"]
+    C1 -->|"NL/LU · DORA"| D3["Netherlands & Benelux<br/>Nebius · Leaseweb · Cyso<br/>Leafcloud · LuxConnect"]
+    C1 -->|"CH/AT · FINMA"| D4["Switzerland & Austria<br/>Exoscale · cloudscale.ch<br/>VSHN · Infomaniak · Anexia"]
+
+    C2 -->|"ES · ENS Alto"| D5["Spain Sovereign<br/>Arsys · Gigas · Alhambra<br/>Telefonica · Stackscale"]
+    C2 -->|"IT · ACN QC3"| D6["Italy Sovereign<br/>Aruba Cloud · Seeweb<br/>WIIT · ReeVo · PSN"]
+    C2 -->|"Nordics · eSam"| D7["Nordics 3-AZ & Green<br/>Elastx · Cleura · UpCloud<br/>Safespring · atNorth"]
+    C2 -->|"UK · NCSC"| D8["United Kingdom<br/>Civo · Pulsant · Brightbox<br/>Redcentric · Nscale"]
 
     B -->|"No"| F{{"Proprietary<br/>Cloud PaaS?"}}
-    F -->|"Yes"| G["Hyperscaler L1 / L2<br/>+ EU Sovereign DR Vault<br/>(DORA Exit Plan)"]
+    F -->|"Yes"| G["Hyperscaler L1 / L2<br/>+ EU Sovereign DR Vault<br/>(DORA / FCA Exit Plan)"]
     F -->|"No"| H{{"Primary<br/>Driver?"}}
 
-    H -->|"High Egress"| I["EU Cloud / Bare Metal<br/>Hetzner · OVH · Scaleway<br/>UpCloud (40-75% Less)"]
-    H -->|"NVIDIA GPU"| J["EU AI Factories<br/>Nebius · Scaleway · OVH<br/>Seeweb · Merlin-Edged"]
+    H -->|"High Egress"| I["EU Cloud / Bare Metal<br/>Hetzner · OVH · Scaleway<br/>Leaseweb · UpCloud"]
+    H -->|"NVIDIA GPU"| J["EU AI Factories<br/>Nebius · Scaleway · OVH<br/>Seeweb · atNorth · Nscale"]
     H -->|"VMware Exit"| K["Hypervisor Migration<br/>Proxmox VE · OpenStack<br/>CloudStack · OpenShift 5"]
 ```
 
@@ -205,21 +215,21 @@ flowchart LR
 
 *Indicative 2026 monthly production run-rate comparisons (EUR/month, list on-demand/committed baselines without opaque enterprise NDA discounts):*
 
-| Workload Scenario | Reference Spec (24x7 Monthly) | US Hyperscaler Baseline (AWS / Azure / GCP EU) | EU Tier-1 Alternative (OVHcloud / Scaleway / Hetzner / STACKIT) | Spanish Sovereign MSP (Arsys / Gigas / Alhambra / Stackscale) | Pre-Sales Savings & Commercial Root Cause |
+| Workload Scenario | Reference Spec (24x7 Monthly) | US Hyperscaler Baseline (AWS / Azure / GCP EU) | EU Tier-1 Alternative (OVHcloud / Scaleway / Hetzner / STACKIT) | National Sovereign MSP (Arsys · STACKIT · Cloud Temple · Aruba · WIIT · Exoscale) | Pre-Sales Savings & Commercial Root Cause |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Production Kubernetes Cluster (Medium SaaS)** | 6x 8 vCPU / 32 GB nodes + 2 TB NVMe block + 2 LBs + **25 TB outbound egress** | **EUR 3,450 – 4,200 / mo** *(~EUR 2,100 egress alone at ~EUR 0.085/GB!)* | **EUR 420 – 1,050 / mo** *(Hetzner Cloud EUR 420; OVH MKS ~EUR 850 zero egress)* | **EUR 1,150 – 1,950 / mo** *(Includes local L3 managed SLA & ENS Alto)* | **55–88% cheaper** — EU providers eliminate hyperscaler egress taxes and control-plane fees. |
-| **2. Legacy VMware Consolidation (Post-Broadcom)** | 128 physical cores, 2 TB RAM, 80 TB NVMe SAN (100+ VMs) | **EUR 9,500 – 14,000 / mo** *(VMware on Hyperscaler or IaaS refactor)* | **EUR 3,200 – 5,500 / mo** *(Bare Metal Proxmox VE + Ceph or OpenStack KVM)* | **EUR 4,500 – 7,800 / mo** *(Managed VCSP / Sovereign Private Cloud EUR/month OPEX)* | **45–68% cheaper** — avoids Broadcom VCF core-bundle shock via Proxmox/OpenStack or MSP pooled VCSP licensing. |
-| **3. Private Enterprise RAG and vLLM Inference Node** | 1x dedicated 8x NVIDIA H100 (80 GB) node + 10 TB NVMe + 50 TB egress | **EUR 24,000 – 32,000 / mo** *(p5/NDv5 on-demand + data transfer)* | **EUR 11,500 – 16,500 / mo** *(Nebius / Scaleway / OVHcloud H100)* | **EUR 13,000 – 18,500 / mo** *(Liquid-cooled colocation or Seeweb/AI partner lease)* | **45–55% cheaper** with sovereign model-weight residency and zero cross-region prompt leakage. |
-| **4. 100 TB Sovereign Backup & WORM Vault** | 100 TB S3 Object Storage with Object Lock (immutability) + 3x full DR restores/yr | **EUR 2,400 – 3,100 / mo** + **EUR 2,500+ per restore test** | **EUR 600 – 900 / mo** *(OVH / Scaleway / Hetzner S3 Object Storage)* | **EUR 950 – 1,500 / mo** *(Arsys / Alhambra / Gigas ENS Alto S3)* | **60–75% cheaper** and makes **DORA quarterly restore tests** financially viable. |
+| **1. Production Kubernetes Cluster (Medium SaaS)** | 6x 8 vCPU / 32 GB nodes + 2 TB NVMe block + 2 LBs + **25 TB outbound egress** | **EUR 3,450 – 4,200 / mo** *(~EUR 2,100 egress alone at ~EUR 0.085/GB!)* | **EUR 420 – 1,050 / mo** *(Hetzner Cloud EUR 420; OVH MKS ~EUR 850 zero egress)* | **EUR 1,150 – 2,150 / mo** *(Includes local L3 managed SLA & ENS/BSI/ACN/FINMA compliance)* | **55–88% cheaper** — EU providers eliminate hyperscaler egress taxes and control-plane fees. |
+| **2. Legacy VMware Consolidation (Post-Broadcom)** | 128 physical cores, 2 TB RAM, 80 TB NVMe SAN (100+ VMs) | **EUR 9,500 – 14,000 / mo** *(VMware on Hyperscaler or IaaS refactor)* | **EUR 3,200 – 5,500 / mo** *(Bare Metal Proxmox VE + Ceph or OpenStack KVM)* | **EUR 4,500 – 7,800 / mo** *(Managed VCSP / Sovereign Private Cloud EUR/CHF OPEX)* | **45–68% cheaper** — avoids Broadcom VCF core-bundle shock via Proxmox/OpenStack or MSP pooled VCSP licensing. |
+| **3. Private Enterprise RAG and vLLM Inference Node** | 1x dedicated 8x NVIDIA H100 (80 GB) node + 10 TB NVMe + 50 TB egress | **EUR 24,000 – 32,000 / mo** *(p5/NDv5 on-demand + data transfer)* | **EUR 11,500 – 16,500 / mo** *(Nebius / Scaleway / OVHcloud H100)* | **EUR 13,000 – 18,500 / mo** *(Sovereign GPU lease via Seeweb / Scaleway / Merlin-Edged / Nscale)* | **45–55% cheaper** with sovereign model-weight residency and zero cross-region prompt leakage. |
+| **4. 100 TB Sovereign Backup & WORM Vault** | 100 TB S3 Object Storage with Object Lock (immutability) + 3x full DR restores/yr | **EUR 2,400 – 3,100 / mo** + **EUR 2,500+ per restore test** | **EUR 600 – 900 / mo** *(OVH / Scaleway / Hetzner / Exoscale SOS S3)* | **EUR 950 – 1,500 / mo** *(Certified national S3 Object Lock via Arsys / IONOS / Aruba / WIIT)* | **60–75% cheaper** and makes **DORA quarterly restore tests** financially viable. |
 
 ### When Does Each Cloud Tier Win (Pre-Sales Playbook)
 
 | Customer Scenario | Winning Choice | Why It Wins | Pre-Sales Red Flag to Surface Early |
 | :--- | :--- | :--- | :--- |
-| **Spanish Ministry, Town Hall, Hospital, or Public Contractor** | **Arsys, Gigas, Alhambra IT, or Telefonica Tech VDC** | Turnkey **ENS Alto**, Spanish contract/billing, 24x7 Spanish L3 engineering, fast public-tender compliance. | Do not pitch raw Hetzner (lacks ENS Alto) unless wrapped inside an ENS Alto certified Spanish MSP layer. |
-| **Bank / FinTech / Insurer Under DORA** | **Dual-Cloud (Hyperscaler + L4 EU Secondary, or Telefonica + OVH/Alhambra/STACKIT)** | Satisfies DORA Art. 28–30 **exit plan** & eliminates single-vendor concentration risk. | Beware claiming "2 AZs inside 1 hyperscaler region" satisfies DORA exit — regulators require cross-provider portability. |
-| **High-Bandwidth SaaS, Streaming, CDN Origin, or AI Dataset Hub** | **OVHcloud, Scaleway, Hetzner, or Stackscale** | Zero or massively included egress eliminates 50–80% of monthly cloud bills. | Verify inter-region vs internet egress fine print (some providers meter inter-DC private vRack/trunking differently). |
-| **Pure GitOps / Kubernetes Platform Team (Terraform + Argo + Talos)** | **Scaleway, OVHcloud, STACKIT, IONOS, Exoscale, or Hetzner** | Mature OpenTofu/CAPI providers (75–85% parity) + Managed K8s or bare metal with Talos Linux. | Confirm OIDC workload identity and BGP LoadBalancer automation before committing to zero-touch pipelines. |
+| **Regulated National Public Sector, Health, or Defense** | **DE:** STACKIT / Open Telekom / Delos · **FR:** 3DS OUTSCALE / Cloud Temple · **ES:** Arsys / Gigas / Alhambra / Telefonica · **IT:** PSN / Aruba · **CH:** cloudscale.ch / Swisscom · **UK:** Redcentric / Civo | Turnkey national security clearance (**BSI C5, SecNumCloud 3.2, ENS Alto, ACN QC3, FINMA, G-Cloud**), local contract/billing, zero foreign control chain. | Never pitch uncertified commodity VPS hosts for public tenders unless wrapped inside an accredited national sovereign MSP layer. |
+| **Bank / FinTech / Insurer Under DORA or FCA-PRA** | **Dual-Cloud Multi-Country (Hyperscaler + L4 EU Secondary, or DE+ES / FR+NL / CH+AT Sovereign Pairs)** | Satisfies DORA Art. 28–30 **tested exit plan** & eliminates single-vendor concentration risk across independent power grids. | Beware claiming "2 AZs inside 1 hyperscaler region" satisfies DORA exit — regulators require cross-provider portability. |
+| **High-Bandwidth SaaS, Streaming, CDN Origin, or AI Dataset Hub** | **OVHcloud, Scaleway, Hetzner, Leaseweb, Stackscale, or UpCloud** | Zero or massively included egress eliminates 50–80% of monthly cloud bills across Europe. | Verify inter-region vs internet egress fine print (some providers meter inter-DC private trunking differently). |
+| **Pure GitOps / Kubernetes Platform Team (Terraform + Argo + Talos)** | **Scaleway, OVHcloud, STACKIT, IONOS, Exoscale, Cleura, Elastx, Civo, or Hetzner** | Mature OpenTofu/CAPI/Crossplane providers (75–85% parity) + Managed K8s or bare metal with Talos Linux. | Confirm OIDC workload identity and BGP LoadBalancer automation before committing to zero-touch pipelines. |
 | **Enterprise With Heavy Serverless / Event-Driven / BigQuery Dependency** | **Keep AWS / Azure / GCP** (+ S3 sovereign EU backup vault) | Managed PaaS depth (Lambda, DynamoDB, BigQuery, Foundry/Bedrock) saves 3–6 FTE platform engineers. | Never underestimate the refactoring cost of proprietary managed DBs/queues during a rushed "lift-and-exit" pitch. |
 """,
     "eu-cloud-spain.md": """## Pre-Sales Field Guide: Spain Sovereign Cloud and Private Data Centers
