@@ -89,6 +89,15 @@
 - [Oracle Cloud (OCI)](https://nubenetes.com/oraclecloud/)
 - [Public Cloud Solutions](https://nubenetes.com/public-cloud-solutions/)
 
+### European Sovereign Cloud & Private DCs
+- [France & Germany Cloud Champions](https://nubenetes.com/eu-cloud-france-germany/)
+- [IaC Automation & Maturity vs Hyperscalers](https://nubenetes.com/eu-cloud-iac-maturity/)
+- [Italy, UK, Nordics & Benelux](https://nubenetes.com/eu-cloud-italy-uk-nordics/)
+- [RPO, RTO, SLAs, DRP & Replication](https://nubenetes.com/eu-cloud-resilience-sla/)
+- [Spain Sovereign Cloud & Private DCs](https://nubenetes.com/eu-cloud-spain/)
+- [Hypervisors, IaaS, K8s & Sovereign AI](https://nubenetes.com/eu-cloud-workloads-stack/)
+- [EU Sovereign Cloud Overview & TCO](https://nubenetes.com/eu-sovereign-cloud/)
+
 ### Networking & Service Mesh
 - [Caching](https://nubenetes.com/caching/)
 - [Cloudflare](https://nubenetes.com/cloudflare/)

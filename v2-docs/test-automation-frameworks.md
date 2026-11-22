@@ -35,7 +35,7 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
 
 #### Openstack Testing
 
-  - **(2024)** [**Tempest Testing Project**](https://docs.openstack.org/tempest/latest) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes Tempest, the comprehensive open-source integration test suite designed specifically to validate OpenStack cloud deployments. Evaluates how Tempest performs API validation and functional scenario testing across core OpenStack components (like Nova, Neutron, and Keystone) to ensure infrastructure conformance and stability.
+  - **(2024)** [**Tempest Testing Project**](https://docs.openstack.org/tempest/latest) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Analyzes Tempest, the comprehensive open-source integration test suite designed specifically to validate OpenStack cloud deployments. Evaluates how Tempest performs API validation and functional scenario testing across core OpenStack components (like Nova, Neutron, and Keystone) to ensure infrastructure conformance and stability.
 ## Cucumber And Appium. Behavior Driven Development
 
   - [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: API Testing With Cucumber covering Cucumber and Appium. Behavior Driven Development in Test Automation Frameworks (dzone.com).
@@ -183,5 +183,5 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
 ---
 💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [AWS Backup](./aws-backup.md)
 

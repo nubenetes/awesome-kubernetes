@@ -31,7 +31,7 @@ description: "Top kubectl Commands resources for 2026, AI-ranked: complete-alias
 
 #### Deployment Tools
 
-  - **(2023)** [==Kubernetes Continuous Deploy==](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Jenkins plugin designed to coordinate container deployment pipelines, allowing seamless application delivery onto Kubernetes clusters. It handles cluster authentication, manifest interpolation, and rollout verification, although modern enterprise GitOps architectures have largely transitioned target deployments to ArgoCD or Flux.
+  - **(2023)** [==Kubernetes Continuous Deploy==](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A specialized Jenkins plugin designed to coordinate container deployment pipelines, allowing seamless application delivery onto Kubernetes clusters. It handles cluster authentication, manifest interpolation, and rollout verification, although modern enterprise GitOps architectures have largely transitioned target deployments to ArgoCD or Flux.
 #### Jenkins Integration
 
   - **(2024)** [==Jenkins Kubernetes Plugin==](https://plugins.jenkins.io/kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational plugin that integrates Jenkins with Kubernetes clusters to dynamically provision Jenkins agent pods on-demand. By leveraging Kubernetes namespaces and resources, it ensures isolated build environments, scaling agent capacity up during intensive test stages and scaling down to save compute budget.
@@ -173,10 +173,10 @@ description: "Top kubectl Commands resources for 2026, AI-ranked: complete-alias
 
 #### Etcd Storage Tuning
 
-  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
+  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [AWS Backup](./aws-backup.md)
 

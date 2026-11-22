@@ -63,7 +63,7 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
   - **(2021)** [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines how continuous documentation practices supported by Swimm accelerate engineering onboarding, ensuring new developers have real-time, context-aware code blueprints.
 #### Knowledge Base
 
-  - **(2026)** [Atlassian Confluence](https://www.atlassian.com/software/confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise corporate wiki and collaborative document editor platform. Helps development teams compile, search, and maintain technical wikis, sprint retrospectives, and Architecture Decision Records (ADRs).
+  - **(2026)** [Atlassian Confluence](https://www.atlassian.com/software/confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Enterprise corporate wiki and collaborative document editor platform. Helps development teams compile, search, and maintain technical wikis, sprint retrospectives, and Architecture Decision Records (ADRs).
   - **(2020)** [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting three popular open-source alternatives to Confluence, enabling teams to build customizable, cost-effective, and secure self-hosted internal documentation bases.
 #### Note-taking
 
@@ -96,5 +96,5 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
 ---
 💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

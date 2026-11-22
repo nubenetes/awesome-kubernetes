@@ -93,7 +93,7 @@ description: "Top Chaos Engineering resources for 2026, AI-ranked: Chaos Mesh, c
   - **(2021)** [thenewstack.io: Use Chaos Engineering to Strengthen Your Incident Response](https://thenewstack.io/use-chaos-engineering-to-strengthen-your-incident-response)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how structured chaos experiments improve an organization's incident response systems. By executing planned simulations, teams refine alert routing, on-call page distributions, incident runbooks, and cross-functional post-mortems.
 #### Serverless Systems
 
-  - **(2021)** [thenewstack.io: Breaking Serverless on Purpose with Chaos Engineering](https://thenewstack.io/breaking-serverless-on-purpose-with-chaos-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the challenges and methods of injecting faults into ephemeral, serverless environments (e.g., AWS Lambda). Discusses techniques like wrapper-based latency injection, API response mocking, and runtime variable tampering to validate failure paths.
+  - **(2021)** [thenewstack.io: Breaking Serverless on Purpose with Chaos Engineering](https://thenewstack.io/breaking-serverless-on-purpose-with-chaos-engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Explores the challenges and methods of injecting faults into ephemeral, serverless environments (e.g., AWS Lambda). Discusses techniques like wrapper-based latency injection, API response mocking, and runtime variable tampering to validate failure paths.
 #### Stateful Systems
 
   - **(2021)** [thenewstack.io: Using Chaos Engineering to Improve the Resilience of Stateful Applications on Kubernetes](https://thenewstack.io/using-chaos-engineering-to-improve-the-resilience-of-stateful-applications-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes specific failure paradigms and risk mitigation patterns when practicing chaos engineering on stateful Kubernetes applications. Evaluates how databases, storage queues, and shared volumes respond to network latency, node crashes, and storage attachment failures.
@@ -104,5 +104,5 @@ description: "Top Chaos Engineering resources for 2026, AI-ranked: Chaos Mesh, c
 ---
 💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

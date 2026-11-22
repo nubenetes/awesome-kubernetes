@@ -354,7 +354,7 @@ description: "Top GitOps resources for 2026, AI-ranked: Helm, openshift-applier 
 
 #### Automated Operations
 
-  - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
+  - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
 ## Infrastructure As Code (3)
 
 ### Kubernetes Provisioning
@@ -403,7 +403,7 @@ description: "Top GitOps resources for 2026, AI-ranked: Helm, openshift-applier 
 
 ### Developer Velocity
 
-  - **(2021)** [thenewstack.io: Application Deployment Is Faster with GitOps](https://thenewstack.io/application-deployment-is-faster-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines quantitative performance gains of transitioning to GitOps. Details dramatic reductions in mean time to resolution (MTTR), accelerated deployment frequencies, and positive impacts on overall DORA metrics.
+  - **(2021)** [thenewstack.io: Application Deployment Is Faster with GitOps](https://thenewstack.io/application-deployment-is-faster-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Outlines quantitative performance gains of transitioning to GitOps. Details dramatic reductions in mean time to resolution (MTTR), accelerated deployment frequencies, and positive impacts on overall DORA metrics.
 ## Multi-cluster
 
 ### Decentralization
@@ -479,5 +479,5 @@ description: "Top GitOps resources for 2026, AI-ranked: Helm, openshift-applier 
 ---
 💡 **Explore Related:** [CI/CD](./cicd.md) | [Argo](./argo.md) | [Flux](./flux.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [Demos](./demos.md) | [Introduction](./introduction.md)
 

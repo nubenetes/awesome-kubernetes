@@ -75,6 +75,7 @@
                 <button type="button" class="v2-pill" data-filter="EMERGING" aria-pressed="false">Emerging</button>
                 <button type="button" class="v2-pill" data-filter="AI-MCP" aria-pressed="false">AI &amp; MCP</button>
                 <button type="button" class="v2-pill" data-filter="RAG-OKF" aria-pressed="false">RAG &amp; OKF</button>
+                <button type="button" class="v2-pill" data-filter="SOVEREIGN-EU" aria-pressed="false">Sovereign EU</button>
                 <button type="button" class="v2-pill" data-filter="GITHUB" aria-pressed="false">GitHub</button>
                 <button type="button" class="v2-pill" data-filter="GUIDE" aria-pressed="false">Guide</button>
                 <button type="button" class="v2-pill" data-filter="CASE STUDY" aria-pressed="false">Case Study</button>
@@ -179,6 +180,9 @@
                 return item.tags.some(tag =>
                     ["[RAG]", "[OKF]", "[GRAPHRAG]"].some(k => tag.includes(k))
                 ) || /\b(rag|okf|open knowledge format|graphrag|pageindex|vectorless|mem0|graphiti|letta)\b/.test(item.text);
+            }
+            if (filterKey === "SOVEREIGN-EU") {
+                return item.tags.some(tag => tag.includes("[SOVEREIGN-EU]")) || /\b(sovereign|ens alto|secnumcloud|bsi c5|dora|eu data act|gaia-x|arsys|gigas|alhambra|telefonica|stackscale|ovhcloud|scaleway|outscale|hetzner|ionos|stackit|exoscale|upcloud|aruba|seeweb|civo|cleura|elastx|nebius)\b/.test(item.text);
             }
             if (filterKey === "FRESH-2025-2026") {
                 return item.year >= 2025;

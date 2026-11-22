@@ -43,7 +43,7 @@ description: "Top Developer Portals resources for 2026, AI-ranked: apisix, Backs
   - **(2023)** [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://chakray.com/why-api-lifecycle-management-is-must-organisation-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues the necessity of complete lifecycle governance—from design and prototyping to retirement—for managing systemic API environments. Details risk minimization and development streamlining benefits.
 #### Case Studies
 
-  - **(2022)** [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights corporate collaboration structures between Kong and Red Hat. Evaluates unified cloud-native operator setups to quickly provision API boundaries within complex enterprise networks.
+  - **(2022)** [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/news/kong-and-red-hat-collaboration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Highlights corporate collaboration structures between Kong and Red Hat. Evaluates unified cloud-native operator setups to quickly provision API boundaries within complex enterprise networks.
 #### Cloud Services
 
   - **(2026)** [Google Apigee API Manager](https://cloud.google.com/apigee) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's premier enterprise API management platform designed to build, secure, and monitor APIs globally. Provides integrated developer portals, advanced machine learning-driven threat detection, and seamless serverless hosting layers.
@@ -129,16 +129,16 @@ description: "Top Developer Portals resources for 2026, AI-ranked: apisix, Backs
 
 ### Auto API
 
-  - **(2026)** [REST Auto API Tutorial](https://www.high-mobility.com/car-api) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — REST Auto API Tutorial: Curated technical resource in Developerportals.
+  - **(2026)** [REST Auto API Tutorial](https://www.high-mobility.com/car-api) 🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — REST Auto API Tutorial: Curated technical resource in Developerportals.
 ### Kong API Manager
 
-  - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Breaking Up a Monolithic Database with Kong covering Kong API Manager in Developerportals (dzone.com).
+  - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Technical documentation and implementation reference for dzone: Breaking Up a Monolithic Database with Kong covering Kong API Manager in Developerportals (dzone.com).
 ### Rapid API Marketplace. Free Public And Open REST Apis
 
-  - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: RapidAPI Provides API Marketplace and Insight covering Rapid API Marketplace. Free Public and Open REST APIs in Developerportals (dzone.com).
+  - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Technical documentation and implementation reference for dzone: RapidAPI Provides API Marketplace and Insight covering Rapid API Marketplace. Free Public and Open REST APIs in Developerportals (dzone.com).
 ### Spring Cloud Gateway
 
-  - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Custom Rate Limiting for Microservices 🌟 covering Spring Cloud Gateway in Developerportals (dzone.com).
+  - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Technical documentation and implementation reference for dzone: Custom Rate Limiting for Microservices 🌟 covering Spring Cloud Gateway in Developerportals (dzone.com).
 ## Domain Apis
 
 ### Automotive
@@ -174,7 +174,7 @@ description: "Top Developer Portals resources for 2026, AI-ranked: apisix, Backs
 #### Insurtech
 
   - **(2026)** [Open Insurance](https://openinsurance.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An initiative advocating for open API standards within the insurance sector (Insurtech). It establishes data exchange models for claims processing, policy management, and underwritings to promote interoperability among traditional and digital insurers.
-  - **(2026)** [santalucia.es](https://api-market.santalucia.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Santalucía's corporate API marketplace, streamlining business-to-business integrations for digital insurance products. It exposes quoting engines, client registrations, and insurance claims endpoints to external partners.
+  - **(2026)** [santalucia.es](https://api-market.santalucia.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — Santalucía's corporate API marketplace, streamlining business-to-business integrations for digital insurance products. It exposes quoting engines, client registrations, and insurance claims endpoints to external partners.
 #### Open Banking
 
   - **(2026)** [openbankingtracker.com](https://www.openbankingtracker.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — A specialized tracking directory detailing open banking regulations, standards, APIs, and market readiness metrics globally. It acts as an architectural ledger monitoring PSD2 implementation and global banking API catalog availability.
@@ -281,7 +281,7 @@ description: "Top Developer Portals resources for 2026, AI-ranked: apisix, Backs
 
 #### Terminal Emulators
 
-  - **(2026)** [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern, Rust-based terminal emulator incorporating AI agent assistance directly into the command-line interface. Reimagines input fields like text editors, supports real-time workspace collaboration, and native context-sharing for accelerated platform ops troubleshooting.
+  - **(2026)** [Warp: The Agentic Development Environment](https://www.warp.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A modern, Rust-based terminal emulator incorporating AI agent assistance directly into the command-line interface. Reimagines input fields like text editors, supports real-time workspace collaboration, and native context-sharing for accelerated platform ops troubleshooting.
 ### Programming Paradigms
 
 #### Functional Programming

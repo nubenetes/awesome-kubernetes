@@ -39,7 +39,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: AWS Backup Service, 
 
 #### On-premises
 
-  - **(2020)** [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A video demonstrating VM Import/Export steps to convert on-premises hypervisor disk images directly into active AWS EC2 instances. Live Grounding points out that while modern migration favors automated agents like AWS MGN, raw VM imports are still critical for offline image importing, licensing checks, and legacy OS setups.
+  - **(2020)** [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be) 🌟🌟🌟 <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A video demonstrating VM Import/Export steps to convert on-premises hypervisor disk images directly into active AWS EC2 instances. Live Grounding points out that while modern migration favors automated agents like AWS MGN, raw VM imports are still critical for offline image importing, licensing checks, and legacy OS setups.
 ## Data and Analytics
 
 ### Data Protection
@@ -55,7 +55,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: AWS Backup Service, 
 
 ##### Single Region
 
-  - **(2020)** [**Disaster Recovery with AWS Managed Services, Part I: Single Region**](https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-services-part-i-single-region) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — The first installment of an AWS technical series discussing single-region disaster recovery designs using server backups and managed services. Live Grounding points to this as a standard primer for establishing concrete RPO and RTO profiles before attempting multi-region failover configurations.
+  - **(2020)** [**Disaster Recovery with AWS Managed Services, Part I: Single Region**](https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-services-part-i-single-region) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — The first installment of an AWS technical series discussing single-region disaster recovery designs using server backups and managed services. Live Grounding points to this as a standard primer for establishing concrete RPO and RTO profiles before attempting multi-region failover configurations.
 #### AWS Compute
 
 ##### EC2
@@ -82,7 +82,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: AWS Backup Service, 
   - **(2019)** [How to Restore Your Instance Data from a Backup using Snapshots on AWS EC2/EBS](https://www.cloudinsidr.com/content/how-to-restore-your-instance-data-from-a-backup-using-snapshots-on-aws-ec2ebs) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tactical guide demonstrating how to execute data restoration and replacement tasks on AWS EC2 instances from existing EBS volume snapshots. Live Grounding indicates that while manual recovery commands remain core knowledge, enterprise architectures automate these tasks via Infrastructure-as-Code and policy engines.
 ##### Veeam Integration
 
-  - **(2016)** [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An AWS announcement detailing integration between Veeam Backup & Replication and the virtual tape library (VTL) functionality of AWS Storage Gateway. Live Grounding highlights how this hybrid solution continues to serve traditional enterprises transitioning to the cloud while maintaining legacy archiving requirements.
+  - **(2016)** [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9) 🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An AWS announcement detailing integration between Veeam Backup & Replication and the virtual tape library (VTL) functionality of AWS Storage Gateway. Live Grounding highlights how this hybrid solution continues to serve traditional enterprises transitioning to the cloud while maintaining legacy archiving requirements.
 #### Chaos Engineering
 
   - **(2026)** [==Chaos Monkey==](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) <span class='md-tag md-tag--info'>⭐ 7984</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-714af8dc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 5 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-714af8dc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[PYTHON / GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Netflix's classic Chaos Monkey implementation, designed to randomly disable instances in production to prove resiliency. Live Grounding identifies Chaos Monkey as the conceptual grandfather of contemporary Chaos Engineering, asserting that regular, controlled failure injection is a critical architectural requirement for distributed systems.
@@ -99,5 +99,5 @@ description: "Top AWS Backup resources for 2026, AI-ranked: AWS Backup Service, 
 ---
 💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
+🔗 **See Also:** [Demos](./demos.md) | [DevOps](./devops.md)
 

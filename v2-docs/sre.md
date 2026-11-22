@@ -67,7 +67,7 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 
 ### State Of DevOps. Googles DevOps Research And Assessment DORA
 
-  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
+  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
 ## Infrastructure
 
 ### Storage
@@ -239,5 +239,5 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 ---
 💡 **Explore Related:** [DevOps](./devops.md) | [Developer Portals](./developerportals.md) | [Scaffolding](./scaffolding.md)
 
-🔗 **See Also:** [MLOps](./mlops.md) | [AWS](./aws.md)
+🔗 **See Also:** [MLOps](./mlops.md) | [FinOps](./finops.md)
 

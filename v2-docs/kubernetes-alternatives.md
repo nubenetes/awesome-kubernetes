@@ -145,7 +145,7 @@ description: "Top Kubernetes Alternatives resources for 2026, AI-ranked: dreamla
 
 #### State Of DevOps. Googles DevOps Research And Assessment DORA
 
-  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
+  - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Technical documentation and implementation reference for itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps covering State of DevOps. Googles DevOps Research and Assessment DORA in DevOps (techtarget.com).
 ## Serverless Architecture
 
 ### Edge Computing
@@ -163,5 +163,5 @@ description: "Top Kubernetes Alternatives resources for 2026, AI-ranked: dreamla
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
+🔗 **See Also:** [AWS New Features](./aws-newfeatures.md) | [Azure](./azure.md)
 

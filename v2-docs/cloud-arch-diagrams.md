@@ -81,7 +81,7 @@ description: "Top Cloud Architecture Diagrams resources for 2026, AI-ranked: Pla
 
 #### AWS (1)
 
-  - **(2024)** [AWS Architecture Icons](https://aws.amazon.com/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS collection containing current vector and raster design components. Indispensable for creating detailed corporate visual documents and modeling secure serverless or container networks.
+  - **(2024)** [AWS Architecture Icons](https://aws.amazon.com/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Official AWS collection containing current vector and raster design components. Indispensable for creating detailed corporate visual documents and modeling secure serverless or container networks.
 #### Azure
 
   - **(2024)** [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's official repository of Azure resource icons curated to help technical architects build compliant and standard system architectures. Perfect for structuring visual documentation in accordance with the Microsoft Cloud Adoption Framework.

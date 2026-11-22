@@ -46,7 +46,7 @@ description: "Top TestOps resources for 2026, AI-ranked: Diffblue, copyist and m
   - **(2016)** [gcreddy.com: Domain Knowledge for Software Testers](https://www.gcreddy.com/2016/06/domain-knowledge-for-testers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Underlines the value of vertical-specific domain expertise in the software testing lifecycle. Points out that technical automated tests must be paired with functional understanding to capture logic-level bugs.
 #### Testops Strategy
 
-  - **(2021)** [**opcito.com: TestOps: How to automate your software pipeline at the speed' of DevOps**](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on incorporating high-frequency test automation steps into standard continuous delivery environments. Details patterns for dynamic mock environments and rollback automation based on test feedback loops.
+  - **(2021)** [**opcito.com: TestOps: How to automate your software pipeline at the speed' of DevOps**](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on incorporating high-frequency test automation steps into standard continuous delivery environments. Details patterns for dynamic mock environments and rollback automation based on test feedback loops.
   - **(2020)** [**devops.com: Shift-Right Testing: The Emergence of TestOps**](https://devops.com/shift-right-testing-the-emergence-of-testops) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines Shift-Right testing methodologies and TestOps workflows. Advocates validating configurations directly against production deployments under active user loads, supported by analytics and monitoring tools.
   - **(2020)** [devopsonline.co.uk: DevOps and the emergence of TestOps!](https://www.devopsonline.co.uk/devops-and-the-emergence-of-testops) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses operational alignment challenges between DevOps deployment speeds and QA operations. Argues for the programmatic codification of testing metrics and test configurations directly within target pipelines.
 ## Development Methodology
@@ -104,5 +104,5 @@ description: "Top TestOps resources for 2026, AI-ranked: Diffblue, copyist and m
 ---
 💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

@@ -355,7 +355,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2021)** [Gitpod Open Sources a ‘Holistic IDE’](https://thenewstack.io/gitpod-open-sources-a-holistic-ide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Chronicles Gitpod's transition to open source, highlighting pre-configured, ephemeral development environments running as secure containerized workspaces. It serves as a core model for modern cloud-based development environments (CDE).
 #### Trends
 
-  - **(2021)** [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the shift from high-compute developer laptops to cloud-hosted development environments (CDEs). Evaluates performance gains, corporate IP security improvements, and simplified onboarding pipelines.
+  - **(2021)** [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — Analyzes the shift from high-compute developer laptops to cloud-hosted development environments (CDEs). Evaluates performance gains, corporate IP security improvements, and simplified onboarding pipelines.
 ### Configuration Management
 
 #### VS Code Tooling (8)
@@ -451,7 +451,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2019)** [gitpod.io 🌟🌟](https://ona.com) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Gitpod provides Ephemeral Cloud Development Environments (CDEs) automated by Git triggers. It prebuilds workspaces with dependencies, licenses, and compilers, letting engineers begin writing code instantly.
 #### Online Sandboxes
 
-  - **(2016)** [Repl.it](https://replit.com) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, collaborative cloud workspace supporting over fifty languages. Replit incorporates instant deployment engines, hosting layers, and AI pairing models to democratize software construction.
+  - **(2016)** [Repl.it](https://replit.com) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — An interactive, collaborative cloud workspace supporting over fifty languages. Replit incorporates instant deployment engines, hosting layers, and AI pairing models to democratize software construction.
 ## Development Tools
 
 ### AI Assistance
@@ -599,5 +599,5 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 ---
 💡 **Explore Related:** [JavaScript](./javascript.md) | [Golang](./golang.md) | [Python](./python.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

@@ -61,7 +61,7 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2026)** [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural scenario walkthrough evaluating VPC partition layout designs. Focuses on address planning, NAT placements, security group hierarchies, and transit routing rules within high-availability clouds.
 #### Database and SQL
 
-  - **(2026)** [artoftesting.com: Top 40 SQL Query Interview Questions and Answers for Practice](https://artoftesting.com/sql-queries-for-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical SQL query cookbook focusing on technical interview situations. Demonstrates complex nested joins, window analytic functions, indexing patterns, and deduplication queries under high-performance criteria.
+  - **(2026)** [artoftesting.com: Top 40 SQL Query Interview Questions and Answers for Practice](https://artoftesting.com/sql-queries-for-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A practical SQL query cookbook focusing on technical interview situations. Demonstrates complex nested joins, window analytic functions, indexing patterns, and deduplication queries under high-performance criteria.
   - **(2026)** [gcreddy.com: SQL Interview Questions and Answers](https://www.gcreddy.com/2022/02/sql-interview-questions-and-answers.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides fundamental SQL database query interview questions. Teaches logical query execution paths, normalization theories, basic syntax structure, and joining mechanisms across tabular databases.
   - **(2026)** [intellipaat.com: Top Answers to MySQL Interview Questions](https://intellipaat.com/blog/interview-question/mysql-interview-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on MySQL transactional optimizations and engineering details. Covers storage engines (InnoDB configurations), lock structures, indexing hierarchies, and query execution optimizations.
 #### Git and Version Control
@@ -200,5 +200,5 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
 ---
 💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [AWS](./aws.md)
+🔗 **See Also:** [AWS](./aws.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

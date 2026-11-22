@@ -29,15 +29,15 @@ description: "Curated, AI-ranked HR resources for the 2026 Cloud Native architec
 
 #### Company Handbooks
 
-  - **(2026)** [about.gitlab.com/handbook](https://handbook.gitlab.com/handbook) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — GitLab's public corporate handbook is an open-source operations manual. It serves as an architectural blueprint for remote-first team organization, development culture, and structured transparency frameworks.
+  - **(2026)** [about.gitlab.com/handbook](https://handbook.gitlab.com/handbook) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — GitLab's public corporate handbook is an open-source operations manual. It serves as an architectural blueprint for remote-first team organization, development culture, and structured transparency frameworks.
 ### Work Culture
 
 #### Startups (1)
 
-  - **(2026)** [elconfidencial.com: Olvida RRHH, ahora es el Departamento de Diversión: la infantilización del país de las 6.000 'startups'](https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study investigating modern employee retention trends in high-tech environments, specifically exploring the architectural shifts in human resources and corporate cultural structures.
+  - **(2026)** [elconfidencial.com: Olvida RRHH, ahora es el Departamento de Diversión: la infantilización del país de las 6.000 'startups'](https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — An analytical study investigating modern employee retention trends in high-tech environments, specifically exploring the architectural shifts in human resources and corporate cultural structures.
 
 ---
 💡 **Explore Related:** [Recruitment](./recruitment.md) | [FinOps](./finops.md) | [Freelancing](./freelancing.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

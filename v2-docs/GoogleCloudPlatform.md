@@ -125,7 +125,7 @@ description: "Top Google Cloud Platform (GCP) resources for 2026, AI-ranked: db-
   - **(2026)** [Google Cloud Build](https://cloud.google.com/build) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's serverless continuous integration and continuous delivery platform, enabling high-performance builds across multiple languages. The curator highlights its deep integration with GKE and secure Docker artifact pipelines. Live telemetry confirms that Cloud Build is highly effective for cost-sensitive scaling operations due to its pay-as-you-go billing model.
 #### DevOps Frameworks
 
-  - **(2026)** [cloud.google.com: DevOps](https://cloud.google.com/devops) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's primary DevOps hub, anchoring its research around DORA (DevOps Research and Assessment) and native cloud capabilities like Cloud Build and GKE. Curator reviews emphasize high-velocity software delivery architectures. Modern GCP engineering patterns rely on these principles to deploy secure, distributed, and containerized architectures on Google Cloud Platform.
+  - **(2026)** [cloud.google.com: DevOps](https://cloud.google.com/devops) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Google Cloud's primary DevOps hub, anchoring its research around DORA (DevOps Research and Assessment) and native cloud capabilities like Cloud Build and GKE. Curator reviews emphasize high-velocity software delivery architectures. Modern GCP engineering patterns rely on these principles to deploy secure, distributed, and containerized architectures on Google Cloud Platform.
 #### Developer Tools
 
   - **(2026)** [Cloud Developer Tools](https://cloud.google.com/products/tools) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory of Google Cloud developer tools, spanning Cloud Shell, Artifact Registry, and Cloud Code extensions. The curator highlights its streamline-driven integration with local IDE environments. Live platform development metrics show these tools dramatically reduce local setup time for developers building serverless applications or microservices targeted at GCP.
@@ -363,5 +363,5 @@ description: "Top Google Cloud Platform (GCP) resources for 2026, AI-ranked: db-
 ---
 💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [IBM Cloud](./ibm_cloud.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md)
+🔗 **See Also:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

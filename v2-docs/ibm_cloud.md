@@ -47,7 +47,7 @@ description: "Top IBM Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
 
 #### Bare Metal Installation
 
-  - **(2021)** [Installing OCP in a Mainframe z-series](https://www.redhat.com/en/blog/installing-ocp-in-a-mainframe-z-series) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical installation playbook detailing step-by-step procedures to bootstrap OpenShift Container Platform on physical IBM z-series hardware. The document covers hypervisor setup, configuration of IBM z/VM or KVM on s390x, ignition file delivery, and DNS resolution strategies specific to high-availability mainframe deployments.
+  - **(2021)** [Installing OCP in a Mainframe z-series](https://www.redhat.com/en/blog/installing-ocp-in-a-mainframe-z-series) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — A highly technical installation playbook detailing step-by-step procedures to bootstrap OpenShift Container Platform on physical IBM z-series hardware. The document covers hypervisor setup, configuration of IBM z/VM or KVM on s390x, ignition file delivery, and DNS resolution strategies specific to high-availability mainframe deployments.
 #### Deployment Experience
 
   - **(2020)** [Red Hat OpenShift Installation Process Experiences on IBM Z/LinuxONE](https://www.redhat.com/en/blog/red-hat-openshift-installation-process-experiences-on-ibm-z-linuxone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive practical review of provisioning OpenShift on IBM Z and LinuxONE infrastructures, discussing user-provisioned infrastructure (UPI) workflows. It details network configuration challenges, storage integration (FCP/FC), and operating system (RHCOS) deployment mechanics typical of s390x systems.
@@ -80,7 +80,7 @@ description: "Top IBM Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
 
 ##### Corporate Strategy
 
-  - **(2020)** [xataka.com: IBM se multiplica: la IBM de siempre mantiene el foco en la nube, pero crea una nueva empresa para los servicios de red gestionados 🌟](https://www.xataka.com/pro/ibm-se-parte-dos-109-anos-despues-nube-da-dinero-que-se-creara-empresa-centrada-ella) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Spanish-language news analysis explaining IBM's historical split that spun off Kyndryl to focus IBM squarely on Hybrid Cloud and AI. Live Grounding verifies this corporate reorganization succeeded in clarifying IBM's strategic technology focus around OpenShift and hybrid cloud workloads.
+  - **(2020)** [xataka.com: IBM se multiplica: la IBM de siempre mantiene el foco en la nube, pero crea una nueva empresa para los servicios de red gestionados 🌟](https://www.xataka.com/pro/ibm-se-parte-dos-109-anos-despues-nube-da-dinero-que-se-creara-empresa-centrada-ella) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> — A Spanish-language news analysis explaining IBM's historical split that spun off Kyndryl to focus IBM squarely on Hybrid Cloud and AI. Live Grounding verifies this corporate reorganization succeeded in clarifying IBM's strategic technology focus around OpenShift and hybrid cloud workloads.
 ### Cloud Providers
 
 #### IBM Cloud
@@ -97,5 +97,5 @@ description: "Top IBM Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
 ---
 💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [Ansible](./ansible.md) | [Demos](./demos.md)
 

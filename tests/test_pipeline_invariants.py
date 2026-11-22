@@ -77,9 +77,63 @@ class TestPipelineInvariants(unittest.TestCase):
             "dotnet": ".NET",
             "devsecops": "DevSecOps",
             "openshift": "OpenShift",
+            "eu-sovereign-cloud": "EU Sovereign Cloud Overview & TCO",
+            "eu-cloud-spain": "Spain Sovereign Cloud & Private DCs",
+            "eu-cloud-france-germany": "France & Germany Cloud Champions",
+            "eu-cloud-italy-uk-nordics": "Italy, UK, Nordics & Benelux",
+            "eu-cloud-iac-maturity": "IaC Automation & Maturity vs Hyperscalers",
+            "eu-cloud-workloads-stack": "Hypervisors, IaaS, K8s & Sovereign AI",
+            "eu-cloud-resilience-sla": "RPO, RTO, SLAs, DRP & Replication",
         }
         for slug, expected in expected_polished.items():
             self.assertEqual(get_readable_category(slug), expected)
+
+    def test_eu_sovereign_pillar_registered_and_rendered(self):
+        from src.config import NUBENETES_CATEGORIES
+        from src.fast_enrich import DIMENSIONS as FAST_DIMS, DISPLAY_NAMES
+        from src.news_digest import NewsDigestEngine
+        from src.eu_sovereign_blueprints import EU_SOVEREIGN_BLUEPRINTS
+
+        eu_slugs = [
+            "eu-sovereign-cloud",
+            "eu-cloud-spain",
+            "eu-cloud-france-germany",
+            "eu-cloud-italy-uk-nordics",
+            "eu-cloud-iac-maturity",
+            "eu-cloud-workloads-stack",
+            "eu-cloud-resilience-sla",
+        ]
+        dim_name = "European Sovereign Cloud & Private DCs"
+        self.assertIn(dim_name, FAST_DIMS)
+        self.assertIn("European Sovereign Cloud", NewsDigestEngine.DIGEST_CATEGORIES)
+
+        with open(os.path.join(REPO_ROOT, "v2-mkdocs.yml"), "r", encoding="utf-8") as f:
+            v2_mkdocs_txt = f.read()
+        with open(os.path.join(REPO_ROOT, "mkdocs.yml"), "r", encoding="utf-8") as f:
+            v1_mkdocs_txt = f.read()
+        with open(os.path.join(REPO_ROOT, "v2-docs/api/index.json"), "r", encoding="utf-8") as f:
+            api_catalog = json.load(f)
+
+        self.assertIn(dim_name, api_catalog.get("dimensions", []))
+        api_slugs = {c["slug"] for c in api_catalog.get("categories", [])}
+
+        for slug in eu_slugs:
+            fname = f"{slug}.md"
+            self.assertIn(slug, NUBENETES_CATEGORIES)
+            self.assertIn(slug, DISPLAY_NAMES)
+            self.assertIn(slug, FAST_DIMS[dim_name])
+            self.assertIn(slug, NewsDigestEngine.DIGEST_CATEGORIES["European Sovereign Cloud"])
+            self.assertIn(fname, EU_SOVEREIGN_BLUEPRINTS)
+            self.assertIn(fname, v2_mkdocs_txt)
+            self.assertIn(fname, v1_mkdocs_txt)
+            self.assertIn(slug, api_slugs)
+            v2_path = os.path.join(REPO_ROOT, "v2-docs", fname)
+            self.assertTrue(os.path.exists(v2_path), f"Missing generated V2 page {v2_path}")
+            with open(v2_path, "r", encoding="utf-8") as f:
+                v2_body = f.read()
+            self.assertIn('okf_version: "0.3"', v2_body[:600])
+            self.assertIn("type: curation-hub", v2_body[:600])
+            self.assertIn(EU_SOVEREIGN_BLUEPRINTS[fname].splitlines()[0], v2_body)
 
     def test_boilerplate_and_historical_heuristics(self):
         from src.fast_enrich import is_boilerplate_summary
