@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "APIs with SOAP, REST and gRPC"
+dimension: "Developer Ecosystem"
+resource_count: 115
+fresh_2025_2026_count: 20
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/api.md"
 description: "Top API resources for 2026, AI-ranked: AsyncAPI, GraphQL and more — curated Cloud Native tools, guides and references."
 ---
 # APIs with SOAP, REST and gRPC
@@ -94,7 +103,7 @@ description: "Top API resources for 2026, AI-ranked: AsyncAPI, GraphQL and more 
 
 #### Tooling
 
-  - **(2021)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4d4eae7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 12 L 20 6 L 30 9 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-4d4eae7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Node.js CLI tool and library that extracts JSDoc-style comments from source code files to generate valid OpenAPI (Swagger) specifications automatically, streamlining API contract maintenance during local development.
+  - **(2021)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4d4eae7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 12 L 20 6 L 30 9 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-4d4eae7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Node.js CLI tool and library that extracts JSDoc-style comments from source code files to generate valid OpenAPI (Swagger) specifications automatically, streamlining API contract maintenance during local development.
 ### API Strategy
 
 #### Business Design
@@ -218,7 +227,7 @@ description: "Top API resources for 2026, AI-ranked: AsyncAPI, GraphQL and more 
   - **(2024)** [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the structural foundations of Simple Object Access Protocol (SOAP). It describes key architectural elements such as the SOAP Envelope, Header, Body, and Fault structures alongside the WSDL (Web Services Description Language) interface definitions. While largely replaced by REST and JSON in modern applications, SOAP remains critical in highly secure financial and enterprise systems.
 #### Public Directories
 
-  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 492122</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a55c819f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 11 L 30 6 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-a55c819f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
+  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 492122</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a55c819f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 11 L 30 6 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-a55c819f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
   - **(2023)** [**freecodecamp.org: Public APIs Developers Can Use in Their Projects**](https://www.freecodecamp.org/news/public-apis-for-developers) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces a handpicked list of highly functional public APIs suited for portfolio projects and app prototypes. The compilation features modern REST APIs that do not require complex OAuth authorization flows, covering categories like machine learning, weather forecasting, financial data, and geolocation. It serves as an accessible entry-point for learning API integration patterns.
 #### Strategic Governance
 
@@ -408,7 +417,7 @@ description: "Top API resources for 2026, AI-ranked: AsyncAPI, GraphQL and more 
   - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AWS](./aws.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AWS](./aws.md)
 

@@ -1,5 +1,14 @@
 ---
-description: "Curated, AI-ranked Chromedevtools resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+type: curation-hub
+okf_version: "0.3"
+name: "Chrome and Firefox DevTools. HTTP Protocols and WebSockets"
+dimension: "Developer Ecosystem"
+resource_count: 8
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ChromeDevTools.md"
+description: "Curated, AI-ranked Chrome DevTools resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
 ---
 # Chrome and Firefox DevTools. HTTP Protocols and WebSockets
 
@@ -9,6 +18,11 @@ description: "Curated, AI-ranked Chromedevtools resources for the 2026 Cloud Nat
 !!! info "Architectural Context"
     Detailed reference for Chrome and Firefox DevTools. HTTP Protocols and WebSockets in the context of Developer Ecosystem.
 
+## Chromedevtools
+
+### Other Tools
+
+  - [jsontoolbox.com](https://www.jsontoolbox.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsontoolbox.com covering Other Tools in Chromedevtools (jsontoolbox.com).
 ## Developer Workspace
 
 ### Diagnostics and Debugging
@@ -22,12 +36,9 @@ description: "Curated, AI-ranked Chromedevtools resources for the 2026 Cloud Nat
   - **(2022)** [blog.bitsrc.io: Google Chrome Hidden Features Every Developer Should Know](https://blog.bitsrc.io/google-chrome-experimental-features-for-developers-a9a7cc9d1b30)  <span class='md-tag md-tag--warning'>[EMERGING]</span> — Explores experimental diagnostic protocols, visual overrides, and command-palette functions hidden inside the DevTools application framework to streamline daily workflows.
   - **(2022)** [dev.to: My 12 Favorite Chrome Extensions as a Web Developer](https://dev.to/otomer/my-12-favorite-chrome-extensions-as-a-web-developer-56eg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-curated list of productivity-focused Google Chrome extensions. Highlights tools tailored for layout styling, security inspection, and high-density JSON schema visualization.
   - **(2021)** [digitalocean.com: How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive tutorial on attaching Chrome DevTools directly to Node.js backend processes. Step-by-step guidance on setting execution break points, inspecting call stacks, and detecting memory leaks.
-## Other Tools
-
-  - [jsontoolbox.com](https://www.jsontoolbox.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsontoolbox.com covering Other Tools in Chromedevtools (jsontoolbox.com).
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

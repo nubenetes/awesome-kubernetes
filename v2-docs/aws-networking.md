@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS Networking"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 57
+fresh_2025_2026_count: 15
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-networking.md"
 description: "Top AWS Networking resources for 2026, AI-ranked: Application Load Balancer, Elastic Network Adapter and more — curated Cloud Native tools, guides and references."
 ---
 # AWS Networking
@@ -220,7 +229,7 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - **(2026)** [Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable](https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable covering Subsea Cables in AWS Networking (engineering.fb.com).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 

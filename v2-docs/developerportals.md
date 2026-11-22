@@ -1,5 +1,14 @@
 ---
-description: "Top Developerportals resources for 2026, AI-ranked: apisix, Backstage Developer Portal and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "API Marketplaces. API Management with API Gateways and Developer Portals"
+dimension: "Platform & Site Reliability"
+resource_count: 81
+fresh_2025_2026_count: 45
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/developerportals.md"
+description: "Top Developer Portals resources for 2026, AI-ranked: apisix, Backstage Developer Portal and more — curated Cloud Native tools, guides and references."
 ---
 # API Marketplaces. API Management with API Gateways and Developer Portals
 
@@ -92,16 +101,13 @@ description: "Top Developerportals resources for 2026, AI-ranked: apisix, Backst
 #### API Gateways
 
   - **(2021)** [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes architectural design patterns for structuring enterprise APIs by layering domain services behind a unified API Gateway layer. Discusses decoupling strategies, cross-cutting concerns (auth, rate-limiting), and how to avoid anti-patterns when decomposing monoliths into distributed microservice topologies.
-## Auto API
-
-  - **(2026)** [REST Auto API Tutorial](https://www.high-mobility.com/car-api) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — REST Auto API Tutorial: Curated technical resource in Developerportals.
 ## Developer Experience
 
 ### Ai-assisted Coding
 
 #### Claude Code
 
-  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 68250</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 13 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+  - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 68250</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 13 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
 #### Cursor IDE
 
   - **(2025)** [Cursor AI Fundamentals Course](https://cursor.com/es/learn)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational program designed to train engineers on utilizing the Cursor AI code editor effectively. The curriculum covers foundational concepts of context inclusion, codebase indexing, and multi-file code transformations. It teaches developers how to write highly optimized prompts to synthesize software architecture and debug legacy systems directly inside the IDE.
@@ -119,6 +125,20 @@ description: "Top Developerportals resources for 2026, AI-ranked: apisix, Backst
 ##### Open Source
 
   - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
+## Developerportals
+
+### Auto API
+
+  - **(2026)** [REST Auto API Tutorial](https://www.high-mobility.com/car-api) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — REST Auto API Tutorial: Curated technical resource in Developerportals.
+### Kong API Manager
+
+  - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Breaking Up a Monolithic Database with Kong covering Kong API Manager in Developerportals (dzone.com).
+### Rapid API Marketplace. Free Public And Open REST Apis
+
+  - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: RapidAPI Provides API Marketplace and Insight covering Rapid API Marketplace. Free Public and Open REST APIs in Developerportals (dzone.com).
+### Spring Cloud Gateway
+
+  - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Custom Rate Limiting for Microservices 🌟 covering Spring Cloud Gateway in Developerportals (dzone.com).
 ## Domain Apis
 
 ### Automotive
@@ -181,7 +201,7 @@ description: "Top Developerportals resources for 2026, AI-ranked: apisix, Backst
 
 #### Cloud Native
 
-  - **(2026)** [==apisix==](https://github.com/apache/apisix) <span class='md-tag md-tag--info'>⭐ 16724</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-182e8c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 9 L 30 10 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-182e8c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache APISIX is a high-performance, dynamic cloud-native API gateway built on Nginx and OpenResty. It provides dynamic routing, active health checking, security protection, and telemetry integration, utilizing etcd for state storage to achieve ultra-low latency configurations.
+  - **(2026)** [==apisix==](https://github.com/apache/apisix) <span class='md-tag md-tag--info'>⭐ 16724</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-182e8c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 9 L 30 10 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-182e8c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[LUA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache APISIX is a high-performance, dynamic cloud-native API gateway built on Nginx and OpenResty. It provides dynamic routing, active health checking, security protection, and telemetry integration, utilizing etcd for state storage to achieve ultra-low latency configurations.
 #### Go Engines
 
   - **(2026)** [==KrakenD: The fastest API gateway comes with true linear scalability 🌟==](https://www.krakend.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KrakenD is an enterprise-ready, open-source API Gateway engineered for linear scalability and ultra-high performance. By utilizing a stateless execution model, it avoids the overhead of internal database lookups, delivering sub-millisecond routing, data transformation, and endpoint aggregation.
@@ -205,9 +225,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: apisix, Backst
 #### Transport Layer Security
 
   - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
-## Kong API Manager
-
-  - [dzone: Breaking Up a Monolithic Database with Kong](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Breaking Up a Monolithic Database with Kong covering Kong API Manager in Developerportals (dzone.com).
 ## Platform Engineering
 
 ### Developer Portal
@@ -222,9 +239,6 @@ description: "Top Developerportals resources for 2026, AI-ranked: apisix, Backst
 #### Tutorials (1)
 
   - **(2024)** [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical guide to bootstrapping Backstage, configuring the software catalog, and writing custom templates. The resource outlines practical steps to integrate local tooling with the developer portal, enabling swift adoption of self-service developer templates.
-## Rapid API Marketplace. Free Public And Open REST Apis
-
-  - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: RapidAPI Provides API Marketplace and Insight covering Rapid API Marketplace. Free Public and Open REST APIs in Developerportals (dzone.com).
 ## Software Architecture and .NET Development
 
 ### Artificial Intelligence
@@ -273,12 +287,9 @@ description: "Top Developerportals resources for 2026, AI-ranked: apisix, Backst
 #### Functional Programming
 
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
-## Spring Cloud Gateway
-
-  - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Custom Rate Limiting for Microservices 🌟 covering Spring Cloud Gateway in Developerportals (dzone.com).
 
 ---
 💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Scaffolding](./scaffolding.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

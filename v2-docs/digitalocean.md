@@ -1,5 +1,14 @@
 ---
-description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Community Tools and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Digital Ocean"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 11
+fresh_2025_2026_count: 5
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/digitalocean.md"
+description: "Top DigitalOcean resources for 2026, AI-ranked: Digital Ocean, Community Tools and more — curated Cloud Native tools, guides and references."
 ---
 # Digital Ocean
 
@@ -52,7 +61,9 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 #### Digitalocean App Platform
 
   - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
-## General Reference
+## Digitalocean (2)
+
+### General Reference
 
   - [scaleway.com](https://www.scaleway.com/en/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for scaleway.com in the Digitalocean ecosystem (scaleway.com).
 ## Web Servers
@@ -64,7 +75,7 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
   - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

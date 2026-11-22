@@ -1,5 +1,14 @@
 ---
-description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, GitHub Copilot and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Development and Frameworks. Websites for web developers"
+dimension: "Developer Ecosystem"
+resource_count: 36
+fresh_2025_2026_count: 9
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/devel-sites.md"
+description: "Top Developer Sites resources for 2026, AI-ranked: Build Your Own X, GitHub Copilot and more — curated Cloud Native tools, guides and references."
 ---
 # Development and Frameworks. Websites for web developers
 
@@ -57,7 +66,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 
 #### Desktop Clients
 
-  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5763</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-74db2c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 6 L 30 13 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-74db2c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
+  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5763</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-74db2c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 6 L 30 13 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-74db2c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
 ## DevOps Automation and Modern Systems Engineering
 
 ### Software Engineering Principles
@@ -65,6 +74,12 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### Developer Cognitive Load
 
   - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
+## Devel Sites
+
+### Introduction
+
+  - [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977?gi=243ed891f0ab) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now covering Introduction in Devel Sites (python.plainenglish.io).
+  - [dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow covering Introduction in Devel Sites (dzone.com).
 ## Developer Productivity
 
 ### Integrated Development Environments
@@ -103,10 +118,6 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### Software Collections
 
   - **(2021)** [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally) <span class='md-tag md-tag--warning'>[C/C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release summary detailing Red Hat Software Collections 3.8 and Developer Toolset 11. Explains runtime lifecycle considerations, package availability, and GCC version upgrades for building enterprise software on RHEL platforms.
-## Introduction
-
-  - [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977?gi=243ed891f0ab) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now covering Introduction in Devel Sites (python.plainenglish.io).
-  - [dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow covering Introduction in Devel Sites (dzone.com).
 ## Software Engineering
 
 ### API Management
@@ -156,7 +167,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2022)** [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative study evaluating the architectural paradigms of Angular vs. React. Evaluates runtime performance, state management approaches, scaling potential, and long-term maintenance overhead in large-scale enterprise portals.
 #### Learning Paths (2)
 
-  - **(2024)** [**El camino del Frontend Developer**](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3536</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3419045" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 8 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e3419045)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An extensive frontend development roadmap repository, detailing system tools, CSS architectures, modern frameworks (React, Vue, Angular), and build systems (Vite, Webpack) required for client engineering.
+  - **(2024)** [**El camino del Frontend Developer**](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3536</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3419045" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 8 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e3419045)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An extensive frontend development roadmap repository, detailing system tools, CSS architectures, modern frameworks (React, Vue, Angular), and build systems (Vite, Webpack) required for client engineering.
 #### Trending
 
   - **(2021)** [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5) <span class='md-tag md-tag--warning'>[JAVASCRIPT/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Weekly technical snapshot capturing ten trending open-source projects on GitHub, focusing on next-generation web platforms, development libraries, and modular application utilities.
@@ -183,7 +194,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

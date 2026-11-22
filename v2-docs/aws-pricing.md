@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS Pricing and Cost Optimization"
+dimension: "Architectural Foundations"
+resource_count: 18
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-pricing.md"
 description: "Curated, AI-ranked AWS Pricing resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # AWS Pricing and Cost Optimization
@@ -29,9 +38,13 @@ description: "Curated, AI-ranked AWS Pricing resources for the 2026 Cloud Native
 #### Finops Strategy
 
   - **(2022)** [==calculator.aws: AWS Total Cost of Ownership (TCO) Calculators==](https://calculator.aws) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official pricing modeling platform for AWS cloud architectures. Empowers engineers to compute operational expenses and model total cost of ownership forecasts before initiating system builds.
-  - **(2021)** [==Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight==](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Guide to building operational cost dashboards via AWS CUDOS and Amazon QuickSight. Translates complex billing files into detailed visualizations tracking anomalous expenditure patterns in real time.
   - **(2022)** [**thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans**](https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details critical commercial risks of long-term Reserved Instance and Savings Plan commitments. Outlines how changing architecture styles can render fixed financial contracts inefficient over time.
-  - **(2021)** [cloudkatha.com: How to Setup Budget in AWS to Keep your Bill in Check](https://cloudkatha.com/how-to-setup-budget-in-aws-to-keep-your-bill-in-check) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide outlining how to implement AWS Budgets to prevent unexpected invoice spikes. Walks through setup thresholds, dynamic notifications, and SNS bindings crucial for early infrastructure accounts.
+
+??? archive "Historical and Legacy References (2 pre-2022 or legacy items)"
+
+    - **(2021)** [==Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight==](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Guide to building operational cost dashboards via AWS CUDOS and Amazon QuickSight. Translates complex billing files into detailed visualizations tracking anomalous expenditure patterns in real time.
+    - **(2021)** [cloudkatha.com: How to Setup Budget in AWS to Keep your Bill in Check](https://cloudkatha.com/how-to-setup-budget-in-aws-to-keep-your-bill-in-check) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide outlining how to implement AWS Budgets to prevent unexpected invoice spikes. Walks through setup thresholds, dynamic notifications, and SNS bindings crucial for early infrastructure accounts.
+
 #### Kubernetes Finops
 
   - **(2021)** [==cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation' (EKS)==](https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explores Kubernetes resource provisioning on EKS using automated container allocations. Offers strategies to prevent container-level over-provisioning and dynamically handle node scaling tasks to curb cluster waste.
@@ -65,7 +78,7 @@ description: "Curated, AI-ranked AWS Pricing resources for the 2026 Cloud Native
   - **(2022)** [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural techniques to trim EKS clusters expenditures, describing auto-scalers (Karpenter), spot instances usage, strict namespace limits, and FinOps practices to optimize CPU allocation.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

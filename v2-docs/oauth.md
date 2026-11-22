@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "OAuth2"
+dimension: "Architectural Foundations"
+resource_count: 5
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/oauth.md"
 description: "Curated, AI-ranked Oauth resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # OAuth2
@@ -34,7 +43,7 @@ description: "Curated, AI-ranked Oauth resources for the 2026 Cloud Native archi
   - **(2022)** [freecodecamp.org: How to Implement an OAuth2 Resource Server with Spring Security](https://www.freecodecamp.org/news/oauth2-resourceserver-with-spring-security) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation tutorial detailing the deployment of an OAuth2-compliant resource server using Spring Security. It guides through configuring middleware to parse and authenticate incoming JWT requests.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

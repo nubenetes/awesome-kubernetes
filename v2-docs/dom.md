@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Document Object Model (DOM)"
+dimension: "Architectural Foundations"
+resource_count: 4
+fresh_2025_2026_count: 3
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/dom.md"
 description: "Curated, AI-ranked Dom resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # Document Object Model (DOM)
@@ -27,7 +36,7 @@ description: "Curated, AI-ranked Dom resources for the 2026 Cloud Native archite
   - **(2026)** [freecodecamp.org: JavaScript DOM Tutorial – How to Build a Calculator App' in JS](https://www.freecodecamp.org/news/javascript-dom-build-a-calculator-app) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical, task-oriented tutorial on DOM manipulation designed for front-end engineers. It walks through building an interactive UI component from scratch, emphasizing dynamic node creation, event handling, and performant state updates in native JavaScript.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

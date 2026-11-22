@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Project Management Tools"
+dimension: "Platform & Site Reliability"
+resource_count: 26
+fresh_2025_2026_count: 14
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/project-management-tools.md"
 description: "Top Project Management Tools resources for 2026, AI-ranked: joplin, Google Docs: doc.new and more — curated Cloud Native tools, guides and references."
 ---
 # Project Management Tools
@@ -85,7 +94,7 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
   - **(2026)** [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard browser shortcut (`repo.new`) designed to route authenticated developer sessions directly to GitHub's repository creation workspace. Enables rapid workspace initialization and deployment pipeline seeding.
 
 ---
-💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
+💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developer Portals](./developerportals.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

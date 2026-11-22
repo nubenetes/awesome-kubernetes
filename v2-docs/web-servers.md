@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more"
+dimension: "Networking & Service Mesh"
+resource_count: 21
+fresh_2025_2026_count: 6
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/web-servers.md"
 description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and more — curated Cloud Native tools, guides and references."
 ---
 # Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
@@ -31,7 +40,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
   - **(2025)** [unit.nginx.org](https://unit.nginx.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official portal for NGINX Unit, a dynamic, lightweight application server designed to run polyglot microservices simultaneously. Dynamically configured on the fly via JSON REST APIs without service disruption.
 #### CICD
 
-  - **(2020)** [Apache Reverse Proxy for Jenkins](https://github.com/nubenetes/apache-reverse-proxy-jenkins) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dac7b8da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 13 L 30 7 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-dac7b8da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[APACHECONF CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A historical configuration repository detailing reverse-proxy deployment configurations for Jenkins behind Apache. Due to more than 4 years of inactivity, it is maintained as a legacy setup reference.
+  - **(2020)** [Apache Reverse Proxy for Jenkins](https://github.com/nubenetes/apache-reverse-proxy-jenkins) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dac7b8da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 13 L 30 7 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-dac7b8da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[APACHECONF CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A historical configuration repository detailing reverse-proxy deployment configurations for Jenkins behind Apache. Due to more than 4 years of inactivity, it is maintained as a legacy setup reference.
 #### NGINX Handbooks
 
   - **(2021)** [freecodecamp.org: The NGINX Handbook 🌟](https://www.freecodecamp.org/news/the-nginx-handbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A master handbook exploring NGINX server architecture. Reviews custom security header injections, performance caching designs, proxy configurations, and advanced debugging processes for production environments.
@@ -90,7 +99,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Service Mesh](./servicemesh.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

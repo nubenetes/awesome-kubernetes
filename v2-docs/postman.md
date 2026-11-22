@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Test Automation with Postman. API Testing"
+dimension: "Developer Ecosystem"
+resource_count: 19
+fresh_2025_2026_count: 11
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/postman.md"
 description: "Top Postman resources for 2026, AI-ranked: Newman, Postman and more — curated Cloud Native tools, guides and references."
 ---
 # Test Automation with Postman. API Testing
@@ -90,7 +99,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman and mor
   - **(2026)** [Linkedin: API Testing with Postman — Build a Dynamic Test Suite](https://www.linkedin.com/pulse/api-testing-postman-build-dynamic-test-suite-michael-montgomery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial for engineering highly dynamic, data-driven test suites inside Postman. Highlights variable scoping, pre-request scripts, and test scripting to dynamically adapt across environments.
 #### CLI Tools
 
-  - **(2026)** [==Newman==](https://github.com/postmanlabs/newman) <span class='md-tag md-tag--info'>⭐ 7270</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c00a7314" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 6 L 30 12 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-c00a7314)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Newman is a command-line collection runner for Postman. Developed with Node.js, it facilitates direct integration of Postman test suites into Jenkins, GitLab CI, and GitHub Actions environments.
+  - **(2026)** [==Newman==](https://github.com/postmanlabs/newman) <span class='md-tag md-tag--info'>⭐ 7270</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c00a7314" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 6 L 30 12 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-c00a7314)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Newman is a command-line collection runner for Postman. Developed with Node.js, it facilitates direct integration of Postman test suites into Jenkins, GitLab CI, and GitHub Actions environments.
 #### Java Frameworks
 
   - **(2026)** [techwebspace.com: Get Started with the REST Assured Framework: An Example-based Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exhaustive, code-based architectural guide detailing REST Assured, a Java DSL engine for automated API validation. It highlights domain-specific testing structures that integrate cleanly into JUnit/TestNG ecosystems.
@@ -102,7 +111,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman and mor
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

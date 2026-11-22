@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS Big Data"
+dimension: "Architectural Foundations"
+resource_count: 9
+fresh_2025_2026_count: 4
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-data.md"
 description: "Top AWS Data resources for 2026, AI-ranked: AWS Data Pipeline, Using Spark SQL for ETL and more — curated Cloud Native tools, guides and references."
 ---
 # AWS Big Data
@@ -42,7 +51,7 @@ description: "Top AWS Data resources for 2026, AI-ranked: AWS Data Pipeline, Usi
   - [Using Spark SQL for ETL](https://aws.amazon.com/blogs/big-data/using-spark-sql-for-etl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Using Spark SQL for ETL covering Introduction in AWS (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

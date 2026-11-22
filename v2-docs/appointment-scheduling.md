@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Appointment Scheduling Software"
+dimension: "Career & Industry"
+resource_count: 11
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/appointment-scheduling.md"
 description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly, Acuity Scheduling and more — curated Cloud Native tools, guides and references."
 ---
 # Appointment Scheduling Software
@@ -36,7 +45,7 @@ description: "Top Appointment Scheduling resources for 2026, AI-ranked: Calendly
   - [Google Calendar appointment slots](https://support.google.com/calendar/answer/11608416?visit_id=639264263696151393-1274317728&rd=1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Google Calendar appointment slots in the Appointment Scheduling ecosystem (support.google.com).
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

@@ -62,6 +62,10 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
         f"topic:opentofu+pushed:>{pushed_cutoff}+stars:>25",
         f"topic:terraform+topic:github-actions+pushed:>{pushed_cutoff}+stars:>20",
         f"topic:service-mesh+pushed:>{pushed_cutoff}+stars:>100",
+        f"topic:gateway-api+OR+topic:cilium+pushed:>{pushed_cutoff}+stars:>50",
+        f"topic:opentelemetry+pushed:>{pushed_cutoff}+stars:>100",
+        f"topic:kyverno+OR+topic:falco+OR+topic:sigstore+pushed:>{pushed_cutoff}+stars:>50",
+        f"topic:finops+OR+topic:karpenter+OR+topic:opencost+pushed:>{pushed_cutoff}+stars:>30",
         f"topic:platform-engineering+pushed:>{pushed_cutoff}+stars:>100",
     ]
     all_repos = []
@@ -181,9 +185,17 @@ async def discover_trending_assets() -> list[dict]:
             category = "mlops"
         elif "ai" in desc_lower or "agent" in desc_lower or "llm" in desc_lower:
             category = "ai"
-        elif "ebpf" in desc_lower or "cilium" in desc_lower or "ebpf" in topics_set:
+        elif "ebpf" in desc_lower or "cilium" in desc_lower or "gateway-api" in desc_lower or "ebpf" in topics_set:
             category = "kubernetes-networking"
-        elif "security" in desc_lower or "cloud-security" in topics_set:
+        elif any(k in desc_lower or k in topics_set for k in ("opentelemetry", "prometheus", "observability", "victoriametrics", "grafana")):
+            category = "kubernetes-monitoring"
+        elif any(k in desc_lower or k in topics_set for k in ("finops", "opencost", "kubecost", "cloud-cost")):
+            category = "finops"
+        elif any(k in desc_lower or k in topics_set for k in ("karpenter", "keda", "autoscal")):
+            category = "kubernetes-autoscaling"
+        elif any(k in desc_lower or k in topics_set for k in ("backstage", "developer-portal", "platform-engineering")):
+            category = "developerportals"
+        elif "security" in desc_lower or "kyverno" in desc_lower or "falco" in desc_lower or "sigstore" in desc_lower or "cloud-security" in topics_set:
             category = "kubernetes-security"
 
         fallback_results.append({

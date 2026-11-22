@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS Messaging Services"
+dimension: "Architectural Foundations"
+resource_count: 6
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-messaging.md"
 description: "Top AWS Messaging resources for 2026, AI-ranked: Amazon SQS FAQs, dev.to: When to SNS or SQS and more — curated Cloud Native tools, guides and references."
 ---
 # AWS Messaging Services
@@ -39,7 +48,7 @@ description: "Top AWS Messaging resources for 2026, AI-ranked: Amazon SQS FAQs, 
   - [Limits in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-quotas.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Limits in Amazon SQS covering AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service in AWS (docs.aws.amazon.com).
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

@@ -1,5 +1,14 @@
 ---
-description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes Gateway API and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Service Mesh"
+dimension: "Networking & Service Mesh"
+resource_count: 68
+fresh_2025_2026_count: 10
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/servicemesh.md"
+description: "Top Service Mesh resources for 2026, AI-ranked: Linkerd, Kubernetes Gateway API and more — curated Cloud Native tools, guides and references."
 ---
 # Service Mesh
 
@@ -184,10 +193,7 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 
 #### Integration Tools
 
-  - **(2020)** [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff1d5b3c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 2 L 30 5 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-ff1d5b3c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility developed to bridge Envoy configuration directly with Kubernetes API endpoints. It parses Kubernetes services and endpoints to dynamically construct Envoy-compatible bootstrap configurations. While highly illustrative of early custom control plane mechanics, it has largely been superseded by native Kubernetes Gateway API and modern Envoy-based ingress controllers.
-## Consul Connect
-
-  - [consul Connect](https://developer.hashicorp.com/consul/docs/connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for consul Connect covering Consul Connect in Servicemesh (developer.hashicorp.com).
+  - **(2020)** [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff1d5b3c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 2 L 30 5 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-ff1d5b3c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility developed to bridge Envoy configuration directly with Kubernetes API endpoints. It parses Kubernetes services and endpoints to dynamically construct Envoy-compatible bootstrap configurations. While highly illustrative of early custom control plane mechanics, it has largely been superseded by native Kubernetes Gateway API and modern Envoy-based ingress controllers.
 ## Infrastructure
 
 ### Networking
@@ -214,23 +220,13 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 #### System Design
 
   - **(2020)** [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive breakdown of architectural scenarios where introducing a service mesh becomes mathematically and operationally viable. It contrasts simple setups with distributed, high-security, and multi-cloud enterprise topologies requiring advanced traffic management.
-## Introduction
-
-  - [==itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟==](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41?gi=f17cdb565828) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟 covering Introduction in Servicemesh (itnext.io).
-  - [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide/-2021) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development covering Introduction in Servicemesh (infoq.com).
-  - [cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options covering Introduction in Servicemesh (cncf.io).
-  - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Service Mesh Is Still Hard covering Introduction in Servicemesh (cncf.io).
-## Linkerd Service Mesh
-
-  - [cncf.io: Protocol detection and opaque ports in Linkerd](https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Protocol detection and opaque ports in Linkerd covering Linkerd Service Mesh in Servicemesh (cncf.io).
-  - [cncf.io: Why Linkerd doesn’t use Envoy](https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Why Linkerd doesn’t use Envoy covering Linkerd Service Mesh in Servicemesh (cncf.io).
 ## Networking (1)
 
 ### Ingress and Gateway
 
 #### Gateway API
 
-  - **(2023)** [**Kubernetes Gateway API**](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 3042</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-223c2abf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 11 L 30 2 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-223c2abf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gateway, GatewayClass, and Route resources).
+  - **(2023)** [**Kubernetes Gateway API**](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 3042</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-223c2abf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 11 L 30 2 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-223c2abf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gateway, GatewayClass, and Route resources).
 #### Traefik
 
   - **(2022)** [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A migration blueprint walking developers through transitioning from ingress-nginx to Traefik. Details how Traefik's native middleware, dynamic routing, and CRDs simplify TLS management and traffic splitting in dynamic environments.
@@ -255,9 +251,24 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 #### Ingress Controllers
 
   - **(2023)** [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kourier is a lightweight Ingress implementation specifically designed for Knative Serving, utilizing Envoy as the underlying data plane. It serves as an alternative to large service mesh deployments, providing fast route configurations, cold start mitigation, and scale-to-zero capabilities for serverless containers inside Kubernetes. It is heavily utilized in simplified enterprise serverless setups.
+## Servicemesh
+
+### Consul Connect
+
+  - [consul Connect](https://developer.hashicorp.com/consul/docs/connect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for consul Connect covering Consul Connect in Servicemesh (developer.hashicorp.com).
+### Introduction
+
+  - [==itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟==](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41?gi=f17cdb565828) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟 covering Introduction in Servicemesh (itnext.io).
+  - [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide/-2021) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development covering Introduction in Servicemesh (infoq.com).
+  - [cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options covering Introduction in Servicemesh (cncf.io).
+  - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Service Mesh Is Still Hard covering Introduction in Servicemesh (cncf.io).
+### Linkerd Service Mesh
+
+  - [cncf.io: Protocol detection and opaque ports in Linkerd](https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Protocol detection and opaque ports in Linkerd covering Linkerd Service Mesh in Servicemesh (cncf.io).
+  - [cncf.io: Why Linkerd doesn’t use Envoy](https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Why Linkerd doesn’t use Envoy covering Linkerd Service Mesh in Servicemesh (cncf.io).
 
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

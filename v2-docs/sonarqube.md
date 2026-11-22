@@ -1,5 +1,14 @@
 ---
-description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Overview, Ant - SonarScanner for Ant and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Sonarqube"
+dimension: "Engineering Pipeline"
+resource_count: 14
+fresh_2025_2026_count: 4
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/sonarqube.md"
+description: "Top SonarQube resources for 2026, AI-ranked: SonarQube Scanner Overview, Ant - SonarScanner for Ant and more — curated Cloud Native tools, guides and references."
 ---
 # Sonarqube
 
@@ -9,12 +18,6 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
 !!! info "Architectural Context"
     Detailed reference for Sonarqube in the context of Engineering Pipeline.
 
-## Analyzing Code With Sonarqube
-
-  - [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
-  - [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: How to quickly get started with Sonar covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
-  - [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Quick start with sonarqube for static code analysis covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
-  - [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Sonarqube scanning in 15 minutes covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
 ## Continuous Integration
 
 ### Code Quality
@@ -25,7 +28,7 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
 #### Kubernetes Deployment
 
   - **(2023)** [**hub.helm.sh/charts/oteemo/sonarqube**](https://artifacthub.io/packages/helm/oteemo/sonarqube) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides community Helm templates to install SonarQube onto Kubernetes nodes. Supports production deployments utilizing stateful postgres instances and customizable security boundaries.
-  - **(2024)** [**click-to-deploy/sonarqube**](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) <span class='md-tag md-tag--info'>⭐ 774</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23aa4e7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 7 L 30 7 L 40 4 L 50 11" fill="none" stroke="url(#spark-grad-23aa4e7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google Cloud Platform blueprint repository designed to ease the deployment of SonarQube on Google Kubernetes Engine (GKE) via highly standardized manifest suites.
+  - **(2024)** [**click-to-deploy/sonarqube**](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube) <span class='md-tag md-tag--info'>⭐ 774</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23aa4e7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 7 L 30 7 L 40 4 L 50 11" fill="none" stroke="url(#spark-grad-23aa4e7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google Cloud Platform blueprint repository designed to ease the deployment of SonarQube on Google Kubernetes Engine (GKE) via highly standardized manifest suites.
   - **(2022)** [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough showing how to stand up SonarQube in a localized Minikube setting. Explains storage class mappings, persistent volume bindings, and port-forwarding constraints.
 #### Static Analysis Platforms
 
@@ -34,18 +37,26 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
 #### Vulnerability Assessment
 
   - **(2022)** [**thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube**](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Teaches developers how to interpret SonarQube dashboards to discover common security vulnerabilities and code smells. Demonstrates optimization rules and quality profiles adjustment methods.
-## Integrations
+## Sonarqube (1)
+
+### Analyzing Code With Sonarqube
+
+  - [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
+  - [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: How to quickly get started with Sonar covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
+  - [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Quick start with sonarqube for static code analysis covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
+  - [Dzone: Sonarqube scanning in 15 minutes](https://dzone.com/articles/sonarqube-scanning-in-15-minutes-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Sonarqube scanning in 15 minutes covering Analyzing Code with SonarQube in Sonarqube (dzone.com).
+### Integrations
 
   - [Dzone: SonarCloud integration with SpringBoot Maven](https://dzone.com/articles/sonarcloud-integration-with-springboot-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: SonarCloud integration with SpringBoot Maven covering Integrations in Sonarqube (dzone.com).
-## Introduction
+### Introduction
 
   - [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Why SonarQube covering Introduction in Sonarqube (dzone.com).
-## Sonarqube Scanners
+### Sonarqube Scanners
 
   - **(2026)** [Ant - SonarScanner for Ant](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/scanner-environment/general-requirements) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Ant - SonarScanner for Ant: Curated technical resource in Sonarqube.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Gitops](./gitops.md) | [Argo](./argo.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [GitOps](./gitops.md) | [Argo](./argo.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

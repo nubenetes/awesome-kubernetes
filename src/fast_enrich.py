@@ -31,20 +31,116 @@ def get_dimension_for_category(category: str) -> str:
             return dim
     return "Architectural Foundations"
 
+# Canonical human-readable display names for category slugs (single source of truth
+# shared across V2 navigation, Topic Map, llms.txt, api/index.json, and fast_enrich).
+DISPLAY_NAMES = {
+    "GoogleCloudPlatform": "Google Cloud Platform (GCP)",
+    "ChromeDevTools": "Chrome DevTools",
+    "ai": "AI",
+    "ai-agents-mcp": "AI Agents & MCP",
+    "ai-rag-okf": "AI RAG & OKF",
+    "enterprise-ai-platforms": "Enterprise AI Platforms",
+    "chatgpt": "ChatGPT",
+    "mlops": "MLOps",
+    "api": "API",
+    "aws": "AWS",
+    "aws-iac": "AWS IaC",
+    "aws-devops": "AWS DevOps",
+    "aws-newfeatures": "AWS New Features",
+    "aws-tools-scripts": "AWS Tools & Scripts",
+    "bigdata": "Big Data",
+    "cicd": "CI/CD",
+    "cicd-kubernetes-plugins": "CI/CD Kubernetes Plugins",
+    "cloud-arch-diagrams": "Cloud Architecture Diagrams",
+    "crunchydata": "Crunchy Data",
+    "devel-sites": "Developer Sites",
+    "developerportals": "Developer Portals",
+    "devops": "DevOps",
+    "devops-tools": "DevOps Tools",
+    "devsecops": "DevSecOps",
+    "digitalocean": "DigitalOcean",
+    "dotnet": ".NET",
+    "elearning": "E-Learning",
+    "faq": "FAQ",
+    "finops": "FinOps",
+    "gitops": "GitOps",
+    "hr": "HR",
+    "iac": "IaC",
+    "ibm_cloud": "IBM Cloud",
+    "java_app_servers": "Java App Servers",
+    "java_frameworks": "Java Frameworks",
+    "java-and-java-performance-optimization": "Java Performance & JVM Tuning",
+    "javascript": "JavaScript",
+    "kubectl-commands": "kubectl Commands",
+    "kubernetes-backup-migrations": "Kubernetes Backup & Migrations",
+    "kubernetes-based-devel": "Kubernetes Local Dev",
+    "kubernetes-bigdata": "Kubernetes Big Data",
+    "kubernetes-operators-controllers": "Kubernetes Operators & Controllers",
+    "linux-dev-env": "Linux Dev Environment",
+    "lowcode-nocode": "Low-Code & No-Code",
+    "managed-kubernetes-in-public-cloud": "Managed Kubernetes (Public Cloud)",
+    "maven-gradle": "Maven & Gradle",
+    "mkdocs": "MkDocs",
+    "newsfeeds": "Newsfeeds",
+    "noops": "NoOps",
+    "nosql": "NoSQL",
+    "ocp3": "OCP 3",
+    "ocp4": "OCP 4",
+    "ocp5": "OCP 5",
+    "openshift": "OpenShift",
+    "openshift-pipelines": "OpenShift Pipelines",
+    "oraclecloud": "Oracle Cloud (OCI)",
+    "performance-testing-with-jenkins-and-jmeter": "Performance Testing (Jenkins & JMeter)",
+    "qa": "QA",
+    "securityascode": "Security as Code",
+    "servicemesh": "Service Mesh",
+    "sonarqube": "SonarQube",
+    "sre": "SRE",
+    "swagger-code-generator-for-rest-apis": "Swagger / OpenAPI Codegen",
+    "testops": "TestOps",
+    "web3": "Web3",
+    "workfromhome": "Work From Home",
+    "yaml": "YAML",
+}
+
+BOILERPLATE_SUMMARY_MARKERS = (
+    "technical documentation and implementation reference for",
+    "technical documentation and architectural reference for",
+    "technical documentation and reference for",
+    "a curated technical resource and architectural guide covering",
+    "curated technical resource in",
+)
+
+
+def is_boilerplate_summary(summary: str) -> bool:
+    """Return True when an ai_summary is empty or matches a generic rule-based fallback."""
+    if not summary or not isinstance(summary, str):
+        return True
+    low = summary.strip().lower()
+    if len(low) < 25:
+        return True
+    return any(marker in low for marker in BOILERPLATE_SUMMARY_MARKERS)
+
+
 # Helper to build readable category name
 def get_readable_category(category: str) -> str:
     if not category:
         return "General"
-    title = category.replace("-", " ").title()
+    slug = category[:-3] if category.endswith(".md") else category
+    if slug in DISPLAY_NAMES:
+        return DISPLAY_NAMES[slug]
+    title = slug.replace("_", " ").replace("-", " ").title()
     acronyms = {
-        "Ai": "AI", "Mcp": "MCP", "Rag": "RAG", "Okf": "OKF", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
-        "Api": "API", "Sre": "SRE", "Cicd": "CI/CD", "Ocp3": "OCP 3", 
-        "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
-        "Chatgpt": "ChatGPT", "Mlops": "MLOps", "Devops": "DevOps",
-        "Hr": "HR", "Qa": "QA"
+        "Ai": "AI", "Mcp": "MCP", "Rag": "RAG", "Okf": "OKF", "Iac": "IaC",
+        "Aws": "AWS", "Gcp": "GCP", "Api": "API", "Sre": "SRE", "Cicd": "CI/CD",
+        "Ocp3": "OCP 3", "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Jvm": "JVM",
+        "Sql": "SQL", "Nosql": "NoSQL", "Chatgpt": "ChatGPT", "Mlops": "MLOps",
+        "Devops": "DevOps", "Devsecops": "DevSecOps", "Gitops": "GitOps",
+        "Finops": "FinOps", "Testops": "TestOps", "Noops": "NoOps",
+        "Yaml": "YAML", "Faq": "FAQ", "Hr": "HR", "Qa": "QA", "Mkdocs": "MkDocs",
     }
     for k, v in acronyms.items():
-        title = title.replace(k, v)
+        title = re.sub(rf"\b{k}\b", v, title)
     return title
 
 async def fetch_github_metadata(client: httpx.AsyncClient, url: str, sem: asyncio.Semaphore) -> tuple[str, dict]:

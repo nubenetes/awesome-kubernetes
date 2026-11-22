@@ -100,9 +100,13 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
+      - name: Install system libraries for Social Cards (Cairo/Pillow)
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev zlib1g-dev
+
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-redirects mkdocs-minify-plugin pymdown-extensions
+          pip install "mkdocs-material[imaging]" mkdocs-redirects mkdocs-minify-plugin pymdown-extensions
           pip install -r requirements.txt
 
       # 1. Build V1 to temporary staging area

@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Edge Computing"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 15
+fresh_2025_2026_count: 8
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/edge-computing.md"
 description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
 ---
 # Edge Computing
@@ -72,7 +81,7 @@ description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Nat
   - **(2026)** [How Wasmer used Codex to build Edge.js](https://openai.com/index/wasmer) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How Wasmer used Codex to build Edge.js covering WebAssembly in Edge Computing (openai.com).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 

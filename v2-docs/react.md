@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "React"
+dimension: "Architectural Foundations"
+resource_count: 3
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/react.md"
 description: "Curated, AI-ranked React resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # React
@@ -26,7 +35,7 @@ description: "Curated, AI-ranked React resources for the 2026 Cloud Native archi
   - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

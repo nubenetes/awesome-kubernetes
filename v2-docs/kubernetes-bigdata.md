@@ -1,5 +1,14 @@
 ---
-description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+type: curation-hub
+okf_version: "0.3"
+name: "Big Data and Kubernetes Big Data"
+dimension: "The Container Stack"
+resource_count: 11
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-bigdata.md"
+description: "Curated, AI-ranked Kubernetes Big Data resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
 ---
 # Big Data and Kubernetes Big Data
 
@@ -9,14 +18,9 @@ description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud
 !!! info "Architectural Context"
     Detailed reference for Big Data and Kubernetes Big Data in the context of The Container Stack.
 
-## Apache Spark
-
-  - [levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning](https://levelup.gitconnected.com/master-sparkml-practical-guide-for-machine-learning-1efe1bd9cdce?gi=452820ac9102) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning covering Apache Spark in Kubernetes Bigdata (levelup.gitconnected.com).
-  - [dzone: Run and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Run and Scale an Apache Spark Application on Kubernetes covering Apache Spark in Kubernetes Bigdata (dzone.com).
-  - [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Running Apache Spark on Kubernetes covering Apache Spark in Kubernetes Bigdata (dzone.com).
 ## Data and AI
 
-### Apache Spark (1)
+### Apache Spark
 
 #### Cost Optimization
 
@@ -50,9 +54,16 @@ description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud
 #### Adoption Trends
 
   - **(2021)** [opensourceforu.com: Kubernetes Adoption Widespread for Big Data: Survey](https://www.opensourceforu.com/2021/12/kubernetes-adoption-widespread-for-big-data-survey/?amp) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details industry survey results illustrating the widespread migration of Big Data and stateful analytics workloads onto Kubernetes. Shows the transition from static, dedicated bare-metal clusters to dynamic, container-orchestrated platforms. Live Grounding confirms this historical trajectory has culminated in 2026, where cloud-native orchestration is the unquestioned standard for running Spark, Flink, and ML training pipelines.
+## Kubernetes Bigdata
+
+### Apache Spark (1)
+
+  - [levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning](https://levelup.gitconnected.com/master-sparkml-practical-guide-for-machine-learning-1efe1bd9cdce?gi=452820ac9102) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning covering Apache Spark in Kubernetes Bigdata (levelup.gitconnected.com).
+  - [dzone: Run and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Run and Scale an Apache Spark Application on Kubernetes covering Apache Spark in Kubernetes Bigdata (dzone.com).
+  - [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Running Apache Spark on Kubernetes covering Apache Spark in Kubernetes Bigdata (dzone.com).
 
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

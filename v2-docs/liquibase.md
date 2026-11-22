@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Liquibase"
+dimension: "Hardened Infrastructure"
+resource_count: 11
+fresh_2025_2026_count: 1
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/liquibase.md"
 description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
 ---
 # Liquibase
@@ -57,5 +66,5 @@ description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native a
 ---
 💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Pulumi](./pulumi.md)
 
-🔗 **See Also:** [About](./about.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [About](./about.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

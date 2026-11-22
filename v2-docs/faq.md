@@ -1,5 +1,14 @@
 ---
-description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+type: curation-hub
+okf_version: "0.3"
+name: "Microservices FAQ"
+dimension: "Architectural Foundations"
+resource_count: 22
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/faq.md"
+description: "Curated, AI-ranked FAQ resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # Microservices FAQ
 
@@ -59,9 +68,15 @@ description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native archite
 #### Kubernetes Orchestration
 
   - **(2021)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Accelerating release cycles in Kubernetes environments requires modernizing the CI/CD pipeline with cloud-native orchestration techniques. By automating build, test, and container promotion workflows, teams can minimize deployment errors and configuration drift. The focus is on implementing progressive delivery strategies such as canary and blue-green deployments to de-risk production releases.
-## FAQ
+## Faq
+
+### FAQ
 
   - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟 in the Faq ecosystem (dzone.com).
+### Migration Styles. Lift And Shift Cloud Migration Strategy
+
+  - [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 10 Commandments of Microservice Decomposition 🌟 covering Migration Styles. Lift and Shift Cloud Migration Strategy in Faq (dzone.com).
+  - [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor? covering Migration Styles. Lift and Shift Cloud Migration Strategy in Faq (dzone.com).
 ## Microservices Architecture
 
 ### Dependency Management
@@ -101,13 +116,9 @@ description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native archite
 #### Case Study
 
   - **(2019)** [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This real-world enterprise case study details Verizon's migration journey from a legacy monolithic architecture to containerized workloads on Red Hat OpenShift. It highlights practical strategies for managing stateful applications, addressing legacy security constraints, and overcoming organizational resistance. The resulting deployment demonstrates how automated orchestration accelerates feature delivery and improves cluster utilization.
-## Migration Styles. Lift And Shift Cloud Migration Strategy
-
-  - [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: 10 Commandments of Microservice Decomposition 🌟 covering Migration Styles. Lift and Shift Cloud Migration Strategy in Faq (dzone.com).
-  - [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor? covering Migration Styles. Lift and Shift Cloud Migration Strategy in Faq (dzone.com).
 
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [Kubernetes](./kubernetes.md) | [Linux](./linux.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

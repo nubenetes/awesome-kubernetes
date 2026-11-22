@@ -1,5 +1,14 @@
 ---
-description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheets, SdkMan and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Maven, Gradle and SDKMAN"
+dimension: "Developer Ecosystem"
+resource_count: 52
+fresh_2025_2026_count: 22
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/maven-gradle.md"
+description: "Top Maven & Gradle resources for 2026, AI-ranked: Gradle Cheat Sheets, SdkMan and more — curated Cloud Native tools, guides and references."
 ---
 # Maven, Gradle and SDKMAN
 
@@ -9,18 +18,11 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
 !!! info "Architectural Context"
     Detailed reference for Maven, Gradle and SDKMAN in the context of Developer Ecosystem.
 
-## Apache Maven
-
-  - [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Creating a Maven Archetype covering Apache Maven in Maven Gradle (dzone.com).
-  - [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 10 Effective Tips on Using Maven covering Apache Maven in Maven Gradle (dzone.com).
-  - [Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository](https://dzone.com/articles/7-tips-to-achieve-high-availabilityha-for-your-mav-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository covering Apache Maven in Maven Gradle (dzone.com).
-  - [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Building Java Applications With Maven covering Apache Maven in Maven Gradle (dzone.com).
-  - [Dzone: Installing Maven With Your JDK](https://dzone.com/articles/installing-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Installing Maven With Your JDK covering Apache Maven in Maven Gradle (dzone.com).
 ## Build Systems
 
 ### JVM Ecosystem
 
-#### Apache Maven (1)
+#### Apache Maven
 
   - **(2026)** [==maven.apache.org==](https://maven.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official documentation gateway to Apache Maven, the foundational software project management and comprehension tool. Standardizes Java project build lifecycles through declarative Project Object Model (POM) XML configurations.
 #### Apache Maven Standards
@@ -28,7 +30,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
   - **(2026)** [==maven.apache.org: Introduction to the Standard Directory Layout==](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official specifications detailing the Maven Standard Directory Layout. Establishing highly rigid, predictable folder hierarchies ensures seamless code compilation and compilation reproducibility without custom config overrides.
 #### Build Daemon Optimization
 
-  - **(2025)** [==apache/maven-mvnd==](https://github.com/apache/maven-mvnd) <span class='md-tag md-tag--info'>⭐ 3428</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-05f7dab3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 5 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-05f7dab3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache Maven Daemon repository. Drastically reduces compilation overhead by utilizing persistent background execution processes to store compiler hot-spots and plugin contexts.
+  - **(2025)** [==apache/maven-mvnd==](https://github.com/apache/maven-mvnd) <span class='md-tag md-tag--info'>⭐ 3428</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-05f7dab3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 5 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-05f7dab3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Apache Maven Daemon repository. Drastically reduces compilation overhead by utilizing persistent background execution processes to store compiler hot-spots and plugin contexts.
 #### Community Channels
 
   - **(2026)** [twitter.com/ASFMavenProject: The official twitter feed of the Apache Maven Project](https://x.com/ASFMavenProject) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official communication channel for the Apache Maven Project, offering real-time announcements, plugin version updates, and core framework security alerts to the broader developer community.
@@ -39,7 +41,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
 #### Container Packaging
 
   - **(2020)** [**ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder**](https://www.ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Detailed technical guide analyzing Google's Jib, an innovative containerization tool that builds Docker/OCI-compliant images for JVM applications without requiring a local Docker daemon.
-  - **(2020)** [**docker-maven-plugin**](https://github.com/fabric8io/docker-maven-plugin) <span class='md-tag md-tag--info'>⭐ 1931</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f833bb7d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 8 L 30 7 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-f833bb7d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Fabric8's highly reliable Maven integration for containerization management. Lets developers orchestrate builds and container tests within pom.xml execution blocks; however, users are increasingly transitioning to Eclipse JKube for modern Cloud-Native orchestration patterns.
+  - **(2020)** [**docker-maven-plugin**](https://github.com/fabric8io/docker-maven-plugin) <span class='md-tag md-tag--info'>⭐ 1931</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f833bb7d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 8 L 30 7 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-f833bb7d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Fabric8's highly reliable Maven integration for containerization management. Lets developers orchestrate builds and container tests within pom.xml execution blocks; however, users are increasingly transitioning to Eclipse JKube for modern Cloud-Native orchestration patterns.
 #### Framework Evolution
 
   - **(2020)** [maarten.mulders.it: What's New in Maven 4](https://maarten.mulders.it/2020/11/whats-new-in-maven-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical review covering the core architectural changes introduced in Apache Maven 4, emphasizing the split between build and consumer POM configurations and lifecycle optimization.
@@ -111,7 +113,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
   - **(2021)** [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An update detailing features and improvements delivered in Eclipse JKube 1.4.0. Live Grounding indicates that updates like 1.4.0 stabilized multi-platform image generation capabilities and introduced robust handling of custom Helm charts and manifest validation rules.
 ##### Source Code
 
-  - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 854</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2dc7ec48" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 12 L 30 3 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-2dc7ec48)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
+  - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 854</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2dc7ec48" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 12 L 30 3 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-2dc7ec48)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ EPL-2.0</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
 ### Package Management
 
 #### Jitpack
@@ -122,9 +124,6 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
 #### Jbang
 
   - **(2026)** [**JBang**](https://www.jbang.dev) 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — JBang offers a simplified approach to writing and running JVM-based code as self-contained scripts, handling dependency declaration and download seamlessly. Live Grounding shows that JBang has matured into a powerful tool for operations, DevOps task scripting, and rapid local prototyping without standard Java project boilerplate.
-## Dependency Resolution In Maven
-
-  - [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Solving Dependency conflicts in maven covering Dependency Resolution in Maven in Maven Gradle (dzone.com).
 ## DevOps
 
 ### Build Tools (1)
@@ -167,23 +166,35 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: Gradle Cheat Sheet
 #### Gradle Reference
 
   - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
-## Gradle (1)
+## Maven Gradle
+
+### Apache Maven (1)
+
+  - [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Creating a Maven Archetype covering Apache Maven in Maven Gradle (dzone.com).
+  - [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 10 Effective Tips on Using Maven covering Apache Maven in Maven Gradle (dzone.com).
+  - [Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository](https://dzone.com/articles/7-tips-to-achieve-high-availabilityha-for-your-mav-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository covering Apache Maven in Maven Gradle (dzone.com).
+  - [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Building Java Applications With Maven covering Apache Maven in Maven Gradle (dzone.com).
+  - [Dzone: Installing Maven With Your JDK](https://dzone.com/articles/installing-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Installing Maven With Your JDK covering Apache Maven in Maven Gradle (dzone.com).
+### Dependency Resolution In Maven
+
+  - [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Solving Dependency conflicts in maven covering Dependency Resolution in Maven in Maven Gradle (dzone.com).
+### Gradle (1)
 
   - [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: build a java app with gradle covering Gradle in Maven Gradle (dzone.com).
-## Intellij IDEA (1)
+### Intellij IDEA (1)
 
   - [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Maven IntelliJ Idea Project covering Intellij IDEA in Maven Gradle (dzone.com).
-## Maven And Docker
+### Maven And Docker
 
   - [Dzone: Meet the Docker Maven Plugin!](https://dzone.com/articles/meet-the-docker-maven-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Meet the Docker Maven Plugin! covering Maven and Docker in Maven Gradle (dzone.com).
-## Maven Tests
+### Maven Tests
 
   - [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone.com: Running Cucumber with Maven covering Maven Tests in Maven Gradle (dzone.com).
   - [Dzone: Integration Tests with Maven](https://dzone.com/articles/integration-tests-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Integration Tests with Maven covering Maven Tests in Maven Gradle (dzone.com).
   - [Dzone: Maven Skipping Tests](https://dzone.com/articles/maven-skipping-tests)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Maven Skipping Tests covering Maven Tests in Maven Gradle (dzone.com).
 
 ---
-💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [Javascript](./javascript.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Visual Studio](./visual-studio.md) | [JavaScript](./javascript.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

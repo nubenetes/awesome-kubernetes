@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Networking"
+dimension: "Networking & Service Mesh"
+resource_count: 44
+fresh_2025_2026_count: 18
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/networking.md"
 description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
 ---
 # Networking
@@ -59,7 +68,7 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
   - **(2025)** [docs.ansible.com: Netbox Ansible Modules 🌟](https://docs.ansible.com/projects/ansible/latest/collections/netbox/netbox/index.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Ansible dynamic directory configuration and resource collection documentation for NetBox integrations. Outlines patterns to automate data synchronization, resource verification, and asset updates.
 #### IPAM and DCIM Platforms
 
-  - **(2026)** [==NetBox IPAM 🌟==](https://github.com/netbox-community/netbox) <span class='md-tag md-tag--info'>⭐ 20845</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8dd304f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 11 L 30 11 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-c8dd304f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The leading open-source IP Address Management (IPAM) and Data Center Infrastructure Management (DCIM) database. Built on Django and PostgreSQL, it serves as the programmable hardware and IP single-source-of-truth for global networks.
+  - **(2026)** [==NetBox IPAM 🌟==](https://github.com/netbox-community/netbox) <span class='md-tag md-tag--info'>⭐ 20845</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8dd304f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 11 L 30 11 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-c8dd304f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The leading open-source IP Address Management (IPAM) and Data Center Infrastructure Management (DCIM) database. Built on Django and PostgreSQL, it serves as the programmable hardware and IP single-source-of-truth for global networks.
   - **(2024)** [netboxlabs.com: An In-Depth Guide to NetBox for IPAM](https://netboxlabs.com/blog/netbox-ipam) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed evaluation of NetBox's functional features, modeling mechanisms, and operational database structures. Explains how to programmatically model prefixes, cables, circuits, virtualizations, and network routing configurations.
   - **(2023)** [youtube: NetBox Zero To Hero](https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A masterclass video syllabus designed to train networking personnel from scratch to advanced NetBox usage. Explores modeling practices, dynamic API integration, scripting configurations, and system customization methods.
 ### Protocols
@@ -153,7 +162,7 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
   - **(2024)** [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough engineering analysis contrasting architectural behaviors of HTTP/2 and HTTP/3. Examines the structural transition from TCP-based flows to UDP-based QUIC, detailing performance impacts.
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Service Mesh](./servicemesh.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

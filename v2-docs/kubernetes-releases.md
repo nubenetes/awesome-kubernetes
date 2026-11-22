@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Kubernetes Releases"
+dimension: "The Container Stack"
+resource_count: 68
+fresh_2025_2026_count: 11
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-releases.md"
 description: "Top Kubernetes Releases resources for 2026, AI-ranked: Announcing etcd v3.7.0, Kubernetes v1.37: Garhwal and more — curated Cloud Native tools, guides and."
 ---
 # Kubernetes Releases
@@ -255,5 +264,5 @@ description: "Top Kubernetes Releases resources for 2026, AI-ranked: Announcing 
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md) | [AI Agents MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md) | [AI Agents & MCP](./ai-agents-mcp.md)
 

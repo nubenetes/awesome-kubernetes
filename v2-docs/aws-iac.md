@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "AWS IaC"
+dimension: "Cloud Providers (Hyperscalers)"
+resource_count: 20
+fresh_2025_2026_count: 2
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/aws-iac.md"
 description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
 ---
 # AWS IaC
@@ -73,7 +82,7 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
   - **(2022)** [cloudkatha.com: How to Setup S3 Bucket CORS Configuration using CloudFormation](https://cloudkatha.com/how-to-setup-s3-bucket-cors-configuration-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical step-by-step developer tutorial outlining how to declare and format AWS S3 Bucket CORS rules using declarative CloudFormation YAML schemas. Explains proper syntax structures for configuring origins, allowed methods, headers, and security metrics.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

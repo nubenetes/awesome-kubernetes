@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Scaleway Public Cloud"
+dimension: "Architectural Foundations"
+resource_count: 2
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/scaleway.md"
 description: "Curated, AI-ranked Scaleway resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # Scaleway Public Cloud
@@ -25,7 +34,7 @@ description: "Curated, AI-ranked Scaleway resources for the 2026 Cloud Native ar
   - [scaleway.com](https://www.scaleway.com/en/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for scaleway.com in the Digitalocean ecosystem (scaleway.com).
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

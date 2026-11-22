@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Cloudflare Public Cloud"
+dimension: "Networking & Service Mesh"
+resource_count: 33
+fresh_2025_2026_count: 32
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/cloudflare.md"
 description: "Curated, AI-ranked Cloudflare resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
 ---
 # Cloudflare Public Cloud
@@ -122,7 +131,7 @@ description: "Curated, AI-ranked Cloudflare resources for the 2026 Cloud Native 
   - **(2026)** [Temporary Cloudflare Accounts for AI agents](https://blog.cloudflare.com/temporary-accounts) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Temporary Cloudflare Accounts for AI agents covering Serverless in Cloudflare (blog.cloudflare.com).
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Service Mesh](./servicemesh.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Devsecops](./devsecops.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [DevSecOps](./devsecops.md)
 

@@ -1,5 +1,14 @@
 ---
-description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, pgAdmin 4 and more — curated Cloud Native tools, guides and references."
+type: curation-hub
+okf_version: "0.3"
+name: "Crunchy Data PostgreSQL Operator"
+dimension: "Data & Advanced Analytics"
+resource_count: 62
+fresh_2025_2026_count: 5
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/crunchydata.md"
+description: "Top Crunchy Data resources for 2026, AI-ranked: crunchy-pgadmin4, pgAdmin 4 and more — curated Cloud Native tools, guides and references."
 ---
 # Crunchy Data PostgreSQL Operator
 
@@ -78,6 +87,11 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
 #### Postgresql Deployment
 
   - **(2019)** [info.crunchydata.com: An Easy Recipe for Creating a PostgreSQL Cluster with Docker Swarm](https://www.crunchydata.com/blog/an-easy-recipe-for-creating-a-postgresql-cluster-with-docker-swarm) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical tutorial outlining containerized high-availability PostgreSQL configurations using Docker Swarm. Covers Swarm Secrets, internal routing, and environment setup paradigms.
+## Crunchydata
+
+### Introduction
+
+  - [dzone: PostgreSQL HA and Kubernetes](https://dzone.com/articles/postgresql-ha-and-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: PostgreSQL HA and Kubernetes covering Introduction in Crunchydata (dzone.com).
 ## Data Infrastructure
 
 ### Bare Metal Provisioning
@@ -139,7 +153,7 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
   - **(2021)** [blog.crunchydata.com: Using Cert Manager to Deploy TLS for Postgres on Kubernetes](https://www.crunchydata.com/blog/using-cert-manager-to-deploy-tls-for-postgres-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how to interface the cert-manager operator with Crunchy PostgreSQL deployments to automate TLS certificate lifecycles. Standardizing certificate issuance and automatic renewal eliminates risks of unexpected database communication outages. It represents a foundational best-practice for zero-trust microservice communications.
 ##### Source Code
 
-  - **(2026)** [==github.com/CrunchyData/postgres-operator==](https://github.com/CrunchyData/postgres-operator) <span class='md-tag md-tag--info'>⭐ 4456</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-902cdc92" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 5 L 30 5 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-902cdc92)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main GitHub repository containing the source code for the Crunchy Postgres Operator. Written in Go, this industry-leading project automates the deployment, scaling, failover, backup, and security operations of PostgreSQL instances on Kubernetes. It is actively updated to support modern Kubernetes API standards and enterprise clustering patterns.
+  - **(2026)** [==github.com/CrunchyData/postgres-operator==](https://github.com/CrunchyData/postgres-operator) <span class='md-tag md-tag--info'>⭐ 4456</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-902cdc92" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 5 L 30 5 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-902cdc92)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main GitHub repository containing the source code for the Crunchy Postgres Operator. Written in Go, this industry-leading project automates the deployment, scaling, failover, backup, and security operations of PostgreSQL instances on Kubernetes. It is actively updated to support modern Kubernetes API standards and enterprise clustering patterns.
 ##### Storage Management
 
   - **(2021)** [blog.crunchydata.com: Can't Resize your Postgres Kubernetes Volume? No Problem!](https://www.crunchydata.com/blog/resize-postgres-kubernetes-volume-instance-sets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Provides architectural workarounds for resizing PostgreSQL storage volumes when utilizing storage backends that do not support dynamic online volume expansion. The guide explains replica-seeding migration techniques that transition primary database roles to new, larger storage instances without downtime. It is a critical operational guide for bare-metal or legacy virtualization footprints.
@@ -189,9 +203,6 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
 
   - **(2021)** [info.crunchydata.com: PostgreSQL Monitoring for Application Developers: The DBA Fundamentals](https://www.crunchydata.com/blog/postgresql-monitoring-for-application-developers-dba-stats) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Bridges developer workflows with DBA database troubleshooting techniques. Teaches query bottlenecks analysis, lock tracing, and execution performance optimizations using pg_stat_activity and pg_stat_statements.
   - **(2021)** [info.crunchydata.com: Tuning Your Postgres Database for High Write Loads](https://www.crunchydata.com/blog/tuning-your-postgres-database-for-high-write-loads) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced tuning walkthrough optimizing engine parameters for write-intensive database profiles. Guides custom values configurations for shared_buffers, max_wal_size, and write-ahead log parameters.
-## Introduction
-
-  - [dzone: PostgreSQL HA and Kubernetes](https://dzone.com/articles/postgresql-ha-and-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: PostgreSQL HA and Kubernetes covering Introduction in Crunchydata (dzone.com).
 ## Observability
 
 ### Postgresql (3)
@@ -221,5 +232,5 @@ description: "Top Crunchydata resources for 2026, AI-ranked: crunchy-pgadmin4, p
 ---
 💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

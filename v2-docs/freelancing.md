@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Freelancing"
+dimension: "Career & Industry"
+resource_count: 38
+fresh_2025_2026_count: 17
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/freelancing.md"
 description: "Top Freelancing resources for 2026, AI-ranked: adeva, arc - formerly codementor and more — curated Cloud Native tools, guides and references."
 ---
 # Freelancing
@@ -121,7 +130,7 @@ description: "Top Freelancing resources for 2026, AI-ranked: adeva, arc - former
   - **(2026)** [soshace](https://soshace.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated remote work platform targeting web developers, specifically focusing on React, Angular, and Node.js engineers. It offers transparent vetting and direct client-to-developer contracts. Live grounding emphasizes its utility for medium-sized businesses seeking rapid frontend scaling.
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

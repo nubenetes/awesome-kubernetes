@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Remote Tech Jobs"
+dimension: "Career & Industry"
+resource_count: 9
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/remote-tech-jobs.md"
 description: "Curated, AI-ranked Remote Tech Jobs resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Career & Industry)."
 ---
 # Remote Tech Jobs
@@ -42,7 +51,7 @@ description: "Curated, AI-ranked Remote Tech Jobs resources for the 2026 Cloud N
   - **(2021)** [theatlantic.com: Why Managers Fear a Remote-Work Future](https://www.theatlantic.com/ideas/archive/2021/07/work-from-home-benefits/619597)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight explores the psychological and systemic reasons why corporate managers resist shifting to permanent remote-work paradigms. Live Grounding shows that post-pandemic, the debate on hybrid vs. office models continues, highlighting that the challenge of measuring impact over physical presence remains a major cultural obstacle.
 
 ---
-💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [Finops](./finops.md)
+💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

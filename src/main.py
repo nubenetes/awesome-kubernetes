@@ -109,6 +109,8 @@ async def master_orchestrator():
     # Topic Inclusion Flags (from Env)
     topic_map = {
         "Kubernetes & Cloud Native": os.getenv("INCLUDE_K8S", "true").lower() == "true",
+        "Networking, eBPF & Service Mesh": os.getenv("INCLUDE_NETWORKING", "true").lower() == "true",
+        "Observability, Security & FinOps": os.getenv("INCLUDE_SEC_OBS", "true").lower() == "true",
         "Red Hat OpenShift & OCP 5": os.getenv("INCLUDE_OPENSHIFT", "true").lower() == "true",
         "Cloud Providers (AWS/Azure/GCP)": os.getenv("INCLUDE_CLOUD", "true").lower() == "true",
         "AI & Agentic Systems": os.getenv("INCLUDE_AI", "true").lower() == "true",

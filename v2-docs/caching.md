@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Caching Solutions"
+dimension: "Networking & Service Mesh"
+resource_count: 35
+fresh_2025_2026_count: 7
+trust: verified
+freshness: active
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/caching.md"
 description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache and more — curated Cloud Native tools, guides and references."
 ---
 # Caching Solutions
@@ -44,15 +53,19 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 
   - **(2025)** [Varnish Cache](https://www.varnish.org/index.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Varnish Cache is an extremely fast, thread-optimized HTTP reverse proxy and cache director. It provides the powerful Varnish Configuration Language (VCL) allowing platform engineers to define custom request routing at the cache edge.
   - **(2025)** [varnish-software.com](https://www.varnish-software.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commercial portal for Varnish Software. It showcases enterprise extensions, massive cache storage configurations, real-time metrics dashboards, and distributed high-availability features built to scale globally.
-  - **(2021)** [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical system administration guide demonstrating how to set up, secure, and monitor Varnish Cache on enterprise Linux configurations to handle surge traffic and ensure static file acceleration.
-  - **(2020)** [The Varnish Book](https://info.varnish-software.com/the-varnish-book) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive technical documentation book for Varnish configurations. It provides advanced tutorials on VCL architecture, Edge Side Includes (ESI) structures, security rules, and performance analysis.
+
+??? archive "Historical and Legacy References (2 pre-2022 or legacy items)"
+
+    - **(2021)** [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical system administration guide demonstrating how to set up, secure, and monitor Varnish Cache on enterprise Linux configurations to handle surge traffic and ensure static file acceleration.
+    - **(2020)** [The Varnish Book](https://info.varnish-software.com/the-varnish-book) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive technical documentation book for Varnish configurations. It provides advanced tutorials on VCL architecture, Edge Side Includes (ESI) structures, security rules, and performance analysis.
+
 ## Edge and Serverless
 
 ### Webassembly Platforms
 
 #### Tau Edge
 
-  - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5182</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-944a1678" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 2 L 20 7 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-944a1678)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
+  - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5182</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-944a1678" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 2 L 20 7 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-944a1678)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ BSD-3-Clause</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
 ## Infrastructure
 
 ### Caching
@@ -90,12 +103,12 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 
 #### Distributed Caching
 
-  - **(2024)** [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) <span class='md-tag md-tag--info'>⭐ 314</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ecab920" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 3 L 30 3 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-2ecab920)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineered Kubernetes-native HTTP caching platform that bundles Varnish with a specialized controller sidecar. It queries Kubernetes API endpoints directly to dynamically reconstruct and scale Varnish backend configurations without requiring manual server reloads.
+  - **(2024)** [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) <span class='md-tag md-tag--info'>⭐ 314</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ecab920" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 3 L 30 3 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-2ecab920)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineered Kubernetes-native HTTP caching platform that bundles Varnish with a specialized controller sidecar. It queries Kubernetes API endpoints directly to dynamically reconstruct and scale Varnish backend configurations without requiring manual server reloads.
 ### Kubernetes Operators
 
 #### Varnish Deployment
 
-  - **(2023)** [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) <span class='md-tag md-tag--info'>⭐ 69</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-64fcbf6f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 12 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-64fcbf6f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A specialized Kubernetes Operator developed by IBM to deploy, manage, and scale Varnish Cache setups natively within container orchestrators. Although useful for cloud-native setups, in 2026 it faces stiff competition from service meshes offering in-built caching proxies.
+  - **(2023)** [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) <span class='md-tag md-tag--info'>⭐ 69</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-64fcbf6f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 12 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-64fcbf6f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A specialized Kubernetes Operator developed by IBM to deploy, manage, and scale Varnish Cache setups natively within container orchestrators. Although useful for cloud-native setups, in 2026 it faces stiff competition from service meshes offering in-built caching proxies.
 ### Network and Security
 
 #### TLS Offloading
@@ -146,7 +159,7 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
   - [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Red Hat Enterprise Linux Blog. Tag: Varnish covering Varnish in Caching (redhat.com).
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Service Mesh](./servicemesh.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AWS Serverless](./aws-serverless.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AWS Serverless](./aws-serverless.md)
 

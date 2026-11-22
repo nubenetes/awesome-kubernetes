@@ -1,4 +1,13 @@
 ---
+type: curation-hub
+okf_version: "0.3"
+name: "Private Cloud Solutions"
+dimension: "Architectural Foundations"
+resource_count: 1
+fresh_2025_2026_count: 0
+trust: verified
+freshness: historical
+provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/private-cloud-solutions.md"
 description: "Curated, AI-ranked Private Cloud Solutions resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # Private Cloud Solutions
@@ -18,7 +27,7 @@ description: "Curated, AI-ranked Private Cloud Solutions resources for the 2026 
   - **(2019)** [thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up](https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-discounts-dry-up) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece detailing the sharp decline in OpenStack market share as public cloud hyperscalers expanded. Live Grounding confirms that OpenStack remains stable only in telecom NFV and niche on-premises private clouds, while generic enterprise deployments have shifted to Kubernetes and hybrid-cloud runtimes.
 
 ---
-💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 
