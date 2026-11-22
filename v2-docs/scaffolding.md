@@ -1,5 +1,5 @@
 ---
-description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Google Cloud Code and more — curated Cloud Native tools, guides and references."
+description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Maven and more — curated Cloud Native tools, guides and references."
 ---
 # Scaffolding Tools
 
@@ -52,7 +52,7 @@ description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Google Cl
   - **(2025)** [Maven](https://nubenetes.com/maven-gradle) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md)
+💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 

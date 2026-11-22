@@ -1,5 +1,5 @@
 ---
-description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AWX and more — curated Cloud Native tools, guides and references."
+description: "Top Ansible resources for 2026, AI-ranked: AWX, Gradle Cheat Sheets and more — curated Cloud Native tools, guides and references."
 ---
 # Configuration Management. Ansible
 
@@ -91,7 +91,6 @@ description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AW
 #### Ansible AAP
 
   - **(2021)** [ansible.com: Introducing Ansible Automation Platform 2](https://www.redhat.com/en/blog/introducing-ansible-automation-platform-2) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article introduces Ansible Automation Platform 2, showcasing its containerized architecture shift. By replacing standard python virtualenvs with execution environments (isolated containers containing all Python/Ansible dependencies), AAP 2 solves scalability limitations and drift issues across enterprise deployment nodes.
-  - **(2021)** [ansible.com: What's new in Ansible Automation Platform 2: automation controller](https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-controller) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights details of the 'automation controller,' which replaces Ansible Tower in AAP 2. Built to decouple control plane and execution plane functions, it improves job routing, credential management, and multi-tenant scaling through decentralized execution environments.
   - **(2020)** [ansible.com: Red Hat Ansible Automation Platform 1.2](https://www.redhat.com/en/blog/now-available-red-hat-ansible-automation-platform-1.2) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Overview of the legacy Red Hat Ansible Automation Platform v1.2 release. It highlights the convergence of Ansible Tower, Engine, and Network Engine, alongside introducing private automation hubs to store and control internal automation content within secure environments.
 ## Automation and Orchestration
 
@@ -571,7 +570,7 @@ description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AW
   - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, Capsule Operator and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, K8Spin Operator and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Operators and Controllers
 
@@ -663,7 +663,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - [itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7?gi=2a2cd854cb68) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes covering Writing Kubernetes Operators and Controllers in Kubernetes Operators Controllers (itnext.io).
 
 ---
-💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
+💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

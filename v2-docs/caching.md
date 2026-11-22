@@ -1,5 +1,5 @@
 ---
-description: "Top Caching resources for 2026, AI-ranked: Varnish Cache, HAProxy and more — curated Cloud Native tools, guides and references."
+description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache and more — curated Cloud Native tools, guides and references."
 ---
 # Caching Solutions
 
@@ -148,5 +148,5 @@ description: "Top Caching resources for 2026, AI-ranked: Varnish Cache, HAProxy 
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

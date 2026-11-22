@@ -45,7 +45,7 @@ description: "Top Sonarqube resources for 2026, AI-ranked: SonarQube Scanner Ove
   - **(2026)** [Ant - SonarScanner for Ant](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/scanner-environment/general-requirements) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Ant - SonarScanner for Ant: Curated technical resource in Sonarqube.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Keptn](./keptn.md) | [Jenkins](./jenkins.md)
+💡 **Explore Related:** [Argo](./argo.md) | [Jenkins](./jenkins.md) | [CI/CD](./cicd.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

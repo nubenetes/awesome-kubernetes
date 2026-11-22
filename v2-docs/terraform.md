@@ -1228,7 +1228,7 @@ description: "Top Terraform resources for 2026, AI-ranked: Gradle Cheat Sheets, 
   - [awstip.com: Deploying Azure Infrastructure with Terraform](https://awstip.com/deploying-azure-infrastructure-with-terraform-e34046c65d0f?gi=91abf4aaad19) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Deploying Azure Infrastructure with Terraform covering Terraform with Azure in Terraform (awstip.com).
 
 ---
-💡 **Explore Related:** [Ansible](./ansible.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md) | [Securityascode](./securityascode.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

@@ -91,7 +91,7 @@ description: "Top Newsfeeds resources for 2026, AI-ranked: September 2026 AI Upd
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for reddit.com/r/bashonubuntuonwindows covering Subreddits in Newsfeeds (reddit.com).
 
 ---
-💡 **Explore Related:** [Finops](./finops.md) | [HR](./hr.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Finops](./finops.md) | [Interview Questions](./interview-questions.md) | [Recruitment](./recruitment.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 

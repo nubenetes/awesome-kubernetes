@@ -146395,7 +146395,7 @@ https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-ant:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 27d0fda983d5e6593d84eaeeb3aee8edcc2cb43e1cd7354d267817dfad1330df
   health_score: 100.0
@@ -146415,6 +146415,7 @@ https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-ant:
   v2_locations: []
   youtube_mosaic: {}
   category: sonarqube
+  duplicate_of: https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/scanner-environment/general-requirements
 https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-azure-devops:
   title: Azure DevOps - SonarQube Extension for Azure DevOps
   description: ''
@@ -163086,7 +163087,7 @@ https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part
   - docs/kubernetes.md
   v2_locations: []
   youtube_mosaic: {}
-  duplicate_of: https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4
+  duplicate_of: https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part-2-of-2-dad0c973ffca?gi=41792e1713ef
   category: kubernetes
 https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4:
   title: How we learned to improve Kubernetes CronJobs at Scale (Part 1 of 2)
@@ -163277,7 +163278,7 @@ https://engineering.cloudflight.io/running-the-openshift-console-in-plain-kubern
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: N/A
   health_score: 100.0
@@ -163297,6 +163298,7 @@ https://engineering.cloudflight.io/running-the-openshift-console-in-plain-kubern
   v2_locations: []
   youtube_mosaic: {}
   category: kubernetes-based-devel
+  duplicate_of: https://engineering.cloudflight.io/en/running-the-openshift-console-in-plain-kubernetes
 https://engineering.doit.com/no-restarts-no-disruptions-seamless-pod-resource-updates-with-in-place-resizing-f3cf41654216:
   title: No Restarts No Disruptions Seamless Pod Resource Updates With In Place Resizing
     F3Cf41654216
@@ -166848,7 +166850,7 @@ https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: N/A
   health_score: 100.0
@@ -166868,6 +166870,7 @@ https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd:
   v2_locations: []
   youtube_mosaic: {}
   category: kubernetes-based-devel
+  duplicate_of: https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd?gi=c61c20c9e49f
 https://faun.pub/active-passive-load-balancing-with-kubernetes-services-742cae1938af:
   title: 'faun.pub: Kubernetes — Active/Passive Load Balancing with Services'
   description: ''
@@ -168445,7 +168448,7 @@ https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: N/A
   health_score: 100.0
@@ -168465,6 +168468,7 @@ https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182:
   v2_locations: []
   youtube_mosaic: {}
   category: monitoring
+  duplicate_of: https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182?gi=c975914f6fa7
 https://faun.pub/how-to-monitor-and-alert-on-nginx-ingress-in-kubernetes-6d7d172f0399:
   title: 'faun.pub: How to Monitor and Alert on Ingress-NGINX in Kubernetes'
   description: ''
@@ -258155,7 +258159,7 @@ https://github.com/savecost/datav:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 446a82fc88f4cec9598c9c7450122067d985466c84059b867e07994b4b372982
   health_score: 100.0
@@ -258180,6 +258184,7 @@ https://github.com/savecost/datav:
   gh_activity_checked: '2026-10-28T19:10:16.909301+01:00'
   category: monitoring
   momentum_score: 0.0
+  duplicate_of: https://github.com/origin-brain/deepops
 https://github.com/sbilly/awesome-security:
   title: 'sbilly/awesome-security: Awesome Security'
   description: ''
@@ -273844,7 +273849,7 @@ https://golangrepo.com:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: N/A
   health_score: 100.0
@@ -273865,6 +273870,7 @@ https://golangrepo.com:
   youtube_mosaic: {}
   is_special: true
   category: other-awesome-lists
+  duplicate_of: https://pkg.go.dev
 https://googlecloudcheatsheet.withgoogle.com:
   title: 'googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet'
   description: ''
@@ -274910,7 +274916,7 @@ https://grafana.com/blog/2021/11/29/how-to-build-performance-tests-into-your-ci-
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 7840bdbf499358cf62afabf504ecf2f436de75b7779bf55a6f16488ed6bb28d2
   health_score: 100.0
@@ -274930,6 +274936,7 @@ https://grafana.com/blog/2021/11/29/how-to-build-performance-tests-into-your-ci-
   v2_locations: []
   youtube_mosaic: {}
   category: qa
+  duplicate_of: https://grafana.com/blog/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana
 https://grafana.com/blog/2021/12/06/testing-shift-left-observability-with-the-grafana-stack-opentelemetry-and-k6:
   title: 'grafana.com: Testing shift left observability with the Grafana Stack, OpenTelemetry,''
     and k6'
@@ -278225,7 +278232,7 @@ https://harness.io/blog/autostopping-rules-kubernetes:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 019abacc3d9205889ab6c94e5690fca11630187477c1ca94f74f4fca315f3171
   health_score: 100.0
@@ -278245,6 +278252,7 @@ https://harness.io/blog/autostopping-rules-kubernetes:
   v2_locations: []
   youtube_mosaic: {}
   category: jenkins-alternatives
+  duplicate_of: https://www.harness.io/blog/cloud-autostopping-complements-kubernetes-cluster-autoscaling-cost-savings
 https://harness.io/blog/cd-jenkins-pipelines-harness:
   title: 'harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm'
   description: ''
@@ -278257,7 +278265,7 @@ https://harness.io/blog/cd-jenkins-pipelines-harness:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 20796891e260fb8fd856dfd6bcdb9af7233f27dfea3eac755b5c1f0dea729af8
   health_score: 100.0
@@ -278277,6 +278285,7 @@ https://harness.io/blog/cd-jenkins-pipelines-harness:
   v2_locations: []
   youtube_mosaic: {}
   category: jenkins-alternatives
+  duplicate_of: https://www.harness.io/blog/how-to-migrate-off-jenkins-the-road-to-modern-ci-cd
 https://harness.io/blog/continuous-delivery/automated-devsecops:
   title: 'harness.io: Automated DevSecOps with StackHawk and Harness'
   description: ''
@@ -281303,7 +281312,7 @@ https://high-mobility.com/learn/tutorials/rest:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: c835fdb4211052023745151a063aef86fb3583376babb7adee0811501967b9cb
   health_score: 100.0
@@ -281323,6 +281332,7 @@ https://high-mobility.com/learn/tutorials/rest:
   v2_locations: []
   youtube_mosaic: {}
   category: developerportals
+  duplicate_of: https://www.high-mobility.com/car-api
 https://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html:
   title: "highscalability.com: Building nginx and Tarantool based services \U0001F31F"
   description: ''
@@ -291613,7 +291623,7 @@ https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: f0217c87f64659219fda89b504208558cd17c6fabb93392b1e6386ae8c6913de
   health_score: 100.0
@@ -291633,6 +291643,7 @@ https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee:
   v2_locations: []
   youtube_mosaic: {}
   category: demos
+  duplicate_of: https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee?gi=4592f956211c
 https://itnext.io/hardening-docker-and-kubernetes-with-seccomp-a88b1b4e2111:
   title: "itnext.io: Hardening Docker and Kubernetes with seccomp \U0001F31F"
   description: ''
@@ -292206,7 +292217,7 @@ https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: bbd934ea21e51a6df462768e8b71e862160db8642dd7effe180d9ccc4aa9d97f
   health_score: 100.0
@@ -292226,6 +292237,7 @@ https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your
   v2_locations: []
   youtube_mosaic: {}
   category: kubernetes-based-devel
+  duplicate_of: https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your-local-dockerfiles-48833fcd90c9?gi=13651e082a04
 https://itnext.io/how-to-kubernetes-cluster-network-security-f19bc99161f5:
   title: "itnext.io: How-To: Kubernetes Cluster Network Security \U0001F31F"
   description: ''
@@ -292306,7 +292318,7 @@ https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: f3bbe9f34bf1bcd5cbe53456c2023f7566b19b66798a70b7f80e21c441ea8acb
   health_score: 100.0
@@ -292326,6 +292338,7 @@ https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6
   v2_locations: []
   youtube_mosaic: {}
   category: qa
+  duplicate_of: https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6-and-elasticsearch-4ff8142bc774?gi=22375a83545f
 https://itnext.io/how-to-setup-ci-cd-pipelines-for-android-with-azure-devops-2a4ded0de0e7:
   title: 'itnext.io: How to setup CI CD pipelines for Android with Azure DevOps'
   description: ''
@@ -292884,7 +292897,7 @@ https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07:
   - docs/jenkins.md
   v2_locations: []
   youtube_mosaic: {}
-  duplicate_of: https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509?gi=67b4a24546f0
+  duplicate_of: https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07?gi=f693c558a03a
   category: jenkins
 https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad:
   title: "itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline \U0001F31F"
@@ -292898,7 +292911,7 @@ https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 08d54fff4f70e680f0338832319ab876fcc8a4fb7128718fcb68b17b32877ec0
   health_score: 100.0
@@ -292918,6 +292931,7 @@ https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad:
   v2_locations: []
   youtube_mosaic: {}
   category: jenkins
+  duplicate_of: https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad?gi=8139b93da62c
 https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c:
   title: 'itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines'
   description: ''
@@ -292929,7 +292943,7 @@ https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 0b7888ed1895b6b558e936cf41c78663e5e3eb5e613f73c41ef9557dab5e5a58
   health_score: 100.0
@@ -292949,6 +292963,7 @@ https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c:
   v2_locations: []
   youtube_mosaic: {}
   category: jenkins
+  duplicate_of: https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=248d3a073994
 https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=563a447caa2b:
   title: "itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines \U0001F31F"
   description: ''
@@ -293554,7 +293569,7 @@ https://itnext.io/kubernetes-for-dummies-life-of-a-pod-fc8158e27aa:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 35dd76d2c64dfebc57a1b4925ee22a8d52a13a1c20225f025c7b5baa6ab02df8
   health_score: 100.0
@@ -293574,6 +293589,7 @@ https://itnext.io/kubernetes-for-dummies-life-of-a-pod-fc8158e27aa:
   v2_locations: []
   youtube_mosaic: {}
   category: kubernetes
+  duplicate_of: https://itnext.io/kubernetes-for-dummies-life-of-a-pod-fc8158e27aa?gi=137550e369e9
 https://itnext.io/kubernetes-gitops-tools-cf0247eb5368:
   title: 'itnext.io: Kubernetes GitOps Tools'
   description: ''
@@ -294006,7 +294022,7 @@ https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: 9f81323756d2b762f3ed19406b37dbc6fc4903981bbbe6854f09e0abb0754d55
   health_score: 100.0
@@ -294026,6 +294042,7 @@ https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a:
   v2_locations: []
   youtube_mosaic: {}
   category: kubernetes-operators-controllers
+  duplicate_of: https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a?gi=2aae862166f7
 https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345:
   title: 'itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native
     Apps'
@@ -297546,7 +297563,7 @@ https://itnext.io/working-with-kubernetes-configmaps-part-2-watchers-b6dd0e583d7
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: c4642098338acc234520b707627e5e04ae4e9f2ec2a8926586abef71e2ab2480
   health_score: 100.0
@@ -297566,6 +297583,7 @@ https://itnext.io/working-with-kubernetes-configmaps-part-2-watchers-b6dd0e583d7
   v2_locations: []
   youtube_mosaic: {}
   category: kubernetes
+  duplicate_of: https://itnext.io/working-with-kubernetes-configmaps-part-2-watchers-b6dd0e583d71?gi=847a56e4469b
 https://itnext.io/working-with-the-kubernetes-api-587bc5941992:
   title: "itnext.io: Working with the kubernetes API | Daniele Polencic \U0001F31F"
   description: ''
@@ -332308,7 +332326,7 @@ https://lucidscale.com:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: f86b851e42c2dc350188fba6ffe061249a0358cc1fd5e9834c88f5f4cbfc0178
   health_score: 100.0
@@ -332328,6 +332346,7 @@ https://lucidscale.com:
   v2_locations: []
   youtube_mosaic: {}
   category: cloud-arch-diagrams
+  duplicate_of: https://lucid.co/enterprise/cloud-accelerator
 https://lucperkins.dev/blog/service-mesh-use-cases:
   title: 'lucperkins.dev: Service mesh use cases'
   description: ''
@@ -487234,7 +487253,7 @@ https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automati
   - docs/ansible.md
   v2_locations: []
   youtube_mosaic: {}
-  duplicate_of: https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-controller
+  duplicate_of: https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator
   category: ansible
 https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-controller:
   title: 'ansible.com: What''s new in Ansible Automation Platform 2: automation controller'
@@ -563819,7 +563838,7 @@ https://www.manifests.io/kubernetes/1.28:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: null
+  status: duplicate
   addition_method: manual
   content_hash: N/A
   health_score: 100.0
@@ -563839,6 +563858,7 @@ https://www.manifests.io/kubernetes/1.28:
   v2_locations: []
   youtube_mosaic: {}
   category: cheatsheets
+  duplicate_of: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28
 https://www.manning.com/books/openshift-in-action:
   title: 'Manning: **Openshift in action**'
   description: ''
@@ -659425,7 +659445,7 @@ https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automa
   resource_type: Article
   complexity: Advanced
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -659447,6 +659467,7 @@ https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automa
   - ansible.md
   youtube_mosaic: {}
   category: ansible
+  duplicate_of: https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator
 https://www.stackrox.io/blog/kubernetes-networking-demystified:
   title: 'stackrox.com: Kubernetes Networking Demystified: A Brief Guide'
   description: ''
@@ -745036,6 +745057,7 @@ https://github.com/n8n-io/n8n:
   - Lowcode Nocode
   - General Reference
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   v1_locations:
   - docs/lowcode-nocode.md
@@ -745043,8 +745065,14 @@ https://github.com/n8n-io/n8n:
   - lowcode-nocode.md
   youtube_mosaic: {}
   gh_stars: 211775
-  gh_pushed: '2026-11-22T11:23:47Z'
+  gh_pushed: '2026-11-22'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 1268
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 2344.37
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets:
   title: Build mini-apps with Gemini in Google Sheets
   description: "\U0001F31F - Sheets canvas turns data into interactive dashboards,
@@ -746228,7 +746256,7 @@ https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07?gi=f69
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -746249,6 +746277,7 @@ https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07?gi=f69
   v2_locations:
   - jenkins.md
   youtube_mosaic: {}
+  duplicate_of: https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509?gi=67b4a24546f0
 https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad?gi=8139b93da62c:
   title: "itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline \U0001F31F"
   description: ''
@@ -746324,7 +746353,7 @@ https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -746345,6 +746374,7 @@ https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=
   v2_locations:
   - jenkins.md
   youtube_mosaic: {}
+  duplicate_of: https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=248d3a073994
 https://itnext.io/how-to-experiment-locally-on-kubernetes-with-minikube-and-your-local-dockerfiles-48833fcd90c9?gi=13651e082a04:
   title: 'itnext.io: How to experiment locally on Kubernetes with minikube and your
     local Dockerfiles'
@@ -747120,14 +747150,21 @@ https://github.com/origin-brain/deepops:
   - Application Performance Management APM
   tags:
   - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
   v1_locations:
   - docs/monitoring.md
   v2_locations:
   - monitoring.md
   youtube_mosaic: {}
   gh_stars: 3961
-  gh_pushed: '2025-03-04T08:46:43Z'
+  gh_pushed: '2025-03-04'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 46
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 35.56
+  momentum_score: 66.9
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://itnext.io/kubernetes-for-dummies-life-of-a-pod-fc8158e27aa?gi=137550e369e9:
   title: 'itnext.io: Kubernetes for dummies: Life of a Pod. Part 3'
   description: ''
@@ -747203,7 +747240,7 @@ https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -747224,6 +747261,7 @@ https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part
   v2_locations:
   - kubernetes.md
   youtube_mosaic: {}
+  duplicate_of: https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4
 https://www.redhat.com/en/technologies/cloud-computing/openshift-5:
   title: Red Hat OpenShift 5 Product Overview
   description: "\U0001F31F - Official Red Hat product portal for OpenShift 5 covering
@@ -747579,8 +747617,14 @@ https://github.com/openshift/lightspeed-service:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 73
-  gh_pushed: '2026-11-19T12:37:30Z'
+  gh_pushed: '2026-11-19'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 14
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 1.97
+  momentum_score: 37.9
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/openshift/lightspeed-operator:
   title: 'GitHub: openshift/lightspeed-operator'
   description: "\U0001F31F - Kubernetes operator managing the deployment, configuration,
@@ -747593,7 +747637,7 @@ https://github.com/openshift/lightspeed-operator:
   resource_type: Tool
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -747615,8 +747659,15 @@ https://github.com/openshift/lightspeed-operator:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 19
-  gh_pushed: '2026-11-22T00:14:52Z'
+  gh_pushed: '2026-11-22'
   gh_license: Apache-2.0
+  duplicate_of: https://github.com/openshift/lightspeed-agentic-operator
+  gh_open_issues_30d: 25
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 0.55
+  momentum_score: 26.6
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/openshift/lightspeed-agentic-operator:
   title: 'GitHub: openshift/lightspeed-agentic-operator'
   description: "\U0001F31F - Open-source operator enabling supervised agentic workflows,
@@ -747653,8 +747704,14 @@ https://github.com/openshift/lightspeed-agentic-operator:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 17
-  gh_pushed: '2026-11-22T00:15:17Z'
+  gh_pushed: '2026-11-22'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 31
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 2.39
+  momentum_score: 30.8
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/containers/kubernetes-mcp-server:
   title: 'GitHub: containers/kubernetes-mcp-server'
   description: "\U0001F31F - High-velocity Model Context Protocol (MCP) server for
@@ -747692,8 +747749,14 @@ https://github.com/containers/kubernetes-mcp-server:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 2272
-  gh_pushed: '2026-11-20T22:42:14Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 145
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 105.02
+  momentum_score: 78.3
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/Kuadrant/kuadrant-operator:
   title: 'GitHub: Kuadrant/kuadrant-operator (Red Hat Connectivity Link)'
   description: "\U0001F31F - Upstream Kubernetes-native connectivity, Gateway API
@@ -747731,8 +747794,15 @@ https://github.com/Kuadrant/kuadrant-operator:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 96
-  gh_pushed: '2026-11-20T13:14:09Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  cncf_status: sandbox
+  gh_open_issues_30d: 367
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1.59
+  momentum_score: 40.6
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://www.redhat.com/en/blog/post-quantum-cryptography-red-hat-enterprise-linux-10:
   title: Post-Quantum Cryptography in Red Hat Enterprise Linux 10
   description: "\U0001F31F - Deep dive into the RHEL 10 / RHCOS 10 cryptographic foundation
@@ -747839,8 +747909,14 @@ https://github.com/ComplianceAsCode/compliance-operator:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 61
-  gh_pushed: '2026-11-21T00:06:55Z'
+  gh_pushed: '2026-11-21'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 109
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1.08
+  momentum_score: 34.8
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/openshift/cert-manager-operator:
   title: 'GitHub: openshift/cert-manager-operator'
   description: "\U0001F31F - OpenShift cert-manager Operator for automated zero-trust
@@ -747877,8 +747953,14 @@ https://github.com/openshift/cert-manager-operator:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 38
-  gh_pushed: '2026-11-20T11:43:14Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 31
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 0.56
+  momentum_score: 30.5
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/operator-framework/operator-controller:
   title: 'GitHub: operator-framework/operator-controller (OLM v1)'
   description: "\U0001F31F - Core controller of Operator Lifecycle Manager v1 (OLM
@@ -747915,8 +747997,14 @@ https://github.com/operator-framework/operator-controller:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 218
-  gh_pushed: '2026-11-20T16:23:51Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 29
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 3.91
+  momentum_score: 46.9
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/openshift/oc-mirror:
   title: 'GitHub: openshift/oc-mirror'
   description: "\U0001F31F - Official OpenShift CLI plugin (`oc-mirror` v2) for mirroring
@@ -747953,8 +748041,14 @@ https://github.com/openshift/oc-mirror:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 124
-  gh_pushed: '2026-11-20T16:47:44Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 60
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1.84
+  momentum_score: 40.5
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://www.redhat.com/en/blog/unlocking-next-generation-workloads-whats-new-red-hat-openshift-virtualization-5:
   title: What is New in Red Hat OpenShift Virtualization 5
   description: "\U0001F31F - Official Red Hat deep dive into OpenShift Virtualization
@@ -748095,8 +748189,14 @@ https://github.com/openshift/rosa:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 105
-  gh_pushed: '2026-11-21T00:05:21Z'
+  gh_pushed: '2026-11-21'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 27
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 1.29
+  momentum_score: 38.3
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/openshift/microshift:
   title: 'GitHub: openshift/microshift'
   description: "\U0001F31F - Lightweight, single-node edge distribution derived from
@@ -748133,8 +748233,14 @@ https://github.com/openshift/microshift:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 852
-  gh_pushed: '2026-11-20T20:30:46Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 20
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 12.56
+  momentum_score: 60.5
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://www.redhat.com/en/blog/guide-observability-red-hat-openshift-5:
   title: Guide to Observability in Red Hat OpenShift 5
   description: "\U0001F31F - Official technical guide to OpenShift 5 observability
@@ -748206,8 +748312,15 @@ https://github.com/perses/perses:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 2550
-  gh_pushed: '2026-11-20T08:41:57Z'
+  gh_pushed: '2026-11-22'
   gh_license: Apache-2.0
+  cncf_status: sandbox
+  gh_open_issues_30d: 276
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 36.0
+  momentum_score: 74.5
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/okd-project/okd-scos:
   title: 'GitHub: okd-project/okd-scos (OKD 5 on CentOS Stream CoreOS)'
   description: "\U0001F31F - Upstream CentOS Stream CoreOS (SCOS) build and release
@@ -748238,14 +748351,21 @@ https://github.com/okd-project/okd-scos:
   - OKD 5 Community Distribution
   tags:
   - '[EMERGING]'
+  - '[LEGACY]'
   v1_locations:
   - docs/ocp5.md
   v2_locations:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 27
-  gh_pushed: '2025-04-13T06:02:36Z'
+  gh_pushed: '2025-04-13'
   gh_license: N/A
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  gh_stars_per_month: 0.54
+  momentum_score: 20.5
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://okd.io/blog:
   title: OKD Official Blog
   description: "\U0001F31F - Official OKD working group announcements covering OKD
@@ -748316,8 +748436,14 @@ https://github.com/okd-project/okd:
   - ocp5.md
   youtube_mosaic: {}
   gh_stars: 2150
-  gh_pushed: '2026-11-19T20:22:54Z'
+  gh_pushed: '2026-11-19'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 89
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 25.17
+  momentum_score: 69.5
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://okf.md:
   title: Open Knowledge Format (OKF) Official Portal
   description: "\U0001F31F - Official portal for the Open Knowledge Format (OKF),
@@ -748390,8 +748516,14 @@ https://github.com/open-knowledge-format/open-knowledge-format:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 125
-  gh_pushed: '2026-11-18T17:00:27Z'
+  gh_pushed: '2026-11-18'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 4
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 81.52
+  momentum_score: 61.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing:
   title: 'Google Cloud: How the Open Knowledge Format Can Improve Data Sharing (OKF
     v0.1)'
@@ -748539,8 +748671,14 @@ https://github.com/AnswerDotAI/llms-txt:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 2699
-  gh_pushed: '2026-09-24T18:21:11Z'
+  gh_pushed: '2026-09-24'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 124
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 99.72
+  momentum_score: 78.9
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/VectifyAI/PageIndex:
   title: 'GitHub: VectifyAI/PageIndex (Vectorless Reasoning-Based RAG)'
   description: "\U0001F31F - Leading vectorless, reasoning-based RAG framework that
@@ -748571,6 +748709,7 @@ https://github.com/VectifyAI/PageIndex:
   - AI RAG OKF
   - Vectorless Reasoning RAG and Cache-Augmented Generation CAG
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[LLM]'
   - '[RAG]'
@@ -748580,8 +748719,14 @@ https://github.com/VectifyAI/PageIndex:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 40734
-  gh_pushed: '2026-11-21T09:27:39Z'
+  gh_pushed: '2026-11-21'
   gh_license: MIT
+  gh_open_issues_30d: 174
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 2036.7
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/hhhuang/CAG:
   title: 'GitHub: hhhuang/CAG (Cache-Augmented Generation)'
   description: "\U0001F31F - Reference implementation of Cache-Augmented Generation
@@ -748620,8 +748765,14 @@ https://github.com/hhhuang/CAG:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 1615
-  gh_pushed: '2025-05-26T21:00:42Z'
+  gh_pushed: '2025-05-26'
   gh_license: MIT
+  gh_open_issues_30d: 8
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 68.14
+  momentum_score: 65.9
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://arxiv.org/abs/2412.15605:
   title: 'arXiv: Don''t Do RAG — When Cache-Augmented Generation is All You Need for
     Knowledge Tasks'
@@ -748688,6 +748839,7 @@ https://github.com/microsoft/graphrag:
   - AI RAG OKF
   - GraphRAG and Hybrid Knowledge Graphs
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[GRAPHRAG]'
   - '[LLM]'
@@ -748698,8 +748850,14 @@ https://github.com/microsoft/graphrag:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 36718
-  gh_pushed: '2026-11-19T18:39:15Z'
+  gh_pushed: '2026-11-19'
   gh_license: MIT
+  gh_open_issues_30d: 70
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1136.78
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/HKUDS/LightRAG:
   title: 'GitHub: HKUDS/LightRAG'
   description: "\U0001F31F - Fast, token-efficient dual-level graph-enhanced RAG framework
@@ -748729,6 +748887,7 @@ https://github.com/HKUDS/LightRAG:
   - AI RAG OKF
   - GraphRAG and Hybrid Knowledge Graphs
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[GRAPHRAG]'
   v1_locations:
@@ -748737,8 +748896,14 @@ https://github.com/HKUDS/LightRAG:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 40812
-  gh_pushed: '2026-11-22T13:00:33Z'
+  gh_pushed: '2026-11-22'
   gh_license: MIT
+  gh_open_issues_30d: 245
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1567.68
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/neo4j/neo4j-graphrag-python:
   title: 'GitHub: neo4j/neo4j-graphrag-python'
   description: "\U0001F31F - Official Neo4j Python package for building production
@@ -748776,8 +748941,14 @@ https://github.com/neo4j/neo4j-graphrag-python:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 1336
-  gh_pushed: '2026-11-21T05:31:18Z'
+  gh_pushed: '2026-11-21'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 60
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 40.12
+  momentum_score: 69.7
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/topoteretes/cognee:
   title: 'GitHub: topoteretes/cognee'
   description: "\U0001F31F - Open-source graph-vector hybrid memory engine using an
@@ -748807,6 +748978,7 @@ https://github.com/topoteretes/cognee:
   - AI RAG OKF
   - GraphRAG and Hybrid Knowledge Graphs
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[GRAPHRAG]'
   - '[MCP]'
@@ -748816,8 +748988,14 @@ https://github.com/topoteretes/cognee:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 33458
-  gh_pushed: '2026-11-20T20:41:43Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 1112
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 841.36
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://www.anthropic.com/research/contextual-retrieval:
   title: 'Anthropic Research: Introducing Contextual Retrieval'
   description: "\U0001F31F - Seminal engineering blueprint introducing Contextual
@@ -748883,6 +749061,7 @@ https://github.com/infiniflow/ragflow:
   - AI RAG OKF
   - Modern RAG Contextual Retrieval and Deep Document Parsing
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[RAG]'
   v1_locations:
@@ -748891,8 +749070,14 @@ https://github.com/infiniflow/ragflow:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 94532
-  gh_pushed: '2026-11-22T13:07:49Z'
+  gh_pushed: '2026-11-22'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 1319
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 2635.65
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/run-llama/llama_index:
   title: 'GitHub: run-llama/llama_index'
   description: "\U0001F31F - Flagship open-source data and orchestration framework
@@ -748922,6 +749107,7 @@ https://github.com/run-llama/llama_index:
   - AI RAG OKF
   - Modern RAG Contextual Retrieval and Deep Document Parsing
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[RAG]'
   v1_locations:
@@ -748930,8 +749116,14 @@ https://github.com/run-llama/llama_index:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 52981
-  gh_pushed: '2026-11-20T00:46:38Z'
+  gh_pushed: '2026-11-20'
   gh_license: MIT
+  gh_open_issues_30d: 1522
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1073.21
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/deepset-ai/haystack:
   title: 'GitHub: deepset-ai/haystack'
   description: "\U0001F31F - Production-hardened, modular Python framework for composing
@@ -748961,6 +749153,7 @@ https://github.com/deepset-ai/haystack:
   - AI RAG OKF
   - Modern RAG Contextual Retrieval and Deep Document Parsing
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   v1_locations:
   - docs/ai-rag-okf.md
@@ -748968,8 +749161,14 @@ https://github.com/deepset-ai/haystack:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 27073
-  gh_pushed: '2026-11-21T02:10:41Z'
+  gh_pushed: '2026-11-21'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 173
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 316.64
+  momentum_score: 98.4
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/mem0ai/mem0:
   title: 'GitHub: mem0ai/mem0'
   description: "\U0001F31F - Universal memory layer for AI applications and autonomous
@@ -748999,6 +749198,7 @@ https://github.com/mem0ai/mem0:
   - AI RAG OKF
   - Persistent Agent Memory Systems
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   v1_locations:
   - docs/ai-rag-okf.md
@@ -749006,8 +749206,14 @@ https://github.com/mem0ai/mem0:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 69337
-  gh_pushed: '2026-11-18T07:24:33Z'
+  gh_pushed: '2026-11-18'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 978
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1662.76
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/getzep/graphiti:
   title: 'GitHub: getzep/graphiti'
   description: "\U0001F31F - Bi-temporal knowledge graph engine by Zep built for dynamic
@@ -749037,6 +749243,7 @@ https://github.com/getzep/graphiti:
   - AI RAG OKF
   - Persistent Agent Memory Systems
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[GRAPHRAG]'
   v1_locations:
@@ -749045,8 +749252,14 @@ https://github.com/getzep/graphiti:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 32996
-  gh_pushed: '2026-11-20T17:36:25Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 575
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 1185.49
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/letta-ai/letta:
   title: 'GitHub: letta-ai/letta (formerly MemGPT)'
   description: "\U0001F31F - Stateful Agent OS enabling LLMs to explicitly manage
@@ -749076,6 +749289,7 @@ https://github.com/letta-ai/letta:
   - AI RAG OKF
   - Persistent Agent Memory Systems
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[LLM]'
   v1_locations:
@@ -749084,8 +749298,14 @@ https://github.com/letta-ai/letta:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 25511
-  gh_pushed: '2026-10-18T22:28:04Z'
+  gh_pushed: '2026-10-18'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 1
+  gh_open_prs_30d: 0
+  gh_community_health: low
+  gh_stars_per_month: 672.52
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/qdrant/qdrant:
   title: 'GitHub: qdrant/qdrant'
   description: "\U0001F31F - High-performance Rust vector and hybrid search engine
@@ -749115,6 +749335,7 @@ https://github.com/qdrant/qdrant:
   - AI RAG OKF
   - Vector Databases Hybrid Search and RAG Evaluation
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[RAG]'
   v1_locations:
@@ -749123,8 +749344,14 @@ https://github.com/qdrant/qdrant:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 35661
-  gh_pushed: '2026-11-20T21:47:16Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 833
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 452.17
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/weaviate/weaviate:
   title: 'GitHub: weaviate/weaviate'
   description: "\U0001F31F - Cloud-native AI database combining HNSW vector search,
@@ -749153,6 +749380,7 @@ https://github.com/weaviate/weaviate:
   - AI RAG OKF
   - Vector Databases Hybrid Search and RAG Evaluation
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[RAG]'
   v1_locations:
@@ -749161,8 +749389,14 @@ https://github.com/weaviate/weaviate:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 16959
-  gh_pushed: '2026-11-22T09:46:12Z'
+  gh_pushed: '2026-11-22'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 879
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 130.86
+  momentum_score: 90.5
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/milvus-io/milvus:
   title: 'GitHub: milvus-io/milvus'
   description: "\U0001F31F - Distributed, cloud-native vector database architected
@@ -749192,6 +749426,7 @@ https://github.com/milvus-io/milvus:
   - AI RAG OKF
   - Vector Databases Hybrid Search and RAG Evaluation
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   v1_locations:
   - docs/ai-rag-okf.md
@@ -749199,8 +749434,15 @@ https://github.com/milvus-io/milvus:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 46717
-  gh_pushed: '2026-11-21T14:10:05Z'
+  gh_pushed: '2026-11-21'
   gh_license: Apache-2.0
+  cncf_status: graduated
+  gh_open_issues_30d: 1420
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 534.11
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/pgvector/pgvector:
   title: 'GitHub: pgvector/pgvector'
   description: "\U0001F31F - Open-source vector similarity search extension (HNSW
@@ -749230,6 +749472,7 @@ https://github.com/pgvector/pgvector:
   - AI RAG OKF
   - Vector Databases Hybrid Search and RAG Evaluation
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   - '[RAG]'
   v1_locations:
@@ -749238,8 +749481,14 @@ https://github.com/pgvector/pgvector:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 23775
-  gh_pushed: '2026-11-22T12:24:42Z'
+  gh_pushed: '2026-11-22'
   gh_license: NOASSERTION
+  gh_open_issues_30d: 19
+  gh_open_prs_30d: 0
+  gh_community_health: healthy
+  gh_stars_per_month: 349.46
+  momentum_score: 98.3
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/chroma-core/chroma:
   title: 'GitHub: chroma-core/chroma'
   description: "\U0001F31F - Developer-friendly, open-source AI-native search and
@@ -749267,6 +749516,7 @@ https://github.com/chroma-core/chroma:
   - AI RAG OKF
   - Vector Databases Hybrid Search and RAG Evaluation
   tags:
+  - '[DE FACTO STANDARD]'
   - '[EMERGING]'
   v1_locations:
   - docs/ai-rag-okf.md
@@ -749274,8 +749524,14 @@ https://github.com/chroma-core/chroma:
   - ai-rag-okf.md
   youtube_mosaic: {}
   gh_stars: 29724
-  gh_pushed: '2026-11-20T21:09:35Z'
+  gh_pushed: '2026-11-20'
   gh_license: Apache-2.0
+  gh_open_issues_30d: 987
+  gh_open_prs_30d: 0
+  gh_community_health: active
+  gh_stars_per_month: 591.33
+  momentum_score: 100.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://github.com/explodinggradients/ragas:
   title: 'GitHub: explodinggradients/ragas'
   description: "\U0001F31F - De facto open-source evaluation framework for measuring
@@ -749315,6 +749571,11 @@ https://github.com/explodinggradients/ragas:
   gh_stars: 0
   gh_pushed: null
   gh_license: N/A
+  gh_open_issues_30d: 0
+  gh_open_prs_30d: 0
+  gh_community_health: dormant
+  momentum_score: 62.0
+  gh_activity_checked: '2026-11-22T14:22:42.694728+01:00'
 https://www.youtube.com/playlist?list=PLGAd0E0sFnHo:
   title: '⭐ Nubenetes Modern Web Guidance (GoogleChrome): INP, Built-in AI, Passkeys
     & CSS'
@@ -749336,13 +749597,9 @@ https://www.youtube.com/playlist?list=PLGAd0E0sFnHo:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Modern Web + Built-in AI + WebAuthn
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795353672
   needs_ai_refresh: false
@@ -749360,6 +749617,11 @@ https://www.youtube.com/playlist?list=PLGAd0E0sFnHo:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Modern Web + Built-in AI + WebAuthn
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLU_tovQ-veEc:
   title: ⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)
@@ -749381,13 +749643,9 @@ https://www.youtube.com/playlist?list=PLU_tovQ-veEc:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Kubernetes + Azure Red Hat OpenShift + AI Agents
-  category: Architecture and Cloud Strategy
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795353672
   needs_ai_refresh: false
@@ -749405,6 +749663,11 @@ https://www.youtube.com/playlist?list=PLU_tovQ-veEc:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + Azure Red Hat OpenShift + AI Agents
+  category: Architecture and Cloud Strategy
   source_provenance: Official @nubenetes YouTube Channel
 https://www.youtube.com/playlist?list=PLTWdjaOFYLCg:
   title: '⭐ Nubenetes Azure AI Gateway: Foundry, Federated MCP, FinOps & Security'
@@ -749425,13 +749688,9 @@ https://www.youtube.com/playlist?list=PLTWdjaOFYLCg:
   resource_type: Video
   complexity: Intermediate
   is_microservice: false
-  is_featured_video: true
-  is_enriched: true
-  video_order: 25
-  technology: Azure AI Gateway + MCP + AI Agents
-  category: AI and Future Operations
   status: online
   addition_method: automatic
+  content_hash: null
   health_score: 100.0
   last_checked: 1795353672
   needs_ai_refresh: false
@@ -749449,4 +749708,9 @@ https://www.youtube.com/playlist?list=PLTWdjaOFYLCg:
   v2_locations:
   - index.md
   youtube_mosaic: {}
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure AI Gateway + MCP + AI Agents
+  category: AI and Future Operations
   source_provenance: Official @nubenetes YouTube Channel

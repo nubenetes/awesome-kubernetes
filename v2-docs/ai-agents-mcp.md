@@ -1641,7 +1641,7 @@ Core technical aims:
 *   **Technical Significance**: Redefines open-source collaboration, demonstrating a paradigm where human and AI agents securely build and maintain a massive public codebase.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI RAG OKF](./ai-rag-okf.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [MLOps](./mlops.md)
 
-🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
+🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
 
