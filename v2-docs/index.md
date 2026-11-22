@@ -95,9 +95,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 20494 total resources analyzed.
-    - **V2 Elite Selection**: 16368 candidates identified (79.87% density ratio).
-    - **AI Enrichment Coverage**: 16368 / 16368 (100.0%)
+    - **V1 Base Inventory**: 20495 total resources analyzed.
+    - **V2 Elite Selection**: 16369 candidates identified (79.87% density ratio).
+    - **AI Enrichment Coverage**: 16369 / 16369 (100.0%)
     - **GitHub Metadata Coverage**: 1849 / 1849 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -106,7 +106,7 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 17, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 22, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -149,7 +149,7 @@
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kueue">kubernetes-sigs/kueue: Kubernetes-native Job Queueing</a></div>
   <div class="trending-card__meta">2026-11-05 · 3.1k★</div>
-  <div class="trending-card__why">Kueue establishes the Kubernetes-native standard for multi-tenant batch scheduling and AI/ML job queueing to maximize GPU and cluster utilization.</div>
+  <div class="trending-card__why">Kueue establishes Kubernetes-native batch queueing and multi-tenant quota management, directly transforming how enterprises orchestrate large-scale AI/ML and HPC workloads.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -275,7 +275,7 @@
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/karmada-io/karmada">Karmada</a></div>
   <div class="trending-card__meta">2026-11-05 · 5.8k★</div>
-  <div class="trending-card__why">Karmada provides CNCF-backed multi-cluster workload federation and scheduling, enabling resilient hybrid and multi-cloud Kubernetes architectures.</div>
+  <div class="trending-card__why">Karmada provides a CNCF-backed multi-cluster federation engine that enables resilient workload scheduling and high availability across hybrid and multi-cloud environments.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -615,7 +615,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="804 resources">Emerging<span class="v2-heat-n">804</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="805 resources">Emerging<span class="v2-heat-n">805</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>
@@ -667,7 +667,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#gitops" title="3 resources">GITOPS<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1040 resources">Go<span class="v2-heat-n">1040</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1036 resources">Go<span class="v2-heat-n">1036</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -777,7 +777,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#linux" title="2 resources">Linux<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#live-streaming" title="1 resources">Live-Streaming<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llama-cpp" title="1 resources">Llama-Cpp<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="193 resources">LLM<span class="v2-heat-n">193</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#llm" title="194 resources">LLM<span class="v2-heat-n">194</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-agents" title="2 resources">Llm-Agents<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-benchmarks" title="1 resources">Llm-Benchmarks<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#llm-compression" title="1 resources">Llm-Compression<span class="v2-heat-n">1</span></a>
@@ -801,7 +801,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#malware-analysis" title="1 resources">Malware-Analysis<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#mamba" title="1 resources">Mamba<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#manufacturing" title="1 resources">Manufacturing<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="333 resources">Markdown<span class="v2-heat-n">333</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="336 resources">Markdown<span class="v2-heat-n">336</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#mathematical-reasoning" title="1 resources">Mathematical-Reasoning<span class="v2-heat-n">1</span></a>

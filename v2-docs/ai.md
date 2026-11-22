@@ -1,5 +1,5 @@
 ---
-description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skills for Real Engineers and more — curated Cloud Native tools, guides and references."
+description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 
@@ -12,6 +12,11 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 !!! abstract "Deep-Dive Topic Pages"
     [Enterprise AI Platforms](./enterprise-ai-platforms/) · [AI Agents & MCP](./ai-agents-mcp/) · [MLOps & GPU Scheduling](./mlops/) · [LLMs & Assistants](./chatgpt/) · [K8s Operators](./kubernetes-operators-controllers/)
 
+## AI
+
+### Llmops
+
+  - **(2026)** [CIOQuest LLM Cost Calculator](https://cioquest.com/llm-cost-calculator) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — CIOQuest LLM Cost Calculator: Curated technical resource in Ai.
 ## AI and Agents
 
 ### Environments
@@ -333,7 +338,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
 #### AI Integration (2)
 
   - **(2024)** [platformengineering.org: AI is changing the future of platform engineering. Are you ready?](https://platformengineering.org/blog/ai-is-changing-the-future-of-platform-engineering-are-you-ready)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses how generative AI is shifting internal developer platform (IDP) dynamics. Details how AI assistance simplifies configuration management, infrastructure provisioning, and self-service portals for developer teams.
-## Llmops
+## Llmops (1)
 
   - [itnext.io: Deploy Flexible and Custom Setups with Anything LLM on Kubernetes](https://itnext.io/deploy-flexible-and-custom-setups-with-anything-llm-on-kubernetes-a2b5687f2bcc?gi=6ae60398d669) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Technical documentation and implementation reference for itnext.io: Deploy Flexible and Custom Setups with Anything LLM on Kubernetes covering LLMOps in AI (itnext.io).
   - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Technical documentation and implementation reference for Docker for LLMs covering LLMOps in AI (docker.com).
@@ -393,7 +398,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skill
   - **(2026)** [Amazon ECS introduces new high-resolution metrics for faster service auto scaling](https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Amazon ECS introduces new high-resolution metrics for faster service auto scaling covering Videos in AI (aws.amazon.com).
 
 ---
-💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
+💡 **Explore Related:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
 

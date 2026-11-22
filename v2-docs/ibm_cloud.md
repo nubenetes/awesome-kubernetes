@@ -84,7 +84,7 @@ description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, Download W
   - [Download WAS Liberty](https://openliberty.io/downloads) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Download WAS Liberty covering WebSphere Liberty with support of Java Microservices and Cloud Native Apps in Ibm_Cloud (openliberty.io).
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [Golang](./golang.md) | [Other Awesome Lists](./other-awesome-lists.md)
+🔗 **See Also:** [Stackstorm](./stackstorm.md) | [CI/CD](./cicd.md)
 
