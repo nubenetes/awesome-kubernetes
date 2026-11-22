@@ -19,7 +19,7 @@ description: "Top Enterprise AI Platforms resources for 2026, AI-ranked: AI on E
     Detailed reference for Enterprise AI Platforms: Cloud AI Control Planes vs Kubernetes in the context of AI.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [AI Agents & MCP](ai-agents-mcp.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [MLOps & GPU Scheduling](mlops.md) · [Microsoft Azure](azure.md) · [AWS](aws.md) · [Google Cloud](GoogleCloudPlatform.md) · [Red Hat OpenShift](openshift.md) · [EU Sovereign Cloud Alternatives](eu-sovereign-cloud.md)
+    [AI Agents & MCP](ai-agents-mcp.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [MLOps & GPU Scheduling](mlops.md) · [Microsoft Azure](azure.md) · [AWS](aws.md) · [Google Cloud](GoogleCloudPlatform.md) · [Red Hat OpenShift](openshift.md) · [EU Sovereign Cloud Alternatives](eu-sovereign-cloud.md) · [Neoclouds & GPU AI Clouds](neoclouds.md)
 
 ## Executive Summary and Strategic Blueprint
 

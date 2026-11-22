@@ -130,6 +130,11 @@ class NewsDigestEngine:
             "eu-cloud-iac-maturity", "eu-cloud-workloads-stack",
             "eu-cloud-resilience-sla",
         ],
+        "Neoclouds & GPU AI Clouds": [
+            "neoclouds", "neoclouds-europe", "neoclouds-north-america",
+            "neoclouds-apac", "neoclouds-mena", "neoclouds-latam-africa",
+            "neoclouds-architecture-stack", "neoclouds-iac-finops-sla",
+        ],
         "OpenShift / Red Hat": [
             "openshift", "ocp5", "ocp4", "ocp3", "openshift-pipelines", "rancher",
         ],

@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
-{# Permanent V2 announcement banner flagships: EU Sovereign Cloud, OpenShift 5, RAG & OKF, Intelligence Digest, Video Hub #}
+{# Permanent V2 announcement banner flagships: EU Sovereign Cloud, Neoclouds, OpenShift 5, RAG & OKF, Intelligence Digest, Video Hub #}
 {% block announce %}
-  <strong>Featured:</strong> <a href="/eu-sovereign-cloud/">🇪🇺 EU Sovereign Cloud</a> · <a href="/ocp5/">OpenShift 5</a> · <a href="/ai-rag-okf/">RAG &amp; OKF</a> · <a href="/tech-digest/">📊 Intelligence Digest</a> · <a href="/videos/">🎥 Video Hub</a>
+  <strong>Featured:</strong> <a href="/eu-sovereign-cloud/">🇪🇺 EU Sovereign Cloud</a> · <a href="/neoclouds/">⚡ Neoclouds</a> · <a href="/ocp5/">OpenShift 5</a> · <a href="/ai-rag-okf/">RAG &amp; OKF</a> · <a href="/tech-digest/">📊 Intelligence Digest</a> · <a href="/videos/">🎥 Video Hub</a>
 {% endblock %}
 
 {#-
@@ -154,6 +154,19 @@
             <a href="/eu-cloud-resilience-sla/">🛡️ RPO, RTO, SLAs &amp; DRP</a>
           </div>
         </span>
+        <span class="nb-quicknav__subwrap">
+          <button class="nb-quicknav__subtrigger" popovertarget="nb-pop-neoclouds" type="button"><span>⚡ Neoclouds</span><span class="nb-quicknav__caret" aria-hidden="true">▸</span></button>
+          <div class="nb-quicknav__menu nb-quicknav__submenu" id="nb-pop-neoclouds" popover>
+            <a href="/neoclouds/">⚡ Overview &amp; Sovereign Overlap</a>
+            <a href="/neoclouds-europe/">🇪🇺 Europe &amp; Country AI Factories</a>
+            <a href="/neoclouds-north-america/">🇺🇸 North America (US &amp; Canada)</a>
+            <a href="/neoclouds-apac/">🌏 Asia-Pacific GPU Clouds</a>
+            <a href="/neoclouds-mena/">🏜️ Middle East &amp; GCC</a>
+            <a href="/neoclouds-latam-africa/">🌎 LatAm &amp; Africa AI Hubs</a>
+            <a href="/neoclouds-architecture-stack/">🔌 Fabrics, Slurm vs K8s &amp; Storage</a>
+            <a href="/neoclouds-iac-finops-sla/">🏗️ IaC, Goodput &amp; GPU FinOps</a>
+          </div>
+        </span>
         <a href="/azure/">☁️ Azure</a>
         <a href="/GoogleCloudPlatform/">☁️ GCP</a>
         <a href="/serverless/">⚡ Serverless</a>
@@ -205,6 +218,7 @@
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-aidata" type="button">🤖 AI &amp; Data <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-aidata" popover>
         <a href="/enterprise-ai-platforms/">🏢 Enterprise AI Platforms</a>
+        <a href="/neoclouds/">⚡ Neoclouds &amp; GPU AI</a>
         <a href="/ai-agents-mcp/">🤖 AI &amp; MCP</a>
         <a href="/ai-rag-okf/">🧠 RAG, OKF &amp; Knowledge</a>
         <a href="/mlops/">⚙️ MLOps</a>

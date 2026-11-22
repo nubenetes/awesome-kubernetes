@@ -10,13 +10,13 @@
     "v1_archive": "https://nubenetes.com/v1/"
   },
   "stats": {
-    "v1_total_inventory": 20796,
-    "v2_total_resources": 16693,
-    "v2_verified_online": 12623,
-    "v2_fresh_2025_2026": 3805,
-    "v2_deep_ai_summaries": 11480,
+    "v1_total_inventory": 20895,
+    "v2_total_resources": 16792,
+    "v2_verified_online": 12722,
+    "v2_fresh_2025_2026": 3904,
+    "v2_deep_ai_summaries": 11579,
     "v2_cncf_projects": 64,
-    "v2_categories": 151
+    "v2_categories": 159
   },
   "dimensions": [
     "AI",
@@ -25,6 +25,7 @@
     "Hardened Infrastructure",
     "Cloud Providers (Hyperscalers)",
     "European Sovereign Cloud & Private DCs",
+    "Neoclouds & GPU AI Clouds",
     "Networking & Service Mesh",
     "The Container Stack",
     "Data & Advanced Analytics",
@@ -4717,6 +4718,7 @@
             "[ENTERPRISE-STABLE]",
             "[ETHERNET]",
             "[GPU]",
+            "[NEOCLOUD]",
             "[NETWORKING]"
           ],
           "summary": "The shift towards massive-scale distributed AI training has exposed the structural limitations of traditional Ethernet, specifically concerning hash collisions and slow congestion control under synchronized..."
@@ -4752,6 +4754,7 @@
             "[EMERGING]",
             "[ENTERPRISE-STABLE]",
             "[GPU]",
+            "[NEOCLOUD]",
             "[NETWORKING]",
             "[NVLINK]"
           ],
@@ -5934,7 +5937,8 @@
         "[EMERGING]",
         "[SOVEREIGN-EU]",
         "[GPU]",
-        "[HYPERVISOR]"
+        "[HYPERVISOR]",
+        "[NEOCLOUD]"
       ],
       "top_resources": [
         {
@@ -6208,7 +6212,8 @@
         "[EMERGING]",
         "[SOVEREIGN-EU]",
         "[HYPERVISOR]",
-        "[GPU]"
+        "[GPU]",
+        "[NEOCLOUD]"
       ],
       "top_resources": [
         {
@@ -6571,7 +6576,8 @@
         "[SOVEREIGN-EU]",
         "[DRP-RESILIENCE]",
         "[GPU]",
-        "[HYPERVISOR]"
+        "[HYPERVISOR]",
+        "[NEOCLOUD]"
       ],
       "top_resources": [
         {
@@ -6640,7 +6646,8 @@
           "cncf_status": null,
           "tags": [
             "[EMERGING]",
-            "[GPU]"
+            "[GPU]",
+            "[NEOCLOUD]"
           ],
           "summary": "European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA)."
         }
@@ -6750,7 +6757,8 @@
       "top_tags": [
         "[EMERGING]",
         "[SOVEREIGN-EU]",
-        "[GPU]"
+        "[GPU]",
+        "[NEOCLOUD]"
       ],
       "top_resources": [
         {
@@ -6820,6 +6828,7 @@
           "tags": [
             "[EMERGING]",
             "[GPU]",
+            "[NEOCLOUD]",
             "[SOVEREIGN-EU]"
           ],
           "summary": "UK-headquartered vertically integrated AI cloud operator deploying large-scale NVIDIA Blackwell/Hopper GPU clusters on renewable European/UK infrastructure with sovereign AI compliance."
@@ -6842,6 +6851,7 @@
         "[SOVEREIGN-EU]",
         "[HYPERVISOR]",
         "[GPU]",
+        "[NEOCLOUD]",
         "[LEGACY]",
         "[LLM]"
       ],
@@ -6884,7 +6894,8 @@
           "cncf_status": null,
           "tags": [
             "[EMERGING]",
-            "[GPU]"
+            "[GPU]",
+            "[NEOCLOUD]"
           ],
           "summary": "European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA)."
         },
@@ -6914,6 +6925,7 @@
           "tags": [
             "[EMERGING]",
             "[GPU]",
+            "[NEOCLOUD]",
             "[SOVEREIGN-EU]"
           ],
           "summary": "European-headquartered AI hyperscaler operating massive InfiniBand-interconnected NVIDIA H100, H200, and Blackwell B200 superclusters in Finland and France with Kubernetes (MK8s), Slurm, and Sovereign S3 storage."
@@ -7004,6 +7016,763 @@
             "[EMERGING]"
           ],
           "summary": "Curated directory cataloging EU-owned, GDPR-compliant alternatives to non-European cloud hosting, SaaS, object storage, and managed Kubernetes platforms."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds-apac",
+      "title": "Asia-Pacific Neoclouds & AI Clouds",
+      "long_title": "Asia-Pacific Neoclouds and AI Clouds",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds-apac/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds-apac/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-apac.md",
+      "resource_count": 17,
+      "fresh_2025_2026_count": 17,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[GPU]",
+        "[NEOCLOUD]",
+        "[LLM]",
+        "[MLOPS]",
+        "[SOVEREIGN-EU]"
+      ],
+      "top_resources": [
+        {
+          "title": "E2E Networks: Listed Indian TIR AI Cloud Platform",
+          "url": "https://www.e2enetworks.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[MLOPS]",
+            "[NEOCLOUD]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Publicly listed Indian sovereign cloud provider offering NVIDIA H100/H200 clusters, InfiniBand fabric, and TIR MLOps Workbench with rupee billing under MEITY/IndiaAI empanelment."
+        },
+        {
+          "title": "Firmus and Sustainable Metal Cloud (Singapore and Australia)",
+          "url": "https://firmus.co",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Immersion-cooled HyperCube AI Factory engineering company co-operating Sustainable Metal Cloud across Singapore and Tasmania (100% hydro) at up to 50% lower power consumption."
+        },
+        {
+          "title": "GMO Internet Group: Japanese Sovereign GPU Cloud",
+          "url": "https://www.gmo.jp/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "Japanese cloud and infrastructure group rolling out domestic METI-supported NVIDIA H200 GPU cloud capacity tailored for Japanese enterprise and startups under APPI governance."
+        },
+        {
+          "title": "IndiaAI Mission: Sovereign Compute Portal",
+          "url": "https://indiaai.gov.in",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "Government of India national program empaneling tens of thousands of subsidized domestic GPUs (across Yotta, E2E, Neysa, Jio, Tata) to democratize Indian AI development."
+        },
+        {
+          "title": "NAVER Cloud HyperCLOVA and Korean Sovereign AI",
+          "url": "https://www.navercorp.com/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "South Korea's flagship cloud platform operating Sejong City hyperscale GAK data centers for Korean-sovereign foundation training and CSAP-certified public-sector AI."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds-architecture-stack",
+      "title": "GPU Fabrics, InfiniBand, Slurm vs K8s & Storage",
+      "long_title": "GPU Fabrics, InfiniBand, Slurm vs Kubernetes and AI Storage",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds-architecture-stack/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds-architecture-stack/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-architecture-stack.md",
+      "resource_count": 16,
+      "fresh_2025_2026_count": 16,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[GPU]",
+        "[NEOCLOUD]",
+        "[DE FACTO STANDARD]",
+        "[LLM]",
+        "[CLOUD-AI]",
+        "[COMMUNITY-TOOL]",
+        "[MLOPS]"
+      ],
+      "top_resources": [
+        {
+          "title": "vLLM on Kubernetes",
+          "url": "https://github.com/vllm-project/vllm",
+          "year": "2025",
+          "stars": 5,
+          "gh_stars": 96155,
+          "gh_license": "Apache-2.0",
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[LLM]"
+          ],
+          "summary": "Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with..."
+        },
+        {
+          "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
+          "url": "https://github.com/llm-d/llm-d",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": 5151,
+          "gh_license": "Apache-2.0",
+          "cncf_status": "sandbox",
+          "tags": [
+            "[CLOUD-AI]",
+            "[DE FACTO STANDARD]",
+            "[EMERGING]",
+            "[ENTERPRISE-STABLE]",
+            "[GPU]",
+            "[LLM]"
+          ],
+          "summary": "Curator Insight: Co-engineered by Red Hat, Google, IBM, and NVIDIA, llm-d is a Kubernetes-native distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension. Live Grounding:..."
+        },
+        {
+          "title": "kubernetes-sigs/kueue: Kubernetes-native Job Queueing",
+          "url": "https://github.com/kubernetes-sigs/kueue",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": 3132,
+          "gh_license": "Apache-2.0",
+          "cncf_status": null,
+          "tags": [
+            "[CLOUD-AI]",
+            "[DE FACTO STANDARD]",
+            "[MLOPS]"
+          ],
+          "summary": "Kueue manages resource quotas across tenant namespaces, supporting complex machine learning and AI orchestration flows. It acts as a cloud-native batch scheduling engine, optimizing utilization within strict resource..."
+        },
+        {
+          "title": "AMD Instinct MI300X HBM3 Accelerators",
+          "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "192 GB HBM3 per-GPU accelerator powering TensorWave and Oracle/Crusoe clusters to host whole 70B–405B models with minimal tensor-parallelism splitting overhead."
+        },
+        {
+          "title": "AMD ROCm Open Software Stack Documentation",
+          "url": "https://rocm.docs.amd.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[LLM]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Official open-source GPU compute documentation covering HIP, RCCL collective communications, PyTorch integration, and vLLM acceleration on AMD Neocloud hardware."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds-europe",
+      "title": "European Neoclouds & Country AI Factories",
+      "long_title": "European Neoclouds and Country AI Factories",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds-europe/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds-europe/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-europe.md",
+      "resource_count": 28,
+      "fresh_2025_2026_count": 28,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[GPU]",
+        "[SOVEREIGN-EU]",
+        "[NEOCLOUD]",
+        "[HYPERVISOR]",
+        "[LLM]"
+      ],
+      "top_resources": [
+        {
+          "title": "Aruba Cloud (Global Cloud Data Centers)",
+          "url": "https://www.arubacloud.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Italy's flagship cloud and trust-services provider operating Tier IV hyper-efficient campuses near Milan (Ponte San Pietro) and Rome with Italian ACN QC3 and AI3 sovereign qualifications for public administration and..."
+        },
+        {
+          "title": "atNorth Nordic High-Density AI Data Centers",
+          "url": "https://atnorth.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[NEOCLOUD]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Pan-Nordic Neocloud-ready AI data center platform across Iceland, Sweden, Finland, and Denmark delivering hydroelectric liquid cooling and PUE below 1.2."
+        },
+        {
+          "title": "BSC MareNostrum 5 and Barcelona AI Factory",
+          "url": "https://www.bsc.es/research-and-development/ai-factory",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Spanish EuroHPC AI Factory at Barcelona Supercomputing Center providing NVIDIA H100 capacity and open multilingual European foundation models (ALIA/Salamandra)."
+        },
+        {
+          "title": "Civo Sovereign AI and Kubernetes (UK)",
+          "url": "https://www.civo.com/ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "UK developer-first Neocloud delivering NCSC-aligned sovereign GPU compute and RelaxAI hosting without hyperscaler egress fees or multi-year lock-in."
+        },
+        {
+          "title": "Cloud&Heat German Green Sovereign Cloud",
+          "url": "https://www.cloudandheat.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Dresden-based German sovereign OpenStack cloud and direct hot-water liquid-cooled AI compute operator designed for ultra-low PUE heat reuse and zero hyperscaler lock-in."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds-iac-finops-sla",
+      "title": "Neocloud IaC Maturity, GPU FinOps & SLAs",
+      "long_title": "Neocloud IaC Maturity, GPU FinOps and Goodput SLAs",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds-iac-finops-sla/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds-iac-finops-sla/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-iac-finops-sla.md",
+      "resource_count": 16,
+      "fresh_2025_2026_count": 16,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[NEOCLOUD]",
+        "[GPU]",
+        "[SOVEREIGN-EU]",
+        "[LLM]",
+        "[DE FACTO STANDARD]"
+      ],
+      "top_resources": [
+        {
+          "title": "github.com/kubecost: kubecost-exporter - Running Kubecost as a Prometheus metric exporter",
+          "url": "https://github.com/opencost/opencost",
+          "year": "2024",
+          "stars": 5,
+          "gh_stars": 6590,
+          "gh_license": "Apache-2.0",
+          "cncf_status": "incubating",
+          "tags": [
+            "[DE FACTO STANDARD]"
+          ],
+          "summary": "The official repository for OpenCost, the CNCF sandbox standard defining vendor-neutral APIs for cloud-native cost allocation. Operates as an open-source real-time metrics exporter for Prometheus, serving as the..."
+        },
+        {
+          "title": "Civo Official Terraform Provider",
+          "url": "https://github.com/civo/terraform-provider-civo",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Lightweight IaC provider for Civo K3s/Talos Managed Kubernetes clusters, firewalls, networks, and UK Sovereign workloads."
+        },
+        {
+          "title": "CoreWeave NCCL Multi-Node Health Tests",
+          "url": "https://github.com/coreweave/nccl-tests",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Reference distributed GPU fabric burn-in tests measuring AllReduce bus bandwidth and catching degraded InfiniBand/NVLink links before paying for long training epochs."
+        },
+        {
+          "title": "Crusoe Official Terraform Provider (`crusoecloud/crusoe`)",
+          "url": "https://github.com/crusoecloud/terraform-provider-crusoe",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Terraform provider provisioning clean-energy Crusoe H100/H200/Blackwell VMs, InfiniBand partition networks, Kubernetes clusters, and NVMe disks."
+        },
+        {
+          "title": "Gateway API Inference Extension (Kubernetes SIG Network)",
+          "url": "https://github.com/kubernetes-sigs/gateway-api-inference-extension",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[LLM]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Upstream Kubernetes L7 AI Gateway standard routing OpenAI-compatible prompts across multi-provider Neocloud vLLM backends using KV-cache pressure and LoRA adapter locality."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds-latam-africa",
+      "title": "Latin America & Africa AI Cloud Hubs",
+      "long_title": "Latin America and Africa AI Cloud Hubs",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds-latam-africa/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds-latam-africa/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-latam-africa.md",
+      "resource_count": 11,
+      "fresh_2025_2026_count": 11,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[NEOCLOUD]",
+        "[GPU]"
+      ],
+      "top_resources": [
+        {
+          "title": "Africa Data Centres (Pan-African Carrier-Neutral DCs)",
+          "url": "https://www.africadatacentres.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Cassava Technologies data center arm operating interconnected high-density campuses in Johannesburg, Nairobi, Lagos, Cape Town, and Accra ready for GPU Neocloud cages."
+        },
+        {
+          "title": "Cassava AI: Africa Sovereign NVIDIA AI Factory",
+          "url": "https://www.cassava.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Africa's first continental NVIDIA Cloud Partner initiative deploying thousands of liquid-cooled GPUs locally to keep African healthcare, fintech, and agricultural AI data inside African jurisdictions."
+        },
+        {
+          "title": "Cassava Technologies: Continental African Infrastructure",
+          "url": "https://www.cassavatechnologies.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Pan-African technology group rolling out sovereign fiber, cybersecurity, and clean-energy AI infrastructure across South Africa, Kenya, Nigeria, Egypt, and Morocco."
+        },
+        {
+          "title": "Cirion Technologies LatAm Fiber and Cloud DCs",
+          "url": "https://www.ciriontechnologies.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "Pan-regional Latin American fiber and 18-data-center network providing direct subsea backhaul (Brazil/Chile/Argentina/Peru) for sovereign enterprise GPU pods and regional inference POPs."
+        },
+        {
+          "title": "Digital Realty Sao Paulo Hyperscale AI Campuses",
+          "url": "https://www.digitalrealty.com/data-centers/americas/sao-paulo",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "High-density carrier-neutral Sao Paulo campuses connecting Latin American AI workloads into IX.br (PTT Metro) and transatlantic/regional financial networks."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds-mena",
+      "title": "Middle East & GCC Sovereign AI Factories",
+      "long_title": "Middle East and GCC Sovereign AI Factories",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds-mena/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds-mena/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-mena.md",
+      "resource_count": 9,
+      "fresh_2025_2026_count": 9,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[NEOCLOUD]",
+        "[SOVEREIGN-EU]",
+        "[GPU]",
+        "[LLM]",
+        "[EBPF]"
+      ],
+      "top_resources": [
+        {
+          "title": "Aramco Digital Enterprise and Industrial AI",
+          "url": "https://www.aramcodigital.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Saudi industrial technology champion deploying sovereign AI infrastructure, energy-sector inference clouds, and industrial digital twins inside Saudi borders."
+        },
+        {
+          "title": "center3: Saudi Carrier-Neutral AI and Subsea Hub (STC Group)",
+          "url": "https://www.center3.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "STC digital infrastructure arm combining Riyadh/Jeddah liquid-cooled AI data centers with Europe-to-Asia terrestrial and Red Sea subsea fiber corridors."
+        },
+        {
+          "title": "Core42 Sovereign AI Cloud (G42 Group, UAE)",
+          "url": "https://www.core42.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Abu Dhabi sovereign cloud and Condor Galaxy supercomputer operator uniting Cerebras WSE and NVIDIA GPU fabrics with UAE National Cloud Security and sovereign Azure/AI controls."
+        },
+        {
+          "title": "G42 Technology Holding AI Ecosystem (Abu Dhabi)",
+          "url": "https://www.g42.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Flagship Emirati AI infrastructure and energy conglomerate anchoring national health, space, energy, and Arabic foundation model compute across MENA and Africa."
+        },
+        {
+          "title": "Khazna Data Centers: High-Density UAE Campuses",
+          "url": "https://khaznadatacenters.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[NEOCLOUD]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "MENA's largest wholesale hyperscale data center platform engineering 100+ MW liquid-cooled AI facilities across Abu Dhabi and Dubai for sovereign cloud tenants."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds-north-america",
+      "title": "North America Neoclouds (US & Canada)",
+      "long_title": "North America Neoclouds (United States and Canada)",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds-north-america/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds-north-america/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-north-america.md",
+      "resource_count": 14,
+      "fresh_2025_2026_count": 14,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[GPU]",
+        "[NEOCLOUD]",
+        "[LLM]",
+        "[DRP-RESILIENCE]"
+      ],
+      "top_resources": [
+        {
+          "title": "Applied Digital: North Dakota AI Factory Campuses",
+          "url": "https://www.applieddigital.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DRP-RESILIENCE]",
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "Purpose-built high-density liquid-cooled AI data centers across North Dakota providing hundreds of megawatts of low-cost cold-climate US GPU hosting."
+        },
+        {
+          "title": "CoreWeave Cloud Platform and Documentation",
+          "url": "https://docs.coreweave.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Pioneer US Neocloud engineered around non-blocking InfiniBand fabrics, Kubernetes-native GPU scheduling (CKS), Slurm on Kubernetes (SUNK), and multi-thousand-GPU NVIDIA Blackwell pods."
+        },
+        {
+          "title": "Crusoe Cloud Documentation and AI Clusters",
+          "url": "https://docs.crusoe.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Climate-aligned North American Neocloud converting stranded and renewable energy into high-density NVIDIA H100/H200/GB200 and AMD MI300X capacity backed by official Terraform automation."
+        },
+        {
+          "title": "DigitalOcean GPU Droplets and Bare Metal",
+          "url": "https://www.digitalocean.com/products/gpu-droplets",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "Simple developer cloud delivering predictable per-hour NVIDIA H100/RTX GPU Droplets and Managed Kubernetes worker pools (integrating Paperspace heritage)."
+        },
+        {
+          "title": "Fireworks AI: Production Compound Inference Platform",
+          "url": "https://fireworks.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Low-latency serverless and dedicated GPU inference cloud running quantized open-weight models, function calling, and structured JSON pipelines at fraction-of-hyperscaler cost."
+        }
+      ]
+    },
+    {
+      "slug": "neoclouds",
+      "title": "Neoclouds Overview, Sovereign Overlap & TCO",
+      "long_title": "Neoclouds Overview, Sovereign Overlap and Global GPU AI Clouds",
+      "dimension": "Neoclouds & GPU AI Clouds",
+      "url": "https://nubenetes.com/neoclouds/",
+      "v1_url": "https://nubenetes.com/v1/neoclouds/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds.md",
+      "resource_count": 13,
+      "fresh_2025_2026_count": 13,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[NEOCLOUD]",
+        "[GPU]",
+        "[SOVEREIGN-EU]",
+        "[LLM]"
+      ],
+      "top_resources": [
+        {
+          "title": "ClusterMAX: GPU Cloud Rating and Cluster Benchmarks",
+          "url": "https://www.clustermax.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Independent engineering scorecard evaluating global Neoclouds and hyperscalers on NCCL multi-node fabric efficiency, Slurm and Kubernetes readiness, lifecycle automation, and effective goodput SLA."
+        },
+        {
+          "title": "CoreWeave Cloud Platform and Documentation",
+          "url": "https://docs.coreweave.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Pioneer US Neocloud engineered around non-blocking InfiniBand fabrics, Kubernetes-native GPU scheduling (CKS), Slurm on Kubernetes (SUNK), and multi-thousand-GPU NVIDIA Blackwell pods."
+        },
+        {
+          "title": "CoreWeave: Specialized GPU Hyperscaler",
+          "url": "https://coreweave.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Flagship North American NVIDIA Exemplar Cloud Partner operating bare-metal Kubernetes, SUNK (Slurm on Kubernetes), and InfiniBand NDR/X800 GPU fabrics across the US, UK, and Europe."
+        },
+        {
+          "title": "Crusoe Cloud: Clean-Energy AI Infrastructure",
+          "url": "https://crusoe.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Energy-first AI cloud co-locating gigawatt-scale NVIDIA and AMD GPU clusters at curtailed renewable and stranded energy sites across North America and Iceland."
+        },
+        {
+          "title": "Epoch AI: Compute Trends and AI Factory Economics",
+          "url": "https://epoch.ai",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Research institute tracking frontier training cluster scaling, power envelopes, accelerator FLOP/watt ratios, and capital efficiency across global AI data centers."
         }
       ]
     },

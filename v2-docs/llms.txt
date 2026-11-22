@@ -103,6 +103,16 @@
 - [Hypervisors, IaaS, K8s & Sovereign AI](https://nubenetes.com/eu-cloud-workloads-stack/)
 - [EU Sovereign Cloud Overview & TCO](https://nubenetes.com/eu-sovereign-cloud/)
 
+### Neoclouds & GPU AI Clouds
+- [Asia-Pacific Neoclouds & AI Clouds](https://nubenetes.com/neoclouds-apac/)
+- [GPU Fabrics, InfiniBand, Slurm vs K8s & Storage](https://nubenetes.com/neoclouds-architecture-stack/)
+- [European Neoclouds & Country AI Factories](https://nubenetes.com/neoclouds-europe/)
+- [Neocloud IaC Maturity, GPU FinOps & SLAs](https://nubenetes.com/neoclouds-iac-finops-sla/)
+- [Latin America & Africa AI Cloud Hubs](https://nubenetes.com/neoclouds-latam-africa/)
+- [Middle East & GCC Sovereign AI Factories](https://nubenetes.com/neoclouds-mena/)
+- [North America Neoclouds (US & Canada)](https://nubenetes.com/neoclouds-north-america/)
+- [Neoclouds Overview, Sovereign Overlap & TCO](https://nubenetes.com/neoclouds/)
+
 ### Networking & Service Mesh
 - [Caching](https://nubenetes.com/caching/)
 - [Cloudflare](https://nubenetes.com/cloudflare/)

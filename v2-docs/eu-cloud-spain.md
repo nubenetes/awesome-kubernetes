@@ -83,7 +83,7 @@ Spain has become one of Europe's top-tier digital sovereignty and interconnectio
   - **(2026)** [SpainDC: Spanish Data Center Association](https://spaindc.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Industry association tracking Spain's data center capacity growth, renewable energy integration, and Southern European submarine cable interconnection ecosystem.
 ## Spanish National Compliance And Supercomputing
 
-  - **(2026)** [Barcelona Supercomputing Center: MareNostrum 5](https://www.bsc.es/marenostrum/marenostrum-5) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA).
+  - **(2026)** [Barcelona Supercomputing Center: MareNostrum 5](https://www.bsc.es/marenostrum/marenostrum-5) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> — European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA).
   - **(2026)** [CCN-CERT Esquema Nacional de Seguridad (ENS)](https://ens.ccn.cni.es/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Authoritative Spanish cybersecurity standard (Basico, Medio, Alto) required for government agencies, healthcare, banking suppliers, and regulated digital services in Spain.
 ## Spanish Sovereign Cloud And Managed Iaas Providers
 

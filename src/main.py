@@ -114,6 +114,7 @@ async def master_orchestrator():
         "Red Hat OpenShift & OCP 5": os.getenv("INCLUDE_OPENSHIFT", "true").lower() == "true",
         "Cloud Providers (AWS/Azure/GCP)": os.getenv("INCLUDE_CLOUD", "true").lower() == "true",
         "European Sovereign Cloud & Private DCs": os.getenv("INCLUDE_EU_SOVEREIGN", "true").lower() == "true",
+        "Neoclouds & GPU AI Clouds": os.getenv("INCLUDE_NEOCLOUDS", "true").lower() == "true",
         "AI & Agentic Systems": os.getenv("INCLUDE_AI", "true").lower() == "true",
         "AI Knowledge, RAG & OKF": os.getenv("INCLUDE_RAG_OKF", "true").lower() == "true",
         "Developer Productivity & AI Agents": os.getenv("INCLUDE_DEV", "true").lower() == "true",

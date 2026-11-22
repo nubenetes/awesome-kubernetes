@@ -167,6 +167,79 @@ class TestPipelineInvariants(unittest.TestCase):
             eu_overview_txt.index("### The 4 Levels of Cloud Sovereignty"),
         )
 
+    def test_neoclouds_pillar_registered_and_rendered(self):
+        from src.config import NUBENETES_CATEGORIES
+        from src.fast_enrich import DIMENSIONS as FAST_DIMS, DISPLAY_NAMES
+        from src.news_digest import NewsDigestEngine
+        from src.neoclouds_blueprints import NEOCLOUDS_BLUEPRINTS
+
+        neocloud_slugs = [
+            "neoclouds",
+            "neoclouds-europe",
+            "neoclouds-north-america",
+            "neoclouds-apac",
+            "neoclouds-mena",
+            "neoclouds-latam-africa",
+            "neoclouds-architecture-stack",
+            "neoclouds-iac-finops-sla",
+        ]
+        dim_name = "Neoclouds & GPU AI Clouds"
+        self.assertIn(dim_name, FAST_DIMS)
+        self.assertIn(dim_name, NewsDigestEngine.DIGEST_CATEGORIES)
+
+        with open(os.path.join(REPO_ROOT, "v2-mkdocs.yml"), "r", encoding="utf-8") as f:
+            v2_mkdocs_txt = f.read()
+        with open(os.path.join(REPO_ROOT, "mkdocs.yml"), "r", encoding="utf-8") as f:
+            v1_mkdocs_txt = f.read()
+        with open(os.path.join(REPO_ROOT, "docs/overrides/main.html"), "r", encoding="utf-8") as f:
+            overrides_txt = f.read()
+        with open(os.path.join(REPO_ROOT, "v2-docs/api/index.json"), "r", encoding="utf-8") as f:
+            api_catalog = json.load(f)
+
+        self.assertIn(dim_name, api_catalog.get("dimensions", []))
+        api_slugs = {c["slug"] for c in api_catalog.get("categories", [])}
+
+        for slug in neocloud_slugs:
+            fname = f"{slug}.md"
+            self.assertIn(slug, NUBENETES_CATEGORIES)
+            self.assertIn(slug, DISPLAY_NAMES)
+            self.assertIn(slug, FAST_DIMS[dim_name])
+            self.assertIn(slug, NewsDigestEngine.DIGEST_CATEGORIES[dim_name])
+            self.assertIn(fname, NEOCLOUDS_BLUEPRINTS)
+            self.assertIn(fname, v2_mkdocs_txt)
+            self.assertIn(fname, v1_mkdocs_txt)
+            self.assertIn(f"/{slug}/", overrides_txt)
+            self.assertIn(slug, api_slugs)
+            v2_path = os.path.join(REPO_ROOT, "v2-docs", fname)
+            self.assertTrue(os.path.exists(v2_path), f"Missing generated V2 page {v2_path}")
+            with open(v2_path, "r", encoding="utf-8") as f:
+                v2_body = f.read()
+            self.assertIn('okf_version: "0.3"', v2_body[:600])
+            self.assertIn("type: curation-hub", v2_body[:600])
+            self.assertIn(NEOCLOUDS_BLUEPRINTS[fname].splitlines()[0], v2_body)
+
+        with open(os.path.join(REPO_ROOT, "v2-docs/neoclouds.md"), "r", encoding="utf-8") as f:
+            neo_overview_txt = f.read()
+        self.assertIn('<div class="eu-hub-grid"', neo_overview_txt)
+        for card_slug in neocloud_slugs[1:] + ["eu-sovereign-cloud"]:
+            self.assertIn(f'href="/{card_slug}/"', neo_overview_txt)
+        self.assertIn("### Neoclouds vs Sovereign Cloud: Overlap, Convergence and Legal Distinction", neo_overview_txt)
+        self.assertIn("CLOUD Act", neo_overview_txt)
+
+        with open(os.path.join(REPO_ROOT, "v2-docs/neoclouds-europe.md"), "r", encoding="utf-8") as f:
+            neo_eu_txt = f.read()
+        for eu_sister in (
+            "eu-cloud-benelux",
+            "eu-cloud-france",
+            "eu-cloud-germany",
+            "eu-cloud-spain",
+            "eu-cloud-italy",
+            "eu-cloud-nordics",
+            "eu-cloud-switzerland-dach",
+            "eu-cloud-uk",
+        ):
+            self.assertIn(f"/{eu_sister}/", neo_eu_txt)
+
     def test_announce_banner_preserves_permanent_flagships(self):
         with open(os.path.join(REPO_ROOT, "docs/overrides/main.html"), "r", encoding="utf-8") as f:
             html_txt = f.read()
@@ -175,6 +248,7 @@ class TestPipelineInvariants(unittest.TestCase):
         banner = m.group(1)
         for href in (
             "/eu-sovereign-cloud/",
+            "/neoclouds/",
             "/ocp5/",
             "/ai-rag-okf/",
             "/tech-digest/",
@@ -184,7 +258,12 @@ class TestPipelineInvariants(unittest.TestCase):
         self.assertNotIn("/eu-cloud-spain/", banner)
 
     def test_v2_mermaid_blocks_have_bounded_line_lengths(self):
-        for rel in ("v2-docs/eu-sovereign-cloud.md", "v2-docs/introduction.md"):
+        for rel in (
+            "v2-docs/eu-sovereign-cloud.md",
+            "v2-docs/introduction.md",
+            "v2-docs/neoclouds.md",
+            "v2-docs/neoclouds-architecture-stack.md",
+        ):
             with open(os.path.join(REPO_ROOT, rel), "r", encoding="utf-8") as f:
                 txt = f.read()
             blocks = re.findall(r"```mermaid\n(.*?)\n```", txt, re.DOTALL)

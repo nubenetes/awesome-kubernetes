@@ -19,7 +19,7 @@ description: "Top Hypervisors, IaaS, K8s & Sovereign AI resources for 2026, AI-r
     Detailed reference for Hypervisors, IaaS, Kubernetes and Sovereign AI Stacks in Europe in the context of European Sovereign Cloud & Private DCs.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Germany Sovereign Cloud & Private DCs](eu-cloud-germany.md) · [France Sovereign Cloud & Private DCs](eu-cloud-france.md) · [Netherlands & Benelux Cloud & DCs](eu-cloud-benelux.md) · [Nordics Green Cloud & AI Factories](eu-cloud-nordics.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [RPO, RTO, SLAs & DRP](eu-cloud-resilience-sla.md) · [Kubernetes On-Premise](kubernetes-on-premise.md) · [Enterprise AI Platforms](enterprise-ai-platforms.md)
+    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Germany Sovereign Cloud & Private DCs](eu-cloud-germany.md) · [France Sovereign Cloud & Private DCs](eu-cloud-france.md) · [Netherlands & Benelux Cloud & DCs](eu-cloud-benelux.md) · [Nordics Green Cloud & AI Factories](eu-cloud-nordics.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [RPO, RTO, SLAs & DRP](eu-cloud-resilience-sla.md) · [Kubernetes On-Premise](kubernetes-on-premise.md) · [Enterprise AI Platforms](enterprise-ai-platforms.md) · [European Neoclouds & AI Factories](neoclouds-europe.md)
 
 ## Pre-Sales Engineering Guide: Hypervisors, IaaS, Kubernetes and Sovereign AI Stacks
 
@@ -76,6 +76,8 @@ Do **not** blindly put every workload on virtualized cloud instances. Pitch **De
 | **Merlin-Edged & Spain Colocation** | Liquid-cooled **100 kW+ racks** ready for **NVIDIA GB200 NVL72** | **100% Spanish Private Facility (`ENS Alto` capable)** | **Red Hat OpenShift AI (RHOAI) + `llm-d` + Mistral/EuroLLM/OKF** | Sovereign Spanish banking, defense, telco AI factories requiring physical air-gap / direct rack custody |
 | **MareNostrum 5 (BSC Barcelona)** | Thousands of **NVIDIA Hopper H100** GPUs | **European / Spanish EuroHPC Public AI Factory** | Slurm, PyTorch, **Salamandra / ALIA** multilingual European models | R&D consortia, European SMEs (AI Factory grants), Iberian/European sovereign foundation model training |
 
+*Deep-dive companion guide: [European Neoclouds &amp; Country AI Factories](/neoclouds-europe/) · [GPU Fabrics, InfiniBand, Slurm vs K8s &amp; AI Storage](/neoclouds-architecture-stack/).*
+
 
 ## France Sovereign Cloud and Private Dcs
 
@@ -101,12 +103,12 @@ Do **not** blindly put every workload on virtualized cloud instances. Pitch **De
 
 ### Nordics Switzerland And Benelux Cloud And AI Providers
 
-  - **(2026)** [Nebius Sovereign AI Cloud (Amsterdam HQ)](https://nebius.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — European-headquartered AI hyperscaler operating massive InfiniBand-interconnected NVIDIA H100, H200, and Blackwell B200 superclusters in Finland and France with Kubernetes (MK8s), Slurm, and Sovereign S3 storage.
+  - **(2026)** [Nebius Sovereign AI Cloud (Amsterdam HQ)](https://nebius.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — European-headquartered AI hyperscaler operating massive InfiniBand-interconnected NVIDIA H100, H200, and Blackwell B200 superclusters in Finland and France with Kubernetes (MK8s), Slurm, and Sovereign S3 storage.
 ## Spain Sovereign Cloud and Private Dcs
 
 ### Spanish National Compliance And Supercomputing
 
-  - **(2026)** [Barcelona Supercomputing Center: MareNostrum 5](https://www.bsc.es/marenostrum/marenostrum-5) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA).
+  - **(2026)** [Barcelona Supercomputing Center: MareNostrum 5](https://www.bsc.es/marenostrum/marenostrum-5) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> — European EuroHPC pre-exascale supercomputer hosted in Barcelona powered by thousands of NVIDIA Hopper H100 GPUs, anchoring Spain's AI Factory and sovereign foundation model ecosystem (Salamandra / ALIA).
 ### Spanish Sovereign Cloud And Managed Iaas Providers
 
   - **(2026)** [Arsys Managed Kubernetes](https://www.arsys.es/cloud/kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Managed Kubernetes service hosted in Spain under ENS Alto and European GDPR jurisdiction with native load balancers, block storage, and IONOS Cloud API / Terraform integration.
@@ -121,5 +123,5 @@ Do **not** blindly put every workload on virtualized cloud instances. Pitch **De
 ---
 💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)
 
-🔗 **See Also:** [Demos](./demos.md) | [DevOps](./devops.md)
+🔗 **See Also:** [European Neoclouds & Country AI Factories](./neoclouds-europe.md) | [Demos](./demos.md)
 

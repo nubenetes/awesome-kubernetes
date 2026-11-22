@@ -28,6 +28,7 @@ from src.awesome_page import build_awesome_lists_header
 from src.enrichment import compute_momentum_score
 from src.fast_enrich import get_readable_category, is_boilerplate_summary
 from src.eu_sovereign_blueprints import EU_SOVEREIGN_BLUEPRINTS
+from src.neoclouds_blueprints import NEOCLOUDS_BLUEPRINTS
 
 
 def nuclear_strip(text: str) -> str:
@@ -139,6 +140,11 @@ class V2VisionEngine:
                 "eu-cloud-iac-maturity", "eu-cloud-workloads-stack",
                 "eu-cloud-resilience-sla",
             ],
+            "Neoclouds & GPU AI Clouds": [
+                "neoclouds", "neoclouds-europe", "neoclouds-north-america",
+                "neoclouds-apac", "neoclouds-mena", "neoclouds-latam-africa",
+                "neoclouds-architecture-stack", "neoclouds-iac-finops-sla",
+            ],
             "Networking & Service Mesh": ["networking", "kubernetes-networking", "servicemesh", "istio", "caching", "web-servers", "cloudflare"],
             "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp5", "ocp4", "ocp3", "noops"],
             "Data & Advanced Analytics": ["databases", "nosql", "message-queue", "crunchydata", "yaml", "bigdata"],
@@ -193,6 +199,7 @@ class V2VisionEngine:
                 ("GoogleCloudPlatform", "Google Cloud"),
                 ("openshift", "Red Hat OpenShift"),
                 ("eu-sovereign-cloud", "EU Sovereign Cloud Alternatives"),
+                ("neoclouds", "Neoclouds & GPU AI Clouds"),
             ],
             "aws": [
                 ("aws-serverless", "Serverless"),
@@ -203,6 +210,7 @@ class V2VisionEngine:
                 ("aws-backup", "Backup"),
                 ("aws-newfeatures", "New Features"),
                 ("eu-sovereign-cloud", "EU Sovereign Cloud Alternatives"),
+                ("neoclouds", "Neoclouds & GPU AI Clouds"),
             ],
             # Kubernetes is well-classified (rich parent + substantial distinct
             # children), so nothing is merged here — the hub is purely an index
@@ -210,6 +218,7 @@ class V2VisionEngine:
             "kubernetes": [
                 ("enterprise-ai-platforms", "Enterprise AI Platforms"),
                 ("eu-sovereign-cloud", "EU Sovereign Cloud Alternatives"),
+                ("neoclouds", "Neoclouds & GPU AI Clouds"),
                 ("kubernetes-tools", "Tools"),
                 ("kubernetes-networking", "Networking"),
                 ("kubernetes-security", "Security"),
@@ -240,6 +249,8 @@ class V2VisionEngine:
                 ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("ai", "Core AI & LLMs"),
                 ("ai-agents-mcp", "AI Agents & MCP"),
+                ("neoclouds", "Neoclouds & GPU AI Clouds"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, Slurm vs K8s & Storage"),
                 ("kubernetes-autoscaling", "K8s Autoscaling"),
                 ("kubernetes-operators-controllers", "K8s Operators"),
             ],
@@ -283,6 +294,8 @@ class V2VisionEngine:
                 ("eu-cloud-iac-maturity", "IaC Automation & Maturity vs Hyperscalers"),
                 ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & Sovereign AI"),
                 ("eu-cloud-resilience-sla", "RPO, RTO, SLAs, DRP & Replication"),
+                ("neoclouds", "Neoclouds & GPU AI Clouds"),
+                ("neoclouds-europe", "European Neoclouds & AI Factories"),
                 ("public-cloud-solutions", "Public Cloud Comparisons"),
             ],
             "eu-cloud-spain": [
@@ -381,6 +394,7 @@ class V2VisionEngine:
                 ("eu-cloud-resilience-sla", "RPO, RTO, SLAs & DRP"),
                 ("kubernetes-on-premise", "Kubernetes On-Premise"),
                 ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+                ("neoclouds-europe", "European Neoclouds & AI Factories"),
             ],
             "eu-cloud-resilience-sla": [
                 ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
@@ -391,6 +405,75 @@ class V2VisionEngine:
                 ("eu-cloud-iac-maturity", "IaC Automation & Maturity"),
                 ("eu-cloud-workloads-stack", "Hypervisors, IaaS, K8s & AI"),
                 ("kubernetes-backup-migrations", "Kubernetes Backup & Migrations"),
+            ],
+            "neoclouds": [
+                ("neoclouds-europe", "European Neoclouds & Country AI Factories"),
+                ("neoclouds-north-america", "North America Neoclouds (US & Canada)"),
+                ("neoclouds-apac", "Asia-Pacific Neoclouds & AI Clouds"),
+                ("neoclouds-mena", "Middle East & GCC Sovereign AI Factories"),
+                ("neoclouds-latam-africa", "Latin America & Africa AI Cloud Hubs"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, InfiniBand, Slurm vs K8s & Storage"),
+                ("neoclouds-iac-finops-sla", "Neocloud IaC Maturity, GPU FinOps & SLAs"),
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+            ],
+            "neoclouds-europe": [
+                ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
+                ("eu-sovereign-cloud", "EU Sovereign Cloud Overview & TCO"),
+                ("eu-cloud-benelux", "Netherlands & Benelux Cloud & DCs"),
+                ("eu-cloud-france", "France Sovereign Cloud & Private DCs"),
+                ("eu-cloud-germany", "Germany Sovereign Cloud & Private DCs"),
+                ("eu-cloud-spain", "Spain Sovereign Cloud & Private DCs"),
+                ("eu-cloud-italy", "Italy Sovereign Cloud & Private DCs"),
+                ("eu-cloud-nordics", "Nordics Green Cloud & AI Factories"),
+                ("eu-cloud-switzerland-dach", "Switzerland & Austria (Alpine Sovereign)"),
+                ("eu-cloud-uk", "United Kingdom Sovereign Cloud & DCs"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, Slurm vs K8s & Storage"),
+                ("neoclouds-iac-finops-sla", "Neocloud IaC Maturity, GPU FinOps & SLAs"),
+            ],
+            "neoclouds-north-america": [
+                ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
+                ("neoclouds-europe", "European Neoclouds & Country AI Factories"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, InfiniBand, Slurm vs K8s & Storage"),
+                ("neoclouds-iac-finops-sla", "Neocloud IaC Maturity, GPU FinOps & SLAs"),
+                ("aws", "AWS Cloud"),
+                ("GoogleCloudPlatform", "Google Cloud Platform"),
+            ],
+            "neoclouds-apac": [
+                ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
+                ("neoclouds-mena", "Middle East & GCC Sovereign AI Factories"),
+                ("neoclouds-europe", "European Neoclouds & Country AI Factories"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, InfiniBand, Slurm vs K8s & Storage"),
+                ("neoclouds-iac-finops-sla", "Neocloud IaC Maturity, GPU FinOps & SLAs"),
+            ],
+            "neoclouds-mena": [
+                ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
+                ("neoclouds-europe", "European Neoclouds & Country AI Factories"),
+                ("neoclouds-apac", "Asia-Pacific Neoclouds & AI Clouds"),
+                ("neoclouds-latam-africa", "Latin America & Africa AI Cloud Hubs"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, InfiniBand, Slurm vs K8s & Storage"),
+            ],
+            "neoclouds-latam-africa": [
+                ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
+                ("neoclouds-europe", "European Neoclouds & Country AI Factories"),
+                ("eu-cloud-spain", "Spain Sovereign Cloud (EllaLink Bridge)"),
+                ("neoclouds-mena", "Middle East & GCC Sovereign AI Factories"),
+                ("neoclouds-iac-finops-sla", "Neocloud IaC Maturity, GPU FinOps & SLAs"),
+            ],
+            "neoclouds-architecture-stack": [
+                ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
+                ("neoclouds-iac-finops-sla", "Neocloud IaC Maturity, GPU FinOps & SLAs"),
+                ("neoclouds-europe", "European Neoclouds & Country AI Factories"),
+                ("neoclouds-north-america", "North America Neoclouds (US & Canada)"),
+                ("mlops", "MLOps & GPU Scheduling"),
+                ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+            ],
+            "neoclouds-iac-finops-sla": [
+                ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, InfiniBand, Slurm vs K8s & Storage"),
+                ("eu-cloud-iac-maturity", "EU Sovereign IaC Maturity Scorecard"),
+                ("eu-cloud-resilience-sla", "EU Sovereign RPO, RTO & SLAs"),
+                ("terraform", "Terraform & OpenTofu"),
+                ("finops", "Cloud FinOps"),
             ],
         }
         
@@ -1141,6 +1224,20 @@ class V2VisionEngine:
             tags.add("[HYPERVISOR]")
         if any(k in combined_text for k in ("rpo", "rto", "draas", "zerto", "veeam", "cloudnativepg", "velero", "object lock")):
             tags.add("[DRP-RESILIENCE]")
+        if any(k in combined_text for k in (
+            "neocloud", "neoclouds-", "coreweave", "lambdalabs", "lambda.ai", "lambda cloud",
+            "crusoe.ai", "crusoecloud", "crusoe cloud", "tensorwave", "voltagepark",
+            "voltage park", "fluidstack", "runpod", "together.ai", "together ai",
+            "fireworks.ai", "hyperstack.cloud", "nebius", "taigacloud", "northern data",
+            "nscale.com", "shakticloud", "neysa.ai", "e2enetworks", "core42.ai",
+            "khaznadatacenters", "humain.com", "ooredoo", "meeza.net", "odatadc",
+            "eleadatacenters", "cassava.ai", "cassavatechnologies", "africadatacentres",
+            "raxiogroup", "skypilot", "nvl72", "infiniband", "spectrum-x",
+            "sunk-anywhere", "kai-scheduler", "dcgm-exporter", "clustermax",
+            "sakura.ad.jp", "smc.co", "firmus.co", "re-ai.ai", "it4lia",
+            "marenostrum", "isambard",
+        )):
+            tags.add("[NEOCLOUD]")
 
         # 4. Fallback: Only use [COMMUNITY-TOOL] if no other maturity tag is present
         maturity_tags = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[LEGACY]"}
@@ -1512,6 +1609,7 @@ class V2VisionEngine:
             "Observability, SRE & Testing", "DevOps & Culture", "Platform Engineering & DevEx",
             "FinOps & Cloud Cost", "Certification & Training",
             "AWS", "Azure", "GCP, OCI & Others", "European Sovereign Cloud",
+            "Neoclouds & GPU AI Clouds",
             "OpenShift / Red Hat", "Virtualization & Private Cloud"
         ]
         geo_cats = ["Americas", "Europe", "Spain", "Asia-Pacific"]
@@ -1934,6 +2032,13 @@ class V2VisionEngine:
             "      <div class=\"hero-badge-icon\">🇪🇺</div>\n"
             "      <div class=\"hero-badge-title\">EU Sovereign Cloud</div>\n"
             "      <div class=\"hero-badge-subtitle\">DE · FR · ES · IT · NL · CH · UK</div>\n"
+            "    </div>\n"
+            "  </a>\n"
+            "  <a href=\"/neoclouds/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
+            "    <div class=\"hero-badge-card hero-badge-card--cyan\">\n"
+            "      <div class=\"hero-badge-icon\">⚡</div>\n"
+            "      <div class=\"hero-badge-title\">Neoclouds &amp; GPU AI</div>\n"
+            "      <div class=\"hero-badge-subtitle\">EU · US · APAC · MENA · TCO</div>\n"
             "    </div>\n"
             "  </a>\n"
             "  <a href=\"/ai-agents-mcp/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
@@ -2678,6 +2783,11 @@ class V2VisionEngine:
                 _eu_bp = EU_SOVEREIGN_BLUEPRINTS[f_name].lstrip()
                 _body = f"{_eu_bp}\n\n" + _body
                 assert _eu_bp.splitlines()[0] in _body, f"Safety assertion failed: EU Sovereign blueprint injection skipped for {f_name}!"
+
+            if f_name in NEOCLOUDS_BLUEPRINTS:
+                _neo_bp = NEOCLOUDS_BLUEPRINTS[f_name].lstrip()
+                _body = f"{_neo_bp}\n\n" + _body
+                assert _neo_bp.splitlines()[0] in _body, f"Safety assertion failed: Neoclouds blueprint injection skipped for {f_name}!"
 
 
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid

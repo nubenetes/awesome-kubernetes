@@ -42,6 +42,10 @@ on:
         description: 'Include European Sovereign Cloud & Private DCs'
         type: boolean
         default: true
+      include_neoclouds:
+        description: 'Include Neoclouds & GPU AI Clouds'
+        type: boolean
+        default: true
       include_ai:
         description: 'Include AI & Agentic Systems'
         type: boolean
@@ -170,6 +174,7 @@ jobs:
           INCLUDE_OPENSHIFT: ${{ github.event.inputs.include_openshift || 'true' }}
           INCLUDE_CLOUD: ${{ github.event.inputs.include_cloud || 'true' }}
           INCLUDE_EU_SOVEREIGN: ${{ github.event.inputs.include_eu_sovereign || 'true' }}
+          INCLUDE_NEOCLOUDS: ${{ github.event.inputs.include_neoclouds || 'true' }}
           INCLUDE_AI: ${{ github.event.inputs.include_ai || 'true' }}
           INCLUDE_RAG_OKF: ${{ github.event.inputs.include_rag_okf || 'true' }}
           INCLUDE_DEV: ${{ github.event.inputs.include_dev || 'true' }}
