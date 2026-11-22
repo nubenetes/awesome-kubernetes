@@ -744094,3 +744094,683 @@ https://cioquest.com/llm-cost-calculator:
   v2_locations:
   - ai.md
   youtube_mosaic: {}
+https://www.youtube.com/shorts/Nha_7ErdGTI:
+  title: How CSS Anchor Positioning Replaces JavaScript [Short]
+  description: "Build tooltips, popovers, and floating UI natively with CSS Anchor
+    Positioning instead of heavy JavaScript positioning libraries. #Shorts\n\n---\n\U0001F517
+    GoogleChrome Modern Web Guidance: https://github.com/GoogleChrome/modern-web-guidance\n\U0001F310
+    More Cloud Native & Modern Engineering Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Web, AI & Cloud Native deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: Demonstrates how native CSS Anchor Positioning enables tooltips, popovers,
+    and floating UI elements without relying on heavy JavaScript positioning libraries.
+    In a 2026 cloud-native web context, shifting dynamic layout logic to native browser
+    primitives reduces client-side JavaScript payloads for cloud dashboards and internal
+    developer portals, lowering CDN egress and improving edge-rendered runtime performance.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: CSS / Web Platform
+  category: Fundamentals and Documentaries
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/EdvpdCUaxqc:
+  title: How WebAuthn Passkeys Kill Passwords [Short]
+  description: "Replace brittle passwords with phishing-resistant WebAuthn Passkeys
+    using modern browser authentication APIs. #Shorts\n\n---\n\U0001F517 GoogleChrome
+    Modern Web Guidance: https://github.com/GoogleChrome/modern-web-guidance\n\U0001F310
+    More Cloud Native & Modern Engineering Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Web, AI & Cloud Native deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This overview highlights transitioning away from brittle password-based
+    authentication toward phishing-resistant WebAuthn Passkeys built on modern browser
+    authentication APIs. In a 2026 Cloud Native architecture, adopting cryptographic,
+    passwordless credentials establishes a stronger Zero Trust identity perimeter
+    across distributed web frontends and Identity Providers (IdPs). It eliminates
+    credential-stuffing and phishing attack vectors while reducing authentication
+    friction and secret-management overhead.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: WebAuthn / Passkeys
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/3pwzlfejHNw:
+  title: How Browsers Run Local AI (Built-in AI & WebGPU) [Short]
+  description: "Explore how modern browsers run local AI inference directly on-device
+    using Built-in AI APIs and WebGPU without round-trips to the cloud. #Shorts\n\n---\n\U0001F517
+    GoogleChrome Modern Web Guidance: https://github.com/GoogleChrome/modern-web-guidance\n\U0001F310
+    More Cloud Native & Modern Engineering Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Web, AI & Cloud Native deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This short explains how modern web browsers execute local AI inference
+    directly on-device using Built-in AI APIs and hardware-accelerated WebGPU without
+    requiring cloud round-trips. In a 2026 cloud-native architecture, offloading lightweight
+    inference workloads to client devices reduces centralized GPU compute demand,
+    lowers network latency, and strengthens data privacy by keeping sensitive payloads
+    local. Cloud architects can adopt this hybrid edge-client model to reserve backend
+    infrastructure for heavy orchestration while delivering responsive, cost-efficient
+    AI features in the browser.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Built-in AI & WebGPU
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/KTCzZvJ5U04:
+  title: How scheduler.yield() Fixes Main-Thread Blocking & INP [Short]
+  description: "Improve Interaction to Next Paint (INP) and keep the browser main
+    thread responsive by yielding long tasks cleanly with scheduler.yield(). #Shorts\n\n---\n\U0001F517
+    GoogleChrome Modern Web Guidance: https://github.com/GoogleChrome/modern-web-guidance\n\U0001F310
+    More Cloud Native & Modern Engineering Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Web, AI & Cloud Native deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This technical short demonstrates how to prevent browser main-thread
+    blocking and improve Interaction to Next Paint (INP) by using the `scheduler.yield()`
+    API to cleanly yield long-running tasks back to the browser. In a 2026 cloud-native
+    context, prioritizing main-thread responsiveness is critical for modern distributed
+    web applications and micro-frontends handling heavy client-side hydration, state
+    synchronization, and observability workloads without degrading user-facing latency.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Web Performance (scheduler.yield)
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/H2kXnDoDWCs:
+  title: How Modern Web Guidance Fixes AI Code [Short]
+  description: "How GoogleChrome/modern-web-guidance prevents AI coding agents from
+    generating obsolete HTML, CSS, and DOM patterns by grounding them in modern Baseline
+    web APIs. #Shorts\n\n---\n\U0001F517 GoogleChrome Modern Web Guidance: https://github.com/GoogleChrome/modern-web-guidance\n\U0001F310
+    More Cloud Native & Modern Engineering Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Web, AI & Cloud Native deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This video explores how the GoogleChrome/modern-web-guidance repository
+    prevents AI coding agents from generating obsolete HTML, CSS, and DOM patterns
+    by grounding their output in modern Baseline web APIs. In a 2026 Cloud Native
+    context, integrating deterministic standards-based guardrails into AI-assisted
+    developer workflows reduces frontend technical debt, eliminates unnecessary polyfills
+    or legacy dependencies, and ensures resilient, standards-compliant web interfaces
+    across automated CI/CD pipelines.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Web Standards + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/BsJ73d8GXlc:
+  title: How MCP Connects AI to OpenShift [Short]
+  description: "See how Model Context Protocol (MCP) connects AI agents and assistants
+    safely to Red Hat OpenShift clusters and operational workflows. #Shorts\n\n---\n\U0001F517
+    Microsoft Tech Community Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This architectural overview demonstrates how the Model Context Protocol
+    (MCP) serves as a standardized, secure integration layer bridging AI agents and
+    assistants with Red Hat OpenShift clusters. By exposing cluster state and operational
+    workflows through controlled MCP interfaces, platform teams can enable agentic
+    automation across enterprise Kubernetes environments without compromising governance.
+    In a 2026 Cloud Native context, this pattern establishes a foundational blueprint
+    for safe, interoperable AI-driven cluster operations.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes + AI Agents
+  category: AI and Future Operations
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/p_LnIoUPDiI:
+  title: How Isovalent Secures Kubernetes Traffic on Azure & OpenShift [Short]
+  description: "How Isovalent eBPF / Cilium secures network traffic, enforces zero-trust
+    policies, and provides deep observability for Kubernetes and OpenShift workloads.
+    #Shorts\n\n---\n\U0001F517 Microsoft Tech Community Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This video highlights how Isovalent leverages an eBPF-powered Cilium
+    dataplane to secure network traffic and enforce identity-aware, zero-trust policies
+    across Azure and Red Hat OpenShift (ARO) environments, including hosted control
+    plane architectures. By operating directly in the Linux kernel, Cilium bypasses
+    legacy iptables bottlenecks to deliver high-performance packet processing alongside
+    deep L3–L7 observability for enterprise workloads. For 2026 cloud-native architectures,
+    adopting this unified eBPF networking and security plane is essential for scaling
+    resilient, compliant multi-cluster Kubernetes platforms with minimal operational
+    overhead.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes / Cilium (eBPF)
+  category: Networking and Service Mesh
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/oc8u0axlLUU:
+  title: Why Choose Azure Container Apps vs ARO & AKS [Short]
+  description: "When to choose serverless Azure Container Apps (ACA) over Azure Red
+    Hat OpenShift (ARO) or AKS. #Shorts\n\n---\n\U0001F517 Microsoft Tech Community
+    Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This concise architectural guide outlines the decision criteria for
+    selecting Azure Container Apps (ACA) over Azure Kubernetes Service (AKS) or Azure
+    Red Hat OpenShift (ARO). For modern 2026 cloud-native teams, it highlights when
+    to prioritize serverless, KEDA-driven container abstraction and zero-control-plane
+    overhead over full Kubernetes API flexibility or enterprise-grade OpenShift platforms
+    with hosted control planes. Architects gain clear guidance on matching operational
+    complexity and governance requirements to the right Azure container runtime.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Container Apps, Kubernetes, Azure Red Hat OpenShift
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/hhxW4azWSRY:
+  title: The Real Differences Between ARO and AKS [Short]
+  description: "Key architectural and operational differences between Azure Red Hat
+    OpenShift (ARO) and Azure Kubernetes Service (AKS). #Shorts\n\n---\n\U0001F517
+    Microsoft Tech Community Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This short breaks down the key architectural and operational trade-offs
+    between Azure Red Hat OpenShift (ARO) and Azure Kubernetes Service (AKS), contextualized
+    by the general availability of ARO with Hosted Control Planes. For 2026 Cloud
+    Native platform teams, this comparison clarifies when to favor AKS's flexible,
+    Azure-native Kubernetes foundation versus ARO's integrated enterprise OpenShift
+    ecosystem, turnkey developer tooling, and decoupled control plane management.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/y-AilodlV0U:
+  title: How ARO HCP Isolates and Secures Workloads [Short]
+  description: "Learn how Azure Red Hat OpenShift (ARO) with Hosted Control Planes
+    (HCP) isolates the control plane from tenant worker nodes for stronger security
+    boundaries. #Shorts\n\n---\n\U0001F517 Microsoft Tech Community Announcement:
+    https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This video explores how Azure Red Hat OpenShift (ARO) with Hosted Control
+    Planes (HCP) decouples the Kubernetes control plane from tenant worker nodes to
+    establish stronger security boundaries. For 2026 Cloud Native architectures, this
+    hosted control plane model minimizes the blast radius, prevents tenant workloads
+    from accessing sensitive control plane components, and streamlines multi-cluster
+    governance and compliance at scale.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/88YYYSQ4pLo:
+  title: How Hosted Control Planes Slash ARO Costs [Short]
+  description: "See how Hosted Control Planes (HCP) eliminate dedicated master node
+    VMs in Azure Red Hat OpenShift (ARO) to significantly reduce infrastructure costs.
+    #Shorts\n\n---\n\U0001F517 Microsoft Tech Community Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This video illustrates how Hosted Control Planes (HCP) in Azure Red
+    Hat OpenShift (ARO) decouple control plane components from dedicated master node
+    virtual machines, running them instead as managed, containerized workloads on
+    a shared service infrastructure. For 2026 Cloud Native architectures, this shift
+    delivers immediate FinOps optimization by eliminating idle control plane compute
+    overhead, lowering per-cluster TCO, and accelerating provisioning times for high-density
+    multi-cluster enterprise deployments.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/shorts/ctuygjjVHkM:
+  title: Why Hosted Control Planes Change OpenShift on Azure [Short]
+  description: "Why Hosted Control Planes (HCP) on Azure Red Hat OpenShift (ARO) fundamentally
+    change cluster economics, provisioning speed, and control-plane management. #Shorts\n\n---\n\U0001F517
+    Microsoft Tech Community Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This technical short explores how Hosted Control Planes (HCP) on Azure
+    Red Hat OpenShift (ARO) transform enterprise Kubernetes architecture by decoupling
+    the control plane from dedicated per-cluster infrastructure. By consolidating
+    control-plane management and eliminating standalone control-plane VM overhead,
+    platform engineering teams gain markedly faster cluster provisioning and improved
+    cluster economics. In a 2026 Cloud Native landscape focused on FinOps and fleet
+    scalability, ARO with HCP provides a streamlined path to operating high-density,
+    multi-cluster OpenShift environments on Azure.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift / Kubernetes
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=pJ2njiTF5xA:
+  title: 'Azure Red Hat OpenShift (ARO) vs AKS & Container Apps: Enterprise Kubernetes
+    Strategy'
+  description: "Architectural comparison of Azure Red Hat OpenShift (ARO) with Hosted
+    Control Planes, Azure Kubernetes Service (AKS), and Azure Container Apps (ACA)
+    for enterprise platform engineering.\n\n---\n\U0001F517 Microsoft Tech Community
+    Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This video presents an architectural comparison of Azure Red Hat OpenShift
+    (ARO) with Hosted Control Planes, Azure Kubernetes Service (AKS), and Azure Container
+    Apps (ACA) for enterprise platform engineering. It evaluates critical trade-offs
+    across control plane isolation, operational overhead, and serverless abstraction
+    to align compute tiers with organizational governance. For 2026 Cloud Native strategies,
+    leveraging ARO's decoupled Hosted Control Planes alongside AKS and ACA enables
+    platform teams to optimize cluster economics, accelerate developer self-service,
+    and standardize hybrid-ready Kubernetes operations.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Kubernetes
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=YMkrUNCirwM:
+  title: 'ARO Hosted Control Planes: Security, Governance & Compliance'
+  description: "Security and governance deep dive for Azure Red Hat OpenShift (ARO)
+    with Hosted Control Planes (HCP). Covers control-plane isolation, Azure RBAC,
+    network boundaries, and enterprise compliance.\n\n---\n\U0001F517 Microsoft Tech
+    Community Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This technical deep dive examines the security and governance architecture
+    of Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP), focusing on
+    decoupling the control plane from worker nodes to strengthen tenant isolation.
+    It details how enterprise platform teams can enforce strict network boundaries,
+    integrate Azure RBAC for unified identity management, and streamline regulatory
+    compliance across multi-tenant OpenShift clusters. For 2026 Cloud Native architectures,
+    this hosted model reduces operational blast radius and management overhead while
+    maintaining enterprise-grade security postures at scale.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift (ARO) / Kubernetes
+  category: Security and Compliance
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel
+https://www.youtube.com/watch?v=PlwC6Iwo-BU:
+  title: 'ARO Hosted Control Planes: Deployment, Scaling & Operations'
+  description: "Operational guide to deploying, scaling, and managing Azure Red Hat
+    OpenShift (ARO) with Hosted Control Planes (HCP) in production.\n\n---\n\U0001F517
+    Microsoft Tech Community Announcement: https://techcommunity.microsoft.com/blog/appsonazureblog/azure-red-hat-openshift-with-hosted-control-planes-is-now-generally-available/4574192\n\U0001F310
+    More Cloud Native & Enterprise Kubernetes Videos: https://nubenetes.com/videos/\n\U0001F4FA
+    Subscribe to @nubenetes for more Azure, OpenShift, ARO & Kubernetes deep dives."
+  year: '2026'
+  stars: 5
+  ai_summary: This session provides an operational deep dive into Azure Red Hat OpenShift
+    (ARO) with Hosted Control Planes (HCP), demonstrating how decoupling the Kubernetes
+    control plane from dedicated worker VMs reduces infrastructure overhead and accelerates
+    cluster provisioning. In a 2026 cloud-native enterprise context, adopting ARO
+    HCP enables platform teams to achieve denser multi-cluster economies of scale,
+    streamline lifecycle upgrades, and isolate control plane management on Azure while
+    maintaining production-grade OpenShift SLAs.
+  language: English
+  resource_type: Video
+  complexity: Intermediate
+  is_microservice: false
+  is_featured_video: true
+  is_enriched: true
+  video_order: 25
+  technology: Azure Red Hat OpenShift (ARO) / Kubernetes
+  category: Architecture and Cloud Strategy
+  status: online
+  addition_method: automatic
+  health_score: 100.0
+  last_checked: 1795344434
+  needs_ai_refresh: false
+  discovered_at: '2026-11-22T11:47:14.346992+01:00'
+  last_ai_eval: '2026-11-22T11:47:14.346992+01:00'
+  company: Nubenetes
+  geo_region: spain
+  hierarchy:
+  - Cloud Native
+  - Video Masterclasses
+  tags:
+  - '[GUIDE]'
+  v1_locations:
+  - docs/index.md
+  v2_locations:
+  - index.md
+  youtube_mosaic: {}
+  source_provenance: Official @nubenetes YouTube Channel

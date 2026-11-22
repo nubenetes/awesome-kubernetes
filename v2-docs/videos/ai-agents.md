@@ -908,6 +908,21 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 How MCP Connects AI to OpenShift [Short]"
+    !!! info "Architectural Summary"
+        This architectural overview demonstrates how the Model Context Protocol (MCP) serves as a standardized, secure integration layer bridging AI agents and assistants with Red Hat OpenShift clusters. By exposing cluster state and operational workflows through controlled MCP interfaces, platform teams can enable agentic automation across enterprise Kubernetes environments without compromising governance. In a 2026 Cloud Native context, this pattern establishes a foundational blueprint for safe, interoperable AI-driven cluster operations.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="BsJ73d8GXlc" data-video-url="https://www.youtube.com/embed/BsJ73d8GXlc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BsJ73d8GXlc/hqdefault.jpg" alt="How MCP Connects AI to OpenShift [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Kubernetes MLOps with AI
 
 ??? note "🎬 How the Enterprise AI Decision Matrix Works | Cloud AI vs Kubernetes"
@@ -1612,6 +1627,40 @@ Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLLasX02E8BPBCP7KdYsjKKFFQUmNEUmE9" title="The Shift Podcast by Microsoft Azure—Agentic Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Built-in AI and WebGPU
+
+??? note "🎬 How Browsers Run Local AI (Built-in AI & WebGPU) [Short]"
+    !!! info "Architectural Summary"
+        This short explains how modern web browsers execute local AI inference directly on-device using Built-in AI APIs and hardware-accelerated WebGPU without requiring cloud round-trips. In a 2026 cloud-native architecture, offloading lightweight inference workloads to client devices reduces centralized GPU compute demand, lowers network latency, and strengthens data privacy by keeping sensitive payloads local. Cloud architects can adopt this hybrid edge-client model to reserve backend infrastructure for heavy orchestration while delivering responsive, cost-efficient AI features in the browser.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="3pwzlfejHNw" data-video-url="https://www.youtube.com/embed/3pwzlfejHNw" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/3pwzlfejHNw/hqdefault.jpg" alt="How Browsers Run Local AI (Built-in AI & WebGPU) [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Web Standards AI Agents
+
+??? note "🎬 How Modern Web Guidance Fixes AI Code [Short]"
+    !!! info "Architectural Summary"
+        This video explores how the GoogleChrome/modern-web-guidance repository prevents AI coding agents from generating obsolete HTML, CSS, and DOM patterns by grounding their output in modern Baseline web APIs. In a 2026 Cloud Native context, integrating deterministic standards-based guardrails into AI-assisted developer workflows reduces frontend technical debt, eliminates unnecessary polyfills or legacy dependencies, and ensures resilient, standards-compliant web interfaces across automated CI/CD pipelines.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="H2kXnDoDWCs" data-video-url="https://www.youtube.com/embed/H2kXnDoDWCs" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/H2kXnDoDWCs/hqdefault.jpg" alt="How Modern Web Guidance Fixes AI Code [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 

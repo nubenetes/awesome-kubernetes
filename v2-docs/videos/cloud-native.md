@@ -282,6 +282,36 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+??? note "🎬 The Real Differences Between ARO and AKS [Short]"
+    !!! info "Architectural Summary"
+        This short breaks down the key architectural and operational trade-offs between Azure Red Hat OpenShift (ARO) and Azure Kubernetes Service (AKS), contextualized by the general availability of ARO with Hosted Control Planes. For 2026 Cloud Native platform teams, this comparison clarifies when to favor AKS's flexible, Azure-native Kubernetes foundation versus ARO's integrated enterprise OpenShift ecosystem, turnkey developer tooling, and decoupled control plane management.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="hhxW4azWSRY" data-video-url="https://www.youtube.com/embed/hhxW4azWSRY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/hhxW4azWSRY/hqdefault.jpg" alt="The Real Differences Between ARO and AKS [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Azure Red Hat OpenShift (ARO) vs AKS & Container Apps: Enterprise Kubernetes Strategy"
+    !!! info "Architectural Summary"
+        This video presents an architectural comparison of Azure Red Hat OpenShift (ARO) with Hosted Control Planes, Azure Kubernetes Service (AKS), and Azure Container Apps (ACA) for enterprise platform engineering. It evaluates critical trade-offs across control plane isolation, operational overhead, and serverless abstraction to align compute tiers with organizational governance. For 2026 Cloud Native strategies, leveraging ARO's decoupled Hosted Control Planes alongside AKS and ACA enables platform teams to optimize cluster economics, accelerate developer self-service, and standardize hybrid-ready Kubernetes operations.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="pJ2njiTF5xA" data-video-url="https://www.youtube.com/embed/pJ2njiTF5xA" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/pJ2njiTF5xA/hqdefault.jpg" alt="Azure Red Hat OpenShift (ARO) vs AKS & Container Apps: Enterprise Kubernetes Strategy" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Red Hat OpenShift
 
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019"
@@ -1102,6 +1132,108 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
     <center markdown="1">
 
     <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLMgCx_Yg_x48" title="Nubenetes Gateway API & Traefik Ingress Mesh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+
+    </center>
+
+## Web Performance scheduler yield
+
+??? note "🎬 How scheduler.yield() Fixes Main-Thread Blocking & INP [Short]"
+    !!! info "Architectural Summary"
+        This technical short demonstrates how to prevent browser main-thread blocking and improve Interaction to Next Paint (INP) by using the `scheduler.yield()` API to cleanly yield long-running tasks back to the browser. In a 2026 cloud-native context, prioritizing main-thread responsiveness is critical for modern distributed web applications and micro-frontends handling heavy client-side hydration, state synchronization, and observability workloads without degrading user-facing latency.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="KTCzZvJ5U04" data-video-url="https://www.youtube.com/embed/KTCzZvJ5U04" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/KTCzZvJ5U04/hqdefault.jpg" alt="How scheduler.yield() Fixes Main-Thread Blocking & INP [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Kubernetes Cilium eBPF
+
+??? note "🎬 How Isovalent Secures Kubernetes Traffic on Azure & OpenShift [Short]"
+    !!! info "Architectural Summary"
+        This video highlights how Isovalent leverages an eBPF-powered Cilium dataplane to secure network traffic and enforce identity-aware, zero-trust policies across Azure and Red Hat OpenShift (ARO) environments, including hosted control plane architectures. By operating directly in the Linux kernel, Cilium bypasses legacy iptables bottlenecks to deliver high-performance packet processing alongside deep L3–L7 observability for enterprise workloads. For 2026 cloud-native architectures, adopting this unified eBPF networking and security plane is essential for scaling resilient, compliant multi-cluster Kubernetes platforms with minimal operational overhead.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="p_LnIoUPDiI" data-video-url="https://www.youtube.com/embed/p_LnIoUPDiI" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/p_LnIoUPDiI/hqdefault.jpg" alt="How Isovalent Secures Kubernetes Traffic on Azure & OpenShift [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Container Apps Kubernetes Azure Red Hat OpenShift
+
+??? note "🎬 Why Choose Azure Container Apps vs ARO & AKS [Short]"
+    !!! info "Architectural Summary"
+        This concise architectural guide outlines the decision criteria for selecting Azure Container Apps (ACA) over Azure Kubernetes Service (AKS) or Azure Red Hat OpenShift (ARO). For modern 2026 cloud-native teams, it highlights when to prioritize serverless, KEDA-driven container abstraction and zero-control-plane overhead over full Kubernetes API flexibility or enterprise-grade OpenShift platforms with hosted control planes. Architects gain clear guidance on matching operational complexity and governance requirements to the right Azure container runtime.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="oc8u0axlLUU" data-video-url="https://www.youtube.com/embed/oc8u0axlLUU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/oc8u0axlLUU/hqdefault.jpg" alt="Why Choose Azure Container Apps vs ARO & AKS [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Red Hat OpenShift
+
+??? note "🎬 How Hosted Control Planes Slash ARO Costs [Short]"
+    !!! info "Architectural Summary"
+        This video illustrates how Hosted Control Planes (HCP) in Azure Red Hat OpenShift (ARO) decouple control plane components from dedicated master node virtual machines, running them instead as managed, containerized workloads on a shared service infrastructure. For 2026 Cloud Native architectures, this shift delivers immediate FinOps optimization by eliminating idle control plane compute overhead, lowering per-cluster TCO, and accelerating provisioning times for high-density multi-cluster enterprise deployments.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="88YYYSQ4pLo" data-video-url="https://www.youtube.com/embed/88YYYSQ4pLo" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/88YYYSQ4pLo/hqdefault.jpg" alt="How Hosted Control Planes Slash ARO Costs [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Red Hat OpenShift Kubernetes
+
+??? note "🎬 Why Hosted Control Planes Change OpenShift on Azure [Short]"
+    !!! info "Architectural Summary"
+        This technical short explores how Hosted Control Planes (HCP) on Azure Red Hat OpenShift (ARO) transform enterprise Kubernetes architecture by decoupling the control plane from dedicated per-cluster infrastructure. By consolidating control-plane management and eliminating standalone control-plane VM overhead, platform engineering teams gain markedly faster cluster provisioning and improved cluster economics. In a 2026 Cloud Native landscape focused on FinOps and fleet scalability, ARO with HCP provides a streamlined path to operating high-density, multi-cluster OpenShift environments on Azure.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="ctuygjjVHkM" data-video-url="https://www.youtube.com/embed/ctuygjjVHkM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ctuygjjVHkM/hqdefault.jpg" alt="Why Hosted Control Planes Change OpenShift on Azure [Short]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+## Azure Red Hat OpenShift ARO Kubernetes
+
+??? note "🎬 ARO Hosted Control Planes: Deployment, Scaling & Operations"
+    !!! info "Architectural Summary"
+        This session provides an operational deep dive into Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP), demonstrating how decoupling the Kubernetes control plane from dedicated worker VMs reduces infrastructure overhead and accelerates cluster provisioning. In a 2026 cloud-native enterprise context, adopting ARO HCP enables platform teams to achieve denser multi-cluster economies of scale, streamline lifecycle upgrades, and isolate control plane management on Azure while maintaining production-grade OpenShift SLAs.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="PlwC6Iwo-BU" data-video-url="https://www.youtube.com/embed/PlwC6Iwo-BU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/PlwC6Iwo-BU/hqdefault.jpg" alt="ARO Hosted Control Planes: Deployment, Scaling & Operations" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
