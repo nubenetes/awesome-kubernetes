@@ -112,6 +112,11 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 
   - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad?gi=73bd5bb561ae) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage covering MongoDB Tools and MongoDB as a Service in NoSQL (code.likeagirl.io).
   - **(2015)** [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for MongoDB Tutorial – A Scalable NoSQL DB covering MongoDB Tools and MongoDB as a Service in NoSQL (javacodegeeks.com).
+## NoSQL (1)
+
+### Mongodb Tools And Mongodb As A Service (1)
+
+  - **(2026)** [Connecting to your MongoDB at MongoLab](https://studio3t.com/knowledge-base/desktop-ide/connect-to-mongodb-atlas) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Connecting to your MongoDB at MongoLab: Curated technical resource in Nosql.
 ## Observability
 
 ### Microservices Monitoring
@@ -121,7 +126,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Yaml](./yaml.md)
+💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Ansible resources for 2026, AI-ranked: AWX, Gradle Cheat Sheets and more — curated Cloud Native tools, guides and references."
+description: "Top Ansible resources for 2026, AI-ranked: Gradle Cheat Sheets, AWX and more — curated Cloud Native tools, guides and references."
 ---
 # Configuration Management. Ansible
 
@@ -547,6 +547,9 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, Gradle Cheat Sheet
 
   - [stackoverflow.com: Ansible playbook to execute Oracle script](https://stackoverflow.com/questions/41796466/ansible-playbook-to-execute-oracle-script)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow.com: Ansible playbook to execute Oracle script covering Oracle Database with Ansible in Ansible (stackoverflow.com).
   - [stackoverflow.com: Running Oracle SQL scripts with Ansible playbook](https://stackoverflow.com/questions/41341823/running-oracle-sql-scripts-with-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow.com: Running Oracle SQL scripts with Ansible playbook covering Oracle Database with Ansible in Ansible (stackoverflow.com).
+## Red Hat Ansible Automation Platform
+
+  - **(2026)** [ansible.com: What's new in Ansible Automation Platform 2: automation content navigator](https://www.redhat.com/en/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — ansible.com: What's new in Ansible Automation Platform 2: automation content navigator: Curated technical resource in Ansible.
 ## Running Ansible Playbooks From Jenkins
 
   - [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653?gi=98da6965f4e9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Ansible and Jenkins — automate your scritps 🌟 covering Running Ansible Playbooks From Jenkins in Ansible (itnext.io).
@@ -568,7 +571,7 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, Gradle Cheat Sheet
   - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

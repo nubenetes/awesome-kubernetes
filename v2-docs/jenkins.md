@@ -14,6 +14,9 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
   - [==inder-devops.medium.com: CI/CD setup in just 5 mins with basic yaml configuration==](https://towardsdev.com/ci-cd-setup-in-just-5-mins-with-basic-yaml-configuration-95b8e894a110?gi=06ee14792654) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and architectural reference for inder-devops.medium.com: CI/CD setup in just 5 mins with basic yaml configuration in the Jenkins ecosystem (towardsdev.com).
   - [==faun.pub: Set up Jenkins on a Kubernetes Cluster==](https://faun.pub/set-up-jenkins-on-a-kubernetes-cluster-2b982c840ebe?gi=ab46eba9dbf0) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and architectural reference for faun.pub: Set up Jenkins on a Kubernetes Cluster in the Jenkins ecosystem (faun.pub).
   - [**itnext.io: Jenkins Tutorial — Part 1 — Pipelines 🌟**](https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509?gi=67b4a24546f0) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — [itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables 🌟](https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07?gi=f693c558a03a) [itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline 🌟](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad?gi=8139b93da62c) [itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=248d3a073994)
+  - **(2026)** [itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables 🌟](https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07?gi=f693c558a03a) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables 🌟: Curated technical resource in Jenkins.
+  - **(2026)** [itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline 🌟](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad?gi=8139b93da62c) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline 🌟: Curated technical resource in Jenkins.
+  - **(2026)** [itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=248d3a073994) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines 🌟: Curated technical resource in Jenkins.
   - [webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟](https://webhookrelay.com/blog/jenkins-webhooks) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟 in the Jenkins ecosystem (webhookrelay.com).
   - [itnext.io: Jenkins: running workers in Kubernetes and Docker images build](https://itnext.io/jenkins-running-workers-in-kubernetes-and-docker-images-build-83299a10f3ca?gi=e9e5d45820d0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for itnext.io: Jenkins: running workers in Kubernetes and Docker images build in the Jenkins ecosystem (itnext.io).
   - [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3?gi=16e344048ac4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE in the Jenkins ecosystem (blog.searce.com).
@@ -488,6 +491,9 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
   - **(2020)** [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 1 (2020) 🌟](https://www.cloudbees.com/blog/apm-tools-jenkins-performance) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of an engineering diagnostic series for hunting down master slowdowns in Kubernetes clusters. Focuses on setting up proper application performance monitoring and resolving severe disk-level I/O latency blocks.
 ### Security
 
+#### Access Management
+
+  - **(2021)** [==Connecting and authenticating to Jenkins with Teleport Application Access==](https://github.com/gravitational/teleport/discussions/8330) <span class='md-tag md-tag--info'>⭐ 21056</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-42242706" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 2 L 30 2 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-42242706)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how to secure Jenkins controller instances with identity-aware authorization proxies via Teleport Application Access. *Curator Insight*: Security gateways. *Live Grounding*: Critical blueprint for modern security compliance, eliminating the vulnerability of exposing Jenkins directly to the internet.
 #### Credentials Binding
 
   - **(2021)** [jenkins.io: Git Username/Password Credentials Binding for sh, bat, and powershell 🌟](https://www.jenkins.io/blog/2021/07/27/git-credentials-binding-phase-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers Jenkins secure credential binding updates, preventing execution shells (sh, bat, powershell) from exposing VCS passwords in public log systems. *Curator Insight*: Securing git commands. *Live Grounding*: Baseline security practice required to prevent credentials leakage.
@@ -527,6 +533,11 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
 
   - **(2020)** [==Jenkins Docker Image for Openshift v3==](https://github.com/openshift/jenkins) <span class='md-tag md-tag--info'>⭐ 261</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-de391a4a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 13 L 20 12 L 30 5 L 40 11 L 50 11" fill="none" stroke="url(#spark-grad-de391a4a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat maintained OpenShift integration image for running Jenkins natively within OpenShift clusters. Includes pre-configured plugins, service-account integration, and S2I build configurations customized for enterprise OpenShift v3/v4 environments.
   - **(2018)** [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guide detailing the setup and execution of transient Jenkins agents within OpenShift containers. Focuses on orchestrating dynamic pod allocations for build execution, maximizing cluster efficiency and isolating build contexts.
+### Jenkins (1)
+
+#### Kubernetes Agents (1)
+
+  - **(2021)** [pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images 🌟](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical guide exploring the orchestration of Jenkins agents inside Kubernetes. Illustrates how to dynamically provision agent pods to build and push Docker images using secure mechanisms like Kaniko or Docker-in-Docker (DinD).
 ## Cloud Integration
 
 ### Artifact Storage
@@ -541,6 +552,11 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
   - **(2023)** [AWS Kinesis Consumer](https://plugins.jenkins.io/aws-kinesis-consumer) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enables Jenkins to ingest messages from AWS Kinesis Streams to orchestrate pipeline builds. It acts as an integration gateway for event-driven workflows and real-time processing topologies.
 ## Cloud Native
 
+### AWS EKS
+
+#### Cluster Provisioning
+
+  - **(2024)** [**eksctl: EKS installer**](https://github.com/eksctl-io/eksctl) <span class='md-tag md-tag--info'>⭐ 5217</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ded25d6c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 8 L 30 3 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-ded25d6c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official CLI orchestration tool for provisioning AWS EKS clusters. It compiles high-level YAML inputs into CloudFormation actions to automatically establish VPC, IAM, and worker nodes.
 ### Continuous Integration
 
 #### CICD (2)
@@ -600,7 +616,7 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
 #### Log Analysis
 
   - **(2025)** [Text Finder 🌟](https://plugins.jenkins.io/text-finder) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Scans workspace files or console output logs for designated regular expressions, enabling automated job state alterations. It is used to systematically degrade a build status from success to unstable or failed upon encountering structural anomalies or error flags.
-### Jenkins (1)
+### Jenkins (2)
 
 #### Automation Server
 
@@ -667,7 +683,7 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
 
 ### CICD (5)
 
-#### Jenkins (2)
+#### Jenkins (3)
 
   - **(2023)** [Back of the Napkin Guide to Updating Jenkins](https://www.jenkins.io/blog/2023/10/31/marc-s-napkin-upgrade-guide)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A pragmatic quick-reference outlining safe, robust upgrade strategies for legacy Jenkins master/agent nodes. Covers JVM runtime alignment, plugins dependency management, and core server updates with minimum outage windows.
 #### Kubernetes-native CI
@@ -686,6 +702,9 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
 
 #### Groovy CPS
 
+##### Continuation Passing Style
+
+  - **(2021)** [==Continuation Passing Style (CPS)==](https://github.com/cloudbees/groovy-cps) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff2f3a9c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 7 L 30 9 L 40 9 L 50 12" fill="none" stroke="url(#spark-grad-ff2f3a9c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces the underlying Continuation Passing Style (CPS) engine used for executing asynchronous Groovy scripts in Jenkins pipelines. Live Grounding reveals that understanding CPS is critical for debugging serialization errors during master restarts. This technical library ensures execution state can survive controller crashes and resume safely.
 ##### Jobdsl API Reference
 
   - **(2022)** [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents an aggregative documentation path detailing Groovy CPS execution layouts, pipeline migrations, and auxiliary utility plugins. Live Grounding asserts that despite modern cloud-native shifts, these JobDSL APIs and diagnostic tools (like the Plugin Installation Manager) form the backbone of highly reliable enterprise environments. It provides essential guidelines for maintaining complex pipelines.
@@ -935,6 +954,9 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
 
   - [github.com/jenkinsci/docker: Official Docker templates and build scripts for Jenkins controllers](https://github.com/jenkinsci/docker) <span class='md-tag md-tag--info'>⭐ 7682</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-65c2f626" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 11 L 30 3 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-65c2f626)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical documentation and implementation reference for github.com/jenkinsci/docker: Official Docker templates and build scripts for Jenkins controllers covering Jenkins on Docker in Jenkins (github.com).
   - [github.com/shazChaudhry/docker-jenkins: Swarm Cluster setup demonstrating how to run scalable Jenkins workers inside a Docker Swarm environment](https://github.com/shazChaudhry/docker-jenkins) <span class='md-tag md-tag--info'>⭐ 44</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6459ce7e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 4 L 30 7 L 40 3 L 50 10" fill="none" stroke="url(#spark-grad-6459ce7e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — ### Kubernetes Native Jenkins Operator
+## Jenkins On Kubernetes
+
+  - **(2026)** [itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=b4ee16971e4e) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines: Curated technical resource in Jenkins.
 ## Jenkins Plugins
 
   - [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jrebel.com: Top 10 Jenkins Plugins and Features (2014) covering Jenkins Plugins in Jenkins (jrebel.com).
@@ -1037,7 +1059,7 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
 
 #### Argo Workflows
 
-##### Jenkins (3)
+##### Jenkins (4)
 
   - **(2022)** [**Migrating CI/CD from Jenkins to Argo Workflows**](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Shares practical lessons from migrating a legacy Jenkins CI pipeline stack over to container-native Argo Workflows. Compares the performance, cost efficiency, resource overhead, and maintainability of step-based DAG flows.
 ## Security (3)
@@ -1116,7 +1138,7 @@ description: "Top Jenkins resources for 2026, AI-ranked: Gradle Cheat Sheets, gi
     </center>
 
 ---
-💡 **Explore Related:** [Argo](./argo.md) | [CI/CD](./cicd.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Keptn](./keptn.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

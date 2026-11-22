@@ -1,5 +1,5 @@
 ---
-description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, NGINXConfig and more — curated Cloud Native tools, guides and references."
+description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Community Tools and more — curated Cloud Native tools, guides and references."
 ---
 # Digital Ocean
 
@@ -64,7 +64,7 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, NGI
   - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

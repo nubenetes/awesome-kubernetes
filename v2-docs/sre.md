@@ -207,6 +207,11 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - [blog.acethecloud.com: A Step-by-Step Guide to Calculate SLAs, SLIs, and SLOs for Your IT Services](https://blog.acethecloud.com/a-step-by-step-guide-to-calculating-slas-slis-and-slos-for-your-it-services-6f0a07b67bb5?gi=cf3ea61a2e17) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.acethecloud.com: A Step-by-Step Guide to Calculate SLAs, SLIs, and SLOs for Your IT Services covering Service Level Objectives SLO in SRE (blog.acethecloud.com).
 ## Site Reliability Engineering (3)
 
+### Incident Management (1)
+
+#### Aiops
+
+  - **(2026)** [**How Ultrafast cut incident investigation at OpenAI from hours to minutes**](https://openai.com/index/openai-cut-incident-investigation) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AIOPS]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[INCIDENT-RESPONSE]</span> <span class='md-tag md-tag--primary'>[SRE]</span> — OpenAI's Site Reliability Engineering teams have adopted a specialized high-speed 'Ultrafast' mode within Codex to drastically reduce incident resolution times. Integrated directly into Slack orchestration channels, the AI agent continuously monitors telemetry, investigates multiple potential failure points simultaneously, and synthesizes root cause analyses in near real-time. This internal operational shift demonstrates the immense value of low-latency AI assistants in high-stress, production-critical SRE environments.
 ### Observability (1)
 
 #### Monitoring Theory
@@ -223,7 +228,7 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 314857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 2 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md) | [Testops](./testops.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [Scaffolding](./scaffolding.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

@@ -131,7 +131,7 @@ class V2VisionEngine:
             "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "devsecops", "kustomize", "liquibase"],
             "Cloud Providers (Hyperscalers)": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "edge-computing", "aws-security", "aws-networking", "aws-storage", "aws-iac", "aws-serverless", "aws-backup", "aws-newfeatures"],
             "Networking & Service Mesh": ["networking", "kubernetes-networking", "servicemesh", "istio", "caching", "web-servers", "cloudflare"],
-            "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp3", "ocp4", "noops"],
+            "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp5", "ocp4", "ocp3", "noops"],
             "Data & Advanced Analytics": ["databases", "nosql", "message-queue", "crunchydata", "yaml", "bigdata"],
             "Engineering Pipeline": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives", "openshift-pipelines", "sonarqube", "registries", "keptn", "cicd-kubernetes-plugins"],
             "Developer Ecosystem": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "java_app_servers", "java-and-java-performance-optimization", "dotnet", "angular", "web3", "api", "swagger-code-generator-for-rest-apis", "postman", "lowcode-nocode", "devel-sites", "linux-dev-env", "ChromeDevTools", "maven-gradle", "embedded-servlet-containers"],
@@ -233,6 +233,20 @@ class V2VisionEngine:
                 ("ai", "Core AI & LLMs"),
                 ("mlops", "MLOps & GPU Scheduling"),
                 ("chatgpt", "LLMs & Assistants"),
+            ],
+            "openshift": [
+                ("ocp5", "OCP 5 (Latest)"),
+                ("ocp4", "OCP 4"),
+                ("ocp3", "OCP 3 (Legacy)"),
+                ("openshift-pipelines", "OpenShift Pipelines"),
+                ("enterprise-ai-platforms", "OpenShift AI (RHOAI)"),
+            ],
+            "ocp5": [
+                ("openshift", "OpenShift Overview"),
+                ("ocp4", "OCP 4"),
+                ("openshift-pipelines", "OpenShift Pipelines"),
+                ("enterprise-ai-platforms", "OpenShift AI (RHOAI)"),
+                ("ai-agents-mcp", "AI Agents & MCP"),
             ],
         }
         
@@ -414,7 +428,7 @@ class V2VisionEngine:
                     h_text = clean_toc_text(hm.group(2).strip())
                     if h_text and h_text.lower() not in ("table of contents", "contents"):
                         headings.append((hm.start(), h_text))
-                matches = re.finditer(r'^\s*-\s*(?:\*\*\(\d{4}\)\*\*\s+)?\[([^\]]+)\]\(([^\)]+)\)(.*?(?:\n\s{2,}.*)*)', content, re.MULTILINE)
+                matches = re.finditer(r'^\s*-\s*(?:\*\*\(\d{4}\)\*\*\s+)?\[([^\]]+)\]\(([^\)]+)\)([^\n]*(?:\n\s{2,}(?!\s*[-*]\s).*)*)', content, re.MULTILINE)
                 for m in matches:
                     title, url, full_desc = m.groups()
                     if url.strip().startswith("#"):
@@ -628,6 +642,8 @@ class V2VisionEngine:
                 star_count = max(3, min(5, l.get("description", "").count("🌟") + 2)) if "🌟" in l.get("description", "") else 3
                 dim = file_to_dim.get(orig_file, "Architectural Foundations")
                 page_title = orig_file.replace(".md", "").replace("-", " ").title()
+                for _k, _v in {"Ocp3": "OCP 3", "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Ai": "AI", "Mcp": "MCP", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", "Api": "API", "Sre": "SRE", "Cicd": "CI/CD"}.items():
+                    page_title = page_title.replace(_k, _v)
                 fallback_entry = {
                     "title": v1_title or item.get("title", "Resource"),
                     "description": l.get("description", ""),
@@ -999,7 +1015,7 @@ class V2VisionEngine:
                     acronyms = {
                         "Ai": "AI", "Mcp": "MCP", "Iac": "IaC", "Aws": "AWS", "Gcp": "GCP", 
                         "Api": "API", "Sre": "SRE", "Cicd": "CI/CD", "Ocp3": "OCP 3", 
-                        "Ocp4": "OCP 4", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
+                        "Ocp4": "OCP 4", "Ocp5": "OCP 5", "Jvm": "JVM", "Sql": "SQL", "Nosql": "NoSQL",
                         "Chatgpt": "ChatGPT", "Mlops": "MLOps", "Devops": "DevOps",
                         "Hr": "HR", "Qa": "QA"
                     }
@@ -2233,6 +2249,28 @@ class V2VisionEngine:
                 else:
                     _body = f"## Enterprise AI Platforms and Managed Agentic Runtimes\n{enterprise_ai_banner}\n\n" + _body
                 assert "Dedicated Architectural Hub: Enterprise AI Platforms" in _body, "Safety assertion failed: Enterprise AI banner was skipped in V2 ai-agents-mcp.md!"
+
+            if f_name == "ocp5.md":
+                ocp5_blueprint = """
+## Generational Shift: OCP 4 vs OCP 5 (2026)
+
+!!! info "Red Hat OpenShift Container Platform 5 (OCP 5)"
+    Announced and generally available in November 2026, **Red Hat OpenShift 5** converges containers, virtual machines, and enterprise AI workloads on **Kubernetes 1.36**, **CRI-O 1.36**, and **RHCOS 10 (RHEL 10.2)** while offering direct in-place upgrades from **OpenShift 4.22**.
+
+| Architectural Dimension | OpenShift 4 (OCP 4.x) | OpenShift 5 (OCP 5.0+) |
+| :--- | :--- | :--- |
+| **Kubernetes and Runtime** | Kubernetes 1.13–1.35 / CRI-O 1.x | **Kubernetes 1.36** and **CRI-O 1.36** |
+| **Node Operating System** | RHCOS 8 / RHCOS 9 | **RHCOS 10 (RHEL 10.2 base)** with RHCOS 9/10 cluster coexistence |
+| **Cluster Operations** | Conversational assistant (OLS Q&A) | **Agentic OpenShift Lightspeed** (supervised triage, remediation, native MCP server and gateway) |
+| **Security Baseline** | FIPS 140-2/3, TLS 1.3, SCCs | **Post-Quantum Cryptography (PQC)** control plane, SBOM transparency, sovereign multi-tenancy |
+| **Operator Management** | OLM v0 (Subscriptions, InstallPlans) | **Operator Lifecycle Manager v1 (OLM v1)** with `ClusterExtension` APIs and standard K8s RBAC |
+| **Support Lifecycle** | 18 months standard (EUS up to 3 years) | **24 months standard** (12 full + 12 maintenance) and up to **5 years Extended Lifecycle Support (ELC)** |
+| **Virtualization** | OpenShift Virtualization 4 (KubeVirt) | **OpenShift Virtualization 5** (Autopilot Day-1 baseline, VM templates, Hyper-V direct migration) |
+| **Cloud Control Planes** | Standalone masters and optional HCP | **Hosted Control Planes (HyperShift)** as the default standard for ROSA and ARO |
+| **Observability UI** | Static Console Dashboards | Native **Perses** dashboards with natural-language generation via Lightspeed |
+
+"""
+                _body = ocp5_blueprint + _body
 
             if f_name == "enterprise-ai-platforms.md":
                 enterprise_blueprint = """

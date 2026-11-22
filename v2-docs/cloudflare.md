@@ -50,6 +50,7 @@ description: "Curated, AI-ranked Cloudflare resources for the 2026 Cloud Native 
   - **(2026)** [Simplifying domains for people and agents](https://blog.cloudflare.com/simplifying-domains) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Simplifying domains for people and agents covering Domains in Cloudflare (blog.cloudflare.com).
 ## Email Services
 
+  - **(2026)** [Cloudflare DMARC Management is now generally available](https://blog.cloudflare.com/dmarc-management-ga) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare's DMARC Management reaches General Availability, providing deeper email reporting and automated SPF auditing free to all customers.
   - [Cloudflare workers (Serverless)](https://www.cloudflare.com/products/workers) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Cloudflare workers (Serverless) covering Email Services in Cloudflare (cloudflare.com).
 ## Network Architecture
 
@@ -123,5 +124,5 @@ description: "Curated, AI-ranked Cloudflare resources for the 2026 Cloud Native 
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

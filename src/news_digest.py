@@ -124,7 +124,7 @@ class NewsDigestEngine:
             "public-cloud-solutions",
         ],
         "OpenShift / Red Hat": [
-            "openshift", "ocp3", "ocp4", "openshift-pipelines", "rancher",
+            "openshift", "ocp5", "ocp4", "ocp3", "openshift-pipelines", "rancher",
         ],
         "Virtualization & Private Cloud": [
             "kubernetes-on-premise", "kubernetes-alternatives",

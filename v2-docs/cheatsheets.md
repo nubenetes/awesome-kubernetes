@@ -370,6 +370,7 @@ description: "Top Cheatsheets resources for 2026, AI-ranked: Markdown Cheat Shee
 ## Kubernetes Knowledge Hubs And Glossary
 
   - [==manifests.io 🌟==](https://www.manifests.io/kubernetes/1.37) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — [manifests.io/kubernetes/1.28](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/)
+  - **(2026)** [manifests.io/kubernetes/1.28](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — manifests.io/kubernetes/1.28: Curated technical resource in Cheatsheets.
 ## Maven Cheat Sheets
 
   - [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jrebel.com/blog/maven-cheat-sheet covering Maven Cheat Sheets in Cheatsheets (jrebel.com).
@@ -650,7 +651,7 @@ description: "Top Cheatsheets resources for 2026, AI-ranked: Markdown Cheat Shee
   - **(2025)** [**blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟**](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on protecting applications by avoiding hardcoded secrets, securing base images, and implementing strict runtime privileges within Docker builds. Provides precise, actionable rules for integrating automated container security checks into CI/CD pipelines.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Maven and more — curated Cloud Native tools, guides and references."
+description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Google Cloud Code and more — curated Cloud Native tools, guides and references."
 ---
 # Scaffolding Tools
 
@@ -9,6 +9,13 @@ description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Maven and
 !!! info "Architectural Context"
     Detailed reference for Scaffolding Tools in the context of Platform & Site Reliability.
 
+## Cloud Infrastructure
+
+### GCP Ecosystem
+
+#### IDE Integrations
+
+  - **(2025)** [Google Cloud Code](https://cloud.google.com/code) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A powerful suite of IDE plugins (VS Code, IntelliJ) designed to accelerate development of cloud-native systems on GCP. Curator highlights focus on debugging Kubernetes clusters directly from local workstations. Live engineering teams use Cloud Code to minimize the gap between local code changes and GCP deployment environments, driving faster development feedback loops.
 ## Developer Experience
 
 ### Inner Loop Development
@@ -45,7 +52,7 @@ description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Maven and
   - **(2025)** [Maven](https://nubenetes.com/maven-gradle) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

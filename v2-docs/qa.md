@@ -12,6 +12,13 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 ## Blogs
 
   - **(2026)** [Your alt text passes automated checks. That doesn't mean it's any good.](https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Your alt text passes automated checks. That doesn't mean it's any good. covering Blogs in QA (github.blog).
+## CICD
+
+### Quality Assurance
+
+#### Test Reporting
+
+  - **(2025)** [**Allure 🌟**](https://plugins.jenkins.io/allure-jenkins-plugin) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Generates beautiful, highly detailed Allure HTML reports directly inside Jenkins builds. Visualizes automated test suites execution timelines, categorizes historical test failures, and tracks instability patterns across runs.
 ## Cloud Native
 
 ### Kubernetes
@@ -50,6 +57,13 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 #### Continuous Testing
 
   - **(2021)** [devops.com: Continuous Testing Practices (Part 1) 🌟](https://devops.com/continuous-testing-practices-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — First of a multi-part series examining the execution of continuous testing models within standard CI/CD deployment channels. Highlights test-automation strategies, test environments, and immediate feedback integration.
+## Developer Experience
+
+### Testing
+
+#### Integration Testing
+
+  - **(2025)** [==testcontainers-spring-boot 🌟==](https://github.com/PlaytikaOSS/testcontainers-spring-boot) <span class='md-tag md-tag--info'>⭐ 876</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-77a3557a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 3 L 30 6 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-77a3557a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and mock frameworks, leading to high-fidelity integration tests. Today, this tool is universally recognized as a best-practice asset for CI/CD test suites across the Spring ecosystem.
 ## Frontend Development
 
 ### Testing Pipelines (1)
@@ -75,7 +89,13 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Checklist for API Verification 🌟 covering Introduction in QA (dzone.com).
   - [dzone: We Are Testing Software Incorrectly and It's Costly](https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: We Are Testing Software Incorrectly and It's Costly covering Introduction in QA (dzone.com).
   - [dzone: Testing the Untestable and Other Anti-Patterns](https://dzone.com/articles/testing-the-untestable-and-other-anti-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Testing the Untestable and Other Anti-Patterns covering Introduction in QA (dzone.com).
-## Quality Assurance
+## Qa
+
+### Tools
+
+  - **(2026)** [grafana.com: How to build performance tests into your CI pipeline with k6, GitHub Actions, and Grafana](https://grafana.com/blog/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — grafana.com: How to build performance tests into your CI pipeline with k6, GitHub Actions, and Grafana: Curated technical resource in Qa.
+  - **(2026)** [itnext.io: How to run distributed performance tests in Kubernetes with K6](https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6-and-elasticsearch-4ff8142bc774?gi=22375a83545f) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — you'll learn how to perform load testing natively on a Kubernetes cluster using multiple pods simulating real-world traffic to test an ElasticSearch cluster deployed using the ECK Operator
+## Quality Assurance (1)
 
 ### Automated Testing
 
@@ -84,7 +104,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - **(2026)** [**Greptile takes bug detection beyond code review with GPT-6 Astra**](https://openai.com/index/greptile-code-review-codex-astra) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AGENTIC-QA]</span> <span class='md-tag md-tag--primary'>[AUTOMATED-TESTING]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPT-6]</span> — Greptile is advancing beyond traditional static analysis by employing GPT-6 Astra's computer-use capabilities to autonomously test user workflows and detect runtime bugs. Combined with Daybreak for security audits and Codex for context-aware code remediation, the platform allows enterprises to validate pull requests with unprecedented depth. This multi-model architecture highlights the evolution of QA towards fully autonomous, AI-driven software testing pipelines.
 ## Security
 
-### CICD
+### CICD (1)
 
 #### Jenkins
 
@@ -113,12 +133,12 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 #### Python Testing Workflows
 
   - **(2021)** [dev.to: Test-Driven-Development with Django: Unit Testing & Integration testing with Docker, Flask & Github Actions](https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on implementation guide showcasing Test-Driven Development (TDD) principles in Python. Employs Django, Flask, containerized Docker backends, and GitHub Actions to deploy validated code packages.
-### Quality Assurance (1)
+### Quality Assurance (2)
 
 #### SQA Frameworks
 
   - **(2026)** [**Awesome Software Quality**](https://github.com/ligurio/sqa-wiki) <span class='md-tag md-tag--info'>⭐ 2322</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6a51332f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 7 L 20 7 L 30 3 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-6a51332f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An elite repository tracking software quality assurance wikis, tools, and paradigms. Focuses on system profiling frameworks, regression suites, and static analysis platforms designed to secure microservice delivery channels.
-### Testing
+### Testing (1)
 
 #### API Testing Principles
 
@@ -133,7 +153,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 
   - **(2022)** [getxray.app: The top 5 software testing trends of 2022](https://www.getxray.app/blog/the-top-5-software-testing-trends-of-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines trends in QA automation, highlighting the adoption of QA-as-code patterns, automated visual tools, and Jira integration to coordinate agile deployment workflows.
   - **(2021)** [lambdatest.com: Top Automation Testing Trends To Look Out In 2021](https://www.testmuai.com/blog/best-test-automation-trends)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level forecast of automated testing trends. Analyzes shift-left security models, AI-driven validation generation, cloud testing grids, and the adoption of API-first automated pipelines.
-#### Integration Testing
+#### Integration Testing (1)
 
   - **(2024)** [testcontainers 🌟](https://github.com/testcontainers) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A robust multi-language ecosystem providing throwaway, lightweight instances of common databases, Selenium web browsers, or anything else that can run in a Docker container for integration testing.
   - **(2023)** [testcontainers.org](https://testcontainers.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official web portal and learning nexus for Testcontainers. Outlines integration paths for Spring Boot via PlaytikaOSS autoconfigurations, commercial backing via AtomicJar (now Docker), and optimizations for running databases deterministically inside CI.
@@ -176,13 +196,13 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 #### Component Isolation
 
   - **(2022)** [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven architectural advantages of isolated component testing. Details why using service mocks, localized databases, and sandboxed test environments accelerates regression tracking and simplifies dependency configurations.
-## Tools
+## Tools (1)
 
   - [dzone: Top Microservices Testing Tools Testers Should Know About](https://dzone.com/articles/top-microservices-testing-tools-testers-should-kno)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Top Microservices Testing Tools Testers Should Know About covering Tools in QA (dzone.com).
   - [dzone: Component Tests for Spring Cloud Microservices](https://dzone.com/articles/component-tests-for-spring-cloud-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Component Tests for Spring Cloud Microservices covering Tools in QA (dzone.com).
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

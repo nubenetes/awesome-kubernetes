@@ -1,5 +1,5 @@
 ---
-description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output options and more — curated Cloud Native tools, guides and references."
+description: "Top Yaml resources for 2026, AI-ranked: Polaris, KubeLinter and more — curated Cloud Native tools, guides and references."
 ---
 # YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
 
@@ -9,6 +9,13 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
 !!! info "Architectural Context"
     Detailed reference for YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files in the context of Data & Advanced Analytics.
 
+## Application Platforms
+
+### Paas Frameworks
+
+#### Developer Experience
+
+  - **(2020)** [theketchio/ketch 🌟](https://github.com/theketchio/ketch) <span class='md-tag md-tag--info'>⭐ 661</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ca9ff53" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 3 L 20 4 L 30 3 L 40 6 L 50 11" fill="none" stroke="url(#spark-grad-3ca9ff53)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An application-focused interface that delivers PaaS-like abstractions directly on top of raw Kubernetes API layers. Ketch handles networking, domain configurations, and ingress controls through unified application interfaces.
 ## Architectural Foundations
 
 ### Git
@@ -25,8 +32,8 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
 
 #### Advanced Templating
 
-  - **(2022)** [**ytt**](https://get-ytt.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A structured, command-line template engine designed to process YAML files as semantic AST objects rather than raw strings. Developed by VMware Carvel, ytt uses Python-like Starlark code to safely patch, template, and validate complex cloud-native resource manifests.
   - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
+  - **(2022)** [**ytt**](https://get-ytt.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A structured, command-line template engine designed to process YAML files as semantic AST objects rather than raw strings. Developed by VMware Carvel, ytt uses Python-like Starlark code to safely patch, template, and validate complex cloud-native resource manifests.
 #### CLI Operations
 
   - **(2021)** [==Kubectl output options 🌟==](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated technical guide detailing advanced kubectl formatting options. It covers jsonpath extractions, custom columns, and Go templating recipes. This cheat sheet is incredibly valuable for platform engineers querying complex cluster statuses directly from the command line.
@@ -50,6 +57,11 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
   - **(2023)** [ruudvanasseldonk.com: The yaml document from hell](https://ruuda.nl/2023/the-yaml-document-from-hell)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis detailing edge cases, confusing specifications, and common syntactical pitfalls inherent to the YAML standard. It highlights issues such as Norway country-code confusion (`NO` parsed as boolean `false`), string coercion, and massive object graph vulnerabilities, promoting defensive configuration practices.
 ## Configuration Management (1)
 
+### Declarative Formats
+
+#### YAML Parsing
+
+  - **(2026)** [**How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To**](https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[KUSTOMIZE]</span> <span class='md-tag md-tag--primary'>[TOOLING]</span> <span class='md-tag md-tag--primary'>[YAML]</span> — The Kubernetes CLI SIG introduces KYAML, a strict, deterministic dialect of YAML designed to eliminate pervasive indentation and type-coercion footguns without abandoning the existing parser ecosystem. Grounded in KEP 5295 (Stable in Kubernetes v1.37), this standard enforces explicit quoting and bracketed structures, rendering manifests syntactically closer to JSON while natively retaining comments. For 2026 Cloud Architects and AI-driven GitOps workflows, adopting `kubectl get -o kyaml` drastically reduces silent templating failures across Helm and ensures maximum predictability when provisioning declarative infrastructure.
 ### IDE Integration
 
 #### Validation (1)
@@ -160,6 +172,13 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
   - **(2026)** [kadet-hub](https://kadet-hub.org) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[KUBERNETES]</span> <span class='md-tag md-tag--primary'>[YAML]</span> — Public OCI registry of composable Kapitan generators for Kubernetes and Terraform configurations.
 - **Supply-Chain Integrity**: Validates generator modules inside sandboxed compile pipelines and publishes artifacts to `ghcr.io` with provenance attestations and an attached SBOM.
 - **Configuration Positioning**: Eliminates brittle string-templated YAML by shipping versioned, verifiable generator packages alongside Kapitan.
+## Networking and Security
+
+### Security Compliance
+
+#### Config Validation
+
+  - **(2026)** [==Polaris==](https://github.com/FairwindsOps/polaris) <span class='md-tag md-tag--info'>⭐ 3399</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6b01db14" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 9 L 20 9 L 30 8 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-6b01db14)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted configuration validation engine designed to audit Kubernetes manifests, charts, and running pods against dozens of best practices. Identifies issues including lack of resource limits, security context issues, and networking misconfigurations.
 ## Platform Engineering
 
 ### Kubernetes Manifests
@@ -185,5 +204,5 @@ description: "Top Yaml resources for 2026, AI-ranked: KubeLinter, Kubectl output
 ---
 💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

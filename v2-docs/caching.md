@@ -1,5 +1,5 @@
 ---
-description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache and more — curated Cloud Native tools, guides and references."
+description: "Top Caching resources for 2026, AI-ranked: Varnish Cache, HAProxy and more — curated Cloud Native tools, guides and references."
 ---
 # Caching Solutions
 
@@ -9,6 +9,13 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 !!! info "Architectural Context"
     Detailed reference for Caching Solutions in the context of Networking & Service Mesh.
 
+## Content Delivery
+
+### Caching Architecture
+
+#### Range Requests
+
+  - **(2026)** [**Origin Range Requests: Serving large files without range-request tuning**](https://blog.cloudflare.com/origin-range-requests) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CACHING]</span> <span class='md-tag md-tag--primary'>[CDN]</span> <span class='md-tag md-tag--primary'>[EDGE-COMPUTING]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[PINGORA]</span> <span class='md-tag md-tag--primary'>[RUST]</span> — Cloudflare has completely re-architected its range-request caching layer using Pingora to dynamically coordinate partial fetches and prevent origin bandwidth waste. Live metrics indicate this unified byte-range coordination drops R2 object storage p99 latency by 50% without requiring manual chunk size tuning. This represents a significant architectural shift in CDN design, optimizing multi-gigabyte object delivery and AI model artifact distribution at the edge.
 ## Data and Caching
 
 ### CDN
@@ -141,5 +148,5 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

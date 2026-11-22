@@ -1,5 +1,5 @@
 ---
-description: "Top About resources for 2026, AI-ranked: AWX, Argo CD and more — curated Cloud Native tools, guides and references."
+description: "Top About resources for 2026, AI-ranked: Postman, AWX and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 
@@ -228,7 +228,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

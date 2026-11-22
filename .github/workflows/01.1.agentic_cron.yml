@@ -22,6 +22,10 @@ on:
         description: 'Include Kubernetes & Cloud Native'
         type: boolean
         default: true
+      include_openshift:
+        description: 'Include Red Hat OpenShift & OCP 5'
+        type: boolean
+        default: true
       include_cloud:
         description: 'Include Cloud Providers (AWS/Azure/GCP)'
         type: boolean
@@ -145,6 +149,7 @@ jobs:
           CURATION_DAYS_BACK: ${{ github.event.inputs.days_back || '' }}
           EXCLUDE_ACCOUNTS: ${{ github.event.inputs.exclude_accounts || '' }}
           INCLUDE_K8S: ${{ github.event.inputs.include_k8s || 'true' }}
+          INCLUDE_OPENSHIFT: ${{ github.event.inputs.include_openshift || 'true' }}
           INCLUDE_CLOUD: ${{ github.event.inputs.include_cloud || 'true' }}
           INCLUDE_AI: ${{ github.event.inputs.include_ai || 'true' }}
           INCLUDE_DEV: ${{ github.event.inputs.include_dev || 'true' }}

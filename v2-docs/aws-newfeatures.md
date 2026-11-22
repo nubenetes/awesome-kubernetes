@@ -84,6 +84,14 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 
   - **(2015)** [==Amazon EFS: Amazon Elastic File System – Shared File Storage for Amazon EC2==](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep dive into Amazon EFS, offering serverless elastic file sharing based on NFSv4. Integrates natively across EC2 instances, on-premises centers, and container tasks under ECS or EKS.
   - **(2015)** [==New – Encrypted EBS Boot Volumes==](https://aws.amazon.com/blogs/aws/new-encrypted-ebs-boot-volumes) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Announcement of native EBS boot volume encryption, leveraging AWS Key Management Service (KMS) without degrading overall instance throughput or input/output latency patterns.
+### Amazon Web Services
+
+#### Generative AI Integration
+
+  - **(2026)** [**OpenAI frontier models and Codex are now available on AWS**](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This resource details the integration of OpenAI frontier models and Codex into Amazon Bedrock, providing enterprises with secure, governed access.
+*   **Architectural Value**: Enables enterprise-grade deployments of state-of-the-art models within established AWS compliance, security, and private networking boundaries.
+*   **Key Features**: Provides direct API access, Codex workspace integration, IAM permission boundaries, PrivateLink encryption, and CloudTrail audit logging.
+*   **Technical Significance**: Eliminates the exclusivity bottleneck, allowing architects to seamlessly orchestrate multi-model workflows on AWS infrastructure without exposing data.
 ### Compute (1)
 
 #### Auto Scaling
@@ -383,6 +391,12 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
   - **(2026)** [AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more covering General Announcements in AWS Newfeatures (aws.amazon.com).
   - **(2026)** [AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, and more](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026) 🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, and more covering General Announcements in AWS Newfeatures (aws.amazon.com).
   - **(2026)** [AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, and more](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, and more covering General Announcements in AWS Newfeatures (aws.amazon.com).
+## General Reference
+
+  - **(2026)** [Amazon EBS Encryption](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-encryption.html) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Amazon EBS Encryption: Curated technical resource in AWS Newfeatures.
+  - **(2026)** [Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available](https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — AWS announces the general availability of C9g and C9gd compute-optimized EC2 instances powered by Graviton5, offering 25% better performance and fast DDR5 8800MT/s memory.
+  - **(2026)** [AWS Weekly Roundup: Agentic CX designer for Amazon Connect Customer, EC2 AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — A summary of recent AWS announcements, featuring the no-code Agentic CX Designer for Amazon Connect, AMI watermarking, and community-focused open governance updates.
+  - **(2026)** [AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)](https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026) 🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — A comprehensive digest of the New York Summit launches, highlighting Amazon Bedrock AgentCore, Grok 4.3 availability, Vietnam edge expansions, and important S3 price adjustments.
 ## Infrastructure As Code
 
 ### Cloudformation
@@ -437,7 +451,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
   - **(2021)** [Introducing new self-paced courses to improve Java and Python code quality with Amazon CodeGuru](https://aws.amazon.com/blogs/devops/new-self-paced-courses-to-improve-java-and-python-code-quality-with-amazon-codeguru) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Educational curriculum focusing on utilizing CodeGuru's machine-learning engines to detect concurrency bugs, resource leaks, and performance bottlenecks in Java and Python. These courses provide hands-on telemetry guides to maximize DevSecOps efficiency. Architecturally, CodeGuru integrates into CI/CD pipelines to enforce static and dynamic code quality.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [AWS Storage](./aws-storage.md) | [Azure](./azure.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md)
 

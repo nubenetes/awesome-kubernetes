@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS, Awesome Go and more — curated Cloud Native tools, guides and references."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Go, Awesome Java and more — curated Cloud Native tools, guides and references."
 ---
 # Awesome Lists
 
@@ -13,8 +13,8 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   <div class="awesome-hero__badge">⭐ AWESOME LISTS ⭐</div>
   <div class="awesome-hero__sub">The best curated <code>awesome-*</code> lists · AI-classified · link-validated</div>
   <div class="awesome-hero__stats">
-    <span class="awesome-hero__stat"><strong>120</strong>curated lists</span>
-    <span class="awesome-hero__stat"><strong>31</strong>categories</span>
+    <span class="awesome-hero__stat"><strong>122</strong>curated lists</span>
+    <span class="awesome-hero__stat"><strong>33</strong>categories</span>
   </div>
 </div>
 
@@ -41,6 +41,10 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   <a class="awesome-card" href="#artificial-intelligence">
     <span class="awesome-card__name">Artificial Intelligence</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">2</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#automation">
+    <span class="awesome-card__name">Automation</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#backend-development">
     <span class="awesome-card__name">Backend Development</span>
@@ -93,6 +97,10 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   <a class="awesome-card" href="#developer-tools">
     <span class="awesome-card__name">Developer Tools</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">5</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#development">
+    <span class="awesome-card__name">Development</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#documentation-1">
     <span class="awesome-card__name">Documentation (1)</span>
@@ -193,6 +201,13 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
 #### Kubernetes Machine Learning
 
   - **(2026)** [github.com/terrytangyuan/awesome-kubeflow: Awesome Kubeflow 🌟](https://github.com/terrytangyuan/awesome-kubeflow) <span class='md-tag md-tag--info'>⭐ 231</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-33b68648" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 9 L 20 8 L 30 2 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-33b68648)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — A specialized resource index focusing on running machine learning operations (MLOps) natively on Kubernetes through Kubeflow. Detail-oriented guides cover automated model training, pipeline orchestration, hyperparameter tuning, and high-concurrency model serving.
+## Automation
+
+### Configuration Management
+
+#### Ansible Reference
+
+  - **(2020)** [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&dsh=S-1707972940%3A1779029132636791&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fmrxpalmeiras%2Fansible%2Fansible-cheat-sheet&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PaujYnU1vHeNQrrR9IV_P56nGiUWnqqM_hG1PBGMZyTXDsxITg7865jvpdfY8gDYaRf3YwR5Kw) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Duplicate entry for community-compiled Ansible reference guidelines detailing task writing, loops, and inventory structure commands. Restricted behind authentication barriers, making it less accessible for active production pipelines.
 ## Backend Development
 
 ### Python Ecosystem
@@ -463,6 +478,9 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
 #### Powershell
 
   - **(2026)** [==janikvonrotz/awesome-powershell==](https://github.com/janikvonrotz/awesome-powershell) <span class='md-tag md-tag--info'>⭐ 5415</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9cc577c8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 8 L 20 5 L 30 2 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-9cc577c8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A curated repository detailing modules, cmdlets, and automation patterns using cross-platform PowerShell. Invaluable for platform engineers managing hybrid cloud setups, Windows nodes inside container networks, or Active Directory automation. This serves as a vital tool for enterprise systems integration.
+## Development
+
+  - **(2026)** [golangrepo.com 🌟](https://pkg.go.dev) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
 ## Documentation (1)
 
 ### Alternative Docs
@@ -646,7 +664,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
 #### Docker (1)
 
   - **(2026)** [==myugan/awesome-docker-security: Awesome Docker Security==](https://github.com/myugan/awesome-docker-security) <span class='md-tag md-tag--info'>⭐ 717</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4084eb81" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 5 L 30 7 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-4084eb81)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An excellent collection of scanning tools, security benchmarks, and hardening guidelines specifically designed for Docker environments. It catalogs utilities like Trivy, Anchore, and Docker Bench for Security, which prevent container escape exploits. Indispensable for DevSecOps pipelines managing image registries.
-### Development
+### Development (1)
 
 #### Defaults
 
@@ -716,7 +734,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome AWS
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--info'>⭐ 102</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e62f23d4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 10 L 30 3 L 40 8 L 50 7" fill="none" stroke="url(#spark-grad-e62f23d4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

@@ -12,6 +12,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
 ## AWS
 
   - [==Lucidchart==](https://lucid.co/lucidchart) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — [==Lucidscale: Import your architecture==](https://lucid.co/enterprise/cloud-accelerator) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
+  - **(2026)** [Lucidscale: Import your architecture](https://lucid.co/enterprise/cloud-accelerator) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
 ## Architecture and Design
 
 ### Diagrams-as-code
@@ -179,7 +180,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, L
   - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12?gi=bf216eb2967e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for learningdaily.dev: Software architecture diagramming and patterns covering Introduction in Cloud Arch Diagrams (learningdaily.dev).
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTelemetry Collector and more — curated Cloud Native tools, guides and references."
+description: "Top Prometheus resources for 2026, AI-ranked: kube-prometheus, Pushgateway and more — curated Cloud Native tools, guides and references."
 ---
 # Prometheus
 
@@ -15,6 +15,13 @@ description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTel
 ## Ansible Roles
 
   - [itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa](https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa?gi=63c876349b70) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — [github.com/MiteshSharma/PrometheusWithGrafana](https://github.com/MiteshSharma/PrometheusWithGrafana)
+## Build Systems
+
+### JVM Ecosystem
+
+#### Apache Maven
+
+  - **(2026)** [==maven.apache.org==](https://maven.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official documentation gateway to Apache Maven, the foundational software project management and comprehension tool. Standardizes Java project build lifecycles through declarative Project Object Model (POM) XML configurations.
 ## Cloud Native Infrastructure
 
 ### Observability
@@ -130,6 +137,20 @@ description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTel
 
   - [influxdb-templates](https://github.com/influxdata/community-templates) <span class='md-tag md-tag--info'>⭐ 377</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8f7abee0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 10 L 30 6 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-8f7abee0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for influxdb-templates covering InfluxDB and InfluxDB Templates in Prometheus (github.com).
   - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Flux queries covering InfluxDB and InfluxDB Templates in Prometheus (dzone.com).
+## Infrastructure
+
+### Cloud Native Integration
+
+#### Enterprise Messaging
+
+##### Activemq Artemis
+
+  - **(2026)** [**Apache ActiveMQ Artemis broker**](https://artemis.apache.org/components/artemis) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Apache ActiveMQ Artemis is the next-generation messaging broker featuring a high-performance, asynchronous non-blocking execution model. Supporting AMQP, MQTT, STOMP, and JMS, it represents the primary engine under Red Hat AMQ deployments.
+### Message Brokers
+
+#### Activemq
+
+  - **(2023)** [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference page for the classic Apache ActiveMQ 5.x architecture. While stable and widely deployed across global enterprises, it is gradually being superseded by the non-blocking ActiveMQ Artemis engine.
 ## Infrastructure As Code
 
 ### Ansible
@@ -243,7 +264,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTel
 
 #### Metrics Collection
 
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 #### Prometheus Meta-monitoring
 
   - **(2023)** [grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs](https://grafana.com/blog/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance monitoring case study from Grafana Labs. Illustrates the architectural pattern of metamonitoring, utilizing dedicated Prometheus servers to watch, query, and alert on larger global telemetry networks.
@@ -380,6 +401,9 @@ description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTel
 ## Opentelemetry Collector
 
   - **(2021)** [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level covering OpenTelemetry Collector in Prometheus (cncf.io).
+## Poc Activemq Artemis Monitoring With Prometheus Metrics Plugin Micrometer Collector And Prometheus. Grafana Dashboard Not Available
+
+  - **(2026)** [Apache ActiveMQ Artemis Metrics](https://artemis.apache.org/components/artemis/documentation/latest/metrics.html) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Apache ActiveMQ Artemis Metrics: Curated technical resource in Prometheus.
 ## Prometheus Agent
 
   - [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Prometheus announces an Agent to address a new range of use cases covering Prometheus Agent in Prometheus (cncf.io).
@@ -405,7 +429,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTel
   - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [Chef](./chef.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [Ansible](./ansible.md)
 

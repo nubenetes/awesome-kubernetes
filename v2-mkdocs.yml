@@ -289,8 +289,9 @@ nav:
     - "Kubernetes Storage": kubernetes-storage.md
     - "Kubernetes Troubleshooting": kubernetes-troubleshooting.md
     - "Noops": noops.md
-    - "OCP 3": ocp3.md
+    - "OCP 5": ocp5.md
     - "OCP 4": ocp4.md
+    - "OCP 3": ocp3.md
     - "Openshift": openshift.md
     - "Rancher": rancher.md
     - "Serverless": serverless.md

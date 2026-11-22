@@ -93,6 +93,11 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Sandboxing
 
   - **(2021)** [==Kata Containers on MicroK8s==](https://github.com/didier-durand/microk8s-kata-containers) <span class='md-tag md-tag--info'>⭐ 35</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ab473c19" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 4 L 30 10 L 40 7 L 50 12" fill="none" stroke="url(#spark-grad-ab473c19)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community repository providing integration instructions and configurations to run Kata Containers within a Canonical MicroK8s environment. This architecture allows security teams to deploy hardware-isolated, hypervisor-sandboxed container runtimes (using QEMU or Cloud Hypervisor) inside lightweight local clusters, resolving tenant isolation concerns in multi-tenant environments.
+### Datacenter
+
+#### AI Factories
+
+  - **(2026)** [**Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD**](https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-FACTORY]</span> <span class='md-tag md-tag--primary'>[DATACENTER]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[HARDWARE]</span> <span class='md-tag md-tag--primary'>[INFRASTRUCTURE]</span> — NVIDIA DSX POD is a factory-built reference design that pre-integrates rack-scale AI infrastructure into shipping containers for exhaustive validation prior to site delivery. Aligning with the NVIDIA Vera Rubin platform, it defines coordinated requirements across compute, networking, liquid cooling, and 800V DC power delivery. This containerized approach accelerates AI factory deployments by moving complex integration into controlled environments, allowing operators to rapidly expand capacity with predictable software optimization.
 ### Hybrid Cloud
 
 #### Gitops (1)
@@ -296,7 +301,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2019)** [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

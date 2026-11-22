@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, K8Spin Operator and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Cluster Addons, Capsule Operator and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Operators and Controllers
 
@@ -53,6 +53,13 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Platform Engineering
 
   - **(2026)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares traditional static IaC runtimes against active reconciliation patterns in Kubernetes Operators. Highlights instances where platform engineering teams require continuously running controller loops to prevent configuration drifts.
+## Cloud Native
+
+### Kubernetes
+
+#### Operator Pattern
+
+  - **(2026)** [**How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server**](https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[ARCHITECTURE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GOLANG]</span> <span class='md-tag md-tag--primary'>[OPERATOR]</span> — An in-depth technical analysis of the `controller-runtime` caching mechanism. It demystifies how local informers prevent API server overload by synchronizing state effectively, rather than issuing synchronous read requests. Foundational knowledge for Go developers authoring performant, enterprise-stable Kubernetes Operators.
 ## Cloud Native Infrastructure
 
 ### Kubernetes Extension
@@ -300,13 +307,14 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - [==faun.pub: A Definitive guide to Kubernetes Operator — The crawl!==](https://faun.pub/a-definitive-guide-to-kubernetes-operator-the-crawl-7647b278c28b?gi=60f8f23aaf47) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for faun.pub: A Definitive guide to Kubernetes Operator — The crawl! covering Introduction in Kubernetes Operators Controllers (faun.pub).
   - [==faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained==](https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6?gi=4d59b99b4df5) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This article will dive deep into one of Kubernetes’ core concepts — Controllers, Kubernetes API, CRDs, and Operators. This 4-part series covers: Kubernetes controllers, Custom Resources, and operators Building Kubernetes operators Testing Kubebuilder operators Deploying Kubebuilder operators to Kubernetes
   - [==itnext.io: 5 Advanced Kubernetes Operators Every DevOps Engineer Should Know About 🌟==](https://itnext.io/5-advanced-kubernetes-operators-every-devops-engineer-should-know-about-ab46bdc1c7d5?gi=4e7b2da470e4) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for itnext.io: 5 Advanced Kubernetes Operators Every DevOps Engineer Should Know About 🌟 covering Introduction in Kubernetes Operators Controllers (itnext.io).
+  - **(2026)** [itnext.io: Simplify Advanced Workflows in Kubernetes with Jobs Manager Operator](https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a?gi=2aae862166f7) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — A problem and idea led to the latest invention, which saved me hours of confusion and frustration and finally untangled the web of dependencies.
   - [itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit!](https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07?gi=26322823a892) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit! covering Introduction in Kubernetes Operators Controllers (itnext.io).
   - [itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native Apps](https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345?gi=97e5e84359dd) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native Apps covering Introduction in Kubernetes Operators Controllers (itnext.io).
   - [awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers for Kubernetes (ACK)](https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb?gi=740febe11d72) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers for Kubernetes (ACK) covering Introduction in Kubernetes Operators Controllers (awstip.com).
   - [dragondscv.medium.com: Controller runtime — handle resource deletion with predicate](https://mirilittleme.medium.com/controller-runtime-handle-resource-deletion-with-predicate-f69d09dd5802) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dragondscv.medium.com: Controller runtime — handle resource deletion with predicate covering Introduction in Kubernetes Operators Controllers (mirilittleme.medium.com).
   - [cncf.io: Kubernetes Operators 101](https://www.cncf.io/blog/2020/10/02/kubernetes-operators-101)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Kubernetes Operators 101 covering Introduction in Kubernetes Operators Controllers (cncf.io).
   - [cncf.io: CNCF Operator White Paper (PDF) 🌟](https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: CNCF Operator White Paper (PDF) 🌟 covering Introduction in Kubernetes Operators Controllers (cncf.io).
-## Kubernetes
+## Kubernetes (1)
 
 ### Troubleshooting
 
@@ -429,7 +437,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - **(2025)** [==github.com/NCCloud/mayfly: Ephemeral Kubernetes Resources 🌟==](https://github.com/NCCloud/mayfly) <span class='md-tag md-tag--info'>⭐ 337</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-38117167" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 7 L 20 4 L 30 7 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-38117167)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Mayfly introduces time-to-live policies on generic Kubernetes resources and testing namespaces. Once designated duration guidelines are reached, Mayfly executes automated teardowns, ensuring transient tests do not leave lingering etcd records or unused services.
 ## Orchestration
 
-### Kubernetes (1)
+### Kubernetes (2)
 
 #### Networking (2)
 
@@ -625,6 +633,13 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
 #### Hashicorp Vault
 
   - **(2025)** [==github.com/ricoberger/vault-secrets-operator==](https://github.com/ricoberger/vault-secrets-operator) <span class='md-tag md-tag--info'>⭐ 686</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5c1c56b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 8 L 20 2 L 30 4 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-5c1c56b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This operator provides direct synchronization between HashiCorp Vault secrets and Kubernetes Secrets storage classes. By tracking external Vault paths, it triggers dynamic, secure updates to dependent application pods the moment source secrets are rotated.
+## Security and Identity
+
+### Secrets Management (1)
+
+#### External Secrets Sync
+
+  - **(2021)** [contentful-labs/kube-secret-syncer 🌟](https://github.com/contentful-labs/kube-secret-syncer) <span class='md-tag md-tag--info'>⭐ 193</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cf2e5f56" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 11 L 30 11 L 40 10 L 50 3" fill="none" stroke="url(#spark-grad-cf2e5f56)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted operator designed to synchronize secrets securely from external services (specifically AWS Parameter Store) directly into native Kubernetes Secrets, ensuring cloud-hosted secrets stay continuously aligned with active workloads.
 ## Storage (1)
 
 ### Volume Management
@@ -648,7 +663,7 @@ description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked
   - [itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7?gi=2a2cd854cb68) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes covering Writing Kubernetes Operators and Controllers in Kubernetes Operators Controllers (itnext.io).
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Serverless](./serverless.md) | [Kubernetes Storage](./kubernetes-storage.md) | [Noops](./noops.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS Pricing](./aws-pricing.md) | [AWS](./aws.md)
 

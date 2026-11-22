@@ -135,8 +135,9 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Perform a real-time web search for each resource.\n"
             "- If the community (Reddit, Hacker News) reports the tool as 'unstable', 'abandoned', or 'vaporware', set reputation_penalty: true.\n"
             "PHASE 2: LINGUISTIC DIVERSITY & CLASSIFICATION\n"
-            "- Calculate 'impact_score' (0-100) based on architectural value, innovation, and technical depth (>= 80 is required for inclusion). Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI, IBM watsonx, Databricks Mosaic AI) and Kubernetes-native AI/GPU operators.\n"
+            "- Calculate 'impact_score' (0-100) based on architectural value, innovation, and technical depth (>= 80 is required for inclusion). Prioritize Public Cloud & Enterprise AI Platforms (Azure AI Foundry, Amazon Bedrock & AgentCore, Google Cloud Vertex AI & ADK, Red Hat OpenShift AI, IBM watsonx, Databricks Mosaic AI), Red Hat OpenShift 5 (OCP 5, OpenShift Lightspeed agentic ops, MCP, OLM v1, HyperShift, OpenShift Virtualization 5, OKD 5), and Kubernetes-native AI/GPU operators.\n"
             f"- Assign a 'primary_category' strictly from this list: {', '.join(NUBENETES_CATEGORIES)}\n"
+            "- For OpenShift 5 / OCP 5 / OpenShift Lightspeed / OpenShift Virtualization 5 / OLM v1 / HyperShift / OKD 5 / MicroShift 5 / RHCOS 10 resources, assign primary_category 'ocp5' (reserve 'ocp4' strictly for OCP 4.x legacy content).\n"
             "- If none fit well, use 'uncategorized' and propose a better one in 'suggested_new_category'.\n"
             "- Identify TECHNICAL_HIERARCHY: List (max 10 strings) Area > Topic > Subtopics.\n"
             "PHASE 3: HIGH-DENSITY TECHNICAL SUMMARIES (Mandate 4)\n"
@@ -228,7 +229,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                         }
                         if "youtube.com" in url or "youtu.be" in url:
                             title_desc = f"{data['title']} {data['desc']}".lower()
-                            keywords = ["agent", "mcp", "foundry", "bedrock", "vertex", "sagemaker", "watsonx", "kaito", "kserve", "vllm", "terraform", "avm", "azure", "finops", "ebpf", "istio", "openshift", "argocd", "gitops", "devops", "kubernetes", "sre", "mlops", "copilot", "gemini", "claude", "openai", "autogen", "crewai"]
+                            keywords = ["agent", "mcp", "foundry", "bedrock", "vertex", "sagemaker", "watsonx", "kaito", "kserve", "vllm", "terraform", "avm", "azure", "finops", "ebpf", "istio", "openshift", "ocp5", "ocp 5", "hypershift", "lightspeed", "kubevirt", "okd", "argocd", "gitops", "devops", "kubernetes", "sre", "mlops", "copilot", "gemini", "claude", "openai", "autogen", "crewai"]
                             if is_primary or any(k in title_desc for k in keywords):
                                 eval_data["is_featured_video"] = True
                                 eval_data["is_enriched"] = False

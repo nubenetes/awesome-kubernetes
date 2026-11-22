@@ -67,7 +67,7 @@ NUBENETES_CATEGORIES = [
     'kubernetes-tutorials', 'kubernetes', 'kustomize', 'linux-dev-env', 'linux', 
     'liquibase', 'lowcode-nocode', 'managed-kubernetes-in-public-cloud', 'matrix-table', 
     'maven-gradle', 'message-queue', 'mkdocs', 'mlops', 'monitoring', 'networking', 
-    'newsfeeds', 'newsql', 'noops', 'nosql', 'oauth', 'ocp3', 'ocp4', 'openshift-pipelines', 
+    'newsfeeds', 'newsql', 'noops', 'nosql', 'oauth', 'ocp3', 'ocp4', 'ocp5', 'openshift-pipelines', 
     'openshift', 'oraclecloud', 'other-awesome-lists', 'performance-testing-with-jenkins-and-jmeter', 
     'postman', 'private-cloud-solutions', 'project-management-methodology', 
     'project-management-tools', 'prometheus', 'public-cloud-solutions', 'pulumi', 'python', 

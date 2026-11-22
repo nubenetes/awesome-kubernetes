@@ -14,6 +14,41 @@ sources:
       - "https://kubernetes.io/feed.xml"
       - "https://www.cncf.io/blog/feed/"
 
+  - topic: "Red Hat OpenShift & OCP 5"
+    accounts:
+      - "openshift"        # Official Red Hat OpenShift (OCP 5, Lightspeed, Virtualization, HCP)
+      - "RedHat"           # Red Hat Enterprise Linux 10, OpenShift 5 & OpenShift AI
+      - "RHDevelopers"     # Red Hat Developer (OCP 5 developer articles, Lightspeed, RHDH)
+      - "okd_io"           # OKD 5 upstream community Kubernetes distribution
+      - "kubevirt"         # KubeVirt (OpenShift Virtualization 5 upstream)
+    feeds:
+      - "https://www.redhat.com/en/rss/blog/channel/red-hat-openshift"            # Red Hat OpenShift Official Blog Channel (OCP 5)
+      - "https://www.redhat.com/en/rss/blog/channel/hybrid-cloud-infrastructure"  # Red Hat Hybrid Cloud & OpenShift Infrastructure Blog
+      - "https://www.redhat.com/en/rss/press-releases"                            # Red Hat Official Press Releases
+      - "https://kubevirt.io/feed.xml"                                            # KubeVirt Official Blog (OpenShift Virtualization 5 upstream)
+      - "https://github.com/okd-project/okd/releases.atom"                        # OKD 5 Upstream Releases
+      - "https://github.com/openshift/hypershift/releases.atom"                   # HyperShift (Hosted Control Planes) Releases
+      - "https://github.com/openshift/microshift/releases.atom"                   # MicroShift 5 Edge Releases
+      - "https://github.com/openshift/rosa/releases.atom"                         # ROSA (OpenShift on AWS / HCP) CLI Releases
+      - "https://github.com/operator-framework/operator-controller/releases.atom" # OLM v1 Operator Controller Releases
+      - "https://github.com/containers/kubernetes-mcp-server/releases.atom"       # Kubernetes & OpenShift MCP Server Releases
+      - "https://github.com/Kuadrant/kuadrant-operator/releases.atom"             # Red Hat Connectivity Link (Kuadrant) MCP/Gateway Releases
+      - "https://github.com/kubevirt/kubevirt/releases.atom"                      # KubeVirt Releases
+      - "https://github.com/perses/perses/releases.atom"                          # Perses Native OCP 5 Dashboards Releases
+    github_repos_watch:
+      - "okd-project/okd"                         # OKD 5 Upstream Distribution
+      - "openshift/hypershift"                    # Hosted Control Planes (HCP) for OCP 5
+      - "openshift/microshift"                    # MicroShift 5 Edge OpenShift
+      - "openshift/rosa"                          # Red Hat OpenShift Service on AWS CLI
+      - "openshift/oadp-operator"                 # OpenShift API for Data Protection (OADP)
+      - "openshift-pipelines/operator"            # OpenShift Pipelines (Tekton) Operator
+      - "operator-framework/operator-controller"  # Operator Lifecycle Manager v1 (OLM v1)
+      - "containers/kubernetes-mcp-server"        # Kubernetes & OpenShift MCP Server
+      - "Kuadrant/kuadrant-operator"              # Red Hat Connectivity Link / MCP Gateway
+      - "kubevirt/kubevirt"                       # KubeVirt (OpenShift Virtualization 5)
+      - "perses/perses"                           # Perses Native OCP 5 Observability Dashboards
+      - "redhat-developer/rhdh"                   # Red Hat Developer Hub (Backstage for OCP 5)
+
   - topic: "Cloud Providers (AWS/Azure/GCP)"
     accounts:
       - "awscloud"
