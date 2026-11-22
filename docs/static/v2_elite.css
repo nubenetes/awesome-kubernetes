@@ -20,6 +20,7 @@ html {
   
   --md-accent-fg-color:         #0ea5e9; /* Vibrant Sky Blue */
   --md-accent-fg-color--transparent: rgba(14, 165, 233, 0.15);
+  --md-typeset-a-color:         #0369a1; /* High-contrast Sky 700 for light-mode content links */
   
   --md-primary-bg-color:        #ffffff;
   --md-primary-bg-color--light: #f4f4f5; /* Zinc 100 */
@@ -37,6 +38,7 @@ html {
   
   --md-accent-fg-color:         #22d3ee; /* Brighter Neon Cyan */
   --md-accent-fg-color--transparent: rgba(34, 211, 238, 0.15);
+  --md-typeset-a-color:         #38bdf8; /* High-contrast Sky 400 so dark-mode links pop vs white text */
 
   --md-default-bg-color:        #09090b; /* Zinc 950 for main body */
   --md-code-bg-color:           #18181b; /* Zinc 900 for code blocks */
@@ -239,6 +241,14 @@ html {
 /* Smooth Transition for all links */
 a {
   transition: color 0.25s ease-in-out, text-shadow 0.25s ease-in-out;
+}
+.md-typeset table a:not([class]) {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 42%, transparent);
+  text-underline-offset: 2px;
+}
+.md-typeset table a:not([class]):hover {
+  text-decoration-color: currentColor;
 }
 
 /* Navigation items highlight with subtle glow in dark mode */
