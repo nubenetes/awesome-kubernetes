@@ -36,5 +36,5 @@ description: "Curated, AI-ranked Scaleway resources for the 2026 Cloud Native ar
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS New Features](./aws-newfeatures.md)
+🔗 **See Also:** [AI](./ai.md) | [Ansible](./ansible.md)
 

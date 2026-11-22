@@ -19,7 +19,7 @@ description: "Top Hypervisors, IaaS, K8s & Sovereign AI resources for 2026, AI-r
     Detailed reference for Hypervisors, IaaS, Kubernetes and Sovereign AI Stacks in Europe in the context of European Sovereign Cloud & Private DCs.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Spain Sovereign Cloud & Private DCs](eu-cloud-spain.md) · [France & Germany Cloud Champions](eu-cloud-france-germany.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [RPO, RTO, SLAs & DRP](eu-cloud-resilience-sla.md) · [Kubernetes On-Premise](kubernetes-on-premise.md) · [Enterprise AI Platforms](enterprise-ai-platforms.md)
+    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Germany Sovereign Cloud & Private DCs](eu-cloud-germany.md) · [France Sovereign Cloud & Private DCs](eu-cloud-france.md) · [Netherlands & Benelux Cloud & DCs](eu-cloud-benelux.md) · [Nordics Green Cloud & AI Factories](eu-cloud-nordics.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [RPO, RTO, SLAs & DRP](eu-cloud-resilience-sla.md) · [Kubernetes On-Premise](kubernetes-on-premise.md) · [Enterprise AI Platforms](enterprise-ai-platforms.md)
 
 ## Pre-Sales Engineering Guide: Hypervisors, IaaS, Kubernetes and Sovereign AI Stacks
 
@@ -77,27 +77,31 @@ Do **not** blindly put every workload on virtualized cloud instances. Pitch **De
 | **MareNostrum 5 (BSC Barcelona)** | Thousands of **NVIDIA Hopper H100** GPUs | **European / Spanish EuroHPC Public AI Factory** | Slurm, PyTorch, **Salamandra / ALIA** multilingual European models | R&D consortia, European SMEs (AI Factory grants), Iberian/European sovereign foundation model training |
 
 
-## France and Germany Cloud Champions
+## France Sovereign Cloud and Private Dcs
 
 ### French Sovereign Cloud Providers Secnumcloud And AI Factories
 
   - **(2026)** [Mistral AI Sovereign Frontier Models](https://mistral.ai) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Paris-based European AI champion delivering open-weight (Mistral/Mixtral/Codestral) and enterprise models optimized for self-hosted Kubernetes vLLM and European sovereign cloud AI endpoints.
   - **(2026)** [OVHcloud Managed Kubernetes Service (MKS)](https://www.ovhcloud.com/en-ie/public-cloud/kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — CNCF-certified Managed Kubernetes with free multi-master control plane, Cinder/Octavia OpenStack integration, NVIDIA H100/L40S worker pools, and multi-AZ support in Paris.
+## Germany Sovereign Cloud and Private Dcs
+
 ### German Sovereign Cloud Providers BSI C5 And High-efficiency Bare Metal
 
-  - **(2026)** [SysEleven MetaKube Managed Kubernetes](https://www.syseleven.de/en/metakube) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> — Berlin-based OpenStack and CNCF Kubernetes provider offering Kubermatic/MetaKube managed clusters across multi-AZ German data centers for German financial and SaaS workloads.
-## Italy UK Nordics and Benelux
+  - **(2026)** [SysEleven MetaKube Managed Kubernetes](https://www.syseleven.de/en/metakube) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Berlin-based OpenStack and CNCF Kubernetes provider offering Kubermatic/MetaKube managed clusters across multi-AZ German data centers for German financial and SaaS workloads.
+## Italy Sovereign Cloud and Private Dcs
 
 ### Italy Sovereign Cloud And ACN Qualified Providers
 
   - **(2026)** [Seeweb Cloud and GPU AI Infrastructure](https://www.seeweb.it/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Independent Italian cloud and data center pioneer specializing in NVIDIA H100/L40S/A100 GPU clusters, Kubernetes, sovereign AI inference, and zero hyperscaler egress traps.
-### Nordics Switzerland And Benelux Cloud And AI Providers
-
-  - **(2026)** [Nebius Sovereign AI Cloud (Amsterdam HQ)](https://nebius.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — European-headquartered AI hyperscaler operating massive InfiniBand-interconnected NVIDIA H100, H200, and Blackwell B200 superclusters in Finland and France with Kubernetes (MK8s), Slurm, and Sovereign S3 storage.
 ## Managed And Declarative Kubernetes On European Infrastructure
 
   - **(2026)** [SAP Gardener Multi-Cloud Kubernetes Fleet Engine](https://gardener.cloud) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — European-originated open-source Kubernetes-as-a-Service control plane powering STACKIT SKE, SysEleven MetaKube, and Cleura multi-AZ managed clusters.
   - **(2026)** [Talos Linux by Sidero Labs](https://www.talos.dev) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Immutable, API-driven Kubernetes OS eliminating SSH and mutable Linux packages — the gold standard for running secure, declarative Kubernetes on Hetzner bare metal, OVH/Scaleway metal, Proxmox, or colocation.
+## Netherlands and Benelux Cloud and Dcs
+
+### Nordics Switzerland And Benelux Cloud And AI Providers
+
+  - **(2026)** [Nebius Sovereign AI Cloud (Amsterdam HQ)](https://nebius.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — European-headquartered AI hyperscaler operating massive InfiniBand-interconnected NVIDIA H100, H200, and Blackwell B200 superclusters in Finland and France with Kubernetes (MK8s), Slurm, and Sovereign S3 storage.
 ## Spain Sovereign Cloud and Private Dcs
 
 ### Spanish National Compliance And Supercomputing
@@ -115,7 +119,7 @@ Do **not** blindly put every workload on virtualized cloud instances. Pitch **De
   - **(2026)** [SUSE Harvester Hyperconverged Infrastructure](https://harvesterhci.io) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Kubernetes-native open-source HCI built on KubeVirt and Longhorn, running legacy VMs and modern containers side-by-side in Rancher-managed private data centers.
 
 ---
-💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [France & Germany Cloud Champions](./eu-cloud-france-germany.md)
+💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)
 
 🔗 **See Also:** [Demos](./demos.md) | [DevOps](./devops.md)
 

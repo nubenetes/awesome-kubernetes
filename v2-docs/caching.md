@@ -161,5 +161,5 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Service Mesh](./servicemesh.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [Ansible](./ansible.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

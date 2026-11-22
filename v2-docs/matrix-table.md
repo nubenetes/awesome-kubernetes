@@ -44,5 +44,5 @@ description: "Curated, AI-ranked Matrix Table resources for the 2026 Cloud Nativ
 ---
 💡 **Explore Related:** [Introduction](./introduction.md) | [FAQ](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Azure](./azure.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI](./ai.md) | [Azure](./azure.md)
 

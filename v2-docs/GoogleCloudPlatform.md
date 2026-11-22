@@ -363,5 +363,5 @@ description: "Top Google Cloud Platform (GCP) resources for 2026, AI-ranked: db-
 ---
 💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [IBM Cloud](./ibm_cloud.md)
 
-🔗 **See Also:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents & MCP](./ai-agents-mcp.md)
+🔗 **See Also:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [MLOps](./mlops.md)
 

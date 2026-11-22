@@ -499,7 +499,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Authelia, cdk8
 
 #### Autoscaling (2)
 
-  - **(2018)** [codeberg.org/hjacobs/kube-downscaler: Kubernetes Downscaler 🌟](https://codeberg.org/hjacobs/kube-downscaler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A controller designed to scale down target environments (deployments, cronjobs, statefulsets) during night and weekend phases. It serves as an optimal solution to dramatically reduce cloud provider billing for staging environments.
+  - **(2018)** [codeberg.org/hjacobs/kube-downscaler: Kubernetes Downscaler 🌟](https://codeberg.org/hjacobs/kube-downscaler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — A controller designed to scale down target environments (deployments, cronjobs, statefulsets) during night and weekend phases. It serves as an optimal solution to dramatically reduce cloud provider billing for staging environments.
 ### Scheduling and Node Assignment
 
 #### Admission Controllers

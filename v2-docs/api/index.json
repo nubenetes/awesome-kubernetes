@@ -10,13 +10,13 @@
     "v1_archive": "https://nubenetes.com/v1/"
   },
   "stats": {
-    "v1_total_inventory": 20728,
-    "v2_total_resources": 16625,
-    "v2_verified_online": 12556,
-    "v2_fresh_2025_2026": 3737,
-    "v2_deep_ai_summaries": 11412,
+    "v1_total_inventory": 20796,
+    "v2_total_resources": 16693,
+    "v2_verified_online": 12624,
+    "v2_fresh_2025_2026": 3805,
+    "v2_deep_ai_summaries": 11480,
     "v2_cncf_projects": 64,
-    "v2_categories": 146
+    "v2_categories": 151
   },
   "dimensions": [
     "AI",
@@ -5920,22 +5920,112 @@
       ]
     },
     {
-      "slug": "eu-cloud-france-germany",
-      "title": "France & Germany Cloud Champions",
-      "long_title": "France and Germany Sovereign Cloud Champions",
+      "slug": "eu-cloud-benelux",
+      "title": "Netherlands & Benelux Cloud & DCs",
+      "long_title": "Netherlands and Benelux Cloud and Data Centers",
       "dimension": "European Sovereign Cloud & Private DCs",
-      "url": "https://nubenetes.com/eu-cloud-france-germany/",
-      "v1_url": "https://nubenetes.com/v1/eu-cloud-france-germany/",
-      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-france-germany.md",
+      "url": "https://nubenetes.com/eu-cloud-benelux/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-benelux/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-benelux.md",
+      "resource_count": 13,
+      "fresh_2025_2026_count": 13,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[GPU]",
+        "[HYPERVISOR]"
+      ],
+      "top_resources": [
+        {
+          "title": "AMS-IX: Amsterdam Internet Exchange",
+          "url": "https://www.ams-ix.net/ams",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "One of the world's largest non-profit neutral peering exchanges anchored in Amsterdam, providing ultra-low-latency European and transatlantic traffic distribution across sovereign clouds and carriers."
+        },
+        {
+          "title": "Cyso Cloud Sovereign Dutch OpenStack and Kubernetes",
+          "url": "https://cyso.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Dutch sovereign public cloud (Alkmaar) powered 100% by European OpenStack and Managed Kubernetes, offering ISO 27001 / NEN 7510 / BIO compliance for regulated healthcare and SaaS workloads."
+        },
+        {
+          "title": "Digital Realty Amsterdam Science Park Campus",
+          "url": "https://www.digitalrealty.com/data-centers/emea/amsterdam",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Carrier-neutral enterprise colocation cluster offering direct AMS-IX peering, renewable PPAs, and sovereign private-cloud cages inside Amsterdam's interconnection core."
+        },
+        {
+          "title": "Dutch Data Center Association (DDA)",
+          "url": "https://www.dutchdatacenters.nl/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Official industry association documenting Amsterdam's power-grid policy, Climate Neutral Data Centre Pact adherence, and Dutch/European digital infrastructure regulations."
+        },
+        {
+          "title": "Equinix Amsterdam IBX Campuses (Science Park and Schiphol)",
+          "url": "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/amsterdam-data-centers",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Tier III+ colocation hub directly adjacent to AMS-IX and NL-ix providing high-density interconnection for financial, cloud-native, and multi-region European architectures."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-france",
+      "title": "France Sovereign Cloud & Private DCs",
+      "long_title": "France Sovereign Cloud and Private Data Centers",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-france/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-france/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-france.md",
       "resource_count": 19,
       "fresh_2025_2026_count": 19,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
         "[SOVEREIGN-EU]",
-        "[HYPERVISOR]",
-        "[DRP-RESILIENCE]",
         "[GPU]",
+        "[DRP-RESILIENCE]",
+        "[HYPERVISOR]",
         "[LLM]"
       ],
       "top_resources": [
@@ -5954,8 +6044,8 @@
           "summary": "First French IaaS provider with full-scope ANSSI SecNumCloud 3.2 qualification across three French regions, offering AWS-like Cockpit/API semantics for ultra-regulated defense, healthcare, and public-sector workloads."
         },
         {
-          "title": "AWS European Sovereign Cloud (Brandenburg Baseline)",
-          "url": "https://aws.amazon.com/compliance/europe-digital-sovereignty",
+          "title": "ANSSI SecNumCloud Qualification Referential",
+          "url": "https://cyber.gouv.fr/en/secnumcloud-for-cloud-service-providers",
           "year": "2026",
           "stars": 3,
           "gh_stars": null,
@@ -5965,7 +6055,7 @@
             "[EMERGING]",
             "[SOVEREIGN-EU]"
           ],
-          "summary": "Standalone German sovereign cloud region built by AWS to isolate operational control planes inside the EU while retaining full AWS API compatibility — evaluated against German-owned providers under CLOUD Act..."
+          "summary": "Official French National Cybersecurity Agency (ANSSI) sovereign cloud standard (v3.2) imposing strict technical security, European operational staff residency, and non-EU equity/control caps against extraterritorial..."
         },
         {
           "title": "Bleu Trusted Cloud (Capgemini and Orange)",
@@ -6008,6 +6098,98 @@
             "[SOVEREIGN-EU]"
           ],
           "summary": "French SecNumCloud-certified trusted IaaS specializing in critical enterprise workloads, sovereign OpenShift/Kubernetes hosting, and ultra-regulated healthcare/banking environments."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-germany",
+      "title": "Germany Sovereign Cloud & Private DCs",
+      "long_title": "Germany Sovereign Cloud and Private Data Centers",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-germany/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-germany/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-germany.md",
+      "resource_count": 20,
+      "fresh_2025_2026_count": 20,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[HYPERVISOR]",
+        "[DRP-RESILIENCE]",
+        "[GPU]"
+      ],
+      "top_resources": [
+        {
+          "title": "AWS European Sovereign Cloud (Brandenburg Baseline)",
+          "url": "https://aws.amazon.com/compliance/europe-digital-sovereignty",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Standalone German sovereign cloud region built by AWS to isolate operational control planes inside the EU while retaining full AWS API compatibility — evaluated against German-owned providers under CLOUD Act..."
+        },
+        {
+          "title": "BSI C5 Criteria Catalogue (Cloud Computing Compliance Controls)",
+          "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/kriterienkatalog-c5_node.html",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Official German Federal Office for Information Security (BSI) auditing baseline mandatory for German public health, statutory insurance, and regulated enterprise cloud procurement."
+        },
+        {
+          "title": "Cloud&Heat German Green Sovereign Cloud",
+          "url": "https://www.cloudandheat.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Dresden-based German sovereign OpenStack cloud and direct hot-water liquid-cooled AI compute operator designed for ultra-low PUE heat reuse and zero hyperscaler lock-in."
+        },
+        {
+          "title": "DE-CIX Frankfurt Internet Exchange",
+          "url": "https://www.de-cix.net/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "The world's leading interconnection ecosystem headquartered in Frankfurt, peaking above 17 Tbps and anchoring low-latency peering between German sovereign clouds, international carriers, and European enterprise networks."
+        },
+        {
+          "title": "Delos Cloud (SAP Sovereign Cloud Germany)",
+          "url": "https://www.deloscloud.de",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Dedicated German sovereign cloud platform backed by SAP specifically engineered to run public-administration, police, and defense workloads under strict BSI C5 and German legal control."
         }
       ]
     },
@@ -6103,13 +6285,13 @@
       ]
     },
     {
-      "slug": "eu-cloud-italy-uk-nordics",
-      "title": "Italy, UK, Nordics & Benelux",
-      "long_title": "Italy, UK, Nordics, Switzerland and Benelux Cloud Providers",
+      "slug": "eu-cloud-italy",
+      "title": "Italy Sovereign Cloud & Private DCs",
+      "long_title": "Italy Sovereign Cloud and Private Data Centers",
       "dimension": "European Sovereign Cloud & Private DCs",
-      "url": "https://nubenetes.com/eu-cloud-italy-uk-nordics/",
-      "v1_url": "https://nubenetes.com/v1/eu-cloud-italy-uk-nordics/",
-      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-italy-uk-nordics.md",
+      "url": "https://nubenetes.com/eu-cloud-italy/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-italy/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-italy.md",
       "resource_count": 12,
       "fresh_2025_2026_count": 12,
       "freshness": "active",
@@ -6117,9 +6299,22 @@
         "[EMERGING]",
         "[SOVEREIGN-EU]",
         "[GPU]",
-        "[HYPERVISOR]"
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
+        {
+          "title": "Agenzia per la Cybersicurezza Nazionale (ACN Italy)",
+          "url": "https://www.acn.gov.it/portale/en/home",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Italy's National Cybersecurity Agency governing cloud service qualification levels (QC1–QC3, AI1–AI3), NIS2 national transposition, and strategic public-administration cloud eligibility."
+        },
         {
           "title": "Aruba Cloud (Global Cloud Data Centers)",
           "url": "https://www.arubacloud.com",
@@ -6135,8 +6330,69 @@
           "summary": "Italy's flagship cloud and trust-services provider operating Tier IV hyper-efficient campuses near Milan (Ponte San Pietro) and Rome with Italian ACN QC3 and AI3 sovereign qualifications for public administration and..."
         },
         {
-          "title": "Civo UK Sovereign Cloud and Managed Kubernetes",
-          "url": "https://www.civo.com",
+          "title": "Aruba Global Cloud Data Center (IT3 Milan and IT4 Rome)",
+          "url": "https://www.datacenter.it",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Aruba's flagship carrier-neutral, geothermal and hydro-powered Tier IV data center campuses in Ponte San Pietro (Bergamo/Milan) and Tecnopolo Tiburtino (Rome) engineered for sovereign AI and enterprise colocation."
+        },
+        {
+          "title": "Consorzio Italia Cloud",
+          "url": "https://www.consorzioitaliacloud.it",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Coalition of independent Italian cloud and data center operators (including Seeweb and national specialists) driving open-standards cloud portability and local digital sovereignty across Italy."
+        },
+        {
+          "title": "Equinix Milan IBX Data Centers (ML2–ML5)",
+          "url": "https://www.equinix.com/data-centers/europe-colocation/italy-colocation/milan-data-centers",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Neutral Milan colocation campuses offering direct access to MIX, financial trading ecosystems, and private fiber links to Genova/Palermo subsea gateways."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-nordics",
+      "title": "Nordics Green Cloud & AI Factories",
+      "long_title": "Nordics Green Cloud and AI Factories",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-nordics/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-nordics/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-nordics.md",
+      "resource_count": 12,
+      "fresh_2025_2026_count": 12,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[HYPERVISOR]",
+        "[GPU]",
+        "[LLM]"
+      ],
+      "top_resources": [
+        {
+          "title": "atNorth Nordic High-Density AI Data Centers",
+          "url": "https://www.atnorth.com",
           "year": "2026",
           "stars": 3,
           "gh_stars": null,
@@ -6147,7 +6403,20 @@
             "[GPU]",
             "[SOVEREIGN-EU]"
           ],
-          "summary": "Fast-provisioning UK-headquartered Kubernetes and RelaxAI cloud offering dedicated UK Sovereign environments, predictable transparent pricing with generous included egress, and NVIDIA GPU workloads."
+          "summary": "Pan-Nordic high-density colocation and liquid-cooled GPU infrastructure operator spanning Iceland, Sweden, Finland, and Denmark with sub-1.15 PUE and geothermal/hydro electricity."
+        },
+        {
+          "title": "Bulk Infrastructure Nordic Green Data Centers",
+          "url": "https://bulkinfrastructure.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Norwegian hyperscale data center and dark-fiber subsea carrier operating Norway's massive renewable-powered NO1 campus and ultra-low-latency transatlantic/Nordic connectivity."
         },
         {
           "title": "Cleura: Compliant European OpenStack Cloud",
@@ -6180,8 +6449,8 @@
           "summary": "Swedish enterprise cloud running genuine 3-Availability-Zone OpenStack IaaS and Managed Kubernetes across three physically separated Stockholm data centers powered by 100% renewable hydro energy."
         },
         {
-          "title": "Exoscale: Swiss and European Sovereign Cloud",
-          "url": "https://www.exoscale.com",
+          "title": "evroc: European Sovereign Hyperscale Cloud Initiative",
+          "url": "https://evroc.com",
           "year": "2026",
           "stars": 3,
           "gh_stars": null,
@@ -6191,7 +6460,7 @@
             "[EMERGING]",
             "[SOVEREIGN-EU]"
           ],
-          "summary": "Swiss/Austrian sovereign IaaS and SKS Managed Kubernetes provider (A1 Group) operating GDPR-shielded zones across Zurich, Geneva, Frankfurt, Munich, Vienna, and Sofia with strict Swiss privacy governance and zero US..."
+          "summary": "Stockholm-headquartered initiative engineering high-security, sustainable European hyperscale cloud and AI data center regions exclusively under EU jurisdiction."
         }
       ]
     },
@@ -6377,6 +6646,186 @@
       ]
     },
     {
+      "slug": "eu-cloud-switzerland-dach",
+      "title": "Switzerland & Austria (Alpine Sovereign)",
+      "long_title": "Switzerland and Austria Sovereign Cloud and Private Data Centers",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-switzerland-dach/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-switzerland-dach/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-switzerland-dach.md",
+      "resource_count": 13,
+      "fresh_2025_2026_count": 13,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[HYPERVISOR]",
+        "[GPU]"
+      ],
+      "top_resources": [
+        {
+          "title": "Anexia World Wide Cloud (Austrian HQ)",
+          "url": "https://anexia.com/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Austrian-headquartered enterprise cloud and Kubernetes provider (Klagenfurt and Vienna) delivering ISO 27001 / EU-sovereign IaaS, ANX Cloud Terraform automation, and strict DACH-CEE operational control."
+        },
+        {
+          "title": "APPUiO Managed Swiss OpenShift Platform",
+          "url": "https://www.appuio.ch",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Enterprise Managed OpenShift Platform-as-a-Service engineered in Switzerland enabling regulated Swiss enterprises to deploy containerized apps with strict Swiss data residency."
+        },
+        {
+          "title": "cloudscale.ch Swiss IaaS and Managed OpenStack Cloud",
+          "url": "https://www.cloudscale.ch/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[HYPERVISOR]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "100% Swiss-owned and operated OpenStack cloud across two physically separated locations in Zurich and Lupfig, offering FINMA-friendly transparency, Terraform parity, and zero cross-border data export."
+        },
+        {
+          "title": "CSCS Alps Supercomputer (Lugano Switzerland)",
+          "url": "https://www.cscs.ch/computers/alps",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]"
+          ],
+          "summary": "Swiss National Supercomputing Centre flagship NVIDIA Grace Hopper (GH200) system powering sovereign Swiss climate, biomedical, and open-weight AI research (Swiss AI Initiative)."
+        },
+        {
+          "title": "Equinix Switzerland IBX Data Centers (Zurich and Geneva)",
+          "url": "https://www.equinix.com/data-centers/europe-colocation/switzerland-colocation",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Carrier-neutral Swiss colocation facilities serving Zurich private banking and Geneva international organizations with direct Fabric on-ramps."
+        }
+      ]
+    },
+    {
+      "slug": "eu-cloud-uk",
+      "title": "United Kingdom Sovereign Cloud & DCs",
+      "long_title": "United Kingdom Sovereign Cloud and Private Data Centers",
+      "dimension": "European Sovereign Cloud & Private DCs",
+      "url": "https://nubenetes.com/eu-cloud-uk/",
+      "v1_url": "https://nubenetes.com/v1/eu-cloud-uk/",
+      "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-uk.md",
+      "resource_count": 10,
+      "fresh_2025_2026_count": 10,
+      "freshness": "active",
+      "top_tags": [
+        "[EMERGING]",
+        "[SOVEREIGN-EU]",
+        "[GPU]"
+      ],
+      "top_resources": [
+        {
+          "title": "Brightbox UK Enterprise Cloud",
+          "url": "https://www.brightbox.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Independent British cloud infrastructure pioneer built for high-availability UK data residency, predictable multi-zone British IaaS, and official Terraform provider automation."
+        },
+        {
+          "title": "Civo UK Sovereign Cloud and Managed Kubernetes",
+          "url": "https://www.civo.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Fast-provisioning UK-headquartered Kubernetes and RelaxAI cloud offering dedicated UK Sovereign environments, predictable transparent pricing with generous included egress, and NVIDIA GPU workloads."
+        },
+        {
+          "title": "Equinix UK Data Centers (London Docklands, Slough and Manchester)",
+          "url": "https://www.equinix.com/data-centers/europe-colocation/united-kingdom-colocation/london-data-centers",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Neutral British colocation network spanning the Slough Trading Estate low-latency cluster, London Docklands, and Manchester regional resilience nodes."
+        },
+        {
+          "title": "LINX: London Internet Exchange",
+          "url": "https://www.linx.net",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "One of the world's premier member-owned Internet exchanges with dual independent London peering LANs plus Manchester and Scotland IXPs powering UK sovereign cloud traffic."
+        },
+        {
+          "title": "Nscale British Sovereign AI Hyperscaler",
+          "url": "https://www.nscale.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[GPU]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "UK-headquartered vertically integrated AI cloud operator deploying large-scale NVIDIA Blackwell/Hopper GPU clusters on renewable European/UK infrastructure with sovereign AI compliance."
+        }
+      ]
+    },
+    {
       "slug": "eu-cloud-workloads-stack",
       "title": "Hypervisors, IaaS, K8s & Sovereign AI",
       "long_title": "Hypervisors, IaaS, Kubernetes and Sovereign AI Stacks in Europe",
@@ -6389,8 +6838,8 @@
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
-        "[HYPERVISOR]",
         "[SOVEREIGN-EU]",
+        "[HYPERVISOR]",
         "[GPU]",
         "[LEGACY]",
         "[LLM]"

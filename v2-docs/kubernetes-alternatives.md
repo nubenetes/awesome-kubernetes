@@ -163,5 +163,5 @@ description: "Top Kubernetes Alternatives resources for 2026, AI-ranked: dreamla
 ---
 💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [AWS New Features](./aws-newfeatures.md) | [Azure](./azure.md)
+🔗 **See Also:** [AI](./ai.md) | [AWS New Features](./aws-newfeatures.md)
 

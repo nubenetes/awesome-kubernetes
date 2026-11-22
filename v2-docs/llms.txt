@@ -90,11 +90,16 @@
 - [Public Cloud Solutions](https://nubenetes.com/public-cloud-solutions/)
 
 ### European Sovereign Cloud & Private DCs
-- [France & Germany Cloud Champions](https://nubenetes.com/eu-cloud-france-germany/)
+- [Netherlands & Benelux Cloud & DCs](https://nubenetes.com/eu-cloud-benelux/)
+- [France Sovereign Cloud & Private DCs](https://nubenetes.com/eu-cloud-france/)
+- [Germany Sovereign Cloud & Private DCs](https://nubenetes.com/eu-cloud-germany/)
 - [IaC Automation & Maturity vs Hyperscalers](https://nubenetes.com/eu-cloud-iac-maturity/)
-- [Italy, UK, Nordics & Benelux](https://nubenetes.com/eu-cloud-italy-uk-nordics/)
+- [Italy Sovereign Cloud & Private DCs](https://nubenetes.com/eu-cloud-italy/)
+- [Nordics Green Cloud & AI Factories](https://nubenetes.com/eu-cloud-nordics/)
 - [RPO, RTO, SLAs, DRP & Replication](https://nubenetes.com/eu-cloud-resilience-sla/)
 - [Spain Sovereign Cloud & Private DCs](https://nubenetes.com/eu-cloud-spain/)
+- [Switzerland & Austria (Alpine Sovereign)](https://nubenetes.com/eu-cloud-switzerland-dach/)
+- [United Kingdom Sovereign Cloud & DCs](https://nubenetes.com/eu-cloud-uk/)
 - [Hypervisors, IaaS, K8s & Sovereign AI](https://nubenetes.com/eu-cloud-workloads-stack/)
 - [EU Sovereign Cloud Overview & TCO](https://nubenetes.com/eu-sovereign-cloud/)
 

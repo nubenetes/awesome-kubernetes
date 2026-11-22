@@ -111,6 +111,8 @@ plugins:
         oauth.md: securityascode.md
         digital-money.md: finops.md
         aws-spain.md: aws.md
+        eu-cloud-france-germany.md: eu-cloud-germany.md
+        eu-cloud-italy-uk-nordics.md: eu-cloud-italy.md
 
 extra:
   social:
@@ -267,8 +269,13 @@ nav:
   - "European Sovereign Cloud & Private DCs":
     - "EU Sovereign Cloud Overview & TCO": eu-sovereign-cloud.md
     - "Spain Sovereign Cloud & Private DCs": eu-cloud-spain.md
-    - "France & Germany Cloud Champions": eu-cloud-france-germany.md
-    - "Italy, UK, Nordics & Benelux": eu-cloud-italy-uk-nordics.md
+    - "Germany Sovereign Cloud & Private DCs": eu-cloud-germany.md
+    - "France Sovereign Cloud & Private DCs": eu-cloud-france.md
+    - "Italy Sovereign Cloud & Private DCs": eu-cloud-italy.md
+    - "Netherlands & Benelux Cloud & DCs": eu-cloud-benelux.md
+    - "Switzerland & Austria (Alpine Sovereign)": eu-cloud-switzerland-dach.md
+    - "Nordics Green Cloud & AI Factories": eu-cloud-nordics.md
+    - "United Kingdom Sovereign Cloud & DCs": eu-cloud-uk.md
     - "IaC Automation & Maturity vs Hyperscalers": eu-cloud-iac-maturity.md
     - "Hypervisors, IaaS, K8s & Sovereign AI": eu-cloud-workloads-stack.md
     - "RPO, RTO, SLAs, DRP & Replication": eu-cloud-resilience-sla.md

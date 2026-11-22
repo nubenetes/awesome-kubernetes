@@ -77,5 +77,5 @@ description: "Top DigitalOcean resources for 2026, AI-ranked: Digital Ocean, Com
 ---
 💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Google Cloud Platform (GCP)](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Demos](./demos.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI](./ai.md) | [ChatGPT](./chatgpt.md)
 

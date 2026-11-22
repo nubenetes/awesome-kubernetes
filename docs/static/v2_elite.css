@@ -1613,11 +1613,14 @@ input[type="text"] {
 #nb-pop-aws      { position-anchor: --nb-a-aws; }
 [popovertarget="nb-pop-ocp"]      { anchor-name: --nb-a-ocp; }
 #nb-pop-ocp      { position-anchor: --nb-a-ocp; }
+[popovertarget="nb-pop-eu-sovereign"] { anchor-name: --nb-a-eu-sovereign; }
+#nb-pop-eu-sovereign { position-anchor: --nb-a-eu-sovereign; }
 .nb-quicknav__menu {
   inset: auto; /* reset the UA-centered popover defaults */
   margin: 0;
   max-height: 82vh; /* tall menus (e.g. Kubernetes) scroll instead of overflowing */
   overflow-y: auto;
+  overflow-x: hidden;
   overscroll-behavior: contain;
   /* drop below the invoking button, left-aligned. NB: position-area values must
      be all-physical or all-logical — mixing (e.g. `bottom span-inline-end`) is
@@ -1743,7 +1746,7 @@ input[type="text"] {
   left: anchor(right);
   right: auto;
   bottom: auto;
-  position-try-fallbacks: flip-inline;
+  position-try-fallbacks: flip-inline, flip-block, flip-inline flip-block;
   margin-block-start: 0;
   margin-inline-start: 0.35rem;
 }

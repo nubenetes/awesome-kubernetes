@@ -19,7 +19,7 @@ description: "Top Spain Sovereign Cloud & Private DCs resources for 2026, AI-ran
     Detailed reference for Spain Sovereign Cloud and Private Data Centers in the context of European Sovereign Cloud & Private DCs.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [France & Germany Cloud Champions](eu-cloud-france-germany.md) · [Italy, UK, Nordics & Benelux](eu-cloud-italy-uk-nordics.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [Hypervisors, IaaS, K8s & AI](eu-cloud-workloads-stack.md) · [RPO, RTO, SLAs & DRP](eu-cloud-resilience-sla.md) · [AWS Spain](aws-spain.md)
+    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [France Sovereign Cloud & Private DCs](eu-cloud-france.md) · [Germany Sovereign Cloud & Private DCs](eu-cloud-germany.md) · [Italy Sovereign Cloud & Private DCs](eu-cloud-italy.md) · [IaC Automation & Maturity](eu-cloud-iac-maturity.md) · [Hypervisors, IaaS, K8s & AI](eu-cloud-workloads-stack.md) · [RPO, RTO, SLAs & DRP](eu-cloud-resilience-sla.md) · [AWS Spain](aws-spain.md)
 
 ## Pre-Sales Field Guide: Spain Sovereign Cloud and Private Data Centers
 
@@ -75,7 +75,7 @@ Spain has become one of Europe's top-tier digital sovereignty and interconnectio
 ## Private Colocation Interconnection And Ai-ready Data Centers In Spain
 
   - **(2026)** [DATA4 Madrid Campus](https://www.data4group.com/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — European data center operator (Alcobendas and San Agustin de Guadalix, Madrid) delivering high-density Tier III+ sovereign wholesale and retail colocation with 100% renewable PPA options.
-  - **(2026)** [Digital Realty (Interxion) Madrid Data Center Campus](https://www.digitalrealty.com/data-centers/emea/madrid) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Carrier-neutral Tier III+/IV Madrid interconnection campus (MAD1–MAD4) housing major cloud on-ramps, ESpanix/DE-CIX peering nodes, and private enterprise colocation cages.
+  - **(2026)** [Digital Realty (Interxion) Madrid Data Center Campus](https://www.digitalrealty.com/data-centers/emea/madrid) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Carrier-neutral Tier III+/IV Madrid interconnection campus (MAD1–MAD4) housing major cloud on-ramps, ESpanix/DE-CIX peering nodes, and private enterprise colocation cages.
   - **(2026)** [Equinix Spain Colocation (Madrid and Barcelona)](https://www.equinix.com/data-centers/europe-colocation/spain-colocation) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Neutral colocation IBX facilities (MD1/MD2/MD6 in Madrid, BA1/BA2 in Barcelona) providing Equinix Fabric direct L2/BGP interconnects to Spanish MSPs and hyperscaler on-ramps.
   - **(2026)** [ESpanix: Neutral Internet Exchange in Spain](https://www.espanix.net/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Spain's primary neutral IXP in Madrid enabling sub-2ms interconnection among Spanish sovereign clouds, telcos, and enterprise private data center racks.
   - **(2026)** [Merlin-Edged AI and Sovereign Data Centers](https://www.merlinproperties.com/en/data-centers) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — Ultra-high-density liquid-cooled AI data centers across Madrid-Getafe, Barcelona, and Bilbao-Arasur built to host 100kW+ NVIDIA GB200/Blackwell racks under zero-water-waste closed-loop cooling.
@@ -99,7 +99,7 @@ Spain has become one of Europe's top-tier digital sovereignty and interconnectio
   - **(2026)** [Telefonica Tech Cloud and Sovereign Solutions](https://telefonicatech.com/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Spain's flagship enterprise ICT cloud integrator offering Telefonica Tech Virtual Data Center (VDC), ENS Alto public-administration clouds, and its Spanish sovereign cloud partnership with Google Cloud Data Boundary and Telefónica-custodied encryption keys.
 
 ---
-💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [France & Germany Cloud Champions](./eu-cloud-france-germany.md) | [Italy, UK, Nordics & Benelux](./eu-cloud-italy-uk-nordics.md)
+💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md) | [France Sovereign Cloud & Private DCs](./eu-cloud-france.md)
 
 🔗 **See Also:** [Demos](./demos.md) | [DevOps](./devops.md)
 

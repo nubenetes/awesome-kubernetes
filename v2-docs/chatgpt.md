@@ -132,7 +132,7 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
 
 #### Industry Dynamics
 
-  - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo' Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analiza la evolución de Microsoft como líder de la revolución de IA generativa a través de su alianza con OpenAI, contrastándolo con la postura reactiva de Google ante los modelos de lenguaje transformadores. [SPANISH CONTENT]
+  - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo' Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Analiza la evolución de Microsoft como líder de la revolución de IA generativa a través de su alianza con OpenAI, contrastándolo con la postura reactiva de Google ante los modelos de lenguaje transformadores. [SPANISH CONTENT]
 ## Programming
 
   - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Tech companies cutting devs for AI covering Programming in AI (reddit.com).
@@ -168,5 +168,5 @@ description: "Top ChatGPT resources for 2026, AI-ranked: LLMs-from-scratch, Intr
 ---
 💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 
-🔗 **See Also:** [AWS New Features](./aws-newfeatures.md) | [AWS Serverless](./aws-serverless.md)
+🔗 **See Also:** [AWS New Features](./aws-newfeatures.md) | [Azure](./azure.md)
 

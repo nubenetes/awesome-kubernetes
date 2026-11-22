@@ -19,7 +19,7 @@ description: "Curated, AI-ranked IaC Automation & Maturity vs Hyperscalers resou
     Detailed reference for IaC Automation and Portability on European Sovereign Clouds in the context of European Sovereign Cloud & Private DCs.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Spain Sovereign Cloud & Private DCs](eu-cloud-spain.md) · [France & Germany Cloud Champions](eu-cloud-france-germany.md) · [Hypervisors, IaaS, K8s & AI](eu-cloud-workloads-stack.md) · [Terraform & OpenTofu](terraform.md) · [Crossplane](crossplane.md)
+    [EU Sovereign Cloud Overview & TCO](eu-sovereign-cloud.md) · [Germany Sovereign Cloud & Private DCs](eu-cloud-germany.md) · [France Sovereign Cloud & Private DCs](eu-cloud-france.md) · [Spain Sovereign Cloud & Private DCs](eu-cloud-spain.md) · [Hypervisors, IaaS, K8s & AI](eu-cloud-workloads-stack.md) · [Terraform & OpenTofu](terraform.md) · [Crossplane](crossplane.md)
 
 ## Pre-Sales Analysis: IaC Automation and Coverage vs Hyperscalers (100% Baseline)
 
@@ -40,6 +40,9 @@ A critical pre-sales honesty check: **AWS, Azure, and GCP maintain ~98–100% Ia
 | **STACKIT** | **75%** | Via Upjet / `provider-terraform` | Gardener Shoot CRDs | Official Ansible / OpenTofu | OpenStack + STACKIT REST | Very clean OpenTofu for SKE (Gardener K8s), OpenStack VMs, Postgres/MariaDB, Observability. |
 | **Hetzner** | **75% IaaS / 40% Total** | Community / Upjet | **Best-in-Class (`CAPH` Syself)** | Pulumi + `hcloud` Ansible | Hetzner Cloud REST | **100% coverage of its narrow IaaS scope**, but zero managed K8s/DBaaS — you automate those with Talos/K3s/CNPG. |
 | **Exoscale** | **75%** | Upjet / `provider-terraform` | Community | Pulumi + Ansible | CloudStack-rooted REST + S3 | Clean, fast Terraform for Compute, SKS Kubernetes, DBaaS, Security Groups, SOS S3. |
+| **cloudscale.ch** | **75%** | Upjet / `provider-terraform` | OpenStack / VSHN APPUiO | OpenTofu + Ansible | Swiss OpenStack + REST | Pure Swiss-owned API covering VMs, volumes, private networks, & S3 cleanly. |
+| **Leaseweb** | **65%** | Upjet / `provider-terraform` | Bare Metal / K8s PXE | OpenTofu + Ansible | Leaseweb REST + CloudStack | Automates NL/EU dedicated bare metal, private networking, & bandwidth bags cleanly. |
+| **Anexia** | **70%** | Native Crossplane + Upjet | Anexia Kubernetes Service | Official Terraform + Ansible | AnxCloud REST | Mature Austrian/DACH Terraform & Crossplane coverage (`anexia-it/anxcloud`). |
 | **UpCloud** | **75%** | Upjet / `provider-terraform` | Community | Ansible + OpenTofu | UpCloud REST + S3 | Full lifecycle for Madrid (`es-mad1`)/EU VMs, MaxIOPS, Managed K8s, Managed DBs, SDN routers. |
 | **Open Telekom Cloud** | **75%** | Upjet / OpenStack CRDs | OpenStack `CAPO` compatible | Official Ansible + OpenTofu | OpenStack + Huawei/OTC APIs | Mature coverage for VPCs, CCE Kubernetes, RDS, KMS, EVSs; slower feature velocity than Scaleway. |
 | **Civo (UK)** | **75%** | Upjet / `provider-terraform` | K3s/Talos native | Pulumi + Ansible | Civo REST + S3 | Built specifically for Terraform + Kubernetes-first automation; tiny IaaS surface makes 75%+ easy. |
@@ -125,7 +128,7 @@ terraform {
   - **(2026)** [VMware Cloud Director (VCD) Terraform Provider](https://github.com/vmware/terraform-provider-vcd) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Standardized IaC provider widely compatible with Spanish and European VCSP clouds (Arsys, Gigas, Alhambra IT, Telefonica Tech VDC, Acens) running vCD NSX-T Edge Gateways and OrgVDCs.
 
 ---
-💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [France & Germany Cloud Champions](./eu-cloud-france-germany.md)
+💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)
 
 🔗 **See Also:** [Demos](./demos.md) | [DevOps](./devops.md)
 

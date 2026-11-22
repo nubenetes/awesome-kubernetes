@@ -132,5 +132,5 @@ description: "Top Freelancing resources for 2026, AI-ranked: adeva, arc - former
 ---
 💡 **Explore Related:** [Recruitment](./recruitment.md) | [HR](./hr.md) | [FinOps](./finops.md)
 
-🔗 **See Also:** [Ansible](./ansible.md) | [AWS New Features](./aws-newfeatures.md)
+🔗 **See Also:** [AI](./ai.md) | [Ansible](./ansible.md)
 
