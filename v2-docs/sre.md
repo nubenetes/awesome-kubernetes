@@ -11,12 +11,12 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 
 ## Standard Reference
 
-  - **(2026)** [The August 17 outage, and the work ahead](https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for The August 17 outage, and the work ahead in the SRE ecosystem (github.blog).
   - **(2026)** [Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned](https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned in the SRE ecosystem (netflixtechblog.com).
-  - [dzone: SRE vs. DevOps: SRE Is to DevOps What Scrum Is to Agile](https://dzone.com/articles/sre-vs-devopssre-is-to-devops-what-scrum-is-to-agi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: SRE vs. DevOps: SRE Is to DevOps What Scrum Is to Agile in the SRE ecosystem (dzone.com).
+  - **(2026)** [The August 17 outage, and the work ahead](https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for The August 17 outage, and the work ahead in the SRE ecosystem (github.blog).
   - [cncf.io: DevOps vs. SRE](https://www.cncf.io/blog/2020/07/17/site-reliability-engineering-sre-101-with-devops-vs-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: DevOps vs. SRE in the SRE ecosystem (cncf.io).
   - [cncf.io: DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller' than you think](https://www.cncf.io/blog/2022/07/01/devops-vs-sre-vs-platform-engineering-the-gaps-might-be-smaller-than-you-think)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller' than you think in the SRE ecosystem (cncf.io).
   - [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer in the SRE ecosystem (dzone.com).
+  - [dzone: SRE vs. DevOps: SRE Is to DevOps What Scrum Is to Agile](https://dzone.com/articles/sre-vs-devopssre-is-to-devops-what-scrum-is-to-agi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: SRE vs. DevOps: SRE Is to DevOps What Scrum Is to Agile in the SRE ecosystem (dzone.com).
 
 ## Canary Analysis
 
@@ -128,8 +128,8 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 
 #### Best Practices
 
-  - **(2022)** [linkedin.com: SRE: Key Insights-"Done the right way”](https://www.linkedin.com/pulse/sre-key-insights-done-right-way-shankar-muniyappa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines foundational SRE principles emphasizing the alignment of software engineering practices with operations. Discusses error budgets, blameless postmortems, and building self-healing systems as pillars to avoid organizational friction.
   - **(2022)** [infracloud.io: Site Reliability Engineering (SRE) Best Practices](https://www.infracloud.io/blogs/sre-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles architectural and cultural patterns for establishing cloud-native SRE. Key focuses include automated toil elimination, disaster recovery automation, chaos engineering practices, and objective-based release gates.
+  - **(2022)** [linkedin.com: SRE: Key Insights-"Done the right way”](https://www.linkedin.com/pulse/sre-key-insights-done-right-way-shankar-muniyappa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines foundational SRE principles emphasizing the alignment of software engineering practices with operations. Discusses error budgets, blameless postmortems, and building self-healing systems as pillars to avoid organizational friction.
 #### Career Lifecycle
 
   - **(2021)** [devops.com: Day in the Life of a Site Reliability Engineer (SRE)](https://devops.com/day-in-the-life-of-a-site-reliability-engineer-sre)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative run-through of the operational reality of SRE. Explains typical workflows, on-call paging procedures, metric reviews, postmortem writing, and automated tool-building shifts.
@@ -163,8 +163,8 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 #### Tooling (1)
 
   - **(2022)** [getcortexapp.com: A guide to the best SRE tools](https://www.cortex.io/post/a-guide-to-the-best-sre-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cortex's architectural guide evaluating modern SRE tooling stacks. Highlights service catalogs, central tracking, alert deduplication, automated runbooks, and performance benchmarking.
-  - **(2021)** [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the fundamental tooling categories necessary for robust SRE practices, spanning declarative Infrastructure as Code (IaC), performance profiling, on-call management, and automated monitoring integrations.
   - **(2021)** [thenewstack.io: The Best Site Reliability Engineering Tools in 2021](https://thenewstack.io/the-best-site-reliability-engineering-tools-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluative overview of top-tier reliability platforms. Focuses on tools addressing continuous anomaly detection, SLO dashboards, chaos engineering, and incident management pipelines.
+  - **(2021)** [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the fundamental tooling categories necessary for robust SRE practices, spanning declarative Infrastructure as Code (IaC), performance profiling, on-call management, and automated monitoring integrations.
 ## Platform Engineering (1)
 
 ### Design Methodology
@@ -228,7 +228,7 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 314857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 2 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md) | [Testops](./testops.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Scaffolding](./scaffolding.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [MLOps](./mlops.md) | [AWS](./aws.md)
 

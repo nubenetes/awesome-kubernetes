@@ -11,8 +11,8 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 
 ## AWS API Gateway
 
-  - [towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4?gi=0fdc8166675c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway covering AWS API Gateway in AWS Networking (towardsaws.com).
   - [faun.pub: Using AWS API Gateway As Proxy To Our Internal Application](https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70?gi=400bb82b0fc8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Using AWS API Gateway As Proxy To Our Internal Application covering AWS API Gateway in AWS Networking (faun.pub).
+  - [towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4?gi=0fdc8166675c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway covering AWS API Gateway in AWS Networking (towardsaws.com).
 ## AWS Application Load Balancer ALB
 
   - [faun.pub: End To End SSL Encryption With AWS Application Load Balancer](https://faun.pub/end-to-end-ssl-encryption-with-aws-application-load-balancer-b43db918bd9e?gi=4678fd812e2e) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: End To End SSL Encryption With AWS Application Load Balancer covering AWS Application Load Balancer ALB in AWS Networking (faun.pub).
@@ -24,8 +24,8 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Configuring Route 53 for cost protection from NXDOMAIN attacks covering AWS Route 53 in AWS Networking (docs.aws.amazon.com).
 ## AWS VPC
 
-  - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://medium.datadriveninvestor.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c?gi=f93508c7dad1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ealtili.medium.com: Deepdive to VPCs and Connections to VPC covering AWS VPC in AWS Networking (medium.datadriveninvestor.com).
   - [awstip.com: Setting Up AWS VPC Endpoint Connection](https://awstip.com/setting-up-aws-vpc-endpoint-connection-d4294d0c2204?gi=aa56490b10f3) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Setting Up AWS VPC Endpoint Connection covering AWS VPC in AWS Networking (awstip.com).
+  - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://medium.datadriveninvestor.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c?gi=f93508c7dad1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for ealtili.medium.com: Deepdive to VPCs and Connections to VPC covering AWS VPC in AWS Networking (medium.datadriveninvestor.com).
   - [towardsaws.com: How to centralize VPC endpoints in AWS](https://towardsaws.com/how-to-centralize-vpc-endpoints-in-aws-64c68b5b9d50?gi=fa33988c8ac2) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for towardsaws.com: How to centralize VPC endpoints in AWS covering AWS VPC in AWS Networking (towardsaws.com).
 ## Artificial Intelligence
 
@@ -36,9 +36,9 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - **(2026)** [**How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack**](https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CUDA]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NETWORKING]</span> <span class='md-tag md-tag--primary'>[RDMA]</span> — DOCA GPUNetIO provides a unified GDA-KI foundation that enables CUDA kernels to directly drive Ethernet, RDMA, Verbs, and DMA operations while keeping the CPU out of the critical path. By converging technologies like GPUDirect RDMA and GDRCopy into a GPU-centric networking SDK, it substantially reduces implementation complexity for communication libraries such as NVSHMEM and NCCL. This approach minimizes duplicated code and fragmentation, establishing a robust architecture for real-time packet processing and GPU-controlled data movement.
 ## BGP
 
-  - **(2026)** [Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog](https://blog.cloudflare.com/enforce-first-as-bgp) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog covering BGP in AWS Networking (blog.cloudflare.com).
   - **(2026)** [Adopting AV1 for Real-Time Communication (RTC) at Scale](https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Adopting AV1 for Real-Time Communication (RTC) at Scale covering BGP in AWS Networking (engineering.fb.com).
   - **(2026)** [BGP Role model: tracking the adoption of RFC 9234](https://blog.cloudflare.com/rfc9234-bgp-role-model) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for BGP Role model: tracking the adoption of RFC 9234 covering BGP in AWS Networking (blog.cloudflare.com).
+  - **(2026)** [Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog](https://blog.cloudflare.com/enforce-first-as-bgp) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog covering BGP in AWS Networking (blog.cloudflare.com).
 ## Cloud Infrastructure
 
 ### AWS
@@ -220,7 +220,7 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - **(2026)** [Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable](https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable covering Subsea Cables in AWS Networking (engineering.fb.com).
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
 

@@ -75,8 +75,8 @@ description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and m
   - **(2026)** [**openwhisk.apache.org**](https://openwhisk.apache.org) <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source distributed event-driven platform capable of executing discrete serverless logic. Utilizes container runtimes to isolate and invoke handlers in millisecond timelines.
 #### Framework Comparisons
 
-  - **(2021)** [**vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks**](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A condensed comparative post evaluating resource profiles, container dependencies, and lifecycle abstractions for executing serverless frameworks on Kubernetes.
   - **(2021)** [**epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟**](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Compares open-source serverless frameworks like OpenFaaS and Knative, focusing on custom deployment controllers, API routing architectures, and native scale-to-zero capabilities.
+  - **(2021)** [**vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks**](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A condensed comparative post evaluating resource profiles, container dependencies, and lifecycle abstractions for executing serverless frameworks on Kubernetes.
   - **(2021)** [**winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more**](https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical analysis of OpenFaaS, OpenWhisk, Fission, and Kubeless. Compares execution mechanics, custom resource dependencies, and cold start management profiles.
 #### Knative
 
@@ -220,14 +220,14 @@ description: "Top Serverless resources for 2026, AI-ranked: Dapr, OpenFaaS and m
 
   - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1?gi=2b72868d50d4) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Scaling My App: Serverless vs Kubernetes 🌟 covering Serverless Architectures in Serverless (itnext.io).
   - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: Implementing Serverless Microservices Architecture on AWS covering Serverless Architectures in Serverless (dzone.com).
-  - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: When to Use Serverless, and When to Use Kubernetes 🌟 covering Serverless Architectures in Serverless (dzone.com).
   - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: When to Use Logic Apps and Azure Functions covering Serverless Architectures in Serverless (dzone.com).
+  - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone: When to Use Serverless, and When to Use Kubernetes 🌟 covering Serverless Architectures in Serverless (dzone.com).
 ## Triggermesh Serverless Event Router
 
   - [TriggerMesh](https://alexiskiryuin.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for TriggerMesh covering TriggerMesh serverless event router in Serverless (alexiskiryuin.com).
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Kubernetes Autoscaling](./kubernetes-autoscaling.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI RAG OKF](./ai-rag-okf.md)
 

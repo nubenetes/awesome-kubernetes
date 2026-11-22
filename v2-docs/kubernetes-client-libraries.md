@@ -15,8 +15,8 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 
 #### Kubernetes Clients
 
-  - **(2020)** [Fabric8](https://fabric8.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Fabric8 historically offered a comprehensive development and integration platform for Kubernetes. While its global platform features have been deprecated or superseded, its core libraries and Eclipse JKube build helpers continue to be vital utilities in Java environments.
   - **(2020)** [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide to implementing JVM program orchestration on Kubernetes clusters using the Fluent API of the Fabric8 Kubernetes Java Client. The framework supports seamless resource state management, custom resources (CRDs), and secure API server interactions.
+  - **(2020)** [Fabric8](https://fabric8.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Fabric8 historically offered a comprehensive development and integration platform for Kubernetes. While its global platform features have been deprecated or superseded, its core libraries and Eclipse JKube build helpers continue to be vital utilities in Java environments.
 ## Cloud Native and Kubernetes
 
 ### CLI Development
@@ -108,8 +108,8 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
   - [==levelup.gitconnected.com: First Try on Java Operator SDK==](https://levelup.gitconnected.com/first-try-on-java-operator-sdk-5a07f30771de?gi=3695a278e444) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: First Try on Java Operator SDK covering Fabric8 Java Client for Kubernetes in Kubernetes Client Libraries (levelup.gitconnected.com).
 ## Go Clients For Kubernetes
 
-  - [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299?gi=1679d538877a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Writing a Kubernetes CLI in Go covering Go Clients for Kubernetes in Kubernetes Client Libraries (itnext.io).
   - [blog.devgenius.io: Learn Kubernetes Programming — Part 1](https://blog.devgenius.io/learn-kubernetes-programming-part-1-7384e5f3c481?gi=2241474fe428) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Learn Kubernetes Programming — Part 1 covering Go Clients for Kubernetes in Kubernetes Client Libraries (blog.devgenius.io).
+  - [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299?gi=1679d538877a) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Writing a Kubernetes CLI in Go covering Go Clients for Kubernetes in Kubernetes Client Libraries (itnext.io).
 ## Java Clients For Kubernetes
 
   - [==itnext.io: Difference between Fabric8 and Official Kubernetes Java Client 🌟==](https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af?gi=a8678db6e2d6) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for itnext.io: Difference between Fabric8 and Official Kubernetes Java Client 🌟 covering Java Clients for Kubernetes in Kubernetes Client Libraries (itnext.io).
@@ -144,7 +144,7 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
   - [blog.devgenius.io: Automate Kubernetes With Python 🌟](https://blog.devgenius.io/automate-kubernetes-with-python-2150c290afe7?gi=2b6f729de111) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for blog.devgenius.io: Automate Kubernetes With Python 🌟 covering Python Client for Kubernetes in Kubernetes Client Libraries (blog.devgenius.io).
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

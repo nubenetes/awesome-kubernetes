@@ -19,8 +19,8 @@ description: "Top Grafana resources for 2026, AI-ranked: Grafana Loki, Grafana F
   - [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard covering Grafana Dashboards in Grafana (dzone.com).
 ## Grafana Loki
 
-  - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34?gi=0c71e6906ec1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Logging in Kubernetes with Loki and the PLG Stack covering Grafana Loki in Grafana (itnext.io).
   - [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc?gi=787658167fbe) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs covering Grafana Loki in Grafana (faun.pub).
+  - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34?gi=0c71e6906ec1) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Logging in Kubernetes with Loki and the PLG Stack covering Grafana Loki in Grafana (itnext.io).
 ## Infrastructure As Code
 
 ### Package Archives
@@ -68,8 +68,8 @@ description: "Top Grafana resources for 2026, AI-ranked: Grafana Loki, Grafana F
   - **(2021)** [thenewstack.io: Grafana 7.5: Controversial Pie Charts and Loki Alerts](https://thenewstack.io/grafana-7-5-controversial-pie-charts-and-loki-alerts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the product enhancements shipped in Grafana 7.5, specifically focusing on native alert rule management inside Grafana Loki. It explains how these features simplified developer logging workflows and improved basic dashboard presentation elements.
 #### Unified Alerting
 
-  - **(2021)** [zdnet.com: Grafana 8.0 integrates with Prometheus alerting](https://www.zdnet.com/article/grafana-8-0-integrates-with-prometheus-alerting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the release of Grafana 8.0 and its significant consolidation of the platform's alerting architecture. The update introduces deep integration with Prometheus Alertmanager, allowing operators to construct complex multi-dimensional alert workflows directly.
   - **(2021)** [thenewstack.io: Grafana 8.0 Rethinks Alerts and Visualizations](https://thenewstack.io/grafana-8-0-rethinks-alerts-and-visualizations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An technical review examining Grafana 8.0's visualization panel system and unified alerting engine. The article details how these visual rendering upgrades improved dashboard performance and standardized monitoring logic across multiple telemetry backends.
+  - **(2021)** [zdnet.com: Grafana 8.0 integrates with Prometheus alerting](https://www.zdnet.com/article/grafana-8-0-integrates-with-prometheus-alerting)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the release of Grafana 8.0 and its significant consolidation of the platform's alerting architecture. The update introduces deep integration with Prometheus Alertmanager, allowing operators to construct complex multi-dimensional alert workflows directly.
 ## Observability and Delivery
 
 ### Kubernetes Observability
@@ -109,8 +109,8 @@ description: "Top Grafana resources for 2026, AI-ranked: Grafana Loki, Grafana F
   - **(2023)** [devops.com: Grafana Labs Acquires Asserts.ai to Bring AI to Observability](https://devops.com/grafana-labs-acquires-assert-ai-to-bring-ai-to-observability) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the strategic acquisition of Asserts.ai by Grafana Labs. Live grounding highlights the integration of semantic graphs, relationship maps, and automated root-cause discovery directly into Grafana's UI stack.
 #### Cloud and Enterprise Partnerships
 
-  - **(2021)** [thenewstack.io: Grafana Is Not Worried About AWS Commercialization](https://thenewstack.io/grafana-is-not-worried-about-aws-commercialization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the strategic relationship between Grafana Labs and AWS regarding the Managed Grafana service. Live grounding verifies that despite initial fears of commercial erosion, AWS partnership validated Grafana's cloud-native dominance and expanded its enterprise reach, establishing a co-existence model.
   - **(2021)** [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official announcement of the partnership between Microsoft and Grafana Labs, launching Azure Managed Grafana. Details native Azure security, directory integrations, and SaaS SLA support.
+  - **(2021)** [thenewstack.io: Grafana Is Not Worried About AWS Commercialization](https://thenewstack.io/grafana-is-not-worried-about-aws-commercialization)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the strategic relationship between Grafana Labs and AWS regarding the Managed Grafana service. Live grounding verifies that despite initial fears of commercial erosion, AWS partnership validated Grafana's cloud-native dominance and expanded its enterprise reach, establishing a co-existence model.
 #### Cloud Integrations
 
   - **(2022)** [devblogs.microsoft.com:Monitoring Azure by using Grafana dashboards 🌟](https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on visualizing Azure metrics using native Azure Monitor integrations and Azure Managed Grafana. Explores cross-tenant security and centralized dashboard architectures in public cloud environments.
@@ -175,7 +175,7 @@ description: "Top Grafana resources for 2026, AI-ranked: Grafana Loki, Grafana F
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

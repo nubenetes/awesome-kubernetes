@@ -19,7 +19,7 @@ This repository uses **Trunk-Based Development**. All agents MUST follow this br
 7. Create GitHub Release: `gh release create vX.Y.Z --title "..." --notes "..."`
 
 ### Versioning
-- Current: `v2.10.0`
+- Current: `v2.11.1`
 - Format: `v{major}.{minor}.{patch}`
 - Major: breaking changes or major platform overhauls
 - Minor: new features or architectural shifts (like Trunk migration, digest engine, Gen-4 AI selector)

@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Kasten, Trillio and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Kasten, PX-Backup: docs and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Backup and Migrations
 
@@ -94,9 +94,9 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
 
   - **(2025)** [==Kasten==](https://www.veeam.com/products/cloud/kubernetes-data-protection.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kasten K10 by Veeam is the preeminent data protection and disaster recovery platform built natively for Kubernetes. Simplifies metadata protection, block-level persistent backup, and migration via direct cloud storage drivers.
   - **(2025)** [**Bacula Enterprise for OpenShift and Kubernetes 🌟**](https://www.baculasystems.com) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Bacula Enterprise provides high-volume, multi-tenant physical and cloud-native backup architectures for OpenShift and Kubernetes. Implements specialized volume snapshotting modules with security-hardened air-gapped target integrations.
+  - **(2025)** [**PX-Backup: docs**](https://docs.portworx.com/portworx-backup-on-prem) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official operational documentation for Portworx Backup (PX-Backup). Walks through multi-tenant metadata backups, scheduling pipelines, and application-consistent target snapshots.
   - **(2025)** [**Trillio**](https://trilio.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Trilio offers a Kubernetes-native data protection software suite. Facilitates high-speed, programmatic volume and metadata replication, multi-cloud migration, and ransomware mitigation across large clusters.
   - **(2025)** [**TrillioVault for Kubernetes**](https://www.trilio.io/triliovault-for-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — TrilioVault for Kubernetes is a policy-driven backup manager designed for GitOps and multi-cloud container setups. Captures complete application layouts, secret configurations, and dynamic CSI volumes.
-  - **(2025)** [**PX-Backup: docs**](https://docs.portworx.com/portworx-backup-on-prem) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official operational documentation for Portworx Backup (PX-Backup). Walks through multi-tenant metadata backups, scheduling pipelines, and application-consistent target snapshots.
   - **(2021)** [**thenewstack.io: Kasten K10 V4.5: Grafana Observability, More Edge Support**](https://thenewstack.io/kasten-k10-v4-5-grafana-observability-more-edge-support) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the Kasten K10 v4.5 software release, introducing native Prometheus-driven Grafana monitoring profiles and enhanced protection rules for decentralized Edge compute clusters.
 ### Storage Systems
 
@@ -128,7 +128,7 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
   - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
 
 ---
-💡 **Explore Related:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Rancher](./rancher.md) | [Docker](./docker.md)
+💡 **Explore Related:** [Docker](./docker.md) | [Container Managers](./container-managers.md) | [Serverless](./serverless.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

@@ -54,12 +54,12 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Gatling
 
-  - [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Perfomance Testing with Gatling covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
-  - [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Gatling: A Lightweight Load Testing Tool covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
   - [An Introduction to Load Testing With Gatling](https://dzone.com/articles/gatling-gun-is-now-a-prospecting-tool-for-testers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for An Introduction to Load Testing With Gatling covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
   - [Gatling Performance Testing Pros and Cons](https://dzone.com/articles/gatling-performance-testing-pros-and-cons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Gatling Performance Testing Pros and Cons covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
+  - [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Gatling: A Lightweight Load Testing Tool covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
   - [How to Set up a Gatling Test's Implementation Environment 🌟](https://dzone.com/articles/how-to-set-up-a-gatling-tests-implementation-envir)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to Set up a Gatling Test's Implementation Environment 🌟 covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
   - [How to Use RegEx Extractor in Gatling Projects](https://dzone.com/articles/how-to-use-regex-extractor-in-gatling-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to Use RegEx Extractor in Gatling Projects covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
+  - [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Perfomance Testing with Gatling covering Gatling in Performance Testing With Jenkins And Jmeter (dzone.com).
 ## Gatling And Maven
 
   - [How to Use Gatling With Maven](https://dzone.com/articles/how-to-use-gatling-with-maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for How to Use Gatling With Maven covering Gatling and Maven in Performance Testing With Jenkins And Jmeter (dzone.com).
@@ -83,9 +83,9 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - [DZone.com: 2 ways to integrate jmeter tests into jenkins](https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for DZone.com: 2 ways to integrate jmeter tests into jenkins covering Jenkins and JMeter in Performance Testing With Jenkins And Jmeter (dzone.com).
 ## Jmeter
 
+  - [Dzone: Apache JMeter Keyboards shortcuts](https://dzone.com/articles/apache-jmeter-keyboard-shortcuts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Apache JMeter Keyboards shortcuts covering JMeter in Performance Testing With Jenkins And Jmeter (dzone.com).
   - [Dzone: JMeter tutorial](https://dzone.com/articles/jmeter-tutorial-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: JMeter tutorial covering JMeter in Performance Testing With Jenkins And Jmeter (dzone.com).
   - [Dzone: JMeter tutorial for beginners](https://dzone.com/articles/jmeter-tutorial-for-beginners-jmeter-load-testing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: JMeter tutorial for beginners covering JMeter in Performance Testing With Jenkins And Jmeter (dzone.com).
-  - [Dzone: Apache JMeter Keyboards shortcuts](https://dzone.com/articles/apache-jmeter-keyboard-shortcuts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: Apache JMeter Keyboards shortcuts covering JMeter in Performance Testing With Jenkins And Jmeter (dzone.com).
 ## Jmeter Based Cloud Solutions
 
   - [flood.io](https://www.tricentis.com/products/performance-testing-neoload?utm_source=flood.io&utm_medium=referral) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for flood.io covering JMeter based Cloud solutions in Performance Testing With Jenkins And Jmeter (tricentis.com).
@@ -162,7 +162,7 @@ description: "Top Performance Testing With Jenkins And Jmeter resources for 2026
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Catchpoint's acquisition of WebPageTest, the industry-standard front-end performance auditing tool. Synthesizing live ecosystem changes, the platform continues to operate as an essential resource for tracing core web vitals and waterfall execution charts, bolstered by Catchpoint's global infrastructure.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md) | [SRE](./sre.md)
+💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

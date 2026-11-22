@@ -1,5 +1,5 @@
 ---
-description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy Agent, Policy Reporter and more — curated Cloud Native tools, guides and references."
+description: "Top Securityascode resources for 2026, AI-ranked: Cloud Custodian, OPA Open Policy Agent and more — curated Cloud Native tools, guides and references."
 ---
 # Security Policy as Code
 
@@ -11,10 +11,10 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 
 ## Azure Policy
 
-  - **(2026)** [How We're Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees](https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An early technical overview of Scam Alert, an on-device machine learning model alerting users about potential scam messages while protecting E2EE.
-  - **(2026)** [Using AI to chart a course for our post-quantum migration](https://blog.cloudflare.com/ai-driven-cryptography-discovery) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare introduces CryptoLabe, an internal AI-powered tool designed to discover cryptography usage across its codebase.
   - **(2026)** [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare announces its intent to become a public CA to provide free, automated, post-quantum resilient certificates at global scale.
   - **(2026)** [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare details its upcoming support for Merkle Tree Certificates (MTCs) to solve the scale and performance challenges of post-quantum cryptography.
+  - **(2026)** [How We're Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees](https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An early technical overview of Scam Alert, an on-device machine learning model alerting users about potential scam messages while protecting E2EE.
+  - **(2026)** [Using AI to chart a course for our post-quantum migration](https://blog.cloudflare.com/ai-driven-cryptography-discovery) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare introduces CryptoLabe, an internal AI-powered tool designed to discover cryptography usage across its codebase.
   - **(2026)** [We tested our own WAF with frontier AI models. Here's what we found](https://blog.cloudflare.com/adaptive-ai-waf-testing) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Cloudflare engineered an adaptive AI-driven WAF testing loop that mutates attack vectors to uncover hidden evasion techniques.
 ## Cloud Infrastructure
 
@@ -80,8 +80,8 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
 #### Kyverno (1)
 
   - **(2026)** [kyverno.io: Auto-Gen Rules for Pod Controllers](https://kyverno.io/docs/writing-policies/autogen) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates how Kyverno automatically propagates policies applied to raw Pod specs to downstream controllers (Deployments, DaemonSets, StatefulSets). Simplifies security operations by validating configurations at high-level workloads rather than only catching errors at low-level pod schedulers.
-  - **(2020)** [neonmirrors.net: Exploring Kyverno: Part 3, Generation](https://neonmirrors.net/post/2020-12/exploring-kyverno-part3) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive technical exploration into Kyverno's generation rules, demonstrating how the policy engine can automatically provision ancillary resources, like NetworkPolicies or ConfigMaps, whenever a new namespace is initialized. Optimizes cluster bootstrapping without custom operators.
   - **(2020)** [neonmirrors.net: Exploring Kyverno: Introduction 🌟](https://neonmirrors.net/post/2020-11/exploring-kyverno-intro) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational introductory article dissecting the architecture and operational benefits of adopting Kyverno. Contrasts it with custom-coded validating webhooks and details its direct design philosophy of aligning container policy administration with idiomatic Kubernetes constructs.
+  - **(2020)** [neonmirrors.net: Exploring Kyverno: Part 3, Generation](https://neonmirrors.net/post/2020-12/exploring-kyverno-part3) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive technical exploration into Kyverno's generation rules, demonstrating how the policy engine can automatically provision ancillary resources, like NetworkPolicies or ConfigMaps, whenever a new namespace is initialized. Optimizes cluster bootstrapping without custom operators.
 #### Kyverno Releases
 
   - **(2021)** [nirmata.com: Introducing Kyverno 1.4.2: Trusted And More Efficient!](https://nirmata.com/2021/08/18/introducing-kyverno-1-4-2-trusted-and-more-efficient) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews release-specific improvements introduced in Kyverno v1.4.2, highlighting optimizations in validation speeds, improved caching models, and expanded schema support. Provides performance benchmarks of Kyverno when subjected to scale workloads across massive enterprise orchestrators.
@@ -157,9 +157,9 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - **(2020)** [kyverno.io/policies 🌟](https://kyverno.io/policies) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official catalog of Kyverno policies, providing ready-to-deploy manifests for Pod Security standards, multi-tenant workspace isolation, label validation, and compliance auto-generation.
 ## Kyverno (2)
 
-  - [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.solarwinds.com/blog/category/incident-response) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for squadcast.com: Kyverno - Policy Management in Kubernetes 🌟 covering Kyverno in Securityascode (solarwinds.com).
   - [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check-deprecated-apis/check-deprecated-apis) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical documentation and implementation reference for kyverno.io: Check deprecated APIs 🌟 covering Kyverno in Securityascode (kyverno.io).
   - [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://www.techtarget.com/it-infrastructure/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps covering Kyverno in Securityascode (techtarget.com).
+  - [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.solarwinds.com/blog/category/incident-response) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for squadcast.com: Kyverno - Policy Management in Kubernetes 🌟 covering Kyverno in Securityascode (solarwinds.com).
 ## Platform and Site Reliability
 
 ### DevOps
@@ -232,7 +232,7 @@ description: "Top Securityascode resources for 2026, AI-ranked: OPA Open Policy 
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Docker Hardened Images for Every Developer covering Docker Security in Docker (docker.com).
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [IaC](./iac.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Pulumi](./pulumi.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [Cloudflare](./cloudflare.md) | [AI Agents MCP](./ai-agents-mcp.md)
 

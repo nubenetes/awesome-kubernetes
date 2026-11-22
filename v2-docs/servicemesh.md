@@ -218,8 +218,8 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 
   - [==itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟==](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41?gi=f17cdb565828) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟 covering Introduction in Servicemesh (itnext.io).
   - [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide/-2021) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development covering Introduction in Servicemesh (infoq.com).
-  - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Service Mesh Is Still Hard covering Introduction in Servicemesh (cncf.io).
   - [cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options covering Introduction in Servicemesh (cncf.io).
+  - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Service Mesh Is Still Hard covering Introduction in Servicemesh (cncf.io).
 ## Linkerd Service Mesh
 
   - [cncf.io: Protocol detection and opaque ports in Linkerd](https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for cncf.io: Protocol detection and opaque ports in Linkerd covering Linkerd Service Mesh in Servicemesh (cncf.io).
@@ -259,5 +259,5 @@ description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes
 ---
 💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

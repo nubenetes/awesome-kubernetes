@@ -168,9 +168,9 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [cloud.google.com: 5 cheat sheets to help you get started on your Google Cloud journey 🌟](https://cloud.google.com/blog/products/gcp/5-google-cloud-product-cheat-sheets-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A visual curation of visual decision trees and cheat sheets for GCP products. Useful for quick architecture mapping of compute options, database services, and hybrid setups.
 #### Training
 
-  - **(2026)** [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive introductory article mapping out GCP foundational structures, virtual machine instances, VPC networking, storage classes, and certification paths for beginners.
-  - **(2026)** [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Google Cloud's strategic global training initiative, aiming to upskill developers via Google Cloud Skills Boost, interactive learning labs, and modular path certifications.
   - **(2026)** [cloud.google.com: How to get started with Google Cloud: Introducing our new learning hub and learning benefits for Innovators](https://cloud.google.com/blog/topics/training-certifications/new-learning-hub-and-benefits-for-google-cloud-innovators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces Google Cloud's community-driven learning hub for Innovators, detailing access to free learning resources, interactive codelabs, live expert sessions, and peer-to-peer networking.
+  - **(2026)** [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Google Cloud's strategic global training initiative, aiming to upskill developers via Google Cloud Skills Boost, interactive learning labs, and modular path certifications.
+  - **(2026)** [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive introductory article mapping out GCP foundational structures, virtual machine instances, VPC networking, storage classes, and certification paths for beginners.
 ### Security
 
 #### IAM
@@ -184,8 +184,8 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [zdnet.com: Google Cloud rolls out new security tools as threat landscape heats up](https://www.zdnet.com/article/google-cloud-rolls-out-new-security-tools-as-threat-landscape-heats-up) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of Google Cloud's enhanced security integrations, detailing updates to Security Command Center, zero-trust tools, and threat protection measures to counter cloud-targeted attacks.
 #### Secrets Management
 
-  - **(2026)** [techradar.com: Google Cloud is making it easier for developers to smuggle ‘secrets’ in their code](https://www.techradar.com/news/google-cloud-is-making-it-easier-for-developers-to-smuggle-secrets-in-their-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights GCP developer platform updates aimed at facilitating secure, automated secret consumption in source codes, eliminating plain-text secrets risk using native IDE-to-Secret Manager integrations.
   - **(2026)** [cloud.google.com: Secret Manager Best Practices](https://docs.cloud.google.com/secret-manager/docs/best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive best practices documentation for GCP Secret Manager, reviewing rotation cycles, least-privilege IAM control policies, encryption key layers, and secure access audits.
+  - **(2026)** [techradar.com: Google Cloud is making it easier for developers to smuggle ‘secrets’ in their code](https://www.techradar.com/news/google-cloud-is-making-it-easier-for-developers-to-smuggle-secrets-in-their-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights GCP developer platform updates aimed at facilitating secure, automated secret consumption in source codes, eliminating plain-text secrets risk using native IDE-to-Secret Manager integrations.
 ### Serverless
 
 #### Cloud Run
@@ -350,7 +350,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: db-auth-gat
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Ibm_Cloud](./ibm_cloud.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Enterprise AI Platforms](./enterprise-ai-platforms.md)
 

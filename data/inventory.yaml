@@ -743436,14 +743436,15 @@ https://github.com/kubernetes/kubernetes:
   - Container Orchestration
   - Kubernetes
   tags:
+  - '[CLOUD-NATIVE]'
+  - '[CONTAINER-ORCHESTRATION]'
   - '[DE FACTO STANDARD]'
   - '[ENTERPRISE-STABLE]'
-  - '[CONTAINER-ORCHESTRATION]'
-  - '[CLOUD-NATIVE]'
   - '[MICROSERVICES]'
   v1_locations:
   - docs/cicd-kubernetes-plugins.md
-  v2_locations: []
+  v2_locations:
+  - cicd-kubernetes-plugins.md
   youtube_mosaic: {}
   impact_score: 100
   reputation_status: Vetted

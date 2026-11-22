@@ -63,8 +63,8 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
 
 #### Agile Platforms
 
-  - **(2026)** [Jira](https://www.atlassian.com/software/jira)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry-standard agile project management and issue-tracking platform. Widely integrated with Git providers and CI/CD triggers to coordinate work items across scale-out software development and platform engineering teams.
   - **(2026)** [ifuckinghatejira.com](https://ifuckinghatejira.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A satirical community-run portal expressing development team frustrations with overly complex Agile/Jira administrative overhead, emphasizing the need for streamlined development workflows.
+  - **(2026)** [Jira](https://www.atlassian.com/software/jira)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry-standard agile project management and issue-tracking platform. Widely integrated with Git providers and CI/CD triggers to coordinate work items across scale-out software development and platform engineering teams.
   - **(2021)** [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the rebranding and feature expansion of Clubhouse into Shortcut, reinforcing its identity as a fast, highly collaborative agile task and workflow tracking platform built for growth-stage engineering teams.
 #### Open Source PM
 
@@ -81,11 +81,11 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
   - **(2022)** [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive database index mapping popular proprietary SaaS applications to functional, privacy-focused open-source alternatives, assisting companies in reducing licensing expenditures.
 #### Github Shortcuts
 
-  - **(2026)** [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard browser shortcut (`repo.new`) designed to route authenticated developer sessions directly to GitHub's repository creation workspace. Enables rapid workspace initialization and deployment pipeline seeding.
   - **(2026)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
+  - **(2026)** [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard browser shortcut (`repo.new`) designed to route authenticated developer sessions directly to GitHub's repository creation workspace. Enables rapid workspace initialization and deployment pipeline seeding.
 
 ---
-💡 **Explore Related:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md) | [SRE](./sre.md)
+💡 **Explore Related:** [SRE](./sre.md) | [DevOps](./devops.md) | [Developerportals](./developerportals.md)
 
-🔗 **See Also:** [Kubernetes Troubleshooting](./kubernetes-troubleshooting.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

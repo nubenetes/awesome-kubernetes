@@ -21,8 +21,8 @@ description: "Curated, AI-ranked AWS Pricing resources for the 2026 Cloud Native
   - **(2021)** [**ec2.shop: Compare AWS EC2 instance price from the CLI**](https://ec2.shop) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A terminal-based tool enabling fast comparisons of EC2 instance types, pricing, and configurations directly from the command line. Significantly reduces operational friction for engineers sizing cloud compute resources.
 #### Compute Costs
 
-  - **(2020)** [**May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard' Reserved Instances**](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details systemic price reductions for EC2 Instance Savings Plans and Standard Reserved Instances. Highlights AWS's continuous price adjustments and the architectural shift towards commitment-based financial engineering models.
   - **(2020)** [**infoq.com: AWS Launches Low-Cost Burstable T4g Instances Powered by AWS' Graviton2**](https://www.infoq.com/news/2020/09/aws-ec2-t4g-instances) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Discusses the deployment of ARM64 Graviton2-powered burstable T4g instances on AWS. Outlines the raw price-to-performance value, noting up to 40% improvements over comparable x86-based environments.
+  - **(2020)** [**May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard' Reserved Instances**](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details systemic price reductions for EC2 Instance Savings Plans and Standard Reserved Instances. Highlights AWS's continuous price adjustments and the architectural shift towards commitment-based financial engineering models.
 #### Database Infrastructure
 
   - **(2022)** [**aws.amazon.com: Exploring Data Transfer Costs for AWS Managed Databases**](https://aws.amazon.com/blogs/architecture/exploring-data-transfer-costs-for-aws-managed-databases) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Breaks down inter-zone and multi-region data transfer charges on AWS managed databases. Presents structural models designed to minimize data transfer egress bills within multi-tier application layouts.
@@ -65,7 +65,7 @@ description: "Curated, AI-ranked AWS Pricing resources for the 2026 Cloud Native
   - **(2022)** [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/kubernetes/7-tips-for-cutting-down-your-aws-kubernetes-bill) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural techniques to trim EKS clusters expenditures, describing auto-scalers (Karpenter), spot instances usage, strict namespace limits, and FinOps practices to optimize CPU allocation.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

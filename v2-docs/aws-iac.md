@@ -14,8 +14,8 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
   - **(2026)** [Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode](https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode covering AWS CloudFormation in AWS IaC (aws.amazon.com).
 ## AWS Cloudformation. Free Templates
 
-  - [AWS Cloud Formation Release History](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/doc-history.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Cloud Formation Release History covering AWS CloudFormation. Free Templates in AWS IaC (docs.aws.amazon.com).
   - [All the AWS Resource Types Reference for AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-template-resource-type-ref.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for All the AWS Resource Types Reference for AWS CloudFormation covering AWS CloudFormation. Free Templates in AWS IaC (docs.aws.amazon.com).
+  - [AWS Cloud Formation Release History](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/doc-history.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for AWS Cloud Formation Release History covering AWS CloudFormation. Free Templates in AWS IaC (docs.aws.amazon.com).
 ## Cloud Computing
 
 ### AWS
@@ -69,11 +69,11 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
   - **(2021)** [cloudonaut.io: Getting Started with Free Templates for AWS CloudFormation](https://cloudonaut.io/getting-started-with-aws-cf-templates)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural guide demonstrates how to deploy production-grade AWS workloads using highly optimized, open-source CloudFormation templates. It details robust configurations for basic networks (VPC), load balancing, and secure compute platforms, ensuring teams avoid common security missteps.
 #### Storage Configuration
 
-  - **(2022)** [cloudkatha.com: How to Setup S3 Bucket CORS Configuration using CloudFormation](https://cloudkatha.com/how-to-setup-s3-bucket-cors-configuration-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical step-by-step developer tutorial outlining how to declare and format AWS S3 Bucket CORS rules using declarative CloudFormation YAML schemas. Explains proper syntax structures for configuring origins, allowed methods, headers, and security metrics.
   - **(2022)** [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detailing the YAML patterns required to create and lock down basic AWS S3 buckets inside CloudFormation templates. It details parameters for versioning rules, basic access controls, and server-side encryption.
+  - **(2022)** [cloudkatha.com: How to Setup S3 Bucket CORS Configuration using CloudFormation](https://cloudkatha.com/how-to-setup-s3-bucket-cors-configuration-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical step-by-step developer tutorial outlining how to declare and format AWS S3 Bucket CORS rules using declarative CloudFormation YAML schemas. Explains proper syntax structures for configuring origins, allowed methods, headers, and security metrics.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

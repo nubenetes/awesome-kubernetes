@@ -1,5 +1,5 @@
 ---
-description: "Top AWS DevOps resources for 2026, AI-ranked: Amazon DevOps Guru, AWS DevOps and more — curated Cloud Native tools, guides and references."
+description: "Top AWS DevOps resources for 2026, AI-ranked: Amazon DevOps Guru, AWS DevOps Blog and more — curated Cloud Native tools, guides and references."
 ---
 # AWS DevOps. AWS CodePipeline
 
@@ -75,11 +75,11 @@ description: "Top AWS DevOps resources for 2026, AI-ranked: Amazon DevOps Guru, 
   - **(2026)** [admiralty.io](https://admiralty.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official platform of Admiralty, an advanced multi-cluster proxy scheduler designed to programmatically dispatch workloads across physical, virtual, or serverless Kubernetes namespaces.
 #### Serverless Integration
 
-  - **(2021)** [thenewstack.io: Making Kubernetes Serverless and Global with AWS Fargate on EKS and Admiralty](https://thenewstack.io/making-kubernetes-serverless-and-global-with-aws-fargate-on-eks-and-admiralty) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigative analysis showcasing how Admiralty can coordinate with AWS Fargate serverless containers in an EKS environment to deploy globally distributed applications with low operational overhead.
   - **(2021)** [admiralty.io: Multi-Region AWS Fargate on EKS](https://admiralty.io/docs/tutorials/fargate) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Granular implementation tutorial for deploying Admiralty proxy schedulers to configure cross-cluster communication channels that target serverless AWS Fargate environments in multi-region setups.
+  - **(2021)** [thenewstack.io: Making Kubernetes Serverless and Global with AWS Fargate on EKS and Admiralty](https://thenewstack.io/making-kubernetes-serverless-and-global-with-aws-fargate-on-eks-and-admiralty) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigative analysis showcasing how Admiralty can coordinate with AWS Fargate serverless containers in an EKS environment to deploy globally distributed applications with low operational overhead.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AWS](./aws.md) | [MLOps](./mlops.md)
 

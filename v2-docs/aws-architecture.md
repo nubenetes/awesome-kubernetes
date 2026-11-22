@@ -91,8 +91,8 @@ description: "Top AWS Architecture resources for 2026, AI-ranked: AWS Official B
   - **(2023)** [infoq.com: AWS Updates the Well-Architected Framework](https://www.infoq.com/news/2023/04/aws-well-architected-framework)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes key revisions to the AWS Well-Architected Framework. Reviews shifts in security baseline configurations, serverless deployment guidelines, and the sustainability assessment pillar.
 #### Cloud Governance
 
-  - **(2023)** [Strategies for consolidating AWS environments](https://aws.amazon.com/de/blogs/mt/strategies-for-consolidating-aws-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details architectural strategies for consolidating multi-account AWS environments. Explores AWS Organizations setups, control tower governance, and billing unification across enterprise structures.
   - **(2023)** [Maintain visibility over the use of cloud architecture patterns](https://aws.amazon.com/blogs/architecture/maintain-visibility-over-the-use-of-cloud-architecture-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines frameworks and tools to track, map, and enforce specific cloud architecture patterns across decentralized developer teams, helping prevent systemic configuration drift.
+  - **(2023)** [Strategies for consolidating AWS environments](https://aws.amazon.com/de/blogs/mt/strategies-for-consolidating-aws-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details architectural strategies for consolidating multi-account AWS environments. Explores AWS Organizations setups, control tower governance, and billing unification across enterprise structures.
 #### Design Blueprints
 
   - **(2023)** [AWS application-architecture](https://www.conceptdraw.com/examples/application-architecture) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architecture drafting resource providing standard AWS application design templates, components, and layout blocks. Essential for mapping out multi-tier cloud services.
@@ -122,7 +122,7 @@ description: "Top AWS Architecture resources for 2026, AI-ranked: AWS Official B
   - **(2023)** [Let’s Architect! Architecting microservices with containers](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-microservices-with-containers)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A foundational guide for decoupling large legacy applications. Explores container hosting options on ECS and EKS, microservice discovery patterns, and inter-service security standards.
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 

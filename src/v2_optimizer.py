@@ -429,8 +429,9 @@ class V2VisionEngine:
             log_event(f"  [!] Error generating V2 mosaic dynamically: {e}")
             mosaic_html = ""
 
-        for root, _, files in os.walk(V1_DIR):
-            for file in files:
+        for root, dirs, files in os.walk(V1_DIR):
+            dirs.sort()
+            for file in sorted(files):
                 if not file.endswith(".md") or file == "index.md": continue
                 path = os.path.join(root, file)
                 with open(path, "r") as f: content = f.read()
@@ -1099,6 +1100,8 @@ class V2VisionEngine:
                         -(x.get("stars") or 1),
                         -float(x.get("momentum_score") or compute_momentum_score(x)),
                         -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0),
+                        (x.get("title") or "").lower(),
+                        (x.get("url") or "").lower(),
                     )
                 )
             for k, v in node.items():
@@ -1958,7 +1961,14 @@ class V2VisionEngine:
                         _collect_links(_v, acc)
                 return acc
             _page_links = _collect_links(info["content"], [])
-            _page_links.sort(key=lambda x: (-(x.get("stars") or 0), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
+            _page_links.sort(
+                key=lambda x: (
+                    -(x.get("stars") or 0),
+                    -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0),
+                    (x.get("title") or "").lower(),
+                    (x.get("url") or "").lower(),
+                )
+            )
             _names, _seen_names = [], set()
             for _l in _page_links:
                 _nm = nuclear_strip(str(_l.get("title", "")))
@@ -2385,22 +2395,39 @@ class V2VisionEngine:
                     log_event(f"[WARN] awesome-lists header failed: {str(e)[:100]}")
             md += _body
 
-            # Add Semantic "See Also" — same dimension + cross-dimension by shared tags
-            same_dim = [f for f in data if f != f_name and data[f]["dim"] == info["dim"]]
-            cross_dim = []
+            # Add Semantic "See Also" — deterministic same-dimension + top tag-overlapping cross-dimension
+            _generic_tags = {
+                "[COMMUNITY-TOOL]", "[ENTERPRISE-STABLE]", "[DE FACTO STANDARD]",
+                "[EMERGING]", "[LEGACY]", "[GUIDE]", "[CASE STUDY]",
+                "[DOCUMENTATION]", "[ADVANCED LEVEL]",
+            }
+            _dim_order_map = {
+                (slug + ".md" if not slug.endswith(".md") else slug): idx
+                for idx, slug in enumerate(self.dimensions.get(info["dim"], []))
+            }
+            same_dim = sorted(
+                [f for f in data if f != f_name and data[f]["dim"] == info["dim"]],
+                key=lambda f: (_dim_order_map.get(f, 999), f.lower()),
+            )
+            cross_dim_scored = []
             if info.get("content") and isinstance(info["content"], dict):
                 page_tags = set()
                 for node_links in self._collect_tags_from_tree(info["content"]):
                     page_tags.update(node_links)
-                if page_tags:
-                    for f in data:
+                specific_page_tags = {t for t in page_tags if t not in _generic_tags}
+                match_tags = specific_page_tags or page_tags
+                if match_tags:
+                    for f in sorted(data.keys()):
                         if f != f_name and data[f]["dim"] != info["dim"]:
                             other_tags = set()
                             if isinstance(data[f].get("content"), dict):
                                 for t in self._collect_tags_from_tree(data[f]["content"]):
                                     other_tags.update(t)
-                            if page_tags & other_tags:
-                                cross_dim.append(f)
+                            overlap = len(match_tags & other_tags)
+                            if overlap > 0:
+                                cross_dim_scored.append((-overlap, f.lower(), f))
+            cross_dim_scored.sort()
+            cross_dim = [f for _, _, f in cross_dim_scored]
             related = [f"[{data[f]['title']}](./{f})" for f in same_dim[:3]]
             cross = [f"[{data[f]['title']}](./{f})" for f in cross_dim[:2]]
             if related or cross:

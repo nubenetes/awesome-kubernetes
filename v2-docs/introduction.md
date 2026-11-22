@@ -30,6 +30,11 @@ graph TD
 
 ## Standard Reference
 
+??? note "betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture"
+    **[Access Resource](https://awstip.com/how-to-transform-a-monolith-application-into-a-microservices-architecture-1e00363a03ba?gi=a1cd21714ef8)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Technical documentation and architectural reference for betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture in the Introduction ecosystem (awstip.com).
+
 ??? note "blog.devgenius.io: Distributed Monolith"
     **[Access Resource](https://blog.devgenius.io/distributed-monolith-1d2d9f86a68f?gi=193994382a71)** 🌟🌟🌟🌟🌟 | Level: Intermediate
     
@@ -45,17 +50,12 @@ graph TD
     
     Technical documentation and architectural reference for itnext.io: You Don’t Need Microservices 🌟 in the Introduction ecosystem (itnext.io).
 
-??? note "betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture"
-    **[Access Resource](https://awstip.com/how-to-transform-a-monolith-application-into-a-microservices-architecture-1e00363a03ba?gi=a1cd21714ef8)** 🌟🌟🌟🌟🌟 | Level: Intermediate
-    
-    Technical documentation and architectural reference for betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture in the Introduction ecosystem (awstip.com).
-
   - [levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices Architecture? 🌟](https://levelup.gitconnected.com/do-you-know-distributed-job-scheduling-in-microservices-architecture-44082adad8ac?gi=44950d221c7d) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices Architecture? 🌟 in the Introduction ecosystem (levelup.gitconnected.com).
+  - [cncf.io: How to justify infrastructure replacement to your manager](https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: How to justify infrastructure replacement to your manager in the Introduction ecosystem (cncf.io).
   - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: Top 7 challenges to becoming cloud native in the Introduction ecosystem (cncf.io).
-  - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for How Your Application Architecture Has Evolved 🌟 in the Introduction ecosystem (dzone.com).
   - [dzone: Top 6 Time Wastes as a Software Engineer](https://dzone.com/articles/top-time-wastes-as-a-software-engineer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Top 6 Time Wastes as a Software Engineer in the Introduction ecosystem (dzone.com).
   - [dzone: Transitioning from Monolith to Microservices (with python django' example)](https://dzone.com/articles/transitioning-from-monolith-to-microservices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for dzone: Transitioning from Monolith to Microservices (with python django' example) in the Introduction ecosystem (dzone.com).
-  - [cncf.io: How to justify infrastructure replacement to your manager](https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for cncf.io: How to justify infrastructure replacement to your manager in the Introduction ecosystem (cncf.io).
+  - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and architectural reference for How Your Application Architecture Has Evolved 🌟 in the Introduction ecosystem (dzone.com).
 
 ## Application Modernization
 
@@ -107,8 +107,8 @@ graph TD
   - **(2023)** [devops.com: 8 Hot Takes: Will We See a Monolithic Renaissance?](https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the potential return to macro-services or modular monoliths to address the operational overhead, network latency, and complex debugging of over-engineered microservice fleets.
 #### Twelve-factor App
 
-  - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
   - **(2023)** [architecturenotes.co: 12 Factor App Revisited](https://architecturenotes.co/p/12-factor-app-revisited)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critically evaluates how classic 12-Factor concepts have aged. Addresses the challenges of serverless scaling, API-first interfaces, distributed telemetry, and modern build/release pipelines.
+  - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
   - **(2021)** [opensource.com: An open source developer's guide to 12-Factor App methodology](https://opensource.com/article/21/11/open-source-12-factor-app-methodology)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the application of 12-Factor methodology to open-source project standards. Highlights maintaining statelessness, dependency isolation, and configuration separation to simplify multi-environment testing and distribution.
 ### Saas
 
@@ -745,8 +745,8 @@ graph TD
   - **(2024)** [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduce los principios de la computación cuántica de manera accesible mediante la analogía de una moneda girando para ilustrar la superposición. Destaca el impacto potencial de los cúbits frente a la computación clásica.
 ## Event Driven Architecture EDA
 
-  - [maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed? 🌟](https://thedeepakmaheshwari.medium.com/why-event-driven-architecture-eda-is-needed-fac2f00f25a8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed? 🌟 covering Event Driven Architecture EDA in Introduction (thedeepakmaheshwari.medium.com).
   - [levelup.gitconnected.com: Error Handling in Event-Driven Systems](https://levelup.gitconnected.com/error-handling-in-event-driven-systems-1f0a7ef2cfb7?gi=d5cecb99d6a0) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Error Handling in Event-Driven Systems covering Event Driven Architecture EDA in Introduction (levelup.gitconnected.com).
+  - [maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed? 🌟](https://thedeepakmaheshwari.medium.com/why-event-driven-architecture-eda-is-needed-fac2f00f25a8) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed? 🌟 covering Event Driven Architecture EDA in Introduction (thedeepakmaheshwari.medium.com).
 ## Frontend Architecture
 
 ### Design Patterns (2)
@@ -843,8 +843,8 @@ graph TD
 
 #### Technical Debt (4)
 
-  - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
   - **(2023)** [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the inevitability of technical debt as cloud environments and architectures naturally age. Argues that cloud adoption does not eliminate debt but merely shifts it to configuration, infrastructure, and IaC domains.
+  - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
 ## Micro Frontend Architecture. Microservices For The Frontend
 
   - [levelup.gitconnected.com: Micro Frontend Architecture](https://levelup.gitconnected.com/micro-frontend-architecture-794442e9b325?gi=6af70982ae8c) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for levelup.gitconnected.com: Micro Frontend Architecture covering Micro Frontend Architecture. Microservices for the Frontend in Introduction (levelup.gitconnected.com).
@@ -1268,7 +1268,7 @@ graph TD
   - [faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services](https://faun.pub/what-is-difference-of-event-driven-architecture-message-driven-architecture-and-microservices-f5623e51f868?gi=ad91ab56fdd9) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services covering Understanding the Differences Between Event-Driven Message-Driven and Microservices Architectures in Introduction (faun.pub).
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Faq](./faq.md) | [Kubernetes](./kubernetes.md) | [Linux](./linux.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [Azure](./azure.md)
 

@@ -93,8 +93,8 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
   - **(2022)** [A step-by-step guide to synchronize data between Amazon S3 buckets](https://aws.amazon.com/blogs/storage/a-step-by-step-guide-to-synchronize-data-between-amazon-s3-buckets) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step engineering blueprint outlining how to execute multi-TB synchronization loops between distinct S3 buckets using CLI, AWS Batch, and replication mechanisms. Crucial for disaster recovery planning and regional migration strategies.
 #### Storage Lifecycle
 
-  - **(2022)** [cloudkatha.com: AWS S3 Storage Classes: Everything You Need to Know](https://cloudkatha.com/aws-s3-storage-classes-everything-you-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive deep-dive into AWS S3 storage classes, analyzing latency specs, durability SLA patterns, and price points of different tiers. Highly valuable for data platform engineers designing lifecycle transition rules to automate low-cost cold storage.
   - **(2022)** [acloudguru.com: S3 Glacier Instant Retrieval deep dive: Which S3 Storage Class is right for me?](https://www.pluralsight.com/resources/blog/cloud/s3-glacier-instant-retrieval-deep-dive-which-s3-storage-class-is-right-for-me)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide on the S3 Glacier Instant Retrieval storage class. It breaks down the math of retrieval cost vs storage tier pricing models, helping platform engineers choose the optimal tier for instant-access archival files.
+  - **(2022)** [cloudkatha.com: AWS S3 Storage Classes: Everything You Need to Know](https://cloudkatha.com/aws-s3-storage-classes-everything-you-need-to-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive deep-dive into AWS S3 storage classes, analyzing latency specs, durability SLA patterns, and price points of different tiers. Highly valuable for data platform engineers designing lifecycle transition rules to automate low-cost cold storage.
 ### S3 API Compatibility
 
 #### S3 Security
@@ -119,7 +119,7 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
   - [awstip.com: Uploading files to S3 through API Gateway](https://awstip.com/uploading-files-to-s3-through-api-gateway-7bb78c0d0483?gi=235aba4fa637) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — When you have a front-end application and need to upload files to an S3 bucket securely and keep your bucket private, you can use API Gateway to post your files to S3. If you don´t want to make any modifications to the file and upload it as is, you can upload the files directly from API Gateway to S3. But if some modifications are required, you may consider using Lambda to receive the request from API Gateway and upload to S3.we will not use Lambda.
 
 ---
-💡 **Explore Related:** [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [AWS](./aws.md) | [Azure](./azure.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [Uncategorized](./uncategorized.md)
 

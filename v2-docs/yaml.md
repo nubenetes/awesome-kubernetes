@@ -32,8 +32,8 @@ description: "Top Yaml resources for 2026, AI-ranked: Polaris, KubeLinter and mo
 
 #### Advanced Templating
 
-  - **(2022)** [**ytt**](https://get-ytt.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A structured, command-line template engine designed to process YAML files as semantic AST objects rather than raw strings. Developed by VMware Carvel, ytt uses Python-like Starlark code to safely patch, template, and validate complex cloud-native resource manifests.
   - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
+  - **(2022)** [**ytt**](https://get-ytt.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A structured, command-line template engine designed to process YAML files as semantic AST objects rather than raw strings. Developed by VMware Carvel, ytt uses Python-like Starlark code to safely patch, template, and validate complex cloud-native resource manifests.
 #### CLI Operations
 
   - **(2021)** [==Kubectl output options 🌟==](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated technical guide detailing advanced kubectl formatting options. It covers jsonpath extractions, custom columns, and Go templating recipes. This cheat sheet is incredibly valuable for platform engineers querying complex cluster statuses directly from the command line.
@@ -97,9 +97,9 @@ description: "Top Yaml resources for 2026, AI-ranked: Polaris, KubeLinter and mo
 #### Basics
 
   - **(2022)** [spacelift.io/blog/yaml](https://spacelift.io/blog/yaml) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed Spacelift blog covering modern YAML conventions within Infrastructure-as-Code platforms. It walks through syntax basics, list representations, and multi-document parsing. This is a handy reference for platform developers setting up CI pipelines.
-  - **(2021)** [redhat.com: YAML for beginners](https://www.redhat.com/en/blog/yaml-beginners) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An entry-level Red Hat tutorial introducing the foundational rules of YAML syntax. It covers arrays, mappings, multi-line scalar parameters, and standard key-value conventions. This is a critical starting point for developers working with GitOps templates and automation tasks.
   - **(2021)** [linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟](https://linuxhandbook.com/yaml-basics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive reference detailing common YAML errors and formatting rules. It walks through complex structures such as lists of mappings, inline JSON arrays, and multi-line literal vs folded strings. This is a core reference for resolving linting issues.
   - **(2021)** [opensource.com: Make YAML as easy as it looks](https://opensource.com/article/21/9/yaml-cheat-sheet) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical cheat sheet on opensource.com highlighting common YAML syntax formatting traps. It shows how data types are implicitly parsed, how lists represent objects, and how to format clean nested dictionaries. This is a quick-access tool for system administrators.
+  - **(2021)** [redhat.com: YAML for beginners](https://www.redhat.com/en/blog/yaml-beginners) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An entry-level Red Hat tutorial introducing the foundational rules of YAML syntax. It covers arrays, mappings, multi-line scalar parameters, and standard key-value conventions. This is a critical starting point for developers working with GitOps templates and automation tasks.
   - **(2021)** [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An article detailing the historical background and OS-level implications of choosing `.yaml` vs `.yml` file extensions. It clarifies naming behaviors across modern orchestrators and configuration parsers to ensure consistency across teams.
 #### Validation (2)
 
@@ -202,7 +202,7 @@ description: "Top Yaml resources for 2026, AI-ranked: Polaris, KubeLinter and mo
   - [jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for jsonformatter.org/yaml-validator covering YAML Validators in Yaml (jsonformatter.org).
 
 ---
-💡 **Explore Related:** [Databases](./databases.md) | [Crunchydata](./crunchydata.md) | [Message Queue](./message-queue.md)
+💡 **Explore Related:** [Databases](./databases.md) | [NoSQL](./nosql.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [Kubernetes Tools](./kubernetes-tools.md) | [AI Agents MCP](./ai-agents-mcp.md)
 

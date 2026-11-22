@@ -124,8 +124,8 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
 #### Haproxy
 
   - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
-  - **(2015)** [slideshare: Haproxy web performance](https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical presentation slides focusing on HAProxy optimizations. It targets key configurations for decreasing response latency, including Keep-Alive tuning, memory buffers, and HTTP protocol compression.
   - **(2015)** [slideshare: Haproxy best practice](https://www.slideshare.net/haproxytech/haproxy-best-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of engineering best practices for building highly available HAProxy configurations. It covers multi-tenant rate limiting, connection pooling limits, SSL offloading patterns, and syslog configurations.
+  - **(2015)** [slideshare: Haproxy web performance](https://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical presentation slides focusing on HAProxy optimizations. It targets key configurations for decreasing response latency, including Keep-Alive tuning, memory buffers, and HTTP protocol compression.
 ### Security
 
 #### Haproxy (1)
@@ -146,7 +146,7 @@ description: "Top Caching resources for 2026, AI-ranked: HAProxy, Varnish Cache 
   - [Red Hat Enterprise Linux Blog. Tag: Varnish](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Red Hat Enterprise Linux Blog. Tag: Varnish covering Varnish in Caching (redhat.com).
 
 ---
-💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Networking](./networking.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AWS Serverless](./aws-serverless.md)
 

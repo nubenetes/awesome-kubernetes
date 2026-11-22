@@ -1,5 +1,5 @@
 ---
-description: "Top About resources for 2026, AI-ranked: AWX, Argo CD and more — curated Cloud Native tools, guides and references."
+description: "Top About resources for 2026, AI-ranked: Argo CD, AWX and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 
@@ -130,11 +130,11 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 ## Artificial Intelligence
 
-  - **(2026)** [HP Inc. launches Frontier Strategic Partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for HP Inc. launches Frontier Strategic Partnership with OpenAI covering Artificial Intelligence in About (openai.com).
-  - **(2026)** [Supporting Europe's Work in Ensuring a Trustworthy AI Ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Supporting Europe's Work in Ensuring a Trustworthy AI Ecosystem covering Artificial Intelligence in About (openai.com).
-  - **(2026)** [Industrial policy for the Intelligence Age: Ideas to Keep People First](https://openai.com/index/industrial-policy-for-the-intelligence-age) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Industrial policy for the Intelligence Age: Ideas to Keep People First covering Artificial Intelligence in About (openai.com).
   - **(2026)** [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Built to benefit everyone: our plan covering Artificial Intelligence in About (openai.com).
+  - **(2026)** [HP Inc. launches Frontier Strategic Partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for HP Inc. launches Frontier Strategic Partnership with OpenAI covering Artificial Intelligence in About (openai.com).
+  - **(2026)** [Industrial policy for the Intelligence Age: Ideas to Keep People First](https://openai.com/index/industrial-policy-for-the-intelligence-age) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Industrial policy for the Intelligence Age: Ideas to Keep People First covering Artificial Intelligence in About (openai.com).
   - **(2026)** [OpenAI appoints Dali Rajic as Chief Revenue Officer](https://openai.com/index/dali-rajic-chief-revenue-officer) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for OpenAI appoints Dali Rajic as Chief Revenue Officer covering Artificial Intelligence in About (openai.com).
+  - **(2026)** [Supporting Europe's Work in Ensuring a Trustworthy AI Ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Supporting Europe's Work in Ensuring a Trustworthy AI Ecosystem covering Artificial Intelligence in About (openai.com).
 ## Automation and Orchestration
 
 ### API Orchestration
@@ -228,7 +228,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 
 
 ---
-💡 **Explore Related:** [Monitoring](./monitoring.md) | [AWS Containers](./aws-containers.md) | [Demos](./demos.md)
+💡 **Explore Related:** [Introduction](./introduction.md) | [Faq](./faq.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Chaos Engineering](./chaos-engineering.md) | [DevOps](./devops.md)
+🔗 **See Also:** [AI Agents MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 
