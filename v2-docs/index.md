@@ -131,7 +131,7 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 22, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Nov 23, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
@@ -143,10 +143,38 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Europe</div>
+  <div class="trending-card__title"><a href="https://eur-lex.europa.eu/eli/reg/2023/2854/oj">Regulation (EU) 2023/2854: The EU Data Act</a></div>
+  <div class="trending-card__meta">2026-11-22 · 🌟🌟🌟</div>
+  <div class="trending-card__why">The EU Data Act directly transforms multi-cloud architecture by mandating open switching APIs, workload portability, and the elimination of cloud egress fees.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Spain</div>
   <div class="trending-card__title"><a href="https://www.youtube.com/playlist?list=PLU_tovQ-veEc">Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)</a></div>
   <div class="trending-card__meta">2026-11-22 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Covers the General Availability of Azure Red Hat OpenShift (ARO) with Hosted Control Planes, fundamentally reducing cluster costs and tightening security isolation for enterprise Kubernetes.</div>
+  <div class="trending-card__why">Covers the General Availability of Azure Red Hat OpenShift with Hosted Control Planes, transforming enterprise Kubernetes isolation, compliance, and control-plane economics.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Asia-Pacific</div>
+  <div class="trending-card__title"><a href="https://www.softbank.jp/en">SoftBank Sovereign AI Data Center Initiative</a></div>
+  <div class="trending-card__meta">2026-11-22 · 🌟🌟🌟</div>
+  <div class="trending-card__why">SoftBank's deployment of Blackwell/GB200 AI factories and distributed AI-RAN compute nodes fundamentally reshapes sovereign telco-cloud infrastructure across Japan.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">European Sovereign Cloud</div>
+  <div class="trending-card__title"><a href="https://www.ovhcloud.com/en-ie">OVHcloud Public Cloud and Bare Metal</a></div>
+  <div class="trending-card__meta">2026-11-22 · 🌟🌟🌟</div>
+  <div class="trending-card__why">Anchors Europe's largest homegrown cloud ecosystem with SecNumCloud-qualified infrastructure, a 3-AZ Paris region, and zero egress fees that eliminate hyperscaler lock-in.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Neoclouds & GPU AI Clouds</div>
+  <div class="trending-card__title"><a href="https://github.com/NVIDIA/KAI-Scheduler">NVIDIA KAI Scheduler (Open-Source Run:ai Engine)</a></div>
+  <div class="trending-card__meta">2026-11-22 · 🌟🌟🌟</div>
+  <div class="trending-card__why">Open-sourcing the Run:ai scheduling engine brings production-grade gang scheduling, fractional GPU sharing, and fair-share preemption natively to Kubernetes Neocloud clusters.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -169,28 +197,28 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
   <div class="trending-card__meta">2026-11-05 · 5.4k★</div>
   <div class="trending-card__why">Eliminates slow container build-and-deploy loops by letting developers run local processes directly against remote Kubernetes namespaces with mirrored traffic and DNS.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/kaito-project/kaito">KAITO (Kubernetes AI Toolchain Operator)</a></div>
   <div class="trending-card__meta">2026-11-05 · 1k★</div>
   <div class="trending-card__why">KAITO is a CNCF Sandbox operator that automates GPU node provisioning and open-weight LLM/SLM inference directly on Kubernetes.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/kueue">kubernetes-sigs/kueue: Kubernetes-native Job Queueing</a></div>
   <div class="trending-card__meta">2026-11-05 · 3.1k★</div>
   <div class="trending-card__why">Kueue establishes the standard Kubernetes-native batch and AI/ML job queueing engine for multi-tenant quota management and GPU scheduling.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AWS</div>
   <div class="trending-card__title"><a href="https://aws.amazon.com/bedrock/agentcore">Amazon Bedrock AgentCore</a></div>
   <div class="trending-card__meta">2026-11-05 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">Provides a MicroVM-isolated, serverless enterprise runtime for deploying and governing autonomous AI agents in production without managing cluster infrastructure.</div>
 </div>
-<div class="trending-card">
+<div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">GCP, OCI & Others</div>
   <div class="trending-card__title"><a href="https://github.com/google/adk-python">Google Agent Development Kit (ADK)</a></div>
@@ -217,34 +245,6 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
   <div class="trending-card__title"><a href="https://github.com/opentofu/opentofu">OpenTofu Official GitHub Repository</a></div>
   <div class="trending-card__meta">2026-11-02 · 30.7k★</div>
   <div class="trending-card__why">As the Linux Foundation and CNCF-governed open-source fork of Terraform, OpenTofu introduces native client-side state encryption and reshapes enterprise IaC governance.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Europe</div>
-  <div class="trending-card__title"><a href="https://github.com/antonbabenko/pre-commit-terraform">antonbabenko/pre-commit-terraform: Git Pre-Commit and CI Hooks for Terraform and OpenTofu</a></div>
-  <div class="trending-card__meta">2026-11-02 · 3.8k★</div>
-  <div class="trending-card__why">Provides essential cloud-native IaC automation and security scanning hooks across Terraform and OpenTofu workflows for platform engineering teams.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Data, Messaging & Storage</div>
-  <div class="trending-card__title"><a href="https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga">Kubernetes v1.37: Storage Version Migration Enabled by Default</a></div>
-  <div class="trending-card__meta">2026-11-01 · 🌟🌟🌟🌟</div>
-  <div class="trending-card__why">GA graduation of Storage Version Migration in Kubernetes v1.37 fundamentally standardizes Day-2 etcd lifecycle management and API schema evolution.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">CI/CD & GitOps</div>
-  <div class="trending-card__title"><a href="https://github.com/fluxcd/flux2">github: Flux Version 2</a></div>
-  <div class="trending-card__meta">2026-11-01 · 8.5k★</div>
-  <div class="trending-card__why">Flux v2 serves as a foundational CNCF GitOps toolkit enabling decoupled, declarative, and highly parallel Kubernetes reconciliation in production.</div>
-</div>
-<div class="trending-card trending-card--extra">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Security & Compliance</div>
-  <div class="trending-card__title"><a href="https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta">Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta</a></div>
-  <div class="trending-card__meta">2026-11-01 · 🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Graduating KubeletInUserNamespace to Beta in Kubernetes v1.37 enables rootless node execution, drastically shrinking the blast radius of container escape vulnerabilities.</div>
 </div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>

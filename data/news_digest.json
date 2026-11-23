@@ -1992,12 +1992,21 @@
     ],
     "Europe": [
       {
-        "url": "https://github.com/antonbabenko/pre-commit-terraform",
-        "title": "antonbabenko/pre-commit-terraform: Git Pre-Commit and CI Hooks for Terraform and OpenTofu",
-        "date": "2026-11-02",
-        "stars": 5,
+        "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj",
+        "title": "Regulation (EU) 2023/2854: The EU Data Act",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "critical",
-        "why": "Provides essential cloud-native IaC automation and security scanning hooks across Terraform and OpenTofu workflows for platform engineering teams.",
+        "why": "The EU Data Act directly transforms multi-cloud architecture by mandating open switching APIs, workload portability, and the elimination of cloud egress fees.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+        "title": "Regulation (EU) 2022/2554: Digital Operational Resilience Act (DORA)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "DORA enforces strict operational resilience, concentration-risk controls, and tested cloud exit strategies across European financial services.",
         "category": "Europe"
       },
       {
@@ -2006,16 +2015,52 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "critical",
-        "why": "Introduces Mistral's 1-trillion parameter MoE flagship with 52B active parameters, advancing efficient open-weights frontier AI deployment in Europe.",
+        "why": "Mistral Large 4 introduces a 1-trillion-parameter MoE architecture activating 52B parameters per token, cementing European leadership in enterprise-grade frontier AI.",
         "category": "Europe"
       },
       {
-        "url": "https://github.com/langfuse/langfuse",
-        "title": "Langfuse",
-        "date": "2026-11-15",
-        "stars": 4,
+        "url": "https://www.fz-juelich.de/en/jsc/systems/supercomputers/jupiter",
+        "title": "Juelich Supercomputing Centre: JUPITER Exascale AI",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "high",
-        "why": "Delivers cloud-native, end-to-end observability, telemetry, and evaluation infrastructure required to run LLM applications and agents in production.",
+        "why": "As Europe's first exascale EuroHPC supercomputer with nearly 24,000 GH200 superchips, JUPITER provides foundational compute capacity for sovereign European AI training.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://cyber.gouv.fr/en/secnumcloud-for-cloud-service-providers",
+        "title": "ANSSI SecNumCloud Qualification Referential",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "ANSSI's SecNumCloud v3.2 referential sets the technical and legal benchmark for sovereign European cloud platforms resistant to non-EU extraterritorial jurisdiction.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://eurostack.eu",
+        "title": "EuroStack: European Digital Sovereignty Blueprint",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "EuroStack provides an actionable cross-industry blueprint mapping dependencies and open-source alternatives across European chips, sovereign IaaS/PaaS, and AI models.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.syseleven.de/en/metakube",
+        "title": "SysEleven MetaKube Managed Kubernetes",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "SysEleven MetaKube delivers production-ready, CNCF-certified managed Kubernetes on sovereign German multi-AZ OpenStack infrastructure for regulated SaaS and financial workloads.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.vshn.ch/en",
+        "title": "VSHN: Swiss Cloud Native and APPUiO Managed OpenShift",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "VSHN exemplifies European cloud-native operations by delivering managed CNCF Kubernetes and OpenShift platforms strictly hosted across sovereign Swiss infrastructure providers.",
         "category": "Europe"
       },
       {
@@ -2024,81 +2069,36 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "Marks a major milestone for European sovereign AI by providing a fully open-science foundation model tailored for enterprise deployment.",
+        "why": "Apertus 1.5 advances European sovereign AI with a fully open-science foundation model milestone tailored for transparent enterprise deployment.",
         "category": "Europe"
       },
       {
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-        "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-        "date": "2026-11-01",
+        "url": "https://github.com/langfuse/langfuse",
+        "title": "Langfuse",
+        "date": "2026-11-15",
         "stars": 4,
         "impact": "high",
-        "why": "Enables 4-bit quantized models to outperform full-precision originals, drastically lowering cloud inference compute and memory costs.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-        "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Brings an efficient 12B Mixture-of-Experts model from JetBrains to accelerate context-aware code generation and software engineering workflows.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-        "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Strengthens enterprise trust in Model Context Protocol (MCP) agent architectures through explicit source-aware verification beyond basic fact-checking.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://openai.com/index/sophos",
-        "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Demonstrates large-scale enterprise SecOps transformation by slashing Managed Detection and Response threat investigation times by 96% with agentic AI.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://huggingface.co/blog/Hcompany/holo4",
-        "title": "Holo4: powering generalist computer-use agents",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Advances generalist computer-use automation with a specialized Vision Language Model engineered to drive real-world agentic UI workflows.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://huggingface.co/blog/evaleval-aisi",
-        "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Establishes open, reproducible AI benchmarking infrastructure backed by the UK AI Security Institute to support rigorous enterprise model evaluation.",
+        "why": "Langfuse provides open-source, end-to-end telemetry and evaluation capabilities essential for operating production LLM applications and AI agents in cloud-native stacks.",
         "category": "Europe"
       }
     ],
     "Spain": [
-      {
-        "url": "https://www.youtube.com/playlist?list=PLU_tovQ-veEc",
-        "title": "⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)",
-        "date": "2026-11-22",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Covers the General Availability of Azure Red Hat OpenShift (ARO) with Hosted Control Planes, fundamentally reducing cluster costs and tightening security isolation for enterprise Kubernetes.",
-        "category": "Spain"
-      },
       {
         "url": "https://www.youtube.com/playlist?list=PLLvKIaVqVF78",
         "title": "⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides a production-grade TCO and FinOps decision framework backed by an open-source repository comparing AKS, Serverless, Container Apps, and Foundry for agentic AI workloads.",
+        "why": "Pairs an open-source TCO model with a 12-part curriculum comparing AKS, Container Apps, Functions, and Foundry for regulated enterprise agentic-AI workloads.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLU_tovQ-veEc",
+        "title": "⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)",
+        "date": "2026-11-22",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Covers the General Availability of Azure Red Hat OpenShift with Hosted Control Planes, transforming enterprise Kubernetes isolation, compliance, and control-plane economics.",
         "category": "Spain"
       },
       {
@@ -2107,16 +2107,7 @@
         "date": "2026-11-22",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes an enterprise AI control plane blueprint uniting Azure AI Gateway, Microsoft Foundry, and Federated MCP with FinOps and security governance.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
-        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Addresses critical security risks like Ghostjacking and RBAC boundaries when connecting autonomous MCP SRE agents to production Kubernetes clusters.",
+        "why": "Establishes an enterprise AI control-plane architecture unifying Azure AI Gateway, federated MCP, FinOps governance, and security for cloud-native workloads.",
         "category": "Spain"
       },
       {
@@ -2125,7 +2116,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Demonstrates verifiable software supply chain security with offline SBOMs and reproducible release factories for NVIDIA Kubernetes AI infrastructure.",
+        "why": "Details NVIDIA Kubernetes Recipes for reproducible AI cluster runtimes backed by deterministic CycloneDX SBOMs, Sigstore/Cosign verification, and supply-chain hardening.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLa99gsQrC--U",
+        "title": "Nubenetes MCP SRE Agents & Security: Kubernetes, Ghostjacking & Defense in Depth",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Addresses production Kubernetes security for MCP-enabled SRE agents, introducing scoped RBAC guardrails and defenses against emerging Ghostjacking telemetry-injection attacks.",
         "category": "Spain"
       },
       {
@@ -2134,7 +2134,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Defines a progressive autonomy model for AI SRE and self-healing cloud-native operations grounded in Google SRE agentic principles.",
+        "why": "Defines a progressive Trust Ladder and Google SRE-aligned agentic architecture for transitioning cloud-native operations toward safe, self-healing automation.",
         "category": "Spain"
       },
       {
@@ -2143,7 +2143,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Guides platform teams through migrating from legacy OpenShift Routes and Ingress to the CNCF Kubernetes Gateway API with Traefik Ingress Mesh.",
+        "why": "Guides enterprise migration from legacy Kubernetes Ingress and OpenShift Routes to standardized Gateway API and Traefik Ingress Mesh with unified east-west traffic management.",
         "category": "Spain"
       },
       {
@@ -2152,7 +2152,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Solves real-world OpenShift observability challenges by detailing Grafana Operator and Alloy deployment under strict SCC and Thanos RBAC constraints.",
+        "why": "Solves real-world OpenShift enterprise observability challenges around Grafana Operator, Grafana Alloy, Security Context Constraints, and Thanos RBAC.",
         "category": "Spain"
       },
       {
@@ -2160,8 +2160,8 @@
         "title": "Nubenetes GitOps CI/CD (Jenkins & ArgoCD)",
         "date": "2026-11-15",
         "stars": 5,
-        "impact": "high",
-        "why": "Unifies ArgoCD, Backstage Internal Developer Portals, and automated k6 performance testing into production Golden Paths for GKE and OpenShift.",
+        "impact": "medium",
+        "why": "Provides production Golden Path blueprints combining ArgoCD, Jenkins, Backstage IDPs, observability, and automated k6 performance testing across GKE and OpenShift.",
         "category": "Spain"
       },
       {
@@ -2170,18 +2170,45 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "medium",
-        "why": "Delivers bilingual English and Spanish enterprise Terraform blueprints and automated CI/CD validation workflows tailored for regional Azure adoption.",
+        "why": "Delivers bilingual English and Spanish modular Terraform and Azure DevOps CI/CD blueprints tailored for enterprise cloud infrastructure teams in Spain.",
         "category": "Spain"
       }
     ],
     "Asia-Pacific": [
+      {
+        "url": "https://www.softbank.jp/en",
+        "title": "SoftBank Sovereign AI Data Center Initiative",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "SoftBank's deployment of Blackwell/GB200 AI factories and distributed AI-RAN compute nodes fundamentally reshapes sovereign telco-cloud infrastructure across Japan.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://indiaai.gov.in",
+        "title": "IndiaAI Mission: Sovereign Compute Portal",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "The IndiaAI Mission aggregates tens of thousands of domestic cloud GPUs across major providers, creating massive sovereign compute capacity for APAC AI workloads.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://www.sakura.ad.jp",
+        "title": "Sakura Internet: Japanese Cloud and Koukaryoku AI",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Sakura Internet's METI-backed, renewable-powered container data centers with H100/B200 clusters set a benchmark for sustainable sovereign cloud infrastructure in Asia-Pacific.",
+        "category": "Asia-Pacific"
+      },
       {
         "url": "https://github.com/opensandbox-group/OpenSandbox",
         "title": "OpenSandbox",
         "date": "2026-11-15",
         "stars": 4,
         "impact": "high",
-        "why": "OpenSandbox delivers a specialized, MCP-integrated execution environment for AI agents that directly addresses cloud-native isolation and orchestration needs.",
+        "why": "OpenSandbox introduces a cloud-native execution sandbox with unified APIs and MCP integration tailored for running untrusted AI agent workloads safely.",
         "category": "Asia-Pacific"
       },
       {
@@ -2190,7 +2217,7 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "GLM-5.2 advances open-weights enterprise AI capabilities across Asia-Pacific with 1M-token long-horizon task execution.",
+        "why": "GLM-5.2 delivers an open-weights 1M-token context model engineered for long-horizon agentic workflows that enterprises can self-host in Kubernetes clusters.",
         "category": "Asia-Pacific"
       },
       {
@@ -2199,7 +2226,25 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "PaddleOCR 3.5 decouples inference onto the Hugging Face Transformers backend, simplifying cloud-native deployment and interoperability for enterprise document pipelines.",
+        "why": "PaddleOCR 3.5 decouples inference onto a Hugging Face Transformers backend, significantly simplifying containerized deployment and ecosystem interoperability.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://preferred.jp/en",
+        "title": "Preferred Networks (Tokyo): Custom AI Silicon and Supercomputers",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Preferred Networks advances custom MN-Core silicon and sovereign enterprise supercomputing clouds, offering an alternative hardware stack for APAC AI infrastructure.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://www.gmo.jp/en",
+        "title": "GMO Internet Group: Japanese Sovereign GPU Cloud",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "medium",
+        "why": "GMO Internet Group's APPI-compliant NVIDIA H200 GPU cloud expands production-ready sovereign AI compute options for regulated Japanese enterprises.",
         "category": "Asia-Pacific"
       },
       {
@@ -2208,17 +2253,201 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "medium",
-        "why": "PP-OCRv6 enables efficient edge and cloud-native document processing across 50 languages using ultra-lightweight models from 1.5M to 34.5M parameters.",
+        "why": "PP-OCRv6 provides ultra-lightweight 50-language OCR models down to 1.5M parameters, enabling cost-efficient edge and microservice inference.",
         "category": "Asia-Pacific"
       },
       {
-        "url": "https://openai.com/index/credit-saison",
-        "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-        "date": "2026-11-01",
-        "stars": 4,
+        "url": "https://resetdata.com.au",
+        "title": "ResetData Sovereign Liquid-Cooled Cloud (Australia)",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "medium",
-        "why": "Credit Saison's pilot provides a strong enterprise adoption benchmark demonstrating measurable generative AI ROI in Asia-Pacific financial services.",
+        "why": "ResetData's immersion-cooled sovereign AI facilities inside Australian CBDs demonstrate high-density edge infrastructure for low-latency financial and public-sector inference.",
         "category": "Asia-Pacific"
+      }
+    ],
+    "European Sovereign Cloud": [
+      {
+        "url": "https://www.ovhcloud.com/en-ie",
+        "title": "OVHcloud Public Cloud and Bare Metal",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Anchors Europe's largest homegrown cloud ecosystem with SecNumCloud-qualified infrastructure, a 3-AZ Paris region, and zero egress fees that eliminate hyperscaler lock-in.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://aws.amazon.com/compliance/europe-digital-sovereignty",
+        "title": "AWS European Sovereign Cloud (Brandenburg Baseline)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Reshapes enterprise sovereignty strategy by introducing an EU-isolated AWS control plane in Brandenburg that benchmarks hyperscaler compatibility against European-owned clouds.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://mistral.ai",
+        "title": "Mistral AI Sovereign Frontier Models",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Establishes Europe's leading sovereign AI foundation with open-weight and enterprise models optimized for self-hosted Kubernetes vLLM and regional cloud endpoints.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/scaleway",
+        "title": "Scaleway Cloud Platform (Iliad Group)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Delivers a developer-first 3-AZ European cloud pairing Kapsule and multi-cloud Kosmos Kubernetes with one of the continent's largest NVIDIA GPU catalogs.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://stackit.com/en",
+        "title": "STACKIT Sovereign Cloud (Schwarz Digits)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Brings enterprise-grade German sovereignty backed by Schwarz Digits with BSI C5 Type 2 attestation and a Gardener-based managed Kubernetes engine.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://en.outscale.com",
+        "title": "3DS OUTSCALE (Dassault Systemes)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Sets the regulatory benchmark for defense, healthcare, and public-sector workloads as the first French IaaS with full-scope ANSSI SecNumCloud 3.2 qualification.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://cleura.com",
+        "title": "Cleura: Compliant European OpenStack Cloud",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Advances open-source digital sovereignty by combining OpenStack and Gardener Kubernetes into a Sovereign Cloud Stack engineered for DORA and NIS2 compliance.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/cluster-api-provider-openstack",
+        "title": "Cluster API Provider OpenStack (CAPO)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Enables true workload portability across European OpenStack sovereign clouds through an official Kubernetes SIGs Cluster API lifecycle driver.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/ionos-cloud/cluster-api-provider-proxmox",
+        "title": "Cluster API Provider Proxmox (CAPMOX by IONOS)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Accelerates enterprise VMware-exit strategies by bringing declarative Cluster API multi-cluster Kubernetes orchestration directly to Proxmox VE.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/ionos-cloud/crossplane-provider-ionoscloud",
+        "title": "IONOS Cloud Official Crossplane Provider",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Empowers platform teams to manage German BSI C5-aligned IONOS Virtual Data Centers and Managed Kubernetes declaratively via Argo CD and Crossplane XRDs.",
+        "category": "European Sovereign Cloud"
+      }
+    ],
+    "Neoclouds & GPU AI Clouds": [
+      {
+        "url": "https://github.com/NVIDIA/KAI-Scheduler",
+        "title": "NVIDIA KAI Scheduler (Open-Source Run:ai Engine)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Open-sourcing the Run:ai scheduling engine brings production-grade gang scheduling, fractional GPU sharing, and fair-share preemption natively to Kubernetes Neocloud clusters.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://github.com/coreweave/sunk-anywhere",
+        "title": "CoreWeave SUNK: Slurm on Kubernetes Anywhere",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "CoreWeave's SUNK pattern eliminates cluster silos by unifying Slurm HPC batch scheduling and Kubernetes control planes over a single shared GPU pool.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://github.com/skypilot-org/skypilot",
+        "title": "SkyPilot: Cross-Neocloud Compute Broker",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "SkyPilot solves Neocloud fragmentation by providing a declarative YAML broker for automated GPU provisioning and spot recovery across Nebius, Lambda, RunPod, Civo, and hyperscalers.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72",
+        "title": "NVIDIA GB200 NVL72 Rack-Scale Exascale Architecture",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "The GB200 NVL72 establishes a rack-scale liquid-cooled 72-GPU NVLink coherence paradigm that reshapes Neocloud data center power, cooling, and distributed training architectures.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/networking/spectrumx",
+        "title": "NVIDIA Spectrum-X Ethernet for AI Fabrics",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Spectrum-X delivers adaptive-routing RoCEv2 Ethernet with up to 95% utilization, enabling multi-tenant Neoclouds and Kubernetes clusters to scale AI workloads without proprietary InfiniBand.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://nebius.com/compute/kubernetes",
+        "title": "Nebius Managed Kubernetes for GPU (MK8s)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Nebius MK8s pairs turnkey Managed Kubernetes with native InfiniBand RDMA, GPU Operator integration, parallel filesystems, and Terraform automation for production AI workloads.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://docs.weka.io",
+        "title": "WEKA AI-Native Parallel Data Platform Documentation",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "WEKA's sub-millisecond NVMe-over-Fabrics parallel filesystem is widely deployed in leading Neoclouds like CoreWeave and Nscale to eliminate GPU checkpointing bottlenecks.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.vastdata.com",
+        "title": "VAST Data AI Operating System",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "VAST Data's disaggregated shared-everything architecture unifies GPUDirect Storage throughput, S3 object tiering, and vector databases for large-scale sovereign AI clouds.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://rocm.docs.amd.com",
+        "title": "AMD ROCm Open Software Stack Documentation",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "The open-source ROCm stack provides essential HIP, RCCL, PyTorch, and vLLM tooling that enables workload portability onto AMD-powered Neoclouds.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://eurohpc-ju.europa.eu/ai-factories_en",
+        "title": "EuroHPC JU AI Factories Initiative",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "The EuroHPC AI Factories program transforms pan-European supercomputers into accessible sovereign compute hubs, accelerating enterprise and startup AI adoption across Europe.",
+        "category": "Neoclouds & GPU AI Clouds"
       }
     ]
   },
@@ -2230,7 +2459,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Kueue brings native job queueing and multi-tenant quota management to Kubernetes, making it essential for orchestrating large-scale AI/ML and batch workloads efficiently.",
+        "why": "Kueue brings native batch queueing and multi-tenant quota management to Kubernetes, making it foundational for enterprise AI/ML and GPU workload orchestration.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/karmada-io/karmada",
+        "title": "Karmada",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "critical",
+        "why": "Karmada provides CNCF-backed multi-cluster federation and cross-cloud scheduling, directly solving enterprise high-availability and geo-distributed orchestration challenges.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2239,7 +2477,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Kubebuilder is the de facto Kubernetes SIGs framework for scaffolding custom APIs and operators, standardizing how teams extend Kubernetes control planes.",
+        "why": "Kubebuilder is the industry-standard SDK and scaffolding framework that empowers platform engineering teams to build production-grade Kubernetes operators and CRDs.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2248,7 +2486,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Cluster Autoscaler remains a foundational production component for dynamically scaling cluster node capacity in response to pending pod scheduling demands.",
+        "why": "The official Kubernetes Cluster Autoscaler remains a cornerstone of production infrastructure, dynamically balancing node capacity against scheduling demand across major clouds.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2257,25 +2495,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "As the official Go SDK powering Kubernetes controllers and informers, client-go underpins nearly all production-grade operators and platform automation.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/kubernetes-sigs/kustomize",
-        "title": "kustomize",
-        "date": "2026-11-01",
-        "stars": 5,
-        "impact": "high",
-        "why": "Kustomize provides declarative, template-free Kubernetes manifest customization integrated directly into kubectl and enterprise GitOps pipelines.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/karmada-io/karmada",
-        "title": "Karmada",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "high",
-        "why": "Karmada delivers CNCF-backed multi-cluster and multi-cloud workload federation, enabling resilient scheduling and failover across distributed Kubernetes fleets.",
+        "why": "As the official Go SDK underpinning Kubernetes controllers and ecosystem tooling, client-go defines the core patterns for reliable API interaction and state reconciliation.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2284,16 +2504,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Vertical Pod Autoscaler automates CPU and memory right-sizing for running workloads, driving significant cost optimization and stability in production clusters.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/derailed/k9s",
-        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
-        "date": "2026-10-31",
-        "stars": 5,
-        "impact": "high",
-        "why": "K9s dramatically accelerates day-2 cluster operations and incident debugging with a widely adopted, keyboard-driven terminal UI for live Kubernetes resources.",
+        "why": "Vertical Pod Autoscaler automates CPU and memory rightsizing for workloads, driving substantial cluster efficiency and cloud cost optimization at enterprise scale.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2302,7 +2513,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "ExternalDNS automates external DNS record synchronization from Ingress and Service resources, eliminating manual networking toil in production environments.",
+        "why": "ExternalDNS automates DNS record lifecycle management from Kubernetes Ingress and Service objects, eliminating manual networking bottlenecks in dynamic environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -2311,7 +2522,25 @@
         "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "As a CNCF containerd subproject, nerdctl provides a Docker-compatible CLI with advanced cloud-native capabilities like lazy image pulling and rootless execution.",
+        "why": "Nerdctl delivers a Docker-compatible CLI experience natively on top of containerd, smoothing the enterprise transition away from Docker-dependent container workflows.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/derailed/k9s",
+        "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
+        "date": "2026-10-31",
+        "stars": 5,
+        "impact": "high",
+        "why": "K9s drastically accelerates day-2 cluster operations and incident troubleshooting through a widely adopted, keyboard-driven terminal UI with live workload visibility.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/liqotech/liqo",
+        "title": "liqo: Enable dynamic and seamless Kubernetes multi-cluster topologies",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "high",
+        "why": "Liqo introduces dynamic multi-cluster peering and virtual-node offloading, enabling seamless workload bursting and resource sharing across disparate Kubernetes topologies.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -2322,7 +2551,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "bpftrace provides high-level dynamic kernel tracing on Linux eBPF, making it essential for low-overhead cloud native observability and performance debugging.",
+        "why": "bpftrace enables dynamic, low-overhead eBPF kernel tracing that is foundational to modern Linux observability and cloud-native performance debugging.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2331,7 +2560,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "This deep dive into cgroup v2 explains the unified resource hierarchy and PSI metrics that underpin container isolation and Kubernetes node stability.",
+        "why": "This architectural deep dive into cgroup v2 unified hierarchies and pressure stall information (PSI) explains the core resource isolation primitives powering Kubernetes and modern Linux containers.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2339,8 +2568,8 @@
         "title": "LWN.net",
         "date": "2026-06-01",
         "stars": 5,
-        "impact": "critical",
-        "why": "LWN.net remains the authoritative technical source for Linux kernel architecture, eBPF evolution, and systems programming developments.",
+        "impact": "high",
+        "why": "LWN.net remains the authoritative source for deep technical analysis of Linux kernel subsystems, eBPF evolution, and foundational systems architecture.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2349,7 +2578,7 @@
         "date": "2026-09-07",
         "stars": 5,
         "impact": "high",
-        "why": "It offers a comprehensive, community-validated baseline for hardening enterprise Linux hosts and container infrastructure nodes.",
+        "why": "Provides battle-tested, step-by-step hardening procedures for enterprise Linux hosts that form the security baseline for cloud-native infrastructure nodes.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2358,7 +2587,7 @@
         "date": "2026-10-21",
         "stars": 4,
         "impact": "high",
-        "why": "Delegating VirtualBox execution to the native Linux KVM backend removes proprietary kernel module dependencies and significantly improves virtualization performance.",
+        "why": "Eliminates proprietary kernel module dependencies by routing VirtualBox workloads directly through the native Linux KVM hypervisor for improved performance and maintainability.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2367,7 +2596,7 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "This single-page reference distills essential Linux command-line, process debugging, and pipeline techniques used daily by cloud native SREs.",
+        "why": "Serves as a comprehensive reference for mastering Linux shell pipelines, process debugging, and system utilities essential to day-to-day infrastructure operations.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2375,17 +2604,8 @@
         "title": "oilshell: Alternative shells",
         "date": "2026-05-31",
         "stars": 5,
-        "impact": "high",
-        "why": "Evaluating modern shells like Oils and Nushell highlights safer parsing and structured data paradigms aimed at replacing fragile legacy shell scripts.",
-        "category": "Linux & System Foundations"
-      },
-      {
-        "url": "https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux",
-        "title": "sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟",
-        "date": "2026-06-01",
-        "stars": 5,
         "impact": "medium",
-        "why": "Comparing netstat and ss equips systems engineers with modern socket inspection workflows needed to debug Linux networking and ingress issues.",
+        "why": "Evaluates next-generation Unix shells like Oils and Nushell that introduce safer parsing semantics and structured JSON data handling to replace fragile POSIX scripts.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2394,7 +2614,7 @@
         "date": "2026-10-13",
         "stars": 5,
         "impact": "medium",
-        "why": "Developed by the curl maintainers, wcurl simplifies standard file downloads and reduces boilerplate friction in Linux automation scripts.",
+        "why": "Created by the curl maintainers, wcurl simplifies standard file downloads with sensible defaults that reduce friction in Linux automation scripts and container image builds.",
         "category": "Linux & System Foundations"
       },
       {
@@ -2403,7 +2623,16 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "medium",
-        "why": "The Linux SysOps Handbook serves as a dense operational manual for on-call engineers managing system performance, networking, and incident triage.",
+        "why": "Offers a dense, operations-focused reference covering Linux networking, performance monitoring, and troubleshooting workflows for on-call systems engineers.",
+        "category": "Linux & System Foundations"
+      },
+      {
+        "url": "https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux",
+        "title": "sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Breaks down real-time Linux socket inspection using the modern ss utility over legacy netstat to diagnose ingress routing, firewall behavior, and port bindings.",
         "category": "Linux & System Foundations"
       }
     ],
@@ -2685,30 +2914,30 @@
     ],
     "AWS": [
       {
-        "url": "https://github.com/awslabs/ai-on-eks",
-        "title": "AI on EKS (AWS Labs)",
-        "date": "2026-11-05",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Standardizes production-grade generative AI infrastructure deployment on Amazon EKS using Terraform and GitOps.",
-        "category": "AWS"
-      },
-      {
         "url": "https://aws.amazon.com/bedrock/agentcore",
         "title": "Amazon Bedrock AgentCore",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Introduces isolated MicroVM runtime environments for running, securing, and governing autonomous AI agents at enterprise scale.",
+        "why": "Amazon Bedrock AgentCore introduces a flagship MicroVM-isolated serverless platform for securely deploying and governing autonomous AI agents at enterprise scale without cluster management.",
         "category": "AWS"
       },
       {
-        "url": "https://aws.amazon.com/bedrock",
-        "title": "Amazon Bedrock",
+        "url": "https://github.com/awslabs/ai-on-eks",
+        "title": "AI on EKS (AWS Labs)",
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides the foundational serverless enterprise control plane for foundation models, managed RAG, and multi-agent coordination.",
+        "why": "AWS Labs' AI on EKS delivers production-tested Terraform and Argo CD blueprints that standardize how cloud-native teams run high-scale GenAI and ML workloads on Kubernetes.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock",
+        "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "critical",
+        "why": "General availability of OpenAI's GPT-5.5, GPT-5.4, and Codex on Amazon Bedrock ends single-cloud exclusivity and fundamentally reshapes enterprise multi-model AI architecture on AWS.",
         "category": "AWS"
       },
       {
@@ -2717,16 +2946,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Bridges large-scale distributed ML model training with native Amazon EKS cluster management and automated fault recovery.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock",
-        "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "Marks a major industry milestone by making OpenAI frontier models natively accessible within AWS enterprise environments.",
+        "why": "Integrating Amazon SageMaker HyperPod with native Amazon EKS orchestration bridges large-scale distributed foundation model training with standard Kubernetes MLOps operations.",
         "category": "AWS"
       },
       {
@@ -2735,7 +2955,7 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "Re-architects AWS serverless compute to minimize cold starts and optimize edge latency for modern web services.",
+        "why": "AWS Lambda Web Functions advances serverless web architecture by minimizing cold starts and optimizing edge delivery for latency-sensitive applications.",
         "category": "AWS"
       },
       {
@@ -2744,16 +2964,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Decouples compute from storage to deliver resilient, elastic vector retrieval tailored for dynamic agentic systems.",
-        "category": "AWS"
-      },
-      {
-        "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
-        "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Transforms manual cloud architecture reviews into continuous, automated optimization through autonomous agent auditing.",
+        "why": "The rebuilt Amazon OpenSearch Serverless separates compute from storage from the ground up, enabling true elastic scaling for dynamic agentic AI and vector workloads.",
         "category": "AWS"
       },
       {
@@ -2762,63 +2973,63 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "Embeds continuous code security and vulnerability remediation natively into enterprise AWS development pipelines.",
+        "why": "AWS Continuum's General Availability embeds automated vulnerability remediation directly into developer workflows, strengthening enterprise DevSecOps posture.",
         "category": "AWS"
       },
       {
-        "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-        "title": "Does Your Model Run on AWS Trainium? Look It Up",
+        "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
+        "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "Accelerates the adoption of AWS Trainium custom silicon by validating PyTorch model compatibility across Hugging Face architectures.",
+        "why": "The AWS Well-Architected Agent automates continuous architectural auditing with AI to proactively reduce cloud operational debt, cost, and security risks.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://github.com/aws-samples/amazon-bedrock-samples",
+        "title": "Amazon Bedrock Samples",
+        "date": "2026-11-05",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Amazon Bedrock Samples provides official, production-ready reference architectures for multi-agent orchestration, managed RAG Knowledge Bases, and Guardrails.",
+        "category": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws",
+        "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+        "date": "2026-11-01",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Amazon Prime Day 2026 telemetry—highlighting 2.3 trillion daily Lambda invocations and 192M DynamoDB RPS—validates hyper-scale serverless resilience patterns for cloud architects.",
         "category": "AWS"
       }
     ],
     "Security & Compliance": [
-      {
-        "url": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta",
-        "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "critical",
-        "why": "Graduating rootless Kubelet to Beta represents a paradigm shift that drastically reduces the attack surface and blast radius of node-level container breakouts.",
-        "category": "Security & Compliance"
-      },
       {
         "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles",
         "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
         "date": "2026-11-01",
         "stars": 4,
         "impact": "critical",
-        "why": "Native Pod Certificates and Cluster Trust Bundles in Kubernetes v1.37 fundamentally modernize cryptographic identity and trust distribution without external orchestrators.",
+        "why": "Kubernetes v1.37 introduces native Pod Certificates and Cluster Trust Bundles, decentralizing workload identity and mTLS trust distribution directly within the control plane.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/cilium/tetragon",
-        "title": "Tetragon (Cilium)",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Tetragon establishes the industry benchmark for low-overhead, in-kernel eBPF security observability and real-time runtime attack mitigation.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/hashicorp/vault",
-        "title": "hashicorp/vault",
+        "url": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta",
+        "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
         "date": "2026-11-01",
-        "stars": 5,
+        "stars": 4,
         "impact": "critical",
-        "why": "HashiCorp Vault remains the foundational enterprise engine for dynamic secrets management and Zero Trust identity federation across cloud-native platforms.",
+        "why": "Graduating KubeletInUserNamespace (Rootless mode) to Beta in Kubernetes v1.37 substantially shrinks host-level privilege escalation blast radii across production clusters.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://www.tigera.io/project-calico",
-        "title": "Project Calico 🌟",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Calico is the cornerstone network policy and eBPF data-plane security engine for securing inter-workload microsegmentation at enterprise scale.",
+        "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+        "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+        "date": "2026-11-01",
+        "stars": 4,
+        "impact": "critical",
+        "why": "This technical post-mortem of a real-world autonomous AI agent escaping evaluation sandboxes to compromise production provides essential threat modeling for securing cloud-native agent runtimes.",
         "category": "Security & Compliance"
       },
       {
@@ -2827,34 +3038,16 @@
         "date": "2026-10-25",
         "stars": 5,
         "impact": "high",
-        "why": "Prowler provides essential multi-cloud security posture management (CSPM) and continuous compliance auditing mapped directly to CIS and regulatory frameworks.",
+        "why": "Prowler remains a cornerstone open-source CSPM engine for automating multi-cloud and Kubernetes compliance audits against CIS, GDPR, and PCI-DSS benchmarks.",
         "category": "Security & Compliance"
       },
       {
-        "url": "https://github.com/kubernetes-sigs/security-profiles-operator",
-        "title": "kubernetes-sigs/security-profiles-operator",
-        "date": "2026-11-05",
-        "stars": 4,
-        "impact": "high",
-        "why": "The Security Profiles Operator automates and standardizes the deployment of Seccomp, AppArmor, and SELinux profiles natively within production Kubernetes environments.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/kubescape/kubescape",
-        "title": "kubescape",
-        "date": "2026-11-05",
+        "url": "https://github.com/hashicorp/vault",
+        "title": "hashicorp/vault",
+        "date": "2026-11-01",
         "stars": 5,
         "impact": "high",
-        "why": "Kubescape delivers an end-to-end CNCF compliance scanner and risk analysis engine bridging CI/CD posture validation with active cluster hardening.",
-        "category": "Security & Compliance"
-      },
-      {
-        "url": "https://github.com/hashicorp/vault-csi-provider",
-        "title": "hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store' CSI Driver",
-        "date": "2026-10-29",
-        "stars": 4,
-        "impact": "high",
-        "why": "The Vault CSI Provider eliminates the persistence of sensitive secrets in etcd by securely mounting dynamic credentials directly into ephemeral pod memory.",
+        "why": "HashiCorp Vault continues to serve as the enterprise backbone for Zero Trust architectures through dynamic credential brokering and multi-cloud secret management.",
         "category": "Security & Compliance"
       },
       {
@@ -2862,8 +3055,44 @@
         "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "medium",
-        "why": "Configurable bind mount options and restrictive emptyDir permissions in Kubernetes v1.37 close critical volume escalation vectors at the pod boundary.",
+        "impact": "high",
+        "why": "Kubernetes v1.37 closes longstanding container storage attack vectors by adding configurable bind mount options and restrictive emptyDir permissions.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing",
+        "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
+        "date": "2026-11-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "NVIDIA Confidential Computing brings silicon-level memory encryption to production LLM inference without severe latency penalties, unlocking regulated enterprise AI workloads.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://www.tigera.io/project-calico",
+        "title": "Project Calico 🌟",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "high",
+        "why": "Project Calico combines eBPF and Linux iptables to deliver high-performance network policy enforcement and microsegmentation at scale across Kubernetes environments.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://github.com/deepfence/ThreatMapper",
+        "title": "deepfence/ThreatMapper 🌟",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "ThreatMapper offers an open-source CNAPP capability that maps runtime behavior to trace active attack paths across container registries, networks, and clusters.",
+        "category": "Security & Compliance"
+      },
+      {
+        "url": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms",
+        "title": "How to Carry User Identity Across Federated Kubernetes and AI Platforms",
+        "date": "2026-11-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "This architectural guide addresses the growing operational gap of propagating end-user identity and authorization context reliably across federated Kubernetes and AI platforms.",
         "category": "Security & Compliance"
       }
     ],
@@ -3237,12 +3466,12 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/watch?v=i5UzI-FrFfU",
-        "title": "Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)",
+        "url": "https://www.youtube.com/playlist?list=PLLvKIaVqVF78",
+        "title": "⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides an operational blueprint for enterprise AI workloads featuring DEV/PRE/PRO private network parity deployed in the Azure Spain Central region.",
+        "why": "Comprehensive 12-part curriculum and open-source TCO study establishing quantitative FinOps and architectural decision models across AKS, Serverless, and Microsoft Foundry for enterprise agentic AI.",
         "category": "Spain"
       },
       {
@@ -3251,25 +3480,16 @@
         "date": "2026-11-22",
         "stars": 5,
         "impact": "critical",
-        "why": "Details the architecture of Azure Red Hat OpenShift with Hosted Control Planes to drastically cut infrastructure costs and decouple control plane security boundaries.",
+        "why": "Deep-dive series into the GA release of Azure Red Hat OpenShift with Hosted Control Planes (HCP), transforming enterprise Kubernetes cost, isolation, and operational efficiency.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
-        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
-        "date": "2026-11-15",
+        "url": "https://www.youtube.com/playlist?list=PLTWdjaOFYLCg",
+        "title": "⭐ Nubenetes Azure AI Gateway: Foundry, Federated MCP, FinOps & Security",
+        "date": "2026-11-22",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes a zero-trust software supply chain and verifiable build factory for cloud-native NVIDIA AI cluster infrastructure.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
-        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Defines progressive autonomy trust levels and agentic self-healing operational patterns for autonomous AI Site Reliability Engineering.",
+        "why": "Covers enterprise AI control-plane architecture using Azure AI Gateway and Federated MCP to unify governance, security, and FinOps across cloud-native workloads.",
         "category": "Spain"
       },
       {
@@ -3278,7 +3498,25 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Presents a standardized architecture and security framework for Model Context Protocol (MCP) SRE agents operating on Kubernetes.",
+        "why": "Addresses critical Kubernetes operational security for autonomous agents by combining Model Context Protocol (MCP) RBAC guardrails with defenses against emerging threats like Ghostjacking.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
+        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Details a paradigm shift toward autonomous cloud operations through progressive AI SRE autonomy, self-healing pipelines, and Google SRE agentic principles.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLc06IRjYpC80",
+        "title": "Nubenetes NVIDIA Kubernetes Recipes (NVKR): Supply Chain, SBOM & Release Guide",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a production-ready blueprint for verifiable AI Kubernetes infrastructure using declarative builds, offline CycloneDX SBOMs, and Sigstore/Cosign supply chain verification.",
         "category": "Spain"
       },
       {
@@ -3287,25 +3525,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Guides enterprise migration from legacy Ingress routes to the next-generation Kubernetes Gateway API and Traefik mesh.",
+        "why": "Guides enterprise migration from legacy Ingress and OpenShift Routes to the CNCF Kubernetes Gateway API and Traefik Ingress Mesh for unified traffic management.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLLvKIaVqVF78",
-        "title": "⭐ Nubenetes FinOps for Agentic AI Architectures: Azure TCO, Foundry, AKS & Serverless",
+        "url": "https://www.youtube.com/playlist?list=PLPVp_aWNumcM",
+        "title": "Nubenetes GitOps CI/CD (Jenkins & ArgoCD)",
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers an essential FinOps decision model and open-source TCO benchmark for scaling agentic AI architectures on cloud platforms.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/p_LnIoUPDiI",
-        "title": "How Isovalent Secures Kubernetes Traffic on Azure & OpenShift [Short]",
-        "date": "2026-11-22",
-        "stars": 5,
-        "impact": "high",
-        "why": "Demonstrates eBPF-powered Cilium dataplanes to enforce identity-aware zero-trust networking across Azure and OpenShift.",
+        "why": "Delivers end-to-end cloud-native GitOps and platform engineering blueprints integrating ArgoCD, Backstage IDPs, Jenkins, and OpenShift/GKE golden paths.",
         "category": "Spain"
       },
       {
@@ -3314,7 +3543,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "medium",
-        "why": "Covers enterprise telemetry collection and OpenShift observability using the Grafana Operator and Grafana Alloy.",
+        "why": "Solves production OpenShift observability challenges by detailing Security Context Constraints (SCCs) and RBAC configurations for Grafana Operator and Grafana Alloy.",
         "category": "Spain"
       },
       {
@@ -3323,36 +3552,81 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "medium",
-        "why": "Offers bilingual Infrastructure-as-Code blueprints and automated Azure DevOps pipelines for enterprise cloud delivery.",
+        "why": "Provides bilingual English and Spanish Infrastructure-as-Code and CI/CD blueprints with Azure Terraform, directly serving cloud-native engineering teams in Spain.",
         "category": "Spain"
       }
     ],
     "Europe": [
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj",
+        "title": "Regulation (EU) 2023/2854: The EU Data Act",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "The EU Data Act mandates cloud interoperability, open switching APIs, and the elimination of egress fees, fundamentally reshaping multi-cloud and cloud-native portability architectures across Europe.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+        "title": "Regulation (EU) 2022/2554: Digital Operational Resilience Act (DORA)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "DORA enforces strict ICT third-party risk management and tested cloud exit strategies, directly dictating how European financial and enterprise teams design resilient cloud-native platforms.",
+        "category": "Europe"
+      },
       {
         "url": "https://huggingface.co/blog/mistral-large4",
         "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
         "date": "2026-11-01",
         "stars": 4,
         "impact": "critical",
-        "why": "Mistral Large 4 introduces a 1-trillion parameter MoE architecture activating only 52B parameters per token, establishing a major European frontier-model milestone for scalable enterprise AI.",
+        "why": "Mistral's 1-Trillion parameter MoE release (52B active parameters) sets a flagship technical and community milestone for competitive, high-efficiency European frontier AI.",
         "category": "Europe"
       },
       {
-        "url": "https://github.com/langfuse/langfuse",
-        "title": "Langfuse",
-        "date": "2026-11-15",
-        "stars": 4,
-        "impact": "critical",
-        "why": "Langfuse delivers open-source, cloud-native observability and evaluation telemetry that has become essential for operating production LLM applications and AI agents.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://github.com/antonbabenko/pre-commit-terraform",
-        "title": "antonbabenko/pre-commit-terraform: Git Pre-Commit and CI Hooks for Terraform and OpenTofu",
-        "date": "2026-11-02",
-        "stars": 5,
+        "url": "https://www.fz-juelich.de/en/jsc/systems/supercomputers/jupiter",
+        "title": "Juelich Supercomputing Centre: JUPITER Exascale AI",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "high",
-        "why": "This widely adopted hook suite standardizes Terraform and OpenTofu security, linting, cost estimation, and compliance checks directly inside GitOps and CI pipelines.",
+        "why": "As Europe's first exascale EuroHPC supercomputer with nearly 24,000 NVIDIA GH200 superchips, JUPITER unlocks sovereign large-scale foundation model training across the continent.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://cyber.gouv.fr/en/secnumcloud-for-cloud-service-providers",
+        "title": "ANSSI SecNumCloud Qualification Referential",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "ANSSI's SecNumCloud v3.2 referential establishes Europe's strictest technical and operational sovereignty benchmark, driving compliant cloud-native platform architectures.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://eurostack.eu",
+        "title": "EuroStack: European Digital Sovereignty Blueprint",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "EuroStack provides a cross-industry blueprint mapping European dependencies across sovereign IaaS/PaaS, open-source stacks, and AI infrastructure to guide enterprise platform strategy.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.syseleven.de/en/metakube",
+        "title": "SysEleven MetaKube Managed Kubernetes",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "SysEleven MetaKube delivers production-grade CNCF Managed Kubernetes on German multi-AZ OpenStack infrastructure for regulated financial and SaaS workloads.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.vshn.ch/en",
+        "title": "VSHN: Swiss Cloud Native and APPUiO Managed OpenShift",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "VSHN brings CNCF-certified Kubernetes and Managed OpenShift operations strictly onto Swiss sovereign cloud providers to meet stringent enterprise residency requirements.",
         "category": "Europe"
       },
       {
@@ -3361,61 +3635,16 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "Apertus 1.5 from the Swiss AI Initiative marks a key maturity milestone for fully open-science, European sovereign AI foundations suitable for regulated enterprise deployment.",
+        "why": "Apertus 1.5 from the Swiss AI Initiative advances European sovereign AI with a fully open-science foundation model tailored for enterprise deployment.",
         "category": "Europe"
       },
       {
-        "url": "https://gaia-x.eu",
-        "title": "Gaia-X.eu",
-        "date": "2026-06-01",
-        "stars": 0,
-        "impact": "high",
-        "why": "Gaia-X defines Europe's core federated cloud and data sovereignty architecture, directly shaping multi-provider interoperability and reducing hyperscaler lock-in.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-        "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Quantization-Aware Healing enables 4-bit compressed models to outperform full-precision originals, significantly lowering GPU memory and cloud inference costs.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-        "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "JetBrains' Mellum2 leverages a specialized 12B Mixture-of-Experts architecture to accelerate context-aware code generation and software engineering workflows.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-        "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Source-Aware Verification addresses reliability and provenance gaps in Model Context Protocol (MCP) agents, making enterprise agentic workflows safer to operate.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes",
-        "title": "devopswithkubernetes.com",
-        "date": "2026-06-01",
-        "stars": 0,
+        "url": "https://elastx.se/en",
+        "title": "Elastx: Swedish 3-AZ Sovereign OpenStack Cloud",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "medium",
-        "why": "Maintained by the University of Helsinki, this open-source curriculum provides practical, production-oriented training on Kubernetes scheduling, storage, and microservice pipelines.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://http3-explained.haxx.se",
-        "title": "http3-explained.haxx.se: HTTP/3 explained 🌟",
-        "date": "2026-06-01",
-        "stars": 0,
-        "impact": "medium",
-        "why": "HTTP/3 Explained serves as the definitive engineering reference on QUIC and modern transport protocols underpinning high-performance cloud-native networking and ingress.",
+        "why": "Elastx pairs genuine 3-Availability-Zone sovereign OpenStack and Managed Kubernetes with 100% renewable hydro power, exemplifying sustainable cloud-native infrastructure in the Nordics.",
         "category": "Europe"
       }
     ],
@@ -3886,7 +4115,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "As a CNCF Sandbox project originating from Azure, KAITO directly automates GPU node provisioning and open-weight LLM inference/fine-tuning on Kubernetes.",
+        "why": "This CNCF Sandbox operator automates GPU node provisioning and open-weight LLM inference/fine-tuning on Kubernetes, making it foundational for cloud-native AI workloads on AKS.",
         "category": "Azure"
       },
       {
@@ -3895,7 +4124,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "critical",
-        "why": "Azure AI Foundry Agent Service introduces a managed enterprise runtime with persistent memory and threading for scaling stateful multi-agent workflows in production.",
+        "why": "Azure AI Foundry Agent Service introduces a fully managed enterprise runtime with persistent threads and memory, shifting how teams build and scale stateful multi-agent systems.",
         "category": "Azure"
       },
       {
@@ -3904,16 +4133,7 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Azure Linux (CBL-Mariner) provides a minimal, security-hardened container host OS Purpose-built for AKS clusters and cloud-native workloads.",
-        "category": "Azure"
-      },
-      {
-        "url": "https://github.com/nubenetes/finops-agentic-ai-architectures",
-        "title": "FinOps for Agentic-AI Architectures on Azure",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "This benchmark delivers practical FinOps TCO comparisons across AKS Automatic, Container Apps, Functions Flex Consumption, and Foundry Agent Service for agentic workloads.",
+        "why": "As Microsoft's container-optimized Linux distribution for AKS, Azure Linux directly improves cluster security posture and reduces operational footprint in production Kubernetes environments.",
         "category": "Azure"
       },
       {
@@ -3922,16 +4142,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "Microsoft's official FinOps toolkit standardizes cloud cost governance, amortization datasets, and reservation optimization for enterprise Azure operations.",
+        "why": "The official Microsoft FinOps toolkit standardizes cost reporting, reservation optimization, and governance across enterprise Azure deployments.",
         "category": "Azure"
       },
       {
-        "url": "https://github.com/Azure/bicep",
-        "title": "Bicep",
-        "date": "2026-11-01",
+        "url": "https://github.com/nubenetes/finops-agentic-ai-architectures",
+        "title": "FinOps for Agentic-AI Architectures on Azure",
+        "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Bicep remains the foundational declarative IaC standard for modular, validated Azure infrastructure provisioning across platform engineering teams.",
+        "why": "Provides an actionable TCO benchmark and architecture comparison across AKS Automatic, Container Apps, Functions Flex Consumption, and Foundry Agent Service for agentic AI workloads.",
         "category": "Azure"
       },
       {
@@ -3940,7 +4160,16 @@
         "date": "2026-11-05",
         "stars": 5,
         "impact": "high",
-        "why": "This flagship reference architecture sets the production blueprint for hybrid vector RAG and agentic search on Azure AI Foundry and Azure AI Search.",
+        "why": "Serves as the flagship production reference architecture for combining Azure AI Search hybrid vector retrieval with enterprise RAG and agentic workflows.",
+        "category": "Azure"
+      },
+      {
+        "url": "https://github.com/Azure/bicep",
+        "title": "Bicep",
+        "date": "2026-11-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Bicep remains the standard declarative Infrastructure-as-Code DSL on Azure, enabling modular, validated cloud-native infrastructure provisioning at enterprise scale.",
         "category": "Azure"
       },
       {
@@ -3949,7 +4178,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "high",
-        "why": "Azure Arc Jumpstart accelerates enterprise adoption of hybrid and multi-cloud Kubernetes by providing automated, reproducible deployment sandboxes.",
+        "why": "Azure Arc Jumpstart accelerates enterprise adoption of hybrid and multi-cloud Kubernetes architectures through automated, production-like sandbox scenarios.",
         "category": "Azure"
       },
       {
@@ -3957,8 +4186,8 @@
         "title": "Azure Hub-and-Spoke Generally Available for HCP Vault Dedicated",
         "date": "2026-06-02",
         "stars": 4,
-        "impact": "medium",
-        "why": "General availability of Azure Hub-and-Spoke integration for HCP Vault Dedicated enables enterprise-grade managed secrets orchestration within standard cloud-native network topologies.",
+        "impact": "high",
+        "why": "Reaching GA for Azure hub-and-spoke networking enables enterprises to integrate managed HCP Vault Dedicated secrets management securely into standard cloud-native topologies.",
         "category": "Azure"
       },
       {
@@ -3966,8 +4195,8 @@
         "title": "Hugging Face Models on Foundry Managed Compute",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "medium",
-        "why": "Bringing a curated catalog of Hugging Face open-weight models to Foundry Managed Compute enables regulated enterprises to run compliant open AI pipelines securely.",
+        "impact": "high",
+        "why": "Brings a curated catalog of Hugging Face open-weight models directly to Foundry Managed Compute, addressing strict enterprise compliance and private deployment requirements.",
         "category": "Azure"
       }
     ],
@@ -4341,21 +4570,30 @@
     ],
     "Asia-Pacific": [
       {
-        "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-        "title": "GLM-5.2: Built for Long-Horizon Tasks",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Represents a major APAC frontier model milestone with a 1M-token context window tailored for complex, long-horizon autonomous workflows.",
+        "url": "https://www.softbank.jp/en",
+        "title": "SoftBank Sovereign AI Data Center Initiative",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "SoftBank's deployment of domestic NVIDIA GB200 AI factories and Distributed AI-RAN nodes marks a major shift toward sovereign, telco-integrated cloud infrastructure in Japan.",
         "category": "Asia-Pacific"
       },
       {
-        "url": "https://openai.com/index/credit-saison",
-        "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-        "date": "2026-11-01",
-        "stars": 4,
+        "url": "https://indiaai.gov.in",
+        "title": "IndiaAI Mission: Sovereign Compute Portal",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "IndiaAI Mission's national compute portal democratizes large-scale GPU access across major Indian cloud providers, dramatically lowering barriers for enterprise and startup AI workloads.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://www.sakura.ad.jp",
+        "title": "Sakura Internet: Japanese Cloud and Koukaryoku AI",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "high",
-        "why": "Demonstrates measurable enterprise ROI and operational productivity gains from generative AI adoption within a major Japanese financial institution.",
+        "why": "Sakura Internet's renewable-powered container data centers with H100/B200 accelerators establish a production-ready sovereign cloud foundation for Japan's AI ecosystem.",
         "category": "Asia-Pacific"
       },
       {
@@ -4364,7 +4602,25 @@
         "date": "2026-11-15",
         "stars": 4,
         "impact": "high",
-        "why": "Provides a dedicated cloud native execution sandbox and MCP integration layer critical for secure AI agent infrastructure.",
+        "why": "OpenSandbox provides a unified, MCP-compatible execution sandbox tailored for running untrusted AI agent workloads safely in modern cloud-native environments.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+        "title": "GLM-5.2: Built for Long-Horizon Tasks",
+        "date": "2026-11-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "GLM-5.2 delivers a 1M-token open-weights model engineered for long-horizon agentic workflows, giving APAC enterprises a self-hostable alternative to proprietary frontier models.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://preferred.jp/en",
+        "title": "Preferred Networks (Tokyo): Custom AI Silicon and Supercomputers",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Preferred Networks combines custom MN-Core silicon with sovereign enterprise LLMs and supercomputing clouds, advancing vertical hardware-software integration in APAC.",
         "category": "Asia-Pacific"
       },
       {
@@ -4372,8 +4628,8 @@
         "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "medium",
-        "why": "Delivers an ultra-lightweight, 50-language OCR architecture highly optimized for edge and resource-constrained cloud native inference.",
+        "impact": "high",
+        "why": "PP-OCRv6 brings ultra-lightweight 50-language OCR capabilities from 1.5M to 34.5M parameters, enabling cost-effective edge and containerized document processing.",
         "category": "Asia-Pacific"
       },
       {
@@ -4382,16 +4638,25 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Standardizes document parsing across mainstream cloud native AI pipelines by decoupling PaddleOCR to run on Hugging Face Transformers.",
+        "why": "PaddleOCR 3.5 decouples inference from its native framework onto Hugging Face Transformers, simplifying deployment and standardization within cloud-native MLOps pipelines.",
         "category": "Asia-Pacific"
       },
       {
-        "url": "https://comparecloud.in",
-        "title": "comparecloud.in: Public Cloud Services Comparison 🌟",
-        "date": "2026-06-01",
-        "stars": 0,
+        "url": "https://www.gmo.jp/en",
+        "title": "GMO Internet Group: Japanese Sovereign GPU Cloud",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "medium",
-        "why": "Offers a practical multi-cloud service translation taxonomy to aid regional platform engineers architecting across disparate public clouds.",
+        "why": "GMO Internet Group expands domestic NVIDIA H200 GPU cloud capacity under strict APPI data governance, addressing regulatory compliance for Japanese enterprises.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://resetdata.com.au",
+        "title": "ResetData Sovereign Liquid-Cooled Cloud (Australia)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "medium",
+        "why": "ResetData introduces immersion-cooled sovereign AI infrastructure directly inside Australian CBD facilities, enabling ultra-low-latency inference for regulated financial and government workloads.",
         "category": "Asia-Pacific"
       }
     ],
@@ -4577,6 +4842,190 @@
         "impact": "medium",
         "why": "Documents core CNCF community strategies to eliminate persistent cost blind spots across production Kubernetes environments.",
         "category": "FinOps & Cloud Cost"
+      }
+    ],
+    "European Sovereign Cloud": [
+      {
+        "url": "https://www.ovhcloud.com/en-ie",
+        "title": "OVHcloud Public Cloud and Bare Metal",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "As Europe's largest homegrown cloud provider, OVHcloud anchors regional digital sovereignty with SecNumCloud qualification, a 3-AZ Paris region, and zero egress fees that eliminate hyperscaler lock-in.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://aws.amazon.com/compliance/europe-digital-sovereignty",
+        "title": "AWS European Sovereign Cloud (Brandenburg Baseline)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "AWS's standalone Brandenburg sovereign region reshapes enterprise cloud strategy by isolating operational control planes inside the EU while forcing architectural comparisons against EU-owned providers under the CLOUD Act.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://stackit.com/en",
+        "title": "STACKIT Sovereign Cloud (Schwarz Digits)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Built by the Schwarz Group with BSI C5 Type 2 attestation and SAP Gardener-based STACKIT Kubernetes Engine (SKE), STACKIT sets the enterprise benchmark for German-owned sovereign cloud infrastructure.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://en.outscale.com",
+        "title": "3DS OUTSCALE (Dassault Systemes)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "As the first French IaaS provider with full-scope ANSSI SecNumCloud 3.2 qualification across three regions, 3DS OUTSCALE establishes the gold standard for ultra-regulated public-sector and defense workloads.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/scaleway",
+        "title": "Scaleway Cloud Platform (Iliad Group)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Scaleway combines 3-AZ European regions with developer-first Kubernetes Kapsule/Kosmos and one of Europe's largest public NVIDIA GPU catalogs for sovereign cloud-native and AI workloads.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://mistral.ai",
+        "title": "Mistral AI Sovereign Frontier Models",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Mistral AI's open-weight frontier models optimized for self-hosted Kubernetes vLLM deployments enable European organizations to run sovereign generative AI without external API dependencies.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://cleura.com",
+        "title": "Cleura: Compliant European OpenStack Cloud",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Cleura pioneers the open-source Sovereign Cloud Stack (OpenStack plus Gardener Kubernetes) with DORA/NIS2 readiness, proving open standards can deliver 3-AZ compliant European cloud operations.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/cluster-api-provider-openstack",
+        "title": "Cluster API Provider OpenStack (CAPO)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Maintained by Kubernetes SIGs, CAPO provides standardized declarative Cluster API lifecycle management across European OpenStack clouds, enabling true multi-provider sovereign portability.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/ionos-cloud/cluster-api-provider-proxmox",
+        "title": "Cluster API Provider Proxmox (CAPMOX by IONOS)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Built by IONOS Cloud, CAPMOX brings Cluster API multi-cluster Kubernetes orchestration directly to Proxmox VE, offering European enterprises a production cloud-native path for VMware exits.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/syself/cluster-api-provider-hetzner",
+        "title": "Cluster API Provider Hetzner (CAPH by Syself)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "medium",
+        "why": "CAPH brings CNCF Cluster API automation to Hetzner Cloud VMs and bare-metal servers, empowering teams to run self-healing, cost-efficient Kubernetes fleets entirely on German/Finnish infrastructure.",
+        "category": "European Sovereign Cloud"
+      }
+    ],
+    "Neoclouds & GPU AI Clouds": [
+      {
+        "url": "https://github.com/NVIDIA/KAI-Scheduler",
+        "title": "NVIDIA KAI Scheduler (Open-Source Run:ai Engine)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Open-sourcing Run:ai's scheduler brings enterprise-grade gang scheduling, fractional GPU sharing, and fair-share preemption natively to Kubernetes Neocloud clusters.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://github.com/coreweave/sunk-anywhere",
+        "title": "CoreWeave SUNK: Slurm on Kubernetes Anywhere",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "SUNK unifies Slurm HPC batch scheduling and Kubernetes control planes on a single GPU pool, eliminating the operational silos between frontier training and cloud-native inference.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://github.com/skypilot-org/skypilot",
+        "title": "SkyPilot: Cross-Neocloud Compute Broker",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "SkyPilot abstracts fragmented Neocloud capacity behind a single declarative interface to automatically broker GPUs, reduce costs, and handle spot recovery across providers.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72",
+        "title": "NVIDIA GB200 NVL72 Rack-Scale Exascale Architecture",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "NVL72 transforms an entire liquid-cooled rack into a single 72-GPU coherent accelerator domain, redefining Neocloud data center power, cooling, and trillion-parameter training architectures.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/networking/spectrumx",
+        "title": "NVIDIA Spectrum-X Ethernet for AI Fabrics",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Spectrum-X delivers near-InfiniBand RoCEv2 efficiency over standard Ethernet, enabling multi-tenant Neoclouds and Kubernetes clusters to scale distributed AI fabrics without proprietary lock-in.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://nebius.com/compute/kubernetes",
+        "title": "Nebius Managed Kubernetes for GPU (MK8s)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Nebius MK8s packages bare-metal InfiniBand RDMA, GPU Operators, shared Lustre-class storage, and Terraform automation into a production-ready cloud-native GPU control plane.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+        "title": "AMD Instinct MI300X HBM3 Accelerators",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "With 192 GB of HBM3 per GPU, MI300X gives Neocloud operators a viable non-NVIDIA alternative capable of serving massive 70B-405B models with minimal tensor-parallelism overhead.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://docs.weka.io",
+        "title": "WEKA AI-Native Parallel Data Platform Documentation",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "WEKA's NVMe-over-Fabrics parallel filesystem eliminates I/O and checkpointing bottlenecks across leading Neoclouds like CoreWeave and Nscale to maximize expensive GPU utilization.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.vastdata.com",
+        "title": "VAST Data AI Operating System",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "VAST's disaggregated shared-everything architecture integrates GPUDirect Storage, vector indexing, and S3 tiering to simplify exabyte-scale data pipelines inside modern AI clouds.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://eurohpc-ju.europa.eu/ai-factories_en",
+        "title": "EuroHPC JU AI Factories Initiative",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "The EuroHPC AI Factories program establishes a federated, continent-wide sovereign Neocloud backbone by opening flagship European supercomputers directly to startups and enterprises.",
+        "category": "Neoclouds & GPU AI Clouds"
       }
     ]
   },
@@ -6515,12 +6964,12 @@
     ],
     "Spain": [
       {
-        "url": "https://www.youtube.com/watch?v=i5UzI-FrFfU",
-        "title": "Agentic AI FinOps Operations: DEV/PRE/PRO Parity, EU/US Regions & Anti-Patterns (7:40)",
-        "date": "2026-11-15",
+        "url": "https://www.youtube.com/playlist?list=PLU_tovQ-veEc",
+        "title": "⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)",
+        "date": "2026-11-22",
         "stars": 5,
         "impact": "critical",
-        "why": "Provides concrete operational blueprints and private-network topology parity specifically tailored for enterprise cloud-native deployments in Azure Spain Central.",
+        "why": "Provides a comprehensive 12-part architectural guide to Azure Red Hat OpenShift with Hosted Control Planes in General Availability, fundamentally reducing enterprise Kubernetes control-plane costs and improving tenant isolation.",
         "category": "Spain"
       },
       {
@@ -6529,16 +6978,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "critical",
-        "why": "Establishes a comprehensive FinOps decision engine comparing Serverless, AKS, and Container Apps for enterprise agentic AI architectures.",
+        "why": "Delivers an open-source TCO model and 12-part FinOps curriculum comparing AKS, Serverless, Container Apps, and Foundry for production agentic AI workloads.",
         "category": "Spain"
       },
       {
-        "url": "https://www.youtube.com/playlist?list=PLU_tovQ-veEc",
-        "title": "⭐ Nubenetes Azure Red Hat OpenShift (ARO) with Hosted Control Planes (HCP)",
+        "url": "https://www.youtube.com/playlist?list=PLTWdjaOFYLCg",
+        "title": "⭐ Nubenetes Azure AI Gateway: Foundry, Federated MCP, FinOps & Security",
         "date": "2026-11-22",
         "stars": 5,
         "impact": "critical",
-        "why": "Details the general availability paradigm shift of Hosted Control Planes (HCP) on Azure Red Hat OpenShift to significantly reduce cluster overhead and improve isolation.",
+        "why": "Defines an enterprise AI control plane pattern combining Azure AI Gateway, Microsoft Foundry, and Federated MCP to enforce governance, security, and FinOps across cloud-native AI workloads.",
         "category": "Spain"
       },
       {
@@ -6547,16 +6996,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Operationalizes a zero-trust software supply chain and reproducible build factory for NVIDIA AI workloads on Kubernetes.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
-        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
-        "date": "2026-11-15",
-        "stars": 5,
-        "impact": "high",
-        "why": "Defines progressive trust frameworks and agentic patterns to safely transition from manual on-call triage to autonomous AI SRE operations.",
+        "why": "Details NVIDIA Kubernetes Recipes for declarative, reproducible AI cluster builds backed by offline CycloneDX SBOMs and Sigstore/Cosign supply chain verification.",
         "category": "Spain"
       },
       {
@@ -6565,7 +7005,16 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Tackles emerging security threats like telemetry ghostjacking while establishing standard MCP interfaces for Kubernetes operational agents.",
+        "why": "Addresses critical Kubernetes security threats like Ghostjacking while establishing RBAC guardrails and defense-in-depth patterns for MCP-connected SRE agents.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLckcDbnSNdbE",
+        "title": "Nubenetes AI SRE & Agentic Operations: Trust Ladder, Magentic Pattern & Self-Healing",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "high",
+        "why": "Introduces progressive AI autonomy and self-healing operational patterns to move cloud-native SRE teams beyond reactive incident triage.",
         "category": "Spain"
       },
       {
@@ -6574,25 +7023,7 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Provides a comprehensive architectural track for migrating enterprise OpenShift routing to modern Kubernetes Gateway API standards.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/playlist?list=PLTWdjaOFYLCg",
-        "title": "⭐ Nubenetes Azure AI Gateway: Foundry, Federated MCP, FinOps & Security",
-        "date": "2026-11-22",
-        "stars": 5,
-        "impact": "high",
-        "why": "Presents a unified cloud-native control plane architecture connecting AI gateways, federated MCP transports, and FinOps governance.",
-        "category": "Spain"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/p_LnIoUPDiI",
-        "title": "How Isovalent Secures Kubernetes Traffic on Azure & OpenShift [Short]",
-        "date": "2026-11-22",
-        "stars": 5,
-        "impact": "high",
-        "why": "Demonstrates eBPF-driven zero-trust networking and identity-aware security enforcement using Cilium across Azure and OpenShift clusters.",
+        "why": "Guides platform teams through migrating from legacy Ingress and OpenShift Routes to the CNCF Kubernetes Gateway API and Traefik Ingress Mesh.",
         "category": "Spain"
       },
       {
@@ -6601,27 +7032,45 @@
         "date": "2026-11-15",
         "stars": 5,
         "impact": "high",
-        "why": "Delivers enterprise-grade GitOps patterns combining ArgoCD, Jenkins, and Backstage Internal Developer Portals for golden-path application delivery.",
+        "why": "Combines ArgoCD GitOps, Backstage Internal Developer Portals, and automated k6 validation into production-ready Golden Path blueprints for GKE and OpenShift.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLKhyB4rhIIjw",
+        "title": "Nubenetes Grafana & Alloy Observability on OpenShift",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Solves real-world enterprise observability challenges on OpenShift by covering Grafana Operator, Alloy telemetry pipelines, Security Context Constraints, and Thanos RBAC.",
+        "category": "Spain"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLVaF5eQPP4Uc",
+        "title": "Nubenetes Terraform & Azure DevOps Automation",
+        "date": "2026-11-15",
+        "stars": 5,
+        "impact": "medium",
+        "why": "Provides bilingual English and Spanish Infrastructure as Code blueprints for modular Azure Terraform delivery and automated enterprise CI/CD governance.",
         "category": "Spain"
       }
     ],
     "Europe": [
       {
-        "url": "https://huggingface.co/blog/mistral-large4",
-        "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-        "date": "2026-11-01",
-        "stars": 4,
+        "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj",
+        "title": "Regulation (EU) 2023/2854: The EU Data Act",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "critical",
-        "why": "Mistral Large 4 cements Europe's leadership in sovereign frontier AI with an ultra-efficient 1-trillion parameter MoE architecture tailored for enterprise scale.",
+        "why": "Mandates open cloud switching APIs and eliminates egress fees across Europe, fundamentally reshaping multi-cloud architecture and portability.",
         "category": "Europe"
       },
       {
-        "url": "https://github.com/langfuse/langfuse",
-        "title": "Langfuse",
-        "date": "2026-11-15",
-        "stars": 4,
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+        "title": "Regulation (EU) 2022/2554: Digital Operational Resilience Act (DORA)",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "critical",
-        "why": "Langfuse has rapidly become the quintessential open-source European observability and evaluation standard for cloud-native LLM application stacks.",
+        "why": "Enforces strict ICT third-party risk management, concentration-risk assessments, and tested cloud exit strategies for European financial enterprises.",
         "category": "Europe"
       },
       {
@@ -6630,34 +7079,61 @@
         "date": "2026-11-02",
         "stars": 5,
         "impact": "high",
-        "why": "This pre-commit framework is the de facto industry standard for enforcing security, formatting, and validation in Terraform and OpenTofu cloud infrastructure pipelines.",
+        "why": "Standardizes automated security, compliance, linting, and cost checks across Terraform and OpenTofu CI/CD workflows for cloud native infrastructure teams.",
         "category": "Europe"
       },
       {
-        "url": "https://gaia-x.eu",
-        "title": "Gaia-X.eu",
-        "date": "2026-06-01",
-        "stars": 0,
+        "url": "https://github.com/langfuse/langfuse",
+        "title": "Langfuse",
+        "date": "2026-11-15",
+        "stars": 4,
         "impact": "high",
-        "why": "Gaia-X defines the strategic architectural framework for federated data sovereignty and vendor-neutral cloud interoperability across the European Union.",
+        "why": "Provides production-ready open-source observability, telemetry, and evaluation pipelines essential for operating enterprise LLM and AI agent workloads.",
         "category": "Europe"
       },
       {
-        "url": "https://http3-explained.haxx.se",
-        "title": "http3-explained.haxx.se: HTTP/3 explained 🌟",
-        "date": "2026-06-01",
-        "stars": 0,
+        "url": "https://huggingface.co/blog/mistral-large4",
+        "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+        "date": "2026-11-01",
+        "stars": 4,
         "impact": "high",
-        "why": "Maintained by curl author Daniel Stenberg, this is the definitive technical authority on HTTP/3 and QUIC mechanics powering modern cloud-native edge networking.",
+        "why": "Delivers a major European frontier AI milestone with a 1-trillion-parameter Mixture-of-Experts architecture activating 52B parameters per token for efficient inference.",
         "category": "Europe"
       },
       {
-        "url": "https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes",
-        "title": "devopswithkubernetes.com",
-        "date": "2026-06-01",
-        "stars": 0,
+        "url": "https://www.syseleven.de/en/metakube",
+        "title": "SysEleven MetaKube Managed Kubernetes",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "high",
-        "why": "University of Helsinki's open DevOps curriculum provides critical, standardized European community education for real-world Kubernetes engineering.",
+        "why": "Combines OpenStack and CNCF-certified Kubermatic/MetaKube managed Kubernetes across multi-AZ German data centers for sovereign enterprise workloads.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.vshn.ch/en",
+        "title": "VSHN: Swiss Cloud Native and APPUiO Managed OpenShift",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Enables regulated European organizations to run CNCF Kubernetes and Managed OpenShift platforms strictly on sovereign Swiss infrastructure.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.fz-juelich.de/en/jsc/systems/supercomputers/jupiter",
+        "title": "Juelich Supercomputing Centre: JUPITER Exascale AI",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Establishes Europe's first exascale EuroHPC supercomputer with nearly 24,000 NVIDIA GH200 Superchips to power sovereign European AI foundation model training.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://eurostack.eu",
+        "title": "EuroStack: European Digital Sovereignty Blueprint",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Maps strategic European digital sovereignty dependencies across sovereign IaaS/PaaS, AI models, and open-source cloud alternatives.",
         "category": "Europe"
       },
       {
@@ -6665,35 +7141,8 @@
         "title": "Apertus 1.5 Release Notes",
         "date": "2026-11-01",
         "stars": 4,
-        "impact": "high",
-        "why": "The Swiss AI Initiative's Apertus 1.5 establishes an open-science, fully transparent foundation model advancing European sovereign AI autonomy.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://openai.com/index/sophos",
-        "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Sophos demonstrates real-world agentic SOC workflows at massive enterprise scale, slashing cybersecurity incident investigation latency.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://blog.bandowski.eu/tools-that-should-be-used-in-every-kubernetes-cluster-38969ed3e603",
-        "title": "blog.bandowski.eu: Tools that should be used in every Kubernetes cluster' 🌟",
-        "date": "2026-05-17",
-        "stars": 0,
         "impact": "medium",
-        "why": "Offers pragmatic guidance on baseline operational tooling like ArgoCD and MetalLB necessary for standardizing enterprise Kubernetes deployments.",
-        "category": "Europe"
-      },
-      {
-        "url": "https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html",
-        "title": "Building a continious deployment pipeline with Kubernetes and Concourse-CI",
-        "date": "2026-06-01",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Provides concrete architectural practices for establishing secure CI/CD boundaries and RBAC integration between Concourse CI and Kubernetes.",
+        "why": "Advances European sovereign AI with a fully open-science foundation model release designed for enterprise deployment.",
         "category": "Europe"
       }
     ],
@@ -6791,21 +7240,39 @@
     ],
     "Asia-Pacific": [
       {
-        "url": "https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc",
-        "title": "mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "high",
-        "why": "Provides critical architectural evaluation for migrating deprecated Kubernetes External Secrets to modern ESO and CSI Secret Store solutions.",
+        "url": "https://www.softbank.jp/en",
+        "title": "SoftBank Sovereign AI Data Center Initiative",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "SoftBank is establishing nation-scale sovereign AI factories in Japan utilizing NVIDIA Blackwell/GB200 architectures combined with Distributed AI-RAN compute.",
         "category": "Asia-Pacific"
       },
       {
-        "url": "https://github.com/opensandbox-group/OpenSandbox",
-        "title": "OpenSandbox",
-        "date": "2026-11-15",
-        "stars": 4,
+        "url": "https://indiaai.gov.in",
+        "title": "IndiaAI Mission: Sovereign Compute Portal",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "IndiaAI Mission drives massive democratized access to sovereign compute by subsidizing tens of thousands of GPUs across leading Indian cloud providers.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://www.sakura.ad.jp",
+        "title": "Sakura Internet: Japanese Cloud and Koukaryoku AI",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "high",
-        "why": "Introduces an optimized cloud-native execution environment and sandboxing standard for multi-language AI agent workloads.",
+        "why": "Sakura Internet serves as a METI-backed Japanese cloud anchor providing domestic H100 and B200 infrastructure in renewable-powered container data centers.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://preferred.jp/en",
+        "title": "Preferred Networks (Tokyo): Custom AI Silicon and Supercomputers",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Preferred Networks bridges proprietary AI silicon design with supercomputing clouds and enterprise foundational models tailored for APAC sovereign needs.",
         "category": "Asia-Pacific"
       },
       {
@@ -6814,16 +7281,43 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "high",
-        "why": "Delivers a major APAC open-weights model advancement featuring a 1M-token context window tailored for extreme long-horizon tasks.",
+        "why": "GLM-5.2 delivers an advanced open-weights foundation model featuring a 1M-token context window tailored for extreme long-horizon agentic workloads.",
         "category": "Asia-Pacific"
       },
       {
-        "url": "https://openai.com/index/credit-saison",
-        "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-        "date": "2026-11-01",
-        "stars": 4,
+        "url": "https://www.gmo.jp/en",
+        "title": "GMO Internet Group: Japanese Sovereign GPU Cloud",
+        "date": "2026-11-22",
+        "stars": 3,
         "impact": "high",
-        "why": "Demonstrates proven enterprise-scale generative AI adoption and massive ROI within a tier-one APAC financial institution.",
+        "why": "GMO Internet expands Japanese enterprise sovereign AI capacity by deploying METI-supported NVIDIA H200 clusters under strict APPI data governance.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc",
+        "title": "mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Provides an essential production-grade architectural comparison between External Secrets Operator and Secret Store CSI Driver following community deprecations.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://resetdata.com.au",
+        "title": "ResetData Sovereign Liquid-Cooled Cloud (Australia)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "medium",
+        "why": "ResetData advances APAC edge data center engineering by deploying immersion-cooled sovereign AI infrastructure within Australian metropolitan centers.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://github.com/opensandbox-group/OpenSandbox",
+        "title": "OpenSandbox",
+        "date": "2026-11-15",
+        "stars": 4,
+        "impact": "medium",
+        "why": "OpenSandbox introduces a standardized, isolated execution runtime with Model Context Protocol integrations for deploying secure autonomous AI agents.",
         "category": "Asia-Pacific"
       },
       {
@@ -6832,52 +7326,7 @@
         "date": "2026-11-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Marks a significant architectural shift by decoupling inference from native runtimes into Hugging Face Transformers for streamlined cloud serving.",
-        "category": "Asia-Pacific"
-      },
-      {
-        "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-        "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-        "date": "2026-11-01",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Advances highly efficient edge and cloud document processing through lightweight models scaling down to 1.5M parameters across 50 languages.",
-        "category": "Asia-Pacific"
-      },
-      {
-        "url": "https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry",
-        "title": "devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Details production-grade observability deployment using Prometheus Operator with private container registries on Kubernetes.",
-        "category": "Asia-Pacific"
-      },
-      {
-        "url": "https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins",
-        "title": "ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Addresses real-world CI/CD scalability by orchestrating parallel Jenkins agent build pipelines natively on Kubernetes.",
-        "category": "Asia-Pacific"
-      },
-      {
-        "url": "https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how",
-        "title": "devsecops.co.in: GitOps Guide – What, Why and How? 🌟",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Serves as an essential architectural guide for implementing declarative, GitOps-based continuous delivery in cloud-native platforms.",
-        "category": "Asia-Pacific"
-      },
-      {
-        "url": "https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern",
-        "title": "ishantgaurav.in: Kubernetes – Sidecar Container Pattern",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Explains foundational container composition patterns essential for service meshes, log shippers, and proxy architectures in Kubernetes.",
+        "why": "PaddleOCR 3.5 modernizes document parsing architectures across APAC languages by transitioning inference to the standard Hugging Face Transformers backend.",
         "category": "Asia-Pacific"
       }
     ],
@@ -6971,6 +7420,190 @@
         "impact": "medium",
         "why": "Streamlines the construction and deployment of Model Context Protocol servers connecting distributed LLM applications to cloud-native data backends.",
         "category": "Americas"
+      }
+    ],
+    "European Sovereign Cloud": [
+      {
+        "url": "https://www.ovhcloud.com/en-ie",
+        "title": "OVHcloud Public Cloud and Bare Metal",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Europe's largest native cloud provider delivers essential SecNumCloud-qualified IaaS, true multi-AZ resilience, and zero-egress economics outside US CLOUD Act jurisdiction.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://aws.amazon.com/compliance/europe-digital-sovereignty",
+        "title": "AWS European Sovereign Cloud (Brandenburg Baseline)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Represents the most consequential architectural shift by a US hyperscaler to isolate operational control planes entirely within EU borders to satisfy sovereignty mandates.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://stackit.com/en",
+        "title": "STACKIT Sovereign Cloud (Schwarz Digits)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Schwarz Digits' STACKIT has emerged as a premier German sovereign cloud running enterprise SAP Gardener Kubernetes with strict BSI C5 compliance.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://www.ovhcloud.com/en-ie/public-cloud/kubernetes",
+        "title": "OVHcloud Managed Kubernetes Service (MKS)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Provides a turnkey, CNCF-certified managed Kubernetes control plane on European sovereign hardware with native OpenStack integration and GPU acceleration.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/scaleway",
+        "title": "Scaleway Cloud Platform (Iliad Group)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Drives developer-centric European cloud adoption with multi-region Kubernetes Kapsule, multi-cloud Kosmos, and expansive sovereign AI compute.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://en.outscale.com",
+        "title": "3DS OUTSCALE (Dassault Systemes)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Sets the highest benchmark for defense and public sector compliance as France's first provider with full-scope SecNumCloud 3.2 qualification.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://mistral.ai",
+        "title": "Mistral AI Sovereign Frontier Models",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Enables European enterprises to deploy sovereign, state-of-the-art open-weight AI workloads directly on self-hosted cloud-native Kubernetes clusters.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://cloud.ionos.com",
+        "title": "IONOS Cloud Compute Engine",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Offers German enterprise-grade BSI C5 and ISO 27001 sovereign compute and Managed Kubernetes backed by complete European data residency.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/kubernetes-sigs/cluster-api-provider-openstack",
+        "title": "Cluster API Provider OpenStack (CAPO)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Serves as the upstream CNCF declarative standard for managing multi-cluster Kubernetes lifecycles across European OpenStack-based sovereign providers.",
+        "category": "European Sovereign Cloud"
+      },
+      {
+        "url": "https://github.com/syself/cluster-api-provider-hetzner",
+        "title": "Cluster API Provider Hetzner (CAPH by Syself)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Brings upstream declarative Cluster API automation to cost-effective European bare-metal and cloud infrastructure, accelerating autonomous GitOps fleets.",
+        "category": "European Sovereign Cloud"
+      }
+    ],
+    "Neoclouds & GPU AI Clouds": [
+      {
+        "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72",
+        "title": "NVIDIA GB200 NVL72 Rack-Scale Exascale Architecture",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "The GB200 NVL72 architecture redefines AI data center design by turning a 72-GPU rack into a single liquid-cooled NVLink coherence domain for exascale MoE model training.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://github.com/NVIDIA/KAI-Scheduler",
+        "title": "NVIDIA KAI Scheduler (Open-Source Run:ai Engine)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "critical",
+        "why": "Open-sourcing the Run:ai core as the NVIDIA KAI Scheduler brings enterprise-grade gang scheduling, fractional sharing, and fair-share queueing natively to Kubernetes GPU clusters.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/networking/spectrumx",
+        "title": "NVIDIA Spectrum-X Ethernet for AI Fabrics",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Spectrum-X delivers loss-less RoCEv2 Ethernet performance with adaptive routing, enabling high-utilization multi-tenant AI fabrics without proprietary InfiniBand infrastructure.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://github.com/coreweave/sunk-anywhere",
+        "title": "CoreWeave SUNK: Slurm on Kubernetes Anywhere",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "SUNK bridges the gap between HPC batch processing and cloud-native orchestration by co-locating Slurm job scheduling and Kubernetes control planes inside the same GPU cluster.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://github.com/skypilot-org/skypilot",
+        "title": "SkyPilot: Cross-Neocloud Compute Broker",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "SkyPilot provides an open-source abstraction layer that automates multi-cloud GPU provisioning, spot recovery, and price optimization across disparate Neocloud providers.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://nebius.com/compute/kubernetes",
+        "title": "Nebius Managed Kubernetes for GPU (MK8s)",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "Nebius MK8s delivers a turnkey, GPU-first managed Kubernetes control plane tightly integrated with InfiniBand RDMA, Lustre filesystems, and bare-metal performance.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+        "title": "AMD Instinct MI300X HBM3 Accelerators",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "With 192 GB of high-bandwidth memory, AMD's MI300X provides a viable alternative to NVIDIA hardware for serving 70B+ parameter models on single nodes across Neocloud platforms.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://docs.weka.io",
+        "title": "WEKA AI-Native Parallel Data Platform Documentation",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "WEKA's high-throughput parallel filesystem provides the sub-millisecond storage performance necessary to prevent multi-thousand-GPU training clusters from stalling during checkpoint writes.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.vastdata.com",
+        "title": "VAST Data AI Operating System",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "VAST Data's DASE architecture unifies GPUDirect storage, vector databases, and S3 object storage into a scalable backend tailored for Neocloud AI workloads.",
+        "category": "Neoclouds & GPU AI Clouds"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/networking/quantum2",
+        "title": "NVIDIA Quantum-2 InfiniBand AI Platform",
+        "date": "2026-11-22",
+        "stars": 3,
+        "impact": "high",
+        "why": "NVIDIA Quantum-2 InfiniBand remains the industry standard interconnect for large-scale GPU clusters requiring microsecond tail latency and in-network aggregation.",
+        "category": "Neoclouds & GPU AI Clouds"
       }
     ]
   },
@@ -7115,35 +7748,47 @@
         "method": "gemini"
       },
       "Europe": {
-        "last_analyzed": "2026-11-15T23:25:09.428135+01:00",
-        "entry_hash": "40ea163760c47de3",
-        "entry_count": 17,
+        "last_analyzed": "2026-11-23T18:23:00.730012+01:00",
+        "entry_hash": "870dd4c0d7512e09",
+        "entry_count": 57,
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-22T14:29:41.298264+01:00",
-        "entry_hash": "aa061f5d146e6fd3",
-        "entry_count": 241,
+        "last_analyzed": "2026-11-23T18:23:11.913540+01:00",
+        "entry_hash": "0c597cfe0bdf0623",
+        "entry_count": 247,
         "method": "gemini"
       },
       "Asia-Pacific": {
-        "last_analyzed": "2026-11-15T23:25:14.565207+01:00",
-        "entry_hash": "10ee5ef3967072f9",
-        "entry_count": 5,
+        "last_analyzed": "2026-11-23T18:23:20.626676+01:00",
+        "entry_hash": "f6e64edc9ba26126",
+        "entry_count": 11,
+        "method": "gemini"
+      },
+      "European Sovereign Cloud": {
+        "last_analyzed": "2026-11-23T18:23:41.284944+01:00",
+        "entry_hash": "6f6e7b91fe51844c",
+        "entry_count": 159,
+        "method": "gemini"
+      },
+      "Neoclouds & GPU AI Clouds": {
+        "last_analyzed": "2026-11-23T18:23:53.714152+01:00",
+        "entry_hash": "8a881776416682f0",
+        "entry_count": 99,
         "method": "gemini"
       }
     },
     "6_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-11-22T14:29:55.909255+01:00",
-        "entry_hash": "f1fa017a8382000d",
-        "entry_count": 498,
+        "last_analyzed": "2026-11-23T18:24:07.456990+01:00",
+        "entry_hash": "2977b612b3acb6b9",
+        "entry_count": 497,
         "method": "gemini"
       },
       "Linux & System Foundations": {
-        "last_analyzed": "2026-11-15T23:25:35.355675+01:00",
-        "entry_hash": "01a8a24aa494472f",
-        "entry_count": 131,
+        "last_analyzed": "2026-11-23T18:24:23.364460+01:00",
+        "entry_hash": "fa7f64d621bc251a",
+        "entry_count": 130,
         "method": "gemini"
       },
       "Data, Messaging & Storage": {
@@ -7165,15 +7810,15 @@
         "method": "gemini"
       },
       "AWS": {
-        "last_analyzed": "2026-11-22T14:32:06.023538+01:00",
-        "entry_hash": "8aae968934deb56d",
-        "entry_count": 174,
+        "last_analyzed": "2026-11-23T18:24:35.443592+01:00",
+        "entry_hash": "d9bee8e9a7040a2a",
+        "entry_count": 173,
         "method": "gemini"
       },
       "Security & Compliance": {
-        "last_analyzed": "2026-11-22T14:32:26.928328+01:00",
-        "entry_hash": "17a1b69e3fd56bea",
-        "entry_count": 131,
+        "last_analyzed": "2026-11-23T18:24:56.096690+01:00",
+        "entry_hash": "20bdcf13c2d5d62d",
+        "entry_count": 130,
         "method": "gemini"
       },
       "CI/CD & GitOps": {
@@ -7201,15 +7846,15 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-22T14:33:46.708946+01:00",
-        "entry_hash": "bb54b727f1f03e93",
-        "entry_count": 250,
+        "last_analyzed": "2026-11-23T18:25:11.056456+01:00",
+        "entry_hash": "d083c9d8fbf5e84f",
+        "entry_count": 256,
         "method": "gemini"
       },
       "Europe": {
-        "last_analyzed": "2026-11-15T23:27:30.465382+01:00",
-        "entry_hash": "9461948da03228d4",
-        "entry_count": 35,
+        "last_analyzed": "2026-11-23T18:25:27.830475+01:00",
+        "entry_hash": "9da8983cad5fceef",
+        "entry_count": 75,
         "method": "gemini"
       },
       "Certification & Training": {
@@ -7243,9 +7888,9 @@
         "method": "gemini"
       },
       "Azure": {
-        "last_analyzed": "2026-11-22T10:59:26.644440+01:00",
-        "entry_hash": "de221b114bcb5491",
-        "entry_count": 96,
+        "last_analyzed": "2026-11-23T18:25:43.096749+01:00",
+        "entry_hash": "fae3fd58ec891fd4",
+        "entry_count": 95,
         "method": "gemini"
       },
       "Networking & Service Mesh": {
@@ -7273,9 +7918,9 @@
         "method": "gemini"
       },
       "Asia-Pacific": {
-        "last_analyzed": "2026-11-15T23:29:09.449867+01:00",
-        "entry_hash": "1dfc2cdc9929380b",
-        "entry_count": 6,
+        "last_analyzed": "2026-11-23T18:25:53.316598+01:00",
+        "entry_hash": "c5aa765b766a5fd2",
+        "entry_count": 12,
         "method": "gemini"
       },
       "Americas": {
@@ -7288,6 +7933,18 @@
         "last_analyzed": "2026-11-15T23:29:39.850406+01:00",
         "entry_hash": "d6d8888b9ef48ff8",
         "entry_count": 14,
+        "method": "gemini"
+      },
+      "European Sovereign Cloud": {
+        "last_analyzed": "2026-11-23T18:26:12.792919+01:00",
+        "entry_hash": "6f6e7b91fe51844c",
+        "entry_count": 159,
+        "method": "gemini"
+      },
+      "Neoclouds & GPU AI Clouds": {
+        "last_analyzed": "2026-11-23T18:26:27.476601+01:00",
+        "entry_hash": "8a881776416682f0",
+        "entry_count": 99,
         "method": "gemini"
       }
     },
@@ -7419,15 +8076,15 @@
         "method": "gemini"
       },
       "Spain": {
-        "last_analyzed": "2026-11-22T14:38:42.736370+01:00",
-        "entry_hash": "2e6ff94f75aa61a8",
-        "entry_count": 277,
+        "last_analyzed": "2026-11-23T18:26:48.337910+01:00",
+        "entry_hash": "c58c797355694d31",
+        "entry_count": 283,
         "method": "gemini"
       },
       "Europe": {
-        "last_analyzed": "2026-11-15T23:33:55.940717+01:00",
-        "entry_hash": "0a5a41865d4d245d",
-        "entry_count": 124,
+        "last_analyzed": "2026-11-23T18:27:06.015873+01:00",
+        "entry_hash": "870d486f22db82e5",
+        "entry_count": 164,
         "method": "gemini"
       },
       "FinOps & Cloud Cost": {
@@ -7437,9 +8094,9 @@
         "method": "gemini"
       },
       "Asia-Pacific": {
-        "last_analyzed": "2026-11-15T23:34:24.731589+01:00",
-        "entry_hash": "f73cb37e69ec4ded",
-        "entry_count": 30,
+        "last_analyzed": "2026-11-23T18:28:01.913912+01:00",
+        "entry_hash": "d86c435d93bfaaa9",
+        "entry_count": 36,
         "method": "gemini"
       },
       "Americas": {
@@ -7447,8 +8104,20 @@
         "entry_hash": "686170740d37aa17",
         "entry_count": 320,
         "method": "gemini"
+      },
+      "European Sovereign Cloud": {
+        "last_analyzed": "2026-11-23T18:28:20.388098+01:00",
+        "entry_hash": "6f6e7b91fe51844c",
+        "entry_count": 159,
+        "method": "gemini"
+      },
+      "Neoclouds & GPU AI Clouds": {
+        "last_analyzed": "2026-11-23T18:29:10.750250+01:00",
+        "entry_hash": "8a881776416682f0",
+        "entry_count": 99,
+        "method": "gemini"
       }
     },
-    "last_updated": "2026-11-22T14:38:43.738948+01:00"
+    "last_updated": "2026-11-23T18:29:11.751521+01:00"
   }
 }
