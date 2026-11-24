@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Kubernetes Plugins, Tools, Extensions and Projects"
 dimension: "Architectural Foundations"
-resource_count: 643
-fresh_2025_2026_count: 337
+resource_count: 644
+fresh_2025_2026_count: 338
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-tools.md"
@@ -2278,6 +2278,9 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Authelia, cdk8
 #### Hybrid CLI
 
   - **(2024)** [**kui.tools 🌟**](https://kui.tools) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Kui is an innovative hybrid tool that blends the speed of CLI commands with the graphical visualization of a GUI. It wraps kubectl execution blocks to present interactive HTML elements, resource tables, and tabs directly inside terminal environments.
+## Pluto
+
+  - **(2026)** [oreonit.com: Kubernetes Deprecated API Checker](https://www.oreonit.com/deprecated-api-checker-for-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Browser-based checker: paste manifests or Helm output and see which API versions are removed in a target Kubernetes version. Runs client-side.
 ## Provisioning (3)
 
 ### Ansible

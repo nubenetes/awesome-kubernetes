@@ -27,7 +27,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__dim">Architectural Foundations</div>
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-6" href="/kubernetes/" title="Kubernetes — 667 resources"><span class="topic-heatcell__name">Kubernetes</span><span class="topic-heatcell__n">667</span></a>
-<a class="topic-heatcell th-6" href="/kubernetes-tools/" title="Kubernetes Tools — 643 resources"><span class="topic-heatcell__name">Kubernetes Tools</span><span class="topic-heatcell__n">643</span></a>
+<a class="topic-heatcell th-6" href="/kubernetes-tools/" title="Kubernetes Tools — 644 resources"><span class="topic-heatcell__name">Kubernetes Tools</span><span class="topic-heatcell__n">644</span></a>
 <a class="topic-heatcell th-6" href="/demos/" title="Demos — 370 resources"><span class="topic-heatcell__name">Demos</span><span class="topic-heatcell__n">370</span></a>
 <a class="topic-heatcell th-6" href="/git/" title="Git — 364 resources"><span class="topic-heatcell__name">Git</span><span class="topic-heatcell__n">364</span></a>
 <a class="topic-heatcell th-5" href="/introduction/" title="Introduction — 229 resources"><span class="topic-heatcell__name">Introduction</span><span class="topic-heatcell__n">229</span></a>
@@ -179,10 +179,10 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-4" href="/openshift/" title="OpenShift — 75 resources"><span class="topic-heatcell__name">OpenShift</span><span class="topic-heatcell__n">75</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-on-premise/" title="Kubernetes On Premise — 74 resources"><span class="topic-heatcell__name">Kubernetes On Premise</span><span class="topic-heatcell__n">74</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-monitoring/" title="Kubernetes Monitoring — 73 resources"><span class="topic-heatcell__name">Kubernetes Monitoring</span><span class="topic-heatcell__n">73</span></a>
-<a class="topic-heatcell th-4" href="/kubernetes-releases/" title="Kubernetes Releases — 68 resources"><span class="topic-heatcell__name">Kubernetes Releases</span><span class="topic-heatcell__n">68</span></a>
+<a class="topic-heatcell th-4" href="/kubernetes-releases/" title="Kubernetes Releases — 69 resources"><span class="topic-heatcell__name">Kubernetes Releases</span><span class="topic-heatcell__n">69</span></a>
 <a class="topic-heatcell th-4" href="/rancher/" title="Rancher — 67 resources"><span class="topic-heatcell__name">Rancher</span><span class="topic-heatcell__n">67</span></a>
+<a class="topic-heatcell th-4" href="/kubernetes-autoscaling/" title="Kubernetes Autoscaling — 65 resources"><span class="topic-heatcell__name">Kubernetes Autoscaling</span><span class="topic-heatcell__n">65</span></a>
 <a class="topic-heatcell th-4" href="/serverless/" title="Serverless — 64 resources"><span class="topic-heatcell__name">Serverless</span><span class="topic-heatcell__n">64</span></a>
-<a class="topic-heatcell th-4" href="/kubernetes-autoscaling/" title="Kubernetes Autoscaling — 64 resources"><span class="topic-heatcell__name">Kubernetes Autoscaling</span><span class="topic-heatcell__n">64</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-backup-migrations/" title="Kubernetes Backup & Migrations — 41 resources"><span class="topic-heatcell__name">Kubernetes Backup & Migrations</span><span class="topic-heatcell__n">41</span></a>
 <a class="topic-heatcell th-4" href="/kubernetes-alternatives/" title="Kubernetes Alternatives — 39 resources"><span class="topic-heatcell__name">Kubernetes Alternatives</span><span class="topic-heatcell__n">39</span></a>
 <a class="topic-heatcell th-4" href="/kubectl-commands/" title="kubectl Commands — 38 resources"><span class="topic-heatcell__name">kubectl Commands</span><span class="topic-heatcell__n">38</span></a>
@@ -248,7 +248,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__dim">Career & Industry</div>
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-4" href="/recruitment/" title="Recruitment — 65 resources"><span class="topic-heatcell__name">Recruitment</span><span class="topic-heatcell__n">65</span></a>
-<a class="topic-heatcell th-4" href="/finops/" title="FinOps — 62 resources"><span class="topic-heatcell__name">FinOps</span><span class="topic-heatcell__n">62</span></a>
+<a class="topic-heatcell th-4" href="/finops/" title="FinOps — 63 resources"><span class="topic-heatcell__name">FinOps</span><span class="topic-heatcell__n">63</span></a>
 <a class="topic-heatcell th-4" href="/interview-questions/" title="Interview Questions — 53 resources"><span class="topic-heatcell__name">Interview Questions</span><span class="topic-heatcell__n">53</span></a>
 <a class="topic-heatcell th-4" href="/freelancing/" title="Freelancing — 38 resources"><span class="topic-heatcell__name">Freelancing</span><span class="topic-heatcell__n">38</span></a>
 <a class="topic-heatcell th-4" href="/elearning/" title="E-Learning — 32 resources"><span class="topic-heatcell__name">E-Learning</span><span class="topic-heatcell__n">32</span></a>
@@ -309,7 +309,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Grafana](./grafana.md)** <span class="topic-count">48</span>
 - **[Helm](./helm.md)** <span class="topic-count">99</span>
 - **[Introduction](./introduction.md)** <span class="topic-count">229</span>
-- **[Kubernetes Tools](./kubernetes-tools.md)** <span class="topic-count">643</span>
+- **[Kubernetes Tools](./kubernetes-tools.md)** <span class="topic-count">644</span>
 - **[Kubernetes Tutorials](./kubernetes-tutorials.md)** <span class="topic-count">48</span>
 - **[Kubernetes](./kubernetes.md)** <span class="topic-count">667</span>
 - **[Linux](./linux.md)** <span class="topic-count">202</span>
@@ -443,7 +443,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Docker](./docker.md)** <span class="topic-count">179</span>
 - **[kubectl Commands](./kubectl-commands.md)** <span class="topic-count">38</span>
 - **[Kubernetes Alternatives](./kubernetes-alternatives.md)** <span class="topic-count">39</span>
-- **[Kubernetes Autoscaling](./kubernetes-autoscaling.md)** <span class="topic-count">64</span>
+- **[Kubernetes Autoscaling](./kubernetes-autoscaling.md)** <span class="topic-count">65</span>
 - **[Kubernetes Backup & Migrations](./kubernetes-backup-migrations.md)** <span class="topic-count">41</span>
 - **[Kubernetes Local Dev](./kubernetes-based-devel.md)** <span class="topic-count">78</span>
 - **[Kubernetes Big Data](./kubernetes-bigdata.md)** <span class="topic-count">11</span>
@@ -451,7 +451,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Kubernetes Monitoring](./kubernetes-monitoring.md)** <span class="topic-count">73</span>
 - **[Kubernetes On Premise](./kubernetes-on-premise.md)** <span class="topic-count">74</span>
 - **[Kubernetes Operators & Controllers](./kubernetes-operators-controllers.md)** <span class="topic-count">132</span>
-- **[Kubernetes Releases](./kubernetes-releases.md)** <span class="topic-count">68</span>
+- **[Kubernetes Releases](./kubernetes-releases.md)** <span class="topic-count">69</span>
 - **[Kubernetes Storage](./kubernetes-storage.md)** <span class="topic-count">85</span>
 - **[Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)** <span class="topic-count">79</span>
 - **[NoOps](./noops.md)** <span class="topic-count">7</span>
@@ -527,7 +527,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 
 - **[Appointment Scheduling](./appointment-scheduling.md)** <span class="topic-count">11</span>
 - **[E-Learning](./elearning.md)** <span class="topic-count">32</span>
-- **[FinOps](./finops.md)** <span class="topic-count">62</span>
+- **[FinOps](./finops.md)** <span class="topic-count">63</span>
 - **[Freelancing](./freelancing.md)** <span class="topic-count">38</span>
 - **[HR](./hr.md)** <span class="topic-count">3</span>
 - **[Interview Questions](./interview-questions.md)** <span class="topic-count">53</span>

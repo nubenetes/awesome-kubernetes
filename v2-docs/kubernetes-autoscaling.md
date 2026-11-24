@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Autoscaling"
 dimension: "The Container Stack"
-resource_count: 64
-fresh_2025_2026_count: 6
+resource_count: 65
+fresh_2025_2026_count: 7
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-autoscaling.md"
@@ -48,6 +48,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - [itnext.io: Kubernetes Resources and Autoscaling — From Basics to Greatness 🌟](https://itnext.io/kubernetes-resources-and-autoscaling-from-basics-to-greatness-7cae17fbf27b?gi=e79491c7feaf) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Kubernetes Resources and Autoscaling — From Basics to Greatness 🌟 covering Cluster Autoscaler Kubernetes Tool in Kubernetes Autoscaling (itnext.io).
 ## HPA And VPA
 
+  - **(2026)** [alexandre-vazquez.com: Kubernetes HPA Best Practices: Metrics, CPU & Memory Examples](https://alexandre-vazquez.com/kubernetes-hpa-best-practices) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — How the HPA scaling algorithm works and the five metric types (Resource, ContainerResource, Pods, Object, External) with YAML examples. Explains why memory-based HPA rarely tracks load (JVM and Go runtime behaviour, request misconfiguration), when CPU-based scaling works, and better signals such as RPS, queue depth and latency. Covers stabilization windows, PodDisruptionBudgets, HPA/VPA conflicts and a decision framework for choosing between HPA, VPA and KEDA.
   - [awstip.com: Kubernetes HPA](https://awstip.com/kubernetes-hpa-8b7cf54f115?gi=79980ab29db7) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for awstip.com: Kubernetes HPA covering HPA and VPA in Kubernetes Autoscaling (awstip.com).
   - [code.egym.de: Horizontal Pod Autoscaler in Kubernetes (Part 1) — Simple Autoscaling using Metrics Server](https://code.egym.com/horizontal-pod-autoscaler-in-kubernetes-part-1-simple-autoscaling-using-metrics-server-929e96cc2ab2?gi=5b23d6ea8888) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.egym.de: Horizontal Pod Autoscaler in Kubernetes (Part 1) — Simple Autoscaling using Metrics Server covering HPA and VPA in Kubernetes Autoscaling (code.egym.com).
   - [code.egym.de: Vertical Pod Autoscaler in Kubernetes](https://code.egym.com/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f?gi=239f642fcddb) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for code.egym.de: Vertical Pod Autoscaler in Kubernetes covering HPA and VPA in Kubernetes Autoscaling (code.egym.com).

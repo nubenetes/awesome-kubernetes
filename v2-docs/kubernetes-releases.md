@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Kubernetes Releases"
 dimension: "The Container Stack"
-resource_count: 68
-fresh_2025_2026_count: 11
+resource_count: 69
+fresh_2025_2026_count: 12
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-releases.md"
@@ -220,6 +220,7 @@ description: "Top Kubernetes Releases resources for 2026, AI-ranked: Announcing 
 ## Kubernetes Operators And Controllers
 
   - [==blog.runx.dev: Will That Kubernetes v1.22 Upgrade Break My Application?==](https://blog.runx.dev/will-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7?gi=b309b20fd1f7) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical documentation and implementation reference for blog.runx.dev: Will That Kubernetes v1.22 Upgrade Break My Application? covering Kubernetes Operators and Controllers in Kubernetes Releases (blog.runx.dev).
+  - **(2026)** [oreonit.com: Kubernetes Version Support Calendar for EKS, GKE and AKS](https://www.oreonit.com/kubernetes-version-support-calendar-eks-gke-aks) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — End-of-standard-support and end-of-extended-support dates for each Kubernetes version on the three managed services.
   - [analyticsindiamag.com: Kubernetes v1.21 Released: Major Updates & Latest Features](https://analyticsindiamag.com/ai-trends/kubernetes-v1-21-released-major-updates-latest-features) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for analyticsindiamag.com: Kubernetes v1.21 Released: Major Updates & Latest Features covering Kubernetes Operators and Controllers in Kubernetes Releases (analyticsindiamag.com).
   - [inder-devops.medium.com: It’s Time to Migrate your Container Runtime, Kubernetes 1.24 is coming](https://inders-ai.medium.com/its-time-to-migrate-your-container-runtime-kubernetes-1-24-is-coming-f0c0b6b9bb90) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for inder-devops.medium.com: It’s Time to Migrate your Container Runtime, Kubernetes 1.24 is coming covering Kubernetes Operators and Controllers in Kubernetes Releases (inders-ai.medium.com).
   - [itnext.io: Unleashing the Power of Kubernetes 1.26: Exploring the New ValidatingAdmissionPolicy Feature with CEL](https://itnext.io/unleashing-the-power-of-kubernetes-1-26-56979ee667fd?gi=c614fbfd16ca) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for itnext.io: Unleashing the Power of Kubernetes 1.26: Exploring the New ValidatingAdmissionPolicy Feature with CEL covering Kubernetes Operators and Controllers in Kubernetes Releases (itnext.io).

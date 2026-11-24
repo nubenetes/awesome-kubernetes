@@ -10,11 +10,11 @@
     "v1_archive": "https://nubenetes.com/v1/"
   },
   "stats": {
-    "v1_total_inventory": 20895,
-    "v2_total_resources": 16792,
-    "v2_verified_online": 12722,
-    "v2_fresh_2025_2026": 3904,
-    "v2_deep_ai_summaries": 11579,
+    "v1_total_inventory": 20899,
+    "v2_total_resources": 16796,
+    "v2_verified_online": 12726,
+    "v2_fresh_2025_2026": 3908,
+    "v2_deep_ai_summaries": 11583,
     "v2_cncf_projects": 64,
     "v2_categories": 159
   },
@@ -1701,8 +1701,8 @@
       "url": "https://nubenetes.com/kubernetes-tools/",
       "v1_url": "https://nubenetes.com/v1/kubernetes-tools/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-tools.md",
-      "resource_count": 643,
-      "fresh_2025_2026_count": 337,
+      "resource_count": 644,
+      "fresh_2025_2026_count": 338,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
@@ -8796,18 +8796,18 @@
       "url": "https://nubenetes.com/kubernetes-autoscaling/",
       "v1_url": "https://nubenetes.com/v1/kubernetes-autoscaling/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-autoscaling.md",
-      "resource_count": 64,
-      "fresh_2025_2026_count": 6,
+      "resource_count": 65,
+      "fresh_2025_2026_count": 7,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
         "[DE FACTO STANDARD]",
         "[AUTOSCALING]",
+        "[EMERGING]",
         "[ENTERPRISE-STABLE]",
         "[GPU]",
         "[GUIDE]",
-        "[KUBERNETES]",
-        "[EBPF]"
+        "[KUBERNETES]"
       ],
       "top_resources": [
         {
@@ -9521,8 +9521,8 @@
       "url": "https://nubenetes.com/kubernetes-releases/",
       "v1_url": "https://nubenetes.com/v1/kubernetes-releases/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-releases.md",
-      "resource_count": 68,
-      "fresh_2025_2026_count": 11,
+      "resource_count": 69,
+      "fresh_2025_2026_count": 12,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
@@ -13699,8 +13699,8 @@
       "url": "https://nubenetes.com/finops/",
       "v1_url": "https://nubenetes.com/v1/finops/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/finops.md",
-      "resource_count": 62,
-      "fresh_2025_2026_count": 22,
+      "resource_count": 63,
+      "fresh_2025_2026_count": 23,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",

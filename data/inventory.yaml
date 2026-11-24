@@ -759432,3 +759432,108 @@ https://docs.nebius.com:
   v2_locations:
   - neoclouds.md
   youtube_mosaic: {}
+https://www.oreonit.com/extended-support-cost-calculator-for-eks-gke-aks:
+  title: 'oreonit.com: Extended Support Cost Calculator for EKS, GKE and AKS'
+  description: Calculates the extra control-plane cost of clusters left on a Kubernetes
+    version past standard support, with end-of-support dates per version.
+  ai_summary: Calculates the extra control-plane cost of clusters left on a Kubernetes
+    version past standard support, with end-of-support dates per version.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Career & Industry
+  - FinOps
+  - EKS
+  v1_locations:
+  - docs/finops.md
+  v2_locations:
+  - finops.md
+  addition_method: manual
+  discovered_at: '2026-11-24T23:09:56.916939+01:00'
+  tags:
+  - '[EMERGING]'
+https://alexandre-vazquez.com/kubernetes-hpa-best-practices:
+  title: 'alexandre-vazquez.com: Kubernetes HPA Best Practices: Metrics, CPU & Memory
+    Examples'
+  description: How the HPA scaling algorithm works and the five metric types (Resource,
+    ContainerResource, Pods, Object, External) with YAML examples. Explains why memory-based
+    HPA rarely tracks load (JVM and Go runtime behaviour, request misconfiguration),
+    when CPU-based scaling works, and better signals such as RPS, queue depth and
+    latency. Covers stabilization windows, PodDisruptionBudgets, HPA/VPA conflicts
+    and a decision framework for choosing between HPA, VPA and KEDA.
+  ai_summary: How the HPA scaling algorithm works and the five metric types (Resource,
+    ContainerResource, Pods, Object, External) with YAML examples. Explains why memory-based
+    HPA rarely tracks load (JVM and Go runtime behaviour, request misconfiguration),
+    when CPU-based scaling works, and better signals such as RPS, queue depth and
+    latency. Covers stabilization windows, PodDisruptionBudgets, HPA/VPA conflicts
+    and a decision framework for choosing between HPA, VPA and KEDA.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - The Container Stack
+  - Kubernetes Autoscaling
+  - HPA and VPA
+  v1_locations:
+  - docs/kubernetes-autoscaling.md
+  v2_locations:
+  - kubernetes-autoscaling.md
+  addition_method: manual
+  discovered_at: '2026-11-24T23:09:56.957364+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.oreonit.com/kubernetes-version-support-calendar-eks-gke-aks:
+  title: 'oreonit.com: Kubernetes Version Support Calendar for EKS, GKE and AKS'
+  description: End-of-standard-support and end-of-extended-support dates for each
+    Kubernetes version on the three managed services.
+  ai_summary: End-of-standard-support and end-of-extended-support dates for each Kubernetes
+    version on the three managed services.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - The Container Stack
+  - Kubernetes Releases
+  - Kubernetes Operators and Controllers
+  v1_locations:
+  - docs/kubernetes-releases.md
+  v2_locations:
+  - kubernetes-releases.md
+  addition_method: manual
+  discovered_at: '2026-11-24T23:09:56.970210+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.oreonit.com/deprecated-api-checker-for-kubernetes:
+  title: 'oreonit.com: Kubernetes Deprecated API Checker'
+  description: 'Browser-based checker: paste manifests or Helm output and see which
+    API versions are removed in a target Kubernetes version. Runs client-side.'
+  ai_summary: 'Browser-based checker: paste manifests or Helm output and see which
+    API versions are removed in a target Kubernetes version. Runs client-side.'
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Architectural Foundations
+  - Kubernetes Tools
+  - Pluto
+  v1_locations:
+  - docs/kubernetes-tools.md
+  v2_locations:
+  - kubernetes-tools.md
+  addition_method: manual
+  discovered_at: '2026-11-24T23:09:56.994371+01:00'
+  tags:
+  - '[EMERGING]'

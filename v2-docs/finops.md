@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Cloud FinOps. Collaborative, Real-Time Cloud Financial Management (CFM)"
 dimension: "Career & Industry"
-resource_count: 62
-fresh_2025_2026_count: 22
+resource_count: 63
+fresh_2025_2026_count: 23
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/finops.md"
@@ -49,6 +49,9 @@ description: "Top FinOps resources for 2026, AI-ranked: CAST AI, A scorecard for
 #### Case Studies
 
   - **(2021)** [ServerlessHorrors: A Web Compiling Nightmares in the Serverless World](https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.
+## EKS
+
+  - **(2026)** [oreonit.com: Extended Support Cost Calculator for EKS, GKE and AKS](https://www.oreonit.com/extended-support-cost-calculator-for-eks-gke-aks) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Calculates the extra control-plane cost of clusters left on a Kubernetes version past standard support, with end-of-support dates per version.
 ## Engineering
 
 ### Infrastructure

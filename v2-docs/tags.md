@@ -252,7 +252,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-1" href="#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#emerging" title="1200 resources">Emerging<span class="v2-heat-n">1200</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#emerging" title="1204 resources">Emerging<span class="v2-heat-n">1204</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>
@@ -780,7 +780,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 
 1. [De Facto Standard](#de-facto-standard) (1366 resources)
 1. [Enterprise-Stable](#enterprise-stable) (1525 resources)
-1. [Emerging](#emerging) (1200 resources)
+1. [Emerging](#emerging) (1204 resources)
 1. [Guide](#guide) (1137 resources)
 1. [Case Study](#case-study) (179 resources)
 1. [Community-Tool](#community-tool) (8391 resources)
@@ -1028,7 +1028,7 @@ Resources indexed by their primary source language or document format.
 ## Emerging {#emerging}
 
 <details markdown="1">
-<summary>Click to view top 100 of 1200 resources under Emerging</summary>
+<summary>Click to view top 100 of 1204 resources under Emerging</summary>
 
   - **(2026)** [==OpenTofu Official GitHub Repository==](https://github.com/opentofu/opentofu) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — *Go to [Section](./iac.md)*
   - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./devsecops.md)*
@@ -1131,7 +1131,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**What We Learned by Reproducing 2,200 papers from ICML**](https://huggingface.co/blog/icml-2026-open-reproductions) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-AGENTS]</span> <span class='md-tag md-tag--primary'>[AUTO-CODING]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[REPRODUCIBILITY]</span> <span class='md-tag md-tag--primary'>[RESEARCH]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2026)** [**Building Reliable Data Analytics Agents: Lessons from the KDD Cup**](https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-AGENTS]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--primary'>[DATA-ANALYTICS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[KDD-CUP]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./ai-agents-mcp.md)*
 
-*... and 1100 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 1104 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
