@@ -1200,6 +1200,7 @@ elastic quotas - Effortless optimization at its finest!
 ## Pluto
 
 - [==dev.to: Detecting Kubernetes API Deprecations with pluto==](https://dev.to/fkurz/detecting-kubernetes-api-deprecations-with-pluto-3g2m) Utility to help users find deprecated Kubernetes API versions in their code repositories and their helm releases.
+- [oreonit.com: Kubernetes Deprecated API Checker](https://www.oreonit.com/deprecated-api-checker-for-kubernetes/) Browser-based checker: paste manifests or Helm output and see which API versions are removed in a target Kubernetes version. Runs client-side.
 
 ## Konf Lightweight Kubeconfig Manager
 

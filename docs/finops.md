@@ -99,6 +99,7 @@
 
 - [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)
 - [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs) This post describes different EKS log types and ways to optimize costs. Understanding the levers available for consuming logs not only helps you in optimizing costs but also allows you to focus on the root causes analysis and attribution.
+- [oreonit.com: Extended Support Cost Calculator for EKS, GKE and AKS](https://www.oreonit.com/extended-support-cost-calculator-for-eks-gke-aks/) Calculates the extra control-plane cost of clusters left on a Kubernetes version past standard support, with end-of-support dates per version.
 
 ## Books
 
