@@ -133,11 +133,11 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-3" href="/eu-cloud-spain/" title="Spain Sovereign Cloud & Private DCs — 19 resources"><span class="topic-heatcell__name">Spain Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">19</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-workloads-stack/" title="Hypervisors, IaaS, K8s & Sovereign AI — 14 resources"><span class="topic-heatcell__name">Hypervisors, IaaS, K8s & Sovereign AI</span><span class="topic-heatcell__n">14</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-benelux/" title="Netherlands & Benelux Cloud & DCs — 13 resources"><span class="topic-heatcell__name">Netherlands & Benelux Cloud & DCs</span><span class="topic-heatcell__n">13</span></a>
-<a class="topic-heatcell th-3" href="/eu-cloud-switzerland-dach/" title="Switzerland & Austria (Alpine Sovereign) — 13 resources"><span class="topic-heatcell__name">Switzerland & Austria (Alpine Sovereign)</span><span class="topic-heatcell__n">13</span></a>
 <a class="topic-heatcell th-3" href="/eu-sovereign-cloud/" title="EU Sovereign Cloud Overview & TCO — 12 resources"><span class="topic-heatcell__name">EU Sovereign Cloud Overview & TCO</span><span class="topic-heatcell__n">12</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-italy/" title="Italy Sovereign Cloud & Private DCs — 12 resources"><span class="topic-heatcell__name">Italy Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">12</span></a>
-<a class="topic-heatcell th-3" href="/eu-cloud-nordics/" title="Nordics Green Cloud & AI Factories — 12 resources"><span class="topic-heatcell__name">Nordics Green Cloud & AI Factories</span><span class="topic-heatcell__n">12</span></a>
-<a class="topic-heatcell th-3" href="/eu-cloud-uk/" title="United Kingdom Sovereign Cloud & DCs — 10 resources"><span class="topic-heatcell__name">United Kingdom Sovereign Cloud & DCs</span><span class="topic-heatcell__n">10</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-switzerland-dach/" title="Switzerland & Austria (Alpine Sovereign) — 12 resources"><span class="topic-heatcell__name">Switzerland & Austria (Alpine Sovereign)</span><span class="topic-heatcell__n">12</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-nordics/" title="Nordics Green Cloud & AI Factories — 11 resources"><span class="topic-heatcell__name">Nordics Green Cloud & AI Factories</span><span class="topic-heatcell__n">11</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-uk/" title="United Kingdom Sovereign Cloud & DCs — 9 resources"><span class="topic-heatcell__name">United Kingdom Sovereign Cloud & DCs</span><span class="topic-heatcell__n">9</span></a>
 <a class="topic-heatcell th-2" href="/eu-cloud-resilience-sla/" title="RPO, RTO, SLAs, DRP & Replication — 6 resources"><span class="topic-heatcell__name">RPO, RTO, SLAs, DRP & Replication</span><span class="topic-heatcell__n">6</span></a>
 </div>
 </div>
@@ -396,11 +396,11 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)** <span class="topic-count">20</span>
 - **[IaC Automation & Maturity vs Hyperscalers](./eu-cloud-iac-maturity.md)** <span class="topic-count">21</span>
 - **[Italy Sovereign Cloud & Private DCs](./eu-cloud-italy.md)** <span class="topic-count">12</span>
-- **[Nordics Green Cloud & AI Factories](./eu-cloud-nordics.md)** <span class="topic-count">12</span>
+- **[Nordics Green Cloud & AI Factories](./eu-cloud-nordics.md)** <span class="topic-count">11</span>
 - **[RPO, RTO, SLAs, DRP & Replication](./eu-cloud-resilience-sla.md)** <span class="topic-count">6</span>
 - **[Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md)** <span class="topic-count">19</span>
-- **[Switzerland & Austria (Alpine Sovereign)](./eu-cloud-switzerland-dach.md)** <span class="topic-count">13</span>
-- **[United Kingdom Sovereign Cloud & DCs](./eu-cloud-uk.md)** <span class="topic-count">10</span>
+- **[Switzerland & Austria (Alpine Sovereign)](./eu-cloud-switzerland-dach.md)** <span class="topic-count">12</span>
+- **[United Kingdom Sovereign Cloud & DCs](./eu-cloud-uk.md)** <span class="topic-count">9</span>
 - **[Hypervisors, IaaS, K8s & Sovereign AI](./eu-cloud-workloads-stack.md)** <span class="topic-count">14</span>
 - **[EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md)** <span class="topic-count">12</span>
 

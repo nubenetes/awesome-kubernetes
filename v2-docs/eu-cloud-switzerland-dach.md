@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Switzerland and Austria Sovereign Cloud and Private Data Centers"
 dimension: "European Sovereign Cloud & Private DCs"
-resource_count: 13
-fresh_2025_2026_count: 13
+resource_count: 12
+fresh_2025_2026_count: 12
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-switzerland-dach.md"
@@ -78,7 +78,6 @@ Switzerland (and neighboring **Austria** as DACH/CEE bridge) commands unique ent
   - **(2026)** [Vienna Internet Exchange (VIX Austria)](https://www.vix.at/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Central Europe's key neutral IXP in Vienna anchoring Austrian domestic cloud traffic and high-availability interconnection across DACH and Central-Eastern Europe.
 ## Nordics Switzerland And Benelux Cloud And AI Providers
 
-  - **(2026)** [Exoscale: Swiss and European Sovereign Cloud](https://www.exoscale.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Swiss/Austrian sovereign IaaS and SKS Managed Kubernetes provider (A1 Group) operating GDPR-shielded zones across Zurich, Geneva, Frankfurt, Munich, Vienna, and Sofia with strict Swiss privacy governance and zero US ownership.
   - **(2026)** [Infomaniak Public Cloud (Switzerland)](https://www.infomaniak.com/en/hosting/public-cloud) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[HYPERVISOR]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Swiss independent OpenStack public cloud emphasizing ecological hydro-powered data centers, zero US CLOUD Act exposure, and transparent Pay-as-You-Go billing.
 ## Swiss FINMA FADP And Neutrality Compliance
 

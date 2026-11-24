@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "United Kingdom Sovereign Cloud and Private Data Centers"
 dimension: "European Sovereign Cloud & Private DCs"
-resource_count: 10
-fresh_2025_2026_count: 10
+resource_count: 9
+fresh_2025_2026_count: 9
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-uk.md"
@@ -84,11 +84,10 @@ Although outside the EU legal bloc, the **United Kingdom** forms one of Europe's
 ## United Kingdom Sovereign Cloud And Kubernetes Providers
 
   - **(2026)** [Brightbox UK Enterprise Cloud](https://www.brightbox.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Independent British cloud infrastructure pioneer built for high-availability UK data residency, predictable multi-zone British IaaS, and official Terraform provider automation.
-  - **(2026)** [Nscale British Sovereign AI Hyperscaler](https://www.nscale.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — UK-headquartered vertically integrated AI cloud operator deploying large-scale NVIDIA Blackwell/Hopper GPU clusters on renewable European/UK infrastructure with sovereign AI compliance.
   - **(2026)** [Redcentric UK Public Sector and NHS Sovereign Cloud](https://www.redcentricplc.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — UK-listed managed cloud and HSCN health-network specialist delivering G-Cloud compliant sovereign IaaS, disaster recovery, and British public-sector hosting across owned UK data centers.
 
 ---
 💡 **Explore Related:** [EU Sovereign Cloud Overview & TCO](./eu-sovereign-cloud.md) | [Spain Sovereign Cloud & Private DCs](./eu-cloud-spain.md) | [Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)
 
-🔗 **See Also:** [MLOps](./mlops.md) | [Asia-Pacific Neoclouds & AI Clouds](./neoclouds-apac.md)
+🔗 **See Also:** [AI](./ai.md) | [AWS New Features](./aws-newfeatures.md)
 

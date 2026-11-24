@@ -751775,7 +751775,7 @@ https://www.exoscale.com:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -751797,6 +751797,7 @@ https://www.exoscale.com:
   v2_locations:
   - eu-cloud-switzerland-dach.md
   youtube_mosaic: {}
+  duplicate_of: https://www.exoscale.com/gpu
 https://upcloud.com/docs:
   title: UpCloud Sovereign European Cloud
   description: "\U0001F31F - Finnish-owned cloud infrastructure provider operating
@@ -754992,7 +754993,7 @@ https://www.atnorth.com:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -755015,6 +755016,7 @@ https://www.atnorth.com:
   v2_locations:
   - eu-cloud-nordics.md
   youtube_mosaic: {}
+  duplicate_of: https://atnorth.com
 https://www.verne.co:
   title: Verne Sustainable AI Data Centers (Iceland, Finland and UK)
   description: "\U0001F31F - High-density HPC and AI colocation specialist running
@@ -755637,7 +755639,7 @@ https://www.nscale.com:
   resource_type: Reference
   complexity: Intermediate
   is_microservice: false
-  status: online
+  status: duplicate
   addition_method: manual
   content_hash: null
   health_score: null
@@ -755661,6 +755663,7 @@ https://www.nscale.com:
   v2_locations:
   - eu-cloud-uk.md
   youtube_mosaic: {}
+  duplicate_of: https://nscale.com
 https://www.telehouse.net:
   title: Telehouse London Docklands Campus (North, West and South)
   description: "\U0001F31F - Europe's most densely interconnected London Docklands
@@ -759436,26 +759439,35 @@ https://www.oreonit.com/extended-support-cost-calculator-for-eks-gke-aks:
   title: 'oreonit.com: Extended Support Cost Calculator for EKS, GKE and AKS'
   description: Calculates the extra control-plane cost of clusters left on a Kubernetes
     version past standard support, with end-of-support dates per version.
-  ai_summary: Calculates the extra control-plane cost of clusters left on a Kubernetes
-    version past standard support, with end-of-support dates per version.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Calculates the extra control-plane cost of clusters left on a Kubernetes
+    version past standard support, with end-of-support dates per version.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-24T23:09:56.916939+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Career & Industry
   - FinOps
   - EKS
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/finops.md
   v2_locations:
   - finops.md
-  addition_method: manual
-  discovered_at: '2026-11-24T23:09:56.916939+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://alexandre-vazquez.com/kubernetes-hpa-best-practices:
   title: 'alexandre-vazquez.com: Kubernetes HPA Best Practices: Metrics, CPU & Memory
     Examples'
@@ -759465,75 +759477,102 @@ https://alexandre-vazquez.com/kubernetes-hpa-best-practices:
     when CPU-based scaling works, and better signals such as RPS, queue depth and
     latency. Covers stabilization windows, PodDisruptionBudgets, HPA/VPA conflicts
     and a decision framework for choosing between HPA, VPA and KEDA.
+  year: '2026'
+  stars: 3
   ai_summary: How the HPA scaling algorithm works and the five metric types (Resource,
     ContainerResource, Pods, Object, External) with YAML examples. Explains why memory-based
     HPA rarely tracks load (JVM and Go runtime behaviour, request misconfiguration),
     when CPU-based scaling works, and better signals such as RPS, queue depth and
     latency. Covers stabilization windows, PodDisruptionBudgets, HPA/VPA conflicts
     and a decision framework for choosing between HPA, VPA and KEDA.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-24T23:09:56.957364+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Autoscaling
   - HPA and VPA
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-autoscaling.md
   v2_locations:
   - kubernetes-autoscaling.md
-  addition_method: manual
-  discovered_at: '2026-11-24T23:09:56.957364+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.oreonit.com/kubernetes-version-support-calendar-eks-gke-aks:
   title: 'oreonit.com: Kubernetes Version Support Calendar for EKS, GKE and AKS'
   description: End-of-standard-support and end-of-extended-support dates for each
     Kubernetes version on the three managed services.
-  ai_summary: End-of-standard-support and end-of-extended-support dates for each Kubernetes
-    version on the three managed services.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: End-of-standard-support and end-of-extended-support dates for each Kubernetes
+    version on the three managed services.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-24T23:09:56.970210+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - The Container Stack
   - Kubernetes Releases
   - Kubernetes Operators and Controllers
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-releases.md
   v2_locations:
   - kubernetes-releases.md
-  addition_method: manual
-  discovered_at: '2026-11-24T23:09:56.970210+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.oreonit.com/deprecated-api-checker-for-kubernetes:
   title: 'oreonit.com: Kubernetes Deprecated API Checker'
   description: 'Browser-based checker: paste manifests or Helm output and see which
     API versions are removed in a target Kubernetes version. Runs client-side.'
-  ai_summary: 'Browser-based checker: paste manifests or Helm output and see which
-    API versions are removed in a target Kubernetes version. Runs client-side.'
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: 'Browser-based checker: paste manifests or Helm output and see which
+    API versions are removed in a target Kubernetes version. Runs client-side.'
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-24T23:09:56.994371+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Kubernetes Tools
   - Pluto
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
   - kubernetes-tools.md
-  addition_method: manual
-  discovered_at: '2026-11-24T23:09:56.994371+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}

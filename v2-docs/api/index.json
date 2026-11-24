@@ -12,7 +12,7 @@
   "stats": {
     "v1_total_inventory": 20899,
     "v2_total_resources": 16796,
-    "v2_verified_online": 12726,
+    "v2_verified_online": 12723,
     "v2_fresh_2025_2026": 3908,
     "v2_deep_ai_summaries": 11583,
     "v2_cncf_projects": 64,
@@ -6385,32 +6385,16 @@
       "url": "https://nubenetes.com/eu-cloud-nordics/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-nordics/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-nordics.md",
-      "resource_count": 12,
-      "fresh_2025_2026_count": 12,
+      "resource_count": 11,
+      "fresh_2025_2026_count": 11,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
         "[SOVEREIGN-EU]",
         "[HYPERVISOR]",
-        "[GPU]",
         "[LLM]"
       ],
       "top_resources": [
-        {
-          "title": "atNorth Nordic High-Density AI Data Centers",
-          "url": "https://www.atnorth.com",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[GPU]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "Pan-Nordic high-density colocation and liquid-cooled GPU infrastructure operator spanning Iceland, Sweden, Finland, and Denmark with sub-1.15 PUE and geothermal/hydro electricity."
-        },
         {
           "title": "Bulk Infrastructure Nordic Green Data Centers",
           "url": "https://bulkinfrastructure.com",
@@ -6467,6 +6451,20 @@
             "[SOVEREIGN-EU]"
           ],
           "summary": "Stockholm-headquartered initiative engineering high-security, sustainable European hyperscale cloud and AI data center regions exclusively under EU jurisdiction."
+        },
+        {
+          "title": "GleSYS Green European Cloud Infrastructure",
+          "url": "https://glesys.com",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Swedish independent sovereign cloud, bare metal, and colocation provider operating owned eco-friendly facilities in Falkenberg, Stockholm, and Oulu with full API/Terraform automation and zero US CLOUD Act ties."
         }
       ]
     },
@@ -6661,8 +6659,8 @@
       "url": "https://nubenetes.com/eu-cloud-switzerland-dach/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-switzerland-dach/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-switzerland-dach.md",
-      "resource_count": 13,
-      "fresh_2025_2026_count": 13,
+      "resource_count": 12,
+      "fresh_2025_2026_count": 12,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -6751,14 +6749,13 @@
       "url": "https://nubenetes.com/eu-cloud-uk/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-uk/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-uk.md",
-      "resource_count": 10,
-      "fresh_2025_2026_count": 10,
+      "resource_count": 9,
+      "fresh_2025_2026_count": 9,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
         "[SOVEREIGN-EU]",
-        "[GPU]",
-        "[NEOCLOUD]"
+        "[GPU]"
       ],
       "top_resources": [
         {
@@ -6818,20 +6815,17 @@
           "summary": "One of the world's premier member-owned Internet exchanges with dual independent London peering LANs plus Manchester and Scotland IXPs powering UK sovereign cloud traffic."
         },
         {
-          "title": "Nscale British Sovereign AI Hyperscaler",
-          "url": "https://www.nscale.com",
+          "title": "Pulsant UK Edge and Private Cloud",
+          "url": "https://www.pulsant.com",
           "year": "2026",
           "stars": 3,
           "gh_stars": null,
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[EMERGING]",
-            "[GPU]",
-            "[NEOCLOUD]",
-            "[SOVEREIGN-EU]"
+            "[EMERGING]"
           ],
-          "summary": "UK-headquartered vertically integrated AI cloud operator deploying large-scale NVIDIA Blackwell/Hopper GPU clusters on renewable European/UK infrastructure with sovereign AI compliance."
+          "summary": "Regional UK data center network (12+ facilities across England and Scotland) combining sovereign private cloud, disaster recovery, and low-latency national interconnection."
         }
       ]
     },

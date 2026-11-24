@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Nordics Green Cloud and AI Factories"
 dimension: "European Sovereign Cloud & Private DCs"
-resource_count: 12
-fresh_2025_2026_count: 12
+resource_count: 11
+fresh_2025_2026_count: 11
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-nordics.md"
@@ -70,7 +70,6 @@ Sweden, Finland, Norway, and Iceland combine Europe's cleanest energy grid with 
 
 ## Hydro And Geothermal AI Data Centers And Eurohpc Supercomputing
 
-  - **(2026)** [atNorth Nordic High-Density AI Data Centers](https://www.atnorth.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Pan-Nordic high-density colocation and liquid-cooled GPU infrastructure operator spanning Iceland, Sweden, Finland, and Denmark with sub-1.15 PUE and geothermal/hydro electricity.
   - **(2026)** [Bulk Infrastructure Nordic Green Data Centers](https://bulkinfrastructure.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Norwegian hyperscale data center and dark-fiber subsea carrier operating Norway's massive renewable-powered NO1 campus and ultra-low-latency transatlantic/Nordic connectivity.
   - **(2026)** [Green Mountain Hydro-Powered Data Centers (Norway and UK)](https://greenmountain.no) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — World-renowned Norwegian ultra-low-PUE colocation operator running fjord-cooled and 100% hydro-powered AI and sovereign enterprise data centers (Stavanger, Rjukan, Oslo).
   - **(2026)** [LUMI Pre-Exascale Supercomputer (CSC Kajaani Finland)](https://lumi-supercomputer.eu) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — One of Europe's cleanest pre-exascale EuroHPC supercomputers in Kajaani powered 100% by hydroelectricity with waste heat exported directly to the local municipal district heating grid.
