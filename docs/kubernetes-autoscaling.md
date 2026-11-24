@@ -113,6 +113,7 @@
 - [faun.pub: Intelligently estimating your Kubernetes resource needs!](https://faun.pub/intelligently-estimating-your-kubernetes-resource-needs-c12a75ea3138?gi=7d1a3accca7c) how to use the Vertical Pod Autoscaler and Goldilocks to guess the correct requests and limits for your Pods
 - [itnext.io: Kubernetes: vertical Pods scaling with Vertical Pod Autoscaler](https://itnext.io/kubernetes-vertical-pods-scaling-with-vertical-pod-autoscaler-e2e5a3b8e1a9?gi=d2f70a247b32)
 - [medium.com/@adityadhopade18: Mastering K8s Event Driven AutoScaling](https://medium.com/@adityadhopade18/mastering-k8s-event-driven-autoscaling-cd1b9df78903)
+- [alexandre-vazquez.com: Kubernetes HPA Best Practices: Metrics, CPU & Memory Examples](https://alexandre-vazquez.com/kubernetes-hpa-best-practices/) How the HPA scaling algorithm works and the five metric types (Resource, ContainerResource, Pods, Object, External) with YAML examples. Explains why memory-based HPA rarely tracks load (JVM and Go runtime behaviour, request misconfiguration), when CPU-based scaling works, and better signals such as RPS, queue depth and latency. Covers stabilization windows, PodDisruptionBudgets, HPA/VPA conflicts and a decision framework for choosing between HPA, VPA and KEDA.
 
 ### Kubernetes Scale to Zero
 
