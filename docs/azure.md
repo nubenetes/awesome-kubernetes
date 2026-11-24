@@ -486,6 +486,7 @@
 - [techcommunity.microsoft.com: Important: Azure AD Graph Retirement and Powershell Module Deprecation](https://techcommunity.microsoft.com/blog/microsoft-entra-blog/important-azure-ad-graph-retirement-and-powershell-module-deprecation/3848270)
 - [journeyofthegeek.com: Azure Authorization – Azure RBAC Delegation](https://journeyofthegeek.com/2024/05/10/azure-authorization-azure-rbac-delegation)
 - [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github)
+- [devtoolhub.com: Azure Managed Identity vs Service Principal: Which to Use](https://devtoolhub.com/azure-managed-identity-vs-service-principal/) A managed identity is a service principal that Azure manages. Compares secret handling, role assignment and CLI setup for each, covers the default Contributor role that `az webapp identity assign` grants, and GitHub OIDC federated credentials for CI.
 
 ### Register applications in Azure AD. Authenticate apps and services
 
