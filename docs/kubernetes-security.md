@@ -405,6 +405,7 @@ Each of these alternatives provides different features and may be more suitable 
 
 - [paralus.io 🌟](https://www.paralus.io) **Zero trust Kubernetes with zero friction.** - [github.com/paralus/paralus](https://github.com/paralus/paralus) Paralus is a free, open source tool that enables controlled, audited access to Kubernetes infrastructure. It comes with just-in-time service account creation and user-level credential management that integrates with your RBAC and SSO providers or Identity Providers (IdP) that support OIDC. Ships as a GUI, API, and CLI.
 - [github.com/ondat/trousseau](https://github.com/ondat/trousseau) Trousseau uses the Kubernetes KMS provider framework to provide an envelope encryption scheme to encrypt secrets on the fly before they reach etcd. The project is modular and you can plug your own KMS tool (e.g. Vault).
+- [github.com/iLLeniumStudios/protem](https://github.com/iLLeniumStudios/protem) Protem is just-in-time privileged access for Kubernetes: people request a role for a set time, approvers see the role's rules before deciding, and an agent on each target cluster creates an ordinary RoleBinding and removes it automatically when the grant expires, even while the hub is unreachable. Time-bound, approval-gated RBAC across clusters, with an audit trail and a web UI.
 
 ## Kubernetes and LDAP
 
