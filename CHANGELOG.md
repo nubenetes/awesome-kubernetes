@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.16.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.1) - 2026-11-28
+
+### Changed
+- **European Sovereign Cloud Hub & 11 Child Pages Clickable Provider Audit (`src/eu_sovereign_blueprints.py`, `docs/eu-*.md`, `v2-docs/eu-*.md`, `tests/test_pipeline_invariants.py`)**:
+  - Linked every cloud provider, colocation operator, Internet Exchange (`DE-CIX`, `AMS-IX`, `France-IX`, `LINX`, `ESpanix`, `MIX`, `SwissIX`, `VIX`, `Netnod`), EuroHPC supercomputer (`JUPITER`, `MareNostrum 5`, `LUMI`, `Leonardo`, `Alps`, `Jean Zay`), regulatory authority (`GDPR`, `DORA`, `NIS2`, `EU Data Act`, `EU AI Act`, `ENS Alto`, `SecNumCloud 3.2`, `BSI C5`, `ACN QC3`, `FINMA`, `revDSG`, `NCSC`, `G-Cloud`, `FCA`), and IaC/K8s/DR tool across `/eu-sovereign-cloud/` and all 11 regional/engineering guides to live-verified (`HTTP 200`) official URLs.
+  - Added an explicit **EU / EEA Legal Perimeter vs. Associated Non-EU European Sovereign Jurisdictions (Switzerland & Post-Brexit UK Adequacy)** architectural boundary section, badges, and L4 split on `/eu-sovereign-cloud/` and `/eu-cloud-uk/`.
+  - Repaired generic/broken URLs (`syseleven.de/en/metakube` -> `documentation.syseleven.de`, `dutchdatacenters.nl/en` -> `dutchdatacenters.nl`, Scaleway raw `rss.xml` -> `scaleway.com/en/blog`), added missing UK/Nordic/Alpine/IaC sovereign providers (`Crown Hosting`, `ANS Group`, `Bahnhof`, `Digg`, `cloudscale`, `anxcloud`, `leaseweb`, `gcore`, `clevercloud`, `brightbox` Terraform providers), and added `test_eu_sovereign_blueprints_have_clickable_provider_links_and_valid_anchors`.
+
 ## [[2.16.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.0) - 2026-11-28
 
 ### Added

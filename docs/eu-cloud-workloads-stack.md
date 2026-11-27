@@ -19,7 +19,7 @@ Curated technical reference comparing workload modernization paths across Europe
 - **(2026)** [Talos Linux by Sidero Labs](https://www.talos.dev) 🌟 - Immutable, API-driven Kubernetes OS eliminating SSH and mutable Linux packages — the gold standard for running secure, declarative Kubernetes on Hetzner bare metal, OVH/Scaleway metal, Proxmox, or colocation.
 - **(2026)** [SAP Gardener Multi-Cloud Kubernetes Fleet Engine](https://gardener.cloud) 🌟 - European-originated open-source Kubernetes-as-a-Service control plane powering STACKIT SKE, SysEleven MetaKube, and Cleura multi-AZ managed clusters.
 - **(2026)** [OVHcloud Managed Kubernetes Service Reference](https://www.ovhcloud.com/en-ie/public-cloud/kubernetes) 🌟 - CNCF-certified European Managed Kubernetes offering zero control-plane fee, multi-AZ HA, and vRack private networking.
-- **(2026)** [SysEleven MetaKube](https://www.syseleven.de/en/metakube) 🌟 - German Managed Kubernetes engine deployed in 3 German availability zones with automated upgrades and BSI-aligned compliance.
+- **(2026)** [SysEleven MetaKube Documentation](https://documentation.syseleven.de) 🌟 - German Managed Kubernetes engine deployed in 3 German availability zones with automated upgrades and BSI-aligned compliance under secunet Cloud.
 - **(2026)** [Arsys Managed Kubernetes](https://www.arsys.es/cloud/kubernetes) 🌟 - Spanish ENS Alto compatible Managed Kubernetes runtime keeping worker nodes, persistent volumes, and control planes within Spain.
 
 ## Sovereign AI Factories and NVIDIA GPU Infrastructure in Europe
