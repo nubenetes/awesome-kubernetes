@@ -759576,3 +759576,94 @@ https://www.oreonit.com/deprecated-api-checker-for-kubernetes:
   v2_locations:
   - kubernetes-tools.md
   youtube_mosaic: {}
+https://devtoolhub.com/azure-managed-identity-vs-service-principal:
+  title: 'devtoolhub.com: Azure Managed Identity vs Service Principal: Which to Use'
+  description: A managed identity is a service principal that Azure manages. Compares
+    secret handling, role assignment and CLI setup for each, covers the default Contributor
+    role that `az webapp identity assign` grants, and GitHub OIDC federated credentials
+    for CI.
+  ai_summary: A managed identity is a service principal that Azure manages. Compares
+    secret handling, role assignment and CLI setup for each, covers the default Contributor
+    role that `az webapp identity assign` grants, and GitHub OIDC federated credentials
+    for CI.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Cloud Providers (Hyperscalers)
+  - Azure
+  - Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN.
+    Microsoft Entra
+  v1_locations:
+  - docs/azure.md
+  v2_locations:
+  - azure.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:07:29.268971+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/iLLeniumStudios/protem:
+  title: github.com/iLLeniumStudios/protem
+  description: 'Protem is just-in-time privileged access for Kubernetes: people request
+    a role for a set time, approvers see the role''s rules before deciding, and an
+    agent on each target cluster creates an ordinary RoleBinding and removes it automatically
+    when the grant expires, even while the hub is unreachable. Time-bound, approval-gated
+    RBAC across clusters, with an audit trail and a web UI.'
+  ai_summary: 'Protem is just-in-time privileged access for Kubernetes: people request
+    a role for a set time, approvers see the role''s rules before deciding, and an
+    agent on each target cluster creates an ordinary RoleBinding and removes it automatically
+    when the grant expires, even while the hub is unreachable. Time-bound, approval-gated
+    RBAC across clusters, with an audit trail and a web UI.'
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - Hardened Infrastructure
+  - Kubernetes Security
+  - Tools
+  v1_locations:
+  - docs/kubernetes-security.md
+  v2_locations:
+  - kubernetes-security.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:07:29.381497+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/mohanedmoh/treebind:
+  title: github.com/mohanedmoh/treebind
+  description: Alpha Kubernetes operator that syncs a Git repository and an application's
+    files, in both directions, through a shared PVC. A `Treebind` resource names the
+    repository, an existing PVC and the sync policy; a sync agent pulls changes, commits
+    the application's edits and can push them. Conflicts and rejected pushes are reported
+    as `Synced` and `Conflict` conditions, events and Prometheus metrics. Deleting
+    a Treebind never touches the volume.
+  ai_summary: Alpha Kubernetes operator that syncs a Git repository and an application's
+    files, in both directions, through a shared PVC. A `Treebind` resource names the
+    repository, an existing PVC and the sync policy; a sync agent pulls changes, commits
+    the application's edits and can push them. Conflicts and rejected pushes are reported
+    as `Synced` and `Conflict` conditions, events and Prometheus metrics. Deleting
+    a Treebind never touches the volume.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - Architectural Foundations
+  - Kubernetes Tools
+  - CICD Tools
+  v1_locations:
+  - docs/kubernetes-tools.md
+  v2_locations:
+  - kubernetes-tools.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:07:29.393267+01:00'
+  tags:
+  - '[EMERGING]'

@@ -226,9 +226,9 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **20899+** |
+| **Total Technical Resources (Links)** | **20902+** |
 | **Specialized MD Pages** | **185** |
-| **Total Commits** | **7546+** |
+| **Total Commits** | **7553+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -239,9 +239,9 @@ Top 10 categories by link volume in the exhaustive V1 archive.
 | Category (Markdown Page) | Total Links |
 | :--- | :---: |
 | [Kubernetes](docs/kubernetes.md) | 1321 |
-| [Kubernetes Tools](docs/kubernetes-tools.md) | 840 |
+| [Kubernetes Tools](docs/kubernetes-tools.md) | 841 |
 | [Terraform](docs/terraform.md) | 773 |
-| [Azure](docs/azure.md) | 654 |
+| [Azure](docs/azure.md) | 655 |
 | [Demos](docs/demos.md) | 623 |
 | [Git](docs/git.md) | 605 |
 | [Devsecops](docs/devsecops.md) | 509 |
@@ -266,7 +266,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 3987 | 16,466 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 3994 | 16,495 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -282,8 +282,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 17000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 16466]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3987]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 16495]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3994]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -295,7 +295,7 @@ xychart-beta
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
 | 2026-06 | 853 | 3,522 | Active Curation |
 | 2026-07 | 382 | 1,577 | Active Curation |
-| 2026-11 | 319 | 1,317 | Active Curation |
+| 2026-11 | 326 | 1,346 | Active Curation |
 | 2026-10 | 170 | 702 | Active Curation |
 | 2026-09 | 77 | 318 | Active Curation |
 | 2026-08 | 60 | 247 | Active Curation |
@@ -311,7 +311,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Specialized Topics" : 6499
+    "Specialized Topics" : 6502
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
     "Public/Private Cloud" : 2500
@@ -332,10 +332,10 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 18809
-    "Spanish" : 1253
-    "French" : 208
-    "Others" : 626
+    "English" : 18811
+    "Spanish" : 1254
+    "French" : 209
+    "Others" : 627
 ```
 <!-- SUB_ECO_CHART_END -->
 

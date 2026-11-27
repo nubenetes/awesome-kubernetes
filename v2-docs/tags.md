@@ -252,7 +252,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-1" href="#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#emerging" title="1201 resources">Emerging<span class="v2-heat-n">1201</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#emerging" title="1204 resources">Emerging<span class="v2-heat-n">1204</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>
@@ -780,7 +780,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 
 1. [De Facto Standard](#de-facto-standard) (1366 resources)
 1. [Enterprise-Stable](#enterprise-stable) (1525 resources)
-1. [Emerging](#emerging) (1201 resources)
+1. [Emerging](#emerging) (1204 resources)
 1. [Guide](#guide) (1137 resources)
 1. [Case Study](#case-study) (179 resources)
 1. [Community-Tool](#community-tool) (8391 resources)
@@ -1028,7 +1028,7 @@ Resources indexed by their primary source language or document format.
 ## Emerging {#emerging}
 
 <details markdown="1">
-<summary>Click to view top 100 of 1201 resources under Emerging</summary>
+<summary>Click to view top 100 of 1204 resources under Emerging</summary>
 
   - **(2026)** [==OpenTofu Official GitHub Repository==](https://github.com/opentofu/opentofu) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[IAC]</span> <span class='md-tag md-tag--primary'>[TERRAFORM]</span> — *Go to [Section](./iac.md)*
   - **(2026)** [==sops: Simple and flexible tool for managing secrets 🌟==](https://github.com/getsops/sops) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./devsecops.md)*
@@ -1131,7 +1131,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**What We Learned by Reproducing 2,200 papers from ICML**](https://huggingface.co/blog/icml-2026-open-reproductions) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-AGENTS]</span> <span class='md-tag md-tag--primary'>[AUTO-CODING]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[REPRODUCIBILITY]</span> <span class='md-tag md-tag--primary'>[RESEARCH]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2026)** [**Building Reliable Data Analytics Agents: Lessons from the KDD Cup**](https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup) 🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[AI-AGENTS]</span> <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--primary'>[DATA-ANALYTICS]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[KDD-CUP]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./ai-agents-mcp.md)*
 
-*... and 1101 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 1104 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
@@ -1458,7 +1458,6 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [flux2-kustomize-helm-example 🌟](https://github.com/fluxcd/flux2-kustomize-helm-example) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./demos.md)*
   - **(2026)** [github.com/k8spacket/k8spacket](https://github.com/k8spacket/k8spacket) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[EBPF]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2023)** [aws-samples/hardeneks](https://github.com/aws-samples/hardeneks) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./managed-kubernetes-in-public-cloud.md)*
-  - **(2023)** [cnrancher/autok3s](https://github.com/cnrancher/autok3s) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./rancher.md)*
   - **(2025)** [intellipaat.com: Ansible Basic Cheat Sheet](https://intellipaat.com/blog/tutorial/devops-tutorial/ansible-basic-cheat-sheet) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2025)** [github: Nova 🌟](https://github.com/fairwindsops/nova) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./helm.md)*
   - **(2025)** [Install Java 23 in an Azure DevOps Pipeline](https://www.returngis.net/2025/02/como-instalar-java-23-en-una-pipeline-de-azure-devops) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./azure.md)*
@@ -1469,6 +1468,7 @@ Resources indexed by their primary source language or document format.
   - **(2025)** [tecmint.com 🌟](https://www.tecmint.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — *Go to [Section](./linux.md)*
   - **(2025)** [unixmen.com 🌟](https://www.unixmen.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — *Go to [Section](./linux.md)*
   - **(2018)** [kubernetes-sigs/node-feature-discovery: Node feature discovery for Kubernetes](https://github.com/kubernetes-sigs/node-feature-discovery) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
+  - **(2026)** [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./jenkins-alternatives.md)*
 
 *... and 8291 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
@@ -11466,10 +11466,10 @@ Resources indexed by their primary source language or document format.
   - **(2025)** [==Metabadger==](https://github.com/salesforce/metabadger) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./aws.md)*
   - **(2023)** [==github.com/ekramasif: Basic Machine Learning - Python Cheatsheet==](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2023)** [==github.com/aws-samples: Guide to Resource Tagging Automation==](https://github.com/aws-samples/resource-tagging-automation) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./demos.md)*
-  - **(2023)** [==github.com/aws-samples/aws-waf-ops-dashboards==](https://github.com/aws-samples/aws-waf-ops-dashboards) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./demos.md)*
   - **(2021)** [==Maelstromage/Log4jSherlock==](https://github.com/Maelstromage/Log4jSherlock) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./devsecops.md)*
   - **(2023)** [==OpenShift AI Examples==](https://github.com/CastawayEGR/openshift-ai-examples) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--primary'>[CLOUD-AI]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./demos.md)*
   - **(2023)** [==qontract==](https://github.com/app-sre/qontract-server) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
+  - **(2023)** [==github.com/aws-samples/aws-waf-ops-dashboards==](https://github.com/aws-samples/aws-waf-ops-dashboards) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./demos.md)*
   - **(2024)** [==github.com: Django Sage Painless==](https://github.com/sageteamorg/django-sage-painless) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./python.md)*
   - **(2024)** [==ec2-spot-converter==](https://github.com/jcjorel/ec2-spot-converter) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./aws.md)*
   - **(2021)** [==github.com/aws-samples: Visualize AWS IAM Access Analyzer Policy Validation' Findings==](https://github.com/aws-samples/visualize-iam-access-analyzer-policy-validation-findings) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./aws-security.md)*
@@ -12689,14 +12689,12 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes-troubleshooting.md)*
   - **(2024)** [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./prometheus.md)*
   - **(2021)** [ubi-micro: RHEL tiny images to build containers 🌟](https://github.com/fatherlinux/ubi-micro) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./container-managers.md)*
-  - **(2025)** [openobserve/debug-container](https://github.com/openobserve/debug-container) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2018)** [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./openshift.md)*
   - **(2021)** [k3s-gitlab](https://github.com/apk8s/k3s-gitlab) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./rancher.md)*
   - **(2014)** [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker) <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./jenkins.md)*
   - **(2022)** [github.com/metaleapca: metaleap-devops-in-k8s.pdf](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf) 🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes.md)*
   - **(2021)** [devopshubproject/cka-lab](https://github.com/devopshubproject/cka-lab) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes.md)*
   - **(2020)** [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./demos.md)*
-  - **(2022)** [github.com/OvidiuBorlean/kubectl-sockperf](https://github.com/OvidiuBorlean/kubectl-sockperf) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2018)** [helm-ecr 🌟](https://github.com/vetyy/helm-ecr) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2026)** [catonmat.net: GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2026)** [linuxhandbook.com: Yum Command Cheat Sheet](https://linuxhandbook.com/cheatsheets/yum) <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./cheatsheets.md)*
@@ -12717,6 +12715,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [github.com/sclorg/](https://github.com/sclorg) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./openshift.md)*
   - **(2020)** [todaywasawesome/atomic-cluster: The Atomic Cluster](https://github.com/todaywasawesome/atomic-cluster) <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./demos.md)*
   - **(2025)** [galaxy.ansible.com/cloudalchemy/node-exporter](https://galaxy.ansible.com/cloudalchemy/node-exporter) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./prometheus.md)*
+  - **(2025)** [openobserve/debug-container](https://github.com/openobserve/debug-container) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2024)** [galaxy.ansible.com/UnderGreen/prometheus-node-exporter](https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./prometheus.md)*
   - **(2024)** [galaxy.ansible.com/mesaguy/prometheus](https://galaxy.ansible.com/mesaguy/prometheus) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./prometheus.md)*
   - **(2024)** [blog.techiescamp.com: wcurl: A Simple Wrapper for curl to download files](https://blog.techiescamp.com/docs/wcurl) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./linux.md)*
@@ -12727,6 +12726,7 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [iximiuz.com: Docker: How To Debug Distroless And Slim Containers 🌟](https://iximiuz.com/en/posts/docker-debug-slim-containers) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./docker.md)*
   - **(2023)** [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./dotnet.md)*
   - **(2023)** [bitnami/cluster-autoscaler](https://hub.docker.com/r/bitnami/cluster-autoscaler) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./kubernetes-autoscaling.md)*
+  - **(2020)** [kelseyhightower/cmd-tutorial](https://github.com/kelseyhightower/cmd-tutorial) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> — *Go to [Section](./GoogleCloudPlatform.md)*
 
 *... and 82 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>

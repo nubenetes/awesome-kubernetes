@@ -117,12 +117,12 @@ description: "AI-curated, high-density Cloud Native & Kubernetes portal: Enterpr
     2. **Baseline-Mapped Layer**: Verified links mapped into the taxonomy and progressively upgraded during scheduled weekly AI sweeps.
 
     **Verified Inventory & Trust Metrics:**
-    - **V1 Base Archive**: 20,899 total resources indexed since 2018.
-    - **V2 Elite Selection**: 16,796 curated references (80.4% density ratio).
-    - **Verified Online Links**: 12,723 / 16,796 (75.8%)
-    - **Fresh Ecosystem Signal (2025–2026)**: 3,908 recently published or actively maintained resources.
-    - **Deep AI Architectural Summaries**: 11,583 / 16,796 (69.0%) *(+5,213 baseline-mapped entries queued for progressive refresh)*
-    - **GitHub Metadata & SPDX Licenses**: 1,886 / 1,925 (98.0%) repositories tracked (1,445 with verified open-source licenses)
+    - **V1 Base Archive**: 20,902 total resources indexed since 2018.
+    - **V2 Elite Selection**: 16,799 curated references (80.4% density ratio).
+    - **Verified Online Links**: 12,726 / 16,799 (75.8%)
+    - **Fresh Ecosystem Signal (2025–2026)**: 3,911 recently published or actively maintained resources.
+    - **Deep AI Architectural Summaries**: 11,586 / 16,799 (69.0%) *(+5,213 baseline-mapped entries queued for progressive refresh)*
+    - **GitHub Metadata & SPDX Licenses**: 1,886 / 1,927 (97.9%) repositories tracked (1,445 with verified open-source licenses)
     - **CNCF Landscape Projects Tracked**: 64 projects (Graduated, Incubating, Sandbox)
     - **OKF v0.3 & AI Endpoints**: [`/llms.txt`](/llms.txt) · [`/llms-full.txt`](/llms-full.txt) · [`/api/index.json`](/api/index.json)
 
@@ -653,7 +653,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#embeddings" title="4 resources">Embeddings<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#embodied-ai" title="1 resources">Embodied-Ai<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="1201 resources">Emerging<span class="v2-heat-n">1201</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#emerging" title="1204 resources">Emerging<span class="v2-heat-n">1204</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#emerging-architecture" title="1 resources">Emerging-Architecture<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#encoder" title="1 resources">Encoder<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#energy-efficiency" title="2 resources">Energy-Efficiency<span class="v2-heat-n">2</span></a>

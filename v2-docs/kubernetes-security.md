@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Kubernetes Security"
 dimension: "Hardened Infrastructure"
-resource_count: 200
-fresh_2025_2026_count: 25
+resource_count: 201
+fresh_2025_2026_count: 26
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-security.md"
@@ -671,6 +671,9 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### MITRE ATTandCK Framework
 
   - **(2020)** [Microsoft.com: Attack matrix for Kubernetes 🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's systematic adaptation of the MITRE ATT&CK framework mapping out K8s attack vectors from initial access to execution, persistence, privilege escalation, and impact. Helps security operators assess risks in orchestration configurations.
+## Tools
+
+  - **(2026)** [github.com/iLLeniumStudios/protem](https://github.com/iLLeniumStudios/protem) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Protem is just-in-time privileged access for Kubernetes: people request a role for a set time, approvers see the role's rules before deciding, and an agent on each target cluster creates an ordinary RoleBinding and removes it automatically when the grant expires, even while the hub is unreachable. Time-bound, approval-gated RBAC across clusters, with an audit trail and a web UI.
 ## Vulnerability Assessment Tools
 
 ### Kubestriker Scanner

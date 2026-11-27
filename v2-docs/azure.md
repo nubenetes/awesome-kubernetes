@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Microsoft Azure"
 dimension: "Cloud Providers (Hyperscalers)"
-resource_count: 401
-fresh_2025_2026_count: 121
+resource_count: 402
+fresh_2025_2026_count: 122
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/azure.md"
@@ -125,6 +125,7 @@ description: "Top Azure resources for 2026, AI-ranked: Bicep, Microsoft Agent Fr
   - [**Azure Pipelines**](https://learn.microsoft.com/en-us/azure/devops/pipelines) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Cloud-hosted CI/CD pipeline service by Microsoft, supporting both Windows, Linux, and macOS environments.
 ## Azure AD And RBAC. Azure Tenant And Azure Subscription. Service Principal SPN. Microsoft Entra
 
+  - **(2026)** [devtoolhub.com: Azure Managed Identity vs Service Principal: Which to Use](https://devtoolhub.com/azure-managed-identity-vs-service-principal) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — A managed identity is a service principal that Azure manages. Compares secret handling, role assignment and CLI setup for each, covers the default Contributor role that `az webapp identity assign` grants, and GitHub OIDC federated credentials for CI.
   - [stackoverflow.com: What is the difference between an Azure tenant and' Azure subscription?](https://stackoverflow.com/questions/47307368/what-is-the-difference-between-an-azure-tenant-and-azure-subscription)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for stackoverflow.com: What is the difference between an Azure tenant and' Azure subscription? covering Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra in Azure (stackoverflow.com).
 ## Azure API Management
 

@@ -10,11 +10,11 @@
     "v1_archive": "https://nubenetes.com/v1/"
   },
   "stats": {
-    "v1_total_inventory": 20899,
-    "v2_total_resources": 16796,
-    "v2_verified_online": 12723,
-    "v2_fresh_2025_2026": 3908,
-    "v2_deep_ai_summaries": 11583,
+    "v1_total_inventory": 20902,
+    "v2_total_resources": 16799,
+    "v2_verified_online": 12726,
+    "v2_fresh_2025_2026": 3911,
+    "v2_deep_ai_summaries": 11586,
     "v2_cncf_projects": 64,
     "v2_categories": 159
   },
@@ -1228,19 +1228,6 @@
           "summary": "An extensible CLI runtime version manager that unifies environment configurations (Node.js, Ruby, Python, Elixir, Go, and more) under a single .tool-versions file. Successfully eliminates environment drift across..."
         },
         {
-          "title": "SQL Studio: A Unified SQL Database Explorer",
-          "url": "https://github.com/frectonz/sql-studio",
-          "year": "2025",
-          "stars": 5,
-          "gh_stars": 3690,
-          "gh_license": "MIT",
-          "cncf_status": null,
-          "tags": [
-            "[DE FACTO STANDARD]"
-          ],
-          "summary": "A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in..."
-        },
-        {
           "title": "Devtron",
           "url": "https://github.com/devtron-labs/devtron",
           "year": "2025",
@@ -1252,6 +1239,20 @@
             "[DE FACTO STANDARD]"
           ],
           "summary": "A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and..."
+        },
+        {
+          "title": "Azure DevOps MCP Server",
+          "url": "https://github.com/microsoft/azure-devops-mcp",
+          "year": "2025",
+          "stars": 5,
+          "gh_stars": 2081,
+          "gh_license": "MIT",
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[MCP]"
+          ],
+          "summary": "An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate..."
         }
       ]
     },
@@ -1701,8 +1702,8 @@
       "url": "https://nubenetes.com/kubernetes-tools/",
       "v1_url": "https://nubenetes.com/v1/kubernetes-tools/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-tools.md",
-      "resource_count": 644,
-      "fresh_2025_2026_count": 338,
+      "resource_count": 645,
+      "fresh_2025_2026_count": 339,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
@@ -3841,8 +3842,8 @@
       "url": "https://nubenetes.com/kubernetes-security/",
       "v1_url": "https://nubenetes.com/v1/kubernetes-security/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/kubernetes-security.md",
-      "resource_count": 200,
-      "fresh_2025_2026_count": 25,
+      "resource_count": 201,
+      "fresh_2025_2026_count": 26,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
@@ -5265,8 +5266,8 @@
       "url": "https://nubenetes.com/azure/",
       "v1_url": "https://nubenetes.com/v1/azure/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/azure.md",
-      "resource_count": 401,
-      "fresh_2025_2026_count": 121,
+      "resource_count": 402,
+      "fresh_2025_2026_count": 122,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
