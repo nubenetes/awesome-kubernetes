@@ -14,6 +14,7 @@ on:
     workflows:
       - "03.2. V2 AI Curator"
       - "03.3. V2 Video Hub Builder"
+      - "07.1. PR Guardian AI"
     branches: [master]
     types:
       - completed
@@ -55,6 +56,28 @@ jobs:
           SHA: ${{ github.sha }}
         run: |
           if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
+            # If triggered by 07.1. PR Guardian AI, run ONLY when a PR actually merged V1 docs/ without pre-rendered v2-docs/.
+            if [[ "${{ github.event.workflow_run.name }}" == "07.1. PR Guardian AI" ]]; then
+              MERGE_SIG=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/jobs" \
+                --jq '[.jobs[] | select(.name == "post-merge-signal")] | .[0].conclusion // ""' 2>/dev/null || echo "")
+              if [[ "$MERGE_SIG" != "success" ]]; then
+                echo "Skipping: 07.1 did not merge any PR (post-merge-signal=$MERGE_SIG)."
+                echo "should_run=false" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+              TIP_FILES=$(gh api "repos/${{ github.repository }}/commits/master" --jq '[.files[]?.filename]' 2>/dev/null || echo "[]")
+              HAS_DOCS=$(echo "$TIP_FILES" | jq 'any(startswith("docs/"))')
+              HAS_V2=$(echo "$TIP_FILES" | jq 'any(startswith("v2-docs/"))')
+              if [[ "$HAS_DOCS" == "true" && "$HAS_V2" != "true" ]]; then
+                echo "Auto-merged V1-only PR detected on master — running 0-token V2 render-only publish."
+                echo "should_run=true" >> "$GITHUB_OUTPUT"
+              else
+                echo "Skipping: merged PR on master either has pre-rendered v2-docs/ or did not modify docs/."
+                echo "should_run=false" >> "$GITHUB_OUTPUT"
+              fi
+              exit 0
+            fi
+
             # Skip if the triggering job was skipped as a duplicate.
             JOB_CONCL=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/jobs" \
               --jq '[.jobs[] | select(.name == "build-video-hub" or .name == "run-ai")] | .[0].conclusion // ""' 2>/dev/null || echo "")

@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.16.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.0) - 2026-11-28
+
+### Added
+- **2-Stage Fork-Safe PR Gatekeeper & Zero-Token Auto-Merger (`src/pr_guardian.py`, `07.1.pr_guardian.yml`, `07.2.markdown_linter.yml`, `tests/test_pr_guardian.py`)**:
+  - **Stage 1 Read-Only Sandbox (`07.2. Markdown Linter`)**: Validates Markdown syntax on every PR (`opened`, `synchronize`, `reopened`, `ready_for_review`) with `permissions: contents: read` and zero secrets ("Pwn Request" immune).
+  - **Stage 2 Trusted Gatekeeper (`07.1. PR Guardian AI`)**: Runs via `workflow_run` (or `workflow_dispatch` with a PR number / `all_open`), checking out exclusively `ref: master` and inspecting PR file diffs via the GitHub API.
+  - **Author Authority Tiers**: Auto-approves and merges maintainer (`inafev`) PRs (`0` AI tokens) once `safety_readme.py` and Clean URL checks pass, and auto-merges minor/patch `dependabot[bot]` and passing `bot/*` curation PRs (`0` AI tokens).
+  - **4-Gate External Contributor Funnel**: Holds open (`needs-maintainer-review`) with a clear explanation any external PR touching `v2-docs/**`, `src/**`, `data/**`, `.github/**`, `mkdocs.yml`, `README.md`, `docs/index.md`, `docs/about.md`, headings, TOCs, raw HTML, or existing V1 lines; verifies live HTTP `200 OK` + GitHub MVQ (`<= 4` years, FOSS license); and checks semantic section placement via a ~350-token `€0.00` cascade (`GitHub Models` -> `GEMINI_FREE_PR_KEY` -> `Gemini Flash-Lite`, `confidence >= 0.85`, fail-closed).
+- **Universal Cross-Agent Handbook (`AGENTS.md`)**: Created vendor-neutral operational guide aligned with `GEMINI.md` (Mandates 48 & 61) and `CLAUDE.md`.
+
+### Changed
+- **Downstream Post-Merge V2 Sync & Pages Deploy (`04.1.agentic_v2_publish.yml`, `06.deploy_final.yml`)**: Wired `workflow_run` triggers for `07.1. PR Guardian AI` (`post-merge-signal`) so `GITHUB_TOKEN` auto-merges automatically synchronize `v2-docs/` (`--render-only`, `0` AI tokens) and deploy `nubenetes.com` without duplicate builds.
+- **Architecture Documentation (`README.md`)**: Documented the complete 2-Stage Safe PR Gatekeeper architecture, Mermaid workflow diagram, Author Authority Matrix, and €0.00 cost cascade in Section `9.6`, Section `7.1`, Section `8`, Section `11`, and Section `13`.
+
 ## [[2.10.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.10.0) - 2026-11-15
 
 ### Changed

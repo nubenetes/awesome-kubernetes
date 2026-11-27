@@ -408,6 +408,42 @@ class TestPipelineInvariants(unittest.TestCase):
             self.assertIn(f'[popovertarget="{pop_id}"]', css_txt, f"Missing anchor-name CSS for {pop_id}")
             self.assertIn(f"#{pop_id}", css_txt, f"Missing position-anchor CSS for #{pop_id}")
 
+    def test_pr_gatekeeper_two_stage_security_and_doc_invariants(self):
+        from src.safety_readme import check_readme
+
+        linter_path = os.path.join(REPO_ROOT, ".github/workflows/07.2.markdown_linter.yml")
+        guardian_path = os.path.join(REPO_ROOT, ".github/workflows/07.1.pr_guardian.yml")
+        pub_path = os.path.join(REPO_ROOT, ".github/workflows/04.1.agentic_v2_publish.yml")
+        deploy_path = os.path.join(REPO_ROOT, ".github/workflows/06.deploy_final.yml")
+
+        with open(linter_path, "r", encoding="utf-8") as f:
+            linter_txt = f.read()
+            linter_yaml = yaml.safe_load(linter_txt)
+        self.assertEqual(linter_yaml.get("permissions"), {"contents": "read"})
+        self.assertNotIn("GEMINI_API_KEY", linter_txt, "Stage 1 sandbox must hold 0 AI secrets")
+        self.assertNotIn("pr_guardian", linter_txt, "Stage 1 sandbox must not execute PR Python scripts")
+
+        with open(guardian_path, "r", encoding="utf-8") as f:
+            guardian_txt = f.read()
+            guardian_yaml = yaml.safe_load(guardian_txt)
+        triggers = guardian_yaml.get(True, guardian_yaml.get("on", {}))
+        self.assertIn("workflow_run", triggers)
+        self.assertNotIn("pull_request_target", triggers, "Must use workflow_run rather than pull_request_target")
+        self.assertNotIn("pull_request.head.ref", guardian_txt, "Stage 2 must NEVER check out untrusted PR code")
+        self.assertIn("ref: master", guardian_txt)
+        self.assertEqual(guardian_yaml.get("permissions", {}).get("models"), "read")
+
+        for downstream_path in (pub_path, deploy_path):
+            with open(downstream_path, "r", encoding="utf-8") as f:
+                wf = yaml.safe_load(f)
+            wf_triggers = wf.get(True, wf.get("on", {}))
+            upstream_list = wf_triggers.get("workflow_run", {}).get("workflows", [])
+            self.assertIn("07.1. PR Guardian AI", upstream_list)
+
+        for doc_name in ("AGENTS.md", "GEMINI.md", "CLAUDE.md", "README.md"):
+            self.assertTrue(os.path.exists(os.path.join(REPO_ROOT, doc_name)), f"Missing {doc_name}")
+        self.assertTrue(check_readme(), "README.md failed 15-section integrity check")
+
 
 if __name__ == "__main__":
     unittest.main()
