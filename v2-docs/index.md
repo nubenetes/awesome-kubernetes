@@ -962,7 +962,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#power-efficiency" title="1 resources">Power-Efficiency<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#power-management" title="1 resources">Power-Management<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#powershell-sql-content" title="1 resources">Powershell / Sql<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#powershell-content" title="66 resources">Powershell<span class="v2-heat-n">66</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#powershell-content" title="65 resources">Powershell<span class="v2-heat-n">65</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#powershell-bash-content" title="1 resources">Powershell/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#powershell-cli-content" title="3 resources">Powershell/Cli<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#privacy" title="1 resources">Privacy<span class="v2-heat-n">1</span></a>

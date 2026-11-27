@@ -905,8 +905,8 @@
       "url": "https://nubenetes.com/cloud-asset-inventory/",
       "v1_url": "https://nubenetes.com/v1/cloud-asset-inventory/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/cloud-asset-inventory.md",
-      "resource_count": 10,
-      "fresh_2025_2026_count": 5,
+      "resource_count": 11,
+      "fresh_2025_2026_count": 6,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
@@ -929,6 +929,19 @@
             "[DE FACTO STANDARD]"
           ],
           "summary": "An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and..."
+        },
+        {
+          "title": "github.com/microsoft/ARI: Azure Resource Inventory 🌟🌟🌟",
+          "url": "https://github.com/microsoft/ARI",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": 1749,
+          "gh_license": "MIT",
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]"
+          ],
+          "summary": "High-value MIT-licensed PowerShell 7.0+ engine from Microsoft (1,749 stars) for read-only, zero-agent discovery across Azure Tenants, Management Groups, Subscriptions, and Resource Groups. Generates multi-tab..."
         },
         {
           "title": "cloudquery.io: Cloud Query: The open-source cloud asset inventory powered by SQL",
@@ -969,19 +982,6 @@
             "[DRP-RESILIENCE]"
           ],
           "summary": "Automated governance framework detailing Azure Subscription Vending models. Outlines how to programmatically create subscription structures incorporating secure routing, virtual network configurations, policies, and..."
-        },
-        {
-          "title": "Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture",
-          "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition",
-          "year": "2025",
-          "stars": 0,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[LEGACY]"
-          ],
-          "summary": "Architectural migration playbook addressing transitioning legacy cloud setups to formal Microsoft Azure Landing Zones. Covers organizational tier hierarchies, network architectures, and systemic governance patterns."
         }
       ]
     },

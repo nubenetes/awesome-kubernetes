@@ -654,7 +654,14 @@
 
 ### Azure Resource Inventory
 
-- [==github.com/microsoft/ARI: Azure Resource Inventory== 🌟🌟🌟](https://github.com/microsoft/ARI) Azure Resource Inventory - It's a Powerful tool to create EXCEL inventory from Azure Resources with low effort
+- [==github.com/microsoft/ARI: Azure Resource Inventory== 🌟🌟🌟](https://github.com/microsoft/ARI) Azure Resource Inventory - It's a Powerful tool to create EXCEL inventory from Azure Resources with low effort.
+  - **Core Functionalities**: Read-only PowerShell `7.0+` module (`MIT`, Windows/Linux/macOS/Azure Cloud Shell) that sweeps Tenants, Management Groups (`-ManagementGroup`), Subscriptions (`-SubscriptionID`), Resource Groups (`-ResourceGroup`), or Tags (`-TagKey`/`-TagValue`) to generate formatted multi-tab `.xlsx` reports (`ImportExcel`) and interactive **Draw.io** `.xml` diagrams (Network Topology with peering & hover details, Organization, and Resources views). Supports Security Center (`-SecurityCenter`), Azure Policy, Azure Advisor, VM family quotas/vCPUs/memory, Cost Management (`-IncludeCosts`), `-Lite` mode, and Azure Automation (`-Automation`).
+  - **Why and When to Use It**: Best choice when you need zero-agent, executive- and auditor-ready Excel inventories plus visual Draw.io network diagrams in minutes—especially during **brownfield onboarding**, **M&A tenant handovers**, **pre-AKS/Landing Zone migration assessments**, **FinOps tag/cost audits**, and **scheduled monthly governance**. Prefer **CloudQuery** or **Steampipe** (see [Cloud Asset Inventory](cloud-asset-inventory.md)) when you need continuous multi-cloud SQL pipelines.
+  - **Example Use Cases**:
+    - *Multi-Subscription Governance & Cost Audit*: `Invoke-ARI -TenantID <Tenant-ID> -ManagementGroup <MG-ID> -IncludeTags -IncludeCosts`
+    - *Security & Advisory Review*: `Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -SecurityCenter`
+    - *Full Environment Draw.io Network Map*: `Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -DiagramFullEnvironment`
+    - *Automated Monthly Snapshots*: `Invoke-ARI -TenantID <Tenant-ID> -AppId <App-ID> -Secret <Secret> -Automation -StorageAccount <SA> -StorageContainer <Container>`
 
 ## Azure CLI. AZ CLI
 

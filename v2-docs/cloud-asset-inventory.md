@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Cloud Asset Inventory"
 dimension: "Architectural Foundations"
-resource_count: 10
-fresh_2025_2026_count: 5
+resource_count: 11
+fresh_2025_2026_count: 6
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/cloud-asset-inventory.md"
@@ -17,6 +17,30 @@ description: "Curated, AI-ranked Cloud Asset Inventory resources for the 2026 Cl
 
 !!! info "Architectural Context"
     Detailed reference for Cloud Asset Inventory in the context of Architectural Foundations.
+
+## High-Value Spotlight: Microsoft Azure Resource Inventory (ARI)
+
+!!! tip "When to Use Microsoft ARI vs CloudQuery / Steampipe"
+    - **[Azure Resource Inventory (`microsoft/ARI`)](https://github.com/microsoft/ARI)** (`MIT`, PowerShell `7.0+`, cross-platform) is the fastest read-only tool for generating **stakeholder-ready multi-tab Excel workbooks (`ImportExcel`)** and interactive **Draw.io network/organization/resource diagrams** from any Azure Tenant or Management Group with zero persistent infrastructure.
+    - **Use ARI** for brownfield cloud discovery, M&amp;A tenant handovers, FinOps tag/cost audits (`-IncludeTags`, `-IncludeCosts`), Azure Security Center/Policy/Advisor reviews (`-SecurityCenter`), pre-migration Landing Zone assessments, and scheduled monthly snapshots via Azure Automation (`-Automation`).
+    - **Use CloudQuery or Steampipe** when you need continuous, real-time **multi-cloud** (AWS, GCP, Azure, Kubernetes) SQL querying into PostgreSQL, Parquet, or Grafana dashboards.
+
+### Example ARI Workflows
+
+```powershell
+# 1. Full Management Group inventory with Tags and Cost Management
+Invoke-ARI -TenantID <Tenant-ID> -ManagementGroup <MG-ID> -IncludeTags -IncludeCosts
+
+# 2. Security posture & Advisor audit on a target subscription
+Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -SecurityCenter
+
+# 3. Full Draw.io Network Topology, Organization, and Resources diagrams
+Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -DiagramFullEnvironment
+
+# 4. Unattended scheduled snapshots in Azure Automation -> Blob Storage
+Invoke-ARI -TenantID <Tenant-ID> -AppId <App-ID> -Secret <Secret> -Automation -StorageAccount <SA> -StorageContainer <Container>
+```
+
 
 ## Cloud Infrastructure and Orchestration
 
@@ -47,6 +71,15 @@ description: "Curated, AI-ranked Cloud Asset Inventory resources for the 2026 Cl
 #### Distributed Block Storage
 
   - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d010a68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 3 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2d010a68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
+## Cloud Platform Management
+
+### Microsoft Azure
+
+#### Inventory Auditing
+
+##### Azure Resource Inventory
+
+  - **(2026)** [==github.com/microsoft/ARI: Azure Resource Inventory 🌟🌟🌟==](https://github.com/microsoft/ARI) <span class='md-tag md-tag--info'>⭐ 1749</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a55b92ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 10 L 20 8 L 30 7 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-a55b92ac)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-value MIT-licensed PowerShell 7.0+ engine from Microsoft (1,749 stars) for read-only, zero-agent discovery across Azure Tenants, Management Groups, Subscriptions, and Resource Groups. Generates multi-tab interactive Excel workbooks (ImportExcel) with Azure Security Center, Policy, Advisor, Tags, VM quotas, and Cost Management data, plus interactive Draw.io architecture diagrams (Network Topology with peering/hover metadata, Organization, and Resources views). Ideal for brownfield onboarding, M&A tenant handovers, FinOps/security audits, and scheduled Azure Automation governance.
 ## Infrastructure As Code
 
 ### Architecture

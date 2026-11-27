@@ -16,6 +16,15 @@
 
 ## Azure Architecture
 
+- **(2026)** [==Microsoft Azure Resource Inventory (ARI)==](https://github.com/microsoft/ARI) 🌟 - High-value MIT-licensed PowerShell `7.0+` engine (`★1.7k+`) for read-only, low-impact discovery across Azure Tenants, Management Groups, Subscriptions, and Resource Groups, generating multi-tab Excel workbooks (`ImportExcel`) and interactive **Draw.io** diagrams (Network Topology with peering/hover metadata, Organization, and Resources views).
+  - **Key Capabilities**: Supports Service Principal / Device Login auth, cross-platform execution (Windows, Linux, macOS, Azure Cloud Shell), Azure Automation (`-Automation`, `-StorageAccount`), Azure Security Center (`-SecurityCenter`), Azure Policy & Advisor (`-SkipPolicy`, `-SkipAdvisory`), Resource Tags (`-IncludeTags`, `-TagKey`/`-TagValue`), VM quota/vCPU/memory specs (`-SkipVMDetails`), Cost Management (`-IncludeCosts`), and lightweight Excel mode (`-Lite`).
+  - **Why and When to Use It**: Ideal for rapid brownfield cloud discovery, M&A/tenant handovers, security/FinOps/compliance audits, and instant stakeholder-ready Excel + Draw.io architecture documentation without deploying persistent agents. Use **CloudQuery** or **Steampipe** instead when you need continuous real-time SQL querying across **multi-cloud** (AWS, GCP, Azure, Kubernetes) into PostgreSQL or Grafana.
+  - **Example Use Cases**:
+    - *Enterprise Management Group + FinOps Audit*: `Invoke-ARI -TenantID <Tenant-ID> -ManagementGroup <MG-ID> -IncludeTags -IncludeCosts`
+    - *Security Posture and Compliance Snapshot*: `Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -SecurityCenter`
+    - *Full Network Topology Diagramming (Draw.io)*: `Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -DiagramFullEnvironment`
+    - *Unattended Scheduled Governance*: `Invoke-ARI -TenantID <Tenant-ID> -AppId <App-ID> -Secret <Secret> -Automation -StorageAccount <SA> -StorageContainer <Container>`
+
 ## kubernetes-storage
   - [Ceph: A Distributed Object, Block, and File Storage Platform](https://github.com/ceph/ceph) - *(Related to kubernetes-storage topic)*
   - [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) - *(Related to aws-training topic)*
