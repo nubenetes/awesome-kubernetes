@@ -665,6 +665,7 @@ elastic quotas - Effortless optimization at its finest!
     - Displays affected objects to the user
 - [==github.com/hcavarsan/kftray== ⭐](https://github.com/hcavarsan/kftray) Manage multiple kubectl port-forward commands with a menu bar or a TUI app, with support for UDP and proxy connections through Kubernetes clusters, and gitops-like state sync with github.
 - [kondense 🌟](https://github.com/unagex/kondense) Kondense is an automated resource sizing tool. It runs as a sidecar in kubernetes pods.
+- [github.com/mohanedmoh/treebind](https://github.com/mohanedmoh/treebind) Alpha Kubernetes operator that syncs a Git repository and an application's files, in both directions, through a shared PVC. A `Treebind` resource names the repository, an existing PVC and the sync policy; a sync agent pulls changes, commits the application's edits and can push them. Conflicts and rejected pushes are reported as `Synced` and `Conflict` conditions, events and Prometheus metrics. Deleting a Treebind never touches the volume.
 
 ## kubetail
 
