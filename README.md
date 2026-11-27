@@ -1296,6 +1296,7 @@ graph TD
 - **Stage 2 — Privileged Gatekeeper ([`07.1.pr_guardian.yml`](.github/workflows/07.1.pr_guardian.yml))**: Triggers via `workflow_run` once Stage 1 completes (or manually via `workflow_dispatch` with a PR number or `all_open`). It checks out **exclusively `ref: master`** and inspects the contributor's file list, unified diff patches, and file blobs purely as untrusted data over the GitHub REST API.
 
 #### 2. Author Authority Matrix
+
 | Actor Tier | Identity Rule | Permitted Scope | Verification & Cost |
 | :--- | :--- | :--- | :--- |
 | **Tier A: Maintainer** | `author == inafev` | Full repository (`docs/`, `v2-docs/`, `src/`, `data/`, `.github/`, `mkdocs.yml`, `README.md`) | Stage 1 lint + 15-section [`safety_readme.py`](src/safety_readme.py) + Clean URL config guard (**€0.00 / 0 AI tokens**) |
