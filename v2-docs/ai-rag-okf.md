@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "AI Knowledge and Retrieval: RAG, OKF, GraphRAG and Agent Memory"
 dimension: "AI"
-resource_count: 26
-fresh_2025_2026_count: 26
+resource_count: 30
+fresh_2025_2026_count: 30
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ai-rag-okf.md"
@@ -19,7 +19,7 @@ description: "Curated, AI-ranked AI RAG & OKF resources for the 2026 Cloud Nativ
     Detailed reference for AI Knowledge and Retrieval: RAG, OKF, GraphRAG and Agent Memory in the context of AI.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [AI Agents & MCP](ai-agents-mcp.md) · [Core AI & LLMs](ai.md) · [MLOps & GPU Scheduling](mlops.md) · [Databases](databases.md)
+    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [AI Agents & MCP](ai-agents-mcp.md) · [Core AI & LLMs](ai.md) · [MLOps & GPU Scheduling](mlops.md) · [AI Courses & E-Learning](elearning.md) · [Databases](databases.md)
 
 
 ## Architectural Comparison Matrix: RAG vs OKF vs GraphRAG vs Vectorless vs CAG vs Agent Memory
@@ -85,9 +85,19 @@ description: "Curated, AI-ranked AI RAG & OKF resources for the 2026 Cloud Nativ
   - **(2026)** [GitHub: VectifyAI/PageIndex (Vectorless Reasoning-Based RAG)](https://github.com/VectifyAI/PageIndex) <span class='md-tag md-tag--info'>⭐ 40734</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9fea7d3b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 8 L 20 2 L 30 2 L 40 6 L 50 4" fill="none" stroke="url(#spark-grad-9fea7d3b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> 🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Leading vectorless, reasoning-based RAG framework that replaces chunking and vector databases with a hierarchical Table-of-Contents semantic tree navigated via LLM tree search for high-accuracy financial, legal, and technical analysis.
   - **(2026)** [GitHub: hhhuang/CAG (Cache-Augmented Generation)](https://github.com/hhhuang/CAG) <span class='md-tag md-tag--info'>⭐ 1615</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-64fa4118" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 5 L 30 9 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-64fa4118)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ MIT</span> 🌟🌟🌟 <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[LLM]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Reference implementation of Cache-Augmented Generation (CAG), preloading bounded document corpora into LLM long-context KV caches to eliminate runtime retrieval latency and ranking errors.
   - **(2026)** [arXiv: Don't Do RAG — When Cache-Augmented Generation is All You Need for Knowledge Tasks](https://arxiv.org/abs/2412.15605) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Foundational research paper benchmarking Cache-Augmented Generation (CAG) against standard RAG across multi-document QA benchmarks, demonstrating superior speed and accuracy for bounded knowledge bases.
+## Career and Industry
+
+### Elearning
+
+#### NVIDIA Infrastructure Kubernetes And Paid Courses
+
+  - **(2026)** [==Introduction to Deploying RAG Pipelines for Production at Scale (NVIDIA DLI S-FX-19)==](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-19+V1) <span class='md-tag md-tag--info'>⏱️ 04:00</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $90 (~€82.80), 4h intermediate lab covering infrastructure sizing, Helm-based deployment of NVIDIA NIM microservices on Kubernetes, scaling bottlenecks, and enterprise RAG pipeline customization.
+  - **(2026)** [**Building and Evaluating Retrieval for Agentic Applications with NVIDIA Nemotron (DLI S-FX-45)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-45+V1) <span class='md-tag md-tag--info'>⏱️ 04:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $30 (~€27.60), 4h workshop on layout-preserving document parsing, evidence-preserving chunking, and closed-loop retrieval evaluation with NVIDIA Nemotron models.
+  - **(2026)** [**Building RAG Agents with LLMs (NVIDIA DLI S-FX-15)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1) <span class='md-tag md-tag--info'>⏱️ 08:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — $90 (~€82.80 — paid, not free), 8h intermediate lab with Competency Certificate teaching FastAPI, LangServe, LangChain, Gradio, FAISS vector stores, NVIDIA NIM microservices, and LLM-as-a-Judge.
+  - **(2026)** [**Evaluating RAG and Semantic Search Systems (NVIDIA DLI S-FX-32)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-32+V1) <span class='md-tag md-tag--info'>⏱️ 03:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — $30 (~€27.60), 3h focused lab on building domain-aware RAG benchmarks, synthetic test datasets, retrieval precision/recall checks, and LLM-as-a-Judge evaluation pipelines.
 
 ---
 💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
 
-🔗 **See Also:** [AWS](./aws.md) | [Azure](./azure.md)
+🔗 **See Also:** [AWS](./aws.md) | [E-Learning](./elearning.md)
 

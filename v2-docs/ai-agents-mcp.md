@@ -3,12 +3,12 @@ type: curation-hub
 okf_version: "0.3"
 name: "AI Agents and Model Context Protocol (MCP) for Kubernetes"
 dimension: "AI"
-resource_count: 481
-fresh_2025_2026_count: 479
+resource_count: 488
+fresh_2025_2026_count: 486
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ai-agents-mcp.md"
-description: "Top AI Agents & MCP resources for 2026, AI-ranked: Microsoft Agent Framework, Strands Agents SDK and more — curated Cloud Native tools, guides and references."
+description: "Top AI Agents & MCP resources for 2026, AI-ranked: Claude Academy (Anthropic), Microsoft Agent Framework and more — curated Cloud Native tools, guides and."
 ---
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
@@ -19,7 +19,7 @@ description: "Top AI Agents & MCP resources for 2026, AI-ranked: Microsoft Agent
     Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [Core AI & LLMs](ai.md) · [MLOps & GPU Scheduling](mlops.md) · [LLMs & Assistants](chatgpt.md)
+    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [Core AI & LLMs](ai.md) · [MLOps & GPU Scheduling](mlops.md) · [AI Courses & E-Learning](elearning.md) · [LLMs & Assistants](chatgpt.md)
 
 ## AI and Agents
 
@@ -1345,6 +1345,23 @@ Core technical aims:
 #### MCP Server
 
   - **(2026)** [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Details the stable release of Azure MCP (Model Context Protocol) Server 2.0, enabling secure, self-hosted agentic automation workflows. It provides architectural patterns for running local AI agents with direct, API-driven access to Azure resource management, optimizing operational automation via language model integrations.
+## Career and Industry
+
+### Elearning
+
+#### Leading Open And Multi-cloud AI Alternatives
+
+  - **(2026)** [==Claude Academy (Anthropic)==](https://academy.claude.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Free ($0 / €0.00) with free Skilljar certificates. Official Anthropic developer education portal hosting tracks on Claude Code, Model Context Protocol (MCP), and agentic tool use.
+  - **(2026)** [==Hugging Face AI Agents Course==](https://huggingface.co/learn/agents-course/en/unit0/introduction) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[RAG]</span> — Free ($0 / €0.00) with free verified certificate. Complete vendor-neutral hands-on curriculum spanning smolagents, LangGraph, LlamaIndex, tool calling, and agent evaluation benchmarks.
+  - **(2026)** [==Introduction to Model Context Protocol (Anthropic Academy)==](https://anthropic.skilljar.com/introduction-to-model-context-protocol) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Free ($0 / €0.00) with free certificate. Official hands-on Anthropic course covering MCP server/client architecture, tools, resources, prompts, and protocol transports.
+#### NVIDIA Free And Open-source AI Courses
+
+  - **(2026)** [==Securing Agents with NemoClaw and OpenShell (NVIDIA DLI S-FX-43)==](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-43+V1) <span class='md-tag md-tag--info'>⏱️ 04:00</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Free ($0 / €0.00), 4h browser-based (no local GPU required) hands-on lab with Competency Certificate in EN/ES/PT-BR taking engineers from single LLM API calls to coordinated multi-agent execution inside OpenShell sandboxes with NVIDIA NemoClaw.
+  - **(2026)** [==NVDLI: Securing Agents with NemoClaw and OpenShell (GitHub Lab)==](https://github.com/NVDLI/NemoClawDLI) <span class='md-tag md-tag--info'>⭐ 32</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5b6c458e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 5 L 30 6 L 40 9 L 50 11" fill="none" stroke="url(#spark-grad-5b6c458e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info'>⏱️ 04:00</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Apache-2.0 open-source repository for NVIDIA DLI S-FX-43 enabling developers to build, coordinate, and sandbox autonomous AI agents using OpenClaw/Hermes harnesses and Brev launchables.
+#### NVIDIA Infrastructure Kubernetes And Paid Courses
+
+  - **(2026)** [**Build a Deep Research Agent (NVIDIA DLI S-FX-40)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-40+V1) <span class='md-tag md-tag--info'>⏱️ 04:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $30 (~€27.60), 4h self-paced workshop (uses a free NVIDIA NGC API key) building multi-step enterprise deep-research agents with the NVIDIA AI-Q Research Assistant Blueprint.
+  - **(2026)** [**Building Agentic AI Applications with LLMs (NVIDIA DLI S-FX-41)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-41+V1) <span class='md-tag md-tag--info'>⏱️ 08:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — $90 (~€82.80), 8h intermediate NVIDIA DLI course on designing, orchestrating, and deploying stateful multi-step agentic AI applications with structured planning and tool execution.
 ## Cloud Architecture  Search Infrastructure  Hybrid Search
 
 ### Artificial Intelligence  Retrieval-augmented Generation  Vector Databases

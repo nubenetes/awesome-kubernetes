@@ -70,6 +70,10 @@ Architectural analysis, decision framework, and curated 2026 reference hub for *
 
 ## Modern RAG, Contextual Retrieval and Deep Document Parsing
 
+- **(2026)** [==NVIDIA DLI: Introduction to Deploying RAG Pipelines for Production at Scale (`S-FX-19`)==](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-19+V1) 🌟 - **`$90` (~`€82.80`)**, `4h`, Technical - Intermediate. Production Kubernetes and Helm deployment workshop for NVIDIA NIM-backed RAG pipelines covering cluster sizing, scaling bottlenecks, and component customization.
+- **(2026)** [NVIDIA DLI: Building RAG Agents with LLMs (`S-FX-15`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1) 🌟 - **`$90` (~`€82.80`)**, `8h`, Competency Certificate. Paid (not free) intermediate lab teaching LangChain, LangServe, FastAPI, Gradio, FAISS, NVIDIA NIM microservices, and agentic dialog management.
+- **(2026)** [NVIDIA DLI: Building and Evaluating Retrieval for Agentic Applications with NVIDIA Nemotron (`S-FX-45`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-45+V1) - **`$30` (~`€27.60`)**, `4h`, Technical - Intermediate. Hands-on retrieval pipeline design covering layout-aware document parsing and evidence verification for enterprise agentic RAG.
+
 - **(2024)** [Anthropic Research: Introducing Contextual Retrieval](https://www.anthropic.com/research/contextual-retrieval) 🌟 - Seminal engineering blueprint introducing Contextual Embeddings and Contextual BM25 (accelerated by Prompt Caching), reducing top-20 retrieval failure rates by 49% alone and 67% when paired with reranking.
 - **(2026)** [GitHub: infiniflow/ragflow](https://github.com/infiniflow/ragflow) 🌟 - Leading open-source enterprise RAG engine built on deep document understanding (complex layout analysis, tables, charts, OCR), grounded citations, and agentic retrieval workflows.
 - **(2026)** [GitHub: run-llama/llama_index](https://github.com/run-llama/llama_index) 🌟 - Flagship open-source data and orchestration framework for Agentic RAG, hybrid retrieval, structured extraction, and multi-step knowledge workflows over enterprise data sources.
@@ -82,6 +86,8 @@ Architectural analysis, decision framework, and curated 2026 reference hub for *
 - **(2026)** [GitHub: letta-ai/letta (formerly MemGPT)](https://github.com/letta-ai/letta) 🌟 - Stateful Agent OS enabling LLMs to explicitly manage their own tiered memory hierarchy (in-context core memory vs archival recall storage) across long-running autonomous tasks.
 
 ## Vector Databases, Hybrid Search and RAG Evaluation
+
+- **(2026)** [NVIDIA DLI: Evaluating RAG and Semantic Search Systems (`S-FX-32`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-32+V1) 🌟 - **`$30` (~`€27.60`)**, `3h`, Technical - Intermediate. Practical workshop implementing domain-aware semantic search benchmarks, automated test sets, and LLM-as-a-Judge RAG evaluation pipelines.
 
 - **(2026)** [GitHub: qdrant/qdrant](https://github.com/qdrant/qdrant) 🌟 - High-performance Rust vector and hybrid search engine featuring binary/scalar quantization, sparse + dense fusion, payload filtering, and native Kubernetes horizontal sharding.
 - **(2026)** [GitHub: weaviate/weaviate](https://github.com/weaviate/weaviate) 🌟 - Cloud-native AI database combining HNSW vector search, BM25 keyword scoring, multi-tenancy isolation, and modular generative search pipelines on Kubernetes.

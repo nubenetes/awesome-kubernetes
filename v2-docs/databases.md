@@ -596,5 +596,5 @@ description: "Top Databases resources for 2026, AI-ranked: Patroni, Zalando Post
 ---
 💡 **Explore Related:** [NoSQL](./nosql.md) | [Message Queue](./message-queue.md) | [Crunchy Data](./crunchydata.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI](./ai.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 

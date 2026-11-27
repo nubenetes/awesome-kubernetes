@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "GPU Fabrics, InfiniBand, Slurm vs Kubernetes and AI Storage"
 dimension: "Neoclouds & GPU AI Clouds"
-resource_count: 16
-fresh_2025_2026_count: 16
+resource_count: 20
+fresh_2025_2026_count: 20
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-architecture-stack.md"
@@ -19,7 +19,7 @@ description: "Top GPU Fabrics, InfiniBand, Slurm vs K8s & Storage resources for 
     Detailed reference for GPU Fabrics, InfiniBand, Slurm vs Kubernetes and AI Storage in the context of Neoclouds & GPU AI Clouds.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Neoclouds Overview & Sovereign Overlap](neoclouds.md) · [Neocloud IaC Maturity, GPU FinOps & SLAs](neoclouds-iac-finops-sla.md) · [European Neoclouds & Country AI Factories](neoclouds-europe.md) · [North America Neoclouds (US & Canada)](neoclouds-north-america.md) · [MLOps & GPU Scheduling](mlops.md) · [Enterprise AI Platforms](enterprise-ai-platforms.md)
+    [Neoclouds Overview & Sovereign Overlap](neoclouds.md) · [Neocloud IaC Maturity, GPU FinOps & SLAs](neoclouds-iac-finops-sla.md) · [European Neoclouds & Country AI Factories](neoclouds-europe.md) · [North America Neoclouds (US & Canada)](neoclouds-north-america.md) · [MLOps & GPU Scheduling](mlops.md) · [Enterprise AI Platforms](enterprise-ai-platforms.md) · [AI Courses & E-Learning](elearning.md)
 
 ## Pre-Sales Engineering Blueprint: GPU Fabrics, InfiniBand, Slurm vs Kubernetes and AI Storage
 
@@ -111,6 +111,16 @@ Training a 70B–405B+ model emits **terabyte-scale optimizer checkpoints every 
 #### vLLM
 
   - **(2025)** [==vLLM on Kubernetes==](https://github.com/vllm-project/vllm) <span class='md-tag md-tag--info'>⭐ 96155</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6caed060" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 4 L 30 13 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-6caed060)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--info' title='Open-source license'>⚖️ Apache-2.0</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with Kubernetes HPA (Horizontal Pod Autoscaler) and native Prometheus performance scraping.
+## Career and Industry
+
+### Elearning
+
+#### NVIDIA Free And Open-source AI Courses
+
+  - **(2026)** [==AI Factory Reference Architectures (NVIDIA Academy)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16237010) <span class='md-tag md-tag--info'>⏱️ 00:22</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> — Free ($0 / €0.00), 22-minute NVIDIA Academy mini-course detailing Enterprise AI Factory Reference Architectures across rack-scale GB300 NVL72 clusters and modular RTX PRO AI Factory deployments.
+  - **(2026)** [**ClusterMinder Fundamentals (NVIDIA Academy)**](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16449049) <span class='md-tag md-tag--info'>⏱️ 03:03</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Free ($0 / €0.00), 3h 03m infrastructure operations course teaching NVIDIA ClusterMinder deployment, Redfish hardware fault detection, cluster health visibility, and automated alerting.
+  - **(2026)** [**Getting Started with NVIDIA DOCA (NVIDIA Academy)**](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:18501412) <span class='md-tag md-tag--info'>⏱️ 00:50</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Free ($0 / €0.00), 50-minute foundational curriculum introducing NVIDIA DOCA software frameworks for hardware-accelerated networking on BlueField DPUs and ConnectX SuperNICs.
+  - **(2026)** [**Getting Started with NVIDIA DSX Air (NVIDIA Academy)**](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16115386) <span class='md-tag md-tag--info'>⏱️ 01:27</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Free ($0 / €0.00), 1h 27m SaaS digital-twin course enabling engineers to build and simulate multi-node GPU, BlueField DPU, and switch network topologies risk-free prior to physical rack deployment.
 ## GPU Silicon And Non-blocking AI Networking Fabrics
 
   - **(2026)** [AMD Instinct MI300X HBM3 Accelerators](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> — 192 GB HBM3 per-GPU accelerator powering TensorWave and Oracle/Crusoe clusters to host whole 70B–405B models with minimal tensor-parallelism splitting overhead.

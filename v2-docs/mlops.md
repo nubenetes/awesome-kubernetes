@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Machine Learning Ops (MLOps) and Data Science"
 dimension: "AI"
-resource_count: 125
-fresh_2025_2026_count: 53
+resource_count: 134
+fresh_2025_2026_count: 62
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/mlops.md"
@@ -19,7 +19,7 @@ description: "Top MLOps resources for 2026, AI-ranked: AI on EKS (AWS Labs), Dat
     Detailed reference for Machine Learning Ops (MLOps) and Data Science in the context of AI.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [Core AI & LLMs](ai.md) · [AI Agents & MCP](ai-agents-mcp.md) · [Neoclouds & GPU AI Clouds](neoclouds.md) · [GPU Fabrics, Slurm vs K8s & Storage](neoclouds-architecture-stack.md) · [K8s Autoscaling](kubernetes-autoscaling.md) · [K8s Operators](kubernetes-operators-controllers.md)
+    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [Core AI & LLMs](ai.md) · [AI Agents & MCP](ai-agents-mcp.md) · [AI Courses & E-Learning](elearning.md) · [Neoclouds & GPU AI Clouds](neoclouds.md) · [GPU Fabrics, Slurm vs K8s & Storage](neoclouds-architecture-stack.md) · [K8s Autoscaling](kubernetes-autoscaling.md) · [K8s Operators](kubernetes-operators-controllers.md)
 
 ## AI and ML
 
@@ -134,6 +134,22 @@ description: "Top MLOps resources for 2026, AI-ranked: AI on EKS (AWS Labs), Dat
 ### Containers
 
   - **(2021)** [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — This technical guide bridges DevOps and MLOps by demonstrating how to containerize machine learning models using Docker and orchestrate their integration pipelines with Jenkins. It provides an architectural map for automating CI/CD routines for smart microservices, ensuring reproducible builds and robust test suites.
+## Career and Industry
+
+### Elearning
+
+#### Leading Open And Multi-cloud AI Alternatives
+
+  - **(2026)** [==DeepLearning.AI Courses Portal==](https://www.deeplearning.ai/courses) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Free video audit ($0 / €0.00); Pro membership $30/mo (~€27.60/mo) or $25/mo billed $300/yr (~€276.00/yr) for graded Jupyter labs and certificates across 100+ short AI engineering courses.
+  - **(2026)** [==Practical Deep Learning for Coders (fast.ai)==](https://course.fast.ai) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Free ($0 / €0.00). Renowned code-first PyTorch curriculum guiding engineers from foundational neural nets through vision, NLP, and stable diffusion deployment without paywalls.
+#### NVIDIA Infrastructure Kubernetes And Paid Courses
+
+  - **(2026)** [==AI Infrastructure and Operations Fundamentals (NVIDIA Academy)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139841) <span class='md-tag md-tag--info'>⏱️ 07:25</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> — $50 (~€46.00) standalone (or $150 / ~€138.00 bundled with NCA-AIIO Associate Exam), 7h 25m flagship curriculum succeeding Intro to AI in the Data Center across GPU server hardware, InfiniBand/Ethernet fabrics, and enterprise AI cluster ops.
+  - **(2026)** [==Fundamentals of Accelerated Computing with CUDA Python (NVIDIA DLI S-AC-10)==](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-10+V1) <span class='md-tag md-tag--info'>⏱️ 08:00</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $90 (~€82.80), 8h lab with Assessment Certificate teaching Numba JIT compilation, custom CUDA kernels, NumPy ufuncs, and GPU memory optimization in Python.
+  - **(2026)** [==NVIDIA AI Enterprise Deployment on BareMetal Kubernetes==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15140020) <span class='md-tag md-tag--info'>⏱️ 03:02</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $100 (~€92.00), 3h 02m scenario-based bare-metal hands-on lab walking IT teams through deploying Kubernetes from scratch, installing NVIDIA AI Enterprise (GPU Operator/drivers), and validating a production RAG deployment.
+  - **(2026)** [==Run:ai Platform Deployment (NVIDIA Academy)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15853437) <span class='md-tag md-tag--info'>⏱️ 03:08</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $50 (~€46.00), 3h 08m interactive Kubernetes GPU orchestration lab with completion certificate covering Run:ai installation, cluster post-configuration, and multi-tenant GPU scheduling workflows.
+  - **(2026)** [**AI Infrastructure and Operations Fundamentals Course and NCA-AIIO Exam Bundle**](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16071291) <span class='md-tag md-tag--info'>⏱️ 07:25</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $150 (~€138.00) discounted NVIDIA Academy bundle combining immediate access to AI Infrastructure and Operations Fundamentals (7h 25m) with an NVIDIA-Certified Associate (NCA-AIIO) exam voucher.
+  - **(2026)** [**Find the Bottleneck: Optimize AI Pipelines With Nsight Systems (NVIDIA DLI S-AC-14)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-14+V1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--info'>⏱️ 03:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — $30 (~€27.60), 3h advanced systems-performance workshop teaching CPU/GPU profiling with NVIDIA Nsight Systems to eliminate kernel, dataloader, and PCIe bottlenecks.
 ## Cloud Architecture
 
 ### Multi-cloud
@@ -334,6 +350,9 @@ description: "Top MLOps resources for 2026, AI-ranked: AI on EKS (AWS Labs), Dat
 #### Resource Allocation
 
   - **(2024)** [huggingface.co: Implementing Fractional GPUs in Kubernetes with Aliyun Scheduler](https://huggingface.co/blog/NileshInfer/implementing-fractional-gpus-in-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — A deep dive into fractional GPU scheduling policies on Kubernetes using the open-source Aliyun Scheduler. It showcases strategies for maximizing resource utility and lowering infrastructure bills by sharing single physical hardware resources across smaller model-serving pods.
+## Introduction
+
+  - **(2026)** [AI Courses, NVIDIA DLI/Academy and Alternatives Hub](https://nubenetes.com/elearning/#ai-courses) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — Full verified 2026 course matrix with EUR/USD pricing, retired course warnings, and comparisons against Hugging Face, Anthropic Academy, Microsoft, Google, and DeepLearning.AI.
 ## Introduction. MLOps
 
   - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MLOPS]</span> — Technical documentation and implementation reference for cd.foundation: Announcing the CD Foundation MLOps SIG covering Introduction. MLOps in MLOps (cd.foundation).

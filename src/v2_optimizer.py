@@ -241,6 +241,7 @@ class V2VisionEngine:
                 ("ai-agents-mcp", "AI Agents & MCP"),
                 ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("mlops", "MLOps & GPU Scheduling"),
+                ("elearning", "AI Courses & E-Learning"),
                 ("chatgpt", "LLMs & Assistants"),
                 ("kubernetes-operators-controllers", "K8s Operators"),
             ],
@@ -249,6 +250,7 @@ class V2VisionEngine:
                 ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("ai", "Core AI & LLMs"),
                 ("ai-agents-mcp", "AI Agents & MCP"),
+                ("elearning", "AI Courses & E-Learning"),
                 ("neoclouds", "Neoclouds & GPU AI Clouds"),
                 ("neoclouds-architecture-stack", "GPU Fabrics, Slurm vs K8s & Storage"),
                 ("kubernetes-autoscaling", "K8s Autoscaling"),
@@ -259,6 +261,7 @@ class V2VisionEngine:
                 ("ai-rag-okf", "RAG, OKF & Knowledge"),
                 ("ai", "Core AI & LLMs"),
                 ("mlops", "MLOps & GPU Scheduling"),
+                ("elearning", "AI Courses & E-Learning"),
                 ("chatgpt", "LLMs & Assistants"),
             ],
             "ai-rag-okf": [
@@ -266,6 +269,7 @@ class V2VisionEngine:
                 ("ai-agents-mcp", "AI Agents & MCP"),
                 ("ai", "Core AI & LLMs"),
                 ("mlops", "MLOps & GPU Scheduling"),
+                ("elearning", "AI Courses & E-Learning"),
                 ("databases", "Databases"),
             ],
             "openshift": [
@@ -466,6 +470,7 @@ class V2VisionEngine:
                 ("neoclouds-north-america", "North America Neoclouds (US & Canada)"),
                 ("mlops", "MLOps & GPU Scheduling"),
                 ("enterprise-ai-platforms", "Enterprise AI Platforms"),
+                ("elearning", "AI Courses & E-Learning"),
             ],
             "neoclouds-iac-finops-sla": [
                 ("neoclouds", "Neoclouds Overview & Sovereign Overlap"),
@@ -474,6 +479,14 @@ class V2VisionEngine:
                 ("eu-cloud-resilience-sla", "EU Sovereign RPO, RTO & SLAs"),
                 ("terraform", "Terraform & OpenTofu"),
                 ("finops", "Cloud FinOps"),
+            ],
+            "elearning": [
+                ("ai", "Core AI & LLMs"),
+                ("ai-agents-mcp", "AI Agents & MCP"),
+                ("ai-rag-okf", "RAG, OKF & Knowledge"),
+                ("mlops", "MLOps & GPU Scheduling"),
+                ("neoclouds-architecture-stack", "GPU Fabrics, Slurm vs K8s & Storage"),
+                ("enterprise-ai-platforms", "Enterprise AI Platforms"),
             ],
         }
         
@@ -2814,6 +2827,52 @@ Invoke-ARI -TenantID <Tenant-ID> -AppId <App-ID> -Secret <Secret> -Automation -S
 ```
 """
                 _body = f"{ari_blueprint}\n\n" + _body
+
+            if f_name == "elearning.md":
+                elearning_blueprint = """## AI Courses and NVIDIA 2026 Certification Guide
+
+1. [Viral 8 NVIDIA AI Courses 2026 Audit and Successors](#viral-8-nvidia-ai-courses-2026-audit-and-successors)
+2. [NVIDIA Courses vs Leading AI Alternatives Comparison Matrix](#nvidia-courses-vs-leading-ai-alternatives-comparison-matrix)
+3. [Placement Strategy and Infrastructure Fit on Nubenetes](#placement-strategy-and-infrastructure-fit-on-nubenetes)
+
+!!! info "Verified 2026 Curriculum Audit (Pricing in USD and EUR — `1 USD ≈ 0.92 EUR`)"
+    This guide audits NVIDIA's 2026 Deep Learning Institute (`DLI`), **NVIDIA Academy**, and **NVDLI Open-Source** catalogs against leading AI training ecosystems (**Hugging Face**, **Anthropic Academy**, **Microsoft**, **Google**, **DeepLearning.AI**, **fast.ai**, and **OpenAI Academy**). Every link, duration, retirement date, and price is live-verified in both USD (`$`) and EUR (`€`, excl. local VAT where applicable).
+
+### Viral 8 NVIDIA AI Courses 2026 Audit and Successors
+
+Widely shared infographics claiming *"8 Free AI Courses from NVIDIA"* cite outdated course IDs, wrong durations, and **5 retired DLI courses** (enrollment ended July 7, 2026; learner access ends December 31, 2026) alongside paid `$50`–`$90` courses mislabeled as free:
+
+| # | Viral Infographic Course | Live 2026 Status | True Duration | Price (USD / EUR) | Verified Active 2026 Replacement |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | Generative AI Explained (`S-FX-07`) | **Retired / Closed** (access ends Dec 31, 2026) | `02:00` | Free (`$0` / `€0.00`) | [Agentic AI Explained (`S-FX-39`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-39+V1) — Free (`$0` / `€0.00`), `1h` |
+| **2** | AI for All: From Basics to GenAI Practice | **Active** (`course:15139849`) | `3h 19m` | **Free (`$0` / `€0.00`)** | [NVIDIA Academy: AI for All](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139849) (Free + Cert) |
+| **3** | Getting Started with AI on Jetson Nano (`S-RX-02`) | **Retired / Closed** (access ends Dec 31, 2026) | `08:00` | Free (`$0` / `€0.00`) | [A Beginner's Guide to Autonomous Robots (`S-OV-35`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-35+V1) — Free (`$0` / `€0.00`), `1h` |
+| **4** | Building A Brain in 10 Minutes (`T-FX-01`) | **Retired / Closed** (access ends Dec 31, 2026) | `00:10` | Free (`$0` / `€0.00`) | [NVDLI: Fundamentals of Deep Learning](https://github.com/NVDLI/fundamentals-of-deep-learning) — Free (`$0` / `€0.00`) |
+| **5** | Building Real-Time Video AI Applications (`S-IV-01`) | **Retired / Closed** (`S-IV-02` expired Feb 2025) | `08:00` | `$90` (~`€82.80`) | [Physical AI with Cosmos 3 (`S-OV-57`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-57+V1) — `$30` (~`€27.60`), `2h` |
+| **6** | Building RAG Agents with LLMs (`S-FX-15`) | **Active (Paid, not free)** | `08:00` | **`$90` (~`€82.80`)** | [DLI: Building RAG Agents with LLMs](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1) (`$90` / ~`€82.80`, Cert) |
+| **7** | Accelerate Data Science Workflows (`T-DS-03`) | **Retired / Closed** (access ends Dec 31, 2026) | `01:00` | Free (`$0` / `€0.00`) | [CUDA Python (`S-AC-10`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-10+V1) (`$90` / ~`€82.80`) & [Nsight Systems (`S-AC-14`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-14+V1) (`$30` / ~`€27.60`) |
+| **8** | Introduction to AI in the Data Center | **Replaced / Evolved** | `7h 25m` | **`$50` (~`€46.00`)** (`$150` / ~`€138.00` w/ exam) | [AI Infrastructure and Operations Fundamentals](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139841) (`$50` / ~`€46.00`) & [Coursera](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals) |
+
+### NVIDIA Courses vs Leading AI Alternatives Comparison Matrix
+
+| Provider / Track | Cost (USD / EUR) | Certificate | Cloud GPU / Lab Environment | Standout Advantage |
+| :--- | :--- | :--- | :--- | :--- |
+| **NVIDIA Academy (K8s and AI Factories)** | Free (`$0` / `€0.00`), **`$50` (`~€46.00`)**, **`$100` (`~€92.00`)**, **`$150` (`~€138.00` bundle)** | Yes + **NCA-AIIO** exam | Bare-metal K8s & Run:ai cluster labs | Unmatched for **Bare-Metal Kubernetes GPU Operator (`course:15140020`)**, **Run:ai (`course:15853437`)**, and **AI Infrastructure** |
+| **NVIDIA DLI Self-Paced Labs** | Free (`$0` / `€0.00`), **`$30` (`~€27.60`)**, **`$90` (`~€82.80`)** | Yes on selected labs | Cloud A100/Brev browser pods | Unique for **Helm/NIM production RAG (`S-FX-19`)**, **NemoClaw sandbox (`S-FX-43`, Free)**, **CUDA Python**, **Nsight** |
+| **Hugging Face Agents and LLM Courses** | **Free (`$0` / `€0.00`)** | **Yes (Free verified cert)** | Colab / Kaggle / HF Inference API | Best free vendor-neutral alternative to paid `$90` DLI LangChain/LLM courses |
+| **Anthropic Claude Academy** | **Free (`$0` / `€0.00`)** | **Yes (Free Skilljar certs)** | Self-directed CLI / API | Leading free source for **MCP servers (`Introduction to MCP`)** and **Claude Code** |
+| **Microsoft AI Agents for Beginners** | **Free (`$0` / `€0.00`)** | Open MIT repo (`★80.9k`) | GitHub Codespaces / Models tier | Comprehensive 18-lesson code-first multi-agent & RAG pattern reference |
+| **DeepLearning.AI** | Free videos; Pro **`$30/mo` (`~€27.60/mo`)** or **`$25/mo` annual (`$300/yr` ≈ `€276.00/yr`)** | Paid Pro tier | Managed Jupyter notebooks | Broadest multi-vendor partner ecosystem (`LangChain`, `CrewAI`, `Qdrant`, `Weaviate`) |
+| **Google ML Crash Course and fast.ai** | **Free (`$0` / `€0.00`)** | Completion badges | Browser widgets / Colab | Stronger free replacements for retired DLI ML basics (`T-FX-01`, `T-DS-03`) |
+
+### Placement Strategy and Infrastructure Fit on Nubenetes
+
+!!! tip "Strategic Architecture: Hub-and-Spoke Discovery Without Site-Wide Banner Clutter"
+    - **Canonical Hub (`/elearning/`)**: Consolidates full pricing, syllabi, retired-course warnings, and competitor comparisons in one place rather than splitting across disconnected micro-pages.
+    - **Top Announcement Banner Preserved**: Vendor courses remain out of the permanent site-wide announcement strip (reserved for core architectural pillars: EU Sovereign Cloud, Neoclouds, OpenShift 5, RAG & OKF, Digest, and Video Hub) and are surfaced directly in Quick-Nav dropdowns plus domain pages ([AI](ai.md), [AI Agents & MCP](ai-agents-mcp.md), [RAG & OKF](ai-rag-okf.md), [MLOps](mlops.md), and [Neoclouds Architecture Stack](neoclouds-architecture-stack.md)).
+"""
+                _body = f"{elearning_blueprint}\n\n" + _body
+                assert "AI Courses and NVIDIA 2026 Certification Guide" in _body, "Safety assertion failed: E-Learning blueprint injection skipped!"
 
 
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid

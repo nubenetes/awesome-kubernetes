@@ -759709,3 +759709,1640 @@ https://github.com/mohanedmoh/treebind:
   v2_locations:
   - kubernetes-tools.md
   youtube_mosaic: {}
+https://www.nvidia.com/en-us/training/open-source:
+  title: NVIDIA Open Source Courses Hub (DLI GitHub Portal)
+  description: Official NVIDIA Deep Learning Institute portal hosting free ($0 / €0.00),
+    Apache-2.0 and CC BY 4.0 open-source hands-on courses covering deep learning,
+    diffusion models, prompt engineering, and sandboxed AI agents.
+  year: '2026'
+  stars: 5
+  ai_summary: Official NVIDIA Deep Learning Institute portal hosting free ($0 / €0.00),
+    Apache-2.0 and CC BY 4.0 open-source hands-on courses covering deep learning,
+    diffusion models, prompt engineering, and sandboxed AI agents.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 96bb50f5c65b4797b7e16d97a432c51e080db7a6363ec644517eb3101a7797b0
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-43+V1:
+  title: Securing Agents with NemoClaw and OpenShell (NVIDIA DLI S-FX-43)
+  description: Free ($0 / €0.00), 4h browser-based (no local GPU required) hands-on
+    lab with Competency Certificate in EN/ES/PT-BR taking engineers from single LLM
+    API calls to coordinated multi-agent execution inside OpenShell sandboxes with
+    NVIDIA NemoClaw.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00), 4h browser-based (no local GPU required) hands-on
+    lab with Competency Certificate in EN/ES/PT-BR taking engineers from single LLM
+    API calls to coordinated multi-agent execution inside OpenShell sandboxes with
+    NVIDIA NemoClaw.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: c942c6c622228ad173561befb1740c1f210c874526459f06b4db0eea778b23cb
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - elearning.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 04:00
+https://github.com/NVDLI/NemoClawDLI:
+  title: 'NVDLI: Securing Agents with NemoClaw and OpenShell (GitHub Lab)'
+  description: Apache-2.0 open-source repository for NVIDIA DLI S-FX-43 enabling developers
+    to build, coordinate, and sandbox autonomous AI agents using OpenClaw/Hermes harnesses
+    and Brev launchables.
+  year: '2026'
+  stars: 5
+  ai_summary: Apache-2.0 open-source repository for NVIDIA DLI S-FX-43 enabling developers
+    to build, coordinate, and sandbox autonomous AI agents using OpenClaw/Hermes harnesses
+    and Brev launchables.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: c3bb946700d6c06e3d0a2289e76ef0e04b6931f7549f42c8029caf4d9012846b
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - elearning.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 04:00
+  gh_stars: 32
+  gh_pushed: '2026-11-21T18:32:55Z'
+https://nvdli.github.io/NemoClawDLI/nemoclaw:
+  title: NemoClaw and OpenShell Course Web Portal
+  description: Free ($0 / €0.00) 4-module interactive web portal accompanying NVIDIA
+    NVDLI/NemoClawDLI for agent coordination, grounded retrieval, deep planning, and
+    OpenShell sandboxed security.
+  year: '2026'
+  stars: 4
+  ai_summary: Free ($0 / €0.00) 4-module interactive web portal accompanying NVIDIA
+    NVDLI/NemoClawDLI for agent coordination, grounded retrieval, deep planning, and
+    OpenShell sandboxed security.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: df2d4ce9b6738144cc5e51367f6cc76021757d63a13d96c37f0dc298255ff9a5
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 04:00
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139849:
+  title: 'AI for All: From Basics to GenAI Practice (NVIDIA Academy)'
+  description: Free ($0 / €0.00), 3h 19m active NVIDIA Academy course with completion
+    certificate covering AI fundamentals, neural networks, GenAI/LLMs, Agentic AI,
+    Physical AI, and AI factory stacks.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00), 3h 19m active NVIDIA Academy course with completion
+    certificate covering AI fundamentals, neural networks, GenAI/LLMs, Agentic AI,
+    Physical AI, and AI factory stacks.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 7dbe5ffb3b928fd76a37acb9563b2e8e7dbb1193e3f3bd1a9d90437d2b899a85
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai.md
+  v2_locations:
+  - elearning.md
+  - ai.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 03:19
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-39+V1:
+  title: Agentic AI Explained (NVIDIA DLI S-FX-39)
+  description: Free ($0 / €0.00), 1h self-paced NVIDIA DLI conceptual successor to
+    the retired Generative AI Explained module, covering autonomous perception, reasoning,
+    planning, and action loops.
+  year: '2026'
+  stars: 4
+  ai_summary: Free ($0 / €0.00), 1h self-paced NVIDIA DLI conceptual successor to
+    the retired Generative AI Explained module, covering autonomous perception, reasoning,
+    planning, and action loops.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 81c4309b54e0ab67fa1189c02dedbed6f47f26c89c956d229f50a025411b2785
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai.md
+  v2_locations:
+  - elearning.md
+  - ai.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 01:00
+https://github.com/NVDLI/fundamentals-of-deep-learning:
+  title: 'NVDLI: Fundamentals of Deep Learning (Open-Source)'
+  description: Free ($0 / €0.00), Apache-2.0 / CC BY 4.0 open-source NVIDIA DLI Jupyter
+    lab repository with NVIDIA Brev launchables covering CNNs, data augmentation,
+    transfer learning, and Transformers.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00), Apache-2.0 / CC BY 4.0 open-source NVIDIA DLI Jupyter
+    lab repository with NVIDIA Brev launchables covering CNNs, data augmentation,
+    transfer learning, and Transformers.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: de8213def0673d56a7fef95d3450eac9df0a205c385ddb217e27327b938bc044
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai.md
+  v2_locations:
+  - elearning.md
+  - ai.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  gh_stars: 289
+  gh_pushed: '2026-11-23T08:10:16Z'
+https://github.com/NVDLI/llm-applications-with-prompt-engineering:
+  title: 'NVDLI: Building LLM Applications With Prompt Engineering (Open-Source)'
+  description: Free ($0 / €0.00) open-source NVIDIA DLI workshop teaching LangChain
+    structured-output pipelines, custom tool calling, agent scaffolding, and OpenAI-compatible
+    NVIDIA API workflows.
+  year: '2026'
+  stars: 4
+  ai_summary: Free ($0 / €0.00) open-source NVIDIA DLI workshop teaching LangChain
+    structured-output pipelines, custom tool calling, agent scaffolding, and OpenAI-compatible
+    NVIDIA API workflows.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 97c6e83c8f44108f9f66e7dce7864771f1bdeca9ffe05856b6e2aad019336d74
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai.md
+  v2_locations:
+  - elearning.md
+  - ai.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  gh_stars: 1
+  gh_pushed: '2026-11-09T17:15:55Z'
+https://github.com/NVDLI/generative-ai-with-diffusion-models:
+  title: 'NVDLI: Generative AI with Diffusion Models (Open-Source)'
+  description: Free ($0 / €0.00) open-source NVIDIA DLI Jupyter curriculum exploring
+    denoising diffusion probabilistic models, U-Net backbones, noise scheduling, and
+    conditioning.
+  year: '2026'
+  stars: 3
+  ai_summary: Free ($0 / €0.00) open-source NVIDIA DLI Jupyter curriculum exploring
+    denoising diffusion probabilistic models, U-Net backbones, noise scheduling, and
+    conditioning.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 587f99cb7a51623d29f396387a8af3682373f99de96d6bbf556d4805b2c9cab3
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[COMMUNITY-TOOL]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  gh_stars: 3
+  gh_pushed: '2026-11-02T14:13:35Z'
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16237010:
+  title: AI Factory Reference Architectures (NVIDIA Academy)
+  description: Free ($0 / €0.00), 22-minute NVIDIA Academy mini-course detailing Enterprise
+    AI Factory Reference Architectures across rack-scale GB300 NVL72 clusters and
+    modular RTX PRO AI Factory deployments.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00), 22-minute NVIDIA Academy mini-course detailing Enterprise
+    AI Factory Reference Architectures across rack-scale GB300 NVL72 clusters and
+    modular RTX PRO AI Factory deployments.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: c9d4fe2462445b4eefb0fb0802c18046a87c8965b0362813415725a7f0a135a2
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[NEOCLOUD]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - elearning.md
+  - neoclouds-architecture-stack.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 00:22
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16449049:
+  title: ClusterMinder Fundamentals (NVIDIA Academy)
+  description: Free ($0 / €0.00), 3h 03m infrastructure operations course teaching
+    NVIDIA ClusterMinder deployment, Redfish hardware fault detection, cluster health
+    visibility, and automated alerting.
+  year: '2026'
+  stars: 4
+  ai_summary: Free ($0 / €0.00), 3h 03m infrastructure operations course teaching
+    NVIDIA ClusterMinder deployment, Redfish hardware fault detection, cluster health
+    visibility, and automated alerting.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 31a88b87c9dc3c4da6b72c48e00a8fe646ab3fd1086b47ac61c3d816202b493a
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - elearning.md
+  - neoclouds-architecture-stack.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 03:03
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16115386:
+  title: Getting Started with NVIDIA DSX Air (NVIDIA Academy)
+  description: Free ($0 / €0.00), 1h 27m SaaS digital-twin course enabling engineers
+    to build and simulate multi-node GPU, BlueField DPU, and switch network topologies
+    risk-free prior to physical rack deployment.
+  year: '2026'
+  stars: 4
+  ai_summary: Free ($0 / €0.00), 1h 27m SaaS digital-twin course enabling engineers
+    to build and simulate multi-node GPU, BlueField DPU, and switch network topologies
+    risk-free prior to physical rack deployment.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 9ea9cdcc1e4a58287f77f234baacb9f8658a23e5514887173ae7336a5c3f0a63
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - elearning.md
+  - neoclouds-architecture-stack.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 01:27
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:18501412:
+  title: Getting Started with NVIDIA DOCA (NVIDIA Academy)
+  description: Free ($0 / €0.00), 50-minute foundational curriculum introducing NVIDIA
+    DOCA software frameworks for hardware-accelerated networking on BlueField DPUs
+    and ConnectX SuperNICs.
+  year: '2026'
+  stars: 4
+  ai_summary: Free ($0 / €0.00), 50-minute foundational curriculum introducing NVIDIA
+    DOCA software frameworks for hardware-accelerated networking on BlueField DPUs
+    and ConnectX SuperNICs.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 3bb2f2c1f0ac13db13e56a1f3b2065b87efd985b1ea5c568c6e085881a2a6636
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - elearning.md
+  - neoclouds-architecture-stack.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 00:50
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-35+V1:
+  title: A Beginner's Guide to Autonomous Robots (NVIDIA DLI S-OV-35)
+  description: 'Free ($0 / €0.00), 1h introductory NVIDIA DLI course covering autonomous
+    robotics architectures: sensing, perception, mapping, localization, navigation,
+    and control.'
+  year: '2026'
+  stars: 3
+  ai_summary: 'Free ($0 / €0.00), 1h introductory NVIDIA DLI course covering autonomous
+    robotics architectures: sensing, perception, mapping, localization, navigation,
+    and control.'
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: b5e394c116fa5a389a01c6fe33a7d51848b23db87c979ed10cc8cce66cec3bd0
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Free and Open-Source AI Courses
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 01:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-19+V1:
+  title: Introduction to Deploying RAG Pipelines for Production at Scale (NVIDIA DLI
+    S-FX-19)
+  description: $90 (~€82.80), 4h intermediate lab covering infrastructure sizing,
+    Helm-based deployment of NVIDIA NIM microservices on Kubernetes, scaling bottlenecks,
+    and enterprise RAG pipeline customization.
+  year: '2026'
+  stars: 5
+  ai_summary: $90 (~€82.80), 4h intermediate lab covering infrastructure sizing, Helm-based
+    deployment of NVIDIA NIM microservices on Kubernetes, scaling bottlenecks, and
+    enterprise RAG pipeline customization.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: e0bcff54413a46390b3c9571af364a7c1eb22614474624cfe2ea9e38500454f5
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - elearning.md
+  - ai-rag-okf.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 04:00
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15140020:
+  title: NVIDIA AI Enterprise Deployment on BareMetal Kubernetes
+  description: $100 (~€92.00), 3h 02m scenario-based bare-metal hands-on lab walking
+    IT teams through deploying Kubernetes from scratch, installing NVIDIA AI Enterprise
+    (GPU Operator/drivers), and validating a production RAG deployment.
+  year: '2026'
+  stars: 5
+  ai_summary: $100 (~€92.00), 3h 02m scenario-based bare-metal hands-on lab walking
+    IT teams through deploying Kubernetes from scratch, installing NVIDIA AI Enterprise
+    (GPU Operator/drivers), and validating a production RAG deployment.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: d326b9264e9ea9aa53502ee21cfab4a94b26eff9b4d24f507d8e123f842aced6
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 03:02
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15853437:
+  title: Run:ai Platform Deployment (NVIDIA Academy)
+  description: $50 (~€46.00), 3h 08m interactive Kubernetes GPU orchestration lab
+    with completion certificate covering Run:ai installation, cluster post-configuration,
+    and multi-tenant GPU scheduling workflows.
+  year: '2026'
+  stars: 5
+  ai_summary: $50 (~€46.00), 3h 08m interactive Kubernetes GPU orchestration lab with
+    completion certificate covering Run:ai installation, cluster post-configuration,
+    and multi-tenant GPU scheduling workflows.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 56e7a595469c519995cab3694fc0da4b09a784624e2651a4aef056a3b3c4065b
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 03:08
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139841:
+  title: AI Infrastructure and Operations Fundamentals (NVIDIA Academy)
+  description: $50 (~€46.00) standalone (or $150 / ~€138.00 bundled with NCA-AIIO
+    Associate Exam), 7h 25m flagship curriculum succeeding Intro to AI in the Data
+    Center across GPU server hardware, InfiniBand/Ethernet fabrics, and enterprise
+    AI cluster ops.
+  year: '2026'
+  stars: 5
+  ai_summary: $50 (~€46.00) standalone (or $150 / ~€138.00 bundled with NCA-AIIO Associate
+    Exam), 7h 25m flagship curriculum succeeding Intro to AI in the Data Center across
+    GPU server hardware, InfiniBand/Ethernet fabrics, and enterprise AI cluster ops.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 93f379486956aceb9ef3f80d03097e7d0e7a92713338e77fa2542498130635e1
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[NEOCLOUD]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 07:25
+https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16071291:
+  title: AI Infrastructure and Operations Fundamentals Course and NCA-AIIO Exam Bundle
+  description: $150 (~€138.00) discounted NVIDIA Academy bundle combining immediate
+    access to AI Infrastructure and Operations Fundamentals (7h 25m) with an NVIDIA-Certified
+    Associate (NCA-AIIO) exam voucher.
+  year: '2026'
+  stars: 4
+  ai_summary: $150 (~€138.00) discounted NVIDIA Academy bundle combining immediate
+    access to AI Infrastructure and Operations Fundamentals (7h 25m) with an NVIDIA-Certified
+    Associate (NCA-AIIO) exam voucher.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 24f6aac8a338dd7a4cf95e2ee30ed6d4ad8462c65d9f2e6b23fb1bf4a614e712
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 07:25
+https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals:
+  title: AI Infrastructure and Operations Fundamentals on Coursera
+  description: 4-module Coursera mirror of NVIDIA's AI Infrastructure and Operations
+    Fundamentals course (Coursera Plus $59/mo ≈ €54.28/mo or $399/yr ≈ €367.08/yr)
+    covering data-center GPU clusters, fabrics, and MLOps.
+  year: '2026'
+  stars: 4
+  ai_summary: 4-module Coursera mirror of NVIDIA's AI Infrastructure and Operations
+    Fundamentals course (Coursera Plus $59/mo ≈ €54.28/mo or $399/yr ≈ €367.08/yr)
+    covering data-center GPU clusters, fabrics, and MLOps.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 6be50ac224625ff4f24bc44b96139a71ff84cd2c12c197d7fbfbbb71919772a8
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[MLOPS]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1:
+  title: Building RAG Agents with LLMs (NVIDIA DLI S-FX-15)
+  description: $90 (~€82.80 — paid, not free), 8h intermediate lab with Competency
+    Certificate teaching FastAPI, LangServe, LangChain, Gradio, FAISS vector stores,
+    NVIDIA NIM microservices, and LLM-as-a-Judge.
+  year: '2026'
+  stars: 4
+  ai_summary: $90 (~€82.80 — paid, not free), 8h intermediate lab with Competency
+    Certificate teaching FastAPI, LangServe, LangChain, Gradio, FAISS vector stores,
+    NVIDIA NIM microservices, and LLM-as-a-Judge.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: cc21e765628bd41d0f97e08de2f6eaf299667e9eab7d21ad2d54b31e6f12df60
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - elearning.md
+  - ai-rag-okf.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 08:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-41+V1:
+  title: Building Agentic AI Applications with LLMs (NVIDIA DLI S-FX-41)
+  description: $90 (~€82.80), 8h intermediate NVIDIA DLI course on designing, orchestrating,
+    and deploying stateful multi-step agentic AI applications with structured planning
+    and tool execution.
+  year: '2026'
+  stars: 4
+  ai_summary: $90 (~€82.80), 8h intermediate NVIDIA DLI course on designing, orchestrating,
+    and deploying stateful multi-step agentic AI applications with structured planning
+    and tool execution.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 9f2d9e8acd2feaad63a389226d2a30d58777c94b0f42a3f1a2c36f25d1301762
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - elearning.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 08:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-32+V1:
+  title: Evaluating RAG and Semantic Search Systems (NVIDIA DLI S-FX-32)
+  description: $30 (~€27.60), 3h focused lab on building domain-aware RAG benchmarks,
+    synthetic test datasets, retrieval precision/recall checks, and LLM-as-a-Judge
+    evaluation pipelines.
+  year: '2026'
+  stars: 4
+  ai_summary: $30 (~€27.60), 3h focused lab on building domain-aware RAG benchmarks,
+    synthetic test datasets, retrieval precision/recall checks, and LLM-as-a-Judge
+    evaluation pipelines.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 4e02b8f908593a4690e4ca820cb6a49baf2b7532499e68a154f15e6ee80f0cee
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - elearning.md
+  - ai-rag-okf.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 03:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-40+V1:
+  title: Build a Deep Research Agent (NVIDIA DLI S-FX-40)
+  description: $30 (~€27.60), 4h self-paced workshop (uses a free NVIDIA NGC API key)
+    building multi-step enterprise deep-research agents with the NVIDIA AI-Q Research
+    Assistant Blueprint.
+  year: '2026'
+  stars: 4
+  ai_summary: $30 (~€27.60), 4h self-paced workshop (uses a free NVIDIA NGC API key)
+    building multi-step enterprise deep-research agents with the NVIDIA AI-Q Research
+    Assistant Blueprint.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: ad525ffd32438bc70ae2bc8728ecb7c5f4e9602fac3886d00804f6e63a3b38df
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - elearning.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 04:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-45+V1:
+  title: Building and Evaluating Retrieval for Agentic Applications with NVIDIA Nemotron
+    (DLI S-FX-45)
+  description: $30 (~€27.60), 4h workshop on layout-preserving document parsing, evidence-preserving
+    chunking, and closed-loop retrieval evaluation with NVIDIA Nemotron models.
+  year: '2026'
+  stars: 4
+  ai_summary: $30 (~€27.60), 4h workshop on layout-preserving document parsing, evidence-preserving
+    chunking, and closed-loop retrieval evaluation with NVIDIA Nemotron models.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 6939dca8c5389f24ff52dafa7ca720673bd105b09692d192ef8ea683ed1f4f28
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-rag-okf.md
+  v2_locations:
+  - elearning.md
+  - ai-rag-okf.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 04:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-24+V1:
+  title: 'The Art of Compressing LLMs: Pruning, Distillation, and Quantization Demystified
+    (DLI S-FX-24)'
+  description: $90 (~€82.80), 8h deep technical lab on structured pruning, knowledge
+    distillation, quantization, and accuracy-latency benchmarking to cut GPU inference
+    footprint and TCO.
+  year: '2026'
+  stars: 4
+  ai_summary: $90 (~€82.80), 8h deep technical lab on structured pruning, knowledge
+    distillation, quantization, and accuracy-latency benchmarking to cut GPU inference
+    footprint and TCO.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: e282bad22865982342b49033f74abf6a51a415b6383d47282126db05fbcec273
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai.md
+  v2_locations:
+  - elearning.md
+  - ai.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 08:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-26+V1:
+  title: Rapid Application Development with Large Language Models (NVIDIA DLI S-FX-26)
+  description: $90 (~€82.80), 8h introductory course exploring Hugging Face Transformers
+    encoders/decoders, embeddings, zero-shot classification, and LangChain app scaffolding.
+  year: '2026'
+  stars: 3
+  ai_summary: $90 (~€82.80), 8h introductory course exploring Hugging Face Transformers
+    encoders/decoders, embeddings, zero-shot classification, and LangChain app scaffolding.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 7de93b2afd52e5565dc486f75b2e1a038a9721e11a1373905b25bea9b3823db2
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 08:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-10+V1:
+  title: Fundamentals of Accelerated Computing with CUDA Python (NVIDIA DLI S-AC-10)
+  description: $90 (~€82.80), 8h lab with Assessment Certificate teaching Numba JIT
+    compilation, custom CUDA kernels, NumPy ufuncs, and GPU memory optimization in
+    Python.
+  year: '2026'
+  stars: 5
+  ai_summary: $90 (~€82.80), 8h lab with Assessment Certificate teaching Numba JIT
+    compilation, custom CUDA kernels, NumPy ufuncs, and GPU memory optimization in
+    Python.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 18696894db6ea01e4e56fa0b72326c1141af4d9bb6a5416379df75faab00099b
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 08:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-14+V1:
+  title: 'Find the Bottleneck: Optimize AI Pipelines With Nsight Systems (NVIDIA DLI
+    S-AC-14)'
+  description: $30 (~€27.60), 3h advanced systems-performance workshop teaching CPU/GPU
+    profiling with NVIDIA Nsight Systems to eliminate kernel, dataloader, and PCIe
+    bottlenecks.
+  year: '2026'
+  stars: 4
+  ai_summary: $30 (~€27.60), 3h advanced systems-performance workshop teaching CPU/GPU
+    profiling with NVIDIA Nsight Systems to eliminate kernel, dataloader, and PCIe
+    bottlenecks.
+  language: English
+  resource_type: Course
+  complexity: Advanced
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 9a5043462db20abb37277e300f9e6e4cb645195992fce25d3110d1c981ffb6f5
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 03:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-57+V1:
+  title: From Perception to Prediction - Developing Physical AI with Cosmos 3 (NVIDIA
+    DLI S-OV-57)
+  description: $30 (~€27.60), 2h hands-on lab exercising NVIDIA Cosmos 3 Nano Reasoner,
+    world video synthesis, physics critics, and forward/inverse/policy action modes
+    for Physical AI.
+  year: '2026'
+  stars: 4
+  ai_summary: $30 (~€27.60), 2h hands-on lab exercising NVIDIA Cosmos 3 Nano Reasoner,
+    world video synthesis, physics critics, and forward/inverse/policy action modes
+    for Physical AI.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 29fe94ec93077e107cbdbabcc9969927584932a5cf13bcce6872051161c2d648
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 02:00
+https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-41+V1:
+  title: Accelerating ROS 2 Workloads With NVIDIA GPU-Powered Libraries and AI Models
+    (DLI S-OV-41)
+  description: $30 (~€27.60), 3h hands-on robotics lab accelerating ROS 2 real-time
+    perception and inference pipelines with GPU-powered NVIDIA libraries.
+  year: '2026'
+  stars: 3
+  ai_summary: $30 (~€27.60), 3h hands-on robotics lab accelerating ROS 2 real-time
+    perception and inference pipelines with GPU-powered NVIDIA libraries.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 4a15facb79d2bc623bb75855038071b29e8b3c544fb08d22873a09e9e76ba104
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - NVIDIA Infrastructure, Kubernetes and Paid Courses
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: 03:00
+https://huggingface.co/learn/agents-course/en/unit0/introduction:
+  title: Hugging Face AI Agents Course
+  description: Free ($0 / €0.00) with free verified certificate. Complete vendor-neutral
+    hands-on curriculum spanning smolagents, LangGraph, LlamaIndex, tool calling,
+    and agent evaluation benchmarks.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00) with free verified certificate. Complete vendor-neutral
+    hands-on curriculum spanning smolagents, LangGraph, LlamaIndex, tool calling,
+    and agent evaluation benchmarks.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 1affcbdc990912c3331b3f8b2d586c08a607cb0c91d7596a0746a5675b613aa4
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[RAG]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - elearning.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://huggingface.co/learn/llm-course/chapter1/1:
+  title: Hugging Face LLM Course
+  description: Free ($0 / €0.00). Comprehensive open-source LLM engineering course
+    covering Hugging Face Transformers, tokenizers, datasets, PEFT/LoRA fine-tuning,
+    and Hub evaluation.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00). Comprehensive open-source LLM engineering course
+    covering Hugging Face Transformers, tokenizers, datasets, PEFT/LoRA fine-tuning,
+    and Hub evaluation.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 4035a3767aa227594ec243631a5db6570f7d7e2667931c9d70251e62a1431a55
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai.md
+  v2_locations:
+  - elearning.md
+  - ai.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://academy.claude.com:
+  title: Claude Academy (Anthropic)
+  description: Free ($0 / €0.00) with free Skilljar certificates. Official Anthropic
+    developer education portal hosting tracks on Claude Code, Model Context Protocol
+    (MCP), and agentic tool use.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00) with free Skilljar certificates. Official Anthropic
+    developer education portal hosting tracks on Claude Code, Model Context Protocol
+    (MCP), and agentic tool use.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 628191439350677a4fe9f529be4407d1b0ad08a79db5e04fb510e402ef7d1503
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - elearning.md
+  - ai.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://anthropic.skilljar.com/introduction-to-model-context-protocol:
+  title: Introduction to Model Context Protocol (Anthropic Academy)
+  description: Free ($0 / €0.00) with free certificate. Official hands-on Anthropic
+    course covering MCP server/client architecture, tools, resources, prompts, and
+    protocol transports.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00) with free certificate. Official hands-on Anthropic
+    course covering MCP server/client architecture, tools, resources, prompts, and
+    protocol transports.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 0e261d9fba34638122db497529dad46eec06b64045e69be729af8213355e7a13
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[MCP]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/ai-agents-mcp.md
+  v2_locations:
+  - elearning.md
+  - ai-agents-mcp.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://www.deeplearning.ai/courses:
+  title: DeepLearning.AI Courses Portal
+  description: Free video audit ($0 / €0.00); Pro membership $30/mo (~€27.60/mo) or
+    $25/mo billed $300/yr (~€276.00/yr) for graded Jupyter labs and certificates across
+    100+ short AI engineering courses.
+  year: '2026'
+  stars: 5
+  ai_summary: Free video audit ($0 / €0.00); Pro membership $30/mo (~€27.60/mo) or
+    $25/mo billed $300/yr (~€276.00/yr) for graded Jupyter labs and certificates across
+    100+ short AI engineering courses.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 53808e116777d58c83141a436004a42f3f3886ebff1d5287edfbf5a794b04e03
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://course.fast.ai:
+  title: Practical Deep Learning for Coders (fast.ai)
+  description: Free ($0 / €0.00). Renowned code-first PyTorch curriculum guiding engineers
+    from foundational neural nets through vision, NLP, and stable diffusion deployment
+    without paywalls.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00). Renowned code-first PyTorch curriculum guiding engineers
+    from foundational neural nets through vision, NLP, and stable diffusion deployment
+    without paywalls.
+  language: English
+  resource_type: Course
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: dd0ddd1f27618c4712d571b87d8957674b72ff6cd97bd63d119947317d99eb85
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  - docs/mlops.md
+  v2_locations:
+  - elearning.md
+  - mlops.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://developers.google.com/machine-learning/crash-course:
+  title: Google Machine Learning Crash Course
+  description: Free ($0 / €0.00), ~15h interactive Google course featuring visual
+    gradient-descent labs, neural network modules, LLMs, AutoML, and Colab exercises.
+  year: '2026'
+  stars: 5
+  ai_summary: Free ($0 / €0.00), ~15h interactive Google course featuring visual gradient-descent
+    labs, neural network modules, LLMs, AutoML, and Colab exercises.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: 5ed0284526a5f93803185b1b072e3fbc209762a08f6ef9d9fde54a7fbc4a8526
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[DE FACTO STANDARD]'
+  - '[GUIDE]'
+  - '[LLM]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+  duration: '15:00'
+https://openai.com/academy:
+  title: OpenAI Academy Portal
+  description: Free ($0 / €0.00). Official OpenAI learning hub offering role-specific
+    tracks, applied prompting patterns, and Codex software engineering workflows.
+  year: '2026'
+  stars: 4
+  ai_summary: Free ($0 / €0.00). Official OpenAI learning hub offering role-specific
+    tracks, applied prompting patterns, and Codex software engineering workflows.
+  language: English
+  resource_type: Course
+  complexity: Beginner
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: b2b5199a58fed544b2dcaa3ad7bc6e741879f916103c70b02d097f2ee34b29d9
+  health_score: 100.0
+  last_checked: 1795635855
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T19:44:15Z'
+  last_ai_eval: '2026-11-25T19:44:15Z'
+  company: null
+  geo_region: null
+  hierarchy:
+  - Career & Industry
+  - Elearning
+  - Leading Open and Multi-Cloud AI Alternatives
+  tags:
+  - '[EMERGING]'
+  - '[ENTERPRISE-STABLE]'
+  - '[GUIDE]'
+  v1_locations:
+  - docs/elearning.md
+  v2_locations:
+  - elearning.md
+  youtube_mosaic: {}
+  source_provenance: Curated Manual Verification (2026-11-25)
+https://nubenetes.com/elearning:
+  title: AI Courses, NVIDIA DLI/Academy and Alternatives Hub
+  description: "\U0001F31F - Full verified 2026 course matrix with EUR/USD pricing,
+    retired course warnings, and comparisons against Hugging Face, Anthropic Academy,
+    Microsoft, Google, and DeepLearning.AI."
+  year: '2026'
+  stars: 3
+  ai_summary: Full verified 2026 course matrix with EUR/USD pricing, retired course
+    warnings, and comparisons against Hugging Face, Anthropic Academy, Microsoft,
+    Google, and DeepLearning.AI.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-25T20:44:28.724289+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - AI
+  - AI
+  - Introduction
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  v1_locations:
+  - docs/ai.md
+  - docs/mlops.md
+  v2_locations:
+  - ai.md
+  - mlops.md
+  youtube_mosaic: {}
