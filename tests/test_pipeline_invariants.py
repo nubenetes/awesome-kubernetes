@@ -259,7 +259,7 @@ class TestPipelineInvariants(unittest.TestCase):
 
             headings = re.findall(r"^#{1,6}\s+(.+)$", body, re.MULTILINE)
             heading_slugs = {slugify(h.strip(), "-") for h in headings}
-            internal_anchors = re.findall(r'(?:href="#|\(#)([^")]+)', body)
+            internal_anchors = re.findall(r'(?:\]\(#|href="#)([^")\s]+)', body)
             self.assertGreater(len(internal_anchors), 0, f"Expected internal TOC/card anchors in {fname}")
             for anchor in internal_anchors:
                 self.assertIn(
@@ -281,6 +281,44 @@ class TestPipelineInvariants(unittest.TestCase):
             2,
             "v2_elite.css must set --md-typeset-a-color for both light and slate dark mode",
         )
+
+    def test_eu_sovereign_blueprints_have_clickable_provider_links_and_valid_anchors(self):
+        from markdown.extensions.toc import slugify
+        from src.eu_sovereign_blueprints import EU_SOVEREIGN_BLUEPRINTS
+
+        min_links = {
+            "eu-sovereign-cloud.md": 40,
+        }
+        for fname, body in EU_SOVEREIGN_BLUEPRINTS.items():
+            ext_links = re.findall(r"\]\((https://[^)\s]+)\)", body)
+            expected_min = min_links.get(fname, 15)
+            self.assertGreaterEqual(
+                len(ext_links),
+                expected_min,
+                f"Expected >= {expected_min} clickable external provider/tool links in {fname}, got {len(ext_links)}",
+            )
+
+            headings = re.findall(r"^#{1,6}\s+(.+)$", body, re.MULTILINE)
+            heading_slugs = {slugify(h.strip(), "-") for h in headings}
+            internal_anchors = re.findall(r'(?:\]\(#|href="#)([^")\s]+)', body)
+            self.assertGreater(len(internal_anchors), 0, f"Expected internal TOC/card anchors in {fname}")
+            for anchor in internal_anchors:
+                self.assertIn(
+                    anchor,
+                    heading_slugs,
+                    f"Broken internal anchor #{anchor} in {fname}; known slugs={sorted(heading_slugs)}",
+                )
+
+            v2_path = os.path.join(REPO_ROOT, "v2-docs", fname)
+            with open(v2_path, "r", encoding="utf-8") as f:
+                v2_body = f.read()
+            for url in ext_links[:12]:
+                self.assertIn(url, v2_body, f"Rendered V2 page {fname} missing blueprint link {url}")
+
+        with open(os.path.join(REPO_ROOT, "v2-docs/eu-sovereign-cloud.md"), "r", encoding="utf-8") as f:
+            eu_main = f.read()
+        self.assertIn("EU and Associated European Jurisdictional Boundary", eu_main)
+        self.assertIn("Post-Brexit", eu_main)
 
     def test_announce_banner_preserves_permanent_flagships(self):
         with open(os.path.join(REPO_ROOT, "docs/overrides/main.html"), "r", encoding="utf-8") as f:

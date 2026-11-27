@@ -19,6 +19,12 @@ Technical reference comparing Infrastructure-as-Code (IaC) automation maturity, 
 - **(2026)** [Civo Official Terraform Provider](https://github.com/civo/terraform-provider-civo) 🌟 - Lightweight IaC provider for Civo K3s/Talos Managed Kubernetes clusters, firewalls, networks, and UK Sovereign workloads.
 - **(2026)** [Open Telekom Cloud Terraform Provider](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) 🌟 - Mature enterprise IaC provider covering Open Telekom Cloud VPCs, CCE Kubernetes, RDS, KMS, and German sovereign compliance policies.
 - **(2026)** [Nebius Official Terraform Provider](https://github.com/nebius/terraform-provider-nebius) 🌟 - Official OpenTofu/Terraform provider for Nebius AI GPU clusters, MK8s Kubernetes, Filesystem/S3 storage, and InfiniBand GPU fabrics.
+- **(2026)** [cloudscale.ch Official Terraform Provider](https://github.com/cloudscale-ch/terraform-provider-cloudscale) 🌟 - Official Swiss OpenStack/REST IaC provider automating Zurich and Lupfig servers, block volumes, private networks, load balancers, and S3 object users.
+- **(2026)** [Anexia Engine (ANXCloud) Official Terraform Provider](https://github.com/anexia-it/terraform-provider-anxcloud) 🌟 - Official Austrian/DACH IaC provider automating Anexia VMs, Managed Kubernetes clusters, VLANs, DNS, and Load Balancers.
+- **(2026)** [Leaseweb Official Terraform Provider](https://github.com/leaseweb/terraform-provider-leaseweb) 🌟 - Official Dutch bare-metal and public-cloud Terraform provider managing dedicated server provisioning, private networking, and IPs.
+- **(2026)** [Gcore Official Terraform Provider](https://github.com/G-Core/terraform-provider-gcore) 🌟 - Official Luxembourg-HQ cloud and Edge AI provider managing bare metal, VMs, Managed Kubernetes, CDN, and European GPU instances.
+- **(2026)** [Clever Cloud Official Terraform Provider](https://github.com/CleverCloud/terraform-provider-clevercloud) 🌟 - Official French PaaS Terraform provider managing zero-ops runtimes, PostgreSQL/Redis/Materia databases, and Keycloak add-ons.
+- **(2026)** [Brightbox Official Terraform Provider](https://github.com/brightbox/terraform-provider-brightbox) 🌟 - Official British IaaS provider automating UK cloud servers, cloud IPs, load balancers, firewall policies, and Orbit storage.
 
 ## Portable Hypervisor and Private Cloud IaC Providers
 

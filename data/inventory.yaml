@@ -761346,3 +761346,654 @@ https://nubenetes.com/elearning:
   - ai.md
   - mlops.md
   youtube_mosaic: {}
+https://www.dutchdatacenters.nl:
+  title: Dutch Data Center Association (DDA)
+  description: "\U0001F31F - Official industry association documenting Amsterdam's
+    power-grid policy, Climate Neutral Data Centre Pact adherence, and Dutch/European
+    digital infrastructure regulations."
+  ai_summary: Official industry association documenting Amsterdam's power-grid policy,
+    Climate Neutral Data Centre Pact adherence, and Dutch/European digital infrastructure
+    regulations.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Benelux Cloud Compliance and Digital Infrastructure
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.374935+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.bio-overheid.nl:
+  title: 'BIO: Baseline Informatiebeveiliging Overheid (Netherlands)'
+  description: "\U0001F31F - Mandatory Dutch public-sector information security baseline
+    governing cloud architecture and municipal/government data residency in the Netherlands."
+  ai_summary: Mandatory Dutch public-sector information security baseline governing
+    cloud architecture and municipal/government data residency in the Netherlands.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Benelux Cloud Compliance and Digital Infrastructure
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.375039+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.nen.nl/en/certificatie-en-keurmerken-nen-7510:
+  title: NEN 7510 Dutch Healthcare Information Security Standard
+  description: "\U0001F31F - Statutory Dutch healthcare security certification supported
+    by sovereign cloud operators such as Cyso Cloud and Leaseweb."
+  ai_summary: Statutory Dutch healthcare security certification supported by sovereign
+    cloud operators such as Cyso Cloud and Leaseweb.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Benelux Cloud Compliance and Digital Infrastructure
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.375075+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://www.cssf.lu/en:
+  title: CSSF Luxembourg Financial Sector Regulator (DORA)
+  description: "\U0001F31F - Luxembourg's financial supervisory authority overseeing
+    DORA operational resilience, cloud outsourcing, and Tier IV financial data-center
+    governance."
+  ai_summary: Luxembourg's financial supervisory authority overseeing DORA operational
+    resilience, cloud outsourcing, and Tier IV financial data-center governance.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Netherlands & Benelux Cloud & DCs
+  - Benelux Cloud Compliance and Digital Infrastructure
+  v1_locations:
+  - docs/eu-cloud-benelux.md
+  v2_locations:
+  - eu-cloud-benelux.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.375127+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.scaleway.com/en:
+  title: Scaleway Cloud Platform (Iliad Group)
+  description: "\U0001F31F - French developer-first sovereign cloud offering 3-AZ
+    Paris/Amsterdam/Warsaw regions, Kubernetes Kapsule and multi-cloud Kosmos, Managed
+    Databases, and one of Europe's largest public catalogs of NVIDIA H100/B200/L4
+    GPUs and Serverless AI Endpoints."
+  ai_summary: French developer-first sovereign cloud offering 3-AZ Paris/Amsterdam/Warsaw
+    regions, Kubernetes Kapsule and multi-cloud Kosmos, Managed Databases, and one
+    of Europe's largest public catalogs of NVIDIA H100/B200/L4 GPUs and Serverless
+    AI Endpoints.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - French Sovereign Cloud and SecNumCloud Providers
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.375367+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[SOVEREIGN-EU]'
+https://www.scaleway.com/en/blog:
+  title: Scaleway Engineering Blog
+  description: "\U0001F31F - Official engineering blog covering Scaleway's sovereign
+    cloud architecture, European AI Factories, Kubernetes Kapsule upgrades, and EU
+    Data Act compliance."
+  ai_summary: Official engineering blog covering Scaleway's sovereign cloud architecture,
+    European AI Factories, Kubernetes Kapsule upgrades, and EU Data Act compliance.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - French Sovereign Cloud and SecNumCloud Providers
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.375474+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://esante.gouv.fr/produits-services/cybersecurite/hds:
+  title: ANS HDS (Hebergement de Donnees de Sante) Certification
+  description: "\U0001F31F - Mandatory French Digital Health Agency accreditation
+    governing sovereign cloud hosting and security controls for personal healthcare
+    data in France."
+  ai_summary: Mandatory French Digital Health Agency accreditation governing sovereign
+    cloud hosting and security controls for personal healthcare data in France.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - France Sovereign Cloud & Private DCs
+  - French National Compliance and Trust Frameworks
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.375966+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://documentation.syseleven.de:
+  title: SysEleven MetaKube Managed Kubernetes Documentation
+  description: "\U0001F31F - Berlin-based OpenStack and CNCF Kubernetes documentation
+    hub covering Kubermatic/MetaKube managed clusters across multi-AZ German sovereign
+    data centers (part of the secunet Group)."
+  ai_summary: Berlin-based OpenStack and CNCF Kubernetes documentation hub covering
+    Kubermatic/MetaKube managed clusters across multi-AZ German sovereign data centers
+    (part of the secunet Group).
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Sovereign Cloud and Managed Kubernetes Providers
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  - docs/eu-cloud-workloads-stack.md
+  v2_locations:
+  - eu-cloud-germany.md
+  - eu-cloud-workloads-stack.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.376147+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+https://enx.com/en-US/TISAX:
+  title: ENX TISAX Automotive Information Security Standard
+  description: "\U0001F31F - Mandatory European automotive supply-chain cybersecurity
+    assessment framework supported by German sovereign cloud operators including Open
+    Telekom Cloud and noris network."
+  ai_summary: Mandatory European automotive supply-chain cybersecurity assessment
+    framework supported by German sovereign cloud operators including Open Telekom
+    Cloud and noris network.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Germany Sovereign Cloud & Private DCs
+  - German Compliance Standards and Sovereign Stack
+  v1_locations:
+  - docs/eu-cloud-germany.md
+  v2_locations:
+  - eu-cloud-germany.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.376676+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://github.com/cloudscale-ch/terraform-provider-cloudscale:
+  title: cloudscale.ch Official Terraform Provider
+  description: "\U0001F31F - Official Swiss OpenStack/REST IaC provider automating
+    Zurich and Lupfig servers, block volumes, private networks, load balancers, and
+    S3 object users."
+  ai_summary: Official Swiss OpenStack/REST IaC provider automating Zurich and Lupfig
+    servers, block volumes, private networks, load balancers, and S3 object users.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.377122+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
+https://github.com/anexia-it/terraform-provider-anxcloud:
+  title: Anexia Engine (ANXCloud) Official Terraform Provider
+  description: "\U0001F31F - Official Austrian/DACH IaC provider automating Anexia
+    VMs, Managed Kubernetes clusters, VLANs, DNS, and Load Balancers."
+  ai_summary: Official Austrian/DACH IaC provider automating Anexia VMs, Managed Kubernetes
+    clusters, VLANs, DNS, and Load Balancers.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.377168+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://github.com/leaseweb/terraform-provider-leaseweb:
+  title: Leaseweb Official Terraform Provider
+  description: "\U0001F31F - Official Dutch bare-metal and public-cloud Terraform
+    provider managing dedicated server provisioning, private networking, and IPs."
+  ai_summary: Official Dutch bare-metal and public-cloud Terraform provider managing
+    dedicated server provisioning, private networking, and IPs.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.377235+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://github.com/G-Core/terraform-provider-gcore:
+  title: Gcore Official Terraform Provider
+  description: "\U0001F31F - Official Luxembourg-HQ cloud and Edge AI provider managing
+    bare metal, VMs, Managed Kubernetes, CDN, and European GPU instances."
+  ai_summary: Official Luxembourg-HQ cloud and Edge AI provider managing bare metal,
+    VMs, Managed Kubernetes, CDN, and European GPU instances.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.377333+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+https://github.com/CleverCloud/terraform-provider-clevercloud:
+  title: Clever Cloud Official Terraform Provider
+  description: "\U0001F31F - Official French PaaS Terraform provider managing zero-ops
+    runtimes, PostgreSQL/Redis/Materia databases, and Keycloak add-ons."
+  ai_summary: Official French PaaS Terraform provider managing zero-ops runtimes,
+    PostgreSQL/Redis/Materia databases, and Keycloak add-ons.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.377372+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/brightbox/terraform-provider-brightbox:
+  title: Brightbox Official Terraform Provider
+  description: "\U0001F31F - Official British IaaS provider automating UK cloud servers,
+    cloud IPs, load balancers, firewall policies, and Orbit storage."
+  ai_summary: Official British IaaS provider automating UK cloud servers, cloud IPs,
+    load balancers, firewall policies, and Orbit storage.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - IaC Automation & Maturity vs Hyperscalers
+  - Official Terraform and OpenTofu Providers for European Clouds
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.377405+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://bahnhof.se:
+  title: Bahnhof Swedish Sovereign Cloud and Bunker Data Centers
+  description: "\U0001F31F - Iconic independent Swedish ISP and cloud operator running
+    ultra-resilient underground Stockholm facilities (including Pionen) with strict
+    Swedish privacy governance and renewable power."
+  ai_summary: Iconic independent Swedish ISP and cloud operator running ultra-resilient
+    underground Stockholm facilities (including Pionen) with strict Swedish privacy
+    governance and renewable power.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Nordic Sovereign Cloud and 3-AZ OpenStack Providers
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.378082+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://www.digg.se/en:
+  title: 'Digg: Swedish Agency for Digital Government'
+  description: "\U0001F31F - Official Swedish public-sector digital authority issuing
+    sovereign cloud procurement, security, and Schrems II compliance guidance across
+    Sweden."
+  ai_summary: Official Swedish public-sector digital authority issuing sovereign cloud
+    procurement, security, and Schrems II compliance guidance across Sweden.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Nordics Green Cloud & AI Factories
+  - Nordic Interconnection and Sovereign Governance
+  v1_locations:
+  - docs/eu-cloud-nordics.md
+  v2_locations:
+  - eu-cloud-nordics.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.378370+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://www.fedlex.admin.ch/eli/cc/2022/491/en:
+  title: Swiss Federal Act on Data Protection (Revised FADP / revDSG)
+  description: "\U0001F31F - Official Swiss Confederation data-protection statute
+    governing cross-border data transfers, privacy-by-default controls, and sovereign
+    Swiss data custody."
+  ai_summary: Official Swiss Confederation data-protection statute governing cross-border
+    data transfers, privacy-by-default controls, and sovereign Swiss data custody.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - Switzerland & Austria (Alpine Sovereign)
+  - Swiss FINMA FADP and Neutrality Compliance
+  v1_locations:
+  - docs/eu-cloud-switzerland-dach.md
+  v2_locations:
+  - eu-cloud-switzerland-dach.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.379195+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.ans.co.uk:
+  title: ANS Group UK Sovereign Cloud and Digital Transformation
+  description: "\U0001F31F - Manchester-headquartered British cloud and G-Cloud public-sector
+    specialist providing UK-sovereign private cloud, Kubernetes, and security-cleared
+    managed operations for NHS and local government."
+  ai_summary: Manchester-headquartered British cloud and G-Cloud public-sector specialist
+    providing UK-sovereign private cloud, Kubernetes, and security-cleared managed
+    operations for NHS and local government.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - United Kingdom Sovereign Cloud and Kubernetes Providers
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.379429+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://www.crownhostingdc.co.uk:
+  title: Crown Hosting Data Centres (UK Cabinet Office and Ark JV)
+  description: "\U0001F31F - Joint venture between the UK Cabinet Office and Ark Data
+    Centres providing high-efficiency, security-cleared sovereign colocation halls
+    for UK central government departments and public bodies."
+  ai_summary: Joint venture between the UK Cabinet Office and Ark Data Centres providing
+    high-efficiency, security-cleared sovereign colocation halls for UK central government
+    departments and public bodies.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - London Docklands Slough and Regional UK Colocation and AI Data Centers
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.379506+01:00'
+  tags:
+  - '[EMERGING]'
+https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources:
+  title: 'UK ICO: UK GDPR Official Guidance and Resources'
+  description: "\U0001F31F - Information Commissioner's Office reference governing
+    post-Brexit UK data protection, international data transfer agreements (IDTA),
+    and EU–UK adequacy compliance."
+  ai_summary: Information Commissioner's Office reference governing post-Brexit UK
+    data protection, international data transfer agreements (IDTA), and EU–UK adequacy
+    compliance.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - UK NCSC G-Cloud and Financial Operational Resilience
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.379625+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.fca.org.uk/firms/operational-resilience:
+  title: UK FCA Operational Resilience Framework
+  description: "\U0001F31F - Financial Conduct Authority rulebook mandating impact
+    tolerances, Critical Third Party risk governance, and tested multi-provider cloud
+    exit plans for UK financial institutions."
+  ai_summary: Financial Conduct Authority rulebook mandating impact tolerances, Critical
+    Third Party risk governance, and tested multi-provider cloud exit plans for UK
+    financial institutions.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - United Kingdom Sovereign Cloud & DCs
+  - UK NCSC G-Cloud and Financial Operational Resilience
+  v1_locations:
+  - docs/eu-cloud-uk.md
+  v2_locations:
+  - eu-cloud-uk.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.379657+01:00'
+  tags:
+  - '[EMERGING]'
+https://digital-strategy.ec.europa.eu/en/policies/nis2-directive:
+  title: EU NIS2 Directive Official Policy Portal
+  description: "\U0001F31F - Official European Commission cybersecurity framework
+    governing supply-chain security, 24-hour incident reporting, and encrypted backup
+    resilience across critical infrastructure and cloud MSPs."
+  ai_summary: Official European Commission cybersecurity framework governing supply-chain
+    security, 24-hour incident reporting, and encrypted backup resilience across critical
+    infrastructure and cloud MSPs.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.380325+01:00'
+  tags:
+  - '[EMERGING]'
+https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai:
+  title: EU Artificial Intelligence Act Regulatory Framework
+  description: "\U0001F31F - Binding European regulatory framework defining risk tiers,
+    model transparency, training-data governance, and sovereign auditability for foundation
+    models and enterprise AI workloads."
+  ai_summary: Binding European regulatory framework defining risk tiers, model transparency,
+    training-data governance, and sovereign auditability for foundation models and
+    enterprise AI workloads.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.380398+01:00'
+  tags:
+  - '[EMERGING]'
+https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en:
+  title: European Commission Data Protection Adequacy Decisions
+  description: "\U0001F31F - Authoritative registry governing personal data transfers
+    between the EU/EEA and non-EU third countries including Switzerland and the post-Brexit
+    United Kingdom."
+  ai_summary: Authoritative registry governing personal data transfers between the
+    EU/EEA and non-EU third countries including Switzerland and the post-Brexit United
+    Kingdom.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  addition_method: manual
+  discovered_at: '2026-11-28T00:44:39.380454+01:00'
+  tags:
+  - '[EMERGING]'

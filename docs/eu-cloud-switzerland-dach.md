@@ -27,3 +27,4 @@ Curated Alpine/DACH sovereign guide covering non-EU Swiss neutrality, revised **
 ## Swiss FINMA, FADP and Neutrality Compliance
 
 - **(2026)** [FINMA: Swiss Financial Market Supervisory Authority](https://www.finma.ch/en) 🌟 - Official Swiss financial regulator governing bank/insurer cloud outsourcing (Circular 2018/3 Operational Risks and Critical Data Residency audits) requiring clear Swiss legal auditability and tested exit plans.
+- **(2026)** [Swiss Federal Act on Data Protection (Revised FADP / revDSG)](https://www.fedlex.admin.ch/eli/cc/2022/491/en) 🌟 - Official Swiss Confederation data-protection statute governing cross-border data transfers, privacy-by-default controls, and sovereign Swiss data custody.

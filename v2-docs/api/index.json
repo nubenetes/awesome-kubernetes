@@ -10,11 +10,11 @@
     "v1_archive": "https://nubenetes.com/v1/"
   },
   "stats": {
-    "v1_total_inventory": 20942,
-    "v2_total_resources": 16839,
-    "v2_verified_online": 12766,
-    "v2_fresh_2025_2026": 3951,
-    "v2_deep_ai_summaries": 11626,
+    "v1_total_inventory": 20967,
+    "v2_total_resources": 16864,
+    "v2_verified_online": 12791,
+    "v2_fresh_2025_2026": 3976,
+    "v2_deep_ai_summaries": 11651,
     "v2_cncf_projects": 64,
     "v2_categories": 159
   },
@@ -5936,8 +5936,8 @@
       "url": "https://nubenetes.com/eu-cloud-benelux/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-benelux/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-benelux.md",
-      "resource_count": 13,
-      "fresh_2025_2026_count": 13,
+      "resource_count": 16,
+      "fresh_2025_2026_count": 16,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -5960,6 +5960,32 @@
             "[SOVEREIGN-EU]"
           ],
           "summary": "One of the world's largest non-profit neutral peering exchanges anchored in Amsterdam, providing ultra-low-latency European and transatlantic traffic distribution across sovereign clouds and carriers."
+        },
+        {
+          "title": "BIO: Baseline Informatiebeveiliging Overheid (Netherlands)",
+          "url": "https://www.bio-overheid.nl",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Mandatory Dutch public-sector information security baseline governing cloud architecture and municipal/government data residency in the Netherlands."
+        },
+        {
+          "title": "CSSF Luxembourg Financial Sector Regulator (DORA)",
+          "url": "https://www.cssf.lu/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Luxembourg's financial supervisory authority overseeing DORA operational resilience, cloud outsourcing, and Tier IV financial data-center governance."
         },
         {
           "title": "Cyso Cloud Sovereign Dutch OpenStack and Kubernetes",
@@ -5989,33 +6015,6 @@
             "[SOVEREIGN-EU]"
           ],
           "summary": "Carrier-neutral enterprise colocation cluster offering direct AMS-IX peering, renewable PPAs, and sovereign private-cloud cages inside Amsterdam's interconnection core."
-        },
-        {
-          "title": "Dutch Data Center Association (DDA)",
-          "url": "https://www.dutchdatacenters.nl/en",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]"
-          ],
-          "summary": "Official industry association documenting Amsterdam's power-grid policy, Climate Neutral Data Centre Pact adherence, and Dutch/European digital infrastructure regulations."
-        },
-        {
-          "title": "Equinix Amsterdam IBX Campuses (Science Park and Schiphol)",
-          "url": "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/amsterdam-data-centers",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "Tier III+ colocation hub directly adjacent to AMS-IX and NL-ix providing high-density interconnection for financial, cloud-native, and multi-region European architectures."
         }
       ]
     },
@@ -6027,8 +6026,8 @@
       "url": "https://nubenetes.com/eu-cloud-france/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-france/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-france.md",
-      "resource_count": 19,
-      "fresh_2025_2026_count": 19,
+      "resource_count": 21,
+      "fresh_2025_2026_count": 21,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -6052,6 +6051,20 @@
             "[SOVEREIGN-EU]"
           ],
           "summary": "First French IaaS provider with full-scope ANSSI SecNumCloud 3.2 qualification across three French regions, offering AWS-like Cockpit/API semantics for ultra-regulated defense, healthcare, and public-sector workloads."
+        },
+        {
+          "title": "ANS HDS (Hebergement de Donnees de Sante) Certification",
+          "url": "https://esante.gouv.fr/produits-services/cybersecurite/hds",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Mandatory French Digital Health Agency accreditation governing sovereign cloud hosting and security controls for personal healthcare data in France."
         },
         {
           "title": "ANSSI SecNumCloud Qualification Referential",
@@ -6094,20 +6107,6 @@
             "[SOVEREIGN-EU]"
           ],
           "summary": "French European-owned Platform-as-a-Service (Nantes) automating zero-ops application runtimes, managed PostgreSQL/Redis add-ons, SecNumCloud-aligned deployments, and multi-cloud/on-prem Materia clusters."
-        },
-        {
-          "title": "Cloud Temple Sovereign IaaS",
-          "url": "https://www.cloud-temple.com/en",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "French SecNumCloud-certified trusted IaaS specializing in critical enterprise workloads, sovereign OpenShift/Kubernetes hosting, and ultra-regulated healthcare/banking environments."
         }
       ]
     },
@@ -6119,8 +6118,8 @@
       "url": "https://nubenetes.com/eu-cloud-germany/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-germany/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-germany.md",
-      "resource_count": 20,
-      "fresh_2025_2026_count": 20,
+      "resource_count": 21,
+      "fresh_2025_2026_count": 21,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -6211,8 +6210,8 @@
       "url": "https://nubenetes.com/eu-cloud-iac-maturity/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-iac-maturity/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-iac-maturity.md",
-      "resource_count": 21,
-      "fresh_2025_2026_count": 21,
+      "resource_count": 27,
+      "fresh_2025_2026_count": 27,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -6237,6 +6236,34 @@
           "summary": "Official IaC provider for SecNumCloud-qualified 3DS OUTSCALE infrastructure covering OKS Kubernetes, Nets/VPCs, security groups, and volumes."
         },
         {
+          "title": "Anexia Engine (ANXCloud) Official Terraform Provider",
+          "url": "https://github.com/anexia-it/terraform-provider-anxcloud",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Official Austrian/DACH IaC provider automating Anexia VMs, Managed Kubernetes clusters, VLANs, DNS, and Load Balancers."
+        },
+        {
+          "title": "Brightbox Official Terraform Provider",
+          "url": "https://github.com/brightbox/terraform-provider-brightbox",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Official British IaaS provider automating UK cloud servers, cloud IPs, load balancers, firewall policies, and Orbit storage."
+        },
+        {
           "title": "Civo Official Terraform Provider",
           "url": "https://github.com/civo/terraform-provider-civo",
           "year": "2026",
@@ -6251,48 +6278,17 @@
           "summary": "Lightweight IaC provider for Civo K3s/Talos Managed Kubernetes clusters, firewalls, networks, and UK Sovereign workloads."
         },
         {
-          "title": "Cluster API Provider Hetzner (CAPH by Syself)",
-          "url": "https://github.com/syself/cluster-api-provider-hetzner",
+          "title": "Clever Cloud Official Terraform Provider",
+          "url": "https://github.com/CleverCloud/terraform-provider-clevercloud",
           "year": "2026",
           "stars": 3,
           "gh_stars": null,
           "gh_license": null,
           "cncf_status": null,
           "tags": [
-            "[EMERGING]",
-            "[SOVEREIGN-EU]"
+            "[EMERGING]"
           ],
-          "summary": "CNCF Cluster API provider managing full self-healing Kubernetes lifecycle across Hetzner Cloud VMs and Dedicated bare-metal Robot servers."
-        },
-        {
-          "title": "Cluster API Provider OpenStack (CAPO)",
-          "url": "https://github.com/kubernetes-sigs/cluster-api-provider-openstack",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[HYPERVISOR]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "Official Kubernetes SIGs CAPI provider delivering standardized multi-cluster lifecycle across European OpenStack sovereign clouds."
-        },
-        {
-          "title": "Cluster API Provider Proxmox (CAPMOX by IONOS)",
-          "url": "https://github.com/ionos-cloud/cluster-api-provider-proxmox",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[HYPERVISOR]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "Enterprise Cluster API provider built by IONOS Cloud for declarative multi-cluster Kubernetes orchestration directly on Proxmox VE clusters."
+          "summary": "Official French PaaS Terraform provider managing zero-ops runtimes, PostgreSQL/Redis/Materia databases, and Keycloak add-ons."
         }
       ]
     },
@@ -6391,8 +6387,8 @@
       "url": "https://nubenetes.com/eu-cloud-nordics/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-nordics/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-nordics.md",
-      "resource_count": 11,
-      "fresh_2025_2026_count": 11,
+      "resource_count": 13,
+      "fresh_2025_2026_count": 13,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -6401,6 +6397,20 @@
         "[LLM]"
       ],
       "top_resources": [
+        {
+          "title": "Bahnhof Swedish Sovereign Cloud and Bunker Data Centers",
+          "url": "https://bahnhof.se",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Iconic independent Swedish ISP and cloud operator running ultra-resilient underground Stockholm facilities (including Pionen) with strict Swedish privacy governance and renewable power."
+        },
         {
           "title": "Bulk Infrastructure Nordic Green Data Centers",
           "url": "https://bulkinfrastructure.com",
@@ -6430,6 +6440,20 @@
           "summary": "Swedish pioneer in open-source Sovereign Cloud Stack (OpenStack + Gardener Kubernetes) offering 3-AZ Swedish regions, Frankfurt/Karlskrona zones, DORA/NIS2 readiness, and strict European legal jurisdiction."
         },
         {
+          "title": "Digg: Swedish Agency for Digital Government",
+          "url": "https://www.digg.se/en",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Official Swedish public-sector digital authority issuing sovereign cloud procurement, security, and Schrems II compliance guidance across Sweden."
+        },
+        {
           "title": "Elastx: Swedish 3-AZ Sovereign OpenStack Cloud",
           "url": "https://elastx.se/en",
           "year": "2026",
@@ -6443,34 +6467,6 @@
             "[SOVEREIGN-EU]"
           ],
           "summary": "Swedish enterprise cloud running genuine 3-Availability-Zone OpenStack IaaS and Managed Kubernetes across three physically separated Stockholm data centers powered by 100% renewable hydro energy."
-        },
-        {
-          "title": "evroc: European Sovereign Hyperscale Cloud Initiative",
-          "url": "https://evroc.com",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "Stockholm-headquartered initiative engineering high-security, sustainable European hyperscale cloud and AI data center regions exclusively under EU jurisdiction."
-        },
-        {
-          "title": "GleSYS Green European Cloud Infrastructure",
-          "url": "https://glesys.com",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "Swedish independent sovereign cloud, bare metal, and colocation provider operating owned eco-friendly facilities in Falkenberg, Stockholm, and Oulu with full API/Terraform automation and zero US CLOUD Act ties."
         }
       ]
     },
@@ -6665,8 +6661,8 @@
       "url": "https://nubenetes.com/eu-cloud-switzerland-dach/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-switzerland-dach/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-switzerland-dach.md",
-      "resource_count": 12,
-      "fresh_2025_2026_count": 12,
+      "resource_count": 13,
+      "fresh_2025_2026_count": 13,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -6755,8 +6751,8 @@
       "url": "https://nubenetes.com/eu-cloud-uk/",
       "v1_url": "https://nubenetes.com/v1/eu-cloud-uk/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-uk.md",
-      "resource_count": 9,
-      "fresh_2025_2026_count": 9,
+      "resource_count": 13,
+      "fresh_2025_2026_count": 13,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -6764,6 +6760,20 @@
         "[GPU]"
       ],
       "top_resources": [
+        {
+          "title": "ANS Group UK Sovereign Cloud and Digital Transformation",
+          "url": "https://www.ans.co.uk",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[SOVEREIGN-EU]"
+          ],
+          "summary": "Manchester-headquartered British cloud and G-Cloud public-sector specialist providing UK-sovereign private cloud, Kubernetes, and security-cleared managed operations for NHS and local government."
+        },
         {
           "title": "Brightbox UK Enterprise Cloud",
           "url": "https://www.brightbox.com",
@@ -6794,6 +6804,19 @@
           "summary": "Fast-provisioning UK-headquartered Kubernetes and RelaxAI cloud offering dedicated UK Sovereign environments, predictable transparent pricing with generous included egress, and NVIDIA GPU workloads."
         },
         {
+          "title": "Crown Hosting Data Centres (UK Cabinet Office and Ark JV)",
+          "url": "https://www.crownhostingdc.co.uk",
+          "year": "2026",
+          "stars": 3,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]"
+          ],
+          "summary": "Joint venture between the UK Cabinet Office and Ark Data Centres providing high-efficiency, security-cleared sovereign colocation halls for UK central government departments and public bodies."
+        },
+        {
           "title": "Equinix UK Data Centers (London Docklands, Slough and Manchester)",
           "url": "https://www.equinix.com/data-centers/europe-colocation/united-kingdom-colocation/london-data-centers",
           "year": "2026",
@@ -6805,33 +6828,6 @@
             "[EMERGING]"
           ],
           "summary": "Neutral British colocation network spanning the Slough Trading Estate low-latency cluster, London Docklands, and Manchester regional resilience nodes."
-        },
-        {
-          "title": "LINX: London Internet Exchange",
-          "url": "https://www.linx.net",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[SOVEREIGN-EU]"
-          ],
-          "summary": "One of the world's premier member-owned Internet exchanges with dual independent London peering LANs plus Manchester and Scotland IXPs powering UK sovereign cloud traffic."
-        },
-        {
-          "title": "Pulsant UK Edge and Private Cloud",
-          "url": "https://www.pulsant.com",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]"
-          ],
-          "summary": "Regional UK data center network (12+ facilities across England and Scotland) combining sovereign private cloud, disaster recovery, and low-latency national interconnection."
         }
       ]
     },
@@ -6940,8 +6936,8 @@
       "url": "https://nubenetes.com/eu-sovereign-cloud/",
       "v1_url": "https://nubenetes.com/v1/eu-sovereign-cloud/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-sovereign-cloud.md",
-      "resource_count": 12,
-      "fresh_2025_2026_count": 12,
+      "resource_count": 15,
+      "fresh_2025_2026_count": 15,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -7005,8 +7001,8 @@
           "summary": "Trade association of European cloud infrastructure providers driving fair software licensing principles, GDPR Data Protection Code of Conduct compliance, and anti-lock-in cloud portability standards."
         },
         {
-          "title": "European Alternatives",
-          "url": "https://european-alternatives.eu",
+          "title": "EU Artificial Intelligence Act Regulatory Framework",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
           "year": "2026",
           "stars": 3,
           "gh_stars": null,
@@ -7015,7 +7011,7 @@
           "tags": [
             "[EMERGING]"
           ],
-          "summary": "Curated directory cataloging EU-owned, GDPR-compliant alternatives to non-European cloud hosting, SaaS, object storage, and managed Kubernetes platforms."
+          "summary": "Binding European regulatory framework defining risk tiers, model transparency, training-data governance, and sovereign auditability for foundation models and enterprise AI workloads."
         }
       ]
     },

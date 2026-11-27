@@ -26,4 +26,7 @@ Curated regional guide for **Netherlands, Belgium, and Luxembourg** Sovereign Cl
 
 ## Benelux Cloud Compliance and Digital Infrastructure
 
-- **(2026)** [Dutch Data Center Association (DDA)](https://www.dutchdatacenters.nl/en) 🌟 - Official industry association documenting Amsterdam's power-grid policy, Climate Neutral Data Centre Pact adherence, and Dutch/European digital infrastructure regulations.
+- **(2026)** [Dutch Data Center Association (DDA)](https://www.dutchdatacenters.nl) 🌟 - Official industry association documenting Amsterdam's power-grid policy, Climate Neutral Data Centre Pact adherence, and Dutch/European digital infrastructure regulations.
+- **(2026)** [BIO: Baseline Informatiebeveiliging Overheid (Netherlands)](https://www.bio-overheid.nl) 🌟 - Mandatory Dutch public-sector information security baseline governing cloud architecture and municipal/government data residency in the Netherlands.
+- **(2026)** [NEN 7510 Dutch Healthcare Information Security Standard](https://www.nen.nl/en/certificatie-en-keurmerken-nen-7510) 🌟 - Statutory Dutch healthcare security certification supported by sovereign cloud operators such as Cyso Cloud and Leaseweb.
+- **(2026)** [CSSF Luxembourg Financial Sector Regulator (DORA)](https://www.cssf.lu/en) 🌟 - Luxembourg's financial supervisory authority overseeing DORA operational resilience, cloud outsourcing, and Tier IV financial data-center governance.

@@ -13,6 +13,7 @@ Curated regional guide for **Sweden, Finland, Norway, and Iceland** Sovereign Cl
 - **(2026)** [Cleura: Compliant European OpenStack Cloud](https://cleura.com) 🌟 - Swedish pioneer in open-source Sovereign Cloud Stack (OpenStack + Gardener Kubernetes) offering 3-AZ Swedish regions, Frankfurt/Karlskrona zones, DORA/NIS2 readiness, and strict European legal jurisdiction.
 - **(2026)** [GleSYS Green European Cloud Infrastructure](https://glesys.com) 🌟 - Swedish independent sovereign cloud, bare metal, and colocation provider operating owned eco-friendly facilities in Falkenberg, Stockholm, and Oulu with full API/Terraform automation and zero US CLOUD Act ties.
 - **(2026)** [Safespring Swedish and Norwegian Public-Sector Cloud](https://www.safespring.com) 🌟 - Nordic OpenStack cloud built specifically for European academia, municipalities, and public sector (**eSam / Schrems II** compliant), featuring fast automated S3/Compute APIs on 100% renewable energy.
+- **(2026)** [Bahnhof Swedish Sovereign Cloud and Bunker Data Centers](https://bahnhof.se) 🌟 - Iconic independent Swedish ISP and cloud operator running ultra-resilient underground Stockholm facilities (including Pionen) with strict Swedish privacy governance and renewable power.
 - **(2026)** [evroc: European Sovereign Hyperscale Cloud Initiative](https://evroc.com) 🌟 - Stockholm-headquartered initiative engineering high-security, sustainable European hyperscale cloud and AI data center regions exclusively under EU jurisdiction.
 
 ## Hydro and Geothermal AI Data Centers and EuroHPC Supercomputing
@@ -26,3 +27,4 @@ Curated regional guide for **Sweden, Finland, Norway, and Iceland** Sovereign Cl
 ## Nordic Interconnection and Sovereign Governance
 
 - **(2026)** [Netnod Neutral Nordic Internet Exchange](https://www.netnod.se) 🌟 - Non-profit Swedish foundation operating critical Nordic IXP peering across Stockholm, Copenhagen, Gothenburg, Lulea, and Helsinki plus root DNS infrastructure.
+- **(2026)** [Digg: Swedish Agency for Digital Government](https://www.digg.se/en) 🌟 - Official Swedish public-sector digital authority issuing sovereign cloud procurement, security, and Schrems II compliance guidance across Sweden.
