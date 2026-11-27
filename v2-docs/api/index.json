@@ -10,11 +10,11 @@
     "v1_archive": "https://nubenetes.com/v1/"
   },
   "stats": {
-    "v1_total_inventory": 20902,
-    "v2_total_resources": 16799,
-    "v2_verified_online": 12726,
-    "v2_fresh_2025_2026": 3911,
-    "v2_deep_ai_summaries": 11586,
+    "v1_total_inventory": 20942,
+    "v2_total_resources": 16839,
+    "v2_verified_online": 12766,
+    "v2_fresh_2025_2026": 3951,
+    "v2_deep_ai_summaries": 11626,
     "v2_cncf_projects": 64,
     "v2_categories": 159
   },
@@ -42,8 +42,8 @@
       "url": "https://nubenetes.com/ai-agents-mcp/",
       "v1_url": "https://nubenetes.com/v1/ai-agents-mcp/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ai-agents-mcp.md",
-      "resource_count": 481,
-      "fresh_2025_2026_count": 479,
+      "resource_count": 488,
+      "fresh_2025_2026_count": 486,
       "freshness": "active",
       "top_tags": [
         "[MCP]",
@@ -140,8 +140,8 @@
       "url": "https://nubenetes.com/ai-rag-okf/",
       "v1_url": "https://nubenetes.com/v1/ai-rag-okf/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ai-rag-okf.md",
-      "resource_count": 26,
-      "fresh_2025_2026_count": 26,
+      "resource_count": 30,
+      "fresh_2025_2026_count": 30,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
@@ -150,10 +150,75 @@
         "[LLM]",
         "[GRAPHRAG]",
         "[OKF]",
-        "[DRP-RESILIENCE]",
-        "[MCP]"
+        "[GPU]",
+        "[GUIDE]"
       ],
       "top_resources": [
+        {
+          "title": "Introduction to Deploying RAG Pipelines for Production at Scale (NVIDIA DLI S-FX-19)",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-19+V1",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[GPU]",
+            "[GUIDE]"
+          ],
+          "summary": "$90 (~€82.80), 4h intermediate lab covering infrastructure sizing, Helm-based deployment of NVIDIA NIM microservices on Kubernetes, scaling bottlenecks, and enterprise RAG pipeline customization."
+        },
+        {
+          "title": "Building and Evaluating Retrieval for Agentic Applications with NVIDIA Nemotron (DLI S-FX-45)",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-45+V1",
+          "year": "2026",
+          "stars": 4,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[ENTERPRISE-STABLE]",
+            "[GPU]",
+            "[GUIDE]"
+          ],
+          "summary": "$30 (~€27.60), 4h workshop on layout-preserving document parsing, evidence-preserving chunking, and closed-loop retrieval evaluation with NVIDIA Nemotron models."
+        },
+        {
+          "title": "Building RAG Agents with LLMs (NVIDIA DLI S-FX-15)",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1",
+          "year": "2026",
+          "stars": 4,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[ENTERPRISE-STABLE]",
+            "[GPU]",
+            "[GUIDE]",
+            "[LLM]"
+          ],
+          "summary": "$90 (~€82.80 — paid, not free), 8h intermediate lab with Competency Certificate teaching FastAPI, LangServe, LangChain, Gradio, FAISS vector stores, NVIDIA NIM microservices, and LLM-as-a-Judge."
+        },
+        {
+          "title": "Evaluating RAG and Semantic Search Systems (NVIDIA DLI S-FX-32)",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-32+V1",
+          "year": "2026",
+          "stars": 4,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[EMERGING]",
+            "[ENTERPRISE-STABLE]",
+            "[GPU]",
+            "[GUIDE]",
+            "[LLM]"
+          ],
+          "summary": "$30 (~€27.60), 3h focused lab on building domain-aware RAG benchmarks, synthetic test datasets, retrieval precision/recall checks, and LLM-as-a-Judge evaluation pipelines."
+        },
         {
           "title": "GitHub: infiniflow/ragflow",
           "url": "https://github.com/infiniflow/ragflow",
@@ -168,64 +233,6 @@
             "[RAG]"
           ],
           "summary": "Leading open-source enterprise RAG engine built on deep document understanding (complex layout analysis, tables, charts, OCR), grounded citations, and agentic retrieval workflows."
-        },
-        {
-          "title": "GitHub: mem0ai/mem0",
-          "url": "https://github.com/mem0ai/mem0",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": 69337,
-          "gh_license": "Apache-2.0",
-          "cncf_status": null,
-          "tags": [
-            "[DE FACTO STANDARD]",
-            "[EMERGING]"
-          ],
-          "summary": "Universal memory layer for AI applications and autonomous agents that automatically extracts, consolidates, and retrieves cross-session user, session, and organizational facts via hybrid vector-graph storage."
-        },
-        {
-          "title": "GitHub: run-llama/llama_index",
-          "url": "https://github.com/run-llama/llama_index",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": 52981,
-          "gh_license": "MIT",
-          "cncf_status": null,
-          "tags": [
-            "[DE FACTO STANDARD]",
-            "[EMERGING]",
-            "[RAG]"
-          ],
-          "summary": "Flagship open-source data and orchestration framework for Agentic RAG, hybrid retrieval, structured extraction, and multi-step knowledge workflows over enterprise data sources."
-        },
-        {
-          "title": "GitHub: milvus-io/milvus",
-          "url": "https://github.com/milvus-io/milvus",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": 46717,
-          "gh_license": "Apache-2.0",
-          "cncf_status": "graduated",
-          "tags": [
-            "[DE FACTO STANDARD]",
-            "[EMERGING]"
-          ],
-          "summary": "Distributed, cloud-native vector database architected for billion-scale similarity search with disaggregated compute/storage and official Kubernetes Operator deployment."
-        },
-        {
-          "title": "GitHub: HKUDS/LightRAG",
-          "url": "https://github.com/HKUDS/LightRAG",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": 40812,
-          "gh_license": "MIT",
-          "cncf_status": null,
-          "tags": [
-            "[DE FACTO STANDARD]",
-            "[EMERGING]",
-            "[GRAPHRAG]"
-          ],
-          "summary": "Fast, token-efficient dual-level graph-enhanced RAG framework combining low-level entity retrieval with high-level thematic synthesis at a fraction of traditional GraphRAG indexing and query cost."
         }
       ]
     },
@@ -237,18 +244,18 @@
       "url": "https://nubenetes.com/ai/",
       "v1_url": "https://nubenetes.com/v1/ai/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ai.md",
-      "resource_count": 84,
-      "fresh_2025_2026_count": 42,
+      "resource_count": 92,
+      "fresh_2025_2026_count": 50,
       "freshness": "active",
       "top_tags": [
         "[COMMUNITY-TOOL]",
         "[LLM]",
         "[DE FACTO STANDARD]",
+        "[GUIDE]",
         "[ENTERPRISE-STABLE]",
         "[EMERGING]",
-        "[GUIDE]",
-        "[DRP-RESILIENCE]",
-        "[GPU]"
+        "[GPU]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
         {
@@ -534,8 +541,8 @@
       "url": "https://nubenetes.com/mlops/",
       "v1_url": "https://nubenetes.com/v1/mlops/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/mlops.md",
-      "resource_count": 125,
-      "fresh_2025_2026_count": 53,
+      "resource_count": 134,
+      "fresh_2025_2026_count": 62,
       "freshness": "active",
       "top_tags": [
         "[ENTERPRISE-STABLE]",
@@ -543,8 +550,8 @@
         "[COMMUNITY-TOOL]",
         "[GPU]",
         "[EMERGING]",
-        "[LLM]",
         "[DE FACTO STANDARD]",
+        "[LLM]",
         "[GUIDE]"
       ],
       "top_resources": [
@@ -561,6 +568,22 @@
             "[LEGACY]"
           ],
           "summary": "Surya provides multi-lingual document OCR and accurate layout analysis powered by deep learning. It delivers high-fidelity reading and structuring of dense scientific papers, tables, and financial layouts, serving as..."
+        },
+        {
+          "title": "AI Infrastructure and Operations Fundamentals (NVIDIA Academy)",
+          "url": "https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139841",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[GPU]",
+            "[GUIDE]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "$50 (~€46.00) standalone (or $150 / ~€138.00 bundled with NCA-AIIO Associate Exam), 7h 25m flagship curriculum succeeding Intro to AI in the Data Center across GPU server hardware, InfiniBand/Ethernet fabrics, and..."
         },
         {
           "title": "Amazon SageMaker AI (HyperPod and Managed MLOps)",
@@ -600,8 +623,8 @@
           "summary": "Curator Insight: Unified Data Intelligence platform for building, evaluating, and governing enterprise AI agents, RAG vector indexes, and fine-tuned models directly alongside Lakehouse data. Live Grounding: Combines..."
         },
         {
-          "title": "kubeflow",
-          "url": "https://www.kubeflow.org",
+          "title": "DeepLearning.AI Courses Portal",
+          "url": "https://www.deeplearning.ai/courses",
           "year": "2026",
           "stars": 5,
           "gh_stars": null,
@@ -609,27 +632,9 @@
           "cncf_status": null,
           "tags": [
             "[DE FACTO STANDARD]",
-            "[MLOPS]"
+            "[GUIDE]"
           ],
-          "summary": "Kubeflow is the leading cloud-native open-source MLOps suite designed to construct, deploy, and run modular machine learning workflows on Kubernetes clusters. Provides a comprehensive platform for managing Jupyter..."
-        },
-        {
-          "title": "Microsoft Azure AI Foundry Portal",
-          "url": "https://ai.azure.com",
-          "year": "2026",
-          "stars": 5,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[AI]",
-            "[CLOUD-AI]",
-            "[DE FACTO STANDARD]",
-            "[ENTERPRISE-STABLE]",
-            "[LLM]",
-            "[MCP]"
-          ],
-          "summary": "Curator Insight: Microsoft's unified enterprise AI application and agent factory portal (Microsoft Foundry). Live Grounding: Combines the Foundry Model Catalog (serverless MaaS and Managed Compute), Azure AI Foundry..."
+          "summary": "Free video audit ($0 / €0.00); Pro membership $30/mo (~€27.60/mo) or $25/mo billed $300/yr (~€276.00/yr) for graded Jupyter labs and certificates across 100+ short AI engineering courses."
         }
       ]
     },
@@ -7116,18 +7121,18 @@
       "url": "https://nubenetes.com/neoclouds-architecture-stack/",
       "v1_url": "https://nubenetes.com/v1/neoclouds-architecture-stack/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-architecture-stack.md",
-      "resource_count": 16,
-      "fresh_2025_2026_count": 16,
+      "resource_count": 20,
+      "fresh_2025_2026_count": 20,
       "freshness": "active",
       "top_tags": [
         "[EMERGING]",
         "[GPU]",
         "[NEOCLOUD]",
         "[DE FACTO STANDARD]",
+        "[ENTERPRISE-STABLE]",
+        "[GUIDE]",
         "[LLM]",
-        "[CLOUD-AI]",
-        "[COMMUNITY-TOOL]",
-        "[MLOPS]"
+        "[CLOUD-AI]"
       ],
       "top_resources": [
         {
@@ -7143,6 +7148,22 @@
             "[LLM]"
           ],
           "summary": "Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with..."
+        },
+        {
+          "title": "AI Factory Reference Architectures (NVIDIA Academy)",
+          "url": "https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16237010",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[GPU]",
+            "[GUIDE]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Free ($0 / €0.00), 22-minute NVIDIA Academy mini-course detailing Enterprise AI Factory Reference Architectures across rack-scale GB300 NVL72 clusters and modular RTX PRO AI Factory deployments."
         },
         {
           "title": "llm-d (Kubernetes-Native Distributed LLM Inference)",
@@ -7178,35 +7199,20 @@
           "summary": "Kueue manages resource quotas across tenant namespaces, supporting complex machine learning and AI orchestration flows. It acts as a cloud-native batch scheduling engine, optimizing utilization within strict resource..."
         },
         {
-          "title": "AMD Instinct MI300X HBM3 Accelerators",
-          "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+          "title": "ClusterMinder Fundamentals (NVIDIA Academy)",
+          "url": "https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16449049",
           "year": "2026",
-          "stars": 3,
+          "stars": 4,
           "gh_stars": null,
           "gh_license": null,
           "cncf_status": null,
           "tags": [
             "[EMERGING]",
+            "[ENTERPRISE-STABLE]",
             "[GPU]",
-            "[NEOCLOUD]"
+            "[GUIDE]"
           ],
-          "summary": "192 GB HBM3 per-GPU accelerator powering TensorWave and Oracle/Crusoe clusters to host whole 70B–405B models with minimal tensor-parallelism splitting overhead."
-        },
-        {
-          "title": "AMD ROCm Open Software Stack Documentation",
-          "url": "https://rocm.docs.amd.com",
-          "year": "2026",
-          "stars": 3,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[GPU]",
-            "[LLM]",
-            "[NEOCLOUD]"
-          ],
-          "summary": "Official open-source GPU compute documentation covering HIP, RCCL collective communications, PyTorch integration, and vLLM acceleration on AMD Neocloud hardware."
+          "summary": "Free ($0 / €0.00), 3h 03m infrastructure operations course teaching NVIDIA ClusterMinder deployment, Redfish hardware fault detection, cluster health visibility, and automated alerting."
         }
       ]
     },
@@ -13603,20 +13609,83 @@
       "url": "https://nubenetes.com/elearning/",
       "v1_url": "https://nubenetes.com/v1/elearning/",
       "provenance": "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/elearning.md",
-      "resource_count": 32,
-      "fresh_2025_2026_count": 19,
+      "resource_count": 71,
+      "fresh_2025_2026_count": 58,
       "freshness": "active",
       "top_tags": [
-        "[COMMUNITY-TOOL]",
-        "[EMERGING]",
-        "[ENTERPRISE-STABLE]",
         "[GUIDE]",
+        "[EMERGING]",
+        "[GPU]",
+        "[ENTERPRISE-STABLE]",
         "[DE FACTO STANDARD]",
-        "[DRP-RESILIENCE]",
-        "[LEGACY]",
-        "[CASE STUDY]"
+        "[COMMUNITY-TOOL]",
+        "[LLM]",
+        "[DRP-RESILIENCE]"
       ],
       "top_resources": [
+        {
+          "title": "AI Factory Reference Architectures (NVIDIA Academy)",
+          "url": "https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16237010",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[GPU]",
+            "[GUIDE]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "Free ($0 / €0.00), 22-minute NVIDIA Academy mini-course detailing Enterprise AI Factory Reference Architectures across rack-scale GB300 NVL72 clusters and modular RTX PRO AI Factory deployments."
+        },
+        {
+          "title": "AI for All: From Basics to GenAI Practice (NVIDIA Academy)",
+          "url": "https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139849",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[GPU]",
+            "[GUIDE]",
+            "[LLM]"
+          ],
+          "summary": "Free ($0 / €0.00), 3h 19m active NVIDIA Academy course with completion certificate covering AI fundamentals, neural networks, GenAI/LLMs, Agentic AI, Physical AI, and AI factory stacks."
+        },
+        {
+          "title": "AI Infrastructure and Operations Fundamentals (NVIDIA Academy)",
+          "url": "https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139841",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[GPU]",
+            "[GUIDE]",
+            "[NEOCLOUD]"
+          ],
+          "summary": "$50 (~€46.00) standalone (or $150 / ~€138.00 bundled with NCA-AIIO Associate Exam), 7h 25m flagship curriculum succeeding Intro to AI in the Data Center across GPU server hardware, InfiniBand/Ethernet fabrics, and..."
+        },
+        {
+          "title": "Claude Academy (Anthropic)",
+          "url": "https://academy.claude.com",
+          "year": "2026",
+          "stars": 5,
+          "gh_stars": null,
+          "gh_license": null,
+          "cncf_status": null,
+          "tags": [
+            "[DE FACTO STANDARD]",
+            "[GUIDE]",
+            "[MCP]"
+          ],
+          "summary": "Free ($0 / €0.00) with free Skilljar certificates. Official Anthropic developer education portal hosting tracks on Claude Code, Model Context Protocol (MCP), and agentic tool use."
+        },
         {
           "title": "codely.tv",
           "url": "https://codely.com/en",
@@ -13629,60 +13698,6 @@
             "[DE FACTO STANDARD]"
           ],
           "summary": "Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production..."
-        },
-        {
-          "title": "The Linux Foundation Training",
-          "url": "https://training.linuxfoundation.org/resources",
-          "year": "2026",
-          "stars": 5,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[DE FACTO STANDARD]"
-          ],
-          "summary": "The definitive training and certification source for open-source engineering. Directs the primary curricula for the CKA, CKAD, and CKS benchmarks, offering authoritative lessons on container network interfaces,..."
-        },
-        {
-          "title": "techiescamp/devops-projects:Real-World DevOps Projects For Learning",
-          "url": "https://github.com/techiescamp/devops-projects",
-          "year": "2026",
-          "stars": 5,
-          "gh_stars": 2395,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[DE FACTO STANDARD]"
-          ],
-          "summary": "A stellar, end-to-end GitHub archive that compiles structural templates, infrastructure blueprints, and multi-tier CI/CD pipelines. Features real-world deployment playbooks using Terraform, Ansible, and Kubernetes..."
-        },
-        {
-          "title": "codewars.com",
-          "url": "https://www.codewars.com",
-          "year": "2026",
-          "stars": 4,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[ENTERPRISE-STABLE]"
-          ],
-          "summary": "A gamified competitive development portal focused on logical refactoring, testing algorithms, and language mastery. Highly effective for honing programming cleanliness before managing massive microservices codebases."
-        },
-        {
-          "title": "Coursera.org",
-          "url": "https://www.coursera.org",
-          "year": "2026",
-          "stars": 4,
-          "gh_stars": null,
-          "gh_license": null,
-          "cncf_status": null,
-          "tags": [
-            "[EMERGING]",
-            "[ENTERPRISE-STABLE]"
-          ],
-          "summary": "A massive educational platform delivering structured cloud-native specializations designed by industry leaders. Focuses on distributed application architectures, microservices testing, and container deployment flows."
         }
       ]
     },

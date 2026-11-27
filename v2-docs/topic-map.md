@@ -15,12 +15,12 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">AI</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-6" href="/ai-agents-mcp/" title="AI Agents & MCP — 481 resources"><span class="topic-heatcell__name">AI Agents & MCP</span><span class="topic-heatcell__n">481</span></a>
-<a class="topic-heatcell th-5" href="/mlops/" title="MLOps — 125 resources"><span class="topic-heatcell__name">MLOps</span><span class="topic-heatcell__n">125</span></a>
-<a class="topic-heatcell th-4" href="/ai/" title="AI — 84 resources"><span class="topic-heatcell__name">AI</span><span class="topic-heatcell__n">84</span></a>
+<a class="topic-heatcell th-6" href="/ai-agents-mcp/" title="AI Agents & MCP — 488 resources"><span class="topic-heatcell__name">AI Agents & MCP</span><span class="topic-heatcell__n">488</span></a>
+<a class="topic-heatcell th-5" href="/mlops/" title="MLOps — 134 resources"><span class="topic-heatcell__name">MLOps</span><span class="topic-heatcell__n">134</span></a>
+<a class="topic-heatcell th-4" href="/ai/" title="AI — 92 resources"><span class="topic-heatcell__name">AI</span><span class="topic-heatcell__n">92</span></a>
 <a class="topic-heatcell th-4" href="/chatgpt/" title="ChatGPT — 34 resources"><span class="topic-heatcell__name">ChatGPT</span><span class="topic-heatcell__n">34</span></a>
 <a class="topic-heatcell th-4" href="/enterprise-ai-platforms/" title="Enterprise AI Platforms — 31 resources"><span class="topic-heatcell__name">Enterprise AI Platforms</span><span class="topic-heatcell__n">31</span></a>
-<a class="topic-heatcell th-4" href="/ai-rag-okf/" title="AI RAG & OKF — 26 resources"><span class="topic-heatcell__name">AI RAG & OKF</span><span class="topic-heatcell__n">26</span></a>
+<a class="topic-heatcell th-4" href="/ai-rag-okf/" title="AI RAG & OKF — 30 resources"><span class="topic-heatcell__name">AI RAG & OKF</span><span class="topic-heatcell__n">30</span></a>
 </div>
 </div>
 <div class="topic-heatmap__row">
@@ -145,8 +145,8 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__dim">Neoclouds & GPU AI Clouds</div>
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-4" href="/neoclouds-europe/" title="European Neoclouds & Country AI Factories — 28 resources"><span class="topic-heatcell__name">European Neoclouds & Country AI Factories</span><span class="topic-heatcell__n">28</span></a>
+<a class="topic-heatcell th-3" href="/neoclouds-architecture-stack/" title="GPU Fabrics, InfiniBand, Slurm vs K8s & Storage — 20 resources"><span class="topic-heatcell__name">GPU Fabrics, InfiniBand, Slurm vs K8s & Storage</span><span class="topic-heatcell__n">20</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds-apac/" title="Asia-Pacific Neoclouds & AI Clouds — 17 resources"><span class="topic-heatcell__name">Asia-Pacific Neoclouds & AI Clouds</span><span class="topic-heatcell__n">17</span></a>
-<a class="topic-heatcell th-3" href="/neoclouds-architecture-stack/" title="GPU Fabrics, InfiniBand, Slurm vs K8s & Storage — 16 resources"><span class="topic-heatcell__name">GPU Fabrics, InfiniBand, Slurm vs K8s & Storage</span><span class="topic-heatcell__n">16</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds-iac-finops-sla/" title="Neocloud IaC Maturity, GPU FinOps & SLAs — 16 resources"><span class="topic-heatcell__name">Neocloud IaC Maturity, GPU FinOps & SLAs</span><span class="topic-heatcell__n">16</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds-north-america/" title="North America Neoclouds (US & Canada) — 14 resources"><span class="topic-heatcell__name">North America Neoclouds (US & Canada)</span><span class="topic-heatcell__n">14</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds/" title="Neoclouds Overview, Sovereign Overlap & TCO — 13 resources"><span class="topic-heatcell__name">Neoclouds Overview, Sovereign Overlap & TCO</span><span class="topic-heatcell__n">13</span></a>
@@ -247,11 +247,11 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">Career & Industry</div>
 <div class="topic-heatmap__cells">
+<a class="topic-heatcell th-4" href="/elearning/" title="E-Learning — 71 resources"><span class="topic-heatcell__name">E-Learning</span><span class="topic-heatcell__n">71</span></a>
 <a class="topic-heatcell th-4" href="/recruitment/" title="Recruitment — 65 resources"><span class="topic-heatcell__name">Recruitment</span><span class="topic-heatcell__n">65</span></a>
 <a class="topic-heatcell th-4" href="/finops/" title="FinOps — 63 resources"><span class="topic-heatcell__name">FinOps</span><span class="topic-heatcell__n">63</span></a>
 <a class="topic-heatcell th-4" href="/interview-questions/" title="Interview Questions — 53 resources"><span class="topic-heatcell__name">Interview Questions</span><span class="topic-heatcell__n">53</span></a>
 <a class="topic-heatcell th-4" href="/freelancing/" title="Freelancing — 38 resources"><span class="topic-heatcell__name">Freelancing</span><span class="topic-heatcell__n">38</span></a>
-<a class="topic-heatcell th-4" href="/elearning/" title="E-Learning — 32 resources"><span class="topic-heatcell__name">E-Learning</span><span class="topic-heatcell__n">32</span></a>
 <a class="topic-heatcell th-4" href="/newsfeeds/" title="Newsfeeds — 31 resources"><span class="topic-heatcell__name">Newsfeeds</span><span class="topic-heatcell__n">31</span></a>
 <a class="topic-heatcell th-3" href="/workfromhome/" title="Work From Home — 22 resources"><span class="topic-heatcell__name">Work From Home</span><span class="topic-heatcell__n">22</span></a>
 <a class="topic-heatcell th-3" href="/appointment-scheduling/" title="Appointment Scheduling — 11 resources"><span class="topic-heatcell__name">Appointment Scheduling</span><span class="topic-heatcell__n">11</span></a>
@@ -269,12 +269,12 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 
 ## AI
 
-- **[AI Agents & MCP](./ai-agents-mcp.md)** <span class="topic-count">481</span>
-- **[AI RAG & OKF](./ai-rag-okf.md)** <span class="topic-count">26</span>
-- **[AI](./ai.md)** <span class="topic-count">84</span>
+- **[AI Agents & MCP](./ai-agents-mcp.md)** <span class="topic-count">488</span>
+- **[AI RAG & OKF](./ai-rag-okf.md)** <span class="topic-count">30</span>
+- **[AI](./ai.md)** <span class="topic-count">92</span>
 - **[ChatGPT](./chatgpt.md)** <span class="topic-count">34</span>
 - **[Enterprise AI Platforms](./enterprise-ai-platforms.md)** <span class="topic-count">31</span>
-- **[MLOps](./mlops.md)** <span class="topic-count">125</span>
+- **[MLOps](./mlops.md)** <span class="topic-count">134</span>
 
 </section>
 
@@ -411,7 +411,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 ## Neoclouds & GPU AI Clouds
 
 - **[Asia-Pacific Neoclouds & AI Clouds](./neoclouds-apac.md)** <span class="topic-count">17</span>
-- **[GPU Fabrics, InfiniBand, Slurm vs K8s & Storage](./neoclouds-architecture-stack.md)** <span class="topic-count">16</span>
+- **[GPU Fabrics, InfiniBand, Slurm vs K8s & Storage](./neoclouds-architecture-stack.md)** <span class="topic-count">20</span>
 - **[European Neoclouds & Country AI Factories](./neoclouds-europe.md)** <span class="topic-count">28</span>
 - **[Neocloud IaC Maturity, GPU FinOps & SLAs](./neoclouds-iac-finops-sla.md)** <span class="topic-count">16</span>
 - **[Latin America & Africa AI Cloud Hubs](./neoclouds-latam-africa.md)** <span class="topic-count">11</span>
@@ -526,7 +526,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 ## Career & Industry
 
 - **[Appointment Scheduling](./appointment-scheduling.md)** <span class="topic-count">11</span>
-- **[E-Learning](./elearning.md)** <span class="topic-count">32</span>
+- **[E-Learning](./elearning.md)** <span class="topic-count">71</span>
 - **[FinOps](./finops.md)** <span class="topic-count">63</span>
 - **[Freelancing](./freelancing.md)** <span class="topic-count">38</span>
 - **[HR](./hr.md)** <span class="topic-count">3</span>

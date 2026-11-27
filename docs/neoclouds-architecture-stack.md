@@ -16,6 +16,11 @@ Curated systems-engineering guide to Neocloud hardware and software internals: *
 
 ## Slurm vs Kubernetes GPU Schedulers and Distributed Inference
 
+- **(2026)** [==NVIDIA Academy: AI Factory Reference Architectures (`course:16237010`)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16237010) 🌟 - **Free (`$0` / `€0.00`)**, `22m`. Reference architecture mini-course detailing **GB300 NVL72** rack-scale high-density clusters and **RTX PRO AI Factory** modular deployments.
+- **(2026)** [NVIDIA Academy: ClusterMinder Fundamentals (`course:16449049`)](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16449049) - **Free (`$0` / `€0.00`)**, `3h 03m`. Redfish-backed hardware fault detection, cluster health monitoring, performance trending, and alerting for AI factories.
+- **(2026)** [NVIDIA Academy: Getting Started with NVIDIA DSX Air (`course:16115386`)](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16115386) - **Free (`$0` / `€0.00`)**, `1h 27m`. Digital-twin SaaS simulation training to test multi-node GPU, BlueField DPU, and switch fabrics before hardware provisioning.
+- **(2026)** [NVIDIA Academy: Getting Started with NVIDIA DOCA (`course:18501412`)](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:18501412) - **Free (`$0` / `€0.00`)**, `50m`. Foundational BlueField DPU and ConnectX SuperNIC hardware-offload curriculum covering Ethernet L2 forwarding and OVS-DOCA verification.
+
 - **(2026)** [CoreWeave SUNK: Slurm on Kubernetes Anywhere](https://github.com/coreweave/sunk-anywhere) 🌟 - Production pattern co-running Slurm HPC job scheduling and Kubernetes control planes natively inside one cluster so research and serving share the same GPU pool dynamically.
 - **(2026)** [Slurm Workload Manager Documentation](https://slurm.schedmd.com) 🌟 - De facto bare-metal HPC batch scheduler still preferred by frontier training teams needing rigid topology-aware InfiniBand gang scheduling and zero-overhead PMIx launches.
 - **(2026)** [NVIDIA GPU Operator for Kubernetes](https://github.com/NVIDIA/gpu-operator) 🌟 - Automated Kubernetes lifecycle management for NVIDIA drivers, container toolkits, MIG partitioning, DCGM monitoring, GPUDirect RDMA, and Dynamic Resource Allocation (DRA).

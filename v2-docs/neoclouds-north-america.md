@@ -88,5 +88,5 @@ North America concentrates the largest commercial multi-thousand-GPU **NVIDIA Bl
 ---
 💡 **Explore Related:** [Neoclouds Overview, Sovereign Overlap & TCO](./neoclouds.md) | [European Neoclouds & Country AI Factories](./neoclouds-europe.md) | [Asia-Pacific Neoclouds & AI Clouds](./neoclouds-apac.md)
 
-🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [MLOps](./mlops.md)
+🔗 **See Also:** [AI Agents & MCP](./ai-agents-mcp.md) | [E-Learning](./elearning.md)
 

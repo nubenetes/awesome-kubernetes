@@ -214,6 +214,13 @@
 
 ## Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes
 
+- **(2026)** [==NVIDIA Academy: AI Enterprise Deployment on BareMetal Kubernetes (`course:15140020`)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15140020) 🌟 - **`$100` (~`€92.00`)**, `3h 02m`. Scenario-based hands-on course deploying bare-metal Kubernetes, configuring NVIDIA AI Enterprise and GPU Operator runtimes, and validating a production RAG stack.
+- **(2026)** [==NVIDIA Academy: Run:ai Platform Deployment (`course:15853437`)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15853437) 🌟 - **`$50` (~`€46.00`)**, `3h 08m`, Completion Certificate. End-to-end interactive Kubernetes GPU scheduling and Run:ai platform installation, configuration, and verification lab.
+- **(2026)** [==NVIDIA Academy: AI Infrastructure and Operations Fundamentals (`course:15139841`)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139841) 🌟 - **`$50` (~`€46.00`)**, `7h 25m`. Modern enterprise curriculum replacing retired *Intro to AI in the Data Center*.
+  - **(2026)** [AI Infrastructure and Operations Fundamentals Course and NCA-AIIO Exam Bundle (`course:16071291`)](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:16071291) - **`$150` (~`€138.00`)** bundle with NCA-AIIO Associate Exam voucher.
+- **(2026)** [NVIDIA DLI: Find the Bottleneck: Optimize AI Pipelines With Nsight Systems (`S-AC-14`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-14+V1) - **`$30` (~`€27.60`)**, `3h`, Technical - Advanced. GPU/CPU execution profiling with NVIDIA Nsight Systems to diagnose pipeline, kernel, and data-loading bottlenecks.
+- **(2026)** [NVIDIA DLI: Fundamentals of Accelerated Computing with CUDA Python (`S-AC-10`)](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-10+V1) 🌟 - **`$90` (~`€82.80`)**, `8h`, Assessment Certificate. Numba JIT CUDA kernel programming and GPU memory optimization for Python compute workloads.
+
 - [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://www.canva.dev/blog/engineering/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix) you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
     - [Nix](https://nix.dev/manual/nix/2.28)
     - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
@@ -264,6 +271,10 @@
 - [github.com/10tanmay100: MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS](https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS) We are on a mission to transform medical data into actionable insights using the power of machine learning. Whether you are a data scientist, healthcare professional, or an enthusiast in the field, your contributions and ideas are invaluable to us. Join us in making a difference!
 
 ## ML Courses
+
+- **(2026)** [==AI Courses, NVIDIA DLI/Academy and Alternatives Hub==](elearning.md#ai-courses) 🌟 - Complete Nubenetes guide comparing current 2026 NVIDIA DLI/Academy/NVDLI courses (with EUR/USD pricing and retired-course audit) against Hugging Face, Anthropic Academy, Microsoft, DeepLearning.AI, Google, and fast.ai.
+- **(2026)** [Practical Deep Learning for Coders (fast.ai)](https://course.fast.ai) 🌟 - **Free (`$0` / `€0.00`)**. Industry-renowned code-first PyTorch deep learning curriculum covering vision, tabular, NLP, and stable diffusion from scratch.
+- **(2026)** [DeepLearning.AI Courses Portal](https://www.deeplearning.ai/courses) 🌟 - **Free video audit (`$0` / `€0.00`)**; Pro membership **`$30/mo` (~`€27.60/mo`)** or **`$25/mo` billed `$300/yr` (~`€276.00/yr`)** for interactive graded labs and certificates.
 
 - [==dair-ai/ML-Course-Notes: ML Course Notes== 🌟](https://github.com/dair-ai/ML-Course-Notes) 🎓 Sharing course notes on all topics related to machine learning, NLP, and AI.
 

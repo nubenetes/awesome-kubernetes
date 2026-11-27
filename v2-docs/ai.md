@@ -3,12 +3,12 @@ type: curation-hub
 okf_version: "0.3"
 name: "Artificial Intelligence"
 dimension: "AI"
-resource_count: 84
-fresh_2025_2026_count: 42
+resource_count: 92
+fresh_2025_2026_count: 50
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/ai.md"
-description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
+description: "Top AI resources for 2026, AI-ranked: Claude Academy (Anthropic), Claude Code Templates and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 
@@ -19,7 +19,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Aweso
     Detailed reference for Artificial Intelligence in the context of AI.
 
 !!! abstract "Deep-Dive Topic Pages"
-    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [AI Agents & MCP](ai-agents-mcp.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [MLOps & GPU Scheduling](mlops.md) · [LLMs & Assistants](chatgpt.md) · [K8s Operators](kubernetes-operators-controllers.md)
+    [Enterprise AI Platforms](enterprise-ai-platforms.md) · [AI Agents & MCP](ai-agents-mcp.md) · [RAG, OKF & Knowledge](ai-rag-okf.md) · [MLOps & GPU Scheduling](mlops.md) · [AI Courses & E-Learning](elearning.md) · [LLMs & Assistants](chatgpt.md) · [K8s Operators](kubernetes-operators-controllers.md)
 
 ## AI
 
@@ -167,6 +167,23 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Aweso
 #### Model Context Protocol (1)
 
   - **(2025)** [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Official Microsoft announcement outlining the preview release of the Azure DevOps MCP Server. Details how developer agents leverage safe API contexts to build and deploy complex assets.
+## Career and Industry
+
+### Elearning
+
+#### Leading Open And Multi-cloud AI Alternatives
+
+  - **(2026)** [==Claude Academy (Anthropic)==](https://academy.claude.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Free ($0 / €0.00) with free Skilljar certificates. Official Anthropic developer education portal hosting tracks on Claude Code, Model Context Protocol (MCP), and agentic tool use.
+  - **(2026)** [==Hugging Face LLM Course==](https://huggingface.co/learn/llm-course/chapter1/1) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Free ($0 / €0.00). Comprehensive open-source LLM engineering course covering Hugging Face Transformers, tokenizers, datasets, PEFT/LoRA fine-tuning, and Hub evaluation.
+#### NVIDIA Free And Open-source AI Courses
+
+  - **(2026)** [==AI for All: From Basics to GenAI Practice (NVIDIA Academy)==](https://www.nvidia.com/en-us/training/academy/course-detail/?id=course:15139849) <span class='md-tag md-tag--info'>⏱️ 03:19</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Free ($0 / €0.00), 3h 19m active NVIDIA Academy course with completion certificate covering AI fundamentals, neural networks, GenAI/LLMs, Agentic AI, Physical AI, and AI factory stacks.
+  - **(2026)** [==NVDLI: Fundamentals of Deep Learning (Open-Source)==](https://github.com/NVDLI/fundamentals-of-deep-learning) <span class='md-tag md-tag--info'>⭐ 289</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2c1790f8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 4 L 30 5 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-2c1790f8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Free ($0 / €0.00), Apache-2.0 / CC BY 4.0 open-source NVIDIA DLI Jupyter lab repository with NVIDIA Brev launchables covering CNNs, data augmentation, transfer learning, and Transformers.
+  - **(2026)** [**Agentic AI Explained (NVIDIA DLI S-FX-39)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-39+V1) <span class='md-tag md-tag--info'>⏱️ 01:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Free ($0 / €0.00), 1h self-paced NVIDIA DLI conceptual successor to the retired Generative AI Explained module, covering autonomous perception, reasoning, planning, and action loops.
+  - **(2026)** [**NVDLI: Building LLM Applications With Prompt Engineering (Open-Source)**](https://github.com/NVDLI/llm-applications-with-prompt-engineering) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bc9bcfd6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 7 L 30 11 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-bc9bcfd6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Free ($0 / €0.00) open-source NVIDIA DLI workshop teaching LangChain structured-output pipelines, custom tool calling, agent scaffolding, and OpenAI-compatible NVIDIA API workflows.
+#### NVIDIA Infrastructure Kubernetes And Paid Courses
+
+  - **(2026)** [**The Art of Compressing LLMs: Pruning, Distillation, and Quantization Demystified (DLI S-FX-24)**](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-24+V1) <span class='md-tag md-tag--info'>⏱️ 08:00</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — $90 (~€82.80), 8h deep technical lab on structured pruning, knowledge distillation, quantization, and accuracy-latency benchmarking to cut GPU inference footprint and TCO.
 ## Cloud Infrastructure
 
 ### CICD and DevOps
@@ -335,6 +352,7 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Aweso
   - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--primary'>[DRP-RESILIENCE]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Explores LLM prompting strategies designed to automatically generate high-quality integration testing assertions for Terraform infrastructure codebases. Outlines systematic framework specifications to minimize manual testing overhead.
 ## Introduction
 
+  - **(2026)** [AI Courses, NVIDIA DLI/Academy and Alternatives Hub](https://nubenetes.com/elearning/#ai-courses) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — Full verified 2026 course matrix with EUR/USD pricing, retired course warnings, and comparisons against Hugging Face, Anthropic Academy, Microsoft, Google, and DeepLearning.AI.
   - [guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟](https://www.guru99.com/ai-tutorial.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics' of AI 🌟🌟🌟 covering Introduction in AI (guru99.com).
 ## Kubernetes
 
@@ -409,5 +427,5 @@ description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Aweso
 ---
 💡 **Explore Related:** [Enterprise AI Platforms](./enterprise-ai-platforms.md) | [AI Agents & MCP](./ai-agents-mcp.md) | [AI RAG & OKF](./ai-rag-okf.md)
 
-🔗 **See Also:** [Azure](./azure.md) | [Kubernetes](./kubernetes.md)
+🔗 **See Also:** [Azure](./azure.md) | [E-Learning](./elearning.md)
 
