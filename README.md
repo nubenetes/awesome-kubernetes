@@ -63,7 +63,7 @@
     *   [9.3. Workflow Trigger and Synchronization Logic](#93-workflow-trigger-and-synchronization-logic)
     *   [9.4. Curation Flow Architecture](#94-curation-flow-architecture)
     *   [9.5. Deployment Lifecycle](#95-deployment-lifecycle)
-    *   [9.6. Automated Mandate Auditing](#96-automated-mandate-auditing)
+    *   [9.6. Automated Mandate Auditing and Safe PR Auto-Merge](#96-automated-mandate-auditing-and-safe-pr-auto-merge)
     *   [9.7. Multi-Part Reporting Engine](#97-multi-part-reporting-engine)
     *   [9.8. Workflow UI Auto-Sync](#98-workflow-ui-auto-sync)
     *   [9.9. Resilience and Massive Recovery (The 6-Hour Rule)](#99-resilience-and-massive-recovery-the-6-hour-rule)
@@ -133,8 +133,12 @@ awesome-kubernetes/
 │   ├── 📄 03.1.agentic_v2_metadata.yml  # Bi-weekly GitHub metrics & social proof synchronization
 │   ├── 📄 03.2.agentic_v2_ai.yml        # On-demand Gemini deep architectural analysis
 │   ├── 📄 04.1.agentic_v2_publish.yml   # Automatic V2 portal building & deployment pipeline
-│   └── 📄 06.deploy_final.yml           # GitHub Pages dual-portal deployment (V1 Root / V2 Subdirectory)
+│   ├── 📄 06.deploy_final.yml           # GitHub Pages dual-portal deployment (V1 Root / V2 Subdirectory)
+│   ├── 📄 07.1.pr_guardian.yml          # Stage 2 Safe PR Gatekeeper & Zero-Token Auto-Merger
+│   └── 📄 07.2.markdown_linter.yml      # Stage 1 Fork-Safe Read-Only PR Markdown Sandbox
 │
+├── 📄 AGENTS.md                         # 🤖 Universal cross-agent governance & PR Gatekeeper handbook
+├── 📄 GEMINI.md                         # 🧠 61 Curation mandates (runtime-ingested via mandate_ingestor.py)
 ├── 📄 README.md                         # 📖 Master architecture blueprint, metrics, and technical governance
 ├── 📄 mkdocs.yml                        # MkDocs configuration for V1 Exhaustive Portal
 └── 📄 v2-mkdocs.yml                     # MkDocs Material configuration for V2 Elite Portal
@@ -881,6 +885,7 @@ Cost per automated workflow run on the `master` trunk branch.
 | **Weekly Discovery** | 1/week | 100-200 | Pro Elite | **€0.41** |
 | **Monthly Health Pass** | 2/month | 17,110 | Local Cache | **€0.00** |
 | **V2 Elite Sync** | On demand | 0-100 | Flash (Upgraded) | **€0.02** |
+| **Safe PR Gatekeeper** | Per PR event | 1-10 | GitHub Models / Flash-Lite | **€0.00** |
 
 #### 3. Monthly Operational Footprint (OPEX)
 Projected monthly budget for 24/7 autonomous maintenance.
@@ -996,7 +1001,7 @@ The following matrix defines our strategic model tiering across all workflows:
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Analyst (Fast)** | V2 Elite Builder | **Gemini Flash/Lite** | Tier 1 | High RPM/TPM for mass processing (10k+ links). | **Ultra High** |
 | **Link-Rescue** | Health Cleaner | **Gemini Flash/Lite** | Tier 1 | Fast URL recovery using Search Grounding. | **High** |
-| **PR Guardian** | PR Presubmit | **Gemini Flash/Lite** | Tier 1 | Rapid syntax and mandate format linting. | **Medium** |
+| **PR Guardian** | Safe PR Gatekeeper | **GitHub Models / Flash-Lite** | Tier 0/1 | €0.00 4-gate structural, HTTP, and category placement verification. | **High** |
 | **Curator (X/RSS)** | Agentic Curator | **Gemini Pro** | Tier 2 | Deep reasoning for human/social context. | **Low (Burst)** |
 | **Auditor** | V2 Elite Builder | **Gemini Pro** | Tier 2 | High-fidelity verification of [ELITE] resources. | **Medium** |
 | **Fast-Pass Evaluator** | Curation / V2 Builder | **Gemini Flash/Lite** | Tier 1 | Rapid single-call screening for obvious consensus/non-consensus. | **High** |
@@ -1047,7 +1052,7 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `mast
         *   **Cache Safety**: Utilizes `actions/cache` with an `always()` save condition, ensuring that even if a run is cancelled or hits the 6-hour timeout, the next run resumes exactly where the previous one left off.
     - **Fast-Track Sequential Model**: Optimized for stability and speed, bypassing the complexity of distributed systems and leveraging the pre-computed metadata from the inventory.
     - **Pip Caching**: All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
-    - **AI PR Guardian**: Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.
+    - **Safe PR Gatekeeper (`src/pr_guardian.py`)**: Enforces a 2-stage fork-safe verification funnel that auto-approves and merges valid V1 link additions (`€0.00` token cascade) while holding structural changes open for maintainer review.
 
 ### 8.3. Multi-Agent Consensus and Debate Protocol
 
@@ -1116,8 +1121,8 @@ Maintainers can manually trigger and tune workflows via the GitHub Actions UI. T
 | | | [**04.2. Emergency V2 PR Generator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_pr_only.yml) | `restore_cache` | ==FALSE== | Restores inventory from GHA cache. |
 | **05** | **Metrics** | [**05.1. README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) | N/A | ==AUTO== | Updates metrics and TOC upon `master` trunk push. |
 | **06** | **Deployment** | [**06.1. Final Portal Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/06.deploy_final.yml) | N/A | ==MASTER== | Native GH Pages deployment from stable artifacts. |
-| **07** | **Quality Gate**| [**07.1. PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml) | N/A | ==AUTO== | Agentic pre-submit validation for PR compliance. |
-| | | [**07.2. Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml) | N/A | ==AUTO== | Validates HMTL/Markdown syntax (ignores MD051/MD013). |
+| **07** | **Quality Gate**| [**07.1. PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/07.1.pr_guardian.yml) | `pr_number`, `dry_run` | ==AUTO== | Stage 2 trusted 4-gate PR verifier and safe auto-merger. |
+| | | [**07.2. Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/07.2.markdown_linter.yml) | N/A | ==AUTO== | Stage 1 read-only fork-safe Markdown syntax sandbox. |
 | **08** | **Maintenance**| [**08.1. Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) | N/A | ==CRON== | Deletes remote branches merged into `master`. |
 | | | [**08.2. Critical Asset Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml) | N/A | ==CRON== | Tracks integrity of special assets and banners. |
 
@@ -1260,15 +1265,52 @@ graph LR
 
 </details>
 
-### 9.6. Automated Mandate Auditing
-Every Pull Request targeting the `master` trunk branch is subjected to a **blocking pre-submit Gate** and a **self-healing auto-formatting pipeline** to enforce project mandates:
-- **Blocking PR Guardian AI Gate**: The [PR Guardian AI](.github/workflows/07.1.pr_guardian.yml) check runs on `pull_request` events, evaluating the git diff against [`GEMINI.md`](GEMINI.md) mandates using Gemini Flash. If the PR violates critical constraints (e.g., non-permissive license transitions, missing high-density descriptions, or invalid URL structure), it posts a detailed audit report as an issue comment, exits with status `1`, and blocks the PR from merging.
-- **Self-Healing Auto-Corrective Commits**: The [PR Guardian](src/pr_guardian.py) automatically applies auto-formatting directly to modified markdown files on the PR branch, addressing minor styling and normalization issues:
-    *   *URL Normalization*: Strips social tracking parameters (e.g., `utm_source`) and enforces a zero-trailing-slash policy on new links via [normalize_url](src/gemini_utils.py#L241).
-    *   *Heading Cleanups*: Replaces ampersands (`&` -> `and`) and strips emojis (e.g. `🧠`, `🌟`) in H2-H6 headers to ensure rendering standards.
-    *   *HTML Center Attributes*: Automatically adds the mandatory `markdown="1"` attribute to `<center markdown="1">` HTML tags to allow MkDocs parsing.
-    *   *Auto-Push*: If auto-fixes are applied, the bot commits and pushes the formatting changes back to the head branch ref dynamically.
-- **README Integrity Gate**: A dedicated "Hard Safety Gate" ([`src/safety_readme.py`](src/safety_readme.py)) executes to verify that all 15 mandatory sections are preserved and correctly numbered.
+### 9.6. Automated Mandate Auditing and Safe PR Auto-Merge
+
+Every Pull Request targeting `master` passes through a **2-Stage Fork-Safe Gatekeeper Architecture** ([`07.2.markdown_linter.yml`](.github/workflows/07.2.markdown_linter.yml) -> [`07.1.pr_guardian.yml`](.github/workflows/07.1.pr_guardian.yml)) powered by [`src/pr_guardian.py`](src/pr_guardian.py). The pipeline eliminates untrusted fork execution ("Pwn Request" immunity), keeps AI token cost at **€0.00**, protects V1/V2 site structure from unauthorized edits, and automatically approves, merges, and publishes valid community link additions.
+
+<details><summary>🗺️ <b>View Safe PR Gatekeeper Architecture Diagram</b></summary>
+
+```mermaid
+graph TD
+    PR["PR Opened or Updated"] --> S1["07.2 Stage 1 Sandbox<br/>Read-Only · 0 Secrets"]
+    S1 -->|"MarkdownLint Pass"| S2["07.1 Stage 2 Gatekeeper<br/>Checks Out Master Only"]
+    S2 --> T0{"Actor Tier Check"}
+    T0 -->|"Maintainer (inafev)<br/>or Safe Bot"| MGUARD["README + Clean URL<br/>Guardrails (€0.00)"]
+    MGUARD -->|"Pass"| MERGE["Approve + Merge<br/>into master"]
+    T0 -->|"External Contributor"| G1["Gate 1: V1 Structure<br/>and Path Lock (€0.00)"]
+    G1 -->|"Touches v2-docs, src,<br/>headings, TOC, deletes"| HOLD["Leave PR Open + Explain<br/>Label: needs-maintainer"]
+    G1 -->|"Pure docs/*.md bullets"| G2["Gate 2: Live HTTP 200<br/>+ GitHub MVQ (€0.00)"]
+    G2 -->|"404, Parked, Redirect,<br/>Stale >4y, BSL License"| HOLD
+    G2 -->|"Verified Ground Truth"| G3["Gate 3: Category Fit<br/>350-Token Audit (€0.00)"]
+    G3 -->|"Mismatch or < 0.85"| HOLD
+    G3 -->|"Fit >= 0.85"| MERGE
+    MERGE -->|"workflow_run signal"| V2PUB["04.1 V2 Publisher<br/>Render-Only (0 Tokens)"]
+    V2PUB --> DEPLOY["06.1 Final Deploy<br/>nubenetes.com"]
+```
+
+</details>
+
+#### 1. Two-Stage Fork Isolation ("Pwn Request" Immunity)
+- **Stage 1 — Read-Only Sandbox ([`07.2.markdown_linter.yml`](.github/workflows/07.2.markdown_linter.yml))**: Triggers on `pull_request` (`opened`, `synchronize`, `reopened`, `ready_for_review`) with `permissions: contents: read` and **zero repository secrets**. It validates Markdown formatting with `markdownlint-cli2` without importing or executing any Python code from the PR branch.
+- **Stage 2 — Privileged Gatekeeper ([`07.1.pr_guardian.yml`](.github/workflows/07.1.pr_guardian.yml))**: Triggers via `workflow_run` once Stage 1 completes (or manually via `workflow_dispatch` with a PR number or `all_open`). It checks out **exclusively `ref: master`** and inspects the contributor's file list, unified diff patches, and file blobs purely as untrusted data over the GitHub REST API.
+
+#### 2. Author Authority Matrix
+| Actor Tier | Identity Rule | Permitted Scope | Verification & Cost |
+| :--- | :--- | :--- | :--- |
+| **Tier A: Maintainer** | `author == inafev` | Full repository (`docs/`, `v2-docs/`, `src/`, `data/`, `.github/`, `mkdocs.yml`, `README.md`) | Stage 1 lint + 15-section [`safety_readme.py`](src/safety_readme.py) + Clean URL config guard (**€0.00 / 0 AI tokens**) |
+| **Tier B: Trusted Bots** | Same-repo `dependabot[bot]` or `bot/*` curation branches | Minor/patch dependency manifests & curation PRs passing [`SafetyGuard`](src/safety_guard.py) | Major SemVer jumps or workflow/code edits held open (**€0.00 / 0 AI tokens**) |
+| **Tier C: External Authors** | All other GitHub users & forks | Pure bullet-link additions inside existing `docs/<category>.md` files (max 5 files, 10 links) | 4-Gate Zero-to-Micro Token Funnel (**€0.00 Free Tier** -> `< €0.01` fallback) |
+
+#### 3. The 4-Gate Funnel for External Contributors
+1. **Gate 1 — Deterministic Structural & Syntax Lock (€0.00 / 0 tokens)**: Blocks auto-approval on any PR touching `v2-docs/**` (since V2 is rendered automatically post-merge), `mkdocs.yml`, `v2-mkdocs.yml`, `src/**`, `data/**`, `.github/**`, `README.md`, `docs/index.md`, or `docs/about.md`, creating/renaming/deleting files, modifying `#`–`######` headings or TOC entries, deleting/editing existing curated lines or `🌟` stars, injecting raw HTML, using URL shorteners (`bit.ly`, `t.co`), including tracking parameters (`utm_*`, `fbclid`), or duplicating an existing URL. Non-compliant PRs are **left open** with label `needs-maintainer-review` and a polite explanation comment for `@inafev`.
+2. **Gate 2 — Live URL & Repository MVQ Grounding (€0.00 / 0 tokens)**: Probes every added URL across 3 browser User-Agent profiles to verify HTTP `200 OK`, reject parked domains, login walls, and generic-homepage redirects ([`is_invalid_or_generic_redirect`](src/gemini_utils.py)), scrape ground-truth `<title>` and `<meta description>`, and verify `github.com` repositories via `GH_TOKEN` (`archived == false`, commit activity `<= 4` years per Mandate 3, permissive FOSS license per Mandate 37).
+3. **Gate 3 — Prompt-Injection-Hardened Category Fit (€0.00 Free Tier)**: Compares the submitted entry against Gate 2's live-scraped metadata, the target `docs/<category>.md` heading hierarchy (`## / ###`), and up to 3 existing sibling links in that exact subsection (~350 tokens total). Execution cascades automatically:
+    *   *Tier 0 (€0.00)*: Native **GitHub Models** (`permissions: models: read` via `GITHUB_TOKEN`).
+    *   *Tier 1a (€0.00)*: Dedicated Google AI Studio Free-Tier key (`GEMINI_FREE_PR_KEY`, optional).
+    *   *Tier 1b (~€0.00004/PR)*: Existing `GEMINI_API_KEY_1` using Tier-1 Gemini Flash-Lite / Hydrogen.
+    *   *Fail-Closed Safety*: Requires `confidence >= 0.85`; any category mismatch or API outage leaves the PR open with a suggested target file.
+4. **Gate 4 — Auto-Approve, Merge & Zero-Token V2 Sync**: Posts a verification audit table, submits `APPROVE` (requires **Settings -> Actions -> General -> Allow GitHub Actions to create and approve pull requests**), merges into `master`, and emits `post-merge-signal` so [`04.1. V2 Publisher`](.github/workflows/04.1.agentic_v2_publish.yml) (`--render-only`, 0 AI tokens) and [`06.deploy_final.yml`](.github/workflows/06.deploy_final.yml) chain via `workflow_run` even when merged with the default `GITHUB_TOKEN`.
 
 
 ### 9.7. Multi-Part Reporting Engine
@@ -1310,7 +1352,7 @@ Nubenetes thrives on a **Hybrid Human-AI Collaboration** model. Community contri
 3.  **Manual Link Format**: Use the standard format: `  - [Title](URL) - Your descriptive summary.`
 4.  **Automatic Adoption**: Once merged, the **Agentic Curator** and **V2 Builder** will validate health, extract metadata, assign a recursive hierarchy, and generate an English summary.
 5.  **Preservation Guarantee**: Agents MUST NOT overwrite your manual 🌟 stars or descriptive comments.
-6.  **Automated Feedback**: Every PR is automatically audited by our **SafetyGuard**, providing a report on mandate compliance.
+6.  **Fast-Track Safe Auto-Merge (< 60s)**: Pull Requests that purely add verified, reachable (`HTTP 200`), non-duplicate technical links with clean URLs (no `utm_*` trackers or URL shorteners) and a descriptive summary inside the matching `docs/<category>.md` section are **automatically approved, merged, and synced to V2** by the [Safe PR Gatekeeper](#96-automated-mandate-auditing-and-safe-pr-auto-merge). PRs that propose new sections, structural reorganizations, or multi-layer edits are kept open with a clear explanation comment for maintainer review (`@inafev`).
 
 ---
 
@@ -1366,6 +1408,9 @@ These are the recommended editor settings for [`.vscode/settings.json`](.vscode/
 To maintain transparency and ease of navigation, all key configuration, database, and workflow files are inventoried below.
 
 ### 13.1. Core Configuration
+- **Universal Agent Governance:** [`AGENTS.md`](AGENTS.md) - Cross-agent operational rules, Trunk-Based Git workflow, and Safe PR Gatekeeper policy.
+- **Curation Mandates:** [`GEMINI.md`](GEMINI.md) - 61 curation and architectural mandates dynamically ingested by [`src/mandate_ingestor.py`](src/mandate_ingestor.py).
+- **Claude Quick Reference:** [`CLAUDE.md`](CLAUDE.md) - Concise repository instructions synchronized with `AGENTS.md`.
 - **Link Rules:** [`data/link_rules.yaml`](data/link_rules.yaml) - Defines strictness for URL transformations and deep-link preservation.
 - **Curation Sources:** [`data/curation_sources.yaml`](data/curation_sources.yaml) - Defines monitored X.com accounts and technical topics.
 - **Special Assets:** [`data/special_assets.yaml`](data/special_assets.yaml) - VIP logic orchestration.
@@ -1386,8 +1431,8 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **04.2. Emergency PR Generator:** [**Emergency V2 PR Generator**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/agentic_v2_pr_only.yml) — Data recovery off-ramp.
 - **05.1. README Metrics Sync:** [**README Automated Sync**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/readme_sync.yml) — Automatic TOC and metric synchronization.
 - **06.1. Deployment Pipeline:** [**Final Portal Deploy**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/06.deploy_final.yml) — Native GitHub Pages artifact deployment (V1 Root / V2 Subdirectory).
-- **07.1. PR Guardian AI:** [**PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/pr_guardian.yml) — Agentic PR compliance auditor.
-- **07.2. Markdown Validator:** [**Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/markdown_linter.yml) — Syntax and rendering safety gate.
+- **07.1. Safe PR Gatekeeper:** [**PR Guardian AI**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/07.1.pr_guardian.yml) — Stage 2 fork-safe 4-gate PR verifier and zero-token auto-merger.
+- **07.2. PR Sandbox Linter:** [**Markdown Linter**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/07.2.markdown_linter.yml) — Stage 1 read-only Markdown syntax sandbox.
 - **08.1. Branch Lifecycle:** [**Branch Lifecycle Cleanup**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/cleanup_merged_branches.yml) — Bi-monthly remote branch cleanup.
 - **08.2. Critical Asset Monitor:** [**Critical Asset Monitor**](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/critical_asset_monitor.yml) — Vision-based visual integrity tracking.
 
@@ -1410,6 +1455,8 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Deduplication Engine:** [`src/dedup.py`](src/dedup.py) - URL normalization, content-hash, and title-similarity dedup (85% threshold).
 - **Backfill Utility:** [`scripts/backfill_discovered_at.py`](scripts/backfill_discovered_at.py) - One-shot `discovered_at` population for existing entries.
 - **Gemini Utils:** [`src/gemini_utils.py`](src/gemini_utils.py) - AI model discovery, rate limiting, and session tracking.
+- **Safe PR Gatekeeper:** [`src/pr_guardian.py`](src/pr_guardian.py) - 4-gate structural diff lock, live HTTP/GitHub MVQ verifier, €0.00 category fit auditor, and automated PR merger.
+- **Platinum Safety Guard:** [`src/safety_guard.py`](src/safety_guard.py) | [`src/safety_readme.py`](src/safety_readme.py) - Mandate auditing, forbidden HTML tag blocking, and 15-section README guardrail.
 - **Markdown Logic:** [`src/markdown_ast.py`](src/markdown_ast.py) - Sophisticated parsing of repository content.
 - **Observability:** [`src/logger.py`](src/logger.py) | [`src/report_generator.py`](src/report_generator.py) - Execution transparency and visual reporting.
 

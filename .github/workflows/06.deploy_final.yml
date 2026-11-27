@@ -13,6 +13,7 @@ on:
   workflow_run:
     workflows:
       - "04.1. V2 Publisher"
+      - "07.1. PR Guardian AI"
       - "09. Weekly Intelligence Digest"
     branches: [master]
     types:
@@ -51,11 +52,38 @@ jobs:
           fi
 
           # If triggered by 04.1. V2 Publisher and its publish-v2 job was skipped (no-op PR check), skip deploy
-          if [[ "${{ github.event.workflow_run.name }}" == "04.1. V2 Publisher" ]]; then
+          if [[ "${{ github.event_name }}" == "workflow_run" && "${{ github.event.workflow_run.name }}" == "04.1. V2 Publisher" ]]; then
             PUB_CONCLUSION=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/jobs" \
               --jq '[.jobs[] | select(.name == "publish-v2")] | .[0].conclusion // ""' 2>/dev/null || echo "")
             if [[ "$PUB_CONCLUSION" == "skipped" ]]; then
               echo "Upstream 04.1 publish-v2 job was skipped; skipping deploy."
+              echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+
+          # If triggered by 07.1. PR Guardian AI: deploy directly ONLY when a PR actually merged pre-rendered
+          # site files (v2-docs/, mkdocs.yml, v2-mkdocs.yml, requirements.txt). For V1-only docs/ PRs, defer
+          # to 04.1. V2 Publisher so V1 and V2 deploy together in a single pass.
+          if [[ "${{ github.event_name }}" == "workflow_run" && "${{ github.event.workflow_run.name }}" == "07.1. PR Guardian AI" ]]; then
+            MERGE_SIG=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/jobs" \
+              --jq '[.jobs[] | select(.name == "post-merge-signal")] | .[0].conclusion // ""' 2>/dev/null || echo "")
+            if [[ "$MERGE_SIG" != "success" ]]; then
+              echo "Upstream 07.1 did not merge any PR; skipping deploy."
+              echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            TIP_FILES=$(gh api "repos/${{ github.repository }}/commits/master" --jq '[.files[]?.filename]' 2>/dev/null || echo "[]")
+            HAS_DOCS=$(echo "$TIP_FILES" | jq 'any(startswith("docs/"))')
+            HAS_V2=$(echo "$TIP_FILES" | jq 'any(startswith("v2-docs/"))')
+            HAS_SITE_CFG=$(echo "$TIP_FILES" | jq 'any(. == "mkdocs.yml" or . == "v2-mkdocs.yml" or . == "requirements.txt")')
+            if [[ "$HAS_DOCS" == "true" && "$HAS_V2" != "true" ]]; then
+              echo "Deferring deploy to 04.1. V2 Publisher after V1-only auto-merge."
+              echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [[ "$HAS_V2" != "true" && "$HAS_SITE_CFG" != "true" ]]; then
+              echo "Merged PR did not modify deployable site paths; skipping deploy."
               echo "should_deploy=false" >> "$GITHUB_OUTPUT"
               exit 0
             fi

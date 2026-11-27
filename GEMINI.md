@@ -169,7 +169,10 @@ This file contains the accumulated instructions and long-term vision for the aut
 
 47. **On-Demand Metadata Enrichment (V2)**: The V2 generation engine MUST support a manual `ENRICH_METADATA` flag. When active, the bot MUST fetch real-time GitHub stars and license data for all repositories missing this metadata in the inventory. This ensures that [DE FACTO STANDARD] and [ENTERPRISE-STABLE] tags are assigned based on current industry momentum rather than stale or missing cache data.
 
-48. **Agentic Presubmit Safeguards (PR Guardian)**: All PRs to `master` MUST be analyzed by the `PR Guardian` AI agent to ensure compliance with Nubenetes standards (No emojis in headers, valid Markdown, correct URL normalization, high-density descriptions).
+48. **Agentic Presubmit Safeguards & Safe PR Auto-Merger (`PR Guardian`)**: Every Pull Request targeting `master` MUST pass a 2-stage fork-safe verification pipeline ([`07.2.markdown_linter.yml`](.github/workflows/07.2.markdown_linter.yml) untrusted read-only sandbox -> [`07.1.pr_guardian.yml`](.github/workflows/07.1.pr_guardian.yml) trusted `master` gatekeeper running [`src/pr_guardian.py`](src/pr_guardian.py)):
+    - **Zero "Pwn Request" Exposure**: Stage 2 MUST check out ONLY `master` code and inspect PR diffs/files via the GitHub API as untrusted data, never executing code from contributor branches.
+    - **Maintainer & Bot Authority**: PRs authored by the maintainer (`inafev`) have full structural authority and auto-merge with 0 AI tokens upon passing Stage 1 lint, `safety_readme.py`, and Clean URL config checks. Same-repo `dependabot[bot]` minor/patch updates and `bot/*` curation PRs with `0` critical `SafetyGuard` failures also auto-merge with 0 AI tokens.
+    - **External Structural Lock**: PRs from external authors (`!= inafev`) that touch `v2-docs/**`, `mkdocs.yml`, `v2-mkdocs.yml`, `src/**`, `data/**`, `.github/**`, `README.md`, `docs/index.md`, `docs/about.md`, add/remove/rename files, modify headings/TOCs, or delete existing V1 entries MUST NOT be auto-approved; they MUST be left open with label `needs-maintainer-review` and a clear explanation comment.
 
 49. **Resilient Quota Management (Circuit Breakers)**: AI workflows MUST implement circuit breaker logic (Exit Code 42) to gracefully pause processing and disable the workflow when API quotas (e.g., 429 Too Many Requests) are exhausted, preventing infinite loop failures.
 
@@ -209,6 +212,8 @@ This file contains the accumulated instructions and long-term vision for the aut
     - **4-Tier Multimedia Hierarchy**: Clearly document the fallback sequence (Official API > Transcripts > Scraping > Gemini Grounding).
     - **Interactive Navigation**: Version headers MUST be clickable links to the corresponding GitHub Release tag.
     - **Logical Phasing**: Group changes by 'Added', 'Changed', and 'Fixed' to ensure technical traceability.
+
+61. **Zero-to-Micro Token External PR Verification & Post-Merge V2 Sync**: External link-addition PRs passing Mandate 48's structural lock MUST pass live URL verification (HTTP `200 OK`, non-parked, no generic homepage redirect, GitHub repo active within 4 years with permissive FOSS license) and a micro-prompt semantic category/section fit check (`confidence >= 0.85`, cascading from €0.00 GitHub Models / Free-Tier Gemini to Tier-1 Flash-Lite, failing closed on errors) before automatic approval and merge. Post-merge V2 rendering (`04.1. V2 Publisher`) and Pages deployment (`06.1. Final Portal Deploy`) MUST chain via `workflow_run` so `GITHUB_TOKEN` merges synchronize `v2-docs/` and `nubenetes.com` automatically with 0 AI tokens. Universal cross-agent rules are mirrored in [`AGENTS.md`](AGENTS.md).
 
 ## 🛠️ Structural Evolution & Navigation
 
@@ -253,7 +258,8 @@ To maintain the integrity of the archive and ensure the AI agents operate correc
 2.  **Pull Request & Direct Bot Synchronization**:
     *   Human contributors and AI feature work MUST target `master` via short-lived branches and formal Pull Requests (`gh pr create --base master`).
     *   AI agents MUST NEVER bypass PR review for code/structural changes via ad-hoc force pushes to `master` or `main`.
-    *   Automated `[skip ci]` state pipelines (`03.1`–`05.1`, `09`) serialize updates on `master` via concurrency groups and trigger [`06.deploy_final.yml`](.github/workflows/06.deploy_final.yml) through `workflow_run` deduplication.
+    *   `07.2. Markdown Linter` (Stage 1 sandbox) and `07.1. PR Guardian AI` (Stage 2 trusted gatekeeper) automatically verify, approve, and merge compliant PRs while holding external structural changes open for `@inafev`.
+    *   Automated `[skip ci]` state pipelines (`03.1`–`05.1`, `09`) and `07.1` `GITHUB_TOKEN` PR merges serialize updates on `master` via concurrency groups and trigger `04.1. V2 Publisher` / [`06.deploy_final.yml`](.github/workflows/06.deploy_final.yml) through `workflow_run` deduplication.
 3.  **Tagging & Releases**:
     *   Version tags (`git tag -a vX.Y.Z`) and GitHub Releases (`gh release create`) are cut directly from `master` after PR merge and validation.
 

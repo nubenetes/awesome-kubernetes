@@ -1,5 +1,7 @@
 # CLAUDE.md — Nubenetes Project Instructions for Claude Code
 
+> **Universal Cross-Agent Handbook**: See [`AGENTS.md`](AGENTS.md) for the complete cross-agent operational standard (including the 2-Stage Safe PR Gatekeeper `07.2` -> `07.1`) and [`GEMINI.md`](GEMINI.md) for the 61 curation mandates ingested at runtime by `src/mandate_ingestor.py`.
+
 ## Git Workflow: Trunk-Based Development
 
 This repository uses **Trunk-Based Development**. All agents MUST follow this branching model:
@@ -55,6 +57,7 @@ This repository uses **Trunk-Based Development**. All agents MUST follow this br
 - `src/autonomous_discovery.py` — GitHub trending discovery (14 queries)
 - `src/gemini_utils.py` — Gemini API wrapper with key rotation
 - `src/inventory_manager.py` — Dual YAML+SQL inventory management
+- `src/pr_guardian.py` — 4-Gate Safe PR Gatekeeper & Auto-Merger (`07.1.pr_guardian.yml`)
 
 ## Build and Run
 
