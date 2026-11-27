@@ -55,7 +55,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-3" href="/aws-training/" title="AWS Training — 17 resources"><span class="topic-heatcell__name">AWS Training</span><span class="topic-heatcell__n">17</span></a>
 <a class="topic-heatcell th-3" href="/about/" title="About — 16 resources"><span class="topic-heatcell__name">About</span><span class="topic-heatcell__n">16</span></a>
 <a class="topic-heatcell th-3" href="/aws-containers/" title="AWS Containers — 16 resources"><span class="topic-heatcell__name">AWS Containers</span><span class="topic-heatcell__n">16</span></a>
-<a class="topic-heatcell th-3" href="/cloud-asset-inventory/" title="Cloud Asset Inventory — 10 resources"><span class="topic-heatcell__name">Cloud Asset Inventory</span><span class="topic-heatcell__n">10</span></a>
+<a class="topic-heatcell th-3" href="/cloud-asset-inventory/" title="Cloud Asset Inventory — 11 resources"><span class="topic-heatcell__name">Cloud Asset Inventory</span><span class="topic-heatcell__n">11</span></a>
 <a class="topic-heatcell th-3" href="/aws-data/" title="AWS Data — 9 resources"><span class="topic-heatcell__name">AWS Data</span><span class="topic-heatcell__n">9</span></a>
 <a class="topic-heatcell th-2" href="/aws-messaging/" title="AWS Messaging — 6 resources"><span class="topic-heatcell__name">AWS Messaging</span><span class="topic-heatcell__n">6</span></a>
 <a class="topic-heatcell th-2" href="/aws-spain/" title="AWS Spain — 5 resources"><span class="topic-heatcell__name">AWS Spain</span><span class="topic-heatcell__n">5</span></a>
@@ -298,7 +298,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Cheatsheets](./cheatsheets.md)** <span class="topic-count">190</span>
 - **[Chef](./chef.md)** <span class="topic-count">2</span>
 - **[Cloud Architecture Diagrams](./cloud-arch-diagrams.md)** <span class="topic-count">45</span>
-- **[Cloud Asset Inventory](./cloud-asset-inventory.md)** <span class="topic-count">10</span>
+- **[Cloud Asset Inventory](./cloud-asset-inventory.md)** <span class="topic-count">11</span>
 - **[Customer](./customer.md)** <span class="topic-count">35</span>
 - **[Demos](./demos.md)** <span class="topic-count">370</span>
 - **[DevOps Tools](./devops-tools.md)** <span class="topic-count">36</span>

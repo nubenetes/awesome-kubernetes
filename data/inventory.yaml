@@ -238637,23 +238637,36 @@ https://github.com/micro/go-micro:
   momentum_score: 93.5
 https://github.com/microsoft/ARI:
   title: "github.com/microsoft/ARI: Azure Resource Inventory \U0001F31F\U0001F31F\U0001F31F"
-  description: ''
-  year: '2024'
+  description: High-value MIT-licensed PowerShell 7.0+ engine from Microsoft (1,749
+    stars) for read-only, zero-agent discovery across Azure Tenants, Management Groups,
+    Subscriptions, and Resource Groups. Generates multi-tab interactive Excel workbooks
+    (ImportExcel) with Azure Security Center, Policy, Advisor, Tags, VM quotas, and
+    Cost Management data, plus interactive Draw.io architecture diagrams (Network
+    Topology with peering/hover metadata, Organization, and Resources views). Ideal
+    for brownfield onboarding, M&A tenant handovers, FinOps/security audits, and scheduled
+    Azure Automation governance.
+  year: '2026'
   stars: 5
-  ai_summary: An open-source analysis engine from Microsoft that sweeps target cloud
-    subscriptions to render Excel inventories of deployed cloud components.
-  language: PowerShell
-  resource_type: GitHub Repository
-  complexity: Advanced
+  ai_summary: High-value MIT-licensed PowerShell 7.0+ engine from Microsoft (1,749
+    stars) for read-only, zero-agent discovery across Azure Tenants, Management Groups,
+    Subscriptions, and Resource Groups. Generates multi-tab interactive Excel workbooks
+    (ImportExcel) with Azure Security Center, Policy, Advisor, Tags, VM quotas, and
+    Cost Management data, plus interactive Draw.io architecture diagrams (Network
+    Topology with peering/hover metadata, Organization, and Resources views). Ideal
+    for brownfield onboarding, M&A tenant handovers, FinOps/security audits, and scheduled
+    Azure Automation governance.
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
   is_microservice: false
   status: online
   addition_method: manual
   content_hash: c440e8f65441bac17e7077ed37d8b715cc3da6af28c8ea12bba07094f0ad86b0
   health_score: 100.0
-  last_checked: 1779032732
-  needs_ai_refresh: true
+  last_checked: 1795639591
+  needs_ai_refresh: false
   discovered_at: '2026-06-02T12:31:49Z'
-  last_ai_eval: null
+  last_ai_eval: '2026-11-25T20:46:31Z'
   company: null
   geo_region: null
   hierarchy:
@@ -238665,12 +238678,14 @@ https://github.com/microsoft/ARI:
   - '[DE FACTO STANDARD]'
   v1_locations:
   - docs/azure.md
+  - docs/cloud-asset-inventory.md
   v2_locations:
   - azure.md
+  - cloud-asset-inventory.md
   youtube_mosaic: {}
   gh_license: MIT
-  gh_pushed: '2026-10-28'
-  gh_stars: 1724
+  gh_pushed: '2026-11-23T13:53:47Z'
+  gh_stars: 1749
   gh_open_issues_30d: 9
   gh_open_prs_30d: 0
   gh_community_health: low
@@ -759582,29 +759597,38 @@ https://devtoolhub.com/azure-managed-identity-vs-service-principal:
     secret handling, role assignment and CLI setup for each, covers the default Contributor
     role that `az webapp identity assign` grants, and GitHub OIDC federated credentials
     for CI.
+  year: '2026'
+  stars: 3
   ai_summary: A managed identity is a service principal that Azure manages. Compares
     secret handling, role assignment and CLI setup for each, covers the default Contributor
     role that `az webapp identity assign` grants, and GitHub OIDC federated credentials
     for CI.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:07:29.268971+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Cloud Providers (Hyperscalers)
   - Azure
   - Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN.
     Microsoft Entra
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/azure.md
   v2_locations:
   - azure.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:07:29.268971+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/iLLeniumStudios/protem:
   title: github.com/iLLeniumStudios/protem
   description: 'Protem is just-in-time privileged access for Kubernetes: people request
@@ -759612,29 +759636,38 @@ https://github.com/iLLeniumStudios/protem:
     agent on each target cluster creates an ordinary RoleBinding and removes it automatically
     when the grant expires, even while the hub is unreachable. Time-bound, approval-gated
     RBAC across clusters, with an audit trail and a web UI.'
+  year: '2026'
+  stars: 3
   ai_summary: 'Protem is just-in-time privileged access for Kubernetes: people request
     a role for a set time, approvers see the role''s rules before deciding, and an
     agent on each target cluster creates an ordinary RoleBinding and removes it automatically
     when the grant expires, even while the hub is unreachable. Time-bound, approval-gated
     RBAC across clusters, with an audit trail and a web UI.'
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:07:29.381497+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Hardened Infrastructure
   - Kubernetes Security
   - Tools
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-security.md
   v2_locations:
   - kubernetes-security.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:07:29.381497+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/mohanedmoh/treebind:
   title: github.com/mohanedmoh/treebind
   description: Alpha Kubernetes operator that syncs a Git repository and an application's
@@ -759643,27 +759676,36 @@ https://github.com/mohanedmoh/treebind:
     the application's edits and can push them. Conflicts and rejected pushes are reported
     as `Synced` and `Conflict` conditions, events and Prometheus metrics. Deleting
     a Treebind never touches the volume.
+  year: '2026'
+  stars: 3
   ai_summary: Alpha Kubernetes operator that syncs a Git repository and an application's
     files, in both directions, through a shared PVC. A `Treebind` resource names the
     repository, an existing PVC and the sync policy; a sync agent pulls changes, commits
     the application's edits and can push them. Conflicts and rejected pushes are reported
     as `Synced` and `Conflict` conditions, events and Prometheus metrics. Deleting
     a Treebind never touches the volume.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:07:29.393267+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - Architectural Foundations
   - Kubernetes Tools
   - CICD Tools
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/kubernetes-tools.md
   v2_locations:
   - kubernetes-tools.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:07:29.393267+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}

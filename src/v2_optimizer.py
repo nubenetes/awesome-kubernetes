@@ -2789,6 +2789,32 @@ class V2VisionEngine:
                 _body = f"{_neo_bp}\n\n" + _body
                 assert _neo_bp.splitlines()[0] in _body, f"Safety assertion failed: Neoclouds blueprint injection skipped for {f_name}!"
 
+            if f_name == "cloud-asset-inventory.md":
+                ari_blueprint = """## High-Value Spotlight: Microsoft Azure Resource Inventory (ARI)
+
+!!! tip "When to Use Microsoft ARI vs CloudQuery / Steampipe"
+    - **[Azure Resource Inventory (`microsoft/ARI`)](https://github.com/microsoft/ARI)** (`MIT`, PowerShell `7.0+`, cross-platform) is the fastest read-only tool for generating **stakeholder-ready multi-tab Excel workbooks (`ImportExcel`)** and interactive **Draw.io network/organization/resource diagrams** from any Azure Tenant or Management Group with zero persistent infrastructure.
+    - **Use ARI** for brownfield cloud discovery, M&amp;A tenant handovers, FinOps tag/cost audits (`-IncludeTags`, `-IncludeCosts`), Azure Security Center/Policy/Advisor reviews (`-SecurityCenter`), pre-migration Landing Zone assessments, and scheduled monthly snapshots via Azure Automation (`-Automation`).
+    - **Use CloudQuery or Steampipe** when you need continuous, real-time **multi-cloud** (AWS, GCP, Azure, Kubernetes) SQL querying into PostgreSQL, Parquet, or Grafana dashboards.
+
+### Example ARI Workflows
+
+```powershell
+# 1. Full Management Group inventory with Tags and Cost Management
+Invoke-ARI -TenantID <Tenant-ID> -ManagementGroup <MG-ID> -IncludeTags -IncludeCosts
+
+# 2. Security posture & Advisor audit on a target subscription
+Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -SecurityCenter
+
+# 3. Full Draw.io Network Topology, Organization, and Resources diagrams
+Invoke-ARI -TenantID <Tenant-ID> -SubscriptionID <Sub-ID> -DiagramFullEnvironment
+
+# 4. Unattended scheduled snapshots in Azure Automation -> Blob Storage
+Invoke-ARI -TenantID <Tenant-ID> -AppId <App-ID> -Secret <Secret> -Automation -StorageAccount <SA> -StorageContainer <Container>
+```
+"""
+                _body = f"{ari_blueprint}\n\n" + _body
+
 
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid
             # of its categories (auto-derived from the rendered H2 sections).
