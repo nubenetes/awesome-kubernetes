@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.16.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.4) - 2026-11-28
+
+### Fixed
+- **Zero-PAT Fork PR Auto-Merge Finisher & Truthful Gate 4 Status (`07.1.pr_guardian.yml`, `src/pr_guardian.py`, `tests/test_pr_guardian.py`, `AGENTS.md`)**:
+  - Added an hourly `schedule` finisher (`cron: '23 * * * *'`) to `07.1. PR Guardian AI` with a lightweight zero-setup fast-exit check when no actionable open PRs exist; when an external fork PR was verified/approved during `workflow_run` (`GITHUB_TOKEN` receives `403` on `PUT /pulls/{n}/merge` without a custom `AUTOMERGE_PAT`), the scheduled maintainer-context sweep completes the merge via `GITHUB_TOKEN` cleanly.
+  - Added SHA-bound `<!-- PR_GUARDIAN_SHA:<sha> -->` comment markers and a **0-token pre-verified merge fast-path** in `src/pr_guardian.py` (reusing existing `automerge-verified` + `APPROVED` review state without re-running HTTP probes or AI calls), plus idempotent `ALREADY_HELD` skipping for unchanged held PRs during `all_open` sweeps.
+  - Reordered Gate 4 across all tiers so `_approve_and_merge_pr` executes before `_upsert_pr_comment`, posting `"Verified & Approved — Queued for Automated Merge"` when fork merge waits for the finisher and updating to `"Verified, Approved & Auto-Merged"` once merged.
+
 ## [[2.16.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.3) - 2026-11-28
 
 ### Fixed

@@ -1036,11 +1036,12 @@ async def verify_semantic_placement(
     return (len(reasons) == 0), reasons, verdicts, provider_used
 
 
-def _upsert_pr_comment(pr: Any, body: str, dry_run: bool = False) -> None:
+def _upsert_pr_comment(pr: Any, body: str, dry_run: bool = False, head_sha: str = "") -> None:
     if dry_run:
         log_event(f"[DRY-RUN] Skipping PR #{pr.number} comment upsert.")
         return
-    full_body = f"{COMMENT_SIGNATURE}\n{body}"
+    sha_marker = f"\n<!-- PR_GUARDIAN_SHA:{head_sha} -->" if head_sha else ""
+    full_body = f"{COMMENT_SIGNATURE}{sha_marker}\n{body}"
     try:
         for comment in pr.get_issue_comments():
             if COMMENT_SIGNATURE in (comment.body or ""):
@@ -1049,6 +1050,41 @@ def _upsert_pr_comment(pr: Any, body: str, dry_run: bool = False) -> None:
         pr.create_issue_comment(full_body)
     except Exception as e:
         log_event(f"[WARN] Failed posting PR Guardian comment on PR #{pr.number}: {str(e)[:100]}")
+
+
+def _inspect_existing_pr_state(pr: Any) -> Tuple[str, bool, str]:
+    """Read prior PR Guardian comment SHA marker, approval review state for current head SHA, and body."""
+    evaluated_sha = ""
+    existing_body = ""
+    try:
+        for comment in pr.get_issue_comments():
+            c_body = comment.body or ""
+            if COMMENT_SIGNATURE in c_body:
+                existing_body = c_body
+                m = re.search(r"<!-- PR_GUARDIAN_SHA:([0-9a-f]{7,40}) -->", c_body)
+                if m:
+                    evaluated_sha = m.group(1)
+    except Exception as e:
+        log_event(f"[WARN] Failed inspecting existing comments on PR #{pr.number}: {str(e)[:100]}")
+
+    has_sha_approval = False
+    trusted_reviewers = {"github-actions[bot]", "github-actions"} | get_maintainer_logins()
+    try:
+        head_sha = getattr(pr.head, "sha", "") or ""
+        for rev in pr.get_reviews():
+            rev_login = (getattr(getattr(rev, "user", None), "login", "") or "").lower()
+            if (
+                getattr(rev, "state", "") == "APPROVED"
+                and rev_login in trusted_reviewers
+                and head_sha
+                and getattr(rev, "commit_id", "") == head_sha
+            ):
+                has_sha_approval = True
+                break
+    except Exception as e:
+        log_event(f"[WARN] Failed inspecting existing reviews on PR #{pr.number}: {str(e)[:100]}")
+
+    return evaluated_sha, has_sha_approval, existing_body
 
 
 def _sync_labels(repo: Any, pr: Any, add_label: str, remove_label: str, dry_run: bool = False) -> None:
@@ -1078,17 +1114,24 @@ def _sync_labels(repo: Any, pr: Any, add_label: str, remove_label: str, dry_run:
         log_event(f"[WARN] Label sync skipped on PR #{pr.number}: {str(e)[:100]}")
 
 
-def _approve_and_merge_pr(repo: Any, pr: Any, summary_note: str, dry_run: bool = False) -> bool:
+def _approve_and_merge_pr(
+    repo: Any,
+    pr: Any,
+    summary_note: str,
+    dry_run: bool = False,
+    skip_review: bool = False,
+) -> bool:
     if dry_run:
         log_event(f"[DRY-RUN] Would approve and merge PR #{pr.number}.")
         return False
 
-    try:
-        pr.create_review(event="APPROVE", body=summary_note)
-        log_event(f"[+] Approved PR #{pr.number}.")
-    except Exception as e:
-        # GitHub returns 422 if GITHUB_TOKEN attempts to approve a PR opened by github-actions[bot] itself
-        log_event(f"[WARN] Formal review approval skipped on PR #{pr.number}: {str(e)[:120]}")
+    if not skip_review:
+        try:
+            pr.create_review(event="APPROVE", body=summary_note)
+            log_event(f"[+] Approved PR #{pr.number}.")
+        except Exception as e:
+            # GitHub returns 422 if GITHUB_TOKEN attempts to approve a PR opened by github-actions[bot] itself
+            log_event(f"[WARN] Formal review approval skipped on PR #{pr.number}: {str(e)[:120]}")
 
     try:
         merge_status = pr.merge(
@@ -1143,6 +1186,8 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
         log_event(f"[*] PR #{pr.number} is a Draft; skipping until marked Ready for Review.")
         return result
 
+    head_sha = getattr(pr.head, "sha", "") or ""
+
     if pr.base.ref != "master":
         _upsert_pr_comment(
             pr,
@@ -1150,6 +1195,7 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"- Target base branch is `{pr.base.ref}` instead of canonical `master`.\n"
             f"- Leaving PR open for @inafev.",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
         _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD"
@@ -1169,6 +1215,7 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             "This Pull Request currently has merge conflicts against `master`. "
             "Please rebase onto `master` (or wait for @inafev to review). Leaving PR open.",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
         _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD"
@@ -1181,9 +1228,23 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             "Automated merge is paused because Stage 1 (`07.2. Markdown Linter`) did not pass cleanly. "
             "Please inspect the check logs or wait for @inafev to review.",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
         _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD"
+        return result
+
+    try:
+        current_labels = {lbl.name for lbl in pr.get_labels()}
+    except Exception as e:
+        log_event(f"[WARN] Failed reading labels on PR #{pr.number}: {str(e)[:80]}")
+        current_labels = set()
+    evaluated_sha, has_sha_approval, existing_comment = _inspect_existing_pr_state(pr)
+    explicit_single_pr = (os.getenv("PR_NUMBER") or "").strip().isdigit()
+
+    if HOLD_LABEL in current_labels and head_sha and evaluated_sha == head_sha and not explicit_single_pr:
+        log_event(f"[*] PR #{pr.number} already held at SHA {head_sha[:8]}; skipping until new commits.")
+        result["decision"] = "ALREADY_HELD"
         return result
 
     raw_files = list(pr.get_files())
@@ -1240,23 +1301,33 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
                 f"### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Safety Check Hold\n\n"
                 f"Maintainer PR paused due to deterministic repository guardrail(s):\n{bullets}",
                 dry_run=dry_run,
+                head_sha=head_sha,
             )
             _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
             result["decision"] = "HELD"
             return result
 
+        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
+        merged = _approve_and_merge_pr(
+            repo,
+            pr,
+            "Maintainer PR verified against deterministic safety guardrails (0 AI tokens).",
+            dry_run=dry_run,
+            skip_review=has_sha_approval,
+        )
+        status_title = (
+            "✅ Approved & Auto-Merged (Maintainer Tier)"
+            if (merged or dry_run)
+            else "✅ Approved — Queued for Automated Merge (Maintainer Tier)"
+        )
         comment_body = (
-            "### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Approved & Auto-Merged (Maintainer Tier)\n\n"
+            f"### 🛡️ Nubenetes Safe PR Gatekeeper: {status_title}\n\n"
             "| Gate | Check | Status | Cost |\n"
             "| :--- | :--- | :---: | :---: |\n"
             f"| **Gate 0** | Maintainer Identity (`@{author_login}`) | ✅ PASS | €0.00 |\n"
             "| **Gate 1** | Stage 1 Markdown Linter & Clean URL / README Guards | ✅ PASS | €0.00 |\n"
         )
-        _upsert_pr_comment(pr, comment_body, dry_run=dry_run)
-        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
-        merged = _approve_and_merge_pr(
-            repo, pr, "Maintainer PR verified against deterministic safety guardrails (0 AI tokens).", dry_run=dry_run
-        )
+        _upsert_pr_comment(pr, comment_body, dry_run=dry_run, head_sha=head_sha)
         result["merged"] = merged
         result["decision"] = "MERGED" if merged else ("DRY_RUN_PASS" if dry_run else "APPROVED_PENDING_MERGE")
         return result
@@ -1271,19 +1342,32 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
                 f"### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Held for Maintainer Review\n\n"
                 f"{bullets}\n\nLeaving open for @inafev.",
                 dry_run=dry_run,
+                head_sha=head_sha,
             )
             _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
             result["decision"] = "HELD"
             return result
 
+        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
+        merged = _approve_and_merge_pr(
+            repo,
+            pr,
+            "Verified Dependabot minor/patch update.",
+            dry_run=dry_run,
+            skip_review=has_sha_approval,
+        )
+        status_title = (
+            "✅ Approved & Auto-Merged (Dependabot Patch/Minor)"
+            if (merged or dry_run)
+            else "✅ Approved — Queued for Automated Merge (Dependabot Patch/Minor)"
+        )
         _upsert_pr_comment(
             pr,
-            "### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Approved & Auto-Merged (Dependabot Patch/Minor)\n\n"
+            f"### 🛡️ Nubenetes Safe PR Gatekeeper: {status_title}\n\n"
             "Verified non-major dependency update on allowed manifest/workflow files (0 AI tokens).",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
-        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
-        merged = _approve_and_merge_pr(repo, pr, "Verified Dependabot minor/patch update.", dry_run=dry_run)
         result["merged"] = merged
         result["decision"] = "MERGED" if merged else ("DRY_RUN_PASS" if dry_run else "APPROVED_PENDING_MERGE")
         return result
@@ -1301,19 +1385,32 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
                 "Internal bot PR reported SafetyGuard critical errors or touched protected code/workflow files. "
                 "Leaving open for @inafev.",
                 dry_run=dry_run,
+                head_sha=head_sha,
             )
             _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
             result["decision"] = "HELD"
             return result
 
+        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
+        merged = _approve_and_merge_pr(
+            repo,
+            pr,
+            "Internal curation bot PR passed SafetyGuard.",
+            dry_run=dry_run,
+            skip_review=has_sha_approval,
+        )
+        status_title = (
+            "✅ Approved & Auto-Merged (Internal Curation Pipeline)"
+            if (merged or dry_run)
+            else "✅ Approved — Queued for Automated Merge (Internal Curation Pipeline)"
+        )
         _upsert_pr_comment(
             pr,
-            "### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Approved & Auto-Merged (Internal Curation Pipeline)\n\n"
+            f"### 🛡️ Nubenetes Safe PR Gatekeeper: {status_title}\n\n"
             "Verified internal `bot/*` branch with passing SafetyGuard audit (0 AI tokens).",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
-        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
-        merged = _approve_and_merge_pr(repo, pr, "Internal curation bot PR passed SafetyGuard.", dry_run=dry_run)
         result["merged"] = merged
         result["decision"] = "MERGED" if merged else ("DRY_RUN_PASS" if dry_run else "APPROVED_PENDING_MERGE")
         return result
@@ -1334,10 +1431,38 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"**Why this PR is waiting for @inafev's manual review:**\n{bullets}\n\n"
             f"*No action is required if this structural change was intentional — your PR remains open for maintainer review.*",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
         _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD_GATE_1"
         return result
+
+    # Zero-Token Pre-Verified Merge Fast-Path (e.g., scheduled/dispatched sweep after fork workflow_run approval)
+    if APPROVED_LABEL in current_labels and ((head_sha and evaluated_sha == head_sha) or has_sha_approval):
+        log_event(f"[*] PR #{pr.number} already verified at SHA {head_sha[:8]}; completing 0-token merge...")
+        merged = _approve_and_merge_pr(
+            repo,
+            pr,
+            f"Completing automated merge of verified PR #{pr.number}.",
+            dry_run=dry_run,
+            skip_review=has_sha_approval,
+        )
+        if merged or dry_run:
+            table_match = re.search(r"(\| Verified Resource \|.*)", existing_comment, re.DOTALL)
+            table_block = f"\n\n{table_match.group(1).strip()}\n" if table_match else ""
+            done_md = (
+                f"### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Verified, Approved & Auto-Merged\n\n"
+                f"Thank you @{author_login} for contributing to **Nubenetes**! All 4 automated safety gates passed:\n\n"
+                f"- **Gate 1 (Structural Lock):** Pure V1 link addition(s) — 0 headings, TOCs, or existing entries altered (€0.00).\n"
+                f"- **Gate 2 (Live URL & MVQ):** Verified HTTP 200 OK, non-parked, active repository metadata (€0.00).\n"
+                f"- **Gate 3 (Semantic Placement):** Pre-verified at commit `{head_sha[:8]}` (€0.00 re-check).\n"
+                f"- **Gate 4 (Post-Merge Sync):** `04.1. V2 Publisher` will now synchronize `v2-docs/` automatically (0 AI tokens)."
+                f"{table_block}"
+            )
+            _upsert_pr_comment(pr, done_md, dry_run=dry_run, head_sha=head_sha)
+            result["merged"] = merged
+            result["decision"] = "MERGED" if merged else "DRY_RUN_PASS"
+            return result
 
     # Gate 2: Zero-token live URL & GitHub metadata probe
     g2_reasons: List[str] = []
@@ -1363,6 +1488,7 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"{bullets}\n\n"
             f"Please update the URL if there is a typo, or leave as-is for @inafev to inspect manually.",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
         _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD_GATE_2"
@@ -1380,36 +1506,45 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"{bullets}\n\n"
             f"Leaving this Pull Request open for @inafev to review (or feel free to move the entry to the suggested category file).",
             dry_run=dry_run,
+            head_sha=head_sha,
         )
         _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD_GATE_3"
         return result
 
-    # Gate 4: All gates passed -> Approve & Merge!
+    # Gate 4: All gates passed -> Approve, Label & Merge (or Queue for 0-token finisher)!
     rows = "\n".join(
         f"| `[{c['title'][:45]}]({c['url']})` | `{c['file']}` (`{c.get('section_path', '')[:35]}`) | "
         f"`HTTP {c['ground_truth'].get('http_status', 200)}` | `{v.get('confidence', 0.0):.2f}` |"
         for c, v in zip(candidates, verdicts)
     )
-    approval_md = (
-        f"### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Verified, Approved & Auto-Merged\n\n"
-        f"Thank you @{author_login} for contributing to **Nubenetes**! All 4 automated safety gates passed:\n\n"
-        f"- **Gate 1 (Structural Lock):** Pure V1 link addition(s) — 0 headings, TOCs, or existing entries altered (€0.00).\n"
-        f"- **Gate 2 (Live URL & MVQ):** Verified HTTP 200 OK, non-parked, active repository metadata (€0.00).\n"
-        f"- **Gate 3 (Semantic Placement):** Confirmed technical fit via `{provider_used}`.\n"
-        f"- **Gate 4 (Post-Merge Sync):** `04.1. V2 Publisher` will now synchronize `v2-docs/` automatically (0 AI tokens).\n\n"
-        f"| Verified Resource | Target Location | Live Probe | Fit Score |\n"
-        f"| :--- | :--- | :---: | :---: |\n"
-        f"{rows}\n"
-    )
-    _upsert_pr_comment(pr, approval_md, dry_run=dry_run)
     _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
     merged = _approve_and_merge_pr(
         repo,
         pr,
         f"Verified {len(candidates)} link addition(s): structure intact, HTTP 200 OK, category placement confirmed.",
         dry_run=dry_run,
+        skip_review=has_sha_approval,
     )
+    if merged or dry_run:
+        header_line = "### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Verified, Approved & Auto-Merged"
+        gate4_line = "- **Gate 4 (Post-Merge Sync):** `04.1. V2 Publisher` will now synchronize `v2-docs/` automatically (0 AI tokens)."
+    else:
+        header_line = "### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Verified & Approved — Queued for Automated Merge"
+        gate4_line = "- **Gate 4 (Post-Merge Sync):** Queued for the next automated merge sweep on `master` (0 AI tokens), after which `04.1. V2 Publisher` will synchronize `v2-docs/`."
+
+    approval_md = (
+        f"{header_line}\n\n"
+        f"Thank you @{author_login} for contributing to **Nubenetes**! All 4 automated safety gates passed:\n\n"
+        f"- **Gate 1 (Structural Lock):** Pure V1 link addition(s) — 0 headings, TOCs, or existing entries altered (€0.00).\n"
+        f"- **Gate 2 (Live URL & MVQ):** Verified HTTP 200 OK, non-parked, active repository metadata (€0.00).\n"
+        f"- **Gate 3 (Semantic Placement):** Confirmed technical fit via `{provider_used}`.\n"
+        f"{gate4_line}\n\n"
+        f"| Verified Resource | Target Location | Live Probe | Fit Score |\n"
+        f"| :--- | :--- | :---: | :---: |\n"
+        f"{rows}\n"
+    )
+    _upsert_pr_comment(pr, approval_md, dry_run=dry_run, head_sha=head_sha)
     result["merged"] = merged
     result["decision"] = "MERGED" if merged else ("DRY_RUN_PASS" if dry_run else "APPROVED_PENDING_MERGE")
     return result

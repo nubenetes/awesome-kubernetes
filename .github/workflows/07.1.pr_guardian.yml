@@ -11,6 +11,9 @@ on:
       - "07.2. Markdown Linter"
     types:
       - completed
+  schedule:
+    # Zero-PAT auto-merge finisher & brand-new contributor sweep (runs with actor=inafev, 0 AI tokens on pre-verified PRs)
+    - cron: '23 * * * *'
   workflow_dispatch:
     inputs:
       pr_number:
@@ -40,38 +43,62 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
       github.event.workflow_run.event == 'pull_request'
     outputs:
       merged_any: ${{ steps.gatekeeper.outputs.merged_any }}
       merged_v1_only: ${{ steps.gatekeeper.outputs.merged_v1_only }}
       merged_site_ready: ${{ steps.gatekeeper.outputs.merged_site_ready }}
     steps:
+      - name: Check Open Actionable PRs (Scheduled Fast-Exit)
+        id: queue_check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ "${{ github.event_name }}" != "schedule" ]]; then
+            echo "has_actionable=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          COUNT=$(gh api "repos/${{ github.repository }}/pulls?state=open&base=master&per_page=50" \
+            --jq '[.[] | select(.draft == false) | select(([.labels[].name] | index("automerge-verified")) != null or ([.labels[].name] | index("needs-maintainer-review")) == null)] | length' 2>/dev/null || echo "1")
+          if [[ "$COUNT" -gt 0 ]]; then
+            echo "Found $COUNT actionable open PR(s) for scheduled sweep."
+            echo "has_actionable=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No actionable open PRs waiting; skipping Python setup (0 tokens)."
+            echo "has_actionable=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout Trusted Master Code Only
+        if: steps.queue_check.outputs.has_actionable == 'true'
         uses: actions/checkout@v7
         with:
           repository: ${{ github.repository }}
           ref: master
 
       - name: Python Environment
+        if: steps.queue_check.outputs.has_actionable == 'true'
         uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           cache: 'pip'
 
       - name: Install Dependencies
+        if: steps.queue_check.outputs.has_actionable == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity beautifulsoup4
 
       - name: Run 4-Gate Safe PR Gatekeeper
         id: gatekeeper
+        if: steps.queue_check.outputs.has_actionable == 'true'
         env:
           GH_TOKEN: ${{ secrets.AUTOMERGE_PAT || secrets.GITHUB_TOKEN }}
           GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_FREE_PR_KEY: ${{ secrets.GEMINI_FREE_PR_KEY }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
-          PR_NUMBER: ${{ github.event.inputs.pr_number || '' }}
+          PR_NUMBER: ${{ github.event.inputs.pr_number || (github.event_name == 'schedule' && 'all_open') || '' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           WORKFLOW_HEAD_SHA: ${{ github.event.workflow_run.head_sha || '' }}
           LINTER_CONCLUSION: ${{ github.event.workflow_run.conclusion || 'success' }}
