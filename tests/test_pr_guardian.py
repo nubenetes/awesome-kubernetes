@@ -325,6 +325,58 @@ class TestPRGuardianGates(unittest.TestCase):
 
         asyncio.run(run_gate3())
 
+    def test_nextjs_large_inline_style_metadata_and_nested_bullet_context(self):
+        heavy_css = "body{color:#fff}" * 8000  # ~120 KB inline Tailwind CSS in <head>
+        nextjs_html = (
+            "<!DOCTYPE html><html><head>"
+            f'<style data-precedence="next">{heavy_css}</style>'
+            "<title>LogBrew | Error Tracking & Logs</title>"
+            '<meta name="description" content="Agent-first OTLP observability.">'
+            "</head><body><main><h1>Error logging and traces</h1></main></body></html>"
+        )
+
+        def handler(request: httpx.Request) -> httpx.Response:
+            return httpx.Response(200, headers={"content-type": "text/html"}, text=nextjs_html)
+
+        async def run_probe():
+            transport = httpx.MockTransport(handler)
+            async with httpx.AsyncClient(transport=transport, follow_redirects=True) as client:
+                ok, _, gt = await verify_url_and_extract_ground_truth(
+                    "https://logbrew.example/en", http_client=client
+                )
+                self.assertTrue(ok)
+                self.assertEqual(gt["page_title"], "LogBrew | Error Tracking & Logs")
+                self.assertEqual(gt["meta_description"], "Agent-first OTLP observability.")
+                self.assertIn("Error logging and traces", gt["snippet"])
+
+        asyncio.run(run_probe())
+
+        monitoring_doc = (
+            "# Monitoring\n\n"
+            "## Application Performance Management (APM)\n\n"
+            "- [First Link](https://example.com/1) - First.\n"
+            "- [Second Link](https://example.com/2) - Second.\n"
+            "- [Third Link](https://example.com/3) - Third.\n"
+            "- [Fourth Link](https://example.com/4) - Fourth.\n"
+            "- Exception Tracking:\n"
+            "    - [sentry.io](https://sentry.io/welcome/)\n"
+            "    - **(2026)** [LogBrew](https://logbrew.co) - Hosted observability tool for error tracking, logs, metrics, and distributed tracing.\n"
+        )
+        patch_txt = (
+            "@@ -9,2 +9,3 @@\n"
+            " - Exception Tracking:\n"
+            "     - [sentry.io](https://sentry.io/welcome/)\n"
+            "+    - **(2026)** [LogBrew](https://logbrew.co) - Hosted observability tool for error tracking, logs, metrics, and distributed tracing.\n"
+        )
+        ok, reasons, candidates = parse_and_validate_external_diff(
+            [{"filename": "docs/monitoring.md", "status": "modified", "patch": patch_txt}],
+            get_head_file_fn=lambda _: monitoring_doc,
+            get_base_existing_urls_fn=lambda _: {"https://sentry.io/welcome"},
+        )
+        self.assertTrue(ok, f"Expected nested bullet addition to pass Gate 1, got: {reasons}")
+        self.assertEqual(candidates[0]["section_path"], "Application Performance Management (APM) > Exception Tracking")
+        self.assertTrue(any("sentry.io" in s for s in candidates[0]["siblings"]))
+
 
 if __name__ == "__main__":
     unittest.main()

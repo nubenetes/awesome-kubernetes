@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.16.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.3) - 2026-11-28
+
+### Fixed
+- **PR Gatekeeper Next.js Metadata Extraction, Nested Section Context & Fork Run Policy (`src/pr_guardian.py`, `tests/test_pr_guardian.py`)**:
+  - Stripped oversized inline `<style>`, `<script>`, `<svg>`, and `<noscript>` blocks across up to `600 KB` of HTML *before* slicing for `BeautifulSoup` so Next.js / Tailwind App Router sites with >90 KB CSS in `<head>` (such as `logbrew.co`) accurately expose `<title>`, `<meta description>`, and body snippets to Gate 3.
+  - Updated `_extract_section_context` to include less-indented parent grouping bullets (e.g., `H2 > Exception Tracking`) and immediate adjacent sibling links (`sentry.io`), and made `dry_run=True` strictly read-only for PR comments and labels.
+  - Updated the repository GitHub Actions fork approval setting to `first_time_contributors_new_to_github` so established GitHub accounts run Stage 1 (`07.2. Markdown Linter`) -> Stage 2 (`07.1. PR Guardian AI`) automatically.
+
 ## [[2.16.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.2) - 2026-11-28
 
 ### Changed
