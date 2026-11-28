@@ -474,6 +474,7 @@ done
 - [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
 - Exception Tracking:
     - [sentry.io](https://sentry.io/welcome/)
+    - **(2026)** [LogBrew](https://logbrew.co) - Hosted observability tool for error tracking, logs, metrics, and distributed tracing. Errors are grouped into issues, and each issue links to its stack trace, logs, trace, release, and affected users. It ingests OTLP logs, traces, and metrics from any OpenTelemetry SDK or Collector, so a cluster that already runs the Collector can export to it without a new agent. A hosted MCP server and CLI let AI coding agents read the same issues and logs.
     - APMs like Dynatrace, etc.
 - APM Tools:
     - [datadoghq.com](https://www.datadoghq.com)
