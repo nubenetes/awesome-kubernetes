@@ -75,6 +75,7 @@ jobs:
         with:
           repository: ${{ github.repository }}
           ref: master
+          fetch-depth: 0
 
       - name: Python Environment
         if: steps.queue_check.outputs.has_actionable == 'true'
