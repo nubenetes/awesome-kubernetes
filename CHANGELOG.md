@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.16.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.2) - 2026-11-28
+
+### Changed
+- **Global Neoclouds Hub & 7 Child Pages Clickable Provider/Stack Audit (`src/neoclouds_blueprints.py`, `docs/neoclouds*.md`, `v2-docs/neoclouds*.md`, `tests/test_pipeline_invariants.py`)**:
+  - Linked every Neocloud provider, sovereign AI factory, colocation campus (`Equinix`, `Digital Realty`, `atNorth`, `Verne Global`, `Green Mountain`, `Bulk`, `EcoDataCenter`, `Teraco`, `Scala`, `Ascenty`, `KIO`, `Raxio`, `Macquarie`), Internet Exchange (`DE-CIX`, `AMS-IX`, `LINX`, `IX.br`, `NAPAfrica`), supercomputer (`JUPITER`, `LUMI`, `MareNostrum 5`, `Leonardo`, `Alps`, `Jean Zay`, `Fugaku`, `ABCI 3.0`, `Shaheen III`, `Santos Dumont`), regulatory framework (`GDPR`, `EU AI Act`, `DORA`, `NIS2`, `EU Data Act`, `CLOUD Act`, `PIPEDA`, `APPI`, `MeitY`, `MAS TRM`, `ISM/IRAP`, `Saudi NCA`, `LGPD`, `POPIA`), and Kubernetes/AI stack component (`GPU Operator`, `Network Operator`, `DRA`, `KAI Scheduler`, `Kueue`, `Volcano`, `SUNK`, `Pyxis`, `Enroot`, `vLLM`, `SGLang`, `Dynamo`, `TensorRT-LLM`, `Tensorizer`, `DSX Model Streamer`, `Lustre`, `WEKA`, `VAST Data`, `JuiceFS`, `Alluxio`, `Ceph`, `SkyPilot`, `OpenCost`, `DCGM`, `LiteLLM`, `Pulumi`) across `/neoclouds/` and all 7 child pages to live-verified (`HTTP 200`) official URLs.
+  - Updated `DataCrunch` references to its official rebrand **`Verda`** (`verda.com`), updated `NAVER Cloud` to `ncloud.com`, aligned EU/EEA vs. Associated Non-EU European Sovereign (`Switzerland` & `Post-Brexit UK Adequacy`) legal boundary clarity on `/neoclouds/` and `/neoclouds-europe/`, and expanded V1/V2 coverage with `Scaleway Generative APIs`, `Baseten`, `Modal`, `Prime Intellect`, `Cirrascale`, `Cohere`, `Sify Technologies`, `Macquarie Data Centres`, `Moro Hub`, `Cerebras`, `Inception Jais`, `HUMAIN`, `Ooredoo`, `Magalu Cloud`, `SONDA`, and `digitalocean/digitalocean` Terraform provider.
+  - Raised automated minimum external link thresholds in `test_neoclouds_blueprints_have_clickable_provider_links_and_valid_anchors` from `25`/`6` to `150` (`neoclouds.md`), `100` (`neoclouds-europe.md`), and `40` across all remaining Neocloud hubs.
+
 ## [[2.16.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.1) - 2026-11-28
 
 ### Changed

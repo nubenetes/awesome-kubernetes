@@ -495751,10 +495751,12 @@ https://www.cerebras.ai:
   - docs/ai.md
   - docs/api.md
   - docs/chatgpt.md
+  - docs/neoclouds-mena.md
   v2_locations:
   - ai.md
   - api.md
   - chatgpt.md
+  - neoclouds-mena.md
   youtube_mosaic: {}
   category: ai
 https://www.certace.com:
@@ -580247,8 +580249,10 @@ https://www.pulumi.com:
   - '[COMMUNITY-TOOL]'
   v1_locations:
   - docs/pulumi.md
+  - docs/neoclouds-iac-finops-sla.md
   v2_locations:
   - pulumi.md
+  - neoclouds-iac-finops-sla.md
   youtube_mosaic: {}
   category: pulumi
 https://www.pulumi.com/blog/10-more-things-you-can-do-with-neo:
@@ -761351,634 +761355,885 @@ https://www.dutchdatacenters.nl:
   description: "\U0001F31F - Official industry association documenting Amsterdam's
     power-grid policy, Climate Neutral Data Centre Pact adherence, and Dutch/European
     digital infrastructure regulations."
+  year: '2026'
+  stars: 3
   ai_summary: Official industry association documenting Amsterdam's power-grid policy,
     Climate Neutral Data Centre Pact adherence, and Dutch/European digital infrastructure
     regulations.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.374935+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Netherlands & Benelux Cloud & DCs
   - Benelux Cloud Compliance and Digital Infrastructure
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-benelux.md
   v2_locations:
   - eu-cloud-benelux.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.374935+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.bio-overheid.nl:
   title: 'BIO: Baseline Informatiebeveiliging Overheid (Netherlands)'
   description: "\U0001F31F - Mandatory Dutch public-sector information security baseline
     governing cloud architecture and municipal/government data residency in the Netherlands."
-  ai_summary: Mandatory Dutch public-sector information security baseline governing
-    cloud architecture and municipal/government data residency in the Netherlands.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Mandatory Dutch public-sector information security baseline governing
+    cloud architecture and municipal/government data residency in the Netherlands.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.375039+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Netherlands & Benelux Cloud & DCs
   - Benelux Cloud Compliance and Digital Infrastructure
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-benelux.md
   v2_locations:
   - eu-cloud-benelux.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.375039+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.nen.nl/en/certificatie-en-keurmerken-nen-7510:
   title: NEN 7510 Dutch Healthcare Information Security Standard
   description: "\U0001F31F - Statutory Dutch healthcare security certification supported
     by sovereign cloud operators such as Cyso Cloud and Leaseweb."
-  ai_summary: Statutory Dutch healthcare security certification supported by sovereign
-    cloud operators such as Cyso Cloud and Leaseweb.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Statutory Dutch healthcare security certification supported by sovereign
+    cloud operators such as Cyso Cloud and Leaseweb.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.375075+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Netherlands & Benelux Cloud & DCs
   - Benelux Cloud Compliance and Digital Infrastructure
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-benelux.md
   v2_locations:
   - eu-cloud-benelux.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.375075+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://www.cssf.lu/en:
   title: CSSF Luxembourg Financial Sector Regulator (DORA)
   description: "\U0001F31F - Luxembourg's financial supervisory authority overseeing
     DORA operational resilience, cloud outsourcing, and Tier IV financial data-center
     governance."
-  ai_summary: Luxembourg's financial supervisory authority overseeing DORA operational
-    resilience, cloud outsourcing, and Tier IV financial data-center governance.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Luxembourg's financial supervisory authority overseeing DORA operational
+    resilience, cloud outsourcing, and Tier IV financial data-center governance.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.375127+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Netherlands & Benelux Cloud & DCs
   - Benelux Cloud Compliance and Digital Infrastructure
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-benelux.md
   v2_locations:
   - eu-cloud-benelux.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.375127+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.scaleway.com/en:
   title: Scaleway Cloud Platform (Iliad Group)
   description: "\U0001F31F - French developer-first sovereign cloud offering 3-AZ
     Paris/Amsterdam/Warsaw regions, Kubernetes Kapsule and multi-cloud Kosmos, Managed
     Databases, and one of Europe's largest public catalogs of NVIDIA H100/B200/L4
     GPUs and Serverless AI Endpoints."
+  year: '2026'
+  stars: 3
   ai_summary: French developer-first sovereign cloud offering 3-AZ Paris/Amsterdam/Warsaw
     regions, Kubernetes Kapsule and multi-cloud Kosmos, Managed Databases, and one
     of Europe's largest public catalogs of NVIDIA H100/B200/L4 GPUs and Serverless
     AI Endpoints.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.375367+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud and SecNumCloud Providers
-  v1_locations:
-  - docs/eu-cloud-france.md
-  v2_locations:
-  - eu-cloud-france.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.375367+01:00'
   tags:
   - '[EMERGING]'
   - '[GPU]'
   - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-france.md
+  v2_locations:
+  - eu-cloud-france.md
+  youtube_mosaic: {}
 https://www.scaleway.com/en/blog:
   title: Scaleway Engineering Blog
   description: "\U0001F31F - Official engineering blog covering Scaleway's sovereign
     cloud architecture, European AI Factories, Kubernetes Kapsule upgrades, and EU
     Data Act compliance."
-  ai_summary: Official engineering blog covering Scaleway's sovereign cloud architecture,
-    European AI Factories, Kubernetes Kapsule upgrades, and EU Data Act compliance.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official engineering blog covering Scaleway's sovereign cloud architecture,
+    European AI Factories, Kubernetes Kapsule upgrades, and EU Data Act compliance.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.375474+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - France Sovereign Cloud & Private DCs
   - French Sovereign Cloud and SecNumCloud Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-france.md
   v2_locations:
   - eu-cloud-france.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.375474+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://esante.gouv.fr/produits-services/cybersecurite/hds:
   title: ANS HDS (Hebergement de Donnees de Sante) Certification
   description: "\U0001F31F - Mandatory French Digital Health Agency accreditation
     governing sovereign cloud hosting and security controls for personal healthcare
     data in France."
-  ai_summary: Mandatory French Digital Health Agency accreditation governing sovereign
-    cloud hosting and security controls for personal healthcare data in France.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Mandatory French Digital Health Agency accreditation governing sovereign
+    cloud hosting and security controls for personal healthcare data in France.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.375966+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - France Sovereign Cloud & Private DCs
   - French National Compliance and Trust Frameworks
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-france.md
   v2_locations:
   - eu-cloud-france.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.375966+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://documentation.syseleven.de:
   title: SysEleven MetaKube Managed Kubernetes Documentation
   description: "\U0001F31F - Berlin-based OpenStack and CNCF Kubernetes documentation
     hub covering Kubermatic/MetaKube managed clusters across multi-AZ German sovereign
     data centers (part of the secunet Group)."
+  year: '2026'
+  stars: 3
   ai_summary: Berlin-based OpenStack and CNCF Kubernetes documentation hub covering
     Kubermatic/MetaKube managed clusters across multi-AZ German sovereign data centers
     (part of the secunet Group).
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.376147+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Germany Sovereign Cloud & Private DCs
   - German Sovereign Cloud and Managed Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[HYPERVISOR]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-germany.md
   - docs/eu-cloud-workloads-stack.md
   v2_locations:
   - eu-cloud-germany.md
   - eu-cloud-workloads-stack.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.376147+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[HYPERVISOR]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://enx.com/en-US/TISAX:
   title: ENX TISAX Automotive Information Security Standard
   description: "\U0001F31F - Mandatory European automotive supply-chain cybersecurity
     assessment framework supported by German sovereign cloud operators including Open
     Telekom Cloud and noris network."
+  year: '2026'
+  stars: 3
   ai_summary: Mandatory European automotive supply-chain cybersecurity assessment
     framework supported by German sovereign cloud operators including Open Telekom
     Cloud and noris network.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.376676+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Germany Sovereign Cloud & Private DCs
   - German Compliance Standards and Sovereign Stack
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-germany.md
   v2_locations:
   - eu-cloud-germany.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.376676+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://github.com/cloudscale-ch/terraform-provider-cloudscale:
   title: cloudscale.ch Official Terraform Provider
   description: "\U0001F31F - Official Swiss OpenStack/REST IaC provider automating
     Zurich and Lupfig servers, block volumes, private networks, load balancers, and
     S3 object users."
-  ai_summary: Official Swiss OpenStack/REST IaC provider automating Zurich and Lupfig
-    servers, block volumes, private networks, load balancers, and S3 object users.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official Swiss OpenStack/REST IaC provider automating Zurich and Lupfig
+    servers, block volumes, private networks, load balancers, and S3 object users.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.377122+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - IaC Automation & Maturity vs Hyperscalers
   - Official Terraform and OpenTofu Providers for European Clouds
-  v1_locations:
-  - docs/eu-cloud-iac-maturity.md
-  v2_locations:
-  - eu-cloud-iac-maturity.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.377122+01:00'
   tags:
   - '[EMERGING]'
   - '[HYPERVISOR]'
   - '[SOVEREIGN-EU]'
+  v1_locations:
+  - docs/eu-cloud-iac-maturity.md
+  v2_locations:
+  - eu-cloud-iac-maturity.md
+  youtube_mosaic: {}
 https://github.com/anexia-it/terraform-provider-anxcloud:
   title: Anexia Engine (ANXCloud) Official Terraform Provider
   description: "\U0001F31F - Official Austrian/DACH IaC provider automating Anexia
     VMs, Managed Kubernetes clusters, VLANs, DNS, and Load Balancers."
-  ai_summary: Official Austrian/DACH IaC provider automating Anexia VMs, Managed Kubernetes
-    clusters, VLANs, DNS, and Load Balancers.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official Austrian/DACH IaC provider automating Anexia VMs, Managed Kubernetes
+    clusters, VLANs, DNS, and Load Balancers.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.377168+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - IaC Automation & Maturity vs Hyperscalers
   - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-iac-maturity.md
   v2_locations:
   - eu-cloud-iac-maturity.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.377168+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://github.com/leaseweb/terraform-provider-leaseweb:
   title: Leaseweb Official Terraform Provider
   description: "\U0001F31F - Official Dutch bare-metal and public-cloud Terraform
     provider managing dedicated server provisioning, private networking, and IPs."
-  ai_summary: Official Dutch bare-metal and public-cloud Terraform provider managing
-    dedicated server provisioning, private networking, and IPs.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official Dutch bare-metal and public-cloud Terraform provider managing
+    dedicated server provisioning, private networking, and IPs.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.377235+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - IaC Automation & Maturity vs Hyperscalers
   - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-iac-maturity.md
   v2_locations:
   - eu-cloud-iac-maturity.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.377235+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://github.com/G-Core/terraform-provider-gcore:
   title: Gcore Official Terraform Provider
   description: "\U0001F31F - Official Luxembourg-HQ cloud and Edge AI provider managing
     bare metal, VMs, Managed Kubernetes, CDN, and European GPU instances."
-  ai_summary: Official Luxembourg-HQ cloud and Edge AI provider managing bare metal,
-    VMs, Managed Kubernetes, CDN, and European GPU instances.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official Luxembourg-HQ cloud and Edge AI provider managing bare metal,
+    VMs, Managed Kubernetes, CDN, and European GPU instances.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.377333+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - IaC Automation & Maturity vs Hyperscalers
   - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
   v1_locations:
   - docs/eu-cloud-iac-maturity.md
   v2_locations:
   - eu-cloud-iac-maturity.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.377333+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[GPU]'
+  youtube_mosaic: {}
 https://github.com/CleverCloud/terraform-provider-clevercloud:
   title: Clever Cloud Official Terraform Provider
   description: "\U0001F31F - Official French PaaS Terraform provider managing zero-ops
     runtimes, PostgreSQL/Redis/Materia databases, and Keycloak add-ons."
-  ai_summary: Official French PaaS Terraform provider managing zero-ops runtimes,
-    PostgreSQL/Redis/Materia databases, and Keycloak add-ons.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official French PaaS Terraform provider managing zero-ops runtimes,
+    PostgreSQL/Redis/Materia databases, and Keycloak add-ons.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.377372+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - IaC Automation & Maturity vs Hyperscalers
   - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-iac-maturity.md
   v2_locations:
   - eu-cloud-iac-maturity.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.377372+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://github.com/brightbox/terraform-provider-brightbox:
   title: Brightbox Official Terraform Provider
   description: "\U0001F31F - Official British IaaS provider automating UK cloud servers,
     cloud IPs, load balancers, firewall policies, and Orbit storage."
-  ai_summary: Official British IaaS provider automating UK cloud servers, cloud IPs,
-    load balancers, firewall policies, and Orbit storage.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official British IaaS provider automating UK cloud servers, cloud IPs,
+    load balancers, firewall policies, and Orbit storage.
   language: English
   resource_type: Tool
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.377405+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - IaC Automation & Maturity vs Hyperscalers
   - Official Terraform and OpenTofu Providers for European Clouds
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-iac-maturity.md
   v2_locations:
   - eu-cloud-iac-maturity.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.377405+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://bahnhof.se:
   title: Bahnhof Swedish Sovereign Cloud and Bunker Data Centers
   description: "\U0001F31F - Iconic independent Swedish ISP and cloud operator running
     ultra-resilient underground Stockholm facilities (including Pionen) with strict
     Swedish privacy governance and renewable power."
+  year: '2026'
+  stars: 3
   ai_summary: Iconic independent Swedish ISP and cloud operator running ultra-resilient
     underground Stockholm facilities (including Pionen) with strict Swedish privacy
     governance and renewable power.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.378082+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Nordics Green Cloud & AI Factories
   - Nordic Sovereign Cloud and 3-AZ OpenStack Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-nordics.md
   v2_locations:
   - eu-cloud-nordics.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.378082+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://www.digg.se/en:
   title: 'Digg: Swedish Agency for Digital Government'
   description: "\U0001F31F - Official Swedish public-sector digital authority issuing
     sovereign cloud procurement, security, and Schrems II compliance guidance across
     Sweden."
-  ai_summary: Official Swedish public-sector digital authority issuing sovereign cloud
-    procurement, security, and Schrems II compliance guidance across Sweden.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official Swedish public-sector digital authority issuing sovereign cloud
+    procurement, security, and Schrems II compliance guidance across Sweden.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.378370+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Nordics Green Cloud & AI Factories
   - Nordic Interconnection and Sovereign Governance
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-nordics.md
   v2_locations:
   - eu-cloud-nordics.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.378370+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://www.fedlex.admin.ch/eli/cc/2022/491/en:
   title: Swiss Federal Act on Data Protection (Revised FADP / revDSG)
   description: "\U0001F31F - Official Swiss Confederation data-protection statute
     governing cross-border data transfers, privacy-by-default controls, and sovereign
     Swiss data custody."
-  ai_summary: Official Swiss Confederation data-protection statute governing cross-border
-    data transfers, privacy-by-default controls, and sovereign Swiss data custody.
   year: '2026'
   stars: 3
-  status: online
+  ai_summary: Official Swiss Confederation data-protection statute governing cross-border
+    data transfers, privacy-by-default controls, and sovereign Swiss data custody.
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.379195+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - Switzerland & Austria (Alpine Sovereign)
   - Swiss FINMA FADP and Neutrality Compliance
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-switzerland-dach.md
   v2_locations:
   - eu-cloud-switzerland-dach.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.379195+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.ans.co.uk:
   title: ANS Group UK Sovereign Cloud and Digital Transformation
   description: "\U0001F31F - Manchester-headquartered British cloud and G-Cloud public-sector
     specialist providing UK-sovereign private cloud, Kubernetes, and security-cleared
     managed operations for NHS and local government."
+  year: '2026'
+  stars: 3
   ai_summary: Manchester-headquartered British cloud and G-Cloud public-sector specialist
     providing UK-sovereign private cloud, Kubernetes, and security-cleared managed
     operations for NHS and local government.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.379429+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - United Kingdom Sovereign Cloud & DCs
   - United Kingdom Sovereign Cloud and Kubernetes Providers
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
   v1_locations:
   - docs/eu-cloud-uk.md
   v2_locations:
   - eu-cloud-uk.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.379429+01:00'
-  tags:
-  - '[EMERGING]'
-  - '[SOVEREIGN-EU]'
+  youtube_mosaic: {}
 https://www.crownhostingdc.co.uk:
   title: Crown Hosting Data Centres (UK Cabinet Office and Ark JV)
   description: "\U0001F31F - Joint venture between the UK Cabinet Office and Ark Data
     Centres providing high-efficiency, security-cleared sovereign colocation halls
     for UK central government departments and public bodies."
+  year: '2026'
+  stars: 3
   ai_summary: Joint venture between the UK Cabinet Office and Ark Data Centres providing
     high-efficiency, security-cleared sovereign colocation halls for UK central government
     departments and public bodies.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.379506+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - United Kingdom Sovereign Cloud & DCs
   - London Docklands Slough and Regional UK Colocation and AI Data Centers
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-uk.md
   v2_locations:
   - eu-cloud-uk.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.379506+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources:
   title: 'UK ICO: UK GDPR Official Guidance and Resources'
   description: "\U0001F31F - Information Commissioner's Office reference governing
     post-Brexit UK data protection, international data transfer agreements (IDTA),
     and EU–UK adequacy compliance."
+  year: '2026'
+  stars: 3
   ai_summary: Information Commissioner's Office reference governing post-Brexit UK
     data protection, international data transfer agreements (IDTA), and EU–UK adequacy
     compliance.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.379625+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - United Kingdom Sovereign Cloud & DCs
   - UK NCSC G-Cloud and Financial Operational Resilience
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-uk.md
   v2_locations:
   - eu-cloud-uk.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.379625+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://www.fca.org.uk/firms/operational-resilience:
   title: UK FCA Operational Resilience Framework
   description: "\U0001F31F - Financial Conduct Authority rulebook mandating impact
     tolerances, Critical Third Party risk governance, and tested multi-provider cloud
     exit plans for UK financial institutions."
+  year: '2026'
+  stars: 3
   ai_summary: Financial Conduct Authority rulebook mandating impact tolerances, Critical
     Third Party risk governance, and tested multi-provider cloud exit plans for UK
     financial institutions.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.379657+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - United Kingdom Sovereign Cloud & DCs
   - UK NCSC G-Cloud and Financial Operational Resilience
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-cloud-uk.md
   v2_locations:
   - eu-cloud-uk.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.379657+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://digital-strategy.ec.europa.eu/en/policies/nis2-directive:
   title: EU NIS2 Directive Official Policy Portal
   description: "\U0001F31F - Official European Commission cybersecurity framework
     governing supply-chain security, 24-hour incident reporting, and encrypted backup
     resilience across critical infrastructure and cloud MSPs."
+  year: '2026'
+  stars: 3
   ai_summary: Official European Commission cybersecurity framework governing supply-chain
     security, 24-hour incident reporting, and encrypted backup resilience across critical
     infrastructure and cloud MSPs.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.380325+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - EU Sovereign Cloud Overview & TCO
   - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-sovereign-cloud.md
   v2_locations:
   - eu-sovereign-cloud.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.380325+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai:
   title: EU Artificial Intelligence Act Regulatory Framework
   description: "\U0001F31F - Binding European regulatory framework defining risk tiers,
     model transparency, training-data governance, and sovereign auditability for foundation
     models and enterprise AI workloads."
+  year: '2026'
+  stars: 3
   ai_summary: Binding European regulatory framework defining risk tiers, model transparency,
     training-data governance, and sovereign auditability for foundation models and
     enterprise AI workloads.
-  year: '2026'
-  stars: 3
-  status: online
   language: English
   resource_type: Reference
   complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.380398+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
   hierarchy:
   - European Sovereign Cloud & Private DCs
   - EU Sovereign Cloud Overview & TCO
   - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  tags:
+  - '[EMERGING]'
   v1_locations:
   - docs/eu-sovereign-cloud.md
   v2_locations:
   - eu-sovereign-cloud.md
-  addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.380398+01:00'
-  tags:
-  - '[EMERGING]'
+  youtube_mosaic: {}
 https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en:
   title: European Commission Data Protection Adequacy Decisions
   description: "\U0001F31F - Authoritative registry governing personal data transfers
     between the EU/EEA and non-EU third countries including Switzerland and the post-Brexit
     United Kingdom."
+  year: '2026'
+  stars: 3
   ai_summary: Authoritative registry governing personal data transfers between the
     EU/EEA and non-EU third countries including Switzerland and the post-Brexit United
     Kingdom.
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  is_microservice: false
+  status: online
+  addition_method: manual
+  content_hash: null
+  health_score: null
+  last_checked: null
+  needs_ai_refresh: false
+  discovered_at: '2026-11-28T00:44:39.380454+01:00'
+  last_ai_eval: null
+  company: null
+  geo_region: null
+  hierarchy:
+  - European Sovereign Cloud & Private DCs
+  - EU Sovereign Cloud Overview & TCO
+  - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  tags:
+  - '[EMERGING]'
+  v1_locations:
+  - docs/eu-sovereign-cloud.md
+  v2_locations:
+  - eu-sovereign-cloud.md
+  youtube_mosaic: {}
+https://www.ncloud.com:
+  title: NAVER Cloud HyperCLOVA and Korean Sovereign AI
+  description: "\U0001F31F - South Korea's flagship cloud platform operating Sejong
+    City hyperscale GAK data centers for Korean-sovereign foundation training and
+    CSAP-certified public-sector AI."
+  ai_summary: South Korea's flagship cloud platform operating Sejong City hyperscale
+    GAK data centers for Korean-sovereign foundation training and CSAP-certified public-sector
+    AI.
   year: '2026'
   stars: 3
   status: online
@@ -761986,14 +762241,751 @@ https://commission.europa.eu/law/law-topic/data-protection/international-dimensi
   resource_type: Reference
   complexity: Intermediate
   hierarchy:
-  - European Sovereign Cloud & Private DCs
-  - EU Sovereign Cloud Overview & TCO
-  - EU Regulatory Frameworks GDPR DORA NIS2 EU Data Act
+  - Neoclouds & GPU AI Clouds
+  - Asia-Pacific Neoclouds & AI Clouds
+  - Japan and South Korea Sovereign GPU Neoclouds
   v1_locations:
-  - docs/eu-sovereign-cloud.md
+  - docs/neoclouds-apac.md
   v2_locations:
-  - eu-sovereign-cloud.md
+  - neoclouds-apac.md
   addition_method: manual
-  discovered_at: '2026-11-28T00:44:39.380454+01:00'
+  discovered_at: '2026-11-28T01:02:20.835368+01:00'
   tags:
   - '[EMERGING]'
+https://www.sifytechnologies.com:
+  title: Sify Technologies NVIDIA DGX-Ready AI Data Centers (India)
+  description: "\U0001F31F - Carrier-neutral Indian data center and cloud operator
+    running liquid-cooled NVIDIA DGX-ready campuses across Mumbai, Chennai, Noida,
+    Bangalore, and Hyderabad."
+  ai_summary: Carrier-neutral Indian data center and cloud operator running liquid-cooled
+    NVIDIA DGX-ready campuses across Mumbai, Chennai, Noida, Bangalore, and Hyderabad.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Asia-Pacific Neoclouds & AI Clouds
+  - India National AI Mission and Sovereign GPU Clouds
+  v1_locations:
+  - docs/neoclouds-apac.md
+  v2_locations:
+  - neoclouds-apac.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.835601+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+https://macquariedatacentres.com:
+  title: Macquarie Data Centres Sovereign AI Campuses (Australia)
+  description: "\U0001F31F - Australian sovereign data center operator (Sydney IC3
+    Super West and Canberra Bunker campuses) certified to Australian Government ISM
+    / IRAP Strategic levels for defence and enterprise AI."
+  ai_summary: Australian sovereign data center operator (Sydney IC3 Super West and
+    Canberra Bunker campuses) certified to Australian Government ISM / IRAP Strategic
+    levels for defence and enterprise AI.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Asia-Pacific Neoclouds & AI Clouds
+  - Singapore Australia and ASEAN Immersion AI Factories
+  v1_locations:
+  - docs/neoclouds-apac.md
+  v2_locations:
+  - neoclouds-apac.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.835732+01:00'
+  tags:
+  - '[EMERGING]'
+https://github.com/NVIDIA/nccl:
+  title: NVIDIA NCCL Collective Communications Library
+  description: "\U0001F31F - Multi-GPU and multi-node collective communication primitives
+    (`AllReduce`, `AllGather`, `ReduceScatter`, `AllToAll`) optimized for NVLink,
+    Quantum InfiniBand, and Spectrum-X RoCEv2."
+  ai_summary: Multi-GPU and multi-node collective communication primitives (`AllReduce`,
+    `AllGather`, `ReduceScatter`, `AllToAll`) optimized for NVLink, Quantum InfiniBand,
+    and Spectrum-X RoCEv2.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - GPU Fabrics, InfiniBand, Slurm vs K8s & Storage
+  - GPU Silicon and Non-Blocking AI Networking Fabrics
+  v1_locations:
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - neoclouds-architecture-stack.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.835981+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[NEOCLOUD]'
+https://www.nvidia.com/en-us/networking/products/data-processing-unit:
+  title: NVIDIA BlueField Networking Platform (DPUs and SuperNICs)
+  description: "\U0001F31F - Hardware-accelerated Data Processing Units isolating
+    multi-tenant Neocloud control planes, storage encryption, and adaptive RoCEv2
+    congestion telemetry from host CPUs."
+  ai_summary: Hardware-accelerated Data Processing Units isolating multi-tenant Neocloud
+    control planes, storage encryption, and adaptive RoCEv2 congestion telemetry from
+    host CPUs.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - GPU Fabrics, InfiniBand, Slurm vs K8s & Storage
+  - GPU Silicon and Non-Blocking AI Networking Fabrics
+  v1_locations:
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - neoclouds-architecture-stack.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.836024+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[NEOCLOUD]'
+https://github.com/NVIDIA/TensorRT-LLM:
+  title: NVIDIA TensorRT-LLM High-Performance Inference SDK
+  description: "\U0001F31F - Open-source CUDA/TensorRT inference compiler optimizing
+    FP8/FP4 quantization, in-flight batching, and multi-node NVLink execution on Hopper
+    and Blackwell GPUs."
+  ai_summary: Open-source CUDA/TensorRT inference compiler optimizing FP8/FP4 quantization,
+    in-flight batching, and multi-node NVLink execution on Hopper and Blackwell GPUs.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - GPU Fabrics, InfiniBand, Slurm vs K8s & Storage
+  - Slurm vs Kubernetes GPU Schedulers and Distributed Inference
+  v1_locations:
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - neoclouds-architecture-stack.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.836612+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[LLM]'
+https://volcano.sh:
+  title: Volcano CNCF Batch and AI Gang Scheduler
+  description: "\U0001F31F - CNCF Kubernetes batch scheduling system providing gang
+    scheduling, topology-aware GPU bin-packing, and fair-share queues for distributed
+    PyTorch and MPI jobs."
+  ai_summary: CNCF Kubernetes batch scheduling system providing gang scheduling, topology-aware
+    GPU bin-packing, and fair-share queues for distributed PyTorch and MPI jobs.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - GPU Fabrics, InfiniBand, Slurm vs K8s & Storage
+  - Slurm vs Kubernetes GPU Schedulers and Distributed Inference
+  v1_locations:
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - neoclouds-architecture-stack.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.836654+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[MLOPS]'
+https://github.com/coreweave/tensorizer:
+  title: 'CoreWeave Tensorizer: Ultra-Fast Kubernetes Model Deserialization'
+  description: "\U0001F31F - Open-source PyTorch tensor streaming serializer loading
+    multi-gigabyte model weights directly from S3/HTTP into GPU VRAM in seconds to
+    slash cold-start autoscaling latency."
+  ai_summary: Open-source PyTorch tensor streaming serializer loading multi-gigabyte
+    model weights directly from S3/HTTP into GPU VRAM in seconds to slash cold-start
+    autoscaling latency.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - GPU Fabrics, InfiniBand, Slurm vs K8s & Storage
+  - Parallel NVMe Filesystems and Checkpoint Storage
+  v1_locations:
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - neoclouds-architecture-stack.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.836757+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[NEOCLOUD]'
+https://github.com/dsx-ai-factory/model-streamer:
+  title: Run:ai / DSX Model Streamer
+  description: "\U0001F31F - High-concurrency safetensors weight streamer accelerating
+    container startup across Kubernetes vLLM inference fleets from object and file
+    storage."
+  ai_summary: High-concurrency safetensors weight streamer accelerating container
+    startup across Kubernetes vLLM inference fleets from object and file storage.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - GPU Fabrics, InfiniBand, Slurm vs K8s & Storage
+  - Parallel NVMe Filesystems and Checkpoint Storage
+  v1_locations:
+  - docs/neoclouds-architecture-stack.md
+  v2_locations:
+  - neoclouds-architecture-stack.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.836794+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+https://www.scaleway.com/en/generative-apis:
+  title: Scaleway Serverless Generative APIs
+  description: "\U0001F31F - European-hosted OpenAI-compatible serverless inference
+    endpoints running open-weight Mistral, Llama, and DeepSeek models inside French
+    data centers with GDPR and EU AI Act compliance."
+  ai_summary: European-hosted OpenAI-compatible serverless inference endpoints running
+    open-weight Mistral, Llama, and DeepSeek models inside French data centers with
+    GDPR and EU AI Act compliance.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - European Neoclouds & Country AI Factories
+  - Netherlands Benelux and France Neoclouds
+  v1_locations:
+  - docs/neoclouds-europe.md
+  v2_locations:
+  - neoclouds-europe.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.836941+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://verda.com:
+  title: Verda (formerly DataCrunch) Nordic Sovereign GPU Neocloud
+  description: "\U0001F31F - Helsinki-headquartered European AI Neocloud operating
+    100% renewable-powered NVIDIA H100, H200, and Blackwell B200 InfiniBand clusters
+    across Finland and Iceland under EU jurisdiction."
+  ai_summary: Helsinki-headquartered European AI Neocloud operating 100% renewable-powered
+    NVIDIA H100, H200, and Blackwell B200 InfiniBand clusters across Finland and Iceland
+    under EU jurisdiction.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - European Neoclouds & Country AI Factories
+  - Nordics Alpine and UK Neoclouds plus EuroHPC AI Factories
+  v1_locations:
+  - docs/neoclouds-europe.md
+  - docs/neoclouds.md
+  v2_locations:
+  - neoclouds-europe.md
+  - neoclouds.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.837318+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[NEOCLOUD]'
+https://github.com/digitalocean/terraform-provider-digitalocean:
+  title: DigitalOcean Official Terraform Provider (`digitalocean/digitalocean`)
+  description: "\U0001F31F - Mature Terraform/OpenTofu provider automating DigitalOcean
+    GPU Droplets (H100/H200/MI300X), DOKS Kubernetes GPU node pools, VPCs, and Spaces
+    S3 storage."
+  ai_summary: Mature Terraform/OpenTofu provider automating DigitalOcean GPU Droplets
+    (H100/H200/MI300X), DOKS Kubernetes GPU node pools, VPCs, and Spaces S3 storage.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Tool
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Neocloud IaC Maturity, GPU FinOps & SLAs
+  - Neocloud IaC Providers and Multi-Cloud Schedulers
+  v1_locations:
+  - docs/neoclouds-iac-finops-sla.md
+  v2_locations:
+  - neoclouds-iac-finops-sla.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.837768+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+https://scaladatacenters.com:
+  title: 'Scala Data Centers: Hyperscale Sustainable AI Campuses (LatAm)'
+  description: "\U0001F31F - Latin American hyperscale data center platform anchored
+    by Tambore (Sao Paulo) AI City campuses engineered for high-density liquid-cooled
+    GPU clusters across Brazil, Chile, Mexico, and Colombia."
+  ai_summary: Latin American hyperscale data center platform anchored by Tambore (Sao
+    Paulo) AI City campuses engineered for high-density liquid-cooled GPU clusters
+    across Brazil, Chile, Mexico, and Colombia.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Latin America & Africa AI Cloud Hubs
+  - Latin America Renewable AI Data Centers and Subsea Hubs
+  v1_locations:
+  - docs/neoclouds-latam-africa.md
+  v2_locations:
+  - neoclouds-latam-africa.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838062+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+https://ascenty.com:
+  title: Ascenty Carrier-Neutral Data Centers (Brazil, Chile, Mexico, Colombia)
+  description: "\U0001F31F - Latin America's largest colocation footprint (30+ Tier
+    III+ data centers interconnected by proprietary fiber) hosting cloud on-ramps
+    and private enterprise AI racks."
+  ai_summary: Latin America's largest colocation footprint (30+ Tier III+ data centers
+    interconnected by proprietary fiber) hosting cloud on-ramps and private enterprise
+    AI racks.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Latin America & Africa AI Cloud Hubs
+  - Latin America Renewable AI Data Centers and Subsea Hubs
+  v1_locations:
+  - docs/neoclouds-latam-africa.md
+  v2_locations:
+  - neoclouds-latam-africa.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838097+01:00'
+  tags:
+  - '[EMERGING]'
+https://magalu.cloud:
+  title: 'Magalu Cloud: Brazilian Sovereign Public Cloud and GPUs'
+  description: "\U0001F31F - 100% Brazilian-owned public cloud offering BRL-billed
+    Kubernetes, object storage, and GPU instances across Sao Paulo and Northeast Brazil
+    without US CLOUD Act exposure."
+  ai_summary: 100% Brazilian-owned public cloud offering BRL-billed Kubernetes, object
+    storage, and GPU instances across Sao Paulo and Northeast Brazil without US CLOUD
+    Act exposure.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Latin America & Africa AI Cloud Hubs
+  - Latin America Renewable AI Data Centers and Subsea Hubs
+  v1_locations:
+  - docs/neoclouds-latam-africa.md
+  v2_locations:
+  - neoclouds-latam-africa.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838127+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+https://www.sonda.com:
+  title: SONDA Sovereign Cloud and Enterprise AI (Chile and LatAm)
+  description: "\U0001F31F - Leading Chilean and pan-Latin American IT integrator
+    operating Tier III+/IV regional cloud data centers and sovereign enterprise AI
+    deployments across 10+ countries."
+  ai_summary: Leading Chilean and pan-Latin American IT integrator operating Tier
+    III+/IV regional cloud data centers and sovereign enterprise AI deployments across
+    10+ countries.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Latin America & Africa AI Cloud Hubs
+  - Latin America Renewable AI Data Centers and Subsea Hubs
+  v1_locations:
+  - docs/neoclouds-latam-africa.md
+  v2_locations:
+  - neoclouds-latam-africa.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838157+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://ix.br:
+  title: IX.br (Brazil Internet Exchange / PTT Metro)
+  description: "\U0001F31F - One of the world's highest-traffic national Internet
+    Exchange systems interconnecting 35+ Brazilian metropolitan peering points for
+    sub-10ms sovereign cloud and AI inference routing."
+  ai_summary: One of the world's highest-traffic national Internet Exchange systems
+    interconnecting 35+ Brazilian metropolitan peering points for sub-10ms sovereign
+    cloud and AI inference routing.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Latin America & Africa AI Cloud Hubs
+  - Latin America Renewable AI Data Centers and Subsea Hubs
+  v1_locations:
+  - docs/neoclouds-latam-africa.md
+  v2_locations:
+  - neoclouds-latam-africa.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838187+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://www.teraco.co.za:
+  title: Teraco Data Environments and NAPAfrica (South Africa)
+  description: "\U0001F31F - Africa's largest vendor-neutral data center and interconnection
+    platform (Johannesburg, Cape Town, Durban) backed by utility-scale solar wheeling
+    for regional cloud and AI pods."
+  ai_summary: Africa's largest vendor-neutral data center and interconnection platform
+    (Johannesburg, Cape Town, Durban) backed by utility-scale solar wheeling for regional
+    cloud and AI pods.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Latin America & Africa AI Cloud Hubs
+  - Africa Continental AI Factories and Sovereign Data Hubs
+  v1_locations:
+  - docs/neoclouds-latam-africa.md
+  v2_locations:
+  - neoclouds-latam-africa.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838366+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.morohub.com:
+  title: 'Moro Hub (DEWA Digital): Solar-Powered Green AI Data Centers (UAE)'
+  description: "\U0001F31F - Dubai Electricity and Water Authority digital arm operating
+    Guinness-certified solar-powered Tier III+ sovereign cloud and enterprise AI campuses
+    in Dubai."
+  ai_summary: Dubai Electricity and Water Authority digital arm operating Guinness-certified
+    solar-powered Tier III+ sovereign cloud and enterprise AI campuses in Dubai.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Middle East & GCC Sovereign AI Factories
+  - UAE Sovereign AI Infrastructure and Cloud Hubs
+  v1_locations:
+  - docs/neoclouds-mena.md
+  v2_locations:
+  - neoclouds-mena.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838524+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[SOVEREIGN-EU]'
+https://huggingface.co/inceptionai:
+  title: Inception Jais Bilingual Arabic-English Foundation Models
+  description: "\U0001F31F - Open-weight bilingual Arabic-English LLMs trained on
+    Condor Galaxy / Core42 sovereign supercomputers for enterprise Middle East RAG
+    and government digital services."
+  ai_summary: Open-weight bilingual Arabic-English LLMs trained on Condor Galaxy /
+    Core42 sovereign supercomputers for enterprise Middle East RAG and government
+    digital services.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Middle East & GCC Sovereign AI Factories
+  - UAE Sovereign AI Infrastructure and Cloud Hubs
+  v1_locations:
+  - docs/neoclouds-mena.md
+  v2_locations:
+  - neoclouds-mena.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838609+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+https://www.humain.com:
+  title: 'HUMAIN: Saudi Sovereign AI Value-Chain Champion (PIF)'
+  description: "\U0001F31F - Saudi Public Investment Fund flagship AI company building
+    multi-hundred-megawatt NVIDIA Blackwell AI factories, sovereign cloud platforms,
+    and Arabic multimodal models inside the Kingdom."
+  ai_summary: Saudi Public Investment Fund flagship AI company building multi-hundred-megawatt
+    NVIDIA Blackwell AI factories, sovereign cloud platforms, and Arabic multimodal
+    models inside the Kingdom.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Middle East & GCC Sovereign AI Factories
+  - Saudi Arabia and Qatar National AI Cloud Factories
+  v1_locations:
+  - docs/neoclouds-mena.md
+  v2_locations:
+  - neoclouds-mena.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838663+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[NEOCLOUD]'
+  - '[SOVEREIGN-EU]'
+https://nca.gov.sa/en:
+  title: Saudi National Cybersecurity Authority (NCA Cloud Controls)
+  description: "\U0001F31F - Official Kingdom of Saudi Arabia cybersecurity regulator
+    enforcing Essential Cybersecurity Controls (ECC) and Cloud Cybersecurity Controls
+    (CCC) for sovereign AI and cloud workloads."
+  ai_summary: Official Kingdom of Saudi Arabia cybersecurity regulator enforcing Essential
+    Cybersecurity Controls (ECC) and Cloud Cybersecurity Controls (CCC) for sovereign
+    AI and cloud workloads.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Middle East & GCC Sovereign AI Factories
+  - Saudi Arabia and Qatar National AI Cloud Factories
+  v1_locations:
+  - docs/neoclouds-mena.md
+  v2_locations:
+  - neoclouds-mena.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838701+01:00'
+  tags:
+  - '[EMERGING]'
+https://www.ooredoo.com:
+  title: Ooredoo Sovereign NVIDIA Cloud Partner (Qatar and MENA)
+  description: "\U0001F31F - Regional telecom group deploying sovereign NVIDIA GPU-as-a-Service
+    clusters across Qatar, Oman, Kuwait, Tunisia, and Iraq with strict domestic national
+    data residency."
+  ai_summary: Regional telecom group deploying sovereign NVIDIA GPU-as-a-Service clusters
+    across Qatar, Oman, Kuwait, Tunisia, and Iraq with strict domestic national data
+    residency.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - Middle East & GCC Sovereign AI Factories
+  - Saudi Arabia and Qatar National AI Cloud Factories
+  v1_locations:
+  - docs/neoclouds-mena.md
+  v2_locations:
+  - neoclouds-mena.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838729+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[NEOCLOUD]'
+https://www.cirrascale.com:
+  title: 'Cirrascale Cloud Services: Dedicated Bare-Metal AI Clusters'
+  description: "\U0001F31F - Specialized North American bare-metal AI cloud hosting
+    multi-rack NVIDIA H100/H200/Blackwell and custom AI accelerator pods with flat
+    predictable monthly billing."
+  ai_summary: Specialized North American bare-metal AI cloud hosting multi-rack NVIDIA
+    H100/H200/Blackwell and custom AI accelerator pods with flat predictable monthly
+    billing.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - North America Neoclouds (US & Canada)
+  - Large-Scale Bare-Metal Training Neoclouds
+  v1_locations:
+  - docs/neoclouds-north-america.md
+  v2_locations:
+  - neoclouds-north-america.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.838984+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+https://www.primeintellect.ai:
+  title: 'Prime Intellect: Distributed AI Compute and RL Training Cloud'
+  description: "\U0001F31F - Decentralized and multi-Neocloud GPU aggregation platform
+    orchestrating on-demand H100/H200/B200 clusters and distributed reinforcement-learning
+    training across verified global providers."
+  ai_summary: Decentralized and multi-Neocloud GPU aggregation platform orchestrating
+    on-demand H100/H200/B200 clusters and distributed reinforcement-learning training
+    across verified global providers.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - North America Neoclouds (US & Canada)
+  - Large-Scale Bare-Metal Training Neoclouds
+  v1_locations:
+  - docs/neoclouds-north-america.md
+  v2_locations:
+  - neoclouds-north-america.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.839016+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[NEOCLOUD]'
+https://www.baseten.co:
+  title: 'Baseten: High-Performance Model Inference Infrastructure'
+  description: "\U0001F31F - Production ML inference platform pairing TensorRT-LLM
+    model compilation and Truss Python packaging with sub-second autoscaling across
+    dedicated and multi-cloud NVIDIA H100/B200 GPUs."
+  ai_summary: Production ML inference platform pairing TensorRT-LLM model compilation
+    and Truss Python packaging with sub-second autoscaling across dedicated and multi-cloud
+    NVIDIA H100/B200 GPUs.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - North America Neoclouds (US & Canada)
+  - Serverless Inference Elastic GPU and Canadian Green AI Hubs
+  v1_locations:
+  - docs/neoclouds-north-america.md
+  - docs/neoclouds.md
+  v2_locations:
+  - neoclouds-north-america.md
+  - neoclouds.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.839089+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+  - '[LLM]'
+https://modal.com:
+  title: 'Modal: Serverless Python GPU Cloud'
+  description: "\U0001F31F - Developer-first serverless AI infrastructure spinning
+    up containerized H100, H200, B200, and L40S GPU functions directly from Python
+    code in sub-second cold boots with per-second billing."
+  ai_summary: Developer-first serverless AI infrastructure spinning up containerized
+    H100, H200, B200, and L40S GPU functions directly from Python code in sub-second
+    cold boots with per-second billing.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - North America Neoclouds (US & Canada)
+  - Serverless Inference Elastic GPU and Canadian Green AI Hubs
+  v1_locations:
+  - docs/neoclouds-north-america.md
+  - docs/neoclouds.md
+  v2_locations:
+  - neoclouds-north-america.md
+  - neoclouds.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.839120+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[GPU]'
+https://cohere.com:
+  title: 'Cohere: Canadian Enterprise Sovereign LLMs and Private Deployment'
+  description: "\U0001F31F - Toronto-headquartered enterprise AI lab providing Command/Embed/Rerank
+    models engineered for private Kubernetes VPC, air-gapped sovereign Neoclouds,
+    and Canadian data residency."
+  ai_summary: Toronto-headquartered enterprise AI lab providing Command/Embed/Rerank
+    models engineered for private Kubernetes VPC, air-gapped sovereign Neoclouds,
+    and Canadian data residency.
+  year: '2026'
+  stars: 3
+  status: online
+  language: English
+  resource_type: Reference
+  complexity: Intermediate
+  hierarchy:
+  - Neoclouds & GPU AI Clouds
+  - North America Neoclouds (US & Canada)
+  - Serverless Inference Elastic GPU and Canadian Green AI Hubs
+  v1_locations:
+  - docs/neoclouds-north-america.md
+  v2_locations:
+  - neoclouds-north-america.md
+  addition_method: manual
+  discovered_at: '2026-11-28T01:02:20.839273+01:00'
+  tags:
+  - '[EMERGING]'
+  - '[LLM]'
+  - '[NEOCLOUD]'

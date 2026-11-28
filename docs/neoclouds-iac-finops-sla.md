@@ -15,6 +15,8 @@ Curated engineering reference for automating GPU Neoclouds with **Terraform, Ope
 - **(2026)** [Scaleway Official Terraform Provider (`scaleway/scaleway`)](https://github.com/scaleway/terraform-provider-scaleway) 🌟 - Mature European Terraform/OpenTofu provider (85% coverage) automating Scaleway H100/L40S instances, Kapsule Kubernetes GPU pools, Private VPCs, and S3 buckets.
 - **(2026)** [Civo Official Terraform Provider (`civo/civo`)](https://github.com/civo/terraform-provider-civo) 🌟 - Lightweight Terraform provider automating sub-2-minute Civo Kubernetes and sovereign UK GPU worker pools.
 - **(2026)** [RunPod Official Terraform Provider (`runpod/runpod`)](https://github.com/runpod/terraform-provider-runpod) 🌟 - Declarative IaC provider automating RunPod Secure Cloud GPU pods, Serverless vLLM workers, and Network Volumes.
+- **(2026)** [DigitalOcean Official Terraform Provider (`digitalocean/digitalocean`)](https://github.com/digitalocean/terraform-provider-digitalocean) 🌟 - Mature Terraform/OpenTofu provider automating DigitalOcean GPU Droplets (H100/H200/MI300X), DOKS Kubernetes GPU node pools, VPCs, and Spaces S3 storage.
+- **(2026)** [Pulumi Infrastructure as Code Platform](https://www.pulumi.com) 🌟 - Multi-language Infrastructure as Code engine (Python, TypeScript, Go) bridging Terraform/OpenTofu providers with programmatic multi-Neocloud GPU cluster orchestration.
 - **(2026)** [CoreWeave NCCL Multi-Node Health Tests](https://github.com/coreweave/nccl-tests) 🌟 - Reference distributed GPU fabric burn-in tests measuring AllReduce bus bandwidth and catching degraded InfiniBand/NVLink links before paying for long training epochs.
 
 ## GPU Health, Telemetry and Inference AI Gateways

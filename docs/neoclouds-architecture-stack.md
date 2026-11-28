@@ -13,6 +13,8 @@ Curated systems-engineering guide to Neocloud hardware and software internals: *
 - **(2026)** [NVIDIA Spectrum-X Ethernet for AI Fabrics](https://www.nvidia.com/en-us/networking/spectrumx) 🌟 - Adaptive-routing, congestion-controlled RoCEv2 Ethernet fabric achieving up to 95% effective network utilization across multi-tenant Neoclouds and enterprise K8s clusters without proprietary InfiniBand switches.
 - **(2026)** [AMD Instinct MI300X HBM3 Accelerators](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html) 🌟 - 192 GB HBM3 per-GPU accelerator powering TensorWave and Oracle/Crusoe clusters to host whole 70B–405B models with minimal tensor-parallelism splitting overhead.
 - **(2026)** [AMD ROCm Open Software Stack Documentation](https://rocm.docs.amd.com) 🌟 - Official open-source GPU compute documentation covering HIP, RCCL collective communications, PyTorch integration, and vLLM acceleration on AMD Neocloud hardware.
+- **(2026)** [NVIDIA NCCL Collective Communications Library](https://github.com/NVIDIA/nccl) 🌟 - Multi-GPU and multi-node collective communication primitives (`AllReduce`, `AllGather`, `ReduceScatter`, `AllToAll`) optimized for NVLink, Quantum InfiniBand, and Spectrum-X RoCEv2.
+- **(2026)** [NVIDIA BlueField Networking Platform (DPUs and SuperNICs)](https://www.nvidia.com/en-us/networking/products/data-processing-unit) 🌟 - Hardware-accelerated Data Processing Units isolating multi-tenant Neocloud control planes, storage encryption, and adaptive RoCEv2 congestion telemetry from host CPUs.
 
 ## Slurm vs Kubernetes GPU Schedulers and Distributed Inference
 
@@ -29,9 +31,13 @@ Curated systems-engineering guide to Neocloud hardware and software internals: *
 - **(2026)** [vLLM High-Throughput Open-Source Inference Engine](https://github.com/vllm-project/vllm) 🌟 - PagedAttention LLM serving runtime maximizing tokens/sec per GPU dollar across NVIDIA and AMD Neocloud fleets with OpenAI-compatible APIs.
 - **(2026)** [llm-d: Kubernetes-Native Distributed LLM Inference](https://github.com/llm-d/llm-d) 🌟 - Red Hat, Google, and IBM backed Kubernetes-native disaggregated prefill/decode architecture scheduling vLLM KV-cache-aware pods over Gateway API Inference Extension.
 - **(2026)** [KubeRay: Distributed Ray Clusters on Kubernetes](https://github.com/ray-project/kuberay) 🌟 - CNCF/Kubernetes operator orchestrating heterogeneous distributed reinforcement learning (RLHF), Ray Data pipelines, and multi-node RayServe fleets.
+- **(2026)** [NVIDIA TensorRT-LLM High-Performance Inference SDK](https://github.com/NVIDIA/TensorRT-LLM) 🌟 - Open-source CUDA/TensorRT inference compiler optimizing FP8/FP4 quantization, in-flight batching, and multi-node NVLink execution on Hopper and Blackwell GPUs.
+- **(2026)** [Volcano CNCF Batch and AI Gang Scheduler](https://volcano.sh) 🌟 - CNCF Kubernetes batch scheduling system providing gang scheduling, topology-aware GPU bin-packing, and fair-share queues for distributed PyTorch and MPI jobs.
 
 ## Parallel NVMe Filesystems and Checkpoint Storage
 
 - **(2026)** [WEKA AI-Native Parallel Data Platform Documentation](https://docs.weka.io) 🌟 - Sub-millisecond POSIX and S3 NVMe-over-Fabrics parallel filesystem widely deployed inside CoreWeave, Nscale, and European AI Factories to eliminate training checkpoint stalls.
 - **(2026)** [VAST Data AI Operating System](https://www.vastdata.com) 🌟 - Disaggregated shared-everything (DASE) exabyte storage architecture combining GPUDirect Storage throughput with vector database and S3 object tiering inside sovereign Neoclouds.
 - **(2026)** [DDN EXAScaler Lustre High-Performance Storage](https://www.ddn.com) 🌟 - Enterprise Lustre parallel filesystem powering JUPITER, Leonardo, and NVIDIA DGX SuperPOD reference architectures at extreme sequential checkpoint bandwidth.
+- **(2026)** [CoreWeave Tensorizer: Ultra-Fast Kubernetes Model Deserialization](https://github.com/coreweave/tensorizer) 🌟 - Open-source PyTorch tensor streaming serializer loading multi-gigabyte model weights directly from S3/HTTP into GPU VRAM in seconds to slash cold-start autoscaling latency.
+- **(2026)** [Run:ai / DSX Model Streamer](https://github.com/dsx-ai-factory/model-streamer) 🌟 - High-concurrency safetensors weight streamer accelerating container startup across Kubernetes vLLM inference fleets from object and file storage.
