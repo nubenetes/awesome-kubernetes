@@ -377,6 +377,163 @@ class TestPRGuardianGates(unittest.TestCase):
         self.assertEqual(candidates[0]["section_path"], "Application Performance Management (APM) > Exception Tracking")
         self.assertTrue(any("sentry.io" in s for s in candidates[0]["siblings"]))
 
+    def test_fork_queued_comment_preverified_zero_token_merge_and_idempotent_hold(self):
+        import base64
+        from types import SimpleNamespace
+        from unittest.mock import AsyncMock
+        from src.pr_guardian import APPROVED_LABEL, HOLD_LABEL, evaluate_single_pr
+
+        monitoring_doc = (
+            "# Monitoring\n\n"
+            "## Application Performance Management (APM)\n\n"
+            "- Exception Tracking:\n"
+            "    - [sentry.io](https://sentry.io/welcome/)\n"
+            "    - **(2026)** [LogBrew](https://logbrew.co) - Hosted observability tool for error tracking, logs, metrics, and distributed tracing.\n"
+        )
+        patch_txt = (
+            "@@ -5,2 +5,3 @@\n"
+            " - Exception Tracking:\n"
+            "     - [sentry.io](https://sentry.io/welcome/)\n"
+            "+    - **(2026)** [LogBrew](https://logbrew.co) - Hosted observability tool for error tracking, logs, metrics, and distributed tracing.\n"
+        )
+        head_sha = "416a41598e2f116d6689154b09372a6063ceaade"
+
+        class FakeComment:
+            def __init__(self, body):
+                self.body = body
+
+            def edit(self, body):
+                self.body = body
+
+        class FakePR:
+            def __init__(self, merge_error=None):
+                self.number = 647
+                self.state = "open"
+                self.draft = False
+                self.base = SimpleNamespace(ref="master")
+                self.head = SimpleNamespace(
+                    sha=head_sha,
+                    ref="add-logbrew",
+                    label="furkanerday:add-logbrew",
+                    repo=SimpleNamespace(full_name="furkanerday/awesome-kubernetes"),
+                )
+                self.user = SimpleNamespace(login="furkanerday")
+                self.mergeable = True
+                self.title = "Add LogBrew"
+                self.body = ""
+                self._labels = []
+                self._comments = []
+                self._reviews = []
+                self._merge_error = merge_error
+
+            def get_files(self):
+                return [
+                    SimpleNamespace(
+                        filename="docs/monitoring.md",
+                        status="modified",
+                        additions=1,
+                        deletions=0,
+                        patch=patch_txt,
+                    )
+                ]
+
+            def get_labels(self):
+                return [SimpleNamespace(name=n) for n in self._labels]
+
+            def add_to_labels(self, name):
+                if name not in self._labels:
+                    self._labels.append(name)
+
+            def remove_from_labels(self, name):
+                if name in self._labels:
+                    self._labels.remove(name)
+
+            def get_issue_comments(self):
+                return list(self._comments)
+
+            def create_issue_comment(self, body):
+                self._comments.append(FakeComment(body))
+
+            def get_reviews(self):
+                return list(self._reviews)
+
+            def create_review(self, event, body):
+                self._reviews.append(
+                    SimpleNamespace(
+                        user=SimpleNamespace(login="github-actions[bot]"),
+                        state="APPROVED" if event == "APPROVE" else event,
+                        commit_id=head_sha,
+                    )
+                )
+
+            def merge(self, merge_method="merge", commit_title=""):
+                if self._merge_error is not None:
+                    raise self._merge_error
+                return SimpleNamespace(merged=True, sha="deadbeef1234", message="Merged")
+
+        class FakeRepo:
+            def get_labels(self):
+                return [SimpleNamespace(name=HOLD_LABEL), SimpleNamespace(name=APPROVED_LABEL)]
+
+            def get_contents(self, path, ref=None):
+                encoded = base64.b64encode(monitoring_doc.encode("utf-8")).decode("utf-8")
+                return SimpleNamespace(content=encoded)
+
+        async def run_scenarios():
+            repo = FakeRepo()
+
+            # 1. Fork workflow_run passes Gates 1-3, but merge() hits 403 -> Queued for Automated Merge
+            pr = FakePR(merge_error=RuntimeError("403 Resource not accessible by integration"))
+            with patch(
+                "src.pr_guardian.verify_url_and_extract_ground_truth",
+                new=AsyncMock(return_value=(True, "Verified HTTP 200 OK", {"http_status": 200})),
+            ), patch(
+                "src.pr_guardian.verify_semantic_placement",
+                new=AsyncMock(
+                    return_value=(
+                        True,
+                        [],
+                        [{"passed": True, "confidence": 0.96}],
+                        "Gemini Flash/Lite (Micro-Prompt)",
+                    )
+                ),
+            ):
+                res1 = await evaluate_single_pr(repo, pr, linter_conclusion="success", dry_run=False)
+
+            self.assertEqual(res1["decision"], "APPROVED_PENDING_MERGE")
+            self.assertFalse(res1["merged"])
+            self.assertIn(APPROVED_LABEL, pr._labels)
+            comment1 = pr._comments[-1].body
+            self.assertIn("Queued for Automated Merge", comment1)
+            self.assertNotIn("Auto-Merged", comment1)
+            self.assertIn(f"<!-- PR_GUARDIAN_SHA:{head_sha} -->", comment1)
+
+            # 2. Scheduled/dispatched sweep finishes merge in 0 HTTP/AI tokens
+            pr._merge_error = None
+            with patch(
+                "src.pr_guardian.verify_url_and_extract_ground_truth",
+                side_effect=AssertionError("Gate 2 HTTP probe must not re-run for pre-verified SHA"),
+            ), patch(
+                "src.pr_guardian.verify_semantic_placement",
+                side_effect=AssertionError("Gate 3 AI check must not re-run for pre-verified SHA"),
+            ):
+                res2 = await evaluate_single_pr(repo, pr, linter_conclusion="success", dry_run=False)
+
+            self.assertEqual(res2["decision"], "MERGED")
+            self.assertTrue(res2["merged"])
+            self.assertIn("Verified, Approved & Auto-Merged", pr._comments[-1].body)
+
+            # 3. Held PR with matching SHA marker is skipped idempotently during all_open sweeps
+            held_pr = FakePR()
+            held_pr._labels = [HOLD_LABEL]
+            held_pr._comments = [FakeComment(f"<!-- PR_GUARDIAN_SIGNATURE -->\n<!-- PR_GUARDIAN_SHA:{head_sha} -->\nHeld")]
+            held_pr.get_files = lambda: (_ for _ in ()).throw(AssertionError("Held PR must not re-fetch files"))
+            with patch.dict("os.environ", {"PR_NUMBER": "all_open"}):
+                res3 = await evaluate_single_pr(repo, held_pr, linter_conclusion="success", dry_run=False)
+            self.assertEqual(res3["decision"], "ALREADY_HELD")
+
+        asyncio.run(run_scenarios())
+
 
 if __name__ == "__main__":
     unittest.main()
