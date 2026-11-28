@@ -482,9 +482,12 @@ class TestPRGuardianGates(unittest.TestCase):
         async def run_scenarios():
             repo = FakeRepo()
 
-            # 1. Fork workflow_run passes Gates 1-3, but merge() hits 403 -> Queued for Automated Merge
+            # 1. Fork workflow_run passes Gates 1-3, but both REST merge and git fallback fail -> Queued
             pr = FakePR(merge_error=RuntimeError("403 Resource not accessible by integration"))
             with patch(
+                "src.pr_guardian._git_merge_pr_fallback",
+                return_value=False,
+            ), patch(
                 "src.pr_guardian.verify_url_and_extract_ground_truth",
                 new=AsyncMock(return_value=(True, "Verified HTTP 200 OK", {"http_status": 200})),
             ), patch(
@@ -531,6 +534,31 @@ class TestPRGuardianGates(unittest.TestCase):
             with patch.dict("os.environ", {"PR_NUMBER": "all_open"}):
                 res3 = await evaluate_single_pr(repo, held_pr, linter_conclusion="success", dry_run=False)
             self.assertEqual(res3["decision"], "ALREADY_HELD")
+
+            # 4. REST merge hits 403 -> verified git-push fallback succeeds immediately on first pass
+            pr4 = FakePR(merge_error=RuntimeError("403 Resource not accessible by integration"))
+            with patch(
+                "src.pr_guardian._git_merge_pr_fallback",
+                return_value=True,
+            ), patch(
+                "src.pr_guardian.verify_url_and_extract_ground_truth",
+                new=AsyncMock(return_value=(True, "Verified HTTP 200 OK", {"http_status": 200})),
+            ), patch(
+                "src.pr_guardian.verify_semantic_placement",
+                new=AsyncMock(
+                    return_value=(
+                        True,
+                        [],
+                        [{"passed": True, "confidence": 0.96}],
+                        "Gemini Flash/Lite (Micro-Prompt)",
+                    )
+                ),
+            ):
+                res4 = await evaluate_single_pr(repo, pr4, linter_conclusion="success", dry_run=False)
+
+            self.assertEqual(res4["decision"], "MERGED")
+            self.assertTrue(res4["merged"])
+            self.assertIn("Verified, Approved & Auto-Merged", pr4._comments[-1].body)
 
         asyncio.run(run_scenarios())
 

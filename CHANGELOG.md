@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.16.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.5) - 2026-11-28
+
+### Fixed
+- **Verified Git-Push Merge Fallback for Fork PRs (`src/pr_guardian.py`, `07.1.pr_guardian.yml`, `tests/test_pr_guardian.py`)**:
+  - Added `_git_merge_pr_fallback` in `src/pr_guardian.py` so when GitHub REST `PUT /pulls/{n}/merge` returns `403 Resource not accessible by integration` to `GITHUB_TOKEN` on external first-time contributor fork PRs, `07.1. PR Guardian AI` fetches `refs/pull/{n}/head`, verifies an exact TOCTOU `pr.head.sha` match, creates a 2-parent `--no-ff` merge commit in a hook-disabled temporary git worktree, and pushes `HEAD:refs/heads/master` cleanly with zero PATs or untrusted code execution.
+  - Updated `07.1.pr_guardian.yml` checkout to `fetch-depth: 0` for merge-base history, prevented fall-through re-probing in `evaluate_single_pr`'s pre-verified fast-path when merge is still pending, and added Scenario 4 unit coverage in `tests/test_pr_guardian.py`.
+
 ## [[2.16.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.16.4) - 2026-11-28
 
 ### Fixed
