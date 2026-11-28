@@ -247,9 +247,11 @@ def validate_dependabot_pr(pr_title: str, files_meta: List[Dict[str, Any]]) -> T
 def _extract_section_context(
     file_content: str, target_line_no: int
 ) -> Dict[str, Any]:
-    """Walk backwards from 1-based `target_line_no` to find H1, H2, H3 headings and up to 3 sibling links."""
+    """Walk backwards from 1-based `target_line_no` to find H1, H2, H3, parent bullet, and nearby sibling links."""
     lines = file_content.splitlines()
     idx = max(0, min(len(lines) - 1, target_line_no - 1))
+    raw_target = lines[idx]
+    target_indent = len(raw_target) - len(raw_target.lstrip())
 
     h1_title = ""
     for line in lines[:30]:
@@ -260,9 +262,15 @@ def _extract_section_context(
 
     section_h2 = ""
     section_h3 = ""
+    parent_bullet = ""
     section_start_idx = 0
     for i in range(idx, -1, -1):
-        stripped = lines[i].strip()
+        raw_line = lines[i]
+        stripped = raw_line.strip()
+        if not parent_bullet and target_indent >= 2 and i < idx:
+            line_indent = len(raw_line) - len(raw_line.lstrip())
+            if line_indent < target_indent and stripped.startswith(("-", "*")) and "](" not in stripped:
+                parent_bullet = re.sub(r"^[-*]\s+", "", stripped).rstrip(":").strip()[:80]
         if not section_h3:
             m3 = re.match(r"^###\s+(.+)", stripped)
             if m3:
@@ -275,21 +283,47 @@ def _extract_section_context(
                 section_start_idx = i + 1
             break
 
-    # Collect up to 3 neighboring existing bullet links in the same section
+    # Collect up to 3 nearest sibling bullet links outward from target line, then top up from section start if needed
     siblings: List[str] = []
-    scan_end = min(len(lines), section_start_idx + 60)
-    for j in range(section_start_idx, scan_end):
-        if j == idx:
-            continue
-        sline = lines[j].strip()
-        if j > section_start_idx and re.match(r"^#{1,3}\s+", sline):
+    seen_siblings: Set[str] = set()
+    stop_forward = False
+    for delta in range(1, 9):
+        for j, is_forward in ((idx - delta, False), (idx + delta, True)):
+            if j < section_start_idx or j >= len(lines):
+                continue
+            if is_forward and stop_forward:
+                continue
+            sline = lines[j].strip()
+            if is_forward and re.match(r"^#{1,3}\s+", sline):
+                stop_forward = True
+                continue
+            if sline.startswith(("-", "*")) and "](" in sline:
+                entry = sline[:200]
+                if entry not in seen_siblings:
+                    seen_siblings.add(entry)
+                    siblings.append(entry)
+                    if len(siblings) >= 3:
+                        break
+        if len(siblings) >= 3:
             break
-        if sline.startswith("-") and "](" in sline:
-            siblings.append(sline[:200])
-            if len(siblings) >= 3:
-                break
 
-    hierarchy_parts = [p for p in (section_h2, section_h3) if p]
+    if len(siblings) < 3:
+        scan_end = min(len(lines), section_start_idx + 60)
+        for j in range(section_start_idx, scan_end):
+            if j == idx:
+                continue
+            sline = lines[j].strip()
+            if j > section_start_idx and re.match(r"^#{1,3}\s+", sline):
+                break
+            if sline.startswith(("-", "*")) and "](" in sline:
+                entry = sline[:200]
+                if entry not in seen_siblings:
+                    seen_siblings.add(entry)
+                    siblings.append(entry)
+                    if len(siblings) >= 3:
+                        break
+
+    hierarchy_parts = [p for p in (section_h2, section_h3, parent_bullet) if p]
     return {
         "h1_title": h1_title,
         "section_path": " > ".join(hierarchy_parts) if hierarchy_parts else "(Root / General Section)",
@@ -550,8 +584,16 @@ def _extract_html_metadata(html_text: str) -> Dict[str, str]:
     """Extract clean page title, meta/OG description, and brief visible text snippet."""
     if not html_text:
         return {"page_title": "", "meta_description": "", "snippet": ""}
+    # Strip large inline <style>/<script>/<svg>/<noscript> blocks before slicing so
+    # Next.js/Tailwind heads (>90 KB CSS) do not truncate <title>, <meta>, or <body>.
+    cleaned_html = re.sub(
+        r"<(style|script|svg|noscript)\b[^>]*>.*?</\1>",
+        " ",
+        html_text[:600000],
+        flags=re.IGNORECASE | re.DOTALL,
+    )
     try:
-        soup = BeautifulSoup(html_text[:80000], "html.parser")
+        soup = BeautifulSoup(cleaned_html[:120000], "html.parser")
         title = (soup.title.string or "").strip() if soup.title and soup.title.string else ""
         meta_desc = ""
         for attrs in (
@@ -578,7 +620,7 @@ def _extract_html_metadata(html_text: str) -> Dict[str, str]:
         }
     except Exception as e:
         log_event(f"[WARN] HTML metadata parse fallback: {str(e)[:100]}")
-        t_match = re.search(r"<title[^>]*>(.*?)</title>", html_text[:20000], re.IGNORECASE | re.DOTALL)
+        t_match = re.search(r"<title[^>]*>(.*?)</title>", cleaned_html[:50000], re.IGNORECASE | re.DOTALL)
         return {
             "page_title": re.sub(r"\s+", " ", t_match.group(1)).strip()[:200] if t_match else "",
             "meta_description": "",
@@ -698,7 +740,7 @@ async def verify_url_and_extract_ground_truth(
             )
 
         content_type = (resp.headers.get("content-type") or "").lower()
-        body_text = resp.text[:90000] if ("html" in content_type or "text" in content_type or not content_type) else ""
+        body_text = resp.text[:600000] if ("html" in content_type or "text" in content_type or not content_type) else ""
 
         is_bad_redirect, redirect_reason = is_invalid_or_generic_redirect(
             url, ground_truth["final_url"], body_text
@@ -994,7 +1036,10 @@ async def verify_semantic_placement(
     return (len(reasons) == 0), reasons, verdicts, provider_used
 
 
-def _upsert_pr_comment(pr: Any, body: str) -> None:
+def _upsert_pr_comment(pr: Any, body: str, dry_run: bool = False) -> None:
+    if dry_run:
+        log_event(f"[DRY-RUN] Skipping PR #{pr.number} comment upsert.")
+        return
     full_body = f"{COMMENT_SIGNATURE}\n{body}"
     try:
         for comment in pr.get_issue_comments():
@@ -1006,7 +1051,10 @@ def _upsert_pr_comment(pr: Any, body: str) -> None:
         log_event(f"[WARN] Failed posting PR Guardian comment on PR #{pr.number}: {str(e)[:100]}")
 
 
-def _sync_labels(repo: Any, pr: Any, add_label: str, remove_label: str) -> None:
+def _sync_labels(repo: Any, pr: Any, add_label: str, remove_label: str, dry_run: bool = False) -> None:
+    if dry_run:
+        log_event(f"[DRY-RUN] Skipping PR #{pr.number} label sync (+{add_label}, -{remove_label}).")
+        return
     try:
         existing_repo_labels = {lbl.name for lbl in repo.get_labels()}
         if add_label not in existing_repo_labels:
@@ -1101,8 +1149,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Held for Maintainer Review\n\n"
             f"- Target base branch is `{pr.base.ref}` instead of canonical `master`.\n"
             f"- Leaving PR open for @inafev.",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD"
         return result
 
@@ -1119,8 +1168,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             "### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Merge Conflict Detected\n\n"
             "This Pull Request currently has merge conflicts against `master`. "
             "Please rebase onto `master` (or wait for @inafev to review). Leaving PR open.",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD"
         return result
 
@@ -1130,8 +1180,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Stage 1 Markdown Linter Failed (`{linter_conclusion}`)\n\n"
             "Automated merge is paused because Stage 1 (`07.2. Markdown Linter`) did not pass cleanly. "
             "Please inspect the check logs or wait for @inafev to review.",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD"
         return result
 
@@ -1188,8 +1239,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
                 pr,
                 f"### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Safety Check Hold\n\n"
                 f"Maintainer PR paused due to deterministic repository guardrail(s):\n{bullets}",
+                dry_run=dry_run,
             )
-            _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+            _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
             result["decision"] = "HELD"
             return result
 
@@ -1200,8 +1252,8 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"| **Gate 0** | Maintainer Identity (`@{author_login}`) | ✅ PASS | €0.00 |\n"
             "| **Gate 1** | Stage 1 Markdown Linter & Clean URL / README Guards | ✅ PASS | €0.00 |\n"
         )
-        _upsert_pr_comment(pr, comment_body)
-        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL)
+        _upsert_pr_comment(pr, comment_body, dry_run=dry_run)
+        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
         merged = _approve_and_merge_pr(
             repo, pr, "Maintainer PR verified against deterministic safety guardrails (0 AI tokens).", dry_run=dry_run
         )
@@ -1218,8 +1270,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
                 pr,
                 f"### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Held for Maintainer Review\n\n"
                 f"{bullets}\n\nLeaving open for @inafev.",
+                dry_run=dry_run,
             )
-            _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+            _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
             result["decision"] = "HELD"
             return result
 
@@ -1227,8 +1280,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             pr,
             "### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Approved & Auto-Merged (Dependabot Patch/Minor)\n\n"
             "Verified non-major dependency update on allowed manifest/workflow files (0 AI tokens).",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL)
+        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
         merged = _approve_and_merge_pr(repo, pr, "Verified Dependabot minor/patch update.", dry_run=dry_run)
         result["merged"] = merged
         result["decision"] = "MERGED" if merged else ("DRY_RUN_PASS" if dry_run else "APPROVED_PENDING_MERGE")
@@ -1246,8 +1300,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
                 "### 🛡️ Nubenetes Safe PR Gatekeeper: ⏸️ Held for Maintainer Review\n\n"
                 "Internal bot PR reported SafetyGuard critical errors or touched protected code/workflow files. "
                 "Leaving open for @inafev.",
+                dry_run=dry_run,
             )
-            _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+            _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
             result["decision"] = "HELD"
             return result
 
@@ -1255,8 +1310,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             pr,
             "### 🛡️ Nubenetes Safe PR Gatekeeper: ✅ Approved & Auto-Merged (Internal Curation Pipeline)\n\n"
             "Verified internal `bot/*` branch with passing SafetyGuard audit (0 AI tokens).",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL)
+        _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
         merged = _approve_and_merge_pr(repo, pr, "Internal curation bot PR passed SafetyGuard.", dry_run=dry_run)
         result["merged"] = merged
         result["decision"] = "MERGED" if merged else ("DRY_RUN_PASS" if dry_run else "APPROVED_PENDING_MERGE")
@@ -1277,8 +1333,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"sections** without altering page structure or existing entries.\n\n"
             f"**Why this PR is waiting for @inafev's manual review:**\n{bullets}\n\n"
             f"*No action is required if this structural change was intentional — your PR remains open for maintainer review.*",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD_GATE_1"
         return result
 
@@ -1305,8 +1362,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"but **Gate 2 (Live URL & MVQ Verification)** could not automatically verify every link:\n\n"
             f"{bullets}\n\n"
             f"Please update the URL if there is a typo, or leave as-is for @inafev to inspect manually.",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD_GATE_2"
         return result
 
@@ -1321,8 +1379,9 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
             f"but **Gate 3 (Semantic Placement Audit)** flagged the following item(s) for human review:\n\n"
             f"{bullets}\n\n"
             f"Leaving this Pull Request open for @inafev to review (or feel free to move the entry to the suggested category file).",
+            dry_run=dry_run,
         )
-        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL)
+        _sync_labels(repo, pr, HOLD_LABEL, APPROVED_LABEL, dry_run=dry_run)
         result["decision"] = "HELD_GATE_3"
         return result
 
@@ -1343,8 +1402,8 @@ async def evaluate_single_pr(repo: Any, pr: Any, linter_conclusion: str = "succe
         f"| :--- | :--- | :---: | :---: |\n"
         f"{rows}\n"
     )
-    _upsert_pr_comment(pr, approval_md)
-    _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL)
+    _upsert_pr_comment(pr, approval_md, dry_run=dry_run)
+    _sync_labels(repo, pr, APPROVED_LABEL, HOLD_LABEL, dry_run=dry_run)
     merged = _approve_and_merge_pr(
         repo,
         pr,
