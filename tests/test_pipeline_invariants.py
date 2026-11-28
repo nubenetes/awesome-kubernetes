@@ -245,12 +245,12 @@ class TestPipelineInvariants(unittest.TestCase):
         from src.neoclouds_blueprints import NEOCLOUDS_BLUEPRINTS
 
         min_links = {
-            "neoclouds.md": 25,
-            "neoclouds-europe.md": 25,
+            "neoclouds.md": 150,
+            "neoclouds-europe.md": 100,
         }
         for fname, body in NEOCLOUDS_BLUEPRINTS.items():
             ext_links = re.findall(r"\]\((https://[^)\s]+)\)", body)
-            expected_min = min_links.get(fname, 6)
+            expected_min = min_links.get(fname, 40)
             self.assertGreaterEqual(
                 len(ext_links),
                 expected_min,

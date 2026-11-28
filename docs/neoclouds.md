@@ -21,6 +21,9 @@ Global reference hub for **Neoclouds** (GPU-first AI cloud providers and NVIDIA 
 - **(2026)** [Crusoe Cloud: Clean-Energy AI Infrastructure](https://crusoe.ai) 🌟 - Energy-first AI cloud co-locating gigawatt-scale NVIDIA and AMD GPU clusters at curtailed renewable and stranded energy sites across North America and Iceland.
 - **(2026)** [Lambda AI Cloud](https://lambda.ai) 🌟 - Deep-learning specialized GPU cloud and cluster engineering provider offering 1-Click Clusters, multi-node InfiniBand HGX/Blackwell systems, and transparent hourly/reserved pricing.
 - **(2026)** [Scaleway GPU Instances and AI Cloud](https://www.scaleway.com/en/gpu-instances) 🌟 - French Iliad Group cloud provider pairing GDPR/EU AI Act data sovereignty with elastic H100/L40S/Blackwell GPUs, Kapsule Kubernetes, and Managed Inference endpoints.
+- **(2026)** [Verda (formerly DataCrunch): European Renewable GPU Cloud](https://verda.com) 🌟 - Helsinki-headquartered European Neocloud running hydro- and wind-powered NVIDIA B200, H200, and H100 clusters across Finland and Iceland under EU/EEA jurisdiction.
+- **(2026)** [Baseten: Dedicated GPU Inference Cloud](https://www.baseten.co) 🌟 - High-performance inference Neocloud combining Truss model packaging, TensorRT-LLM compilation, and multi-region autoscaling across dedicated H100/H200/B200 clusters.
+- **(2026)** [Modal: Serverless Python GPU Cloud](https://modal.com) 🌟 - Sub-second cold-start serverless GPU platform enabling Python-defined distributed training, batch inference, and sandboxes across H100, H200, and Blackwell fleets.
 
 ## Multi-Cloud GPU Orchestration and Portability Reference
 
