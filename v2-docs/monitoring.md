@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Monitoring and Performance. Prometheus, Grafana, APMs and more"
 dimension: "Architectural Foundations"
-resource_count: 184
-fresh_2025_2026_count: 32
+resource_count: 185
+fresh_2025_2026_count: 33
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/monitoring.md"
@@ -21,6 +21,7 @@ description: "Top Monitoring resources for 2026, AI-ranked: Awesome Sysadmin, Gl
 ## Application Performance Management APM
 
   - **(2026)** [savecost/datav 🌟](https://github.com/origin-brain/deepops) <span class='md-tag md-tag--info'>⭐ 3961</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-07eaa648" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 7 L 30 4 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-07eaa648)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A modern APM for metrics,traces and logs, also datav is a lightweight alternative to Grafana. It has fully native support for open-telemetry, is an open-source alternative to DataDog, NewRelic.
+  - **(2026)** [LogBrew](https://logbrew.co) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[MCP]</span> — Hosted observability tool for error tracking, logs, metrics, and distributed tracing. Errors are grouped into issues, and each issue links to its stack trace, logs, trace, release, and affected users. It ingests OTLP logs, traces, and metrics from any OpenTelemetry SDK or Collector, so a cluster that already runs the Collector can export to it without a new agent. A hosted MCP server and CLI let AI coding agents read the same issues and logs.
   - [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: APM Tools Comparison covering Application Performance Management APM in Monitoring (dzone.com).
   - [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know covering Application Performance Management APM in Monitoring (dzone.com).
   - [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation and implementation reference for Dzone: 14 Best Performance Testing Tools and APM Solutions covering Application Performance Management APM in Monitoring (dzone.com).

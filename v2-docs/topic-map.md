@@ -33,7 +33,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-5" href="/introduction/" title="Introduction — 229 resources"><span class="topic-heatcell__name">Introduction</span><span class="topic-heatcell__n">229</span></a>
 <a class="topic-heatcell th-5" href="/linux/" title="Linux — 202 resources"><span class="topic-heatcell__name">Linux</span><span class="topic-heatcell__n">202</span></a>
 <a class="topic-heatcell th-5" href="/cheatsheets/" title="Cheatsheets — 190 resources"><span class="topic-heatcell__name">Cheatsheets</span><span class="topic-heatcell__n">190</span></a>
-<a class="topic-heatcell th-5" href="/monitoring/" title="Monitoring — 184 resources"><span class="topic-heatcell__name">Monitoring</span><span class="topic-heatcell__n">184</span></a>
+<a class="topic-heatcell th-5" href="/monitoring/" title="Monitoring — 185 resources"><span class="topic-heatcell__name">Monitoring</span><span class="topic-heatcell__n">185</span></a>
 <a class="topic-heatcell th-5" href="/prometheus/" title="Prometheus — 138 resources"><span class="topic-heatcell__name">Prometheus</span><span class="topic-heatcell__n">138</span></a>
 <a class="topic-heatcell th-5" href="/other-awesome-lists/" title="Other Awesome Lists — 122 resources"><span class="topic-heatcell__name">Other Awesome Lists</span><span class="topic-heatcell__n">122</span></a>
 <a class="topic-heatcell th-5" href="/helm/" title="Helm — 99 resources"><span class="topic-heatcell__name">Helm</span><span class="topic-heatcell__n">99</span></a>
@@ -128,8 +128,8 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__dim">European Sovereign Cloud & Private DCs</div>
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-4" href="/eu-cloud-iac-maturity/" title="IaC Automation & Maturity vs Hyperscalers — 27 resources"><span class="topic-heatcell__name">IaC Automation & Maturity vs Hyperscalers</span><span class="topic-heatcell__n">27</span></a>
-<a class="topic-heatcell th-3" href="/eu-cloud-france/" title="France Sovereign Cloud & Private DCs — 21 resources"><span class="topic-heatcell__name">France Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">21</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-germany/" title="Germany Sovereign Cloud & Private DCs — 21 resources"><span class="topic-heatcell__name">Germany Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">21</span></a>
+<a class="topic-heatcell th-3" href="/eu-cloud-france/" title="France Sovereign Cloud & Private DCs — 20 resources"><span class="topic-heatcell__name">France Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">20</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-spain/" title="Spain Sovereign Cloud & Private DCs — 19 resources"><span class="topic-heatcell__name">Spain Sovereign Cloud & Private DCs</span><span class="topic-heatcell__n">19</span></a>
 <a class="topic-heatcell th-3" href="/eu-cloud-benelux/" title="Netherlands & Benelux Cloud & DCs — 16 resources"><span class="topic-heatcell__name">Netherlands & Benelux Cloud & DCs</span><span class="topic-heatcell__n">16</span></a>
 <a class="topic-heatcell th-3" href="/eu-sovereign-cloud/" title="EU Sovereign Cloud Overview & TCO — 15 resources"><span class="topic-heatcell__name">EU Sovereign Cloud Overview & TCO</span><span class="topic-heatcell__n">15</span></a>
@@ -146,9 +146,9 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-4" href="/neoclouds-europe/" title="European Neoclouds & Country AI Factories — 30 resources"><span class="topic-heatcell__name">European Neoclouds & Country AI Factories</span><span class="topic-heatcell__n">30</span></a>
 <a class="topic-heatcell th-4" href="/neoclouds-architecture-stack/" title="GPU Fabrics, InfiniBand, Slurm vs K8s & Storage — 26 resources"><span class="topic-heatcell__name">GPU Fabrics, InfiniBand, Slurm vs K8s & Storage</span><span class="topic-heatcell__n">26</span></a>
-<a class="topic-heatcell th-3" href="/neoclouds-apac/" title="Asia-Pacific Neoclouds & AI Clouds — 19 resources"><span class="topic-heatcell__name">Asia-Pacific Neoclouds & AI Clouds</span><span class="topic-heatcell__n">19</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds-north-america/" title="North America Neoclouds (US & Canada) — 19 resources"><span class="topic-heatcell__name">North America Neoclouds (US & Canada)</span><span class="topic-heatcell__n">19</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds-iac-finops-sla/" title="Neocloud IaC Maturity, GPU FinOps & SLAs — 18 resources"><span class="topic-heatcell__name">Neocloud IaC Maturity, GPU FinOps & SLAs</span><span class="topic-heatcell__n">18</span></a>
+<a class="topic-heatcell th-3" href="/neoclouds-apac/" title="Asia-Pacific Neoclouds & AI Clouds — 18 resources"><span class="topic-heatcell__name">Asia-Pacific Neoclouds & AI Clouds</span><span class="topic-heatcell__n">18</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds-latam-africa/" title="Latin America & Africa AI Cloud Hubs — 17 resources"><span class="topic-heatcell__name">Latin America & Africa AI Cloud Hubs</span><span class="topic-heatcell__n">17</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds/" title="Neoclouds Overview, Sovereign Overlap & TCO — 16 resources"><span class="topic-heatcell__name">Neoclouds Overview, Sovereign Overlap & TCO</span><span class="topic-heatcell__n">16</span></a>
 <a class="topic-heatcell th-3" href="/neoclouds-mena/" title="Middle East & GCC Sovereign AI Factories — 15 resources"><span class="topic-heatcell__name">Middle East & GCC Sovereign AI Factories</span><span class="topic-heatcell__n">15</span></a>
@@ -315,7 +315,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Linux](./linux.md)** <span class="topic-count">202</span>
 - **[Matrix Table](./matrix-table.md)** <span class="topic-count">4</span>
 - **[MkDocs](./mkdocs.md)** <span class="topic-count">26</span>
-- **[Monitoring](./monitoring.md)** <span class="topic-count">184</span>
+- **[Monitoring](./monitoring.md)** <span class="topic-count">185</span>
 - **[Newsql](./newsql.md)** <span class="topic-count">1</span>
 - **[Oauth](./oauth.md)** <span class="topic-count">5</span>
 - **[Other Awesome Lists](./other-awesome-lists.md)** <span class="topic-count">122</span>
@@ -392,7 +392,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 ## European Sovereign Cloud & Private DCs
 
 - **[Netherlands & Benelux Cloud & DCs](./eu-cloud-benelux.md)** <span class="topic-count">16</span>
-- **[France Sovereign Cloud & Private DCs](./eu-cloud-france.md)** <span class="topic-count">21</span>
+- **[France Sovereign Cloud & Private DCs](./eu-cloud-france.md)** <span class="topic-count">20</span>
 - **[Germany Sovereign Cloud & Private DCs](./eu-cloud-germany.md)** <span class="topic-count">21</span>
 - **[IaC Automation & Maturity vs Hyperscalers](./eu-cloud-iac-maturity.md)** <span class="topic-count">27</span>
 - **[Italy Sovereign Cloud & Private DCs](./eu-cloud-italy.md)** <span class="topic-count">12</span>
@@ -410,7 +410,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 
 ## Neoclouds & GPU AI Clouds
 
-- **[Asia-Pacific Neoclouds & AI Clouds](./neoclouds-apac.md)** <span class="topic-count">19</span>
+- **[Asia-Pacific Neoclouds & AI Clouds](./neoclouds-apac.md)** <span class="topic-count">18</span>
 - **[GPU Fabrics, InfiniBand, Slurm vs K8s & Storage](./neoclouds-architecture-stack.md)** <span class="topic-count">26</span>
 - **[European Neoclouds & Country AI Factories](./neoclouds-europe.md)** <span class="topic-count">30</span>
 - **[Neocloud IaC Maturity, GPU FinOps & SLAs](./neoclouds-iac-finops-sla.md)** <span class="topic-count">18</span>

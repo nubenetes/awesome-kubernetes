@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "France Sovereign Cloud and Private Data Centers"
 dimension: "European Sovereign Cloud & Private DCs"
-resource_count: 21
-fresh_2025_2026_count: 21
+resource_count: 20
+fresh_2025_2026_count: 20
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/eu-cloud-france.md"
@@ -78,7 +78,6 @@ France has built Europe's most stringent legal and architectural sovereignty eco
 ## French Sovereign Cloud And Secnumcloud Providers
 
   - **(2026)** [Ikoula French Cloud and Dedicated Servers](https://www.ikoula.com/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — Independent French cloud and bare-metal provider operating owned green data centers in Reims and Eppes with ISO 27001 compliance and custom sovereign private cloud infrastructure.
-  - **(2026)** [Scaleway Cloud Platform (Iliad Group)](https://www.scaleway.com/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — French developer-first sovereign cloud offering 3-AZ Paris/Amsterdam/Warsaw regions, Kubernetes Kapsule and multi-cloud Kosmos, Managed Databases, and one of Europe's largest public catalogs of NVIDIA H100/B200/L4 GPUs and Serverless AI Endpoints.
   - **(2026)** [Scaleway Engineering Blog](https://www.scaleway.com/en/blog) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[SOVEREIGN-EU]</span> — Official engineering blog covering Scaleway's sovereign cloud architecture, European AI Factories, Kubernetes Kapsule upgrades, and EU Data Act compliance.
 ## French Sovereign Cloud Providers Secnumcloud And AI Factories
 

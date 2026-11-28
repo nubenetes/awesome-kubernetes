@@ -3,8 +3,8 @@ type: curation-hub
 okf_version: "0.3"
 name: "Asia-Pacific Neoclouds and AI Clouds"
 dimension: "Neoclouds & GPU AI Clouds"
-resource_count: 19
-fresh_2025_2026_count: 19
+resource_count: 18
+fresh_2025_2026_count: 18
 trust: verified
 freshness: active
 provenance: "https://github.com/nubenetes/awesome-kubernetes/blob/master/docs/neoclouds-apac.md"
@@ -69,7 +69,6 @@ Asia-Pacific exhibits the strongest **public-private Sovereign AI industrial pol
 ## Japan And South Korea Sovereign GPU Neoclouds
 
   - **(2026)** [GMO Internet Group: Japanese Sovereign GPU Cloud](https://www.gmo.jp/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — Japanese cloud and infrastructure group rolling out domestic METI-supported NVIDIA H200 GPU cloud capacity tailored for Japanese enterprise and startups under APPI governance.
-  - **(2026)** [NAVER Cloud HyperCLOVA and Korean Sovereign AI](https://www.ncloud.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — South Korea's flagship cloud platform operating Sejong City hyperscale GAK data centers for Korean-sovereign foundation training and CSAP-certified public-sector AI.
   - **(2026)** [NHN Cloud National AI Data Center (Gwangju)](https://www.nhncloud.com) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> — Korean cloud operator managing the Gwangju National AI Data Center packed with thousands of GPU accelerators powering Korean SMEs and public AI platforms.
   - **(2026)** [Preferred Networks (Tokyo): Custom AI Silicon and Supercomputers](https://preferred.jp/en) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[LLM]</span> — Japanese frontier AI engineering firm building MN-Core accelerators, sovereign enterprise LLMs (PLaMo), and domestic high-efficiency supercomputing clouds.
   - **(2026)** [Sakura Internet: Japanese Cloud and Koukaryoku AI](https://www.sakura.ad.jp) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--primary'>[GPU]</span> <span class='md-tag md-tag--primary'>[NEOCLOUD]</span> — METI-backed Japanese domestic cloud champion operating Ishikari renewable-powered container data centers equipped with thousands of NVIDIA H100/B200 accelerators for Japanese sovereign AI.
